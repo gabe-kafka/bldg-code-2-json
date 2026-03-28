@@ -1,0 +1,7 @@
+commands:
+  install: .venv/bin/python -m pip install -r requirements.txt
+  test: .venv/bin/python -m pytest tests/ -v --tb=short
+  typecheck: echo "No typecheck configured (plain Python, no mypy)"
+  lint: echo "No linter configured"
+
+services: {}
