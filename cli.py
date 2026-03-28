@@ -193,5 +193,31 @@ def run(pdf, standard, chapter, start_page, end_page, spot_check_size):
     click.echo(f"QC report → {qc_path}")
 
 
+@cli.command()
+@click.option("--pdf", required=True, type=click.Path(exists=True), help="Path to source PDF")
+@click.option("--standard", required=True, help='Standard name, e.g. "ASCE 7-22"')
+@click.option("--chapter", required=True, type=int, help="Chapter number")
+@click.option("--start-page", default=1, type=int, help="First page of chapter (1-indexed)")
+@click.option("--end-page", default=None, type=int, help="Last page of chapter (inclusive)")
+@click.option("--max-iterations", default=5, type=int, help="Max refinement iterations")
+@click.option("--target-score", default=0.90, type=float, help="Stop when composite score reaches this")
+def refine(pdf, standard, chapter, start_page, end_page, max_iterations, target_score):
+    """Auto-refine extraction: run → score → improve → repeat."""
+    from refine.optimizer import optimize
+
+    results = optimize(
+        pdf_path=pdf,
+        standard=standard,
+        chapter=chapter,
+        start_page=start_page,
+        end_page=end_page,
+        max_iterations=max_iterations,
+        target_score=target_score,
+    )
+
+    best = max(results, key=lambda r: r.score["composite_score"])
+    click.echo(f"\nBest: run {best.run_id} → {best.score['composite_score']:.4f}")
+
+
 if __name__ == "__main__":
     cli()
