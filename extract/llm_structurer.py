@@ -255,16 +255,21 @@ def extract_chapter_from_pages(
                 figure_elements = structure_figures(page, standard, chapter, figure_counter)
                 all_elements.extend(figure_elements)
 
+    # Apply deterministic post-processing BEFORE deduplication so that
+    # ID normalization (space stripping) runs first — otherwise two elements
+    # whose IDs differ only by whitespace both survive dedupe but become
+    # duplicates after normalization.
+    processed = post_process(all_elements)
+
     # Deduplicate by ID (keep first occurrence)
     seen = set()
     deduped = []
-    for el in all_elements:
+    for el in processed:
         if el["id"] not in seen:
             seen.add(el["id"])
             deduped.append(el)
 
-    # Apply deterministic post-processing to fix common LLM output quirks
-    return post_process(deduped)
+    return deduped
 
 
 def _format_table(table: ExtractedTable) -> str:

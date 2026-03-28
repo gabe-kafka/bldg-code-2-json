@@ -108,6 +108,9 @@ def _normalize_operators(el: dict) -> None:
         op = cond.get("operator")
         if op is None:
             continue
+        # Guard against non-string operator values (int, bool, etc.)
+        if not isinstance(op, str):
+            continue
         # Check the map (case-insensitive for English words)
         op_lower = op.lower().strip()
         if op in OPERATOR_MAP:
@@ -125,7 +128,11 @@ def _normalize_operators(el: dict) -> None:
 # We coerce null → "" for these. Fields allowing null are NOT touched.
 
 def _coerce_null_strings(el: dict) -> None:
-    """Coerce null → '' for fields where the schema requires a plain string."""
+    """Coerce null → '' for fields where the schema requires a plain string.
+
+    Covers every field with "type": "string" (not ["string", "null"]) in the
+    JSON schema that could plausibly be null in LLM output.
+    """
     # Top-level required strings
     if el.get("title") is None:
         el["title"] = ""
@@ -140,8 +147,10 @@ def _coerce_null_strings(el: dict) -> None:
     if el_type == "provision" or (el_type != "definition" and "rule" in data):
         if data.get("rule") is None:
             data["rule"] = ""
+        # provision_data.then is "type": "string" (not nullable)
         if "then" in data and data.get("then") is None:
             data["then"] = ""
+        # Note: provision_data.else is ["string", "null"] — skip
 
     # Definition data
     if el_type == "definition":
@@ -150,12 +159,20 @@ def _coerce_null_strings(el: dict) -> None:
         if data.get("definition") is None:
             data["definition"] = ""
 
+    # Formula data — expression is required string
+    if "expression" in data and data.get("expression") is None:
+        data["expression"] = ""
+
     # Formula parameters — unit is required as string
     if "parameters" in data and isinstance(data["parameters"], dict):
         for param_name, param_val in data["parameters"].items():
             if isinstance(param_val, dict):
                 if "unit" in param_val and param_val["unit"] is None:
                     param_val["unit"] = ""
+
+    # Reference data — target is required string
+    if "target" in data and data.get("target") is None:
+        data["target"] = ""
 
     # Table column names — always string
     if "columns" in data and isinstance(data["columns"], list):
@@ -169,6 +186,42 @@ def _coerce_null_strings(el: dict) -> None:
         for cond in conditions:
             if isinstance(cond, dict) and cond.get("parameter") is None:
                 cond["parameter"] = ""
+
+    # Figure data — axis fields (name, unit, scale) and curve fields (label, interpolation)
+    # These are nested inside figure_data.data (xy_chart_data)
+    fig_data = data.get("data") if isinstance(data.get("data"), dict) else None
+    if fig_data is None and el_type == "figure":
+        # Also check top-level data directly for xy_chart structure
+        fig_data = data if "x_axis" in data else None
+
+    if isinstance(fig_data, dict):
+        # Axis fields: name, unit, scale are all required strings in axis schema
+        for axis_key in ("x_axis", "y_axis"):
+            axis = fig_data.get(axis_key)
+            if isinstance(axis, dict):
+                if axis.get("name") is None:
+                    axis["name"] = ""
+                if axis.get("unit") is None:
+                    axis["unit"] = ""
+                if axis.get("scale") is None:
+                    axis["scale"] = ""
+
+        # Curve fields: label and interpolation are required strings
+        curves = fig_data.get("curves")
+        if isinstance(curves, list):
+            for curve in curves:
+                if isinstance(curve, dict):
+                    if curve.get("label") is None:
+                        curve["label"] = ""
+                    if curve.get("interpolation") is None:
+                        curve["interpolation"] = ""
+
+    # Skipped figure data — figure_type and skip_reason are required strings
+    if el_type == "skipped_figure" or ("figure_type" in data and "skip_reason" in data):
+        if data.get("figure_type") is None:
+            data["figure_type"] = ""
+        if data.get("skip_reason") is None:
+            data["skip_reason"] = ""
 
 
 # ---------------------------------------------------------------------------

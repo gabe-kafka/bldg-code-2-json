@@ -743,3 +743,260 @@ def _type_data(t):
     elif t == "definition":
         return {"term": "T", "definition": "D", "conditions": [], "exceptions": []}
     return {}
+
+
+# ===========================================================================
+# Bug Fix 1: Non-string operator crash
+# ===========================================================================
+
+
+class TestNonStringOperatorCrash:
+    """Operator normalization must not crash on non-string operator values."""
+
+    def test_operator_none_skipped(self):
+        """None operator should not crash (already handled by explicit check)."""
+        el = _make_element(data={
+            "rule": "x",
+            "conditions": [{"parameter": "h", "operator": None, "value": 60, "unit": "ft"}],
+            "then": "a", "else": None, "exceptions": [],
+        })
+        result = post_process([el])
+        assert result[0]["data"]["conditions"][0]["operator"] is None
+
+    def test_operator_int_skipped(self):
+        """Integer operator value (e.g. 0) should not crash."""
+        el = _make_element(data={
+            "rule": "x",
+            "conditions": [{"parameter": "h", "operator": 0, "value": 60, "unit": "ft"}],
+            "then": "a", "else": None, "exceptions": [],
+        })
+        result = post_process([el])
+        assert result[0]["data"]["conditions"][0]["operator"] == 0
+
+    def test_operator_bool_skipped(self):
+        """Boolean operator value (True) should not crash."""
+        el = _make_element(data={
+            "rule": "x",
+            "conditions": [{"parameter": "h", "operator": True, "value": 60, "unit": "ft"}],
+            "then": "a", "else": None, "exceptions": [],
+        })
+        result = post_process([el])
+        assert result[0]["data"]["conditions"][0]["operator"] is True
+
+    def test_mixed_string_and_nonstring_operators(self):
+        """Mix of valid string and non-string operators: strings normalized, others skipped."""
+        el = _make_element(data={
+            "rule": "x",
+            "conditions": [
+                {"parameter": "a", "operator": "≤", "value": 10, "unit": None},
+                {"parameter": "b", "operator": 0, "value": 20, "unit": None},
+                {"parameter": "c", "operator": True, "value": 30, "unit": None},
+                {"parameter": "d", "operator": ">=", "value": 40, "unit": None},
+            ],
+            "then": "a", "else": None, "exceptions": [],
+        })
+        result = post_process([el])
+        conds = result[0]["data"]["conditions"]
+        assert conds[0]["operator"] == "<="   # ≤ normalized
+        assert conds[1]["operator"] == 0      # int skipped
+        assert conds[2]["operator"] is True   # bool skipped
+        assert conds[3]["operator"] == ">="   # already valid
+
+
+# ===========================================================================
+# Bug Fix 2: Incomplete null coercion — newly covered fields
+# ===========================================================================
+
+
+class TestNullCoercionNewFields:
+    """Null coercion for additional schema-required string fields."""
+
+    def test_formula_expression_null(self):
+        """formula_data.expression is required string → coerce null."""
+        el = _make_element(
+            type="formula",
+            data={
+                "expression": None,
+                "parameters": {"z": {"unit": "ft", "range": [0, 100]}},
+            },
+        )
+        result = post_process([el])
+        assert result[0]["data"]["expression"] == ""
+
+    def test_reference_target_null(self):
+        """reference_data.target is required string → coerce null."""
+        el = _make_element(
+            type="reference",
+            data={
+                "target": None,
+                "url": None,
+                "parameters": [],
+            },
+        )
+        result = post_process([el])
+        assert result[0]["data"]["target"] == ""
+
+    def test_axis_name_null(self):
+        """axis.name is required string → coerce null."""
+        el = _make_element(
+            type="figure",
+            data={
+                "figure_class": {"figure_type": "xy_chart", "description": "test"},
+                "data": {
+                    "x_axis": {"name": None, "unit": "ft", "scale": "linear"},
+                    "y_axis": {"name": "Kz", "unit": "dimensionless", "scale": "linear"},
+                    "curves": [{"label": "c", "points": [[0, 0], [1, 1], [2, 2], [3, 3], [4, 4]], "interpolation": "linear"}],
+                },
+            },
+        )
+        result = post_process([el])
+        assert result[0]["data"]["data"]["x_axis"]["name"] == ""
+
+    def test_axis_unit_null(self):
+        """axis.unit is required string → coerce null."""
+        el = _make_element(
+            type="figure",
+            data={
+                "figure_class": {"figure_type": "xy_chart", "description": "test"},
+                "data": {
+                    "x_axis": {"name": "height", "unit": None, "scale": "linear"},
+                    "y_axis": {"name": "Kz", "unit": "dimensionless", "scale": "linear"},
+                    "curves": [{"label": "c", "points": [[0, 0], [1, 1], [2, 2], [3, 3], [4, 4]], "interpolation": "linear"}],
+                },
+            },
+        )
+        result = post_process([el])
+        assert result[0]["data"]["data"]["x_axis"]["unit"] == ""
+
+    def test_axis_scale_null(self):
+        """axis.scale is required string → coerce null."""
+        el = _make_element(
+            type="figure",
+            data={
+                "figure_class": {"figure_type": "xy_chart", "description": "test"},
+                "data": {
+                    "x_axis": {"name": "height", "unit": "ft", "scale": None},
+                    "y_axis": {"name": "Kz", "unit": "dimensionless", "scale": "linear"},
+                    "curves": [{"label": "c", "points": [[0, 0], [1, 1], [2, 2], [3, 3], [4, 4]], "interpolation": "linear"}],
+                },
+            },
+        )
+        result = post_process([el])
+        assert result[0]["data"]["data"]["x_axis"]["scale"] == ""
+
+    def test_curve_label_null(self):
+        """curve.label is required string → coerce null."""
+        el = _make_element(
+            type="figure",
+            data={
+                "figure_class": {"figure_type": "xy_chart", "description": "test"},
+                "data": {
+                    "x_axis": {"name": "height", "unit": "ft", "scale": "linear"},
+                    "y_axis": {"name": "Kz", "unit": "dimensionless", "scale": "linear"},
+                    "curves": [{"label": None, "points": [[0, 0], [1, 1], [2, 2], [3, 3], [4, 4]], "interpolation": "linear"}],
+                },
+            },
+        )
+        result = post_process([el])
+        assert result[0]["data"]["data"]["curves"][0]["label"] == ""
+
+    def test_curve_interpolation_null(self):
+        """curve.interpolation is required string → coerce null."""
+        el = _make_element(
+            type="figure",
+            data={
+                "figure_class": {"figure_type": "xy_chart", "description": "test"},
+                "data": {
+                    "x_axis": {"name": "height", "unit": "ft", "scale": "linear"},
+                    "y_axis": {"name": "Kz", "unit": "dimensionless", "scale": "linear"},
+                    "curves": [{"label": "Exposure B", "points": [[0, 0], [1, 1], [2, 2], [3, 3], [4, 4]], "interpolation": None}],
+                },
+            },
+        )
+        result = post_process([el])
+        assert result[0]["data"]["data"]["curves"][0]["interpolation"] == ""
+
+    def test_skipped_figure_null_fields(self):
+        """skipped_figure_data.figure_type and skip_reason are required strings → coerce null."""
+        el = _make_element(
+            type="skipped_figure",
+            data={
+                "figure_type": None,
+                "skip_reason": None,
+                "description": "Some diagram",
+            },
+        )
+        result = post_process([el])
+        assert result[0]["data"]["figure_type"] == ""
+        assert result[0]["data"]["skip_reason"] == ""
+
+    def test_existing_non_null_values_unchanged(self):
+        """Non-null values for newly covered fields remain unchanged."""
+        el = _make_element(
+            type="formula",
+            data={
+                "expression": "Kz = 2.01 * (z/zg)^(2/alpha)",
+                "parameters": {"z": {"unit": "ft", "range": [0, 100]}},
+            },
+        )
+        result = post_process([el])
+        assert result[0]["data"]["expression"] == "Kz = 2.01 * (z/zg)^(2/alpha)"
+
+
+# ===========================================================================
+# Bug Fix 3: Dedupe-after-post-process (tested at pipeline level)
+# ===========================================================================
+
+
+class TestDedupeAfterPostProcess:
+    """Deduplication should happen AFTER post-processing (ID normalization)."""
+
+    def test_space_only_id_difference_deduped(self):
+        """Elements with IDs differing only by spaces become duplicates after
+        ID normalization and should be deduped (keep first occurrence)."""
+        from extract.llm_structurer import extract_chapter_from_pages
+        from unittest.mock import patch, MagicMock
+
+        # Create two elements with IDs that differ only by whitespace
+        el1 = _make_element(id="ASCE7-22 -26.5-T1", title="First element")
+        el2 = _make_element(id="ASCE7-22-26.5-T1", title="Second element")
+
+        # Mock structure_page to return both elements on the first page
+        mock_page = MagicMock()
+        mock_page.page_number = 1
+        mock_page.text_blocks = [MagicMock(page=1, text="test")]
+        mock_page.tables = []
+        mock_page.figures = []
+
+        with patch("extract.llm_structurer.structure_page", return_value=[el1, el2]):
+            result = extract_chapter_from_pages([mock_page], "ASCE 7-22", 26)
+
+        # After ID normalization, both become "ASCE7-22-26.5-T1"
+        # so only the first should survive deduplication
+        ids = [e["id"] for e in result]
+        assert ids.count("ASCE7-22-26.5-T1") == 1
+        # First element's title should be kept
+        matching = [e for e in result if e["id"] == "ASCE7-22-26.5-T1"]
+        assert matching[0]["title"] == "First element"
+
+    def test_different_ids_both_kept(self):
+        """Elements with genuinely different IDs both survive."""
+        from extract.llm_structurer import extract_chapter_from_pages
+        from unittest.mock import patch, MagicMock
+
+        el1 = _make_element(id="ASCE7-22-26.5-T1", title="Table 1")
+        el2 = _make_element(id="ASCE7-22-26.5-P1", title="Provision 1")
+
+        mock_page = MagicMock()
+        mock_page.page_number = 1
+        mock_page.text_blocks = [MagicMock(page=1, text="test")]
+        mock_page.tables = []
+        mock_page.figures = []
+
+        with patch("extract.llm_structurer.structure_page", return_value=[el1, el2]):
+            result = extract_chapter_from_pages([mock_page], "ASCE 7-22", 26)
+
+        assert len(result) == 2
+        ids = {e["id"] for e in result}
+        assert "ASCE7-22-26.5-T1" in ids
+        assert "ASCE7-22-26.5-P1" in ids
