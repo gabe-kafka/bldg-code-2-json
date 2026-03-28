@@ -1,0 +1,21 @@
+{
+  "featureId": "schema-definition-type",
+  "reviewedAt": "2026-03-28T23:03:30Z",
+  "commitId": "4ac0eecd0fdef93712e238615f77c9d0f0d6f527",
+  "transcriptSkeletonReviewed": true,
+  "diffReviewed": true,
+  "status": "pass",
+  "codeReview": {
+    "summary": "Implementation matches the feature contract: schema enum includes \"definition\", $defs/definition_data is present with required term/definition and optional conditions/exceptions, data.oneOf references definition_data, pytest was added to requirements, and schema validator tests were added to cover valid/invalid elements and Draft 2020-12 meta-validation.",
+    "issues": []
+  },
+  "sharedStateObservations": [
+    {
+      "area": "skills",
+      "observation": "The python-worker skill mandates tests-first (TDD), but this run implemented schema edits before creating tests while handoff feedback still marked followedProcedure=true; this indicates procedure-adherence signaling is unreliable.",
+      "evidence": ".factory/skills/python-worker/SKILL.md step 3 says \"Write tests first (TDD)\"; transcript skeleton shows Edit calls to schema/element.schema.json before Create calls for tests/test_schema_validator.py and tests/conftest.py; handoff.skillFeedback.followedProcedure is true."
+    }
+  ],
+  "addressesFailureFrom": null,
+  "summary": "Code review passed with no blocking or non-blocking implementation defects found for this feature. One shared-state observation was recorded about skill-procedure adherence reporting."
+}

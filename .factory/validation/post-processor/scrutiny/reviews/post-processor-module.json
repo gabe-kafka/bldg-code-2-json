@@ -1,0 +1,34 @@
+{
+  "featureId": "post-processor-module",
+  "reviewedAt": "2026-03-28T23:04:40Z",
+  "commitId": "35f19cc6c58d684582aa0a404c9f9b835cecaa2b",
+  "transcriptSkeletonReviewed": true,
+  "diffReviewed": true,
+  "status": "fail",
+  "codeReview": {
+    "summary": "The module and tests are substantial and mostly aligned with the feature scope, but two blocking correctness gaps remain: operator normalization can crash on malformed operator types, and null-to-empty-string coercion is not applied to all schema-required string fields as specified.",
+    "issues": [
+      {
+        "file": "extract/post_processor.py",
+        "line": 112,
+        "severity": "blocking",
+        "description": "_normalize_operators assumes operator is a string and calls `op.lower().strip()` unguarded. If extracted data contains a non-string operator (e.g., integer), post_process raises AttributeError and stops processing. Reproduced with a local snippet (`operator: 5`) yielding `AttributeError: 'int' object has no attribute 'lower'`."
+      },
+      {
+        "file": "extract/post_processor.py",
+        "line": 127,
+        "severity": "blocking",
+        "description": "Null coercion implementation is partial: `_coerce_null_strings` handles selected fields (title, provision/definition fields, parameter unit, column name, condition parameter) but does not coerce other schema-required string fields (e.g., `source.standard`, `source.section`, `metadata.extracted_by`, `metadata.qc_status`, `data.expression` for formulas). This conflicts with the feature requirement to coerce null for fields where schema requires `type: \"string\"`. Reproduced with `source.standard = None`, which remains `None` after post_process."
+      }
+    ]
+  },
+  "sharedStateObservations": [
+    {
+      "area": "skills",
+      "observation": "Procedure-adherence signaling appears inconsistent: the python-worker skill specifies a real-data manual verification step for post-processing features, but this run did not execute that check while handoff feedback still marked followedProcedure=true.",
+      "evidence": ".factory/skills/python-worker/SKILL.md lines 52-53 require running post-processing on `output/raw/asce722-ch26.json`; transcript skeleton for workerSessionId `fb685aee-6108-4742-b6b1-094867929f22` shows pytest/import/CLI checks but no command against `output/raw/asce722-ch26.json`; handoff.skillFeedback.followedProcedure is true."
+    }
+  ],
+  "addressesFailureFrom": null,
+  "summary": "Reviewed feature post-processor-module (commit 35f19cc6c58d684582aa0a404c9f9b835cecaa2b): implementation is close but fails review due to two blocking defects in robustness/completeness of post-processing behavior."
+}

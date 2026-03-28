@@ -1,0 +1,28 @@
+{
+  "featureId": "post-processor-integration",
+  "reviewedAt": "2026-03-28T23:20:00Z",
+  "commitId": "951acde",
+  "transcriptSkeletonReviewed": true,
+  "diffReviewed": true,
+  "status": "fail",
+  "codeReview": {
+    "summary": "The feature mostly matches requirements (prompt update + post_process integration), but the integration introduces a correctness gap: IDs are deduplicated before post_process, while post_process can normalize IDs to the same value, allowing duplicate IDs to be returned.",
+    "issues": [
+      {
+        "file": "extract/llm_structurer.py",
+        "line": 267,
+        "severity": "blocking",
+        "description": "Deduplication occurs before calling post_process (see line 262), but post_process normalizes IDs (extract/post_processor.py:206, 213). This can create duplicate IDs after return (e.g., 'asce7-22-26.5-P1' and 'ASCE7-22-26.5-P1' both normalize to 'ASCE7-22-26.5-P1'). Reproduced with a local Python snippet: output IDs became duplicated. Re-deduplicate after post_process (or normalize IDs before dedupe) to preserve unique-ID invariant."
+      }
+    ]
+  },
+  "sharedStateObservations": [
+    {
+      "area": "conventions",
+      "observation": "Shared guidance does not currently document a rule for transform ordering when ID-mutating post-processors are introduced (normalize IDs before/with final dedupe).",
+      "evidence": "AGENTS.md and .factory/library/architecture.md describe post-processing and dedupe behavior at a high level, but no explicit invariant/procedure prevents duplicate IDs introduced by ID normalization after dedupe; implementation at extract/llm_structurer.py:262-267 shows this gap."
+    }
+  ],
+  "addressesFailureFrom": null,
+  "summary": "Reviewed transcript skeleton and commit 951acde. Prompt/type integration is present, but a blocking duplicate-ID edge case exists due to dedupe-before-normalization ordering, so this review fails pending a follow-up fix."
+}
