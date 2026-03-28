@@ -29,7 +29,7 @@ class RunConfig:
     # Prompt overrides — if set, replace the default prompt in llm_structurer
     structurer_prompt: str | None = None
     # Model to use for structuring
-    structurer_model: str = "claude-sonnet-4-6-20250514"
+    structurer_model: str = "claude-sonnet-4-20250514"
     # PDF rendering resolution
     render_dpi: int = 300
     # How many pages to process per LLM call (chunking)
@@ -275,7 +275,7 @@ def _propose_change(config: RunConfig, history: list[RunResult], latest_score: d
     )
 
     message = client.messages.create(
-        model="claude-sonnet-4-6-20250514",
+        model="claude-sonnet-4-20250514",
         max_tokens=2048,
         messages=[{"role": "user", "content": prompt}],
     )

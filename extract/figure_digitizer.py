@@ -17,7 +17,7 @@ import anthropic
 from PIL import Image
 
 
-MODEL = "claude-sonnet-4-6-20250514"
+MODEL = "claude-sonnet-4-20250514"
 
 
 # ---------------------------------------------------------------------------

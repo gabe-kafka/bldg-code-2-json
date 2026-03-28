@@ -9,7 +9,7 @@ import anthropic
 from extract.pdf_parser import PageExtraction, ExtractedTable
 from extract.figure_digitizer import digitize_figure, digitize_table_image
 
-STRUCTURER_MODEL = "claude-sonnet-4-6-20250514"
+STRUCTURER_MODEL = "claude-sonnet-4-20250514"
 
 
 STRUCTURE_PROMPT = """You are converting building code content into structured JSON elements.
