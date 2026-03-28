@@ -1,0 +1,201 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "bldg-code-element",
+  "title": "Building Code Element",
+  "description": "A single extractable element from a building code PDF",
+  "type": "object",
+  "required": ["id", "type", "source", "title", "data", "metadata"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique element ID, e.g. ASCE7-22-26.5-T1",
+      "pattern": "^[A-Z0-9]+-[0-9.]+-[A-Z]?[0-9.]+(-[A-Za-z0-9]+)?$"
+    },
+    "type": {
+      "type": "string",
+      "enum": ["table", "provision", "formula", "figure", "reference"]
+    },
+    "source": {
+      "type": "object",
+      "required": ["standard", "chapter", "section"],
+      "properties": {
+        "standard": { "type": "string" },
+        "chapter": { "type": "integer" },
+        "section": { "type": "string" },
+        "page": { "type": ["integer", "null"] }
+      }
+    },
+    "title": { "type": "string" },
+    "description": { "type": ["string", "null"] },
+    "data": {
+      "oneOf": [
+        { "$ref": "#/$defs/table_data" },
+        { "$ref": "#/$defs/figure_data" },
+        { "$ref": "#/$defs/formula_data" },
+        { "$ref": "#/$defs/provision_data" },
+        { "$ref": "#/$defs/reference_data" }
+      ]
+    },
+    "cross_references": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "metadata": {
+      "type": "object",
+      "required": ["extracted_by", "qc_status"],
+      "properties": {
+        "extracted_by": {
+          "type": "string",
+          "enum": ["auto", "manual"]
+        },
+        "qc_status": {
+          "type": "string",
+          "enum": ["pending", "passed", "failed"]
+        },
+        "qc_notes": { "type": ["string", "null"] }
+      }
+    }
+  },
+  "$defs": {
+    "table_data": {
+      "type": "object",
+      "required": ["columns", "rows"],
+      "properties": {
+        "columns": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["name"],
+            "properties": {
+              "name": { "type": "string" },
+              "unit": { "type": ["string", "null"] }
+            }
+          }
+        },
+        "rows": {
+          "type": "array",
+          "items": { "type": "object" }
+        }
+      }
+    },
+    "figure_data": {
+      "type": "object",
+      "required": ["x_axis", "y_axis", "curves"],
+      "properties": {
+        "x_axis": { "$ref": "#/$defs/axis" },
+        "y_axis": { "$ref": "#/$defs/axis" },
+        "curves": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["label", "points", "interpolation"],
+            "properties": {
+              "label": { "type": "string" },
+              "points": {
+                "type": "array",
+                "items": {
+                  "type": "array",
+                  "items": { "type": "number" },
+                  "minItems": 2,
+                  "maxItems": 2
+                }
+              },
+              "interpolation": {
+                "type": "string",
+                "enum": ["linear", "linear_on_log_x", "step", "cubic"]
+              }
+            }
+          }
+        }
+      }
+    },
+    "formula_data": {
+      "type": "object",
+      "required": ["expression", "parameters"],
+      "properties": {
+        "expression": { "type": "string" },
+        "parameters": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "object",
+            "properties": {
+              "unit": { "type": "string" },
+              "range": {
+                "type": "array",
+                "items": { "type": "number" },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "source": { "type": "string" }
+            }
+          }
+        },
+        "samples": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "array",
+            "items": {
+              "type": "array",
+              "items": { "type": "number" },
+              "minItems": 2,
+              "maxItems": 2
+            }
+          }
+        }
+      }
+    },
+    "provision_data": {
+      "type": "object",
+      "required": ["rule", "conditions"],
+      "properties": {
+        "rule": { "type": "string" },
+        "conditions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["parameter", "operator", "value"],
+            "properties": {
+              "parameter": { "type": "string" },
+              "operator": {
+                "type": "string",
+                "enum": ["==", "!=", ">", ">=", "<", "<=", "in", "not_in"]
+              },
+              "value": {},
+              "unit": { "type": ["string", "null"] }
+            }
+          }
+        },
+        "then": { "type": "string" },
+        "else": { "type": ["string", "null"] },
+        "exceptions": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "reference_data": {
+      "type": "object",
+      "required": ["target"],
+      "properties": {
+        "target": { "type": "string" },
+        "url": { "type": "string" },
+        "parameters": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "axis": {
+      "type": "object",
+      "required": ["name", "unit", "scale"],
+      "properties": {
+        "name": { "type": "string" },
+        "unit": { "type": "string" },
+        "scale": {
+          "type": "string",
+          "enum": ["linear", "log"]
+        }
+      }
+    }
+  }
+}
