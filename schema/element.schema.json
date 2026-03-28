@@ -13,7 +13,7 @@
     },
     "type": {
       "type": "string",
-      "enum": ["table", "provision", "formula", "figure", "skipped_figure", "reference"]
+      "enum": ["table", "provision", "formula", "figure", "skipped_figure", "reference", "definition"]
     },
     "source": {
       "type": "object",
@@ -34,7 +34,8 @@
         { "$ref": "#/$defs/skipped_figure_data" },
         { "$ref": "#/$defs/formula_data" },
         { "$ref": "#/$defs/provision_data" },
-        { "$ref": "#/$defs/reference_data" }
+        { "$ref": "#/$defs/reference_data" },
+        { "$ref": "#/$defs/definition_data" }
       ]
     },
     "cross_references": {
@@ -234,6 +235,34 @@
         "target": { "type": "string" },
         "url": { "type": "string" },
         "parameters": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "definition_data": {
+      "type": "object",
+      "required": ["term", "definition"],
+      "properties": {
+        "term": { "type": "string" },
+        "definition": { "type": "string" },
+        "conditions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["parameter", "operator", "value"],
+            "properties": {
+              "parameter": { "type": "string" },
+              "operator": {
+                "type": "string",
+                "enum": ["==", "!=", ">", ">=", "<", "<=", "in", "not_in"]
+              },
+              "value": {},
+              "unit": { "type": ["string", "null"] }
+            }
+          }
+        },
+        "exceptions": {
           "type": "array",
           "items": { "type": "string" }
         }
