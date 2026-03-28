@@ -1,12 +1,13 @@
 """
-Figure digitizer — multi-pass, type-aware extraction of complex building code figures.
+Figure digitizer — classifies figures, extracts computable ones, skips illustrative diagrams.
 
-Handles:
-- xy_chart: standard x-y plots, multi-curve charts, coefficient graphs
-- diagram: annotated engineering drawings (pressure zones, building geometry, topo features)
-- multi_panel: figures with multiple sub-figures or sub-charts
-- contour_map: geographic contour maps (wind speed, snow load)
+Extracts:
+- xy_chart: x-y plots, multi-curve coefficient charts
 - table_image: tables rendered as images that pdfplumber can't parse
+
+Skips (flagged for human review):
+- diagram: building cross-sections, topo profiles, pressure zone illustrations
+- contour_map: wind speed maps, snow load maps (use external APIs instead)
 """
 
 import base64
@@ -17,45 +18,42 @@ from PIL import Image
 
 
 MODEL = "claude-sonnet-4-6-20250514"
-MODEL_HARD = "claude-opus-4-6-20250514"
 
 
 # ---------------------------------------------------------------------------
-# Pass 1: Classify the figure
+# Pass 1: Classify — extract or skip?
 # ---------------------------------------------------------------------------
 
-CLASSIFY_PROMPT = """You are analyzing a figure from a building code document (ASCE 7-22, Wind Loads).
+CLASSIFY_PROMPT = """You are analyzing a figure from a building code document.
 
 Classify this figure into exactly ONE of these types:
 
-1. "xy_chart" — A standard plot with x-axis, y-axis, and one or more curves/data series.
-   Examples: pressure coefficient vs effective wind area, Kz vs height, velocity profile.
+1. "xy_chart" — A plot with axes and curves containing numeric data an engineer needs to look up.
+   Examples: pressure coefficient vs effective wind area, Kz vs height, velocity profile curves.
 
-2. "diagram" — An annotated engineering drawing showing geometry, zones, dimensions, or spatial relationships.
-   Examples: building cross-sections with pressure zones labeled (1,2,3,4,5), topographic feature definitions (hill with H, Lh, x dimensions), roof geometry, wall zones, wind direction arrows.
+2. "table_image" — A table rendered as an image rather than selectable text.
 
-3. "multi_panel" — A figure containing multiple distinct sub-figures, each of which could be classified independently.
-   Examples: a single figure number with parts (a), (b), (c) showing different building types or conditions.
+3. "diagram" — An illustrative drawing showing geometry, zones, dimensions, or spatial relationships.
+   NOT computable data — exists to help humans understand variable definitions.
+   Examples: building cross-sections, topographic hill profiles, pressure zone layouts, roof geometry.
 
-4. "contour_map" — A geographic map with contour lines showing spatially varying values.
-   Examples: basic wind speed maps, ground snow load maps.
-
-5. "table_image" — A table rendered as an image rather than selectable text.
+4. "contour_map" — A geographic map with contour lines.
+   Examples: wind speed maps, ground snow load maps.
 
 Return ONLY a JSON object:
 {
-  "figure_type": "<one of the 5 types above>",
-  "confidence": 0.0 to 1.0,
+  "figure_type": "<one of the 4 types above>",
+  "extractable": true/false,
   "description": "<one sentence describing what the figure shows>",
-  "sub_panels": <number of distinct sub-figures if multi_panel, else null>,
-  "complexity": "low | medium | high",
-  "notes": "<anything unusual about this figure that affects extraction>"
+  "skip_reason": "<why this figure doesn't need extraction, or null if extractable>"
 }
+
+"extractable" is true ONLY for xy_chart and table_image. Diagrams and contour maps are false.
 """
 
 
 def classify_figure(image_bytes: bytes, context: str = "") -> dict:
-    """Classify a figure into one of the supported types."""
+    """Classify a figure. Returns type and whether to extract or skip."""
     client = anthropic.Anthropic()
     prompt = CLASSIFY_PROMPT
     if context:
@@ -63,7 +61,7 @@ def classify_figure(image_bytes: bytes, context: str = "") -> dict:
 
     message = client.messages.create(
         model=MODEL,
-        max_tokens=1024,
+        max_tokens=512,
         messages=[{
             "role": "user",
             "content": [
@@ -76,10 +74,10 @@ def classify_figure(image_bytes: bytes, context: str = "") -> dict:
 
 
 # ---------------------------------------------------------------------------
-# Pass 2: Type-specific extraction
+# Pass 2: Extract (xy_chart or table_image only)
 # ---------------------------------------------------------------------------
 
-XY_CHART_PROMPT = """You are digitizing an engineering chart from ASCE 7-22 (Wind Loads) into machine-readable data.
+XY_CHART_PROMPT = """You are digitizing an engineering chart from a building code into machine-readable data.
 
 This is a chart with axes and curves. Extract ALL data with high precision.
 
@@ -97,114 +95,15 @@ Return a JSON object:
 }
 
 Critical rules:
-- MINIMUM 10 points per curve. For curves with inflection points or changes in slope, sample 15-20+.
+- MINIMUM 10 points per curve. For curves with inflection points or slope changes, sample 15-20+.
 - At every gridline intersection, read the value.
 - At every labeled tick mark, read the value.
 - At curve endpoints, inflection points, and slope changes, add extra sample points.
 - For logarithmic axes, sample densely at the low end where the curve changes fastest.
-- Read values to the precision allowed by the gridlines (e.g., if grid spacing is 0.05, report to 0.05).
+- Read values to the precision allowed by the gridlines.
 - Include ALL curves, ALL series, ALL labeled lines — missing one invalidates the extraction.
 - Dashed, dotted, and solid lines are all separate curves.
 - If curves have positive and negative branches (e.g., +GCp and -GCp), extract both.
-- Return ONLY the JSON object.
-"""
-
-DIAGRAM_PROMPT = """You are extracting an annotated engineering diagram from ASCE 7-22 (Wind Loads) into structured data.
-
-This is NOT a chart with axes. It is a geometric/spatial diagram showing building features, pressure zones, dimensions, or topographic features.
-
-Return a JSON object:
-{
-  "diagram_type": "<specific type: pressure_zones | topo_feature | building_geometry | roof_zones | wall_zones | wind_direction | other>",
-  "elements": [
-    {
-      "id": "<label from diagram, e.g. 'Zone 1', 'H', 'Lh'>",
-      "type": "zone | dimension | annotation | arrow | boundary | surface | angle",
-      "description": "<what this element represents>",
-      "value": <numeric value if applicable, else null>,
-      "unit": "<unit if applicable, else null>",
-      "position": "<spatial description: 'windward wall', 'leeward roof', 'top of hill', etc.>",
-      "conditions": "<when this element applies, e.g. 'theta <= 10 deg'>"
-    }
-  ],
-  "relationships": [
-    {
-      "from": "<element id>",
-      "to": "<element id>",
-      "type": "defines | bounds | equals | references",
-      "description": "<how these elements relate>"
-    }
-  ],
-  "geometry": {
-    "description": "<overall geometry description: 'rectangular building cross-section', '2D hill profile', etc.>",
-    "key_dimensions": {"<name>": {"value": null, "unit": "<unit>", "description": "<what it measures>"}},
-    "coordinate_system": "<description of orientation: 'wind from left', 'plan view from above', etc.>"
-  },
-  "notes": ["<any text annotations, equations, or conditions shown on the diagram>"]
-}
-
-Critical rules:
-- Extract EVERY labeled element, dimension, zone, arrow, and annotation.
-- Preserve exact labels as shown (e.g., "Zone 1", "4E", "h", "L", "θ").
-- For pressure zone diagrams: capture zone boundaries, coefficient labels, and applicable conditions.
-- For topographic features: capture all dimension definitions (H, Lh, x, K1, K2, K3).
-- For building geometry: capture all surfaces, angles, and dimension relationships.
-- Include equations or formulas shown on the diagram in the notes array.
-- Return ONLY the JSON object.
-"""
-
-MULTI_PANEL_PROMPT = """You are extracting a multi-panel figure from ASCE 7-22 (Wind Loads).
-
-This figure contains {n_panels} distinct sub-figures. Extract each one separately.
-
-Return a JSON object:
-{{
-  "panels": [
-    {{
-      "panel_id": "<label: (a), (b), Part 1, Case A, etc.>",
-      "title": "<panel-specific title if shown>",
-      "panel_type": "xy_chart | diagram | table_image",
-      "data": <the full extraction for this panel — use the appropriate format for its type>
-    }}
-  ],
-  "shared_context": "<anything that applies to all panels: shared axis labels, common conditions, etc.>"
-}}
-
-For each panel:
-- If it's an xy_chart: use x_axis/y_axis/curves format with MINIMUM 10 points per curve.
-- If it's a diagram: use diagram_type/elements/relationships/geometry format.
-- If it's a table: use columns/rows format.
-
-Critical rules:
-- Extract ALL panels. Missing a panel invalidates the extraction.
-- Some panels share axis labels or legends — note these in shared_context.
-- Return ONLY the JSON object.
-"""
-
-CONTOUR_MAP_PROMPT = """You are extracting a contour map from ASCE 7-22 (Wind Loads).
-
-This is a geographic map showing spatially varying values (likely wind speeds).
-
-Return a JSON object:
-{
-  "map_type": "wind_speed | snow_load | rain | other",
-  "value_name": "<what the contours represent>",
-  "value_unit": "<unit, e.g. mph, psf>",
-  "risk_category": "<if labeled, e.g. II, III, IV>",
-  "return_period": "<if labeled, e.g. 700-year, 1700-year>",
-  "contours": [
-    {"value": <numeric>, "description": "<where this contour runs, referencing states/regions>"}
-  ],
-  "special_regions": [
-    {"name": "<region name>", "value": "<value or range>", "description": "<details>"}
-  ],
-  "notes": ["<footnotes, special wind regions, hurricane-prone regions, etc.>"]
-}
-
-Critical rules:
-- Extract EVERY labeled contour line with its value.
-- Note special wind regions, hurricane-prone coastlines, and any region-specific notes.
-- For maps with insets (Alaska, Hawaii, territories), extract those too.
 - Return ONLY the JSON object.
 """
 
@@ -239,9 +138,9 @@ Extracted data:
 {extracted_json}
 
 Check THOROUGHLY:
-1. Are all curves / zones / elements / panels accounted for?
+1. Are all curves / series / rows accounted for?
 2. Are numeric values accurate to the precision visible in the figure?
-3. Are labels and identifiers correct?
+3. Are labels correct?
 4. Is anything missing or fabricated?
 
 Return a JSON object:
@@ -262,50 +161,69 @@ Return ONLY the JSON object.
 # ---------------------------------------------------------------------------
 
 def digitize_figure(image_bytes: bytes, context: str = "", verify: bool = True) -> dict:
-    """Full multi-pass figure extraction pipeline.
+    """Classify, extract (if computable), and verify a figure.
 
-    Pass 1: Classify the figure type.
-    Pass 2: Extract with type-specific prompt.
-    Pass 3: Verify extraction against original image (optional).
-
-    Args:
-        image_bytes: PNG image bytes.
-        context: Text context (caption, surrounding text).
-        verify: Whether to run verification pass.
+    Diagrams and contour maps are skipped with a flag — they're illustrative,
+    not computable data. Only xy_charts and table_images are extracted.
 
     Returns:
-        Dict with keys: figure_class, data, verification (if verify=True).
+        {
+            "figure_class": {...classification...},
+            "skipped": bool,
+            "data": {...extracted data or null...},
+            "verification": {...or null...}
+        }
     """
-    # Upscale if image is small
     image_bytes = _ensure_resolution(image_bytes, min_width=1200)
 
     # Pass 1: Classify
     classification = classify_figure(image_bytes, context)
     fig_type = classification.get("figure_type", "xy_chart")
-    complexity = classification.get("complexity", "medium")
-    n_panels = classification.get("sub_panels")
+    extractable = classification.get("extractable", False)
 
-    # Choose model based on complexity
-    model = MODEL_HARD if complexity == "high" else MODEL
+    # Skip non-computable figures
+    if not extractable:
+        return {
+            "figure_class": classification,
+            "skipped": True,
+            "data": None,
+            "verification": None,
+        }
 
     # Pass 2: Extract
-    data = _extract_by_type(image_bytes, fig_type, context, model, n_panels)
+    prompt = XY_CHART_PROMPT if fig_type == "xy_chart" else TABLE_IMAGE_PROMPT
+    if context:
+        prompt += f"\n\nContext from the document: {context}"
+
+    client = anthropic.Anthropic()
+    message = client.messages.create(
+        model=MODEL,
+        max_tokens=16384,
+        messages=[{
+            "role": "user",
+            "content": [
+                _image_block(image_bytes),
+                {"type": "text", "text": prompt},
+            ],
+        }],
+    )
+    data = _parse_json(message.content[0].text)
 
     result = {
         "figure_class": classification,
+        "skipped": False,
         "data": data,
+        "verification": None,
     }
 
     # Pass 3: Verify
     if verify:
-        verification = _verify_extraction(image_bytes, data, model)
+        verification = _verify_extraction(image_bytes, data)
         result["verification"] = verification
 
-        # Auto-apply corrections if any
         corrections = verification.get("corrections", {})
         if corrections:
-            data = _apply_corrections(data, corrections)
-            result["data"] = data
+            result["data"] = _apply_corrections(data, corrections)
 
     return result
 
@@ -332,71 +250,18 @@ def digitize_table_image(image_bytes: bytes, context: str = "") -> dict:
     return _parse_json(message.content[0].text)
 
 
-def digitize_region(image_bytes: bytes, bbox: tuple[int, int, int, int], context: str = "") -> dict:
-    """Crop a region of a page image and digitize it.
-
-    Use this to isolate a single figure from a page that contains
-    multiple figures or surrounding text.
-
-    Args:
-        image_bytes: Full page PNG bytes.
-        bbox: (left, top, right, bottom) pixel coordinates.
-        context: Text context.
-
-    Returns:
-        Digitized data for the cropped region.
-    """
-    img = Image.open(io.BytesIO(image_bytes))
-    cropped = img.crop(bbox)
-    buf = io.BytesIO()
-    cropped.save(buf, format="PNG")
-    return digitize_figure(buf.getvalue(), context=context)
-
-
 # ---------------------------------------------------------------------------
 # Internal helpers
 # ---------------------------------------------------------------------------
 
-def _extract_by_type(image_bytes: bytes, fig_type: str, context: str, model: str, n_panels: int | None) -> dict:
-    """Route to type-specific extraction prompt."""
-    prompts = {
-        "xy_chart": XY_CHART_PROMPT,
-        "diagram": DIAGRAM_PROMPT,
-        "contour_map": CONTOUR_MAP_PROMPT,
-        "table_image": TABLE_IMAGE_PROMPT,
-    }
-
-    if fig_type == "multi_panel":
-        prompt = MULTI_PANEL_PROMPT.format(n_panels=n_panels or "multiple")
-    else:
-        prompt = prompts.get(fig_type, XY_CHART_PROMPT)
-
-    if context:
-        prompt += f"\n\nContext from the document: {context}"
-
-    client = anthropic.Anthropic()
-    message = client.messages.create(
-        model=model,
-        max_tokens=16384,
-        messages=[{
-            "role": "user",
-            "content": [
-                _image_block(image_bytes),
-                {"type": "text", "text": prompt},
-            ],
-        }],
-    )
-    return _parse_json(message.content[0].text)
-
-
-def _verify_extraction(image_bytes: bytes, extracted_data: dict, model: str) -> dict:
+def _verify_extraction(image_bytes: bytes, extracted_data: dict) -> dict:
     """Send extraction back to Claude with the original image for verification."""
     client = anthropic.Anthropic()
     prompt = VERIFY_PROMPT.format(extracted_json=json.dumps(extracted_data, indent=2))
 
     message = client.messages.create(
-        model=model,
-        max_tokens=8192,
+        model=MODEL,
+        max_tokens=4096,
         messages=[{
             "role": "user",
             "content": [
@@ -421,7 +286,7 @@ def _apply_corrections(data: dict, corrections: dict) -> dict:
 
 
 def _ensure_resolution(image_bytes: bytes, min_width: int = 1200) -> bytes:
-    """Upscale image if it's too small for accurate extraction."""
+    """Upscale image if too small for accurate extraction."""
     img = Image.open(io.BytesIO(image_bytes))
     if img.width >= min_width:
         return image_bytes
@@ -452,7 +317,6 @@ def _parse_json(text: str) -> dict:
     text = text.strip()
     if text.startswith("```"):
         lines = text.split("\n")
-        # Remove first line (```json) and last line (```)
         end = len(lines) - 1
         while end > 0 and not lines[end].strip().startswith("```"):
             end -= 1

@@ -13,7 +13,7 @@
     },
     "type": {
       "type": "string",
-      "enum": ["table", "provision", "formula", "figure", "reference"]
+      "enum": ["table", "provision", "formula", "figure", "skipped_figure", "reference"]
     },
     "source": {
       "type": "object",
@@ -31,6 +31,7 @@
       "oneOf": [
         { "$ref": "#/$defs/table_data" },
         { "$ref": "#/$defs/figure_data" },
+        { "$ref": "#/$defs/skipped_figure_data" },
         { "$ref": "#/$defs/formula_data" },
         { "$ref": "#/$defs/provision_data" },
         { "$ref": "#/$defs/reference_data" }
@@ -88,19 +89,14 @@
           "properties": {
             "figure_type": {
               "type": "string",
-              "enum": ["xy_chart", "diagram", "multi_panel", "contour_map", "table_image"]
+              "enum": ["xy_chart", "table_image"]
             },
-            "confidence": { "type": "number" },
-            "description": { "type": "string" },
-            "complexity": { "type": "string", "enum": ["low", "medium", "high"] }
+            "description": { "type": "string" }
           }
         },
         "data": {
           "oneOf": [
             { "$ref": "#/$defs/xy_chart_data" },
-            { "$ref": "#/$defs/diagram_data" },
-            { "$ref": "#/$defs/multi_panel_data" },
-            { "$ref": "#/$defs/contour_map_data" },
             { "$ref": "#/$defs/table_data" }
           ]
         },
@@ -121,6 +117,18 @@
             }
           }
         }
+      }
+    },
+    "skipped_figure_data": {
+      "type": "object",
+      "required": ["figure_type", "skip_reason"],
+      "properties": {
+        "figure_type": {
+          "type": "string",
+          "enum": ["diagram", "contour_map"]
+        },
+        "description": { "type": "string" },
+        "skip_reason": { "type": "string" }
       }
     },
     "xy_chart_data": {
@@ -152,114 +160,6 @@
               }
             }
           }
-        }
-      }
-    },
-    "diagram_data": {
-      "type": "object",
-      "required": ["diagram_type", "elements"],
-      "properties": {
-        "diagram_type": {
-          "type": "string",
-          "enum": ["pressure_zones", "topo_feature", "building_geometry", "roof_zones", "wall_zones", "wind_direction", "other"]
-        },
-        "elements": {
-          "type": "array",
-          "items": {
-            "type": "object",
-            "required": ["id", "type", "description"],
-            "properties": {
-              "id": { "type": "string" },
-              "type": { "type": "string", "enum": ["zone", "dimension", "annotation", "arrow", "boundary", "surface", "angle"] },
-              "description": { "type": "string" },
-              "value": {},
-              "unit": { "type": ["string", "null"] },
-              "position": { "type": ["string", "null"] },
-              "conditions": { "type": ["string", "null"] }
-            }
-          }
-        },
-        "relationships": {
-          "type": "array",
-          "items": {
-            "type": "object",
-            "required": ["from", "to", "type"],
-            "properties": {
-              "from": { "type": "string" },
-              "to": { "type": "string" },
-              "type": { "type": "string", "enum": ["defines", "bounds", "equals", "references"] },
-              "description": { "type": "string" }
-            }
-          }
-        },
-        "geometry": {
-          "type": "object",
-          "properties": {
-            "description": { "type": "string" },
-            "key_dimensions": { "type": "object" },
-            "coordinate_system": { "type": "string" }
-          }
-        },
-        "notes": {
-          "type": "array",
-          "items": { "type": "string" }
-        }
-      }
-    },
-    "multi_panel_data": {
-      "type": "object",
-      "required": ["panels"],
-      "properties": {
-        "panels": {
-          "type": "array",
-          "items": {
-            "type": "object",
-            "required": ["panel_id", "panel_type", "data"],
-            "properties": {
-              "panel_id": { "type": "string" },
-              "title": { "type": ["string", "null"] },
-              "panel_type": { "type": "string", "enum": ["xy_chart", "diagram", "table_image"] },
-              "data": { "type": "object" }
-            }
-          }
-        },
-        "shared_context": { "type": ["string", "null"] }
-      }
-    },
-    "contour_map_data": {
-      "type": "object",
-      "required": ["map_type", "value_name", "value_unit", "contours"],
-      "properties": {
-        "map_type": { "type": "string", "enum": ["wind_speed", "snow_load", "rain", "other"] },
-        "value_name": { "type": "string" },
-        "value_unit": { "type": "string" },
-        "risk_category": { "type": ["string", "null"] },
-        "return_period": { "type": ["string", "null"] },
-        "contours": {
-          "type": "array",
-          "items": {
-            "type": "object",
-            "required": ["value"],
-            "properties": {
-              "value": { "type": "number" },
-              "description": { "type": "string" }
-            }
-          }
-        },
-        "special_regions": {
-          "type": "array",
-          "items": {
-            "type": "object",
-            "properties": {
-              "name": { "type": "string" },
-              "value": { "type": "string" },
-              "description": { "type": "string" }
-            }
-          }
-        },
-        "notes": {
-          "type": "array",
-          "items": { "type": "string" }
         }
       }
     },

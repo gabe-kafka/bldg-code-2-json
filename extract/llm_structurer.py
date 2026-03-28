@@ -138,45 +138,63 @@ def structure_page(
 
 
 def structure_figures(page: PageExtraction, standard: str, chapter: int) -> list[dict]:
-    """Digitize all figures on a page using multi-pass extraction.
+    """Classify and extract figures. Skips diagrams and contour maps.
 
-    Pass 1: Classify figure type (xy_chart, diagram, multi_panel, contour_map).
-    Pass 2: Extract with type-specific prompt.
-    Pass 3: Verify extraction against original image.
-
-    Args:
-        page: Extracted page data.
-        standard: Standard name.
-        chapter: Chapter number.
-
-    Returns:
-        List of figure elements with digitized data.
+    Extractable (xy_chart, table_image) → type "figure" with digitized data.
+    Illustrative (diagram, contour_map) → type "skipped_figure" with reason.
     """
     elements = []
     for i, fig in enumerate(page.figures):
         caption = fig.caption or ""
-        # Multi-pass extraction: classify → extract → verify
         figure_result = digitize_figure(fig.image_bytes, context=caption, verify=True)
 
-        element = {
-            "id": f"{standard.replace(' ', '')}-{chapter}-F{i+1}",
-            "type": "figure",
-            "source": {
-                "standard": standard,
-                "chapter": chapter,
-                "section": "",
-                "page": fig.page,
-            },
-            "title": caption or f"Figure on page {fig.page}",
-            "description": figure_result.get("figure_class", {}).get("description"),
-            "data": figure_result,
-            "cross_references": [],
-            "metadata": {
-                "extracted_by": "auto",
-                "qc_status": "pending",
-                "qc_notes": None,
-            },
-        }
+        fig_class = figure_result.get("figure_class", {})
+        skipped = figure_result.get("skipped", False)
+
+        if skipped:
+            element = {
+                "id": f"{standard.replace(' ', '')}-{chapter}-F{i+1}",
+                "type": "skipped_figure",
+                "source": {
+                    "standard": standard,
+                    "chapter": chapter,
+                    "section": "",
+                    "page": fig.page,
+                },
+                "title": caption or f"Figure on page {fig.page}",
+                "description": fig_class.get("description"),
+                "data": {
+                    "figure_type": fig_class.get("figure_type", "diagram"),
+                    "description": fig_class.get("description", ""),
+                    "skip_reason": fig_class.get("skip_reason", "Illustrative diagram — not computable data"),
+                },
+                "cross_references": [],
+                "metadata": {
+                    "extracted_by": "auto",
+                    "qc_status": "pending",
+                    "qc_notes": "Skipped: illustrative figure, not computable data. Human review recommended.",
+                },
+            }
+        else:
+            element = {
+                "id": f"{standard.replace(' ', '')}-{chapter}-F{i+1}",
+                "type": "figure",
+                "source": {
+                    "standard": standard,
+                    "chapter": chapter,
+                    "section": "",
+                    "page": fig.page,
+                },
+                "title": caption or f"Figure on page {fig.page}",
+                "description": fig_class.get("description"),
+                "data": figure_result,
+                "cross_references": [],
+                "metadata": {
+                    "extracted_by": "auto",
+                    "qc_status": "pending",
+                    "qc_notes": None,
+                },
+            }
         elements.append(element)
 
     return elements
