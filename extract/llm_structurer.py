@@ -8,6 +8,7 @@ import anthropic
 
 from extract.pdf_parser import PageExtraction, ExtractedTable
 from extract.figure_digitizer import digitize_figure, digitize_table_image
+from extract.post_processor import post_process
 
 STRUCTURER_MODEL = "claude-sonnet-4-20250514"
 
@@ -19,7 +20,8 @@ The standard is: {standard}
 The chapter is: {chapter}
 
 Classify each distinct piece of information into one of these types:
-- "provision": A rule, requirement, or definition with conditions
+- "provision": A rule, requirement, or conditional statement
+- "definition": A term definition (e.g. "BASIC WIND SPEED: ...", "X is defined as ...", "Y means ...")
 - "table": Tabular lookup data (already extracted — just confirm and structure)
 - "formula": A mathematical equation or relationship
 - "figure": Reference to a chart/graph (handled separately — just note its ID)
@@ -50,6 +52,9 @@ Data field formats by type:
 
 provision:
 {{"rule": "...", "conditions": [{{"parameter": "...", "operator": "...", "value": ..., "unit": "..."}}], "then": "...", "else": null, "exceptions": []}}
+
+definition:
+{{"term": "...", "definition": "...", "conditions": [], "exceptions": []}}
 
 formula:
 {{"expression": "...", "parameters": {{"name": {{"unit": "...", "range": [min, max], "source": "..."}}}}, "samples": {{}}}}
@@ -258,7 +263,8 @@ def extract_chapter_from_pages(
             seen.add(el["id"])
             deduped.append(el)
 
-    return deduped
+    # Apply deterministic post-processing to fix common LLM output quirks
+    return post_process(deduped)
 
 
 def _format_table(table: ExtractedTable) -> str:
