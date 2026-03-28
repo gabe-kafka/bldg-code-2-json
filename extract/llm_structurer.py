@@ -9,6 +9,8 @@ import anthropic
 from extract.pdf_parser import PageExtraction, ExtractedTable
 from extract.figure_digitizer import digitize_figure, digitize_table_image
 
+STRUCTURER_MODEL = "claude-sonnet-4-6-20250514"
+
 
 STRUCTURE_PROMPT = """You are converting building code content into structured JSON elements.
 
@@ -115,7 +117,7 @@ def structure_page(
 
     client = anthropic.Anthropic()
     message = client.messages.create(
-        model="claude-sonnet-4-6-20250514",
+        model=STRUCTURER_MODEL,
         max_tokens=8192,
         messages=[
             {
@@ -133,27 +135,38 @@ def structure_page(
         lines = response_text.split("\n")
         response_text = "\n".join(lines[1:-1])
 
-    elements = json.loads(response_text)
+    try:
+        elements = json.loads(response_text)
+    except json.JSONDecodeError:
+        print(f"  Warning: failed to parse LLM response for page {page.page_number}, skipping")
+        return []
     return elements
 
 
-def structure_figures(page: PageExtraction, standard: str, chapter: int) -> list[dict]:
+def structure_figures(page: PageExtraction, standard: str, chapter: int, figure_counter: list[int]) -> list[dict]:
     """Classify and extract figures. Skips diagrams and contour maps.
 
     Extractable (xy_chart, table_image) → type "figure" with digitized data.
     Illustrative (diagram, contour_map) → type "skipped_figure" with reason.
+
+    Args:
+        figure_counter: Single-element list [n] used as a mutable counter
+                        across pages to avoid ID collisions.
     """
     elements = []
-    for i, fig in enumerate(page.figures):
+    for fig in page.figures:
+        figure_counter[0] += 1
+        fig_num = figure_counter[0]
         caption = fig.caption or ""
         figure_result = digitize_figure(fig.image_bytes, context=caption, verify=True)
 
         fig_class = figure_result.get("figure_class", {})
         skipped = figure_result.get("skipped", False)
+        std_id = standard.replace(" ", "")
 
         if skipped:
             element = {
-                "id": f"{standard.replace(' ', '')}-{chapter}-F{i+1}",
+                "id": f"{std_id}-{chapter}-F{fig_num}",
                 "type": "skipped_figure",
                 "source": {
                     "standard": standard,
@@ -177,7 +190,7 @@ def structure_figures(page: PageExtraction, standard: str, chapter: int) -> list
             }
         else:
             element = {
-                "id": f"{standard.replace(' ', '')}-{chapter}-F{i+1}",
+                "id": f"{std_id}-{chapter}-F{fig_num}",
                 "type": "figure",
                 "source": {
                     "standard": standard,
@@ -206,33 +219,36 @@ def extract_chapter(
     chapter: int,
     start_page: int = 1,
     end_page: int | None = None,
+    render_dpi: int = 300,
+    pages_per_chunk: int = 1,
 ) -> list[dict]:
-    """Full extraction pipeline for a chapter.
-
-    Args:
-        pdf_path: Path to the PDF.
-        standard: Standard name.
-        chapter: Chapter number.
-        start_page: First page of the chapter (1-indexed).
-        end_page: Last page of the chapter (inclusive).
-
-    Returns:
-        List of all structured elements from the chapter.
-    """
+    """Full extraction pipeline for a chapter. Parses PDF then extracts."""
     from extract.pdf_parser import parse_pdf
 
-    pages = parse_pdf(pdf_path, start_page=start_page, end_page=end_page)
+    pages = parse_pdf(pdf_path, start_page=start_page, end_page=end_page, render_dpi=render_dpi)
+    return extract_chapter_from_pages(pages, standard, chapter, pages_per_chunk)
+
+
+def extract_chapter_from_pages(
+    pages: list,
+    standard: str,
+    chapter: int,
+    pages_per_chunk: int = 1,
+) -> list[dict]:
+    """Extract from pre-parsed pages. Avoids re-parsing the PDF."""
     all_elements = []
+    figure_counter = [0]  # mutable counter shared across pages
 
-    for page in pages:
-        # Structure text and tables
-        text_elements = structure_page(page, standard, chapter)
-        all_elements.extend(text_elements)
+    for chunk_start in range(0, len(pages), pages_per_chunk):
+        chunk = pages[chunk_start:chunk_start + pages_per_chunk]
 
-        # Digitize figures
-        if page.figures:
-            figure_elements = structure_figures(page, standard, chapter)
-            all_elements.extend(figure_elements)
+        for page in chunk:
+            text_elements = structure_page(page, standard, chapter)
+            all_elements.extend(text_elements)
+
+            if page.figures:
+                figure_elements = structure_figures(page, standard, chapter, figure_counter)
+                all_elements.extend(figure_elements)
 
     # Deduplicate by ID (keep first occurrence)
     seen = set()

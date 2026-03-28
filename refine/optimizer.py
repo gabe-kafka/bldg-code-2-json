@@ -127,7 +127,7 @@ def optimize(
     config = RunConfig()
     history: list[RunResult] = []
 
-    # Parse PDF once (reused across runs)
+    # Parse PDF once at current DPI for scoring
     pages = parse_pdf(pdf_path, start_page=start_page, end_page=end_page)
 
     for i in range(max_iterations):
@@ -138,11 +138,13 @@ def optimize(
 
         # --- Execute extraction ---
         print("Extracting...")
-        elements = _run_extraction(pdf_path, standard, chapter, start_page, end_page, config)
+        elements, run_pages = _run_extraction(pdf_path, standard, chapter, start_page, end_page, config)
+        # Use extraction pages for scoring (they match the DPI used)
+        pages = run_pages
 
-        # --- Score ---
+        # --- Score (vary seed per run to avoid overfitting spot checks) ---
         print("Scoring...")
-        score = score_run(elements, pages, spot_check_size=config.spot_check_size)
+        score = score_run(elements, pages, spot_check_size=config.spot_check_size, seed=42 + run_id)
         composite = score["composite_score"]
 
         result = RunResult(run_id=run_id, config=copy.deepcopy(config), score=score)
@@ -214,33 +216,35 @@ def optimize(
     return history
 
 
-def _run_extraction(pdf_path, standard, chapter, start_page, end_page, config: RunConfig) -> list[dict]:
-    """Run extraction with the current config."""
-    # For now, extra_instructions are injected via environment
-    # Future: full prompt override support
+def _run_extraction(pdf_path, standard, chapter, start_page, end_page, config: RunConfig) -> tuple[list[dict], list]:
+    """Run extraction with the current config. Returns (elements, pages)."""
     import extract.llm_structurer as structurer
 
-    # Inject extra instructions into the structurer's prompt if provided
+    # Inject config into structurer prompt
     original_prompt = structurer.STRUCTURE_PROMPT
-    if config.extra_instructions:
-        structurer.STRUCTURE_PROMPT = original_prompt + f"\n\nADDITIONAL INSTRUCTIONS:\n{config.extra_instructions}"
-
+    original_model = structurer.STRUCTURER_MODEL
     if config.structurer_prompt:
         structurer.STRUCTURE_PROMPT = config.structurer_prompt
+    elif config.extra_instructions:
+        structurer.STRUCTURE_PROMPT = original_prompt + f"\n\nADDITIONAL INSTRUCTIONS:\n{config.extra_instructions}"
+
+    # Inject model override
+    structurer.STRUCTURER_MODEL = config.structurer_model
 
     try:
-        elements = structurer.extract_chapter(
-            pdf_path=pdf_path,
+        # Parse PDF once, use for both extraction and scoring
+        pages = parse_pdf(pdf_path, start_page=start_page, end_page=end_page, render_dpi=config.render_dpi)
+        elements = structurer.extract_chapter_from_pages(
+            pages=pages,
             standard=standard,
             chapter=chapter,
-            start_page=start_page,
-            end_page=end_page,
+            pages_per_chunk=config.pages_per_chunk,
         )
     finally:
-        # Restore original prompt
         structurer.STRUCTURE_PROMPT = original_prompt
+        structurer.STRUCTURER_MODEL = original_model
 
-    return elements
+    return elements, pages
 
 
 def _propose_change(config: RunConfig, history: list[RunResult], latest_score: dict) -> dict:

@@ -40,7 +40,7 @@ class PageExtraction:
     figures: list[ExtractedFigure] = field(default_factory=list)
 
 
-def parse_pdf(pdf_path: str | Path, start_page: int = 1, end_page: int | None = None) -> list[PageExtraction]:
+def parse_pdf(pdf_path: str | Path, start_page: int = 1, end_page: int | None = None, render_dpi: int = 300) -> list[PageExtraction]:
     """Extract text, tables, and figures from a PDF page range.
 
     Args:
@@ -89,7 +89,7 @@ def parse_pdf(pdf_path: str | Path, start_page: int = 1, end_page: int | None = 
             # --- Figures (rasterize at high resolution for complex diagrams) ---
             images = page.images
             if images:
-                page_image = page.to_image(resolution=300)
+                page_image = page.to_image(resolution=render_dpi)
                 img_bytes = io.BytesIO()
                 page_image.original.save(img_bytes, format="PNG")
                 extraction.figures.append(
