@@ -1,7 +1,7 @@
 {
   "milestone": "post-processor",
-  "round": 2,
-  "status": "fail",
+  "round": 3,
+  "status": "pass",
   "validatorsRun": {
     "test": {
       "passed": true,
@@ -21,26 +21,20 @@
   },
   "reviewsSummary": {
     "total": 1,
-    "passed": 0,
-    "failed": 1,
-    "failedFeatures": [
-      "fix-scrutiny-post-processor-bugs"
-    ]
+    "passed": 1,
+    "failed": 0,
+    "failedFeatures": []
   },
-  "blockingIssues": [
-    {
-      "featureId": "fix-scrutiny-post-processor-bugs",
-      "severity": "blocking",
-      "description": "Null coercion remains incomplete: required top-level string fields (`source.standard`, `source.section`, `metadata.extracted_by`, `metadata.qc_status`) are still left as null after post-processing."
-    }
-  ],
+  "blockingIssues": [],
   "appliedUpdates": [],
-  "suggestedGuidanceUpdates": [],
-  "rejectedObservations": [
+  "suggestedGuidanceUpdates": [
     {
-      "observation": "python-worker procedure adherence reporting is inconsistent (tests-first requirement not followed while handoff reports followedProcedure=true).",
-      "reason": "already-documented in round 1 synthesis and no new actionable delta for this round"
+      "target": ".factory/skills/python-worker/SKILL.md",
+      "suggestion": "Clarify and enforce consistency for `followedProcedure`: when required TDD ordering is not followed, workers should set `followedProcedure` to false and record the deviation.",
+      "evidence": "Round 3 review of fix-null-coercion-top-level-fields again observed implementation before tests while handoff reported followedProcedure=true.",
+      "isSystemic": true
     }
   ],
-  "previousRound": ".factory/validation/post-processor/scrutiny/synthesis.round1.json"
+  "rejectedObservations": [],
+  "previousRound": ".factory/validation/post-processor/scrutiny/synthesis.round2.json"
 }

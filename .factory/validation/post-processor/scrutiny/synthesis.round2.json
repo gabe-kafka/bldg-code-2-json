@@ -1,0 +1,46 @@
+{
+  "milestone": "post-processor",
+  "round": 2,
+  "status": "fail",
+  "validatorsRun": {
+    "test": {
+      "passed": true,
+      "command": ".venv/bin/python -m pytest tests/ -v --tb=short",
+      "exitCode": 0
+    },
+    "typecheck": {
+      "passed": true,
+      "command": "echo \"No typecheck configured (plain Python, no mypy)\"",
+      "exitCode": 0
+    },
+    "lint": {
+      "passed": true,
+      "command": "echo \"No linter configured\"",
+      "exitCode": 0
+    }
+  },
+  "reviewsSummary": {
+    "total": 1,
+    "passed": 0,
+    "failed": 1,
+    "failedFeatures": [
+      "fix-scrutiny-post-processor-bugs"
+    ]
+  },
+  "blockingIssues": [
+    {
+      "featureId": "fix-scrutiny-post-processor-bugs",
+      "severity": "blocking",
+      "description": "Null coercion remains incomplete: required top-level string fields (`source.standard`, `source.section`, `metadata.extracted_by`, `metadata.qc_status`) are still left as null after post-processing."
+    }
+  ],
+  "appliedUpdates": [],
+  "suggestedGuidanceUpdates": [],
+  "rejectedObservations": [
+    {
+      "observation": "python-worker procedure adherence reporting is inconsistent (tests-first requirement not followed while handoff reports followedProcedure=true).",
+      "reason": "already-documented in round 1 synthesis and no new actionable delta for this round"
+    }
+  ],
+  "previousRound": ".factory/validation/post-processor/scrutiny/synthesis.round1.json"
+}
