@@ -1,0 +1,192 @@
+{
+  "groupId": "pp-meta-integ",
+  "testedAt": "2026-03-28T20:00:00Z",
+  "isolation": {
+    "repoRoot": "/Users/gabe/projects/bldg-code-2-json",
+    "python": ".venv/bin/python",
+    "testCommand": ".venv/bin/python -m pytest tests/ -v --tb=short -k KEYWORD",
+    "services": "none"
+  },
+  "toolsUsed": ["shell"],
+  "assertions": [
+    {
+      "id": "VAL-PP-018",
+      "title": "Empty elements array handled",
+      "status": "pass",
+      "steps": [
+        {
+          "action": "Run pytest -k TestEmptyInput",
+          "expected": "post_process([]) returns [] without raising",
+          "observed": "Test passed: 1/1 selected, TestEmptyInput::test_empty_list PASSED"
+        }
+      ],
+      "evidence": {
+        "testOutput": "post-processor/pp-meta-integ/pytest-pp018-021.txt",
+        "consoleErrors": "none",
+        "exitCode": 0
+      },
+      "issues": null
+    },
+    {
+      "id": "VAL-PP-019",
+      "title": "Post-processor is idempotent",
+      "status": "pass",
+      "steps": [
+        {
+          "action": "Run pytest -k TestIdempotency",
+          "expected": "post_process(post_process(elements)) equals post_process(elements) for all test cases",
+          "observed": "4/4 tests passed: provision, definition reclassification, figure repair, formula range"
+        }
+      ],
+      "evidence": {
+        "testOutput": "post-processor/pp-meta-integ/pytest-pp018-021.txt",
+        "consoleErrors": "none",
+        "exitCode": 0
+      },
+      "issues": null
+    },
+    {
+      "id": "VAL-PP-020",
+      "title": "Unrelated fields preserved",
+      "status": "pass",
+      "steps": [
+        {
+          "action": "Run pytest -k TestFieldPreservation",
+          "expected": "cross_references, metadata, source, and extra unknown fields unchanged after post-processing",
+          "observed": "4/4 tests passed: cross_references_preserved, metadata_preserved, source_preserved, extra_unknown_fields_preserved"
+        }
+      ],
+      "evidence": {
+        "testOutput": "post-processor/pp-meta-integ/pytest-pp018-021.txt",
+        "consoleErrors": "none",
+        "exitCode": 0
+      },
+      "issues": null
+    },
+    {
+      "id": "VAL-PP-021",
+      "title": "Post-processor is a pure function",
+      "status": "pass",
+      "steps": [
+        {
+          "action": "Inspect function signature with inspect.signature(post_process)",
+          "expected": "Accepts list[dict], returns list[dict]",
+          "observed": "Signature: (elements: list[dict]) -> list[dict]"
+        },
+        {
+          "action": "Check module imports for IO/network dependencies",
+          "expected": "Only stdlib imports (copy, re), no IO or network modules",
+          "observed": "Only 'import copy' and 'import re' — no os, io, requests, anthropic, or file handling"
+        },
+        {
+          "action": "Run post_process with ANTHROPIC_API_KEY unset",
+          "expected": "Completes without error, returns list[dict]",
+          "observed": "Returned list with 1 dict element, no errors"
+        },
+        {
+          "action": "Run pytest -k TestPureFunctionNoSideEffects",
+          "expected": "Input not mutated, returns new list",
+          "observed": "2/2 tests passed: test_input_not_mutated, test_returns_new_list"
+        }
+      ],
+      "evidence": {
+        "testOutput": "post-processor/pp-meta-integ/pytest-pp018-021.txt",
+        "signatureCheck": "post-processor/pp-meta-integ/pp021-pure-function.txt",
+        "consoleErrors": "none",
+        "exitCode": 0
+      },
+      "issues": null
+    },
+    {
+      "id": "VAL-INTEG-001",
+      "title": "Post-processor called after extraction, before QC",
+      "status": "pass",
+      "steps": [
+        {
+          "action": "grep for post_process import and call in extract/llm_structurer.py",
+          "expected": "Import from extract.post_processor and call on elements after LLM extraction",
+          "observed": "Line 11: 'from extract.post_processor import post_process'; Line 262: 'processed = post_process(all_elements)' — called after structure_page() loop, before deduplication (which precedes QC)"
+        }
+      ],
+      "evidence": {
+        "grepOutput": "post-processor/pp-meta-integ/integ-001-002.txt",
+        "consoleErrors": "none"
+      },
+      "issues": null
+    },
+    {
+      "id": "VAL-INTEG-002",
+      "title": "CLI commands not broken",
+      "status": "pass",
+      "steps": [
+        {
+          "action": "Run 'python cli.py extract --help'",
+          "expected": "Exit code 0",
+          "observed": "Exit code 0, help text displayed"
+        },
+        {
+          "action": "Run 'python cli.py qc --help'",
+          "expected": "Exit code 0",
+          "observed": "Exit code 0, help text displayed"
+        },
+        {
+          "action": "Run 'python cli.py run --help'",
+          "expected": "Exit code 0",
+          "observed": "Exit code 0, help text displayed"
+        },
+        {
+          "action": "Run 'python cli.py refine --help'",
+          "expected": "Exit code 0",
+          "observed": "Exit code 0, help text displayed"
+        }
+      ],
+      "evidence": {
+        "cliOutput": "post-processor/pp-meta-integ/integ-001-002.txt",
+        "consoleErrors": "none"
+      },
+      "issues": null
+    },
+    {
+      "id": "VAL-CROSS-001",
+      "title": "Full pipeline extract → post-process → QC improvement",
+      "status": "pass",
+      "steps": [
+        {
+          "action": "Load raw extraction output from output/raw/asce722-ch26.json",
+          "expected": "JSON loads successfully with extracted elements",
+          "observed": "Loaded 18 elements"
+        },
+        {
+          "action": "Validate raw elements with validate_chapter()",
+          "expected": "Get baseline pass rate",
+          "observed": "Raw: 10/18 passed (55.6%)"
+        },
+        {
+          "action": "Run post_process() on raw elements",
+          "expected": "Returns processed elements",
+          "observed": "Returned 18 processed elements"
+        },
+        {
+          "action": "Validate post-processed elements with validate_chapter()",
+          "expected": "Higher pass rate than baseline (34%)",
+          "observed": "Post-processed: 14/18 passed (77.8%) — improvement of +22.2 percentage points over raw, well above 34% baseline"
+        }
+      ],
+      "evidence": {
+        "pipelineOutput": "post-processor/pp-meta-integ/cross-001-pipeline.txt",
+        "consoleErrors": "none",
+        "metrics": {
+          "rawPassRate": 55.6,
+          "postProcessedPassRate": 77.8,
+          "improvement": 22.2,
+          "baseline": 34.0,
+          "exceedsBaseline": true
+        }
+      },
+      "issues": null
+    }
+  ],
+  "frictions": [],
+  "blockers": [],
+  "summary": "Tested 7 assertions: all 7 passed. VAL-PP-018 through VAL-PP-021 confirmed via pytest (11 test cases). VAL-INTEG-001 confirmed post_process is imported and called in llm_structurer.py after extraction. VAL-INTEG-002 confirmed all 4 CLI commands exit 0. VAL-CROSS-001 confirmed post-processor improves schema pass rate from 55.6% to 77.8% on real ASCE 7-22 Ch. 26 data, well above the 34% baseline."
+}

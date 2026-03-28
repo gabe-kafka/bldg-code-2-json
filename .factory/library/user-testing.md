@@ -25,3 +25,11 @@
 - Tests must not make real Anthropic API calls (mock all LLM interactions)
 - PDF files in input/ are gitignored — tests use synthetic fixtures
 - output/ directory files are gitignored — tests create temp files via tmp_path
+
+## Flow Validator Guidance: shell
+
+- Surface: local shell/CLI commands only.
+- Isolation boundary: each flow validator tests only its assigned assertion IDs and writes only to its assigned flow report/evidence path.
+- Do not mutate `input/`, `output/raw/`, or `output/qc/`.
+- No services should be started; this project has no runtime services for validation.
+- Keep command outputs assertion-focused and include exact command evidence for pass/fail decisions.

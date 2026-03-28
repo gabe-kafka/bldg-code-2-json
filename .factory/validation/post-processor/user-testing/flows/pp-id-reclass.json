@@ -1,0 +1,159 @@
+{
+  "groupId": "pp-id-reclass",
+  "testedAt": "2026-03-28T00:00:00Z",
+  "isolation": {
+    "repoRoot": "/Users/gabe/projects/bldg-code-2-json",
+    "python": ".venv/bin/python",
+    "testCommand": ".venv/bin/python -m pytest tests/test_post_processor.py -v --tb=short -k KEYWORD"
+  },
+  "toolsUsed": ["shell"],
+  "assertions": [
+    {
+      "id": "VAL-PP-010",
+      "title": "ID normalization — strip spaces",
+      "status": "pass",
+      "steps": [
+        {
+          "action": "Run pytest -k 'test_strip_spaces or test_id_with_internal_spaces or test_mixed_spaces_and_lowercase'",
+          "expected": "All 3 tests pass; ID 'ASCE7-22 - 26.5 - T1' becomes 'ASCE7-22-26.5-T1'",
+          "observed": "3 passed, 84 deselected in 0.01s. IDs with spaces are stripped correctly."
+        }
+      ],
+      "evidence": {
+        "testOutput": "post-processor/pp-id-reclass/VAL-PP-010-strip-spaces.txt",
+        "consoleErrors": "none",
+        "network": "N/A — CLI-only, no network"
+      },
+      "issues": null
+    },
+    {
+      "id": "VAL-PP-011",
+      "title": "ID normalization — pattern compliance",
+      "status": "pass",
+      "steps": [
+        {
+          "action": "Run pytest -k 'test_lowercase_prefix_uppercased'",
+          "expected": "1 test passes; lowercase 'asce7-22-26.5-T1' uppercased to 'ASCE7-22-26.5-T1'",
+          "observed": "1 passed, 86 deselected in 0.01s. Lowercase prefix uppercased to match schema pattern."
+        }
+      ],
+      "evidence": {
+        "testOutput": "post-processor/pp-id-reclass/VAL-PP-011-pattern-compliance.txt",
+        "consoleErrors": "none",
+        "network": "N/A — CLI-only, no network"
+      },
+      "issues": null
+    },
+    {
+      "id": "VAL-PP-012",
+      "title": "ID normalization — already-valid IDs unchanged",
+      "status": "pass",
+      "steps": [
+        {
+          "action": "Run pytest -k 'test_already_valid_id_unchanged'",
+          "expected": "1 test passes; valid ID 'ASCE7-22-26.5-T1' passes through unchanged",
+          "observed": "1 passed, 86 deselected in 0.01s. Valid ID input equals output."
+        }
+      ],
+      "evidence": {
+        "testOutput": "post-processor/pp-id-reclass/VAL-PP-012-valid-ids-unchanged.txt",
+        "consoleErrors": "none",
+        "network": "N/A — CLI-only, no network"
+      },
+      "issues": null
+    },
+    {
+      "id": "VAL-PP-013",
+      "title": "Reclassify definitions — provision with definition keywords",
+      "status": "pass",
+      "steps": [
+        {
+          "action": "Run pytest -k 'test_all_caps_term_colon or test_is_defined_as_pattern or test_means_pattern or test_definition_data_structure'",
+          "expected": "4 tests pass; provisions with definition patterns reclassified to type 'definition'",
+          "observed": "4 passed, 83 deselected in 0.01s. ALL-CAPS:, 'is defined as', 'means' patterns all reclassify correctly with proper definition_data structure."
+        }
+      ],
+      "evidence": {
+        "testOutput": "post-processor/pp-id-reclass/VAL-PP-013-reclassify-definitions.txt",
+        "consoleErrors": "none",
+        "network": "N/A — CLI-only, no network"
+      },
+      "issues": null
+    },
+    {
+      "id": "VAL-PP-014",
+      "title": "Reclassify definitions — real provisions unchanged",
+      "status": "pass",
+      "steps": [
+        {
+          "action": "Run pytest -k 'test_real_provision_unchanged'",
+          "expected": "1 test passes; genuine provision retains type 'provision'",
+          "observed": "1 passed, 86 deselected in 0.01s. Provision 'Buildings with mean roof height...' remains type 'provision'."
+        }
+      ],
+      "evidence": {
+        "testOutput": "post-processor/pp-id-reclass/VAL-PP-014-real-provisions-unchanged.txt",
+        "consoleErrors": "none",
+        "network": "N/A — CLI-only, no network"
+      },
+      "issues": null
+    },
+    {
+      "id": "VAL-PP-015",
+      "title": "Non-provision types unchanged by reclassification",
+      "status": "pass",
+      "steps": [
+        {
+          "action": "Run pytest -k 'test_non_provision_types_unchanged'",
+          "expected": "1 test passes; table, formula, figure, reference, skipped_figure types all unchanged",
+          "observed": "1 passed, 86 deselected in 0.01s. All 5 non-provision types tested in loop, all unchanged."
+        }
+      ],
+      "evidence": {
+        "testOutput": "post-processor/pp-id-reclass/VAL-PP-015-non-provision-types-unchanged.txt",
+        "consoleErrors": "none",
+        "network": "N/A — CLI-only, no network"
+      },
+      "issues": null
+    },
+    {
+      "id": "VAL-PP-016",
+      "title": "Figure data shape repair",
+      "status": "pass",
+      "steps": [
+        {
+          "action": "Run pytest -k 'test_figure_with_skipped_shape'",
+          "expected": "1 test passes; figure with skipped_figure-shaped data changes to type 'skipped_figure'",
+          "observed": "1 passed, 86 deselected in 0.01s. Figure with figure_type+skip_reason data correctly retyped to skipped_figure."
+        }
+      ],
+      "evidence": {
+        "testOutput": "post-processor/pp-id-reclass/VAL-PP-016-figure-shape-repair.txt",
+        "consoleErrors": "none",
+        "network": "N/A — CLI-only, no network"
+      },
+      "issues": null
+    },
+    {
+      "id": "VAL-PP-017",
+      "title": "Valid figure data unchanged",
+      "status": "pass",
+      "steps": [
+        {
+          "action": "Run pytest -k 'test_valid_figure_unchanged'",
+          "expected": "1 test passes; figure with valid figure_data structure retains type 'figure'",
+          "observed": "1 passed, 86 deselected in 0.01s. Figure with proper figure_class+data (axes, curves) retains type 'figure'."
+        }
+      ],
+      "evidence": {
+        "testOutput": "post-processor/pp-id-reclass/VAL-PP-017-valid-figure-unchanged.txt",
+        "consoleErrors": "none",
+        "network": "N/A — CLI-only, no network"
+      },
+      "issues": null
+    }
+  ],
+  "frictions": [],
+  "blockers": [],
+  "summary": "Tested 8 assertions: 8 passed, 0 failed. All ID normalization (strip spaces, uppercase prefix, pass-through), definition reclassification (keyword detection, real provisions preserved, non-provision types unaffected), and figure shape repair (skipped_figure detection, valid figures preserved) behaviors confirmed working as specified."
+}

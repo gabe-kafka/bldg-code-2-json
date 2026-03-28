@@ -1,0 +1,106 @@
+{
+  "groupId": "pp-core",
+  "testedAt": "2026-03-28T00:00:00Z",
+  "isolation": {
+    "repoRoot": "/Users/gabe/projects/bldg-code-2-json",
+    "python": ".venv/bin/python",
+    "testCommand": ".venv/bin/python -m pytest tests/ -v --tb=short -k KEYWORD",
+    "services": "none (CLI-only pipeline)"
+  },
+  "toolsUsed": ["shell"],
+  "assertions": [
+    {
+      "id": "VAL-PP-001",
+      "title": "Module exists at expected path",
+      "status": "pass",
+      "steps": [
+        {
+          "action": "Run: .venv/bin/python -c \"from extract.post_processor import post_process; print('OK')\"",
+          "expected": "Prints 'OK' and exits 0",
+          "observed": "Printed 'OK', exit code 0"
+        }
+      ],
+      "evidence": {
+        "logs": ["post-processor/pp-core/VAL-PP-001-import.txt"],
+        "consoleErrors": "none",
+        "network": "n/a"
+      },
+      "issues": null
+    },
+    {
+      "id": "VAL-PP-002",
+      "title": "Operator normalization — Unicode symbols",
+      "status": "pass",
+      "steps": [
+        {
+          "action": "Run pytest -k TestOperatorNormalizationUnicode",
+          "expected": "All 3 tests pass: ≤→<=, ≥→>=, ≠→!=",
+          "observed": "3 passed, 84 deselected in 0.01s"
+        }
+      ],
+      "evidence": {
+        "logs": ["post-processor/pp-core/VAL-PP-002-unicode-operators.txt"],
+        "consoleErrors": "none",
+        "network": "n/a"
+      },
+      "issues": null
+    },
+    {
+      "id": "VAL-PP-003",
+      "title": "Operator normalization — English words",
+      "status": "pass",
+      "steps": [
+        {
+          "action": "Run pytest -k TestOperatorNormalizationEnglish",
+          "expected": "All 6 parametrized tests pass: equals→==, greater than→>, less than→<, at least→>=, at most→<=, not equal→!=",
+          "observed": "6 passed, 81 deselected in 0.01s"
+        }
+      ],
+      "evidence": {
+        "logs": ["post-processor/pp-core/VAL-PP-003-english-operators.txt"],
+        "consoleErrors": "none",
+        "network": "n/a"
+      },
+      "issues": null
+    },
+    {
+      "id": "VAL-PP-004",
+      "title": "Operator normalization — already-valid operators pass through",
+      "status": "pass",
+      "steps": [
+        {
+          "action": "Run pytest -k TestOperatorNormalizationPassthrough",
+          "expected": "All 8 parametrized tests pass for ==, !=, >, >=, <, <=, in, not_in",
+          "observed": "8 passed, 79 deselected in 0.01s"
+        }
+      ],
+      "evidence": {
+        "logs": ["post-processor/pp-core/VAL-PP-004-valid-passthrough.txt"],
+        "consoleErrors": "none",
+        "network": "n/a"
+      },
+      "issues": null
+    },
+    {
+      "id": "VAL-PP-005",
+      "title": "Operator normalization — empty conditions array",
+      "status": "pass",
+      "steps": [
+        {
+          "action": "Run pytest -k TestOperatorNormalizationEmptyConditions",
+          "expected": "Test passes: empty conditions array processed without error, remains empty",
+          "observed": "1 passed, 86 deselected in 0.01s"
+        }
+      ],
+      "evidence": {
+        "logs": ["post-processor/pp-core/VAL-PP-005-empty-conditions.txt"],
+        "consoleErrors": "none",
+        "network": "n/a"
+      },
+      "issues": null
+    }
+  ],
+  "frictions": [],
+  "blockers": [],
+  "summary": "Tested 5 assertions: 5 passed, 0 failed. All post-processor core operator normalization behaviors confirmed working as specified."
+}

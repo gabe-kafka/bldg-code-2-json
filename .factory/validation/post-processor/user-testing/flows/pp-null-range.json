@@ -1,0 +1,145 @@
+{
+  "groupId": "pp-null-range",
+  "testedAt": "2026-03-28T00:00:00Z",
+  "isolation": {
+    "repoRoot": "/Users/gabe/projects/bldg-code-2-json",
+    "python": ".venv/bin/python",
+    "testCommand": ".venv/bin/python -m pytest tests/test_post_processor.py -v --tb=short",
+    "surface": "shell"
+  },
+  "toolsUsed": ["shell"],
+  "assertions": [
+    {
+      "id": "VAL-PP-006",
+      "title": "Null-to-empty-string coercion — required string fields",
+      "status": "pass",
+      "steps": [
+        {
+          "action": "Run pytest -k 'TestNullCoercion and not NewFields' (10 tests covering required string fields with null → \"\")",
+          "expected": "All 10 tests pass: provision rule, then, title, definition term/definition, formula unit, and nullable fields left unchanged",
+          "observed": "10 passed, 0 failed"
+        },
+        {
+          "action": "Run pytest -k 'TestNullCoercionNewFields' (18 tests covering additional required string fields)",
+          "expected": "All 18 tests pass: source.standard, source.section, metadata.extracted_by, metadata.qc_status, formula expression, reference target, axis/curve fields, skipped_figure fields",
+          "observed": "18 passed, 0 failed (as part of 34-test combined run)"
+        },
+        {
+          "action": "Run inline Python: post_process element with data.rule=null, verify result",
+          "expected": "result[0]['data']['rule'] == ''",
+          "observed": "data.rule after post_process: '' — confirmed empty string"
+        }
+      ],
+      "evidence": {
+        "screenshots": [],
+        "consoleErrors": "N/A (CLI)",
+        "testOutput": "post-processor/pp-null-range/pytest-output.txt",
+        "keyResults": "TestNullCoercion: 10 passed. TestNullCoercionNewFields: 18 passed (source.standard, source.section, metadata.extracted_by, metadata.qc_status, formula expression, reference target, axis name/unit/scale, curve label/interpolation, skipped_figure figure_type/skip_reason). Nullable fields (description, qc_notes, page) confirmed NOT coerced."
+      },
+      "issues": null
+    },
+    {
+      "id": "VAL-PP-007",
+      "title": "Null-to-empty-string coercion — nested data fields",
+      "status": "pass",
+      "steps": [
+        {
+          "action": "Run pytest test_provision_rule_null: provision with data.rule=null",
+          "expected": "data.rule coerced to ''",
+          "observed": "PASSED — data.rule == ''"
+        },
+        {
+          "action": "Run inline Python: create provision with data={'rule': None, ...}, call post_process",
+          "expected": "result[0]['data']['rule'] == ''",
+          "observed": "data.rule after post_process: '' — confirmed"
+        },
+        {
+          "action": "Run pytest test_definition_term_null and test_definition_definition_null",
+          "expected": "Nested data.term and data.definition coerced to ''",
+          "observed": "Both PASSED"
+        }
+      ],
+      "evidence": {
+        "screenshots": [],
+        "consoleErrors": "N/A (CLI)",
+        "testOutput": "post-processor/pp-null-range/pytest-output.txt",
+        "inlineVerification": "post_process([{...data: {rule: None}...}])[0]['data']['rule'] == '' → True",
+        "keyResults": "test_provision_rule_null: PASSED. Inline Python confirms data.rule null→'' coercion. test_definition_term_null: PASSED. test_definition_definition_null: PASSED."
+      },
+      "issues": null
+    },
+    {
+      "id": "VAL-PP-008",
+      "title": "Range fields with null values removed",
+      "status": "pass",
+      "steps": [
+        {
+          "action": "Run pytest TestRangeNullRemoval::test_range_null_removed (range: null)",
+          "expected": "'range' key removed from parameter dict",
+          "observed": "PASSED — 'range' not in parameters['z']"
+        },
+        {
+          "action": "Run pytest TestRangeNullRemoval::test_range_partial_null_removed (range: [null, 100])",
+          "expected": "'range' key removed from parameter dict",
+          "observed": "PASSED — 'range' not in parameters['z']"
+        },
+        {
+          "action": "Run pytest TestRangeNullRemoval::test_range_first_element_null_removed (range: [null, null])",
+          "expected": "'range' key removed",
+          "observed": "PASSED"
+        },
+        {
+          "action": "Run pytest TestRangeNullRemoval::test_second_element_null_removed (range: [0, null])",
+          "expected": "'range' key removed",
+          "observed": "PASSED"
+        },
+        {
+          "action": "Run inline Python: post_process with range=null and range=[null,100]",
+          "expected": "'range' key absent in output parameter dicts",
+          "observed": "range key present: False for both cases. Parameter dict: {\"unit\": \"ft\"}"
+        }
+      ],
+      "evidence": {
+        "screenshots": [],
+        "consoleErrors": "N/A (CLI)",
+        "testOutput": "post-processor/pp-null-range/pytest-output.txt",
+        "inlineVerification": "range:null → param dict {\"unit\":\"ft\"} (no range key). range:[null,100] → param dict {\"unit\":\"ft\"} (no range key).",
+        "keyResults": "All 4 null-range test cases PASSED. test_range_null_removed, test_range_partial_null_removed, test_range_first_element_null_removed, test_second_element_null_removed."
+      },
+      "issues": null
+    },
+    {
+      "id": "VAL-PP-009",
+      "title": "Valid range fields preserved",
+      "status": "pass",
+      "steps": [
+        {
+          "action": "Run pytest TestRangeNullRemoval::test_valid_range_preserved (range: [0, 1500])",
+          "expected": "range key present and value unchanged [0, 1500]",
+          "observed": "PASSED — range == [0, 1500]"
+        },
+        {
+          "action": "Run pytest TestRangeNullRemoval::test_no_range_key_no_error (no range key at all)",
+          "expected": "No error, no range key added",
+          "observed": "PASSED"
+        },
+        {
+          "action": "Run inline Python: post_process with range=[0,1500]",
+          "expected": "range key present: True, range value: [0, 1500]",
+          "observed": "range key present: True, range value: [0, 1500], unchanged: True"
+        }
+      ],
+      "evidence": {
+        "screenshots": [],
+        "consoleErrors": "N/A (CLI)",
+        "testOutput": "post-processor/pp-null-range/pytest-output.txt",
+        "inlineVerification": "range:[0,1500] → range key present: True, value: [0, 1500], unchanged: True",
+        "keyResults": "test_valid_range_preserved: PASSED. test_no_range_key_no_error: PASSED. Inline verification confirms [0, 1500] preserved exactly."
+      },
+      "issues": null
+    }
+  ],
+  "frictions": [],
+  "blockers": [],
+  "summary": "Tested 4 assertions: 4 passed, 0 failed. VAL-PP-006 (null→empty string coercion for required string fields) confirmed by 28 pytest tests covering all schema-required string fields. VAL-PP-007 (nested data.rule null coercion) confirmed by pytest and inline verification. VAL-PP-008 (null range removal) confirmed by 4 test cases covering range:null, [null,100], [null,null], [0,null]. VAL-PP-009 (valid range preservation) confirmed by pytest and inline verification with [0,1500]."
+}

@@ -1,0 +1,148 @@
+{
+  "groupId": "schema-tests",
+  "testedAt": "2026-03-28T00:00:00Z",
+  "isolation": {
+    "repoRoot": "/Users/gabe/projects/bldg-code-2-json",
+    "python": ".venv/bin/python",
+    "testCommand": ".venv/bin/python -m pytest tests/ -v --tb=short",
+    "services": "none"
+  },
+  "toolsUsed": ["shell"],
+  "assertions": [
+    {
+      "id": "VAL-SCHEMA-001",
+      "title": "Definition added to type enum",
+      "status": "pass",
+      "steps": [
+        { "action": "Parse schema/element.schema.json and read properties.type.enum", "expected": "\"definition\" in enum list", "observed": "enum is ['table', 'provision', 'formula', 'figure', 'skipped_figure', 'reference', 'definition'] — 'definition' present" }
+      ],
+      "evidence": {
+        "commandOutput": "post-processor/schema-tests/VAL-SCHEMA-001-type-enum.txt"
+      },
+      "issues": null
+    },
+    {
+      "id": "VAL-SCHEMA-002",
+      "title": "definition_data schema exists",
+      "status": "pass",
+      "steps": [
+        { "action": "Parse schema and check $defs/definition_data", "expected": "Entry exists with required term and definition string fields", "observed": "definition_data exists, type=object, required=['term','definition'], both type='string'" }
+      ],
+      "evidence": {
+        "commandOutput": "post-processor/schema-tests/VAL-SCHEMA-002-definition-data.txt"
+      },
+      "issues": null
+    },
+    {
+      "id": "VAL-SCHEMA-003",
+      "title": "definition_data in data oneOf",
+      "status": "pass",
+      "steps": [
+        { "action": "Parse schema and check data.oneOf refs", "expected": "$ref to definition_data present", "observed": "oneOf refs include '#/$defs/definition_data'" }
+      ],
+      "evidence": {
+        "commandOutput": "post-processor/schema-tests/VAL-SCHEMA-003-data-oneof.txt"
+      },
+      "issues": null
+    },
+    {
+      "id": "VAL-SCHEMA-004",
+      "title": "Existing types still validate",
+      "status": "pass",
+      "steps": [
+        { "action": "Run pytest test_schema_validator.py::TestValidElements::test_valid_provision_passes", "expected": "Test passes — known-good provision validates", "observed": "PASSED" }
+      ],
+      "evidence": {
+        "commandOutput": "post-processor/schema-tests/VAL-SCHEMA-004-existing-types-validate.txt"
+      },
+      "issues": null
+    },
+    {
+      "id": "VAL-SCHEMA-005",
+      "title": "Definition element validates",
+      "status": "pass",
+      "steps": [
+        { "action": "Run pytest tests for valid definition elements", "expected": "Tests pass — well-formed definition validates", "observed": "test_valid_definition_passes, test_definition_with_conditions_passes, test_definition_minimal_passes all PASSED" }
+      ],
+      "evidence": {
+        "commandOutput": "post-processor/schema-tests/VAL-SCHEMA-005-definition-validates.txt"
+      },
+      "issues": null
+    },
+    {
+      "id": "VAL-SCHEMA-006",
+      "title": "Schema is valid Draft 2020-12",
+      "status": "pass",
+      "steps": [
+        { "action": "Run Draft202012Validator.check_schema on element.schema.json", "expected": "No exception — schema is valid", "observed": "Schema is valid Draft 2020-12: PASS" }
+      ],
+      "evidence": {
+        "commandOutput": "post-processor/schema-tests/VAL-SCHEMA-006-draft-2020-12.txt"
+      },
+      "issues": null
+    },
+    {
+      "id": "VAL-TEST-M1-001",
+      "title": "pytest in requirements.txt",
+      "status": "pass",
+      "steps": [
+        { "action": "grep pytest requirements.txt", "expected": "pytest line found", "observed": "Line 6: pytest>=8.0.0" }
+      ],
+      "evidence": {
+        "commandOutput": "post-processor/schema-tests/VAL-TEST-M1-001-pytest-in-requirements.txt"
+      },
+      "issues": null
+    },
+    {
+      "id": "VAL-TEST-M1-002",
+      "title": "Post-processor test file exists",
+      "status": "pass",
+      "steps": [
+        { "action": "Check tests/test_post_processor.py exists", "expected": "File exists", "observed": "EXISTS" }
+      ],
+      "evidence": {
+        "commandOutput": "post-processor/schema-tests/VAL-TEST-M1-002-test-post-processor-exists.txt"
+      },
+      "issues": null
+    },
+    {
+      "id": "VAL-TEST-M1-003",
+      "title": "Schema validator test file exists",
+      "status": "pass",
+      "steps": [
+        { "action": "Check tests/test_schema_validator.py exists", "expected": "File exists", "observed": "EXISTS" }
+      ],
+      "evidence": {
+        "commandOutput": "post-processor/schema-tests/VAL-TEST-M1-003-test-schema-validator-exists.txt"
+      },
+      "issues": null
+    },
+    {
+      "id": "VAL-TEST-M1-004",
+      "title": "All milestone 1 tests pass",
+      "status": "pass",
+      "steps": [
+        { "action": "Run pytest tests/test_post_processor.py tests/test_schema_validator.py -v", "expected": "Exit code 0, all passed", "observed": "108 passed in 0.54s, exit code 0" }
+      ],
+      "evidence": {
+        "commandOutput": "post-processor/schema-tests/VAL-TEST-M1-004-all-tests-pass.txt"
+      },
+      "issues": null
+    },
+    {
+      "id": "VAL-TEST-M1-005",
+      "title": "Tests require no API calls",
+      "status": "pass",
+      "steps": [
+        { "action": "Run env -u ANTHROPIC_API_KEY pytest on both test files", "expected": "All tests pass without API key", "observed": "108 passed in 0.40s, exit code 0 — no API key needed" }
+      ],
+      "evidence": {
+        "commandOutput": "post-processor/schema-tests/VAL-TEST-M1-005-no-api-key-needed.txt"
+      },
+      "issues": null
+    }
+  ],
+  "frictions": [],
+  "blockers": [],
+  "summary": "Tested 11 assertions: 11 passed, 0 failed. All schema changes (definition type, definition_data schema, data oneOf ref, meta-schema validity) confirmed. All test infrastructure requirements (pytest dependency, test files exist, all tests pass, no API key needed) confirmed."
+}
