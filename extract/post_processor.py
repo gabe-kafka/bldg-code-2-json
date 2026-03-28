@@ -137,6 +137,22 @@ def _coerce_null_strings(el: dict) -> None:
     if el.get("title") is None:
         el["title"] = ""
 
+    # source object — standard and section are required strings
+    source = el.get("source")
+    if isinstance(source, dict):
+        if source.get("standard") is None:
+            source["standard"] = ""
+        if source.get("section") is None:
+            source["section"] = ""
+
+    # metadata object — extracted_by and qc_status are required strings (enums)
+    metadata = el.get("metadata")
+    if isinstance(metadata, dict):
+        if metadata.get("extracted_by") is None:
+            metadata["extracted_by"] = ""
+        if metadata.get("qc_status") is None:
+            metadata["qc_status"] = ""
+
     # Provision data
     data = el.get("data")
     if not isinstance(data, dict):

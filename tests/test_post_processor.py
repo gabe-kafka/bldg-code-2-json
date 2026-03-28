@@ -942,6 +942,76 @@ class TestNullCoercionNewFields:
         result = post_process([el])
         assert result[0]["data"]["expression"] == "Kz = 2.01 * (z/zg)^(2/alpha)"
 
+    def test_source_standard_null(self):
+        """source.standard is required string → coerce null to ''."""
+        el = _make_element()
+        el["source"]["standard"] = None
+        result = post_process([el])
+        assert result[0]["source"]["standard"] == ""
+
+    def test_source_section_null(self):
+        """source.section is required string → coerce null to ''."""
+        el = _make_element()
+        el["source"]["section"] = None
+        result = post_process([el])
+        assert result[0]["source"]["section"] == ""
+
+    def test_metadata_extracted_by_null(self):
+        """metadata.extracted_by is required string (enum) → coerce null to ''."""
+        el = _make_element()
+        el["metadata"]["extracted_by"] = None
+        result = post_process([el])
+        assert result[0]["metadata"]["extracted_by"] == ""
+
+    def test_metadata_qc_status_null(self):
+        """metadata.qc_status is required string (enum) → coerce null to ''."""
+        el = _make_element()
+        el["metadata"]["qc_status"] = None
+        result = post_process([el])
+        assert result[0]["metadata"]["qc_status"] == ""
+
+    def test_source_standard_non_null_unchanged(self):
+        """Non-null source.standard is not altered."""
+        el = _make_element()
+        el["source"]["standard"] = "ASCE 7-22"
+        result = post_process([el])
+        assert result[0]["source"]["standard"] == "ASCE 7-22"
+
+    def test_source_section_non_null_unchanged(self):
+        """Non-null source.section is not altered."""
+        el = _make_element()
+        el["source"]["section"] = "26.5"
+        result = post_process([el])
+        assert result[0]["source"]["section"] == "26.5"
+
+    def test_metadata_extracted_by_non_null_unchanged(self):
+        """Non-null metadata.extracted_by is not altered."""
+        el = _make_element()
+        el["metadata"]["extracted_by"] = "manual"
+        result = post_process([el])
+        assert result[0]["metadata"]["extracted_by"] == "manual"
+
+    def test_metadata_qc_status_non_null_unchanged(self):
+        """Non-null metadata.qc_status is not altered."""
+        el = _make_element()
+        el["metadata"]["qc_status"] = "passed"
+        result = post_process([el])
+        assert result[0]["metadata"]["qc_status"] == "passed"
+
+    def test_all_top_level_fields_null_coerced(self):
+        """All top-level and nested required string fields coerced together."""
+        el = _make_element(title=None)
+        el["source"]["standard"] = None
+        el["source"]["section"] = None
+        el["metadata"]["extracted_by"] = None
+        el["metadata"]["qc_status"] = None
+        result = post_process([el])
+        assert result[0]["title"] == ""
+        assert result[0]["source"]["standard"] == ""
+        assert result[0]["source"]["section"] == ""
+        assert result[0]["metadata"]["extracted_by"] == ""
+        assert result[0]["metadata"]["qc_status"] == ""
+
 
 # ===========================================================================
 # Bug Fix 3: Dedupe-after-post-process (tested at pipeline level)
