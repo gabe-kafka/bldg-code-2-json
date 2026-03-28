@@ -1,6 +1,6 @@
 {
   "milestone": "post-processor",
-  "round": 1,
+  "round": 2,
   "status": "fail",
   "validatorsRun": {
     "test": {
@@ -20,51 +20,27 @@
     }
   },
   "reviewsSummary": {
-    "total": 3,
-    "passed": 1,
-    "failed": 2,
+    "total": 1,
+    "passed": 0,
+    "failed": 1,
     "failedFeatures": [
-      "post-processor-module",
-      "post-processor-integration"
+      "fix-scrutiny-post-processor-bugs"
     ]
   },
   "blockingIssues": [
     {
-      "featureId": "post-processor-module",
+      "featureId": "fix-scrutiny-post-processor-bugs",
       "severity": "blocking",
-      "description": "Operator normalization can crash on non-string operator values because `_normalize_operators` calls `op.lower()` without a type guard."
-    },
-    {
-      "featureId": "post-processor-module",
-      "severity": "blocking",
-      "description": "Null coercion is incomplete versus stated requirement: several schema-required string fields (for example `source.standard`, `source.section`, `metadata.extracted_by`, `metadata.qc_status`, `data.expression`) are not coerced when null."
-    },
-    {
-      "featureId": "post-processor-integration",
-      "severity": "blocking",
-      "description": "Deduplication happens before ID normalization, so `post_process` can normalize distinct IDs into duplicates after dedupe and violate unique-ID expectations."
+      "description": "Null coercion remains incomplete: required top-level string fields (`source.standard`, `source.section`, `metadata.extracted_by`, `metadata.qc_status`) are still left as null after post-processing."
     }
   ],
   "appliedUpdates": [],
-  "suggestedGuidanceUpdates": [
-    {
-      "target": ".factory/skills/python-worker/SKILL.md",
-      "suggestion": "Clarify and enforce consistency for `followedProcedure`: if required verification steps are skipped (such as mandatory real-data checks), workers should set `followedProcedure` to false and record the deviation.",
-      "evidence": "Two independent reviews (`schema-definition-type` and `post-processor-module`) found required-skill-step mismatches while handoff still reported `followedProcedure: true`.",
-      "isSystemic": true
-    },
-    {
-      "target": "AGENTS.md",
-      "suggestion": "Add an explicit integration rule: if any transform can mutate IDs, perform final deduplication after that transform (or normalize IDs before dedupe) to preserve unique-ID invariants.",
-      "evidence": "Review of `post-processor-integration` found duplicate IDs can appear because dedupe currently occurs before ID normalization.",
-      "isSystemic": false
-    }
-  ],
+  "suggestedGuidanceUpdates": [],
   "rejectedObservations": [
     {
-      "observation": "Procedure-adherence signaling appears inconsistent: required real-data verification was not run while `followedProcedure` remained true.",
-      "reason": "duplicate"
+      "observation": "python-worker procedure adherence reporting is inconsistent (tests-first requirement not followed while handoff reports followedProcedure=true).",
+      "reason": "already-documented in round 1 synthesis and no new actionable delta for this round"
     }
   ],
-  "previousRound": null
+  "previousRound": ".factory/validation/post-processor/scrutiny/synthesis.round1.json"
 }

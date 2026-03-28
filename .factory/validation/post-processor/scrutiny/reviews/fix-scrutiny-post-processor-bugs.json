@@ -1,0 +1,28 @@
+{
+  "featureId": "fix-scrutiny-post-processor-bugs",
+  "reviewedAt": "2026-03-28T23:13:54Z",
+  "commitId": "d62969e81b80460e73fa994d355c712768939821",
+  "transcriptSkeletonReviewed": true,
+  "diffReviewed": true,
+  "status": "fail",
+  "codeReview": {
+    "summary": "The fix successfully addresses two prior blockers (non-string operator crash guard and dedupe ordering after ID normalization), but the null-coercion blocker from post-processor-module is not fully resolved: multiple schema-required top-level string fields still remain null after post-processing.",
+    "issues": [
+      {
+        "file": "extract/post_processor.py",
+        "line": 130,
+        "severity": "blocking",
+        "description": "_coerce_null_strings still only coerces selected fields (starting with title at line 137 and data subfields), but does not coerce required string fields `source.standard`, `source.section`, `metadata.extracted_by`, or `metadata.qc_status` (schema requires string at schema/element.schema.json lines 22, 24, 49, 53). Reproduced with a local check: passing an element with those fields set to null through `post_process` leaves them as null (`{'standard': None, 'section': None}` and `{'extracted_by': None, 'qc_status': None}`), so the original blocking null-coercion gap remains."
+      }
+    ]
+  },
+  "sharedStateObservations": [
+    {
+      "area": "skills",
+      "observation": "Procedure adherence reporting is still inconsistent for python-worker: the skill requires test-first TDD, but this run implemented fixes before adding tests while handoff marked followedProcedure=true with no deviations.",
+      "evidence": ".factory/skills/python-worker/SKILL.md line 29 requires \"Write tests first (TDD)\"; transcript skeleton for workerSessionId 4c1706a0-7eed-4d1a-a65b-b707ad58a74a states \"Now let me implement all three fixes\" before \"Now add test cases\", while handoff.skillFeedback.followedProcedure=true and deviations=[]."
+    }
+  ],
+  "addressesFailureFrom": ".factory/validation/post-processor/scrutiny/synthesis.json",
+  "summary": "Re-run review for fix-scrutiny-post-processor-bugs: non-string operator handling and dedupe-after-post-process are fixed, but null coercion remains incomplete for required top-level schema string fields, so this fix does not fully clear the prior blocking failure set."
+}
