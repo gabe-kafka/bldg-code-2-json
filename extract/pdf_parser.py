@@ -86,10 +86,10 @@ def parse_pdf(pdf_path: str | Path, start_page: int = 1, end_page: int | None = 
                     )
                 )
 
-            # --- Figures (rasterize full page as fallback) ---
+            # --- Figures (rasterize at high resolution for complex diagrams) ---
             images = page.images
             if images:
-                page_image = page.to_image(resolution=200)
+                page_image = page.to_image(resolution=300)
                 img_bytes = io.BytesIO()
                 page_image.original.save(img_bytes, format="PNG")
                 extraction.figures.append(

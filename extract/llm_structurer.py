@@ -138,7 +138,11 @@ def structure_page(
 
 
 def structure_figures(page: PageExtraction, standard: str, chapter: int) -> list[dict]:
-    """Digitize all figures on a page and return structured elements.
+    """Digitize all figures on a page using multi-pass extraction.
+
+    Pass 1: Classify figure type (xy_chart, diagram, multi_panel, contour_map).
+    Pass 2: Extract with type-specific prompt.
+    Pass 3: Verify extraction against original image.
 
     Args:
         page: Extracted page data.
@@ -151,7 +155,8 @@ def structure_figures(page: PageExtraction, standard: str, chapter: int) -> list
     elements = []
     for i, fig in enumerate(page.figures):
         caption = fig.caption or ""
-        figure_data = digitize_figure(fig.image_bytes, context=caption)
+        # Multi-pass extraction: classify → extract → verify
+        figure_result = digitize_figure(fig.image_bytes, context=caption, verify=True)
 
         element = {
             "id": f"{standard.replace(' ', '')}-{chapter}-F{i+1}",
@@ -163,8 +168,8 @@ def structure_figures(page: PageExtraction, standard: str, chapter: int) -> list
                 "page": fig.page,
             },
             "title": caption or f"Figure on page {fig.page}",
-            "description": None,
-            "data": figure_data,
+            "description": figure_result.get("figure_class", {}).get("description"),
+            "data": figure_result,
             "cross_references": [],
             "metadata": {
                 "extracted_by": "auto",
