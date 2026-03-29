@@ -490,7 +490,7 @@ class TestDefinitionReclassification:
 
     def test_non_provision_types_unchanged(self):
         """VAL-PP-015: Non-provision types not affected."""
-        for t in ["table", "formula", "figure", "reference", "skipped_figure"]:
+        for t in ["table", "formula", "figure", "reference"]:
             el = _make_element(type=t, data=_type_data(t))
             result = post_process([el])
             assert result[0]["type"] == t
@@ -510,65 +510,6 @@ class TestDefinitionReclassification:
         assert result[0]["type"] == "definition"
         assert result[0]["data"]["term"] == "BASIC WIND SPEED"
 
-
-# ===========================================================================
-# 6. Figure Shape Repair
-# ===========================================================================
-
-
-class TestFigureShapeRepair:
-    """VAL-PP-016, VAL-PP-017: Mistyped figures → skipped_figure."""
-
-    def test_figure_with_skipped_shape(self):
-        """VAL-PP-016: figure + skipped data → skipped_figure."""
-        el = _make_element(
-            type="figure",
-            data={
-                "figure_type": "diagram",
-                "skip_reason": "Illustrative diagram",
-                "description": "Some diagram",
-            },
-        )
-        result = post_process([el])
-        assert result[0]["type"] == "skipped_figure"
-
-    def test_valid_figure_unchanged(self):
-        """VAL-PP-017: Valid figure data keeps type='figure'."""
-        el = _make_element(
-            type="figure",
-            data={
-                "figure_class": {
-                    "figure_type": "xy_chart",
-                    "description": "Wind speed chart",
-                },
-                "data": {
-                    "x_axis": {"name": "height", "unit": "ft", "scale": "linear"},
-                    "y_axis": {"name": "Kz", "unit": "dimensionless", "scale": "linear"},
-                    "curves": [
-                        {
-                            "label": "Exposure B",
-                            "points": [[0, 0.57], [15, 0.57], [30, 0.70], [60, 0.81], [100, 0.90]],
-                            "interpolation": "linear",
-                        }
-                    ],
-                },
-            },
-        )
-        result = post_process([el])
-        assert result[0]["type"] == "figure"
-
-    def test_skipped_figure_type_unchanged(self):
-        """Already skipped_figure stays skipped_figure."""
-        el = _make_element(
-            type="skipped_figure",
-            data={
-                "figure_type": "diagram",
-                "skip_reason": "Illustrative",
-                "description": "Some diagram",
-            },
-        )
-        result = post_process([el])
-        assert result[0]["type"] == "skipped_figure"
 
 
 # ===========================================================================
@@ -609,13 +550,12 @@ class TestIdempotency:
         twice = post_process(once)
         assert once == twice
 
-    def test_idempotent_figure_repair(self):
+    def test_idempotent_figure(self):
         el = _make_element(
             type="figure",
             data={
-                "figure_type": "diagram",
-                "skip_reason": "Illustrative",
-                "description": "x",
+                "figure_type": "flowchart",
+                "description": "Test diagram",
             },
         )
         once = post_process([el])
@@ -728,18 +668,9 @@ def _type_data(t):
     elif t == "formula":
         return {"expression": "x = 1", "parameters": {}}
     elif t == "figure":
-        return {
-            "figure_class": {"figure_type": "xy_chart", "description": "test"},
-            "data": {
-                "x_axis": {"name": "x", "unit": "ft", "scale": "linear"},
-                "y_axis": {"name": "y", "unit": "ft", "scale": "linear"},
-                "curves": [{"label": "c", "points": [[0,0],[1,1],[2,2],[3,3],[4,4]], "interpolation": "linear"}],
-            },
-        }
+        return {"figure_type": "flowchart", "description": "Test figure description"}
     elif t == "reference":
         return {"target": "USGS", "url": None, "parameters": []}
-    elif t == "skipped_figure":
-        return {"figure_type": "diagram", "skip_reason": "Illustrative", "description": "x"}
     elif t == "definition":
         return {"term": "T", "definition": "D", "conditions": [], "exceptions": []}
     return {}
@@ -836,99 +767,29 @@ class TestNullCoercionNewFields:
         result = post_process([el])
         assert result[0]["data"]["target"] == ""
 
-    def test_axis_name_null(self):
-        """axis.name is required string → coerce null."""
+    def test_figure_type_null(self):
+        """figure_data.figure_type is required string → coerce null."""
         el = _make_element(
             type="figure",
-            data={
-                "figure_class": {"figure_type": "xy_chart", "description": "test"},
-                "data": {
-                    "x_axis": {"name": None, "unit": "ft", "scale": "linear"},
-                    "y_axis": {"name": "Kz", "unit": "dimensionless", "scale": "linear"},
-                    "curves": [{"label": "c", "points": [[0, 0], [1, 1], [2, 2], [3, 3], [4, 4]], "interpolation": "linear"}],
-                },
-            },
-        )
-        result = post_process([el])
-        assert result[0]["data"]["data"]["x_axis"]["name"] == ""
-
-    def test_axis_unit_null(self):
-        """axis.unit is required string → coerce null."""
-        el = _make_element(
-            type="figure",
-            data={
-                "figure_class": {"figure_type": "xy_chart", "description": "test"},
-                "data": {
-                    "x_axis": {"name": "height", "unit": None, "scale": "linear"},
-                    "y_axis": {"name": "Kz", "unit": "dimensionless", "scale": "linear"},
-                    "curves": [{"label": "c", "points": [[0, 0], [1, 1], [2, 2], [3, 3], [4, 4]], "interpolation": "linear"}],
-                },
-            },
-        )
-        result = post_process([el])
-        assert result[0]["data"]["data"]["x_axis"]["unit"] == ""
-
-    def test_axis_scale_null(self):
-        """axis.scale is required string → coerce null."""
-        el = _make_element(
-            type="figure",
-            data={
-                "figure_class": {"figure_type": "xy_chart", "description": "test"},
-                "data": {
-                    "x_axis": {"name": "height", "unit": "ft", "scale": None},
-                    "y_axis": {"name": "Kz", "unit": "dimensionless", "scale": "linear"},
-                    "curves": [{"label": "c", "points": [[0, 0], [1, 1], [2, 2], [3, 3], [4, 4]], "interpolation": "linear"}],
-                },
-            },
-        )
-        result = post_process([el])
-        assert result[0]["data"]["data"]["x_axis"]["scale"] == ""
-
-    def test_curve_label_null(self):
-        """curve.label is required string → coerce null."""
-        el = _make_element(
-            type="figure",
-            data={
-                "figure_class": {"figure_type": "xy_chart", "description": "test"},
-                "data": {
-                    "x_axis": {"name": "height", "unit": "ft", "scale": "linear"},
-                    "y_axis": {"name": "Kz", "unit": "dimensionless", "scale": "linear"},
-                    "curves": [{"label": None, "points": [[0, 0], [1, 1], [2, 2], [3, 3], [4, 4]], "interpolation": "linear"}],
-                },
-            },
-        )
-        result = post_process([el])
-        assert result[0]["data"]["data"]["curves"][0]["label"] == ""
-
-    def test_curve_interpolation_null(self):
-        """curve.interpolation is required string → coerce null."""
-        el = _make_element(
-            type="figure",
-            data={
-                "figure_class": {"figure_type": "xy_chart", "description": "test"},
-                "data": {
-                    "x_axis": {"name": "height", "unit": "ft", "scale": "linear"},
-                    "y_axis": {"name": "Kz", "unit": "dimensionless", "scale": "linear"},
-                    "curves": [{"label": "Exposure B", "points": [[0, 0], [1, 1], [2, 2], [3, 3], [4, 4]], "interpolation": None}],
-                },
-            },
-        )
-        result = post_process([el])
-        assert result[0]["data"]["data"]["curves"][0]["interpolation"] == ""
-
-    def test_skipped_figure_null_fields(self):
-        """skipped_figure_data.figure_type and skip_reason are required strings → coerce null."""
-        el = _make_element(
-            type="skipped_figure",
             data={
                 "figure_type": None,
-                "skip_reason": None,
                 "description": "Some diagram",
             },
         )
         result = post_process([el])
         assert result[0]["data"]["figure_type"] == ""
-        assert result[0]["data"]["skip_reason"] == ""
+
+    def test_figure_description_null(self):
+        """figure_data.description is required string → coerce null."""
+        el = _make_element(
+            type="figure",
+            data={
+                "figure_type": "flowchart",
+                "description": None,
+            },
+        )
+        result = post_process([el])
+        assert result[0]["data"]["description"] == ""
 
     def test_existing_non_null_values_unchanged(self):
         """Non-null values for newly covered fields remain unchanged."""
@@ -1011,62 +872,3 @@ class TestNullCoercionNewFields:
         assert result[0]["source"]["section"] == ""
         assert result[0]["metadata"]["extracted_by"] == ""
         assert result[0]["metadata"]["qc_status"] == ""
-
-
-# ===========================================================================
-# Bug Fix 3: Dedupe-after-post-process (tested at pipeline level)
-# ===========================================================================
-
-
-class TestDedupeAfterPostProcess:
-    """Deduplication should happen AFTER post-processing (ID normalization)."""
-
-    def test_space_only_id_difference_deduped(self):
-        """Elements with IDs differing only by spaces become duplicates after
-        ID normalization and should be deduped (keep first occurrence)."""
-        from extract.llm_structurer import extract_chapter_from_pages
-        from unittest.mock import patch, MagicMock
-
-        # Create two elements with IDs that differ only by whitespace
-        el1 = _make_element(id="ASCE7-22 -26.5-T1", title="First element")
-        el2 = _make_element(id="ASCE7-22-26.5-T1", title="Second element")
-
-        # Mock structure_page to return both elements on the first page
-        mock_page = MagicMock()
-        mock_page.page_number = 1
-        mock_page.text_blocks = [MagicMock(page=1, text="test")]
-        mock_page.tables = []
-        mock_page.figures = []
-
-        with patch("extract.llm_structurer.structure_page", return_value=[el1, el2]):
-            result = extract_chapter_from_pages([mock_page], "ASCE 7-22", 26)
-
-        # After ID normalization, both become "ASCE7-22-26.5-T1"
-        # so only the first should survive deduplication
-        ids = [e["id"] for e in result]
-        assert ids.count("ASCE7-22-26.5-T1") == 1
-        # First element's title should be kept
-        matching = [e for e in result if e["id"] == "ASCE7-22-26.5-T1"]
-        assert matching[0]["title"] == "First element"
-
-    def test_different_ids_both_kept(self):
-        """Elements with genuinely different IDs both survive."""
-        from extract.llm_structurer import extract_chapter_from_pages
-        from unittest.mock import patch, MagicMock
-
-        el1 = _make_element(id="ASCE7-22-26.5-T1", title="Table 1")
-        el2 = _make_element(id="ASCE7-22-26.5-P1", title="Provision 1")
-
-        mock_page = MagicMock()
-        mock_page.page_number = 1
-        mock_page.text_blocks = [MagicMock(page=1, text="test")]
-        mock_page.tables = []
-        mock_page.figures = []
-
-        with patch("extract.llm_structurer.structure_page", return_value=[el1, el2]):
-            result = extract_chapter_from_pages([mock_page], "ASCE 7-22", 26)
-
-        assert len(result) == 2
-        ids = {e["id"] for e in result}
-        assert "ASCE7-22-26.5-T1" in ids
-        assert "ASCE7-22-26.5-P1" in ids

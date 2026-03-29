@@ -2,18 +2,18 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "bldg-code-element",
   "title": "Building Code Element",
-  "description": "A single extractable element from a building code PDF",
+  "description": "A single element from a building code PDF — see ontology.md for the full specification",
   "type": "object",
   "required": ["id", "type", "source", "title", "data", "metadata"],
   "properties": {
     "id": {
       "type": "string",
-      "description": "Unique element ID, e.g. ASCE7-22-26.5-T1",
-      "pattern": "^[A-Z0-9]+-[0-9.]+-[A-Z]?[0-9.]+(-[A-Za-z0-9]+)?$"
+      "description": "Unique element ID: {STANDARD}-{SECTION}-{SUFFIX}, e.g. ASCE7-22-26.10-T1",
+      "pattern": "^[A-Z0-9]+-[0-9.]+-[A-Za-z0-9.]+(-[A-Za-z0-9]+)?$"
     },
     "type": {
       "type": "string",
-      "enum": ["table", "provision", "formula", "figure", "skipped_figure", "reference", "definition"]
+      "enum": ["table", "provision", "formula", "figure", "reference", "definition"]
     },
     "source": {
       "type": "object",
@@ -30,10 +30,9 @@
     "data": {
       "oneOf": [
         { "$ref": "#/$defs/table_data" },
-        { "$ref": "#/$defs/figure_data" },
-        { "$ref": "#/$defs/skipped_figure_data" },
         { "$ref": "#/$defs/formula_data" },
         { "$ref": "#/$defs/provision_data" },
+        { "$ref": "#/$defs/figure_data" },
         { "$ref": "#/$defs/reference_data" },
         { "$ref": "#/$defs/definition_data" }
       ]
@@ -77,90 +76,6 @@
         "rows": {
           "type": "array",
           "items": { "type": "object" }
-        }
-      }
-    },
-    "figure_data": {
-      "type": "object",
-      "required": ["figure_class", "data"],
-      "properties": {
-        "figure_class": {
-          "type": "object",
-          "required": ["figure_type"],
-          "properties": {
-            "figure_type": {
-              "type": "string",
-              "enum": ["xy_chart", "table_image"]
-            },
-            "description": { "type": "string" }
-          }
-        },
-        "data": {
-          "oneOf": [
-            { "$ref": "#/$defs/xy_chart_data" },
-            { "$ref": "#/$defs/table_data" }
-          ]
-        },
-        "verification": {
-          "type": "object",
-          "properties": {
-            "verified": { "type": "boolean" },
-            "issues": {
-              "type": "array",
-              "items": {
-                "type": "object",
-                "properties": {
-                  "severity": { "type": "string", "enum": ["critical", "warning"] },
-                  "description": { "type": "string" },
-                  "fix": { "type": "string" }
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    "skipped_figure_data": {
-      "type": "object",
-      "required": ["figure_type", "skip_reason"],
-      "properties": {
-        "figure_type": {
-          "type": "string",
-          "enum": ["diagram", "contour_map"]
-        },
-        "description": { "type": "string" },
-        "skip_reason": { "type": "string" }
-      }
-    },
-    "xy_chart_data": {
-      "type": "object",
-      "required": ["x_axis", "y_axis", "curves"],
-      "properties": {
-        "x_axis": { "$ref": "#/$defs/axis" },
-        "y_axis": { "$ref": "#/$defs/axis" },
-        "curves": {
-          "type": "array",
-          "items": {
-            "type": "object",
-            "required": ["label", "points", "interpolation"],
-            "properties": {
-              "label": { "type": "string" },
-              "points": {
-                "type": "array",
-                "items": {
-                  "type": "array",
-                  "items": { "type": "number" },
-                  "minItems": 2,
-                  "maxItems": 2
-                },
-                "minItems": 5
-              },
-              "interpolation": {
-                "type": "string",
-                "enum": ["linear", "linear_on_log_x", "step", "cubic"]
-              }
-            }
-          }
         }
       }
     },
@@ -228,6 +143,24 @@
         }
       }
     },
+    "figure_data": {
+      "type": "object",
+      "required": ["figure_type", "description"],
+      "properties": {
+        "figure_type": {
+          "type": "string",
+          "enum": ["flowchart", "contour_map", "geometry_diagram", "xy_chart", "table_image", "detail_drawing", "photograph", "other"]
+        },
+        "description": {
+          "type": "string",
+          "description": "Natural language description of what the figure communicates"
+        },
+        "source_pdf_page": {
+          "type": ["integer", "null"],
+          "description": "PDF page number where the figure appears"
+        }
+      }
+    },
     "reference_data": {
       "type": "object",
       "required": ["target"],
@@ -265,18 +198,6 @@
         "exceptions": {
           "type": "array",
           "items": { "type": "string" }
-        }
-      }
-    },
-    "axis": {
-      "type": "object",
-      "required": ["name", "unit", "scale"],
-      "properties": {
-        "name": { "type": "string" },
-        "unit": { "type": "string" },
-        "scale": {
-          "type": "string",
-          "enum": ["linear", "log"]
         }
       }
     }

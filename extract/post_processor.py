@@ -11,7 +11,6 @@ Transforms (applied in order):
 3. Range null removal (remove range keys with null values)
 4. ID normalization (strip spaces, uppercase prefix)
 5. Definition reclassification (provisions with definition patterns → definition type)
-6. Figure shape repair (figure with skipped_figure data → skipped_figure type)
 """
 
 import copy
@@ -83,7 +82,6 @@ def _process_element(el: dict) -> dict:
     _remove_null_ranges(el)
     _normalize_id(el)
     _reclassify_definition(el)
-    _repair_figure_shape(el)
     return el
 
 
@@ -203,41 +201,12 @@ def _coerce_null_strings(el: dict) -> None:
             if isinstance(cond, dict) and cond.get("parameter") is None:
                 cond["parameter"] = ""
 
-    # Figure data — axis fields (name, unit, scale) and curve fields (label, interpolation)
-    # These are nested inside figure_data.data (xy_chart_data)
-    fig_data = data.get("data") if isinstance(data.get("data"), dict) else None
-    if fig_data is None and el_type == "figure":
-        # Also check top-level data directly for xy_chart structure
-        fig_data = data if "x_axis" in data else None
-
-    if isinstance(fig_data, dict):
-        # Axis fields: name, unit, scale are all required strings in axis schema
-        for axis_key in ("x_axis", "y_axis"):
-            axis = fig_data.get(axis_key)
-            if isinstance(axis, dict):
-                if axis.get("name") is None:
-                    axis["name"] = ""
-                if axis.get("unit") is None:
-                    axis["unit"] = ""
-                if axis.get("scale") is None:
-                    axis["scale"] = ""
-
-        # Curve fields: label and interpolation are required strings
-        curves = fig_data.get("curves")
-        if isinstance(curves, list):
-            for curve in curves:
-                if isinstance(curve, dict):
-                    if curve.get("label") is None:
-                        curve["label"] = ""
-                    if curve.get("interpolation") is None:
-                        curve["interpolation"] = ""
-
-    # Skipped figure data — figure_type and skip_reason are required strings
-    if el_type == "skipped_figure" or ("figure_type" in data and "skip_reason" in data):
+    # Figure data — figure_type and description are required strings
+    if el_type == "figure" and "figure_type" in data:
         if data.get("figure_type") is None:
             data["figure_type"] = ""
-        if data.get("skip_reason") is None:
-            data["skip_reason"] = ""
+        if data.get("description") is None:
+            data["description"] = ""
 
 
 # ---------------------------------------------------------------------------
@@ -352,20 +321,3 @@ def _convert_to_definition(
     }
 
 
-# ---------------------------------------------------------------------------
-# 6. Figure shape repair
-# ---------------------------------------------------------------------------
-
-
-def _repair_figure_shape(el: dict) -> None:
-    """Retype figure → skipped_figure if data has skipped_figure shape."""
-    if el.get("type") != "figure":
-        return
-
-    data = el.get("data")
-    if not isinstance(data, dict):
-        return
-
-    # skipped_figure_data shape: has "figure_type" and "skip_reason" at top level
-    if "figure_type" in data and "skip_reason" in data:
-        el["type"] = "skipped_figure"

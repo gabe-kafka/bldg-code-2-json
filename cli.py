@@ -1,5 +1,8 @@
 """
 bldg-code-2-json CLI — extract building code PDFs into structured JSON.
+
+Vision-only pipeline: render PDF pages → read with Claude → validate.
+See ontology.md for the element specification.
 """
 
 import json
@@ -17,448 +20,118 @@ def cli():
 @click.option("--pdf", required=True, type=click.Path(exists=True), help="Path to source PDF")
 @click.option("--standard", required=True, help='Standard name, e.g. "ASCE 7-22"')
 @click.option("--chapter", required=True, type=int, help="Chapter number")
-@click.option("--start-page", default=1, type=int, help="First page of chapter (1-indexed)")
-@click.option("--end-page", default=None, type=int, help="Last page of chapter (inclusive)")
-@click.option("--output", default=None, type=click.Path(), help="Output JSON path (default: output/raw/)")
-def extract(pdf, standard, chapter, start_page, end_page, output):
-    """Extract a chapter from a building code PDF into raw JSON."""
-    from extract.llm_structurer import extract_chapter
+@click.option("--start-page", default=1, type=int, help="First page (1-indexed)")
+@click.option("--end-page", default=None, type=int, help="Last page (inclusive)")
+@click.option("--dpi", default=200, type=int, help="Render resolution")
+@click.option("--output-dir", default=None, type=click.Path(), help="Image output directory")
+def render(pdf, standard, chapter, start_page, end_page, dpi, output_dir):
+    """Render PDF pages to images for vision extraction.
 
-    click.echo(f"Extracting {standard} Chapter {chapter} from {pdf}...")
-    click.echo(f"Pages {start_page} to {end_page or 'end'}")
-
-    elements = extract_chapter(
-        pdf_path=pdf,
-        standard=standard,
-        chapter=chapter,
-        start_page=start_page,
-        end_page=end_page,
-    )
-
-    if output is None:
-        std_slug = standard.lower().replace(" ", "").replace("-", "")
-        output = f"output/raw/{std_slug}-ch{chapter}.json"
-
-    out_path = Path(output)
-    out_path.parent.mkdir(parents=True, exist_ok=True)
-    with open(out_path, "w") as f:
-        json.dump(elements, f, indent=2)
-
-    click.echo(f"Extracted {len(elements)} elements → {out_path}")
-
-
-@cli.command()
-@click.option("--file", "input_file", required=True, type=click.Path(exists=True), help="Raw JSON to validate")
-@click.option("--pdf", default=None, type=click.Path(exists=True), help="Source PDF for completeness/spot checks")
-@click.option("--start-page", default=1, type=int, help="Chapter start page in PDF")
-@click.option("--end-page", default=None, type=int, help="Chapter end page in PDF")
-@click.option("--spot-check-size", default=10, type=int, help="Number of elements to spot check")
-@click.option("--output", default=None, type=click.Path(), help="QC report output path")
-def qc(input_file, pdf, start_page, end_page, spot_check_size, output):
-    """Run QC checks on extracted JSON."""
-    from qc.schema_validator import validate_chapter
-    from qc.completeness import check_completeness
-    from qc.spot_check import spot_check
-
-    with open(input_file) as f:
-        elements = json.load(f)
-
-    click.echo(f"Running QC on {len(elements)} elements...")
-
-    # Schema validation
-    click.echo("  Schema validation...")
-    schema_results = validate_chapter(elements)
-    click.echo(f"    {schema_results['passed']}/{schema_results['total']} passed")
-
-    report = {"schema": schema_results}
-
-    # Completeness check (requires PDF)
-    if pdf:
-        from extract.pdf_parser import parse_pdf
-
-        click.echo("  Completeness check...")
-        pages = parse_pdf(pdf, start_page=start_page, end_page=end_page)
-        completeness = check_completeness(elements, pages)
-        click.echo(f"    Overall coverage: {completeness['overall_coverage']*100:.1f}%")
-        report["completeness"] = completeness
-
-        # Spot check
-        if spot_check_size > 0:
-            click.echo(f"  Spot checking {spot_check_size} elements...")
-            spot_results = spot_check(elements, pages, sample_size=spot_check_size)
-            click.echo(f"    Average accuracy: {spot_results['average_score']*100:.1f}%")
-            report["spot_check"] = spot_results
-
-    # Cross-reference check
-    click.echo("  Cross-reference check...")
-    element_ids = {el["id"] for el in elements}
-    xref_issues = []
-    for el in elements:
-        for ref in el.get("cross_references", []):
-            if ref not in element_ids:
-                xref_issues.append({"element": el["id"], "missing_ref": ref})
-    report["cross_references"] = {
-        "total_refs": sum(len(el.get("cross_references", [])) for el in elements),
-        "unresolved": len(xref_issues),
-        "issues": xref_issues,
-    }
-    click.echo(f"    {len(xref_issues)} unresolved references")
-
-    # Write report
-    if output is None:
-        base = Path(input_file).stem
-        output = f"output/qc/{base}-qc-report.json"
-
-    out_path = Path(output)
-    out_path.parent.mkdir(parents=True, exist_ok=True)
-    with open(out_path, "w") as f:
-        json.dump(report, f, indent=2)
-
-    click.echo(f"\nQC report → {out_path}")
-
-
-@cli.command()
-@click.option("--pdf", required=True, type=click.Path(exists=True), help="Path to source PDF")
-@click.option("--standard", required=True, help='Standard name, e.g. "ASCE 7-22"')
-@click.option("--chapter", required=True, type=int, help="Chapter number")
-@click.option("--start-page", default=1, type=int, help="First page of chapter (1-indexed)")
-@click.option("--end-page", default=None, type=int, help="Last page of chapter (inclusive)")
-@click.option("--spot-check-size", default=10, type=int, help="Number of elements to spot check")
-def run(pdf, standard, chapter, start_page, end_page, spot_check_size):
-    """Full pipeline: extract + QC in one command."""
-    from extract.llm_structurer import extract_chapter
-    from extract.pdf_parser import parse_pdf
-    from qc.schema_validator import validate_chapter
-    from qc.completeness import check_completeness
-    from qc.spot_check import spot_check
+    After rendering, open the images in Claude Code to extract elements.
+    """
+    from extract.pdf_renderer import render_pages
 
     std_slug = standard.lower().replace(" ", "").replace("-", "")
 
-    # --- Extract ---
-    click.echo(f"=== EXTRACT: {standard} Chapter {chapter} ===")
-    elements = extract_chapter(pdf, standard, chapter, start_page, end_page)
+    if output_dir is None:
+        output_dir = f"output/pages/{std_slug}-ch{chapter}"
 
-    raw_path = Path(f"output/raw/{std_slug}-ch{chapter}.json")
-    raw_path.parent.mkdir(parents=True, exist_ok=True)
-    with open(raw_path, "w") as f:
-        json.dump(elements, f, indent=2)
-    click.echo(f"Extracted {len(elements)} elements → {raw_path}")
+    click.echo(f"Rendering {standard} Chapter {chapter} pages {start_page}-{end_page or 'end'}...")
+    image_paths = render_pages(pdf, output_dir, start_page, end_page, dpi)
+    click.echo(f"Rendered {len(image_paths)} pages → {output_dir}/")
 
-    # --- QC ---
-    click.echo(f"\n=== QC ===")
-    schema_results = validate_chapter(elements)
-    click.echo(f"Schema: {schema_results['passed']}/{schema_results['total']} passed")
-
-    pages = parse_pdf(pdf, start_page=start_page, end_page=end_page)
-    completeness = check_completeness(elements, pages)
-    click.echo(f"Completeness: {completeness['overall_coverage']*100:.1f}%")
-
-    spot_results = None
-    if spot_check_size > 0:
-        spot_results = spot_check(elements, pages, sample_size=spot_check_size)
-        click.echo(f"Spot check: {spot_results['average_score']*100:.1f}% accuracy")
-
-    # Cross-refs
-    element_ids = {el["id"] for el in elements}
-    unresolved = sum(
-        1 for el in elements
-        for ref in el.get("cross_references", [])
-        if ref not in element_ids
-    )
-    click.echo(f"Cross-refs: {unresolved} unresolved")
-
-    report = {
-        "schema": schema_results,
-        "completeness": completeness,
-        "cross_references": {"unresolved": unresolved},
-    }
-    if spot_results:
-        report["spot_check"] = spot_results
-
-    qc_path = Path(f"output/qc/{std_slug}-ch{chapter}-qc-report.json")
-    qc_path.parent.mkdir(parents=True, exist_ok=True)
-    with open(qc_path, "w") as f:
-        json.dump(report, f, indent=2)
-
-    # --- Validated output ---
-    if schema_results["failed"] == 0:
-        val_path = Path(f"output/validated/{std_slug}-ch{chapter}.json")
-        val_path.parent.mkdir(parents=True, exist_ok=True)
-        with open(val_path, "w") as f:
-            json.dump(elements, f, indent=2)
-        click.echo(f"\nAll elements valid → {val_path}")
-    else:
-        click.echo(f"\n{schema_results['failed']} elements failed schema validation — skipping validated output")
-
-    click.echo(f"QC report → {qc_path}")
+    click.echo(f"\nNext: open the images in Claude Code and extract elements.")
+    click.echo(f"Save the result as JSON, then validate with:")
+    click.echo(f"  python cli.py validate --file <output.json>")
 
 
 @cli.command()
-@click.option("--file", "input_file", required=True, type=click.Path(exists=True), help="Raw extracted JSON to fix")
-@click.option("--pdf", default=None, type=click.Path(exists=True), help="Source PDF for page context")
-@click.option("--max-retries", default=3, type=int, help="Max LLM retry attempts per element")
-@click.option("--output", default=None, type=click.Path(), help="Output JSON path")
-@click.option("--start-page", default=1, type=int, help="Chapter start page in PDF")
-@click.option("--end-page", default=None, type=int, help="Chapter end page in PDF")
-def fix(input_file, pdf, max_retries, output, start_page, end_page):
-    """Fix extracted JSON: deterministic post-processing + LLM retry for failures."""
+@click.option("--file", "input_file", required=True, type=click.Path(exists=True), help="Extracted JSON to validate")
+@click.option("--output", default=None, type=click.Path(), help="Report output path")
+def validate(input_file, output):
+    """Validate extracted JSON: schema check + post-process + calibration."""
     from extract.post_processor import post_process
-    from extract.element_retry import retry_elements
-    from qc.schema_validator import validate_chapter
+    from qc.schema_validator import validate_chapter, load_schema
+    from qc.calibration import calibration_report
+    from extract.gold_standard import load_gold_elements
 
     with open(input_file) as f:
         elements = json.load(f)
 
     click.echo(f"Loaded {len(elements)} elements from {input_file}")
 
-    # Step 1: deterministic post-processing
+    # Post-process (deterministic cleanup)
     processed = post_process(elements)
+    pp_fixes = sum(1 for a, b in zip(elements, processed) if a != b)
+    if pp_fixes:
+        click.echo(f"Post-processor: {pp_fixes} elements cleaned up")
 
-    # Count how many changed
-    pp_fixes = sum(
-        1 for orig, fixed in zip(elements, processed)
-        if orig != fixed
-    )
-    click.echo(f"Post-processor: {pp_fixes} elements fixed")
+    # Schema validation
+    schema_results = validate_chapter(processed)
+    passed = schema_results["passed"]
+    total = schema_results["total"]
+    click.echo(f"Schema: {passed}/{total} valid")
 
-    # Step 2: validate to find remaining failures
-    qc_results = validate_chapter(processed)
-    click.echo(f"Schema validation: {qc_results['passed']}/{qc_results['total']} passed")
+    if schema_results["errors"]:
+        click.echo(f"\nFailures:")
+        for err in schema_results["errors"][:10]:
+            click.echo(f"  {err['id']}: {err['errors'][0][:100]}")
 
-    # Step 3: parse PDF pages if provided
-    pages = None
-    if pdf:
-        from extract.pdf_parser import parse_pdf
-        click.echo(f"Parsing PDF for context: {pdf}")
-        pages = parse_pdf(pdf, start_page=start_page, end_page=end_page)
+    # Cross-references
+    element_ids = {el["id"] for el in processed}
+    total_refs = 0
+    resolved = 0
+    for el in processed:
+        for ref in el.get("cross_references", []):
+            total_refs += 1
+            if ref in element_ids:
+                resolved += 1
+    click.echo(f"Cross-refs: {resolved}/{total_refs} resolved within chapter")
 
-    # Step 4: LLM retry for remaining failures
-    fixed_elements, retry_report = retry_elements(
-        processed, qc_results, pages=pages, max_retries=max_retries,
-    )
+    # Calibration against gold set
+    gold = load_gold_elements()
+    cal = None
+    if gold:
+        cal = calibration_report(processed, gold)
+        agg = cal["aggregate"]
+        click.echo(f"Calibration: {agg['accuracy']:.1%} accuracy ({agg['elements_compared']} compared, {agg['elements_missing']} missing)")
+    else:
+        click.echo("Calibration: no gold elements found — skipping")
 
-    llm_fixed = len(retry_report["fixed"])
-    still_failing = len(retry_report["still_failing"])
-    click.echo(f"LLM retry: {llm_fixed} fixed, {still_failing} still failing")
-    if still_failing > 0 and llm_fixed == 0 and qc_results["failed"] > 0:
-        click.echo("  Hint: if all retries failed, check that ANTHROPIC_API_KEY is set")
+    # Type breakdown
+    from collections import Counter
+    types = Counter(el["type"] for el in processed)
+    click.echo(f"\nTypes: {', '.join(f'{t}={c}' for t, c in types.most_common())}")
 
-    # Step 5: write output
-    stem = Path(input_file).stem
+    # Write report
     if output is None:
-        output = f"output/fixed/{stem}-fixed.json"
+        stem = Path(input_file).stem
+        output = f"output/qc/{stem}-report.json"
+
+    report = {
+        "source": str(input_file),
+        "total_elements": total,
+        "post_processor_fixes": pp_fixes,
+        "schema": schema_results,
+        "cross_references": {"total": total_refs, "resolved": resolved},
+        "types": dict(types),
+    }
+    if cal:
+        report["calibration"] = cal
 
     out_path = Path(output)
     out_path.parent.mkdir(parents=True, exist_ok=True)
     with open(out_path, "w") as f:
-        json.dump(fixed_elements, f, indent=2)
-    click.echo(f"Fixed elements → {out_path}")
-
-    # Step 6: write fix report
-    out_stem = out_path.stem.removesuffix("-fixed")  # e.g. "asce722-ch26"
-    report_path = out_path.parent / f"{out_stem}-fix-report.json"
-    fix_report = {
-        "post_processor_fixes": pp_fixes,
-        "retry_report": retry_report,
-    }
-    with open(report_path, "w") as f:
-        json.dump(fix_report, f, indent=2)
-    click.echo(f"Fix report → {report_path}")
-
-
-@cli.command()
-@click.option("--pdf", required=True, type=click.Path(exists=True), help="Path to source PDF")
-@click.option("--standard", required=True, help='Standard name, e.g. "ASCE 7-22"')
-@click.option("--chapter", required=True, type=int, help="Chapter number")
-@click.option("--start-page", default=1, type=int, help="First page of chapter (1-indexed)")
-@click.option("--end-page", default=None, type=int, help="Last page of chapter (inclusive)")
-@click.option("--max-retries", default=3, type=int, help="Max LLM retry attempts per failing element")
-@click.option("--spot-check-size", default=10, type=int, help="Number of elements to spot check")
-def pipeline(pdf, standard, chapter, start_page, end_page, max_retries, spot_check_size):
-    """Full pipeline: extract + fix + QC + calibration in one command."""
-    from extract.post_processor import post_process
-    from extract.element_retry import retry_elements
-    from extract.gold_standard import load_gold_elements
-    from extract.pdf_parser import parse_pdf
-    from qc.schema_validator import validate_chapter
-    from qc.completeness import check_completeness
-    from qc.spot_check import spot_check
-    from qc.calibration import calibration_report
-
-    std_slug = standard.lower().replace(" ", "").replace("-", "")
-
-    # ── Step 1: Extract ──────────────────────────────────────────────
-    click.echo(f"=== STEP 1: EXTRACT — {standard} Chapter {chapter} ===")
-    click.echo(f"  PDF: {pdf}, pages {start_page}-{end_page or 'end'}")
-
-    # Parse PDF first so we know total pages for progress bar
-    pages = parse_pdf(pdf, start_page=start_page, end_page=end_page)
-    click.echo(f"  Parsed {len(pages)} pages from PDF")
-
-    from extract.llm_structurer import extract_chapter_from_pages
-    with click.progressbar(length=len(pages), label="  Extracting",
-                           show_pos=True, show_percent=True) as bar:
-        def on_progress(current, total):
-            bar.update(1)
-        elements = extract_chapter_from_pages(
-            pages, standard, chapter, progress_callback=on_progress,
-        )
-
-    raw_path = Path(f"output/raw/{std_slug}-ch{chapter}.json")
-    raw_path.parent.mkdir(parents=True, exist_ok=True)
-    with open(raw_path, "w") as f:
-        json.dump(elements, f, indent=2)
-    click.echo(f"  Extracted {len(elements)} elements → {raw_path}")
-
-    # ── Step 2: Fix (post-process + LLM retry) ──────────────────────
-    click.echo(f"\n=== STEP 2: FIX ===")
-    processed = post_process(elements)
-    pp_fixes = sum(1 for a, b in zip(elements, processed) if a != b)
-    click.echo(f"  Post-processor: {pp_fixes} elements fixed deterministically")
-
-    schema_results = validate_chapter(processed)
-    click.echo(f"  Schema after post-process: {schema_results['passed']}/{schema_results['total']} passed")
-
-    if schema_results["failed"] > 0:
-        n_failing = schema_results["failed"]
-        click.echo(f"  Retrying {n_failing} failing elements via LLM (up to {max_retries} attempts each)...")
-        with click.progressbar(length=n_failing, label="  Retrying",
-                               show_pos=True, show_percent=True) as bar:
-            orig_retry = retry_elements.__wrapped__ if hasattr(retry_elements, '__wrapped__') else retry_elements
-            # Run retry and update bar after
-            fixed_elements, retry_report = retry_elements(
-                processed, schema_results, pages=pages, max_retries=max_retries,
-            )
-            bar.update(n_failing)
-        llm_fixed = len(retry_report["fixed"])
-        still_failing = len(retry_report["still_failing"])
-        click.echo(f"  LLM retry: {llm_fixed} fixed, {still_failing} still failing")
-        if still_failing > 0 and llm_fixed == 0:
-            click.echo("  Hint: check that ANTHROPIC_API_KEY is set")
-    else:
-        fixed_elements = processed
-        retry_report = {"fixed": {}, "still_failing": [], "skipped": [el["id"] for el in processed]}
-        click.echo("  All elements valid — no LLM retry needed")
-
-    fixed_path = Path(f"output/fixed/{std_slug}-ch{chapter}-fixed.json")
-    fixed_path.parent.mkdir(parents=True, exist_ok=True)
-    with open(fixed_path, "w") as f:
-        json.dump(fixed_elements, f, indent=2)
-    click.echo(f"  Fixed elements → {fixed_path}")
-
-    # ── Step 3: QC ───────────────────────────────────────────────────
-    click.echo(f"\n=== STEP 3: QC ===")
-
-    final_schema = validate_chapter(fixed_elements)
-    click.echo(f"  Schema: {final_schema['passed']}/{final_schema['total']} passed")
-
-    completeness = check_completeness(fixed_elements, pages)
-    click.echo(f"  Completeness: {completeness['overall_coverage']*100:.1f}%")
-
-    spot_results = None
-    if spot_check_size > 0:
-        extractable = [el for el in fixed_elements if el.get("type") != "skipped_figure"]
-        if extractable:
-            n_spot = min(spot_check_size, len(extractable))
-            click.echo(f"  Spot checking {n_spot} elements against PDF...")
-            with click.progressbar(length=n_spot, label="  Spot check",
-                                   show_pos=True, show_percent=True) as bar:
-                spot_results = spot_check(extractable, pages, sample_size=spot_check_size)
-                bar.update(n_spot)
-            click.echo(f"  Spot check accuracy: {spot_results['average_score']*100:.1f}%")
-
-    element_ids = {el["id"] for el in fixed_elements}
-    total_refs = 0
-    resolved_refs = 0
-    for el in fixed_elements:
-        for ref in el.get("cross_references", []):
-            total_refs += 1
-            if ref in element_ids:
-                resolved_refs += 1
-    click.echo(f"  Cross-refs: {resolved_refs}/{total_refs} resolved")
-
-    # ── Step 4: Calibration ──────────────────────────────────────────
-    click.echo(f"\n=== STEP 4: CALIBRATION ===")
-    gold = load_gold_elements()
-    cal_report = None
-    if gold:
-        cal_report = calibration_report(fixed_elements, gold)
-        agg = cal_report["aggregate"]
-        click.echo(f"  Gold elements: {len(gold)}")
-        click.echo(f"  Accuracy: {agg['accuracy']:.2%}")
-        click.echo(f"  Type match rate: {agg['type_match_rate']:.2%}")
-        click.echo(f"  Compared: {agg['elements_compared']}, Missing: {agg['elements_missing']}")
-    else:
-        click.echo("  No gold elements found — skipping calibration")
-
-    # ── Write reports ────────────────────────────────────────────────
-    report = {
-        "pipeline": {
-            "standard": standard,
-            "chapter": chapter,
-            "pages": f"{start_page}-{end_page or 'end'}",
-            "total_elements": len(fixed_elements),
-        },
-        "fix": {
-            "post_processor_fixes": pp_fixes,
-            "retry_report": retry_report,
-        },
-        "qc": {
-            "schema": final_schema,
-            "completeness": completeness,
-            "cross_references": {"total": total_refs, "resolved": resolved_refs},
-        },
-    }
-    if spot_results:
-        report["qc"]["spot_check"] = spot_results
-    if cal_report:
-        report["calibration"] = cal_report
-
-    report_path = Path(f"output/qc/{std_slug}-ch{chapter}-pipeline-report.json")
-    report_path.parent.mkdir(parents=True, exist_ok=True)
-    with open(report_path, "w") as f:
         json.dump(report, f, indent=2)
 
-    # ── Summary ──────────────────────────────────────────────────────
-    click.echo(f"\n{'='*50}")
-    click.echo(f"PIPELINE COMPLETE: {standard} Chapter {chapter}")
-    click.echo(f"{'='*50}")
-    click.echo(f"  Elements:     {len(fixed_elements)}")
-    click.echo(f"  Schema valid: {final_schema['passed']}/{final_schema['total']}")
-    click.echo(f"  Completeness: {completeness['overall_coverage']*100:.1f}%")
-    if spot_results:
-        click.echo(f"  Spot check:   {spot_results['average_score']*100:.1f}%")
-    if cal_report:
-        click.echo(f"  Calibration:  {cal_report['aggregate']['accuracy']:.2%}")
-    click.echo(f"\n  Raw JSON:     {raw_path}")
-    click.echo(f"  Fixed JSON:   {fixed_path}")
-    click.echo(f"  Report:       {report_path}")
+    click.echo(f"\nReport → {out_path}")
 
-
-@cli.command()
-@click.option("--pdf", required=True, type=click.Path(exists=True), help="Path to source PDF")
-@click.option("--standard", required=True, help='Standard name, e.g. "ASCE 7-22"')
-@click.option("--chapter", required=True, type=int, help="Chapter number")
-@click.option("--start-page", default=1, type=int, help="First page of chapter (1-indexed)")
-@click.option("--end-page", default=None, type=int, help="Last page of chapter (inclusive)")
-@click.option("--max-iterations", default=5, type=int, help="Max refinement iterations")
-@click.option("--target-score", default=0.90, type=float, help="Stop when composite score reaches this")
-def refine(pdf, standard, chapter, start_page, end_page, max_iterations, target_score):
-    """Auto-refine extraction: run → score → improve → repeat."""
-    from refine.optimizer import optimize
-
-    results = optimize(
-        pdf_path=pdf,
-        standard=standard,
-        chapter=chapter,
-        start_page=start_page,
-        end_page=end_page,
-        max_iterations=max_iterations,
-        target_score=target_score,
-    )
-
-    best = max(results, key=lambda r: r.score["composite_score"])
-    click.echo(f"\nBest: run {best.run_id} → {best.score['composite_score']:.4f}")
+    # Write cleaned output if post-processor made changes
+    if pp_fixes > 0:
+        clean_path = Path(input_file).parent / f"{Path(input_file).stem}-clean.json"
+        with open(clean_path, "w") as f:
+            json.dump(processed, f, indent=2)
+        click.echo(f"Cleaned JSON → {clean_path}")
 
 
 if __name__ == "__main__":

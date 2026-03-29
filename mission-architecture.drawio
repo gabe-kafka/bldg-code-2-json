@@ -1,0 +1,157 @@
+<mxfile host="app.diagrams.net" modified="2026-03-28T23:00:00.000Z" agent="5.0" version="24.0.0" type="device">
+  <diagram id="mission-flow" name="Mission Token Flow">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Title -->
+        <mxCell id="title" value="&lt;b&gt;Factory Mission System — Token Flow&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="500" y="20" width="380" height="40" as="geometry"/>
+        </mxCell>
+
+        <!-- Orchestrator -->
+        <mxCell id="orch" value="&lt;b&gt;ORCHESTRATOR&lt;/b&gt;&lt;br&gt;(this conversation)&lt;br&gt;&lt;br&gt;Plans mission, creates artifacts,&lt;br&gt;manages features.json,&lt;br&gt;handles worker returns&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#CC0000&quot;&gt;$$$ MOST EXPENSIVE $$$&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#CC0000&quot;&gt;Full conversation history&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#CC0000&quot;&gt;re-read every turn&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;verticalAlign=top;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="540" y="80" width="280" height="180" as="geometry"/>
+        </mxCell>
+
+        <!-- Planning Subagents -->
+        <mxCell id="plan_sub" value="&lt;b&gt;Planning Subagents&lt;/b&gt;&lt;br&gt;(Task tool)&lt;br&gt;&lt;br&gt;• Codebase analysis&lt;br&gt;• Contract drafting (3x)&lt;br&gt;• Coverage verification&lt;br&gt;• Failure analysis&lt;br&gt;&lt;br&gt;~6 sessions, 20-30K each" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="100" y="90" width="200" height="160" as="geometry"/>
+        </mxCell>
+
+        <!-- Arrow: Orch -> Planning -->
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="orch" target="plan_sub" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e1_label" value="delegate&lt;br&gt;investigation" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;" vertex="1" connectable="0" parent="e1">
+          <mxGeometry x="-0.1" relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Mission Runner -->
+        <mxCell id="runner" value="&lt;b&gt;MISSION RUNNER&lt;/b&gt;&lt;br&gt;&lt;br&gt;Reads features.json,&lt;br&gt;spawns workers sequentially,&lt;br&gt;auto-injects validators&lt;br&gt;when milestone completes" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="570" y="320" width="220" height="120" as="geometry"/>
+        </mxCell>
+
+        <!-- Arrow: Orch -> Runner -->
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="orch" target="runner" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e2_label" value="StartMissionRun()&lt;br&gt;&lt;font color=&quot;#666666&quot;&gt;blocking call&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;" vertex="1" connectable="0" parent="e2">
+          <mxGeometry x="-0.1" relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Milestone Box -->
+        <mxCell id="ms_box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#999999;dashed=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="60" y="490" width="1240" height="320" as="geometry"/>
+        </mxCell>
+        <mxCell id="ms_label" value="&lt;b&gt;PER MILESTONE (e.g., &quot;post-processor&quot;)&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="80" y="495" width="300" height="30" as="geometry"/>
+        </mxCell>
+
+        <!-- Implementation Workers -->
+        <mxCell id="workers" value="&lt;b&gt;Implementation Workers&lt;/b&gt;&lt;br&gt;&lt;br&gt;1 per feature, sequential&lt;br&gt;&lt;br&gt;Each reads: mission.md, AGENTS.md,&lt;br&gt;features.json, library/, services.yaml,&lt;br&gt;then reads source code, writes tests,&lt;br&gt;implements, runs tests, commits&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#CC6600&quot;&gt;$$ ~20-40K tokens each&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#666666&quot;&gt;5 workers in milestone 1&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;verticalAlign=top;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="80" y="530" width="240" height="200" as="geometry"/>
+        </mxCell>
+
+        <!-- Arrow: Runner -> Workers -->
+        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="runner" target="workers" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e3_label" value="spawn per&lt;br&gt;pending feature" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;" vertex="1" connectable="0" parent="e3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Scrutiny Validator -->
+        <mxCell id="scrutiny" value="&lt;b&gt;Scrutiny Validator&lt;/b&gt;&lt;br&gt;(auto-injected)&lt;br&gt;&lt;br&gt;Runs test suite, typecheck, lint&lt;br&gt;Then spawns 1 reviewer subagent&lt;br&gt;PER completed feature&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#CC0000&quot;&gt;$$$ EXPENSIVE $$$&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#CC0000&quot;&gt;N subagents × full context&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#666666&quot;&gt;Ran 3 rounds (2 failures)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;verticalAlign=top;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="400" y="530" width="240" height="200" as="geometry"/>
+        </mxCell>
+
+        <!-- Arrow: Workers -> Scrutiny -->
+        <mxCell id="e4" value="all features&lt;br&gt;done →" style="edgeStyle=orthogonalEdgeStyle;edgeLabel;html=1;fontSize=9;" edge="1" source="workers" target="scrutiny" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Scrutiny Review Subagents -->
+        <mxCell id="review_subs" value="Review&lt;br&gt;Subagent 1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="440" y="750" width="80" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="review_subs2" value="Review&lt;br&gt;Subagent 2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="530" y="750" width="80" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="review_subs3" value="Review&lt;br&gt;Subagent N" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="620" y="750" width="80" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_rev1" edge="1" source="scrutiny" target="review_subs" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e_rev2" edge="1" source="scrutiny" target="review_subs2" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e_rev3" edge="1" source="scrutiny" target="review_subs3" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <!-- User Testing Validator -->
+        <mxCell id="usertesting" value="&lt;b&gt;User Testing Validator&lt;/b&gt;&lt;br&gt;(auto-injected)&lt;br&gt;&lt;br&gt;Maps fulfills → assertions,&lt;br&gt;spawns flow validators&lt;br&gt;(up to 5 parallel)&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#CC6600&quot;&gt;$$ 5 subagents&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#666666&quot;&gt;Ran 1 round (passed)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;verticalAlign=top;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="720" y="530" width="240" height="200" as="geometry"/>
+        </mxCell>
+
+        <!-- Arrow: Scrutiny -> UserTesting -->
+        <mxCell id="e5" value="scrutiny&lt;br&gt;passes →" style="edgeStyle=orthogonalEdgeStyle;edgeLabel;html=1;fontSize=9;" edge="1" source="scrutiny" target="usertesting" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Flow Validator Subagents -->
+        <mxCell id="flow_subs" value="Flow&lt;br&gt;Validator&lt;br&gt;1-5" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="800" y="750" width="80" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_flow" edge="1" source="usertesting" target="flow_subs" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <!-- Failure Loop -->
+        <mxCell id="fail_loop" value="&lt;b&gt;FAILURE LOOP&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#CC0000&quot;&gt;(token multiplier)&lt;/font&gt;&lt;br&gt;&lt;br&gt;Scrutiny fails →&lt;br&gt;returns to orchestrator →&lt;br&gt;creates fix feature →&lt;br&gt;new worker implements fix →&lt;br&gt;scrutiny re-runs →&lt;br&gt;spawns new reviewers&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#CC0000&quot;&gt;2 failures = 3x cost&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="530" width="240" height="200" as="geometry"/>
+        </mxCell>
+
+        <!-- Arrow: Scrutiny -> Fail Loop -->
+        <mxCell id="e6" value="FAIL" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#CC0000;fontColor=#CC0000;fontSize=10;fontStyle=1;" edge="1" source="scrutiny" target="fail_loop" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Arrow: Fail Loop -> Orch -->
+        <mxCell id="e7" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#CC0000;dashed=1;" edge="1" source="fail_loop" target="orch" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1300" y="630"/>
+              <mxPoint x="1300" y="170"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e7_label" value="handoff with&lt;br&gt;blocking issues" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontColor=#CC0000;" vertex="1" connectable="0" parent="e7">
+          <mxGeometry x="-0.3" relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Arrow: Orch -> Runner (re-run) -->
+        <mxCell id="e8" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#CC0000;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="860" y="170" as="sourcePoint"/>
+            <mxPoint x="860" y="320" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8_label" value="insert fix feature,&lt;br&gt;re-run" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontColor=#CC0000;" vertex="1" connectable="0" parent="e8">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Cost Summary -->
+        <mxCell id="cost_box" value="&lt;b&gt;TOKEN COST BREAKDOWN (Milestone 1)&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;table style=&quot;font-size:11px;&quot;&gt;&lt;tr&gt;&lt;td&gt;Orchestrator context&lt;/td&gt;&lt;td&gt;~100K+ (grows every turn)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Planning subagents (6)&lt;/td&gt;&lt;td&gt;~150K&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Implementation workers (5)&lt;/td&gt;&lt;td&gt;~150K&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Scrutiny (3 rounds + reviewers)&lt;/td&gt;&lt;td&gt;~200K&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;User testing (1 round + 5 flows)&lt;/td&gt;&lt;td&gt;~80K&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Total milestone 1&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;~680K tokens&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="60" y="850" width="340" height="180" as="geometry"/>
+        </mxCell>
+
+        <!-- Shared State Box -->
+        <mxCell id="state_box" value="&lt;b&gt;SHARED STATE&lt;/b&gt; (read by every session)&lt;br&gt;&lt;br&gt;mission.md • AGENTS.md • features.json&lt;br&gt;.factory/library/* • .factory/services.yaml&lt;br&gt;validation-contract.md • validation-state.json&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#CC6600&quot;&gt;Every worker/subagent reads these = &lt;br&gt;token cost multiplied by session count&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="80" width="300" height="150" as="geometry"/>
+        </mxCell>
+
+        <!-- Arrow: State -> Workers -->
+        <mxCell id="e9" style="edgeStyle=orthogonalEdgeStyle;dashed=1;strokeColor=#999999;" edge="1" source="state_box" target="runner" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
