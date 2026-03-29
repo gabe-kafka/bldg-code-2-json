@@ -317,10 +317,16 @@ def extract_chapter_from_pages(
     standard: str,
     chapter: int,
     pages_per_chunk: int = 1,
+    progress_callback: callable | None = None,
 ) -> list[dict]:
-    """Extract from pre-parsed pages. Avoids re-parsing the PDF."""
+    """Extract from pre-parsed pages. Avoids re-parsing the PDF.
+
+    Args:
+        progress_callback: Optional callable(page_index, total_pages) for progress.
+    """
     all_elements = []
     figure_counter = [0]  # mutable counter shared across pages
+    total_pages = len(pages)
 
     for chunk_start in range(0, len(pages), pages_per_chunk):
         chunk = pages[chunk_start:chunk_start + pages_per_chunk]
@@ -332,6 +338,9 @@ def extract_chapter_from_pages(
             if page.figures:
                 figure_elements = structure_figures(page, standard, chapter, figure_counter)
                 all_elements.extend(figure_elements)
+
+            if progress_callback:
+                progress_callback(chunk_start + 1, total_pages)
 
     # Apply deterministic post-processing BEFORE deduplication so that
     # ID normalization (space stripping) runs first — otherwise two elements

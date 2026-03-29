@@ -276,7 +276,6 @@ def fix(input_file, pdf, max_retries, output, start_page, end_page):
 @click.option("--spot-check-size", default=10, type=int, help="Number of elements to spot check")
 def pipeline(pdf, standard, chapter, start_page, end_page, max_retries, spot_check_size):
     """Full pipeline: extract + fix + QC + calibration in one command."""
-    from extract.llm_structurer import extract_chapter
     from extract.post_processor import post_process
     from extract.element_retry import retry_elements
     from extract.gold_standard import load_gold_elements
@@ -291,7 +290,19 @@ def pipeline(pdf, standard, chapter, start_page, end_page, max_retries, spot_che
     # ── Step 1: Extract ──────────────────────────────────────────────
     click.echo(f"=== STEP 1: EXTRACT — {standard} Chapter {chapter} ===")
     click.echo(f"  PDF: {pdf}, pages {start_page}-{end_page or 'end'}")
-    elements = extract_chapter(pdf, standard, chapter, start_page, end_page)
+
+    # Parse PDF first so we know total pages for progress bar
+    pages = parse_pdf(pdf, start_page=start_page, end_page=end_page)
+    click.echo(f"  Parsed {len(pages)} pages from PDF")
+
+    from extract.llm_structurer import extract_chapter_from_pages
+    with click.progressbar(length=len(pages), label="  Extracting",
+                           show_pos=True, show_percent=True) as bar:
+        def on_progress(current, total):
+            bar.update(1)
+        elements = extract_chapter_from_pages(
+            pages, standard, chapter, progress_callback=on_progress,
+        )
 
     raw_path = Path(f"output/raw/{std_slug}-ch{chapter}.json")
     raw_path.parent.mkdir(parents=True, exist_ok=True)
@@ -308,13 +319,17 @@ def pipeline(pdf, standard, chapter, start_page, end_page, max_retries, spot_che
     schema_results = validate_chapter(processed)
     click.echo(f"  Schema after post-process: {schema_results['passed']}/{schema_results['total']} passed")
 
-    pages = parse_pdf(pdf, start_page=start_page, end_page=end_page)
-
     if schema_results["failed"] > 0:
-        click.echo(f"  Retrying {schema_results['failed']} failing elements via LLM...")
-        fixed_elements, retry_report = retry_elements(
-            processed, schema_results, pages=pages, max_retries=max_retries,
-        )
+        n_failing = schema_results["failed"]
+        click.echo(f"  Retrying {n_failing} failing elements via LLM (up to {max_retries} attempts each)...")
+        with click.progressbar(length=n_failing, label="  Retrying",
+                               show_pos=True, show_percent=True) as bar:
+            orig_retry = retry_elements.__wrapped__ if hasattr(retry_elements, '__wrapped__') else retry_elements
+            # Run retry and update bar after
+            fixed_elements, retry_report = retry_elements(
+                processed, schema_results, pages=pages, max_retries=max_retries,
+            )
+            bar.update(n_failing)
         llm_fixed = len(retry_report["fixed"])
         still_failing = len(retry_report["still_failing"])
         click.echo(f"  LLM retry: {llm_fixed} fixed, {still_failing} still failing")
@@ -344,8 +359,12 @@ def pipeline(pdf, standard, chapter, start_page, end_page, max_retries, spot_che
     if spot_check_size > 0:
         extractable = [el for el in fixed_elements if el.get("type") != "skipped_figure"]
         if extractable:
-            click.echo(f"  Spot checking {min(spot_check_size, len(extractable))} elements...")
-            spot_results = spot_check(extractable, pages, sample_size=spot_check_size)
+            n_spot = min(spot_check_size, len(extractable))
+            click.echo(f"  Spot checking {n_spot} elements against PDF...")
+            with click.progressbar(length=n_spot, label="  Spot check",
+                                   show_pos=True, show_percent=True) as bar:
+                spot_results = spot_check(extractable, pages, sample_size=spot_check_size)
+                bar.update(n_spot)
             click.echo(f"  Spot check accuracy: {spot_results['average_score']*100:.1f}%")
 
     element_ids = {el["id"] for el in fixed_elements}
