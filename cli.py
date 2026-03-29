@@ -194,6 +194,76 @@ def run(pdf, standard, chapter, start_page, end_page, spot_check_size):
 
 
 @cli.command()
+@click.option("--file", "input_file", required=True, type=click.Path(exists=True), help="Raw extracted JSON to fix")
+@click.option("--pdf", default=None, type=click.Path(exists=True), help="Source PDF for page context")
+@click.option("--max-retries", default=3, type=int, help="Max LLM retry attempts per element")
+@click.option("--output", default=None, type=click.Path(), help="Output JSON path")
+@click.option("--start-page", default=1, type=int, help="Chapter start page in PDF")
+@click.option("--end-page", default=None, type=int, help="Chapter end page in PDF")
+def fix(input_file, pdf, max_retries, output, start_page, end_page):
+    """Fix extracted JSON: deterministic post-processing + LLM retry for failures."""
+    from extract.post_processor import post_process
+    from extract.element_retry import retry_elements
+    from qc.schema_validator import validate_chapter
+
+    with open(input_file) as f:
+        elements = json.load(f)
+
+    click.echo(f"Loaded {len(elements)} elements from {input_file}")
+
+    # Step 1: deterministic post-processing
+    processed = post_process(elements)
+
+    # Count how many changed
+    pp_fixes = sum(
+        1 for orig, fixed in zip(elements, processed)
+        if orig != fixed
+    )
+    click.echo(f"Post-processor: {pp_fixes} elements fixed")
+
+    # Step 2: validate to find remaining failures
+    qc_results = validate_chapter(processed)
+    click.echo(f"Schema validation: {qc_results['passed']}/{qc_results['total']} passed")
+
+    # Step 3: parse PDF pages if provided
+    pages = None
+    if pdf:
+        from extract.pdf_parser import parse_pdf
+        click.echo(f"Parsing PDF for context: {pdf}")
+        pages = parse_pdf(pdf, start_page=start_page, end_page=end_page)
+
+    # Step 4: LLM retry for remaining failures
+    fixed_elements, retry_report = retry_elements(
+        processed, qc_results, pages=pages, max_retries=max_retries,
+    )
+
+    llm_fixed = len(retry_report["fixed"])
+    still_failing = len(retry_report["still_failing"])
+    click.echo(f"LLM retry: {llm_fixed} fixed, {still_failing} still failing")
+
+    # Step 5: write output
+    stem = Path(input_file).stem
+    if output is None:
+        output = f"output/fixed/{stem}-fixed.json"
+
+    out_path = Path(output)
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    with open(out_path, "w") as f:
+        json.dump(fixed_elements, f, indent=2)
+    click.echo(f"Fixed elements → {out_path}")
+
+    # Step 6: write fix report
+    report_path = out_path.parent / f"{stem}-fix-report.json"
+    fix_report = {
+        "post_processor_fixes": pp_fixes,
+        "retry_report": retry_report,
+    }
+    with open(report_path, "w") as f:
+        json.dump(fix_report, f, indent=2)
+    click.echo(f"Fix report → {report_path}")
+
+
+@cli.command()
 @click.option("--pdf", required=True, type=click.Path(exists=True), help="Path to source PDF")
 @click.option("--standard", required=True, help='Standard name, e.g. "ASCE 7-22"')
 @click.option("--chapter", required=True, type=int, help="Chapter number")
