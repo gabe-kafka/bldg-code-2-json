@@ -12,10 +12,13 @@ the schema, then validated against the schema before acceptance.
 
 import json
 import copy
+import logging
 
 import anthropic
 
 from qc.schema_validator import load_schema, validate_element
+
+logger = logging.getLogger(__name__)
 
 
 RETRY_MODEL = "claude-sonnet-4-20250514"
@@ -129,8 +132,11 @@ def retry_elements(
                     current_el = candidate
                     current_errors = vr["errors"]
 
-            except Exception:
-                # API error or JSON parse error — counts as failed attempt
+            except Exception as exc:
+                logger.warning(
+                    "Retry attempt %d/%d for %s failed: %s",
+                    attempt, max_retries, eid, exc,
+                )
                 continue
 
         if not fixed:

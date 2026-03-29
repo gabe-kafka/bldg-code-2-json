@@ -240,6 +240,8 @@ def fix(input_file, pdf, max_retries, output, start_page, end_page):
     llm_fixed = len(retry_report["fixed"])
     still_failing = len(retry_report["still_failing"])
     click.echo(f"LLM retry: {llm_fixed} fixed, {still_failing} still failing")
+    if still_failing > 0 and llm_fixed == 0 and qc_results["failed"] > 0:
+        click.echo("  Hint: if all retries failed, check that ANTHROPIC_API_KEY is set")
 
     # Step 5: write output
     stem = Path(input_file).stem
@@ -253,7 +255,8 @@ def fix(input_file, pdf, max_retries, output, start_page, end_page):
     click.echo(f"Fixed elements → {out_path}")
 
     # Step 6: write fix report
-    report_path = out_path.parent / f"{stem}-fix-report.json"
+    out_stem = out_path.stem.removesuffix("-fixed")  # e.g. "asce722-ch26"
+    report_path = out_path.parent / f"{out_stem}-fix-report.json"
     fix_report = {
         "post_processor_fixes": pp_fixes,
         "retry_report": retry_report,

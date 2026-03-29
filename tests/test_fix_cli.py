@@ -215,7 +215,7 @@ class TestFixReportStructure:
 
         assert result.exit_code == 0
 
-        report_path = tmp_path / "input-fix-report.json"
+        report_path = tmp_path / "fixed-fix-report.json"
         assert report_path.exists()
 
         with open(report_path) as f:
