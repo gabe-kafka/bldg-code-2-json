@@ -272,6 +272,156 @@ def fix(input_file, pdf, max_retries, output, start_page, end_page):
 @click.option("--chapter", required=True, type=int, help="Chapter number")
 @click.option("--start-page", default=1, type=int, help="First page of chapter (1-indexed)")
 @click.option("--end-page", default=None, type=int, help="Last page of chapter (inclusive)")
+@click.option("--max-retries", default=3, type=int, help="Max LLM retry attempts per failing element")
+@click.option("--spot-check-size", default=10, type=int, help="Number of elements to spot check")
+def pipeline(pdf, standard, chapter, start_page, end_page, max_retries, spot_check_size):
+    """Full pipeline: extract + fix + QC + calibration in one command."""
+    from extract.llm_structurer import extract_chapter
+    from extract.post_processor import post_process
+    from extract.element_retry import retry_elements
+    from extract.gold_standard import load_gold_elements
+    from extract.pdf_parser import parse_pdf
+    from qc.schema_validator import validate_chapter
+    from qc.completeness import check_completeness
+    from qc.spot_check import spot_check
+    from qc.calibration import calibration_report
+
+    std_slug = standard.lower().replace(" ", "").replace("-", "")
+
+    # ── Step 1: Extract ──────────────────────────────────────────────
+    click.echo(f"=== STEP 1: EXTRACT — {standard} Chapter {chapter} ===")
+    click.echo(f"  PDF: {pdf}, pages {start_page}-{end_page or 'end'}")
+    elements = extract_chapter(pdf, standard, chapter, start_page, end_page)
+
+    raw_path = Path(f"output/raw/{std_slug}-ch{chapter}.json")
+    raw_path.parent.mkdir(parents=True, exist_ok=True)
+    with open(raw_path, "w") as f:
+        json.dump(elements, f, indent=2)
+    click.echo(f"  Extracted {len(elements)} elements → {raw_path}")
+
+    # ── Step 2: Fix (post-process + LLM retry) ──────────────────────
+    click.echo(f"\n=== STEP 2: FIX ===")
+    processed = post_process(elements)
+    pp_fixes = sum(1 for a, b in zip(elements, processed) if a != b)
+    click.echo(f"  Post-processor: {pp_fixes} elements fixed deterministically")
+
+    schema_results = validate_chapter(processed)
+    click.echo(f"  Schema after post-process: {schema_results['passed']}/{schema_results['total']} passed")
+
+    pages = parse_pdf(pdf, start_page=start_page, end_page=end_page)
+
+    if schema_results["failed"] > 0:
+        click.echo(f"  Retrying {schema_results['failed']} failing elements via LLM...")
+        fixed_elements, retry_report = retry_elements(
+            processed, schema_results, pages=pages, max_retries=max_retries,
+        )
+        llm_fixed = len(retry_report["fixed"])
+        still_failing = len(retry_report["still_failing"])
+        click.echo(f"  LLM retry: {llm_fixed} fixed, {still_failing} still failing")
+        if still_failing > 0 and llm_fixed == 0:
+            click.echo("  Hint: check that ANTHROPIC_API_KEY is set")
+    else:
+        fixed_elements = processed
+        retry_report = {"fixed": {}, "still_failing": [], "skipped": [el["id"] for el in processed]}
+        click.echo("  All elements valid — no LLM retry needed")
+
+    fixed_path = Path(f"output/fixed/{std_slug}-ch{chapter}-fixed.json")
+    fixed_path.parent.mkdir(parents=True, exist_ok=True)
+    with open(fixed_path, "w") as f:
+        json.dump(fixed_elements, f, indent=2)
+    click.echo(f"  Fixed elements → {fixed_path}")
+
+    # ── Step 3: QC ───────────────────────────────────────────────────
+    click.echo(f"\n=== STEP 3: QC ===")
+
+    final_schema = validate_chapter(fixed_elements)
+    click.echo(f"  Schema: {final_schema['passed']}/{final_schema['total']} passed")
+
+    completeness = check_completeness(fixed_elements, pages)
+    click.echo(f"  Completeness: {completeness['overall_coverage']*100:.1f}%")
+
+    spot_results = None
+    if spot_check_size > 0:
+        extractable = [el for el in fixed_elements if el.get("type") != "skipped_figure"]
+        if extractable:
+            click.echo(f"  Spot checking {min(spot_check_size, len(extractable))} elements...")
+            spot_results = spot_check(extractable, pages, sample_size=spot_check_size)
+            click.echo(f"  Spot check accuracy: {spot_results['average_score']*100:.1f}%")
+
+    element_ids = {el["id"] for el in fixed_elements}
+    total_refs = 0
+    resolved_refs = 0
+    for el in fixed_elements:
+        for ref in el.get("cross_references", []):
+            total_refs += 1
+            if ref in element_ids:
+                resolved_refs += 1
+    click.echo(f"  Cross-refs: {resolved_refs}/{total_refs} resolved")
+
+    # ── Step 4: Calibration ──────────────────────────────────────────
+    click.echo(f"\n=== STEP 4: CALIBRATION ===")
+    gold = load_gold_elements()
+    cal_report = None
+    if gold:
+        cal_report = calibration_report(fixed_elements, gold)
+        agg = cal_report["aggregate"]
+        click.echo(f"  Gold elements: {len(gold)}")
+        click.echo(f"  Accuracy: {agg['accuracy']:.2%}")
+        click.echo(f"  Type match rate: {agg['type_match_rate']:.2%}")
+        click.echo(f"  Compared: {agg['elements_compared']}, Missing: {agg['elements_missing']}")
+    else:
+        click.echo("  No gold elements found — skipping calibration")
+
+    # ── Write reports ────────────────────────────────────────────────
+    report = {
+        "pipeline": {
+            "standard": standard,
+            "chapter": chapter,
+            "pages": f"{start_page}-{end_page or 'end'}",
+            "total_elements": len(fixed_elements),
+        },
+        "fix": {
+            "post_processor_fixes": pp_fixes,
+            "retry_report": retry_report,
+        },
+        "qc": {
+            "schema": final_schema,
+            "completeness": completeness,
+            "cross_references": {"total": total_refs, "resolved": resolved_refs},
+        },
+    }
+    if spot_results:
+        report["qc"]["spot_check"] = spot_results
+    if cal_report:
+        report["calibration"] = cal_report
+
+    report_path = Path(f"output/qc/{std_slug}-ch{chapter}-pipeline-report.json")
+    report_path.parent.mkdir(parents=True, exist_ok=True)
+    with open(report_path, "w") as f:
+        json.dump(report, f, indent=2)
+
+    # ── Summary ──────────────────────────────────────────────────────
+    click.echo(f"\n{'='*50}")
+    click.echo(f"PIPELINE COMPLETE: {standard} Chapter {chapter}")
+    click.echo(f"{'='*50}")
+    click.echo(f"  Elements:     {len(fixed_elements)}")
+    click.echo(f"  Schema valid: {final_schema['passed']}/{final_schema['total']}")
+    click.echo(f"  Completeness: {completeness['overall_coverage']*100:.1f}%")
+    if spot_results:
+        click.echo(f"  Spot check:   {spot_results['average_score']*100:.1f}%")
+    if cal_report:
+        click.echo(f"  Calibration:  {cal_report['aggregate']['accuracy']:.2%}")
+    click.echo(f"\n  Raw JSON:     {raw_path}")
+    click.echo(f"  Fixed JSON:   {fixed_path}")
+    click.echo(f"  Report:       {report_path}")
+
+
+@cli.command()
+@click.option("--pdf", required=True, type=click.Path(exists=True), help="Path to source PDF")
+@click.option("--standard", required=True, help='Standard name, e.g. "ASCE 7-22"')
+@click.option("--chapter", required=True, type=int, help="Chapter number")
+@click.option("--start-page", default=1, type=int, help="First page of chapter (1-indexed)")
+@click.option("--end-page", default=None, type=int, help="Last page of chapter (inclusive)")
 @click.option("--max-iterations", default=5, type=int, help="Max refinement iterations")
 @click.option("--target-score", default=0.90, type=float, help="Stop when composite score reaches this")
 def refine(pdf, standard, chapter, start_page, end_page, max_iterations, target_score):
