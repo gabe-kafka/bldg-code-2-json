@@ -154,19 +154,39 @@ def compare(run_a, run_b, label_a, label_b, output):
     result = compare_extractions(elements_a, elements_b, label_a, label_b)
     s = result["summary"]
 
-    click.echo(f"\n  Agreed:     {s['agreed']} elements")
-    click.echo(f"  Disagreed:  {s['disagreed']} elements")
+    click.echo(f"\n  Matched by id:       {s['matched_by_id']}")
+    click.echo(f"  Matched by citation: {s['matched_by_citation']}")
+    click.echo(f"  Exact agreed:        {s['agreed']} elements")
+    click.echo(f"  Helper-only diffs:   {s['helper_only']} elements")
+    click.echo(f"  Auth disagreements:  {s['authoritative_disagreed']} elements")
     click.echo(f"  Only {label_a}: {s['only_a']}")
     click.echo(f"  Only {label_b}: {s['only_b']}")
-    click.echo(f"  Agreement:  {s['agreement_rate']:.1%}")
+    click.echo(f"  Exact agreement:     {s['agreement_rate']:.1%}")
+    click.echo(f"  Auth agreement:      {s['authoritative_agreement_rate']:.1%}")
 
-    if result["disagreed"]:
-        click.echo(f"\nTop disagreements:")
-        for d in result["disagreed"][:15]:
+    if result["authoritative_disagreed"]:
+        click.echo(f"\nTop authoritative disagreements:")
+        for d in result["authoritative_disagreed"][:15]:
             type_info = ""
             if d["type_a"] != d["type_b"]:
                 type_info = f" (type: {d['type_a']} vs {d['type_b']})"
-            click.echo(f"  {d['id']}{type_info}")
+            basis_info = ""
+            if d.get("match_basis") == "citation":
+                basis_info = f" [matched by citation: {d['id_a']} <> {d['id_b']}]"
+            click.echo(f"  {d['id']}{type_info}{basis_info}")
+            for f in d["fields"][:3]:
+                field = f["field"]
+                if "only_a" in f:
+                    click.echo(f"    {field}: {label_a}={f['only_a']}, {label_b}={f['only_b']}")
+                else:
+                    click.echo(f"    {field}: {label_a}={f['a']}, {label_b}={f['b']}")
+    elif result["helper_only"]:
+        click.echo(f"\nNo authoritative disagreements. Top helper-only differences:")
+        for d in result["helper_only"][:10]:
+            basis_info = ""
+            if d.get("match_basis") == "citation":
+                basis_info = f" [matched by citation: {d['id_a']} <> {d['id_b']}]"
+            click.echo(f"  {d['id']}{basis_info}")
             for f in d["fields"][:3]:
                 field = f["field"]
                 if "only_a" in f:
@@ -182,6 +202,46 @@ def compare(run_a, run_b, label_a, label_b, output):
     with open(out_path, "w") as f:
         json.dump(result, f, indent=2)
     click.echo(f"\nFull report → {out_path}")
+
+
+@cli.command()
+@click.option("--compare", default="output/qc/compare-claude-vs-codex.json", type=click.Path(exists=True), help="Comparison report JSON")
+@click.option("--run-a", required=True, type=click.Path(exists=True), help="First extraction JSON")
+@click.option("--run-b", required=True, type=click.Path(exists=True), help="Second extraction JSON")
+@click.option("--pages-dir", required=True, type=click.Path(exists=True), help="Rendered page images directory")
+@click.option("--port", default=8787, type=int, help="Server port")
+def review(compare, run_a, run_b, pages_dir, port):
+    """Launch visual review tool for resolving extraction disagreements."""
+    from review.server import start_server
+
+    start_server(compare, run_a, run_b, pages_dir, port)
+
+
+@cli.command()
+@click.option("--base", required=True, type=click.Path(exists=True), help="Base extraction JSON")
+@click.option("--alt", required=True, type=click.Path(exists=True), help="Alternative extraction JSON")
+@click.option("--decisions", default="output/qc/human-decisions.json", type=click.Path(exists=True), help="Human decisions JSON")
+@click.option("--output", default=None, type=click.Path(), help="Merged output path")
+def merge(base, alt, decisions, output):
+    """Merge human review decisions into a resolved extraction."""
+    from review.merge import merge_decisions
+
+    if output is None:
+        output = "output/runs/merged-ch26.json"
+
+    total, applied = merge_decisions(base, alt, decisions, output)
+    click.echo(f"Merged {applied} field decisions across {total} elements → {output}")
+
+
+@cli.command()
+@click.option("--pages-dir", required=True, type=click.Path(exists=True), help="Rendered page images directory")
+@click.option("--port", default=8788, type=int, help="Server port")
+@click.option("--output", default=None, type=click.Path(), help="Classifications output path")
+def classify(pages_dir, port, output):
+    """Launch region classification tool (Phase 1: human selects structured/linked/skipped)."""
+    from review.classify_server import start_classify_server
+
+    start_classify_server(pages_dir, port, output)
 
 
 if __name__ == "__main__":

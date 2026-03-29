@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Review: Building Code Extraction Disagreements</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+
+  /* LIGHT (default) */
+  :root {
+    --bg:#FFF; --surface:#F5F5F5; --text:#1A1A1A; --muted:#6B6B6B;
+    --dim:#505050; --border:#D4D4D4; --subtle:#E8E8E8;
+    --accent:#0057FF; --red:#DC2626; --amber:#D97706; --green:#16A34A; --cyan:#06B6D4;
+    --canvas-bg:#E0E0E0; --overlay-bg:rgba(255,255,255,0.9);
+  }
+  /* DARK */
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg:#0A0A0A; --surface:#141414; --text:#E5E5E5; --muted:#808080;
+      --dim:#606060; --border:#2A2A2A; --subtle:#1A1A1A;
+      --accent:#3B82F6; --red:#DC2626; --amber:#D97706; --green:#16A34A; --cyan:#06B6D4;
+      --canvas-bg:#050505; --overlay-bg:rgba(0,0,0,0.8);
+    }
+  }
+
+  html,body { height:100%; background:var(--bg); color:var(--text); font-family:'JetBrains Mono','SF Mono','Cascadia Mono','IBM Plex Mono',monospace; font-size:12px; }
+  body { display:flex; flex-direction:column; overflow:hidden; }
+
+  /* STATUS BAR (was header) */
+  header { height:24px; background:var(--surface); border-bottom:1px solid var(--border); display:flex; align-items:center; padding:0 8px; gap:16px; font-size:10px; color:var(--muted); }
+  header h1 { font-size:10px; color:var(--text); font-weight:500; text-transform:uppercase; letter-spacing:0.08em; }
+  .counter { color:var(--accent); font-size:10px; }
+  .nav-btn { background:var(--subtle); border:1px solid var(--border); color:var(--muted); padding:2px 8px; cursor:pointer; font-family:inherit; font-size:10px; text-transform:uppercase; letter-spacing:0.05em; }
+  .nav-btn:hover { color:var(--text); border-color:var(--dim); }
+  .nav-btn:disabled { opacity:0.3; cursor:default; }
+  .toolbar { display:flex; gap:8px; margin-left:auto; align-items:center; }
+  .toolbar label { font-size:10px; color:var(--dim); }
+
+  .main { display:flex; flex:1; overflow:hidden; }
+
+  /* LEFT: page image */
+  .canvas-panel { flex:0 0 60%; position:relative; background:var(--canvas-bg); overflow:hidden; }
+  .canvas-panel canvas { position:absolute; top:0; left:0; }
+  .page-label { position:absolute; top:4px; left:4px; background:var(--overlay-bg); color:var(--muted); padding:1px 6px; font-size:10px; }
+
+  /* RIGHT: decision panel */
+  .decision-panel { flex:0 0 40%; display:flex; flex-direction:column; border-left:1px solid var(--border); overflow-y:auto; }
+  .element-header { padding:6px 8px; background:var(--surface); border-bottom:1px solid var(--border); }
+  .element-id { font-size:12px; color:var(--accent); }
+  .element-meta { font-size:10px; color:var(--dim); margin-top:2px; }
+  .match-basis { background:var(--subtle); padding:1px 4px; border:1px solid var(--border); font-size:9px; color:var(--muted); text-transform:uppercase; letter-spacing:0.05em; }
+
+  .context-box { padding:6px 8px; background:var(--subtle); border-bottom:1px solid var(--border); }
+  .look-for { font-size:11px; color:var(--amber); margin-bottom:4px; }
+  .look-for .citation { background:var(--subtle); border:1px solid var(--amber); padding:0 4px; color:var(--amber); font-size:11px; }
+  .look-for .page-ref { color:var(--muted); font-size:10px; }
+  .context-title { font-size:11px; color:var(--text); margin-bottom:2px; }
+  .context-type { display:inline-block; padding:1px 6px; border:1px solid var(--border); font-size:9px; text-transform:uppercase; letter-spacing:0.05em; margin-right:4px; }
+  .type-formula { border-color:var(--cyan); color:var(--cyan); }
+  .type-provision { border-color:var(--accent); color:var(--accent); }
+  .type-table { border-color:var(--green); color:var(--green); }
+  .type-definition { border-color:var(--amber); color:var(--amber); }
+  .type-reference { border-color:var(--muted); color:var(--muted); }
+  .type-figure { border-color:var(--dim); color:var(--dim); }
+  .what-to-decide { font-size:10px; color:var(--amber); margin-top:4px; padding:4px 6px; background:var(--bg); border-left:2px solid var(--amber); }
+
+  .fields-list { flex:1; overflow-y:auto; }
+  .field-block { padding:6px 8px; border-bottom:1px solid var(--border); }
+  .field-name { font-size:10px; color:var(--amber); text-transform:uppercase; letter-spacing:0.05em; margin-bottom:4px; }
+  .field-severity { font-size:8px; padding:0 4px; border:1px solid; text-transform:uppercase; letter-spacing:0.05em; margin-left:4px; }
+  .sev-authoritative { border-color:var(--red); color:var(--red); }
+  .sev-helper { border-color:var(--green); color:var(--green); }
+
+  .value-row { display:flex; gap:6px; margin-bottom:4px; align-items:flex-start; }
+  .value-label { font-size:9px; text-transform:uppercase; letter-spacing:0.05em; min-width:48px; padding-top:4px; }
+  .label-a { color:var(--green); }
+  .label-b { color:var(--red); }
+  .value-text { flex:1; background:var(--bg); border:1px solid var(--border); padding:4px 6px; font-size:11px; font-family:inherit; line-height:1.4; white-space:pre-wrap; word-break:break-word; max-height:120px; overflow-y:auto; }
+  .choose-btn { padding:2px 8px; border:1px solid var(--border); cursor:pointer; font-family:inherit; font-size:9px; text-transform:uppercase; letter-spacing:0.05em; background:transparent; color:var(--dim); }
+  .choose-btn.a { border-color:var(--green); color:var(--green); }
+  .choose-btn.b { border-color:var(--red); color:var(--red); }
+  .choose-btn:hover { background:var(--subtle); }
+  .choose-btn.a.selected { background:rgba(22,163,74,0.15); }
+  .choose-btn.b.selected { background:rgba(220,38,38,0.15); }
+
+  .manual-row { margin-top:4px; }
+  .manual-input { width:100%; background:var(--bg); border:1px solid var(--border); color:var(--text); padding:4px 6px; font-size:11px; font-family:inherit; resize:vertical; min-height:24px; }
+  .manual-input:focus { border-color:var(--accent); outline:none; }
+
+  .actions { padding:6px 8px; background:var(--surface); border-top:1px solid var(--border); display:flex; gap:4px; }
+  .actions .notes-input { flex:1; background:var(--bg); border:1px solid var(--border); color:var(--text); padding:4px 6px; font-size:10px; font-family:inherit; }
+  .save-btn { border:1px solid var(--green); color:var(--green); background:transparent; padding:4px 12px; cursor:pointer; font-family:inherit; font-size:10px; text-transform:uppercase; letter-spacing:0.05em; }
+  .save-btn:hover { background:rgba(22,163,74,0.15); }
+  .skip-btn { border:1px solid var(--border); color:var(--muted); background:transparent; padding:4px 8px; cursor:pointer; font-family:inherit; font-size:10px; text-transform:uppercase; letter-spacing:0.05em; }
+  .skip-btn:hover { color:var(--text); }
+
+  .done-overlay { display:none; position:absolute; inset:0; background:var(--overlay-bg); justify-content:center; align-items:center; flex-direction:column; gap:8px; z-index:10; }
+  .done-overlay.show { display:flex; }
+  .done-overlay h2 { color:var(--green); font-size:14px; text-transform:uppercase; letter-spacing:0.08em; }
+  .done-overlay p { color:var(--muted); font-size:11px; }
+
+  .draw-indicator { position:absolute; top:4px; right:4px; font-size:9px; padding:1px 6px; text-transform:uppercase; letter-spacing:0.05em; }
+  .draw-on { background:var(--red); color:var(--bg); }
+  .draw-off { background:var(--subtle); color:var(--dim); }
+</style>
+</head>
+<body>
+<header>
+  <h1>Extraction Review</h1>
+  <span class="counter" id="counter">Loading...</span>
+  <button class="nav-btn" id="prevBtn" onclick="navigate(-1)">Prev</button>
+  <button class="nav-btn" id="nextBtn" onclick="navigate(1)">Next</button>
+  <div class="toolbar">
+    <label><input type="checkbox" id="drawToggle" checked> Draw mode</label>
+    <button class="nav-btn" onclick="clearDrawing()">Clear ink</button>
+    <label>Zoom: <input type="range" id="zoomSlider" min="0.3" max="3" step="0.1" value="0.5" oninput="setZoom(this.value)"></label>
+  </div>
+</header>
+
+<div class="main">
+  <div class="canvas-panel" id="canvasPanel">
+    <canvas id="imgCanvas"></canvas>
+    <canvas id="drawCanvas"></canvas>
+    <span class="page-label" id="pageLabel"></span>
+    <span class="draw-indicator draw-on" id="drawIndicator">PEN ON</span>
+    <div class="done-overlay" id="doneOverlay">
+      <h2>All disagreements reviewed</h2>
+      <p id="doneSummary"></p>
+      <p>Run: <code>python cli.py merge</code> to apply decisions</p>
+    </div>
+  </div>
+
+  <div class="decision-panel">
+    <div class="element-header" id="elemHeader">
+      <div class="element-id" id="elemId"></div>
+      <div class="element-meta" id="elemMeta"></div>
+    </div>
+    <div class="context-box" id="contextBox"></div>
+    <div class="fields-list" id="fieldsList"></div>
+    <div class="actions">
+      <input class="notes-input" id="notesInput" placeholder="Notes (optional)">
+      <button class="skip-btn" onclick="navigate(1)">Skip</button>
+      <button class="save-btn" onclick="saveAndNext()">Save & Next</button>
+    </div>
+  </div>
+</div>
+
+<script>
+let disagreements = [];
+let decisions = {};
+let currentIdx = 0;
+let fieldChoices = {};  // { fieldName: { choice: 'a'|'b'|'manual', value: ... } }
+
+// Canvas state
+const imgCanvas = document.getElementById('imgCanvas');
+const drawCanvas = document.getElementById('drawCanvas');
+const imgCtx = imgCanvas.getContext('2d');
+const drawCtx = drawCanvas.getContext('2d');
+let currentImage = null;
+let zoom = 0.5;
+let panX = 0, panY = 0;
+let isPanning = false, isDrawing = false;
+let lastX = 0, lastY = 0;
+
+// Init
+(async function() {
+  const [dResp, decResp] = await Promise.all([
+    fetch('/api/disagreements').then(r => r.json()),
+    fetch('/api/decisions').then(r => r.json())
+  ]);
+  disagreements = dResp;
+  for (const d of decResp.decisions || []) {
+    decisions[d.element_id] = d;
+  }
+  if (disagreements.length === 0) {
+    document.getElementById('counter').textContent = 'No disagreements';
+    return;
+  }
+  showDisagreement(0);
+})();
+
+function showDisagreement(idx) {
+  currentIdx = idx;
+  const d = disagreements[idx];
+  fieldChoices = {};
+
+  // Restore previous decisions if any
+  const prev = decisions[d.id];
+  if (prev) {
+    fieldChoices = { ...(prev.fields || {}) };
+    document.getElementById('notesInput').value = prev.notes || '';
+  } else {
+    document.getElementById('notesInput').value = '';
+  }
+
+  // Counter
+  const resolved = Object.keys(decisions).length;
+  document.getElementById('counter').textContent =
+    `${idx + 1} / ${disagreements.length} (${resolved} resolved)`;
+  document.getElementById('prevBtn').disabled = idx === 0;
+  document.getElementById('nextBtn').disabled = idx === disagreements.length - 1;
+
+  // Header
+  document.getElementById('elemId').textContent = d.id;
+  const typeDiff = d.type_a !== d.type_b ? ` (type: ${d.type_a} vs ${d.type_b})` : '';
+  const basis = d.match_basis === 'citation' ? ` <span class="match-basis">matched by citation</span>` : '';
+  document.getElementById('elemMeta').innerHTML = `${typeDiff}${basis}`;
+
+  // Context box: what to look for and where
+  const elA = d.element_a;
+  const elB = d.element_b;
+  const type = elA.type || elB.type;
+  const typeClass = `type-${type}`;
+  const citA = elA.source?.citation || '';
+  const citB = elB.source?.citation || '';
+  const citation = citA || citB;
+  const section = elA.source?.section || elB.source?.section || '';
+  const pageA = elA.source?.page;
+  const pageB = elB.source?.page;
+  const pageStr = pageA === pageB ? `p. ${pageA}` : `p. ${pageA} / ${pageB}`;
+  const titleA = elA.title || '';
+  const titleB = elB.title || '';
+  const title = titleA.length >= titleB.length ? titleA : titleB;
+
+  // Build "what to decide" hint based on element type and which fields differ
+  const authFields = d.fields.filter(f => f.severity === 'authoritative').map(f => f.field);
+  let decisionHint = '';
+  if (type === 'formula' && authFields.includes('data.expression')) {
+    decisionHint = `Find ${citation || 'this equation'} on the page. Which expression is actually printed next to that label?`;
+  } else if (type === 'provision' && authFields.includes('data.rule')) {
+    decisionHint = `Find Section ${section} on the page. Read the provision text — which version matches the exact wording?`;
+  } else if (type === 'table' && (authFields.includes('data.rows') || authFields.includes('data.columns'))) {
+    decisionHint = `Find ${citation || 'this table'} on the page. Compare the column headers and row values against each extraction.`;
+  } else if (type === 'definition' && authFields.includes('data.definition')) {
+    decisionHint = `Find the definition of this term in Section ${section}. Which version matches the exact wording?`;
+  } else if (type === 'reference' && authFields.includes('data.target')) {
+    decisionHint = `Find this reference citation on the page. Which target string matches exactly?`;
+  } else if (authFields.length > 0) {
+    decisionHint = `Compare the highlighted fields below against what you see on the page.`;
+  } else {
+    decisionHint = `Only helper/derived fields differ — choose whichever is more faithful to the source.`;
+  }
+
+  document.getElementById('contextBox').innerHTML = `
+    <div class="look-for">
+      <span class="context-type ${typeClass}">${type}</span>
+      ${citation ? `<span class="citation">${esc(citation)}</span>` : ''}
+      ${section ? `in Section ${esc(section)}` : ''}
+      <span class="page-ref">— ${pageStr}</span>
+    </div>
+    ${title ? `<div class="context-title">${esc(title)}</div>` : ''}
+    <div class="what-to-decide">${esc(decisionHint)}</div>
+  `;
+
+  // Fields — show authoritative first, then helper
+  const list = document.getElementById('fieldsList');
+  list.innerHTML = '';
+  const sortedFields = [...d.fields].sort((a, b) => {
+    const order = { authoritative: 0, helper: 1, descriptive: 2 };
+    return (order[a.severity] || 2) - (order[b.severity] || 2);
+  });
+  for (const f of sortedFields) {
+    if (f.severity === 'descriptive') continue; // skip figure descriptions
+    const block = document.createElement('div');
+    block.className = 'field-block';
+
+    const sevClass = f.severity === 'authoritative' ? 'sev-authoritative' : 'sev-helper';
+    const valA = f.a !== undefined ? f.a : f.only_a;
+    const valB = f.b !== undefined ? f.b : f.only_b;
+
+    const choiceA = fieldChoices[f.field]?.choice === 'a' ? ' selected' : '';
+    const choiceB = fieldChoices[f.field]?.choice === 'b' ? ' selected' : '';
+
+    // Human-readable field label
+    const fieldLabel = friendlyFieldName(f.field, type);
+
+    block.innerHTML = `
+      <div class="field-name">${esc(fieldLabel)} <span class="field-severity ${sevClass}">${f.severity}</span></div>
+      <div class="value-row">
+        <span class="value-label label-a">Claude</span>
+        <div class="value-text">${esc(fmt(valA))}</div>
+        <button class="choose-btn a${choiceA}" onclick="choose('${f.field}','a',this)">Use this</button>
+      </div>
+      <div class="value-row">
+        <span class="value-label label-b">Codex</span>
+        <div class="value-text">${esc(fmt(valB))}</div>
+        <button class="choose-btn b${choiceB}" onclick="choose('${f.field}','b',this)">Use this</button>
+      </div>
+      <div class="manual-row">
+        <textarea class="manual-input" placeholder="Or type the correct value from the PDF..." rows="1"
+          data-field="${f.field}" oninput="manualEdit('${f.field}',this.value)">${fieldChoices[f.field]?.choice === 'manual' ? fieldChoices[f.field].value || '' : ''}</textarea>
+      </div>
+    `;
+    list.appendChild(block);
+  }
+
+  // Load page image
+  if (d.page_images && d.page_images.length > 0) {
+    loadPageImage(d.page_images[0]);
+  }
+}
+
+function choose(field, choice, btn) {
+  // Deselect siblings
+  const row = btn.closest('.field-block');
+  row.querySelectorAll('.choose-btn').forEach(b => b.classList.remove('selected'));
+  btn.classList.add('selected');
+  row.querySelector('.manual-input').value = '';
+  fieldChoices[field] = { choice, value: null };
+}
+
+function manualEdit(field, value) {
+  if (value.trim()) {
+    fieldChoices[field] = { choice: 'manual', value: value.trim() };
+    // Deselect A/B buttons
+    document.querySelectorAll(`.field-block`).forEach(block => {
+      const ta = block.querySelector('.manual-input');
+      if (ta && ta.dataset.field === field) {
+        block.querySelectorAll('.choose-btn').forEach(b => b.classList.remove('selected'));
+      }
+    });
+  }
+}
+
+async function saveAndNext() {
+  const d = disagreements[currentIdx];
+  const decision = {
+    element_id: d.id,
+    id_a: d.id_a,
+    id_b: d.id_b,
+    fields: fieldChoices,
+    notes: document.getElementById('notesInput').value
+  };
+  decisions[d.id] = decision;
+
+  await fetch('/api/decisions', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(decision)
+  });
+
+  if (currentIdx < disagreements.length - 1) {
+    showDisagreement(currentIdx + 1);
+  } else {
+    // Done
+    const overlay = document.getElementById('doneOverlay');
+    overlay.classList.add('show');
+    document.getElementById('doneSummary').textContent =
+      `${Object.keys(decisions).length} of ${disagreements.length} disagreements resolved.`;
+  }
+}
+
+function navigate(delta) {
+  const next = currentIdx + delta;
+  if (next >= 0 && next < disagreements.length) {
+    showDisagreement(next);
+  }
+}
+
+// Image + drawing
+function loadPageImage(name) {
+  const img = new Image();
+  img.onload = () => {
+    currentImage = img;
+    document.getElementById('pageLabel').textContent = name;
+    resizeCanvases();
+    redraw();
+  };
+  img.src = `/api/pages/${name}`;
+}
+
+function resizeCanvases() {
+  const panel = document.getElementById('canvasPanel');
+  const w = panel.clientWidth;
+  const h = panel.clientHeight;
+  for (const c of [imgCanvas, drawCanvas]) {
+    c.width = w;
+    c.height = h;
+  }
+}
+
+function redraw() {
+  if (!currentImage) return;
+  imgCtx.clearRect(0, 0, imgCanvas.width, imgCanvas.height);
+  imgCtx.save();
+  imgCtx.translate(panX, panY);
+  imgCtx.scale(zoom, zoom);
+  imgCtx.drawImage(currentImage, 0, 0);
+  imgCtx.restore();
+}
+
+function clearDrawing() {
+  drawCtx.clearRect(0, 0, drawCanvas.width, drawCanvas.height);
+}
+
+function setZoom(val) {
+  zoom = parseFloat(val);
+  redraw();
+}
+
+// Drawing events on drawCanvas
+drawCanvas.addEventListener('mousedown', e => {
+  if (document.getElementById('drawToggle').checked) {
+    isDrawing = true;
+    drawCtx.beginPath();
+    drawCtx.moveTo(e.offsetX, e.offsetY);
+    drawCtx.strokeStyle = '#ef4444';
+    drawCtx.lineWidth = 3;
+    drawCtx.lineCap = 'round';
+  } else {
+    isPanning = true;
+  }
+  lastX = e.offsetX;
+  lastY = e.offsetY;
+});
+
+drawCanvas.addEventListener('mousemove', e => {
+  if (isDrawing) {
+    drawCtx.lineTo(e.offsetX, e.offsetY);
+    drawCtx.stroke();
+  } else if (isPanning) {
+    panX += e.offsetX - lastX;
+    panY += e.offsetY - lastY;
+    lastX = e.offsetX;
+    lastY = e.offsetY;
+    redraw();
+  }
+});
+
+drawCanvas.addEventListener('mouseup', () => { isDrawing = false; isPanning = false; });
+drawCanvas.addEventListener('mouseleave', () => { isDrawing = false; isPanning = false; });
+
+drawCanvas.addEventListener('wheel', e => {
+  e.preventDefault();
+  const delta = e.deltaY > 0 ? -0.1 : 0.1;
+  zoom = Math.max(0.2, Math.min(4, zoom + delta));
+  document.getElementById('zoomSlider').value = zoom;
+  redraw();
+}, { passive: false });
+
+// Toggle draw indicator
+document.getElementById('drawToggle').addEventListener('change', function() {
+  const ind = document.getElementById('drawIndicator');
+  if (this.checked) {
+    ind.textContent = 'PEN ON';
+    ind.className = 'draw-indicator draw-on';
+    drawCanvas.style.cursor = 'crosshair';
+  } else {
+    ind.textContent = 'PAN MODE';
+    ind.className = 'draw-indicator draw-off';
+    drawCanvas.style.cursor = 'grab';
+  }
+});
+
+window.addEventListener('resize', () => { resizeCanvases(); redraw(); });
+
+function esc(s) { const d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
+function fmt(v) {
+  if (v === null || v === undefined) return '(missing)';
+  if (typeof v === 'object') return JSON.stringify(v, null, 2);
+  return String(v);
+}
+
+function friendlyFieldName(field, type) {
+  const map = {
+    'data.expression':   'Equation / Expression',
+    'data.parameters':   'Parameters',
+    'data.samples':      'Sample Values (derived)',
+    'data.rule':         'Provision Text (exact wording)',
+    'data.conditions':   'Structured Conditions (derived)',
+    'data.then':         'Then-clause (derived)',
+    'data.else':         'Else-clause (derived)',
+    'data.exceptions':   'Exceptions (derived)',
+    'data.term':         'Defined Term',
+    'data.definition':   'Definition Text (exact wording)',
+    'data.target':       'Reference Target',
+    'data.url':          'URL (helper)',
+    'data.columns':      'Table Columns',
+    'data.rows':         'Table Row Data',
+    'data.figure_type':  'Figure Type',
+    'data.description':  'Figure Description',
+    'source.citation':   'Official Citation (e.g. Eq. 26.10-1)',
+    'source.section':    'Section Number',
+    'source.page':       'PDF Page Number',
+    'cross_references':  'Cross-References to Other Elements',
+    'title':             'Element Title',
+    'description':       'Description (non-authoritative)',
+    'type':              'Element Type Classification',
+  };
+  return map[field] || field;
+}
+</script>
+</body>
+</html>

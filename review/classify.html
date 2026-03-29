@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>CLASSIFY — Region Classification</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+
+  /* LIGHT */
+  :root {
+    --bg:#FFF; --surface:#F5F5F5; --text:#1A1A1A; --muted:#6B6B6B;
+    --dim:#505050; --border:#D4D4D4; --subtle:#E8E8E8;
+    --accent:#0057FF; --red:#DC2626; --amber:#D97706; --green:#16A34A; --cyan:#06B6D4;
+    --canvas-bg:#E0E0E0;
+    --overlay-bg:rgba(255,255,255,0.85);
+    --selected-bg:#0057FF15;
+    --structured-alpha:rgba(22,163,74,0.12); --linked-alpha:rgba(217,119,6,0.12); --skipped-alpha:rgba(96,96,96,0.08);
+    --box-label-bg:rgba(255,255,255,0.85);
+  }
+
+  /* DARK */
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg:#0A0A0A; --surface:#141414; --text:#E5E5E5; --muted:#808080;
+      --dim:#606060; --border:#2A2A2A; --subtle:#1A1A1A;
+      --accent:#3B82F6; --red:#DC2626; --amber:#D97706; --green:#16A34A; --cyan:#06B6D4;
+      --canvas-bg:#050505;
+      --overlay-bg:rgba(0,0,0,0.8);
+      --selected-bg:#3B82F615;
+      --structured-alpha:rgba(22,163,74,0.08); --linked-alpha:rgba(217,119,6,0.08); --skipped-alpha:rgba(96,96,96,0.06);
+      --box-label-bg:rgba(0,0,0,0.7);
+    }
+  }
+
+  html,body { height:100%; background:var(--bg); color:var(--text); font-family:'JetBrains Mono','SF Mono','Cascadia Mono','IBM Plex Mono','Courier Prime',monospace; font-size:12px; overflow:hidden; }
+
+  /* STATUS BAR */
+  .status-bar { height:24px; background:var(--surface); border-bottom:1px solid var(--border); display:flex; align-items:center; padding:0 8px; gap:16px; font-size:10px; color:var(--muted); }
+  .status-bar .title { color:var(--text); font-weight:500; text-transform:uppercase; letter-spacing:0.08em; }
+  .status-bar .sep { color:var(--border); }
+  .status-bar .stat { color:var(--dim); }
+  .status-bar .stat b { color:var(--text); font-weight:400; }
+
+  /* MAIN LAYOUT */
+  .main { display:grid; grid-template-columns:1fr 280px; height:calc(100vh - 24px); }
+
+  /* LEFT: PAGE IMAGE + OVERLAY */
+  .canvas-wrap { position:relative; overflow:hidden; background:var(--canvas-bg); cursor:default; }
+  .canvas-wrap canvas { position:absolute; top:0; left:0; }
+  .page-info { position:absolute; top:4px; left:4px; font-size:10px; color:var(--muted); background:var(--overlay-bg); padding:1px 6px; }
+
+  /* RIGHT: REGION LIST + CONTROLS */
+  .sidebar { display:flex; flex-direction:column; border-left:1px solid var(--border); background:var(--surface); }
+
+  /* PAGE NAV */
+  .page-nav { display:flex; align-items:center; border-bottom:1px solid var(--border); padding:4px 6px; gap:4px; }
+  .page-nav .lbl { font-size:8px; text-transform:uppercase; letter-spacing:0.1em; color:var(--muted); }
+  .page-nav .pg-num { font-size:12px; color:var(--text); min-width:40px; text-align:center; }
+  .btn { background:var(--subtle); border:1px solid var(--border); color:var(--muted); padding:2px 8px; cursor:pointer; font-family:inherit; font-size:10px; text-transform:uppercase; letter-spacing:0.05em; }
+  .btn:hover { color:var(--text); border-color:var(--dim); }
+  .btn:disabled { opacity:0.3; cursor:default; }
+  .btn.primary { border-color:var(--green); color:var(--green); }
+  .btn.primary:hover { background:var(--structured-alpha); }
+  .spacer { flex:1; }
+
+  /* TOOL STRIP */
+  .tool-strip { display:flex; border-bottom:1px solid var(--border); padding:4px 6px; gap:4px; }
+  .tool-btn { padding:2px 6px; font-size:10px; font-family:inherit; background:transparent; border:1px solid transparent; color:var(--dim); cursor:pointer; text-transform:uppercase; letter-spacing:0.05em; }
+  .tool-btn:hover { color:var(--text); }
+  .tool-btn.active { border-color:var(--accent); color:var(--accent); }
+  .tool-strip .mode-label { font-size:8px; color:var(--muted); text-transform:uppercase; letter-spacing:0.1em; align-self:center; margin-right:4px; }
+
+  /* REGION LIST */
+  .region-header { padding:4px 6px; border-bottom:1px solid var(--border); font-size:8px; text-transform:uppercase; letter-spacing:0.1em; color:var(--muted); display:flex; justify-content:space-between; }
+  .region-list { flex:1; overflow-y:auto; }
+  .region-item { display:grid; grid-template-columns:8px 1fr auto; gap:6px; align-items:center; padding:3px 6px; border-bottom:1px solid var(--bg); cursor:pointer; }
+  .region-item:hover { background:var(--subtle); }
+  .region-item.selected { background:var(--selected-bg); border-left:2px solid var(--accent); padding-left:4px; }
+  .region-dot { width:6px; height:6px; border-radius:1px; }
+  .dot-structured { background:var(--green); }
+  .dot-linked { background:var(--amber); }
+  .dot-skipped { background:var(--dim); }
+  .region-info { min-width:0; }
+  .region-type { font-size:10px; color:var(--text); }
+  .region-dims { font-size:9px; color:var(--dim); }
+  .region-class { font-size:9px; padding:0px 4px; border:1px solid; border-radius:1px; text-transform:uppercase; letter-spacing:0.05em; }
+  .cls-structured { border-color:var(--green); color:var(--green); }
+  .cls-linked { border-color:var(--amber); color:var(--amber); }
+  .cls-skipped { border-color:var(--dim); color:var(--dim); }
+
+  /* CLASSIFICATION CONTROLS */
+  .classify-panel { border-top:1px solid var(--border); padding:6px; }
+  .classify-label { font-size:8px; text-transform:uppercase; letter-spacing:0.1em; color:var(--muted); margin-bottom:4px; }
+  .classify-btns { display:flex; gap:4px; }
+  .cls-btn { flex:1; padding:4px 0; text-align:center; font-family:inherit; font-size:10px; text-transform:uppercase; letter-spacing:0.05em; cursor:pointer; border:1px solid var(--border); background:transparent; color:var(--dim); }
+  .cls-btn:hover { color:var(--text); }
+  .cls-btn.sel-structured { border-color:var(--green); color:var(--green); background:var(--structured-alpha); }
+  .cls-btn.sel-linked { border-color:var(--amber); color:var(--amber); background:var(--linked-alpha); }
+  .cls-btn.sel-skipped { border-color:var(--dim); color:var(--muted); background:var(--skipped-alpha); }
+
+  /* TYPE OVERRIDE */
+  .type-panel { padding:4px 6px; border-top:1px solid var(--border); }
+  .type-btns { display:flex; gap:3px; flex-wrap:wrap; }
+  .type-btn { padding:2px 5px; font-family:inherit; font-size:9px; text-transform:uppercase; letter-spacing:0.04em; cursor:pointer; border:1px solid var(--border); background:transparent; color:var(--dim); }
+  .type-btn:hover { color:var(--text); }
+  .type-btn.active { border-color:var(--accent); color:var(--accent); }
+
+  /* SUMMARY STRIP */
+  .summary-strip { display:flex; border-top:1px solid var(--border); padding:4px 6px; gap:12px; font-size:10px; }
+  .summary-strip .kpi { display:flex; flex-direction:column; }
+  .summary-strip .kpi-label { font-size:8px; text-transform:uppercase; letter-spacing:0.1em; color:var(--muted); }
+  .summary-strip .kpi-val { font-size:12px; color:var(--text); font-variant-numeric:tabular-nums; }
+
+  /* SAVE ROW */
+  .save-row { display:flex; gap:4px; padding:4px 6px; border-top:1px solid var(--border); }
+</style>
+</head>
+<body>
+
+<div class="status-bar">
+  <span class="title">classify</span>
+  <span class="sep">|</span>
+  <span class="stat">PAGE <b id="sb-page">-</b> / <b id="sb-total">-</b></span>
+  <span class="sep">|</span>
+  <span class="stat">REGIONS <b id="sb-regions">-</b></span>
+  <span class="sep">|</span>
+  <span class="stat" id="sb-saved" style="color:var(--dim)">NOT SAVED</span>
+</div>
+
+<div class="main">
+  <div class="canvas-wrap" id="canvasWrap">
+    <canvas id="imgCanvas"></canvas>
+    <canvas id="boxCanvas"></canvas>
+    <span class="page-info" id="pageInfo"></span>
+  </div>
+
+  <div class="sidebar">
+    <div class="page-nav">
+      <span class="lbl">PAGE</span>
+      <button class="btn" id="prevPage" onclick="navPage(-1)">&lt;</button>
+      <span class="pg-num" id="pgNum">-</span>
+      <button class="btn" id="nextPage" onclick="navPage(1)">&gt;</button>
+      <span class="spacer"></span>
+      <button class="btn primary" onclick="savePage()">SAVE</button>
+    </div>
+
+    <div class="tool-strip">
+      <span class="mode-label">DRAW</span>
+      <button class="tool-btn active" id="tool-select" onclick="setTool('select')">SELECT</button>
+      <button class="tool-btn" id="tool-add" onclick="setTool('add')">+ REGION</button>
+      <button class="tool-btn" id="tool-delete" onclick="deleteSelected()">DEL</button>
+      <span class="spacer"></span>
+      <button class="tool-btn" onclick="resegment()">RE-DETECT</button>
+    </div>
+
+    <div class="region-header">
+      <span>REGIONS</span>
+      <span id="regionCount">0</span>
+    </div>
+    <div class="region-list" id="regionList"></div>
+
+    <div class="classify-panel" id="classifyPanel">
+      <div class="classify-label">CLASSIFICATION</div>
+      <div class="classify-btns">
+        <button class="cls-btn" data-cls="structured" onclick="setClassification('structured')">STRUCTURED</button>
+        <button class="cls-btn" data-cls="linked" onclick="setClassification('linked')">LINKED</button>
+        <button class="cls-btn" data-cls="skipped" onclick="setClassification('skipped')">SKIPPED</button>
+      </div>
+    </div>
+
+    <div class="type-panel" id="typePanel">
+      <div class="classify-label">REGION TYPE</div>
+      <div class="type-btns">
+        <button class="type-btn" data-type="text_block" onclick="setRegionType('text_block')">TEXT</button>
+        <button class="type-btn" data-type="table" onclick="setRegionType('table')">TABLE</button>
+        <button class="type-btn" data-type="equation" onclick="setRegionType('equation')">EQN</button>
+        <button class="type-btn" data-type="figure" onclick="setRegionType('figure')">FIGURE</button>
+      </div>
+    </div>
+
+    <div class="summary-strip">
+      <div class="kpi"><span class="kpi-label">STRUCTURED</span><span class="kpi-val" id="kpiStructured" style="color:var(--green)">0</span></div>
+      <div class="kpi"><span class="kpi-label">LINKED</span><span class="kpi-val" id="kpiLinked" style="color:var(--amber)">0</span></div>
+      <div class="kpi"><span class="kpi-label">SKIPPED</span><span class="kpi-val" id="kpiSkipped" style="color:var(--dim)">0</span></div>
+    </div>
+  </div>
+</div>
+
+<script>
+const imgCanvas = document.getElementById('imgCanvas');
+const boxCanvas = document.getElementById('boxCanvas');
+const imgCtx = imgCanvas.getContext('2d');
+const boxCtx = boxCanvas.getContext('2d');
+
+let pages = [];
+let currentPageIdx = 0;
+let currentImage = null;
+let regions = []; // [{x0,y0,x1,y1,region_type,classification}]
+let selectedIdx = -1;
+let savedPages = {};
+
+let zoom = 1.0;
+let panX = 0, panY = 0;
+let tool = 'select'; // select | add
+let dragging = false;
+let dragStart = null;
+let isPanning = false;
+let lastMouse = {x:0, y:0};
+
+// Read CSS variables at runtime for light/dark mode support
+function getCSSVar(name) { return getComputedStyle(document.documentElement).getPropertyValue(name).trim(); }
+function clsColors() {
+  return {
+    structured: {stroke:getCSSVar('--green'), fill:getCSSVar('--structured-alpha')},
+    linked:     {stroke:getCSSVar('--amber'), fill:getCSSVar('--linked-alpha')},
+    skipped:    {stroke:getCSSVar('--dim'),   fill:getCSSVar('--skipped-alpha')},
+  };
+}
+// Re-render on color scheme change
+window.matchMedia('(prefers-color-scheme: light)').addEventListener('change', () => redraw());
+
+// INIT
+(async function(){
+  pages = await fetch('/api/pages').then(r=>r.json());
+  const saved = await fetch('/api/classifications').then(r=>r.json());
+  savedPages = saved.pages || {};
+  document.getElementById('sb-total').textContent = pages.length;
+  if(pages.length) loadPage(0);
+})();
+
+async function loadPage(idx) {
+  currentPageIdx = idx;
+  selectedIdx = -1;
+  const pg = pages[idx];
+  document.getElementById('pgNum').textContent = pg.index;
+  document.getElementById('sb-page').textContent = pg.index;
+  document.getElementById('prevPage').disabled = idx===0;
+  document.getElementById('nextPage').disabled = idx===pages.length-1;
+  document.getElementById('pageInfo').textContent = pg.filename;
+
+  // Restore saved regions or auto-segment
+  const saved = savedPages[String(pg.index)];
+  if(saved) {
+    regions = JSON.parse(JSON.stringify(saved.regions));
+  } else {
+    document.getElementById('pageInfo').textContent = pg.filename + ' — SEGMENTING...';
+    regions = await fetch(`/api/segment/${pg.filename}`).then(r=>r.json());
+    document.getElementById('pageInfo').textContent = pg.filename + ` — ${regions.length} regions detected`;
+  }
+
+  const img = new Image();
+  img.onload = () => {
+    currentImage = img;
+    const wrap = document.getElementById('canvasWrap');
+    zoom = Math.min(wrap.clientWidth / img.width, wrap.clientHeight / img.height);
+    panX = 0; panY = 0;
+    resize();
+    redraw();
+    renderRegionList();
+  };
+  img.src = `/api/img/${pg.filename}`;
+  updateSavedIndicator();
+}
+
+function navPage(d) {
+  const n = currentPageIdx + d;
+  if(n>=0 && n<pages.length) loadPage(n);
+}
+
+// CANVAS
+function resize() {
+  const wrap = document.getElementById('canvasWrap');
+  const w = wrap.clientWidth, h = wrap.clientHeight;
+  imgCanvas.width = w; imgCanvas.height = h;
+  boxCanvas.width = w; boxCanvas.height = h;
+}
+
+function redraw() {
+  if(!currentImage) return;
+  const w = imgCanvas.width, h = imgCanvas.height;
+  imgCtx.clearRect(0,0,w,h);
+  imgCtx.save();
+  imgCtx.translate(panX, panY);
+  imgCtx.scale(zoom, zoom);
+  imgCtx.drawImage(currentImage, 0, 0);
+  imgCtx.restore();
+  drawBoxes();
+}
+
+function drawBoxes() {
+  const w = boxCanvas.width, h = boxCanvas.height;
+  boxCtx.clearRect(0,0,w,h);
+  const colors = clsColors();
+  const labelBg = getCSSVar('--box-label-bg');
+  const accentColor = getCSSVar('--accent');
+  regions.forEach((r,i) => {
+    const c = colors[r.classification] || colors.skipped;
+    const sx = r.x0*zoom+panX, sy = r.y0*zoom+panY;
+    const sw = (r.x1-r.x0)*zoom, sh = (r.y1-r.y0)*zoom;
+
+    boxCtx.fillStyle = c.fill;
+    boxCtx.fillRect(sx, sy, sw, sh);
+    boxCtx.strokeStyle = i===selectedIdx ? accentColor : c.stroke;
+    boxCtx.lineWidth = i===selectedIdx ? 2 : 1;
+    boxCtx.strokeRect(sx, sy, sw, sh);
+
+    // label
+    boxCtx.font = '9px "JetBrains Mono", monospace';
+    const label = `${r.region_type} · ${r.classification}`;
+    const tm = boxCtx.measureText(label);
+    boxCtx.fillStyle = labelBg;
+    boxCtx.fillRect(sx, sy - 12, tm.width + 6, 12);
+    boxCtx.fillStyle = c.stroke;
+    boxCtx.fillText(label, sx + 3, sy - 3);
+  });
+
+  // draw in-progress box
+  if(dragging && dragStart) {
+    boxCtx.strokeStyle = accentColor;
+    boxCtx.lineWidth = 1;
+    boxCtx.setLineDash([4,4]);
+    const sx = Math.min(dragStart.sx, lastMouse.x);
+    const sy = Math.min(dragStart.sy, lastMouse.y);
+    const sw = Math.abs(lastMouse.x - dragStart.sx);
+    const sh = Math.abs(lastMouse.y - dragStart.sy);
+    boxCtx.strokeRect(sx, sy, sw, sh);
+    boxCtx.setLineDash([]);
+  }
+}
+
+// MOUSE: click to select, drag to draw new region (in add mode)
+boxCanvas.addEventListener('mousedown', e => {
+  const mx = e.offsetX, my = e.offsetY;
+  if(tool === 'select') {
+    const hit = hitTest(mx, my);
+    if(hit >= 0) {
+      selectRegion(hit);
+    } else {
+      selectedIdx = -1;
+      renderRegionList();
+      updateClassifyUI();
+      drawBoxes();
+    }
+  } else if(tool === 'add') {
+    dragging = true;
+    dragStart = {sx:mx, sy:my};
+  }
+});
+
+boxCanvas.addEventListener('mousemove', e => {
+  lastMouse = {x:e.offsetX, y:e.offsetY};
+  if(dragging) drawBoxes();
+});
+
+boxCanvas.addEventListener('mouseup', e => {
+  if(dragging && dragStart) {
+    dragging = false;
+    const x0 = (Math.min(dragStart.sx, e.offsetX) - panX) / zoom;
+    const y0 = (Math.min(dragStart.sy, e.offsetY) - panY) / zoom;
+    const x1 = (Math.max(dragStart.sx, e.offsetX) - panX) / zoom;
+    const y1 = (Math.max(dragStart.sy, e.offsetY) - panY) / zoom;
+    if((x1-x0) > 10 && (y1-y0) > 10) {
+      regions.push({x0:Math.round(x0), y0:Math.round(y0), x1:Math.round(x1), y1:Math.round(y1), region_type:'text_block', classification:'structured'});
+      selectRegion(regions.length-1);
+    }
+    dragStart = null;
+    drawBoxes();
+  }
+});
+
+// TRACKPAD: two-finger scroll = pan, pinch = zoom
+// macOS surfaces two-finger drag as wheel events with deltaX/deltaY.
+// Pinch-to-zoom fires wheel events with ctrlKey=true (Chrome/Safari)
+// plus native gesturestart/gesturechange (Safari).
+boxCanvas.addEventListener('wheel', e => {
+  e.preventDefault();
+  if(e.ctrlKey) {
+    // pinch-to-zoom (Chrome/Firefox represent pinch as ctrl+wheel)
+    const oldZoom = zoom;
+    const zoomDelta = -e.deltaY * 0.01;
+    zoom = Math.max(0.1, Math.min(5, zoom + zoomDelta));
+    const mx = e.offsetX, my = e.offsetY;
+    panX = mx - (mx - panX) * (zoom / oldZoom);
+    panY = my - (my - panY) * (zoom / oldZoom);
+  } else {
+    // two-finger pan
+    panX -= e.deltaX;
+    panY -= e.deltaY;
+  }
+  redraw();
+}, {passive:false});
+
+// Safari native pinch gesture
+let gestureStartZoom = 1;
+boxCanvas.addEventListener('gesturestart', e => {
+  e.preventDefault();
+  gestureStartZoom = zoom;
+});
+boxCanvas.addEventListener('gesturechange', e => {
+  e.preventDefault();
+  const oldZoom = zoom;
+  zoom = Math.max(0.1, Math.min(5, gestureStartZoom * e.scale));
+  const rect = boxCanvas.getBoundingClientRect();
+  const mx = e.clientX - rect.left;
+  const my = e.clientY - rect.top;
+  panX = mx - (mx - panX) * (zoom / oldZoom);
+  panY = my - (my - panY) * (zoom / oldZoom);
+  redraw();
+});
+boxCanvas.addEventListener('gestureend', e => { e.preventDefault(); });
+
+function hitTest(mx, my) {
+  // reverse order so topmost wins
+  for(let i=regions.length-1; i>=0; i--) {
+    const r = regions[i];
+    const sx = r.x0*zoom+panX, sy = r.y0*zoom+panY;
+    const sw = (r.x1-r.x0)*zoom, sh = (r.y1-r.y0)*zoom;
+    if(mx>=sx && mx<=sx+sw && my>=sy && my<=sy+sh) return i;
+  }
+  return -1;
+}
+
+// REGION LIST
+function renderRegionList() {
+  const list = document.getElementById('regionList');
+  list.innerHTML = '';
+  regions.forEach((r,i) => {
+    const item = document.createElement('div');
+    item.className = 'region-item' + (i===selectedIdx ? ' selected' : '');
+    const dotCls = 'dot-' + r.classification;
+    const clsCls = 'cls-' + r.classification;
+    const w = r.x1 - r.x0, h = r.y1 - r.y0;
+    item.innerHTML = `
+      <span class="region-dot ${dotCls}"></span>
+      <div class="region-info">
+        <span class="region-type">${r.region_type}</span>
+        <span class="region-dims">${w}x${h}</span>
+      </div>
+      <span class="region-class ${clsCls}">${r.classification}</span>
+    `;
+    item.onclick = () => selectRegion(i);
+    list.appendChild(item);
+  });
+  document.getElementById('regionCount').textContent = regions.length;
+  document.getElementById('sb-regions').textContent = regions.length;
+  updateKPIs();
+}
+
+function selectRegion(idx) {
+  selectedIdx = idx;
+  renderRegionList();
+  updateClassifyUI();
+  drawBoxes();
+  // scroll into view
+  const items = document.querySelectorAll('.region-item');
+  if(items[idx]) items[idx].scrollIntoView({block:'nearest'});
+}
+
+function updateClassifyUI() {
+  document.querySelectorAll('.cls-btn').forEach(b => {
+    b.className = 'cls-btn';
+  });
+  document.querySelectorAll('.type-btn').forEach(b => {
+    b.className = 'type-btn';
+  });
+  if(selectedIdx < 0) return;
+  const r = regions[selectedIdx];
+  const clsBtn = document.querySelector(`.cls-btn[data-cls="${r.classification}"]`);
+  if(clsBtn) clsBtn.classList.add('sel-' + r.classification);
+  const typeBtn = document.querySelector(`.type-btn[data-type="${r.region_type}"]`);
+  if(typeBtn) typeBtn.classList.add('active');
+}
+
+function setClassification(cls) {
+  if(selectedIdx < 0) return;
+  regions[selectedIdx].classification = cls;
+  renderRegionList();
+  updateClassifyUI();
+  drawBoxes();
+}
+
+function setRegionType(type) {
+  if(selectedIdx < 0) return;
+  regions[selectedIdx].region_type = type;
+  // auto-classify: figures default to linked
+  if(type === 'figure') regions[selectedIdx].classification = 'linked';
+  renderRegionList();
+  updateClassifyUI();
+  drawBoxes();
+}
+
+function deleteSelected() {
+  if(selectedIdx < 0) return;
+  regions.splice(selectedIdx, 1);
+  selectedIdx = -1;
+  renderRegionList();
+  updateClassifyUI();
+  drawBoxes();
+}
+
+function setTool(t) {
+  tool = t;
+  document.querySelectorAll('.tool-btn').forEach(b => b.classList.remove('active'));
+  document.getElementById('tool-'+t).classList.add('active');
+  boxCanvas.style.cursor = t === 'add' ? 'crosshair' : 'default';
+}
+
+function updateKPIs() {
+  let s=0,l=0,k=0;
+  regions.forEach(r => {
+    if(r.classification==='structured') s++;
+    else if(r.classification==='linked') l++;
+    else k++;
+  });
+  document.getElementById('kpiStructured').textContent = s;
+  document.getElementById('kpiLinked').textContent = l;
+  document.getElementById('kpiSkipped').textContent = k;
+}
+
+async function savePage() {
+  const pg = pages[currentPageIdx];
+  await fetch('/api/classifications', {
+    method:'POST',
+    headers:{'Content-Type':'application/json'},
+    body:JSON.stringify({page:pg.index, regions})
+  });
+  savedPages[String(pg.index)] = {regions: JSON.parse(JSON.stringify(regions))};
+  updateSavedIndicator();
+  // auto-advance
+  if(currentPageIdx < pages.length - 1) navPage(1);
+}
+
+function updateSavedIndicator() {
+  const pg = pages[currentPageIdx];
+  const saved = savedPages[String(pg?.index)];
+  const el = document.getElementById('sb-saved');
+  if(saved) {
+    el.textContent = 'SAVED';
+    el.style.color = 'var(--green)';
+  } else {
+    el.textContent = 'NOT SAVED';
+    el.style.color = 'var(--dim)';
+  }
+}
+
+async function resegment() {
+  const pg = pages[currentPageIdx];
+  document.getElementById('pageInfo').textContent = pg.filename + ' — SEGMENTING...';
+  regions = await fetch(`/api/segment/${pg.filename}`).then(r=>r.json());
+  selectedIdx = -1;
+  document.getElementById('pageInfo').textContent = pg.filename + ` — ${regions.length} regions detected`;
+  renderRegionList();
+  updateClassifyUI();
+  drawBoxes();
+}
+
+// KEYBOARD
+document.addEventListener('keydown', e => {
+  if(e.key === 'ArrowLeft') navPage(-1);
+  else if(e.key === 'ArrowRight') navPage(1);
+  else if(e.key === 'Delete' || e.key === 'Backspace') { if(selectedIdx>=0) deleteSelected(); }
+  else if(e.key === 's') setClassification('structured');
+  else if(e.key === 'l') setClassification('linked');
+  else if(e.key === 'k') setClassification('skipped');
+  else if(e.key === 'a') setTool('add');
+  else if(e.key === 'Escape') { setTool('select'); selectedIdx=-1; renderRegionList(); updateClassifyUI(); drawBoxes(); }
+  else if(e.key === 'Enter') savePage();
+});
+
+window.addEventListener('resize', () => { resize(); redraw(); });
+</script>
+</body>
+</html>
