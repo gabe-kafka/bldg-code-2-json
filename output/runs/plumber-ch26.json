@@ -142,7 +142,7 @@
     "title": "Provision in Section 26.1",
     "description": "",
     "data": {
-      "rule": "26.1.2 Permitted Procedures The design wind loads for buildings and other structures, including the MWFRS and C&C elements thereof, shall be determined using one of the procedures as specified in this section. An outline of the overall process for the determination of the wind loads, including section references, is provided in Figure 26.1-1. Additional outlines and User Notes are provided at the begin- ning of Chapters 27 through 31 for more detailed step-by-step procedures for determining the wind loads.",
+      "rule": "26.1.2 Permitted Procedures The design wind loads for buildings and other structures, including the MWFRS and C&C elements thereof, shall be determined using one of the procedures as specified in this section. An outline of the overall process for the determination of the wind loads, including section references, is provided in Figure 26.1-1. Additional outlines and User Notes are provided at the beginning of Chapters 27 through 31 for more detailed step-by-step procedures for determining the wind loads.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -194,7 +194,7 @@
     "title": "Text in Section 26.1.2.1",
     "description": "",
     "data": {
-      "rule": "1. Directional Procedure for buildings of all heights as speci- ed in Chapter 27 for buildings meeting the requirements specified therein; 2. Envelope Procedure for low-rise buildings as specified in Chapter 28 for buildings meeting the requirements speci- ed therein; 3. Directional Procedure for building appurtenances (rooftop structures and rooftop equipment) and other structures (such as solid freestanding walls and solid freestanding signs, chimneys, tanks, open signs, single- plane open frames, and trussed towers) as specified in Chapter 29; or 4. Wind Tunnel Procedure for all buildings and all other structures as specified in Chapter 31.",
+      "rule": "1. Directional Procedure for buildings of all heights as specied in Chapter 27 for buildings meeting the requirements specified therein; 2. Envelope Procedure for low-rise buildings as specified in Chapter 28 for buildings meeting the requirements specied therein; 3. Directional Procedure for building appurtenances (rooftop structures and rooftop equipment) and other structures (such as solid freestanding walls and solid freestanding signs, chimneys, tanks, open signs, singleplane open frames, and trussed towers) as specified in Chapter 29; or 4. Wind Tunnel Procedure for all buildings and all other structures as specified in Chapter 31.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -400,7 +400,7 @@
     "description": "",
     "data": {
       "term": "ASCE WIND DESIGN GEODATABASE",
-      "definition": "The ASCE da- tabase (version 2022-1.0) of geocoded wind speed design data."
+      "definition": "The ASCE database (version 2022-1.0) of geocoded wind speed design data."
     },
     "cross_references": [],
     "metadata": {
@@ -422,7 +422,7 @@
     "title": "Text in Section 26.2",
     "description": "",
     "data": {
-      "rule": "The following de nitions apply to the provisions of Chapters 26 through 31. APPROVED: Acceptable to the Authority Having Jurisdiction. ASCE WIND DESIGN GEODATABASE: The ASCE da- tabase (version 2022-1.0) of geocoded wind speed design data.",
+      "rule": "The following de nitions apply to the provisions of Chapters 26 through 31. APPROVED: Acceptable to the Authority Having Jurisdiction. ASCE WIND DESIGN GEODATABASE: The ASCE database (version 2022-1.0) of geocoded wind speed design data.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -448,7 +448,7 @@
     "title": "Text in Section 26.2",
     "description": "",
     "data": {
-      "rule": "User Note: The ASCE Wind Design Geodatabase of geo- coded wind speed design data is available at https://asce7ha- zardtool.online/.",
+      "rule": "User Note: The ASCE Wind Design Geodatabase of geocoded wind speed design data is available at https://asce7hazardtool.online/.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -475,7 +475,7 @@
     "description": "",
     "data": {
       "term": "ATTACHED CANOPY",
-      "definition": "A horizontal (maximum slope of 2%) patio cover attached to the building wall at any height; it is different from an overhang, which is an extension of the roof surface. BASIC WIND SPEED, V: Three-second gust speed at 33 ft (10 m) above the ground in Exposure C (see Section 26.7.3) as determined in accordance with Section 26.5.1. BUILDING, ELEVATED: A building supported on struc- tural elements where wind can pass beneath the building. BUILDING, ENCLOSED: A building that has the total area of openings in each wall that receives positive external pressure 2 2 less than or equal to 4 ft (0.37 m ) or 1% of the area of that wall, whichever is smaller. This condition is expressed for each wall by the following equation:"
+      "definition": "A horizontal (maximum slope of 2%) patio cover attached to the building wall at any height; it is different from an overhang, which is an extension of the roof surface. BASIC WIND SPEED, V: Three-second gust speed at 33 ft (10 m) above the ground in Exposure C (see Section 26.7.3) as determined in accordance with Section 26.5.1. BUILDING, ELEVATED: A building supported on structural elements where wind can pass beneath the building. BUILDING, ENCLOSED: A building that has the total area of openings in each wall that receives positive external pressure 2 2 less than or equal to 4 ft (0.37 m ) or 1% of the area of that wall, whichever is smaller. This condition is expressed for each wall by the following equation:"
     },
     "cross_references": [],
     "metadata": {
@@ -804,7 +804,7 @@
     "description": "",
     "data": {
       "term": "BUILDING, OPEN",
-      "definition": "A building that has each wall at least where A and A are as defined for open buildings; A is the sum o g oi 80% open. This condition is expressed for each wall by the of the areas of openings in the building envelope (walls and roof), equation A \u2265 0.8A 2 2 not including A , ft (m ); and A is the sum of the gross surface o g o gi where A is the total area of openings in a wall that receives areas of the building envelope (walls and roof), not including A , o g 2 2 positive external pressure, ft (m ), and A is the gross area of that 2 2 ft (m ). g 2 2 wall in which A is identified, ft (m ). BUILDING, PARTIALLY OPEN: A building that does not o BUILDING, PARTIALLY ENCLOSED: A building that comply with the requirements for open, partially enclosed, or complies with both of the following conditions: enclosed buildings. BUILDING, TORSIONALLY REGULAR UNDER 1. Total area of openings in a wall that receives positive WIND LOAD: A building with the MWFRS about each external pressure exceeds the sum of the areas of openings principal axis proportioned so that the maximum displacement in the balance of the building envelope (walls and roof) by at each story under Case 2, the torsional wind load case, of Figure more than 10%. 27.3-8 does not exceed the maximum displacement at the 2. Total area of openings in a wall that receives positive same location under Case 1 of Figure 27.3-8, the basic wind 2 2 external pressure exceeds 4 ft (0.37 m ) or 1% of the area load case. of that wall, whichever is smaller, and the percentage of BUILDING ENVELOPE: Cladding, roo ng, exterior walls, openings in the balance of the building envelope does not glazing, door assemblies, window assemblies, skylight assem- exceed 20%. blies, and other components enclosing the building. BUILDING OR OTHER STRUCTURE, FLEXIBLE: These conditions are expressed by the following equations: Slender buildings and other structures that have a fundamental A > 1.10A natural frequency less than 1 Hz. o oi"
+      "definition": "A building that has each wall at least where A and A are as defined for open buildings; A is the sum o g oi 80% open. This condition is expressed for each wall by the of the areas of openings in the building envelope (walls and roof), equation A \u2265 0.8A 2 2 not including A , ft (m ); and A is the sum of the gross surface o g o gi where A is the total area of openings in a wall that receives areas of the building envelope (walls and roof), not including A , o g 2 2 positive external pressure, ft (m ), and A is the gross area of that 2 2 ft (m ). g 2 2 wall in which A is identified, ft (m ). BUILDING, PARTIALLY OPEN: A building that does not o BUILDING, PARTIALLY ENCLOSED: A building that comply with the requirements for open, partially enclosed, or complies with both of the following conditions: enclosed buildings. BUILDING, TORSIONALLY REGULAR UNDER 1. Total area of openings in a wall that receives positive WIND LOAD: A building with the MWFRS about each external pressure exceeds the sum of the areas of openings principal axis proportioned so that the maximum displacement in the balance of the building envelope (walls and roof) by at each story under Case 2, the torsional wind load case, of Figure more than 10%. 27.3-8 does not exceed the maximum displacement at the 2. Total area of openings in a wall that receives positive same location under Case 1 of Figure 27.3-8, the basic wind 2 2 external pressure exceeds 4 ft (0.37 m ) or 1% of the area load case. of that wall, whichever is smaller, and the percentage of BUILDING ENVELOPE: Cladding, roo ng, exterior walls, openings in the balance of the building envelope does not glazing, door assemblies, window assemblies, skylight assemexceed 20%. blies, and other components enclosing the building. BUILDING OR OTHER STRUCTURE, FLEXIBLE: These conditions are expressed by the following equations: Slender buildings and other structures that have a fundamental A > 1.10A natural frequency less than 1 Hz. o oi"
     },
     "cross_references": [],
     "metadata": {
@@ -849,10 +849,10 @@
       "citation": "Section 26.2",
       "page": 3
     },
-    "title": "Definition: SHAPED",
+    "title": "Definition: BUILDING OR OTHER STRUCTURE, REGULARSHAPED",
     "description": "",
     "data": {
-      "term": "SHAPED",
+      "term": "BUILDING OR OTHER STRUCTURE, REGULARSHAPED",
       "definition": "A building or other structure that has no unusual geometrical irregularity in spatial form."
     },
     "cross_references": [],
@@ -876,7 +876,7 @@
     "description": "",
     "data": {
       "term": "BUILDING OR OTHER STRUCTURE, RIGID",
-      "definition": "A build- ing or other structure whose fundamental frequency is greater than or equal to 1 Hz. COMPONENTS AND CLADDING (C&C): Elements of the building envelope or elements of building appurtenances and rooftop structures and equipment that do not qualify as part of the MWFRS."
+      "definition": "A building or other structure whose fundamental frequency is greater than or equal to 1 Hz. COMPONENTS AND CLADDING (C&C): Elements of the building envelope or elements of building appurtenances and rooftop structures and equipment that do not qualify as part of the MWFRS."
     },
     "cross_references": [],
     "metadata": {
@@ -922,7 +922,7 @@
     "description": "",
     "data": {
       "term": "DIAPHRAGM",
-      "definition": "Roof, oor, or other membrane or bracing system acting to transfer lateral forces to the vertical MWFRS. For analysis under wind loads, diaphragms constructed of untopped steel decks, concrete- lled steel decks, and concrete slabs, each having a span-to-depth ratio of 2 or less, shall be permitted to be idealized as rigid. Diaphragms constructed of wood structural panels are permitted to be idealized as exible."
+      "definition": "Roof, oor, or other membrane or bracing system acting to transfer lateral forces to the vertical MWFRS. For analysis under wind loads, diaphragms constructed of untopped steel decks, concretelled steel decks, and concrete slabs, each having a span-to-depth ratio of 2 or less, shall be permitted to be idealized as rigid. Diaphragms constructed of wood structural panels are permitted to be idealized as exible."
     },
     "cross_references": [],
     "metadata": {
@@ -945,7 +945,7 @@
     "description": "",
     "data": {
       "term": "DIRECTIONAL PROCEDURE",
-      "definition": "A procedure for determin- ing wind loads on buildings and other structures for speci c wind directions, in which the external pressure coefficients used are based on past wind tunnel testing of prototypical building models for the corresponding direction of wind. EAVE HEIGHT, h : The distance from the ground surface e adjacent to the building to the roof eave line at a particular wall. If the height of the eave varies along the wall, the average height shall be used."
+      "definition": "A procedure for determining wind loads on buildings and other structures for speci c wind directions, in which the external pressure coefficients used are based on past wind tunnel testing of prototypical building models for the corresponding direction of wind. EAVE HEIGHT, h : The distance from the ground surface e adjacent to the building to the roof eave line at a particular wall. If the height of the eave varies along the wall, the average height shall be used."
     },
     "cross_references": [],
     "metadata": {
@@ -968,7 +968,7 @@
     "description": "",
     "data": {
       "term": "EFFECTIVE WIND AREA, A",
-      "definition": "The area used to determine the external pressure coefficient, (GC ) and (GC ). For C&C p rn elements, the effective wind area in Figures 30.3-1 through 30.3-7, 30.4-1, 30.5-1, and 30.7-1 through 30.7-3 is the span length multiplied by an effective width that need not be less than one- third the span length. For rooftop solar arrays, the effective wind area in Figure 29.4-7 is equal to the tributary area for the structural element being considered, except that the width of the effective wind area need not be less than one-third its length. For cladding fasteners, the effective wind area shall not be greater than the area that is tributary to an individual fastener."
+      "definition": "The area used to determine the external pressure coefficient, (GC ) and (GC ). For C&C p rn elements, the effective wind area in Figures 30.3-1 through 30.3-7, 30.4-1, 30.5-1, and 30.7-1 through 30.7-3 is the span length multiplied by an effective width that need not be less than onethird the span length. For rooftop solar arrays, the effective wind area in Figure 29.4-7 is equal to the tributary area for the structural element being considered, except that the width of the effective wind area need not be less than one-third its length. For cladding fasteners, the effective wind area shall not be greater than the area that is tributary to an individual fastener."
     },
     "cross_references": [],
     "metadata": {
@@ -991,7 +991,7 @@
     "description": "",
     "data": {
       "term": "ENVELOPE PROCEDURE",
-      "definition": "A procedure for determining wind load cases on buildings in which pseudoexternal pressure coefficients are derived from past wind tunnel testing of proto- typical building models successively rotated through 360 degrees, such that the pseudopressure cases produce key struc- tural actions (e.g., uplift, horizontal shear, and bending moments) that envelop their maximum values among all possible wind directions."
+      "definition": "A procedure for determining wind load cases on buildings in which pseudoexternal pressure coefficients are derived from past wind tunnel testing of prototypical building models successively rotated through 360 degrees, such that the pseudopressure cases produce key structural actions (e.g., uplift, horizontal shear, and bending moments) that envelop their maximum values among all possible wind directions."
     },
     "cross_references": [],
     "metadata": {
@@ -1037,7 +1037,7 @@
     "description": "",
     "data": {
       "term": "FREE ROOF",
-      "definition": "A roof with a configuration generally con- forming to those shown in Figures 27.3-4 through 27.3-6 (mono- slope, pitched, or troughed) in an open building with no enclos- ing walls underneath the roof surface."
+      "definition": "A roof with a configuration generally conforming to those shown in Figures 27.3-4 through 27.3-6 (monoslope, pitched, or troughed) in an open building with no enclosing walls underneath the roof surface."
     },
     "cross_references": [],
     "metadata": {
@@ -1105,7 +1105,7 @@
     "title": "Provision in Section 26.2",
     "description": "",
     "data": {
-      "rule": "BUILDING OR OTHER STRUCTURE, REGULAR- SHAPED: A building or other structure that has no unusual geometrical irregularity in spatial form. BUILDING OR OTHER STRUCTURE, RIGID: A build- ing or other structure whose fundamental frequency is greater than or equal to 1 Hz. COMPONENTS AND CLADDING (C&C): Elements of the building envelope or elements of building appurtenances and rooftop structures and equipment that do not qualify as part of the MWFRS. DESIGN FORCE, F: Equivalent static force to be used in the determination of wind loads for other structures. DESIGN PRESSURE, p: Equivalent static pressure to be used in the determination of wind loads for buildings. DIAPHRAGM: Roof, oor, or other membrane or bracing system acting to transfer lateral forces to the vertical MWFRS. For analysis under wind loads, diaphragms constructed of untopped steel decks, concrete- lled steel decks, and concrete slabs, each having a span-to-depth ratio of 2 or less, shall be permitted to be idealized as rigid. Diaphragms constructed of wood structural panels are permitted to be idealized as exible. DIRECTIONAL PROCEDURE: A procedure for determin- ing wind loads on buildings and other structures for speci c wind directions, in which the external pressure coefficients used are based on past wind tunnel testing of prototypical building models for the corresponding direction of wind. EAVE HEIGHT, h : The distance from the ground surface e adjacent to the building to the roof eave line at a particular wall. If the height of the eave varies along the wall, the average height shall be used. EFFECTIVE WIND AREA, A: The area used to determine the external pressure coefficient, (GC ) and (GC ). For C&C p rn elements, the effective wind area in Figures 30.3-1 through 30.3-7, 30.4-1, 30.5-1, and 30.7-1 through 30.7-3 is the span length multiplied by an effective width that need not be less than one- third the span length. For rooftop solar arrays, the effective wind area in Figure 29.4-7 is equal to the tributary area for the structural element being considered, except that the width of the effective wind area need not be less than one-third its length. For cladding fasteners, the effective wind area shall not be greater than the area that is tributary to an individual fastener. ENVELOPE PROCEDURE: A procedure for determining wind load cases on buildings in which pseudoexternal pressure coefficients are derived from past wind tunnel testing of proto- typical building models successively rotated through 360 degrees, such that the pseudopressure cases produce key struc- tural actions (e.g., uplift, horizontal shear, and bending moments) that envelop their maximum values among all possible wind directions. ESCARPMENT: With respect to topographic effects in Section 26.8, a cliff or steep slope generally separating two levels or gently sloping areas (see Figure 26.8-1). Also known as a scarp. FREE ROOF: A roof with a configuration generally con- forming to those shown in Figures 27.3-4 through 27.3-6 (mono- slope, pitched, or troughed) in an open building with no enclos- ing walls underneath the roof surface. GLAZING: Glass or transparent or translucent plastic sheet used in windows, doors, skylights, or curtain walls. GLAZING, IMPACT-RESISTANT: Glazing that has been shown by testing to withstand the impact of test missiles. See Section 26.12.3.2.",
+      "rule": "BUILDING OR OTHER STRUCTURE, REGULARSHAPED: A building or other structure that has no unusual geometrical irregularity in spatial form. BUILDING OR OTHER STRUCTURE, RIGID: A building or other structure whose fundamental frequency is greater than or equal to 1 Hz. COMPONENTS AND CLADDING (C&C): Elements of the building envelope or elements of building appurtenances and rooftop structures and equipment that do not qualify as part of the MWFRS. DESIGN FORCE, F: Equivalent static force to be used in the determination of wind loads for other structures. DESIGN PRESSURE, p: Equivalent static pressure to be used in the determination of wind loads for buildings. DIAPHRAGM: Roof, oor, or other membrane or bracing system acting to transfer lateral forces to the vertical MWFRS. For analysis under wind loads, diaphragms constructed of untopped steel decks, concretelled steel decks, and concrete slabs, each having a span-to-depth ratio of 2 or less, shall be permitted to be idealized as rigid. Diaphragms constructed of wood structural panels are permitted to be idealized as exible. DIRECTIONAL PROCEDURE: A procedure for determining wind loads on buildings and other structures for speci c wind directions, in which the external pressure coefficients used are based on past wind tunnel testing of prototypical building models for the corresponding direction of wind. EAVE HEIGHT, h : The distance from the ground surface e adjacent to the building to the roof eave line at a particular wall. If the height of the eave varies along the wall, the average height shall be used. EFFECTIVE WIND AREA, A: The area used to determine the external pressure coefficient, (GC ) and (GC ). For C&C p rn elements, the effective wind area in Figures 30.3-1 through 30.3-7, 30.4-1, 30.5-1, and 30.7-1 through 30.7-3 is the span length multiplied by an effective width that need not be less than onethird the span length. For rooftop solar arrays, the effective wind area in Figure 29.4-7 is equal to the tributary area for the structural element being considered, except that the width of the effective wind area need not be less than one-third its length. For cladding fasteners, the effective wind area shall not be greater than the area that is tributary to an individual fastener. ENVELOPE PROCEDURE: A procedure for determining wind load cases on buildings in which pseudoexternal pressure coefficients are derived from past wind tunnel testing of prototypical building models successively rotated through 360 degrees, such that the pseudopressure cases produce key structural actions (e.g., uplift, horizontal shear, and bending moments) that envelop their maximum values among all possible wind directions. ESCARPMENT: With respect to topographic effects in Section 26.8, a cliff or steep slope generally separating two levels or gently sloping areas (see Figure 26.8-1). Also known as a scarp. FREE ROOF: A roof with a configuration generally conforming to those shown in Figures 27.3-4 through 27.3-6 (monoslope, pitched, or troughed) in an open building with no enclosing walls underneath the roof surface. GLAZING: Glass or transparent or translucent plastic sheet used in windows, doors, skylights, or curtain walls. GLAZING, IMPACT-RESISTANT: Glazing that has been shown by testing to withstand the impact of test missiles. See Section 26.12.3.2.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1132,7 +1132,7 @@
     "description": "",
     "data": {
       "term": "HILL",
-      "definition": "With respect to topographic effects in Section 26.8, a land surface characterized by strong relief in any horizontal direction (see Figure 26.8-1). HURRICANE-PRONE REGIONS: Areas vulnerable to hur- ricanes; in the United States and its territories, these are defined as"
+      "definition": "With respect to topographic effects in Section 26.8, a land surface characterized by strong relief in any horizontal direction (see Figure 26.8-1). HURRICANE-PRONE REGIONS: Areas vulnerable to hurricanes; in the United States and its territories, these are defined as"
     },
     "cross_references": [],
     "metadata": {
@@ -1250,7 +1250,7 @@
     "description": "",
     "data": {
       "term": "RECOGNIZED LITERATURE",
-      "definition": "Published research nd- ings and technical papers that are approved."
+      "definition": "Published research ndings and technical papers that are approved."
     },
     "cross_references": [],
     "metadata": {
@@ -1342,7 +1342,7 @@
     "description": "",
     "data": {
       "term": "BORNE DEBRIS REGIONS",
-      "definition": "Areas within hurri- cane-prone regions where impact protection is required for glazed openings. See Section 26.12.3."
+      "definition": "Areas within hurricane-prone regions where impact protection is required for glazed openings. See Section 26.12.3."
     },
     "cross_references": [],
     "metadata": {
@@ -1365,7 +1365,7 @@
     "description": "",
     "data": {
       "term": "WIND TUNNEL PROCEDURE",
-      "definition": "A procedure for determin- ing wind loads on buildings and other structures in which pressures and/or forces and moments are determined for each wind direction considered, from a model of the building or other structure and its surroundings, in accordance with Chapter 31."
+      "definition": "A procedure for determining wind loads on buildings and other structures in which pressures and/or forces and moments are determined for each wind direction considered, from a model of the building or other structure and its surroundings, in accordance with Chapter 31."
     },
     "cross_references": [],
     "metadata": {
@@ -1387,7 +1387,7 @@
     "title": "Provision in Section 26.2",
     "description": "",
     "data": {
-      "rule": "IMPACT-PROTECTIVE SYSTEM: Construction that has been shown by testing to withstand the impact of test missiles and that is applied, attached, or locked over exterior glazing. See Section 26.12.3.2. MAIN WIND FORCE RESISTING SYSTEM (MWFRS): An assemblage of structural elements assigned to provide support and stability for the overall building or other structure. The system generally receives wind loading from more than one surface. MEAN ROOF HEIGHT, h: The average of the roof eave height and the height to the highest point on the roof surface, except that, for roof angles less than or equal to 10 degrees, the mean roof height is permitted to be taken as the roof eave height. OPENINGS: Holes that allow air to ow through the building envelope during a design wind event. RECOGNIZED LITERATURE: Published research nd- ings and technical papers that are approved. RIDGE: With respect to topographic effects in Section 26.8, an elongated crest of a hill characterized by strong relief in two directions (see Figure 26.8-1). ROOFTOP SOLAR PANEL: A device to receive solar radiation and convert it into electricity or heat energy. Typically, this is a photovoltaic module or solar thermal panel. SOLAR ARRAY: Any number of rooftop solar panels grouped closely together. WIND-BORNE DEBRIS REGIONS: Areas within hurri- cane-prone regions where impact protection is required for glazed openings. See Section 26.12.3. WIND TUNNEL PROCEDURE: A procedure for determin- ing wind loads on buildings and other structures in which pressures and/or forces and moments are determined for each wind direction considered, from a model of the building or other structure and its surroundings, in accordance with Chapter 31.",
+      "rule": "IMPACT-PROTECTIVE SYSTEM: Construction that has been shown by testing to withstand the impact of test missiles and that is applied, attached, or locked over exterior glazing. See Section 26.12.3.2. MAIN WIND FORCE RESISTING SYSTEM (MWFRS): An assemblage of structural elements assigned to provide support and stability for the overall building or other structure. The system generally receives wind loading from more than one surface. MEAN ROOF HEIGHT, h: The average of the roof eave height and the height to the highest point on the roof surface, except that, for roof angles less than or equal to 10 degrees, the mean roof height is permitted to be taken as the roof eave height. OPENINGS: Holes that allow air to ow through the building envelope during a design wind event. RECOGNIZED LITERATURE: Published research ndings and technical papers that are approved. RIDGE: With respect to topographic effects in Section 26.8, an elongated crest of a hill characterized by strong relief in two directions (see Figure 26.8-1). ROOFTOP SOLAR PANEL: A device to receive solar radiation and convert it into electricity or heat energy. Typically, this is a photovoltaic module or solar thermal panel. SOLAR ARRAY: Any number of rooftop solar panels grouped closely together. WIND-BORNE DEBRIS REGIONS: Areas within hurricane-prone regions where impact protection is required for glazed openings. See Section 26.12.3. WIND TUNNEL PROCEDURE: A procedure for determining wind loads on buildings and other structures in which pressures and/or forces and moments are determined for each wind direction considered, from a model of the building or other structure and its surroundings, in accordance with Chapter 31.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1517,7 +1517,7 @@
     "title": "Text in Section 26.3",
     "description": "",
     "data": {
-      "rule": "2 A = Total area of openings in the building envelope, ft og 2 (m ) A = Sum of the areas of openings in the building oi envelope (walls and roof) not including A , o 2 2 ft (m ) A = Gross area of the solid freestanding wall or solid s 2 2 sign, ft (m ) A , A = Effective wind area for use with ground-mounted 1 2 2 2 solar panels in Figure 29.4-11, ft (m ) a = Width of pressure coefficient zone, ft (m) a = Width of pressure coefficient zone for elevated B buildings, ft (m) B = Horizontal dimension of a building measured normal to wind direction, ft (m) b = Mean hourly wind speed factor in Equation (26.11- 16), from Table 26.11-1 \u02c6 b = Three-second gust speed factor from Table 26.11-1 C = Force coefficient to be used in determination of f wind loads for other structures C = Net pressure coefficient to be used in determina- N tion of wind loads for open buildings C = External pressure coefficient to be used in deter- p mination of wind loads for buildings c = Turbulence intensity factor in Equation (26.11-7), from Table 26.11-1 D = Diameter of a circular structure or member, ft (m) D = Depth of protruding elements such as ribs and 0 spoilers, ft (m) d = Horizontal distance of Zone 2 for ground-mounted p solar panels in Figure 29.4.9, ft (m) d = Horizontal offset for ground-mounted solar panels s in Figure 29.4.9, ft (m) d = For rooftop solar arrays, horizontal distance or- 1 thogonal to the panel edge to an adjacent panel or the building edge, ignoring any rooftop equip- ment in Figure 29.4-7, ft (m) d = For rooftop solar arrays, horizontal distance from 2 the edge of one panel to the nearest edge in the next row of panels in Figure 29.4-7, ft (m) F = Design wind force for other structures, lb (N) F = Normal force for ground-mounted solar panels in n Figure 29.4-9, lb (N) G = Gust-effect factor G = Gust-effect factor for MWFRS of exible build- f ings and other structures (GC ) = Dynamic net pressure coefficient for ground- gn dynamic mounted solar panels from Figure 29.4-11 (GC ) = Dynamic moment coefficient for ground-mounted gm dynamic solar panels from Figure 29.4-11 (GC ) = Static net pressure coefficient for ground-mounted gn static solar panels from Figure 29.4-10 (GC ) = Static moment coefficient for ground-mounted gm static solar panels from Figure 29.4-10 (GC ) = Product of external pressure coefficient and gust- p effect factor to be used in determination of wind loads for buildings (GC ) = Product of the equivalent external pressure coef - pf cient and gust-effect factor to be used in deter- mination of wind loads for MWFRS of low-rise buildings (GC ) = Product of internal pressure coefficient and gust- pi effect factor to be used in determination of wind loads for buildings",
+      "rule": "2 A = Total area of openings in the building envelope, ft og 2 (m ) A = Sum of the areas of openings in the building oi envelope (walls and roof) not including A , o 2 2 ft (m ) A = Gross area of the solid freestanding wall or solid s 2 2 sign, ft (m ) A , A = Effective wind area for use with ground-mounted 1 2 2 2 solar panels in Figure 29.4-11, ft (m ) a = Width of pressure coefficient zone, ft (m) a = Width of pressure coefficient zone for elevated B buildings, ft (m) B = Horizontal dimension of a building measured normal to wind direction, ft (m) b = Mean hourly wind speed factor in Equation (26.1116), from Table 26.11-1 \u02c6 b = Three-second gust speed factor from Table 26.11-1 C = Force coefficient to be used in determination of f wind loads for other structures C = Net pressure coefficient to be used in determinaN tion of wind loads for open buildings C = External pressure coefficient to be used in deterp mination of wind loads for buildings c = Turbulence intensity factor in Equation (26.11-7), from Table 26.11-1 D = Diameter of a circular structure or member, ft (m) D = Depth of protruding elements such as ribs and 0 spoilers, ft (m) d = Horizontal distance of Zone 2 for ground-mounted p solar panels in Figure 29.4.9, ft (m) d = Horizontal offset for ground-mounted solar panels s in Figure 29.4.9, ft (m) d = For rooftop solar arrays, horizontal distance or1 thogonal to the panel edge to an adjacent panel or the building edge, ignoring any rooftop equipment in Figure 29.4-7, ft (m) d = For rooftop solar arrays, horizontal distance from 2 the edge of one panel to the nearest edge in the next row of panels in Figure 29.4-7, ft (m) F = Design wind force for other structures, lb (N) F = Normal force for ground-mounted solar panels in n Figure 29.4-9, lb (N) G = Gust-effect factor G = Gust-effect factor for MWFRS of exible buildf ings and other structures (GC ) = Dynamic net pressure coefficient for groundgn dynamic mounted solar panels from Figure 29.4-11 (GC ) = Dynamic moment coefficient for ground-mounted gm dynamic solar panels from Figure 29.4-11 (GC ) = Static net pressure coefficient for ground-mounted gn static solar panels from Figure 29.4-10 (GC ) = Static moment coefficient for ground-mounted gm static solar panels from Figure 29.4-10 (GC ) = Product of external pressure coefficient and gustp effect factor to be used in determination of wind loads for buildings (GC ) = Product of the equivalent external pressure coef - pf cient and gust-effect factor to be used in determination of wind loads for MWFRS of low-rise buildings (GC ) = Product of internal pressure coefficient and gustpi effect factor to be used in determination of wind loads for buildings",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1569,7 +1569,7 @@
     "title": "Provision in Section 26.3",
     "description": "",
     "data": {
-      "rule": "(GC ) = Combined net pressure coefficient for a parapet pn (GC ) = Product of external pressure coefficient and gust- r effect factor to be used in determination of wind loads for rooftop structures (GC ) = Net pressure coefficient for rooftop solar panels in rn Equations (29.4-4) and (29.4-5) GC = Nominal net pressure coefficient for rooftop solar rn nom \u00f0 \u00de panels determined from Figure 29.4-7 g = Peak factor for background response in Q Equations (26.11-6) and (26.11-10) g = Peak factor for resonant response in R Equation (26.11-10) g = Peak factor for wind response in Equations (26.11- v 6) and (26.11-10) H = Height of hill, ridge, or escarpment in Figure 26.8-1, ft (m) h = Mean roof height of a building or height of other structure, except that eave height shall be used for roof angle \u03b8 less than or equal to 10 degrees, in ft (m) h = Height above grade of the bottom surface of the B elevated building, ft (m) h = Height of the solid cylinder, ft (m) c h = Roof eave height at a particular wall, or the e average height if the eave varies along the wall h = Height to top of parapet in Figures 27.5-2 and p 30.6-1 h = Mean parapet height above the adjacent roof pt surface for use with Equation (29.4-5), ft (m) h = Height of a solar panel above the roof at the lower 1 edge of the panel, ft (m) h = Height of a solar panel above the roof at the upper 2 edge of the panel, ft (m) I = Intensity of turbulence from Equation (26.11-7) z K , K , K = Multipliers in Figure 26.8-1 to obtain K 1 2 3 zt K = Wind directionality factor from Section 26.6 and d Table 26.6-1 K = Ground elevation factor e K = Velocity pressure exposure coefficient evaluated h at height z = h K = Velocity pressure exposure coefficient evaluated z at height z K = Topographic factor as defined in Section 26.8 zt L = Horizontal dimension of a building measured parallel to the wind direction, ft (m) L = Normalized building length, for use with Fig- b ure 29.4-7, ft (m) L = Panel chord length for ground-mounted solar c panels in Figure 29.4-9, ft (m) L = Distance upwind of crest of hill, ridge, or escarp- h ment in Figure 26.8-1 to where the difference in ground elevation is half the height of the hill, ridge, or escarpment, ft (m) L = Panel chord length for use with rooftop solar p panels in Figure 29.4-7, ft (m) L = Horizontal dimension of return corner for a solid r freestanding wall or solid sign from Figure 29.3-1, ft (m) L = Integral length scale of turbulence, ft (m) z l = Integral length scale factor from Table 26.11-1, ft (m) M = Moment for ground-mounted solar panels in c Figure 29.4.9, lb-ft (N-m) N = Reduced frequency from Equation (26.11-14) 1",
+      "rule": "(GC ) = Combined net pressure coefficient for a parapet pn (GC ) = Product of external pressure coefficient and gustr effect factor to be used in determination of wind loads for rooftop structures (GC ) = Net pressure coefficient for rooftop solar panels in rn Equations (29.4-4) and (29.4-5) GC = Nominal net pressure coefficient for rooftop solar rn nom \u00f0 \u00de panels determined from Figure 29.4-7 g = Peak factor for background response in Q Equations (26.11-6) and (26.11-10) g = Peak factor for resonant response in R Equation (26.11-10) g = Peak factor for wind response in Equations (26.11v 6) and (26.11-10) H = Height of hill, ridge, or escarpment in Figure 26.8-1, ft (m) h = Mean roof height of a building or height of other structure, except that eave height shall be used for roof angle \u03b8 less than or equal to 10 degrees, in ft (m) h = Height above grade of the bottom surface of the B elevated building, ft (m) h = Height of the solid cylinder, ft (m) c h = Roof eave height at a particular wall, or the e average height if the eave varies along the wall h = Height to top of parapet in Figures 27.5-2 and p 30.6-1 h = Mean parapet height above the adjacent roof pt surface for use with Equation (29.4-5), ft (m) h = Height of a solar panel above the roof at the lower 1 edge of the panel, ft (m) h = Height of a solar panel above the roof at the upper 2 edge of the panel, ft (m) I = Intensity of turbulence from Equation (26.11-7) z K , K , K = Multipliers in Figure 26.8-1 to obtain K 1 2 3 zt K = Wind directionality factor from Section 26.6 and d Table 26.6-1 K = Ground elevation factor e K = Velocity pressure exposure coefficient evaluated h at height z = h K = Velocity pressure exposure coefficient evaluated z at height z K = Topographic factor as defined in Section 26.8 zt L = Horizontal dimension of a building measured parallel to the wind direction, ft (m) L = Normalized building length, for use with Figb ure 29.4-7, ft (m) L = Panel chord length for ground-mounted solar c panels in Figure 29.4-9, ft (m) L = Distance upwind of crest of hill, ridge, or escarph ment in Figure 26.8-1 to where the difference in ground elevation is half the height of the hill, ridge, or escarpment, ft (m) L = Panel chord length for use with rooftop solar p panels in Figure 29.4-7, ft (m) L = Horizontal dimension of return corner for a solid r freestanding wall or solid sign from Figure 29.3-1, ft (m) L = Integral length scale of turbulence, ft (m) z l = Integral length scale factor from Table 26.11-1, ft (m) M = Moment for ground-mounted solar panels in c Figure 29.4.9, lb-ft (N-m) N = Reduced frequency from Equation (26.11-14) 1",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1621,7 +1621,7 @@
     "title": "Text in Section 26.3",
     "description": "",
     "data": {
-      "rule": "N = Reduced frequency for ground-mounted solar s panels n = Lowest natural frequency for ground-mounted solar panels, Hz \u03b7 = Fundamental natural frequency, Hz 1 \u03b7 = Approximate lower bound natural frequency from a Section 26.11.2, Hz p = Design pressure to be used in determination of 2 2 wind loads for buildings, lb/ft (N/m ) P = Wind pressure acting on leeward face in Fig- L 2 2 ure 27.3-8, lb/ft (N/m ) Q = Background response factor from Equation (26.11-8) 2 2 q = Velocity pressure, lb/ft (N/m ) 2 q = Velocity pressure evaluated at height z = h, lb/ft h 2 (N/m ) q = Velocity pressure for internal pressure determina- i 2 2 tion, lb/ft (N/m ) 2 2 q = Velocity pressure at top of parapet, lb/ft (N/m ) p q = Velocity pressure evaluated at height z above z 2 2 ground, lb/ft (N/m ) R = Resonant response factor from Equation (26.11- 12) r = Rise-to-span ratio for arched roofs R , R , R = Values from Equations (26.11-15a) and (26.11- B h L 15b) R = Reduction factor from Equation (26.13-1) i R = Value from Equation (26.11-13) n S = Center-to-center row spacing for ground-mounted solar panels in Figure 29.4-9, ft (m) S = Open distance in longitudinal direction for L ground-mounted solar panels in Figure 29.4-9, ft (m) S = Open distance in transverse direction for T ground-mounted solar panels in Figure 29.4-9, ft (m) s = Vertical dimension of the solid freestanding wall or solid sign from Figure 29.3-1, ft (m) s = Gap between adjacent panels for ground-mounted p solar panels in Figure 29.4-9, ft (m) V = Basic wind speed obtained from Figures 26.5-1A through 26.5-1D, mi/h (m/s); the basic wind speed corresponds to a 3 s gust speed at 33 ft (10 m) above the ground in Exposure Category C V = Unpartitioned internal volume, in ft3 (m3) i V = Mean hourly wind speed at height z, in ft/s (m/s) z W = Width of building in Figures 30.3-3, 30.3-5A, and 30.3-5B and width of span in Figures 30.3-4 and 30.3-6, ft (m) W = Shortest row length for ground-mounted solar g panels in Figure 29.4-9, ft (m) W = Width of a building on its longest side in Fig- L ure 29.4-7, ft (m) W = Width of a building on its shortest side in Fig- S ure 29.4-7, ft (m) x = Distance upwind or downwind of crest in Fig- ure 26.8-1, ft (m) z = Height above ground level, ft (m) z = Equivalent height of structure, ft (m) z = Ground elevation above sea level, ft (m) e z = Nominal height of the atmospheric boundary g layer used in this standard (values appear in Table 26.11-1)",
+      "rule": "N = Reduced frequency for ground-mounted solar s panels n = Lowest natural frequency for ground-mounted solar panels, Hz \u03b7 = Fundamental natural frequency, Hz 1 \u03b7 = Approximate lower bound natural frequency from a Section 26.11.2, Hz p = Design pressure to be used in determination of 2 2 wind loads for buildings, lb/ft (N/m ) P = Wind pressure acting on leeward face in FigL 2 2 ure 27.3-8, lb/ft (N/m ) Q = Background response factor from Equation (26.11-8) 2 2 q = Velocity pressure, lb/ft (N/m ) 2 q = Velocity pressure evaluated at height z = h, lb/ft h 2 (N/m ) q = Velocity pressure for internal pressure determinai 2 2 tion, lb/ft (N/m ) 2 2 q = Velocity pressure at top of parapet, lb/ft (N/m ) p q = Velocity pressure evaluated at height z above z 2 2 ground, lb/ft (N/m ) R = Resonant response factor from Equation (26.1112) r = Rise-to-span ratio for arched roofs R , R , R = Values from Equations (26.11-15a) and (26.11B h L 15b) R = Reduction factor from Equation (26.13-1) i R = Value from Equation (26.11-13) n S = Center-to-center row spacing for ground-mounted solar panels in Figure 29.4-9, ft (m) S = Open distance in longitudinal direction for L ground-mounted solar panels in Figure 29.4-9, ft (m) S = Open distance in transverse direction for T ground-mounted solar panels in Figure 29.4-9, ft (m) s = Vertical dimension of the solid freestanding wall or solid sign from Figure 29.3-1, ft (m) s = Gap between adjacent panels for ground-mounted p solar panels in Figure 29.4-9, ft (m) V = Basic wind speed obtained from Figures 26.5-1A through 26.5-1D, mi/h (m/s); the basic wind speed corresponds to a 3 s gust speed at 33 ft (10 m) above the ground in Exposure Category C V = Unpartitioned internal volume, in ft3 (m3) i V = Mean hourly wind speed at height z, in ft/s (m/s) z W = Width of building in Figures 30.3-3, 30.3-5A, and 30.3-5B and width of span in Figures 30.3-4 and 30.3-6, ft (m) W = Shortest row length for ground-mounted solar g panels in Figure 29.4-9, ft (m) W = Width of a building on its longest side in FigL ure 29.4-7, ft (m) W = Width of a building on its shortest side in FigS ure 29.4-7, ft (m) x = Distance upwind or downwind of crest in Figure 26.8-1, ft (m) z = Height above ground level, ft (m) z = Equivalent height of structure, ft (m) z = Ground elevation above sea level, ft (m) e z = Nominal height of the atmospheric boundary g layer used in this standard (values appear in Table 26.11-1)",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1647,7 +1647,7 @@
     "title": "Text in Section 26.3",
     "description": "",
     "data": {
-      "rule": "z = Exposure constant from Table 26.11-1 min \u03b1 = 3-s gust-speed power law exponent from Ta- ble 26.11-1 \u02c6 = Reciprocal of from Table 26.11-1 \u03b1 \u03b1 \u03b1 = Mean hourly wind-speed power law exponent in Equation (26.11-16) from Table 26.11-1 \u03b2 = Damping ratio, percent critical for buildings or other structures \u03b3 = Panel chord factor for use with rooftop solar c panels in Equation (29.4-5) \u03b3 = Array edge factor for use with rooftop solar panels E in Figure 29.4-7 and Equations (29.4-4) and (29.4-5) \u03b3 = Parapet height factor for use with rooftop solar p panels in Equation (29.4-5) \u03b5 = Ratio of solid area to gross area for solid free- standing wall, solid sign, open sign, face of a trussed tower, or lattice structure \u03b5 = Integral length scale power law exponent in Equa- tion (26.11-9) from Table 26.11-1 \u03b7 = Value used in Equations (26.11-15a) and (26.11- 15b); see Section 26.11.4 \u03b8 = Angle of plane of roof from horizontal, degrees v = Height-to-width ratio for solid sign \u03c9 = Angle that the solar panel makes with the roof surface in Figure 29.4-7, or that a ground- mounted solar panel makes with the ground in Figure 29.4-9, degrees",
+      "rule": "z = Exposure constant from Table 26.11-1 min \u03b1 = 3-s gust-speed power law exponent from Table 26.11-1 \u02c6 = Reciprocal of from Table 26.11-1 \u03b1 \u03b1 \u03b1 = Mean hourly wind-speed power law exponent in Equation (26.11-16) from Table 26.11-1 \u03b2 = Damping ratio, percent critical for buildings or other structures \u03b3 = Panel chord factor for use with rooftop solar c panels in Equation (29.4-5) \u03b3 = Array edge factor for use with rooftop solar panels E in Figure 29.4-7 and Equations (29.4-4) and (29.4-5) \u03b3 = Parapet height factor for use with rooftop solar p panels in Equation (29.4-5) \u03b5 = Ratio of solid area to gross area for solid freestanding wall, solid sign, open sign, face of a trussed tower, or lattice structure \u03b5 = Integral length scale power law exponent in Equation (26.11-9) from Table 26.11-1 \u03b7 = Value used in Equations (26.11-15a) and (26.1115b); see Section 26.11.4 \u03b8 = Angle of plane of roof from horizontal, degrees v = Height-to-width ratio for solid sign \u03c9 = Angle that the solar panel makes with the roof surface in Figure 29.4-7, or that a groundmounted solar panel makes with the ground in Figure 29.4-9, degrees",
       "conditions": [],
       "then": "",
       "else": null,
@@ -3831,7 +3831,7 @@
     "title": "Provision in Section 26.5",
     "description": "",
     "data": {
-      "rule": "26.5.3 Estimation of Basic Wind Speeds from Regional Climatic Data In areas outside hurricane-prone regions, regional climatic data shall only be used in lieu of the basic wind speeds given in Figure 26.5-1 when (1) approved extreme- value statistical analysis procedures have been used in reducing the data, and (2) the length of record, sampling error, averaging time, anemometer height, data quality, and terrain exposure of the anemometer have been taken into account. Reduction in basic wind speed below that of Figure 26.5-1 shall be permitted. In hurricane-prone regions, wind speeds derived from simula- tion techniques shall only be used in lieu of the basic wind speeds given in Figure 26.5-1 when approved simulation and extreme- value statistical analysis procedures are used. The use of regional wind-speed data obtained from anemometers is not permitted to de ne the hurricane wind-speed risk along the Gulf and Atlantic coasts, the Caribbean, or Hawaii. When the basic wind speed is estimated from regional climatic data or simulation, the estimate shall correspond to the applicable mean recurrence interval, and the estimate shall be adjusted for equivalence to a 3 s gust wind speed at 33 ft (10 m) above ground in Exposure C.",
+      "rule": "26.5.3 Estimation of Basic Wind Speeds from Regional Climatic Data In areas outside hurricane-prone regions, regional climatic data shall only be used in lieu of the basic wind speeds given in Figure 26.5-1 when (1) approved extremevalue statistical analysis procedures have been used in reducing the data, and (2) the length of record, sampling error, averaging time, anemometer height, data quality, and terrain exposure of the anemometer have been taken into account. Reduction in basic wind speed below that of Figure 26.5-1 shall be permitted. In hurricane-prone regions, wind speeds derived from simulation techniques shall only be used in lieu of the basic wind speeds given in Figure 26.5-1 when approved simulation and extremevalue statistical analysis procedures are used. The use of regional wind-speed data obtained from anemometers is not permitted to de ne the hurricane wind-speed risk along the Gulf and Atlantic coasts, the Caribbean, or Hawaii. When the basic wind speed is estimated from regional climatic data or simulation, the estimate shall correspond to the applicable mean recurrence interval, and the estimate shall be adjusted for equivalence to a 3 s gust wind speed at 33 ft (10 m) above ground in Exposure C.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -4143,7 +4143,7 @@
     "title": "Provision in Section 26.7",
     "description": "",
     "data": {
-      "rule": "26.7.2 Surface Roughness Categories A ground surface roughness within each 45 degree sector shall be determined for a distance upwind of the site, as defined in Section 26.7.3, from the categories defined in the following text, for the purpose of assigning an exposure category as defined in Section 26.7.3. Surface Roughness B. Urban and suburban areas, wooded areas, or other terrain with numerous, closely spaced obstructions that have the size of single-family dwellings or larger. Surface Roughness C. Open terrain with scattered obstruc- tions that have heights generally less than 30 ft (9.1 m). This category includes at, open country and grasslands. Surface Roughness D. Flat, unobstructed areas and water surfaces. This category includes smooth mud ats, salt ats, and unbroken ice.",
+      "rule": "26.7.2 Surface Roughness Categories A ground surface roughness within each 45 degree sector shall be determined for a distance upwind of the site, as defined in Section 26.7.3, from the categories defined in the following text, for the purpose of assigning an exposure category as defined in Section 26.7.3. Surface Roughness B. Urban and suburban areas, wooded areas, or other terrain with numerous, closely spaced obstructions that have the size of single-family dwellings or larger. Surface Roughness C. Open terrain with scattered obstructions that have heights generally less than 30 ft (9.1 m). This category includes at, open country and grasslands. Surface Roughness D. Flat, unobstructed areas and water surfaces. This category includes smooth mud ats, salt ats, and unbroken ice.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -4221,7 +4221,7 @@
     "title": "Provision in Section 26.7",
     "description": "",
     "data": {
-      "rule": "Exposure C. Exposure C shall apply for all cases where Exposure B or D does not apply. Exposure D. Exposure D shall apply where the ground surface roughness, as defined by Surface Roughness D, pre- vails in the upwind direction for a distance greater than 5,000 ft (1,524 m) or 20 times the building or structure height, whichever is greater. Exposure D shall also apply where the ground surface roughness immediately upwind of the site is B or C, and the building or structure is within a distance of 600 ft (183 m) or 20 times the building or structure height, whichever is greater, from an Exposure D condition as defined in the previous sentence. For a building or structure located in the transition zone between exposure categories, the category resulting in the largest wind forces shall be used. EXCEPTION: An intermediate exposure between the pre- ceding categories is permitted in a transition zone, provided it is determined by a rational analysis method defined in the recog- nized literature.",
+      "rule": "Exposure C. Exposure C shall apply for all cases where Exposure B or D does not apply. Exposure D. Exposure D shall apply where the ground surface roughness, as defined by Surface Roughness D, prevails in the upwind direction for a distance greater than 5,000 ft (1,524 m) or 20 times the building or structure height, whichever is greater. Exposure D shall also apply where the ground surface roughness immediately upwind of the site is B or C, and the building or structure is within a distance of 600 ft (183 m) or 20 times the building or structure height, whichever is greater, from an Exposure D condition as defined in the previous sentence. For a building or structure located in the transition zone between exposure categories, the category resulting in the largest wind forces shall be used. EXCEPTION: An intermediate exposure between the preceding categories is permitted in a transition zone, provided it is determined by a rational analysis method defined in the recognized literature.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -4504,7 +4504,7 @@
     "title": "Provision in Section 26.8.2",
     "description": "",
     "data": {
-      "rule": "where K , K , and K are given in Figure 26.8-1. The values for 1 2 3 K and K shall not be less than 0. The equations for K , K , 2 3 1 2 and K may be used instead of using the tabular values 3 when increased accuracy in determining K is required. For zt H/L > 0.5, assume that H/L = 0.5 for evaluating K and h h 1 substitute 2H for L for evaluating K and K . h 2 3 If site conditions and locations of buildings and other struc- tures do not meet all the conditions specified in Section 26.8.1, then K = 1.0. zt",
+      "rule": "where K , K , and K are given in Figure 26.8-1. The values for 1 2 3 K and K shall not be less than 0. The equations for K , K , 2 3 1 2 and K may be used instead of using the tabular values 3 when increased accuracy in determining K is required. For zt H/L > 0.5, assume that H/L = 0.5 for evaluating K and h h 1 substitute 2H for L for evaluating K and K . h 2 3 If site conditions and locations of buildings and other structures do not meet all the conditions specified in Section 26.8.1, then K = 1.0. zt",
       "conditions": [],
       "then": "",
       "else": null,
@@ -4868,7 +4868,7 @@
     "title": "Provision in Section 26.10.2",
     "description": "",
     "data": {
-      "rule": "K K K Multiplier Multiplier Multiplier 1 2 H L 2D 2D 3D x L 2D All z L 2D 2D 3D / / / h h h Ridge Escarpment Axisym- Escarpment Other Ridge Escarpment Axisym- metrical Cases metrical Hill Hill 0.20 0.29 0.17 0.21 0.00 1.00 1.00 0.00 1.00 1.00 1.00 0.25 0.36 0.21 0.26 0.50 0.88 0.67 0.10 0.74 0.78 0.67 0.30 0.43 0.26 0.32 1.00 0.75 0.33 0.20 0.55 0.61 0.45 0.35 0.51 0.30 0.37 1.50 0.63 0.00 0.30 0.41 0.47 0.30 0.40 0.58 0.34 0.42 2.00 0.50 0.00 0.40 0.30 0.37 0.20 0.45 0.65 0.38 0.47 2.50 0.38 0.00 0.50 0.22 0.29 0.14 0.50 0.72 0.43 0.53 3.00 0.25 0.00 0.60 0.17 0.22 0.09 3.50 0.13 0.00 0.70 0.12 0.17 0.06 4.00 0.00 0.00 0.80 0.09 0.14 0.04 0.90 0.07 0.11 0.03 1.00 0.05 0.08 0.02 0.50 0.01 0.02 0.00 2.00 0.00 0.00 0.00 a / / / For values of H L , x L , and z L other than those shown, linear interpolation is permitted. h h h",
+      "rule": "K K K Multiplier Multiplier Multiplier 1 2 H L 2D 2D 3D x L 2D All z L 2D 2D 3D / / / h h h Ridge Escarpment AxisymEscarpment Other Ridge Escarpment Axisymmetrical Cases metrical Hill Hill 0.20 0.29 0.17 0.21 0.00 1.00 1.00 0.00 1.00 1.00 1.00 0.25 0.36 0.21 0.26 0.50 0.88 0.67 0.10 0.74 0.78 0.67 0.30 0.43 0.26 0.32 1.00 0.75 0.33 0.20 0.55 0.61 0.45 0.35 0.51 0.30 0.37 1.50 0.63 0.00 0.30 0.41 0.47 0.30 0.40 0.58 0.34 0.42 2.00 0.50 0.00 0.40 0.30 0.37 0.20 0.45 0.65 0.38 0.47 2.50 0.38 0.00 0.50 0.22 0.29 0.14 0.50 0.72 0.43 0.53 3.00 0.25 0.00 0.60 0.17 0.22 0.09 3.50 0.13 0.00 0.70 0.12 0.17 0.06 4.00 0.00 0.00 0.80 0.09 0.14 0.04 0.90 0.07 0.11 0.03 1.00 0.05 0.08 0.02 0.50 0.01 0.02 0.00 2.00 0.00 0.00 0.00 a / / / For values of H L , x L , and z L other than those shown, linear interpolation is permitted. h h h",
       "conditions": [],
       "then": "",
       "else": null,
@@ -5330,7 +5330,7 @@
     "title": "Provision in Section 26.10.2",
     "description": "",
     "data": {
-      "rule": "The velocity pressure at mean roof height is computed as q = q evaluated from Equation (26.10-1) using K at mean roof h z z height h. The basic wind speed, V, used in determination of design wind loads on rooftop structures, rooftop equipment, and other build- ing appurtenances shall consider the Risk Category equal to the greater of the following:",
+      "rule": "The velocity pressure at mean roof height is computed as q = q evaluated from Equation (26.10-1) using K at mean roof h z z height h. The basic wind speed, V, used in determination of design wind loads on rooftop structures, rooftop equipment, and other building appurtenances shall consider the Risk Category equal to the greater of the following:",
       "conditions": [],
       "then": "",
       "else": null,
@@ -5942,7 +5942,7 @@
     "title": "Provision in Section 26.11.1",
     "description": "",
     "data": {
-      "rule": "For structural steel and concrete buildings with other lateral- where I is the intensity of turbulence at height z, and z is the z force-resisting systems, equivalent height of the building or structure defined as 0.6h, but not less than z , for all building or structure heights h. z and c min min n = 75\u2215h (26.11-4) are listed for each exposure in Table 26.11-1; g and g shall be a Q v taken as 3.4. The background response Q is given by",
+      "rule": "For structural steel and concrete buildings with other lateralwhere I is the intensity of turbulence at height z, and z is the z force-resisting systems, equivalent height of the building or structure defined as 0.6h, but not less than z , for all building or structure heights h. z and c min min n = 75\u2215h (26.11-4) are listed for each exposure in Table 26.11-1; g and g shall be a Q v taken as 3.4. The background response Q is given by",
       "conditions": [],
       "then": "",
       "else": null,
@@ -5968,7 +5968,7 @@
     "title": "Provision in Section 26.11.1",
     "description": "",
     "data": {
-      "rule": "n = 22.86\u2215h (26.11-4.SI) a 1 Q = (26.11-8) 1 0.63 B h 0.63 For concrete or masonry shear wall buildings, it is also sffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi\u00feffiffiffiffiffiffiffiffiffiffiffiffi L \u00fe \u00f0 \u00de z permitted to use where B and h are defined in Section 26.3, and L is the integral z length scale of turbulence at the equivalent height given by n = 385 C 0.5 h (26.11-5) \u2215 a w \u00f0 \u00de z \u03b5 L = l (26.11-9) 0.5 z n = 117.3 C \u2215h (26.11-5.SI) 33 a w \u00f0 \u00de ! \" where z \u03b5 L = l (26.11-9.SI) z n 10 100 h 2 A i ! \" C = w A h h 2 in which l and \u03b5 are constants listed in Table 26.11-1. B i i i=1! \" 1 0.83 X \u00fe D i 26.11.5 Flexible Buildings or Other Structures For exible # ! \" $ buildings or other structures as defined in Section 26.2, the gust- where effect factor shall be calculated by h = Mean roof height, ft (m); n = Number of shear walls in the building effective in resisting 1 1.7I g2 Q2 g2R2 lateral forces in the direction under consideration; z Q R \u00fe \u00fe G = 0.925 (26.11-10) 2 2 f A = Base area of the building, ft (m ); qffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi 1 1.7g I B v z 2 2 ! \u00fe \" A = Horizontal cross-sectional area of shear wall i, ft (m ); i D = Length of shear wall i, ft (m); and i The background peak factors g and g shall be taken as 3.4, h = Height of shear wall i, ft (m). Q v i and the resonant peak factor g is R",
+      "rule": "n = 22.86\u2215h (26.11-4.SI) a 1 Q = (26.11-8) 1 0.63 B h 0.63 For concrete or masonry shear wall buildings, it is also sffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi\u00feffiffiffiffiffiffiffiffiffiffiffiffi L \u00fe \u00f0 \u00de z permitted to use where B and h are defined in Section 26.3, and L is the integral z length scale of turbulence at the equivalent height given by n = 385 C 0.5 h (26.11-5) \u2215 a w \u00f0 \u00de z \u03b5 L = l (26.11-9) 0.5 z n = 117.3 C \u2215h (26.11-5.SI) 33 a w \u00f0 \u00de ! \" where z \u03b5 L = l (26.11-9.SI) z n 10 100 h 2 A i ! \" C = w A h h 2 in which l and \u03b5 are constants listed in Table 26.11-1. B i i i=1! \" 1 0.83 X \u00fe D i 26.11.5 Flexible Buildings or Other Structures For exible # ! \" $ buildings or other structures as defined in Section 26.2, the gustwhere effect factor shall be calculated by h = Mean roof height, ft (m); n = Number of shear walls in the building effective in resisting 1 1.7I g2 Q2 g2R2 lateral forces in the direction under consideration; z Q R \u00fe \u00fe G = 0.925 (26.11-10) 2 2 f A = Base area of the building, ft (m ); qffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi 1 1.7g I B v z 2 2 ! \u00fe \" A = Horizontal cross-sectional area of shear wall i, ft (m ); i D = Length of shear wall i, ft (m); and i The background peak factors g and g shall be taken as 3.4, h = Height of shear wall i, ft (m). Q v i and the resonant peak factor g is R",
       "conditions": [],
       "then": "",
       "else": null,
@@ -6358,7 +6358,7 @@
     "title": "Text in Section 26.11.1",
     "description": "",
     "data": {
-      "rule": "1 1 \u22122 R = \u2212 1 \u2212 e \u03b7 h h \u03b7 2\u03b72 \u00f0 \u00de h h 1 1 R = 1 e\u22122 \u2212 \u2212 \u03b7 (26.11-15a) B B \u03b7 2\u03b72 \u00f0 \u00de B B 1 1 R = 1 e\u22122 \u2212 \u2212 \u03b7 L L \u03b7 2\u03b72 \u00f0 \u00de L L where the turbulent coherence (correlation) factors in the corre- sponding directions, evaluated at the natural reduced frequency, are",
+      "rule": "1 1 \u22122 R = \u2212 1 \u2212 e \u03b7 h h \u03b7 2\u03b72 \u00f0 \u00de h h 1 1 R = 1 e\u22122 \u2212 \u2212 \u03b7 (26.11-15a) B B \u03b7 2\u03b72 \u00f0 \u00de B B 1 1 R = 1 e\u22122 \u2212 \u2212 \u03b7 L L \u03b7 2\u03b72 \u00f0 \u00de L L where the turbulent coherence (correlation) factors in the corresponding directions, evaluated at the natural reduced frequency, are",
       "conditions": [],
       "then": "",
       "else": null,
@@ -6827,7 +6827,7 @@
     "description": "",
     "data": {
       "term": "EXCEPTION",
-      "definition": "Glazing located more than 60 ft (18.3 m) above the ground and more than 30 ft (9.2 m) above aggregate- surfaced roofs, including roofs with gravel or stone ballast, located within 1,500 ft (458 m) of the building shall be permitted to be unprotected."
+      "definition": "Glazing located more than 60 ft (18.3 m) above the ground and more than 30 ft (9.2 m) above aggregatesurfaced roofs, including roofs with gravel or stone ballast, located within 1,500 ft (458 m) of the building shall be permitted to be unprotected."
     },
     "cross_references": [],
     "metadata": {
@@ -6849,7 +6849,7 @@
     "title": "Provision in Section 26.12.3.1",
     "description": "",
     "data": {
-      "rule": "26.12.3.2 Protection Requirements for Glazed Openings Glazing in buildings requiring protection shall be impact resistant or be protected with an impact-protective system. Impact-protective systems and impact-resistant glazing shall be subjected to missile test and cyclic pressure differential tests in accordance with ASTM E1996 as applicable. Testing to demon- strate compliance with ASTM E1996 shall be in accordance with ASTM E1886. Impact-resistant glazing and impact-protective systems shall comply with the pass/fail criteria of Section 7 of ASTM E1996 based on the missile required by Table 3 or Table 4 of ASTM E1996. Glazing in sectional doors, rolling doors, and exible doors shall be subjected to missile tests and cyclic pressure differential tests in accordance with ANSI/DASMA 115 as applicable. Glazing and impact-protective systems in buildings and other structures classified as Risk Category IV in accordance with Section 1.5 shall comply with the \u201cenhanced protection\u201d requirements of Table 3 of ASTM E1996. Glazing and impact- protective systems in all other buildings covered by Section 26.12.3.1 shall comply with the \u201cbasic protection\u201d requirements of Table 3 of ASTM E1996.",
+      "rule": "26.12.3.2 Protection Requirements for Glazed Openings Glazing in buildings requiring protection shall be impact resistant or be protected with an impact-protective system. Impact-protective systems and impact-resistant glazing shall be subjected to missile test and cyclic pressure differential tests in accordance with ASTM E1996 as applicable. Testing to demonstrate compliance with ASTM E1996 shall be in accordance with ASTM E1886. Impact-resistant glazing and impact-protective systems shall comply with the pass/fail criteria of Section 7 of ASTM E1996 based on the missile required by Table 3 or Table 4 of ASTM E1996. Glazing in sectional doors, rolling doors, and exible doors shall be subjected to missile tests and cyclic pressure differential tests in accordance with ANSI/DASMA 115 as applicable. Glazing and impact-protective systems in buildings and other structures classified as Risk Category IV in accordance with Section 1.5 shall comply with the \u201cenhanced protection\u201d requirements of Table 3 of ASTM E1996. Glazing and impactprotective systems in all other buildings covered by Section 26.12.3.1 shall comply with the \u201cbasic protection\u201d requirements of Table 3 of ASTM E1996.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -6924,7 +6924,7 @@
     "title": "Provision in Section 26.13",
     "description": "",
     "data": {
-      "rule": "Internal pressure coefficients (GC ) shall be determined from pi Table 26.13-1 based on building enclosure classi cations deter- mined from Section 26.12.",
+      "rule": "Internal pressure coefficients (GC ) shall be determined from pi Table 26.13-1 based on building enclosure classi cations determined from Section 26.12.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -7106,7 +7106,7 @@
     "title": "Provision in Section 26.13.1",
     "description": "",
     "data": {
-      "rule": "unpartitioned large volume, the internal pressure coefficient, Pressure, Door and Access Systems Manufacturers Association (GC ), shall be multiplied by the reduction factor, R : International, 2017. pi i Cited in: Sections 26.12.3.2, C26.12. 1 ASTM E330, Standard Test Method for Structural Perfor- R = 1.0 or R = 0.5 1 < 1.0 (26.13-1) i i \u00fe V mance of Exterior Windows, Doors, Skylights, and Curtain Walls 1 i ! \" 22;800A \u00fe og by Uniform Static Air Pressure Difference, ASTM International, qffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi 2014. where A is the total area of openings in the building envelope og Cited in: Section C26.5.1. 2 [walls and roof (ft )], and V is the unpartitioned internal volume i ASTM E1886, Standard Test Method for Performance of (ft3). Exterior Windows, Curtain Walls, Doors, and Impact Protective Systems Impacted by Missile(s) and Exposed to Cyclic Pressure 26.14 CONSENSUS STANDARDS AND OTHER Differentials, ASTM, 2019. REFERENCED DOCUMENTS Cited in: Sections 26.12.3.2, C26.12 ASTM E1996, Standard Speci cation for Performance of This section lists the consensus standards and other documents Exterior Windows, Curtain Walls, Doors and Impact Protective that shall be considered part of this standard to the extent Systems Impacted by Windborne Debris in Hurricanes, ASTM referenced in this chapter. International, 2020. ANSI A58.1, Minimum Design Loads for Buildings and Other Cited in: Sections 26.12.3.2, C26.12 Structures, American National Standards Institute, 1982. CAN/CSA A123.21, Standard Test Method for the Dynamic Cited in: Section C26.5.2. Wind Uplift Resistance of Membrane-Roo ng Systems, CSA ANSI/DASMA 115, Standard Method for Testing Sectional Group, 2014. Doors, Rolling Doors, and Flexible Doors: Determination of Cited in: Section C26.5.1 Structural Performance under Missile Impact and Cyclic Wind",
+      "rule": "unpartitioned large volume, the internal pressure coefficient, Pressure, Door and Access Systems Manufacturers Association (GC ), shall be multiplied by the reduction factor, R : International, 2017. pi i Cited in: Sections 26.12.3.2, C26.12. 1 ASTM E330, Standard Test Method for Structural PerforR = 1.0 or R = 0.5 1 < 1.0 (26.13-1) i i \u00fe V mance of Exterior Windows, Doors, Skylights, and Curtain Walls 1 i ! \" 22;800A \u00fe og by Uniform Static Air Pressure Difference, ASTM International, qffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi 2014. where A is the total area of openings in the building envelope og Cited in: Section C26.5.1. 2 [walls and roof (ft )], and V is the unpartitioned internal volume i ASTM E1886, Standard Test Method for Performance of (ft3). Exterior Windows, Curtain Walls, Doors, and Impact Protective Systems Impacted by Missile(s) and Exposed to Cyclic Pressure 26.14 CONSENSUS STANDARDS AND OTHER Differentials, ASTM, 2019. REFERENCED DOCUMENTS Cited in: Sections 26.12.3.2, C26.12 ASTM E1996, Standard Speci cation for Performance of This section lists the consensus standards and other documents Exterior Windows, Curtain Walls, Doors and Impact Protective that shall be considered part of this standard to the extent Systems Impacted by Windborne Debris in Hurricanes, ASTM referenced in this chapter. International, 2020. ANSI A58.1, Minimum Design Loads for Buildings and Other Cited in: Sections 26.12.3.2, C26.12 Structures, American National Standards Institute, 1982. CAN/CSA A123.21, Standard Test Method for the Dynamic Cited in: Section C26.5.2. Wind Uplift Resistance of Membrane-Roo ng Systems, CSA ANSI/DASMA 115, Standard Method for Testing Sectional Group, 2014. Doors, Rolling Doors, and Flexible Doors: Determination of Cited in: Section C26.5.1 Structural Performance under Missile Impact and Cyclic Wind",
       "conditions": [],
       "then": "",
       "else": null,
@@ -7146,16 +7146,16 @@
     }
   },
   {
-    "id": "ASCE7-22-26-T1",
+    "id": "ASCE7-22-26.11-T26-11-1",
     "type": "table",
     "source": {
       "standard": "ASCE 7-22",
       "chapter": 26,
-      "section": "26",
-      "citation": "",
+      "section": "26.11",
+      "citation": "Table 26.11-1",
       "page": 5
     },
-    "title": "Table in Section 26",
+    "title": "Table 26.11-1)",
     "description": "",
     "data": {
       "columns": [
@@ -7198,7 +7198,7 @@
     }
   },
   {
-    "id": "ASCE7-22-26-T2",
+    "id": "ASCE7-22-26-T1",
     "type": "table",
     "source": {
       "standard": "ASCE 7-22",
@@ -7260,16 +7260,16 @@
     }
   },
   {
-    "id": "ASCE7-22-26-T3",
+    "id": "ASCE7-22-26.6-T26-6-1",
     "type": "table",
     "source": {
       "standard": "ASCE 7-22",
       "chapter": 26,
-      "section": "26",
-      "citation": "",
+      "section": "26.6",
+      "citation": "Table 26.6-1",
       "page": 14
     },
-    "title": "Table in Section 26",
+    "title": "Table 26.6-1 and shall be included in the wind loads calculated in Chapters 27 through 30",
     "description": "",
     "data": {
       "columns": [
@@ -7353,16 +7353,16 @@
     }
   },
   {
-    "id": "ASCE7-22-26-T4",
+    "id": "ASCE7-22-26.9-T26-9-1",
     "type": "table",
     "source": {
       "standard": "ASCE 7-22",
       "chapter": 26,
-      "section": "26",
-      "citation": "",
+      "section": "26.9",
+      "citation": "Table 26.9-1",
       "page": 15
     },
-    "title": "Table in Section 26",
+    "title": "Table 26.9-1",
     "description": "",
     "data": {
       "columns": [
@@ -7440,7 +7440,7 @@
     }
   },
   {
-    "id": "ASCE7-22-26-T5",
+    "id": "ASCE7-22-26-T2",
     "type": "table",
     "source": {
       "standard": "ASCE 7-22",
@@ -7503,14 +7503,14 @@
           "col_0": "/ h H L",
           "1 K Multiplier": "2D Ridge",
           "col_2": "2D Escarpment",
-          "col_3": "3D Axisym- metrical Hill",
+          "col_3": "3D Axisymmetrical Hill",
           "col_4": "/ h x L",
           "2 K Multiplier": "2D Escarpment",
           "col_6": "All Other Cases",
           "col_7": "/ h z L",
           "K Multiplier": "2D Ridge",
           "col_9": "2D Escarpment",
-          "col_10": "3D Axisym- metrical Hill"
+          "col_10": "3D Axisymmetrical Hill"
         },
         {
           "col_0": 0.2,
@@ -7691,7 +7691,7 @@
     }
   },
   {
-    "id": "ASCE7-22-26-T6",
+    "id": "ASCE7-22-26-T3",
     "type": "table",
     "source": {
       "standard": "ASCE 7-22",
@@ -7780,16 +7780,16 @@
     }
   },
   {
-    "id": "ASCE7-22-26-T7",
+    "id": "ASCE7-22-26.10-T26-10-1",
     "type": "table",
     "source": {
       "standard": "ASCE 7-22",
       "chapter": 26,
-      "section": "26",
-      "citation": "",
+      "section": "26.10",
+      "citation": "Table 26.10-1",
       "page": 17
     },
-    "title": "Table in Section 26",
+    "title": "Table 26.10-1",
     "description": "",
     "data": {
       "columns": [
@@ -7986,16 +7986,16 @@
     }
   },
   {
-    "id": "ASCE7-22-26-T8",
+    "id": "ASCE7-22-26.11-T26-11-1",
     "type": "table",
     "source": {
       "standard": "ASCE 7-22",
       "chapter": 26,
-      "section": "26",
-      "citation": "",
+      "section": "26.11",
+      "citation": "Table 26.11-1",
       "page": 18
     },
-    "title": "Table in Section 26",
+    "title": "Table 26.11-1",
     "description": "",
     "data": {
       "columns": [
@@ -8172,16 +8172,16 @@
     }
   },
   {
-    "id": "ASCE7-22-26-T9",
+    "id": "ASCE7-22-26.13-T26-13-1",
     "type": "table",
     "source": {
       "standard": "ASCE 7-22",
       "chapter": 26,
-      "section": "26",
-      "citation": "",
+      "section": "26.13",
+      "citation": "Table 26.13-1",
       "page": 20
     },
-    "title": "Table in Section 26",
+    "title": "Table 26.13-1",
     "description": "",
     "data": {
       "columns": [
@@ -8237,20 +8237,20 @@
     }
   },
   {
-    "id": "ASCE7-22-26-F1",
+    "id": "ASCE7-22-26.1-F1",
     "type": "figure",
     "source": {
       "standard": "ASCE 7-22",
       "chapter": 26,
-      "section": "26",
-      "citation": "",
+      "section": "26.1",
+      "citation": "Figure 26.1-1",
       "page": 2
     },
-    "title": "Figure on page 2",
-    "description": "Figure on page 2",
+    "title": "Figure 26.1-1",
+    "description": "Figure 26.1-1",
     "data": {
       "figure_type": "other",
-      "description": "Figure",
+      "description": "Figure 26.1-1",
       "source_pdf_page": 2
     },
     "cross_references": [],
@@ -8261,20 +8261,20 @@
     }
   },
   {
-    "id": "ASCE7-22-26-F2",
+    "id": "ASCE7-22-26.5-F2",
     "type": "figure",
     "source": {
       "standard": "ASCE 7-22",
       "chapter": 26,
-      "section": "26",
-      "citation": "",
+      "section": "26.5",
+      "citation": "Figure 26.5-1",
       "page": 6
     },
-    "title": "Figure on page 6",
-    "description": "Figure on page 6",
+    "title": "Figure 26.5-1A",
+    "description": "Figure 26.5-1A",
     "data": {
       "figure_type": "other",
-      "description": "Figure",
+      "description": "Figure 26.5-1A",
       "source_pdf_page": 6
     },
     "cross_references": [],
@@ -8285,20 +8285,20 @@
     }
   },
   {
-    "id": "ASCE7-22-26-F3",
+    "id": "ASCE7-22-26.5-F3",
     "type": "figure",
     "source": {
       "standard": "ASCE 7-22",
       "chapter": 26,
-      "section": "26",
-      "citation": "",
+      "section": "26.5",
+      "citation": "Figure 26.5-1",
       "page": 7
     },
-    "title": "Figure on page 7",
-    "description": "Figure on page 7",
+    "title": "Figure 26.5-1A ( Continued )",
+    "description": "Figure 26.5-1A ( Continued )",
     "data": {
       "figure_type": "other",
-      "description": "Figure",
+      "description": "Figure 26.5-1A ( Continued )",
       "source_pdf_page": 7
     },
     "cross_references": [],
@@ -8309,20 +8309,20 @@
     }
   },
   {
-    "id": "ASCE7-22-26-F4",
+    "id": "ASCE7-22-26.5-F4",
     "type": "figure",
     "source": {
       "standard": "ASCE 7-22",
       "chapter": 26,
-      "section": "26",
-      "citation": "",
+      "section": "26.5",
+      "citation": "Figure 26.5-1",
       "page": 8
     },
-    "title": "Figure on page 8",
-    "description": "Figure on page 8",
+    "title": "Figure 26.5-1B",
+    "description": "Figure 26.5-1B",
     "data": {
       "figure_type": "other",
-      "description": "Figure",
+      "description": "Figure 26.5-1B",
       "source_pdf_page": 8
     },
     "cross_references": [],
@@ -8333,20 +8333,20 @@
     }
   },
   {
-    "id": "ASCE7-22-26-F5",
+    "id": "ASCE7-22-26.5-F5",
     "type": "figure",
     "source": {
       "standard": "ASCE 7-22",
       "chapter": 26,
-      "section": "26",
-      "citation": "",
+      "section": "26.5",
+      "citation": "Figure 26.5-1",
       "page": 9
     },
-    "title": "Figure on page 9",
-    "description": "Figure on page 9",
+    "title": "Figure 26.5-1B ( Continued )",
+    "description": "Figure 26.5-1B ( Continued )",
     "data": {
       "figure_type": "other",
-      "description": "Figure",
+      "description": "Figure 26.5-1B ( Continued )",
       "source_pdf_page": 9
     },
     "cross_references": [],
@@ -8357,20 +8357,20 @@
     }
   },
   {
-    "id": "ASCE7-22-26-F6",
+    "id": "ASCE7-22-26.5-F6",
     "type": "figure",
     "source": {
       "standard": "ASCE 7-22",
       "chapter": 26,
-      "section": "26",
-      "citation": "",
+      "section": "26.5",
+      "citation": "Figure 26.5-1",
       "page": 10
     },
-    "title": "Figure on page 10",
-    "description": "Figure on page 10",
+    "title": "Figure 26.5-1C",
+    "description": "Figure 26.5-1C",
     "data": {
       "figure_type": "other",
-      "description": "Figure",
+      "description": "Figure 26.5-1C",
       "source_pdf_page": 10
     },
     "cross_references": [],
@@ -8381,20 +8381,20 @@
     }
   },
   {
-    "id": "ASCE7-22-26-F7",
+    "id": "ASCE7-22-26.5-F7",
     "type": "figure",
     "source": {
       "standard": "ASCE 7-22",
       "chapter": 26,
-      "section": "26",
-      "citation": "",
+      "section": "26.5",
+      "citation": "Figure 26.5-1",
       "page": 11
     },
-    "title": "Figure on page 11",
-    "description": "Figure on page 11",
+    "title": "Figure 26.5-1C ( Continued )",
+    "description": "Figure 26.5-1C ( Continued )",
     "data": {
       "figure_type": "other",
-      "description": "Figure",
+      "description": "Figure 26.5-1C ( Continued )",
       "source_pdf_page": 11
     },
     "cross_references": [],
@@ -8405,20 +8405,20 @@
     }
   },
   {
-    "id": "ASCE7-22-26-F8",
+    "id": "ASCE7-22-26.5-F8",
     "type": "figure",
     "source": {
       "standard": "ASCE 7-22",
       "chapter": 26,
-      "section": "26",
-      "citation": "",
+      "section": "26.5",
+      "citation": "Figure 26.5-1",
       "page": 12
     },
-    "title": "Figure on page 12",
-    "description": "Figure on page 12",
+    "title": "Figure 26.5-1D",
+    "description": "Figure 26.5-1D",
     "data": {
       "figure_type": "other",
-      "description": "Figure",
+      "description": "Figure 26.5-1D",
       "source_pdf_page": 12
     },
     "cross_references": [],
@@ -8429,20 +8429,20 @@
     }
   },
   {
-    "id": "ASCE7-22-26-F9",
+    "id": "ASCE7-22-26.5-F9",
     "type": "figure",
     "source": {
       "standard": "ASCE 7-22",
       "chapter": 26,
-      "section": "26",
-      "citation": "",
+      "section": "26.5",
+      "citation": "Figure 26.5-1",
       "page": 13
     },
-    "title": "Figure on page 13",
-    "description": "Figure on page 13",
+    "title": "Figure 26.5-1D ( Continued )",
+    "description": "Figure 26.5-1D ( Continued )",
     "data": {
       "figure_type": "other",
-      "description": "Figure",
+      "description": "Figure 26.5-1D ( Continued )",
       "source_pdf_page": 13
     },
     "cross_references": [],
@@ -8453,20 +8453,20 @@
     }
   },
   {
-    "id": "ASCE7-22-26-F10",
+    "id": "ASCE7-22-26.8-F10",
     "type": "figure",
     "source": {
       "standard": "ASCE 7-22",
       "chapter": 26,
-      "section": "26",
-      "citation": "",
+      "section": "26.8",
+      "citation": "Figure 26.8-1",
       "page": 16
     },
-    "title": "Figure on page 16",
-    "description": "Figure on page 16",
+    "title": "Figure 26.8-1",
+    "description": "Figure 26.8-1",
     "data": {
       "figure_type": "other",
-      "description": "Figure",
+      "description": "Figure 26.8-1",
       "source_pdf_page": 16
     },
     "cross_references": [],
@@ -8477,20 +8477,20 @@
     }
   },
   {
-    "id": "ASCE7-22-26-F11",
+    "id": "ASCE7-22-26.8-F11",
     "type": "figure",
     "source": {
       "standard": "ASCE 7-22",
       "chapter": 26,
-      "section": "26",
-      "citation": "",
+      "section": "26.8",
+      "citation": "Figure 26.8-1",
       "page": 16
     },
-    "title": "Figure on page 16",
-    "description": "Figure on page 16",
+    "title": "Figure 26.8-1",
+    "description": "Figure 26.8-1",
     "data": {
       "figure_type": "other",
-      "description": "Figure",
+      "description": "Figure 26.8-1",
       "source_pdf_page": 16
     },
     "cross_references": [],

@@ -472,6 +472,8 @@ def _fix_ligatures(elements):
         text = re.sub(r'\bfi\s+(?=[a-z])', 'fi', text)  # "fi procedures" -> "fiprocedures" — no
         # Better: remove standalone "fi" that appears before a space + lowercase
         text = re.sub(r'\s+fi\s+(?=procedures|ned|gure|eld|lter|nish|nal|rst|re|ll|nd|le|x)', '', text)
+        # Fix line-break hyphens: "da- tabase" -> "database"
+        text = re.sub(r'(\w)- (\w)', r'\1\2', text)
         # Clean up double spaces
         text = re.sub(r'  +', ' ', text)
         return text
@@ -597,13 +599,31 @@ def _get_docling_tables(pdf_path, std_slug, standard, chapter):
         if not columns:
             continue
 
+        # Get caption from the markdown — Docling's item text is often empty for tables
         caption = item.get("text", "")
-        table_match = re.search(r'Table\s+(\d+[\.\d-]+)', caption)
-        citation = table_match.group(0) if table_match else ""
-        section = table_match.group(1).rsplit("-", 1)[0] if table_match else str(chapter)
+
+        # Also search nearby text elements for "Table 26.X-Y" pattern
+        if not re.search(r'Table\s+\d+\.\d+-\d+', caption):
+            # Check all text items for table references near this page
+            for txt_item in d.get("texts", []):
+                txt_prov = txt_item.get("prov", [{}])[0] if txt_item.get("prov") else {}
+                if txt_prov.get("page_no") == page_no:
+                    txt = txt_item.get("text", "")
+                    tm = re.search(r'(Table\s+\d+\.\d+-\d+[^.]*)', txt)
+                    if tm:
+                        caption = tm.group(1)
+                        break
+
+        table_match = re.search(r'Table\s+(\d+\.\d+-\d+)', caption)
+        citation = f"Table {table_match.group(1)}" if table_match else ""
+        table_num = table_match.group(1) if table_match else ""
+        section = table_num.rsplit("-", 1)[0] if table_num else str(chapter)
 
         counters[section] += 1
-        eid = f"{std_slug}-{section}-T{citation.replace('Table ', '').replace('.', '-').replace(' ', '') if citation else counters[section]}"
+        if table_num:
+            eid = f"{std_slug}-{section}-T{table_num.replace('.', '-')}"
+        else:
+            eid = f"{std_slug}-{section}-T{counters[section]}"
 
         elements.append({
             "id": eid,
@@ -667,9 +687,21 @@ def _get_docling_figures(pdf_path, std_slug, standard, chapter):
         page_no = prov.get("page_no", 1)
         caption = item.get("text", "")
 
-        fig_match = re.search(r'Figure\s+(\d+[\.\d-]+)', caption)
-        citation = fig_match.group(0) if fig_match else ""
-        section = fig_match.group(1).rsplit("-", 1)[0] if fig_match else str(chapter)
+        # Search nearby text for figure caption if not in item
+        if not re.search(r'Figure\s+\d+\.\d+-\d+', caption):
+            for txt_item in d.get("texts", []):
+                txt_prov = txt_item.get("prov", [{}])[0] if txt_item.get("prov") else {}
+                if txt_prov.get("page_no") == page_no:
+                    txt = txt_item.get("text", "")
+                    fm = re.search(r'(Figure\s+\d+\.\d+-\d+[^.]*)', txt)
+                    if fm:
+                        caption = fm.group(1)
+                        break
+
+        fig_match = re.search(r'Figure\s+(\d+\.\d+-\d+)', caption)
+        citation = f"Figure {fig_match.group(1)}" if fig_match else ""
+        fig_num = fig_match.group(1) if fig_match else ""
+        section = fig_num.rsplit("-", 1)[0] if fig_num else str(chapter)
 
         counter += 1
         eid = f"{std_slug}-{section}-F{counter}"

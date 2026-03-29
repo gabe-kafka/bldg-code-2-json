@@ -1,0 +1,262 @@
+{
+  "completeness": {
+    "tables": {
+      "referenced": [
+        "26.10-1",
+        "26.11-1",
+        "26.13-1",
+        "26.6-1",
+        "26.9-1"
+      ],
+      "extracted": [],
+      "missing": [
+        "26.10-1",
+        "26.11-1",
+        "26.13-1",
+        "26.6-1",
+        "26.9-1"
+      ]
+    },
+    "figures": {
+      "referenced": [
+        "26.1-1",
+        "26.5-1",
+        "26.8-1"
+      ],
+      "extracted": [],
+      "missing": [
+        "26.1-1",
+        "26.5-1",
+        "26.8-1"
+      ]
+    },
+    "equations": {
+      "referenced": [],
+      "extracted": [],
+      "missing": []
+    },
+    "sections": {
+      "referenced_ch26": [
+        "26.10",
+        "26.10.1",
+        "26.11",
+        "26.11.2",
+        "26.11.2.1",
+        "26.11.3",
+        "26.11.4",
+        "26.12",
+        "26.12.3",
+        "26.12.3.1",
+        "26.12.3.2",
+        "26.13",
+        "26.2",
+        "26.3",
+        "26.5",
+        "26.5.1",
+        "26.5.3",
+        "26.6",
+        "26.7",
+        "26.7.3",
+        "26.8",
+        "26.8.1",
+        "26.8.2",
+        "26.9"
+      ],
+      "extracted": [
+        "26",
+        "26.1",
+        "26.1.2.1",
+        "26.1.2.2",
+        "26.10",
+        "26.10.2",
+        "26.11",
+        "26.11.1",
+        "26.12",
+        "26.12.2",
+        "26.12.3.1",
+        "26.13",
+        "26.13.1",
+        "26.2",
+        "26.3",
+        "26.4",
+        "26.4.1",
+        "26.4.2",
+        "26.5",
+        "26.6",
+        "26.7",
+        "26.7.4",
+        "26.8",
+        "26.8.2",
+        "26.9"
+      ],
+      "missing_ch26": [
+        "26.10.1",
+        "26.11.2",
+        "26.11.2.1",
+        "26.11.3",
+        "26.11.4",
+        "26.12.3",
+        "26.12.3.2",
+        "26.5.1",
+        "26.5.3",
+        "26.7.3",
+        "26.8.1"
+      ]
+    }
+  },
+  "spot_check": {
+    "results": [
+      {
+        "id": "ASCE7-22-26.12.3.1-D2",
+        "type": "definition",
+        "page": 19,
+        "status": "MATCH",
+        "snippet": "When approved, other testing methods and/or performance criteria shall be permit"
+      },
+      {
+        "id": "ASCE7-22-26.2-D14",
+        "type": "definition",
+        "page": 3,
+        "status": "MATCH",
+        "snippet": "With respect to topographic effects in Section 26.8, a cliff or steep slope gene"
+      },
+      {
+        "id": "ASCE7-22-26.2-D5",
+        "type": "definition",
+        "page": 1,
+        "status": "CHECK",
+        "snippet": "The ASCE da- tabase (version 2022-1.0) of geocoded wind speed design data."
+      },
+      {
+        "id": "ASCE7-22-26.5-P11",
+        "type": "provision",
+        "page": 9,
+        "status": "MATCH",
+        "snippet": "5. Wind speeds for Hawaii, US Virgin Islands, and Puerto Rico shall be determine"
+      },
+      {
+        "id": "ASCE7-22-26.5-T12",
+        "type": "provision",
+        "page": 7,
+        "status": "MATCH",
+        "snippet": "7. Wind speeds correspond to approximately a 15% probability of exceedance in 50"
+      },
+      {
+        "id": "ASCE7-22-26.5-P4",
+        "type": "provision",
+        "page": 6,
+        "status": "MATCH",
+        "snippet": "3. Islands, coastal areas, and land boundaries outside the last contour shall us"
+      },
+      {
+        "id": "ASCE7-22-26.2-D18",
+        "type": "definition",
+        "page": 3,
+        "status": "CHECK",
+        "snippet": "Construction that has been shown by testing to withstand the impact of test miss"
+      },
+      {
+        "id": "ASCE7-22-26.2-D12",
+        "type": "definition",
+        "page": 3,
+        "status": "CHECK",
+        "snippet": "The area used to determine the external pressure coefficient, (GC ) and (GC ). F"
+      },
+      {
+        "id": "ASCE7-22-26.11.1-T10",
+        "type": "provision",
+        "page": 17,
+        "status": "CHECK",
+        "snippet": "2. \u03b1 and z are tabulated in Table 26.11-1. g 3. Linear interpolation for interme"
+      },
+      {
+        "id": "ASCE7-22-26.2-D8",
+        "type": "definition",
+        "page": 3,
+        "status": "CHECK",
+        "snippet": "A build- ing or other structure whose fundamental frequency is greater than or e"
+      },
+      {
+        "id": "ASCE7-22-26.11.1-T24",
+        "type": "provision",
+        "page": 19,
+        "status": "CHECK",
+        "snippet": "1 1 \u22122 R = \u2212 1 \u2212 e \u03b7 h h \u03b7 2\u03b72 \u00f0 \u00de h h 1 1 R = 1 e\u22122 \u2212 \u2212 \u03b7 (26.11-15a) B B \u03b7 2\u03b72"
+      },
+      {
+        "id": "ASCE7-22-26.7.4-P2",
+        "type": "provision",
+        "page": 15,
+        "status": "MATCH",
+        "snippet": "26.7.4.2 Envelope Procedure (Chapter 28) Wind loads for the design of the MWFRS "
+      },
+      {
+        "id": "ASCE7-22-26.2-T2",
+        "type": "provision",
+        "page": 1,
+        "status": "MATCH",
+        "snippet": "User Note: The ASCE Wind Design Geodatabase of geo- coded wind speed design data"
+      },
+      {
+        "id": "ASCE7-22-26.2-T1",
+        "type": "provision",
+        "page": 1,
+        "status": "CHECK",
+        "snippet": "The following de nitions apply to the provisions of Chapters 26 through 31. APPR"
+      },
+      {
+        "id": "ASCE7-22-26.2-D9",
+        "type": "definition",
+        "page": 3,
+        "status": "MATCH",
+        "snippet": "Equivalent static force to be used in the determination of wind loads for other "
+      },
+      {
+        "id": "ASCE7-22-26.5-T4",
+        "type": "provision",
+        "page": 6,
+        "status": "MATCH",
+        "snippet": "1. Values are 3 s gust wind speeds in mi/h (m/s) at 33 ft (10 m) above ground fo"
+      },
+      {
+        "id": "ASCE7-22-26.5-T5",
+        "type": "provision",
+        "page": 6,
+        "status": "MATCH",
+        "snippet": "Figure 26.5-1A. Basic wind speeds for Risk Category I buildings and other struct"
+      },
+      {
+        "id": "ASCE7-22-26.11.1-P1",
+        "type": "provision",
+        "page": 17,
+        "status": "MATCH",
+        "snippet": "26.11.2 Frequency Determination To determine whether a building or other structu"
+      },
+      {
+        "id": "ASCE7-22-26.11.1-P9",
+        "type": "provision",
+        "page": 19,
+        "status": "MATCH",
+        "snippet": "26.11.6 Rational Analysis In lieu of the procedure defined in Sections 26.11.4 a"
+      },
+      {
+        "id": "ASCE7-22-26.11.1-P7",
+        "type": "provision",
+        "page": 18,
+        "status": "MATCH",
+        "snippet": "26.11.4 Rigid Buildings or Other Structures For rigid 0.577 buildings or other s"
+      }
+    ],
+    "match_rate": 0.65
+  },
+  "types": {
+    "provision (heading)": 38,
+    "provision": 70,
+    "provision (unclassified)": 135,
+    "definition (split_from_text)": 23,
+    "definition": 5,
+    "formula": 8,
+    "table (from_docling)": 9,
+    "figure (from_docling)": 11
+  }
+}
