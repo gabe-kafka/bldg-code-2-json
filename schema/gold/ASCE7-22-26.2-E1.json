@@ -1,0 +1,32 @@
+{
+  "id": "ASCE7-22-26.2-E1",
+  "type": "formula",
+  "source": {
+    "standard": "ASCE 7-22",
+    "chapter": 26,
+    "section": "26.2",
+    "page": 1
+  },
+  "title": "Enclosed Building Opening Area Criteria",
+  "description": "Mathematical expression for enclosed building opening area limits",
+  "data": {
+    "expression": "A_o < 0.01*A_g or 4 ft\u00b2 (0.37 m\u00b2), whichever is smaller",
+    "parameters": {
+      "A_o": {
+        "unit": "ft\u00b2",
+        "source": "measured opening area"
+      },
+      "A_g": {
+        "unit": "ft\u00b2",
+        "source": "gross wall area"
+      }
+    },
+    "samples": {}
+  },
+  "cross_references": [],
+  "metadata": {
+    "extracted_by": "auto",
+    "qc_status": "passed",
+    "qc_notes": null
+  }
+}

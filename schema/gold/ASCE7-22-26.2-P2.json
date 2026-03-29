@@ -1,0 +1,38 @@
+{
+  "id": "ASCE7-22-26.2-P2",
+  "type": "provision",
+  "source": {
+    "standard": "ASCE 7-22",
+    "chapter": 26,
+    "section": "26.2",
+    "page": 1
+  },
+  "title": "Definition - Building, Enclosed",
+  "description": "Definition and criteria for enclosed buildings",
+  "data": {
+    "rule": "BUILDING, ENCLOSED: A building that has the total area of openings in each wall that receives positive external pressure less than or equal to 4 ft\u00b2 (0.37 m\u00b2) or 1% of the area of that wall, whichever is smaller",
+    "conditions": [
+      {
+        "parameter": "opening_area",
+        "operator": "<=",
+        "value": 4,
+        "unit": "ft\u00b2"
+      },
+      {
+        "parameter": "opening_area_percentage",
+        "operator": "<=",
+        "value": 1,
+        "unit": "%"
+      }
+    ],
+    "then": "Use whichever is smaller: 4 ft\u00b2 (0.37 m\u00b2) or 1% of wall area",
+    "else": null,
+    "exceptions": []
+  },
+  "cross_references": [],
+  "metadata": {
+    "extracted_by": "auto",
+    "qc_status": "passed",
+    "qc_notes": null
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "ASCE7-22-26.1.2.2-P1",
+  "type": "provision",
+  "source": {
+    "standard": "ASCE 7-22",
+    "chapter": 26,
+    "section": "26.1.2.2",
+    "page": 1
+  },
+  "title": "Components and Cladding Procedures",
+  "description": "Permitted procedures for determining C&C wind loads",
+  "data": {
+    "rule": "Wind loads on C&C on all buildings and other structures shall be designed using one of the specified procedures",
+    "conditions": [],
+    "then": "Use either: 1) Analytical Procedures in Parts 1-5 of Chapter 30, or 2) Wind Tunnel Procedure per Chapter 31",
+    "else": null,
+    "exceptions": []
+  },
+  "cross_references": [
+    "ASCE7-22-30",
+    "ASCE7-22-31"
+  ],
+  "metadata": {
+    "extracted_by": "auto",
+    "qc_status": "passed",
+    "qc_notes": null
+  }
+}

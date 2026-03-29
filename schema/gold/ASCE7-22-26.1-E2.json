@@ -1,0 +1,32 @@
+{
+  "id": "ASCE7-22-26.1-E2",
+  "type": "formula",
+  "source": {
+    "standard": "ASCE 7-22",
+    "chapter": 26,
+    "section": "26.1",
+    "page": 2
+  },
+  "title": "Partially Enclosed Building Opening Requirement",
+  "description": "Formula for determining if a building meets partially enclosed criteria",
+  "data": {
+    "expression": "A_o > 1.10A_oi",
+    "parameters": {
+      "A_o": {
+        "unit": "ft\u00b2",
+        "source": "total area of openings in a wall that receives positive external pressure"
+      },
+      "A_oi": {
+        "unit": "ft\u00b2",
+        "source": "sum of the areas of openings in the building envelope (walls and roof), not including A_o"
+      }
+    },
+    "samples": {}
+  },
+  "cross_references": [],
+  "metadata": {
+    "extracted_by": "auto",
+    "qc_status": "passed",
+    "qc_notes": null
+  }
+}

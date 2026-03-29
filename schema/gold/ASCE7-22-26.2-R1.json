@@ -1,0 +1,25 @@
+{
+  "id": "ASCE7-22-26.2-R1",
+  "type": "reference",
+  "source": {
+    "standard": "ASCE 7-22",
+    "chapter": 26,
+    "section": "26.2",
+    "page": 1
+  },
+  "title": "ASCE Wind Design Geodatabase",
+  "description": "Reference to external ASCE wind speed database",
+  "data": {
+    "target": "ASCE Wind Design Geodatabase (version 2022-1.0)",
+    "url": "https://asce7hazardtool.online/",
+    "parameters": [
+      "geocoded wind speed design data"
+    ]
+  },
+  "cross_references": [],
+  "metadata": {
+    "extracted_by": "auto",
+    "qc_status": "passed",
+    "qc_notes": null
+  }
+}

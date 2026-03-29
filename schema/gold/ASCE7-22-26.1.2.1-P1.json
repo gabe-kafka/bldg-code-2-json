@@ -1,0 +1,30 @@
+{
+  "id": "ASCE7-22-26.1.2.1-P1",
+  "type": "provision",
+  "source": {
+    "standard": "ASCE 7-22",
+    "chapter": 26,
+    "section": "26.1.2.1",
+    "page": 1
+  },
+  "title": "Main Wind Force Resisting System Procedures",
+  "description": "Permitted procedures for determining MWFRS wind loads",
+  "data": {
+    "rule": "Wind loads for the MWFRS shall be determined using one of the specified procedures",
+    "conditions": [],
+    "then": "Use one of: 1) Directional Procedure (Chapter 27), 2) Envelope Procedure for low-rise (Chapter 28), 3) Directional Procedure for appurtenances (Chapter 29), or 4) Wind Tunnel Procedure (Chapter 31)",
+    "else": null,
+    "exceptions": []
+  },
+  "cross_references": [
+    "ASCE7-22-27",
+    "ASCE7-22-28",
+    "ASCE7-22-29",
+    "ASCE7-22-31"
+  ],
+  "metadata": {
+    "extracted_by": "auto",
+    "qc_status": "passed",
+    "qc_notes": null
+  }
+}
