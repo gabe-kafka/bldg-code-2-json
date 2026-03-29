@@ -17,6 +17,8 @@ from pathlib import Path
 from qc.schema_validator import validate_chapter
 from qc.completeness import check_completeness
 from qc.spot_check import spot_check
+from qc.calibration import calibration_report
+from extract.gold_standard import load_gold_elements
 from extract.pdf_parser import PageExtraction
 
 
@@ -70,14 +72,21 @@ def score_run(
     completeness_result = check_completeness(elements, pages)
     completeness_score = completeness_result["overall_coverage"]
 
-    # --- Accuracy (spot check) ---
-    extractable = [el for el in elements if el.get("type") != "skipped_figure"]
-    if extractable and spot_check_size > 0:
-        spot_result = spot_check(extractable, pages, sample_size=spot_check_size, seed=seed)
-        accuracy_score = spot_result["average_score"]
+    # --- Accuracy (calibration if gold available, else spot check) ---
+    gold_elements = load_gold_elements()
+    calibration_result = None
+    spot_result = {"sample_size": 0, "average_score": 0.0, "results": []}
+
+    if gold_elements:
+        calibration_result = calibration_report(elements, gold_elements)
+        accuracy_score = calibration_result["aggregate"]["accuracy"]
     else:
-        spot_result = {"sample_size": 0, "average_score": 0.0, "results": []}
-        accuracy_score = 0.0
+        extractable = [el for el in elements if el.get("type") != "skipped_figure"]
+        if extractable and spot_check_size > 0:
+            spot_result = spot_check(extractable, pages, sample_size=spot_check_size, seed=seed)
+            accuracy_score = spot_result["average_score"]
+        else:
+            accuracy_score = 0.0
 
     # --- Cross-reference resolution ---
     element_ids = {el["id"] for el in elements}
@@ -112,7 +121,7 @@ def score_run(
         "details": {
             "schema": schema_result,
             "completeness": completeness_result,
-            "spot_check": spot_result,
+            **({"calibration": calibration_result} if calibration_result else {"spot_check": spot_result}),
             "xref": {"total": total_refs, "resolved": resolved_refs},
         },
         "failure_analysis": failures,
