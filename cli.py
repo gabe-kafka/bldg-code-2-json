@@ -134,5 +134,55 @@ def validate(input_file, output):
         click.echo(f"Cleaned JSON → {clean_path}")
 
 
+@cli.command()
+@click.option("--run-a", required=True, type=click.Path(exists=True), help="First extraction JSON (e.g., Claude)")
+@click.option("--run-b", required=True, type=click.Path(exists=True), help="Second extraction JSON (e.g., Codex)")
+@click.option("--label-a", default="claude", help="Label for first run")
+@click.option("--label-b", default="codex", help="Label for second run")
+@click.option("--output", default=None, type=click.Path(), help="Comparison report path")
+def compare(run_a, run_b, label_a, label_b, output):
+    """Compare two extraction runs and surface disagreements."""
+    from qc.compare import compare_extractions
+
+    with open(run_a) as f:
+        elements_a = json.load(f)
+    with open(run_b) as f:
+        elements_b = json.load(f)
+
+    click.echo(f"Comparing {label_a} ({len(elements_a)} elements) vs {label_b} ({len(elements_b)} elements)")
+
+    result = compare_extractions(elements_a, elements_b, label_a, label_b)
+    s = result["summary"]
+
+    click.echo(f"\n  Agreed:     {s['agreed']} elements")
+    click.echo(f"  Disagreed:  {s['disagreed']} elements")
+    click.echo(f"  Only {label_a}: {s['only_a']}")
+    click.echo(f"  Only {label_b}: {s['only_b']}")
+    click.echo(f"  Agreement:  {s['agreement_rate']:.1%}")
+
+    if result["disagreed"]:
+        click.echo(f"\nTop disagreements:")
+        for d in result["disagreed"][:15]:
+            type_info = ""
+            if d["type_a"] != d["type_b"]:
+                type_info = f" (type: {d['type_a']} vs {d['type_b']})"
+            click.echo(f"  {d['id']}{type_info}")
+            for f in d["fields"][:3]:
+                field = f["field"]
+                if "only_a" in f:
+                    click.echo(f"    {field}: {label_a}={f['only_a']}, {label_b}={f['only_b']}")
+                else:
+                    click.echo(f"    {field}: {label_a}={f['a']}, {label_b}={f['b']}")
+
+    if output is None:
+        output = f"output/qc/compare-{label_a}-vs-{label_b}.json"
+
+    out_path = Path(output)
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    with open(out_path, "w") as f:
+        json.dump(result, f, indent=2)
+    click.echo(f"\nFull report → {out_path}")
+
+
 if __name__ == "__main__":
     cli()
