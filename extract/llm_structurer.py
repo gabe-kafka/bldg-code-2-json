@@ -9,8 +9,11 @@ import anthropic
 from extract.pdf_parser import PageExtraction, ExtractedTable
 from extract.figure_digitizer import digitize_figure, digitize_table_image
 from extract.post_processor import post_process
+from extract.gold_standard import load_gold_elements
 
 STRUCTURER_MODEL = "claude-sonnet-4-20250514"
+
+MAX_FEWSHOT_EXAMPLES = 3
 
 
 STRUCTURE_PROMPT = """You are converting building code content into structured JSON elements.
@@ -77,6 +80,75 @@ ID format rules:
 """
 
 
+def select_fewshot_examples(
+    gold_elements: list[dict],
+    page: PageExtraction,
+    max_examples: int = MAX_FEWSHOT_EXAMPLES,
+) -> list[dict]:
+    """Select type-relevant gold examples for a page.
+
+    Prefers examples matching the content types detected on the page:
+    - Tables present → prefer table examples
+    - Text-heavy → prefer provision examples
+    - Mixed → pick diverse types
+    """
+    if not gold_elements:
+        return []
+
+    # Detect what's on the page
+    has_tables = bool(page.tables)
+    has_figures = bool(page.figures)
+
+    # Determine preferred types based on page content
+    preferred_types = []
+    if has_tables:
+        preferred_types.append("table")
+    if has_figures:
+        preferred_types.extend(["figure", "skipped_figure"])
+    # Text blocks usually contain provisions/definitions
+    if page.text_blocks:
+        preferred_types.append("provision")
+
+    # Score each gold element: preferred type gets priority
+    preferred_set = set(preferred_types)
+
+    def sort_key(el: dict) -> tuple:
+        is_preferred = el.get("type") not in preferred_set
+        return (is_preferred, el.get("type", ""))
+
+    sorted_golds = sorted(gold_elements, key=sort_key)
+
+    # Pick up to max_examples, preferring type diversity
+    selected = []
+    seen_types: set[str] = set()
+    # First pass: one per type
+    for el in sorted_golds:
+        if len(selected) >= max_examples:
+            break
+        t = el.get("type", "")
+        if t not in seen_types:
+            selected.append(el)
+            seen_types.add(t)
+    # Second pass: fill remaining slots
+    for el in sorted_golds:
+        if len(selected) >= max_examples:
+            break
+        if el not in selected:
+            selected.append(el)
+
+    return selected
+
+
+def _build_fewshot_section(examples: list[dict]) -> str:
+    """Format gold examples as a REFERENCE EXAMPLES prompt section."""
+    lines = ["\n\nREFERENCE EXAMPLES — use these as models for your output format:\n"]
+    for i, ex in enumerate(examples, 1):
+        lines.append(f"Example {i} ({ex.get('type', 'unknown')}):")
+        lines.append(json.dumps(ex, indent=2))
+        lines.append("")
+    return "\n".join(lines)
+
+
 def structure_page(
     page: PageExtraction,
     standard: str,
@@ -119,6 +191,12 @@ def structure_page(
         chapter=chapter,
         page=page.page_number,
     )
+
+    # Inject few-shot gold examples if available
+    gold_elements = load_gold_elements()
+    examples = select_fewshot_examples(gold_elements, page)
+    if examples:
+        prompt += _build_fewshot_section(examples)
 
     client = anthropic.Anthropic()
     message = client.messages.create(
