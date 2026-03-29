@@ -244,5 +244,49 @@ def classify(pages_dir, port, output):
     start_classify_server(pages_dir, port, output)
 
 
+@cli.command(name="extract")
+@click.option("--pdf", required=True, type=click.Path(exists=True), help="Path to source PDF")
+@click.option("--standard", required=True, help='Standard name, e.g. "ASCE 7-22"')
+@click.option("--chapter", required=True, type=int, help="Chapter number")
+@click.option("--output", default=None, type=click.Path(), help="Output JSON path")
+def extract_cmd(pdf, standard, chapter, output):
+    """Extract building code elements using hybrid pipeline (Docling + PyMuPDF)."""
+    from extract.hybrid_pipeline import run_hybrid
+
+    click.echo(f"Extracting {standard} Chapter {chapter}...")
+    elements, markdown = run_hybrid(pdf, standard=standard, chapter=chapter)
+
+    # Fix null fields for schema compliance
+    for e in elements:
+        if e.get("description") is None:
+            e["description"] = ""
+        src = e.get("source", {})
+        if src.get("citation") is None:
+            src["citation"] = f"Section {src.get('section', '')}"
+
+    if output is None:
+        std_slug = standard.lower().replace(" ", "").replace("-", "")
+        output = f"output/runs/{std_slug}-ch{chapter}-hybrid.json"
+
+    out_path = Path(output)
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    with open(out_path, "w") as f:
+        json.dump(elements, f, indent=2)
+
+    # Save markdown too
+    md_path = out_path.with_suffix(".md")
+    md_path.write_text(markdown)
+
+    # Type breakdown
+    types = {}
+    for e in elements:
+        types[e["type"]] = types.get(e["type"], 0) + 1
+
+    click.echo(f"\n{len(elements)} elements → {out_path}")
+    click.echo(f"Markdown → {md_path}")
+    click.echo(f"Types: {', '.join(f'{t}={c}' for t, c in sorted(types.items(), key=lambda x: -x[1]))}")
+    click.echo(f"\nValidate: python cli.py validate --file {out_path}")
+
+
 if __name__ == "__main__":
     cli()
