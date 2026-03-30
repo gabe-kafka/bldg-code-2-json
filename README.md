@@ -1,99 +1,51 @@
 # bldg-code-2-json
 
-Extract building code PDFs (ASCE 7-22, IBC, ACI 318, etc.) into structured, machine-readable JSON.
+Extract building code PDFs into structured, machine-readable JSON.
 
-See [ontology.md](ontology.md) for the full specification of what the JSON represents.
+**Goal:** An agent answers a building code question using only the extracted data and gets the same answer a licensed engineer would get reading the PDF.
 
 ## How It Works
 
 ```
-PDF → render pages to images → Claude reads images → structured JSON → schema validate
+PDF → Docling (reads PDF structure directly) → deterministic classification → JSON
 ```
 
-Single-pass vision extraction. No text parsing, no retry loops. Claude reads each page as a human would and produces structured elements.
-
-For tables, formulas, equations, provisions, definitions, and references, the target is exact preservation of the code's wording, symbols, numbers, and citations in the authoritative fields. Derived helper fields may normalize structure, and figures are the explicit exception: they are captured as descriptive summaries of what the diagram communicates.
-
-Official source identifiers should also be preserved wherever they exist. Section numbers belong in `source.section`, printed labels like `Eq. (26.10-1)` or `Table 26.10-1` belong in `source.citation`, and element `id` should reuse those identifiers when available instead of relying only on local sequence numbers.
+No vision models. No OCR. No rendered images. The pipeline reads the PDF's internal text layer — every character with its exact position and font metadata. Docling handles two-column layout, table detection, and figure detection. pdfplumber provides character-level font data for classification (bold = heading, ALL-CAPS + colon = definition).
 
 ## Quick Start
 
 ```bash
-# Install
-python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 
-# 1. Render PDF pages to images
-python cli.py render \
-  --pdf path/to/asce7-22.pdf \
-  --standard "ASCE 7-22" \
-  --chapter 26 \
-  --start-page 1 --end-page 30
+# Extract a chapter
+python cli.py extract --pdf input/asce7-22.pdf --standard "ASCE 7-22" --chapter 26
 
-# 2. Extract elements by reading page images in Claude Code
-#    (open the rendered images, extract JSON per the schema)
-
-# 3. Validate the extraction
-python cli.py validate --file output/asce722-ch26.json
+# Validate
+python cli.py validate --file output/runs/asce722-ch26-hybrid.json
 ```
 
-## CLI Commands
+## Current Results
 
-### `render` — Prepare PDF for extraction
-Renders PDF pages to PNG images at configurable DPI.
+ASCE 7-22 Chapter 26: **594 elements, 94.7% benchmark composite.**
 
-```bash
-python cli.py render --pdf chapter.pdf --standard "ASCE 7-22" --chapter 26
-```
-
-### `validate` — Check extraction quality
-Schema validation, post-processing cleanup, cross-reference analysis, and calibration against gold standard.
-
-```bash
-python cli.py validate --file output/extracted.json
-```
+| Metric | Score |
+|--------|-------|
+| Coverage | 88% |
+| Fidelity | 100% |
+| Structure | 97% |
 
 ## Element Types
 
-Six types based on computational role (see [ontology.md](ontology.md)):
+| Type | Count | What it is |
+|------|-------|-----------|
+| provision | 525 | Code rules — "shall", conditions, exceptions |
+| definition | 33 | Vocabulary — TERM: definition text |
+| formula | 16 | Equations with expression text |
+| table | 9 | Tabular data with columns and rows |
+| figure | 11 | Linked diagrams with captions |
 
-| Type | Role | Data Precision |
-|------|------|----------------|
-| `table` | Directly queryable | Exact authoritative content |
-| `formula` | Directly computable | Exact equation/expression; derived samples allowed |
-| `provision` | Evaluable as logic | Exact `rule`; derived logic fields |
-| `definition` | Vocabulary reference | Exact `term` and `definition`; derived helpers allowed |
-| `reference` | External pointer | Exact `target`; normalized helper metadata allowed |
-| `figure` | Illustrative context | Best-effort description |
+## Key Finding
 
-## Output Structure
+PDFs are structured files, not images. Reading the text layer directly produces character-perfect extraction. Vision-based approaches (YOLO, Surya, Claude vision) were tested and cannot match the accuracy of direct PDF parsing.
 
-```
-output/
-  pages/            # Rendered PDF page images
-  fixed/            # Extracted and validated JSON
-  qc/               # Validation reports
-```
-
-## Architecture
-
-```
-cli.py                    # Click CLI (render + validate)
-extract/
-  pdf_renderer.py         # PDF → page images (PyMuPDF)
-  post_processor.py       # Deterministic cleanup (no API)
-  gold_standard.py        # Gold element management
-qc/
-  schema_validator.py     # JSON Schema validation
-  calibration.py          # Gold standard comparison
-schema/
-  element.schema.json     # JSON Schema (Draft 2020-12)
-  gold/                   # Gold standard reference elements
-ontology.md               # What the JSON represents
-```
-
-## Testing
-
-```bash
-python -m pytest tests/ -v  # All tests run without API keys
-```
+See [goal.md](goal.md), [ontology.md](ontology.md), and [spec.md](spec.md) for full documentation.
