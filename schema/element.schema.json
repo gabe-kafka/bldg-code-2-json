@@ -50,6 +50,10 @@
         { "$ref": "#/$defs/definition_data" }
       ]
     },
+    "parent_id": {
+      "type": ["string", "null"],
+      "description": "ID of the structural parent element this text belongs to. Null for top-level elements (headings, tables, figures)."
+    },
     "cross_references": {
       "type": "array",
       "items": { "type": "string" }

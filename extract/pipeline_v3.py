@@ -66,6 +66,10 @@ def run_v3(pdf_path, standard="ASCE 7-22", chapter=26):
     _add_references(elements, bold_map, std_slug, standard, chapter, id_set, make_id)
     _add_equations(elements, std_slug, standard, chapter, id_set, make_id)
 
+    # Associate body text with parent structural elements
+    print("  [+] Associating body text with parent elements...")
+    _associate_text_blocks(elements)
+
     # Cross-references
     print("  [+] Building cross-references...")
     _add_cross_references(elements)
@@ -521,6 +525,109 @@ def _parse_table(table_cells):
 # ═══════════════════════════════════════════════════════════════
 # BLOCKER 5: Cross-references
 # ═══════════════════════════════════════════════════════════════
+
+def _associate_text_blocks(elements):
+    """Associate body text with parent structural elements.
+
+    Uses section-number hierarchy as backbone + content-affinity rules:
+    1. Section-number match: text_block's section → nearest heading at that section
+    2. "where" clauses → nearest preceding formula
+    3. Figure references → corresponding figure element
+    4. List items → nearest preceding provision
+    5. Default → deepest matching section heading
+    """
+    # Build heading index by section number
+    heading_index = {}
+    for e in elements:
+        if e["type"] == "heading":
+            sec = e["source"]["section"]
+            heading_index[sec] = e["id"]
+
+    # Build element lookup
+    id_lookup = {e["id"]: e for e in elements}
+
+    # Build ordered list for sequential lookups
+    elem_ids = [e["id"] for e in elements]
+
+    associated = 0
+    for i, e in enumerate(elements):
+        if e["type"] != "text_block":
+            e["parent_id"] = None
+            continue
+
+        text = e.get("data", {}).get("rule", "")
+        section = e["source"]["section"]
+
+        # Rule 1: "where" clause → nearest preceding formula
+        if text.lower().startswith("where ") or text.lower().startswith("in which"):
+            for j in range(i - 1, max(i - 10, -1), -1):
+                if elements[j]["type"] == "formula":
+                    e["parent_id"] = elements[j]["id"]
+                    associated += 1
+                    break
+            else:
+                e["parent_id"] = _find_section_heading(section, heading_index)
+                if e["parent_id"]:
+                    associated += 1
+            continue
+
+        # Rule 2: Figure reference text → figure element
+        fig_match = re.match(r'^Figure\s+(\d+\.\d+-\d+[A-D]?)', text)
+        if fig_match:
+            fig_num = fig_match.group(1)
+            for el in elements:
+                if el["type"] == "figure" and fig_num in el.get("source", {}).get("citation", ""):
+                    e["parent_id"] = el["id"]
+                    associated += 1
+                    break
+            else:
+                e["parent_id"] = _find_section_heading(section, heading_index)
+                if e["parent_id"]:
+                    associated += 1
+            continue
+
+        # Rule 3: Numbered list item → nearest preceding provision or heading
+        if re.match(r'^\d+\.\s', text):
+            for j in range(i - 1, max(i - 15, -1), -1):
+                if elements[j]["type"] in ("provision", "heading"):
+                    e["parent_id"] = elements[j]["id"]
+                    associated += 1
+                    break
+            else:
+                e["parent_id"] = _find_section_heading(section, heading_index)
+                if e["parent_id"]:
+                    associated += 1
+            continue
+
+        # Rule 4: Default — section-number hierarchy lookup
+        parent_id = _find_section_heading(section, heading_index)
+        if parent_id:
+            e["parent_id"] = parent_id
+            associated += 1
+        else:
+            # Fallback: nearest preceding heading
+            for j in range(i - 1, -1, -1):
+                if elements[j]["type"] == "heading":
+                    e["parent_id"] = elements[j]["id"]
+                    associated += 1
+                    break
+            else:
+                e["parent_id"] = None
+
+    tb_count = sum(1 for e in elements if e["type"] == "text_block")
+    print(f"    {associated}/{tb_count} text_blocks associated with parents")
+
+
+def _find_section_heading(section, heading_index):
+    """Find the deepest heading matching this section number via ancestor walk."""
+    parts = section.split(".")
+    while parts:
+        candidate = ".".join(parts)
+        if candidate in heading_index:
+            return heading_index[candidate]
+        parts.pop()
+    return None
+
 
 def _add_cross_references(elements):
     """Scan text for Table/Figure/Section/Eq references and link to element IDs.
