@@ -1,0 +1,342 @@
+{
+  "overall": {
+    "assoc_rate": 100.0,
+    "valid": 3037,
+    "invalid": 0
+  },
+  "content_affinity": {
+    "where": {
+      "correct": 0,
+      "total": 128
+    },
+    "list": {
+      "correct": 75,
+      "total": 75
+    },
+    "figure": {
+      "correct": 186,
+      "total": 220
+    }
+  },
+  "per_chapter": [
+    {
+      "ch": 1,
+      "elements": 111,
+      "tb": 25,
+      "associated": 25,
+      "pct": 100.0,
+      "valid": 25,
+      "invalid": 0,
+      "headings": 21,
+      "headings_with_kids": 10
+    },
+    {
+      "ch": 2,
+      "elements": 100,
+      "tb": 35,
+      "associated": 35,
+      "pct": 100.0,
+      "valid": 35,
+      "invalid": 0,
+      "headings": 33,
+      "headings_with_kids": 12
+    },
+    {
+      "ch": 3,
+      "elements": 25,
+      "tb": 2,
+      "associated": 2,
+      "pct": 100.0,
+      "valid": 2,
+      "invalid": 0,
+      "headings": 13,
+      "headings_with_kids": 1
+    },
+    {
+      "ch": 4,
+      "elements": 139,
+      "tb": 28,
+      "associated": 28,
+      "pct": 100.0,
+      "valid": 28,
+      "invalid": 0,
+      "headings": 54,
+      "headings_with_kids": 12
+    },
+    {
+      "ch": 5,
+      "elements": 88,
+      "tb": 34,
+      "associated": 34,
+      "pct": 100.0,
+      "valid": 34,
+      "invalid": 0,
+      "headings": 18,
+      "headings_with_kids": 7
+    },
+    {
+      "ch": 6,
+      "elements": 720,
+      "tb": 275,
+      "associated": 275,
+      "pct": 100.0,
+      "valid": 275,
+      "invalid": 0,
+      "headings": 101,
+      "headings_with_kids": 36
+    },
+    {
+      "ch": 7,
+      "elements": 197,
+      "tb": 73,
+      "associated": 73,
+      "pct": 100.0,
+      "valid": 73,
+      "invalid": 0,
+      "headings": 42,
+      "headings_with_kids": 14
+    },
+    {
+      "ch": 8,
+      "elements": 38,
+      "tb": 15,
+      "associated": 15,
+      "pct": 100.0,
+      "valid": 15,
+      "invalid": 0,
+      "headings": 9,
+      "headings_with_kids": 4
+    },
+    {
+      "ch": 10,
+      "elements": 192,
+      "tb": 73,
+      "associated": 73,
+      "pct": 100.0,
+      "valid": 73,
+      "invalid": 0,
+      "headings": 36,
+      "headings_with_kids": 6
+    },
+    {
+      "ch": 11,
+      "elements": 431,
+      "tb": 256,
+      "associated": 256,
+      "pct": 100.0,
+      "valid": 256,
+      "invalid": 0,
+      "headings": 46,
+      "headings_with_kids": 11
+    },
+    {
+      "ch": 12,
+      "elements": 761,
+      "tb": 233,
+      "associated": 233,
+      "pct": 100.0,
+      "valid": 233,
+      "invalid": 0,
+      "headings": 150,
+      "headings_with_kids": 51
+    },
+    {
+      "ch": 13,
+      "elements": 368,
+      "tb": 111,
+      "associated": 111,
+      "pct": 100.0,
+      "valid": 111,
+      "invalid": 0,
+      "headings": 76,
+      "headings_with_kids": 29
+    },
+    {
+      "ch": 14,
+      "elements": 102,
+      "tb": 17,
+      "associated": 17,
+      "pct": 100.0,
+      "valid": 17,
+      "invalid": 0,
+      "headings": 50,
+      "headings_with_kids": 6
+    },
+    {
+      "ch": 15,
+      "elements": 438,
+      "tb": 96,
+      "associated": 96,
+      "pct": 100.0,
+      "valid": 96,
+      "invalid": 0,
+      "headings": 106,
+      "headings_with_kids": 21
+    },
+    {
+      "ch": 16,
+      "elements": 101,
+      "tb": 28,
+      "associated": 28,
+      "pct": 100.0,
+      "valid": 28,
+      "invalid": 0,
+      "headings": 35,
+      "headings_with_kids": 5
+    },
+    {
+      "ch": 17,
+      "elements": 335,
+      "tb": 133,
+      "associated": 133,
+      "pct": 100.0,
+      "valid": 133,
+      "invalid": 0,
+      "headings": 72,
+      "headings_with_kids": 24
+    },
+    {
+      "ch": 18,
+      "elements": 470,
+      "tb": 201,
+      "associated": 201,
+      "pct": 100.0,
+      "valid": 201,
+      "invalid": 0,
+      "headings": 49,
+      "headings_with_kids": 24
+    },
+    {
+      "ch": 19,
+      "elements": 181,
+      "tb": 81,
+      "associated": 81,
+      "pct": 100.0,
+      "valid": 81,
+      "invalid": 0,
+      "headings": 20,
+      "headings_with_kids": 11
+    },
+    {
+      "ch": 20,
+      "elements": 31,
+      "tb": 6,
+      "associated": 6,
+      "pct": 100.0,
+      "valid": 6,
+      "invalid": 0,
+      "headings": 11,
+      "headings_with_kids": 3
+    },
+    {
+      "ch": 21,
+      "elements": 36,
+      "tb": 5,
+      "associated": 5,
+      "pct": 100.0,
+      "valid": 5,
+      "invalid": 0,
+      "headings": 15,
+      "headings_with_kids": 3
+    },
+    {
+      "ch": 22,
+      "elements": 236,
+      "tb": 196,
+      "associated": 196,
+      "pct": 100.0,
+      "valid": 196,
+      "invalid": 0,
+      "headings": 8,
+      "headings_with_kids": 2
+    },
+    {
+      "ch": 23,
+      "elements": 178,
+      "tb": 61,
+      "associated": 61,
+      "pct": 100.0,
+      "valid": 61,
+      "invalid": 0,
+      "headings": 51,
+      "headings_with_kids": 1
+    },
+    {
+      "ch": 26,
+      "elements": 448,
+      "tb": 248,
+      "associated": 248,
+      "pct": 100.0,
+      "valid": 248,
+      "invalid": 0,
+      "headings": 50,
+      "headings_with_kids": 19
+    },
+    {
+      "ch": 27,
+      "elements": 167,
+      "tb": 84,
+      "associated": 84,
+      "pct": 100.0,
+      "valid": 84,
+      "invalid": 0,
+      "headings": 39,
+      "headings_with_kids": 7
+    },
+    {
+      "ch": 28,
+      "elements": 122,
+      "tb": 55,
+      "associated": 55,
+      "pct": 100.0,
+      "valid": 55,
+      "invalid": 0,
+      "headings": 35,
+      "headings_with_kids": 7
+    },
+    {
+      "ch": 29,
+      "elements": 218,
+      "tb": 133,
+      "associated": 133,
+      "pct": 100.0,
+      "valid": 133,
+      "invalid": 0,
+      "headings": 28,
+      "headings_with_kids": 16
+    },
+    {
+      "ch": 30,
+      "elements": 484,
+      "tb": 321,
+      "associated": 321,
+      "pct": 100.0,
+      "valid": 321,
+      "invalid": 0,
+      "headings": 64,
+      "headings_with_kids": 20
+    },
+    {
+      "ch": 31,
+      "elements": 42,
+      "tb": 6,
+      "associated": 6,
+      "pct": 100.0,
+      "valid": 6,
+      "invalid": 0,
+      "headings": 17,
+      "headings_with_kids": 2
+    },
+    {
+      "ch": 32,
+      "elements": 414,
+      "tb": 206,
+      "associated": 206,
+      "pct": 100.0,
+      "valid": 206,
+      "invalid": 0,
+      "headings": 76,
+      "headings_with_kids": 34
+    }
+  ]
+}
