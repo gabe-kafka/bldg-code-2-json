@@ -65,7 +65,14 @@
     "description": "",
     "data": {
       "rule": "Risk Category III and IV buildings and other structures, including the MWFRS and all C&C thereof, shall also be designed and constructed to resist tornado loads determined in accordance with Chapter 32, as applicable.",
-      "conditions": [],
+      "conditions": [
+        {
+          "parameter": "risk_category",
+          "operator": "==",
+          "value": "III",
+          "unit": null
+        }
+      ],
       "then": "",
       "else": null,
       "exceptions": []
@@ -148,7 +155,9 @@
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.1-F26-1-11"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -604,7 +613,10 @@
       "term": "BASIC WIND SPEED , V",
       "definition": "Three-second gust speed at 33 ft (10 m) above the ground in Exposure C (see Section 26.7.3) as determined in accordance with Section 26.5.1."
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.5.1-H1",
+      "ASCE7-22-26.7.3-H1"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -754,7 +766,9 @@
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.1-F26-1-11"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -826,33 +840,7 @@
     "title": "determining wind loads on both the MWFRS and C&C. These basic parameters are",
     "description": "",
     "data": {
-      "rule": "determining wind loads on both the MWFRS and C&C. These basic parameters are",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.2-T10",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.2",
-      "citation": "Section 26.2",
-      "page": 2
-    },
-    "title": "Basic wind speed,",
-    "description": "",
-    "data": {
-      "rule": "Basic wind speed,",
+      "rule": "determining wind loads on both the MWFRS and C&C. These basic parameters are Basic wind speed,",
       "conditions": [],
       "then": "",
       "else": null,
@@ -878,91 +866,16 @@
     "title": ", see Section 26.5; Figure 26.5-1",
     "description": "",
     "data": {
-      "rule": ", see Section 26.5; Figure 26.5-1",
+      "rule": ", see Section 26.5; Figure 26.5-1 Wind directionality factor, Kd , see Section 26.6",
       "conditions": [],
       "then": "",
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.2-T12",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.2",
-      "citation": "Section 26.2",
-      "page": 2
-    },
-    "title": "Wind directionality factor,",
-    "description": "",
-    "data": {
-      "rule": "Wind directionality factor,",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.2-T13",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.2",
-      "citation": "Section 26.2",
-      "page": 2
-    },
-    "title": "Kd",
-    "description": "",
-    "data": {
-      "rule": "Kd",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.2-T14",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.2",
-      "citation": "Section 26.2",
-      "page": 2
-    },
-    "title": ", see Section 26.6",
-    "description": "",
-    "data": {
-      "rule": ", see Section 26.6",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.5-F26-5-11",
+      "ASCE7-22-26.5-H1"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -982,91 +895,15 @@
     "title": "Exposure category, see Section 26.7",
     "description": "",
     "data": {
-      "rule": "Exposure category, see Section 26.7",
+      "rule": "Exposure category, see Section 26.7 Topographic factor, Kzt , see Section 26.8",
       "conditions": [],
       "then": "",
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.2-T16",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.2",
-      "citation": "Section 26.2",
-      "page": 2
-    },
-    "title": "Topographic factor,",
-    "description": "",
-    "data": {
-      "rule": "Topographic factor,",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.2-T17",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.2",
-      "citation": "Section 26.2",
-      "page": 2
-    },
-    "title": "Kzt",
-    "description": "",
-    "data": {
-      "rule": "Kzt",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.2-T18",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.2",
-      "citation": "Section 26.2",
-      "page": 2
-    },
-    "title": ", see Section 26.8",
-    "description": "",
-    "data": {
-      "rule": ", see Section 26.8",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.7-H1"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -1092,7 +929,9 @@
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.9-H1"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -1118,7 +957,9 @@
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.10-H1"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -1144,7 +985,9 @@
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.11-H1"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -1170,7 +1013,9 @@
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.12-H1"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -1190,59 +1035,7 @@
     "title": "Internal pressure coefficient,",
     "description": "",
     "data": {
-      "rule": "Internal pressure coefficient,",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.2-T24",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.2",
-      "citation": "Section 26.2",
-      "page": 2
-    },
-    "title": "GCpi",
-    "description": "",
-    "data": {
-      "rule": "GCpi",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.2-T25",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.2",
-      "citation": "Section 26.2",
-      "page": 2
-    },
-    "title": ", see Section 26.13",
-    "description": "",
-    "data": {
-      "rule": ", see Section 26.13",
+      "rule": "Internal pressure coefficient, GCpi , see Section 26.13",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1268,241 +1061,7 @@
     "title": "Wind loads on the MWFRS may be",
     "description": "",
     "data": {
-      "rule": "Wind loads on the MWFRS may be",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.2-T27",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.2",
-      "citation": "Section 26.2",
-      "page": 2
-    },
-    "title": "determined by",
-    "description": "",
-    "data": {
-      "rule": "determined by",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.2-T28",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.2",
-      "citation": "Section 26.2",
-      "page": 2
-    },
-    "title": "Wind loads on the C&C may be",
-    "description": "",
-    "data": {
-      "rule": "Wind loads on the C&C may be",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.2-T29",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.2",
-      "citation": "Section 26.2",
-      "page": 2
-    },
-    "title": "determined by",
-    "description": "",
-    "data": {
-      "rule": "determined by",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.2-T30",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.2",
-      "citation": "Section 26.2",
-      "page": 2
-    },
-    "title": "Chapter 27:",
-    "description": "",
-    "data": {
-      "rule": "Chapter 27:",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.2-T31",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.2",
-      "citation": "Section 26.2",
-      "page": 2
-    },
-    "title": "Direc",
-    "description": "",
-    "data": {
-      "rule": "Direc",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.2-T32",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.2",
-      "citation": "Section 26.2",
-      "page": 2
-    },
-    "title": "/g415",
-    "description": "",
-    "data": {
-      "rule": "/g415",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.2-T33",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.2",
-      "citation": "Section 26.2",
-      "page": 2
-    },
-    "title": "onal Procedure for",
-    "description": "",
-    "data": {
-      "rule": "onal Procedure for",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.2-T34",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.2",
-      "citation": "Section 26.2",
-      "page": 2
-    },
-    "title": "buildings of all heights",
-    "description": "",
-    "data": {
-      "rule": "buildings of all heights",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.2-T35",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.2",
-      "citation": "Section 26.2",
-      "page": 2
-    },
-    "title": "Chapter 28:",
-    "description": "",
-    "data": {
-      "rule": "Chapter 28:",
+      "rule": "Wind loads on the MWFRS may be determined by Wind loads on the C&C may be determined by Chapter 27: Direc /g415 onal Procedure for buildings of all heights Chapter 28:",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1528,137 +1087,7 @@
     "title": "Envelope Procedure for low-rise",
     "description": "",
     "data": {
-      "rule": "Envelope Procedure for low-rise",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.2-T37",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.2",
-      "citation": "Section 26.2",
-      "page": 2
-    },
-    "title": "buildings",
-    "description": "",
-    "data": {
-      "rule": "buildings",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.2-T38",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.2",
-      "citation": "Section 26.2",
-      "page": 2
-    },
-    "title": "Chapter 29:",
-    "description": "",
-    "data": {
-      "rule": "Chapter 29:",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.2-T39",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.2",
-      "citation": "Section 26.2",
-      "page": 2
-    },
-    "title": "Direc",
-    "description": "",
-    "data": {
-      "rule": "Direc",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.2-T40",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.2",
-      "citation": "Section 26.2",
-      "page": 2
-    },
-    "title": "/g415",
-    "description": "",
-    "data": {
-      "rule": "/g415",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.2-T41",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.2",
-      "citation": "Section 26.2",
-      "page": 2
-    },
-    "title": "onal Procedure for",
-    "description": "",
-    "data": {
-      "rule": "onal Procedure for",
+      "rule": "Envelope Procedure for low-rise buildings Chapter 29: Direc /g415 onal Procedure for",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1710,111 +1139,7 @@
     "title": "parapets) and other structures",
     "description": "",
     "data": {
-      "rule": "parapets) and other structures",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.2-T44",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.2",
-      "citation": "Section 26.2",
-      "page": 2
-    },
-    "title": "Chapter 31:",
-    "description": "",
-    "data": {
-      "rule": "Chapter 31:",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.2-T45",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.2",
-      "citation": "Section 26.2",
-      "page": 2
-    },
-    "title": "Wind Tunnel Procedure for any",
-    "description": "",
-    "data": {
-      "rule": "Wind Tunnel Procedure for any",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.2-T46",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.2",
-      "citation": "Section 26.2",
-      "page": 2
-    },
-    "title": "building or other structure",
-    "description": "",
-    "data": {
-      "rule": "building or other structure",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.2-T47",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.2",
-      "citation": "Section 26.2",
-      "page": 2
-    },
-    "title": "Chapter 30:",
-    "description": "",
-    "data": {
-      "rule": "Chapter 30:",
+      "rule": "parapets) and other structures Chapter 31: Wind Tunnel Procedure for any building or other structure Chapter 30:",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1840,59 +1165,7 @@
     "title": "Envelope Procedure in Part 1, or",
     "description": "",
     "data": {
-      "rule": "Envelope Procedure in Part 1, or",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.2-T49",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.2",
-      "citation": "Section 26.2",
-      "page": 2
-    },
-    "title": "Direc",
-    "description": "",
-    "data": {
-      "rule": "Direc",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.2-T50",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.2",
-      "citation": "Section 26.2",
-      "page": 2
-    },
-    "title": "/g415",
-    "description": "",
-    "data": {
-      "rule": "/g415",
+      "rule": "Envelope Procedure in Part 1, or Direc /g415",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1944,33 +1217,7 @@
     "title": "Building appurtenances (roof overhangs and",
     "description": "",
     "data": {
-      "rule": "Building appurtenances (roof overhangs and",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.2-T53",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.2",
-      "citation": "Section 26.2",
-      "page": 2
-    },
-    "title": "parapets) in Part 4; and",
-    "description": "",
-    "data": {
-      "rule": "parapets) in Part 4; and",
+      "rule": "Building appurtenances (roof overhangs and parapets) in Part 4; and",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1996,59 +1243,7 @@
     "title": "Nonbuilding structures in Part 5",
     "description": "",
     "data": {
-      "rule": "Nonbuilding structures in Part 5",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.2-T55",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.2",
-      "citation": "Section 26.2",
-      "page": 2
-    },
-    "title": "Chapter 31:",
-    "description": "",
-    "data": {
-      "rule": "Chapter 31:",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.2-T56",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.2",
-      "citation": "Section 26.2",
-      "page": 2
-    },
-    "title": "Wind Tunnel Procedure",
-    "description": "",
-    "data": {
-      "rule": "Wind Tunnel Procedure",
+      "rule": "Nonbuilding structures in Part 5 Chapter 31: Wind Tunnel Procedure",
       "conditions": [],
       "then": "",
       "else": null,
@@ -2380,7 +1575,9 @@
       "term": "BUILDING, TORSIONALLY REGULAR UNDER WIND LOAD",
       "definition": "A building with the MWFRS about each principal axis proportioned so that the maximum displacement at each story under Case 2, the torsional wind load case, of Figure 27.3-8 does not exceed the maximum displacement at the same location under Case 1 of Figure 27.3-8, the basic wind load case."
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-27.3-F27-3-81"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -2688,7 +1885,10 @@
       "term": "ESCARPMENT",
       "definition": "With respect to topographic effects in Section 26.8, a cliff or steep slope generally separating two levels or gently sloping areas (see Figure 26.8-1). Also known as a scarp."
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.8-F26-8-11",
+      "ASCE7-22-26.8-H1"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -2760,7 +1960,9 @@
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.12.3.2-H1"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -2783,7 +1985,10 @@
       "term": "HILL",
       "definition": "With respect to topographic effects in Section 26.8, a land surface characterized by strong relief in any horizontal direction (see Figure 26.8-1)."
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.8-F26-8-11",
+      "ASCE7-22-26.8-H1"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -2887,7 +2092,9 @@
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.12.3.2-H1"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -2931,7 +2138,14 @@
     "description": "",
     "data": {
       "rule": "MEAN ROOF HEIGHT, h : The average of the roof eave height and the height to the highest point on the roof surface, except that, for roof angles less than or equal to 10 degrees, the mean roof height is permitted to be taken as the roof eave height.",
-      "conditions": [],
+      "conditions": [
+        {
+          "parameter": "",
+          "operator": "<=",
+          "value": 10.0,
+          "unit": null
+        }
+      ],
       "then": "",
       "else": null,
       "exceptions": []
@@ -3005,7 +2219,10 @@
       "term": "RIDGE",
       "definition": "With respect to topographic effects in Section 26.8, an elongated crest of a hill characterized by strong relief in two directions (see Figure 26.8-1)."
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.8-F26-8-11",
+      "ASCE7-22-26.8-H1"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -3077,7 +2294,9 @@
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.12.3-P1"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -3516,7 +2735,9 @@
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.11-T26-11-12"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -3542,7 +2763,9 @@
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.11-T26-11-12"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -3646,7 +2869,9 @@
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.11-T26-11-12"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -3666,59 +2891,7 @@
     "title": "D = Diameter of a circular structure or member, ft (m)",
     "description": "",
     "data": {
-      "rule": "D = Diameter of a circular structure or member, ft (m)",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.3-T22",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.3",
-      "citation": "Section 26.3",
-      "page": 4
-    },
-    "title": "= Depth of",
-    "description": "",
-    "data": {
-      "rule": "= Depth of",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.3-T23",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.3",
-      "citation": "Section 26.3",
-      "page": 4
-    },
-    "title": "protruding spoilers, ft (m)",
-    "description": "",
-    "data": {
-      "rule": "protruding spoilers, ft (m)",
+      "rule": "D = Diameter of a circular structure or member, ft (m) = Depth of protruding spoilers, ft (m)",
       "conditions": [],
       "then": "",
       "else": null,
@@ -3874,33 +3047,7 @@
     "title": "Fn = Normal force for ground-mounted solar panels in Figure 29.4-9, lb (N)",
     "description": "",
     "data": {
-      "rule": "Fn = Normal force for ground-mounted solar panels in Figure 29.4-9, lb (N)",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.3-T30",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.3",
-      "citation": "Section 26.3",
-      "page": 4
-    },
-    "title": "G = Gust-effect factor",
-    "description": "",
-    "data": {
-      "rule": "G = Gust-effect factor",
+      "rule": "Fn = Normal force for ground-mounted solar panels in Figure 29.4-9, lb (N) G = Gust-effect factor",
       "conditions": [],
       "then": "",
       "else": null,
@@ -4108,85 +3255,7 @@
     "title": "( GCpi ) = Product of internal pressure coef fi cient and gusteffect factor to be used in determination of wind loads for buildings",
     "description": "",
     "data": {
-      "rule": "( GCpi ) = Product of internal pressure coef fi cient and gusteffect factor to be used in determination of wind loads for buildings",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.3-T39",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.3",
-      "citation": "Section 26.3",
-      "page": 4
-    },
-    "title": "elements such",
-    "description": "",
-    "data": {
-      "rule": "elements such",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.3-T40",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.3",
-      "citation": "Section 26.3",
-      "page": 4
-    },
-    "title": "as ribs",
-    "description": "",
-    "data": {
-      "rule": "as ribs",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.3-T41",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.3",
-      "citation": "Section 26.3",
-      "page": 4
-    },
-    "title": "and",
-    "description": "",
-    "data": {
-      "rule": "and",
+      "rule": "( GCpi ) = Product of internal pressure coef fi cient and gusteffect factor to be used in determination of wind loads for buildings elements such as ribs and",
       "conditions": [],
       "then": "",
       "else": null,
@@ -4400,7 +3469,9 @@
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.8-F26-8-11"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -4421,7 +3492,14 @@
     "description": "",
     "data": {
       "rule": "h = Mean roof height of a building or height of other structure, except that eave height shall be used for roof angle \u03b8 less than or equal to 10 degrees, in ft (m)",
-      "conditions": [],
+      "conditions": [
+        {
+          "parameter": "",
+          "operator": "<=",
+          "value": 10.0,
+          "unit": null
+        }
+      ],
       "then": "",
       "else": null,
       "exceptions": []
@@ -4660,7 +3738,10 @@
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.6-H1",
+      "ASCE7-22-26.6-T26-6-11"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -4680,39 +3761,15 @@
     "title": "K 1 , K 2 , K 3 = Multipliers in Figure 26.8-1 to obtain Kzt",
     "description": "",
     "data": {
-      "rule": "K 1 , K 2 , K 3 = Multipliers in Figure 26.8-1 to obtain Kzt",
+      "rule": "K 1 , K 2 , K 3 = Multipliers in Figure 26.8-1 to obtain Kzt Ke = Ground elevation factor",
       "conditions": [],
       "then": "",
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.3-T60",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.3",
-      "citation": "Section 26.3",
-      "page": 4
-    },
-    "title": "Ke = Ground elevation factor",
-    "description": "",
-    "data": {
-      "rule": "Ke = Ground elevation factor",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.8-F26-8-11"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -4790,7 +3847,9 @@
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.8-H1"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -4894,7 +3953,9 @@
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.8-F26-8-11"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -4998,7 +4059,9 @@
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.11-T26-11-12"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -5154,7 +4217,9 @@
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.11.2-H1"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -5206,7 +4271,9 @@
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-27.3-F27-3-81"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -5778,7 +4845,9 @@
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.8-F26-8-11"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -5882,7 +4951,9 @@
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.11-T26-11-12"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -5908,7 +4979,9 @@
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.11-T26-11-12"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -5934,7 +5007,9 @@
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.11-T26-11-12"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -5960,7 +5035,9 @@
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.11-T26-11-12"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -5986,7 +5063,9 @@
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.11-T26-11-12"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -6142,7 +5221,9 @@
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.11-T26-11-12"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -6168,7 +5249,9 @@
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.11.4-P1"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -6402,7 +5485,9 @@
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.5-F26-5-11"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -6448,39 +5533,15 @@
     "title": "Figure 26.5-1A. Basic wind speeds for Risk Category I buildings and other structures.",
     "description": "",
     "data": {
-      "rule": "Figure 26.5-1A. Basic wind speeds for Risk Category I buildings and other structures.",
+      "rule": "Figure 26.5-1A. Basic wind speeds for Risk Category I buildings and other structures. Notes",
       "conditions": [],
       "then": "",
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.5.1-T2",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.5.1",
-      "citation": "Section 26.5.1",
-      "page": 6
-    },
-    "title": "Notes",
-    "description": "",
-    "data": {
-      "rule": "Notes",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.5-F26-5-1A1"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -6604,65 +5665,15 @@
     "title": "Figure 26.5-1A ( Continued ). Basic wind speeds for Risk Category I buildings and other structures.",
     "description": "",
     "data": {
-      "rule": "Figure 26.5-1A ( Continued ). Basic wind speeds for Risk Category I buildings and other structures.",
+      "rule": "Figure 26.5-1A ( Continued ). Basic wind speeds for Risk Category I buildings and other structures. Location American Samoa",
       "conditions": [],
       "then": "",
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.5.1-T5",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.5.1",
-      "citation": "Section 26.5.1",
-      "page": 7
-    },
-    "title": "Location",
-    "description": "",
-    "data": {
-      "rule": "Location",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.5.1-T6",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.5.1",
-      "citation": "Section 26.5.1",
-      "page": 7
-    },
-    "title": "American Samoa",
-    "description": "",
-    "data": {
-      "rule": "American Samoa",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.5-F26-5-1A1"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -6682,267 +5693,7 @@
     "title": "Guam & Northern Mariana Islands",
     "description": "",
     "data": {
-      "rule": "Guam & Northern Mariana Islands",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.5.1-T8",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.5.1",
-      "citation": "Section 26.5.1",
-      "page": 7
-    },
-    "title": "Hawaii",
-    "description": "",
-    "data": {
-      "rule": "Hawaii",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.5.1-T9",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.5.1",
-      "citation": "Section 26.5.1",
-      "page": 7
-    },
-    "title": "Puerto Rico",
-    "description": "",
-    "data": {
-      "rule": "Puerto Rico",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.5.1-T10",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.5.1",
-      "citation": "Section 26.5.1",
-      "page": 7
-    },
-    "title": "U.S. Virgin Islands",
-    "description": "",
-    "data": {
-      "rule": "U.S. Virgin Islands",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.5.1-T11",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.5.1",
-      "citation": "Section 26.5.1",
-      "page": 7
-    },
-    "title": "(67)",
-    "description": "",
-    "data": {
-      "rule": "(67)",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.5.1-T12",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.5.1",
-      "citation": "Section 26.5.1",
-      "page": 7
-    },
-    "title": "(80)",
-    "description": "",
-    "data": {
-      "rule": "(80)",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.5.1-T13",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.5.1",
-      "citation": "Section 26.5.1",
-      "page": 7
-    },
-    "title": "ASCE Wind Design Geodatabase",
-    "description": "",
-    "data": {
-      "rule": "ASCE Wind Design Geodatabase",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.5.1-T14",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.5.1",
-      "citation": "Section 26.5.1",
-      "page": 7
-    },
-    "title": "ASCE Wind Design Geodatabase",
-    "description": "",
-    "data": {
-      "rule": "ASCE Wind Design Geodatabase",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.5.1-T15",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.5.1",
-      "citation": "Section 26.5.1",
-      "page": 7
-    },
-    "title": "ASCE Wind Design Geodatabase",
-    "description": "",
-    "data": {
-      "rule": "ASCE Wind Design Geodatabase",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.5.1-T16",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.5.1",
-      "citation": "Section 26.5.1",
-      "page": 7
-    },
-    "title": "V (mi/h)",
-    "description": "",
-    "data": {
-      "rule": "V (mi/h)",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.5.1-T17",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.5.1",
-      "citation": "Section 26.5.1",
-      "page": 7
-    },
-    "title": "V (m/s)",
-    "description": "",
-    "data": {
-      "rule": "V (m/s)",
+      "rule": "Guam & Northern Mariana Islands Hawaii Puerto Rico U.S. Virgin Islands (67) (80) ASCE Wind Design Geodatabase ASCE Wind Design Geodatabase ASCE Wind Design Geodatabase V (mi/h) V (m/s)",
       "conditions": [],
       "then": "",
       "else": null,
@@ -7072,39 +5823,15 @@
     "title": "Figure 26.5-1B. Basic wind speeds for Risk Category II buildings and other structures.",
     "description": "",
     "data": {
-      "rule": "Figure 26.5-1B. Basic wind speeds for Risk Category II buildings and other structures.",
+      "rule": "Figure 26.5-1B. Basic wind speeds for Risk Category II buildings and other structures. Notes",
       "conditions": [],
       "then": "",
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.5.1-T21",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.5.1",
-      "citation": "Section 26.5.1",
-      "page": 8
-    },
-    "title": "Notes",
-    "description": "",
-    "data": {
-      "rule": "Notes",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.5-F26-5-1B1"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -7228,65 +5955,15 @@
     "title": "Figure 26.5-1B ( Continued ). Basic wind speeds for Risk Category II buildings and other structures.",
     "description": "",
     "data": {
-      "rule": "Figure 26.5-1B ( Continued ). Basic wind speeds for Risk Category II buildings and other structures.",
+      "rule": "Figure 26.5-1B ( Continued ). Basic wind speeds for Risk Category II buildings and other structures. Location American Samoa",
       "conditions": [],
       "then": "",
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.5.1-T24",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.5.1",
-      "citation": "Section 26.5.1",
-      "page": 9
-    },
-    "title": "Location",
-    "description": "",
-    "data": {
-      "rule": "Location",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.5.1-T25",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.5.1",
-      "citation": "Section 26.5.1",
-      "page": 9
-    },
-    "title": "American Samoa",
-    "description": "",
-    "data": {
-      "rule": "American Samoa",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.5-F26-5-1B1"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -7306,267 +5983,7 @@
     "title": "Guam & Northern Mariana Islands",
     "description": "",
     "data": {
-      "rule": "Guam & Northern Mariana Islands",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.5.1-T27",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.5.1",
-      "citation": "Section 26.5.1",
-      "page": 9
-    },
-    "title": "Hawaii",
-    "description": "",
-    "data": {
-      "rule": "Hawaii",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.5.1-T28",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.5.1",
-      "citation": "Section 26.5.1",
-      "page": 9
-    },
-    "title": "Puerto Rico",
-    "description": "",
-    "data": {
-      "rule": "Puerto Rico",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.5.1-T29",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.5.1",
-      "citation": "Section 26.5.1",
-      "page": 9
-    },
-    "title": "U.S. Virgin Islands",
-    "description": "",
-    "data": {
-      "rule": "U.S. Virgin Islands",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.5.1-T30",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.5.1",
-      "citation": "Section 26.5.1",
-      "page": 9
-    },
-    "title": "(72)",
-    "description": "",
-    "data": {
-      "rule": "(72)",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.5.1-T31",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.5.1",
-      "citation": "Section 26.5.1",
-      "page": 9
-    },
-    "title": "(87)",
-    "description": "",
-    "data": {
-      "rule": "(87)",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.5.1-T32",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.5.1",
-      "citation": "Section 26.5.1",
-      "page": 9
-    },
-    "title": "ASCE Wind Design Geodatabase",
-    "description": "",
-    "data": {
-      "rule": "ASCE Wind Design Geodatabase",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.5.1-T33",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.5.1",
-      "citation": "Section 26.5.1",
-      "page": 9
-    },
-    "title": "ASCE Wind Design Geodatabase",
-    "description": "",
-    "data": {
-      "rule": "ASCE Wind Design Geodatabase",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.5.1-T34",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.5.1",
-      "citation": "Section 26.5.1",
-      "page": 9
-    },
-    "title": "ASCE Wind Design Geodatabase",
-    "description": "",
-    "data": {
-      "rule": "ASCE Wind Design Geodatabase",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.5.1-T35",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.5.1",
-      "citation": "Section 26.5.1",
-      "page": 9
-    },
-    "title": "V (mi/h)",
-    "description": "",
-    "data": {
-      "rule": "V (mi/h)",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.5.1-T36",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.5.1",
-      "citation": "Section 26.5.1",
-      "page": 9
-    },
-    "title": "V (m/s)",
-    "description": "",
-    "data": {
-      "rule": "V (m/s)",
+      "rule": "Guam & Northern Mariana Islands Hawaii Puerto Rico U.S. Virgin Islands (72) (87) ASCE Wind Design Geodatabase ASCE Wind Design Geodatabase ASCE Wind Design Geodatabase V (mi/h) V (m/s)",
       "conditions": [],
       "then": "",
       "else": null,
@@ -7722,39 +6139,15 @@
     "title": "Figure 26.5-1C. Basic wind speeds for Risk Category III buildings and other structures.",
     "description": "",
     "data": {
-      "rule": "Figure 26.5-1C. Basic wind speeds for Risk Category III buildings and other structures.",
+      "rule": "Figure 26.5-1C. Basic wind speeds for Risk Category III buildings and other structures. Notes",
       "conditions": [],
       "then": "",
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.5.1-T40",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.5.1",
-      "citation": "Section 26.5.1",
-      "page": 10
-    },
-    "title": "Notes",
-    "description": "",
-    "data": {
-      "rule": "Notes",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.5-F26-5-1C1"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -7878,65 +6271,15 @@
     "title": "Figure 26.5-1C ( Continued ). Basic wind speeds for Risk Category III buildings and other structures.",
     "description": "",
     "data": {
-      "rule": "Figure 26.5-1C ( Continued ). Basic wind speeds for Risk Category III buildings and other structures.",
+      "rule": "Figure 26.5-1C ( Continued ). Basic wind speeds for Risk Category III buildings and other structures. Location American Samoa",
       "conditions": [],
       "then": "",
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.5.1-T43",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.5.1",
-      "citation": "Section 26.5.1",
-      "page": 11
-    },
-    "title": "Location",
-    "description": "",
-    "data": {
-      "rule": "Location",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.5.1-T44",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.5.1",
-      "citation": "Section 26.5.1",
-      "page": 11
-    },
-    "title": "American Samoa",
-    "description": "",
-    "data": {
-      "rule": "American Samoa",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.5-F26-5-1C1"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -7956,267 +6299,7 @@
     "title": "Guam & Northern Mariana Islands",
     "description": "",
     "data": {
-      "rule": "Guam & Northern Mariana Islands",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.5.1-T46",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.5.1",
-      "citation": "Section 26.5.1",
-      "page": 11
-    },
-    "title": "Hawaii",
-    "description": "",
-    "data": {
-      "rule": "Hawaii",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.5.1-T47",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.5.1",
-      "citation": "Section 26.5.1",
-      "page": 11
-    },
-    "title": "Puerto Rico",
-    "description": "",
-    "data": {
-      "rule": "Puerto Rico",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.5.1-T48",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.5.1",
-      "citation": "Section 26.5.1",
-      "page": 11
-    },
-    "title": "U.S. Virgin Islands",
-    "description": "",
-    "data": {
-      "rule": "U.S. Virgin Islands",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.5.1-T49",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.5.1",
-      "citation": "Section 26.5.1",
-      "page": 11
-    },
-    "title": "(76)",
-    "description": "",
-    "data": {
-      "rule": "(76)",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.5.1-T50",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.5.1",
-      "citation": "Section 26.5.1",
-      "page": 11
-    },
-    "title": "(94)",
-    "description": "",
-    "data": {
-      "rule": "(94)",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.5.1-T51",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.5.1",
-      "citation": "Section 26.5.1",
-      "page": 11
-    },
-    "title": "ASCE Wind Design Geodatabase",
-    "description": "",
-    "data": {
-      "rule": "ASCE Wind Design Geodatabase",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.5.1-T52",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.5.1",
-      "citation": "Section 26.5.1",
-      "page": 11
-    },
-    "title": "ASCE Wind Design Geodatabase",
-    "description": "",
-    "data": {
-      "rule": "ASCE Wind Design Geodatabase",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.5.1-T53",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.5.1",
-      "citation": "Section 26.5.1",
-      "page": 11
-    },
-    "title": "ASCE Wind Design Geodatabase",
-    "description": "",
-    "data": {
-      "rule": "ASCE Wind Design Geodatabase",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.5.1-T54",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.5.1",
-      "citation": "Section 26.5.1",
-      "page": 11
-    },
-    "title": "V (mi/h)",
-    "description": "",
-    "data": {
-      "rule": "V (mi/h)",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.5.1-T55",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.5.1",
-      "citation": "Section 26.5.1",
-      "page": 11
-    },
-    "title": "V (m/s)",
-    "description": "",
-    "data": {
-      "rule": "V (m/s)",
+      "rule": "Guam & Northern Mariana Islands Hawaii Puerto Rico U.S. Virgin Islands (76) (94) ASCE Wind Design Geodatabase ASCE Wind Design Geodatabase ASCE Wind Design Geodatabase V (mi/h) V (m/s)",
       "conditions": [],
       "then": "",
       "else": null,
@@ -8346,39 +6429,15 @@
     "title": "Figure 26.5-1D. Basic wind speeds for Risk Category IV buildings and other structures.",
     "description": "",
     "data": {
-      "rule": "Figure 26.5-1D. Basic wind speeds for Risk Category IV buildings and other structures.",
+      "rule": "Figure 26.5-1D. Basic wind speeds for Risk Category IV buildings and other structures. Notes",
       "conditions": [],
       "then": "",
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.5.1-T59",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.5.1",
-      "citation": "Section 26.5.1",
-      "page": 12
-    },
-    "title": "Notes",
-    "description": "",
-    "data": {
-      "rule": "Notes",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.5-F26-5-1D1"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -8502,65 +6561,15 @@
     "title": "Figure 26.5-1D ( Continued ). Basic wind speeds for Risk Category IV buildings and other structures.",
     "description": "",
     "data": {
-      "rule": "Figure 26.5-1D ( Continued ). Basic wind speeds for Risk Category IV buildings and other structures.",
+      "rule": "Figure 26.5-1D ( Continued ). Basic wind speeds for Risk Category IV buildings and other structures. Location American Samoa",
       "conditions": [],
       "then": "",
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.5.1-T62",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.5.1",
-      "citation": "Section 26.5.1",
-      "page": 13
-    },
-    "title": "Location",
-    "description": "",
-    "data": {
-      "rule": "Location",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.5.1-T63",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.5.1",
-      "citation": "Section 26.5.1",
-      "page": 13
-    },
-    "title": "American Samoa",
-    "description": "",
-    "data": {
-      "rule": "American Samoa",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.5-F26-5-1D1"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -8580,267 +6589,7 @@
     "title": "Guam & Northern Mariana Islands",
     "description": "",
     "data": {
-      "rule": "Guam & Northern Mariana Islands",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.5.1-T65",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.5.1",
-      "citation": "Section 26.5.1",
-      "page": 13
-    },
-    "title": "Hawaii",
-    "description": "",
-    "data": {
-      "rule": "Hawaii",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.5.1-T66",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.5.1",
-      "citation": "Section 26.5.1",
-      "page": 13
-    },
-    "title": "Puerto Rico",
-    "description": "",
-    "data": {
-      "rule": "Puerto Rico",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.5.1-T67",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.5.1",
-      "citation": "Section 26.5.1",
-      "page": 13
-    },
-    "title": "U.S. Virgin Islands",
-    "description": "",
-    "data": {
-      "rule": "U.S. Virgin Islands",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.5.1-T68",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.5.1",
-      "citation": "Section 26.5.1",
-      "page": 13
-    },
-    "title": "(80)",
-    "description": "",
-    "data": {
-      "rule": "(80)",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.5.1-T69",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.5.1",
-      "citation": "Section 26.5.1",
-      "page": 13
-    },
-    "title": "(98)",
-    "description": "",
-    "data": {
-      "rule": "(98)",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.5.1-T70",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.5.1",
-      "citation": "Section 26.5.1",
-      "page": 13
-    },
-    "title": "ASCE Wind Design Geodatabase",
-    "description": "",
-    "data": {
-      "rule": "ASCE Wind Design Geodatabase",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.5.1-T71",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.5.1",
-      "citation": "Section 26.5.1",
-      "page": 13
-    },
-    "title": "ASCE Wind Design Geodatabase",
-    "description": "",
-    "data": {
-      "rule": "ASCE Wind Design Geodatabase",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.5.1-T72",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.5.1",
-      "citation": "Section 26.5.1",
-      "page": 13
-    },
-    "title": "ASCE Wind Design Geodatabase",
-    "description": "",
-    "data": {
-      "rule": "ASCE Wind Design Geodatabase",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.5.1-T73",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.5.1",
-      "citation": "Section 26.5.1",
-      "page": 13
-    },
-    "title": "V (mi/h)",
-    "description": "",
-    "data": {
-      "rule": "V (mi/h)",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.5.1-T74",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.5.1",
-      "citation": "Section 26.5.1",
-      "page": 13
-    },
-    "title": "V (m/s)",
-    "description": "",
-    "data": {
-      "rule": "V (m/s)",
+      "rule": "Guam & Northern Mariana Islands Hawaii Puerto Rico U.S. Virgin Islands (80) (98) ASCE Wind Design Geodatabase ASCE Wind Design Geodatabase ASCE Wind Design Geodatabase V (mi/h) V (m/s)",
       "conditions": [],
       "then": "",
       "else": null,
@@ -9028,7 +6777,9 @@
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.5-F26-5-11"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -9054,7 +6805,10 @@
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.5-F26-5-11",
+      "ASCE7-22-26.5.3-P1"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -9101,12 +6855,21 @@
     "description": "",
     "data": {
       "rule": "26.5.3 Estimation of Basic Wind Speeds from Regional Climatic Data In areas outside hurricane-prone regions, regional climatic data shall only be used in lieu of the basic wind speeds given in Figure 26.5-1 when (1) approved extremevalue statistical analysis procedures have been used in reducing the data, and (2) the length of record, sampling error, averaging time, anemometer height, data quality, and terrain exposure of the anemometer have been taken into account. Reduction in basic wind speed below that of Figure 26.5-1 shall be permitted.",
-      "conditions": [],
+      "conditions": [
+        {
+          "parameter": "location",
+          "operator": "in",
+          "value": "hurricane-prone regions",
+          "unit": null
+        }
+      ],
       "then": "",
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.5-F26-5-11"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -9127,12 +6890,21 @@
     "description": "",
     "data": {
       "rule": "In hurricane-prone regions, wind speeds derived from simulation techniques shall only be used in lieu of the basic wind speeds given in Figure 26.5-1 when approved simulation and extremevalue statistical analysis procedures are used. The use of regional wind-speed data obtained from anemometers is not permitted to de fi ne the hurricane wind-speed risk along the Gulf and Atlantic coasts, the Caribbean, or Hawaii.",
-      "conditions": [],
+      "conditions": [
+        {
+          "parameter": "location",
+          "operator": "in",
+          "value": "hurricane-prone regions",
+          "unit": null
+        }
+      ],
       "then": "",
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.5-F26-5-11"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -9153,7 +6925,14 @@
     "description": "",
     "data": {
       "rule": "When the basic wind speed is estimated from regional climatic data or simulation, the estimate shall correspond to the applicable mean recurrence interval, and the estimate shall be adjusted for equivalence to a 3 s gust wind speed at 33 ft (10 m) above ground in Exposure C.",
-      "conditions": [],
+      "conditions": [
+        {
+          "parameter": "exposure_category",
+          "operator": "==",
+          "value": "C",
+          "unit": null
+        }
+      ],
       "then": "",
       "else": null,
       "exceptions": []
@@ -9210,7 +6989,10 @@
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.5.3-P1",
+      "ASCE7-22-26.6-T26-6-11"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -9314,7 +7096,9 @@
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.6-T26-6-11"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -9335,7 +7119,14 @@
     "description": "",
     "data": {
       "rule": "*Directionality factor Kd = 0.95 shall be permitted for round or octagonal structures with nonaxisymmetric structural systems.",
-      "conditions": [],
+      "conditions": [
+        {
+          "parameter": "Kd",
+          "operator": "==",
+          "value": 0.95,
+          "unit": null
+        }
+      ],
       "then": "",
       "else": null,
       "exceptions": []
@@ -9392,7 +7183,9 @@
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.7.3-H1"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -9557,7 +7350,20 @@
     "description": "",
     "data": {
       "rule": "Exposure D. Exposure D shall apply where the ground surface roughness, as de fi ned by Surface Roughness D, prevails in the upwind direction for a distance greater than 5,000 ft (1,524 m) or 20 times the building or structure height, whichever is greater. Exposure D shall also apply where the ground surface roughness immediately upwind of the site is B or C, and the building or structure is within a distance of 600 ft (183 m) or 20 times the building or structure height, whichever is greater, from an Exposure D condition as de fi ned in the previous sentence.",
-      "conditions": [],
+      "conditions": [
+        {
+          "parameter": "",
+          "operator": ">",
+          "value": 5.0,
+          "unit": null
+        },
+        {
+          "parameter": "exposure_category",
+          "operator": "==",
+          "value": "D",
+          "unit": null
+        }
+      ],
       "then": "",
       "else": null,
       "exceptions": []
@@ -9666,7 +7472,9 @@
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.7.3-H1"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -9816,39 +7624,15 @@
     "title": "The building or other structure is located as shown in Figure 26.8-1 in the upper one-half of a hill or ridge or near the crest of an escarpment.",
     "description": "",
     "data": {
-      "rule": "The building or other structure is located as shown in Figure 26.8-1 in the upper one-half of a hill or ridge or near the crest of an escarpment.",
+      "rule": "The building or other structure is located as shown in Figure 26.8-1 in the upper one-half of a hill or ridge or near the crest of an escarpment. H \u2215 Lh \u2265 0.2.",
       "conditions": [],
       "then": "",
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.8.1-T2",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.8.1",
-      "citation": "Section 26.8.1",
-      "page": 15
-    },
-    "title": "H \u2215 Lh \u2265 0.2.",
-    "description": "",
-    "data": {
-      "rule": "H \u2215 Lh \u2265 0.2.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.8-F26-8-11"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -9918,12 +7702,33 @@
     "description": "",
     "data": {
       "rule": "where K 1 , K 2 , and K 3 are given in Figure 26.8-1. The values for K 2 and K 3 shall not be less than 0. The equations for K 1 , K 2 , and K 3 may be used instead of using the tabular values when increased accuracy in determining Kzt is required. For H / Lh > 0.5, assume that H / Lh = 0.5 for evaluating K 1 and substitute 2 H for Lh for evaluating K 2 and K 3 .",
-      "conditions": [],
+      "conditions": [
+        {
+          "parameter": "Lh",
+          "operator": ">",
+          "value": 0.5,
+          "unit": null
+        },
+        {
+          "parameter": "Lh",
+          "operator": "==",
+          "value": 0.5,
+          "unit": null
+        },
+        {
+          "parameter": "",
+          "operator": "<",
+          "value": 0.0,
+          "unit": null
+        }
+      ],
       "then": "",
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.8-F26-8-11"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -9949,7 +7754,9 @@
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.8.1-H1"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -9996,12 +7803,21 @@
     "description": "",
     "data": {
       "rule": "The ground elevation factor to adjust for air density, Ke , shall be determined in accordance with Table 26.9-1. It is permitted to take Ke = 1 for all elevations.",
-      "conditions": [],
+      "conditions": [
+        {
+          "parameter": "Ke",
+          "operator": "==",
+          "value": 1.0,
+          "unit": null
+        }
+      ],
       "then": "",
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.9-T26-9-11"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -10021,39 +7837,15 @@
     "title": "Table 26.9-1. Ground Elevation Factor, Ke .",
     "description": "",
     "data": {
-      "rule": "Table 26.9-1. Ground Elevation Factor, Ke .",
+      "rule": "Table 26.9-1. Ground Elevation Factor, Ke . Notes:",
       "conditions": [],
       "then": "",
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.9-T2",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.9",
-      "citation": "Section 26.9",
-      "page": 15
-    },
-    "title": "Notes:",
-    "description": "",
-    "data": {
-      "rule": "Notes:",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.9-T26-9-11"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -10074,7 +7866,14 @@
     "description": "",
     "data": {
       "rule": "Conservative approximation Ke = 1.00 is permitted in all cases.",
-      "conditions": [],
+      "conditions": [
+        {
+          "parameter": "Ke",
+          "operator": "==",
+          "value": 1.0,
+          "unit": null
+        }
+      ],
       "then": "",
       "else": null,
       "exceptions": []
@@ -10105,7 +7904,9 @@
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.9-T26-9-11"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -10183,7 +7984,10 @@
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.10-T26-10-11",
+      "ASCE7-22-26.7.3-H1"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -10203,163 +8007,7 @@
     "title": "26.10.2 Velocity Pressure Velocity pressure, qz , evaluated at height z above ground shall be calculated by the following equation:",
     "description": "",
     "data": {
-      "rule": "26.10.2 Velocity Pressure Velocity pressure, qz , evaluated at height z above ground shall be calculated by the following equation:",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.10.2-T1",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.10.2",
-      "citation": "Section 26.10.2",
-      "page": 16
-    },
-    "title": "V(2)",
-    "description": "",
-    "data": {
-      "rule": "V(2)",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.10.2-T2",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.10.2",
-      "citation": "Section 26.10.2",
-      "page": 16
-    },
-    "title": "\u2014aa.ln.",
-    "description": "",
-    "data": {
-      "rule": "\u2014aa.ln.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.10.2-T3",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.10.2",
-      "citation": "Section 26.10.2",
-      "page": 16
-    },
-    "title": "Ve)",
-    "description": "",
-    "data": {
-      "rule": "Ve)",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.10.2-T4",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.10.2",
-      "citation": "Section 26.10.2",
-      "page": 16
-    },
-    "title": "\u00b7 Speed-up",
-    "description": "",
-    "data": {
-      "rule": "\u00b7 Speed-up",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.10.2-T5",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.10.2",
-      "citation": "Section 26.10.2",
-      "page": 16
-    },
-    "title": "X(Upwind)",
-    "description": "",
-    "data": {
-      "rule": "X(Upwind)",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.10.2-T6",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.10.2",
-      "citation": "Section 26.10.2",
-      "page": 16
-    },
-    "title": "x (Dovanind)",
-    "description": "",
-    "data": {
-      "rule": "x (Dovanind)",
+      "rule": "26.10.2 Velocity Pressure Velocity pressure, qz , evaluated at height z above ground shall be calculated by the following equation: V(2) \u2014aa.ln. Ve) \u00b7 Speed-up X(Upwind) x (Dovanind)",
       "conditions": [],
       "then": "",
       "else": null,
@@ -10385,163 +8033,7 @@
     "title": "Diagrams",
     "description": "",
     "data": {
-      "rule": "Diagrams",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.10.2-T7",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.10.2",
-      "citation": "Section 26.10.2",
-      "page": 16
-    },
-    "title": "ESCARPMENT",
-    "description": "",
-    "data": {
-      "rule": "ESCARPMENT",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.10.2-T8",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.10.2",
-      "citation": "Section 26.10.2",
-      "page": 16
-    },
-    "title": "a.b.c.d",
-    "description": "",
-    "data": {
-      "rule": "a.b.c.d",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.10.2-T9",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.10.2",
-      "citation": "Section 26.10.2",
-      "page": 16
-    },
-    "title": "Speed-up",
-    "description": "",
-    "data": {
-      "rule": "Speed-up",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.10.2-T10",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.10.2",
-      "citation": "Section 26.10.2",
-      "page": 16
-    },
-    "title": "(Downwind)",
-    "description": "",
-    "data": {
-      "rule": "(Downwind)",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.10.2-T11",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.10.2",
-      "citation": "Section 26.10.2",
-      "page": 16
-    },
-    "title": "H/2",
-    "description": "",
-    "data": {
-      "rule": "H/2",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.10.2-T12",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.10.2",
-      "citation": "Section 26.10.2",
-      "page": 16
-    },
-    "title": "12.,",
-    "description": "",
-    "data": {
-      "rule": "12.,",
+      "rule": "Diagrams ESCARPMENT a.b.c.d Speed-up (Downwind) H/2 12.,",
       "conditions": [],
       "then": "",
       "else": null,
@@ -10983,59 +8475,7 @@
     "title": "1 K = Determined from table above",
     "description": "",
     "data": {
-      "rule": "1 K = Determined from table above",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.10.2-T25",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.10.2",
-      "citation": "Section 26.10.2",
-      "page": 16
-    },
-    "title": "Kzt = (1 +K 1 K 2 K 3 ) 2",
-    "description": "",
-    "data": {
-      "rule": "Kzt = (1 +K 1 K 2 K 3 ) 2",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.10.2-T26",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.10.2",
-      "citation": "Section 26.10.2",
-      "page": 16
-    },
-    "title": "2 (1 | | / ) h K x L \u00b5 = -",
-    "description": "",
-    "data": {
-      "rule": "2 (1 | | / ) h K x L \u00b5 = -",
+      "rule": "1 K = Determined from table above Kzt = (1 +K 1 K 2 K 3 ) 2 2 (1 | | / ) h K x L \u00b5 = -",
       "conditions": [],
       "then": "",
       "else": null,
@@ -11087,91 +8527,15 @@
     "title": "Figure 26.8-1. Topographic factor, Kzt .",
     "description": "",
     "data": {
-      "rule": "Figure 26.8-1. Topographic factor, Kzt .",
+      "rule": "Figure 26.8-1. Topographic factor, Kzt . V(a) X(Upwind) where",
       "conditions": [],
       "then": "",
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.10.2-T28",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.10.2",
-      "citation": "Section 26.10.2",
-      "page": 16
-    },
-    "title": "V(a)",
-    "description": "",
-    "data": {
-      "rule": "V(a)",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.10.2-T29",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.10.2",
-      "citation": "Section 26.10.2",
-      "page": 16
-    },
-    "title": "X(Upwind)",
-    "description": "",
-    "data": {
-      "rule": "X(Upwind)",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.10.2-T30",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.10.2",
-      "citation": "Section 26.10.2",
-      "page": 17
-    },
-    "title": "where",
-    "description": "",
-    "data": {
-      "rule": "where",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.8-F26-8-11"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -11197,7 +8561,9 @@
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.10.1-H1"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -11223,7 +8589,9 @@
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.8.2-D1"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -11249,7 +8617,9 @@
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.9-H1"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -11275,7 +8645,9 @@
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.5-H1"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -11483,7 +8855,9 @@
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.2-H1"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -11509,7 +8883,9 @@
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.11.3-H1"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -11665,7 +9041,9 @@
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.10-T26-10-11"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -11711,59 +9089,7 @@
     "title": "Velocity pressure exposure coef fi cient Kz may be determined from the following formula:",
     "description": "",
     "data": {
-      "rule": "Velocity pressure exposure coef fi cient Kz may be determined from the following formula:",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.11.3-T4",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.11.3",
-      "citation": "Section 26.11.3",
-      "page": 17
-    },
-    "title": "For",
-    "description": "",
-    "data": {
-      "rule": "For",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.11.3-T5",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.11.3",
-      "citation": "Section 26.11.3",
-      "page": 17
-    },
-    "title": "15 ft",
-    "description": "",
-    "data": {
-      "rule": "15 ft",
+      "rule": "Velocity pressure exposure coef fi cient Kz may be determined from the following formula: For 15 ft",
       "conditions": [],
       "then": "",
       "else": null,
@@ -11789,33 +9115,7 @@
     "title": "Kz = 2 . 41 \u00f0 15 \u2215 z g \u00de 2 \u2215 \u03b1",
     "description": "",
     "data": {
-      "rule": "Kz = 2 . 41 \u00f0 15 \u2215 z g \u00de 2 \u2215 \u03b1",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.11.3-T7",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.11.3",
-      "citation": "Section 26.11.3",
-      "page": 17
-    },
-    "title": "For z < 4.6 m",
-    "description": "",
-    "data": {
-      "rule": "For z < 4.6 m",
+      "rule": "Kz = 2 . 41 \u00f0 15 \u2215 z g \u00de 2 \u2215 \u03b1 For z < 4.6 m",
       "conditions": [],
       "then": "",
       "else": null,
@@ -11841,137 +9141,7 @@
     "title": "Kz = 2 . 41 \u00f0 4 . 6 \u2215 z g \u00de 2 \u2215 \u03b1",
     "description": "",
     "data": {
-      "rule": "Kz = 2 . 41 \u00f0 4 . 6 \u2215 z g \u00de 2 \u2215 \u03b1",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.11.3-T9",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.11.3",
-      "citation": "Section 26.11.3",
-      "page": 17
-    },
-    "title": "For 15 ft (4.6 m) \u2264 z \u2264 zg",
-    "description": "",
-    "data": {
-      "rule": "For 15 ft (4.6 m) \u2264 z \u2264 zg",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.11.3-T10",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.11.3",
-      "citation": "Section 26.11.3",
-      "page": 17
-    },
-    "title": "Kz = 2 . 41 \u00f0 z \u2215 z g \u00de 2 \u2215 \u03b1",
-    "description": "",
-    "data": {
-      "rule": "Kz = 2 . 41 \u00f0 z \u2215 z g \u00de 2 \u2215 \u03b1",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.11.3-T11",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.11.3",
-      "citation": "Section 26.11.3",
-      "page": 17
-    },
-    "title": "For zg < z \u2264 3,280 ft",
-    "description": "",
-    "data": {
-      "rule": "For zg < z \u2264 3,280 ft",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.11.3-T12",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.11.3",
-      "citation": "Section 26.11.3",
-      "page": 17
-    },
-    "title": "(1,000 m)",
-    "description": "",
-    "data": {
-      "rule": "(1,000 m)",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.11.3-T13",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.11.3",
-      "citation": "Section 26.11.3",
-      "page": 17
-    },
-    "title": "Kz = 2 . 41",
-    "description": "",
-    "data": {
-      "rule": "Kz = 2 . 41",
+      "rule": "Kz = 2 . 41 \u00f0 4 . 6 \u2215 z g \u00de 2 \u2215 \u03b1 For 15 ft (4.6 m) \u2264 z \u2264 zg Kz = 2 . 41 \u00f0 z \u2215 z g \u00de 2 \u2215 \u03b1 For zg < z \u2264 3,280 ft (1,000 m) Kz = 2 . 41",
       "conditions": [],
       "then": "",
       "else": null,
@@ -12003,7 +9173,9 @@
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.11-T26-11-12"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -12055,7 +9227,9 @@
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.7-H1"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -12081,7 +9255,9 @@
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.11.2.1-H1"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -12179,59 +9355,7 @@
     "title": "For concrete or masonry shear wall buildings, it is also permitted to use",
     "description": "",
     "data": {
-      "rule": "For concrete or masonry shear wall buildings, it is also permitted to use",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.11.3-T21",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.11.3",
-      "citation": "Section 26.11.3",
-      "page": 18
-    },
-    "title": "where where",
-    "description": "",
-    "data": {
-      "rule": "where where",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.11.3-T22",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.11.3",
-      "citation": "Section 26.11.3",
-      "page": 18
-    },
-    "title": "h = Mean roof height, ft (m);",
-    "description": "",
-    "data": {
-      "rule": "h = Mean roof height, ft (m);",
+      "rule": "For concrete or masonry shear wall buildings, it is also permitted to use where where h = Mean roof height, ft (m);",
       "conditions": [],
       "then": "",
       "else": null,
@@ -12362,12 +9486,21 @@
     "description": "",
     "data": {
       "rule": "26.11.4 Rigid Buildings or Other Structures For rigid buildings or other structures as de fi ned in Section 26.2, the gust-effect factor shall be taken as 0.85 or calculated by this formula:",
-      "conditions": [],
+      "conditions": [
+        {
+          "parameter": "flexibility",
+          "operator": "==",
+          "value": "rigid",
+          "unit": null
+        }
+      ],
       "then": "",
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.2-H1"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -12393,7 +9526,9 @@
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.11-T26-11-12"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -12445,7 +9580,9 @@
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.11-T26-11-12"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -12471,7 +9608,9 @@
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.3-H1"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -12497,7 +9636,9 @@
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.11-T26-11-12"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -12523,7 +9664,9 @@
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.2-H1"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -12575,7 +9718,9 @@
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.11.4-P1"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -12757,7 +9902,10 @@
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.11-T26-11-12",
+      "ASCE7-22-26.11.4-P1"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -12861,7 +10009,9 @@
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.2-H1"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -12908,7 +10058,20 @@
     "description": "",
     "data": {
       "rule": "26.12.3 Protection of Glazed Openings Glazed openings in Risk Category II, III, or IV buildings located in hurricane-prone regions shall be protected as speci fi ed in this section.",
-      "conditions": [],
+      "conditions": [
+        {
+          "parameter": "risk_category",
+          "operator": "==",
+          "value": "II",
+          "unit": null
+        },
+        {
+          "parameter": "location",
+          "operator": "in",
+          "value": "hurricane-prone regions",
+          "unit": null
+        }
+      ],
       "then": "",
       "else": null,
       "exceptions": []
@@ -12939,7 +10102,9 @@
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.12.3.2-H1"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -13012,12 +10177,41 @@
     "description": "",
     "data": {
       "rule": "For Risk Category II buildings and other structures and Risk Category III buildings and other structures, except health care facilities, the wind-borne debris region shall be based on Figure 26.5-1B. For Risk Category III health care facilities, the wind-borne debris region shall be based on Figure 26.5-1C. For Risk Category IV buildings and structures, the wind-borne debris region shall be based on Figure 26.5-1D. Risk categories shall be determined in accordance with Section 1.5.",
-      "conditions": [],
+      "conditions": [
+        {
+          "parameter": "risk_category",
+          "operator": "==",
+          "value": "II",
+          "unit": null
+        },
+        {
+          "parameter": "risk_category",
+          "operator": "==",
+          "value": "III",
+          "unit": null
+        },
+        {
+          "parameter": "risk_category",
+          "operator": "==",
+          "value": "IV",
+          "unit": null
+        },
+        {
+          "parameter": "location",
+          "operator": "in",
+          "value": "wind-borne debris regions",
+          "unit": null
+        }
+      ],
       "then": "",
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.5-F26-5-1B1",
+      "ASCE7-22-26.5-F26-5-1C1",
+      "ASCE7-22-26.5-F26-5-1D1"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -13116,12 +10310,21 @@
     "description": "",
     "data": {
       "rule": "Glazing and impact-protective systems in buildings and other structures classi fi ed as Risk Category IV in accordance with Section 1.5 shall comply with the ' enhanced protection ' requirements of Table 3 of ASTM E1996. Glazing and impactprotective systems in all other buildings covered by Section 26.12.3.1 shall comply with the ' basic protection ' requirements of Table 3 of ASTM E1996.",
-      "conditions": [],
+      "conditions": [
+        {
+          "parameter": "risk_category",
+          "operator": "==",
+          "value": "IV",
+          "unit": null
+        }
+      ],
       "then": "",
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.12.3.1-P1"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -13199,7 +10402,10 @@
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.12-H1",
+      "ASCE7-22-26.13-T26-13-11"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -13251,7 +10457,9 @@
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.13-T26-13-11"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -13541,32 +10749,6 @@
     }
   },
   {
-    "id": "ASCE7-22-26.14-T1",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.14",
-      "citation": "Section 26.14",
-      "page": 20
-    },
-    "title": "Cited in: Section C26.5.2.",
-    "description": "",
-    "data": {
-      "rule": "Cited in: Section C26.5.2.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
     "id": "ASCE7-22-26.14-R2",
     "type": "reference",
     "source": {
@@ -13654,32 +10836,6 @@
     "description": "",
     "data": {
       "target": "ASTM E330, Standard Test Method for Structural Performance of Exterior Windows, Doors, Skylights, and Curtain Walls by Uniform Static Air Pressure Difference , ASTM International, 2014."
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.14-T4",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.14",
-      "citation": "Section 26.14",
-      "page": 20
-    },
-    "title": "Cited in: Section C26.5.1.",
-    "description": "",
-    "data": {
-      "rule": "Cited in: Section C26.5.1.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
     },
     "cross_references": [],
     "metadata": {
@@ -13798,32 +10954,6 @@
     "description": "",
     "data": {
       "target": "CAN/CSA A123.21, Standard Test Method for the Dynamic Wind Uplift Resistance of Membrane-Roofing Systems , CSA Group, 2014."
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.14-T7",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.14",
-      "citation": "Section 26.14",
-      "page": 20
-    },
-    "title": "Cited in : Section C26.5.1",
-    "description": "",
-    "data": {
-      "rule": "Cited in : Section C26.5.1",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
     },
     "cross_references": [],
     "metadata": {
@@ -15151,7 +12281,11 @@
     "description": "",
     "data": {
       "expression": "c = Turbulence intensity factor in Equation (26.11-7)",
-      "parameters": {}
+      "parameters": {
+        "c": {
+          "description": "Panel chord factor for use with rooftop solar panels in Equation (29.4-5)"
+        }
+      }
     },
     "cross_references": [],
     "metadata": {
@@ -15243,7 +12377,11 @@
     "description": "",
     "data": {
       "expression": "Q = Background response factor from Equation (26.11-8)",
-      "parameters": {}
+      "parameters": {
+        "Q": {
+          "description": "Background response factor from Equation (26.11-8)"
+        }
+      }
     },
     "cross_references": [],
     "metadata": {
@@ -15388,6 +12526,260 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": "from_text"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.8-E26-8-11",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.8",
+      "citation": "Eq. (26.8-1)",
+      "page": 15
+    },
+    "title": "Equation (26.8-1)",
+    "description": "",
+    "data": {
+      "expression": "K = 1 K K K 2 (26.8-1)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "pdfplumber_scan"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.11-E26-11-11",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11",
+      "citation": "Eq. (26.11-1)",
+      "page": 17
+    },
+    "title": "Equation (26.11-1)",
+    "description": "",
+    "data": {
+      "expression": "L eff = X i= n 1 (26.11-1)",
+      "parameters": {
+        "L": {
+          "description": "Horizontal dimension of a building measured parallel to the wind direction, ft (m)"
+        },
+        "n": {
+          "description": "Lowest natural frequency for ground-mounted solar panels, Hz"
+        }
+      }
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "pdfplumber_scan"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.11-E26-11-21",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11",
+      "citation": "Eq. (26.11-2)",
+      "page": 17
+    },
+    "title": "Equation (26.11-2)",
+    "description": "",
+    "data": {
+      "expression": "i n =22.2\u2215h0.8 (26.11-2)",
+      "parameters": {
+        "n": {
+          "description": "Lowest natural frequency for ground-mounted solar panels, Hz"
+        }
+      }
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "pdfplumber_scan"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.11-E26-11-31",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11",
+      "citation": "Eq. (26.11-3)",
+      "page": 17
+    },
+    "title": "Equation (26.11-3)",
+    "description": "",
+    "data": {
+      "expression": "26.11.3 Approximate Natural Frequency The approximate n a =43.5\u2215h0.9 (26.11-3)",
+      "parameters": {
+        "a": {
+          "description": "Approximate lower bound natural frequency from Section 26.11.2, Hz"
+        },
+        "n": {
+          "description": "Lowest natural frequency for ground-mounted solar panels, Hz"
+        }
+      }
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "pdfplumber_scan"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.11-E26-11-41",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11",
+      "citation": "Eq. (26.11-4)",
+      "page": 18
+    },
+    "title": "Equation (26.11-4)",
+    "description": "",
+    "data": {
+      "expression": "n a =75\u2215h (26.11-4)",
+      "parameters": {
+        "a": {
+          "description": "Approximate lower bound natural frequency from Section 26.11.2, Hz"
+        },
+        "n": {
+          "description": "Lowest natural frequency for ground-mounted solar panels, Hz"
+        }
+      }
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "pdfplumber_scan"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.11-E26-11-51",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11",
+      "citation": "Eq. (26.11-5)",
+      "page": 18
+    },
+    "title": "Equation (26.11-5)",
+    "description": "",
+    "data": {
+      "expression": "n =385 C 0.5\u2215h (26.11-5)",
+      "parameters": {
+        "n": {
+          "description": "Lowest natural frequency for ground-mounted solar panels, Hz"
+        }
+      }
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "pdfplumber_scan"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.11-E26-11-111",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11",
+      "citation": "Eq. (26.11-11)",
+      "page": 18
+    },
+    "title": "Equation (26.11-11)",
+    "description": "",
+    "data": {
+      "expression": "buildings or other structures as defined in Section 26.2, the g R = 2ln \u00f0 3,600n 1\u00de\u00fe 2 ln 3,600n (26.11-11)",
+      "parameters": {
+        "R": {
+          "description": "Resonant response factor from Equation (26.1112)"
+        },
+        "g": {
+          "description": "Nominal height of the atmospheric boundary layer used in this standard (values appear in Table 26.11-1)"
+        }
+      }
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "pdfplumber_scan"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.11-E26-11-121",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11",
+      "citation": "Eq. (26.11-12)",
+      "page": 18
+    },
+    "title": "Equation (26.11-12)",
+    "description": "",
+    "data": {
+      "expression": "33 1\u22156 R= R R R 0.53 0.47R (26.11-12)",
+      "parameters": {
+        "R": {
+          "description": "Resonant response factor from Equation (26.1112)"
+        }
+      }
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "pdfplumber_scan"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.11-E26-11-15b1",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11",
+      "citation": "Eq. (26.11-15b)",
+      "page": 19
+    },
+    "title": "Equation (26.11-15b)",
+    "description": "",
+    "data": {
+      "expression": "\u03b7 =4.6n B\u2215V (26.11-15b)",
+      "parameters": {
+        "B": {
+          "description": "Horizontal dimension of a building measured normal to wind direction, ft (m)"
+        },
+        "V": {
+          "description": "Basic wind speed obtained from Figures 26.5-1A through 26.5-1D, mi/h (m/s); the basic wind speed corresponds to a 3 s gust speed at 33 ft (10 m) above the ground in Exposure Category C"
+        }
+      }
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "pdfplumber_scan"
     }
   }
 ]

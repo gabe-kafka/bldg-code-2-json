@@ -13,7 +13,7 @@
     },
     "type": {
       "type": "string",
-      "enum": ["table", "provision", "formula", "figure", "reference", "definition"]
+      "enum": ["table", "provision", "formula", "figure", "reference", "definition", "heading", "text_block", "user_note", "exception"]
     },
     "source": {
       "type": "object",
@@ -41,7 +41,7 @@
       "description": "Optional non-authoritative summary. Exact source wording belongs in the type-specific data fields for non-figure elements."
     },
     "data": {
-      "oneOf": [
+      "anyOf": [
         { "$ref": "#/$defs/table_data" },
         { "$ref": "#/$defs/formula_data" },
         { "$ref": "#/$defs/provision_data" },

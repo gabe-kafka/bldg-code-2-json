@@ -60,6 +60,26 @@ def run_v3(pdf_path, standard="ASCE 7-22", chapter=26):
     _add_references(elements, bold_map, std_slug, standard, chapter, id_set, make_id)
     _add_equations(elements, std_slug, standard, chapter, id_set, make_id)
 
+    # Cross-references
+    print("  [+] Building cross-references...")
+    _add_cross_references(elements)
+
+    # Merge short fragments
+    print("  [+] Merging short fragments...")
+    elements = _merge_fragments(elements)
+
+    # Page-level equation scan
+    print("  [+] Page-level equation scan...")
+    _add_equations_page_level(elements, std_slug, standard, chapter, id_set, make_id)
+
+    # Parse provision conditions
+    print("  [+] Parsing provision conditions...")
+    _parse_conditions(elements)
+
+    # Extract formula parameters
+    print("  [+] Extracting formula parameters...")
+    _extract_parameters(elements)
+
     print(f"  Done: {len(elements)} elements")
     return elements, markdown
 
@@ -466,3 +486,258 @@ def _parse_table(table_cells):
             row[name] = val
         rows.append(row)
     return columns, rows
+
+
+# ═══════════════════════════════════════════════════════════════
+# BLOCKER 5: Cross-references
+# ═══════════════════════════════════════════════════════════════
+
+def _add_cross_references(elements):
+    """Scan text for Table/Figure/Section/Eq references and link to element IDs."""
+    # Build lookup indexes
+    by_citation = {}
+    by_section = {}
+    for e in elements:
+        cit = e.get("source", {}).get("citation", "")
+        sec = e.get("source", {}).get("section", "")
+        if cit:
+            by_citation[cit] = e["id"]
+        if sec and sec not in by_section:
+            by_section[sec] = e["id"]
+
+    ref_patterns = [
+        (re.compile(r'Table\s+(\d+\.\d+-\d+)'), lambda m: f"Table {m.group(1)}"),
+        (re.compile(r'Figure\s+(\d+\.\d+-\d+[A-D]?)'), lambda m: f"Figure {m.group(1)}"),
+        (re.compile(r'Section\s+(\d+\.\d+(?:\.\d+)*)'), lambda m: m.group(1)),  # match by section
+        (re.compile(r'Eq(?:uation)?\.\s*\((\d+\.\d+-\d+[a-z]?)\)'), lambda m: f"Eq. ({m.group(1)})"),
+    ]
+
+    for e in elements:
+        text = e.get("data", {}).get("rule", "") or \
+               e.get("data", {}).get("definition", "") or \
+               e.get("data", {}).get("target", "")
+        if not text:
+            continue
+
+        refs = set()
+        for pattern, key_fn in ref_patterns:
+            for m in pattern.finditer(text):
+                key = key_fn(m)
+                # Try citation lookup first, then section lookup
+                target_id = by_citation.get(key) or by_section.get(key)
+                if target_id and target_id != e["id"]:
+                    refs.add(target_id)
+
+        if refs:
+            e["cross_references"] = sorted(refs)
+
+
+# ═══════════════════════════════════════════════════════════════
+# BLOCKER 1: Merge short fragments
+# ═══════════════════════════════════════════════════════════════
+
+def _merge_fragments(elements):
+    """Merge short text fragments (<30 chars) into preceding element."""
+    merged = []
+    for i, e in enumerate(elements):
+        text = e.get("data", {}).get("rule", "")
+        if e["type"] == "text_block" and len(text) < 30 and merged:
+            # Append to previous element's text
+            prev = merged[-1]
+            prev_text = prev.get("data", {}).get("rule", "")
+            if prev_text:
+                prev["data"]["rule"] = prev_text + " " + text
+            continue
+        merged.append(e)
+    return merged
+
+
+# ═══════════════════════════════════════════════════════════════
+# BLOCKER 2: Page-level equation scan
+# ═══════════════════════════════════════════════════════════════
+
+def _add_equations_page_level(elements, std_slug, standard, chapter, id_set, make_id):
+    """Find equations by scanning raw PDF text via pdfplumber (not Docling)."""
+    import pdfplumber
+
+    existing_eqs = set()
+    for e in elements:
+        if e["type"] == "formula":
+            m = re.search(r'(\d+\.\d+-\d+[a-z]?)', e["source"].get("citation", ""))
+            if m:
+                existing_eqs.add(m.group(1))
+
+    # Get PDF path from first element
+    pdf_path = None
+    for e in elements:
+        if e.get("source", {}).get("standard"):
+            # Reconstruct — we need to find the PDF
+            from pathlib import Path
+            pdfs = list(Path("input").glob("*.pdf"))
+            if pdfs:
+                pdf_path = pdfs[0]
+            break
+
+    if not pdf_path:
+        return
+
+    new = []
+    with pdfplumber.open(str(pdf_path)) as pdf:
+        for i, page in enumerate(pdf.pages):
+            raw = page.extract_text() or ""
+            page_no = i + 1
+
+            for m in re.finditer(r'\((\d+\.\d+-\d+[a-z]?)\)', raw):
+                eq_num = m.group(1)
+                if not eq_num.startswith(f"{chapter}."):
+                    continue
+                if eq_num in existing_eqs:
+                    continue
+                existing_eqs.add(eq_num)
+
+                # Get expression context
+                before = raw[:m.start()].rstrip()
+                boundary = max(before.rfind(". "), before.rfind(";"), before.rfind("\n"), -1) + 1
+                expr_start = max(boundary, m.start() - 200)
+                expression = raw[expr_start:m.end()].strip()
+                expression = re.sub(r'\s+', ' ', expression)
+                if len(expression) < 5:
+                    continue
+
+                # Fix ligatures
+                for lig, rep in LIGATURES.items():
+                    expression = expression.replace(lig, rep)
+
+                sec = eq_num.rsplit("-", 1)[0]
+                eid = make_id(sec, f"E{eq_num.replace('.', '-')}")
+                new.append({
+                    "id": eid, "type": "formula",
+                    "source": {"standard": standard, "chapter": chapter,
+                               "section": sec, "citation": f"Eq. ({eq_num})", "page": page_no},
+                    "title": f"Equation ({eq_num})",
+                    "description": "",
+                    "data": {"expression": expression, "parameters": {}},
+                    "cross_references": [],
+                    "metadata": {"extracted_by": "auto", "qc_status": "pending", "qc_notes": "pdfplumber_scan"}
+                })
+
+    if new:
+        print(f"    Found {len(new)} additional equations from raw PDF text")
+    elements.extend(new)
+
+
+# ═══════════════════════════════════════════════════════════════
+# BLOCKER 4: Parse provision conditions
+# ═══════════════════════════════════════════════════════════════
+
+def _parse_conditions(elements):
+    """Extract structured conditions from provision rule text."""
+    condition_patterns = [
+        # "h > 60 ft" or "height greater than 60 ft"
+        (re.compile(r'\b([a-zA-Z_]+)\s*(>|>=|<|<=|=)\s*(\d+\.?\d*)\s*(ft|m|mi/h|m/s|mph|Hz|%)?'),
+         lambda m: {"parameter": m.group(1), "operator": m.group(2).replace("=", "==") if m.group(2) == "=" else m.group(2),
+                     "value": float(m.group(3)), "unit": m.group(4)}),
+        # "greater than or equal to X"
+        (re.compile(r'(?:greater than or equal to|equal to or greater than)\s+(\d+\.?\d*)\s*(ft|m|mi/h|m/s|mph)?'),
+         lambda m: {"parameter": "", "operator": ">=", "value": float(m.group(1)), "unit": m.group(2)}),
+        # "less than or equal to X"
+        (re.compile(r'(?:less than or equal to|equal to or less than)\s+(\d+\.?\d*)\s*(ft|m|mi/h|m/s|mph)?'),
+         lambda m: {"parameter": "", "operator": "<=", "value": float(m.group(1)), "unit": m.group(2)}),
+        # "greater than X"
+        (re.compile(r'greater than\s+(\d+\.?\d*)\s*(ft|m|mi/h|m/s|mph)?'),
+         lambda m: {"parameter": "", "operator": ">", "value": float(m.group(1)), "unit": m.group(2)}),
+        # "less than X"
+        (re.compile(r'less than\s+(\d+\.?\d*)\s*(ft|m|mi/h|m/s|mph)?'),
+         lambda m: {"parameter": "", "operator": "<", "value": float(m.group(1)), "unit": m.group(2)}),
+        # "Risk Category II" or "Risk Category III"
+        (re.compile(r'Risk\s+Category\s+(I{1,3}V?|IV)'),
+         lambda m: {"parameter": "risk_category", "operator": "==", "value": m.group(1), "unit": None}),
+        # "Exposure B" or "Exposure C"
+        (re.compile(r'Exposure\s+(B|C|D)\b'),
+         lambda m: {"parameter": "exposure_category", "operator": "==", "value": m.group(1), "unit": None}),
+        # "low-rise buildings"
+        (re.compile(r'low-rise\s+building'),
+         lambda m: {"parameter": "building_type", "operator": "==", "value": "low-rise", "unit": None}),
+        # "enclosed" / "partially enclosed" / "open"
+        (re.compile(r'(enclosed|partially enclosed|partially open|open)\s+building'),
+         lambda m: {"parameter": "enclosure", "operator": "==", "value": m.group(1), "unit": None}),
+        # "flexible" / "rigid"
+        (re.compile(r'(flexible|rigid)\s+(?:building|structure)'),
+         lambda m: {"parameter": "flexibility", "operator": "==", "value": m.group(1), "unit": None}),
+        # "hurricane-prone regions"
+        (re.compile(r'hurricane-prone\s+region'),
+         lambda m: {"parameter": "location", "operator": "in", "value": "hurricane-prone regions", "unit": None}),
+        # "wind-borne debris region"
+        (re.compile(r'wind-borne\s+debris\s+region'),
+         lambda m: {"parameter": "location", "operator": "in", "value": "wind-borne debris regions", "unit": None}),
+    ]
+
+    for e in elements:
+        if e["type"] not in ("provision", "exception"):
+            continue
+        text = e.get("data", {}).get("rule", "")
+        if not text:
+            continue
+
+        conditions = []
+        for pattern, builder in condition_patterns:
+            for m in pattern.finditer(text):
+                cond = builder(m)
+                if cond and cond not in conditions:
+                    conditions.append(cond)
+
+        if conditions:
+            e["data"]["conditions"] = conditions
+
+
+# ═══════════════════════════════════════════════════════════════
+# BLOCKER 3: Extract formula parameters
+# ═══════════════════════════════════════════════════════════════
+
+def _extract_parameters(elements):
+    """Extract parameter names and definitions from formula context."""
+    # Build symbols table from Section 26.3 text blocks
+    symbols = {}
+    for e in elements:
+        if e["source"]["section"] == "26.3" and e["type"] == "text_block":
+            text = e.get("data", {}).get("rule", "")
+            # Pattern: "X = description, unit"
+            for m in re.finditer(r'([A-Za-z_αβεγθηλ]+(?:_[a-zA-Z0-9]+)?)\s*=\s*([^=]+?)(?=\s+[A-Za-z_αβεγθηλ]+\s*=|\s*$)', text):
+                sym = m.group(1).strip()
+                desc = m.group(2).strip().rstrip(",")
+                if len(sym) < 5 and len(desc) > 5:
+                    symbols[sym] = desc
+
+    # Also check "where" clauses near formulas
+    for e in elements:
+        if e["type"] != "formula":
+            continue
+
+        expression = e["data"].get("expression", "")
+        params = {}
+
+        # Extract variable names from expression (single letters or subscripted)
+        var_pattern = re.compile(r'\b([A-Za-z](?:_[a-zA-Z0-9]+)?)\b')
+        expr_vars = set(var_pattern.findall(expression))
+        # Filter out common non-variables
+        expr_vars -= {"and", "or", "the", "in", "for", "ft", "mi", "lb", "SI", "where", "from"}
+
+        for var in expr_vars:
+            if var in symbols:
+                params[var] = {"description": symbols[var]}
+
+        # Check surrounding elements for "where" clauses
+        idx = elements.index(e)
+        for nearby in elements[max(0, idx-2):idx+3]:
+            if nearby is e:
+                continue
+            nearby_text = nearby.get("data", {}).get("rule", "")
+            if "where" in nearby_text.lower()[:20]:
+                for m in re.finditer(r'([A-Za-z_]+)\s*=\s*([^,;]+)', nearby_text):
+                    sym = m.group(1).strip()
+                    desc = m.group(2).strip()
+                    if sym in expr_vars and len(desc) > 3:
+                        params[sym] = {"description": desc}
+
+        if params:
+            e["data"]["parameters"] = params

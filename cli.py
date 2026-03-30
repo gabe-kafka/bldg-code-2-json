@@ -251,7 +251,7 @@ def classify(pages_dir, port, output):
 @click.option("--output", default=None, type=click.Path(), help="Output JSON path")
 def extract_cmd(pdf, standard, chapter, output):
     """Extract building code elements using hybrid pipeline (Docling + PyMuPDF)."""
-    from extract.hybrid_pipeline import run_hybrid
+    from extract.pipeline_v3 import run_v3 as run_hybrid
 
     click.echo(f"Extracting {standard} Chapter {chapter}...")
     elements, markdown = run_hybrid(pdf, standard=standard, chapter=chapter)
