@@ -25,11 +25,23 @@ from datetime import datetime, timezone
 from collections import defaultdict
 
 
+MAX_CHAPTER_PAGES = 50
+
+# Patterns that mark the end of numbered chapters (appendices, commentary, etc.)
+_SECTION_BOUNDARY_RE = re.compile(
+    r'^\s*(COMMENTARY|APPENDIX\s+[A-Z0-9]|INDEX|REFERENCES)\s*$',
+    re.MULTILINE,
+)
+
+
 def find_chapters(pdf_path):
     """Find all chapter boundaries in the full PDF."""
     doc = fitz.open(str(pdf_path))
+    total_pages = len(doc)
+
+    # Collect chapter start pages
     chapters = []
-    for i in range(len(doc)):
+    for i in range(total_pages):
         text = doc[i].get_text()[:500]
         m = re.search(r'CHAPTER\s+(\d+)\s*\n\s*([A-Z][A-Z :,\-]+)', text)
         if m:
@@ -38,16 +50,51 @@ def find_chapters(pdf_path):
                 "title": m.group(2).strip(),
                 "start_page": i,
             })
-    total_pages = len(doc)
+
+    # Collect appendix/commentary boundary pages (bold, full-page-width headers)
+    boundary_pages = []
+    for i in range(total_pages):
+        text = doc[i].get_text()[:500]
+        if _SECTION_BOUNDARY_RE.search(text):
+            boundary_pages.append(i)
+
     doc.close()
+
+    # Build a sorted list of all hard stop pages (next chapter starts + section boundaries)
+    def _earliest_stop(after_page):
+        """Return the earliest hard stop page that comes after `after_page`."""
+        candidates = [p for p in boundary_pages if p > after_page]
+        return min(candidates) if candidates else None
 
     # Set end pages
     for i in range(len(chapters)):
+        ch_start = chapters[i]["start_page"]
+
+        # Next chapter start (if any)
         if i + 1 < len(chapters):
-            chapters[i]["end_page"] = chapters[i + 1]["start_page"] - 1
+            next_ch_start = chapters[i + 1]["start_page"]
         else:
-            chapters[i]["end_page"] = total_pages - 1
-        chapters[i]["pages"] = chapters[i]["end_page"] - chapters[i]["start_page"] + 1
+            next_ch_start = total_pages  # sentinel
+
+        # Earliest section boundary after this chapter starts
+        boundary = _earliest_stop(ch_start)
+
+        # Pick the tightest upper bound
+        raw_end = min(
+            next_ch_start - 1,
+            (boundary - 1) if boundary is not None else total_pages - 1,
+        )
+
+        # Cap at MAX_CHAPTER_PAGES
+        capped_end = min(raw_end, ch_start + MAX_CHAPTER_PAGES - 1)
+        if capped_end < raw_end:
+            print(
+                f"  [WARN] Chapter {chapters[i]['chapter']} truncated from "
+                f"{raw_end - ch_start + 1} pages to {MAX_CHAPTER_PAGES} pages"
+            )
+
+        chapters[i]["end_page"] = capped_end
+        chapters[i]["pages"] = capped_end - ch_start + 1
 
     return chapters
 
