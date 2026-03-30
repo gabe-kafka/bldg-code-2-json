@@ -8,8 +8,8 @@
   "properties": {
     "id": {
       "type": "string",
-      "description": "Unique element ID: {STANDARD}-{SECTION}-{SUFFIX}, e.g. ASCE7-22-26.10-T1",
-      "pattern": "^[A-Z0-9]+-[0-9.]+-[A-Za-z0-9.]+(-[A-Za-z0-9]+)?$"
+      "description": "Unique element ID: {STANDARD}-{SECTION}-{SUFFIX}. When the source provides an official identifier, the suffix should reuse it, e.g. ASCE7-22-26.10-E26.10-1",
+      "pattern": "^[A-Z0-9]+-[0-9]+-[0-9.]+-[A-Za-z0-9.-]+$"
     },
     "type": {
       "type": "string",
@@ -21,12 +21,25 @@
       "properties": {
         "standard": { "type": "string" },
         "chapter": { "type": "integer" },
-        "section": { "type": "string" },
+        "section": {
+          "type": "string",
+          "description": "Exact printed section or subsection number when one exists, e.g. 26.2.1"
+        },
+        "citation": {
+          "type": "string",
+          "description": "Exact printed identifier for the specific item when one exists, e.g. Section 26.2.1, Eq. (26.10-1), Table 26.10-1, Figure 26.1-1"
+        },
         "page": { "type": ["integer", "null"] }
       }
     },
-    "title": { "type": "string" },
-    "description": { "type": ["string", "null"] },
+    "title": {
+      "type": "string",
+      "description": "Human-readable label. Should match an official heading or caption when one exists, but is secondary to the authoritative payload in data."
+    },
+    "description": {
+      "type": ["string", "null"],
+      "description": "Optional non-authoritative summary. Exact source wording belongs in the type-specific data fields for non-figure elements."
+    },
     "data": {
       "oneOf": [
         { "$ref": "#/$defs/table_data" },
@@ -64,6 +77,7 @@
       "properties": {
         "columns": {
           "type": "array",
+          "description": "Authoritative tabular column labels copied from the source as exactly as possible.",
           "items": {
             "type": "object",
             "required": ["name"],
@@ -75,6 +89,7 @@
         },
         "rows": {
           "type": "array",
+          "description": "Authoritative tabular row data copied from the source as exactly as possible.",
           "items": { "type": "object" }
         }
       }
@@ -83,9 +98,13 @@
       "type": "object",
       "required": ["expression", "parameters"],
       "properties": {
-        "expression": { "type": "string" },
+        "expression": {
+          "type": "string",
+          "description": "Formula or equation text copied from the source as exactly as possible."
+        },
         "parameters": {
           "type": "object",
+          "description": "Parameter names and notation should preserve the source exactly where stated.",
           "additionalProperties": {
             "type": "object",
             "properties": {
@@ -102,6 +121,7 @@
         },
         "samples": {
           "type": "object",
+          "description": "Optional derived numerical samples. These are helper data, not verbatim source text.",
           "additionalProperties": {
             "type": "array",
             "items": {
@@ -118,9 +138,13 @@
       "type": "object",
       "required": ["rule", "conditions"],
       "properties": {
-        "rule": { "type": "string" },
+        "rule": {
+          "type": "string",
+          "description": "Provision text copied from the source as exactly as possible."
+        },
         "conditions": {
           "type": "array",
+          "description": "Derived structured representation of the exact rule text. Must stay faithful to data.rule and must not replace it.",
           "items": {
             "type": "object",
             "required": ["parameter", "operator", "value"],
@@ -135,10 +159,17 @@
             }
           }
         },
-        "then": { "type": "string" },
-        "else": { "type": ["string", "null"] },
+        "then": {
+          "type": "string",
+          "description": "Derived summary of the consequence stated in the exact rule text."
+        },
+        "else": {
+          "type": ["string", "null"],
+          "description": "Derived fallback branch when the source text expresses one."
+        },
         "exceptions": {
           "type": "array",
+          "description": "Derived structured exceptions taken from the exact rule text.",
           "items": { "type": "string" }
         }
       }
@@ -153,7 +184,7 @@
         },
         "description": {
           "type": "string",
-          "description": "Natural language description of what the figure communicates"
+          "description": "Best-effort natural language description of what the figure communicates. Unlike non-figure data fields, this is descriptive rather than exact source wording."
         },
         "source_pdf_page": {
           "type": ["integer", "null"],
@@ -165,10 +196,17 @@
       "type": "object",
       "required": ["target"],
       "properties": {
-        "target": { "type": "string" },
-        "url": { "type": "string" },
+        "target": {
+          "type": "string",
+          "description": "Referenced target copied from the source citation as exactly as possible."
+        },
+        "url": {
+          "type": "string",
+          "description": "Optional helper locator. May be normalized and is not required to be verbatim citation text."
+        },
         "parameters": {
           "type": "array",
+          "description": "Optional helper metadata about the reference. May be normalized and is not required to be verbatim source wording.",
           "items": { "type": "string" }
         }
       }
@@ -177,10 +215,17 @@
       "type": "object",
       "required": ["term", "definition"],
       "properties": {
-        "term": { "type": "string" },
-        "definition": { "type": "string" },
+        "term": {
+          "type": "string",
+          "description": "Defined term copied from the source as exactly as possible."
+        },
+        "definition": {
+          "type": "string",
+          "description": "Definition text copied from the source as exactly as possible."
+        },
         "conditions": {
           "type": "array",
+          "description": "Derived structured representation of the exact term/definition text when conditional meaning is explicit.",
           "items": {
             "type": "object",
             "required": ["parameter", "operator", "value"],
@@ -197,6 +242,7 @@
         },
         "exceptions": {
           "type": "array",
+          "description": "Derived structured exceptions taken from the exact definition text when present.",
           "items": { "type": "string" }
         }
       }

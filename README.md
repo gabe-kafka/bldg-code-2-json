@@ -12,6 +12,10 @@ PDF → render pages to images → Claude reads images → structured JSON → s
 
 Single-pass vision extraction. No text parsing, no retry loops. Claude reads each page as a human would and produces structured elements.
 
+For tables, formulas, equations, provisions, definitions, and references, the target is exact preservation of the code's wording, symbols, numbers, and citations in the authoritative fields. Derived helper fields may normalize structure, and figures are the explicit exception: they are captured as descriptive summaries of what the diagram communicates.
+
+Official source identifiers should also be preserved wherever they exist. Section numbers belong in `source.section`, printed labels like `Eq. (26.10-1)` or `Table 26.10-1` belong in `source.citation`, and element `id` should reuse those identifiers when available instead of relying only on local sequence numbers.
+
 ## Quick Start
 
 ```bash
@@ -55,11 +59,11 @@ Six types based on computational role (see [ontology.md](ontology.md)):
 
 | Type | Role | Data Precision |
 |------|------|----------------|
-| `table` | Directly queryable | Exact |
-| `formula` | Directly computable | Exact |
-| `provision` | Evaluable as logic | Exact |
-| `definition` | Vocabulary reference | Exact |
-| `reference` | External pointer | Exact |
+| `table` | Directly queryable | Exact authoritative content |
+| `formula` | Directly computable | Exact equation/expression; derived samples allowed |
+| `provision` | Evaluable as logic | Exact `rule`; derived logic fields |
+| `definition` | Vocabulary reference | Exact `term` and `definition`; derived helpers allowed |
+| `reference` | External pointer | Exact `target`; normalized helper metadata allowed |
 | `figure` | Illustrative context | Best-effort description |
 
 ## Output Structure

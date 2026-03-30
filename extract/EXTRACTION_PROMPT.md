@@ -8,6 +8,16 @@ You are extracting building code content from PDF page images into structured JS
 
 Read each page image carefully. Extract every distinct piece of content as a JSON element. Do not skip anything — every provision, definition, formula, table, figure, and reference gets its own element.
 
+For all non-figure elements, preserve the building code's wording, symbols, numbers, and citations as exactly as possible. Do not paraphrase code text in authoritative fields. Figures are the exception: they should be described as figures, not reproduced precisely.
+
+Authoritative versus derived fields:
+- `table`: `data.columns` and `data.rows` are exact.
+- `formula`: `data.expression` and parameter names/units are exact; `data.samples` is derived if included.
+- `provision`: `data.rule` is exact; `data.conditions`, `data.then`, `data.else`, and `data.exceptions` are derived structure and must faithfully restate the exact rule text.
+- `definition`: `data.term` and `data.definition` are exact; any `conditions` or `exceptions` are derived structure.
+- `reference`: `data.target` is exact; `data.url` and `data.parameters` are helper metadata and may be normalized.
+- `figure`: `data.description` is descriptive, not exact code wording.
+
 ### Element Types
 
 **table** — Tabular lookup data with columns and rows. Extract every row and column exactly.
@@ -15,27 +25,27 @@ Read each page image carefully. Extract every distinct piece of content as a JSO
 {"columns": [{"name": "Height (ft)", "unit": "ft"}, {"name": "Exposure B", "unit": null}], "rows": [{"Height (ft)": 15, "Exposure B": 0.57}]}
 ```
 
-**formula** — Mathematical equation with parameters.
+**formula** — Mathematical equation with parameters. Copy the equation or expression, symbols, and parameter names exactly as shown.
 ```json
 {"expression": "qz = 0.00256 * Kz * Kzt * Kd * Ke * V^2", "parameters": {"Kz": {"unit": "dimensionless", "source": "Table 26.10-1"}}}
 ```
 
-**provision** — Rule, requirement, or conditional logic. Conditions must use valid operators: `==`, `!=`, `>`, `>=`, `<`, `<=`, `in`, `not_in`.
+**provision** — Rule, requirement, or conditional logic. Preserve `data.rule` exactly as written in the code. Conditions must use valid operators: `==`, `!=`, `>`, `>=`, `<`, `<=`, `in`, `not_in`.
 ```json
 {"rule": "Full rule text here", "conditions": [{"parameter": "h", "operator": ">", "value": 60, "unit": "ft"}], "then": "use Method X", "else": null, "exceptions": ["Exception text"]}
 ```
 
-**definition** — Term definition.
+**definition** — Term definition. Preserve both the term and the definition text exactly as written.
 ```json
 {"term": "BASIC WIND SPEED, V", "definition": "Three-second gust speed at 33 ft (10 m) above ground in Exposure C."}
 ```
 
-**reference** — Pointer to external standard or document.
+**reference** — Pointer to external standard or document. Preserve `data.target` exactly as written. `url` and `parameters` are helper metadata.
 ```json
 {"target": "ASTM E1886", "url": null, "parameters": []}
 ```
 
-**figure** — Diagram, chart, map, or illustration. Describe what it communicates — do not try to digitize it precisely.
+**figure** — Diagram, chart, map, or illustration. Describe what it communicates — do not try to digitize it precisely and do not treat the figure description as exact code wording.
 ```json
 {"figure_type": "flowchart", "description": "Outline of process for determining wind loads. Shows Chapter 26 General Requirements flowing to MWFRS (Chapters 27-29) and C&C (Chapter 30).", "source_pdf_page": 262}
 ```
@@ -46,9 +56,9 @@ Valid figure_type values: `flowchart`, `contour_map`, `geometry_diagram`, `xy_ch
 Every element must have this structure:
 ```json
 {
-  "id": "ASCE7-22-26.10-T1",
+  "id": "ASCE7-22-26.10-T26.10-1",
   "type": "table",
-  "source": {"standard": "ASCE 7-22", "chapter": 26, "section": "26.10", "page": 277},
+  "source": {"standard": "ASCE 7-22", "chapter": 26, "section": "26.10", "citation": "Table 26.10-1", "page": 277},
   "title": "Table 26.10-1: Velocity Pressure Exposure Coefficients",
   "description": "Optional plain-language summary",
   "data": { ... },
@@ -62,17 +72,20 @@ Every element must have this structure:
 `{STANDARD}-{SECTION}-{SUFFIX}`
 
 - Standard: `ASCE7-22`, `IBC-2021`, `ACI318-19` (no spaces)
-- Section: `26.10`, `26.5.1`
-- Suffix: `T1`, `T2` for tables; `E1`, `E2` for formulas; `P1`, `P2` for provisions; `D1`, `D2` for definitions; `F1` for figures; `R1` for references; `S1` for symbols
+- Section: exact printed section or subsection number, e.g. `26.10`, `26.5.1`, `26.2.1`
+- Suffix: reuse the official source identifier when one exists, e.g. `T26.10-1`, `E26.10-1`, `F26.1-1`
+- Use local sequence suffixes such as `P1`, `P2`, `D1`, `D2`, `R1`, `S1` only when the source does not provide a more specific official identifier for sibling items
 
 ### Rules
 
 1. **Be precise with numbers.** Copy values exactly from the image. Do not round or approximate.
-2. **Capture full text.** For provisions and definitions, include the complete text as written.
-3. **Use valid operators only.** Conditions must use: `==`, `!=`, `>`, `>=`, `<`, `<=`, `in`, `not_in`. Do not invent operators like `applies_to` or `requires`.
-4. **Cross-reference by element ID.** Link to other elements and sections using IDs.
-5. **Figures get descriptions, not data.** Describe what the figure communicates. Link to the computable elements (tables, formulas) that contain the precise data.
-6. **One element per distinct piece of content.** A section with 3 provisions = 3 elements.
+2. **Preserve code wording in authoritative fields.** Copy the building code text, equations, symbols, and citations as exactly as possible wherever the field is authoritative.
+3. **Derived fields must stay faithful.** `conditions`, `then`, `else`, `exceptions`, formula `samples`, and reference helper metadata may be structured or normalized, but they must not contradict or replace the exact source text.
+4. **Preserve official identifiers.** If the source gives an identifier like `Section 26.2.1`, `Eq. (26.10-1)`, `Table 26.10-1`, or `Figure 26.1-1`, capture it exactly in `source.section` or `source.citation` as appropriate and reuse it in the element `id`.
+5. **Use valid operators only.** Conditions must use: `==`, `!=`, `>`, `>=`, `<`, `<=`, `in`, `not_in`. Do not invent operators like `applies_to` or `requires`.
+6. **Cross-reference by element ID.** Link to other elements and sections using IDs.
+7. **Figures are the only loose descriptions.** Describe what the figure communicates. Link to the computable elements (tables, formulas, provisions, definitions) that contain the authoritative wording or precise data.
+8. **One element per distinct piece of content.** A section with 3 provisions = 3 elements.
 
 ### Output Format
 
