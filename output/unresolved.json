@@ -2,425 +2,5645 @@
   "standard": "ASCE 7-22",
   "unresolved": [
     {
-      "from_element": "ASCE7-22-26.1.1-P1",
-      "reference_text": "Chapter 32",
-      "target_chapter": 32,
-      "target_type": "chapter",
-      "status": "pending",
-      "reason": "Chapter 32 not yet extracted"
+      "from_element": "ASCE7-22-1.3.1-P2",
+      "reference_text": "Section 2.5",
+      "target_chapter": 2,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 2 extracted but section 2.5 not found"
     },
     {
-      "from_element": "ASCE7-22-26.1.2.1-T1",
-      "reference_text": "Chapter 27",
-      "target_chapter": 27,
-      "target_type": "chapter",
-      "status": "pending",
-      "reason": "Chapter 27 not yet extracted"
+      "from_element": "ASCE7-22-1.3.1.1-P1",
+      "reference_text": "Section 2.3",
+      "target_chapter": 2,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 2 extracted but section 2.3 not found"
     },
     {
-      "from_element": "ASCE7-22-26.1.2.1-T2",
-      "reference_text": "Chapter 28",
-      "target_chapter": 28,
-      "target_type": "chapter",
-      "status": "pending",
-      "reason": "Chapter 28 not yet extracted"
+      "from_element": "ASCE7-22-1.3.1.2-P1",
+      "reference_text": "Section 2.4",
+      "target_chapter": 2,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 2 extracted but section 2.4 not found"
     },
     {
-      "from_element": "ASCE7-22-26.1.2.1-T3",
-      "reference_text": "Chapter 29",
+      "from_element": "ASCE7-22-1.3.1.3-P1",
+      "reference_text": "Section 2.3.5",
+      "target_chapter": 2,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 2 extracted but section 2.3.5 not found"
+    },
+    {
+      "from_element": "ASCE7-22-1.3.1.3-P2",
+      "reference_text": "Section 2.5",
+      "target_chapter": 2,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 2 extracted but section 2.5 not found"
+    },
+    {
+      "from_element": "ASCE7-22-1.3.1.3.4-T3",
+      "reference_text": "Section 2.3.6",
+      "target_chapter": 2,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 2 extracted but section 2.3.6 not found"
+    },
+    {
+      "from_element": "ASCE7-22-1.3.1.3.4-T3",
+      "reference_text": "Section 2.3.2",
+      "target_chapter": 2,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 2 extracted but section 2.3.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-1.3.1.3.4-T4",
+      "reference_text": "Section 2.5",
+      "target_chapter": 2,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 2 extracted but section 2.5 not found"
+    },
+    {
+      "from_element": "ASCE7-22-1.4-P1",
+      "reference_text": "Section 2.6",
+      "target_chapter": 2,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 2 extracted but section 2.6 not found"
+    },
+    {
+      "from_element": "ASCE7-22-1.4.5-P1",
+      "reference_text": "Section 2.5",
+      "target_chapter": 2,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 2 extracted but section 2.5 not found"
+    },
+    {
+      "from_element": "ASCE7-22-1.5.3-T2",
+      "reference_text": "Section 13.1.3",
+      "target_chapter": 13,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 13 extracted but section 13.1.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-1.6.2-H1",
+      "reference_text": "Section 2.3.1",
+      "target_chapter": 2,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 2 extracted but section 2.3.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-10.5.1-H1",
+      "reference_text": "Figure 29.4-1",
       "target_chapter": 29,
-      "target_type": "chapter",
-      "status": "pending",
-      "reason": "Chapter 29 not yet extracted"
+      "target_type": "figure",
+      "status": "broken",
+      "reason": "Chapter 29 extracted but figure 29.4-1 not found"
     },
     {
-      "from_element": "ASCE7-22-26.1.2.1-T4",
-      "reference_text": "Chapter 31",
-      "target_chapter": 31,
-      "target_type": "chapter",
-      "status": "pending",
-      "reason": "Chapter 31 not yet extracted"
+      "from_element": "ASCE7-22-10.5.2-H1",
+      "reference_text": "Figure 29.3-1",
+      "target_chapter": 29,
+      "target_type": "figure",
+      "status": "broken",
+      "reason": "Chapter 29 extracted but figure 29.3-1 not found"
     },
     {
-      "from_element": "ASCE7-22-26.1.2.2-T1",
-      "reference_text": "Chapter 30",
-      "target_chapter": 30,
-      "target_type": "chapter",
-      "status": "pending",
-      "reason": "Chapter 30 not yet extracted"
+      "from_element": "ASCE7-22-10.5.3-H1",
+      "reference_text": "Figure 29.4-2",
+      "target_chapter": 29,
+      "target_type": "figure",
+      "status": "broken",
+      "reason": "Chapter 29 extracted but figure 29.4-2 not found"
     },
     {
-      "from_element": "ASCE7-22-26.1.2.2-T2",
-      "reference_text": "Chapter 31",
-      "target_chapter": 31,
-      "target_type": "chapter",
-      "status": "pending",
-      "reason": "Chapter 31 not yet extracted"
+      "from_element": "ASCE7-22-10.5.4-H1",
+      "reference_text": "Figure 29.4-3",
+      "target_chapter": 29,
+      "target_type": "figure",
+      "status": "broken",
+      "reason": "Chapter 29 extracted but figure 29.4-3 not found"
     },
     {
-      "from_element": "ASCE7-22-26.1.3-P1",
+      "from_element": "ASCE7-22-10.8-P5",
+      "reference_text": "Section 29.3",
+      "target_chapter": 29,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 29 extracted but section 29.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-10.8-P8",
+      "reference_text": "Section 2.3",
+      "target_chapter": 2,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 2 extracted but section 2.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.1.1-H3",
+      "reference_text": "Section 15.5",
+      "target_chapter": 15,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 15 extracted but section 15.5 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.1.5-H1",
+      "reference_text": "Section 13.2.2",
+      "target_chapter": 13,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 13 extracted but section 13.2.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.1.5-P1",
+      "reference_text": "Section 13.2.2",
+      "target_chapter": 13,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 13 extracted but section 13.2.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.2-T16",
+      "reference_text": "Section 12.8.6",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.8.6 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.2-T33",
+      "reference_text": "Section 12.2.5.1",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.2.5.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.2-T41",
+      "reference_text": "Section 21.5",
+      "target_chapter": 21,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 21 extracted but section 21.5 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.2-D44",
+      "reference_text": "Section 15.1.1",
+      "target_chapter": 15,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 15 extracted but section 15.1.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.2-D45",
+      "reference_text": "Table 12.2-1",
+      "target_chapter": 12,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but table 12.2-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.2-D53",
+      "reference_text": "Section 2.3",
+      "target_chapter": 2,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 2 extracted but section 2.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.2-D53",
+      "reference_text": "Section 18.10.9",
+      "target_chapter": 18,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 18 extracted but section 18.10.9 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T5",
+      "reference_text": "Section 12.8.4.3",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.8.4.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T6",
+      "reference_text": "Section 13.3.1",
+      "target_chapter": 13,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 13 extracted but section 13.3.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T9",
+      "reference_text": "Section 13.3.1.3",
+      "target_chapter": 13,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 13 extracted but section 13.3.1.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T10",
+      "reference_text": "Table 12.2-1",
+      "target_chapter": 12,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but table 12.2-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T11",
+      "reference_text": "Section 12.9.2.5",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.9.2.5 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T12",
+      "reference_text": "Section 12.9.2.5",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.9.2.5 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T13",
+      "reference_text": "Section 12.10.4",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.10.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T15",
+      "reference_text": "Section 12.10.3.2.1",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.10.3.2.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T16",
+      "reference_text": "Section 12.10.3.2.1",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.10.3.2.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T17",
+      "reference_text": "Section 12.10.3.2.1",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.10.3.2.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T18",
+      "reference_text": "Section 12.10.3.2.1",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.10.3.2.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T19",
+      "reference_text": "Section 12.8.1.1",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.8.1.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T20",
+      "reference_text": "Section 12.10.3.2.1",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.10.3.2.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T21",
+      "reference_text": "Section 12.8.2.1",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.8.2.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T23",
+      "reference_text": "Section 12.13.3",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.13.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T24",
+      "reference_text": "Section 12.8.3",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.8.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T27",
+      "reference_text": "Section 13.5.9.1",
+      "target_chapter": 13,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 13 extracted but section 13.5.9.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T28",
+      "reference_text": "Section 13.3.2",
+      "target_chapter": 13,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 13 extracted but section 13.3.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T30",
+      "reference_text": "Section 20.4.3",
+      "target_chapter": 20,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 20 extracted but section 20.4.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T31",
+      "reference_text": "Section 20.4.1",
+      "target_chapter": 20,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 20 extracted but section 20.4.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T32",
+      "reference_text": "Section 20.4.2",
+      "target_chapter": 20,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 20 extracted but section 20.4.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T33",
+      "reference_text": "Section 12.4",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T37",
+      "reference_text": "Section 12.8.3",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.8.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T48",
+      "reference_text": "Section 13.3.1.1",
+      "target_chapter": 13,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 13 extracted but section 13.3.1.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T58",
+      "reference_text": "Section 13.3.1",
+      "target_chapter": 13,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 13 extracted but section 13.3.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T60",
+      "reference_text": "Section 13.3.3",
+      "target_chapter": 13,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 13 extracted but section 13.3.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T64",
+      "reference_text": "Section 12.8.3",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.8.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T67",
+      "reference_text": "Section 12.10.4",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.10.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T68",
+      "reference_text": "Section 12.8.4.1",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.8.4.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T69",
+      "reference_text": "Section 12.8.4.2",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.8.4.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T72",
+      "reference_text": "Section 12.8.2.1",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.8.2.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T75",
+      "reference_text": "Section 20.4.2",
+      "target_chapter": 20,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 20 extracted but section 20.4.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T77",
+      "reference_text": "Table 21.2-1",
+      "target_chapter": 21,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 21 extracted but table 21.2-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T80",
+      "reference_text": "Section 12.8.7",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.8.7 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T83",
+      "reference_text": "Section 12.10.4",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.10.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T84",
+      "reference_text": "Section 13.3.1.4",
+      "target_chapter": 13,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 13 extracted but section 13.3.1.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T85",
+      "reference_text": "Section 13.3.1.2",
+      "target_chapter": 13,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 13 extracted but section 13.3.1.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T86",
+      "reference_text": "Section 12.10.3.5",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.10.3.5 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T87",
+      "reference_text": "Section 12.9.2.5",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.9.2.5 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T88",
+      "reference_text": "Section 12.9.2.5",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.9.2.5 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T100",
+      "reference_text": "Section 20.4.3",
+      "target_chapter": 20,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 20 extracted but section 20.4.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T102",
+      "reference_text": "Section 20.4.3",
+      "target_chapter": 20,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 20 extracted but section 20.4.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T106",
+      "reference_text": "Section 12.8.2",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.8.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T107",
+      "reference_text": "Section 12.10.4",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.10.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-P3",
+      "reference_text": "Section 12.9.2",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.9.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T109",
+      "reference_text": "Section 13.3.3",
+      "target_chapter": 13,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 13 extracted but section 13.3.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-P4",
+      "reference_text": "Section 12.9.2",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.9.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T111",
+      "reference_text": "Section 12.3.2.1.1",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.3.2.1.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T114",
+      "reference_text": "Section 12.9.2.5",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.9.2.5 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T115",
+      "reference_text": "Section 12.9.2.5",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.9.2.5 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T116",
+      "reference_text": "Section 12.9.2.5",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.9.2.5 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T117",
+      "reference_text": "Section 12.9.2.5",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.9.2.5 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T118",
+      "reference_text": "Section 12.9.1.4.1",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.9.1.4.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T119",
+      "reference_text": "Section 12.9.2.5",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.9.2.5 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T120",
+      "reference_text": "Section 12.8.4",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.8.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T121",
+      "reference_text": "Section 12.9.2.5",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.9.2.5 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T122",
+      "reference_text": "Section 19.3",
+      "target_chapter": 19,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 19 extracted but section 19.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T123",
+      "reference_text": "Section 19.3.1",
+      "target_chapter": 19,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 19 extracted but section 19.3.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T124",
+      "reference_text": "Section 19.3.1",
+      "target_chapter": 19,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 19 extracted but section 19.3.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T125",
+      "reference_text": "Section 19.3.1",
+      "target_chapter": 19,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 19 extracted but section 19.3.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T126",
+      "reference_text": "Section 19.2.1",
+      "target_chapter": 19,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 19 extracted but section 19.2.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T128",
+      "reference_text": "Section 20.4.1",
+      "target_chapter": 20,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 20 extracted but section 20.4.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T129",
+      "reference_text": "Section 19.2.1.1",
+      "target_chapter": 19,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 19 extracted but section 19.2.1.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T130",
+      "reference_text": "Section 12.7.2",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.7.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T138",
+      "reference_text": "Section 13.3.1",
+      "target_chapter": 13,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 13 extracted but section 13.3.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T139",
+      "reference_text": "Section 12.10.3.2.1",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.10.3.2.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T140",
+      "reference_text": "Section 19.2.1",
+      "target_chapter": 19,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 19 extracted but section 19.2.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T142",
+      "reference_text": "Section 19.2.1.2",
+      "target_chapter": 19,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 19 extracted but section 19.2.1.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T143",
+      "reference_text": "Section 12.10.3.2.1",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.10.3.2.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T144",
+      "reference_text": "Section 12.8.6",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.8.6 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T144",
+      "reference_text": "Section 12.3.2.1.1",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.3.2.1.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T146",
+      "reference_text": "Section 12.3.2.1.1",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.3.2.1.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T147",
+      "reference_text": "Section 12.12.1",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.12.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T149",
+      "reference_text": "Figure 12.3-1",
+      "target_chapter": 12,
+      "target_type": "figure",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but figure 12.3-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T150",
+      "reference_text": "Section 12.10",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.10 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T150",
+      "reference_text": "Section 12.8.6",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.8.6 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T151",
+      "reference_text": "Section 12.8.6",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.8.6 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T152",
+      "reference_text": "Section 12.8.6",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.8.6 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T153",
+      "reference_text": "Section 12.8.6",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.8.6 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T154",
+      "reference_text": "Figure 12.3-1",
+      "target_chapter": 12,
+      "target_type": "figure",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but figure 12.3-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T155",
+      "reference_text": "Section 12.8.4.3",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.8.4.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T156",
+      "reference_text": "Section 12.12.3",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.12.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T157",
+      "reference_text": "Section 12.12.3",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.12.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T158",
+      "reference_text": "Section 12.8.4.3",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.8.4.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T159",
+      "reference_text": "Section 19.3.2",
+      "target_chapter": 19,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 19 extracted but section 19.3.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T161",
+      "reference_text": "Section 12.8.7",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.8.7 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T162",
+      "reference_text": "Section 12.9.2.5",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.9.2.5 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T163",
+      "reference_text": "Section 12.9.2.5",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.9.2.5 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T165",
+      "reference_text": "Section 12.3.4",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.3.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.3-T167",
+      "reference_text": "Section 12.10.4",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.10.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.4.3-X1",
+      "reference_text": "Section 21.4",
+      "target_chapter": 21,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 21 extracted but section 21.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.4.3-X1",
+      "reference_text": "Section 21.2.3",
+      "target_chapter": 21,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 21 extracted but section 21.2.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.4.4-H1",
+      "reference_text": "Section 12.14",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.14 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.4.4-H1",
+      "reference_text": "Section 12.14.8.1",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.14.8.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.4.5-P1",
+      "reference_text": "Section 21.3",
+      "target_chapter": 21,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 21 extracted but section 21.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.4.7-H1",
+      "reference_text": "Section 21.1",
+      "target_chapter": 21,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 21 extracted but section 21.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.4.7-H1",
+      "reference_text": "Section 20.3.1",
+      "target_chapter": 20,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 20 extracted but section 20.3.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.4.7-P1",
+      "reference_text": "Section 21.1",
+      "target_chapter": 21,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 21 extracted but section 21.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.4.7-P1",
+      "reference_text": "Section 21.2",
+      "target_chapter": 21,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 21 extracted but section 21.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.4.7-P2",
+      "reference_text": "Section 21.1",
+      "target_chapter": 21,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 21 extracted but section 21.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.4.7-P2",
+      "reference_text": "Section 21.3",
+      "target_chapter": 21,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 21 extracted but section 21.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.4.7-P3",
+      "reference_text": "Section 21.4",
+      "target_chapter": 21,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 21 extracted but section 21.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.4.7-P3",
+      "reference_text": "Section 21.5",
+      "target_chapter": 21,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 21 extracted but section 21.5 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.5.1-H1",
+      "reference_text": "Table 1.5-2",
+      "target_chapter": 1,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 1 extracted but table 1.5-2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.6-T1",
+      "reference_text": "Section 12.8.2.1",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.8.2.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.6-T6",
+      "reference_text": "Section 12.3",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.6-P4",
+      "reference_text": "Section 12.14",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.14 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.6-P4",
+      "reference_text": "Section 12.14.8.1",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.14.8.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.7-P1",
+      "reference_text": "Section 1.4",
+      "target_chapter": 1,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 1 extracted but section 1.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.7-P1",
+      "reference_text": "Section 15.6.5.1",
+      "target_chapter": 15,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 15 extracted but section 15.6.5.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-11.9.1-H1",
+      "reference_text": "Section 12.4.2.2",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.4.2.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.1.5-P1",
+      "reference_text": "Section 2.3",
+      "target_chapter": 2,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 2 extracted but section 2.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.1.5-P1",
+      "reference_text": "Section 2.4",
+      "target_chapter": 2,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 2 extracted but section 2.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.1.5-P1",
+      "reference_text": "Section 3.1.2",
+      "target_chapter": 3,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 3 extracted but section 3.1.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.2.1-H3",
+      "reference_text": "Section 2.3",
+      "target_chapter": 2,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 2 extracted but section 2.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.2.1-T24",
+      "reference_text": "Section 2.3",
+      "target_chapter": 2,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 2 extracted but section 2.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.2.1-T36",
+      "reference_text": "Section 2.3",
+      "target_chapter": 2,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 2 extracted but section 2.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.2.1-P7",
       "reference_text": "Section 1.3.1.3",
       "target_chapter": 1,
       "target_type": "section",
-      "status": "pending",
-      "reason": "Chapter 1 not yet extracted"
+      "status": "broken",
+      "reason": "Chapter 1 extracted but section 1.3.1.3 not found"
     },
     {
-      "from_element": "ASCE7-22-26.2-T26",
-      "reference_text": "Chapter 27",
-      "target_chapter": 27,
+      "from_element": "ASCE7-22-12.2.1.1-H1",
+      "reference_text": "Section 16.5",
+      "target_chapter": 16,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 16 extracted but section 16.5 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.2.1.2-T5",
+      "reference_text": "Section 16.5",
+      "target_chapter": 16,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 16 extracted but section 16.5 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.2.5.3-H1",
+      "reference_text": "Section 11.2",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.4.2-P2",
+      "reference_text": "Section 2.3.6",
+      "target_chapter": 2,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 2 extracted but section 2.3.6 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.4.2-P2",
+      "reference_text": "Section 2.4.5",
+      "target_chapter": 2,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 2 extracted but section 2.4.5 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.4.2.1-P3",
+      "reference_text": "Section 2.3.6",
+      "target_chapter": 2,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 2 extracted but section 2.3.6 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.4.2.1-P3",
+      "reference_text": "Section 2.4.5",
+      "target_chapter": 2,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 2 extracted but section 2.4.5 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.4.2.2-T1",
+      "reference_text": "Section 11.4.5",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.4.5 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.4.2.2-H3",
+      "reference_text": "Section 11.9",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.9 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.4.2.2-T2",
+      "reference_text": "Section 11.9.3",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.9.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.4.3-T1",
+      "reference_text": "Section 11.3",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.4.3.2-P1",
+      "reference_text": "Section 2.3.6",
+      "target_chapter": 2,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 2 extracted but section 2.3.6 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.4.3.2-P1",
+      "reference_text": "Section 2.4.5",
+      "target_chapter": 2,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 2 extracted but section 2.4.5 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.7.2-T1",
+      "reference_text": "Section 4.3.2",
+      "target_chapter": 4,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 4 extracted but section 4.3.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.7.2-T4",
+      "reference_text": "Section 3.1.4",
+      "target_chapter": 3,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 3 extracted but section 3.1.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.8.1.1-H1",
+      "reference_text": "Section 11.4.5.1",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.4.5.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.8.1.1-H1",
+      "reference_text": "Section 11.4.5",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.4.5 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.8.1.1-T2",
+      "reference_text": "Section 11.4.5.1",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.4.5.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.8.1.1-T4",
+      "reference_text": "Section 11.5.1",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.5.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.8.1.1-T6",
+      "reference_text": "Section 11.4.5",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.4.5 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.8.1.1-T8",
+      "reference_text": "Section 11.5.1",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.5.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.8.1.1-T12",
+      "reference_text": "Section 11.4.5",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.4.5 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.8.1.1-T14",
+      "reference_text": "Section 11.4.6",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.4.6 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.8.1.1-T15",
+      "reference_text": "Section 11.4.2",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.4.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.8.1.3-T1",
+      "reference_text": "Section 11.4.5",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.4.5 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.8.1.3-P1",
+      "reference_text": "Section 11.2",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.8.1.3-T5",
+      "reference_text": "Section 11.4.3",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.4.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.8.1.3-T6",
+      "reference_text": "Section 1.5.1",
+      "target_chapter": 1,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 1 extracted but section 1.5.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.8.2.1-T1",
+      "reference_text": "Section 11.2",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.8.2.1-P2",
+      "reference_text": "Section 11.2",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.8.6.3-T3",
+      "reference_text": "Section 11.5.1",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.5.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.9.1.2-P1",
+      "reference_text": "Section 11.4.5",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.4.5 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.10.2.1-T3",
+      "reference_text": "Section 2.3.6",
+      "target_chapter": 2,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 2 extracted but section 2.3.6 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.10.2.1-X1",
+      "reference_text": "Section 2.3.6",
+      "target_chapter": 2,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 2 extracted but section 2.3.6 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.10.4.1-P2",
+      "reference_text": "Section 4.2",
+      "target_chapter": 4,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 4 extracted but section 4.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.10.4.2.1-T4",
+      "reference_text": "Section 11.4.5",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.4.5 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.10.4.2.1-T6",
+      "reference_text": "Section 11.5.1",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.5.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.11.2.1-T3",
+      "reference_text": "Section 11.4.5",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.4.5 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.11.2.1-T4",
+      "reference_text": "Section 11.5.1",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.5.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.12.4-D1",
+      "reference_text": "Section 18.14",
+      "target_chapter": 18,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 18 extracted but section 18.14 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.13.2-P1",
+      "reference_text": "Section 14.1.8",
+      "target_chapter": 14,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 14 extracted but section 14.1.8 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.13.5-H1",
+      "reference_text": "Section 2.3",
+      "target_chapter": 2,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 2 extracted but section 2.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.13.6-H1",
+      "reference_text": "Section 2.4",
+      "target_chapter": 2,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 2 extracted but section 2.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.13.7-H1",
+      "reference_text": "Section 11.8.2",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.8.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.13.8-H1",
+      "reference_text": "Section 18.13",
+      "target_chapter": 18,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 18 extracted but section 18.13 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.13.9-H1",
+      "reference_text": "Section 11.8",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.8 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.13.9.2.1.1-T1",
+      "reference_text": "Section 2.3.6",
+      "target_chapter": 2,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 2 extracted but section 2.3.6 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.13.9.2.1.1-P3",
+      "reference_text": "Section 18.6.4",
+      "target_chapter": 18,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 18 extracted but section 18.6.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.13.9.2.1.2-P1",
+      "reference_text": "Section 18.13.3.1",
+      "target_chapter": 18,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 18 extracted but section 18.13.3.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.13.9.3.3-P1",
+      "reference_text": "Section 18.13.5.5",
+      "target_chapter": 18,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 18 extracted but section 18.13.5.5 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.13.9.3.4-P4",
+      "reference_text": "Section 18.13.5.5",
+      "target_chapter": 18,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 18 extracted but section 18.13.5.5 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.14.1.1-H1",
+      "reference_text": "Table 11.6-1",
+      "target_chapter": 11,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but table 11.6-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.14.1.1-P1",
+      "reference_text": "Table 1.5-1",
+      "target_chapter": 1,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 1 extracted but table 1.5-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.14.1.3-H1",
+      "reference_text": "Section 11.2",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.14.1.4-T14",
+      "reference_text": "Section 11.4.1",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.4.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.14.3.1-P1",
+      "reference_text": "Section 2.3.6",
+      "target_chapter": 2,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 2 extracted but section 2.3.6 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.14.3.1-P1",
+      "reference_text": "Section 2.4.5",
+      "target_chapter": 2,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 2 extracted but section 2.4.5 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.14.3.1.2-T1",
+      "reference_text": "Section 11.4.5",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.4.5 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.14.3.2-P2",
+      "reference_text": "Section 2.3.6",
+      "target_chapter": 2,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 2 extracted but section 2.3.6 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.14.3.2-P2",
+      "reference_text": "Section 2.4.5",
+      "target_chapter": 2,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 2 extracted but section 2.4.5 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.14.3.2.1-T2",
+      "reference_text": "Section 11.3",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.14.3.2.2-P1",
+      "reference_text": "Section 2.3.6",
+      "target_chapter": 2,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 2 extracted but section 2.3.6 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.14.3.2.2-P1",
+      "reference_text": "Section 2.4.5",
+      "target_chapter": 2,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 2 extracted but section 2.4.5 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.14.8.1-P1",
+      "reference_text": "Section 11.4.4",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.4.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.14.8.1-T3",
+      "reference_text": "Section 3.1",
+      "target_chapter": 3,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 3 extracted but section 3.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-12.14.8.1-T6",
+      "reference_text": "Section 4.3.2",
+      "target_chapter": 4,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 4 extracted but section 4.3.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-13.1.1-P1",
+      "reference_text": "Section 12.7.2",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.7.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-13.1.6-H1",
+      "reference_text": "Section 15.3",
+      "target_chapter": 15,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 15 extracted but section 15.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-13.1.8-P1",
+      "reference_text": "Section 2.4",
+      "target_chapter": 2,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 2 extracted but section 2.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-13.2.2-H1",
+      "reference_text": "Section 1.3",
+      "target_chapter": 1,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 1 extracted but section 1.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-13.2.2-H1",
+      "reference_text": "Section 2.3",
+      "target_chapter": 2,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 2 extracted but section 2.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-13.2.2-H1",
+      "reference_text": "Section 12.4.2.1",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.4.2.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-13.2.2-H1",
+      "reference_text": "Section 12.4.3.1",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.4.3.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-13.2.9-H1",
+      "reference_text": "Section 15.5",
+      "target_chapter": 15,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 15 extracted but section 15.5 not found"
+    },
+    {
+      "from_element": "ASCE7-22-13.2.9-D1",
+      "reference_text": "Section 15.5",
+      "target_chapter": 15,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 15 extracted but section 15.5 not found"
+    },
+    {
+      "from_element": "ASCE7-22-13.3.1-T6",
+      "reference_text": "Section 11.4.5",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.4.5 not found"
+    },
+    {
+      "from_element": "ASCE7-22-13.3.1.1-T3",
+      "reference_text": "Section 12.8.2",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.8.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-13.3.1.2-T2",
+      "reference_text": "Section 11.5.1",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.5.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-13.3.1.2-T3",
+      "reference_text": "Table 12.2-1",
+      "target_chapter": 12,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but table 12.2-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-13.3.1.2-T4",
+      "reference_text": "Table 12.2-1",
+      "target_chapter": 12,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but table 12.2-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-13.3.1.2-P1",
+      "reference_text": "Table 12.2-1",
+      "target_chapter": 12,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but table 12.2-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-13.3.1.2-P2",
+      "reference_text": "Table 15.4-1",
+      "target_chapter": 15,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 15 extracted but table 15.4-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-13.3.1.6-H1",
+      "reference_text": "Section 12.4.2.2",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.4.2.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-13.3.2-T1",
+      "reference_text": "Section 11.5.1",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.5.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-13.3.2.1-P3",
+      "reference_text": "Section 12.9",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.9 not found"
+    },
+    {
+      "from_element": "ASCE7-22-13.3.2.1-P3",
+      "reference_text": "Table 12.12-1",
+      "target_chapter": 12,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but table 12.12-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-13.3.2.1-T3",
+      "reference_text": "Table 12.12-1",
+      "target_chapter": 12,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but table 12.12-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-13.3.2.1-P4",
+      "reference_text": "Table 12.12-1",
+      "target_chapter": 12,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but table 12.12-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-13.3.2.2-T1",
+      "reference_text": "Table 12.12-1",
+      "target_chapter": 12,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but table 12.12-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-13.3.2.2-P1",
+      "reference_text": "Table 12.12-1",
+      "target_chapter": 12,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but table 12.12-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-13.3.2.2-T7",
+      "reference_text": "Table 12.12-1",
+      "target_chapter": 12,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but table 12.12-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-13.3.2.2-T8",
+      "reference_text": "Table 12.12-1",
+      "target_chapter": 12,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but table 12.12-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-13.3.2.2-T9",
+      "reference_text": "Table 12.12-1",
+      "target_chapter": 12,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but table 12.12-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-13.4.2-H1",
+      "reference_text": "Section 12.4.3",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.4.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-13.4.6-H1",
+      "reference_text": "Section 9.3.7",
+      "target_chapter": 9,
+      "target_type": "section",
+      "status": "pending",
+      "reason": "Chapter 9 not yet extracted"
+    },
+    {
+      "from_element": "ASCE7-22-13.5.1-P2",
+      "reference_text": "Section 12.11.2",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.11.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-13.5.10-X2",
+      "reference_text": "Section 12.7.3",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.7.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-13.5.11.1-P1",
+      "reference_text": "Table 12.2-1",
+      "target_chapter": 12,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but table 12.2-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-13.5.11.1-P1",
+      "reference_text": "Table 15.4-1",
+      "target_chapter": 15,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 15 extracted but table 15.4-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-13.5.11.1-X1",
+      "reference_text": "Table 12.2-1",
+      "target_chapter": 12,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but table 12.2-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-13.6.4.6-P1",
+      "reference_text": "Table 12.2-1",
+      "target_chapter": 12,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but table 12.2-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-13.6.4.6-D1",
+      "reference_text": "Table 12.2-1",
+      "target_chapter": 12,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but table 12.2-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-13.6.4.6-D1",
+      "reference_text": "Table 15.4-1",
+      "target_chapter": 15,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 15 extracted but table 15.4-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-13.6.9-P1",
+      "reference_text": "Table 1.5-1",
+      "target_chapter": 1,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 1 extracted but table 1.5-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-13.6.11.3-H1",
+      "reference_text": "Section 8.4.10.1.2",
+      "target_chapter": 8,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 8 extracted but section 8.4.10.1.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-13.6.12-P1",
+      "reference_text": "Section 1.3.1.3.4",
+      "target_chapter": 1,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 1 extracted but section 1.3.1.3.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-13.6.12-P3",
+      "reference_text": "Section 1.3.1.3.4",
+      "target_chapter": 1,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 1 extracted but section 1.3.1.3.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-14.1.2.2.1-P1",
+      "reference_text": "Table 12.2-1",
+      "target_chapter": 12,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but table 12.2-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-14.1.2.2.1-X1",
+      "reference_text": "Table 12.2-1",
+      "target_chapter": 12,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but table 12.2-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-14.1.2.2.2-P1",
+      "reference_text": "Table 15.4-1",
+      "target_chapter": 15,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 15 extracted but table 15.4-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-14.1.3.2-P1",
+      "reference_text": "Table 12.2-1",
+      "target_chapter": 12,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but table 12.2-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-14.1.4.2.1-P1",
+      "reference_text": "Table 12.2-1",
+      "target_chapter": 12,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but table 12.2-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-14.1.4.2.1-D1",
+      "reference_text": "Table 12.2-1",
+      "target_chapter": 12,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but table 12.2-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-14.1.5-H1",
+      "reference_text": "Section 12.10",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.10 not found"
+    },
+    {
+      "from_element": "ASCE7-22-14.1.6-H1",
+      "reference_text": "Table 12.10-1",
+      "target_chapter": 12,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but table 12.10-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-14.1.9-X1",
+      "reference_text": "Section 12.4.3",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.4.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-14.2.2.1-H1",
+      "reference_text": "Section 2.3",
+      "target_chapter": 2,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 2 extracted but section 2.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-14.2.2.1-T1",
+      "reference_text": "Section 18.12.5",
+      "target_chapter": 18,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 18 extracted but section 18.12.5 not found"
+    },
+    {
+      "from_element": "ASCE7-22-14.2.2.2-T1",
+      "reference_text": "Section 10.7.6",
+      "target_chapter": 10,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 10 extracted but section 10.7.6 not found"
+    },
+    {
+      "from_element": "ASCE7-22-14.2.2.2-T1",
+      "reference_text": "Section 10.7.6.1.5",
+      "target_chapter": 10,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 10 extracted but section 10.7.6.1.5 not found"
+    },
+    {
+      "from_element": "ASCE7-22-14.2.2.2-P1",
+      "reference_text": "Section 25.3.4",
+      "target_chapter": 25,
+      "target_type": "section",
+      "status": "pending",
+      "reason": "Chapter 25 not yet extracted"
+    },
+    {
+      "from_element": "ASCE7-22-14.2.2.3-H1",
+      "reference_text": "Section 18.2.1.2",
+      "target_chapter": 18,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 18 extracted but section 18.2.1.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-14.2.2.4-H1",
+      "reference_text": "Section 18.5",
+      "target_chapter": 18,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 18 extracted but section 18.5 not found"
+    },
+    {
+      "from_element": "ASCE7-22-14.2.2.4-H1",
+      "reference_text": "Section 18.5.2.2",
+      "target_chapter": 18,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 18 extracted but section 18.5.2.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-14.2.2.5-T1",
+      "reference_text": "Section 18.11.2.1",
+      "target_chapter": 18,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 18 extracted but section 18.11.2.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-14.2.2.6-H1",
+      "reference_text": "Section 18.13.1.1",
+      "target_chapter": 18,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 18 extracted but section 18.13.1.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-18.13.1.1-H1",
+      "reference_text": "Section 18.13",
+      "target_chapter": 18,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 18 extracted but section 18.13 not found"
+    },
+    {
+      "from_element": "ASCE7-22-14.6.2.2-P1",
+      "reference_text": "Section 11.7.5.1",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.7.5.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-14.3.3-H1",
+      "reference_text": "Table 12.2-1",
+      "target_chapter": 12,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but table 12.2-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-14.4.2-P1",
+      "reference_text": "Section 8.3",
+      "target_chapter": 8,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 8 extracted but section 8.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-14.4.3.1-H1",
+      "reference_text": "Section 7.5.1",
+      "target_chapter": 7,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 7 extracted but section 7.5.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-7.5.1-H1",
+      "reference_text": "Section 5.1.1.2",
+      "target_chapter": 5,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 5 extracted but section 5.1.1.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-14.4.4.1.1-T1",
+      "reference_text": "Section 6.1.2",
+      "target_chapter": 6,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 6 extracted but section 6.1.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-14.4.4.1.1-T2",
+      "reference_text": "Section 6.1.2.1",
+      "target_chapter": 6,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 6 extracted but section 6.1.2.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-14.4.4.1.1-T3",
+      "reference_text": "Section 6.1.2.2",
+      "target_chapter": 6,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 6 extracted but section 6.1.2.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-14.4.4.1.1-T4",
+      "reference_text": "Section 6.1.2.4",
+      "target_chapter": 6,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 6 extracted but section 6.1.2.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-14.4.5-H1",
+      "reference_text": "Chapter 9",
+      "target_chapter": 9,
       "target_type": "chapter",
       "status": "pending",
-      "reason": "Chapter 27 not yet extracted"
+      "reason": "Chapter 9 not yet extracted"
     },
     {
-      "from_element": "ASCE7-22-26.2-T26",
-      "reference_text": "Chapter 28",
-      "target_chapter": 28,
-      "target_type": "chapter",
+      "from_element": "ASCE7-22-14.4.5.1-H1",
+      "reference_text": "Section 9.1.6",
+      "target_chapter": 9,
+      "target_type": "section",
       "status": "pending",
-      "reason": "Chapter 28 not yet extracted"
+      "reason": "Chapter 9 not yet extracted"
     },
     {
-      "from_element": "ASCE7-22-26.2-T36",
-      "reference_text": "Chapter 29",
-      "target_chapter": 29,
-      "target_type": "chapter",
+      "from_element": "ASCE7-22-14.4.5.2-T1",
+      "reference_text": "Section 9.3.4.2.5",
+      "target_chapter": 9,
+      "target_type": "section",
       "status": "pending",
-      "reason": "Chapter 29 not yet extracted"
+      "reason": "Chapter 9 not yet extracted"
     },
     {
-      "from_element": "ASCE7-22-26.2-T43",
-      "reference_text": "Chapter 31",
-      "target_chapter": 31,
-      "target_type": "chapter",
-      "status": "pending",
-      "reason": "Chapter 31 not yet extracted"
+      "from_element": "ASCE7-22-14.4.6.1-T1",
+      "reference_text": "Section 12.2.2.11.1.1",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.2.2.11.1.1 not found"
     },
     {
-      "from_element": "ASCE7-22-26.2-T43",
-      "reference_text": "Chapter 30",
-      "target_chapter": 30,
-      "target_type": "chapter",
-      "status": "pending",
-      "reason": "Chapter 30 not yet extracted"
+      "from_element": "ASCE7-22-15.1.2-P2",
+      "reference_text": "Section 2.4",
+      "target_chapter": 2,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 2 extracted but section 2.4 not found"
     },
     {
-      "from_element": "ASCE7-22-26.2-T54",
-      "reference_text": "Chapter 31",
-      "target_chapter": 31,
-      "target_type": "chapter",
-      "status": "pending",
-      "reason": "Chapter 31 not yet extracted"
+      "from_element": "ASCE7-22-15.1.3-H1",
+      "reference_text": "Section 12.6",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.6 not found"
     },
     {
-      "from_element": "ASCE7-22-26.2-D10",
-      "reference_text": "Figure 27.3-8",
-      "target_chapter": 27,
-      "target_type": "figure",
+      "from_element": "ASCE7-22-15.1.3-H1",
+      "reference_text": "Section 12.8",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.8 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.1.3-H1",
+      "reference_text": "Section 12.9",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.9 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.1.4-H1",
+      "reference_text": "Section 11.9",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.9 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.1.4-H1",
+      "reference_text": "Section 12.9",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.9 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.1.4-H1",
+      "reference_text": "Section 12.8",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.8 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.2.2-H1",
+      "reference_text": "Section 13.3.2.2",
+      "target_chapter": 13,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 13 extracted but section 13.3.2.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.3.1-P2",
+      "reference_text": "Section 13.1.6",
+      "target_chapter": 13,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 13 extracted but section 13.1.6 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.4.1-P1",
+      "reference_text": "Section 12.8",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.8 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.4.1-P2",
+      "reference_text": "Table 12.2-1",
+      "target_chapter": 12,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but table 12.2-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.4.1-T3",
+      "reference_text": "Section 12.2.5.4",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.2.5.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.4.1-T4",
+      "reference_text": "Section 12.2.5.4",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.2.5.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.4.1-T7",
+      "reference_text": "Section 2.3",
+      "target_chapter": 2,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 2 extracted but section 2.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.4.1-T19",
+      "reference_text": "Section 12.8.3",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.8.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.4.1-T20",
+      "reference_text": "Section 12.9.1",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.9.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.4.1-T22",
+      "reference_text": "Section 12.8.4.2",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.8.4.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.4.1-P16",
+      "reference_text": "Section 12.7.3",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.7.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.4.1-P19",
+      "reference_text": "Section 11.4",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.4.1-P21",
+      "reference_text": "Section 19.2",
+      "target_chapter": 19,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 19 extracted but section 19.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.4.1-P22",
+      "reference_text": "Section 2.3",
+      "target_chapter": 2,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 2 extracted but section 2.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.4.1-P23",
+      "reference_text": "Section 12.4.3",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.4.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.4.1.1-T2",
+      "reference_text": "Table 1.5-2",
+      "target_chapter": 1,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 1 extracted but table 1.5-2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.4.2-T3",
+      "reference_text": "Section 11.4.5",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.4.5 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.4.2-P1",
+      "reference_text": "Section 12.8.3",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.8.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.4.3-H1",
+      "reference_text": "Section 12.7.2",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.7.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.4.4-P1",
+      "reference_text": "Section 12.8.2",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.8.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.4.5-H1",
+      "reference_text": "Section 12.12.1",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.12.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.4.6-H1",
+      "reference_text": "Section 12.8.7",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.8.7 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.4.8-P1",
+      "reference_text": "Section 11.4.8",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.4.8 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.4.9.2-T2",
+      "reference_text": "Section 12.4.3",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.4.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.4.9.4-H1",
+      "reference_text": "Section 17.10.5.3",
+      "target_chapter": 17,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 17 extracted but section 17.10.5.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.4.10-H1",
+      "reference_text": "Section 12.13.9",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.13.9 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.5.1-H1",
+      "reference_text": "Section 11.2",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.5.1-H1",
+      "reference_text": "Section 12.4",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.5.2.1-H1",
+      "reference_text": "Section 12.8",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.8 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.5.2.1-P1",
+      "reference_text": "Section 13.6.2",
+      "target_chapter": 13,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 13 extracted but section 13.6.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.5.3.1-H1",
+      "reference_text": "Section 11.4",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.5.3.1.1-T1",
+      "reference_text": "Section 7.1.2",
+      "target_chapter": 7,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 7 extracted but section 7.1.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-7.1.2-P1",
+      "reference_text": "Section 12.4.3.1",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.4.3.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.5.3.1.2-T1",
+      "reference_text": "Section 7.1.4",
+      "target_chapter": 7,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 7 extracted but section 7.1.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.5.3.2-H1",
+      "reference_text": "Section 11.4",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.5.3.2.1-T1",
+      "reference_text": "Section 8.5.1",
+      "target_chapter": 8,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 8 extracted but section 8.5.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-8.5.1-P1",
+      "reference_text": "Section 2.1",
+      "target_chapter": 2,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 2 extracted but section 2.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.5.3.3.1-X1",
+      "reference_text": "Section 14.1.1",
+      "target_chapter": 14,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 14 extracted but section 14.1.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.5.3.3.3-P1",
+      "reference_text": "Section 12.8.3",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.8.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.5.3.3.4-P1",
+      "reference_text": "Section 11.1.4",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.1.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.6-P1",
+      "reference_text": "Section 12.4.2",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.4.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.6-X1",
+      "reference_text": "Section 12.3.4",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.3.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.6.1-H1",
+      "reference_text": "Section 11.8.3",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.8.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.6.2.2-H1",
+      "reference_text": "Section 12.9",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.9 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.6.2.2-H2",
+      "reference_text": "Section 10.7.6",
+      "target_chapter": 10,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 10 extracted but section 10.7.6 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.6.2.2-H2",
+      "reference_text": "Section 10.6.1.1",
+      "target_chapter": 10,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 10 extracted but section 10.6.1.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.6.2.3-H1",
+      "reference_text": "Section 4.3.5",
+      "target_chapter": 4,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 4 extracted but section 4.3.5 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.6.2.3-H1",
+      "reference_text": "Section 12.9",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.9 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.6.5-P2",
+      "reference_text": "Section 11.4",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.6.5-P2",
+      "reference_text": "Section 1.5.3",
+      "target_chapter": 1,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 1 extracted but section 1.5.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.6.5.1-H1",
+      "reference_text": "Section 1.5.3",
+      "target_chapter": 1,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 1 extracted but section 1.5.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.6.6-H1",
+      "reference_text": "Section 11.4",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.6.9.1-P1",
+      "reference_text": "Section 18.3.3",
+      "target_chapter": 18,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 18 extracted but section 18.3.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.6.9.2-P1",
+      "reference_text": "Section 18.3.4",
+      "target_chapter": 18,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 18 extracted but section 18.3.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.6.10-H1",
+      "reference_text": "Section 11.4",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.7.2-P3",
+      "reference_text": "Section 11.9",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.9 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.7.2-T5",
+      "reference_text": "Section 11.9",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.9 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.7.2-P6",
+      "reference_text": "Section 11.9",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.9 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.7.3-P1",
+      "reference_text": "Section 12.4.3",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.4.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.7.3-P3",
+      "reference_text": "Section 12.3.2",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.3.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.7.3-P4",
+      "reference_text": "Section 12.4.3",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.4.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.7.5-P3",
+      "reference_text": "Section 17.4.2.9",
+      "target_chapter": 17,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 17 extracted but section 17.4.2.9 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.7.5-T2",
+      "reference_text": "Section 12.4.3",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.4.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.7.6.2-P2",
+      "reference_text": "Section 11.4.5.1",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.4.5.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.7.6.2-P3",
+      "reference_text": "Section 11.4.5.1",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.4.5.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.7.6.2.2-P5",
+      "reference_text": "Table 1.5-1",
+      "target_chapter": 1,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 1 extracted but table 1.5-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.7.6.2.5-P3",
+      "reference_text": "Section 11.1.4",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.1.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.7.7.1-P1",
+      "reference_text": "Section 11.4",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.7.7.1-P1",
+      "reference_text": "Section 13.5.4.4",
+      "target_chapter": 13,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 13 extracted but section 13.5.4.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.7.7.2-P1",
+      "reference_text": "Section 11.4",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.7.7.3-H1",
+      "reference_text": "Section 11.4",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.7.7.3-H1",
+      "reference_text": "Section 9.4.2",
+      "target_chapter": 9,
+      "target_type": "section",
       "status": "pending",
-      "reason": "Chapter 27 not yet extracted"
+      "reason": "Chapter 9 not yet extracted"
+    },
+    {
+      "from_element": "ASCE7-22-15.7.8.5-P2",
+      "reference_text": "Section 11.4",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.7.10.5-P2",
+      "reference_text": "Section 12.8.1.1",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.8.1.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.7.10.7-H1",
+      "reference_text": "Section 11.4",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-15.7.11.7-P3",
+      "reference_text": "Section 12.4.3",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.4.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-16.1.2-P1",
+      "reference_text": "Section 12.12.1",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.12.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-16.1.2-P3",
+      "reference_text": "Section 12.4.3",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.4.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-16.1.4-T6",
+      "reference_text": "Section 12.12",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.12 not found"
+    },
+    {
+      "from_element": "ASCE7-22-16.2.1.1-H1",
+      "reference_text": "Section 11.4.6",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.4.6 not found"
+    },
+    {
+      "from_element": "ASCE7-22-16.2.1.1-H1",
+      "reference_text": "Section 11.4.7",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.4.7 not found"
+    },
+    {
+      "from_element": "ASCE7-22-16.2.2-H1",
+      "reference_text": "Section 11.4.1",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.4.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-16.2.4-H1",
+      "reference_text": "Section 11.4.1",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.4.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-16.3.1-H1",
+      "reference_text": "Section 12.7",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.7 not found"
+    },
+    {
+      "from_element": "ASCE7-22-16.3.4-H1",
+      "reference_text": "Section 12.3.2.1",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.3.2.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-16.4.1.2-H1",
+      "reference_text": "Table 12.12-1",
+      "target_chapter": 12,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but table 12.12-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-16.4.1.2-P1",
+      "reference_text": "Table 12.12-1",
+      "target_chapter": 12,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but table 12.12-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-16.4.2.1-P1",
+      "reference_text": "Section 1.5.1",
+      "target_chapter": 1,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 1 extracted but section 1.5.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-17.1.2-T30",
+      "reference_text": "Section 12.7.2",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.7.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-17.1.2-T31",
+      "reference_text": "Section 12.7.2",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.7.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-17.2.1-P1",
+      "reference_text": "Table 1.5-1",
+      "target_chapter": 1,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 1 extracted but table 1.5-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-17.2.2-H1",
+      "reference_text": "Table 12.3-2",
+      "target_chapter": 12,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but table 12.3-2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-17.2.3-H1",
+      "reference_text": "Section 12.3.4",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.3.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-17.2.6.3-H1",
+      "reference_text": "Section 12.1",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-17.2.7-H1",
+      "reference_text": "Section 12.4",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-17.2.7.1-T2",
+      "reference_text": "Section 2.3.6",
+      "target_chapter": 2,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 2 extracted but section 2.3.6 not found"
+    },
+    {
+      "from_element": "ASCE7-22-17.2.7.1-T3",
+      "reference_text": "Section 2.3.6",
+      "target_chapter": 2,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 2 extracted but section 2.3.6 not found"
+    },
+    {
+      "from_element": "ASCE7-22-17.3.1-H1",
+      "reference_text": "Section 11.4",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-17.3.2-H1",
+      "reference_text": "Section 16.2",
+      "target_chapter": 16,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 16 extracted but section 16.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-17.3.2-H1",
+      "reference_text": "Section 16.2.3.1",
+      "target_chapter": 16,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 16 extracted but section 16.2.3.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-17.5.3.1-T3",
+      "reference_text": "Section 11.4.4",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.4.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-17.5.3.2-T3",
+      "reference_text": "Section 12.7.2",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.7.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-17.5.4.2-P1",
+      "reference_text": "Table 12.2-1",
+      "target_chapter": 12,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but table 12.2-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-17.5.4.2-T2",
+      "reference_text": "Section 12.7.2",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.7.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-17.5.4.3-H2",
+      "reference_text": "Section 12.8",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.8 not found"
+    },
+    {
+      "from_element": "ASCE7-22-17.6.2-H1",
+      "reference_text": "Section 12.7.3",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.7.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-17.6.3.1-P1",
+      "reference_text": "Section 12.9",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.9 not found"
+    },
+    {
+      "from_element": "ASCE7-22-17.6.4.1-T2",
+      "reference_text": "Section 12.8.2",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.8.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-18.1.3-T20",
+      "reference_text": "Section 12.8.3",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.8.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-18.2.1.1-P1",
+      "reference_text": "Table 12.2-1",
+      "target_chapter": 12,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but table 12.2-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-18.2.1.1-T1",
+      "reference_text": "Section 12.8",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.8 not found"
+    },
+    {
+      "from_element": "ASCE7-22-18.2.1.1-T4",
+      "reference_text": "Table 12.3-2",
+      "target_chapter": 12,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but table 12.3-2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-18.2.2.1-P1",
+      "reference_text": "Section 11.4",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-18.2.2.2-P1",
+      "reference_text": "Section 16.2",
+      "target_chapter": 16,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 16 extracted but section 16.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-18.2.2.2-P1",
+      "reference_text": "Section 16.2.3.1",
+      "target_chapter": 16,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 16 extracted but section 16.2.3.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-18.2.3.2-T3",
+      "reference_text": "Table 12.3-1",
+      "target_chapter": 12,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but table 12.3-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-18.2.3.2-T3",
+      "reference_text": "Table 12.3-2",
+      "target_chapter": 12,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but table 12.3-2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-18.2.3.2-T4",
+      "reference_text": "Section 12.3.1",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.3.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-18.4.1-P1",
+      "reference_text": "Section 12.2.1",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.2.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-18.4.1-P3",
+      "reference_text": "Table 12.12-1",
+      "target_chapter": 12,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but table 12.12-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-18.4.1-P3",
+      "reference_text": "Table 12.2-1",
+      "target_chapter": 12,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but table 12.2-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-18.4.3-H1",
+      "reference_text": "Section 12.4",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-18.4.3-H1",
+      "reference_text": "Section 12.4.3",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.4.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-18.7.1.1-P1",
+      "reference_text": "Section 12.9",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.9 not found"
+    },
+    {
+      "from_element": "ASCE7-22-18.7.1.3.3-P1",
+      "reference_text": "Section 12.8.6",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.8.6 not found"
+    },
+    {
+      "from_element": "ASCE7-22-18.7.2.1-H1",
+      "reference_text": "Section 12.8",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.8 not found"
+    },
+    {
+      "from_element": "ASCE7-22-18.7.2.2.3-T2",
+      "reference_text": "Section 11.2",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-18.7.2.2.3-T3",
+      "reference_text": "Section 12.8.3",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.8.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-18.7.2.3.5-T3",
+      "reference_text": "Section 11.4.4",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.4.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-18.7.2.3.5-T4",
+      "reference_text": "Section 11.4.4",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.4.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-18.7.3.3-H2",
+      "reference_text": "Table 12.2-1",
+      "target_chapter": 12,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but table 12.2-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-18.7.3.3-T5",
+      "reference_text": "Table 12.2-1",
+      "target_chapter": 12,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but table 12.2-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-18.7.3.3-T7",
+      "reference_text": "Table 12.2-1",
+      "target_chapter": 12,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but table 12.2-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-18.7.3.4-T3",
+      "reference_text": "Section 11.5.1",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.5.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-18.7.4.1-H1",
+      "reference_text": "Section 12.2.1",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.2.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-18.7.4.1-P1",
+      "reference_text": "Section 12.12.1",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.12.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-18.7.4.1-P1",
+      "reference_text": "Table 12.12-1",
+      "target_chapter": 12,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but table 12.12-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-18.7.4.2-H1",
+      "reference_text": "Section 12.2.1",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.2.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-18.7.4.3-H1",
+      "reference_text": "Section 12.4",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-18.7.4.3-H1",
+      "reference_text": "Section 12.4.3",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.4.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-18.7.4.6-T3",
+      "reference_text": "Section 12.4",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-19.1.1-H1",
+      "reference_text": "Section 12.13.3",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.13.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-19.1.3-T6",
+      "reference_text": "Section 12.8.1.1",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.8.1.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-19.1.3-P1",
+      "reference_text": "Section 12.8.2",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.8.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-19.1.3-P2",
+      "reference_text": "Section 12.8.2",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.8.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-19.1.3-T27",
+      "reference_text": "Section 12.7.2",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.7.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-19.2.1-T3",
+      "reference_text": "Section 12.8.1",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.8.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-19.2.1-T4",
+      "reference_text": "Table 12.2-1",
+      "target_chapter": 12,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but table 12.2-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-19.2.1-P2",
+      "reference_text": "Section 11.4.7",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.4.7 not found"
+    },
+    {
+      "from_element": "ASCE7-22-19.2.1-T7",
+      "reference_text": "Section 12.8.1.1",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.8.1.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-19.2.1-T8",
+      "reference_text": "Section 12.8.1.1",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.8.1.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-19.2.1-T8",
+      "reference_text": "Section 12.8.2",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.8.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-19.2.1-T9",
+      "reference_text": "Section 12.7.2",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.7.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-19.2.2-H1",
+      "reference_text": "Section 12.9",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.9 not found"
+    },
+    {
+      "from_element": "ASCE7-22-19.2.2-H1",
+      "reference_text": "Section 11.5.1",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.5.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-19.2.2-P1",
+      "reference_text": "Section 12.9.1.4",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.9.1.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-19.2.2.1-T2",
+      "reference_text": "Section 11.4.5",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.4.5 not found"
+    },
+    {
+      "from_element": "ASCE7-22-19.2.2.1-T2",
+      "reference_text": "Section 11.4.6",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.4.6 not found"
+    },
+    {
+      "from_element": "ASCE7-22-19.2.3-P4",
+      "reference_text": "Section 21.3",
+      "target_chapter": 21,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 21 extracted but section 21.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-19.2.3-P6",
+      "reference_text": "Section 16.1.2",
+      "target_chapter": 16,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 16 extracted but section 16.1.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-19.3.1-T4",
+      "reference_text": "Section 12.3.1.3",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.3.1.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-19.3.2-P2",
+      "reference_text": "Table 12.2-1",
+      "target_chapter": 12,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but table 12.2-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-19.3.3-P4",
+      "reference_text": "Section 11.4.7",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.4.7 not found"
+    },
+    {
+      "from_element": "ASCE7-22-19.4.1-T3",
+      "reference_text": "Section 12.3.1.3",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.3.1.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-2.2-T10",
+      "reference_text": "Section 1.4",
+      "target_chapter": 1,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 1 extracted but section 1.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-2.3.1-P2",
+      "reference_text": "Table 4.3-1",
+      "target_chapter": 4,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 4 extracted but table 4.3-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-2.3.2-H1",
+      "reference_text": "Section 5.3.1",
+      "target_chapter": 5,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 5 extracted but section 5.3.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-2.3.6-P2",
+      "reference_text": "Table 4.3-1",
+      "target_chapter": 4,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 4 extracted but table 4.3-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-2.3.7-H1",
+      "reference_text": "Section 3.3",
+      "target_chapter": 3,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 3 extracted but section 3.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-2.4.5-P1",
+      "reference_text": "Section 12.4.2",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.4.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-2.4.5-P2",
+      "reference_text": "Section 12.4.3",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.4.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-2.4.5-P3",
+      "reference_text": "Section 12.4.3",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.4.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-2.4.5-P5",
+      "reference_text": "Section 14.4.2",
+      "target_chapter": 14,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 14 extracted but section 14.4.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-2.6-P1",
+      "reference_text": "Section 1.4",
+      "target_chapter": 1,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 1 extracted but section 1.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-20.1-P1",
+      "reference_text": "Section 11.4.2",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.4.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-20.2.1-H1",
+      "reference_text": "Section 21.1",
+      "target_chapter": 21,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 21 extracted but section 21.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-20.2.1-X1",
+      "reference_text": "Section 11.4",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-20.3-P2",
+      "reference_text": "Section 11.4.2",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.4.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-21.1-P1",
+      "reference_text": "Section 11.4.7",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.4.7 not found"
+    },
+    {
+      "from_element": "ASCE7-22-21.1.1-H1",
+      "reference_text": "Section 11.4.6",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.4.6 not found"
+    },
+    {
+      "from_element": "ASCE7-22-21.2-P1",
+      "reference_text": "Section 11.4.7",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.4.7 not found"
+    },
+    {
+      "from_element": "ASCE7-22-21.2.2-P1",
+      "reference_text": "Section 11.4.2",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.4.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-21.2.2-X1",
+      "reference_text": "Section 11.4.2",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.4.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-21.2.3.1-H1",
+      "reference_text": "Section 11.4.7",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.4.7 not found"
+    },
+    {
+      "from_element": "ASCE7-22-21.2.3.1-D1",
+      "reference_text": "Section 20.3.3",
+      "target_chapter": 20,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 20 extracted but section 20.3.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-21.5.2-H1",
+      "reference_text": "Section 11.4.2",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.4.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-22-T1",
+      "reference_text": "Section 11.4.3",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.4.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-22-T1",
+      "reference_text": "Section 11.2",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-22-T1",
+      "reference_text": "Section 11.8.3",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.8.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-22-T1",
+      "reference_text": "Section 11.3",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-23.1-T1",
+      "reference_text": "Section 13.5.9.2",
+      "target_chapter": 13,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 13 extracted but section 13.5.9.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-23.1-T4",
+      "reference_text": "Table 15.4-2",
+      "target_chapter": 15,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 15 extracted but table 15.4-2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-23.1-T13",
+      "reference_text": "Table 15.4-1",
+      "target_chapter": 15,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 15 extracted but table 15.4-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-23.1-T14",
+      "reference_text": "Table 15.4-1",
+      "target_chapter": 15,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 15 extracted but table 15.4-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-23.1-T15",
+      "reference_text": "Table 15.4-1",
+      "target_chapter": 15,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 15 extracted but table 15.4-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-23.1-T19",
+      "reference_text": "Table 12.2-1",
+      "target_chapter": 12,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but table 12.2-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-23.1-T21",
+      "reference_text": "Section 15.5.3.2",
+      "target_chapter": 15,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 15 extracted but section 15.5.3.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-23.1-T25",
+      "reference_text": "Section 14.1.1",
+      "target_chapter": 14,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 14 extracted but section 14.1.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-23.1-T27",
+      "reference_text": "Section 15.7.8.2",
+      "target_chapter": 15,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 15 extracted but section 15.7.8.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-23.1-T34",
+      "reference_text": "Section 15.7.6.1.9",
+      "target_chapter": 15,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 15 extracted but section 15.7.6.1.9 not found"
+    },
+    {
+      "from_element": "ASCE7-22-23.1-T34",
+      "reference_text": "Table 15.4-1",
+      "target_chapter": 15,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 15 extracted but table 15.4-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-23.1-T35",
+      "reference_text": "Section 12.9.1.3",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.9.1.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-23.1-T43",
+      "reference_text": "Section 15.6.10",
+      "target_chapter": 15,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 15 extracted but section 15.6.10 not found"
+    },
+    {
+      "from_element": "ASCE7-22-23.1-T66",
+      "reference_text": "Table 13.6-1",
+      "target_chapter": 13,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 13 extracted but table 13.6-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-23.1-T73",
+      "reference_text": "Section 15.7.8.5",
+      "target_chapter": 15,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 15 extracted but section 15.7.8.5 not found"
+    },
+    {
+      "from_element": "ASCE7-22-23.1-T76",
+      "reference_text": "Section 15.6.2.3",
+      "target_chapter": 15,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 15 extracted but section 15.6.2.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-23.1-T76",
+      "reference_text": "Table 15.4-2",
+      "target_chapter": 15,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 15 extracted but table 15.4-2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-23.1-T77",
+      "reference_text": "Section 11.3",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-23.1-T79",
+      "reference_text": "Section 11.3",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-23.1-T81",
+      "reference_text": "Section 14.1.3.3.4",
+      "target_chapter": 14,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 14 extracted but section 14.1.3.3.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-23.1-T83",
+      "reference_text": "Section 14.2.4.5.5",
+      "target_chapter": 14,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 14 extracted but section 14.2.4.5.5 not found"
+    },
+    {
+      "from_element": "ASCE7-22-23.1-T85",
+      "reference_text": "Section 14.1.3.3.3",
+      "target_chapter": 14,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 14 extracted but section 14.1.3.3.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-23.1-T87",
+      "reference_text": "Section 14.2.4.5.5",
+      "target_chapter": 14,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 14 extracted but section 14.2.4.5.5 not found"
+    },
+    {
+      "from_element": "ASCE7-22-23.1-T95",
+      "reference_text": "Table 13.5-2",
+      "target_chapter": 13,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 13 extracted but table 13.5-2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-23.1-T97",
+      "reference_text": "Table 13.5-2",
+      "target_chapter": 13,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 13 extracted but table 13.5-2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-23.1-T98",
+      "reference_text": "Table 13.5-2",
+      "target_chapter": 13,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 13 extracted but table 13.5-2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-23.1-T100",
+      "reference_text": "Table 13.5-2",
+      "target_chapter": 13,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 13 extracted but table 13.5-2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-23.1-T102",
+      "reference_text": "Table 13.5-2",
+      "target_chapter": 13,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 13 extracted but table 13.5-2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-23.1-T104",
+      "reference_text": "Table 13.5-2",
+      "target_chapter": 13,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 13 extracted but table 13.5-2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-23.1-T112",
+      "reference_text": "Section 14.5.1",
+      "target_chapter": 14,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 14 extracted but section 14.5.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-23.1-T115",
+      "reference_text": "Table 12.10-1",
+      "target_chapter": 12,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but table 12.10-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-23.1-T122",
+      "reference_text": "Section 15.7.10.7",
+      "target_chapter": 15,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 15 extracted but section 15.7.10.7 not found"
+    },
+    {
+      "from_element": "ASCE7-22-23.1-T125",
+      "reference_text": "Section 15.7.7.3",
+      "target_chapter": 15,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 15 extracted but section 15.7.7.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-23.1-T127",
+      "reference_text": "Section 15.7.7.3",
+      "target_chapter": 15,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 15 extracted but section 15.7.7.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-23.1-T129",
+      "reference_text": "Section 11.2",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-23.1-R22",
+      "reference_text": "Section 11.2",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-23.1-R24",
+      "reference_text": "Section 13.2.5",
+      "target_chapter": 13,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 13 extracted but section 13.2.5 not found"
+    },
+    {
+      "from_element": "ASCE7-22-23.1-R25",
+      "reference_text": "Section 11.1.2",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.1.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-23.1-R26",
+      "reference_text": "Section 13.6.4.1",
+      "target_chapter": 13,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 13 extracted but section 13.6.4.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-23.1-T136",
+      "reference_text": "Section 15.4.8",
+      "target_chapter": 15,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 15 extracted but section 15.4.8 not found"
+    },
+    {
+      "from_element": "ASCE7-22-23.1-T141",
+      "reference_text": "Section 12.13.9.2.1.1",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.13.9.2.1.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-26.1.3-H1",
+      "reference_text": "Section 1.3.1.3",
+      "target_chapter": 1,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 1 extracted but section 1.3.1.3 not found"
     },
     {
       "from_element": "ASCE7-22-26.2-D18",
       "reference_text": "Figure 29.4-7",
       "target_chapter": 29,
       "target_type": "figure",
-      "status": "pending",
-      "reason": "Chapter 29 not yet extracted"
-    },
-    {
-      "from_element": "ASCE7-22-26.2-D30",
-      "reference_text": "Chapter 31",
-      "target_chapter": 31,
-      "target_type": "chapter",
-      "status": "pending",
-      "reason": "Chapter 31 not yet extracted"
+      "status": "broken",
+      "reason": "Chapter 29 extracted but figure 29.4-7 not found"
     },
     {
       "from_element": "ASCE7-22-26.3-T6",
       "reference_text": "Figure 29.4-7",
       "target_chapter": 29,
       "target_type": "figure",
-      "status": "pending",
-      "reason": "Chapter 29 not yet extracted"
+      "status": "broken",
+      "reason": "Chapter 29 extracted but figure 29.4-7 not found"
     },
     {
       "from_element": "ASCE7-22-26.3-T11",
       "reference_text": "Figure 29.4-11",
       "target_chapter": 29,
       "target_type": "figure",
-      "status": "pending",
-      "reason": "Chapter 29 not yet extracted"
+      "status": "broken",
+      "reason": "Chapter 29 extracted but figure 29.4-11 not found"
     },
     {
       "from_element": "ASCE7-22-26.3-T26",
       "reference_text": "Figure 29.4-7",
       "target_chapter": 29,
       "target_type": "figure",
-      "status": "pending",
-      "reason": "Chapter 29 not yet extracted"
+      "status": "broken",
+      "reason": "Chapter 29 extracted but figure 29.4-7 not found"
     },
     {
       "from_element": "ASCE7-22-26.3-T27",
       "reference_text": "Figure 29.4-7",
       "target_chapter": 29,
       "target_type": "figure",
-      "status": "pending",
-      "reason": "Chapter 29 not yet extracted"
+      "status": "broken",
+      "reason": "Chapter 29 extracted but figure 29.4-7 not found"
     },
     {
       "from_element": "ASCE7-22-26.3-T29",
       "reference_text": "Figure 29.4-9",
       "target_chapter": 29,
       "target_type": "figure",
-      "status": "pending",
-      "reason": "Chapter 29 not yet extracted"
+      "status": "broken",
+      "reason": "Chapter 29 extracted but figure 29.4-9 not found"
     },
     {
       "from_element": "ASCE7-22-26.3-T32",
       "reference_text": "Figure 29.4-11",
       "target_chapter": 29,
       "target_type": "figure",
-      "status": "pending",
-      "reason": "Chapter 29 not yet extracted"
+      "status": "broken",
+      "reason": "Chapter 29 extracted but figure 29.4-11 not found"
     },
     {
       "from_element": "ASCE7-22-26.3-T33",
       "reference_text": "Figure 29.4-11",
       "target_chapter": 29,
       "target_type": "figure",
-      "status": "pending",
-      "reason": "Chapter 29 not yet extracted"
+      "status": "broken",
+      "reason": "Chapter 29 extracted but figure 29.4-11 not found"
     },
     {
       "from_element": "ASCE7-22-26.3-T34",
       "reference_text": "Figure 29.4-10",
       "target_chapter": 29,
       "target_type": "figure",
-      "status": "pending",
-      "reason": "Chapter 29 not yet extracted"
+      "status": "broken",
+      "reason": "Chapter 29 extracted but figure 29.4-10 not found"
     },
     {
       "from_element": "ASCE7-22-26.3-T35",
       "reference_text": "Figure 29.4-10",
       "target_chapter": 29,
       "target_type": "figure",
-      "status": "pending",
-      "reason": "Chapter 29 not yet extracted"
+      "status": "broken",
+      "reason": "Chapter 29 extracted but figure 29.4-10 not found"
     },
     {
       "from_element": "ASCE7-22-26.3-T45",
       "reference_text": "Figure 29.4-7",
       "target_chapter": 29,
       "target_type": "figure",
-      "status": "pending",
-      "reason": "Chapter 29 not yet extracted"
+      "status": "broken",
+      "reason": "Chapter 29 extracted but figure 29.4-7 not found"
     },
     {
       "from_element": "ASCE7-22-26.3-T65",
       "reference_text": "Figure 29.4-7",
       "target_chapter": 29,
       "target_type": "figure",
-      "status": "pending",
-      "reason": "Chapter 29 not yet extracted"
+      "status": "broken",
+      "reason": "Chapter 29 extracted but figure 29.4-7 not found"
     },
     {
       "from_element": "ASCE7-22-26.3-T66",
       "reference_text": "Figure 29.4-9",
       "target_chapter": 29,
       "target_type": "figure",
-      "status": "pending",
-      "reason": "Chapter 29 not yet extracted"
+      "status": "broken",
+      "reason": "Chapter 29 extracted but figure 29.4-9 not found"
     },
     {
       "from_element": "ASCE7-22-26.3-T68",
       "reference_text": "Figure 29.4-7",
       "target_chapter": 29,
       "target_type": "figure",
-      "status": "pending",
-      "reason": "Chapter 29 not yet extracted"
+      "status": "broken",
+      "reason": "Chapter 29 extracted but figure 29.4-7 not found"
     },
     {
       "from_element": "ASCE7-22-26.3-T69",
       "reference_text": "Figure 29.3-1",
       "target_chapter": 29,
       "target_type": "figure",
-      "status": "pending",
-      "reason": "Chapter 29 not yet extracted"
+      "status": "broken",
+      "reason": "Chapter 29 extracted but figure 29.3-1 not found"
     },
     {
-      "from_element": "ASCE7-22-26.3-T79",
-      "reference_text": "Figure 27.3-8",
-      "target_chapter": 27,
-      "target_type": "figure",
-      "status": "pending",
-      "reason": "Chapter 27 not yet extracted"
-    },
-    {
-      "from_element": "ASCE7-22-26.3-T89",
+      "from_element": "ASCE7-22-26.3-T90",
       "reference_text": "Figure 29.4-9",
       "target_chapter": 29,
       "target_type": "figure",
-      "status": "pending",
-      "reason": "Chapter 29 not yet extracted"
+      "status": "broken",
+      "reason": "Chapter 29 extracted but figure 29.4-9 not found"
     },
     {
       "from_element": "ASCE7-22-26.3-T91",
       "reference_text": "Figure 29.4-9",
       "target_chapter": 29,
       "target_type": "figure",
-      "status": "pending",
-      "reason": "Chapter 29 not yet extracted"
+      "status": "broken",
+      "reason": "Chapter 29 extracted but figure 29.4-9 not found"
+    },
+    {
+      "from_element": "ASCE7-22-26.3-H2",
+      "reference_text": "Figure 29.4-9",
+      "target_chapter": 29,
+      "target_type": "figure",
+      "status": "broken",
+      "reason": "Chapter 29 extracted but figure 29.4-9 not found"
     },
     {
       "from_element": "ASCE7-22-26.3-T92",
-      "reference_text": "Figure 29.4-9",
-      "target_chapter": 29,
-      "target_type": "figure",
-      "status": "pending",
-      "reason": "Chapter 29 not yet extracted"
-    },
-    {
-      "from_element": "ASCE7-22-26.3-T93",
       "reference_text": "Figure 29.3-1",
       "target_chapter": 29,
       "target_type": "figure",
-      "status": "pending",
-      "reason": "Chapter 29 not yet extracted"
+      "status": "broken",
+      "reason": "Chapter 29 extracted but figure 29.3-1 not found"
     },
     {
-      "from_element": "ASCE7-22-26.3-T94",
+      "from_element": "ASCE7-22-26.3-T93",
       "reference_text": "Figure 29.4-9",
       "target_chapter": 29,
       "target_type": "figure",
-      "status": "pending",
-      "reason": "Chapter 29 not yet extracted"
+      "status": "broken",
+      "reason": "Chapter 29 extracted but figure 29.4-9 not found"
+    },
+    {
+      "from_element": "ASCE7-22-26.3-T97",
+      "reference_text": "Figure 29.4-9",
+      "target_chapter": 29,
+      "target_type": "figure",
+      "status": "broken",
+      "reason": "Chapter 29 extracted but figure 29.4-9 not found"
     },
     {
       "from_element": "ASCE7-22-26.3-T98",
-      "reference_text": "Figure 29.4-9",
+      "reference_text": "Figure 29.4-7",
       "target_chapter": 29,
       "target_type": "figure",
-      "status": "pending",
-      "reason": "Chapter 29 not yet extracted"
+      "status": "broken",
+      "reason": "Chapter 29 extracted but figure 29.4-7 not found"
     },
     {
       "from_element": "ASCE7-22-26.3-T99",
       "reference_text": "Figure 29.4-7",
       "target_chapter": 29,
       "target_type": "figure",
-      "status": "pending",
-      "reason": "Chapter 29 not yet extracted"
+      "status": "broken",
+      "reason": "Chapter 29 extracted but figure 29.4-7 not found"
     },
     {
-      "from_element": "ASCE7-22-26.3-T100",
+      "from_element": "ASCE7-22-26.3-T111",
       "reference_text": "Figure 29.4-7",
       "target_chapter": 29,
       "target_type": "figure",
-      "status": "pending",
-      "reason": "Chapter 29 not yet extracted"
+      "status": "broken",
+      "reason": "Chapter 29 extracted but figure 29.4-7 not found"
     },
     {
-      "from_element": "ASCE7-22-26.3-T112",
+      "from_element": "ASCE7-22-26.3-T118",
       "reference_text": "Figure 29.4-7",
       "target_chapter": 29,
       "target_type": "figure",
-      "status": "pending",
-      "reason": "Chapter 29 not yet extracted"
+      "status": "broken",
+      "reason": "Chapter 29 extracted but figure 29.4-7 not found"
     },
     {
-      "from_element": "ASCE7-22-26.3-T119",
-      "reference_text": "Figure 29.4-7",
-      "target_chapter": 29,
-      "target_type": "figure",
-      "status": "pending",
-      "reason": "Chapter 29 not yet extracted"
-    },
-    {
-      "from_element": "ASCE7-22-26.3-T119",
+      "from_element": "ASCE7-22-26.3-T118",
       "reference_text": "Figure 29.4-9",
       "target_chapter": 29,
       "target_type": "figure",
-      "status": "pending",
-      "reason": "Chapter 29 not yet extracted"
-    },
-    {
-      "from_element": "ASCE7-22-26.6-P1",
-      "reference_text": "Chapter 31",
-      "target_chapter": 31,
-      "target_type": "chapter",
-      "status": "pending",
-      "reason": "Chapter 31 not yet extracted"
+      "status": "broken",
+      "reason": "Chapter 29 extracted but figure 29.4-9 not found"
     },
     {
       "from_element": "ASCE7-22-26.6-P1",
       "reference_text": "Section 31.4.3",
       "target_chapter": 31,
       "target_type": "section",
-      "status": "pending",
-      "reason": "Chapter 31 not yet extracted"
-    },
-    {
-      "from_element": "ASCE7-22-26.7.4.1-H1",
-      "reference_text": "Chapter 27",
-      "target_chapter": 27,
-      "target_type": "chapter",
-      "status": "pending",
-      "reason": "Chapter 27 not yet extracted"
-    },
-    {
-      "from_element": "ASCE7-22-26.7.4.2-H1",
-      "reference_text": "Chapter 28",
-      "target_chapter": 28,
-      "target_type": "chapter",
-      "status": "pending",
-      "reason": "Chapter 28 not yet extracted"
-    },
-    {
-      "from_element": "ASCE7-22-26.7.4.3-H1",
-      "reference_text": "Chapter 29",
-      "target_chapter": 29,
-      "target_type": "chapter",
-      "status": "pending",
-      "reason": "Chapter 29 not yet extracted"
-    },
-    {
-      "from_element": "ASCE7-22-26.7.4.4-H1",
-      "reference_text": "Chapter 30",
-      "target_chapter": 30,
-      "target_type": "chapter",
-      "status": "pending",
-      "reason": "Chapter 30 not yet extracted"
-    },
-    {
-      "from_element": "ASCE7-22-26.11.3-T2",
-      "reference_text": "Chapter 28",
-      "target_chapter": 28,
-      "target_type": "chapter",
-      "status": "pending",
-      "reason": "Chapter 28 not yet extracted"
+      "status": "broken",
+      "reason": "Chapter 31 extracted but section 31.4.3 not found"
     },
     {
       "from_element": "ASCE7-22-26.12.3.1-P2",
       "reference_text": "Section 1.5",
       "target_chapter": 1,
       "target_type": "section",
-      "status": "pending",
-      "reason": "Chapter 1 not yet extracted"
+      "status": "broken",
+      "reason": "Chapter 1 extracted but section 1.5 not found"
     },
     {
       "from_element": "ASCE7-22-26.12.3.2-P2",
       "reference_text": "Section 1.5",
       "target_chapter": 1,
       "target_type": "section",
-      "status": "pending",
-      "reason": "Chapter 1 not yet extracted"
+      "status": "broken",
+      "reason": "Chapter 1 extracted but section 1.5 not found"
+    },
+    {
+      "from_element": "ASCE7-22-27.3.1-H2",
+      "reference_text": "Table 1.5-1",
+      "target_chapter": 1,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 1 extracted but table 1.5-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-27.3.2-P2",
+      "reference_text": "Section 28.3.5",
+      "target_chapter": 28,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 28 extracted but section 28.3.5 not found"
+    },
+    {
+      "from_element": "ASCE7-22-28.2-T2",
+      "reference_text": "Table 1.5-1",
+      "target_chapter": 1,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 1 extracted but table 1.5-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-28.3.7-H1",
+      "reference_text": "Section 27.4.3",
+      "target_chapter": 27,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 27 extracted but section 27.4.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-29.1.4-T1",
+      "reference_text": "Table 1.5-1",
+      "target_chapter": 1,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 1 extracted but table 1.5-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-29.1.4-T27",
+      "reference_text": "Table 1.5-1",
+      "target_chapter": 1,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 1 extracted but table 1.5-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-29.4.2.2-P2",
+      "reference_text": "Figure 27.3-2",
+      "target_chapter": 27,
+      "target_type": "figure",
+      "status": "broken",
+      "reason": "Chapter 27 extracted but figure 27.3-2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-29.5-T1",
+      "reference_text": "Section 27.3.4",
+      "target_chapter": 27,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 27 extracted but section 27.3.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-29.5-T1",
+      "reference_text": "Section 28.3.4",
+      "target_chapter": 28,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 28 extracted but section 28.3.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-29.6-T1",
+      "reference_text": "Section 27.3.3",
+      "target_chapter": 27,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 27 extracted but section 27.3.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-29.6-T1",
+      "reference_text": "Section 28.3.5",
+      "target_chapter": 28,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 28 extracted but section 28.3.5 not found"
+    },
+    {
+      "from_element": "ASCE7-22-3.1.3-H1",
+      "reference_text": "Section 1.3.6",
+      "target_chapter": 1,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 1 extracted but section 1.3.6 not found"
+    },
+    {
+      "from_element": "ASCE7-22-3.3-P1",
+      "reference_text": "Section 2.3.7",
+      "target_chapter": 2,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 2 extracted but section 2.3.7 not found"
+    },
+    {
+      "from_element": "ASCE7-22-30.3.2.1-T1",
+      "reference_text": "Table 1.5-1",
+      "target_chapter": 1,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 1 extracted but table 1.5-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-30.4.2-T2",
+      "reference_text": "Table 1.5-1",
+      "target_chapter": 1,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 1 extracted but table 1.5-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-30.5.2-T8",
+      "reference_text": "Table 1.5-1",
+      "target_chapter": 1,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 1 extracted but table 1.5-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-30.6-T12",
+      "reference_text": "Table 1.5-1",
+      "target_chapter": 1,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 1 extracted but table 1.5-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-30.7-T34",
+      "reference_text": "Table 1.5-1",
+      "target_chapter": 1,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 1 extracted but table 1.5-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-30.8-P1",
+      "reference_text": "Section 29.4.1",
+      "target_chapter": 29,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 29 extracted but section 29.4.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-30.9-T7",
+      "reference_text": "Table 1.5-1",
+      "target_chapter": 1,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 1 extracted but table 1.5-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-30.10.2-T1",
+      "reference_text": "Table 1.5-1",
+      "target_chapter": 1,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 1 extracted but table 1.5-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-30.11-P1",
+      "reference_text": "Section 29.4.3",
+      "target_chapter": 29,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 29 extracted but section 29.4.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-31.1-P2",
+      "reference_text": "Section 1.3.1.3.4",
+      "target_chapter": 1,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 1 extracted but section 1.3.1.3.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-31.4.5-H1",
+      "reference_text": "Section 29.4.5.1",
+      "target_chapter": 29,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 29 extracted but section 29.4.5.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-31.4.5-H1",
+      "reference_text": "Section 29.4.5",
+      "target_chapter": 29,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 29 extracted but section 29.4.5 not found"
+    },
+    {
+      "from_element": "ASCE7-22-31.4.5-H1",
+      "reference_text": "Section 30.2.2",
+      "target_chapter": 30,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 30 extracted but section 30.2.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-31.5.2-H1",
+      "reference_text": "Section 30.2.2",
+      "target_chapter": 30,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 30 extracted but section 30.2.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-31.5.2-H1",
+      "reference_text": "Figure 29.4-7",
+      "target_chapter": 29,
+      "target_type": "figure",
+      "status": "broken",
+      "reason": "Chapter 29 extracted but figure 29.4-7 not found"
+    },
+    {
+      "from_element": "ASCE7-22-31.5.3-H1",
+      "reference_text": "Figure 29.4-7",
+      "target_chapter": 29,
+      "target_type": "figure",
+      "status": "broken",
+      "reason": "Chapter 29 extracted but figure 29.4-7 not found"
+    },
+    {
+      "from_element": "ASCE7-22-32.1.3-H1",
+      "reference_text": "Section 1.3.1.3",
+      "target_chapter": 1,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 1 extracted but section 1.3.1.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-32.15.1-H1",
+      "reference_text": "Section 27.3.1",
+      "target_chapter": 27,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 27 extracted but section 27.3.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-32.15.1-T6",
+      "reference_text": "Section 27.3.1",
+      "target_chapter": 27,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 27 extracted but section 27.3.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-32.15.1.1-P1",
+      "reference_text": "Section 27.3.1.1",
+      "target_chapter": 27,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 27 extracted but section 27.3.1.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-32.15.2-P1",
+      "reference_text": "Section 27.3.2",
+      "target_chapter": 27,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 27 extracted but section 27.3.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-32.15.2-T6",
+      "reference_text": "Section 27.3.2",
+      "target_chapter": 27,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 27 extracted but section 27.3.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-32.15.3-H1",
+      "reference_text": "Section 27.3.3",
+      "target_chapter": 27,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 27 extracted but section 27.3.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-32.15.4-H1",
+      "reference_text": "Section 27.3.4",
+      "target_chapter": 27,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 27 extracted but section 27.3.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-32.15.4-T3",
+      "reference_text": "Section 27.3.4",
+      "target_chapter": 27,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 27 extracted but section 27.3.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-32.15.5-P1",
+      "reference_text": "Section 27.3.5",
+      "target_chapter": 27,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 27 extracted but section 27.3.5 not found"
+    },
+    {
+      "from_element": "ASCE7-22-32.16.2-H1",
+      "reference_text": "Section 29.3",
+      "target_chapter": 29,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 29 extracted but section 29.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-32.16.2-T4",
+      "reference_text": "Figure 29.3-1",
+      "target_chapter": 29,
+      "target_type": "figure",
+      "status": "broken",
+      "reason": "Chapter 29 extracted but figure 29.3-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-32.16.3-H1",
+      "reference_text": "Section 29.4",
+      "target_chapter": 29,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 29 extracted but section 29.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-32.16.3-T4",
+      "reference_text": "Section 29.4",
+      "target_chapter": 29,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 29 extracted but section 29.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-32.16.3-T5",
+      "reference_text": "Section 29.4",
+      "target_chapter": 29,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 29 extracted but section 29.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-32.16.3.2-H1",
+      "reference_text": "Section 29.4.1",
+      "target_chapter": 29,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 29 extracted but section 29.4.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-32.16.3.2-T3",
+      "reference_text": "Section 29.4.1",
+      "target_chapter": 29,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 29 extracted but section 29.4.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-32.16.3.2-T4",
+      "reference_text": "Section 29.4.1",
+      "target_chapter": 29,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 29 extracted but section 29.4.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-32.16.3.2-T9",
+      "reference_text": "Section 29.4.1",
+      "target_chapter": 29,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 29 extracted but section 29.4.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-32.16.3.3-P1",
+      "reference_text": "Section 29.4.2.2",
+      "target_chapter": 29,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 29 extracted but section 29.4.2.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-32.16.3.3-T8",
+      "reference_text": "Section 29.4.2.2",
+      "target_chapter": 29,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 29 extracted but section 29.4.2.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-32.16.3.4-P1",
+      "reference_text": "Section 29.4.3",
+      "target_chapter": 29,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 29 extracted but section 29.4.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-32.16.3.4-T7",
+      "reference_text": "Section 29.4.3",
+      "target_chapter": 29,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 29 extracted but section 29.4.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-32.16.3.5-P1",
+      "reference_text": "Section 29.4.4",
+      "target_chapter": 29,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 29 extracted but section 29.4.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-32.16.3.5-T4",
+      "reference_text": "Section 29.4.4",
+      "target_chapter": 29,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 29 extracted but section 29.4.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-32.16.3.5-T5",
+      "reference_text": "Section 29.4.4",
+      "target_chapter": 29,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 29 extracted but section 29.4.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-32.16.3.5-T6",
+      "reference_text": "Section 29.4.4",
+      "target_chapter": 29,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 29 extracted but section 29.4.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-32.17.1-H1",
+      "reference_text": "Section 30.3",
+      "target_chapter": 30,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 30 extracted but section 30.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-32.17.1-T3",
+      "reference_text": "Section 30.3",
+      "target_chapter": 30,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 30 extracted but section 30.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-32.17.1.1-P1",
+      "reference_text": "Section 30.3.2.1",
+      "target_chapter": 30,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 30 extracted but section 30.3.2.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-32.17.2-H1",
+      "reference_text": "Section 30.4",
+      "target_chapter": 30,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 30 extracted but section 30.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-32.17.2-T7",
+      "reference_text": "Section 30.4",
+      "target_chapter": 30,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 30 extracted but section 30.4 not found"
+    },
+    {
+      "from_element": "ASCE7-22-32.17.2.1-P1",
+      "reference_text": "Section 30.5.2.1",
+      "target_chapter": 30,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 30 extracted but section 30.5.2.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-32.17.3-H1",
+      "reference_text": "Section 30.5",
+      "target_chapter": 30,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 30 extracted but section 30.5 not found"
+    },
+    {
+      "from_element": "ASCE7-22-32.17.3-H2",
+      "reference_text": "Section 30.5",
+      "target_chapter": 30,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 30 extracted but section 30.5 not found"
+    },
+    {
+      "from_element": "ASCE7-22-32.17.4.1-H1",
+      "reference_text": "Section 30.6",
+      "target_chapter": 30,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 30 extracted but section 30.6 not found"
+    },
+    {
+      "from_element": "ASCE7-22-32.17.4.1-T3",
+      "reference_text": "Section 30.8",
+      "target_chapter": 30,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 30 extracted but section 30.8 not found"
+    },
+    {
+      "from_element": "ASCE7-22-32.17.4.2-H1",
+      "reference_text": "Section 30.7",
+      "target_chapter": 30,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 30 extracted but section 30.7 not found"
+    },
+    {
+      "from_element": "ASCE7-22-32.17.4.3-H1",
+      "reference_text": "Section 30.9",
+      "target_chapter": 30,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 30 extracted but section 30.9 not found"
+    },
+    {
+      "from_element": "ASCE7-22-32.17.4.3-T2",
+      "reference_text": "Section 30.9",
+      "target_chapter": 30,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 30 extracted but section 30.9 not found"
+    },
+    {
+      "from_element": "ASCE7-22-32.17.5-H1",
+      "reference_text": "Section 30.10",
+      "target_chapter": 30,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 30 extracted but section 30.10 not found"
+    },
+    {
+      "from_element": "ASCE7-22-32.17.5.1-P1",
+      "reference_text": "Figure 30.12-2",
+      "target_chapter": 30,
+      "target_type": "figure",
+      "status": "broken",
+      "reason": "Chapter 30 extracted but figure 30.12-2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-32.17.5.1-P2",
+      "reference_text": "Figure 30.12-2",
+      "target_chapter": 30,
+      "target_type": "figure",
+      "status": "broken",
+      "reason": "Chapter 30 extracted but figure 30.12-2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-32.17.5.1-P3",
+      "reference_text": "Figure 30.12-2",
+      "target_chapter": 30,
+      "target_type": "figure",
+      "status": "broken",
+      "reason": "Chapter 30 extracted but figure 30.12-2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-32.17.5.1-T3",
+      "reference_text": "Section 30.10",
+      "target_chapter": 30,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 30 extracted but section 30.10 not found"
+    },
+    {
+      "from_element": "ASCE7-22-32.17.5.1-T4",
+      "reference_text": "Section 30.12.3",
+      "target_chapter": 30,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 30 extracted but section 30.12.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-5.4.4.3-T6",
+      "reference_text": "Table 1.5-1",
+      "target_chapter": 1,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 1 extracted but table 1.5-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-6.2-T77",
+      "reference_text": "Section 13.1.3",
+      "target_chapter": 13,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 13 extracted but section 13.1.3 not found"
+    },
+    {
+      "from_element": "ASCE7-22-6.2-D59",
+      "reference_text": "Section 1.5",
+      "target_chapter": 1,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 1 extracted but section 1.5 not found"
+    },
+    {
+      "from_element": "ASCE7-22-6.3-T24",
+      "reference_text": "Section 12.4.3.1",
+      "target_chapter": 12,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but section 12.4.3.1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-6.3-T110",
+      "reference_text": "Table 12.2-1",
+      "target_chapter": 12,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 12 extracted but table 12.2-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-6.4-P1",
+      "reference_text": "Section 1.5",
+      "target_chapter": 1,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 1 extracted but section 1.5 not found"
+    },
+    {
+      "from_element": "ASCE7-22-6.8.3.5.3-P1",
+      "reference_text": "Section 2.5.2.2",
+      "target_chapter": 2,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 2 extracted but section 2.5.2.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-6.12-P2",
+      "reference_text": "Section 11.8",
+      "target_chapter": 11,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 11 extracted but section 11.8 not found"
+    },
+    {
+      "from_element": "ASCE7-22-6.12.2-H1",
+      "reference_text": "Section 3.2",
+      "target_chapter": 3,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 3 extracted but section 3.2 not found"
+    },
+    {
+      "from_element": "ASCE7-22-7.2-P1",
+      "reference_text": "Table 1.3-1",
+      "target_chapter": 1,
+      "target_type": "table",
+      "status": "broken",
+      "reason": "Chapter 1 extracted but table 1.3-1 not found"
+    },
+    {
+      "from_element": "ASCE7-22-7.14.1-P1",
+      "reference_text": "Section 1.3.1.3.4",
+      "target_chapter": 1,
+      "target_type": "section",
+      "status": "broken",
+      "reason": "Chapter 1 extracted but section 1.3.1.3.4 not found"
+    }
+  ],
+  "external_references": [
+    {
+      "standard": "ACI 318",
+      "reference_count": 38,
+      "referenced_from_chapters": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        23
+      ]
+    },
+    {
+      "standard": "TMS 402",
+      "reference_count": 19,
+      "referenced_from_chapters": [
+        13,
+        14,
+        15,
+        23
+      ]
+    },
+    {
+      "standard": "ANSI/AISI",
+      "reference_count": 14,
+      "referenced_from_chapters": [
+        12,
+        14,
+        23
+      ]
+    },
+    {
+      "standard": "ACI 318.",
+      "reference_count": 12,
+      "referenced_from_chapters": [
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "standard": "ANSI/RMI",
+      "reference_count": 9,
+      "referenced_from_chapters": [
+        15,
+        23
+      ]
+    },
+    {
+      "standard": "ANSI/AISC",
+      "reference_count": 8,
+      "referenced_from_chapters": [
+        12,
+        14,
+        23
+      ]
+    },
+    {
+      "standard": "AISC 341",
+      "reference_count": 8,
+      "referenced_from_chapters": [
+        14,
+        15,
+        17,
+        23
+      ]
+    },
+    {
+      "standard": "AISC 341.",
+      "reference_count": 7,
+      "referenced_from_chapters": [
+        12,
+        14,
+        15
+      ]
+    },
+    {
+      "standard": "AISC 360",
+      "reference_count": 7,
+      "referenced_from_chapters": [
+        14,
+        15,
+        23
+      ]
+    },
+    {
+      "standard": "ASTM E1996",
+      "reference_count": 6,
+      "referenced_from_chapters": [
+        26,
+        32
+      ]
+    },
+    {
+      "standard": "FEMA P-2078",
+      "reference_count": 5,
+      "referenced_from_chapters": [
+        22
+      ]
+    },
+    {
+      "standard": "ASTM F1554",
+      "reference_count": 4,
+      "referenced_from_chapters": [
+        13,
+        15,
+        23
+      ]
+    },
+    {
+      "standard": "ASTM E1886",
+      "reference_count": 4,
+      "referenced_from_chapters": [
+        26,
+        32
+      ]
+    },
+    {
+      "standard": "ANSI/DASMA",
+      "reference_count": 4,
+      "referenced_from_chapters": [
+        26,
+        32
+      ]
+    },
+    {
+      "standard": "ASTM A108",
+      "reference_count": 3,
+      "referenced_from_chapters": [
+        11,
+        23
+      ]
+    },
+    {
+      "standard": "ASTM D1586",
+      "reference_count": 3,
+      "referenced_from_chapters": [
+        11,
+        23
+      ]
+    },
+    {
+      "standard": "ASTM D4318",
+      "reference_count": 3,
+      "referenced_from_chapters": [
+        11,
+        23
+      ]
+    },
+    {
+      "standard": "ASTM D2166",
+      "reference_count": 3,
+      "referenced_from_chapters": [
+        11,
+        23
+      ]
+    },
+    {
+      "standard": "ASTM D2850",
+      "reference_count": 3,
+      "referenced_from_chapters": [
+        11,
+        23
+      ]
+    },
+    {
+      "standard": "ASTM D2216",
+      "reference_count": 3,
+      "referenced_from_chapters": [
+        11,
+        23
+      ]
+    },
+    {
+      "standard": "ASTM C1087",
+      "reference_count": 3,
+      "referenced_from_chapters": [
+        13,
+        23
+      ]
+    },
+    {
+      "standard": "ASTM C1135",
+      "reference_count": 3,
+      "referenced_from_chapters": [
+        13,
+        23
+      ]
+    },
+    {
+      "standard": "ASTM C1184",
+      "reference_count": 3,
+      "referenced_from_chapters": [
+        13,
+        23
+      ]
+    },
+    {
+      "standard": "ASTM C1265",
+      "reference_count": 3,
+      "referenced_from_chapters": [
+        13,
+        23
+      ]
+    },
+    {
+      "standard": "ASTM C1294",
+      "reference_count": 3,
+      "referenced_from_chapters": [
+        13,
+        23
+      ]
+    },
+    {
+      "standard": "ANSI/SDI-QA",
+      "reference_count": 3,
+      "referenced_from_chapters": [
+        14,
+        23
+      ]
+    },
+    {
+      "standard": "ANSI/SDI-SD",
+      "reference_count": 3,
+      "referenced_from_chapters": [
+        14,
+        23
+      ]
+    },
+    {
+      "standard": "ANSI/SJI-100",
+      "reference_count": 3,
+      "referenced_from_chapters": [
+        14,
+        23
+      ]
+    },
+    {
+      "standard": "ANSI/SJI-200",
+      "reference_count": 3,
+      "referenced_from_chapters": [
+        14,
+        23
+      ]
+    },
+    {
+      "standard": "ASCE/SEI 7",
+      "reference_count": 3,
+      "referenced_from_chapters": [
+        15
+      ]
+    },
+    {
+      "standard": "ACI 313.",
+      "reference_count": 3,
+      "referenced_from_chapters": [
+        15
+      ]
+    },
+    {
+      "standard": "ACI 307",
+      "reference_count": 3,
+      "referenced_from_chapters": [
+        15,
+        23
+      ]
+    },
+    {
+      "standard": "ACI 350.3",
+      "reference_count": 3,
+      "referenced_from_chapters": [
+        15,
+        23
+      ]
+    },
+    {
+      "standard": "ASTM A307",
+      "reference_count": 2,
+      "referenced_from_chapters": [
+        11,
+        23
+      ]
+    },
+    {
+      "standard": "ASTM C635",
+      "reference_count": 2,
+      "referenced_from_chapters": [
+        13
+      ]
+    },
+    {
+      "standard": "ASTM C636",
+      "reference_count": 2,
+      "referenced_from_chapters": [
+        13
+      ]
+    },
+    {
+      "standard": "ASTM E580",
+      "reference_count": 2,
+      "referenced_from_chapters": [
+        13
+      ]
+    },
+    {
+      "standard": "ACI 355.2",
+      "reference_count": 2,
+      "referenced_from_chapters": [
+        13,
+        15
+      ]
+    },
+    {
+      "standard": "ASTM C1369",
+      "reference_count": 2,
+      "referenced_from_chapters": [
+        13,
+        23
+      ]
+    },
+    {
+      "standard": "ANSI/AHRI",
+      "reference_count": 2,
+      "referenced_from_chapters": [
+        13,
+        23
+      ]
+    },
+    {
+      "standard": "TMS 602",
+      "reference_count": 2,
+      "referenced_from_chapters": [
+        14
+      ]
+    },
+    {
+      "standard": "ANSI/TIA-222-H",
+      "reference_count": 2,
+      "referenced_from_chapters": [
+        23
+      ]
+    },
+    {
+      "standard": "ASTM A500",
+      "reference_count": 2,
+      "referenced_from_chapters": [
+        23
+      ]
+    },
+    {
+      "standard": "ASTM A615",
+      "reference_count": 2,
+      "referenced_from_chapters": [
+        23
+      ]
+    },
+    {
+      "standard": "ASTM A653",
+      "reference_count": 2,
+      "referenced_from_chapters": [
+        23
+      ]
+    },
+    {
+      "standard": "ASTM A706/A706",
+      "reference_count": 2,
+      "referenced_from_chapters": [
+        23
+      ]
+    },
+    {
+      "standard": "ASTM C635/C635",
+      "reference_count": 2,
+      "referenced_from_chapters": [
+        23
+      ]
+    },
+    {
+      "standard": "ASTM C636/C636",
+      "reference_count": 2,
+      "referenced_from_chapters": [
+        23
+      ]
+    },
+    {
+      "standard": "ASTM E580/E580",
+      "reference_count": 2,
+      "referenced_from_chapters": [
+        23
+      ]
+    },
+    {
+      "standard": "ICC 500",
+      "reference_count": 2,
+      "referenced_from_chapters": [
+        26,
+        32
+      ]
+    },
+    {
+      "standard": "ASCE/SEI 24",
+      "reference_count": 2,
+      "referenced_from_chapters": [
+        5
+      ]
+    },
+    {
+      "standard": "ANSI/TIA-222.",
+      "reference_count": 1,
+      "referenced_from_chapters": [
+        10
+      ]
+    },
+    {
+      "standard": "ANSI/TIA-222",
+      "reference_count": 1,
+      "referenced_from_chapters": [
+        10
+      ]
+    },
+    {
+      "standard": "AISC 360.",
+      "reference_count": 1,
+      "referenced_from_chapters": [
+        14
+      ]
+    },
+    {
+      "standard": "ANSI/TIA-222-H.",
+      "reference_count": 1,
+      "referenced_from_chapters": [
+        15
+      ]
+    },
+    {
+      "standard": "ACI 350.3.",
+      "reference_count": 1,
+      "referenced_from_chapters": [
+        15
+      ]
+    },
+    {
+      "standard": "ACI 313",
+      "reference_count": 1,
+      "referenced_from_chapters": [
+        23
+      ]
+    },
+    {
+      "standard": "ACI 355.2-19",
+      "reference_count": 1,
+      "referenced_from_chapters": [
+        23
+      ]
+    },
+    {
+      "standard": "FEMA P-795",
+      "reference_count": 1,
+      "referenced_from_chapters": [
+        23
+      ]
+    },
+    {
+      "standard": "FEMA P-695",
+      "reference_count": 1,
+      "referenced_from_chapters": [
+        23
+      ]
+    },
+    {
+      "standard": "ANSI A58.1",
+      "reference_count": 1,
+      "referenced_from_chapters": [
+        26
+      ]
+    },
+    {
+      "standard": "ASTM E330",
+      "reference_count": 1,
+      "referenced_from_chapters": [
+        26
+      ]
+    },
+    {
+      "standard": "CAN/CSA A123.21",
+      "reference_count": 1,
+      "referenced_from_chapters": [
+        26
+      ]
+    },
+    {
+      "standard": "ASCE/SEI 7-22",
+      "reference_count": 1,
+      "referenced_from_chapters": [
+        30
+      ]
+    },
+    {
+      "standard": "ASCE/SEI 24-14",
+      "reference_count": 1,
+      "referenced_from_chapters": [
+        6
+      ]
+    },
+    {
+      "standard": "ASCE/SEI 41-13",
+      "reference_count": 1,
+      "referenced_from_chapters": [
+        6
+      ]
     }
   ],
   "summary": {
-    "total": 52,
-    "pending": 52,
-    "broken": 0
+    "total_unresolved": 640,
+    "pending": 6,
+    "broken": 634,
+    "external_standards": 66
   }
 }
