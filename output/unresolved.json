@@ -1,0 +1,426 @@
+{
+  "standard": "ASCE 7-22",
+  "unresolved": [
+    {
+      "from_element": "ASCE7-22-26.1.1-P1",
+      "reference_text": "Chapter 32",
+      "target_chapter": 32,
+      "target_type": "chapter",
+      "status": "pending",
+      "reason": "Chapter 32 not yet extracted"
+    },
+    {
+      "from_element": "ASCE7-22-26.1.2.1-T1",
+      "reference_text": "Chapter 27",
+      "target_chapter": 27,
+      "target_type": "chapter",
+      "status": "pending",
+      "reason": "Chapter 27 not yet extracted"
+    },
+    {
+      "from_element": "ASCE7-22-26.1.2.1-T2",
+      "reference_text": "Chapter 28",
+      "target_chapter": 28,
+      "target_type": "chapter",
+      "status": "pending",
+      "reason": "Chapter 28 not yet extracted"
+    },
+    {
+      "from_element": "ASCE7-22-26.1.2.1-T3",
+      "reference_text": "Chapter 29",
+      "target_chapter": 29,
+      "target_type": "chapter",
+      "status": "pending",
+      "reason": "Chapter 29 not yet extracted"
+    },
+    {
+      "from_element": "ASCE7-22-26.1.2.1-T4",
+      "reference_text": "Chapter 31",
+      "target_chapter": 31,
+      "target_type": "chapter",
+      "status": "pending",
+      "reason": "Chapter 31 not yet extracted"
+    },
+    {
+      "from_element": "ASCE7-22-26.1.2.2-T1",
+      "reference_text": "Chapter 30",
+      "target_chapter": 30,
+      "target_type": "chapter",
+      "status": "pending",
+      "reason": "Chapter 30 not yet extracted"
+    },
+    {
+      "from_element": "ASCE7-22-26.1.2.2-T2",
+      "reference_text": "Chapter 31",
+      "target_chapter": 31,
+      "target_type": "chapter",
+      "status": "pending",
+      "reason": "Chapter 31 not yet extracted"
+    },
+    {
+      "from_element": "ASCE7-22-26.1.3-P1",
+      "reference_text": "Section 1.3.1.3",
+      "target_chapter": 1,
+      "target_type": "section",
+      "status": "pending",
+      "reason": "Chapter 1 not yet extracted"
+    },
+    {
+      "from_element": "ASCE7-22-26.2-T26",
+      "reference_text": "Chapter 27",
+      "target_chapter": 27,
+      "target_type": "chapter",
+      "status": "pending",
+      "reason": "Chapter 27 not yet extracted"
+    },
+    {
+      "from_element": "ASCE7-22-26.2-T26",
+      "reference_text": "Chapter 28",
+      "target_chapter": 28,
+      "target_type": "chapter",
+      "status": "pending",
+      "reason": "Chapter 28 not yet extracted"
+    },
+    {
+      "from_element": "ASCE7-22-26.2-T36",
+      "reference_text": "Chapter 29",
+      "target_chapter": 29,
+      "target_type": "chapter",
+      "status": "pending",
+      "reason": "Chapter 29 not yet extracted"
+    },
+    {
+      "from_element": "ASCE7-22-26.2-T43",
+      "reference_text": "Chapter 31",
+      "target_chapter": 31,
+      "target_type": "chapter",
+      "status": "pending",
+      "reason": "Chapter 31 not yet extracted"
+    },
+    {
+      "from_element": "ASCE7-22-26.2-T43",
+      "reference_text": "Chapter 30",
+      "target_chapter": 30,
+      "target_type": "chapter",
+      "status": "pending",
+      "reason": "Chapter 30 not yet extracted"
+    },
+    {
+      "from_element": "ASCE7-22-26.2-T54",
+      "reference_text": "Chapter 31",
+      "target_chapter": 31,
+      "target_type": "chapter",
+      "status": "pending",
+      "reason": "Chapter 31 not yet extracted"
+    },
+    {
+      "from_element": "ASCE7-22-26.2-D10",
+      "reference_text": "Figure 27.3-8",
+      "target_chapter": 27,
+      "target_type": "figure",
+      "status": "pending",
+      "reason": "Chapter 27 not yet extracted"
+    },
+    {
+      "from_element": "ASCE7-22-26.2-D18",
+      "reference_text": "Figure 29.4-7",
+      "target_chapter": 29,
+      "target_type": "figure",
+      "status": "pending",
+      "reason": "Chapter 29 not yet extracted"
+    },
+    {
+      "from_element": "ASCE7-22-26.2-D30",
+      "reference_text": "Chapter 31",
+      "target_chapter": 31,
+      "target_type": "chapter",
+      "status": "pending",
+      "reason": "Chapter 31 not yet extracted"
+    },
+    {
+      "from_element": "ASCE7-22-26.3-T6",
+      "reference_text": "Figure 29.4-7",
+      "target_chapter": 29,
+      "target_type": "figure",
+      "status": "pending",
+      "reason": "Chapter 29 not yet extracted"
+    },
+    {
+      "from_element": "ASCE7-22-26.3-T11",
+      "reference_text": "Figure 29.4-11",
+      "target_chapter": 29,
+      "target_type": "figure",
+      "status": "pending",
+      "reason": "Chapter 29 not yet extracted"
+    },
+    {
+      "from_element": "ASCE7-22-26.3-T26",
+      "reference_text": "Figure 29.4-7",
+      "target_chapter": 29,
+      "target_type": "figure",
+      "status": "pending",
+      "reason": "Chapter 29 not yet extracted"
+    },
+    {
+      "from_element": "ASCE7-22-26.3-T27",
+      "reference_text": "Figure 29.4-7",
+      "target_chapter": 29,
+      "target_type": "figure",
+      "status": "pending",
+      "reason": "Chapter 29 not yet extracted"
+    },
+    {
+      "from_element": "ASCE7-22-26.3-T29",
+      "reference_text": "Figure 29.4-9",
+      "target_chapter": 29,
+      "target_type": "figure",
+      "status": "pending",
+      "reason": "Chapter 29 not yet extracted"
+    },
+    {
+      "from_element": "ASCE7-22-26.3-T32",
+      "reference_text": "Figure 29.4-11",
+      "target_chapter": 29,
+      "target_type": "figure",
+      "status": "pending",
+      "reason": "Chapter 29 not yet extracted"
+    },
+    {
+      "from_element": "ASCE7-22-26.3-T33",
+      "reference_text": "Figure 29.4-11",
+      "target_chapter": 29,
+      "target_type": "figure",
+      "status": "pending",
+      "reason": "Chapter 29 not yet extracted"
+    },
+    {
+      "from_element": "ASCE7-22-26.3-T34",
+      "reference_text": "Figure 29.4-10",
+      "target_chapter": 29,
+      "target_type": "figure",
+      "status": "pending",
+      "reason": "Chapter 29 not yet extracted"
+    },
+    {
+      "from_element": "ASCE7-22-26.3-T35",
+      "reference_text": "Figure 29.4-10",
+      "target_chapter": 29,
+      "target_type": "figure",
+      "status": "pending",
+      "reason": "Chapter 29 not yet extracted"
+    },
+    {
+      "from_element": "ASCE7-22-26.3-T45",
+      "reference_text": "Figure 29.4-7",
+      "target_chapter": 29,
+      "target_type": "figure",
+      "status": "pending",
+      "reason": "Chapter 29 not yet extracted"
+    },
+    {
+      "from_element": "ASCE7-22-26.3-T65",
+      "reference_text": "Figure 29.4-7",
+      "target_chapter": 29,
+      "target_type": "figure",
+      "status": "pending",
+      "reason": "Chapter 29 not yet extracted"
+    },
+    {
+      "from_element": "ASCE7-22-26.3-T66",
+      "reference_text": "Figure 29.4-9",
+      "target_chapter": 29,
+      "target_type": "figure",
+      "status": "pending",
+      "reason": "Chapter 29 not yet extracted"
+    },
+    {
+      "from_element": "ASCE7-22-26.3-T68",
+      "reference_text": "Figure 29.4-7",
+      "target_chapter": 29,
+      "target_type": "figure",
+      "status": "pending",
+      "reason": "Chapter 29 not yet extracted"
+    },
+    {
+      "from_element": "ASCE7-22-26.3-T69",
+      "reference_text": "Figure 29.3-1",
+      "target_chapter": 29,
+      "target_type": "figure",
+      "status": "pending",
+      "reason": "Chapter 29 not yet extracted"
+    },
+    {
+      "from_element": "ASCE7-22-26.3-T79",
+      "reference_text": "Figure 27.3-8",
+      "target_chapter": 27,
+      "target_type": "figure",
+      "status": "pending",
+      "reason": "Chapter 27 not yet extracted"
+    },
+    {
+      "from_element": "ASCE7-22-26.3-T89",
+      "reference_text": "Figure 29.4-9",
+      "target_chapter": 29,
+      "target_type": "figure",
+      "status": "pending",
+      "reason": "Chapter 29 not yet extracted"
+    },
+    {
+      "from_element": "ASCE7-22-26.3-T91",
+      "reference_text": "Figure 29.4-9",
+      "target_chapter": 29,
+      "target_type": "figure",
+      "status": "pending",
+      "reason": "Chapter 29 not yet extracted"
+    },
+    {
+      "from_element": "ASCE7-22-26.3-T92",
+      "reference_text": "Figure 29.4-9",
+      "target_chapter": 29,
+      "target_type": "figure",
+      "status": "pending",
+      "reason": "Chapter 29 not yet extracted"
+    },
+    {
+      "from_element": "ASCE7-22-26.3-T93",
+      "reference_text": "Figure 29.3-1",
+      "target_chapter": 29,
+      "target_type": "figure",
+      "status": "pending",
+      "reason": "Chapter 29 not yet extracted"
+    },
+    {
+      "from_element": "ASCE7-22-26.3-T94",
+      "reference_text": "Figure 29.4-9",
+      "target_chapter": 29,
+      "target_type": "figure",
+      "status": "pending",
+      "reason": "Chapter 29 not yet extracted"
+    },
+    {
+      "from_element": "ASCE7-22-26.3-T98",
+      "reference_text": "Figure 29.4-9",
+      "target_chapter": 29,
+      "target_type": "figure",
+      "status": "pending",
+      "reason": "Chapter 29 not yet extracted"
+    },
+    {
+      "from_element": "ASCE7-22-26.3-T99",
+      "reference_text": "Figure 29.4-7",
+      "target_chapter": 29,
+      "target_type": "figure",
+      "status": "pending",
+      "reason": "Chapter 29 not yet extracted"
+    },
+    {
+      "from_element": "ASCE7-22-26.3-T100",
+      "reference_text": "Figure 29.4-7",
+      "target_chapter": 29,
+      "target_type": "figure",
+      "status": "pending",
+      "reason": "Chapter 29 not yet extracted"
+    },
+    {
+      "from_element": "ASCE7-22-26.3-T112",
+      "reference_text": "Figure 29.4-7",
+      "target_chapter": 29,
+      "target_type": "figure",
+      "status": "pending",
+      "reason": "Chapter 29 not yet extracted"
+    },
+    {
+      "from_element": "ASCE7-22-26.3-T119",
+      "reference_text": "Figure 29.4-7",
+      "target_chapter": 29,
+      "target_type": "figure",
+      "status": "pending",
+      "reason": "Chapter 29 not yet extracted"
+    },
+    {
+      "from_element": "ASCE7-22-26.3-T119",
+      "reference_text": "Figure 29.4-9",
+      "target_chapter": 29,
+      "target_type": "figure",
+      "status": "pending",
+      "reason": "Chapter 29 not yet extracted"
+    },
+    {
+      "from_element": "ASCE7-22-26.6-P1",
+      "reference_text": "Chapter 31",
+      "target_chapter": 31,
+      "target_type": "chapter",
+      "status": "pending",
+      "reason": "Chapter 31 not yet extracted"
+    },
+    {
+      "from_element": "ASCE7-22-26.6-P1",
+      "reference_text": "Section 31.4.3",
+      "target_chapter": 31,
+      "target_type": "section",
+      "status": "pending",
+      "reason": "Chapter 31 not yet extracted"
+    },
+    {
+      "from_element": "ASCE7-22-26.7.4.1-H1",
+      "reference_text": "Chapter 27",
+      "target_chapter": 27,
+      "target_type": "chapter",
+      "status": "pending",
+      "reason": "Chapter 27 not yet extracted"
+    },
+    {
+      "from_element": "ASCE7-22-26.7.4.2-H1",
+      "reference_text": "Chapter 28",
+      "target_chapter": 28,
+      "target_type": "chapter",
+      "status": "pending",
+      "reason": "Chapter 28 not yet extracted"
+    },
+    {
+      "from_element": "ASCE7-22-26.7.4.3-H1",
+      "reference_text": "Chapter 29",
+      "target_chapter": 29,
+      "target_type": "chapter",
+      "status": "pending",
+      "reason": "Chapter 29 not yet extracted"
+    },
+    {
+      "from_element": "ASCE7-22-26.7.4.4-H1",
+      "reference_text": "Chapter 30",
+      "target_chapter": 30,
+      "target_type": "chapter",
+      "status": "pending",
+      "reason": "Chapter 30 not yet extracted"
+    },
+    {
+      "from_element": "ASCE7-22-26.11.3-T2",
+      "reference_text": "Chapter 28",
+      "target_chapter": 28,
+      "target_type": "chapter",
+      "status": "pending",
+      "reason": "Chapter 28 not yet extracted"
+    },
+    {
+      "from_element": "ASCE7-22-26.12.3.1-P2",
+      "reference_text": "Section 1.5",
+      "target_chapter": 1,
+      "target_type": "section",
+      "status": "pending",
+      "reason": "Chapter 1 not yet extracted"
+    },
+    {
+      "from_element": "ASCE7-22-26.12.3.2-P2",
+      "reference_text": "Section 1.5",
+      "target_chapter": 1,
+      "target_type": "section",
+      "status": "pending",
+      "reason": "Chapter 1 not yet extracted"
+    }
+  ],
+  "summary": {
+    "total": 52,
+    "pending": 52,
+    "broken": 0
+  }
+}

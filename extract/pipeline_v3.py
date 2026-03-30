@@ -76,9 +76,29 @@ def run_v3(pdf_path, standard="ASCE 7-22", chapter=26):
     print("  [+] Parsing provision conditions...")
     _parse_conditions(elements)
 
-    # Extract formula parameters
-    print("  [+] Extracting formula parameters...")
-    _extract_parameters(elements)
+    # Global symbols registry — replaces local _extract_parameters
+    print("  [+] Building global symbols table...")
+    from extract.symbols import build_symbols_table, resolve_parameters, save_symbols, load_symbols, merge_symbols
+    new_symbols = build_symbols_table(elements)
+    existing_symbols = load_symbols()
+    all_symbols = merge_symbols(existing_symbols, new_symbols)
+    params_filled = resolve_parameters(elements, all_symbols)
+    save_symbols(all_symbols)
+    print(f"    {len(all_symbols)} symbols, {params_filled}/{ sum(1 for e in elements if e['type']=='formula')} formulas have parameters")
+
+    # Manifest
+    print("  [+] Updating manifest...")
+    from extract.manifest import build_manifest_entry, update_manifest
+    entry = build_manifest_entry(elements, chapter, f"output/runs/final-ch{chapter}.json")
+    entry["standard"] = standard
+    update_manifest("output/manifest.json", entry)
+
+    # Unresolved references
+    print("  [+] Tracking unresolved references...")
+    from extract.unresolved import find_unresolved, save_unresolved, print_unresolved
+    unresolved = find_unresolved(elements)
+    save_unresolved(unresolved)
+    print_unresolved(unresolved)
 
     print(f"  Done: {len(elements)} elements")
     return elements, markdown

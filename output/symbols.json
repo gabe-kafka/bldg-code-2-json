@@ -1,0 +1,520 @@
+{
+  "symbols": {
+    "A": {
+      "description": "Effective wind area, ft 2 (m 2 )",
+      "unit": null,
+      "source": "ASCE7-22-26.3-T2",
+      "defined_in": "26.3"
+    },
+    "Af": {
+      "description": "Area of open buildings and other structures either normal to the wind direction or projected on a plane normal to the wind direction, ft 2 (m 2 )",
+      "unit": null,
+      "source": "ASCE7-22-26.3-T3",
+      "defined_in": "26.3"
+    },
+    "Ag": {
+      "description": "Gross area of that wall in which Ao is identi fi ed, ft 2 (m 2 )",
+      "unit": null,
+      "source": "ASCE7-22-26.3-T4",
+      "defined_in": "26.3"
+    },
+    "Agi": {
+      "description": "Sum of the gross surface areas of the building envelope (walls and roof) not including Ag , ft 2 (m 2 )",
+      "unit": null,
+      "source": "ASCE7-22-26.3-T5",
+      "defined_in": "26.3"
+    },
+    "An": {
+      "description": "Normalized wind area for rooftop solar panels in Figure 29.4-7, ft 2 (m 2 )",
+      "unit": null,
+      "source": "ASCE7-22-26.3-T6",
+      "defined_in": "26.3"
+    },
+    "Ao": {
+      "description": "Total area of openings in a wall that receives positive external pressure, ft 2 (m 2 )",
+      "unit": null,
+      "source": "ASCE7-22-26.3-T7",
+      "defined_in": "26.3"
+    },
+    "Aog": {
+      "description": "Total area of openings in the building envelope, ft 2 (m 2 )",
+      "unit": null,
+      "source": "ASCE7-22-26.3-T8",
+      "defined_in": "26.3"
+    },
+    "Aoi": {
+      "description": "Sum of the areas of openings in the building envelope (walls and roof) not including Ao , ft 2 (m 2 )",
+      "unit": null,
+      "source": "ASCE7-22-26.3-T9",
+      "defined_in": "26.3"
+    },
+    "As": {
+      "description": "Gross area of the solid freestanding wall or solid sign, ft 2 (m 2 )",
+      "unit": null,
+      "source": "ASCE7-22-26.3-T10",
+      "defined_in": "26.3"
+    },
+    "a": {
+      "description": "Approximate lower bound natural frequency from Section 26.11.2",
+      "unit": "Hz",
+      "source": "ASCE7-22-26.3-T77",
+      "defined_in": "26.3"
+    },
+    "aB": {
+      "description": "Width of pressure coef fi cient zone for elevated buildings",
+      "unit": "ft",
+      "source": "ASCE7-22-26.3-T13",
+      "defined_in": "26.3"
+    },
+    "B": {
+      "description": "Horizontal dimension of a building measured normal to wind direction",
+      "unit": "ft",
+      "source": "ASCE7-22-26.3-T14",
+      "defined_in": "26.3"
+    },
+    "b": {
+      "description": "Mean hourly wind speed factor in Equation (26.1116), from Table 26.11-1",
+      "unit": null,
+      "source": "ASCE7-22-26.3-T15",
+      "defined_in": "26.3"
+    },
+    "Cf": {
+      "description": "Force coef fi cient to be used in determination of wind loads for other structures",
+      "unit": null,
+      "source": "ASCE7-22-26.3-T17",
+      "defined_in": "26.3"
+    },
+    "CN": {
+      "description": "Net pressure coef fi cient to be used in determination of wind loads for open buildings",
+      "unit": null,
+      "source": "ASCE7-22-26.3-T18",
+      "defined_in": "26.3"
+    },
+    "Cp": {
+      "description": "External pressure coef fi cient to be used in determination of wind loads for buildings",
+      "unit": null,
+      "source": "ASCE7-22-26.3-T19",
+      "defined_in": "26.3"
+    },
+    "c": {
+      "description": "Panel chord factor for use with rooftop solar panels in Equation (29.4-5)",
+      "unit": null,
+      "source": "ASCE7-22-26.3-T111",
+      "defined_in": "26.3"
+    },
+    "dp": {
+      "description": "Horizontal distance of Zone 2 for ground-mounted solar panels in Figure 29.4.9",
+      "unit": "ft",
+      "source": "ASCE7-22-26.3-T24",
+      "defined_in": "26.3"
+    },
+    "ds": {
+      "description": "Horizontal offset for ground-mounted solar panels in Figure 29.4.9",
+      "unit": "ft",
+      "source": "ASCE7-22-26.3-T25",
+      "defined_in": "26.3"
+    },
+    "F": {
+      "description": "Design wind force for other structures, lb (N)",
+      "unit": null,
+      "source": "ASCE7-22-26.3-T28",
+      "defined_in": "26.3"
+    },
+    "Fn": {
+      "description": "Normal force for ground-mounted solar panels in Figure 29.4-9, lb (N)",
+      "unit": null,
+      "source": "ASCE7-22-26.3-T29",
+      "defined_in": "26.3"
+    },
+    "G": {
+      "description": "Gust-effect factor",
+      "unit": null,
+      "source": "ASCE7-22-26.3-T29",
+      "defined_in": "26.3"
+    },
+    "Gf": {
+      "description": "Gust-effect factor for MWFRS of fl exible buildings and other structures",
+      "unit": null,
+      "source": "ASCE7-22-26.3-T31",
+      "defined_in": "26.3"
+    },
+    "nom": {
+      "description": "Nominal net pressure coef fi cient for rooftop solar panels determined from Figure 29.4-7",
+      "unit": null,
+      "source": "ASCE7-22-26.3-T45",
+      "defined_in": "26.3"
+    },
+    "gQ": {
+      "description": "Peak factor for background response in Equations (26.11-6) and (26.11-10)",
+      "unit": null,
+      "source": "ASCE7-22-26.3-T46",
+      "defined_in": "26.3"
+    },
+    "gR": {
+      "description": "Peak factor for resonant response in Equation (26.11-10)",
+      "unit": null,
+      "source": "ASCE7-22-26.3-T47",
+      "defined_in": "26.3"
+    },
+    "gv": {
+      "description": "Peak factor for wind response in Equations (26.116) and (26.11-10)",
+      "unit": null,
+      "source": "ASCE7-22-26.3-T48",
+      "defined_in": "26.3"
+    },
+    "H": {
+      "description": "Height of hill, ridge, or escarpment in Figure 26.8-1",
+      "unit": "ft",
+      "source": "ASCE7-22-26.3-T49",
+      "defined_in": "26.3"
+    },
+    "h": {
+      "description": "Mean roof height of a building or height of other structure, except that eave height shall be used for roof angle \u03b8 less than or equal to 10 degrees, in ft (m)",
+      "unit": null,
+      "source": "ASCE7-22-26.3-P1",
+      "defined_in": "26.3"
+    },
+    "hB": {
+      "description": "Height above grade of the bottom surface of the elevated building",
+      "unit": "ft",
+      "source": "ASCE7-22-26.3-T50",
+      "defined_in": "26.3"
+    },
+    "hc": {
+      "description": "Height of the solid cylinder",
+      "unit": "ft",
+      "source": "ASCE7-22-26.3-T51",
+      "defined_in": "26.3"
+    },
+    "he": {
+      "description": "Roof eave height at a particular wall, or the average height if the eave varies along the wall",
+      "unit": null,
+      "source": "ASCE7-22-26.3-T52",
+      "defined_in": "26.3"
+    },
+    "hp": {
+      "description": "Height to top of parapet in Figures 27.5-2 and 30.6-1",
+      "unit": null,
+      "source": "ASCE7-22-26.3-T53",
+      "defined_in": "26.3"
+    },
+    "hpt": {
+      "description": "Mean parapet height above the adjacent roof surface for use with Equation (29.4-5)",
+      "unit": "ft",
+      "source": "ASCE7-22-26.3-T54",
+      "defined_in": "26.3"
+    },
+    "z": {
+      "description": "Intensity of turbulence from Equation (26.11-7)",
+      "unit": null,
+      "source": "ASCE7-22-26.3-T57",
+      "defined_in": "26.3"
+    },
+    "Kd": {
+      "description": "Wind directionality factor from Section 26.6 and Table 26.6-1",
+      "unit": null,
+      "source": "ASCE7-22-26.3-T58",
+      "defined_in": "26.3"
+    },
+    "Ke": {
+      "description": "Ground elevation factor",
+      "unit": null,
+      "source": "ASCE7-22-26.3-T59",
+      "defined_in": "26.3"
+    },
+    "Kh": {
+      "description": "Velocity pressure exposure coef fi cient evaluated at height",
+      "unit": null,
+      "source": "ASCE7-22-26.3-T61",
+      "defined_in": "26.3"
+    },
+    "Kz": {
+      "description": "Velocity pressure exposure coef fi cient evaluated at height z",
+      "unit": null,
+      "source": "ASCE7-22-26.3-T62",
+      "defined_in": "26.3"
+    },
+    "Kzt": {
+      "description": "Topographic factor as de fi ned in Section 26.8",
+      "unit": null,
+      "source": "ASCE7-22-26.3-T63",
+      "defined_in": "26.3"
+    },
+    "L": {
+      "description": "Horizontal dimension of a building measured parallel to the wind direction",
+      "unit": "ft",
+      "source": "ASCE7-22-26.3-T64",
+      "defined_in": "26.3"
+    },
+    "Lb": {
+      "description": "Normalized building length, for use with Figure 29.4-7",
+      "unit": "ft",
+      "source": "ASCE7-22-26.3-T65",
+      "defined_in": "26.3"
+    },
+    "Lc": {
+      "description": "Panel chord length for ground-mounted solar panels in Figure 29.4-9",
+      "unit": "ft",
+      "source": "ASCE7-22-26.3-T66",
+      "defined_in": "26.3"
+    },
+    "Lh": {
+      "description": "Distance upwind of crest of hill, ridge, or escarpment in Figure 26.8-1 to where the difference in ground elevation is half the height of the hill, ridge, or escarpment",
+      "unit": "ft",
+      "source": "ASCE7-22-26.3-T67",
+      "defined_in": "26.3"
+    },
+    "Lp": {
+      "description": "Panel chord length for use with rooftop solar panels in Figure 29.4-7",
+      "unit": "ft",
+      "source": "ASCE7-22-26.3-T68",
+      "defined_in": "26.3"
+    },
+    "Lr": {
+      "description": "Horizontal dimension of return corner for a solid freestanding wall or solid sign from Figure 29.3-1",
+      "unit": "ft",
+      "source": "ASCE7-22-26.3-T69",
+      "defined_in": "26.3"
+    },
+    "Lz": {
+      "description": "Integral length scale of turbulence",
+      "unit": "ft",
+      "source": "ASCE7-22-26.3-T70",
+      "defined_in": "26.3"
+    },
+    "l": {
+      "description": "Integral length scale factor from Table 26.11-1",
+      "unit": "ft",
+      "source": "ASCE7-22-26.3-T71",
+      "defined_in": "26.3"
+    },
+    "Mc": {
+      "description": "Moment for ground-mounted solar panels in Figure 29.4.9, lb-ft (N-m)",
+      "unit": null,
+      "source": "ASCE7-22-26.3-T72",
+      "defined_in": "26.3"
+    },
+    "Ns": {
+      "description": "Reduced frequency for ground-mounted solar panels",
+      "unit": null,
+      "source": "ASCE7-22-26.3-T74",
+      "defined_in": "26.3"
+    },
+    "n": {
+      "description": "Lowest natural frequency for ground-mounted solar panels",
+      "unit": "Hz",
+      "source": "ASCE7-22-26.3-T75",
+      "defined_in": "26.3"
+    },
+    "p": {
+      "description": "Design pressure to be used in determination of wind loads for buildings, lb/ft 2 (N/m 2 )",
+      "unit": null,
+      "source": "ASCE7-22-26.3-T78",
+      "defined_in": "26.3"
+    },
+    "PL": {
+      "description": "Wind pressure acting on leeward face in Figure 27.3-8, lb/ft 2 (N/m 2 )",
+      "unit": null,
+      "source": "ASCE7-22-26.3-T79",
+      "defined_in": "26.3"
+    },
+    "Q": {
+      "description": "Background response factor from Equation (26.11-8)",
+      "unit": null,
+      "source": "ASCE7-22-26.3-T80",
+      "defined_in": "26.3"
+    },
+    "qh": {
+      "description": "Velocity pressure evaluated at height",
+      "unit": null,
+      "source": "ASCE7-22-26.3-T81",
+      "defined_in": "26.3"
+    },
+    "q": {
+      "description": "Velocity pressure, lb/ft 2 (N/m 2 )",
+      "unit": null,
+      "source": "ASCE7-22-26.3-T82",
+      "defined_in": "26.3"
+    },
+    "qi": {
+      "description": "Velocity pressure for internal pressure determination, lb/ft 2 (N/m 2 )",
+      "unit": null,
+      "source": "ASCE7-22-26.3-T83",
+      "defined_in": "26.3"
+    },
+    "qp": {
+      "description": "Velocity pressure at top of parapet, lb/ft 2 (N/m 2 )",
+      "unit": null,
+      "source": "ASCE7-22-26.3-T84",
+      "defined_in": "26.3"
+    },
+    "qz": {
+      "description": "Velocity pressure evaluated at height z above ground, lb/ft 2 (N/m 2 )",
+      "unit": null,
+      "source": "ASCE7-22-26.3-T84",
+      "defined_in": "26.3"
+    },
+    "R": {
+      "description": "Resonant response factor from Equation (26.1112)",
+      "unit": null,
+      "source": "ASCE7-22-26.3-T85",
+      "defined_in": "26.3"
+    },
+    "r": {
+      "description": "Rise-to-span ratio for arched roofs",
+      "unit": null,
+      "source": "ASCE7-22-26.3-T86",
+      "defined_in": "26.3"
+    },
+    "Rh , RL": {
+      "description": "Values from Equations (26.11-15a) and (26.1115b)",
+      "unit": null,
+      "source": "ASCE7-22-26.3-T87",
+      "defined_in": "26.3"
+    },
+    "Ri": {
+      "description": "Reduction factor from Equation (26.13-1)",
+      "unit": null,
+      "source": "ASCE7-22-26.3-T88",
+      "defined_in": "26.3"
+    },
+    "S": {
+      "description": "Center-to-center row spacing for ground-mounted solar panels in Figure 29.4-9",
+      "unit": "ft",
+      "source": "ASCE7-22-26.3-T89",
+      "defined_in": "26.3"
+    },
+    "Rn": {
+      "description": "Value from Equation (26.11-13)",
+      "unit": null,
+      "source": "ASCE7-22-26.3-T90",
+      "defined_in": "26.3"
+    },
+    "SL": {
+      "description": "Open distance in longitudinal direction for ground-mounted solar panels in Figure 29.4-9",
+      "unit": "ft",
+      "source": "ASCE7-22-26.3-T91",
+      "defined_in": "26.3"
+    },
+    "ST": {
+      "description": "Open distance in transverse direction for ground-mounted solar panels in Figure 29.4-9",
+      "unit": "ft",
+      "source": "ASCE7-22-26.3-T92",
+      "defined_in": "26.3"
+    },
+    "s": {
+      "description": "Vertical dimension of the solid freestanding wall or solid sign from Figure 29.3-1",
+      "unit": "ft",
+      "source": "ASCE7-22-26.3-T93",
+      "defined_in": "26.3"
+    },
+    "V": {
+      "description": "Basic wind speed obtained from Figures 26.5-1A through 26.5-1D, mi/h (m/s); the basic wind speed corresponds to a 3 s gust speed at 33 ft (10 m) above the ground in Exposure Category C",
+      "unit": null,
+      "source": "ASCE7-22-26.3-T95",
+      "defined_in": "26.3"
+    },
+    "Vi": {
+      "description": "Unpartitioned internal volume, in ft 3 (m 3 )",
+      "unit": null,
+      "source": "ASCE7-22-26.3-T96",
+      "defined_in": "26.3"
+    },
+    "Vz": {
+      "description": "Mean hourly wind speed at height z , in ft/s (m/s)",
+      "unit": null,
+      "source": "ASCE7-22-26.3-T97",
+      "defined_in": "26.3"
+    },
+    "W": {
+      "description": "Width of building in Figures 30.3-3, 30.3-5A, and 30.3-5B and width of span in Figures 30.3-4 and 30.3-6",
+      "unit": "ft",
+      "source": "ASCE7-22-26.3-T97",
+      "defined_in": "26.3"
+    },
+    "Wg": {
+      "description": "Shortest row length for ground-mounted solar panels in Figure 29.4-9",
+      "unit": "ft",
+      "source": "ASCE7-22-26.3-T98",
+      "defined_in": "26.3"
+    },
+    "WL": {
+      "description": "Width of a building on its longest side in Figure 29.4-7",
+      "unit": "ft",
+      "source": "ASCE7-22-26.3-T99",
+      "defined_in": "26.3"
+    },
+    "WS": {
+      "description": "Width of a building on its shortest side in Figure 29.4-7",
+      "unit": "ft",
+      "source": "ASCE7-22-26.3-T100",
+      "defined_in": "26.3"
+    },
+    "x": {
+      "description": "Distance upwind or downwind of crest in Figure 26.8-1",
+      "unit": "ft",
+      "source": "ASCE7-22-26.3-T101",
+      "defined_in": "26.3"
+    },
+    "e": {
+      "description": "Ground elevation above sea level",
+      "unit": "ft",
+      "source": "ASCE7-22-26.3-T104",
+      "defined_in": "26.3"
+    },
+    "g": {
+      "description": "Nominal height of the atmospheric boundary layer used in this standard (values appear in Table 26.11-1)",
+      "unit": null,
+      "source": "ASCE7-22-26.3-T105",
+      "defined_in": "26.3"
+    },
+    "min": {
+      "description": "Exposure constant from Table 26.11-1",
+      "unit": null,
+      "source": "ASCE7-22-26.3-T106",
+      "defined_in": "26.3"
+    },
+    "\u03b1": {
+      "description": "Mean hourly wind-speed power law exponent in Equation (26.11-16) from Table 26.11-1",
+      "unit": null,
+      "source": "ASCE7-22-26.3-T109",
+      "defined_in": "26.3"
+    },
+    "\u03b2": {
+      "description": "Damping ratio, percent critical for buildings or other structures",
+      "unit": null,
+      "source": "ASCE7-22-26.3-T110",
+      "defined_in": "26.3"
+    },
+    "E": {
+      "description": "Array edge factor for use with rooftop solar panels in Figure 29.4-7 and Equations (29.4-4) and (29.4-5)",
+      "unit": null,
+      "source": "ASCE7-22-26.3-T112",
+      "defined_in": "26.3"
+    },
+    "\u03b5": {
+      "description": "Ratio of solid area to gross area for solid freestanding wall, solid sign, open sign, face of a trussed tower, or lattice structure",
+      "unit": null,
+      "source": "ASCE7-22-26.3-T114",
+      "defined_in": "26.3"
+    },
+    "\u03b7": {
+      "description": "Value used in Equations (26.11-15a) and (26.1115b); see Section 26.11.4",
+      "unit": null,
+      "source": "ASCE7-22-26.3-T116",
+      "defined_in": "26.3"
+    },
+    "\u03b8": {
+      "description": "Angle of plane of roof from horizontal",
+      "unit": "degrees",
+      "source": "ASCE7-22-26.3-T117",
+      "defined_in": "26.3"
+    },
+    "v": {
+      "description": "Height-to-width ratio for solid sign",
+      "unit": null,
+      "source": "ASCE7-22-26.3-T118",
+      "defined_in": "26.3"
+    }
+  }
+}

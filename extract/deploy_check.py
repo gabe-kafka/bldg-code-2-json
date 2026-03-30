@@ -59,6 +59,25 @@ def check(json_path, pdf_path):
     missing = expected - types
     results.append(("ALL 9 TYPES", len(missing) == 0, f"missing: {missing}" if missing else "all present"))
 
+    # 10. No broken references (pending is OK, broken is not)
+    unresolved_path = Path("output/unresolved.json")
+    if unresolved_path.exists():
+        ur = json.loads(unresolved_path.read_text())
+        broken = ur.get("summary", {}).get("broken", 0)
+        pending = ur.get("summary", {}).get("pending", 0)
+        results.append(("0 BROKEN REFS", broken == 0, f"{broken} broken, {pending} pending"))
+    else:
+        results.append(("0 BROKEN REFS", True, "no unresolved file (OK for single chapter)"))
+
+    # 11. Symbols registry exists
+    symbols_path = Path("output/symbols.json")
+    if symbols_path.exists():
+        sym = json.loads(symbols_path.read_text())
+        n = len(sym.get("symbols", {}))
+        results.append(("SYMBOLS REGISTRY", n > 10, f"{n} symbols"))
+    else:
+        results.append(("SYMBOLS REGISTRY", False, "not generated"))
+
     # Print
     print("DEPLOYMENT GATE")
     print("=" * 60)

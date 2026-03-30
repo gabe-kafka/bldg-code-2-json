@@ -12283,7 +12283,8 @@
       "expression": "c = Turbulence intensity factor in Equation (26.11-7)",
       "parameters": {
         "c": {
-          "description": "Panel chord factor for use with rooftop solar panels in Equation (29.4-5)"
+          "description": "Panel chord factor for use with rooftop solar panels in Equation (29.4-5)",
+          "source": "ASCE7-22-26.3-T111"
         }
       }
     },
@@ -12308,7 +12309,12 @@
     "description": "",
     "data": {
       "expression": "gQ = Peak factor for background response in Equations (26.11-6)",
-      "parameters": {}
+      "parameters": {
+        "gQ": {
+          "description": "Peak factor for background response in Equations (26.11-6) and (26.11-10)",
+          "source": "ASCE7-22-26.3-T46"
+        }
+      }
     },
     "cross_references": [],
     "metadata": {
@@ -12331,7 +12337,12 @@
     "description": "",
     "data": {
       "expression": "gQ = Peak factor for background response in Equations (26.11-6) and (26.11-10)",
-      "parameters": {}
+      "parameters": {
+        "gQ": {
+          "description": "Peak factor for background response in Equations (26.11-6) and (26.11-10)",
+          "source": "ASCE7-22-26.3-T46"
+        }
+      }
     },
     "cross_references": [],
     "metadata": {
@@ -12379,7 +12390,8 @@
       "expression": "Q = Background response factor from Equation (26.11-8)",
       "parameters": {
         "Q": {
-          "description": "Background response factor from Equation (26.11-8)"
+          "description": "Background response factor from Equation (26.11-8)",
+          "source": "ASCE7-22-26.3-T80"
         }
       }
     },
@@ -12404,7 +12416,13 @@
     "description": "",
     "data": {
       "expression": "RB , Rh , RL = Values from Equations (26.11-15a)",
-      "parameters": {}
+      "parameters": {
+        "a": {
+          "description": "Approximate lower bound natural frequency from Section 26.11.2",
+          "unit": "Hz",
+          "source": "ASCE7-22-26.3-T77"
+        }
+      }
     },
     "cross_references": [],
     "metadata": {
@@ -12427,7 +12445,12 @@
     "description": "",
     "data": {
       "expression": "Ri = Reduction factor from Equation (26.13-1)",
-      "parameters": {}
+      "parameters": {
+        "Ri": {
+          "description": "Reduction factor from Equation (26.13-1)",
+          "source": "ASCE7-22-26.3-T88"
+        }
+      }
     },
     "cross_references": [],
     "metadata": {
@@ -12450,7 +12473,12 @@
     "description": "",
     "data": {
       "expression": "Rn = Value from Equation (26.11-13)",
-      "parameters": {}
+      "parameters": {
+        "Rn": {
+          "description": "Value from Equation (26.11-13)",
+          "source": "ASCE7-22-26.3-T90"
+        }
+      }
     },
     "cross_references": [],
     "metadata": {
@@ -12519,7 +12547,16 @@
     "description": "",
     "data": {
       "expression": "The velocity pressure at mean roof height is computed as qh = qz evaluated from Equation (26.10-1)",
-      "parameters": {}
+      "parameters": {
+        "qh": {
+          "description": "Velocity pressure evaluated at height",
+          "source": "ASCE7-22-26.3-T81"
+        },
+        "qz": {
+          "description": "Velocity pressure evaluated at height z above ground, lb/ft 2 (N/m 2 )",
+          "source": "ASCE7-22-26.3-T84"
+        }
+      }
     },
     "cross_references": [],
     "metadata": {
@@ -12566,11 +12603,15 @@
     "data": {
       "expression": "L eff = X i= n 1 (26.11-1)",
       "parameters": {
-        "L": {
-          "description": "Horizontal dimension of a building measured parallel to the wind direction, ft (m)"
-        },
         "n": {
-          "description": "Lowest natural frequency for ground-mounted solar panels, Hz"
+          "description": "Lowest natural frequency for ground-mounted solar panels",
+          "unit": "Hz",
+          "source": "ASCE7-22-26.3-T75"
+        },
+        "L": {
+          "description": "Horizontal dimension of a building measured parallel to the wind direction",
+          "unit": "ft",
+          "source": "ASCE7-22-26.3-T64"
         }
       }
     },
@@ -12596,8 +12637,14 @@
     "data": {
       "expression": "i n =22.2\u2215h0.8 (26.11-2)",
       "parameters": {
+        "h": {
+          "description": "Mean roof height of a building or height of other structure, except that eave height shall be used for roof angle \u03b8 less than or equal to 10 degrees, in ft (m)",
+          "source": "ASCE7-22-26.3-P1"
+        },
         "n": {
-          "description": "Lowest natural frequency for ground-mounted solar panels, Hz"
+          "description": "Lowest natural frequency for ground-mounted solar panels",
+          "unit": "Hz",
+          "source": "ASCE7-22-26.3-T75"
         }
       }
     },
@@ -12623,11 +12670,19 @@
     "data": {
       "expression": "26.11.3 Approximate Natural Frequency The approximate n a =43.5\u2215h0.9 (26.11-3)",
       "parameters": {
-        "a": {
-          "description": "Approximate lower bound natural frequency from Section 26.11.2, Hz"
-        },
         "n": {
-          "description": "Lowest natural frequency for ground-mounted solar panels, Hz"
+          "description": "Lowest natural frequency for ground-mounted solar panels",
+          "unit": "Hz",
+          "source": "ASCE7-22-26.3-T75"
+        },
+        "a": {
+          "description": "Approximate lower bound natural frequency from Section 26.11.2",
+          "unit": "Hz",
+          "source": "ASCE7-22-26.3-T77"
+        },
+        "h": {
+          "description": "Mean roof height of a building or height of other structure, except that eave height shall be used for roof angle \u03b8 less than or equal to 10 degrees, in ft (m)",
+          "source": "ASCE7-22-26.3-P1"
         }
       }
     },
@@ -12653,11 +12708,19 @@
     "data": {
       "expression": "n a =75\u2215h (26.11-4)",
       "parameters": {
-        "a": {
-          "description": "Approximate lower bound natural frequency from Section 26.11.2, Hz"
+        "h": {
+          "description": "Mean roof height of a building or height of other structure, except that eave height shall be used for roof angle \u03b8 less than or equal to 10 degrees, in ft (m)",
+          "source": "ASCE7-22-26.3-P1"
         },
         "n": {
-          "description": "Lowest natural frequency for ground-mounted solar panels, Hz"
+          "description": "Lowest natural frequency for ground-mounted solar panels",
+          "unit": "Hz",
+          "source": "ASCE7-22-26.3-T75"
+        },
+        "a": {
+          "description": "Approximate lower bound natural frequency from Section 26.11.2",
+          "unit": "Hz",
+          "source": "ASCE7-22-26.3-T77"
         }
       }
     },
@@ -12683,8 +12746,14 @@
     "data": {
       "expression": "n =385 C 0.5\u2215h (26.11-5)",
       "parameters": {
+        "h": {
+          "description": "Mean roof height of a building or height of other structure, except that eave height shall be used for roof angle \u03b8 less than or equal to 10 degrees, in ft (m)",
+          "source": "ASCE7-22-26.3-P1"
+        },
         "n": {
-          "description": "Lowest natural frequency for ground-mounted solar panels, Hz"
+          "description": "Lowest natural frequency for ground-mounted solar panels",
+          "unit": "Hz",
+          "source": "ASCE7-22-26.3-T75"
         }
       }
     },
@@ -12711,10 +12780,17 @@
       "expression": "buildings or other structures as defined in Section 26.2, the g R = 2ln \u00f0 3,600n 1\u00de\u00fe 2 ln 3,600n (26.11-11)",
       "parameters": {
         "R": {
-          "description": "Resonant response factor from Equation (26.1112)"
+          "description": "Resonant response factor from Equation (26.1112)",
+          "source": "ASCE7-22-26.3-T85"
         },
         "g": {
-          "description": "Nominal height of the atmospheric boundary layer used in this standard (values appear in Table 26.11-1)"
+          "description": "Nominal height of the atmospheric boundary layer used in this standard (values appear in Table 26.11-1)",
+          "source": "ASCE7-22-26.3-T105"
+        },
+        "n": {
+          "description": "Lowest natural frequency for ground-mounted solar panels",
+          "unit": "Hz",
+          "source": "ASCE7-22-26.3-T75"
         }
       }
     },
@@ -12741,7 +12817,8 @@
       "expression": "33 1\u22156 R= R R R 0.53 0.47R (26.11-12)",
       "parameters": {
         "R": {
-          "description": "Resonant response factor from Equation (26.1112)"
+          "description": "Resonant response factor from Equation (26.1112)",
+          "source": "ASCE7-22-26.3-T85"
         }
       }
     },
@@ -12767,11 +12844,23 @@
     "data": {
       "expression": "\u03b7 =4.6n B\u2215V (26.11-15b)",
       "parameters": {
+        "n": {
+          "description": "Lowest natural frequency for ground-mounted solar panels",
+          "unit": "Hz",
+          "source": "ASCE7-22-26.3-T75"
+        },
         "B": {
-          "description": "Horizontal dimension of a building measured normal to wind direction, ft (m)"
+          "description": "Horizontal dimension of a building measured normal to wind direction",
+          "unit": "ft",
+          "source": "ASCE7-22-26.3-T14"
         },
         "V": {
-          "description": "Basic wind speed obtained from Figures 26.5-1A through 26.5-1D, mi/h (m/s); the basic wind speed corresponds to a 3 s gust speed at 33 ft (10 m) above the ground in Exposure Category C"
+          "description": "Basic wind speed obtained from Figures 26.5-1A through 26.5-1D, mi/h (m/s); the basic wind speed corresponds to a 3 s gust speed at 33 ft (10 m) above the ground in Exposure Category C",
+          "source": "ASCE7-22-26.3-T95"
+        },
+        "b": {
+          "description": "Mean hourly wind speed factor in Equation (26.1116), from Table 26.11-1",
+          "source": "ASCE7-22-26.3-T15"
         }
       }
     },

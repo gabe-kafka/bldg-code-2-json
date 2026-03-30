@@ -1,0 +1,157 @@
+"""
+Global symbols registry.
+
+Parses the symbols list (Section X.3 in each chapter) into a lookup table,
+accumulates across chapters, and resolves formula parameters against it.
+"""
+
+import json
+import re
+from pathlib import Path
+
+
+def build_symbols_table(elements):
+    """Parse symbols from Section X.3 text blocks.
+
+    Looks for patterns like:
+    - "A = Effective wind area, ft² (m²)"
+    - "Kz = Velocity pressure exposure coefficient"
+    - "V = Basic wind speed, mi/h (m/s)"
+    """
+    symbols = {}
+
+    # Find section X.3 elements (symbols list)
+    symbol_elements = [e for e in elements if re.match(r'^\d+\.3$', e["source"]["section"])]
+
+    # Also scan "where" blocks anywhere in the document
+    where_elements = [e for e in elements if "where" in (e.get("data", {}).get("rule", "") or "")[:20].lower()]
+
+    for e in symbol_elements + where_elements:
+        text = e.get("data", {}).get("rule", "") or e.get("data", {}).get("definition", "")
+        if not text:
+            continue
+
+        # Pattern: "SYMBOL = description, unit"
+        # Handle multi-letter symbols: Kz, Kzt, GCp, etc.
+        for m in re.finditer(
+            r'(?:^|\s)([A-Za-z_αβεγθηλ][A-Za-z0-9_ˆ¯]*(?:\s*,\s*[A-Za-z0-9_]+)?)\s*=\s*([^=\n]+?)(?=\s+[A-Za-z_αβεγθηλ][A-Za-z0-9_ˆ¯]*\s*=|$)',
+            text
+        ):
+            sym = m.group(1).strip()
+            desc = m.group(2).strip().rstrip(",").rstrip(".")
+
+            # Skip if symbol is too long (probably not a variable)
+            if len(sym) > 15:
+                continue
+            # Skip if description is too short
+            if len(desc) < 3:
+                continue
+            # Skip known non-variables
+            if sym.lower() in ("and", "or", "the", "for", "are", "from", "where", "with"):
+                continue
+
+            # Extract unit if present: "description, unit (SI unit)"
+            unit = None
+            unit_match = re.search(r',\s*(ft[²2]?|m[²2]?|mi/h|m/s|mph|Hz|dimensionless|lb/ft[²2]?|N/m[²2]?|degrees|%)\s*(?:\([^)]+\))?\s*$', desc)
+            if unit_match:
+                unit = unit_match.group(1)
+                desc = desc[:unit_match.start()].strip().rstrip(",")
+
+            # Find which equations/sections use this symbol
+            source_id = e.get("id", "")
+            defined_in = e.get("source", {}).get("section", "")
+
+            if sym not in symbols or len(desc) > len(symbols[sym].get("description", "")):
+                symbols[sym] = {
+                    "description": desc,
+                    "unit": unit,
+                    "source": source_id,
+                    "defined_in": defined_in,
+                }
+
+    return symbols
+
+
+def resolve_parameters(elements, symbols):
+    """Fill formula parameters from the global symbols table.
+
+    For each formula, extract variable names from the expression,
+    look them up in the symbols table, and populate data.parameters.
+    """
+    # Common non-variable tokens to skip
+    skip = {"and", "or", "the", "in", "for", "ft", "mi", "lb", "SI", "where", "from",
+            "mi/h", "m/s", "mph", "Hz", "sin", "cos", "tan", "ln", "log", "exp",
+            "min", "max", "if", "of", "to", "at", "by", "is", "be", "as", "on"}
+
+    for e in elements:
+        if e["type"] != "formula":
+            continue
+
+        expression = e["data"].get("expression", "")
+        if not expression:
+            continue
+
+        # Extract variable-like tokens from expression
+        var_pattern = re.compile(r'\b([A-Za-z][A-Za-z0-9_]*)\b')
+        expr_vars = set(var_pattern.findall(expression))
+        expr_vars -= skip
+
+        # Also try multi-char variables with subscripts
+        sub_pattern = re.compile(r'([A-Za-z]+(?:_[a-zA-Z0-9]+)?)')
+        expr_vars |= set(sub_pattern.findall(expression)) - skip
+
+        params = {}
+        for var in expr_vars:
+            if var in symbols:
+                sym = symbols[var]
+                params[var] = {
+                    "description": sym["description"],
+                }
+                if sym.get("unit"):
+                    params[var]["unit"] = sym["unit"]
+                if sym.get("source"):
+                    params[var]["source"] = sym["source"]
+
+        # Also check nearby elements for local "where" definitions
+        idx = elements.index(e)
+        for nearby in elements[max(0, idx - 3):idx + 4]:
+            if nearby is e:
+                continue
+            nearby_text = nearby.get("data", {}).get("rule", "")
+            if not nearby_text:
+                continue
+            for m in re.finditer(r'([A-Za-z][A-Za-z0-9_]*)\s*=\s*([^,;=]+)', nearby_text):
+                sym = m.group(1).strip()
+                desc = m.group(2).strip()
+                if sym in expr_vars and sym not in params and len(desc) > 3:
+                    params[sym] = {"description": desc}
+
+        if params:
+            e["data"]["parameters"] = params
+
+    return sum(1 for e in elements if e["type"] == "formula" and e["data"].get("parameters"))
+
+
+def save_symbols(symbols, path="output/symbols.json"):
+    """Save symbols table to JSON."""
+    path = Path(path)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps({"symbols": symbols}, indent=2))
+    return path
+
+
+def load_symbols(path="output/symbols.json"):
+    """Load existing symbols table."""
+    path = Path(path)
+    if path.exists():
+        return json.loads(path.read_text()).get("symbols", {})
+    return {}
+
+
+def merge_symbols(existing, new):
+    """Merge new symbols into existing table. New takes precedence if longer description."""
+    merged = {**existing}
+    for sym, info in new.items():
+        if sym not in merged or len(info.get("description", "")) > len(merged[sym].get("description", "")):
+            merged[sym] = info
+    return merged
