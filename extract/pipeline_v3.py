@@ -49,9 +49,15 @@ def run_v3(pdf_path, standard="ASCE 7-22", chapter=26):
     docling = doc.export_to_dict()
     markdown = doc.export_to_markdown()
 
-    # Step 3: Build elements using bold labels for classification
-    print("  [3/4] Building elements from bold-label taxonomy...")
-    elements, id_set, counters, make_id = _build_elements(docling, bold_map, std_slug, standard, chapter)
+    # Step 2.5: Build elastic classifier from this chapter's bold patterns
+    print("  [2.5] Learning chapter-specific patterns...")
+    from extract.elastic import build_chapter_classifier, report_patterns
+    elastic_classify, discovered_patterns = build_chapter_classifier(bold_map, [])
+    report_patterns(discovered_patterns)
+
+    # Step 3: Build elements using elastic classification
+    print("  [3/4] Building elements from elastic classification...")
+    elements, id_set, counters, make_id = _build_elements(docling, bold_map, std_slug, standard, chapter, elastic_classify)
 
     # Step 4: Add tables, figures, references, equations
     print("  [4/4] Enriching with tables, figures, references, equations...")
@@ -220,7 +226,7 @@ def _fix_text(text):
     return text
 
 
-def _build_elements(docling, bold_map, std_slug, standard, chapter):
+def _build_elements(docling, bold_map, std_slug, standard, chapter, classify_fn=None):
     """Build elements from Docling text items + bold label classification."""
     elements = []
     current_section = str(chapter)
@@ -256,7 +262,11 @@ def _build_elements(docling, bold_map, std_slug, standard, chapter):
         bold_prefix, all_bold = _find_bold_at(bold_map, page_no, y_top)
 
         # Classify
-        elem_type, notes = _classify_by_bold(text, bold_prefix, all_bold, label)
+        # Use elastic classifier if available, fall back to hardcoded
+        if classify_fn:
+            elem_type, notes = classify_fn(text, bold_prefix, all_bold, label)
+        else:
+            elem_type, notes = _classify_by_bold(text, bold_prefix, all_bold, label)
         if elem_type is None:
             continue  # skip page furniture
 
