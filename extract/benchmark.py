@@ -72,13 +72,29 @@ def _check_coverage(elements, pdf_path):
     for m in re.finditer(r'(?:^|\s)(26\.\d+(?:\.\d+)*)\s+[A-Z]', all_pdf_text):
         ground_truth["sections"].add(m.group(1))
 
-    # Tables: "Table 26.X-Y"
-    for m in re.finditer(r'Table\s+(26\.\d+-\d+)', all_pdf_text):
-        ground_truth["tables"].add(m.group(1))
-
-    # Figures: "Figure 26.X-Y"
-    for m in re.finditer(r'Figure\s+(26\.\d+-\d+)', all_pdf_text):
-        ground_truth["figures"].add(m.group(1))
+    # Tables and Figures: use BOLD labels as authoritative ground truth
+    import fitz
+    doc = fitz.open(str(pdf_path))
+    for page_num in range(len(doc)):
+        page = doc[page_num]
+        text_dict = page.get_text("dict")
+        for block in text_dict.get("blocks", []):
+            for line in block.get("lines", []):
+                line_text = ""
+                has_bold = False
+                for span in line.get("spans", []):
+                    line_text += span["text"]
+                    if span["flags"] & 16 or span["font"].endswith(".B") or span["font"].endswith(".BI"):
+                        has_bold = True
+                if not has_bold:
+                    continue
+                tm = re.search(r'Table\s+([\d.]+-\d+)', line_text)
+                if tm:
+                    ground_truth["tables"].add(tm.group(1))
+                fm = re.search(r'Figure\s+([\d.]+-\d+[A-D]?)', line_text)
+                if fm:
+                    ground_truth["figures"].add(fm.group(1))
+    doc.close()
 
     # Equations: "(26.X-Y)" — equation numbers in parens
     for m in re.finditer(r'\((\d+\.\d+-\d+[a-z]?)\)', all_pdf_text):
@@ -107,7 +123,7 @@ def _check_coverage(elements, pdf_path):
                 extracted["tables"].add(m.group(1))
 
         if e["type"] == "figure":
-            m = re.search(r'(\d+\.\d+-\d+)', cit)
+            m = re.search(r'(\d+\.\d+-\d+[A-D]?)', cit)
             if m:
                 extracted["figures"].add(m.group(1))
 

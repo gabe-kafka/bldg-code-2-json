@@ -180,6 +180,10 @@ def run_hybrid_v2(pdf_path, standard="ASCE 7-22", chapter=26):
     print("  [+] Extracting equations...")
     elements = _extract_equations(elements, std_slug, standard, chapter, id_set)
 
+    # Authoritative figure/table detection from bold labels
+    print("  [+] Scanning bold labels for tables and figures...")
+    elements = _detect_from_bold_labels(elements, pdf_path, docling, std_slug, standard, chapter, id_set, pages_info)
+
     print(f"  Done: {len(elements)} elements")
     return elements, markdown
 
@@ -322,6 +326,133 @@ def _parse_table(table_cells):
             row[name] = val
         rows.append(row)
     return columns, rows
+
+
+def _detect_from_bold_labels(elements, pdf_path, docling, std_slug, standard, chapter, id_set, pages_info):
+    """Scan PDF for bold 'Table X.Y-Z' and 'Figure X.Y-Z' labels.
+
+    These bold labels are the authoritative markers for what tables and figures
+    exist. If a bold label exists but no corresponding element was extracted,
+    create one. This catches items that Docling's structural detection missed.
+    """
+    import fitz
+
+    doc = fitz.open(str(pdf_path))
+    bold_tables = {}   # number -> {caption, page}
+    bold_figures = {}   # number -> {caption, page}
+
+    for page_num in range(len(doc)):
+        page = doc[page_num]
+        text_dict = page.get_text("dict")
+
+        for block in text_dict.get("blocks", []):
+            for line in block.get("lines", []):
+                line_text = ""
+                has_bold = False
+                for span in line.get("spans", []):
+                    line_text += span["text"]
+                    if span["flags"] & 16 or span["font"].endswith(".B") or span["font"].endswith(".BI"):
+                        has_bold = True
+
+                if not has_bold:
+                    continue
+
+                # Bold table label
+                tm = re.search(r'Table\s+([\d.]+-\d+)', line_text)
+                if tm and tm.group(1) not in bold_tables:
+                    bold_tables[tm.group(1)] = {
+                        "caption": line_text.strip(),
+                        "page": page_num + 1,
+                    }
+
+                # Bold figure label
+                fm = re.search(r'Figure\s+([\d.]+-\d+[A-D]?)', line_text)
+                if fm and fm.group(1) not in bold_figures:
+                    bold_figures[fm.group(1)] = {
+                        "caption": line_text.strip(),
+                        "page": page_num + 1,
+                    }
+
+    doc.close()
+
+    # Check which tables/figures we already have
+    existing_tables = set()
+    existing_figures = set()
+    for e in elements:
+        cit = e.get("source", {}).get("citation", "")
+        if e["type"] == "table":
+            m = re.search(r'([\d.]+-\d+)', cit)
+            if m:
+                existing_tables.add(m.group(1))
+        if e["type"] == "figure":
+            m = re.search(r'([\d.]+-\d+[A-D]?)', cit)
+            if m:
+                existing_figures.add(m.group(1))
+
+    # Add missing tables
+    counters = defaultdict(int)
+    for num, info in sorted(bold_tables.items()):
+        if num in existing_tables:
+            continue
+        section = num.rsplit("-", 1)[0]
+        counters[("table", section)] += 1
+        eid = f"{std_slug}-{section}-T{num.replace('.', '-')}"
+        if eid in id_set:
+            eid = f"{eid}-{counters[('table', section)]}"
+        id_set.add(eid)
+
+        # Try to get table data from Docling for this page
+        columns, rows = [], []
+        for item in docling.get("tables", []):
+            prov = item.get("prov", [{}])[0] if item.get("prov") else {}
+            if prov.get("page_no") == info["page"]:
+                grid = item.get("data", {}).get("table_cells", [])
+                if grid:
+                    columns, rows = _parse_table(grid)
+                    break
+
+        elements.append({
+            "id": eid, "type": "table",
+            "source": {"standard": standard, "chapter": chapter,
+                       "section": section, "citation": f"Table {num}", "page": info["page"]},
+            "title": info["caption"][:200],
+            "description": "",
+            "data": {"columns": columns, "rows": rows},
+            "cross_references": [],
+            "metadata": {"extracted_by": "auto", "qc_status": "pending", "qc_notes": "bold_label"}
+        })
+
+    # Add missing figures
+    for num, info in sorted(bold_figures.items()):
+        if num in existing_figures:
+            continue
+        section = num.rsplit("-", 1)[0]
+        # Strip letter suffix for section (26.5-1A -> 26.5)
+        section = re.sub(r'-\d+[A-D]?$', '', num).rsplit('-', 1)[0] if '-' in num else section
+        counters[("figure", section)] += 1
+        eid = f"{std_slug}-{section}-F{num.replace('.', '-')}"
+        if eid in id_set:
+            eid = f"{eid}-{counters[('figure', section)]}"
+        id_set.add(eid)
+
+        elements.append({
+            "id": eid, "type": "figure",
+            "source": {"standard": standard, "chapter": chapter,
+                       "section": section, "citation": f"Figure {num}", "page": info["page"]},
+            "title": info["caption"][:200],
+            "description": info["caption"],
+            "data": {"figure_type": "other", "description": info["caption"],
+                     "source_pdf_page": info["page"]},
+            "cross_references": [],
+            "metadata": {"extracted_by": "auto", "qc_status": "pending", "qc_notes": "bold_label"}
+        })
+
+    added_t = len(bold_tables) - len(existing_tables & set(bold_tables.keys()))
+    added_f = len(bold_figures) - len(existing_figures & set(bold_figures.keys()))
+    if added_t or added_f:
+        print(f"    Added {added_t} tables, {added_f} figures from bold labels")
+
+    return elements
 
 
 def _extract_equations(elements, std_slug, standard, chapter, id_set):

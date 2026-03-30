@@ -1,5 +1,5 @@
 {
-  "elements": 594,
+  "elements": 580,
   "coverage": {
     "sections": {
       "ground_truth": 50,
@@ -20,9 +20,9 @@
       "score": 1.0
     },
     "figures": {
-      "ground_truth": 3,
-      "extracted": 3,
-      "found": 3,
+      "ground_truth": 6,
+      "extracted": 6,
+      "found": 6,
       "missing": [],
       "extra": [],
       "score": 1.0
@@ -45,9 +45,9 @@
       "extra": [],
       "score": 0.55
     },
-    "score": 0.8846153846153846,
-    "total_ground_truth": 78,
-    "total_found": 69
+    "score": 0.8888888888888888,
+    "total_ground_truth": 81,
+    "total_found": 72
   },
   "fidelity": {
     "score": 1.0,
@@ -58,13 +58,13 @@
     "failure_details": []
   },
   "structure": {
-    "score": 0.967,
+    "score": 0.975,
     "duplicate_ids": [],
     "out_of_order_sections": 19,
-    "empty_fields": 39,
-    "order_score": 0.968,
-    "completeness_score": 0.934,
+    "empty_fields": 25,
+    "order_score": 0.967,
+    "completeness_score": 0.957,
     "issues": []
   },
-  "composite": 0.947
+  "composite": 0.951
 }
