@@ -1,0 +1,160 @@
+{
+  "elements": 370,
+  "coverage": {
+    "sections": {
+      "ground_truth": 50,
+      "extracted": 52,
+      "found": 50,
+      "missing": [],
+      "extra": [
+        "26",
+        "26.11.2.1"
+      ],
+      "score": 1.0
+    },
+    "tables": {
+      "ground_truth": 5,
+      "extracted": 5,
+      "found": 5,
+      "missing": [],
+      "extra": [],
+      "score": 1.0
+    },
+    "figures": {
+      "ground_truth": 3,
+      "extracted": 3,
+      "found": 3,
+      "missing": [],
+      "extra": [],
+      "score": 1.0
+    },
+    "equations": {
+      "ground_truth": 20,
+      "extracted": 17,
+      "found": 17,
+      "missing": [
+        "26.11-2",
+        "26.11-3",
+        "26.8-1"
+      ],
+      "extra": [],
+      "score": 0.85
+    },
+    "score": 0.9615384615384616,
+    "total_ground_truth": 78,
+    "total_found": 75
+  },
+  "fidelity": {
+    "score": 0.47384615384615386,
+    "total_checked": 325,
+    "exact_matches": 132,
+    "partial_matches": 44,
+    "failures": 149,
+    "failure_details": [
+      {
+        "id": "ASCE7-22-26.1.2.1-H1",
+        "page": 1,
+        "snippet": "26.1.2.1 Main Wind Force Resisting System Wind loads for the",
+        "type": "provision"
+      },
+      {
+        "id": "ASCE7-22-26.1.2.2-T1",
+        "page": 1,
+        "snippet": "1. Analytical Procedures provided in Parts 1 through 5, as a",
+        "type": "provision"
+      },
+      {
+        "id": "ASCE7-22-26.1.2.2-P1",
+        "page": 1,
+        "snippet": "26.1.3 Performance-Based Procedures Wind design of buildings",
+        "type": "provision"
+      },
+      {
+        "id": "ASCE7-22-26.2-D4",
+        "page": 1,
+        "snippet": "Acceptable to the Authority Having Jurisdiction.",
+        "type": "definition"
+      },
+      {
+        "id": "ASCE7-22-26.2-D5",
+        "page": 1,
+        "snippet": "The ASCE database (version 2022-1.0) of geocoded wind speed ",
+        "type": "definition"
+      },
+      {
+        "id": "ASCE7-22-26.2-T1",
+        "page": 1,
+        "snippet": "The following de nitions apply to the provisions of Chapters",
+        "type": "provision"
+      },
+      {
+        "id": "ASCE7-22-26.2-T2",
+        "page": 1,
+        "snippet": "User Note: The ASCE Wind Design Geodatabase of geocoded wind",
+        "type": "provision"
+      },
+      {
+        "id": "ASCE7-22-26.2-D1",
+        "page": 1,
+        "snippet": "A horizontal (maximum slope of 2%) patio cover attached to t",
+        "type": "definition"
+      },
+      {
+        "id": "ASCE7-22-26.2-E1",
+        "page": 1,
+        "snippet": "A < 0.01A or 4 ft2 0.37 m2 ; whichever is smaller; o g \u00f0 \u00de",
+        "type": "formula"
+      },
+      {
+        "id": "ASCE7-22-26.2-D6",
+        "page": 1,
+        "snippet": "An enclosed, partially enclosed, or partially open building ",
+        "type": "definition"
+      },
+      {
+        "id": "ASCE7-22-26.2-T3",
+        "page": 1,
+        "snippet": "where A and A are as defined for Open Buildings. o g BUILDIN",
+        "type": "provision"
+      },
+      {
+        "id": "ASCE7-22-26.2-T5",
+        "page": 2,
+        "snippet": "Use to determine the basic parameters for Chapter 26\u2013General",
+        "type": "provision"
+      },
+      {
+        "id": "ASCE7-22-26.6-S1",
+        "page": 2,
+        "snippet": "26.6 K d Exposure category, see Section",
+        "type": "provision"
+      },
+      {
+        "id": "ASCE7-22-26.7-S1",
+        "page": 2,
+        "snippet": "26.7 Topographic factor, , see Section",
+        "type": "provision"
+      },
+      {
+        "id": "ASCE7-22-26.8-S1",
+        "page": 2,
+        "snippet": "26.8 K zt Ground elevation above sea level, see Section",
+        "type": "provision"
+      }
+    ]
+  },
+  "structure": {
+    "score": 0.808,
+    "duplicate_ids": [
+      "ASCE7-22-26.11-T26-11-1"
+    ],
+    "out_of_order_sections": 25,
+    "empty_fields": 3,
+    "order_score": 0.932,
+    "completeness_score": 0.992,
+    "issues": [
+      "DUPLICATE_IDS: ['ASCE7-22-26.11-T26-11-1']"
+    ]
+  },
+  "composite": 0.736
+}

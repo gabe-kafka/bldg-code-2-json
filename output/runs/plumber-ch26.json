@@ -609,19 +609,19 @@
     }
   },
   {
-    "id": "ASCE7-22-26.2-T6",
+    "id": "ASCE7-22-26.6-S1",
     "type": "provision",
     "source": {
       "standard": "ASCE 7-22",
       "chapter": 26,
-      "section": "26.2",
-      "citation": "Section 26.2",
+      "section": "26.6",
+      "citation": "Section 26.6",
       "page": 2
     },
-    "title": "Text in Section 26.2",
+    "title": "26.6 K d Exposure category, see Section",
     "description": "",
     "data": {
-      "rule": "Basic wind speed, , see Section 26.5; Figure 26.5-1 V Wind directionality factor, , see Section 26.6 K d Exposure category, see Section 26.7 Topographic factor, , see Section 26.8 K zt Ground elevation above sea level, see Section 26.9 Velocity pressure, see Section 26.10 Gust Effect Factor, see Section 26.11 Enclosure classification, see Section 26.12 Internal pressure coefficient, , see Section 26.13 GC pi",
+      "rule": "26.6 K d Exposure category, see Section",
       "conditions": [],
       "then": "",
       "else": null,
@@ -631,7 +631,189 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": "unclassified"
+      "qc_notes": "split_section"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.7-S1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.7",
+      "citation": "Section 26.7",
+      "page": 2
+    },
+    "title": "26.7 Topographic factor, , see Section",
+    "description": "",
+    "data": {
+      "rule": "26.7 Topographic factor, , see Section",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_section"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.8-S1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.8",
+      "citation": "Section 26.8",
+      "page": 2
+    },
+    "title": "26.8 K zt Ground elevation above sea level, see Section",
+    "description": "",
+    "data": {
+      "rule": "26.8 K zt Ground elevation above sea level, see Section",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_section"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.9-S1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.9",
+      "citation": "Section 26.9",
+      "page": 2
+    },
+    "title": "26.9 Velocity pressure, see Section",
+    "description": "",
+    "data": {
+      "rule": "26.9 Velocity pressure, see Section",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_section"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.10-S1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.10",
+      "citation": "Section 26.10",
+      "page": 2
+    },
+    "title": "26.10 Gust Effect Factor, see Section",
+    "description": "",
+    "data": {
+      "rule": "26.10 Gust Effect Factor, see Section",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_section"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.11-S1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11",
+      "citation": "Section 26.11",
+      "page": 2
+    },
+    "title": "26.11 Enclosure classification, see Section",
+    "description": "",
+    "data": {
+      "rule": "26.11 Enclosure classification, see Section",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_section"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.12-S1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.12",
+      "citation": "Section 26.12",
+      "page": 2
+    },
+    "title": "26.12 Internal pressure coefficient, , see Section",
+    "description": "",
+    "data": {
+      "rule": "26.12 Internal pressure coefficient, , see Section",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_section"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.13-S1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.13",
+      "citation": "Section 26.13",
+      "page": 2
+    },
+    "title": "26.13 GC pi",
+    "description": "",
+    "data": {
+      "rule": "26.13 GC pi",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_section"
     }
   },
   {
@@ -1505,6 +1687,29 @@
     }
   },
   {
+    "id": "ASCE7-22-26.11-E26-11-7",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11",
+      "citation": "Eq. (26.11-7)",
+      "page": 4
+    },
+    "title": "Equation (26.11-7)",
+    "description": "",
+    "data": {
+      "expression": "to be used in determinaN tion of wind loads for open buildings C = External pressure coefficient to be used in deterp mination of wind loads for buildings c = Turbulence intensity factor in Equation (26.11-7)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "extracted_from_text"
+    }
+  },
+  {
     "id": "ASCE7-22-26.3-T4",
     "type": "provision",
     "source": {
@@ -1554,6 +1759,144 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": "unclassified"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.11-E26-11-6",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11",
+      "citation": "Eq. (26.11-6)",
+      "page": 4
+    },
+    "title": "Equation (26.11-6)",
+    "description": "",
+    "data": {
+      "expression": "ls in rn Equations (29.4-4) and (29.4-5) GC = Nominal net pressure coefficient for rooftop solar rn nom \u00f0 \u00de panels determined from Figure 29.4-7 g = Peak factor for background response in Q Equations (26.11-6)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "extracted_from_text"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.11-E26-11-10",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11",
+      "citation": "Eq. (26.11-10)",
+      "page": 4
+    },
+    "title": "Equation (26.11-10)",
+    "description": "",
+    "data": {
+      "expression": "ions (29.4-4) and (29.4-5) GC = Nominal net pressure coefficient for rooftop solar rn nom \u00f0 \u00de panels determined from Figure 29.4-7 g = Peak factor for background response in Q Equations (26.11-6) and (26.11-10)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "extracted_from_text"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.11-E26-11-10-4",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11",
+      "citation": "Eq. (26.11-10)",
+      "page": 4
+    },
+    "title": "Equation (26.11-10)",
+    "description": "",
+    "data": {
+      "expression": "t for rooftop solar rn nom \u00f0 \u00de panels determined from Figure 29.4-7 g = Peak factor for background response in Q Equations (26.11-6) and (26.11-10) g = Peak factor for resonant response in R Equation (26.11-10)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "extracted_from_text"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.11-E26-11-10-5",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11",
+      "citation": "Eq. (26.11-10)",
+      "page": 4
+    },
+    "title": "Equation (26.11-10)",
+    "description": "",
+    "data": {
+      "expression": "eak factor for background response in Q Equations (26.11-6) and (26.11-10) g = Peak factor for resonant response in R Equation (26.11-10) g = Peak factor for wind response in Equations (26.11v 6) and (26.11-10)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "extracted_from_text"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.11-E26-11-7-6",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11",
+      "citation": "Eq. (26.11-7)",
+      "page": 4
+    },
+    "title": "Equation (26.11-7)",
+    "description": "",
+    "data": {
+      "expression": "of a solar panel above the roof at the lower 1 edge of the panel, ft (m) h = Height of a solar panel above the roof at the upper 2 edge of the panel, ft (m) I = Intensity of turbulence from Equation (26.11-7)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "extracted_from_text"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.11-E26-11-14",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11",
+      "citation": "Eq. (26.11-14)",
+      "page": 4
+    },
+    "title": "Equation (26.11-14)",
+    "description": "",
+    "data": {
+      "expression": "cale of turbulence, ft (m) z l = Integral length scale factor from Table 26.11-1, ft (m) M = Moment for ground-mounted solar panels in c Figure 29.4.9, lb-ft (N-m) N = Reduced frequency from Equation (26.11-14)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "extracted_from_text"
     }
   },
   {
@@ -1609,6 +1952,98 @@
     }
   },
   {
+    "id": "ASCE7-22-26.11-E26-11-8",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11",
+      "citation": "Eq. (26.11-8)",
+      "page": 5
+    },
+    "title": "Equation (26.11-8)",
+    "description": "",
+    "data": {
+      "expression": "re to be used in determination of 2 2 wind loads for buildings, lb/ft (N/m ) P = Wind pressure acting on leeward face in FigL 2 2 ure 27.3-8, lb/ft (N/m ) Q = Background response factor from Equation (26.11-8)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "extracted_from_text"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.11-E26-11-15a",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11",
+      "citation": "Eq. (26.11-15a)",
+      "page": 5
+    },
+    "title": "Equation (26.11-15a)",
+    "description": "",
+    "data": {
+      "expression": "Velocity pressure evaluated at height z above z 2 2 ground, lb/ft (N/m ) R = Resonant response factor from Equation (26.1112) r = Rise-to-span ratio for arched roofs R , R , R = Values from Equations (26.11-15a)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "extracted_from_text"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.13-E26-13-1",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.13",
+      "citation": "Eq. (26.13-1)",
+      "page": 5
+    },
+    "title": "Equation (26.13-1)",
+    "description": "",
+    "data": {
+      "expression": "/m ) R = Resonant response factor from Equation (26.1112) r = Rise-to-span ratio for arched roofs R , R , R = Values from Equations (26.11-15a) and (26.11B h L 15b) R = Reduction factor from Equation (26.13-1)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "extracted_from_text"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.11-E26-11-13",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11",
+      "citation": "Eq. (26.11-13)",
+      "page": 5
+    },
+    "title": "Equation (26.11-13)",
+    "description": "",
+    "data": {
+      "expression": "om Equation (26.1112) r = Rise-to-span ratio for arched roofs R , R , R = Values from Equations (26.11-15a) and (26.11B h L 15b) R = Reduction factor from Equation (26.13-1) i R = Value from Equation (26.11-13)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "extracted_from_text"
+    }
+  },
+  {
     "id": "ASCE7-22-26.3-T6",
     "type": "provision",
     "source": {
@@ -1632,6 +2067,75 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": "unclassified"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.11-E26-11-16",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11",
+      "citation": "Eq. (26.11-16)",
+      "page": 5
+    },
+    "title": "Equation (26.11-16)",
+    "description": "",
+    "data": {
+      "expression": "= Exposure constant from Table 26.11-1 min \u03b1 = 3-s gust-speed power law exponent from Table 26.11-1 \u02c6 = Reciprocal of from Table 26.11-1 \u03b1 \u03b1 \u03b1 = Mean hourly wind-speed power law exponent in Equation (26.11-16)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "extracted_from_text"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.11-E26-11-9",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11",
+      "citation": "Eq. (26.11-9)",
+      "page": 5
+    },
+    "title": "Equation (26.11-9)",
+    "description": "",
+    "data": {
+      "expression": "9.4-5) \u03b5 = Ratio of solid area to gross area for solid freestanding wall, solid sign, open sign, face of a trussed tower, or lattice structure \u03b5 = Integral length scale power law exponent in Equation (26.11-9)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "extracted_from_text"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.11-E26-11-15a-13",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11",
+      "citation": "Eq. (26.11-15a)",
+      "page": 5
+    },
+    "title": "Equation (26.11-15a)",
+    "description": "",
+    "data": {
+      "expression": "eestanding wall, solid sign, open sign, face of a trussed tower, or lattice structure \u03b5 = Integral length scale power law exponent in Equation (26.11-9) from Table 26.11-1 \u03b7 = Value used in Equations (26.11-15a)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "extracted_from_text"
     }
   },
   {
@@ -5318,6 +5822,29 @@
     }
   },
   {
+    "id": "ASCE7-22-26.10-E26-10-1",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.10",
+      "citation": "Eq. (26.10-1)",
+      "page": 17
+    },
+    "title": "Equation (26.10-1)",
+    "description": "",
+    "data": {
+      "expression": "The velocity pressure at mean roof height is computed as q = q evaluated from Equation (26.10-1)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "extracted_from_text"
+    }
+  },
+  {
     "id": "ASCE7-22-26.10.2-P3",
     "type": "provision",
     "source": {
@@ -5523,6 +6050,29 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.11-E26-11-1",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11",
+      "citation": "Eq. (26.11-1)",
+      "page": 17
+    },
+    "title": "Equation (26.11-1)",
+    "description": "",
+    "data": {
+      "expression": "n h L i i i=1 L = (26.11-1)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "extracted_from_text"
     }
   },
   {
@@ -5930,6 +6480,29 @@
     }
   },
   {
+    "id": "ASCE7-22-26.11-E26-11-4",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11",
+      "citation": "Eq. (26.11-4)",
+      "page": 18
+    },
+    "title": "Equation (26.11-4)",
+    "description": "",
+    "data": {
+      "expression": "z and c min min n = 75\u2215h (26.11-4)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "extracted_from_text"
+    }
+  },
+  {
     "id": "ASCE7-22-26.11.1-P5",
     "type": "provision",
     "source": {
@@ -5956,6 +6529,167 @@
     }
   },
   {
+    "id": "ASCE7-22-26.11-E26-11-4-SI",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11",
+      "citation": "Eq. (26.11-4.SI)",
+      "page": 18
+    },
+    "title": "Equation (26.11-4.SI)",
+    "description": "",
+    "data": {
+      "expression": "n = 22.86\u2215h (26.11-4.SI)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "extracted_from_text"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.11-E26-11-8-17",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11",
+      "citation": "Eq. (26.11-8)",
+      "page": 18
+    },
+    "title": "Equation (26.11-8)",
+    "description": "",
+    "data": {
+      "expression": "n = 22.86\u2215h (26.11-4.SI) a 1 Q = (26.11-8)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "extracted_from_text"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.11-E26-11-5",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11",
+      "citation": "Eq. (26.11-5)",
+      "page": 18
+    },
+    "title": "Equation (26.11-5)",
+    "description": "",
+    "data": {
+      "expression": "iffiffiffiffiffiffiffiffiffi L \u00fe \u00f0 \u00de z permitted to use where B and h are defined in Section 26.3, and L is the integral z length scale of turbulence at the equivalent height given by n = 385 C 0.5 h (26.11-5)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "extracted_from_text"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.11-E26-11-9-19",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11",
+      "citation": "Eq. (26.11-9)",
+      "page": 18
+    },
+    "title": "Equation (26.11-9)",
+    "description": "",
+    "data": {
+      "expression": "\u00fe \u00f0 \u00de z permitted to use where B and h are defined in Section 26.3, and L is the integral z length scale of turbulence at the equivalent height given by n = 385 C 0.5 h (26.11-5) \u2215 a w \u00f0 \u00de z \u03b5 L = l (26.11-9)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "extracted_from_text"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.11-E26-11-5-SI",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11",
+      "citation": "Eq. (26.11-5.SI)",
+      "page": 18
+    },
+    "title": "Equation (26.11-5.SI)",
+    "description": "",
+    "data": {
+      "expression": "B and h are defined in Section 26.3, and L is the integral z length scale of turbulence at the equivalent height given by n = 385 C 0.5 h (26.11-5) \u2215 a w \u00f0 \u00de z \u03b5 L = l (26.11-9) 0.5 z n = 117.3 C \u2215h (26.11-5.SI)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "extracted_from_text"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.11-E26-11-9-SI",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11",
+      "citation": "Eq. (26.11-9.SI)",
+      "page": 18
+    },
+    "title": "Equation (26.11-9.SI)",
+    "description": "",
+    "data": {
+      "expression": "is the integral z length scale of turbulence at the equivalent height given by n = 385 C 0.5 h (26.11-5) \u2215 a w \u00f0 \u00de z \u03b5 L = l (26.11-9) 0.5 z n = 117.3 C \u2215h (26.11-5.SI) 33 a w \u00f0 \u00de ! \" where z \u03b5 L = l (26.11-9.SI)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "extracted_from_text"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.11-E26-11-10-22",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11",
+      "citation": "Eq. (26.11-10)",
+      "page": 18
+    },
+    "title": "Equation (26.11-10)",
+    "description": "",
+    "data": {
+      "expression": "z Q R \u00fe \u00fe G = 0.925 (26.11-10)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "extracted_from_text"
+    }
+  },
+  {
     "id": "ASCE7-22-26.11.1-P6",
     "type": "provision",
     "source": {
@@ -5979,6 +6713,121 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.11-E26-11-11",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11",
+      "citation": "Eq. (26.11-11)",
+      "page": 18
+    },
+    "title": "Equation (26.11-11)",
+    "description": "",
+    "data": {
+      "expression": "26.11.4 Rigid Buildings or Other Structures For rigid 0.577 buildings or other structures as defined in Section 26.2, the g = 2 ln 3,600n (26.11-11)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "extracted_from_text"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.11-E26-11-6-24",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11",
+      "citation": "Eq. (26.11-6)",
+      "page": 18
+    },
+    "title": "Equation (26.11-6)",
+    "description": "",
+    "data": {
+      "expression": "The 1 1.7g I Q z Q Z G = 0.925 \u00fe (26.11-6)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "extracted_from_text"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.11-E26-11-12",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11",
+      "citation": "Eq. (26.11-12)",
+      "page": 18
+    },
+    "title": "Equation (26.11-12)",
+    "description": "",
+    "data": {
+      "expression": "The 1 1.7g I Q z Q Z G = 0.925 \u00fe (26.11-6) resonant response factor is 1 1.7g I v Z ! \u00fe \" 1 33 1\u22156 R = R R R 0.53 0.47R (26.11-12)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "extracted_from_text"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.11-E26-11-7-26",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11",
+      "citation": "Eq. (26.11-7)",
+      "page": 18
+    },
+    "title": "Equation (26.11-7)",
+    "description": "",
+    "data": {
+      "expression": "The 1 1.7g I Q z Q Z G = 0.925 \u00fe (26.11-6) resonant response factor is 1 1.7g I v Z ! \u00fe \" 1 33 1\u22156 R = R R R 0.53 0.47R (26.11-12) n h B L I = c (26.11-7)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "extracted_from_text"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.11-E26-11-7-SI",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11",
+      "citation": "Eq. (26.11-7.SI)",
+      "page": 18
+    },
+    "title": "Equation (26.11-7.SI)",
+    "description": "",
+    "data": {
+      "expression": "ffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi z ! \" where n is the fundamental natural frequency, and \u03b2 is the 10 1 6 1 \u2215 I = c (26.11-7.SI)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "extracted_from_text"
     }
   },
   {
@@ -6268,6 +7117,29 @@
     }
   },
   {
+    "id": "ASCE7-22-26.11-E26-11-13-28",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11",
+      "citation": "Eq. (26.11-13)",
+      "page": 19
+    },
+    "title": "Equation (26.11-13)",
+    "description": "",
+    "data": {
+      "expression": "7.47N 1 R = (26.11-13)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "extracted_from_text"
+    }
+  },
+  {
     "id": "ASCE7-22-26.11.1-T21",
     "type": "provision",
     "source": {
@@ -6291,6 +7163,29 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": "unclassified"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.11-E26-11-14-29",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11",
+      "citation": "Eq. (26.11-14)",
+      "page": 19
+    },
+    "title": "Equation (26.11-14)",
+    "description": "",
+    "data": {
+      "expression": "n L 1 z N = (26.11-14)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "extracted_from_text"
     }
   },
   {
@@ -6320,6 +7215,29 @@
     }
   },
   {
+    "id": "ASCE7-22-26.11-E26-11-9-30",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11",
+      "citation": "Eq. (26.11-9)",
+      "page": 19
+    },
+    "title": "Equation (26.11-9)",
+    "description": "",
+    "data": {
+      "expression": "where L is defined in Equation (26.11-9)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "extracted_from_text"
+    }
+  },
+  {
     "id": "ASCE7-22-26.11.1-T23",
     "type": "provision",
     "source": {
@@ -6343,6 +7261,29 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": "unclassified"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.11-E26-11-15a-31",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11",
+      "citation": "Eq. (26.11-15a)",
+      "page": 19
+    },
+    "title": "Equation (26.11-15a)",
+    "description": "",
+    "data": {
+      "expression": "1 1 \u22122 R = \u2212 1 \u2212 e \u03b7 h h \u03b7 2\u03b72 \u00f0 \u00de h h 1 1 R = 1 e\u22122 \u2212 \u2212 \u03b7 (26.11-15a)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "extracted_from_text"
     }
   },
   {
@@ -6395,6 +7336,29 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": "unclassified"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.11-E26-11-15b",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11",
+      "citation": "Eq. (26.11-15b)",
+      "page": 19
+    },
+    "title": "Equation (26.11-15b)",
+    "description": "",
+    "data": {
+      "expression": "\u03b7 = 4.6n B\u2215V (26.11-15b)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "extracted_from_text"
     }
   },
   {
@@ -6476,6 +7440,29 @@
     }
   },
   {
+    "id": "ASCE7-22-26.11-E26-11-16-33",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11",
+      "citation": "Eq. (26.11-16)",
+      "page": 19
+    },
+    "title": "Equation (26.11-16)",
+    "description": "",
+    "data": {
+      "expression": "z \u03b1 88 V = b V (26.11-16)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "extracted_from_text"
+    }
+  },
+  {
     "id": "ASCE7-22-26.11.1-T29",
     "type": "provision",
     "source": {
@@ -6499,6 +7486,29 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": "unclassified"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.11-E26-11-16-SI",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11",
+      "citation": "Eq. (26.11-16.SI)",
+      "page": 19
+    },
+    "title": "Equation (26.11-16.SI)",
+    "description": "",
+    "data": {
+      "expression": "z \u03b1 V = b V (26.11-16.SI)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "extracted_from_text"
     }
   },
   {
@@ -7094,19 +8104,19 @@
     }
   },
   {
-    "id": "ASCE7-22-26.13.1-P2",
+    "id": "ASCE7-22-26.14-S1",
     "type": "provision",
     "source": {
       "standard": "ASCE 7-22",
       "chapter": 26,
-      "section": "26.13.1",
-      "citation": "Section 26.13.1",
+      "section": "26.14",
+      "citation": "Section 26.14",
       "page": 20
     },
-    "title": "Provision in Section 26.13.1",
+    "title": "26.14 CONSENSUS STANDARDS AND OTHER Differentials, ASTM, 2019. REFERENCED DOCUMENTS Cited in: Sections 26.12.3.2, C",
     "description": "",
     "data": {
-      "rule": "unpartitioned large volume, the internal pressure coefficient, Pressure, Door and Access Systems Manufacturers Association (GC ), shall be multiplied by the reduction factor, R : International, 2017. pi i Cited in: Sections 26.12.3.2, C26.12. 1 ASTM E330, Standard Test Method for Structural PerforR = 1.0 or R = 0.5 1 < 1.0 (26.13-1) i i \u00fe V mance of Exterior Windows, Doors, Skylights, and Curtain Walls 1 i ! \" 22;800A \u00fe og by Uniform Static Air Pressure Difference, ASTM International, qffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi 2014. where A is the total area of openings in the building envelope og Cited in: Section C26.5.1. 2 [walls and roof (ft )], and V is the unpartitioned internal volume i ASTM E1886, Standard Test Method for Performance of (ft3). Exterior Windows, Curtain Walls, Doors, and Impact Protective Systems Impacted by Missile(s) and Exposed to Cyclic Pressure 26.14 CONSENSUS STANDARDS AND OTHER Differentials, ASTM, 2019. REFERENCED DOCUMENTS Cited in: Sections 26.12.3.2, C26.12 ASTM E1996, Standard Speci cation for Performance of This section lists the consensus standards and other documents Exterior Windows, Curtain Walls, Doors and Impact Protective that shall be considered part of this standard to the extent Systems Impacted by Windborne Debris in Hurricanes, ASTM referenced in this chapter. International, 2020. ANSI A58.1, Minimum Design Loads for Buildings and Other Cited in: Sections 26.12.3.2, C26.12 Structures, American National Standards Institute, 1982. CAN/CSA A123.21, Standard Test Method for the Dynamic Cited in: Section C26.5.2. Wind Uplift Resistance of Membrane-Roo ng Systems, CSA ANSI/DASMA 115, Standard Method for Testing Sectional Group, 2014. Doors, Rolling Doors, and Flexible Doors: Determination of Cited in: Section C26.5.1 Structural Performance under Missile Impact and Cyclic Wind",
+      "rule": "26.14 CONSENSUS STANDARDS AND OTHER Differentials, ASTM, 2019. REFERENCED DOCUMENTS Cited in: Sections 26.12.3.2, C",
       "conditions": [],
       "then": "",
       "else": null,
@@ -7116,7 +8126,85 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
+      "qc_notes": "split_section"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.12-S2",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.12",
+      "citation": "Section 26.12",
+      "page": 20
+    },
+    "title": "26.12 ASTM E1996, Standard Speci cation for Performance of This section lists the consensus standards and other document",
+    "description": "",
+    "data": {
+      "rule": "26.12 ASTM E1996, Standard Speci cation for Performance of This section lists the consensus standards and other documents Exterior Windows, Curtain Walls, Doors and Impact Protective that shall be considered part of this standard to the extent Systems Impacted by Windborne Debris in Hurricanes, ASTM referenced in this chapter. International, 2020. ANSI A58.1, Minimum Design Loads for Buildings and Other Cited in: Sections 26.12.3.2, C",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_section"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.12-S3",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.12",
+      "citation": "Section 26.12",
+      "page": 20
+    },
+    "title": "26.12 Structures, American National Standards Institute, 1982. CAN/CSA A123.21, Standard Test Method for the Dynamic Cit",
+    "description": "",
+    "data": {
+      "rule": "26.12 Structures, American National Standards Institute, 1982. CAN/CSA A123.21, Standard Test Method for the Dynamic Cited in: Section C26.5.2. Wind Uplift Resistance of Membrane-Roo ng Systems, CSA ANSI/DASMA 115, Standard Method for Testing Sectional Group, 2014. Doors, Rolling Doors, and Flexible Doors: Determination of Cited in: Section C",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_section"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.5.1-S1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.5.1",
+      "citation": "Section 26.5.1",
+      "page": 20
+    },
+    "title": "26.5.1 Structural Performance under Missile Impact and Cyclic Wind",
+    "description": "",
+    "data": {
+      "rule": "26.5.1 Structural Performance under Missile Impact and Cyclic Wind",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_section"
     }
   },
   {
@@ -8498,6 +9586,656 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": "from_docling"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.1.1-H1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.1.1",
+      "citation": "Section 26.1.1",
+      "page": 1
+    },
+    "title": "26.1.1 Scope Buildings and other structures, including the main wind force resisting system ",
+    "description": "",
+    "data": {
+      "rule": "26.1.1 Scope Buildings and other structures, including the main wind force resisting system ",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "heading_from_text"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.1.2-H1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.1.2",
+      "citation": "Section 26.1.2",
+      "page": 1
+    },
+    "title": "26.1.2 Permitted Procedures The design wind loads for buildings and other structures, including the MWFRS and C",
+    "description": "",
+    "data": {
+      "rule": "26.1.2 Permitted Procedures The design wind loads for buildings and other structures, including the MWFRS and C",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "heading_from_text"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.1.3-H1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.1.3",
+      "citation": "Section 26.1.3",
+      "page": 1
+    },
+    "title": "26.1.3 Performance-Based Procedures Wind design of buildings and other structures using performance-based procedures sha",
+    "description": "",
+    "data": {
+      "rule": "26.1.3 Performance-Based Procedures Wind design of buildings and other structures using performance-based procedures shall be permitted subject to the approval of the Authority Having Jurisdiction",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "heading_from_text"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.4.3-H1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.4.3",
+      "citation": "Section 26.4.3",
+      "page": 5
+    },
+    "title": "26.4.3 Wind Pressures Acting on Opposite Faces of Each Building Surface In the calculation of design wind loads for the ",
+    "description": "",
+    "data": {
+      "rule": "26.4.3 Wind Pressures Acting on Opposite Faces of Each Building Surface In the calculation of design wind loads for the MWFRS and for C",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "heading_from_text"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.5.2-H1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.5.2",
+      "citation": "Section 26.5.2",
+      "page": 14
+    },
+    "title": "26.5.2 Special Wind Regions Mountainous terrain, gorges, and special wind regions shown in Figure ",
+    "description": "",
+    "data": {
+      "rule": "26.5.2 Special Wind Regions Mountainous terrain, gorges, and special wind regions shown in Figure ",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "heading_from_text"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.5.3-H1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.5.3",
+      "citation": "Section 26.5.3",
+      "page": 14
+    },
+    "title": "26.5.3 Estimation of Basic Wind Speeds from Regional Climatic Data In areas outside hurricane-prone regions, regional cl",
+    "description": "",
+    "data": {
+      "rule": "26.5.3 Estimation of Basic Wind Speeds from Regional Climatic Data In areas outside hurricane-prone regions, regional climatic data shall only be used in lieu of the basic wind speeds given in Figure ",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "heading_from_text"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.7.1-H1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.7.1",
+      "citation": "Section 26.7.1",
+      "page": 14
+    },
+    "title": "26.7.1 Wind Directions and Sectors For each selected wind direction at which the wind loads are to be determined, the ex",
+    "description": "",
+    "data": {
+      "rule": "26.7.1 Wind Directions and Sectors For each selected wind direction at which the wind loads are to be determined, the exposure of the building or structure shall be determined for the two upwind sectors extending ",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "heading_from_text"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.7.2-H1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.7.2",
+      "citation": "Section 26.7.2",
+      "page": 14
+    },
+    "title": "26.7.2 Surface Roughness Categories A ground surface roughness within each ",
+    "description": "",
+    "data": {
+      "rule": "26.7.2 Surface Roughness Categories A ground surface roughness within each ",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "heading_from_text"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.7.3-H1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.7.3",
+      "citation": "Section 26.7.3",
+      "page": 14
+    },
+    "title": "26.7.3 Exposure Categories Exposure B",
+    "description": "",
+    "data": {
+      "rule": "26.7.3 Exposure Categories Exposure B",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "heading_from_text"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.7.4.1-H1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.7.4.1",
+      "citation": "Section 26.7.4.1",
+      "page": 15
+    },
+    "title": "26.7.4.1 Directional Procedure ",
+    "description": "",
+    "data": {
+      "rule": "26.7.4.1 Directional Procedure ",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "heading_from_text"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.7.4.2-H1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.7.4.2",
+      "citation": "Section 26.7.4.2",
+      "page": 15
+    },
+    "title": "26.7.4.2 Envelope Procedure ",
+    "description": "",
+    "data": {
+      "rule": "26.7.4.2 Envelope Procedure ",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "heading_from_text"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.7.4.3-H1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.7.4.3",
+      "citation": "Section 26.7.4.3",
+      "page": 15
+    },
+    "title": "26.7.4.3 Directional Procedure for Building Appurtenances and Other Structures ",
+    "description": "",
+    "data": {
+      "rule": "26.7.4.3 Directional Procedure for Building Appurtenances and Other Structures ",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "heading_from_text"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.7.4.4-H1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.7.4.4",
+      "citation": "Section 26.7.4.4",
+      "page": 15
+    },
+    "title": "26.7.4.4 Components and Cladding ",
+    "description": "",
+    "data": {
+      "rule": "26.7.4.4 Components and Cladding ",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "heading_from_text"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.8.1-H1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.8.1",
+      "citation": "Section 26.8.1",
+      "page": 15
+    },
+    "title": "26.8.1 Wind Speed-Up over Hills, Ridges, and Escarpments Wind speed-up effects at isolated hills, ridges, and escarpment",
+    "description": "",
+    "data": {
+      "rule": "26.8.1 Wind Speed-Up over Hills, Ridges, and Escarpments Wind speed-up effects at isolated hills, ridges, and escarpments constituting abrupt changes in the general topography, located in any exposure category, shall be included in the determination of the wind loads when site conditions and locations of buildings and other structures meet all the following conditions",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "heading_from_text"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.10.1-H1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.10.1",
+      "citation": "Section 26.10.1",
+      "page": 15
+    },
+    "title": "26.10.1 Velocity Pressure Exposure Coefficient Based on the exposure category determined in Section ",
+    "description": "",
+    "data": {
+      "rule": "26.10.1 Velocity Pressure Exposure Coefficient Based on the exposure category determined in Section ",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "heading_from_text"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.11.2-H1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11.2",
+      "citation": "Section 26.11.2",
+      "page": 17
+    },
+    "title": "26.11.2 Frequency Determination To determine whether a building or other structure is rigid or exible as defined in Sect",
+    "description": "",
+    "data": {
+      "rule": "26.11.2 Frequency Determination To determine whether a building or other structure is rigid or exible as defined in Section ",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "heading_from_text"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.11.2.1-H1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11.2.1",
+      "citation": "Section 26.11.2.1",
+      "page": 17
+    },
+    "title": "26.11.2.1 Limitations for Approximate Natural Frequency As an alternative to performing an analysis to determine n , the",
+    "description": "",
+    "data": {
+      "rule": "26.11.2.1 Limitations for Approximate Natural Frequency As an alternative to performing an analysis to determine n , the ",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "heading_from_text"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.11.3-H1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11.3",
+      "citation": "Section 26.11.3",
+      "page": 17
+    },
+    "title": "26.11.3 Approximate Natural Frequency The approximate lower bound natural frequency ",
+    "description": "",
+    "data": {
+      "rule": "26.11.3 Approximate Natural Frequency The approximate lower bound natural frequency ",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "heading_from_text"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.11.5-H1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11.5",
+      "citation": "Section 26.11.5",
+      "page": 18
+    },
+    "title": "26.11.5 Flexible Buildings or Other Structures For exible ",
+    "description": "",
+    "data": {
+      "rule": "26.11.5 Flexible Buildings or Other Structures For exible ",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "heading_from_text"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.11.4-H1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11.4",
+      "citation": "Section 26.11.4",
+      "page": 18
+    },
+    "title": "26.11.4 Rigid Buildings or Other Structures For rigid ",
+    "description": "",
+    "data": {
+      "rule": "26.11.4 Rigid Buildings or Other Structures For rigid ",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "heading_from_text"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.11.6-H1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11.6",
+      "citation": "Section 26.11.6",
+      "page": 19
+    },
+    "title": "26.11.6 Rational Analysis In lieu of the procedure defined in Sections ",
+    "description": "",
+    "data": {
+      "rule": "26.11.6 Rational Analysis In lieu of the procedure defined in Sections ",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "heading_from_text"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.11.7-H1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11.7",
+      "citation": "Section 26.11.7",
+      "page": 19
+    },
+    "title": "26.11.7 Limitations Where combined gust-effect factors and pressure coefficients ",
+    "description": "",
+    "data": {
+      "rule": "26.11.7 Limitations Where combined gust-effect factors and pressure coefficients ",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "heading_from_text"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.12.1-H1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.12.1",
+      "citation": "Section 26.12.1",
+      "page": 19
+    },
+    "title": "26.12.1 General For the purpose of determining internal pressure coefficients, buildings and other structures for which ",
+    "description": "",
+    "data": {
+      "rule": "26.12.1 General For the purpose of determining internal pressure coefficients, buildings and other structures for which internal pressure coefficients ",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "heading_from_text"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.12.3-H1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.12.3",
+      "citation": "Section 26.12.3",
+      "page": 19
+    },
+    "title": "26.12.3 Protection of Glazed Openings Glazed openings in Risk Category II, III, or IV buildings located in hurricane-pro",
+    "description": "",
+    "data": {
+      "rule": "26.12.3 Protection of Glazed Openings Glazed openings in Risk Category II, III, or IV buildings located in hurricane-prone regions shall be protected as specified in this section",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "heading_from_text"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.12.3.2-H1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.12.3.2",
+      "citation": "Section 26.12.3.2",
+      "page": 19
+    },
+    "title": "26.12.3.2 Protection Requirements for Glazed Openings Glazing in buildings requiring protection shall be impact resistan",
+    "description": "",
+    "data": {
+      "rule": "26.12.3.2 Protection Requirements for Glazed Openings Glazing in buildings requiring protection shall be impact resistant or be protected with an impact-protective system",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "heading_from_text"
     }
   }
 ]

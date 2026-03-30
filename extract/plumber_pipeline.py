@@ -47,11 +47,15 @@ def run_plumber(pdf_path, standard="ASCE 7-22", chapter=26):
     figures = _get_docling_figures(pdf_path, std_slug, standard, chapter)
     elements.extend(figures)
 
-    # Post-process: split embedded definitions out of provision blocks
     # Fix ligatures (fi, fl, ff, ffi, ffl broken by PDF encoding)
     print("  [+] Fixing ligatures...")
     _fix_ligatures(elements)
 
+    # Split blocks that contain multiple sections
+    print("  [+] Splitting multi-section blocks...")
+    elements = _split_multi_section_blocks(elements, std_slug, standard, chapter)
+
+    # Split embedded definitions out of provision blocks
     print("  [+] Splitting embedded definitions...")
     elements = _split_embedded_definitions(elements, std_slug, standard, chapter)
 
@@ -498,6 +502,67 @@ def _fix_ligatures(elements):
             for col in data['columns']:
                 if 'name' in col:
                     col['name'] = fix_text(col['name'])
+
+
+def _split_multi_section_blocks(elements, std_slug, standard, chapter):
+    """Split text blocks that contain multiple section headings.
+
+    e.g. a block with "26.5.1 Basic Wind Speed ... 26.5.2 Special Wind Regions ..."
+    becomes two separate elements.
+    """
+    new_elements = []
+    id_set = {e["id"] for e in elements}
+    counters = defaultdict(int)
+
+    section_pattern = re.compile(r'(26\.\d+(?:\.\d+)*)\s+([A-Z][A-Za-z, -]+)')
+
+    for e in elements:
+        text = e.get("data", {}).get("rule", "")
+        if e["type"] not in ("provision",) or len(text) < 80:
+            new_elements.append(e)
+            continue
+
+        # Find all section number patterns in the text
+        matches = list(section_pattern.finditer(text))
+        if len(matches) < 2:
+            new_elements.append(e)
+            continue
+
+        # Split at each section boundary
+        for i, m in enumerate(matches):
+            sec_num = m.group(1)
+            start = m.start()
+            end = matches[i + 1].start() if i + 1 < len(matches) else len(text)
+            chunk = text[start:end].strip()
+
+            if len(chunk) < 10:
+                continue
+
+            counters[sec_num] += 1
+            eid = f"{std_slug}-{sec_num}-S{counters[sec_num]}"
+            while eid in id_set:
+                counters[sec_num] += 1
+                eid = f"{std_slug}-{sec_num}-S{counters[sec_num]}"
+            id_set.add(eid)
+
+            # Classify: if it starts with the section number, it's a heading+provision
+            is_provision = any(w in chunk.lower() for w in ["shall ", "shall not", "is permitted", "must be"])
+
+            new_elements.append({
+                "id": eid,
+                "type": "provision",
+                "source": {"standard": e["source"]["standard"], "chapter": chapter,
+                           "section": sec_num, "citation": f"Section {sec_num}",
+                           "page": e["source"]["page"]},
+                "title": chunk[:120],
+                "description": "",
+                "data": {"rule": chunk, "conditions": [], "then": "", "else": None, "exceptions": []},
+                "cross_references": [],
+                "metadata": {"extracted_by": "auto", "qc_status": "pending",
+                            "qc_notes": "split_section"}
+            })
+
+    return new_elements
 
 
 def _split_embedded_definitions(elements, std_slug, standard, chapter):
