@@ -513,40 +513,77 @@ def _parse_table(table_cells):
 # ═══════════════════════════════════════════════════════════════
 
 def _add_cross_references(elements):
-    """Scan text for Table/Figure/Section/Eq references and link to element IDs."""
-    # Build lookup indexes
-    by_citation = {}
-    by_section = {}
+    """Scan text for Table/Figure/Section/Eq references and link to element IDs.
+
+    Uses normalized number matching (26.6-1) instead of exact citation strings.
+    Also loads cross-chapter index from manifest for inter-chapter resolution.
+    """
+    # Build normalized index: "26.6-1" → element_id
+    num_index = {}
+    sec_index = {}
+
+    # Local elements
     for e in elements:
         cit = e.get("source", {}).get("citation", "")
         sec = e.get("source", {}).get("section", "")
-        if cit:
-            by_citation[cit] = e["id"]
-        if sec and sec not in by_section:
-            by_section[sec] = e["id"]
+        # Extract number from citation
+        m = re.search(r'(\d+\.\d+-\d+[A-Da-d]?)', cit)
+        if m:
+            num_index[m.group(1)] = e["id"]
+        if sec and sec not in sec_index:
+            sec_index[sec] = e["id"]
 
+    # Cross-chapter: load all other chapter files from manifest
+    from extract.manifest import load_manifest
+    manifest = load_manifest()
+    from pathlib import Path
+    for ch, info in manifest.get("chapters", {}).items():
+        filepath = info.get("file", "")
+        if filepath and Path(filepath).exists():
+            try:
+                ch_elements = json.loads(Path(filepath).read_text())
+                for ce in ch_elements:
+                    cit = ce.get("source", {}).get("citation", "")
+                    sec = ce.get("source", {}).get("section", "")
+                    m = re.search(r'(\d+\.\d+-\d+[A-Da-d]?)', cit)
+                    if m and m.group(1) not in num_index:
+                        num_index[m.group(1)] = ce["id"]
+                    if sec and sec not in sec_index:
+                        sec_index[sec] = ce["id"]
+            except Exception:
+                pass
+
+    # Scan text for references
     ref_patterns = [
-        (re.compile(r'Table\s+(\d+\.\d+-\d+)'), lambda m: f"Table {m.group(1)}"),
-        (re.compile(r'Figure\s+(\d+\.\d+-\d+[A-D]?)'), lambda m: f"Figure {m.group(1)}"),
-        (re.compile(r'Section\s+(\d+\.\d+(?:\.\d+)*)'), lambda m: m.group(1)),  # match by section
-        (re.compile(r'Eq(?:uation)?\.\s*\((\d+\.\d+-\d+[a-z]?)\)'), lambda m: f"Eq. ({m.group(1)})"),
+        re.compile(r'Table\s+(\d+\.\d+-\d+)'),
+        re.compile(r'Figure\s+(\d+\.\d+-\d+[A-D]?)'),
+        re.compile(r'Eq(?:uation)?\.\s*\((\d+\.\d+-\d+[a-z]?)\)'),
     ]
+    sec_pattern = re.compile(r'Section\s+(\d+\.\d+(?:\.\d+)*)')
 
     for e in elements:
-        text = e.get("data", {}).get("rule", "") or \
-               e.get("data", {}).get("definition", "") or \
-               e.get("data", {}).get("target", "")
-        if not text:
+        text = (e.get("data", {}).get("rule", "") or "") + " " + \
+               (e.get("data", {}).get("definition", "") or "") + " " + \
+               (e.get("data", {}).get("target", "") or "")
+        if not text.strip():
             continue
 
         refs = set()
-        for pattern, key_fn in ref_patterns:
+
+        # Number-based refs (tables, figures, equations)
+        for pattern in ref_patterns:
             for m in pattern.finditer(text):
-                key = key_fn(m)
-                # Try citation lookup first, then section lookup
-                target_id = by_citation.get(key) or by_section.get(key)
+                num = m.group(1)
+                target_id = num_index.get(num)
                 if target_id and target_id != e["id"]:
                     refs.add(target_id)
+
+        # Section refs
+        for m in sec_pattern.finditer(text):
+            sec = m.group(1)
+            target_id = sec_index.get(sec)
+            if target_id and target_id != e["id"]:
+                refs.add(target_id)
 
         if refs:
             e["cross_references"] = sorted(refs)
