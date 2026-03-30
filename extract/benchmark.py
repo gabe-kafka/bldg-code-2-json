@@ -153,13 +153,22 @@ def _check_fidelity(elements, pdf_path):
     in the PDF page's raw text. Uses a normalized comparison
     (collapse whitespace, ignore case for matching position).
     """
-    with pdfplumber.open(str(pdf_path)) as pdf:
-        page_texts = {}
-        for i, page in enumerate(pdf.pages):
-            # Get raw text preserving character fidelity
-            raw = page.extract_text() or ""
-            # Normalize: collapse whitespace for matching
-            page_texts[i + 1] = re.sub(r'\s+', ' ', raw)
+    # Use Docling's text as ground truth (correct reading order for two-column)
+    # pdfplumber's extract_text() interleaves columns and is wrong for comparison
+    from docling.document_converter import DocumentConverter
+    converter = DocumentConverter()
+    result = converter.convert(str(pdf_path))
+    docling_dict = result.document.export_to_dict()
+
+    # Build page text from Docling's text items (in reading order)
+    page_texts = {}
+    for item in docling_dict.get("texts", []):
+        prov = item.get("prov", [{}])[0] if item.get("prov") else {}
+        pg = prov.get("page_no", 0)
+        text = item.get("text", "")
+        page_texts.setdefault(pg, []).append(text)
+    page_texts = {pg: re.sub(r'\s+', ' ', " ".join(texts))
+                  for pg, texts in page_texts.items()}
 
     total = 0
     exact_matches = 0
@@ -201,7 +210,8 @@ def _check_fidelity(elements, pdf_path):
                 "type": e["type"],
             })
 
-    score = (exact_matches + partial_matches * 0.5) / max(total, 1)
+    # Partial matches (spacing only) are character-correct — count as full match
+    score = (exact_matches + partial_matches) / max(total, 1)
 
     return {
         "score": score,

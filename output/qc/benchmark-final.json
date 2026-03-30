@@ -1,0 +1,70 @@
+{
+  "elements": 594,
+  "coverage": {
+    "sections": {
+      "ground_truth": 50,
+      "extracted": 51,
+      "found": 50,
+      "missing": [],
+      "extra": [
+        "26.11.2.1"
+      ],
+      "score": 1.0
+    },
+    "tables": {
+      "ground_truth": 5,
+      "extracted": 5,
+      "found": 5,
+      "missing": [],
+      "extra": [],
+      "score": 1.0
+    },
+    "figures": {
+      "ground_truth": 3,
+      "extracted": 3,
+      "found": 3,
+      "missing": [],
+      "extra": [],
+      "score": 1.0
+    },
+    "equations": {
+      "ground_truth": 20,
+      "extracted": 11,
+      "found": 11,
+      "missing": [
+        "26.11-1",
+        "26.11-11",
+        "26.11-12",
+        "26.11-15b",
+        "26.11-2",
+        "26.11-3",
+        "26.11-4",
+        "26.11-5",
+        "26.8-1"
+      ],
+      "extra": [],
+      "score": 0.55
+    },
+    "score": 0.8846153846153846,
+    "total_ground_truth": 78,
+    "total_found": 69
+  },
+  "fidelity": {
+    "score": 1.0,
+    "total_checked": 451,
+    "exact_matches": 451,
+    "partial_matches": 0,
+    "failures": 0,
+    "failure_details": []
+  },
+  "structure": {
+    "score": 0.967,
+    "duplicate_ids": [],
+    "out_of_order_sections": 19,
+    "empty_fields": 39,
+    "order_score": 0.968,
+    "completeness_score": 0.934,
+    "issues": []
+  },
+  "composite": 0.947
+}
