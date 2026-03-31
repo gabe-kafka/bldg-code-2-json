@@ -66,9 +66,9 @@ def run_v3(pdf_path, standard="ASCE 7-22", chapter=26):
     _add_references(elements, bold_map, std_slug, standard, chapter, id_set, make_id)
     _add_equations(elements, std_slug, standard, chapter, id_set, make_id)
 
-    # Associate body text with parent structural elements
-    print("  [+] Associating body text with parent elements...")
-    _associate_text_blocks(elements)
+    # Tag sequence for stable sort
+    for i, e in enumerate(elements):
+        e["_seq"] = i
 
     # Cross-references
     print("  [+] Building cross-references...")
@@ -81,6 +81,13 @@ def run_v3(pdf_path, standard="ASCE 7-22", chapter=26):
     # Page-level equation scan
     print("  [+] Page-level equation scan...")
     _add_equations_page_level(elements, std_slug, standard, chapter, id_set, make_id)
+
+    # Re-sort by page so appended formulas are in natural reading position
+    elements.sort(key=lambda e: (e["source"]["page"], e.get("_seq", 0)))
+
+    # Associate body text with parent structural elements — AFTER all elements in order
+    print("  [+] Associating body text with parent elements...")
+    _associate_text_blocks(elements)
 
     # Parse provision conditions
     print("  [+] Parsing provision conditions...")
@@ -109,6 +116,10 @@ def run_v3(pdf_path, standard="ASCE 7-22", chapter=26):
     unresolved = find_unresolved(elements)
     save_unresolved(unresolved)
     print_unresolved(unresolved)
+
+    # Clean up internal fields
+    for e in elements:
+        e.pop("_seq", None)
 
     print(f"  Done: {len(elements)} elements")
     return elements, markdown
@@ -558,17 +569,27 @@ def _associate_text_blocks(elements):
         text = e.get("data", {}).get("rule", "")
         section = e["source"]["section"]
 
-        # Rule 1: "where" clause → nearest preceding formula
+        # Rule 1: "where" clause → nearest preceding formula, provision, or equation-bearing text
         if text.lower().startswith("where ") or text.lower().startswith("in which"):
+            found = False
             for j in range(i - 1, max(i - 10, -1), -1):
-                if elements[j]["type"] == "formula":
-                    e["parent_id"] = elements[j]["id"]
-                    associated += 1
+                prev = elements[j]
+                prev_text = prev.get("data", {}).get("rule", "") or prev.get("data", {}).get("expression", "")
+                # Match: formula elements, provisions, or text_blocks with math
+                if prev["type"] == "formula":
+                    e["parent_id"] = prev["id"]
+                    found = True
                     break
-            else:
+                if prev["type"] in ("provision", "text_block") and re.search(r'[=<>≤≥]', prev_text):
+                    e["parent_id"] = prev["id"]
+                    found = True
+                    break
+                if prev["type"] == "heading":
+                    break  # don't cross section boundaries
+            if not found:
                 e["parent_id"] = _find_section_heading(section, heading_index)
-                if e["parent_id"]:
-                    associated += 1
+            if e.get("parent_id"):
+                associated += 1
             continue
 
         # Rule 2: Figure reference text → figure element
