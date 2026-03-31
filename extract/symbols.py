@@ -47,9 +47,9 @@ def build_symbols_table(elements):
             continue
 
         # Pattern: "SYMBOL = description, unit"
-        # Handle multi-letter symbols: Kz, Kzt, GCp, etc.
+        # Handle: single-letter (V), multi-letter (Kz), subscripted (B 1 D), Greek (ξ)
         for m in re.finditer(
-            r'(?:^|\s)([A-Za-z_αβεγθηλ][A-Za-z0-9_ˆ¯]*(?:\s*,\s*[A-Za-z0-9_]+)?)\s*=\s*([^=\n]+?)(?=\s+[A-Za-z_αβεγθηλ][A-Za-z0-9_ˆ¯]*\s*=|$)',
+            r'(?:^|\s)([A-Za-z_αβεγδζηθλμνρστφωΩΔξ][A-Za-z0-9_ ˆ¯]*?)\s*=\s*([^=\n]+?)(?=\s+[A-Za-z_αβεγδζηθλμνρστφωΩΔξ][A-Za-z0-9_ˆ¯]*\s*=|$)',
             text
         ):
             sym = m.group(1).strip()
@@ -83,6 +83,10 @@ def build_symbols_table(elements):
                     "source": source_id,
                     "defined_in": defined_in,
                 }
+                # Also store space-stripped version for matching (B 1 D → B1D)
+                stripped = sym.replace(" ", "")
+                if stripped != sym and stripped not in symbols:
+                    symbols[stripped] = symbols[sym]
 
     return symbols
 

@@ -1,16 +1,1786 @@
 {
   "symbols": {
-    "A": {
-      "description": "Effective wind area, ft 2 (m 2 )",
+    "D": {
+      "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the design earthquake ground motions, Section 18.7.3.3 \u03bc",
       "unit": null,
-      "source": "ASCE7-22-26.3-T2",
+      "source": "ASCE7-22-18.1.3-T79",
+      "defined_in": "18.1.3"
+    },
+    "Fx": {
+      "description": "Minimum design lateral force applied to level x of the structure and used for purposes of evaluating structural integrity in accordance with Section 1.4.2",
+      "unit": null,
+      "source": "ASCE7-22-1.2.2-T2",
+      "defined_in": "1.2.2"
+    },
+    "L": {
+      "description": "Inside length of a rectangular tank, parallel to the direction of the earthquake force being investigated;",
+      "unit": null,
+      "source": "ASCE7-22-15.7.6.2-T3",
+      "defined_in": "15.7.6.2"
+    },
+    "Lr": {
+      "description": "Horizontal dimension of return corner for a solid freestanding wall or solid sign from Figure 29.3-1",
+      "unit": "ft",
+      "source": "ASCE7-22-26.3-T69",
       "defined_in": "26.3"
     },
-    "Af": {
-      "description": "Area of open buildings and other structures either normal to the wind direction or projected on a plane normal to the wind direction, ft 2 (m 2 )",
+    "N": {
+      "description": "Average fi eld standard penetration resistance for the top 100 ft (30 m) (Sections 20.3.3 and 20.4.2)",
       "unit": null,
-      "source": "ASCE7-22-26.3-T3",
+      "source": "ASCE7-22-11.3-T73",
+      "defined_in": "11.3"
+    },
+    "R": {
+      "description": "Response modi fi cation factor for the building or nonbuilding structure supporting the component, from Table 12.2-1, 15.4-1, or 15.4-2; and",
+      "unit": null,
+      "source": "ASCE7-22-13.3.1.2-T3",
+      "defined_in": "13.3.1.2"
+    },
+    "S": {
+      "description": "Center-to-center row spacing for ground-mounted solar panels in Figure 29.4-9",
+      "unit": "ft",
+      "source": "ASCE7-22-26.3-T90",
       "defined_in": "26.3"
+    },
+    "Wx": {
+      "description": "Portion of the total dead load of the structure, D , located or assigned to level x",
+      "unit": null,
+      "source": "ASCE7-22-1.2.2-T8",
+      "defined_in": "1.2.2"
+    },
+    "Ai": {
+      "description": "Horizontal cross-sectional area of shear wall i , ft 2 (m 2 );",
+      "unit": null,
+      "source": "ASCE7-22-26.11.3-T24",
+      "defined_in": "26.11.3"
+    },
+    "As": {
+      "description": "Surface area of one side of a fl at plate or the projected area of complex shapes, ft 2 (m 2 )",
+      "unit": null,
+      "source": "ASCE7-22-10.3-T2",
+      "defined_in": "10.3"
+    },
+    "Dc": {
+      "description": "Diameter of the cylinder circumscribing an object",
+      "unit": "ft",
+      "source": "ASCE7-22-10.3-T4",
+      "defined_in": "10.3"
+    },
+    "f z": {
+      "description": "Factor to account for the increase in ice thickness with height",
+      "unit": null,
+      "source": "ASCE7-22-10.3-T5",
+      "defined_in": "10.3"
+    },
+    "fz": {
+      "description": "Factor to account for the increase in ice thickness with height",
+      "unit": null,
+      "source": "ASCE7-22-10.3-T5",
+      "defined_in": "10.3"
+    },
+    "Kzt": {
+      "description": "Topographic factor as de fi ned in Section 26.8",
+      "unit": null,
+      "source": "ASCE7-22-26.3-T63",
+      "defined_in": "26.3"
+    },
+    "qz": {
+      "description": "Velocity pressure evaluated at height, z , as de fi ned in Chapter 29, lb \u2215 ft 2 ( N \u2215 m 2 )",
+      "unit": null,
+      "source": "ASCE7-22-10.3-T7",
+      "defined_in": "10.3"
+    },
+    "r": {
+      "description": "Lateral slenderness ratio of a compression member measured in terms of its effective length, KL , and the least radius of gyration of the member cross section, r",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T63",
+      "defined_in": "11.3"
+    },
+    "t": {
+      "description": "Nominal ice thickness on a cylinder caused by freezing rain at a height of 33 ft (10 m), from Figures 10.4-2 through 10.4-5, for the applicable risk category, in. (mm)",
+      "unit": null,
+      "source": "ASCE7-22-10.3-T9",
+      "defined_in": "10.3"
+    },
+    "t d": {
+      "description": "Design ice thickness from Equation (10.4-5), in. (mm)",
+      "unit": null,
+      "source": "ASCE7-22-10.3-T10",
+      "defined_in": "10.3"
+    },
+    "td": {
+      "description": "Design ice thickness from Equation (10.4-5), in. (mm)",
+      "unit": null,
+      "source": "ASCE7-22-10.3-T10",
+      "defined_in": "10.3"
+    },
+    "Vc": {
+      "description": "Base shear caused by the convective component of the effective sloshing mass;",
+      "unit": null,
+      "source": "ASCE7-22-15.7.6.2-T7",
+      "defined_in": "15.7.6.2"
+    },
+    "Vi": {
+      "description": "Base shear caused by impulsive component from weight of tank and contents;",
+      "unit": null,
+      "source": "ASCE7-22-15.7.6.2-T6",
+      "defined_in": "15.7.6.2"
+    },
+    "z": {
+      "description": "Height in structure of point of attachment of component with respect to the base (Section 13.3.1)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T138",
+      "defined_in": "11.3"
+    },
+    "\u03b5": {
+      "description": "Ratio of solid area to gross area for solid freestanding wall, solid sign, open sign, face of a trussed tower, or lattice structure",
+      "unit": null,
+      "source": "ASCE7-22-26.3-T113",
+      "defined_in": "26.3"
+    },
+    "A 0": {
+      "description": "Area of the load-carrying foundation, ft 2 (m 2 )",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T1",
+      "defined_in": "11.3"
+    },
+    "A0": {
+      "description": "Area of the load-carrying foundation, ft 2 (m 2 )",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T1",
+      "defined_in": "11.3"
+    },
+    "Ach": {
+      "description": "Cross-sectional area, in. 2 (mm 2 ), of a structural member measured out-to-out of transverse reinforcement",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T2",
+      "defined_in": "11.3"
+    },
+    "Ash": {
+      "description": "Total cross-sectional area of hoop reinforcement, in. 2 (mm 2 ), including supplementary crossties, having a spacing of s h and crossing a section with a core dimension of hc",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T3",
+      "defined_in": "11.3"
+    },
+    "Avd": {
+      "description": "Required area of leg of diagonal reinforcement, in. 2 (mm 2 )",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T4",
+      "defined_in": "11.3"
+    },
+    "Ax": {
+      "description": "Torsional ampli fi cation factor (Section 12.8.4.3)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T5",
+      "defined_in": "11.3"
+    },
+    "ai": {
+      "description": "the maximum acceleration at level i obtained from the nonlinear response history analysis at the Design Earthquake ground motion",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T7",
+      "defined_in": "11.3"
+    },
+    "bp": {
+      "description": "Width of the rectangular glass panel",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T8",
+      "defined_in": "11.3"
+    },
+    "CAR": {
+      "description": "Component resonance ductility factor that converts the peak fl oor or ground acceleration into the peak component acceleration, as determined in Section 13.3.1.3; and",
+      "unit": null,
+      "source": "ASCE7-22-13.3.1-T10",
+      "defined_in": "13.3.1"
+    },
+    "Cd": {
+      "description": "De fl ection ampli fi cation factor as given in Table 12.2-1, 15.4-1, or 15.4-2",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T10",
+      "defined_in": "11.3"
+    },
+    "CdX": {
+      "description": "De fl ection ampli fi cation factor in the X direction (Section 12.9.2.5)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T11",
+      "defined_in": "11.3"
+    },
+    "CdY": {
+      "description": "De fl ection ampli fi cation factor in the Y direction (Section 12.9.2.5)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T12",
+      "defined_in": "11.3"
+    },
+    "Cp 0": {
+      "description": "Diaphragm design acceleration coef fi cient at the structure base (Section 12.10.3.2.1)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T15",
+      "defined_in": "11.3"
+    },
+    "Cp0": {
+      "description": "Diaphragm design acceleration coef fi cient at the structure base (Section 12.10.3.2.1)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T15",
+      "defined_in": "11.3"
+    },
+    "Cpi": {
+      "description": "Diaphragm design acceleration coef fi cient at 80% of the structural height above the base, hn (Section 12.10.3.2.1)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T16",
+      "defined_in": "11.3"
+    },
+    "Cpn": {
+      "description": "Diaphragm design acceleration coef fi cient at the structural height, hn (Section 12.10.3.2.1)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T17",
+      "defined_in": "11.3"
+    },
+    "Cpx": {
+      "description": "Diaphragm design acceleration coef fi cient at level x (Section 12.10.3.2.1)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T18",
+      "defined_in": "11.3"
+    },
+    "Cs": {
+      "description": "Seismic response coef fi cient determined in accordance with Section 12.8.1.1, assuming a fi xed structural base at the foundation -soil interface;",
+      "unit": null,
+      "source": "ASCE7-22-19.2.1-T7",
+      "defined_in": "19.2.1"
+    },
+    "Cs 2": {
+      "description": "Higher mode seismic response coef fi cient (Section 12.10.3.2.1)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T20",
+      "defined_in": "11.3"
+    },
+    "Cs2": {
+      "description": "Higher mode seismic response coef fi cient (Section 12.10.3.2.1)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T20",
+      "defined_in": "11.3"
+    },
+    "Ct": {
+      "description": "Building period coef fi cient (Section 12.8.2.1)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T21",
+      "defined_in": "11.3"
+    },
+    "Cv": {
+      "description": "Vertical response spectral coef fi cient as given in Table 11.9-1",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T22",
+      "defined_in": "11.3"
+    },
+    "Cvs": {
+      "description": "Coef fi cient of variation of soil shear modulus, de fi ned as the standard deviation divided by the mean (Section 12.13.3)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T23",
+      "defined_in": "11.3"
+    },
+    "Cvx": {
+      "description": "Vertical distribution factor as determined in Section 12.8.3",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T24",
+      "defined_in": "11.3"
+    },
+    "c": {
+      "description": "Distance from the neutral axis of a fl exural member to the fi ber of maximum compressive strain, in. (mm)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T25",
+      "defined_in": "11.3"
+    },
+    "D clear": {
+      "description": "Relative horizontal (drift) displacement, measured over the height of the glass panel under consideration, which causes initial glass-to-frame contact. For rectangular glass panels within a rectangular wall frame, D clear is set forth in Section 13.5.9.1",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T27",
+      "defined_in": "11.3"
+    },
+    "Dclear": {
+      "description": "Relative horizontal (drift) displacement, measured over the height of the glass panel under consideration, which causes initial glass-to-frame contact. For rectangular glass panels within a rectangular wall frame, D clear is set forth in Section 13.5.9.1",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T27",
+      "defined_in": "11.3"
+    },
+    "DpI": {
+      "description": "Seismic relative displacement (Section 13.3.2)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T28",
+      "defined_in": "11.3"
+    },
+    "Ds": {
+      "description": "Depth of a soft layer overlaying a stiff layer [Equation (19.3-4)]",
+      "unit": null,
+      "source": "ASCE7-22-19.1.3-T7",
+      "defined_in": "19.1.3"
+    },
+    "dc": {
+      "description": "Total thickness of cohesive soil layers in the top 100 ft (30 m), ft (m) (Section 20.4.3)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T30",
+      "defined_in": "11.3"
+    },
+    "di": {
+      "description": "Thickness of any soil or rock layer i [between 0 and 100 ft (0 and 30 m)]; see Section 20.4.1",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T31",
+      "defined_in": "11.3"
+    },
+    "dS": {
+      "description": "Total thickness of cohesionless soil layers in the top 100 ft (30 m), ft (m) (Section 20.4.2)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T32",
+      "defined_in": "11.3"
+    },
+    "E": {
+      "description": "f \u00f0 Ev ; Eh \u00de , defi ned in Sections 12.4.2 or 12.14.3.1, is combined with the effects of other loads, the following seismic load combinations shall be used:",
+      "unit": null,
+      "source": "ASCE7-22-2.3.6-H2",
+      "defined_in": "2.3.6"
+    },
+    "Ecl": {
+      "description": "Capacity-limited horizontal seismic load effect, equal to the maximum force that can develop in the element as determined by a rational, plastic mechanism analysis",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T34",
+      "defined_in": "11.3"
+    },
+    "Fmd": {
+      "description": "Factor to convert the geometric mean spectral ordinate to a maximum direction spectral ordinate; and",
+      "unit": null,
+      "source": "ASCE7-22-11.9.2-T4",
+      "defined_in": "11.9.2"
+    },
+    "Fp": {
+      "description": "Seismic force acting on a component of a structure as determined in Sections 12.11.1 and 13.3.1",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T39",
+      "defined_in": "11.3"
+    },
+    "Fpx": {
+      "description": "Diaphragm seismic design force at level x",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T40",
+      "defined_in": "11.3"
+    },
+    "f 0 c": {
+      "description": "Speci fi ed compressive strength of concrete used in design",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T41",
+      "defined_in": "11.3"
+    },
+    "f0c": {
+      "description": "Speci fi ed compressive strength of concrete used in design",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T41",
+      "defined_in": "11.3"
+    },
+    "f 0 s": {
+      "description": "Ultimate tensile strength of the bolt, stud, or insert leg wires, psi (MPa). For ASTM A307 bolts or ASTM A108 studs, it is permitted to be assumed to be 60,000 psi (415 MPa)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-P2",
+      "defined_in": "11.3"
+    },
+    "f0s": {
+      "description": "Ultimate tensile strength of the bolt, stud, or insert leg wires, psi (MPa). For ASTM A307 bolts or ASTM A108 studs, it is permitted to be assumed to be 60,000 psi (415 MPa)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-P2",
+      "defined_in": "11.3"
+    },
+    "f y": {
+      "description": "Speci fi ed yield strength of reinforcement, psi (MPa)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T42",
+      "defined_in": "11.3"
+    },
+    "fy": {
+      "description": "Speci fi ed yield strength of reinforcement, psi (MPa)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T42",
+      "defined_in": "11.3"
+    },
+    "f yh": {
+      "description": "Speci fi ed yield strength of the special lateral reinforcement, psi (kPa)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T43",
+      "defined_in": "11.3"
+    },
+    "fyh": {
+      "description": "Speci fi ed yield strength of the special lateral reinforcement, psi (kPa)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T43",
+      "defined_in": "11.3"
+    },
+    "G 0": {
+      "description": "\u03b3\u03c5 2 s 0 \u2215",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T44",
+      "defined_in": "11.3"
+    },
+    "G0": {
+      "description": "\u03b3\u03c5 2 s 0 \u2215",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T44",
+      "defined_in": "11.3"
+    },
+    "g": {
+      "description": "Acceleration caused by gravity [in : \u2215 s 2 (mm \u2215 s 2 )] if the units of the displacement DM are in in. (mm);",
+      "unit": null,
+      "source": "ASCE7-22-17.5.3.1-T2",
+      "defined_in": "17.5.3.1"
+    },
+    "G": {
+      "description": "Gust-effect factor from Section 26.11; and",
+      "unit": null,
+      "source": "ASCE7-22-27.3.2-T2",
+      "defined_in": "27.3.2"
+    },
+    "H": {
+      "description": "Load due to lateral earth pressure (including lateral earth pressure from fi xed or moving surcharge loads), ground water pressure, or pressure of bulk materials",
+      "unit": null,
+      "source": "ASCE7-22-2.2-T7",
+      "defined_in": "2.2"
+    },
+    "Hf": {
+      "description": "Factor for force ampli fi cation as a function of height in the structure as determined in Section 13.3.1.1;",
+      "unit": null,
+      "source": "ASCE7-22-13.3.1-T8",
+      "defined_in": "13.3.1"
+    },
+    "h": {
+      "description": "Height of a shear wall measured as the maximum clear height from top of foundation to bottom of diaphragm framing above, or the maximum clear height from top of diaphragm to bottom of diaphragm framing above",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T49",
+      "defined_in": "11.3"
+    },
+    "hc": {
+      "description": "Clear height from top of balanced snow load to (1) closest point on adjacent upper roof, (2) top of parapet, or (3) top of a projection on the roof",
+      "unit": "ft",
+      "source": "ASCE7-22-7.1.2-T6",
+      "defined_in": "7.1.2"
+    },
+    "hx": {
+      "description": "Height of level x to which upper connection point is attached;",
+      "unit": null,
+      "source": "ASCE7-22-13.3.2.2-T4",
+      "defined_in": "13.3.2.2"
+    },
+    "hn": {
+      "description": "The structural height as de fi ned in Section 11.2; and",
+      "unit": null,
+      "source": "ASCE7-22-18.7.2.2.3-T2",
+      "defined_in": "18.7.2.2.3"
+    },
+    "hp": {
+      "description": "Height to top of parapet in Figures 27.5-2 and 30.6-1",
+      "unit": null,
+      "source": "ASCE7-22-26.3-T53",
+      "defined_in": "26.3"
+    },
+    "I e": {
+      "description": "Importance Factor as prescribed in Section 11.5.1",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T56",
+      "defined_in": "11.3"
+    },
+    "Ie": {
+      "description": "Importance Factor as prescribed in Section 11.5.1",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T56",
+      "defined_in": "11.3"
+    },
+    "hsx": {
+      "description": "Story height used in the de fi nition of allowable drift, \u0394 a , in Table 12.12-1. Note that \u0394 a \u2215 hsx is the drift index",
+      "unit": null,
+      "source": "ASCE7-22-13.3.2.2-T8",
+      "defined_in": "13.3.2.2"
+    },
+    "x": {
+      "description": "Number of shear walls in the building effective in resisting lateral forces in the direction under consideration",
+      "unit": null,
+      "source": "ASCE7-22-12.8.2.1-T9",
+      "defined_in": "12.8.2.1"
+    },
+    "I p": {
+      "description": "Component Importance Factor as prescribed in Section 13.3.1",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T58",
+      "defined_in": "11.3"
+    },
+    "Ip": {
+      "description": "Component Importance Factor as prescribed in Section 13.3.1",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T58",
+      "defined_in": "11.3"
+    },
+    "i": {
+      "description": "Building level referred to by a subscript i ;",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T59",
+      "defined_in": "11.3"
+    },
+    "Kp": {
+      "description": "Combined stiffness of the component, supports, and attachments, determined in terms of load per unit de fl ection at the center of gravity of the component",
+      "unit": null,
+      "source": "ASCE7-22-13.3.3-T4",
+      "defined_in": "13.3.3"
+    },
+    "Krr": {
+      "description": "Rotational foundation stiffness in Equations (19.3-9) and (19.3-19), ft-lb/degree (N-m/rad)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T61",
+      "defined_in": "11.3"
+    },
+    "Kr": {
+      "description": "Translational foundational stiffness in Equations (19.3-8) and (19.3-18), lb/in. (N/m)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T62",
+      "defined_in": "11.3"
+    },
+    "k": {
+      "description": "Effective stiffness of the impacting debris or the lateral stiffness of the impacted structural element(s) deformed by the impact, whichever is less; and",
+      "unit": null,
+      "source": "ASCE7-22-6.11.1-T4",
+      "defined_in": "6.11.1"
+    },
+    "ka": {
+      "description": "Coef fi cient for ampli fi cation factor for diaphragm fl exibility de fi ned in Sections 12.11.2.1 and 12.14.7.5",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T65",
+      "defined_in": "11.3"
+    },
+    "L diaph": {
+      "description": "Span in feet of the horizontal diaphragm or diaphragm segment being considered, measured between vertical elements or collectors that provide support to the diaphragm or diaphragm segment (Section 12.10.4)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T67",
+      "defined_in": "11.3"
+    },
+    "Ldiaph": {
+      "description": "Span in feet of the horizontal diaphragm or diaphragm segment being considered, measured between vertical elements or collectors that provide support to the diaphragm or diaphragm segment (Section 12.10.4)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T67",
+      "defined_in": "11.3"
+    },
+    "Mt": {
+      "description": "Torsional moment resulting from eccentricity between the locations of the center of mass and the center of rigidity (Section 12.8.4.1)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T68",
+      "defined_in": "11.3"
+    },
+    "Mta": {
+      "description": "Accidental torsional moment as determined in Section 12.8.4.2",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T69",
+      "defined_in": "11.3"
+    },
+    "m": {
+      "description": "Component demand modi fi cation factor accounting for expected ductility, applied to the expected strength of a ductility-governed element action, to obtain the acceptable structural component capacity at a particular performance level when using a linear static analysis procedure",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T60",
+      "defined_in": "6.3"
+    },
+    "Nch": {
+      "description": "Average standard penetration resistance for cohesionless soil layers for the top 100 ft (30 m) (Sections 20.3.3 and 20.4.2)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T74",
+      "defined_in": "11.3"
+    },
+    "Ni": {
+      "description": "Standard penetration resistance of any soil or rock layer i [between 0 and 100 ft (0 and 30 m)]; see Section 20.4.2",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T75",
+      "defined_in": "11.3"
+    },
+    "n": {
+      "description": "Number of shear walls in the building effective in resisting lateral forces in the direction under consideration;",
+      "unit": null,
+      "source": "ASCE7-22-26.11.3-T22",
+      "defined_in": "26.11.3"
+    },
+    "PGA G": {
+      "description": "Lower-bound limit on deterministic maximum considered earthquake geometric mean peak ground acceleration (Table 21.2-1)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T77",
+      "defined_in": "11.3"
+    },
+    "PGAG": {
+      "description": "Lower-bound limit on deterministic maximum considered earthquake geometric mean peak ground acceleration (Table 21.2-1)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T77",
+      "defined_in": "11.3"
+    },
+    "PGA M": {
+      "description": "Mapped MCEG peak ground acceleration as de fi ned in Section 11.8.3",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T78",
+      "defined_in": "11.3"
+    },
+    "PGAM": {
+      "description": "Mapped MCEG peak ground acceleration as de fi ned in Section 11.8.3",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T78",
+      "defined_in": "11.3"
+    },
+    "PI": {
+      "description": "Plasticity index per ASTM D4318",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T79",
+      "defined_in": "11.3"
+    },
+    "Px": {
+      "description": "Total vertical design load [kip (kN)] at and above level x per Section 12.8.6.1 (where computing Px , no individual load factor need exceed 1.0);",
+      "unit": null,
+      "source": "ASCE7-22-12.8.7-T2",
+      "defined_in": "12.8.7"
+    },
+    "QE": {
+      "description": "Seismic design force in each element of the damping system, Section 18.7.4.5",
+      "unit": null,
+      "source": "ASCE7-22-18.1.3-T28",
+      "defined_in": "18.1.3"
+    },
+    "R diaph": {
+      "description": "Response modi fi cation coef fi cient for design of diaphragms using the alternative diaphragm design method of Section 12.10.4",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T83",
+      "defined_in": "11.3"
+    },
+    "Rdiaph": {
+      "description": "Response modi fi cation coef fi cient for design of diaphragms using the alternative diaphragm design method of Section 12.10.4",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T83",
+      "defined_in": "11.3"
+    },
+    "Rpo": {
+      "description": "Component strength factor as determined in Section 13.3.1.4",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T84",
+      "defined_in": "11.3"
+    },
+    "\u03bc": {
+      "description": "Structure ductility reduction factor as determined in Section 13.3.1.2",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T85",
+      "defined_in": "11.3"
+    },
+    "Rs": {
+      "description": "Diaphragm design force reduction factor (Section 12.10.3.5)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T86",
+      "defined_in": "11.3"
+    },
+    "RX": {
+      "description": "Response modi fi cation coef fi cient in the X direction (Section 12.9.2.5)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T87",
+      "defined_in": "11.3"
+    },
+    "RY": {
+      "description": "Response modi fi cation coef fi cient in the Y direction (Section 12.9.2.5)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T88",
+      "defined_in": "11.3"
+    },
+    "S 1": {
+      "description": "MCER, 5% damped, spectral response acceleration parameter at a period of 1 s for Site Class BC site conditions as determined in accordance with Section 11.4.3",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T89",
+      "defined_in": "11.3"
+    },
+    "S1": {
+      "description": "MCER, 5% damped, spectral response acceleration parameter at a period of 1 s for Site Class BC site conditions as determined in accordance with Section 11.4.3",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T89",
+      "defined_in": "11.3"
+    },
+    "Sa": {
+      "description": "Design spectral response acceleration parameter de fi ned in Section 11.4.5.1 and determined for the period T de fi ned in Section 12.8.2;",
+      "unit": null,
+      "source": "ASCE7-22-12.8.1.1-T2",
+      "defined_in": "12.8.1.1"
+    },
+    "SaM": {
+      "description": "Site-speci fi c, 5% damped, MCER spectral response acceleration parameter at any period",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T91",
+      "defined_in": "11.3"
+    },
+    "Sav": {
+      "description": "5% damped, design vertical response spectral acceleration parameter at any period as determined in accordance with Section 11.9.3",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T92",
+      "defined_in": "11.3"
+    },
+    "SaMv": {
+      "description": "5% damped, MCER vertical response spectral acceleration parameter at any period as determined in accordance with Section 11.9.2",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T93",
+      "defined_in": "11.3"
+    },
+    "SD 1": {
+      "description": "Design, 5% damped, spectral response acceleration parameter at a period of 1 s as de fi ned in Section 11.4.4",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T94",
+      "defined_in": "11.3"
+    },
+    "SD1": {
+      "description": "Design, 5% damped, spectral response acceleration parameter at a period of 1 s as de fi ned in Section 11.4.4",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T94",
+      "defined_in": "11.3"
+    },
+    "S Dp S": {
+      "description": "Design, 5% damped, spectral response acceleration parameter at short periods as de fi ned in Section 11.4.4",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T95",
+      "defined_in": "11.3"
+    },
+    "SDpS": {
+      "description": "Design, 5% damped, spectral response acceleration parameter at short periods as de fi ned in Section 11.4.4",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T95",
+      "defined_in": "11.3"
+    },
+    "SM 1": {
+      "description": "MCER, 5% damped, spectral response acceleration parameter at a period of 1 s adjusted for site class effects as de fi ned in determined in accordance with Section 11.4.3",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T96",
+      "defined_in": "11.3"
+    },
+    "SM1": {
+      "description": "MCER, 5% damped, spectral response acceleration parameter at a period of 1 s adjusted for site class effects as de fi ned in determined in accordance with Section 11.4.3",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T96",
+      "defined_in": "11.3"
+    },
+    "SMS": {
+      "description": "MCER, 5% damped, spectral response acceleration parameter at short periods adjusted for site class effects as determined in accordance with Section 11.4.3",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T97",
+      "defined_in": "11.3"
+    },
+    "SS": {
+      "description": "MCER, 5% damped, spectral response acceleration parameter at a period of 0.2 s for Site Class BC site conditions as determined in accordance with Section 11.4.3",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T98",
+      "defined_in": "11.3"
+    },
+    "s h": {
+      "description": "Spacing of special lateral reinforcement, in. (mm)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T99",
+      "defined_in": "11.3"
+    },
+    "sh": {
+      "description": "Spacing of special lateral reinforcement, in. (mm)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T99",
+      "defined_in": "11.3"
+    },
+    "s u": {
+      "description": "Average undrained shear strength in top 100 ft (30 m); see Sections 20.3.3 and 20.4.3, ASTM D2166, or ASTM D2850",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T101",
+      "defined_in": "11.3"
+    },
+    "su": {
+      "description": "Undrained shear strength (Section 20.4.3)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T100",
+      "defined_in": "11.3"
+    },
+    "s ui": {
+      "description": "Undrained shear strength of any cohesive soil layer i [between 0 and 100 ft (0 and 30 m)]; see Section 20.4.3",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T102",
+      "defined_in": "11.3"
+    },
+    "sui": {
+      "description": "Undrained shear strength of any cohesive soil layer i [between 0 and 100 ft (0 and 30 m)]; see Section 20.4.3",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T102",
+      "defined_in": "11.3"
+    },
+    "T": {
+      "description": "Cumulative effect of self-straining forces and effects arising from contraction or expansion resulting from environmental or operational temperature changes, shrinkage, moisture changes, creep in component materials, movement caused by differential settlement, or combinations thereof",
+      "unit": null,
+      "source": "ASCE7-22-2.2-T13",
+      "defined_in": "2.2"
+    },
+    "Ta": {
+      "description": "Approximate fundamental period of the building as determined in Section 12.8.2",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T106",
+      "defined_in": "11.3"
+    },
+    "T diaph": {
+      "description": "Period of diaphragm for design of diaphragm using the alternative diaphragm design method of Section 12.10.4",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T107",
+      "defined_in": "11.3"
+    },
+    "Tdiaph": {
+      "description": "Period of diaphragm for design of diaphragm using the alternative diaphragm design method of Section 12.10.4",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T107",
+      "defined_in": "11.3"
+    },
+    "TL": {
+      "description": "Long-period transition period(s) shown in Figures 22-14 through 22-17",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T108",
+      "defined_in": "11.3"
+    },
+    "T lower": {
+      "description": "Period of vibration at which 90% of the actual mass has been recovered in each of the two orthogonal directions of response (Section 12.9.2). The mathematical model used to compute T lower shall not include accidental torsion and shall include P-delta effects",
+      "unit": null,
+      "source": "ASCE7-22-11.3-P3",
+      "defined_in": "11.3"
+    },
+    "Tlower": {
+      "description": "Period of vibration at which 90% of the actual mass has been recovered in each of the two orthogonal directions of response (Section 12.9.2). The mathematical model used to compute T lower shall not include accidental torsion and shall include P-delta effects",
+      "unit": null,
+      "source": "ASCE7-22-11.3-P3",
+      "defined_in": "11.3"
+    },
+    "Tp": {
+      "description": "Fundamental period of the component and its attachment (Section 13.3.3)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T109",
+      "defined_in": "11.3"
+    },
+    "TS": {
+      "description": "SD 1 \u2215 SDS",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T109",
+      "defined_in": "11.3"
+    },
+    "T upper": {
+      "description": "Larger of the two orthogonal fundamental periods of vibration (Section 12.9.2). The mathematical model used to compute T upper shall not include accidental torsion and shall include P-delta effects",
+      "unit": null,
+      "source": "ASCE7-22-11.3-P4",
+      "defined_in": "11.3"
+    },
+    "Tupper": {
+      "description": "Larger of the two orthogonal fundamental periods of vibration (Section 12.9.2). The mathematical model used to compute T upper shall not include accidental torsion and shall include P-delta effects",
+      "unit": null,
+      "source": "ASCE7-22-11.3-P4",
+      "defined_in": "11.3"
+    },
+    "TIR": {
+      "description": "Torsional Irregularity Ratio de fi ned in Section 12.3.2.1.1",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T111",
+      "defined_in": "11.3"
+    },
+    "Tv": {
+      "description": "Vertical period of vibration",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T112",
+      "defined_in": "11.3"
+    },
+    "V": {
+      "description": "Basic wind speed obtained from Figures 26.5-1A through 26.5-1D, mi/h (m/s); the basic wind speed corresponds to a 3 s gust speed at 33 ft (10 m) above the ground in Exposure Category C",
+      "unit": null,
+      "source": "ASCE7-22-26.3-T94",
+      "defined_in": "26.3"
+    },
+    "VEX": {
+      "description": "Maximum absolute value of elastic base shear computed in the X direction among all three analyses performed in that direction (Section 12.9.2.5)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T114",
+      "defined_in": "11.3"
+    },
+    "VEY": {
+      "description": "Maximum absolute value of elastic base shear computed in the Y direction among all three analyses performed in that direction (Section 12.9.2.5)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T115",
+      "defined_in": "11.3"
+    },
+    "VIX": {
+      "description": "Inelastic base shear in the X direction (Section 12.9.2.5)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T116",
+      "defined_in": "11.3"
+    },
+    "VIY": {
+      "description": "Inelastic base shear in the Y direction (Section 12.9.2.5)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T117",
+      "defined_in": "11.3"
+    },
+    "Vt": {
+      "description": "Design value of the seismic base shear as determined in Section 12.9.1.4.1",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T118",
+      "defined_in": "11.3"
+    },
+    "VX": {
+      "description": "Equivalent lateral force (ELF) base shear in the X direction (Section 12.9.2.5)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T119",
+      "defined_in": "11.3"
+    },
+    "Vx": {
+      "description": "Seismic design shear in story x as determined in Section 12.8.4",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T120",
+      "defined_in": "11.3"
+    },
+    "VY": {
+      "description": "Equivalent lateral force (ELF) base shear in the Y direction (Section 12.9.2.5)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T121",
+      "defined_in": "11.3"
+    },
+    "V 1": {
+      "description": "Portion of the reduced base shear, ~ V 1 , contributed by the fundamental mode, kip (kN) (Section 19.3)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T122",
+      "defined_in": "11.3"
+    },
+    "V1": {
+      "description": "Portion of the reduced base shear, ~ V 1 , contributed by the fundamental mode, kip (kN) (Section 19.3)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T122",
+      "defined_in": "11.3"
+    },
+    "\u0394 V": {
+      "description": "Reduction in V as determined in Section 19.3.1, kip (kN)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T124",
+      "defined_in": "11.3"
+    },
+    "\u0394V": {
+      "description": "Reduction in V as determined in Section 19.3.1, kip (kN)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T124",
+      "defined_in": "11.3"
+    },
+    "\u0394 V 1": {
+      "description": "Reduction in V 1 as determined in Section 19.3.1, kip (kN)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T125",
+      "defined_in": "11.3"
+    },
+    "\u0394V1": {
+      "description": "Reduction in V 1 as determined in Section 19.3.1, kip (kN)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T125",
+      "defined_in": "11.3"
+    },
+    "vs": {
+      "description": "Shear wave velocity, in ft/s (m/s), at small shear strains (greater than 10 -3 % strain); see Section 19.2.1",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T126",
+      "defined_in": "11.3"
+    },
+    "vsi": {
+      "description": "Shear wave velocity of any soil or rock layer i [between 0 and 100 ft (0 and 30 m)] (Section 20.4.1)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T128",
+      "defined_in": "11.3"
+    },
+    "vso": {
+      "description": "Average shear wave velocity, ft/s (m/s), for the soils beneath the foundation at small strain levels (Section 19.2.1.1)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T129",
+      "defined_in": "11.3"
+    },
+    "W": {
+      "description": "Effective seismic weight of the building as de fi ned in Section 12.7.2. For calculation of seismicisolated building period, W is the total effective seismic weight of the building, in kip (kN), as de fi ned in Sections 19.2 and 19.3",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T130",
+      "defined_in": "11.3"
+    },
+    "Wc": {
+      "description": "Gravity load of a component of the building",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T132",
+      "defined_in": "11.3"
+    },
+    "WP": {
+      "description": "Component operating weight, lb (N)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T133",
+      "defined_in": "11.3"
+    },
+    "wpx": {
+      "description": "The effective seismic weight tributary to the diaphragm, and C s-diaph is calculated as",
+      "unit": null,
+      "source": "ASCE7-22-12.10.4.2.1-T2",
+      "defined_in": "12.10.4.2.1"
+    },
+    "w": {
+      "description": "Moisture content, in percent, per ASTM D2216",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T135",
+      "defined_in": "11.3"
+    },
+    "wx": {
+      "description": "Portion of W that is located at or assigned to level i , n , or x , respectively",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T136",
+      "defined_in": "11.3"
+    },
+    "z s": {
+      "description": "Mode shape factor (Section 12.10.3.2.1)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T139",
+      "defined_in": "11.3"
+    },
+    "zs": {
+      "description": "Mode shape factor (Section 12.10.3.2.1)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T139",
+      "defined_in": "11.3"
+    },
+    "\u03b2": {
+      "description": "Fraction of critical damping for the coupled structure -foundation system, determined in Section 19.2.1",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T140",
+      "defined_in": "11.3"
+    },
+    "\u03b2 0": {
+      "description": "Foundation damping factor as speci fi ed in Section 19.2.1.2",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T142",
+      "defined_in": "11.3"
+    },
+    "\u03b20": {
+      "description": "Foundation damping factor as speci fi ed in Section 19.2.1.2",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T142",
+      "defined_in": "11.3"
+    },
+    "m 2": {
+      "description": "First and higher modal contribution factors, respectively (Section 12.10.3.2.1)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T143",
+      "defined_in": "11.3"
+    },
+    "m2": {
+      "description": "First and higher modal contribution factors, respectively (Section 12.10.3.2.1)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T143",
+      "defined_in": "11.3"
+    },
+    "\u0394": {
+      "description": "Design story drift as determined in Section 12.8.6 \u0394",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T144",
+      "defined_in": "11.3"
+    },
+    "avg": {
+      "description": "Average of the story drifts at the two opposing edges of the building, as de fi ned in Section 12.3.2.1.1",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T144",
+      "defined_in": "11.3"
+    },
+    "\u03b3": {
+      "description": "Average unit weight of soil, lb/ft 3 (N/m 3 )",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T145",
+      "defined_in": "11.3"
+    },
+    "\u0394 max": {
+      "description": "Maximum story drift at the building ' s edge subjected to lateral forces, as de fi ned in Section 12.3.2.1.1",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T146",
+      "defined_in": "11.3"
+    },
+    "\u0394max": {
+      "description": "Maximum story drift at the building ' s edge subjected to lateral forces, as de fi ned in Section 12.3.2.1.1",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T146",
+      "defined_in": "11.3"
+    },
+    "\u0394 a": {
+      "description": "Allowable story drift as speci fi ed in Section 12.12.1",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T147",
+      "defined_in": "11.3"
+    },
+    "\u0394a": {
+      "description": "Allowable story drift as speci fi ed in Section 12.12.1",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T147",
+      "defined_in": "11.3"
+    },
+    "\u0394 fallout": {
+      "description": "Relative seismic displacement (drift) at which glass fallout from the curtain wall, storefront, or partition occurs",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T148",
+      "defined_in": "11.3"
+    },
+    "\u0394fallout": {
+      "description": "Relative seismic displacement (drift) at which glass fallout from the curtain wall, storefront, or partition occurs",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T148",
+      "defined_in": "11.3"
+    },
+    "\u0394 ADVE": {
+      "description": "Average drift of adjoining vertical elements of the seismic force-resisting system over the story below the diaphragm under consideration, under tributary lateral load equivalent to that used in the computation of \u03b4 MDD in Figure 12.3-1, in. (mm)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T149",
+      "defined_in": "11.3"
+    },
+    "\u0394ADVE": {
+      "description": "Average drift of adjoining vertical elements of the seismic force-resisting system over the story below the diaphragm under consideration, under tributary lateral load equivalent to that used in the computation of \u03b4 MDD in Figure 12.3-1, in. (mm)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T149",
+      "defined_in": "11.3"
+    },
+    "\u03b4 di": {
+      "description": "Displacement due to diaphragm deformation corresponding to the design earthquake including Section 12.10 diaphragm forces (Section 12.8.6)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T150",
+      "defined_in": "11.3"
+    },
+    "\u03b4di": {
+      "description": "Displacement due to diaphragm deformation corresponding to the design earthquake including Section 12.10 diaphragm forces (Section 12.8.6)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T150",
+      "defined_in": "11.3"
+    },
+    "\u03b4 DE": {
+      "description": "Design earthquake displacement as determined in Section 12.8.6",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T151",
+      "defined_in": "11.3"
+    },
+    "\u03b4DE": {
+      "description": "Design earthquake displacement as determined in Section 12.8.6",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T151",
+      "defined_in": "11.3"
+    },
+    "\u03b4 e": {
+      "description": "Elastic displacement computed under design earthquake forces (Section 12.8.6)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T152",
+      "defined_in": "11.3"
+    },
+    "\u03b4e": {
+      "description": "Elastic displacement computed under design earthquake forces (Section 12.8.6)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T152",
+      "defined_in": "11.3"
+    },
+    "\u03b4 MCE": {
+      "description": "Maximum Considered Earthquake Displacement as determined in Section 12.8.6",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T153",
+      "defined_in": "11.3"
+    },
+    "\u03b4MCE": {
+      "description": "Maximum Considered Earthquake Displacement as determined in Section 12.8.6",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T153",
+      "defined_in": "11.3"
+    },
+    "\u03b4 MDD": {
+      "description": "Computed maximum in-plane de fl ection of the diaphragm under lateral load, in. (mm) (Figure 12.3-1)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T154",
+      "defined_in": "11.3"
+    },
+    "\u03b4MDD": {
+      "description": "Computed maximum in-plane de fl ection of the diaphragm under lateral load, in. (mm) (Figure 12.3-1)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T154",
+      "defined_in": "11.3"
+    },
+    "\u03b4 max": {
+      "description": "Maximum displacement at level x considering torsion (Section 12.8.4.3)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T155",
+      "defined_in": "11.3"
+    },
+    "\u03b4max": {
+      "description": "Maximum displacement at level x considering torsion (Section 12.8.4.3)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T155",
+      "defined_in": "11.3"
+    },
+    "\u03b4 M": {
+      "description": "Maximum inelastic response displacement considering torsion (Section 12.12.3)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T156",
+      "defined_in": "11.3"
+    },
+    "\u03b4M": {
+      "description": "Maximum inelastic response displacement considering torsion (Section 12.12.3)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T156",
+      "defined_in": "11.3"
+    },
+    "\u03b4 MT": {
+      "description": "Total separation distance between adjacent structures on the same property (Section 12.12.3)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T157",
+      "defined_in": "11.3"
+    },
+    "\u03b4MT": {
+      "description": "Total separation distance between adjacent structures on the same property (Section 12.12.3)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T157",
+      "defined_in": "11.3"
+    },
+    "\u03b4 avg": {
+      "description": "Average of the displacements at the extreme points of the structure at level x (Section 12.8.4.3)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T158",
+      "defined_in": "11.3"
+    },
+    "\u03b4avg": {
+      "description": "Average of the displacements at the extreme points of the structure at level x (Section 12.8.4.3)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T158",
+      "defined_in": "11.3"
+    },
+    "\u03b4 xm": {
+      "description": "Modal de fl ection of level x at the center of the mass at and above level x as determined by Section 19.3.2",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T159",
+      "defined_in": "11.3"
+    },
+    "\u03b4xm": {
+      "description": "Modal de fl ection of level x at the center of the mass at and above level x as determined by Section 19.3.2",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T159",
+      "defined_in": "11.3"
+    },
+    "\u03b4 x 1": {
+      "description": "De fl ection of level x at the center of the mass at and above level x in Equations (19.2-13) and (19.3-3), in. (mm)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T160",
+      "defined_in": "11.3"
+    },
+    "\u03b4x1": {
+      "description": "De fl ection of level x at the center of the mass at and above level x in Equations (19.2-13) and (19.3-3), in. (mm)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T160",
+      "defined_in": "11.3"
+    },
+    "\u03b8": {
+      "description": "Stability coef fi cient for P-delta effects as determined in Section 12.8.7",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T161",
+      "defined_in": "11.3"
+    },
+    "\u03b7 x": {
+      "description": "Force scale factor in the X direction (Section 12.9.2.5)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T162",
+      "defined_in": "11.3"
+    },
+    "\u03b7x": {
+      "description": "Force scale factor in the X direction (Section 12.9.2.5)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T162",
+      "defined_in": "11.3"
+    },
+    "\u03b7 y": {
+      "description": "Force scale factor in the Y direction (Section 12.9.2.5)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T163",
+      "defined_in": "11.3"
+    },
+    "\u03b7y": {
+      "description": "Force scale factor in the Y direction (Section 12.9.2.5)",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T163",
+      "defined_in": "11.3"
+    },
+    "\u03bb": {
+      "description": "Time effect factor",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T163",
+      "defined_in": "11.3"
+    },
+    "\u03c1": {
+      "description": "Redundancy factor based on the extent of structural redundancy present in a building, as de fi ned in Section 12.3.4",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T165",
+      "defined_in": "11.3"
+    },
+    "\u03a9 0": {
+      "description": "Overstrength factor as de fi ned in Tables 12.2-1, 15.4.-1, and 15.4-2",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T166",
+      "defined_in": "11.3"
+    },
+    "\u03a90": {
+      "description": "Overstrength factor as de fi ned in Tables 12.2-1, 15.4.-1, and 15.4-2",
+      "unit": null,
+      "source": "ASCE7-22-11.3-T166",
+      "defined_in": "11.3"
+    },
+    "SDS": {
+      "description": "Design spectral response acceleration parameter in the short period range as determined from Section 11.4.5 or 11.4.8;",
+      "unit": null,
+      "source": "ASCE7-22-12.8.1.1-T6",
+      "defined_in": "12.8.1.1"
+    },
+    "and T 0": {
+      "description": "0.2( SD 1 \u2215 SDS ); TS SD 1 SDS",
+      "unit": null,
+      "source": "ASCE7-22-11.4.5.2-T15",
+      "defined_in": "11.4.5.2"
+    },
+    "andT0": {
+      "description": "0.2( SD 1 \u2215 SDS ); TS SD 1 SDS",
+      "unit": null,
+      "source": "ASCE7-22-11.4.5.2-T15",
+      "defined_in": "11.4.5.2"
+    },
+    "Em": {
+      "description": "f \u00f0 Ev ; Emh \u00de , de fi ned in Section 12.4.3 or 12.14.3.2, is combined with the effects of other loads, the following seismic load combinations for structures not subject to fl ood or atmospheric ice loads shall be used:",
+      "unit": null,
+      "source": "ASCE7-22-2.4.5-P2",
+      "defined_in": "2.4.5"
+    },
+    "Emh": {
+      "description": "The effect of horizontal seismic forces, including overstrength, as de fi ned in Section 12.14.3.2.1 or 12.14.3.2.2; and",
+      "unit": null,
+      "source": "ASCE7-22-12.14.3.2-T3",
+      "defined_in": "12.14.3.2"
+    },
+    "Cq": {
+      "description": "0.0019 ft (0.00058 m), and",
+      "unit": null,
+      "source": "ASCE7-22-12.8.2.1-T4",
+      "defined_in": "12.8.2.1"
+    },
+    "AB": {
+      "description": "Area of base of structure [ft 2 (m 2 )];",
+      "unit": null,
+      "source": "ASCE7-22-12.8.2.1-T7",
+      "defined_in": "12.8.2.1"
+    },
+    "Di": {
+      "description": "Length of shear wall i [ft (m)]; and",
+      "unit": null,
+      "source": "ASCE7-22-12.8.2.1-T9",
+      "defined_in": "12.8.2.1"
+    },
+    "Fi": {
+      "description": "Portion of the seismic base shear, V , induced at level i",
+      "unit": null,
+      "source": "ASCE7-22-12.14.1.4-T6",
+      "defined_in": "12.14.1.4"
+    },
+    "wi": {
+      "description": "The portion of the total effective seismic weight, W , located at or assigned to level i ",
+      "unit": null,
+      "source": "ASCE7-22-18.7.2.2.3-T2",
+      "defined_in": "18.7.2.2.3"
+    },
+    "Lf": {
+      "description": "Span, in feet, of a fl exible diaphragm that provides the lateral support for the wall (the span is measured between vertical elements that provide lateral support to the diaphragm in the direction considered; use zero for rigid diaphragms); and",
+      "unit": null,
+      "source": "ASCE7-22-12.11.2.1-T6",
+      "defined_in": "12.11.2.1"
+    },
+    "Wp": {
+      "description": "Weight of the wall tributary to the anchor; and",
+      "unit": null,
+      "source": "ASCE7-22-12.14.7.5-T6",
+      "defined_in": "12.14.7.5"
+    },
+    "Fa": {
+      "description": "Acceleration-based site coef fi cient, see Section 12.14.8.1",
+      "unit": null,
+      "source": "ASCE7-22-12.14.1.4-T5",
+      "defined_in": "12.14.1.4"
+    },
+    "hi": {
+      "description": "Height above the base to level i , Section 18.7.2.2.3",
+      "unit": null,
+      "source": "ASCE7-22-18.1.3-T24",
+      "defined_in": "18.1.3"
+    },
+    "Ev": {
+      "description": "The vertical seismic load effect as de fi ned in Section 12.14.3.1.2",
+      "unit": null,
+      "source": "ASCE7-22-12.14.3.2-T4",
+      "defined_in": "12.14.3.2"
+    },
+    "F": {
+      "description": "1.0 for buildings that are one story above grade plane, 1.1 for buildings that are two stories above grade plane, and 1.2 for buildings that are three stories above grade plane;",
+      "unit": null,
+      "source": "ASCE7-22-12.14.8.1-T1",
+      "defined_in": "12.14.8.1"
+    },
+    "hy": {
+      "description": "Height of level y to which lower connection point is attached;",
+      "unit": null,
+      "source": "ASCE7-22-13.3.2.2-T5",
+      "defined_in": "13.3.2.2"
+    },
+    "d": {
+      "description": "Longest plan dimension of the structure, ft (mm) measured perpendicular to b",
+      "unit": null,
+      "source": "ASCE7-22-17.1.2-T4",
+      "defined_in": "17.1.2"
+    },
+    "HL": {
+      "description": "Design liquid height inside the tank or vessel;",
+      "unit": null,
+      "source": "ASCE7-22-15.7.6.2-T2",
+      "defined_in": "15.7.6.2"
+    },
+    "y": {
+      "description": "Distance [in. (mm)] between the centers of rigidity of the isolation system and the element of interest measured perpendicular to the direction of seismic loading under consideration;",
+      "unit": null,
+      "source": "ASCE7-22-17.5.3.3-T3",
+      "defined_in": "17.5.3.3"
+    },
+    "wa": {
+      "description": "Maximum weight of the tank contents that may be used to resist the shell overturning moment [lb \u2215 ft (N \u2215 m)] of shell circumference ( wa usually consists of an annulus of liquid limited by the bending strength of the tank bottom or annular plate);",
+      "unit": null,
+      "source": "ASCE7-22-15.7.4-T3",
+      "defined_in": "15.7.4"
+    },
+    "Mrw": {
+      "description": "Overturning moment applied at the bottom of the shell caused by the seismic design loads [ft-lb (N-m)] (also known as the ringwall moment);",
+      "unit": null,
+      "source": "ASCE7-22-15.7.4-T4",
+      "defined_in": "15.7.4"
+    },
+    "Ws": {
+      "description": "Effective seismic weight [kips (kN)] of the structure above the isolation interface, as de fi ned by Section 12.7.2, excluding the effective seismic weight [kips (kN)] of the base level",
+      "unit": null,
+      "source": "ASCE7-22-17.1.2-T29",
+      "defined_in": "17.1.2"
+    },
+    "Wi": {
+      "description": "Impulsive weight (impulsive component of liquid, roof and equipment, shell, bottom, and internal elements);",
+      "unit": null,
+      "source": "ASCE7-22-15.7.6.1-T3",
+      "defined_in": "15.7.6.1"
+    },
+    "Nh": {
+      "description": "Hydrodynamic hoop force per unit height in the wall of a cylindrical tank or vessel;",
+      "unit": null,
+      "source": "ASCE7-22-15.7.6.2-T4",
+      "defined_in": "15.7.6.2"
+    },
+    "Tc": {
+      "description": "Natural period of the fi rst (convective) mode of sloshing;",
+      "unit": null,
+      "source": "ASCE7-22-15.7.6.2-T5",
+      "defined_in": "15.7.6.2"
+    },
+    "Ti": {
+      "description": "Fundamental period of the tank structure and impulsive component of the content;",
+      "unit": null,
+      "source": "ASCE7-22-15.7.6.2-T5",
+      "defined_in": "15.7.6.2"
+    },
+    "Sac": {
+      "description": "Spectral acceleration of the sloshing liquid (convective component), based on the sloshing period Tc and 0.5% damping. For Tc \u2264 TL , For Tc > TL ",
+      "unit": null,
+      "source": "ASCE7-22-15.7.6.2-T15",
+      "defined_in": "15.7.6.2"
+    },
+    "b": {
+      "description": "Shortest plan dimension of the structure [ft (mm)] measured perpendicular to d ;",
+      "unit": null,
+      "source": "ASCE7-22-17.5.3.3-T5",
+      "defined_in": "17.5.3.3"
+    },
+    "BM": {
+      "description": "Numerical coef fi cient as set forth in Table 17.5-1 for the effective damping of the isolation system \u03b2 M at the displacement DM ",
+      "unit": null,
+      "source": "ASCE7-22-17.5.3.1-T5",
+      "defined_in": "17.5.3.1"
+    },
+    "DM": {
+      "description": "Maximum displacement [in. (mm)] at the center of rigidity of the isolation system in the direction under consideration, as prescribed by Equation (17.5-1);",
+      "unit": null,
+      "source": "ASCE7-22-17.6.4.1-T1",
+      "defined_in": "17.6.4.1"
+    },
+    "DTM": {
+      "description": "Total maximum displacement, in. (mm) of an element of the isolation system including both translational displacement at the center of rigidity and the component of torsional displacement in the direction under consideration, as prescribed by Equation (17.5-3)",
+      "unit": null,
+      "source": "ASCE7-22-17.1.2-T7",
+      "defined_in": "17.1.2"
+    },
+    "e": {
+      "description": "Actual eccentricity measured in plan between the center of mass of the structure above the isolation interface and the center of rigidity of the isolation system, plus accidental eccentricity [ft (mm)], taken as 5% of the longest plan dimension of the structure perpendicular to the direction of force under consideration;",
+      "unit": null,
+      "source": "ASCE7-22-17.5.3.3-T4",
+      "defined_in": "17.5.3.3"
+    },
+    "RI": {
+      "description": "Numerical coef fi cient related to the type of seismic force-resisting system above the isolation system",
+      "unit": null,
+      "source": "ASCE7-22-17.1.2-T20",
+      "defined_in": "17.1.2"
+    },
+    "Tfb": {
+      "description": "Fundamental period of the structure above the isolation interface, determined using a modal analysis assuming fi xed-base conditions, s",
+      "unit": null,
+      "source": "ASCE7-22-17.1.2-T21",
+      "defined_in": "17.1.2"
+    },
+    "TM": {
+      "description": "Effective period of the seismically isolated structure (s) at the displacement DM in the direction under consideration, as prescribed by Equation (17.5-2); and",
+      "unit": null,
+      "source": "ASCE7-22-17.5.3.1-T4",
+      "defined_in": "17.5.3.1"
+    },
+    "Vb": {
+      "description": "Total lateral seismic design force or shear on elements of the isolation system or elements below the isolation system [kips (kN)], as prescribed by Equation (17.5-5)",
+      "unit": null,
+      "source": "ASCE7-22-17.1.2-T23",
+      "defined_in": "17.1.2"
+    },
+    "Vs": {
+      "description": "Total lateral seismic design force or shear on elements above the base level [kips (kN)], as prescribed by Equation (17.5-6) and the limits of Section 17.5.4.3",
+      "unit": null,
+      "source": "ASCE7-22-17.1.2-T24",
+      "defined_in": "17.1.2"
+    },
+    "Vst": {
+      "description": "Total unreduced lateral seismic design force or shear on elements above the base level [kips (kN)], as prescribed by Equation (17.5-7)",
+      "unit": null,
+      "source": "ASCE7-22-17.1.2-T25",
+      "defined_in": "17.1.2"
+    },
+    "kM": {
+      "description": "Effective stiffness [kip \u2215 in : (kN \u2215 mm)] of the isolation system at the maximum displacement, DM , as prescribed by Equation (17.2-3); and",
+      "unit": null,
+      "source": "ASCE7-22-17.5.3.2-T5",
+      "defined_in": "17.5.3.2"
+    },
+    "I": {
+      "description": "Radius of gyration of the isolation system [ft (mm)], which is equal to [ \u00f0 b 2 \u00fe d 2 \u00de \u2215 12 \u008a 1 \u2215 2 for isolation systems of rectangular plan dimension, b \u00d7 d ",
+      "unit": null,
+      "source": "ASCE7-22-17.5.3.3-T8",
+      "defined_in": "17.5.3.3"
+    },
+    "BmD": {
+      "description": "Numerical coef fi cient, as set forth in Table 18.7-1, for effective damping equal to \u03b2 ml and period of structure equal to Tm",
+      "unit": null,
+      "source": "ASCE7-22-18.1.3-T3",
+      "defined_in": "18.1.3"
+    },
+    "BmM": {
+      "description": "Numerical coef fi cient, as set forth in Table 18.7-1, for effective damping equal to \u03b2 mM and period of structure equal to Tm",
+      "unit": null,
+      "source": "ASCE7-22-18.1.3-T4",
+      "defined_in": "18.1.3"
+    },
+    "BR": {
+      "description": "Numerical coef fi cient, as set forth in Table 18.7-1, for effective damping equal to \u03b2 R and period of structure equal to TR",
+      "unit": null,
+      "source": "ASCE7-22-18.1.3-T5",
+      "defined_in": "18.1.3"
+    },
+    "CmFD": {
+      "description": "Force coef fi cient, as set forth in Table 18.7-2",
+      "unit": null,
+      "source": "ASCE7-22-18.1.3-T7",
+      "defined_in": "18.1.3"
+    },
+    "CmFV": {
+      "description": "Force coef fi cient, as set forth in Table 18.7-3",
+      "unit": null,
+      "source": "ASCE7-22-18.1.3-T8",
+      "defined_in": "18.1.3"
+    },
+    "CSm": {
+      "description": "Seismic response coef fi cient of the m th mode of vibration of the structure in the direction of interest, as determined from Section 18.7.1.2.4 (",
+      "unit": null,
+      "source": "ASCE7-22-18.7.1.2.2-T1",
+      "defined_in": "18.7.1.2.2"
+    },
+    "CSR": {
+      "description": "Seismic response coef fi cient of the residual mode of vibration of the structure in the direction of interest, Section 18.7.2.2.8",
+      "unit": null,
+      "source": "ASCE7-22-18.1.3-T11",
+      "defined_in": "18.1.3"
+    },
+    "DmD": {
+      "description": "Design displacement at the center of rigidity of the roof level of the structure caused by the m th mode of vibration in the direction under consideration, Section 18.7.1.3.2",
+      "unit": null,
+      "source": "ASCE7-22-18.1.3-T14",
+      "defined_in": "18.1.3"
+    },
+    "DmM": {
+      "description": "MCER displacement at the center of rigidity of the roof level of the structure caused by the m th mode of vibration in the direction under consideration, Section 18.7.1.3.5",
+      "unit": null,
+      "source": "ASCE7-22-18.1.3-T15",
+      "defined_in": "18.1.3"
+    },
+    "DRD": {
+      "description": "Residual mode design displacement at the center of rigidity of the roof level of the structure in the direction under consideration, Section 18.7.2.3.2",
+      "unit": null,
+      "source": "ASCE7-22-18.1.3-T16",
+      "defined_in": "18.1.3"
+    },
+    "DRM": {
+      "description": "Residual mode MCER displacement at the center of rigidity of the roof level of the structure in the direction under consideration, Section 18.7.2.3.5",
+      "unit": null,
+      "source": "ASCE7-22-18.1.3-T17",
+      "defined_in": "18.1.3"
+    },
+    "DY": {
+      "description": "Displacement at the center of rigidity of the roof level of the structure at the effective yield point of the seismic force-resisting system, Section 18.7.3.3",
+      "unit": null,
+      "source": "ASCE7-22-18.1.3-T18",
+      "defined_in": "18.1.3"
+    },
+    "Fim": {
+      "description": "Inertial force at level i (or mass point i ) in the m th mode of vibration of the structure in the direction of interest, Section 18.7.1.2.7",
+      "unit": null,
+      "source": "ASCE7-22-18.1.3-T22",
+      "defined_in": "18.1.3"
+    },
+    "FiR": {
+      "description": "Inertial force at level i (or mass point i ) in the residual mode of vibration of the structure in the direction of interest, Section 18.7.2.2.9",
+      "unit": null,
+      "source": "ASCE7-22-18.1.3-T23",
+      "defined_in": "18.1.3"
+    },
+    "qH": {
+      "description": "Hysteresis loop adjustment factor, as determined in Section 18.7.3.2.2.1",
+      "unit": null,
+      "source": "ASCE7-22-18.1.3-T26",
+      "defined_in": "18.1.3"
+    },
+    "QDSD": {
+      "description": "Force in an element of the damping system required to resist design seismic forces of displacement-dependent damping devices, Section 18.7.4.5",
+      "unit": null,
+      "source": "ASCE7-22-18.1.3-T27",
+      "defined_in": "18.1.3"
+    },
+    "QmDSV": {
+      "description": "Force in an element of the damping system required to resist design seismic forces of velocity-dependent damping devices caused by the m th mode of vibration of the structure in the direction of interest, Section 18.7.4.5",
+      "unit": null,
+      "source": "ASCE7-22-18.1.3-T29",
+      "defined_in": "18.1.3"
+    },
+    "Tm": {
+      "description": "Period, in seconds, of the m th mode of vibration of the structure in the direction under consideration, Section 18.7.1.2.6",
+      "unit": null,
+      "source": "ASCE7-22-18.1.3-T34",
+      "defined_in": "18.1.3"
+    },
+    "TR": {
+      "description": "Period, in seconds, of the residual mode of vibration of the structure in the direction under consideration, Section 18.7.2.2.7",
+      "unit": null,
+      "source": "ASCE7-22-18.1.3-T35",
+      "defined_in": "18.1.3"
+    },
+    "Vm": {
+      "description": "Design value of the seismic base shear of the m th mode of vibration of the structure in the direction of interest, Section 18.7.1.2.2",
+      "unit": null,
+      "source": "ASCE7-22-18.1.3-T38",
+      "defined_in": "18.1.3"
+    },
+    "VR": {
+      "description": "Design value of the seismic base shear of the residual mode of vibration of the structure in a given direction, as determined in Section 18.7.2.2.6",
+      "unit": null,
+      "source": "ASCE7-22-18.1.3-T40",
+      "defined_in": "18.1.3"
+    },
+    "Wm": {
+      "description": "Maximum strain energy in the m th mode of vibration of the structure in the direction of interest at modal displacements, \u03b4 im , Section 18.7.3.2.2.1",
+      "unit": null,
+      "source": "ASCE7-22-18.1.3-T44",
+      "defined_in": "18.1.3"
+    },
+    "Wmj": {
+      "description": "Work done by j th damping device in one complete cycle of dynamic response corresponding to the m th mode of vibration of the structure in the direction of interest at modal displacements, \u03b4 im , Section 18.7.3.2.2.1",
+      "unit": null,
+      "source": "ASCE7-22-18.1.3-T45",
+      "defined_in": "18.1.3"
+    },
+    "WR": {
+      "description": "Effective residual mode seismic weight, determined in accordance with Equation (18.7-30)",
+      "unit": null,
+      "source": "ASCE7-22-18.1.3-T46",
+      "defined_in": "18.1.3"
+    },
+    "M": {
+      "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the MCER ground motions, Section 18.7.3.3",
+      "unit": null,
+      "source": "ASCE7-22-18.1.3-T79",
+      "defined_in": "18.1.3"
+    },
+    "ao": {
+      "description": "Dimensionless frequency [Equations (19.3-11) and (19.3-21)]",
+      "unit": null,
+      "source": "ASCE7-22-19.1.3-T2",
+      "defined_in": "19.1.3"
+    },
+    "B": {
+      "description": "Horizontal dimension of a building measured normal to wind direction",
+      "unit": "ft",
+      "source": "ASCE7-22-26.3-T14",
+      "defined_in": "26.3"
+    },
+    "be": {
+      "description": "Effective foundation size [Equations (19.4-4) and (19.4-4SI)]",
+      "unit": null,
+      "source": "ASCE7-22-19.1.3-T5",
+      "defined_in": "19.1.3"
+    },
+    "Grd": {
+      "description": "Effective shear modulus used in determining radiation damping effects derived or approximated based on G 0 ; rd and Table 19.3-2; and",
+      "unit": null,
+      "source": "ASCE7-22-19.3.4-T5",
+      "defined_in": "19.3.4"
+    },
+    "RRSe": {
+      "description": "Site-speci fi c response spectral modi fi cation factor for foundation embedment [Equation (19.4-5)]",
+      "unit": null,
+      "source": "ASCE7-22-19.1.3-T17",
+      "defined_in": "19.1.3"
+    },
+    "A D": {
+      "description": "Dead load",
+      "unit": null,
+      "source": "ASCE7-22-2.2-T2",
+      "defined_in": "2.2"
+    },
+    "AD": {
+      "description": "Dead load",
+      "unit": null,
+      "source": "ASCE7-22-2.2-T2",
+      "defined_in": "2.2"
+    },
+    "WT": {
+      "description": "Tornado load, determined in accordance with Chapter 32",
+      "unit": null,
+      "source": "ASCE7-22-2.2-T16",
+      "defined_in": "2.2"
+    },
+    "Heb": {
+      "description": "Load due to lateral earth pressure or pressure of bulk materials, including the effect of buoyancy from ground water pressure on the lateral pressure of earth or bulk materials but otherwise excluding ground water pressure",
+      "unit": null,
+      "source": "ASCE7-22-2.3.7-T1",
+      "defined_in": "2.3.7"
+    },
+    "Hw": {
+      "description": "Load due to ground water pressure in soil",
+      "unit": null,
+      "source": "ASCE7-22-2.3.7-T2",
+      "defined_in": "2.3.7"
+    },
+    "A": {
+      "description": "Effective wind area of element, ft 2 (m 2 )",
+      "unit": null,
+      "source": "ASCE7-22-29.4.5.2-T4",
+      "defined_in": "29.4.5.2"
+    },
+    "Af": {
+      "description": "Vertical projected area of the rooftop structure or equipment on a plane normal to the direction of wind, ft 2 (m 2 ). Diagrams FREESTANDING WALL SOLID SIGN OR CASE A L 0.05h AFT -",
+      "unit": null,
+      "source": "ASCE7-22-29.4.1-T4",
+      "defined_in": "29.4.1"
     },
     "Ag": {
       "description": "Gross area of that wall in which Ao is identi fi ed, ft 2 (m 2 )",
@@ -48,34 +1818,28 @@
       "source": "ASCE7-22-26.3-T9",
       "defined_in": "26.3"
     },
-    "As": {
-      "description": "Gross area of the solid freestanding wall or solid sign, ft 2 (m 2 )",
+    "A 2": {
+      "description": "Effective wind area for use with ground-mounted solar panels in Figure 29.4-11, ft 2 (m 2 )",
       "unit": null,
-      "source": "ASCE7-22-26.3-T10",
+      "source": "ASCE7-22-26.3-T11",
+      "defined_in": "26.3"
+    },
+    "A2": {
+      "description": "Effective wind area for use with ground-mounted solar panels in Figure 29.4-11, ft 2 (m 2 )",
+      "unit": null,
+      "source": "ASCE7-22-26.3-T11",
       "defined_in": "26.3"
     },
     "a": {
-      "description": "Approximate lower bound natural frequency from Section 26.11.2",
-      "unit": "Hz",
-      "source": "ASCE7-22-26.3-T77",
-      "defined_in": "26.3"
+      "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
+      "unit": null,
+      "source": "ASCE7-22-28.3.7-T22",
+      "defined_in": "28.3.7"
     },
     "aB": {
       "description": "Width of pressure coef fi cient zone for elevated buildings",
       "unit": "ft",
       "source": "ASCE7-22-26.3-T13",
-      "defined_in": "26.3"
-    },
-    "B": {
-      "description": "Horizontal dimension of a building measured normal to wind direction",
-      "unit": "ft",
-      "source": "ASCE7-22-26.3-T14",
-      "defined_in": "26.3"
-    },
-    "b": {
-      "description": "Mean hourly wind speed factor in Equation (26.1116), from Table 26.11-1",
-      "unit": null,
-      "source": "ASCE7-22-26.3-T15",
       "defined_in": "26.3"
     },
     "Cf": {
@@ -96,38 +1860,44 @@
       "source": "ASCE7-22-26.3-T19",
       "defined_in": "26.3"
     },
-    "c": {
-      "description": "Panel chord factor for use with rooftop solar panels in Equation (29.4-5)",
-      "unit": null,
-      "source": "ASCE7-22-26.3-T111",
-      "defined_in": "26.3"
-    },
     "dp": {
-      "description": "Horizontal distance of Zone 2 for ground-mounted solar panels in Figure 29.4.9",
-      "unit": "ft",
-      "source": "ASCE7-22-26.3-T24",
-      "defined_in": "26.3"
+      "description": "Ponding head equal to the depth of water due to de fl ections of the roof subjected to unfactored rain load and unfactored dead load in. (mm)",
+      "unit": null,
+      "source": "ASCE7-22-8.1.2-T3",
+      "defined_in": "8.1.2"
     },
     "ds": {
-      "description": "Horizontal offset for ground-mounted solar panels in Figure 29.4.9",
+      "description": "Static head equal to the depth of water on the unde fl ected roof up to the inlet of the secondary drainage system for structural loading (SDSL), in. (mm)",
+      "unit": null,
+      "source": "ASCE7-22-8.1.2-T2",
+      "defined_in": "8.1.2"
+    },
+    "d 1": {
+      "description": "For rooftop solar arrays, horizontal distance orthogonal to the panel edge to an adjacent panel or the building edge, ignoring any rooftop equipment in Figure 29.4-7",
       "unit": "ft",
-      "source": "ASCE7-22-26.3-T25",
+      "source": "ASCE7-22-26.3-T26",
       "defined_in": "26.3"
     },
-    "F": {
-      "description": "Design wind force for other structures, lb (N)",
-      "unit": null,
-      "source": "ASCE7-22-26.3-T28",
+    "d1": {
+      "description": "For rooftop solar arrays, horizontal distance orthogonal to the panel edge to an adjacent panel or the building edge, ignoring any rooftop equipment in Figure 29.4-7",
+      "unit": "ft",
+      "source": "ASCE7-22-26.3-T26",
+      "defined_in": "26.3"
+    },
+    "d 2": {
+      "description": "For rooftop solar arrays, horizontal distance from the edge of one panel to the nearest edge in the next row of panels in Figure 29.4-7",
+      "unit": "ft",
+      "source": "ASCE7-22-26.3-T27",
+      "defined_in": "26.3"
+    },
+    "d2": {
+      "description": "For rooftop solar arrays, horizontal distance from the edge of one panel to the nearest edge in the next row of panels in Figure 29.4-7",
+      "unit": "ft",
+      "source": "ASCE7-22-26.3-T27",
       "defined_in": "26.3"
     },
     "Fn": {
       "description": "Normal force for ground-mounted solar panels in Figure 29.4-9, lb (N)",
-      "unit": null,
-      "source": "ASCE7-22-26.3-T29",
-      "defined_in": "26.3"
-    },
-    "G": {
-      "description": "Gust-effect factor",
       "unit": null,
       "source": "ASCE7-22-26.3-T29",
       "defined_in": "26.3"
@@ -162,28 +1932,10 @@
       "source": "ASCE7-22-26.3-T48",
       "defined_in": "26.3"
     },
-    "H": {
-      "description": "Height of hill, ridge, or escarpment in Figure 26.8-1",
-      "unit": "ft",
-      "source": "ASCE7-22-26.3-T49",
-      "defined_in": "26.3"
-    },
-    "h": {
-      "description": "Mean roof height of a building or height of other structure, except that eave height shall be used for roof angle \u03b8 less than or equal to 10 degrees, in ft (m)",
-      "unit": null,
-      "source": "ASCE7-22-26.3-P1",
-      "defined_in": "26.3"
-    },
     "hB": {
       "description": "Height above grade of the bottom surface of the elevated building",
       "unit": "ft",
       "source": "ASCE7-22-26.3-T50",
-      "defined_in": "26.3"
-    },
-    "hc": {
-      "description": "Height of the solid cylinder",
-      "unit": "ft",
-      "source": "ASCE7-22-26.3-T51",
       "defined_in": "26.3"
     },
     "he": {
@@ -192,35 +1944,71 @@
       "source": "ASCE7-22-26.3-T52",
       "defined_in": "26.3"
     },
-    "hp": {
-      "description": "Height to top of parapet in Figures 27.5-2 and 30.6-1",
-      "unit": null,
-      "source": "ASCE7-22-26.3-T53",
-      "defined_in": "26.3"
-    },
     "hpt": {
       "description": "Mean parapet height above the adjacent roof surface for use with Equation (29.4-5)",
       "unit": "ft",
       "source": "ASCE7-22-26.3-T54",
       "defined_in": "26.3"
     },
-    "z": {
+    "h 1": {
+      "description": "Height of a solar panel above the roof at the lower edge of the panel",
+      "unit": "ft",
+      "source": "ASCE7-22-26.3-T55",
+      "defined_in": "26.3"
+    },
+    "h1": {
+      "description": "Height of a solar panel above the roof at the lower edge of the panel",
+      "unit": "ft",
+      "source": "ASCE7-22-26.3-T55",
+      "defined_in": "26.3"
+    },
+    "h 2": {
+      "description": "Height of a solar panel above the roof at the upper edge of the panel",
+      "unit": "ft",
+      "source": "ASCE7-22-26.3-T56",
+      "defined_in": "26.3"
+    },
+    "h2": {
+      "description": "Height of a solar panel above the roof at the upper edge of the panel",
+      "unit": "ft",
+      "source": "ASCE7-22-26.3-T56",
+      "defined_in": "26.3"
+    },
+    "I z": {
       "description": "Intensity of turbulence from Equation (26.11-7)",
       "unit": null,
       "source": "ASCE7-22-26.3-T57",
       "defined_in": "26.3"
     },
-    "Kd": {
-      "description": "Wind directionality factor from Section 26.6 and Table 26.6-1",
+    "Iz": {
+      "description": "Intensity of turbulence from Equation (26.11-7)",
+      "unit": null,
+      "source": "ASCE7-22-26.3-T57",
+      "defined_in": "26.3"
+    },
+    "K 3": {
+      "description": "Multipliers in Figure 26.8-1 to obtain Kzt",
       "unit": null,
       "source": "ASCE7-22-26.3-T58",
       "defined_in": "26.3"
     },
-    "Ke": {
-      "description": "Ground elevation factor",
+    "K3": {
+      "description": "Multipliers in Figure 26.8-1 to obtain Kzt",
+      "unit": null,
+      "source": "ASCE7-22-26.3-T58",
+      "defined_in": "26.3"
+    },
+    "Kd": {
+      "description": "Wind directionality factor from Section 26.6 and Table 26.6-1",
       "unit": null,
       "source": "ASCE7-22-26.3-T59",
       "defined_in": "26.3"
+    },
+    "Ke": {
+      "description": "Ground elevation factor, see Section 26.9;",
+      "unit": null,
+      "source": "ASCE7-22-26.10.2-T33",
+      "defined_in": "26.10.2"
     },
     "Kh": {
       "description": "Velocity pressure exposure coef fi cient evaluated at height",
@@ -232,18 +2020,6 @@
       "description": "Velocity pressure exposure coef fi cient evaluated at height z",
       "unit": null,
       "source": "ASCE7-22-26.3-T62",
-      "defined_in": "26.3"
-    },
-    "Kzt": {
-      "description": "Topographic factor as de fi ned in Section 26.8",
-      "unit": null,
-      "source": "ASCE7-22-26.3-T63",
-      "defined_in": "26.3"
-    },
-    "L": {
-      "description": "Horizontal dimension of a building measured parallel to the wind direction",
-      "unit": "ft",
-      "source": "ASCE7-22-26.3-T64",
       "defined_in": "26.3"
     },
     "Lb": {
@@ -270,12 +2046,6 @@
       "source": "ASCE7-22-26.3-T68",
       "defined_in": "26.3"
     },
-    "Lr": {
-      "description": "Horizontal dimension of return corner for a solid freestanding wall or solid sign from Figure 29.3-1",
-      "unit": "ft",
-      "source": "ASCE7-22-26.3-T69",
-      "defined_in": "26.3"
-    },
     "Lz": {
       "description": "Integral length scale of turbulence",
       "unit": "ft",
@@ -294,16 +2064,46 @@
       "source": "ASCE7-22-26.3-T72",
       "defined_in": "26.3"
     },
+    "N 1": {
+      "description": "Reduced frequency from Equation (26.11-14)",
+      "unit": null,
+      "source": "ASCE7-22-26.3-T73",
+      "defined_in": "26.3"
+    },
+    "N1": {
+      "description": "Reduced frequency from Equation (26.11-14)",
+      "unit": null,
+      "source": "ASCE7-22-26.3-T73",
+      "defined_in": "26.3"
+    },
     "Ns": {
       "description": "Reduced frequency for ground-mounted solar panels",
       "unit": null,
       "source": "ASCE7-22-26.3-T74",
       "defined_in": "26.3"
     },
-    "n": {
-      "description": "Lowest natural frequency for ground-mounted solar panels",
+    "\u03b7 1": {
+      "description": "Fundamental natural frequency",
       "unit": "Hz",
-      "source": "ASCE7-22-26.3-T75",
+      "source": "ASCE7-22-26.3-T76",
+      "defined_in": "26.3"
+    },
+    "\u03b71": {
+      "description": "Fundamental natural frequency",
+      "unit": "Hz",
+      "source": "ASCE7-22-26.3-T76",
+      "defined_in": "26.3"
+    },
+    "\u03b7 a": {
+      "description": "Approximate lower bound natural frequency from Section 26.11.2",
+      "unit": "Hz",
+      "source": "ASCE7-22-26.3-T77",
+      "defined_in": "26.3"
+    },
+    "\u03b7a": {
+      "description": "Approximate lower bound natural frequency from Section 26.11.2",
+      "unit": "Hz",
+      "source": "ASCE7-22-26.3-T77",
       "defined_in": "26.3"
     },
     "p": {
@@ -324,49 +2124,31 @@
       "source": "ASCE7-22-26.3-T80",
       "defined_in": "26.3"
     },
-    "qh": {
-      "description": "Velocity pressure evaluated at height",
-      "unit": null,
-      "source": "ASCE7-22-26.3-T81",
-      "defined_in": "26.3"
-    },
     "q": {
-      "description": "Velocity pressure, lb/ft 2 (N/m 2 )",
+      "description": "Discharge per unit width over the overtopped structure, as illustrated in Figure 6.12-6 and calculated in accordance with Equation (6.12-5); and",
       "unit": null,
-      "source": "ASCE7-22-26.3-T82",
-      "defined_in": "26.3"
+      "source": "ASCE7-22-6.12.2.4.2-T7",
+      "defined_in": "6.12.2.4.2"
+    },
+    "qh": {
+      "description": "Velocity pressure evaluated at mean roof height, h , using the exposure as de fi ned in Section 26.7.3 that results in the highest wind loads for any wind direction at the site; Diagrams Wind Direction",
+      "unit": null,
+      "source": "ASCE7-22-27.3.4-T6",
+      "defined_in": "27.3.4"
     },
     "qi": {
-      "description": "Velocity pressure for internal pressure determination, lb/ft 2 (N/m 2 )",
+      "description": "qh For windward walls, sidewalls, leeward walls, and roofs of enclosed and partially open buildings and for negative internal pressure evaluation in partially enclosed buildings; 0.2h- .8 (3 \u0110IO, DO +0.8 +1.0 (0.1) 10 PLAN 10 20 (0.9) (19) 0.6h + 100 Roof co \u00e9o: ,DIO 0.6h 50 100 200 (4.6) (9.3) (18.6) Effective Wind Area, ft \u00b0(m3) 0.6h ELEVATION -1.4 -1.0 +0.2 +0.3 500 1000 (46.5) (92.9)",
       "unit": null,
-      "source": "ASCE7-22-26.3-T83",
-      "defined_in": "26.3"
+      "source": "ASCE7-22-30.4.2-T23",
+      "defined_in": "30.4.2"
     },
     "qp": {
-      "description": "Velocity pressure at top of parapet, lb/ft 2 (N/m 2 )",
+      "description": "Velocity pressure evaluated at the top of the parapet;",
       "unit": null,
-      "source": "ASCE7-22-26.3-T84",
-      "defined_in": "26.3"
+      "source": "ASCE7-22-27.3.4-T3",
+      "defined_in": "27.3.4"
     },
-    "qz": {
-      "description": "Velocity pressure evaluated at height z above ground, lb/ft 2 (N/m 2 )",
-      "unit": null,
-      "source": "ASCE7-22-26.3-T84",
-      "defined_in": "26.3"
-    },
-    "R": {
-      "description": "Resonant response factor from Equation (26.1112)",
-      "unit": null,
-      "source": "ASCE7-22-26.3-T85",
-      "defined_in": "26.3"
-    },
-    "r": {
-      "description": "Rise-to-span ratio for arched roofs",
-      "unit": null,
-      "source": "ASCE7-22-26.3-T86",
-      "defined_in": "26.3"
-    },
-    "Rh , RL": {
+    "RL": {
       "description": "Values from Equations (26.11-15a) and (26.1115b)",
       "unit": null,
       "source": "ASCE7-22-26.3-T87",
@@ -378,16 +2160,10 @@
       "source": "ASCE7-22-26.3-T88",
       "defined_in": "26.3"
     },
-    "S": {
-      "description": "Center-to-center row spacing for ground-mounted solar panels in Figure 29.4-9",
-      "unit": "ft",
-      "source": "ASCE7-22-26.3-T89",
-      "defined_in": "26.3"
-    },
     "Rn": {
       "description": "Value from Equation (26.11-13)",
       "unit": null,
-      "source": "ASCE7-22-26.3-T90",
+      "source": "ASCE7-22-26.3-T89",
       "defined_in": "26.3"
     },
     "SL": {
@@ -399,122 +2175,1244 @@
     "ST": {
       "description": "Open distance in transverse direction for ground-mounted solar panels in Figure 29.4-9",
       "unit": "ft",
-      "source": "ASCE7-22-26.3-T92",
+      "source": "ASCE7-22-26.3-H2",
       "defined_in": "26.3"
     },
     "s": {
       "description": "Vertical dimension of the solid freestanding wall or solid sign from Figure 29.3-1",
       "unit": "ft",
+      "source": "ASCE7-22-26.3-T92",
+      "defined_in": "26.3"
+    },
+    "s p": {
+      "description": "Gap between adjacent panels for ground-mounted solar panels in Figure 29.4-9",
+      "unit": "ft",
       "source": "ASCE7-22-26.3-T93",
       "defined_in": "26.3"
     },
-    "V": {
-      "description": "Basic wind speed obtained from Figures 26.5-1A through 26.5-1D, mi/h (m/s); the basic wind speed corresponds to a 3 s gust speed at 33 ft (10 m) above the ground in Exposure Category C",
-      "unit": null,
-      "source": "ASCE7-22-26.3-T95",
-      "defined_in": "26.3"
-    },
-    "Vi": {
-      "description": "Unpartitioned internal volume, in ft 3 (m 3 )",
-      "unit": null,
-      "source": "ASCE7-22-26.3-T96",
+    "sp": {
+      "description": "Gap between adjacent panels for ground-mounted solar panels in Figure 29.4-9",
+      "unit": "ft",
+      "source": "ASCE7-22-26.3-T93",
       "defined_in": "26.3"
     },
     "Vz": {
       "description": "Mean hourly wind speed at height z , in ft/s (m/s)",
       "unit": null,
-      "source": "ASCE7-22-26.3-T97",
-      "defined_in": "26.3"
-    },
-    "W": {
-      "description": "Width of building in Figures 30.3-3, 30.3-5A, and 30.3-5B and width of span in Figures 30.3-4 and 30.3-6",
-      "unit": "ft",
-      "source": "ASCE7-22-26.3-T97",
+      "source": "ASCE7-22-26.3-T96",
       "defined_in": "26.3"
     },
     "Wg": {
       "description": "Shortest row length for ground-mounted solar panels in Figure 29.4-9",
       "unit": "ft",
-      "source": "ASCE7-22-26.3-T98",
+      "source": "ASCE7-22-26.3-T97",
       "defined_in": "26.3"
     },
     "WL": {
       "description": "Width of a building on its longest side in Figure 29.4-7",
       "unit": "ft",
-      "source": "ASCE7-22-26.3-T99",
+      "source": "ASCE7-22-26.3-T98",
       "defined_in": "26.3"
     },
     "WS": {
       "description": "Width of a building on its shortest side in Figure 29.4-7",
       "unit": "ft",
-      "source": "ASCE7-22-26.3-T100",
+      "source": "ASCE7-22-26.3-T99",
       "defined_in": "26.3"
     },
-    "x": {
-      "description": "Distance upwind or downwind of crest in Figure 26.8-1",
-      "unit": "ft",
-      "source": "ASCE7-22-26.3-T101",
-      "defined_in": "26.3"
-    },
-    "e": {
+    "z e": {
       "description": "Ground elevation above sea level",
       "unit": "ft",
+      "source": "ASCE7-22-26.3-T103",
+      "defined_in": "26.3"
+    },
+    "ze": {
+      "description": "Ground elevation above sea level",
+      "unit": "ft",
+      "source": "ASCE7-22-26.3-T103",
+      "defined_in": "26.3"
+    },
+    "z g": {
+      "description": "Nominal height of the atmospheric boundary layer used in this standard (values appear in Table 26.11-1)",
+      "unit": null,
       "source": "ASCE7-22-26.3-T104",
       "defined_in": "26.3"
     },
-    "g": {
+    "zg": {
       "description": "Nominal height of the atmospheric boundary layer used in this standard (values appear in Table 26.11-1)",
+      "unit": null,
+      "source": "ASCE7-22-26.3-T104",
+      "defined_in": "26.3"
+    },
+    "z min": {
+      "description": "Exposure constant from Table 26.11-1",
       "unit": null,
       "source": "ASCE7-22-26.3-T105",
       "defined_in": "26.3"
     },
-    "min": {
+    "zmin": {
       "description": "Exposure constant from Table 26.11-1",
       "unit": null,
-      "source": "ASCE7-22-26.3-T106",
+      "source": "ASCE7-22-26.3-T105",
       "defined_in": "26.3"
     },
     "\u03b1": {
       "description": "Mean hourly wind-speed power law exponent in Equation (26.11-16) from Table 26.11-1",
       "unit": null,
-      "source": "ASCE7-22-26.3-T109",
+      "source": "ASCE7-22-26.3-T108",
       "defined_in": "26.3"
     },
-    "\u03b2": {
-      "description": "Damping ratio, percent critical for buildings or other structures",
+    "\u03b3 c": {
+      "description": "Panel chord factor for use with rooftop solar panels in Equation (29.4-5)",
       "unit": null,
       "source": "ASCE7-22-26.3-T110",
       "defined_in": "26.3"
     },
-    "E": {
+    "\u03b3c": {
+      "description": "Panel chord factor for use with rooftop solar panels in Equation (29.4-5)",
+      "unit": null,
+      "source": "ASCE7-22-26.3-T110",
+      "defined_in": "26.3"
+    },
+    "\u03b3 E": {
       "description": "Array edge factor for use with rooftop solar panels in Figure 29.4-7 and Equations (29.4-4) and (29.4-5)",
+      "unit": null,
+      "source": "ASCE7-22-26.3-T111",
+      "defined_in": "26.3"
+    },
+    "\u03b3E": {
+      "description": "Array edge factor for use with rooftop solar panels in Figure 29.4-7 and Equations (29.4-4) and (29.4-5)",
+      "unit": null,
+      "source": "ASCE7-22-26.3-T111",
+      "defined_in": "26.3"
+    },
+    "\u03b3 p": {
+      "description": "Parapet height factor for use with rooftop solar panels in Equation (29.4-5)",
       "unit": null,
       "source": "ASCE7-22-26.3-T112",
       "defined_in": "26.3"
     },
-    "\u03b5": {
-      "description": "Ratio of solid area to gross area for solid freestanding wall, solid sign, open sign, face of a trussed tower, or lattice structure",
+    "\u03b3p": {
+      "description": "Parapet height factor for use with rooftop solar panels in Equation (29.4-5)",
       "unit": null,
-      "source": "ASCE7-22-26.3-T114",
+      "source": "ASCE7-22-26.3-T112",
       "defined_in": "26.3"
     },
     "\u03b7": {
-      "description": "Value used in Equations (26.11-15a) and (26.1115b); see Section 26.11.4",
+      "description": "Free surface elevation as a function of time, t , used to drive the offshore boundary condition at the 328 ft (100 m) depth contour",
       "unit": null,
-      "source": "ASCE7-22-26.3-T116",
-      "defined_in": "26.3"
-    },
-    "\u03b8": {
-      "description": "Angle of plane of roof from horizontal",
-      "unit": "degrees",
-      "source": "ASCE7-22-26.3-T117",
-      "defined_in": "26.3"
+      "source": "ASCE7-22-6.3-T100",
+      "defined_in": "6.3"
     },
     "v": {
       "description": "Height-to-width ratio for solid sign",
       "unit": null,
+      "source": "ASCE7-22-26.3-T117",
+      "defined_in": "26.3"
+    },
+    "\u03c9": {
+      "description": "Angle that the solar panel makes with the roof surface in Figure 29.4-7, or that a groundmounted solar panel makes with the ground in Figure 29.4-9",
+      "unit": "degrees",
       "source": "ASCE7-22-26.3-T118",
       "defined_in": "26.3"
+    },
+    "pp": {
+      "description": "Combined net pressure on the parapet caused by the combination of the net pressures from the front and back parapet surfaces in which plus (and minus) signs signify net pressure acting toward (and away from) the front (exterior) side of the parapet;",
+      "unit": null,
+      "source": "ASCE7-22-27.3.4-T2",
+      "defined_in": "27.3.4"
+    },
+    "KS": {
+      "description": "Shielding",
+      "unit": null,
+      "source": "ASCE7-22-28.3.7-T53",
+      "defined_in": "28.3.7"
+    },
+    "factor": {
+      "description": "1.8 -0.01 B , B < 100 ft ( B < 30.5 m), or 0.8, B \u2265 100 ft ( B \u2265 30.5 m);",
+      "unit": null,
+      "source": "ASCE7-22-28.3.7-T54",
+      "defined_in": "28.3.7"
+    },
+    "KB": {
+      "description": "Frame width",
+      "unit": null,
+      "source": "ASCE7-22-28.3.7-T54",
+      "defined_in": "28.3.7"
+    },
+    "AS": {
+      "description": "Effective solid area of the end wall, that is, the projected area of any portion of the end wall that would be exposed to the wind (Figure 28.3-3); and",
+      "unit": null,
+      "source": "ASCE7-22-28.3.7-T57",
+      "defined_in": "28.3.7"
+    },
+    "AE": {
+      "description": "Total end wall area for an equivalent enclosed building (Figure 28.3-3)",
+      "unit": null,
+      "source": "ASCE7-22-28.3.7-T58",
+      "defined_in": "28.3.7"
+    },
+    "Ar": {
+      "description": "Horizontal projected area of rooftop structure or equipment, ft 2 (m 2 )",
+      "unit": null,
+      "source": "ASCE7-22-29.4.1-T43",
+      "defined_in": "29.4.1"
+    },
+    "Notation a": {
+      "description": "10% of least horizontal dimension or 0.4h, whichever is smaller, but not less than either 4% of least horizontal",
+      "unit": null,
+      "source": "ASCE7-22-30.4.2-T117",
+      "defined_in": "30.4.2"
+    },
+    "Notationa": {
+      "description": "10% of least horizontal dimension or 0.4h, whichever is smaller, but not less than either 4% of least horizontal",
+      "unit": null,
+      "source": "ASCE7-22-30.4.2-T117",
+      "defined_in": "30.4.2"
+    },
+    "ratio": {
+      "description": "'rise'/L",
+      "unit": null,
+      "source": "ASCE7-22-30.4.2.1-T6",
+      "defined_in": "30.4.2.1"
+    },
+    "Ae": {
+      "description": "Effective plan area of the building, other structure, or facility, ft 2 (m 2 ), as de fi ned in Section 32.5.4",
+      "unit": null,
+      "source": "ASCE7-22-32.3-T1",
+      "defined_in": "32.3"
+    },
+    "FhT": {
+      "description": "Lateral design tornado force for rooftop structures and equipment from Equation (32.16-3), lb (N)",
+      "unit": null,
+      "source": "ASCE7-22-32.3-T2",
+      "defined_in": "32.3"
+    },
+    "FT": {
+      "description": "Design tornado force for certain other structures from Equation (32.16-2), lb (N)",
+      "unit": null,
+      "source": "ASCE7-22-32.3-T3",
+      "defined_in": "32.3"
+    },
+    "FvT": {
+      "description": "Vertical design tornado force for rooftop structures and equipment from Equation (32.16-4), lb (N)",
+      "unit": null,
+      "source": "ASCE7-22-32.3-T4",
+      "defined_in": "32.3"
+    },
+    "KdT": {
+      "description": "Tornado directionality factor as de fi ned in Section 32.6",
+      "unit": null,
+      "source": "ASCE7-22-32.3-T6",
+      "defined_in": "32.3"
+    },
+    "KhTor": {
+      "description": "Tornado velocity pressure exposure coef fi cient evaluated at height",
+      "unit": null,
+      "source": "ASCE7-22-32.3-T7",
+      "defined_in": "32.3"
+    },
+    "KvT": {
+      "description": "Tornado pressure coef fi cient adjustment factor for vertical winds as de fi ned in Section 32.14",
+      "unit": null,
+      "source": "ASCE7-22-32.3-T8",
+      "defined_in": "32.3"
+    },
+    "KzTor": {
+      "description": "Tornado velocity pressure exposure coef fi cient evaluated at height z, as determined in Section 32.10",
+      "unit": null,
+      "source": "ASCE7-22-32.3-T9",
+      "defined_in": "32.3"
+    },
+    "ppT": {
+      "description": "Combined net tornado design pressure on a parapet from Equation (32.15-3), lb/ft 2 (N/m 2 )",
+      "unit": null,
+      "source": "ASCE7-22-32.3-T10",
+      "defined_in": "32.3"
+    },
+    "pT": {
+      "description": "Design tornado pressure to be used in determination of tornado loads for buildings and for certain other structures, lb/ft 2 (N/m 2 )",
+      "unit": null,
+      "source": "ASCE7-22-32.3-T11",
+      "defined_in": "32.3"
+    },
+    "qhT": {
+      "description": "Tornado velocity pressure from Section 32.10.2 evaluated at mean roof height h , lb/ft 2 (N/m 2 );",
+      "unit": null,
+      "source": "ASCE7-22-32.17.3-T2",
+      "defined_in": "32.17.3"
+    },
+    "qpT": {
+      "description": "Tornado velocity pressure evaluated at top of parapet from Equations (32.15-3) and (32.17-4), lb/ft 2 (N/m 2 )",
+      "unit": null,
+      "source": "ASCE7-22-32.3-T14",
+      "defined_in": "32.3"
+    },
+    "qzop": {
+      "description": "Tornado velocity pressure internal pressure determination for partially enclosed buildings, lb/ft 2 (N/m 2 )",
+      "unit": null,
+      "source": "ASCE7-22-32.3-T15",
+      "defined_in": "32.3"
+    },
+    "qzT": {
+      "description": "Tornado velocity pressure evaluated at height z above ground, lb/ft 2 (N/m 2 )",
+      "unit": null,
+      "source": "ASCE7-22-32.3-T16",
+      "defined_in": "32.3"
+    },
+    "VT": {
+      "description": "Tornado speed obtained from Figures 32.5-1 and 32.52, mi \u2215 h (m \u2215 s). The tornado speed corresponds to a 3 s gust speed at 33 ft (10 m) above the ground",
+      "unit": null,
+      "source": "ASCE7-22-32.3-T17",
+      "defined_in": "32.3"
+    },
+    "zop": {
+      "description": "Level of the lowest opening in the building that could affect the positive internal pressure, lb/ft 2 (N/m 2 )",
+      "unit": null,
+      "source": "ASCE7-22-32.3-T18",
+      "defined_in": "32.3"
+    },
+    "GT": {
+      "description": "Tornado gust-effect factor from Section 32.11;",
+      "unit": null,
+      "source": "ASCE7-22-32.16.2-T2",
+      "defined_in": "32.16.2"
+    },
+    "Lo": {
+      "description": "Unreduced design live load per ft 2 (m 2 ) of area supported by the member (see Table 4.3-1);",
+      "unit": null,
+      "source": "ASCE7-22-4.7.2-T3",
+      "defined_in": "4.7.2"
+    },
+    "KLL": {
+      "description": "Live load element factor (see Table 4.7-1); and",
+      "unit": null,
+      "source": "ASCE7-22-4.7.2-T4",
+      "defined_in": "4.7.2"
+    },
+    "AT": {
+      "description": "Tributary area in ft 2 (m 2 )",
+      "unit": null,
+      "source": "ASCE7-22-4.7.2-T5",
+      "defined_in": "4.7.2"
+    },
+    "Hb": {
+      "description": "Breaking wave height",
+      "unit": "ft",
+      "source": "ASCE7-22-5.4.4.1-T6",
+      "defined_in": "5.4.4.1"
+    },
+    "Ft": {
+      "description": "Net breaking wave force per unit length of structure, also referred to as shock, impulse, or wave impact force, lb \u2215 ft (kN \u2215 m), acting near the still water elevation; Crest of reflecte Crest of reflect Dynam Dynam",
+      "unit": null,
+      "source": "ASCE7-22-5.4.4.2-T8",
+      "defined_in": "5.4.4.2"
+    },
+    "Fnv": {
+      "description": "Horizontal component of breaking wave force, lb \u2215 ft (kN \u2215 m);",
+      "unit": null,
+      "source": "ASCE7-22-5.4.4.3-T2",
+      "defined_in": "5.4.4.3"
+    },
+    "Foi": {
+      "description": "Horizontal component of obliquely incident breaking wave force, lb \u2215 ft (kN \u2215 m);",
+      "unit": null,
+      "source": "ASCE7-22-5.4.4.4-T2",
+      "defined_in": "5.4.4.4"
+    },
+    "A beam": {
+      "description": "Vertical projected area of an individual beam element",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T1",
+      "defined_in": "6.3"
+    },
+    "Abeam": {
+      "description": "Vertical projected area of an individual beam element",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T1",
+      "defined_in": "6.3"
+    },
+    "A col": {
+      "description": "Vertical projected area of an individual column element",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T2",
+      "defined_in": "6.3"
+    },
+    "Acol": {
+      "description": "Vertical projected area of an individual column element",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T2",
+      "defined_in": "6.3"
+    },
+    "Ad": {
+      "description": "Vertical projected area of obstructing debris accumulated on structure",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T3",
+      "defined_in": "6.3"
+    },
+    "A wall": {
+      "description": "Vertical projected area of an individual wall element",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T4",
+      "defined_in": "6.3"
+    },
+    "Awall": {
+      "description": "Vertical projected area of an individual wall element",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T4",
+      "defined_in": "6.3"
+    },
+    "a 1": {
+      "description": "Amplitude of the leading pulse (negative for a leading depression tsunami)",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T5",
+      "defined_in": "6.3"
+    },
+    "a1": {
+      "description": "Amplitude of the leading pulse (negative for a leading depression tsunami)",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T5",
+      "defined_in": "6.3"
+    },
+    "a 2": {
+      "description": "Amplitude of the following, or second, pulse",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T6",
+      "defined_in": "6.3"
+    },
+    "a2": {
+      "description": "Amplitude of the following, or second, pulse",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T6",
+      "defined_in": "6.3"
+    },
+    "Cbs": {
+      "description": "Force coef fi cient with breakaway slab",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T9",
+      "defined_in": "6.3"
+    },
+    "Ccx": {
+      "description": "Proportion of closure coef fi cient",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T10",
+      "defined_in": "6.3"
+    },
+    "C dis": {
+      "description": "Discharge coef fi cient for overtopping",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T12",
+      "defined_in": "6.3"
+    },
+    "Cdis": {
+      "description": "Discharge coef fi cient for overtopping",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T12",
+      "defined_in": "6.3"
+    },
+    "Co": {
+      "description": "Orientation coef fi cient (of debris)",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T13",
+      "defined_in": "6.3"
+    },
+    "c v": {
+      "description": "Coef fi cient of consolidation",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T14",
+      "defined_in": "6.3"
+    },
+    "cv": {
+      "description": "Coef fi cient of consolidation",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T14",
+      "defined_in": "6.3"
+    },
+    "c 2 V": {
+      "description": "Plunging scour coef fi cient",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T15",
+      "defined_in": "6.3"
+    },
+    "c2V": {
+      "description": "Plunging scour coef fi cient",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T15",
+      "defined_in": "6.3"
+    },
+    "Da": {
+      "description": "Diameter of rock armor",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T15",
+      "defined_in": "6.3"
+    },
+    "dd": {
+      "description": "Additional drop in grade to the base of wall on the side of a seawall or freestanding retaining wall subject to plunging scour",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T19",
+      "defined_in": "6.3"
+    },
+    "DT": {
+      "description": "Displacement Tonnage",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T19",
+      "defined_in": "6.3"
+    },
+    "DWT": {
+      "description": "Deadweight Tonnage of vessel",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T21",
+      "defined_in": "6.3"
+    },
+    "Eg": {
+      "description": "Hydraulic head in the Energy Grade Line Analysis",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T23",
+      "defined_in": "6.3"
+    },
+    "Fd": {
+      "description": "Drag force on an element or component",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T25",
+      "defined_in": "6.3"
+    },
+    "Fdx": {
+      "description": "Drag force on the building or structure at each level",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T26",
+      "defined_in": "6.3"
+    },
+    "Fh": {
+      "description": "Unbalanced hydrostatic lateral force",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T27",
+      "defined_in": "6.3"
+    },
+    "Fni": {
+      "description": "Nominal maximum instantaneous debris impact force",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T29",
+      "defined_in": "6.3"
+    },
+    "Fpw": {
+      "description": "Hydrodynamic force on a perforated wall",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T30",
+      "defined_in": "6.3"
+    },
+    "Fv": {
+      "description": "Buoyancy force",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T30",
+      "defined_in": "6.3"
+    },
+    "Fr": {
+      "description": "Froude",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T32",
+      "defined_in": "6.3"
+    },
+    "number": {
+      "description": "u \u2215 \u00f0 gh \u00de 1 \u2215 2 at point i ;",
+      "unit": null,
+      "source": "ASCE7-22-6.6.2-T5",
+      "defined_in": "6.6.2"
+    },
+    "TSU": {
+      "description": "Tsunami load or effect",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T32",
+      "defined_in": "6.3"
+    },
+    "Fw": {
+      "description": "Load on wall or pier",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T32",
+      "defined_in": "6.3"
+    },
+    "f uw": {
+      "description": "Equivalent uniform lateral force per unit width",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T36",
+      "defined_in": "6.3"
+    },
+    "fuw": {
+      "description": "Equivalent uniform lateral force per unit width",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T36",
+      "defined_in": "6.3"
+    },
+    "HB": {
+      "description": "Barrier height of a levee, seawall, or freestanding retaining wall",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T38",
+      "defined_in": "6.3"
+    },
+    "HO": {
+      "description": "Depth to which a barrier is overtopped above the barrier height",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T39",
+      "defined_in": "6.3"
+    },
+    "HT": {
+      "description": "Offshore Tsunami Amplitude determined from Figure 6.7-1",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T40",
+      "defined_in": "6.3"
+    },
+    "H TSU": {
+      "description": "Load caused by tsunami-induced lateral earth pressure under submerged conditions",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T41",
+      "defined_in": "6.3"
+    },
+    "HTSU": {
+      "description": "Load caused by tsunami-induced lateral earth pressure under submerged conditions",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T41",
+      "defined_in": "6.3"
+    },
+    "h draw": {
+      "description": "Difference between the maximum inundation depth, h max, and the residual water level after drawdown of the associated wave",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T43",
+      "defined_in": "6.3"
+    },
+    "hdraw": {
+      "description": "Difference between the maximum inundation depth, h max, and the residual water level after drawdown of the associated wave",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T43",
+      "defined_in": "6.3"
+    },
+    "h max": {
+      "description": "Maximum inundation depth above grade plane at the structure",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T45",
+      "defined_in": "6.3"
+    },
+    "hmax": {
+      "description": "Maximum inundation depth above grade plane at the structure",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T45",
+      "defined_in": "6.3"
+    },
+    "ho": {
+      "description": "Height of obstruction above the surface of the roof",
+      "unit": "ft",
+      "source": "ASCE7-22-7.1.2-T8",
+      "defined_in": "7.1.2"
+    },
+    "hr": {
+      "description": "Residual water height within a building",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T47",
+      "defined_in": "6.3"
+    },
+    "hs": {
+      "description": "Height of structural fl oor slab above grade plane at the structure",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T48",
+      "defined_in": "6.3"
+    },
+    "hss": {
+      "description": "Height of the bottom of the structural fl oor slab, taken above grade plane at the structure",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T49",
+      "defined_in": "6.3"
+    },
+    "hw": {
+      "description": "Height of wall",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T49",
+      "defined_in": "6.3"
+    },
+    "I tsu": {
+      "description": "Importance Factor for tsunami forces to account for additional uncertainty in estimated parameters",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T52",
+      "defined_in": "6.3"
+    },
+    "Itsu": {
+      "description": "Importance Factor for tsunami forces to account for additional uncertainty in estimated parameters",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T52",
+      "defined_in": "6.3"
+    },
+    "k s": {
+      "description": "Fluid density factor to account for suspended soil and other smaller fl ow-embedded objects that are not considered in Section 6.11",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T55",
+      "defined_in": "6.3"
+    },
+    "ks": {
+      "description": "Fluid density factor to account for suspended soil and other smaller fl ow-embedded objects that are not considered in Section 6.11",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T55",
+      "defined_in": "6.3"
+    },
+    "L refuge": {
+      "description": "Public assembly live load effect in the tsunami refuge fl oor area",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T57",
+      "defined_in": "6.3"
+    },
+    "Lrefuge": {
+      "description": "Public assembly live load effect in the tsunami refuge fl oor area",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T57",
+      "defined_in": "6.3"
+    },
+    "lw": {
+      "description": "Length of a structural wall",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T58",
+      "defined_in": "6.3"
+    },
+    "LWT": {
+      "description": "Lightship Weight of vessel",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T59",
+      "defined_in": "6.3"
+    },
+    "m contents": {
+      "description": "Mass of contents in a shipping container",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T61",
+      "defined_in": "6.3"
+    },
+    "mcontents": {
+      "description": "Mass of contents in a shipping container",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T61",
+      "defined_in": "6.3"
+    },
+    "md": {
+      "description": "Mass ( Wd / g ) of the debris",
+      "unit": null,
+      "source": "ASCE7-22-6.11.1-T5",
+      "defined_in": "6.11.1"
+    },
+    "MCT": {
+      "description": "Maximum Considered Tsunami",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T63",
+      "defined_in": "6.3"
+    },
+    "Pu": {
+      "description": "Uplift pressure on slab or building horizontal element",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T65",
+      "defined_in": "6.3"
+    },
+    "Pur": {
+      "description": "Reduced uplift pressure for slab with opening",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T66",
+      "defined_in": "6.3"
+    },
+    "QCE": {
+      "description": "Expected strength of the structural element determined in accordance with ASCE 41; and",
+      "unit": null,
+      "source": "ASCE7-22-6.8.3.5.2.2-T3",
+      "defined_in": "6.8.3.5.2.2"
+    },
+    "QCS": {
+      "description": "Speci fi ed strength of the structural element",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T68",
+      "defined_in": "6.3"
+    },
+    "QUD": {
+      "description": "Ductility-governed force caused by gravity and tsunami loading",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T69",
+      "defined_in": "6.3"
+    },
+    "QUF": {
+      "description": "Maximum force generated in the element caused by gravity and tsunami loading",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T70",
+      "defined_in": "6.3"
+    },
+    "R max": {
+      "description": "Dynamic response ratio",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T73",
+      "defined_in": "6.3"
+    },
+    "Rmax": {
+      "description": "Dynamic response ratio",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T73",
+      "defined_in": "6.3"
+    },
+    "t o": {
+      "description": "Offset time of the wave train",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T79",
+      "defined_in": "6.3"
+    },
+    "to": {
+      "description": "Offset time of the wave train",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T79",
+      "defined_in": "6.3"
+    },
+    "Tdraw": {
+      "description": "Site-speci fi c drawdown time, that is, the time from the peak of the transformed onshore waveform to the following trough",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T80",
+      "defined_in": "6.3"
+    },
+    "T TSU": {
+      "description": "Predominant wave period, or the time from the start of the fi rst pulse to the end of the second pulse at the 328 ft (100 m) bathymetric depth",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T81",
+      "defined_in": "6.3"
+    },
+    "TTSU": {
+      "description": "Predominant wave period, or the time from the start of the fi rst pulse to the end of the second pulse at the 328 ft (100 m) bathymetric depth",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T81",
+      "defined_in": "6.3"
+    },
+    "U": {
+      "description": "Jet velocity of plunging fl ow",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T82",
+      "defined_in": "6.3"
+    },
+    "u": {
+      "description": "Horizontal fl ow velocity corresponding to a water depth equal to or greater than hss , the elevation of the sof fi t of the fl oor system; and",
+      "unit": null,
+      "source": "ASCE7-22-6.10.3.2.2-T2",
+      "defined_in": "6.10.3.2.2"
+    },
+    "u max": {
+      "description": "Maximum tsunami fl ow velocity at the structure",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T84",
+      "defined_in": "6.3"
+    },
+    "umax": {
+      "description": "Maximum tsunami fl ow velocity at the structure",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T84",
+      "defined_in": "6.3"
+    },
+    "uv": {
+      "description": "Vertical component of tsunami fl ow velocity",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T85",
+      "defined_in": "6.3"
+    },
+    "Vw": {
+      "description": "Displaced water volume",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T85",
+      "defined_in": "6.3"
+    },
+    "Wd": {
+      "description": "Weight of debris",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T85",
+      "defined_in": "6.3"
+    },
+    "wg": {
+      "description": "Width of opening gap in slab",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T89",
+      "defined_in": "6.3"
+    },
+    "xR": {
+      "description": "Mapped inundation limit distance inland from the Mean High Water (MHW) shoreline",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T91",
+      "defined_in": "6.3"
+    },
+    "\u03b3 b": {
+      "description": "Buoyant weight density of soil",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T95",
+      "defined_in": "6.3"
+    },
+    "\u03b3b": {
+      "description": "Buoyant weight density of soil",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T95",
+      "defined_in": "6.3"
+    },
+    "\u03b3 s": {
+      "description": "Minimum fl uid weight density for design hydrostatic loads",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T96",
+      "defined_in": "6.3"
+    },
+    "\u03b3s": {
+      "description": "Minimum fl uid weight density for design hydrostatic loads",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T96",
+      "defined_in": "6.3"
+    },
+    "\u03b3 sw": {
+      "description": "Effective weight density of seawater",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T97",
+      "defined_in": "6.3"
+    },
+    "\u03b3sw": {
+      "description": "Effective weight density of seawater",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T97",
+      "defined_in": "6.3"
+    },
+    "\u03be 100": {
+      "description": "Surf similarity parameter using 328 ft (100 m) nearshore wave characteristics",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T98",
+      "defined_in": "6.3"
+    },
+    "\u03be100": {
+      "description": "Surf similarity parameter using 328 ft (100 m) nearshore wave characteristics",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T98",
+      "defined_in": "6.3"
+    },
+    "\u0394 xi": {
+      "description": "Incremental distance used in the Energy Grade Line Analysis",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T99",
+      "defined_in": "6.3"
+    },
+    "\u0394xi": {
+      "description": "Incremental distance used in the Energy Grade Line Analysis",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T99",
+      "defined_in": "6.3"
+    },
+    "\u03c1 sw": {
+      "description": "Effective mass density of seawater",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T104",
+      "defined_in": "6.3"
+    },
+    "\u03c1sw": {
+      "description": "Effective mass density of seawater",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T104",
+      "defined_in": "6.3"
+    },
+    "\u03c1 s": {
+      "description": "Minimum fl uid mass density for design hydrodynamic loads",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T105",
+      "defined_in": "6.3"
+    },
+    "\u03c1s": {
+      "description": "Minimum fl uid mass density for design hydrodynamic loads",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T105",
+      "defined_in": "6.3"
+    },
+    "\u03a9 O": {
+      "description": "Overstrength factor for the lateral-force-resisting system given in Table 12.2-1",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T110",
+      "defined_in": "6.3"
+    },
+    "\u03a9O": {
+      "description": "Overstrength factor for the lateral-force-resisting system given in Table 12.2-1",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T110",
+      "defined_in": "6.3"
+    },
+    "\u03a9": {
+      "description": "Angular frequency of the waveform, equal to 2 \u03c0 \u2215 T , where T is the wave period",
+      "unit": null,
+      "source": "ASCE7-22-6.3-T111",
+      "defined_in": "6.3"
+    },
+    "ui": {
+      "description": "Maximum fl ow velocity at point i ;",
+      "unit": null,
+      "source": "ASCE7-22-6.6.2-T4",
+      "defined_in": "6.6.2"
+    },
+    "Fri": {
+      "description": "Froude",
+      "unit": null,
+      "source": "ASCE7-22-6.6.2-T5",
+      "defined_in": "6.6.2"
+    },
+    "xi": {
+      "description": "Horizontal distance inland from the Mean High Water (MHW) shoreline at point i ; and",
+      "unit": null,
+      "source": "ASCE7-22-6.6.2-T7",
+      "defined_in": "6.6.2"
+    },
+    "Cr": {
+      "description": "Pipe resistance coef fi cient as given in Table 6.10-3 or Figure 6.10-1;",
+      "unit": null,
+      "source": "ASCE7-22-6.10.2.6.1-T3",
+      "defined_in": "6.10.2.6.1"
+    },
+    "Dp": {
+      "description": "Pipe diameter; and",
+      "unit": null,
+      "source": "ASCE7-22-6.10.2.6.1-T6",
+      "defined_in": "6.10.2.6.1"
+    },
+    "Ce": {
+      "description": "Exposure factor, as determined from Table 7.3-1",
+      "unit": null,
+      "source": "ASCE7-22-7.1.2-T1",
+      "defined_in": "7.1.2"
+    },
+    "hb": {
+      "description": "Height of balanced snow load, determined by dividing ps by \u03b3",
+      "unit": "ft",
+      "source": "ASCE7-22-7.1.2-T5",
+      "defined_in": "7.1.2"
+    },
+    "hd": {
+      "description": "Height of snow drift",
+      "unit": "ft",
+      "source": "ASCE7-22-7.1.2-T7",
+      "defined_in": "7.1.2"
+    },
+    "pd": {
+      "description": "Maximum intensity of drift surcharge load, lb \u2215 ft 2 (kN \u2215 m 2 )",
+      "unit": null,
+      "source": "ASCE7-22-7.1.2-T11",
+      "defined_in": "7.1.2"
+    },
+    "pg": {
+      "description": "Ground snow load, as determined from Figure 7.2-1 and Table 7.2-1; or a site-speci fi c analysis, lb \u2215 ft 2 (kN \u2215 m 2 )",
+      "unit": null,
+      "source": "ASCE7-22-7.1.2-T12",
+      "defined_in": "7.1.2"
+    },
+    "ps": {
+      "description": "Sloped roof (balanced) snow load, lb \u2215 ft 2 (kN \u2215 m 2 )",
+      "unit": null,
+      "source": "ASCE7-22-7.1.2-T13",
+      "defined_in": "7.1.2"
+    },
+    "pm": {
+      "description": "Minimum snow load for low-slope roofs, lb \u2215 ft 2 (kN \u2215 m 2 )",
+      "unit": null,
+      "source": "ASCE7-22-7.1.2-T14",
+      "defined_in": "7.1.2"
+    },
+    "hg": {
+      "description": "pg \u2215 \u03b3 )",
+      "unit": null,
+      "source": "ASCE7-22-7.2-P3",
+      "defined_in": "7.2"
+    },
+    "dh": {
+      "description": "Hydraulic head equal to the depth of water on the undefl ected roof above the inlet of the secondary drainage system for structural loading (SDSL) required to achieve the design fl ow, in. (mm)",
+      "unit": null,
+      "source": "ASCE7-22-8.1.2-T1",
+      "defined_in": "8.1.2"
+    },
+    "Ls": {
+      "description": "Span of secondary members, in. (mm)",
+      "unit": null,
+      "source": "ASCE7-22-8.1.2-T4",
+      "defined_in": "8.1.2"
+    },
+    "where f z": {
+      "description": "1.4 for z > 900ft. where f",
+      "unit": null,
+      "source": "ASCE7-22-10.4.3-T1",
+      "defined_in": "10.4.3"
+    },
+    "wherefz": {
+      "description": "1.4 for z > 900ft. where f",
+      "unit": null,
+      "source": "ASCE7-22-10.4.3-T1",
+      "defined_in": "10.4.3"
+    },
+    "and Ax": {
+      "description": "1.0; and \u0394 avg is the average of the story drifts at the two opposing edges of the building",
+      "unit": null,
+      "source": "ASCE7-22-12.3.2.1.1-T1",
+      "defined_in": "12.3.2.1.1"
+    },
+    "andAx": {
+      "description": "1.0; and \u0394 avg is the average of the story drifts at the two opposing edges of the building",
+      "unit": null,
+      "source": "ASCE7-22-12.3.2.1.1-T1",
+      "defined_in": "12.3.2.1.1"
+    },
+    "where SDS": {
+      "description": "2 3 FaSs , where Fa is permitted to be taken as 1.0 for rock sites, 1.4 for soil sites, or determined in accordance with Section 11.4.4. For the purpose of this section, sites are permitted to be considered to be rock if there is no more than 10 ft (3 m) of soil between the rock surface and the bottom of spread footing or mat foundation. In calculating SDS , Ss shall be in accordance with Section 11.4.4 but need not be taken as larger than 1.5;",
+      "unit": null,
+      "source": "ASCE7-22-12.14.8.1-P1",
+      "defined_in": "12.14.8.1"
+    },
+    "whereSDS": {
+      "description": "2 3 FaSs , where Fa is permitted to be taken as 1.0 for rock sites, 1.4 for soil sites, or determined in accordance with Section 11.4.4. For the purpose of this section, sites are permitted to be considered to be rock if there is no more than 10 ft (3 m) of soil between the rock surface and the bottom of spread footing or mat foundation. In calculating SDS , Ss shall be in accordance with Section 11.4.4 but need not be taken as larger than 1.5;",
+      "unit": null,
+      "source": "ASCE7-22-12.14.8.1-P1",
+      "defined_in": "12.14.8.1"
+    },
+    "where hp": {
+      "description": "Height of the rectangular glass panel",
+      "unit": null,
+      "source": "ASCE7-22-13.5.9.1-T2",
+      "defined_in": "13.5.9.1"
+    },
+    "wherehp": {
+      "description": "Height of the rectangular glass panel",
+      "unit": null,
+      "source": "ASCE7-22-13.5.9.1-T2",
+      "defined_in": "13.5.9.1"
+    },
+    "then Sai": {
+      "description": "SDS ",
+      "unit": null,
+      "source": "ASCE7-22-15.7.6.2-T13",
+      "defined_in": "15.7.6.2"
+    },
+    "thenSai": {
+      "description": "SDS ",
+      "unit": null,
+      "source": "ASCE7-22-15.7.6.2-T13",
+      "defined_in": "15.7.6.2"
+    },
+    "where hi": {
+      "description": "The height above the base to level i ;",
+      "unit": null,
+      "source": "ASCE7-22-18.7.2.2.3-T1",
+      "defined_in": "18.7.2.2.3"
+    },
+    "wherehi": {
+      "description": "The height above the base to level i ;",
+      "unit": null,
+      "source": "ASCE7-22-18.7.2.2.3-T1",
+      "defined_in": "18.7.2.2.3"
+    },
+    "where r f": {
+      "description": "Radius of the circular foundation;",
+      "unit": null,
+      "source": "ASCE7-22-19.3.4-T1",
+      "defined_in": "19.3.4"
+    },
+    "whererf": {
+      "description": "Radius of the circular foundation;",
+      "unit": null,
+      "source": "ASCE7-22-19.3.4-T1",
+      "defined_in": "19.3.4"
+    },
+    "where q": {
+      "description": "qzT For external pressure on all walls evaluated at height z above the ground, lb/ft 2 (N/m 2 );",
+      "unit": null,
+      "source": "ASCE7-22-32.17.2-T1",
+      "defined_in": "32.17.2"
+    },
+    "whereq": {
+      "description": "qz For windward walls evaluated at height z above the ground;",
+      "unit": null,
+      "source": "ASCE7-22-27.3.1-T1",
+      "defined_in": "27.3.1"
+    },
+    "where eQ": {
+      "description": "Eccentricity e as determined for rigid buildings in Figure 27.3-8; and",
+      "unit": null,
+      "source": "ASCE7-22-27.3.5-H2",
+      "defined_in": "27.3.5"
+    },
+    "whereeQ": {
+      "description": "Eccentricity e as determined for rigid buildings in Figure 27.3-8; and",
+      "unit": null,
+      "source": "ASCE7-22-27.3.5-H2",
+      "defined_in": "27.3.5"
+    },
+    "where qh": {
+      "description": "Velocity pressure evaluated at mean roof height h using the exposure as de fi ned in Section 26.7.3 that results in the highest wind loads for any wind direction at the site; and",
+      "unit": null,
+      "source": "ASCE7-22-30.5.2-T1",
+      "defined_in": "30.5.2"
+    },
+    "whereqh": {
+      "description": "Velocity pressure evaluated at mean roof height h , as de fi ned in Section 26.3;",
+      "unit": null,
+      "source": "ASCE7-22-28.3.1-T1",
+      "defined_in": "28.3.1"
+    },
+    "where pp": {
+      "description": "Combined net pressure on the parapet caused by the combination of the net pressures from the front and back parapet surfaces; plus (and minus) signs signify net pressure acting toward (and away from) the front (exterior) side of the parapet;",
+      "unit": null,
+      "source": "ASCE7-22-28.3.4-T1",
+      "defined_in": "28.3.4"
+    },
+    "wherepp": {
+      "description": "Combined net pressure on the parapet caused by the combination of the net pressures from the front and back parapet surfaces; plus (and minus) signs signify net pressure acting toward (and away from) the front (exterior) side of the parapet;",
+      "unit": null,
+      "source": "ASCE7-22-28.3.4-T1",
+      "defined_in": "28.3.4"
+    },
+    "where qz": {
+      "description": "Velocity pressure evaluated at height z , as de fi ned in Section 26.10, of the centroid of area Af ;",
+      "unit": null,
+      "source": "ASCE7-22-29.4-T1",
+      "defined_in": "29.4"
+    },
+    "whereqz": {
+      "description": "Velocity pressure evaluated at height z , as de fi ned in Section 26.10, of the centroid of area Af ;",
+      "unit": null,
+      "source": "ASCE7-22-29.4-T1",
+      "defined_in": "29.4"
+    },
+    "where ppT": {
+      "description": "Combined net tornado design pressure on the parapet caused by the combination of the net pressures from the front and back parapet surfaces, lb/ft 2 (N/m 2 ). Plus (and minus) signs signify net pressure acting toward (and away from) the front (exterior) side of the parapet;",
+      "unit": null,
+      "source": "ASCE7-22-32.15.4-T1",
+      "defined_in": "32.15.4"
+    },
+    "whereppT": {
+      "description": "Combined net tornado design pressure on the parapet caused by the combination of the net pressures from the front and back parapet surfaces, lb/ft 2 (N/m 2 ). Plus (and minus) signs signify net pressure acting toward (and away from) the front (exterior) side of the parapet;",
+      "unit": null,
+      "source": "ASCE7-22-32.15.4-T1",
+      "defined_in": "32.15.4"
+    },
+    "where qzT": {
+      "description": "Tornado velocity pressure from Section 32.10.2 evaluated at height z , as de fi ned in Section 26.10, of the centroid of area Af , lb/ft 2 (N/m 2 );",
+      "unit": null,
+      "source": "ASCE7-22-32.16.3-T1",
+      "defined_in": "32.16.3"
+    },
+    "whereqzT": {
+      "description": "Tornado velocity pressure from Section 32.10.2 evaluated at the centroid of area, As , of the wall or sign, lb/ft2 (N/m 2 );",
+      "unit": null,
+      "source": "ASCE7-22-32.16.2-T1",
+      "defined_in": "32.16.2"
+    },
+    "where qhT": {
+      "description": "Tornado velocity pressure from Section 32.10.2 evaluated at mean roof height h , lb/ft 2 (N/m 2 );",
+      "unit": null,
+      "source": "ASCE7-22-32.16.3.5-T1",
+      "defined_in": "32.16.3.5"
+    },
+    "whereqhT": {
+      "description": "Tornado velocity pressure from Section 32.10.2 evaluated at mean roof height h , lb/ft 2 (N/m 2 )",
+      "unit": null,
+      "source": "ASCE7-22-32.16.3.2-T1",
+      "defined_in": "32.16.3.2"
+    },
+    "where m": {
+      "description": "Value of the component demand modi fi cation factor de fi ned in ASCE 41 to account for expected ductility at the required structural performance level;",
+      "unit": null,
+      "source": "ASCE7-22-6.8.3.5.2.2-T2",
+      "defined_in": "6.8.3.5.2.2"
+    },
+    "wherem": {
+      "description": "Value of the component demand modi fi cation factor de fi ned in ASCE 41 to account for expected ductility at the required structural performance level;",
+      "unit": null,
+      "source": "ASCE7-22-6.8.3.5.2.2-T2",
+      "defined_in": "6.8.3.5.2.2"
     }
   }
 }

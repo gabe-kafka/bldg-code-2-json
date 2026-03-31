@@ -802,6 +802,13 @@ def _add_equations_page_level(elements, std_slug, standard, chapter, id_set, mak
                 for lig, rep in LIGATURES.items():
                     expression = expression.replace(lig, rep)
 
+                # Filter: if expression has no = sign and is mostly prose words,
+                # reclassify — it's a reference to the equation, not the equation
+                has_math = bool(re.search(r'[=<>≤≥+\-*/^√∑]', expression))
+                prose_words = len(re.findall(r'\b(shall|determined|using|accordance|permitted|including|satisfy)\b', expression.lower()))
+                if not has_math and prose_words >= 2:
+                    continue  # skip prose references
+
                 sec = eq_num.rsplit("-", 1)[0]
                 eid = make_id(sec, f"E{eq_num.replace('.', '-')}")
                 new.append({
