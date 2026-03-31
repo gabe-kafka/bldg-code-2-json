@@ -209,6 +209,42 @@ def _render_child(lines, kid):
     lines.append('</div>')
 
 
+ASCE7_CHAPTER_TITLES = {
+    1: "General",
+    2: "Combinations of Loads",
+    3: "Dead Loads, Soil Loads, and Hydrostatic Pressure",
+    4: "Live Loads",
+    5: "Flood Loads",
+    6: "Tsunami Loads and Effects",
+    7: "Snow Loads",
+    8: "Rain Loads",
+    9: "Reserved for Future Provisions",
+    10: "Ice Loads",
+    11: "Seismic Design Criteria",
+    12: "Seismic Design Requirements for Building Structures",
+    13: "Seismic Design Requirements for Nonstructural Components",
+    14: "Material-Specific Seismic Design and Detailing Requirements",
+    15: "Seismic Design Requirements for Nonbuilding Structures",
+    16: "Nonlinear Response History Analysis",
+    17: "Seismic Design Requirements for Seismically Isolated Structures",
+    18: "Seismic Design Requirements for Structures with Damping Systems",
+    19: "Soil–Structure Interaction for Seismic Design",
+    20: "Site Classification Procedure",
+    21: "Site-Specific Ground Motion Procedures",
+    22: "Seismic Ground Motion and Long-Period Transition Maps",
+    23: "Seismic Design Reference Documents",
+    24: "Reserved for Future Provisions",
+    25: "Reserved for Future Provisions",
+    26: "Wind Loads: General Requirements",
+    27: "Wind Loads on Buildings—MWFRS (Directional Procedure)",
+    28: "Wind Loads on Buildings—MWFRS (Envelope Procedure)",
+    29: "Wind Loads on Building Appurtenances and Other Structures—MWFRS",
+    30: "Wind Loads—Components and Cladding",
+    31: "Wind Tunnel Procedure",
+    32: "Wind Loads on Solar Panels",
+}
+
+
 def _generate_index(chapters):
     lines = ["""<!DOCTYPE html><html><head><meta charset="UTF-8">
 <title>ASCE 7-22 — All Chapters</title>
@@ -246,15 +282,7 @@ td a:hover{text-decoration:underline}
         for e in elements:
             types[e["type"]] += 1
 
-        # Get chapter title from first heading
-        title = ""
-        for e in elements:
-            if e["type"] == "heading":
-                title = e.get("title", "")
-                # Strip section number prefix
-                title = re.sub(r'^\d+\.\d+\s*', '', title)
-                if len(title) > 3:
-                    break
+        title = ASCE7_CHAPTER_TITLES.get(ch_num, f"Chapter {ch_num}")
 
         lines.append(f'<tr>')
         lines.append(f'<td><a href="digital-twin-ch{ch_num}.html"><b>{ch_num}</b></a></td>')
