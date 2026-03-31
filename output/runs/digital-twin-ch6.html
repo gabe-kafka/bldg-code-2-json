@@ -1,0 +1,1156 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8">
+<title>ASCE 7-22 Chapter 6 — Digital Twin</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#FFF;--s:#F5F5F5;--t:#1A1A1A;--m:#6B6B6B;--b:#D4D4D4;--sub:#E8E8E8;
+--g:#16A34A;--a:#0057FF;--r:#DC2626;--am:#D97706;--cy:#06B6D4;--purple:#8B5CF6}
+@media(prefers-color-scheme:dark){:root{--bg:#0A0A0A;--s:#141414;--t:#E5E5E5;--m:#808080;
+--b:#2A2A2A;--sub:#1A1A1A;--a:#3B82F6}}
+body{background:var(--bg);color:var(--t);font-family:'JetBrains Mono','SF Mono',monospace;
+font-size:11px;max-width:900px;margin:0 auto;padding:16px}
+h1{font-size:13px;text-transform:uppercase;letter-spacing:.1em;margin-bottom:2px}
+.sub{font-size:10px;color:var(--m);margin-bottom:12px}
+.nav{font-size:10px;color:var(--a);margin-bottom:16px}
+.nav a{color:var(--a);text-decoration:none}
+.nav a:hover{text-decoration:underline}
+.section{margin-bottom:12px}
+.sec-num{font-size:12px;font-weight:700;color:var(--t);margin-bottom:2px}
+.sec-0,.sec-1{margin-left:0}.sec-2{margin-left:16px}.sec-3{margin-left:32px}.sec-4{margin-left:48px}
+.child{margin:3px 0;padding:4px 8px;border-left:2px solid var(--sub);font-size:10px;line-height:1.5}
+.child.provision{border-color:var(--g);background:rgba(22,163,74,0.03)}
+.child.definition{border-color:var(--purple);background:rgba(139,92,246,0.03)}
+.child.formula{border-color:var(--a);background:rgba(59,130,246,0.03)}
+.child.table{border-color:var(--cy);background:rgba(6,182,212,0.03)}
+.child.figure{border-color:var(--am);background:rgba(217,119,6,0.03)}
+.child.exception{border-color:var(--r);background:rgba(220,38,38,0.03)}
+.child.user_note{border-color:var(--m);background:rgba(128,128,128,0.03)}
+.child.text_block{border-color:var(--sub)}
+.tag{display:inline-block;padding:0 3px;border:1px solid;font-size:7px;text-transform:uppercase;
+letter-spacing:.04em;margin-right:3px;vertical-align:middle}
+.tag-provision{border-color:var(--g);color:var(--g)}
+.tag-definition{border-color:var(--purple);color:var(--purple)}
+.tag-formula{border-color:var(--a);color:var(--a)}
+.tag-table{border-color:var(--cy);color:var(--cy)}
+.tag-figure{border-color:var(--am);color:var(--am)}
+.tag-exception{border-color:var(--r);color:var(--r)}
+.tag-user_note{border-color:var(--m);color:var(--m)}
+.tag-text_block{border-color:var(--sub);color:var(--m)}
+.meta{font-size:8px;color:var(--m)}
+.xref{font-size:8px;color:var(--a)}
+b{font-weight:600}
+table.tbl{width:100%;border-collapse:collapse;font-size:9px;margin:4px 0}
+table.tbl th{text-align:left;font-size:7px;text-transform:uppercase;color:var(--m);border-bottom:1px solid var(--b);padding:1px 4px}
+table.tbl td{padding:1px 4px;border-bottom:1px solid var(--sub)}
+</style></head><body>
+<h1>ASCE 7-22 Chapter 6 — Digital Twin</h1>
+<div class="sub">771 elements · 187 provisions · 65 definitions · 52 formulas · 6 tables</div>
+<div class="nav"><a href="digital-twin-index.html">← All Chapters</a></div>
+
+<div class="section sec-1">
+<div class="sec-num">6.1 GENERAL REQUIREMENTS</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">6.1.1 Scope</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">6.2 DEFINITIONS</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">6.3 SYMBOLS AND NOTATION</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+A beam = Vertical projected area of an individual beam element
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+A col = Vertical projected area of an individual column element
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Ad = Vertical projected area of obstructing debris accumulated on structure
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+A wall = Vertical projected area of an individual wall element
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+a 1 = Amplitude of the leading pulse (negative for a leading depression tsunami)
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+a 2 = Amplitude of the following, or second, pulse B = Overall building width b = Width subject to force
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Cbs = Force coef fi cient with breakaway slab
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Ccx = Proportion of closure coef fi cient
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Cd = Drag coef fi cient based on quasi-steady forces
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+C dis = Discharge coef fi cient for overtopping
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Co = Orientation coef fi cient (of debris)
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+c v = Coef fi cient of consolidation
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+c 2 V = Plunging scour coef fi cient D = Dead load Da = Diameter of rock armor Ds = Scour depth
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+dd = Additional drop in grade to the base of wall on the side of a seawall or freestanding retaining wall subject to plunging scour DT=Displacement Tonnage
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+DWT=Deadweight Tonnage of vessel E = Earthquake load
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Eg = Hydraulic head in the Energy Grade Line Analysis
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Emh = Horizontal Seismic Load Effect, including overstrength factor, de fi ned in Section 12.4.3.1
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Fd = Drag force on an element or component
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Fdx = Drag force on the building or structure at each level
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Fh = Unbalanced hydrostatic lateral force
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Fi = Debris impact design force
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Fni = Nominal maximum instantaneous debris impact force
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Fpw = Hydrodynamic force on a perforated wall Fv = Buoyancy force
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Fr = Froude number = u ∕ ffiffiffiffi ffi gh p F TSU = Tsunami load or effect Fw = Load on wall or pier
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+F Λ = Pore pressure softening vertical fl ux index
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Fw θ = Force on a wall oriented at an angle θ to the fl ow
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+f uw = Equivalent uniform lateral force per unit width
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+g = Acceleration caused by gravity
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+HB = Barrier height of a levee, seawall, or freestanding retaining wall
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+HO = Depth to which a barrier is overtopped above the barrier height
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+HT = Offshore Tsunami Amplitude determined from Figure 6.7-1
+<br><span class="xref">→ ASCE7-22-6.7-E6-7-11</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+H TSU = Load caused by tsunami-induced lateral earth pressure under submerged conditions
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+h = Tsunami inundation depth above grade plane at the structure
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+h draw = Difference between the maximum inundation depth, h max, and the residual water level after drawdown of the associated wave
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+he = Inundated height of an individual element hi = Inundation depth at point i
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+h max = Maximum inundation depth above grade plane at the structure ho = Offshore water depth
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+hr = Residual water height within a building
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+hs = Height of structural fl oor slab above grade plane at the structure
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+hss = Height of the bottom of the structural fl oor slab, taken above grade plane at the structure hsx = Story height of story x hw = Height of wall
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+I tsu = Importance Factor for tsunami forces to account for additional uncertainty in estimated parameters
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+I Λ = Pore pressure softening drawdown inertia index
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+k = Effective stiffness of the impacting debris or the lateral stiffness of the impacted structural element
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+k s = Fluid density factor to account for suspended soil and other smaller fl ow-embedded objects that are not considered in Section 6.11 L = Live load
+<br><span class="xref">→ ASCE7-22-6.11-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+L refuge = Public assembly live load effect in the tsunami refuge fl oor area
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+lw = Length of a structural wall
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+LWT=Lightship Weight of vessel
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+m = Component demand modi fi cation factor accounting for expected ductility, applied to the expected strength of a ductility-governed element action, to obtain the acceptable structural component capacity at a particular performance level when using a linear static analysis procedure
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+m contents = Mass of contents in a shipping container md = Mass of debris object
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+MCT=Maximum Considered Tsunami n = Manning &#x27; s coef fi cient
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Pu = Uplift pressure on slab or building horizontal element
+</div>
+<div class="meta">+41 more elements</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">6.4 TSUNAMI RISK CATEGORIES</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(a) Fire stations, ambulance facilities, and emergency vehicle garages;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(b) Earthquake or hurricane shelters;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(c) Emergency aircraft hangars; and
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(d) Police stations that do not have holding cells and that are not uniquely required for postdisaster emergency response as a Critical Facility.
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">6.5 ANALYSIS OF DESIGN INUNDATION DEPTH AND FLOW VELOCITY</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">6.5.1 Tsunami Risk Category II and III Buildings and Other</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Structures The Maximum Considered Tsunami inundation depth and tsunami fl ow velocity characteristics at a Tsunami Risk Category II or III building or other structure shall be determined by using the Energy Grade Line Analysis of Section 6.6 and the inundation limit and runup elevation of the Maximum Considered Tsunami given in Figure 6.1-1.
+<br><span class="xref">→ ASCE7-22-6.1-F6-1-11, ASCE7-22-6.6-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+where Φ is the mean slope angle of the Nearshore Pro fi le taken from the 328 ft (100 m) water depth to the Mean High Water elevation along the axis of the topographic transect for the site. HT is the Offshore Tsunami Amplitude, and T TSU is the wave period of the tsunami at 328 ft (100 m) water depth. HT and T TSU are given in Figure 6.7-1.
+<br><span class="xref">→ ASCE7-22-6.7-E6-7-11</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">6.5.2 Tsunami Risk Category IV Buildings and Other</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Structures The Energy Grade Line Analysis of Section 6.6 shall be performed for Tsunami Risk Category IV buildings and other structures, and the site-speci fi c Probabilistic Tsunami Hazard Analysis (PTHA) of Section 6.7 shall also be performed. Sitespeci fi c velocities determined by site-speci fi c PTHA determined to be less than the Energy Grade Line Analysis shall be subject to the limitation 
+<br><span class="xref">→ ASCE7-22-6.6-H1, ASCE7-22-6.7-H1, ASCE7-22-6.7.6.8-P1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">6.5.3 Sea Level Change</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The direct physical effects of potential relative sea level change shall be considered in determining the maximum inundation depth during the project lifecycle. A project lifecycle of not less than 50 years shall be used. The minimum rate of potential relative sea level change shall be the historically recorded sea level change rate for the site. The potential increase in relative sea level during
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">6.6 INUNDATION DEPTHS AND FLOW VELOCITIES BASED ON RUNUP</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+E g ; i = Hydraulic head at point i = hi þ u 2 i ∕ 2g = hi ð 1 þ 0.5 F 2 ri Þ ;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+hi = Inundation depth at point i ;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+ui = Maximum fl ow velocity at point i ;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Fri = Froude number = u ∕ ð gh Þ 1 ∕ 2 at point i ;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+φ i = Average ground slope between points i and i -1;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+xi = Horizontal distance inland from the Mean High Water (MHW) shoreline at point i ; and
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+s i = Friction slope of the energy grade line between points i and i -1, is calculated per Equation (6.6-2). Incident Energy=E. Mean High Water (MHW) Energy Grade Line Water Level u; 7/2g S; 4x;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Note: R is the design tsunami runup elevation above MHW datum; xR is the design inundation distance inland from MHW shoreline; and zi is the ground elevation above MHW datum at point i .
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Table 6.6-1. Manning &#x27; s Roughness, n , for Energy Grade Line Analysis.
+<br><span class="xref">→ ASCE7-22-6.6-E6-6-11</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+As a fi nal step in the analysis, apply the minimum fl ow velocity required by Section 6.6.1 where necessary. The resulting values at the site are used as the maximum inundation depth, h max, and the maximum velocity, u max.
+<br><span class="xref">→ ASCE7-22-6.6.1-H1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">6.6.1 Maximum Inundation Depth and Flow Velocities</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Based on Runup The maximum inundation depths and fl ow velocities associated with the stages of tsunami fl ooding shall be determined in accordance with Section 6.6.2. Calculated fl ow velocity shall not be taken as less than 10 ft/s (3.0 m/s) and need not be taken as greater than the lesser of 1.5 ð gh max Þ 1 ∕ 2 and 50 ft/s (15.2 m/s).
+<br><span class="xref">→ ASCE7-22-6.6.2-P1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+maximum topographic elevation along the topographic transect.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">6.6.3 Terrain Roughness</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+It shall be permitted to perform inundation analysis assuming bare-earth conditions with equivalent macroroughness. Bed roughness shall be prescribed using the Manning &#x27; s coef fi cient n . It shall be permitted to use the values listed in Table 6.6-1 or other values based on terrain analysis in the recognized literature or as speci fi cally validated for the inundation model used.
+<br><span class="xref">→ ASCE7-22-6.6-E6-6-11</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">6.6.4 Tsunami Bores</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Tsunami bores shall be considered where any of the following conditions exist:
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The prevailing nearshore bathymetric slope is 1/100 or milder,
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Shallow fringing reefs or other similar step discontinuities in nearshore bathymetric slope occur,
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Where historically documented,
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+As described in the recognized literature, or
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+As determined by a site-speci fi c inundation analysis.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">6.6.5 Ampli</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+fi ed Flow Velocities Flow velocities determined in this section shall be adjusted for fl ow ampli fi cation in accordance with Section 6.8.5 as applicable. The adjusted value need not exceed the maximum limit speci fi ed in Section 6.6.1.
+<br><span class="xref">→ ASCE7-22-6.6.1-H1, ASCE7-22-6.8.5-H1</span>
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">6.7 INUNDATION DEPTHS AND FLOW VELOCITIES BASED ON SITE-SPECIFIC PROBABILISTIC TSUNAMI HAZARD ANALYSIS</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">6.7.1 Tsunami Waveform</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The tsunami waveform used along the offshore boundary of 328 ft (100 m) bathymetry shall be constructed in accordance with Equation (6.7-1), as illustrated in Figure 6.7-2. 152° E 156° E 160° E 164° E 62° N 0.8 0.7 0.6 0.5 0.4 0.1 -0.1 -0.2 -0.3 -0.4 -180° -0.5 -0.6 -0.7
+<br><span class="xref">→ ASCE7-22-6.7-F6-7-21</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Tsunami Waveform Amplitude / Offshore Tsunami Amplitude (n / H_) -0.8 58° N 22° N 21° N 20° N 19° N -176° W 0.1 -160° W 172&#x27; E -180°
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+-172&#x27; W -164&quot; W -156° W -148* W -140&quot; W -132&quot;W -124&quot; w Crest amplitude, -131° W
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+-152° W -148° W -144°W -140° W -136° W 22° N 20° N 19° N -159° W -158° W (c) -157 W -156° -131° W -129° W -127° W -125° W Copyright:© 2014 Esri -117° W -115° W -123° W (b) -121° W -119° W a,/ H, 0.2 0.3l 0.4 0.5 0.6 0.7 | 0.8 0.9 Wave Period, TTsu Trough amplitude, a2/ H, 1.1 1.2 1.3 1.4 1.5 1.6| 1.7 : 1.8
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Time / Tsunami Period (t / Trsu) 1.9 2.1 2.2 2.3 2.4 2.5 2.6 2.7 2.8l 2.9
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Note : The ASCE Tsunami Design Geodatabase of geocoded points of Offshore Tsunami Amplitude, HT ,[at 328 ft (100 m)] depth, and predominant period, T TSU , of the Maximum Considered Tsunami is available at http://asce7tsunami.online.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+η = Free surface elevation (ft or m) as a function of time, t , used to drive the offshore boundary condition at the 328 ft (100 m) depth contour;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+N = Number of individual waves (peak and trough pairs) to be included in the tsunami waveform;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+a 1 = Amplitude of the leading pulse (in ft or m) -it is negative for a leading depression tsunami;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+a 2 = Amplitude of the following, or second, pulse (in ft or m);
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+T TSU = Wave period, or the time from the start of the fi rst pulse to the end of the second pulse;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+ω = Angular frequency of the waveform, equal to 2 π / TTSU ; and
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+t o = Offset time of the wave train, generally set equal to TTSU .
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">6.7.2 Tsunamigenic Sources</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Tsunami sources shall consider the following to the extent that probabilistic hazards are documented in the recognized literature:
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Table 6.7-2. Maximum Moment Magnitude.
+<br><span class="xref">→ ASCE7-22-6.7-F6-7-21</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Mariana Islands), and Oregon and Washington: (Cascadia, Alaska, Kamchatka-Kuril).
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Local, non-subduction-zone seismic fault sources capable of moment magnitude of 7 or greater, including offshore and/or submarine fault sources that are tsunamigenic.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Local coastal and submarine landslide sources documented in the recognized literature as being tsunamigenic of similar runup, as determined by historical evidence or having estimated probabilities within an order of magnitude of the principal seismic fault sources.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">6.7.3 Earthquake Rupture Unit Source Tsunami Functions</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+for Offshore Tsunami Amplitude The tsunami modeling algorithm shall be based on earthquake rupture slip distributions for tsunami events, which shall be permitted to be represented by a linear combination of unit source functions using a precomputed database of tsunami Green &#x27; s source functions.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Table 6.7-1. Regional Waveform Parameters.
+<br><span class="xref">→ ASCE7-22-6.7-E6-7-11</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">6.7.4 Treatment of Modeling and Natural Uncertainties</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+A statistically weighted logic tree approach shall be used to account for epistemic uncertainties in the model parameters and shall provide a sample of tsunamigenic earthquakes and their occurrence probabilities from tectonic, geodetic, historical, and paleotsunami data, and estimated plate convergence rates, as follows:
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Subdivide the occurrence probability systematically to account for variations in the parameters of magnitude, fault depth and geometry, and location, slip distribution, and rupture extent of events consistent with maximum magnitudes, and tidal variation considering at least the Reference Sea Level.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+To the extent practical and quanti fi able, follow a similar logic tree approach to determine samples of tsunami sources such as nonsubduction zone earthquakes, landslides, and volcanic eruptions.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">6.7.5 Offshore Tsunami Amplitude</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The probabilistic analysis shall be performed either by direct computation according to Section 6.7.5.2 or by performing a Probabilistic Tsunami Hazard Analysis for a region of interest to produce site-speci fi c Offshore Tsunami Amplitude hazard maps and predominant wave period at 328 ft (100 m) depth in accordance with the following:
+<br><span class="xref">→ ASCE7-22-6.7.5.2-P1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The computed offshore wave amplitudes comply with the requirements of Section 6.7.5.1, or the model with the
+<br><span class="xref">→ ASCE7-22-6.7.5.1-P1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+higher-order features complies with all of the following requirements:
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(a) Sections 6.7.5.1.1 through 6.7.5.1.4,
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(b) The mean value of the computed offshore tsunami amplitudes is at least 85% of the mean value for the coinciding offshore tsunami amplitude data of the ASCE Tsunami Design Geodatabase,
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(c) The values of computed offshore tsunami wave amplitude are not less than 75% of the coinciding offshore tsunami amplitude values of the ASCE Tsunami Design Geodatabase.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">The analysis shall include the disaggregation of the seismic sources and associated moment magnitudes that together contribute at least 90% to the net offshore tsunami hazard at the site under consideration.</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">6.7.6 Procedures for Determining Tsunami Inundation and Runup</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Alaska: probabilistic subsidence (in feet) associated with the Maximum Considered Tsunami 60° -170° 235° 60° 55° -160° -155°| -150°| -145° (a) Alaska
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Cascadia: probabilistic subsidence (in feet) associated
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+with the Maximum Considered Tsunami 238 239° 235&#x27; 236° 237°
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(b) Washington, Oregon, and Northern California 238° 239° 236* 237°
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Note : The GIS digital map layers of subsidence are available from the ASCE Tsunami Design Geodatabase at http://asce7tsunami.online. -165° -150 -145
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Determining the probabilistic distributions of fl ow parameters from the sample of computed tsunamis and their occurrence probabilities and reconstructing statistical distributions of fl ow parameters of inundation depth, velocity, and speci fi c momentum fl ux at the site from the computed scenarios for at least three load cases, as indicated in Section 6.8.10.
+<br><span class="xref">→ ASCE7-22-6.8.10-H1</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">6.7.6.1 Representative Design Inundation Parameters</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Each disaggregated tsunami event shall be analyzed to determine representative design parameters consisting of maxima of runup, inundation depth, fl ow velocity, and momentum fl ux.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">6.7.6.2 Seismic Subsidence before Tsunami Arrival</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Where the seismic source is a local subduction event, the Maximum Considered Tsunami inundation shall be determined for an overall elevation subsidence value shown in Figure 6.7-3(a) and 6.7-3(b) or shall be directly computed for the seismic source mechanism. The GIS digital map layers of subsidence are available in the ASCE Tsunami Design Geodatabase at http:// asce7tsunami.online.
+<br><span class="xref">→ ASCE7-22-6.7-F6-7-31</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">6.7.6.3 Model Macroroughness Parameter</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+It shall be permitted to perform inundation mapping under bare-earth conditions with macroroughness. Bed roughness shall be permitted to be prescribed using the Manning &#x27; s coef fi cient, n . Unless otherwise determined for the site, a default value of 0.025 or 0.030 shall be used for the ocean bottom and on land. Use of other values based on terrain analysis shall be justi fi ed in the recognized
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">6.7.6.4 Nonlinear Modeling of Inundation</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Nonlinear shallow water wave equations or equivalent modeling techniques shall be used to transform the offshore wave amplitude from 328 ft (100 m) depth toward the shore to its nearshore tsunami amplitude and maximum inundation. The following effects shall be included as applicable to the bathymetry:
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Shoaling, refraction, and diffraction to determine nearshore tsunami amplitude;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Dispersion effects in the case of short-wavelength sources, such as landslides and volcanic sources; Re fl ected waves; Channeling in bays;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Edge waves, and shelf and bay resonances;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Bore formation and propagation; and
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Harbor and port breakwaters and levees.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">6.7.6.5 Model Spatial Resolution</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+A Digital Elevation Model (DEM) for the nearshore bathymetry depth of less than 656 ft (200 m) shall have a resolution not coarser than 295 ft (90 m). At bathymetric depths of less than 32.8 ft (10 m) and on land, the DEM shall have a resolution not coarser than the highest resolution available from the Tsunami Inundation Digital Elevation Models of the NOAA National Geophysical Data Center (NGDC)
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">6.7.6.7 Inundation Model Validation</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">6.8 STRUCTURAL DESIGN PROCEDURES FOR TSUNAMI EFFECTS</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">6.8.1 Performance of Tsunami Risk Category II and III</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Buildings and Other Structures Structural components, connections, and foundations of Risk Category II buildings and Risk Category III buildings and other structures shall be designed to meet Collapse Prevention Structural Performance criteria or better.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">6.8.2 Performance of Tsunami Risk Category III Critical</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Facilities and Tsunami Risk Category IV Buildings and Other Structures Tsunami Risk Category III Critical
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">6.8.3 Structural</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Performance Evaluation Strength and stability shall be evaluated to determine that the design of the structure is capable of resisting the tsunami at the Load Cases de fi ned in Section 6.8.3.1. The structural acceptance criteria for this evaluation shall be in accordance with either Section 6.8.3.4 or 6.8.3.5.
+<br><span class="xref">→ ASCE7-22-6.8.3.1-H1, ASCE7-22-6.8.3.4-P1</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">6.8.3.1 Load Cases</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+As a minimum, the following three inundation load cases shall be evaluated.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">6.8.3.2 Tsunami Importance Factors</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The Tsunami Importance Factors, I tsu , given in Table 6.8-1 shall be applied to the tsunami hydrodynamic and impact loads in Sections 6.10 and 6.11, respectively.
+<br><span class="xref">→ ASCE7-22-6.8-F6-8-11</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">where</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Normalized Inundation Depth vs. Normalized Time Load Case 3 Load Case 2 -1.1 -1.0 -0.9 -0.8 -0.7 -0.6 -0.5 -0.4 -0.3 -0.2 -0.1 0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0 1.1 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 u/u max t / (T TSU
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Normalized Flow Velocity vs. Normalized Time (a) (b)
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Table 6.8-1. Tsunami Importance Fctors for Hydrodynamic and Impact Loads.
+<br><span class="xref">→ ASCE7-22-6.8-F6-8-11</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+F TSU = Tsunami load effect for incoming and receding directions of fl ow, and
+</div>
+</div>
+<div class="section sec-4">
+<div class="sec-num">6.8.3.5.2 Alternative Performance-Based Criteria</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+where QCS is the speci fi ed strength of the structural element and QUF is the maximum force generated in the element because of gravity and tsunami loading.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+where m = Value of the component demand modi fi cation factor de fi ned in ASCE 41 to account for expected ductility at the required structural performance level;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+QCE = Expected strength of the structural element determined in accordance with ASCE 41; and
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+QUD = Ductility-governed force caused by tsunami loading.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">6.8.4 Minimum Fluid Density for Tsunami Loads</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Seawater speci fi c weight density, γ s w , shall be taken as 64.0 lb/ft 3 (10 kN/ m 3 ). Seawater mass density, ρ sw , shall be taken as 2.0 sl/ft 3 (1,025 kg/m 3 ). The minimum fl uid speci fi c weight density, γ s , for determining tsunami hydrostatic loads accounting for suspended solids and debris fl ow-embedded smaller objects shall be
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">6.8.5 Flow Velocity Ampli</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+fi cation The effect of upstream obstructing buildings and structures shall be permitted to be considered at a site that is exposed to the fl ow diffracting conditions given in Section 6.8.5.1 by any of the following:
+<br><span class="xref">→ ASCE7-22-6.8.5.1-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+A site-speci fi c inundation analysis that includes modeling of the built environment in accordance with Section 6.7.6.6, or
+<br><span class="xref">→ ASCE7-22-6.7.6.6-P1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The built environment is considered in the selection of Manning &#x27; s roughness of Table 6.6-1 in accordance with the Energy Grade Line Analysis of Section 6.6.2, or
+<br><span class="xref">→ ASCE7-22-6.6-E6-6-11, ASCE7-22-6.6.2-P1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Site-speci fi c physical or numerical modeling in accordance with Section 6.8.5.2 or Section 6.8.10, as applicable.
+<br><span class="xref">→ ASCE7-22-6.8.10-H1, ASCE7-22-6.8.5.2-H1</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">6.8.5.1 Upstream</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Obstructing Structures The effect of upstream obstructions on fl ow shall be considered where the obstructions are enclosed structures of concrete, masonry, or structural steel construction located within 500 ft (152 m) of the site, and both of the following apply:
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Structures have plan width greater than 100 ft (30.5 m) or 50% of the width of the downstream structure, whichever is greater; and
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The structures exist within the sector between 10 and 55 degrees to either side of the fl ow vector aligned with the center third of the width of the downstream structure.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">6.8.5.2 Flow Velocity Ampli</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+fi cation by Physical or Numerical Modeling The effect of upstream structures on the fl ow velocity at a downstream site shall be permitted to be evaluated using sitespeci fi c numerical or physical modeling, as described in Section 6.7.6.6 or 6.8.10. The velocity determined for a &#x27; bare-earth &#x27; inundation shall be ampli fi ed for the conditions of Section 6.8.5.1. This analysis is not permitted t
+<br><span class="xref">→ ASCE7-22-6.13-H1, ASCE7-22-6.7.6.6-P1, ASCE7-22-6.8.5.1-H1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">6.8.6 Directionality of Flow</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">6.8.6.1 Flow Direction</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Design of structures for tsunami loads and effects shall consider both incoming and outgoing fl ow conditions. The principal in fl ow direction shall be assumed to vary by  22.5 degrees from the transect perpendicular to the orientation of the shoreline averaged over 500 ft (152 m) to either side of the site. The center of rotation of the variation of transects shall be located at the geometric c
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">6.8.7 Minimum Closure Ratio for Load Determination</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Loads on buildings shall be calculated assuming a minimum closure ratio of 70% of the inundated projected area along the perimeter of the structure, unless it is an Open Structure as de fi ned in Section 6.2. The load effect of debris accumulation against or within the Open Structure shall be considered by using a minimum closure ratio of 50% of the Inundated Projected Area along the perimeter of 
+<br><span class="xref">→ ASCE7-22-6.2-H1, ASCE7-22-6.8.3.1-H1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">6.8.8 Minimum Number of Tsunami Flow Cycles</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Design shall consider a minimum of two tsunami in fl ow and out fl ow cycles, the fi rst of which shall be based on an inundation depth at 80% of the Maximum Considered Tsunami (MCT), and the second of which shall be assumed to occur with the MCT inundation depth at the site. Local scour effects caused by the fi rst cycle, and determined in accordance with Section 6.12, shall be assumed to occur a
+<br><span class="xref">→ ASCE7-22-6.12-H1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">6.8.9 Seismic Effects on the Foundations Preceding Local</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Subduction Zone Maximum Considered Tsunami Where designated in Figure 6.7-3 as a site subject to a local subduction zone tsunami from an offshore subduction earthquake, the structure shall be designed for the preceding coseismic effects. The foundation of the structure shall be designed to resist the preceding earthquake ground motion and its associated effects per Chapter 11 of this standard usin
+<br><span class="xref">→ ASCE7-22-6.12-H1, ASCE7-22-6.7-F6-7-31</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">6.8.10 Physical Modeling of Tsunami Flow, Loads, and</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Effects Physical modeling of tsunami loads and effects shall be permitted as an alternative to the prescriptive procedures in Sections 6.8.5 ( fl ow velocity ampli fi cation), 6.10 (hydrodynamic loads), 6.11 (debris impact loads), and 6.12 (foundation design), provided that it meets all the following criteria.
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">6.9 HYDROSTATIC LOADS</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">6.9.1 Buoyancy</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Reduced net weight caused by buoyancy shall be evaluated for all inundated structural and designated nonstructural elements of the building in accordance with Equation (6.9-1).
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Table 6.8-2. Minimum Scale Factors for Physical Modeling.
+<br><span class="xref">→ ASCE7-22-6.8-E6-8-21</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">6.9.3 Residual Water</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Surcharge Load on Floors and Walls All horizontal fl oors below the maximum inundation depth shall be designed for dead load plus a residual water surcharge pressure, pr , given by Equation (6.9-4).
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">6.9.4 Hydrostatic</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Surcharge Pressure on Foundation Hydrostatic surcharge pressure caused by tsunami inundation shall be calculated as
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">6.10</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">6.10.1 Simpli</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+fi ed Equivalent Uniform Lateral Static Pressure It shall be permitted to account for the combination of any unbalanced lateral hydrostatic and hydrodynamic loads by applying an equivalent maximum uniform pressure, puw , determined in accordance with Equation (6.10-1), applied over 1.3 times the calculated maximum inundation depth, h max , at the site, in each direction of fl ow.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">6.10.2 Detailed Hydrodynamic Lateral Forces</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+where Cd is the drag coef fi cient for the building as given in Table 6.10-1, and where Ccx is determined as
+<br><span class="xref">→ ASCE7-22-6.10-E6-10-11</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Cr = Pipe resistance coef fi cient as given in Table 6.10-3 or Figure 6.10-1;
+<br><span class="xref">→ ASCE7-22-6.10-E6-10-11, ASCE7-22-6.10-E6-10-31</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+ρ s = Minimum fl uid mass density for design hydrodynamic loads; I tsu = Importance Factor;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Dp = Pipe diameter; and u = Tsunami fl ow velocity.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Table 6.10-3. Pipe Resistance Coefficient, Cr .
+<br><span class="xref">→ ASCE7-22-6.10-E6-10-31</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Table 6.10-4. Upward Lift Coefficient, C þ l , for Pipelines. 0.5 0.5 1.5 2.5 1.5 2.5
+<br><span class="xref">→ ASCE7-22-6.10-E6-10-41</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+C þ l = Upward lift coef fi cient as given in Table 6.10-4 or in Figure 6.10-2,
+<br><span class="xref">→ ASCE7-22-6.10-E6-10-21, ASCE7-22-6.10-E6-10-41</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+ρ s = Minimum fl uid mass density for design hydrodynamic loads, I tsu = Importance Factor,
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Dp = Pipe diameter, and u = Tsunami fl ow velocity.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+C -l = Downward lift coef fi cient as given in Table 6.10-5 or in Figure 6.10-3,
+<br><span class="xref">→ ASCE7-22-6.10-E6-10-31</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">6.10.2.2 Drag</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Force on Components The lateral hydrodynamic load given by Equation (6.10-4) shall be applied as a pressure resultant on the projected inundated height, he , of all structural components and exterior wall assemblies below the inundation depth:
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Table 6.10-1. Drag Coefficients for Rectilinear Structures.
+<br><span class="xref">→ ASCE7-22-6.10-E6-10-11</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Table 6.10-2. Drag Coefficients for Structural Components.
+<br><span class="xref">→ ASCE7-22-6.10-E6-10-21</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">6.10.2.4 Hydrodynamic Load on Perforated Walls, Fpw For walls with openings that allow fl ow to pass between wall piers, the force on the elements of the perforated wall, Fpw , shall be permitted to be determined using Equation (6.10-6), but shall not be less than Fd per Equation (6.10-4).</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+where θ is the included angle between the wall and the direction of the fl ow.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">6.10.3 Hydrodynamic Pressures Associated with Slabs</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+u = Horizontal fl ow velocity corresponding to a water depth equal to or greater than hss , the elevation of the sof fi t of the fl oor system; and
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+φ = Average slope of grade plane beneath the slab.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">6.10.3.1 Flow Stagnation Pressure</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The walls and slabs of spaces in buildings that are subject to fl ow stagnation
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Table 6.10-5. Downward Lift Coefficient, C -l , for Pipelines.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+where u is the maximum free fl ow velocity at that location and load case.
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">6.11 DEBRIS IMPACT LOADS</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Garages: vehicle debris impact per Section 6.11.3.
+<br><span class="xref">→ ASCE7-22-6.11.3-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Open Structures with slab-on-grade at ground level: submerged tumbling boulder and concrete debris impact per Section 6.11.4, except where the slab-on-grade is explicitly designed per Section 6.12.4.2.
+<br><span class="xref">→ ASCE7-22-6.11.4-H1, ASCE7-22-6.12.4.2-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Buildings and other structures in which the slab-on-grade at ground level has isolation joints designed to reduce buoyancy effects: submerged tumbling boulder and concrete debris impact per Section 6.11.4.
+<br><span class="xref">→ ASCE7-22-6.11.4-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+For loaded shipping containers the duration of the pulse is determined from Equation (6.11-5):
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Debris grounding limit line as given by conditions 6.11.5.a or 6.11.5.b Structural Steel, Reinforced Masonry Wall Structures Concrete, or Reinforced
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">Co = Orientation coef fi cient, equal to 0.65 for logs and poles;</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+I tsu = Importance Factor (given in Table 6.8-1);
+<br><span class="xref">→ ASCE7-22-6.8-F6-8-11</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+u max = Maximum fl ow velocity at the site occurring at depths suf fi cient to fl oat the debris;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+k = Effective stiffness of the impacting debris or the lateral stiffness of the impacted structural element(s) deformed by the impact, whichever is less; and
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+md = Mass ( Wd / g ) of the debris.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Table 6.11-1. Dynamic Response Ratio for Impulsive Loads, R max.
+<br><span class="xref">→ ASCE7-22-6.11-E6-11-11</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">6.11.2 Wood</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Logs and Poles The nominal maximum instantaneous debris impact force, Fni , shall be determined in accordance with Equation (6.11-2).
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">6.11.3 Impact by Vehicles</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+An impact of fl oating vehicles shall be applied to vertical structural element(s) at any point greater than 3 ft (0.914 m) above grade up to the maximum depth. The impact force shall be taken as 30 kip (130 kN) multiplied by I tsu .
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">6.11.4 Impact</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+by Submerged Tumbling Boulder and Concrete Debris Where the maximum inundation depth exceeds 6 ft (1.83 m), an impact force of 8,000 lb (36 kN) multiplied by I tsu shall be applied to vertical structural element(s) at 2 ft (0.61 m) above grade.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">6.11.5 Site Hazard Assessment for Shipping Containers,</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Ships, and Barges Shipping containers and ships or barges dispersed from container yards, ports, and harbors shall be evaluated as potential debris impact objects. In such cases, a probable dispersion region shall be identi fi ed for each source to determine if the structure is located within a debris impact hazard region, as de fi ned by the procedure in this section. If the structure is within t
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Table 6.11-2. Weight and Stiffness of Shipping Container Waterborne Floating Debris.
+<br><span class="xref">→ ASCE7-22-6.11-E6-11-21</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+period of an equivalent column with width equal to one-half of the vertical span of the wall.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">6.11.5.1 Debris Impact Hazard Region</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The debris impact hazard region shall be determined in accordance with this section. The geographic center of the debris source shall be identi fi ed, together with the primary fl ow direction, as de fi ned in Section 6.8.6.1. A line shall be drawn through the source center and perpendicular to the primary fl ow direction with a length equal to the projected width of the debris source. From the en
+<br><span class="xref">→ ASCE7-22-6.11-E6-11-11, ASCE7-22-6.8.6.1-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(a) Where the maximum inundation depth is less than 3 ft (0.914 m), or in the case of ships, where the inundation depth is less than the ballasted draft plus 2 ft (0.61 m).
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(b) Where structural steel, reinforced concrete, or reinforced solid grouted masonry wall structures act as effective barriers to debris transport. To be considered an effective Inflow Region Projected Width Direction
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">6.11.7 Extraordinary Debris Impacts</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Where the maximum inundation depth exceeds 12 ft (3.66 m), extraordinary debris impacts of the largest deadweight tonnage vessel with ballasted draft less than the inundation depth within the debris hazard region of piers and wharves de fi ned in Section 6.11.5 shall be assumed to impact the perimeter of Tsunami Risk Category III Critical Facilities and Tsunami Risk Category IV buildings and struc
+<br><span class="xref">→ ASCE7-22-6.11.5-H1, ASCE7-22-6.11.8-H1, ASCE7-22-6.8.3.5.3-P1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">6.11.8 Alternative Methods of Response Analysis</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Adynamic analysis is permitted to be used to determine the structural response to the force applied as a rectangular pulse of duration time, t d , with the magnitude calculated in accordance with Equation (6.11-3). If the impact is large enough to cause inelastic behavior in the structure, it shall be permitted to use an equivalent single degree of freedom mass-spring system with a nonlinear stiff
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">6.12</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">6.12.1 Resistance</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Factors for Foundation Stability Analyses The resistance factor of φ shall be assigned a value of 0.67 applied to the resisting capacities for use with stability analyses and for potential failures associated with bearing capacity, lateral pressure, internal stability of geotextile and reinforced earth systems, and slope stability, including drawdown conditions. A resistance factor of 0.67 shall a
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">6.12.2 Load and Effect Characterization</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Foundations and tsunami barriers shall be designed to accommodate the effects of lateral earth pressure in accordance with Section 3.2, hydrostatic forces computed in accordance with Section 6.9, hydrodynamic loads computed in accordance with Section 6.10, and uplift and underseepage forces computed in accordance with Section 6.12.2.1. Foundations shall provide the capacity to withstand uplift and
+<br><span class="xref">→ ASCE7-22-6.10-H1, ASCE7-22-6.12.2.1-H1, ASCE7-22-6.9-H1</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">6.12.2.1 Uplift and Underseepage Forces</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Tsunami uplift and underseepage forces shall be evaluated as described in this section.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(a) The soil is expected to be saturated before the tsunami, or
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(b) Soil saturation is anticipated to occur over the course of the incoming series of tsunami waves, or
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(c) The area of concern is expected to remain inundated after the tsunami.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">6.12.2.2 Loss of Strength</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">6.12.2.4 Scour</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The depth and extent of scour adjacent to foundation elements shall be evaluated using the methods of Sections 6.12.2.4.1 and 6.12.2.4.2. Analysis of scour shall take into account tsunami fl ow cycles as described in Section 6.8.8 and loss of strength as described in Section 6.12.2.2.
+<br><span class="xref">→ ASCE7-22-6.12.2.2-H1, ASCE7-22-6.8.8-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Pore water pressure softening shall 60 -+- 1, =3000 f * 1,=8000 #2 ° 1=5000 ft A 1,=12000 ft* --°-- &#x27;,=16000 #2 10 20 - 10 20 10
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Pore water pressure softening need
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+not be considered when A &lt; 0.5 60 80 100 120 140
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Square root of pore pressure softening drawdown inertia index, Ts (ft) 160 180 20 60 70 80
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(a) Dynamic numerical or physical modeling or empirical methods in the recognized literature.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Table 6.12-2. Design Scour Depth Caused by Sustained Flow and Pore Pressure Softening.
+<br><span class="xref">→ ASCE7-22-6.12-E6-12-21</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+*Not applicable to scour at sites with intact rock strata.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Table 6.12-3. Vertical Extent of Pile Scour to Projected Element Width Ratio, Ds / b . 0.00 Scour Depth (ft) 14 12 10 10 20 Flow Depth (ft) 60 0.20 0.40 0.60 0.80 1.00 Froude number, Fr 1.20
+<br><span class="xref">→ ASCE7-22-6.12-E6-12-31</span>
+</div>
+</div>
+<div class="section sec-4">
+<div class="sec-num">U = Jet velocity approaching the scour hole, obtained in accordance with Equation (6.12-7).</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+c 2 V = Dimensionless scour coef fi cient, permitted to be taken as equal to 2.8;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+ψ = Angle between the jet at the scour hole and the horizontal, taken as the lesser value of 75 degrees and the side slope of the overtopped structure on the scoured side, in the absence of other information; HB
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+g = Acceleration caused by gravity;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+q = Discharge per unit width over the overtopped structure, as illustrated in Figure 6.12-6 and calculated in accordance with Equation (6.12-5); and
+<br><span class="xref">→ ASCE7-22-6.12-F6-12-61</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+where Cdis is a dimensionless discharge coef fi cient obtained in accordance with Equation (6.12-3):
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+U is the jet velocity approaching the scour hole, resulting from the drop between the height h of the upstream water surface, plus any additional elevation difference dd on the scouring side, in accordance with Equation (6.12-7):
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+where dd is the additional elevation difference between the upstream and scouring sides of the structure, as illustrated in Figure 6.12-3.
+<br><span class="xref">→ ASCE7-22-6.12-E6-12-31</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">6.12.2.6 Displacements</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Vertical and horizontal displacements of foundation elements and slope displacements shall be determined using empirical or elastoplastic analytical or numerical methods in the recognized literature by applying tsunami loads determined in Section 6.12.2 together with other applicable geotechnical and foundation loads required by this standard.
+<br><span class="xref">→ ASCE7-22-6.12.2-H1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">6.12.3 Alternative Foundation Performance-Based Design</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Criteria In situ soil stresses from tsunami loads and effects shall be included in the calculation of foundation pressures. For local coseismic tsunami hazards that occur as a result of a local earthquake, the in situ soil and site surface condition at the onset of tsunami loads shall be those existing at the end of seismic shaking, including liquefaction, lateral spread, and fault rupture effects
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">6.12.4 Foundation Countermeasures</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Fill, protective slab on grade, geotextiles and reinforced earth systems, facing systems, and ground improvement shall be permitted to reduce the effects of tsunamis.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Geotextile tubes constructed of high-strength fabrics capable of achieving full tensile strength without constricting deformations when subject to the design tsunami loads and effects;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Geogrid earth and slope reinforcement systems that include adequate protection against general erosion and scour, and a maximum lift thickness of 1 ft (0.3 m) and facing protection; and
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Geocell earth and slope reinforcement erosion protection system designs, including an analysis to determine anticipated performance against general erosion and scour if no facing is used.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The minimum elevation of the lowest occupiable Refuge Level
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+is one story higher, but not less than 10 ft above the - The Greater of 1-Story Height or 10 ft
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Geotextile fi lter layers, including primary fi lter protection of countermeasures using a composite grid assuming high contact stresses and high-energy wave action design criteria in AASHTO M288-06, including soil retention, permeability, clogging resistance, and survivability.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Concrete facing provided in accordance with protective slab-on-grade countermeasures in Section 6.12.4.2 and containing adequate anchorage to the reinforced earth system under design inundation fl ows.
+<br><span class="xref">→ ASCE7-22-6.12.4.2-H1</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">6.12.4.1 Fill</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Fill used for structural support and protection shall be placed in accordance with ASCE 24, Sections 1.5.4 and 2.4.1. Structural fi ll shall be designed to be stable during inundation and to resist the loads and effects speci fi ed in Section 6.12.2.
+<br><span class="xref">→ ASCE7-22-6.12.2-H1</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">6.12.4.2 Protective Slab on Grade</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Exterior slabs on grade shall be assumed to be uplifted and displaced during the Maximum Considered Tsunami unless determined otherwise by sitespeci fi c design analysis based upon recognized literature. Protective slabs on grade used as a countermeasure shall at a minimum have the strength necessary to resist the following loads:
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Shear forces from sustained fl ow at maximum tsunami fl ow velocity, u max , over the slab on grade;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Uplift pressures from fl ow acceleration at upstream and downstream slab edges for both in fl ow and return fl ow;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Seepage fl ow gradients under the slab if the potential exists for soil saturation during successive tsunami waves;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Pressure fl uctuations over slab sections and at joints;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Pore pressure increases from liquefaction and from the passage of several tsunami waves; and
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Erosion of substrate at upstream, downstream, and fl ow parallel slab edges, as well as between slab sections.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">6.12.4.5 Ground</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Improvement Ground improvement countermeasures shall be designed using soil -cement mixing to provide nonerodible scour protection per Section 6.12.2.4 and at minimum provide soil -cement mass strength reinforcement of 100 psi (0.69 MPa) average uncon fi ned compressive strength.
+<br><span class="xref">→ ASCE7-22-6.12.2.4-H1</span>
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">6.13</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+STRUCTURAL COUNTERMEASURES FOR TSUNAMI LOADING
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">6.13.1 Open Structures</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Open Structures shall not be subject to Load Case 1 of Section 6.8.3.1. The load effect of debris accumulation against or within the Open Structure shall be evaluated by assuming a minimum closure ratio of 50% of the Innundated Projected Area along the perimeter of the Open Structure.
+<br><span class="xref">→ ASCE7-22-6.8.3.1-H1</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">6.13.2.2 Site Layout</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The spatial limits of the layout of tsunami barriers shall include the following:
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">6.14</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+TSUNAMI VERTICAL EVACUATION REFUGE STRUCTURES
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">6.14.1 Minimum Inundation Elevation and Depth</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Tsunami refuge fl oors shall be located not less than the greater of 10 ft (3.0 m) or one-story height above 1.3 times the Maximum Considered Tsunami inundation elevation at the site as determined by a site-speci fi c inundation analysis, as indicated in Figure 6.14-1. This same Maximum Considered Tsunami
+<br><span class="xref">→ ASCE7-22-6.14-F6-14-11</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">6.14.2 Refuge Live Load</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+An assembly live load, L refuge , of 100 lb/ft 2 (4.8 kPa) shall be used in any designated evacuation fl oor area within a tsunami refuge fl oor level.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">6.14.3 Laydown Impacts</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Where the maximum inundation depth exceeds 6 ft (1.83 m), the laydown impact of adjacent pole structures collapsing onto occupied portions of the building shall be considered.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">6.14.4 Information</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+on Construction Documents Construction documents shall include tsunami design criteria and the occupancy capacity of the tsunami refuge area. Floor plans shall indicate all refuge areas of the facility and exiting routes from each area. The latitude and longitude coordinates of the building shall be recorded on the construction documents.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">6.14.5 Peer Review</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Design shall be subject to independent peer review by an appropriately licensed design professional, who shall present a written report to the Authority Having Jurisdiction as to the design &#x27; s compliance with the requirements of this standard.
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">6.15</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+DESIGNATED NONSTRUCTURAL COMPONENTS AND SYSTEMS
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">6.15.1 Performance Requirements</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Designated nonstructural components and systems in structures located in the Tsunami Design Zone shall be either protected from tsunami inundation effects or positioned in the structure above the inundation elevation of the Maximum Considered Tsunami, such that the designated nonstructural components and systems will be capable of performing their critical function during and after the Maximum Con
+<br><span class="xref">→ ASCE7-22-6.13-H1</span>
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">6.16</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+NONBUILDING TSUNAMI RISK CATEGORY III AND IV STRUCTURES
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">6.16.1 Requirements</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+for Tsunami Risk Category III Nonbuilding Structures Tsunami Risk Category III nonbuilding structures located in the Tsunami Design Zone shall be either protected from tsunami inundation effects or designed to withstand the effects of tsunami loads in accordance with Section 6.8 of this chapter and in accordance with the speci fi c performance requirements of Section 6.8.3. Tsunami barriers used a
+<br><span class="xref">→ ASCE7-22-6.13-H1, ASCE7-22-6.8-H1, ASCE7-22-6.8.3-H1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">6.16.2 Requirements</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+for Tsunami Risk Category IV Nonbuilding Structures Tsunami Risk Category IV designated nonstructural systems in nonbuilding structures located in the Tsunami Design Zone shall be (1) protected from tsunami inundation effects, (2) positioned above 1.3 times the inundation elevation of the Maximum Considered Tsunami in such a manner that the Tsunami Risk Category IV nonbuilding structure will be ca
+<br><span class="xref">→ ASCE7-22-6.13-H1, ASCE7-22-6.8-H1, ASCE7-22-6.8.3-H1</span>
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">6.17</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+</body></html>

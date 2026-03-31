@@ -63,10 +63,10 @@
       "citation": "Section 10.1.1",
       "page": 1
     },
-    "title": "10.1.1 Site-Speci fi c Studies Site-speci fi c studies that are acceptable to the Authority Having Jurisdiction shall be used to determine the ice thickness or load for the applicable Risk Category, c",
+    "title": "10.1.1 Site-Speci",
     "description": "",
     "data": {
-      "rule": "10.1.1 Site-Speci fi c Studies Site-speci fi c studies that are acceptable to the Authority Having Jurisdiction shall be used to determine the ice thickness or load for the applicable Risk Category, concurrent wind speed, and concurrent temperature in",
+      "rule": "10.1.1 Site-Speci",
       "conditions": [],
       "then": "",
       "else": null,
@@ -82,6 +82,33 @@
   },
   {
     "id": "ASCE7-22-10.1.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-10.1.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 10,
+      "section": "10.1.1",
+      "citation": "Section 10.1.1",
+      "page": 1
+    },
+    "title": "fi c Studies Site-speci fi c studies that are acceptable to the Authority Having Jurisdiction shall be used to determine the ice thickness or load for the applicable Risk Category, concurrent wind spe",
+    "description": "",
+    "data": {
+      "rule": "fi c Studies Site-speci fi c studies that are acceptable to the Authority Having Jurisdiction shall be used to determine the ice thickness or load for the applicable Risk Category, concurrent wind speed, and concurrent temperature in",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-10.1.1-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -108,7 +135,7 @@
     "parent_id": "ASCE7-22-10.1.1-H1"
   },
   {
-    "id": "ASCE7-22-10.1.1-T2",
+    "id": "ASCE7-22-10.1.1-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -135,7 +162,7 @@
     "parent_id": "ASCE7-22-10.1.1-H1"
   },
   {
-    "id": "ASCE7-22-10.1.1-T3",
+    "id": "ASCE7-22-10.1.1-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -171,10 +198,10 @@
       "citation": "Section 10.1.2",
       "page": 1
     },
-    "title": "10.1.2 Dynamic Loads Dynamic loads, such as those resulting from galloping, ice shedding, and aeolian vibrations, which are caused, or enhanced, by an ice accretion on a fl exible structural member, c",
+    "title": "10.1.2 Dynamic Loads",
     "description": "",
     "data": {
-      "rule": "10.1.2 Dynamic Loads Dynamic loads, such as those resulting from galloping, ice shedding, and aeolian vibrations, which are caused, or enhanced, by an ice accretion on a fl exible structural member, component, or appurtenance, are not covered in this section.",
+      "rule": "10.1.2 Dynamic Loads",
       "conditions": [],
       "then": "",
       "else": null,
@@ -187,6 +214,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-10.1.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-10.1.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 10,
+      "section": "10.1.2",
+      "citation": "Section 10.1.2",
+      "page": 1
+    },
+    "title": "Dynamic loads, such as those resulting from galloping, ice shedding, and aeolian vibrations, which are caused, or enhanced, by an ice accretion on a fl exible structural member, component, or appurten",
+    "description": "",
+    "data": {
+      "rule": "Dynamic loads, such as those resulting from galloping, ice shedding, and aeolian vibrations, which are caused, or enhanced, by an ice accretion on a fl exible structural member, component, or appurtenance, are not covered in this section.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-10.1.3-H1",
@@ -198,10 +252,10 @@
       "citation": "Section 10.1.3",
       "page": 1
     },
-    "title": "10.1.3 Exclusions Electrical supply and communication systems, communications towers and masts, and other structures for which national standards exist are excluded from the requirements of this secti",
+    "title": "10.1.3 Exclusions",
     "description": "",
     "data": {
-      "rule": "10.1.3 Exclusions Electrical supply and communication systems, communications towers and masts, and other structures for which national standards exist are excluded from the requirements of this section. Applicable standards and documents include the National Electrical Safety Code, ASCE Manual of Practice 74, and ANSI/TIA-222.",
+      "rule": "10.1.3 Exclusions",
       "conditions": [],
       "then": "",
       "else": null,
@@ -216,6 +270,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-10.1.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-10.1.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 10,
+      "section": "10.1.3",
+      "citation": "Section 10.1.3",
+      "page": 1
+    },
+    "title": "Electrical supply and communication systems, communications towers and masts, and other structures for which national standards exist are excluded from the requirements of this section. Applicable sta",
+    "description": "",
+    "data": {
+      "rule": "Electrical supply and communication systems, communications towers and masts, and other structures for which national standards exist are excluded from the requirements of this section. Applicable standards and documents include the National Electrical Safety Code, ASCE Manual of Practice 74, and ANSI/TIA-222.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-10.2-H1",
     "type": "heading",
     "source": {
@@ -225,7 +306,7 @@
       "citation": "Section 10.2",
       "page": 1
     },
-    "title": "10.2 DEFINITIONS",
+    "title": "10.2",
     "description": "",
     "data": {
       "rule": "10.2 DEFINITIONS",
@@ -243,7 +324,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-10.2-T1",
+    "id": "ASCE7-22-10.2-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -375,7 +456,7 @@
       "citation": "Section 10.2",
       "page": 1
     },
-    "title": "CHAPTER 10 ICE LOADS -ATMOSPHERIC ICING",
+    "title": "CHAPTER 10",
     "description": "",
     "data": {
       "rule": "CHAPTER 10 ICE LOADS -ATMOSPHERIC ICING",
@@ -417,7 +498,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-10.2-T2",
+    "id": "ASCE7-22-10.2-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -444,7 +525,7 @@
     "parent_id": "ASCE7-22-10.2-H2"
   },
   {
-    "id": "ASCE7-22-10.2-T3",
+    "id": "ASCE7-22-10.2-T5",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -933,10 +1014,10 @@
       "citation": "Section 10.4",
       "page": 1
     },
-    "title": "10.4 ICE LOADS CAUSED BY FREEZING RAIN",
+    "title": "10.4",
     "description": "",
     "data": {
-      "rule": "10.4 ICE LOADS CAUSED BY FREEZING RAIN",
+      "rule": "10.4",
       "conditions": [],
       "then": "",
       "else": null,
@@ -951,6 +1032,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-10.4-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-10.4-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 10,
+      "section": "10.4",
+      "citation": "Section 10.4",
+      "page": 1
+    },
+    "title": "ICE LOADS CAUSED BY FREEZING RAIN",
+    "description": "",
+    "data": {
+      "rule": "ICE LOADS CAUSED BY FREEZING RAIN",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-10.4.1-H1",
     "type": "heading",
     "source": {
@@ -960,10 +1068,10 @@
       "citation": "Section 10.4.1",
       "page": 1
     },
-    "title": "10.4.1 Ice Load The ice load shall be determined using the volume or cross-sectional area of glaze ice formed on all exposed surfaces of structural members, guys, components, appurtenances, and cable ",
+    "title": "10.4.1 Ice Load",
     "description": "",
     "data": {
-      "rule": "10.4.1 Ice Load The ice load shall be determined using the volume or cross-sectional area of glaze ice formed on all exposed surfaces of structural members, guys, components, appurtenances, and cable systems. On structural shapes, prismatic members, and other similar shapes, the crosssectional area of ice shall be determined by",
+      "rule": "10.4.1 Ice Load",
       "conditions": [],
       "then": "",
       "else": null,
@@ -976,6 +1084,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-10.4.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-10.4.1-H2",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 10,
+      "section": "10.4.1",
+      "citation": "Section 10.4.1",
+      "page": 1
+    },
+    "title": "The ice load shall be determined using the volume or cross-sectional area of glaze ice formed on all exposed surfaces of structural members, guys, components, appurtenances, and cable systems. On stru",
+    "description": "",
+    "data": {
+      "rule": "The ice load shall be determined using the volume or cross-sectional area of glaze ice formed on all exposed surfaces of structural members, guys, components, appurtenances, and cable systems. On structural shapes, prismatic members, and other similar shapes, the crosssectional area of ice shall be determined by",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-10.4-E10-4-51",
@@ -992,13 +1127,13 @@
     "data": {
       "expression": "t d = Design ice thickness from Equation (10.4-5)",
       "parameters": {
-        "d": {
-          "description": "Longest plan dimension of the structure, ft (mm) measured perpendicular to b",
-          "source": "ASCE7-22-17.1.2-T4"
-        },
         "t": {
           "description": "Nominal ice thickness on a cylinder caused by freezing rain at a height of 33 ft (10 m), from Figures 10.4-2 through 10.4-5, for the applicable risk category, in. (mm)",
           "source": "ASCE7-22-10.3-T9"
+        },
+        "d": {
+          "description": "Longest plan dimension of the structure, ft (mm) measured perpendicular to b",
+          "source": "ASCE7-22-17.1.2-T4"
         }
       }
     },
@@ -1025,10 +1160,6 @@
     "data": {
       "expression": "A =\u03c0 d D \u00fe d (10.4-1)",
       "parameters": {
-        "D": {
-          "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the design earthquake ground motions, Section 18.7.3.3 \u03bc",
-          "source": "ASCE7-22-18.1.3-T79"
-        },
         "A": {
           "description": "Effective wind area of element, ft 2 (m 2 )",
           "source": "ASCE7-22-29.4.5.2-T4"
@@ -1036,6 +1167,10 @@
         "d": {
           "description": "Longest plan dimension of the structure, ft (mm) measured perpendicular to b",
           "source": "ASCE7-22-17.1.2-T4"
+        },
+        "D": {
+          "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the design earthquake ground motions, Section 18.7.3.3 \u03bc",
+          "source": "ASCE7-22-18.1.3-T79"
         }
       }
     },
@@ -1091,21 +1226,21 @@
     "data": {
       "expression": "V =\u03c0 t d A (10.4-2)",
       "parameters": {
-        "A": {
-          "description": "Effective wind area of element, ft 2 (m 2 )",
-          "source": "ASCE7-22-29.4.5.2-T4"
-        },
-        "d": {
-          "description": "Longest plan dimension of the structure, ft (mm) measured perpendicular to b",
-          "source": "ASCE7-22-17.1.2-T4"
+        "V": {
+          "description": "Basic wind speed obtained from Figures 26.5-1A through 26.5-1D, mi/h (m/s); the basic wind speed corresponds to a 3 s gust speed at 33 ft (10 m) above the ground in Exposure Category C",
+          "source": "ASCE7-22-26.3-T94"
         },
         "t": {
           "description": "Nominal ice thickness on a cylinder caused by freezing rain at a height of 33 ft (10 m), from Figures 10.4-2 through 10.4-5, for the applicable risk category, in. (mm)",
           "source": "ASCE7-22-10.3-T9"
         },
-        "V": {
-          "description": "Basic wind speed obtained from Figures 26.5-1A through 26.5-1D, mi/h (m/s); the basic wind speed corresponds to a 3 s gust speed at 33 ft (10 m) above the ground in Exposure Category C",
-          "source": "ASCE7-22-26.3-T94"
+        "d": {
+          "description": "Longest plan dimension of the structure, ft (mm) measured perpendicular to b",
+          "source": "ASCE7-22-17.1.2-T4"
+        },
+        "A": {
+          "description": "Effective wind area of element, ft 2 (m 2 )",
+          "source": "ASCE7-22-29.4.5.2-T4"
         }
       }
     },
@@ -1151,7 +1286,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-10.4.1-T1",
+    "id": "ASCE7-22-10.4.1-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1304,10 +1439,10 @@
       "citation": "Section 10.4.2",
       "page": 2
     },
-    "title": "10.4.2 Nominal Ice Thickness The nominal ice thickness is the equivalent radial glaze ice thickness. Figures 10.4-2 through",
+    "title": "10.4.2 Nominal Ice Thickness",
     "description": "",
     "data": {
-      "rule": "10.4.2 Nominal Ice Thickness The nominal ice thickness is the equivalent radial glaze ice thickness. Figures 10.4-2 through",
+      "rule": "10.4.2 Nominal Ice Thickness",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1323,6 +1458,33 @@
   },
   {
     "id": "ASCE7-22-10.4.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-10.4.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 10,
+      "section": "10.4.2",
+      "citation": "Section 10.4.2",
+      "page": 2
+    },
+    "title": "The nominal ice thickness is the equivalent radial glaze ice thickness. Figures 10.4-2 through",
+    "description": "",
+    "data": {
+      "rule": "The nominal ice thickness is the equivalent radial glaze ice thickness. Figures 10.4-2 through",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-10.4.2-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1387,10 +1549,10 @@
       "citation": "Section 10.4.3",
       "page": 2
     },
-    "title": "10.4.3 Height Factor The height factor, f z , used to increase the radial thickness of ice for height above ground, z , shall be determined by",
+    "title": "10.4.3 Height Factor",
     "description": "",
     "data": {
-      "rule": "10.4.3 Height Factor The height factor, f z , used to increase the radial thickness of ice for height above ground, z , shall be determined by",
+      "rule": "10.4.3 Height Factor",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1406,6 +1568,33 @@
   },
   {
     "id": "ASCE7-22-10.4.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-10.4.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 10,
+      "section": "10.4.3",
+      "citation": "Section 10.4.3",
+      "page": 2
+    },
+    "title": "The height factor, f z , used to increase the radial thickness of ice for height above ground, z , shall be determined by",
+    "description": "",
+    "data": {
+      "rule": "The height factor, f z , used to increase the radial thickness of ice for height above ground, z , shall be determined by",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-10.4.3-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1441,10 +1630,10 @@
       "citation": "Section 10.4.4",
       "page": 2
     },
-    "title": "10.4.4 Topographic Factor Both the ice thickness and concurrent gust speed for structures on hills, ridges, and escarpments are higher than those on level terrain because of wind speed-up effects. The",
+    "title": "10.4.4 Topographic",
     "description": "",
     "data": {
-      "rule": "10.4.4 Topographic Factor Both the ice thickness and concurrent gust speed for structures on hills, ridges, and escarpments are higher than those on level terrain because of wind speed-up effects. The topographic factor for the concurrent wind pressure is Kzt , and the topographic factor for ice thickness is \u00f0 Kzt \u00de 0.35 , where Kzt is obtained from Equation (26.8-1).",
+      "rule": "10.4.4 Topographic",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1457,6 +1646,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-10.4.4-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-10.4.4-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 10,
+      "section": "10.4.4",
+      "citation": "Section 10.4.4",
+      "page": 2
+    },
+    "title": "Factor Both the ice thickness and concurrent gust speed for structures on hills, ridges, and escarpments are higher than those on level terrain because of wind speed-up effects. The topographic factor",
+    "description": "",
+    "data": {
+      "rule": "Factor Both the ice thickness and concurrent gust speed for structures on hills, ridges, and escarpments are higher than those on level terrain because of wind speed-up effects. The topographic factor for the concurrent wind pressure is Kzt , and the topographic factor for ice thickness is \u00f0 Kzt \u00de 0.35 , where Kzt is obtained from Equation (26.8-1).",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-10.4.5-H1",
@@ -1468,10 +1684,10 @@
       "citation": "Section 10.4.5",
       "page": 2
     },
-    "title": "10.4.5 Design Ice Thickness for Freezing Rain The design ice thickness t d shall be calculated from Equation (10.4-5).",
+    "title": "10.4.5 Design Ice Thickness for Freezing Rain",
     "description": "",
     "data": {
-      "rule": "10.4.5 Design Ice Thickness for Freezing Rain The design ice thickness t d shall be calculated from Equation (10.4-5).",
+      "rule": "10.4.5 Design Ice Thickness for Freezing Rain",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1486,6 +1702,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-10.4.5-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-10.4.5-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 10,
+      "section": "10.4.5",
+      "citation": "Section 10.4.5",
+      "page": 2
+    },
+    "title": "The design ice thickness t d shall be calculated from Equation (10.4-5).",
+    "description": "",
+    "data": {
+      "rule": "The design ice thickness t d shall be calculated from Equation (10.4-5).",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-10.5-H1",
     "type": "heading",
     "source": {
@@ -1495,10 +1738,10 @@
       "citation": "Section 10.5",
       "page": 2
     },
-    "title": "10.5 WIND ON ICE-COVERED STRUCTURES",
+    "title": "10.5",
     "description": "",
     "data": {
-      "rule": "10.5 WIND ON ICE-COVERED STRUCTURES",
+      "rule": "10.5",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1511,6 +1754,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-10.5-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-10.5-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 10,
+      "section": "10.5",
+      "citation": "Section 10.5",
+      "page": 2
+    },
+    "title": "WIND ON ICE-COVERED STRUCTURES",
+    "description": "",
+    "data": {
+      "rule": "WIND ON ICE-COVERED STRUCTURES",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-10.5-P1",
@@ -1549,10 +1819,38 @@
       "citation": "Section 10.5.1",
       "page": 2
     },
-    "title": "10.5.1 Wind on Ice-Covered Chimneys, Tanks, and Similar Structures Force coef fi cients, Cf , for structures with square, hexagonal, and octagonal cross sections shall be as given in Figure 29.4-1. Fo",
+    "title": "10.5.1 Wind on Ice-Covered Chimneys, Tanks, and Similar",
     "description": "",
     "data": {
-      "rule": "10.5.1 Wind on Ice-Covered Chimneys, Tanks, and Similar Structures Force coef fi cients, Cf , for structures with square, hexagonal, and octagonal cross sections shall be as given in Figure 29.4-1. Force coef fi cients, Cf , for structures with round cross sections shall be as given in Figure 29.4-1 for the entry round, D p qz \u2264 2.5 for all ice thicknesses, wind speeds, and structure diameters.",
+      "rule": "10.5.1 Wind on Ice-Covered Chimneys, Tanks, and Similar",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-10.5.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-10.5.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 10,
+      "section": "10.5.1",
+      "citation": "Section 10.5.1",
+      "page": 2
+    },
+    "title": "Structures Force coef fi cients, Cf , for structures with square, hexagonal, and octagonal cross sections shall be as given in Figure 29.4-1. Force coef fi cients, Cf , for structures with round cross",
+    "description": "",
+    "data": {
+      "rule": "Structures Force coef fi cients, Cf , for structures with square, hexagonal, and octagonal cross sections shall be as given in Figure 29.4-1. Force coef fi cients, Cf , for structures with round cross sections shall be as given in Figure 29.4-1 for the entry round, D p qz \u2264 2.5 for all ice thicknesses, wind speeds, and structure diameters.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1564,9 +1862,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-10.5.2-H1",
@@ -1578,10 +1875,38 @@
       "citation": "Section 10.5.2",
       "page": 2
     },
-    "title": "10.5.2 Wind on Ice-Covered Solid Freestanding Walls and Solid Signs Force coef fi cients, Cf , shall be as given in Figure 29.3-1, based on the dimensions of the wall or sign, including ice.",
+    "title": "10.5.2 Wind on Ice-Covered Solid Freestanding Walls and",
     "description": "",
     "data": {
-      "rule": "10.5.2 Wind on Ice-Covered Solid Freestanding Walls and Solid Signs Force coef fi cients, Cf , shall be as given in Figure 29.3-1, based on the dimensions of the wall or sign, including ice.",
+      "rule": "10.5.2 Wind on Ice-Covered Solid Freestanding Walls and",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-10.5.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-10.5.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 10,
+      "section": "10.5.2",
+      "citation": "Section 10.5.2",
+      "page": 2
+    },
+    "title": "Solid Signs Force coef fi cients, Cf , shall be as given in Figure 29.3-1, based on the dimensions of the wall or sign, including ice.",
+    "description": "",
+    "data": {
+      "rule": "Solid Signs Force coef fi cients, Cf , shall be as given in Figure 29.3-1, based on the dimensions of the wall or sign, including ice.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1593,9 +1918,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-10.5.3-H1",
@@ -1607,10 +1931,38 @@
       "citation": "Section 10.5.3",
       "page": 2
     },
-    "title": "10.5.3 Wind on Ice-Covered Open Signs and Lattice Frameworks The solidity ratio, \u03b5 , shall be based on the projected area, including ice. The force coef fi cient, Cf , for the projected area of fl at ",
+    "title": "10.5.3 Wind",
     "description": "",
     "data": {
-      "rule": "10.5.3 Wind on Ice-Covered Open Signs and Lattice Frameworks The solidity ratio, \u03b5 , shall be based on the projected area, including ice. The force coef fi cient, Cf , for the projected area of fl at members shall be as given in Figure 29.4-2. The force coef fi cient, Cf , for rounded members and for the additional projected area caused by ice on both fl at and rounded members shall be as given in Figure 29.4-2 for rounded members with D p qz \u2264 2.5 for all ice thicknesses, wind speeds, and member diameters.",
+      "rule": "10.5.3 Wind",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-10.5.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-10.5.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 10,
+      "section": "10.5.3",
+      "citation": "Section 10.5.3",
+      "page": 2
+    },
+    "title": "on Ice-Covered Open Signs and Lattice Frameworks The solidity ratio, \u03b5 , shall be based on the projected area, including ice. The force coef fi cient, Cf , for the projected area of fl at members shal",
+    "description": "",
+    "data": {
+      "rule": "on Ice-Covered Open Signs and Lattice Frameworks The solidity ratio, \u03b5 , shall be based on the projected area, including ice. The force coef fi cient, Cf , for the projected area of fl at members shall be as given in Figure 29.4-2. The force coef fi cient, Cf , for rounded members and for the additional projected area caused by ice on both fl at and rounded members shall be as given in Figure 29.4-2 for rounded members with D p qz \u2264 2.5 for all ice thicknesses, wind speeds, and member diameters.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1622,9 +1974,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-10.4-F10-4-11",
@@ -1711,10 +2062,10 @@
       "citation": "Section 10.5.4",
       "page": 3
     },
-    "title": "10.5.4 Wind on Ice-Covered Trussed Towers The solidity ratio, \u03b5 , shall be based on the projected area, including ice. The force coef fi cients, Cf , shall be as given in Figure 29.4-3. It is acceptab",
+    "title": "10.5.4 Wind on Ice-Covered Trussed Towers",
     "description": "",
     "data": {
-      "rule": "10.5.4 Wind on Ice-Covered Trussed Towers The solidity ratio, \u03b5 , shall be based on the projected area, including ice. The force coef fi cients, Cf , shall be as given in Figure 29.4-3. It is acceptable to reduce the force coef fi cients, Cf , for the additional projected area caused by ice on both round and fl at members by the factor for rounded members in Note 3 of Figure 29.4-3.",
+      "rule": "10.5.4 Wind on Ice-Covered Trussed Towers",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1727,6 +2078,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-10.5.4-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-10.5.4-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 10,
+      "section": "10.5.4",
+      "citation": "Section 10.5.4",
+      "page": 3
+    },
+    "title": "The solidity ratio, \u03b5 , shall be based on the projected area, including ice. The force coef fi cients, Cf , shall be as given in Figure 29.4-3. It is acceptable to reduce the force coef fi cients, Cf ",
+    "description": "",
+    "data": {
+      "rule": "The solidity ratio, \u03b5 , shall be based on the projected area, including ice. The force coef fi cients, Cf , shall be as given in Figure 29.4-3. It is acceptable to reduce the force coef fi cients, Cf , for the additional projected area caused by ice on both round and fl at members by the factor for rounded members in Note 3 of Figure 29.4-3.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-10.5.5-H1",
@@ -1738,10 +2116,10 @@
       "citation": "Section 10.5.5",
       "page": 3
     },
-    "title": "10.5.5 Wind on Ice-Covered Guys and Cables The force coef fi cient, Cf , (as de fi ned in Chapter 29) for ice-covered guys and cables shall be 1.2.",
+    "title": "10.5.5 Wind on Ice-Covered Guys and Cables",
     "description": "",
     "data": {
-      "rule": "10.5.5 Wind on Ice-Covered Guys and Cables The force coef fi cient, Cf , (as de fi ned in Chapter 29) for ice-covered guys and cables shall be 1.2.",
+      "rule": "10.5.5 Wind on Ice-Covered Guys and Cables",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1756,6 +2134,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-10.5.5-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-10.5.5-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 10,
+      "section": "10.5.5",
+      "citation": "Section 10.5.5",
+      "page": 3
+    },
+    "title": "The force coef fi cient, Cf , (as de fi ned in Chapter 29) for ice-covered guys and cables shall be 1.2.",
+    "description": "",
+    "data": {
+      "rule": "The force coef fi cient, Cf , (as de fi ned in Chapter 29) for ice-covered guys and cables shall be 1.2.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-10.6-H1",
     "type": "heading",
     "source": {
@@ -1765,10 +2170,10 @@
       "citation": "Section 10.6",
       "page": 3
     },
-    "title": "10.6 DESIGN TEMPERATURES FOR FREEZING RAIN",
+    "title": "10.6",
     "description": "",
     "data": {
-      "rule": "10.6 DESIGN TEMPERATURES FOR FREEZING RAIN",
+      "rule": "10.6",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1781,6 +2186,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-10.6-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-10.6-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 10,
+      "section": "10.6",
+      "citation": "Section 10.6",
+      "page": 3
+    },
+    "title": "DESIGN TEMPERATURES FOR FREEZING RAIN",
+    "description": "",
+    "data": {
+      "rule": "DESIGN TEMPERATURES FOR FREEZING RAIN",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-10.6-P1",
@@ -1819,7 +2251,7 @@
       "citation": "Section 10.7",
       "page": 3
     },
-    "title": "10.7 PARTIAL LOADING",
+    "title": "10.7",
     "description": "",
     "data": {
       "rule": "10.7 PARTIAL LOADING",
@@ -1873,7 +2305,7 @@
       "citation": "Section 10.8",
       "page": 3
     },
-    "title": "10.8 DESIGN PROCEDURE",
+    "title": "10.8",
     "description": "",
     "data": {
       "rule": "10.8 DESIGN PROCEDURE",
@@ -2184,10 +2616,10 @@
       "citation": "Section 10.9",
       "page": 3
     },
-    "title": "10.9 CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
+    "title": "10.9",
     "description": "",
     "data": {
-      "rule": "10.9 CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
+      "rule": "10.9",
       "conditions": [],
       "then": "",
       "else": null,
@@ -2200,6 +2632,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-10.9-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-10.9-H11",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 10,
+      "section": "10.9",
+      "citation": "Section 10.9",
+      "page": 3
+    },
+    "title": "CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
+    "description": "",
+    "data": {
+      "rule": "CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-10.9-P1",
@@ -2229,7 +2688,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-10.9-T1",
+    "id": "ASCE7-22-10.9-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2308,7 +2767,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-10.9-T3",
+    "id": "ASCE7-22-10.9-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2335,7 +2794,7 @@
     "parent_id": "ASCE7-22-10.9-H11"
   },
   {
-    "id": "ASCE7-22-10.9-T5",
+    "id": "ASCE7-22-10.9-T6",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2391,7 +2850,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-10.9-T6",
+    "id": "ASCE7-22-10.9-T7",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2472,7 +2931,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-10.9-T10",
+    "id": "ASCE7-22-10.9-T11",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2501,7 +2960,7 @@
     "parent_id": "ASCE7-22-10.4-F10-4-2A1"
   },
   {
-    "id": "ASCE7-22-10.9-T24",
+    "id": "ASCE7-22-10.9-T25",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2528,7 +2987,7 @@
     "parent_id": "ASCE7-22-10.9-H11"
   },
   {
-    "id": "ASCE7-22-10.9-T25",
+    "id": "ASCE7-22-10.9-T26",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2584,7 +3043,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-10.9-T26",
+    "id": "ASCE7-22-10.9-T27",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2613,7 +3072,7 @@
     "parent_id": "ASCE7-22-10.4-F10-4-2B1"
   },
   {
-    "id": "ASCE7-22-10.9-T27",
+    "id": "ASCE7-22-10.9-T28",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2667,7 +3126,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-10.9-T30",
+    "id": "ASCE7-22-10.9-T31",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2723,7 +3182,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-10.9-T41",
+    "id": "ASCE7-22-10.9-T42",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2750,7 +3209,7 @@
     "parent_id": "ASCE7-22-10.9-H11"
   },
   {
-    "id": "ASCE7-22-10.9-T42",
+    "id": "ASCE7-22-10.9-T43",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2779,7 +3238,7 @@
     "parent_id": "ASCE7-22-10.9-H11"
   },
   {
-    "id": "ASCE7-22-10.9-T43",
+    "id": "ASCE7-22-10.9-T44",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2835,7 +3294,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-10.9-T48",
+    "id": "ASCE7-22-10.9-T49",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2864,7 +3323,7 @@
     "parent_id": "ASCE7-22-10.4-F10-4-2C1"
   },
   {
-    "id": "ASCE7-22-10.9-T63",
+    "id": "ASCE7-22-10.9-T64",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2893,7 +3352,7 @@
     "parent_id": "ASCE7-22-10.9-H11"
   },
   {
-    "id": "ASCE7-22-10.9-T64",
+    "id": "ASCE7-22-10.9-T65",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2949,7 +3408,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-10.9-T70",
+    "id": "ASCE7-22-10.9-T71",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2978,7 +3437,7 @@
     "parent_id": "ASCE7-22-10.4-F10-4-2D1"
   },
   {
-    "id": "ASCE7-22-10.9-T83",
+    "id": "ASCE7-22-10.9-T84",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3007,7 +3466,7 @@
     "parent_id": "ASCE7-22-10.9-H11"
   },
   {
-    "id": "ASCE7-22-10.9-T85",
+    "id": "ASCE7-22-10.9-T86",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3036,7 +3495,7 @@
     "parent_id": "ASCE7-22-10.4-F10-4-3A1"
   },
   {
-    "id": "ASCE7-22-10.9-T96",
+    "id": "ASCE7-22-10.9-T97",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3063,7 +3522,7 @@
     "parent_id": "ASCE7-22-10.9-H11"
   },
   {
-    "id": "ASCE7-22-10.9-T97",
+    "id": "ASCE7-22-10.9-T98",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3090,7 +3549,7 @@
     "parent_id": "ASCE7-22-10.9-H11"
   },
   {
-    "id": "ASCE7-22-10.9-T100",
+    "id": "ASCE7-22-10.9-T101",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3119,7 +3578,7 @@
     "parent_id": "ASCE7-22-10.4-F10-4-3B1"
   },
   {
-    "id": "ASCE7-22-10.9-T116",
+    "id": "ASCE7-22-10.9-T117",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3148,7 +3607,7 @@
     "parent_id": "ASCE7-22-10.4-F10-4-3C1"
   },
   {
-    "id": "ASCE7-22-10.9-T132",
+    "id": "ASCE7-22-10.9-T133",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3231,7 +3690,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-10.9-T142",
+    "id": "ASCE7-22-10.9-T143",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3258,6 +3717,33 @@
       "qc_notes": null
     },
     "parent_id": "ASCE7-22-10.4-F10-4-4A1"
+  },
+  {
+    "id": "ASCE7-22-10.9-T146",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 10,
+      "section": "10.9",
+      "citation": "Section 10.9",
+      "page": 16
+    },
+    "title": "Values are nominal ice thicknesses, in inches, at 33 ft (10 m) above ground. Metric conversion: 1 in.",
+    "description": "",
+    "data": {
+      "rule": "Values are nominal ice thicknesses, in inches, at 33 ft (10 m) above ground. Metric conversion: 1 in. 1.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-10.9-H11"
   },
   {
     "id": "ASCE7-22-10.9-P26",
@@ -3341,7 +3827,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-10.9-T152",
+    "id": "ASCE7-22-10.9-T153",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3370,7 +3856,7 @@
     "parent_id": "ASCE7-22-10.4-F10-4-4A1"
   },
   {
-    "id": "ASCE7-22-10.9-T153",
+    "id": "ASCE7-22-10.9-T154",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3399,7 +3885,7 @@
     "parent_id": "ASCE7-22-10.4-F10-4-51"
   },
   {
-    "id": "ASCE7-22-10.9-T154",
+    "id": "ASCE7-22-10.9-T155",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3412,6 +3898,33 @@
     "description": "",
     "data": {
       "rule": "(a) Risk Category I structures. (b) Risk Category II structures. Notes: 1.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-10.9-H11"
+  },
+  {
+    "id": "ASCE7-22-10.9-T158",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 10,
+      "section": "10.9",
+      "citation": "Section 10.9",
+      "page": 18
+    },
+    "title": "Values are nominal ice thicknesses, in inches, at 33 ft (10 m) above ground. Metric conversion: 1 in.",
+    "description": "",
+    "data": {
+      "rule": "Values are nominal ice thicknesses, in inches, at 33 ft (10 m) above ground. Metric conversion: 1 in. 25.4 mm. 2.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -3480,7 +3993,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-10.9-T172",
+    "id": "ASCE7-22-10.9-T173",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3507,7 +4020,7 @@
     "parent_id": "ASCE7-22-10.9-H11"
   },
   {
-    "id": "ASCE7-22-10.9-T180",
+    "id": "ASCE7-22-10.9-T181",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3536,7 +4049,7 @@
     "parent_id": "ASCE7-22-10.5-F10-5-11"
   },
   {
-    "id": "ASCE7-22-10.9-T188",
+    "id": "ASCE7-22-10.9-T189",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3615,7 +4128,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-10.9-T195",
+    "id": "ASCE7-22-10.9-T196",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3644,7 +4157,7 @@
     "parent_id": "ASCE7-22-10.5-F10-5-21"
   },
   {
-    "id": "ASCE7-22-10.9-T198",
+    "id": "ASCE7-22-10.9-T199",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3698,7 +4211,34 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-10.9-T205",
+    "id": "ASCE7-22-10.9-P36",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 10,
+      "section": "10.9",
+      "citation": "Section 10.9",
+      "page": 21
+    },
+    "title": "Location-speci fi c gust speed shall be permitted to be determined using the ASCE Atmospheric Ice Geodatabase, which can be accessed at the ASCE 7 Hazard Tool (https://",
+    "description": "",
+    "data": {
+      "rule": "Location-speci fi c gust speed shall be permitted to be determined using the ASCE Atmospheric Ice Geodatabase, which can be accessed at the ASCE 7 Hazard Tool (https:// 4. asce7hazardtool.online). 25 F",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-10.9-T206",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3725,7 +4265,7 @@
     "parent_id": "ASCE7-22-10.9-H11"
   },
   {
-    "id": "ASCE7-22-10.9-T212",
+    "id": "ASCE7-22-10.9-T213",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3779,7 +4319,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-10.9-T227",
+    "id": "ASCE7-22-10.9-T228",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3808,7 +4348,7 @@
     "parent_id": "ASCE7-22-10.6-F10-6-21"
   },
   {
-    "id": "ASCE7-22-10.9-T248",
+    "id": "ASCE7-22-10.9-T249",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3835,7 +4375,7 @@
     "parent_id": "ASCE7-22-10.9-H11"
   },
   {
-    "id": "ASCE7-22-10.9-T249",
+    "id": "ASCE7-22-10.9-T250",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",

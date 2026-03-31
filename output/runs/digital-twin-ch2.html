@@ -1,0 +1,192 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8">
+<title>ASCE 7-22 Chapter 2 — Digital Twin</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#FFF;--s:#F5F5F5;--t:#1A1A1A;--m:#6B6B6B;--b:#D4D4D4;--sub:#E8E8E8;
+--g:#16A34A;--a:#0057FF;--r:#DC2626;--am:#D97706;--cy:#06B6D4;--purple:#8B5CF6}
+@media(prefers-color-scheme:dark){:root{--bg:#0A0A0A;--s:#141414;--t:#E5E5E5;--m:#808080;
+--b:#2A2A2A;--sub:#1A1A1A;--a:#3B82F6}}
+body{background:var(--bg);color:var(--t);font-family:'JetBrains Mono','SF Mono',monospace;
+font-size:11px;max-width:900px;margin:0 auto;padding:16px}
+h1{font-size:13px;text-transform:uppercase;letter-spacing:.1em;margin-bottom:2px}
+.sub{font-size:10px;color:var(--m);margin-bottom:12px}
+.nav{font-size:10px;color:var(--a);margin-bottom:16px}
+.nav a{color:var(--a);text-decoration:none}
+.nav a:hover{text-decoration:underline}
+.section{margin-bottom:12px}
+.sec-num{font-size:12px;font-weight:700;color:var(--t);margin-bottom:2px}
+.sec-0,.sec-1{margin-left:0}.sec-2{margin-left:16px}.sec-3{margin-left:32px}.sec-4{margin-left:48px}
+.child{margin:3px 0;padding:4px 8px;border-left:2px solid var(--sub);font-size:10px;line-height:1.5}
+.child.provision{border-color:var(--g);background:rgba(22,163,74,0.03)}
+.child.definition{border-color:var(--purple);background:rgba(139,92,246,0.03)}
+.child.formula{border-color:var(--a);background:rgba(59,130,246,0.03)}
+.child.table{border-color:var(--cy);background:rgba(6,182,212,0.03)}
+.child.figure{border-color:var(--am);background:rgba(217,119,6,0.03)}
+.child.exception{border-color:var(--r);background:rgba(220,38,38,0.03)}
+.child.user_note{border-color:var(--m);background:rgba(128,128,128,0.03)}
+.child.text_block{border-color:var(--sub)}
+.tag{display:inline-block;padding:0 3px;border:1px solid;font-size:7px;text-transform:uppercase;
+letter-spacing:.04em;margin-right:3px;vertical-align:middle}
+.tag-provision{border-color:var(--g);color:var(--g)}
+.tag-definition{border-color:var(--purple);color:var(--purple)}
+.tag-formula{border-color:var(--a);color:var(--a)}
+.tag-table{border-color:var(--cy);color:var(--cy)}
+.tag-figure{border-color:var(--am);color:var(--am)}
+.tag-exception{border-color:var(--r);color:var(--r)}
+.tag-user_note{border-color:var(--m);color:var(--m)}
+.tag-text_block{border-color:var(--sub);color:var(--m)}
+.meta{font-size:8px;color:var(--m)}
+.xref{font-size:8px;color:var(--a)}
+b{font-weight:600}
+table.tbl{width:100%;border-collapse:collapse;font-size:9px;margin:4px 0}
+table.tbl th{text-align:left;font-size:7px;text-transform:uppercase;color:var(--m);border-bottom:1px solid var(--b);padding:1px 4px}
+table.tbl td{padding:1px 4px;border-bottom:1px solid var(--sub)}
+</style></head><body>
+<h1>ASCE 7-22 Chapter 2 — Digital Twin</h1>
+<div class="sub">114 elements · 29 provisions · 0 definitions · 2 formulas · 0 tables</div>
+<div class="nav"><a href="digital-twin-index.html">← All Chapters</a></div>
+
+<div class="section sec-1">
+<div class="sec-num">2.1 GENERAL</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">2.2 SYMBOLS</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">2.3 LOAD COMBINATIONS FOR STRENGTH DESIGN</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">CHAPTER 2</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">2.3.2 Load Combinations Including Flood Load</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+When a structure is located in a fl ood zone (Section 5.3.1), the following load combinations shall be considered in addition to the basic combinations in Section 2.3.1:
+<br><span class="xref">→ ASCE7-22-2.3.1-P1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+In V-Zones or Coastal A-Zones:
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+4b. 1.2 D þ 1.0 W þ 2.0 Fa þ L þ (0.5 Lr or 0.3 S or 0.5 R ) 5b. 0.9 D þ 1.0 W þ 2.0 Fa In noncoastal A-Zones: 4b. 1.2 D þ 0.5 W þ 1.0 Fa þ L þ (0.5 Lr or 0.3 S or 0.5 R ) 5b. 0.9 D þ 0.5 W þ 1.0 Fa
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">2.3.3 Load Combinations Including Atmospheric Ice and</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Wind-on-Ice Loads When a structure is subjected to atmospheric ice and wind-on-ice loads, the following load combinations shall be considered:
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+2b. 1.2 D þ 1.6 L þ 0.2 Di þ 0.3 S 4c. 1.2 D þ L þ Di þ Wi þ 0.3 S 4d. 1.2 D þ Di
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">2.3.4 Load Combinations Including Self-Straining Forces</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+and Effects Where the structural effects of T are expected to 5c. 0.9 D þ Di + Wi
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">2.3.5 Load Combinations for Nonspeci</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+fi ed Loads Where approved by the Authority Having Jurisdiction, the registered design professional is permitted to determine the combined load effect for strength design using a method that is consistent with the method on which the load combination requirements in Section 2.3.1 are based. Such a method must be probability based and must be accompanied by documentation regarding the analysis and 
+<br><span class="xref">→ ASCE7-22-2.3.1-P1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">2.3.6 Basic Combinations with Seismic Load Effects</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">2.3.7 Alternative Method for Loads from Water in Soil</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">2.4 LOAD COMBINATIONS FOR ALLOWABLE STRESS DESIGN</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+In V-Zones or Coastal A-Zones: 5b. D þ 0.6 W þ 1.5 Fa
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+6b. D þ 0.75 L þ 0.75(0.6 W ) þ 0.75( Lr or 0.7 S or R ) þ 1.5 Fa 7b. 0.6 D 0.6 W 1.5
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+6b. D þ 0.75 L þ 0.75(0.6 W ) þ 0.75( Lr or 0.7 S or R ) þ 0.75 Fa
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+þ þ Fa In noncoastal A-Zones: 5b. D þ 0.6 W þ 0.75 Fa 7b. 0.6 D þ 0.6 W þ 0.75 Fa
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">2.4.1 Basic</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">2.4.3 Load Combinations Including Atmospheric Ice and</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Wind-on-Ice Loads When a structure is subjected to atmospheric ice and wind-on-ice loads, the following load combinations shall be considered:
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+1b. D þ 0.7 Di 2b. D þ L þ 0.7 Di 3b. D þ 0.7 Di þ 0.7 Wi + 0.7 S 7c. 0.6D þ 0.7 Di þ 0.7 Wi
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">2.4.4 Load Combinations Including Self-Straining Forces</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+and Effects Where the structural effects of T are expected to adversely affect structural safety or performance, T shall be considered in combination with other loads. Where the maximum effect of load, T , is unlikely to occur simultaneously with the maximum effects of other variable loads, it shall be permitted to reduce the magnitude of T considered in combination with these other loads. The fra
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">2.4.5 Basic Combinations with Seismic Load Effects</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">2.5 LOAD COMBINATIONS FOR EXTRAORDINARY EVENTS</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">2.5.1 Applicability</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Where required by the owner or applicable code, strength and stability shall be checked to ensure that structures are capable of withstanding the effects of extraordinary (i.e., low probability) events, such as fi res, explosions, and vehicular impact without disproportionate collapse.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">2.5.2 Load Combinations</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+in which Ak is the load or load effect resulting from the extraordinary event, A .
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">2.5.2.2 Residual Capacity</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+For checking the residual loadcarrying capacity of a structure or structural element following the occurrence of a damaging event, selected load-bearing elements identi fi ed by the registered design professional shall be notionally removed, and the capacity of the damaged structure shall be evaluated using the following gravity load combination:
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">2.5.3 Stability</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Requirements Stability shall be provided for the structure as a whole and for each of its elements. Any method that considers the in fl uence of second-order effects is permitted.
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">2.6 LOAD COMBINATIONS FOR GENERAL STRUCTURAL INTEGRITY LOADS</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">2.6.1 Strength Design Notional Load Combinations</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">2.6.2 Allowable Stress Design Notional Load Combinations</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+D þ 0.75 ð 0.7 N Þ þ 0.75 L þ 0.75 ( Lr or 0.7 S or R )
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">2.7 CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+</body></html>

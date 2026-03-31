@@ -1,0 +1,651 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8">
+<title>ASCE 7-22 Chapter 32 — Digital Twin</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#FFF;--s:#F5F5F5;--t:#1A1A1A;--m:#6B6B6B;--b:#D4D4D4;--sub:#E8E8E8;
+--g:#16A34A;--a:#0057FF;--r:#DC2626;--am:#D97706;--cy:#06B6D4;--purple:#8B5CF6}
+@media(prefers-color-scheme:dark){:root{--bg:#0A0A0A;--s:#141414;--t:#E5E5E5;--m:#808080;
+--b:#2A2A2A;--sub:#1A1A1A;--a:#3B82F6}}
+body{background:var(--bg);color:var(--t);font-family:'JetBrains Mono','SF Mono',monospace;
+font-size:11px;max-width:900px;margin:0 auto;padding:16px}
+h1{font-size:13px;text-transform:uppercase;letter-spacing:.1em;margin-bottom:2px}
+.sub{font-size:10px;color:var(--m);margin-bottom:12px}
+.nav{font-size:10px;color:var(--a);margin-bottom:16px}
+.nav a{color:var(--a);text-decoration:none}
+.nav a:hover{text-decoration:underline}
+.section{margin-bottom:12px}
+.sec-num{font-size:12px;font-weight:700;color:var(--t);margin-bottom:2px}
+.sec-0,.sec-1{margin-left:0}.sec-2{margin-left:16px}.sec-3{margin-left:32px}.sec-4{margin-left:48px}
+.child{margin:3px 0;padding:4px 8px;border-left:2px solid var(--sub);font-size:10px;line-height:1.5}
+.child.provision{border-color:var(--g);background:rgba(22,163,74,0.03)}
+.child.definition{border-color:var(--purple);background:rgba(139,92,246,0.03)}
+.child.formula{border-color:var(--a);background:rgba(59,130,246,0.03)}
+.child.table{border-color:var(--cy);background:rgba(6,182,212,0.03)}
+.child.figure{border-color:var(--am);background:rgba(217,119,6,0.03)}
+.child.exception{border-color:var(--r);background:rgba(220,38,38,0.03)}
+.child.user_note{border-color:var(--m);background:rgba(128,128,128,0.03)}
+.child.text_block{border-color:var(--sub)}
+.tag{display:inline-block;padding:0 3px;border:1px solid;font-size:7px;text-transform:uppercase;
+letter-spacing:.04em;margin-right:3px;vertical-align:middle}
+.tag-provision{border-color:var(--g);color:var(--g)}
+.tag-definition{border-color:var(--purple);color:var(--purple)}
+.tag-formula{border-color:var(--a);color:var(--a)}
+.tag-table{border-color:var(--cy);color:var(--cy)}
+.tag-figure{border-color:var(--am);color:var(--am)}
+.tag-exception{border-color:var(--r);color:var(--r)}
+.tag-user_note{border-color:var(--m);color:var(--m)}
+.tag-text_block{border-color:var(--sub);color:var(--m)}
+.meta{font-size:8px;color:var(--m)}
+.xref{font-size:8px;color:var(--a)}
+b{font-weight:600}
+table.tbl{width:100%;border-collapse:collapse;font-size:9px;margin:4px 0}
+table.tbl th{text-align:left;font-size:7px;text-transform:uppercase;color:var(--m);border-bottom:1px solid var(--b);padding:1px 4px}
+table.tbl td{padding:1px 4px;border-bottom:1px solid var(--sub)}
+</style></head><body>
+<h1>ASCE 7-22 Chapter 32 — Digital Twin</h1>
+<div class="sub">338 elements · 52 provisions · 3 definitions · 18 formulas · 2 tables</div>
+<div class="nav"><a href="digital-twin-index.html">← All Chapters</a></div>
+
+<div class="section sec-1">
+<div class="sec-num">32.1</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">32.1.1 Scope</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Buildings and other structures classi fi ed as Risk Category III or IV and located in the tornado-prone region as shown in Figure 32.1-1, including the main wind force resisting system (MWFRS) and all components and cladding (C&amp;C) thereof, shall be designed and constructed to resist the greater of the tornado loads determined in accordance with the provisions of this chapter or the wind loads dete
+<br><span class="xref">→ ASCE7-22-32.1-F32-1-11</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">32.1.2 Permitted Procedures</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The design tornado loads for buildings and other structures, including the MWFRS and C&amp;C elements thereof, shall be determined using one of the procedures as speci fi ed in this section and subject to the applicable limitations of Chapters 26 through 32, excluding Chapter 28.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+An outline of the overall process for the determination of the tornado loads, including section references, is provided in Figure 32.1-3.
+<br><span class="xref">→ ASCE7-22-32.1-F32-1-31</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Analytical Procedures as speci fi ed in Parts 1 through 5, as appropriate, of Chapter 30, for buildings or other structures meeting the requirements speci fi ed therein; or
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Wind Tunnel Procedure for all buildings and other structures as speci fi ed in Chapter 31, for buildings meeting the requirements speci fi ed therein.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">CHAPTER 32</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">32.1.3 Performance-Based Procedures</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Tornado design of buildings and other structures using performance-based procedures shall be permitted subject to the approval of the Authority Having Jurisdiction. The performance-based tornado design procedures used shall, at a minimum, conform to Section 1.3.1.3 and be documented and submitted to the Authority Having Jurisdiction in accordance with Section 1.3.1.3.
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">32.2</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+TORNADO-PRONE REGION: The area of the conterminous United States most vulnerable to tornadoes, as shown in Figure 32.1-1. Tornado-prone region
+<br><span class="xref">→ ASCE7-22-32.1-F32-1-11</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Areas outside tornado-prone region
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">32.3</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Ae = Effective plan area of the building, other structure, or facility, ft 2 (m 2 ), as de fi ned in Section 32.5.4
+<br><span class="xref">→ ASCE7-22-32.5.4-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+FhT = Lateral design tornado force for rooftop structures and equipment from Equation (32.16-3), lb (N)
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+FT = Design tornado force for certain other structures from Equation (32.16-2), lb (N)
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+FvT = Vertical design tornado force for rooftop structures and equipment from Equation (32.16-4), lb (N)
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+GT = Tornado gust-effect factor as de fi ned in Section 32.11 ð GCpiT Þ = Product of internal pressure coef fi cient that includes the effects of atmospheric pressure change and gusteffect factor, to be used in determination of tornado loads for buildings and some other structures, as determined in Section 32.13
+<br><span class="xref">→ ASCE7-22-32.11-H1, ASCE7-22-32.13-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+KdT = Tornado directionality factor as de fi ned in Section 32.6
+<br><span class="xref">→ ASCE7-22-32.6-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+KhTor = Tornado velocity pressure exposure coef fi cient evaluated at height z = h, as determined in Section 32.10
+<br><span class="xref">→ ASCE7-22-32.10-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+KvT = Tornado pressure coef fi cient adjustment factor for vertical winds as de fi ned in Section 32.14
+<br><span class="xref">→ ASCE7-22-32.14-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+KzTor = Tornado velocity pressure exposure coef fi cient evaluated at height z, as determined in Section 32.10
+<br><span class="xref">→ ASCE7-22-32.10-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+ppT = Combined net tornado design pressure on a parapet from Equation (32.15-3), lb/ft 2 (N/m 2 )
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+pT = Design tornado pressure to be used in determination of tornado loads for buildings and for certain other structures, lb/ft 2 (N/m 2 )
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+qhT = Tornado velocity pressure evaluated at height z = h , lb/ft 2 (N/m 2 )
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+qpT = Tornado velocity pressure evaluated at top of parapet from Equations (32.15-3) and (32.17-4), lb/ft 2 (N/m 2 )
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+qzop = Tornado velocity pressure internal pressure determination for partially enclosed buildings, lb/ft 2 (N/m 2 )
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+qzT = Tornado velocity pressure evaluated at height z above ground, lb/ft 2 (N/m 2 )
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+VT = Tornado speed obtained from Figures 32.5-1 and 32.52, mi ∕ h (m ∕ s). The tornado speed corresponds to a 3 s gust speed at 33 ft (10 m) above the ground.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+zop = Level of the lowest opening in the building that could affect the positive internal pressure, lb/ft 2 (N/m 2 )
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">32.4 GENERAL</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">32.4.1 Sign</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Convention The combined effects of internal pressures and atmospheric pressure change, expressed in coef fi cient form by ( GC piT ), shall follow the same sign convention as provided in Section 26.4, where positive pressure acts toward the surface and negative pressure acts away from the surface.
+<br><span class="xref">→ ASCE7-22-26.4-H1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">32.4.2 Critical Load Condition</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Values of external pressures shall be combined algebraically with the combined effects of internal pressures and atmospheric pressure change to determine the most critical load.
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">32.5</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">32.5.1 Tornado Speed</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The tornado speed, VT , used in the determination of tornado loads on buildings and other structures shall be determined from Figures 32.5-1 and 32.5-2 as follows:
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+For Risk Category III buildings and structures, use Figures 32.5-1A through 32.5-1H.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+For Risk Category IV buildings and structures, use Figures 32.5-2A through 32.5-2H.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">32.5.2 Design for Tornado Loads Not Required</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+For Risk Category III and IV buildings and other structures determined to have tornado speeds VT &lt; 60 mi/h (26.8 m/s), design for tornado loads shall not be required. Where VT ≥ 60 mi/h (26.8 m/ s) but is less than the following threshold speeds then design for tornado loads shall not be required:
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+For Exposure B: VT &lt; 0.5 V , or For Exposure D: VT &lt; 0.67 V ,
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+For Exposure C: VT &lt; 0.6 V , or
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">32.5.4 Effective Plan Area</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The effective plan area, Ae , of the building or other structure shall be determined in accordance with this section.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+32.5.4.3 Ground-Mounted Photovoltaic Panel Systems The effective plan area, Ae, of ground-mounted photovoltaic
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">32.5.4.2 Other than Essential Facilities</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+For buildings and structures that are not designated as Essential Facilities and are not required to maintain the functionality of Essential Facilities, the effective plan area shall be equal to the area of the smallest convex polygon enclosing the plan of the building, other structure, or facility. It is permitted to reduce the effective plan area to that of the effective plan area of the largest
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">32.6</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">32.7</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">32.8</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">32.9</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">32.10</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">32.10.1 Tornado Velocity Pressure Exposure Coef</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+fi cient A tornado velocity pressure exposure coef fi cient, KzTor or KhTor , as applicable, shall be determined from Table 32.10-1.
+<br><span class="xref">→ ASCE7-22-32.10-E32-10-11</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">32.10.2 Tornado Velocity Pressure</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Tornado velocity pressure, qzT , evaluated at height z above ground, shall be determined in accordance with the following equation: where
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+KzTor = Tornado velocity pressure exposure coef fi cient, see Section 32.10.1;
+<br><span class="xref">→ ASCE7-22-32.10.1-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Ke = Ground elevation factor, see Section 32.9;
+<br><span class="xref">→ ASCE7-22-32.9-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+VT = Tornado speed, see Section 32.5; and qzT = Tornado velocity pressure at height z .
+<br><span class="xref">→ ASCE7-22-32.5-H1</span>
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">32.11</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">32.11.1 Tornado Gust-Effect Factor</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The tornado gust-effect factor, GT , for a building or other structure shall be 0.85 or calculated from Equation (26.11-6) using Exposure C terrain exposure constants.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">32.11.2 Limitations</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Where the combined gust-effect factors and pressure coef fi cients ( GCp ), ( GCpiT ), and ( GCpf ) are given in fi gures and tables, the gust-effect factor shall not be determined separately.
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">32.12 TORNADO ENCLOSURE CLASSIFICATION</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">32.12.1 General</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+For the purpose of determining internal pressure coef fi cients for tornadoes, buildings and other structures for which tornado internal pressure coef fi cients, ( GCpiT ), apply shall have an enclosure classi fi cation assigned in accordance with this section. If a building or other structure satis fi es both the &#x27; open &#x27; and &#x27; partially enclosed &#x27; tornado enclosure classi fi cation de fi nitions
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">32.13 TORNADO INTERNAL PRESSURE COEFFICIENTS</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">32.13.1 Reduction</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Factor for Large-Volume Buildings, Ri For a partially enclosed building containing a single, unpartitioned large volume, the internal pressure coef fi cient, ( GCpiT ), is permitted to be multiplied by the reduction factor, Ri , as determined in Section 26.13.1.
+<br><span class="xref">→ ASCE7-22-26.13.1-H1</span>
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">32.14</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+TORNADO EXTERNAL PRESSURE COEFFICIENTS
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">32.15</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+TORNADO LOADS ON BUILDINGS: MAIN WIND FORCE RESISTING SYSTEM
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Table 32.14-1. Tornado Pressure Coefficient Adjustment Factor for Vertical Winds, KvT . where
+<br><span class="xref">→ ASCE7-22-32.14-T32-14-11</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+qhT = Tornado velocity pressure from Section 32.10.2 evaluated at mean roof height h , lb/ft 2 (N/m 2 ),
+<br><span class="xref">→ ASCE7-22-32.10.2-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+GT = Tornado gust-effect factor from Section 32.11,
+<br><span class="xref">→ ASCE7-22-32.11-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+KdT = Tornado directionality factor from Section 32.6, and
+<br><span class="xref">→ ASCE7-22-32.6-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+CN = Net pressure coef fi cient from Section 27.3.2.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">32.15.1 Enclosed, Partially Enclosed, and Partially Open</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Buildings Section 27.3.1 shall apply for determination of MWFRS loads for buildings of all heights, as modi fi ed in this section. Design tornado pressures, pT , for the MWFRS of enclosed, partially enclosed, and partially open buildings of all heights shall be determined in accordance with the following equation, which replaces Equation (27.3-1):
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+where q = qzT For external pressure on all walls evaluated at height z above the ground, lb/ft 2 (N/m 2 ),
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+q = qhT For external pressure on roofs evaluated at height h , lb/ft 2 (N/m 2 ), qi = qhT For internal pressure evaluation of roofs of enclosed and partially open buildings, lb/ft 2 (N/m 2 ),
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+GT = Tornado gust-effect factor from Section 32.11,
+<br><span class="xref">→ ASCE7-22-32.11-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+KdT = Tornado directionality factor from Section 32.6,
+<br><span class="xref">→ ASCE7-22-32.6-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+KvT = Tornado pressure coef fi cient adjustment factor from Section 32.14,
+<br><span class="xref">→ ASCE7-22-32.14-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Cp = External pressure coef fi cient from Section 27.3.1, and ð GCpiT Þ = Tornado internal pressure coef fi cient from Section 32.13.
+<br><span class="xref">→ ASCE7-22-32.13-H1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">32.15.3 Roof</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Overhangs Section 27.3.3 shall apply for determination of MWFRS loads on roof overhangs.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">32.15.4 Parapets</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Section 27.3.4 shall apply for determination of MWFRS loads on parapets, as modi fi ed in this section. The design tornado pressure, ppt , for the effects of parapets on the MWFRS shall be determined in accordance with the following equation, which replaces Equation (27.3-3):
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+where ppT = Combined net tornado design pressure on the parapet caused by the combination of the net pressures from the front and back parapet surfaces, lb/ft 2 (N/m 2 ). Plus (and minus) signs signify net pressure acting toward (and away from) the front (exterior) side of the parapet;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+qpT = Tornado velocity pressure from Section 32.10.2 evaluated at the top of the parapet, lb/ft 2 (N/m 2 );
+<br><span class="xref">→ ASCE7-22-32.10.2-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+KdT = Tornado directionality factor from Section 32.6; and ð GCpn Þ = Combined net pressure coef fi cient from Section 27.3.4.
+<br><span class="xref">→ ASCE7-22-32.6-H1</span>
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">32.16</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+TORNADO LOADS ON BUILDING APPURTENANCES AND OTHER STRUCTURES: MAIN WIND FORCE RESISTING SYSTEM
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">32.16.1 General Requirements</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The design tornado speed in Section 32.5 for rooftop structures and equipment, including rooftop solar panels, shall equal that used for design of the building.
+<br><span class="xref">→ ASCE7-22-32.5-H1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">32.16.2 Solid</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Freestanding Walls and Solid Signs Section 29.3 shall apply for determination of MWFRS loads on solid freestanding walls and solid signs, as modi fi ed in this section. The design tornado force, FT , for solid freestanding walls and solid freestanding signs shall be determined in accordance with following equation, which replaces Equation (29.3-1):
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+where qzT = Tornado velocity pressure from Section 32.10.2 evaluated at the centroid of area, As , of the wall or sign, lb/ft2 (N/m 2 );
+<br><span class="xref">→ ASCE7-22-32.10.2-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+GT = Tornado gust-effect factor from Section 32.11;
+<br><span class="xref">→ ASCE7-22-32.11-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+KdT = Tornado directionality factor from Section 32.6;
+<br><span class="xref">→ ASCE7-22-32.6-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Cf = Net force coef fi cient from Figure 29.3-1; and
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+As = Gross area of the solid freestanding wall or freestanding solid sign, ft 2 (m 2 ).
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">32.16.3 Other</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Structures Section 29.4 shall apply for determination of MWFRS loads on other structures (chimneys, tanks, open signs, single-plane open frames, and trussed towers), as modi fi ed in this section. The design tornado force, FT , for other structures, whether ground or roof mounted, shall be determined in accordance with the following equation, which replaces Equation (29.4-1):
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+where qzT = Tornado velocity pressure from Section 32.10.2 evaluated at height z , as de fi ned in Section 26.10, of the centroid of area Af , lb/ft 2 (N/m 2 );
+<br><span class="xref">→ ASCE7-22-26.10-H1, ASCE7-22-32.10.2-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+GT = Tornado gust-effect factor from Section 32.11;
+<br><span class="xref">→ ASCE7-22-32.11-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+KdT = Tornado directionality factor from Section 32.6;
+<br><span class="xref">→ ASCE7-22-32.6-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Cf = Force coef fi cients from Section 29.4; and
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+A f = Projected area normal to the tornadic wind from Section 29.4, ft 2 (m 2 ).
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+qhT = Tornado velocity pressure from Section 32.10.2 evaluated at mean roof height h , lb/ft 2 (N/m 2 ),
+<br><span class="xref">→ ASCE7-22-32.10.2-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+GT = Tornado gust-effect factor from Section 32.11,
+<br><span class="xref">→ ASCE7-22-32.11-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+KdT = Tornado directionality factor from Section 32.6,
+<br><span class="xref">→ ASCE7-22-32.6-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+KvT = Tornado pressure coef fi cient adjustment factor from Section 32.14,
+<br><span class="xref">→ ASCE7-22-32.14-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Cp = External pressure coef fi cient from Section 29.4.2.2, and ð GCpiT Þ = Tornado internal pressure coef fi cient from Section 32.13.
+<br><span class="xref">→ ASCE7-22-32.13-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+KdT = Tornado directionality factor from Section 32.6, and ð GCrn Þ = Net pressure coef fi cient from Section 29.4.3.
+<br><span class="xref">→ ASCE7-22-32.6-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+KdT = Tornado directionality factor from Section 32.6;
+<br><span class="xref">→ ASCE7-22-32.6-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+KvT = Tornado pressure coef fi cient adjustment factor from Section 32.14;
+<br><span class="xref">→ ASCE7-22-32.14-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+ð GCp Þ = External pressure coef fi cient from Section 29.4.4;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+γ a = Solar panel pressure equalization factor from Section 29.4.4.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+γ E = Array edge factor from Section 29.4.4; and
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">32.16.3.1 Trussed Towers</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Trussed towers and other open lattice-type structures shall be designed for an additional 40 ft 2 (3.7 m 2 ) of projected surface area of clinging debris at midheight of the structure or 50 ft (15 m), whichever is less.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">32.16.3.2 Rooftop Structures and Equipment for Buildings Section 29.4.1 shall apply for determination of MWFRS loads on rooftop structures and equipment, as modi fi ed in this section. The lateral design tornado force, F hT , and vertical design tornado force, F vT , for rooftop structures and equipment, except as otherwise speci fi ed for roof-mounted solar panels (Sections 32.16.3.4 and 32.16.3.5) and structures identi fi ed in Section 32.16.3, shall be determined as follows.</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+where qhT = Tornado velocity pressure from Section 32.10.2 evaluated at mean roof height h , lb/ft 2 (N/m 2 ),
+<br><span class="xref">→ ASCE7-22-32.10.2-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+KdT = Tornado directionality factor from Section 32.6,
+<br><span class="xref">→ ASCE7-22-32.6-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+ð GCr Þ = Product of external pressure coef fi cient and gust-effect factor from Section 29.4.1, and
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Af = Vertical projected area of the rooftop structure or equipment from Section 29.4.1, ft 2 (m 2 ).
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+qhT = Tornado velocity pressure from Section 32.10.2 evaluated at mean roof height h , lb/ft 2 (N/m 2 ),
+<br><span class="xref">→ ASCE7-22-32.10.2-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+KvT = Tornado pressure coef fi cient adjustment factor from Section 32.14,
+<br><span class="xref">→ ASCE7-22-32.14-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Ar = Horizontal projected area of rooftop structure or equipment, ft 2 (m 2 ).
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">32.17</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+TORNADO LOADS: COMPONENTS AND CLADDING
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">32.17.1 Low-Rise Buildings</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">32.17.2 Buildings with h</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+&gt; 60 ft ( h &gt; 18.3 m) Section 30.4 shall apply for the determination of component and cladding tornado loads on buildings with h &gt; 60 ft ( h &gt; 18.3 m), as modi fi ed in this section. The design tornado pressures, pT , on C&amp;C elements for all buildings with h &gt; 60 ft ( h &gt; 18.3 m) shall be determined in accordance with the following equation, which replaces Equation (30.4-1):
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+qi = q hT For internal pressure evaluation of roofs of enclosed and partially open buildings, lb/ft 2 (N/m 2 );
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+qi = q zT For internal pressure evaluation of walls of enclosed and partially open buildings, lb/ft 2 (N/m 2 );
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+KdT = Tornado directionality factor from Section 32.6;
+<br><span class="xref">→ ASCE7-22-32.6-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+KvT = Tornado pressure coef fi cient adjustment factor from Section 32.14;
+<br><span class="xref">→ ASCE7-22-32.14-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+( GCp ) = External pressure coef fi cient from Section 30.4; and ð GCpiT Þ = Tornado internal pressure coef fi cient from Section 32.13.
+<br><span class="xref">→ ASCE7-22-32.13-H1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">32.17.3 Open Buildings</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">32.17.4 Building Appurtenances and Rooftop Structures and Equipment</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">32.17.4.1 Parapets</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Section 30.6 shall apply for determination of component and cladding tornado loads on parapets, as modi fi ed in this section. The design tornado pressures, pT , on C&amp;Celements of parapets for all building types and heights shall be determined in accordance with the following equation, which replaces Equation (30.6-1):
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+qpT = Tornado velocity pressure from Section 32.10.2 evaluated at the top of the parapet, lb/ft 2 (N/m 2 );
+<br><span class="xref">→ ASCE7-22-32.10.2-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+KdT = Tornado directionality factor from Section 32.6;
+<br><span class="xref">→ ASCE7-22-32.6-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+( GCp ) = External pressure coef fi cient from Section 30.8; and ( GCpiT ) = Tornado internal pressure coef fi cient from Section 32.13, based on the porosity of the parapet envelope.
+<br><span class="xref">→ ASCE7-22-32.13-H1</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">32.17.4.2 Roof</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Overhangs Section 30.7 shall apply for determination of component and cladding tornado loads on roof overhangs, as modi fi ed in this section. The design tornado pressures, pT , on C&amp;C elements of roof overhangs for all building types and heights shall be determined in accordance with the following equation, which replaces Equation (30.7-1):
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+where qhT = Tornado velocity pressure from Section 32.10.2 evaluated at mean roof height h , lb/ft 2 (N/m 2 );
+<br><span class="xref">→ ASCE7-22-32.10.2-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+KdT = Tornado directionality factor from Section 32.6;
+<br><span class="xref">→ ASCE7-22-32.6-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+KvT = Tornado pressure coef fi cient adjustment factor from Section 32.14;
+<br><span class="xref">→ ASCE7-22-32.14-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+( GCp ) = External pressure coef fi cient from Section 30; and
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+( GCpiT ) = Tornado internal pressure coef fi cient from Section 32.13, based on the porosity of the parapet envelope.
+<br><span class="xref">→ ASCE7-22-32.13-H1</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">32.17.4.3 Attached Canopies on Buildings with h</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+≤ 60 ft ( h ≤ 18.3 m) Section 30.9 shall apply for determination of component and cladding tornado loads on attached canopies on buildings with h ≤ 60 ft ( h ≤ 18.3 m), as modi fi ed in this section. The design tornado pressures, pT , on C&amp;C elements of attached canopies shall be determined in accordance with the following equation, which replaces Equation (30.9-1):
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+KdT = Tornado directionality factor from Section 32.6; and ( GCp ) = Net pressure coef fi cient from Section 30.9.
+<br><span class="xref">→ ASCE7-22-32.6-H1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">32.17.5 Nonbuilding Structures</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Section 30.10 shall apply for determination of component and cladding tornado loads on circular bins, silos, and tanks with h ≤ 120 ft ( h ≤ 36.6 m), as modi fi ed in this section.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">32.17.5.1 Isolated Circular Bins, Silos, and Tanks</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The design tornado pressures, pT , on C&amp;C elements of isolated circular bins, silos and tanks shall be determined in accordance with the following equation, which replaces Equation (30.10-1):
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+where qhT = Tornado velocity pressure from Section 32.10.2 evaluated at mean roof height h , lb/ft 2 (N/m 2 );
+<br><span class="xref">→ ASCE7-22-32.10.2-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+KdT = Tornado directionality factor from Section 32.6;
+<br><span class="xref">→ ASCE7-22-32.6-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+( GCp ) = External pressure coef fi cient from Section 30.10; and ( GCpiT ) = Tornado internal pressure coef fi cient, as follows:
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+For internal surface of exterior walls of isolated open-topped circular bins, silos, and tanks, use ( GCpiT ) from Section 30.12.3, and
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+In all other cases, use ( GCpiT ) from Section 32.13.
+<br><span class="xref">→ ASCE7-22-32.13-H1</span>
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">32.18</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+TORNADO LOADS: WIND TUNNEL PROCEDURE
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">32.19</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+</body></html>

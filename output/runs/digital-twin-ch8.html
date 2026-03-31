@@ -1,0 +1,119 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8">
+<title>ASCE 7-22 Chapter 8 — Digital Twin</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#FFF;--s:#F5F5F5;--t:#1A1A1A;--m:#6B6B6B;--b:#D4D4D4;--sub:#E8E8E8;
+--g:#16A34A;--a:#0057FF;--r:#DC2626;--am:#D97706;--cy:#06B6D4;--purple:#8B5CF6}
+@media(prefers-color-scheme:dark){:root{--bg:#0A0A0A;--s:#141414;--t:#E5E5E5;--m:#808080;
+--b:#2A2A2A;--sub:#1A1A1A;--a:#3B82F6}}
+body{background:var(--bg);color:var(--t);font-family:'JetBrains Mono','SF Mono',monospace;
+font-size:11px;max-width:900px;margin:0 auto;padding:16px}
+h1{font-size:13px;text-transform:uppercase;letter-spacing:.1em;margin-bottom:2px}
+.sub{font-size:10px;color:var(--m);margin-bottom:12px}
+.nav{font-size:10px;color:var(--a);margin-bottom:16px}
+.nav a{color:var(--a);text-decoration:none}
+.nav a:hover{text-decoration:underline}
+.section{margin-bottom:12px}
+.sec-num{font-size:12px;font-weight:700;color:var(--t);margin-bottom:2px}
+.sec-0,.sec-1{margin-left:0}.sec-2{margin-left:16px}.sec-3{margin-left:32px}.sec-4{margin-left:48px}
+.child{margin:3px 0;padding:4px 8px;border-left:2px solid var(--sub);font-size:10px;line-height:1.5}
+.child.provision{border-color:var(--g);background:rgba(22,163,74,0.03)}
+.child.definition{border-color:var(--purple);background:rgba(139,92,246,0.03)}
+.child.formula{border-color:var(--a);background:rgba(59,130,246,0.03)}
+.child.table{border-color:var(--cy);background:rgba(6,182,212,0.03)}
+.child.figure{border-color:var(--am);background:rgba(217,119,6,0.03)}
+.child.exception{border-color:var(--r);background:rgba(220,38,38,0.03)}
+.child.user_note{border-color:var(--m);background:rgba(128,128,128,0.03)}
+.child.text_block{border-color:var(--sub)}
+.tag{display:inline-block;padding:0 3px;border:1px solid;font-size:7px;text-transform:uppercase;
+letter-spacing:.04em;margin-right:3px;vertical-align:middle}
+.tag-provision{border-color:var(--g);color:var(--g)}
+.tag-definition{border-color:var(--purple);color:var(--purple)}
+.tag-formula{border-color:var(--a);color:var(--a)}
+.tag-table{border-color:var(--cy);color:var(--cy)}
+.tag-figure{border-color:var(--am);color:var(--am)}
+.tag-exception{border-color:var(--r);color:var(--r)}
+.tag-user_note{border-color:var(--m);color:var(--m)}
+.tag-text_block{border-color:var(--sub);color:var(--m)}
+.meta{font-size:8px;color:var(--m)}
+.xref{font-size:8px;color:var(--a)}
+b{font-weight:600}
+table.tbl{width:100%;border-collapse:collapse;font-size:9px;margin:4px 0}
+table.tbl th{text-align:left;font-size:7px;text-transform:uppercase;color:var(--m);border-bottom:1px solid var(--b);padding:1px 4px}
+table.tbl td{padding:1px 4px;border-bottom:1px solid var(--sub)}
+</style></head><body>
+<h1>ASCE 7-22 Chapter 8 — Digital Twin</h1>
+<div class="sub">38 elements · 5 provisions · 7 definitions · 1 formulas · 1 tables</div>
+<div class="nav"><a href="digital-twin-index.html">← All Chapters</a></div>
+
+<div class="section sec-1">
+<div class="sec-num">8.1 DEFINITIONS AND SYMBOLS</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">8.1.1 De</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">8.1.2 Symbols</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+dh = Hydraulic head equal to the depth of water on the undefl ected roof above the inlet of the secondary drainage system for structural loading (SDSL) required to achieve the design fl ow, in. (mm)
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+ds = Static head equal to the depth of water on the unde fl ected roof up to the inlet of the secondary drainage system for structural loading (SDSL), in. (mm)
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+dp = Ponding head equal to the depth of water due to de fl ections of the roof subjected to unfactored rain load and unfactored dead load in. (mm)
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Ls = Span of secondary members, in. (mm)
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+S = Spacing of secondary members, in. (mm)
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+R = Rain load, lb ∕ ft 2 (kN ∕ m 2 )
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">8.2 DESIGN RAIN LOADS</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(a) The primary drainage system,
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(b) Secondary drainage systems with an inlet that is vertically separated from the inlet to the primary drainage system by less than 2 in. (51 mm),
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(c) Secondary drainage systems that share drain lines with the primary drainage system, or
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(d) Secondary drainage systems with controlled fl ow roof drains.
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">8.3 BAYS WITH LOW SLOPE</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The roof slope is less than 1 ∕ 4 in : per foot (1.19 degrees), or
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The bay is adjacent to a free-draining edge with secondary members parallel to the free-draining edge and the roof slope is less than β where β = ( Ls / S + π )/20 (in. per foot).
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">8.4 DRAINAGE TO EXISTING ROOFS</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">8.5 CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Table 8.2-1. Design Storm Return Period by Risk Category.
+<br><span class="xref">→ ASCE7-22-8.2-E8-2-11</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Downloaded from ascelibrary.org by Serge Terentieff on 03/10/22. Copyright ASCE. For personal use only; all rights reserved.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+This page intentionally left blank
+</div>
+</div>
+</body></html>

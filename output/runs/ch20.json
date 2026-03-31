@@ -9,10 +9,10 @@
       "citation": "Section 20",
       "page": 1
     },
-    "title": "CHAPTER 20 SITE CLASSIFICATION PROCEDURE FOR SEISMIC DESIGN",
+    "title": "CHAPTER 20",
     "description": "",
     "data": {
-      "rule": "CHAPTER 20 SITE CLASSIFICATION PROCEDURE FOR SEISMIC DESIGN",
+      "rule": "CHAPTER 20",
       "conditions": [],
       "then": "",
       "else": null,
@@ -27,6 +27,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-20-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-20-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 20,
+      "section": "20",
+      "citation": "Section 20",
+      "page": 1
+    },
+    "title": "SITE CLASSIFICATION PROCEDURE FOR SEISMIC DESIGN",
+    "description": "",
+    "data": {
+      "rule": "SITE CLASSIFICATION PROCEDURE FOR SEISMIC DESIGN",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-20.1-H1",
     "type": "heading",
     "source": {
@@ -36,7 +63,7 @@
       "citation": "Section 20.1",
       "page": 1
     },
-    "title": "20.1 SITE CLASSIFICATION",
+    "title": "20.1",
     "description": "",
     "data": {
       "rule": "20.1 SITE CLASSIFICATION",
@@ -157,10 +184,10 @@
       "citation": "Section 20.2.1",
       "page": 1
     },
-    "title": "20.2.1 Site Class F Where any of the following conditions is satis fi ed, the site shall be classi fi ed as Site Class F and a site response analysis, in accordance with Section 21.1, shall be perform",
+    "title": "20.2.1 Site Class F",
     "description": "",
     "data": {
-      "rule": "20.2.1 Site Class F Where any of the following conditions is satis fi ed, the site shall be classi fi ed as Site Class F and a site response analysis, in accordance with Section 21.1, shall be performed:",
+      "rule": "20.2.1 Site Class F",
       "conditions": [],
       "then": "",
       "else": null,
@@ -176,6 +203,33 @@
   },
   {
     "id": "ASCE7-22-20.2.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-20.2.1-H2",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 20,
+      "section": "20.2.1",
+      "citation": "Section 20.2.1",
+      "page": 1
+    },
+    "title": "Where any of the following conditions is satis fi ed, the site shall be classi fi ed as Site Class F and a site response analysis, in accordance with Section 21.1, shall be performed:",
+    "description": "",
+    "data": {
+      "rule": "Where any of the following conditions is satis fi ed, the site shall be classi fi ed as Site Class F and a site response analysis, in accordance with Section 21.1, shall be performed:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-20.2.1-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -231,7 +285,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-20.2.1-T2",
+    "id": "ASCE7-22-20.2.1-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -312,7 +366,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-20.2.1-T3",
+    "id": "ASCE7-22-20.2.1-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -402,39 +456,10 @@
       "citation": "Section 20.2.3",
       "page": 1
     },
-    "title": "20.2.3 Site Classes C, CD, D, DE, and E The assignment of Site Class C, CD, D, DE, and E soils shall be made based on the average shear wave velocity, \u00af vs , which is derived from the site shear wave ",
+    "title": "20.2.3 Site Classes C, CD, D, DE, and E",
     "description": "",
     "data": {
-      "rule": "20.2.3 Site Classes C, CD, D, DE, and E The assignment of Site Class C, CD, D, DE, and E soils shall be made based on the average shear wave velocity, \u00af vs , which is derived from the site shear wave velocity pro fi le from the ground surface to a depth of 100 ft (30 m), as described in Section 20.4.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [
-      "ASCE7-22-20.4-H1"
-    ],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-20.2.4-H1",
-    "type": "heading",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 20,
-      "section": "20.2.4",
-      "citation": "Section 20.2.4",
-      "page": 1
-    },
-    "title": "20.2.4 Site Classes B and BC (Medium Hard and Soft Rock) Site Class B can only be assigned to a site on the basis of shear wave velocity measured on site. If shear wave velocity data are not available",
-    "description": "",
-    "data": {
-      "rule": "20.2.4 Site Classes B and BC (Medium Hard and Soft Rock) Site Class B can only be assigned to a site on the basis of shear wave velocity measured on site. If shear wave velocity data are not available and the site condition is estimated by a geotechnical engineer, engineering geologist, or seismologist as Site Class B or BC on the basis of site geology, consisting of competent rock with moderate fracturing and weathering, the site shall be classi fi ed as Site Class BC. Softer and more highly fractured and weathered rock shall either be measured on site for shear wave velocity or classi fi ed as Site Class C.",
+      "rule": "20.2.3 Site Classes C, CD, D, DE, and E",
       "conditions": [],
       "then": "",
       "else": null,
@@ -447,6 +472,89 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-20.2.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-20.2.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 20,
+      "section": "20.2.3",
+      "citation": "Section 20.2.3",
+      "page": 1
+    },
+    "title": "The assignment of Site Class C, CD, D, DE, and E soils shall be made based on the average shear wave velocity, \u00af vs , which is derived from the site shear wave velocity pro fi le from the ground surfa",
+    "description": "",
+    "data": {
+      "rule": "The assignment of Site Class C, CD, D, DE, and E soils shall be made based on the average shear wave velocity, \u00af vs , which is derived from the site shear wave velocity pro fi le from the ground surface to a depth of 100 ft (30 m), as described in Section 20.4.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-20.4-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-20.2.4-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 20,
+      "section": "20.2.4",
+      "citation": "Section 20.2.4",
+      "page": 1
+    },
+    "title": "20.2.4 Site Classes B and BC (Medium Hard and Soft",
+    "description": "",
+    "data": {
+      "rule": "20.2.4 Site Classes B and BC (Medium Hard and Soft",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-20.2.4-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-20.2.4-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 20,
+      "section": "20.2.4",
+      "citation": "Section 20.2.4",
+      "page": 1
+    },
+    "title": "Rock) Site Class B can only be assigned to a site on the basis of shear wave velocity measured on site. If shear wave velocity data are not available and the site condition is estimated by a geotechni",
+    "description": "",
+    "data": {
+      "rule": "Rock) Site Class B can only be assigned to a site on the basis of shear wave velocity measured on site. If shear wave velocity data are not available and the site condition is estimated by a geotechnical engineer, engineering geologist, or seismologist as Site Class B or BC on the basis of site geology, consisting of competent rock with moderate fracturing and weathering, the site shall be classi fi ed as Site Class BC. Softer and more highly fractured and weathered rock shall either be measured on site for shear wave velocity or classi fi ed as Site Class C.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-20.2.5-P1",
@@ -548,10 +656,10 @@
       "citation": "Section 20.3",
       "page": 2
     },
-    "title": "20.3 ESTIMATION OF SHEAR WAVE VELOCITY PROFILES",
+    "title": "20.3",
     "description": "",
     "data": {
-      "rule": "20.3 ESTIMATION OF SHEAR WAVE VELOCITY PROFILES",
+      "rule": "20.3",
       "conditions": [],
       "then": "",
       "else": null,
@@ -564,6 +672,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-20.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-20.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 20,
+      "section": "20.3",
+      "citation": "Section 20.3",
+      "page": 2
+    },
+    "title": "ESTIMATION OF SHEAR WAVE VELOCITY PROFILES",
+    "description": "",
+    "data": {
+      "rule": "ESTIMATION OF SHEAR WAVE VELOCITY PROFILES",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-20.3-P1",
@@ -728,10 +863,10 @@
       "citation": "Section 20.4.1",
       "page": 2
     },
-    "title": "20.4.1 \u0016 vs , Average Shear Wave Velocity The average shear wave velocity, \u00af vs , shall be determined in accordance with the following formula:",
+    "title": "20.4.1",
     "description": "",
     "data": {
-      "rule": "20.4.1 \u0016 vs , Average Shear Wave Velocity The average shear wave velocity, \u00af vs , shall be determined in accordance with the following formula: where",
+      "rule": "20.4.1",
       "conditions": [],
       "then": "",
       "else": null,
@@ -746,7 +881,34 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-20.4.1-T2",
+    "id": "ASCE7-22-20.4.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-20.4.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 20,
+      "section": "20.4.1",
+      "citation": "Section 20.4.1",
+      "page": 2
+    },
+    "title": "\u0016 vs , Average Shear Wave Velocity The average shear wave velocity, \u00af vs , shall be determined in accordance with the following formula:",
+    "description": "",
+    "data": {
+      "rule": "\u0016 vs , Average Shear Wave Velocity The average shear wave velocity, \u00af vs , shall be determined in accordance with the following formula: where",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-20.4.1-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -782,10 +944,10 @@
       "citation": "Section 20.5",
       "page": 2
     },
-    "title": "20.5 CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
+    "title": "20.5",
     "description": "",
     "data": {
-      "rule": "20.5 CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
+      "rule": "20.5",
       "conditions": [],
       "then": "",
       "else": null,
@@ -798,6 +960,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-20.5-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-20.5-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 20,
+      "section": "20.5",
+      "citation": "Section 20.5",
+      "page": 2
+    },
+    "title": "CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
+    "description": "",
+    "data": {
+      "rule": "CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-20.5-P1",

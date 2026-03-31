@@ -9,7 +9,7 @@
       "citation": "Section 32.1",
       "page": 1
     },
-    "title": "32.1 PROCEDURES",
+    "title": "32.1",
     "description": "",
     "data": {
       "rule": "32.1 PROCEDURES",
@@ -36,10 +36,38 @@
       "citation": "Section 32.1.1",
       "page": 1
     },
-    "title": "32.1.1 Scope Buildings and other structures classi fi ed as Risk Category III or IV and located in the tornado-prone region as shown in Figure 32.1-1, including the main wind force resisting system (M",
+    "title": "32.1.1 Scope",
     "description": "",
     "data": {
-      "rule": "32.1.1 Scope Buildings and other structures classi fi ed as Risk Category III or IV and located in the tornado-prone region as shown in Figure 32.1-1, including the main wind force resisting system (MWFRS) and all components and cladding (C&C) thereof, shall be designed and constructed to resist the greater of the tornado loads determined in accordance with the provisions of this chapter or the wind loads determined in accordance with Chapters 26 through 31, using the load combinations provided in Chapter 2.",
+      "rule": "32.1.1 Scope",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-32.1.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-32.1.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 32,
+      "section": "32.1.1",
+      "citation": "Section 32.1.1",
+      "page": 1
+    },
+    "title": "Buildings and other structures classi fi ed as Risk Category III or IV and located in the tornado-prone region as shown in Figure 32.1-1, including the main wind force resisting system (MWFRS) and all",
+    "description": "",
+    "data": {
+      "rule": "Buildings and other structures classi fi ed as Risk Category III or IV and located in the tornado-prone region as shown in Figure 32.1-1, including the main wind force resisting system (MWFRS) and all components and cladding (C&C) thereof, shall be designed and constructed to resist the greater of the tornado loads determined in accordance with the provisions of this chapter or the wind loads determined in accordance with Chapters 26 through 31, using the load combinations provided in Chapter 2.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -51,9 +79,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-32.1.1-N1",
@@ -92,10 +119,10 @@
       "citation": "Section 32.1.2",
       "page": 1
     },
-    "title": "32.1.2 Permitted Procedures The design tornado loads for buildings and other structures, including the MWFRS and C&C elements thereof, shall be determined using one of the procedures as speci fi ed in",
+    "title": "32.1.2 Permitted Procedures",
     "description": "",
     "data": {
-      "rule": "32.1.2 Permitted Procedures The design tornado loads for buildings and other structures, including the MWFRS and C&C elements thereof, shall be determined using one of the procedures as speci fi ed in this section and subject to the applicable limitations of Chapters 26 through 32, excluding Chapter 28.",
+      "rule": "32.1.2 Permitted Procedures",
       "conditions": [],
       "then": "",
       "else": null,
@@ -111,6 +138,33 @@
   },
   {
     "id": "ASCE7-22-32.1.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-32.1.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 32,
+      "section": "32.1.2",
+      "citation": "Section 32.1.2",
+      "page": 1
+    },
+    "title": "The design tornado loads for buildings and other structures, including the MWFRS and C&C elements thereof, shall be determined using one of the procedures as speci fi ed in this section and subject to",
+    "description": "",
+    "data": {
+      "rule": "The design tornado loads for buildings and other structures, including the MWFRS and C&C elements thereof, shall be determined using one of the procedures as speci fi ed in this section and subject to the applicable limitations of Chapters 26 through 32, excluding Chapter 28.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-32.1.2-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -175,7 +229,7 @@
       "citation": "Section 32.1.2.1",
       "page": 1
     },
-    "title": "CHAPTER 32 TORNADO LOADS",
+    "title": "CHAPTER 32",
     "description": "",
     "data": {
       "rule": "CHAPTER 32 TORNADO LOADS",
@@ -220,7 +274,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-32.1.2.1-T1",
+    "id": "ASCE7-22-32.1.2.1-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -247,7 +301,7 @@
     "parent_id": "ASCE7-22-32.1.2.1-H2"
   },
   {
-    "id": "ASCE7-22-32.1.2.1-T2",
+    "id": "ASCE7-22-32.1.2.1-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -364,10 +418,10 @@
       "citation": "Section 32.1.3",
       "page": 1
     },
-    "title": "32.1.3 Performance-Based Procedures Tornado design of buildings and other structures using performance-based procedures shall be permitted subject to the approval of the Authority Having Jurisdiction.",
+    "title": "32.1.3 Performance-Based Procedures",
     "description": "",
     "data": {
-      "rule": "32.1.3 Performance-Based Procedures Tornado design of buildings and other structures using performance-based procedures shall be permitted subject to the approval of the Authority Having Jurisdiction. The performance-based tornado design procedures used shall, at a minimum, conform to Section 1.3.1.3 and be documented and submitted to the Authority Having Jurisdiction in accordance with Section 1.3.1.3.",
+      "rule": "32.1.3 Performance-Based Procedures",
       "conditions": [],
       "then": "",
       "else": null,
@@ -382,6 +436,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-32.1.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-32.1.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 32,
+      "section": "32.1.3",
+      "citation": "Section 32.1.3",
+      "page": 1
+    },
+    "title": "Tornado design of buildings and other structures using performance-based procedures shall be permitted subject to the approval of the Authority Having Jurisdiction. The performance-based tornado desig",
+    "description": "",
+    "data": {
+      "rule": "Tornado design of buildings and other structures using performance-based procedures shall be permitted subject to the approval of the Authority Having Jurisdiction. The performance-based tornado design procedures used shall, at a minimum, conform to Section 1.3.1.3 and be documented and submitted to the Authority Having Jurisdiction in accordance with Section 1.3.1.3.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-32.2-H1",
     "type": "heading",
     "source": {
@@ -391,7 +472,7 @@
       "citation": "Section 32.2",
       "page": 1
     },
-    "title": "32.2 DEFINITIONS",
+    "title": "32.2",
     "description": "",
     "data": {
       "rule": "32.2 DEFINITIONS",
@@ -484,7 +565,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-32.2-T1",
+    "id": "ASCE7-22-32.2-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -513,7 +594,7 @@
     "parent_id": "ASCE7-22-32.2-H1"
   },
   {
-    "id": "ASCE7-22-32.2-T3",
+    "id": "ASCE7-22-32.2-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -549,7 +630,7 @@
       "citation": "Section 32.3",
       "page": 2
     },
-    "title": "32.3 SYMBOLS AND NOTATION",
+    "title": "32.3",
     "description": "",
     "data": {
       "rule": "32.3 SYMBOLS AND NOTATION",
@@ -594,7 +675,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-32.3-T1",
+    "id": "ASCE7-22-32.3-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -623,7 +704,7 @@
     "parent_id": "ASCE7-22-32.3-H1"
   },
   {
-    "id": "ASCE7-22-32.3-T2",
+    "id": "ASCE7-22-32.3-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -650,7 +731,7 @@
     "parent_id": "ASCE7-22-32.3-H1"
   },
   {
-    "id": "ASCE7-22-32.3-T3",
+    "id": "ASCE7-22-32.3-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -677,7 +758,7 @@
     "parent_id": "ASCE7-22-32.3-H1"
   },
   {
-    "id": "ASCE7-22-32.3-T4",
+    "id": "ASCE7-22-32.3-T5",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -704,7 +785,7 @@
     "parent_id": "ASCE7-22-32.3-H1"
   },
   {
-    "id": "ASCE7-22-32.3-T5",
+    "id": "ASCE7-22-32.3-T6",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -734,7 +815,7 @@
     "parent_id": "ASCE7-22-32.3-H1"
   },
   {
-    "id": "ASCE7-22-32.3-T6",
+    "id": "ASCE7-22-32.3-T7",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -763,7 +844,7 @@
     "parent_id": "ASCE7-22-32.3-H1"
   },
   {
-    "id": "ASCE7-22-32.3-T7",
+    "id": "ASCE7-22-32.3-T8",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -792,7 +873,7 @@
     "parent_id": "ASCE7-22-32.3-H1"
   },
   {
-    "id": "ASCE7-22-32.3-T8",
+    "id": "ASCE7-22-32.3-T9",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -821,7 +902,7 @@
     "parent_id": "ASCE7-22-32.3-H1"
   },
   {
-    "id": "ASCE7-22-32.3-T9",
+    "id": "ASCE7-22-32.3-T10",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -850,7 +931,7 @@
     "parent_id": "ASCE7-22-32.3-H1"
   },
   {
-    "id": "ASCE7-22-32.3-T10",
+    "id": "ASCE7-22-32.3-T11",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -877,7 +958,7 @@
     "parent_id": "ASCE7-22-32.3-H1"
   },
   {
-    "id": "ASCE7-22-32.3-T11",
+    "id": "ASCE7-22-32.3-T12",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -904,7 +985,7 @@
     "parent_id": "ASCE7-22-32.3-H1"
   },
   {
-    "id": "ASCE7-22-32.3-T12",
+    "id": "ASCE7-22-32.3-T13",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -933,7 +1014,7 @@
     "parent_id": "ASCE7-22-32.1-F32-1-11"
   },
   {
-    "id": "ASCE7-22-32.3-T13",
+    "id": "ASCE7-22-32.3-T14",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -960,7 +1041,7 @@
     "parent_id": "ASCE7-22-32.3-H1"
   },
   {
-    "id": "ASCE7-22-32.3-T14",
+    "id": "ASCE7-22-32.3-T15",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -987,7 +1068,7 @@
     "parent_id": "ASCE7-22-32.3-H1"
   },
   {
-    "id": "ASCE7-22-32.3-T15",
+    "id": "ASCE7-22-32.3-T16",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1014,7 +1095,7 @@
     "parent_id": "ASCE7-22-32.3-H1"
   },
   {
-    "id": "ASCE7-22-32.3-T16",
+    "id": "ASCE7-22-32.3-T17",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1041,7 +1122,7 @@
     "parent_id": "ASCE7-22-32.3-H1"
   },
   {
-    "id": "ASCE7-22-32.3-T17",
+    "id": "ASCE7-22-32.3-T18",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1068,7 +1149,7 @@
     "parent_id": "ASCE7-22-32.3-H1"
   },
   {
-    "id": "ASCE7-22-32.3-T18",
+    "id": "ASCE7-22-32.3-T19",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1131,39 +1212,10 @@
       "citation": "Section 32.4.1",
       "page": 2
     },
-    "title": "32.4.1 Sign Convention The combined effects of internal pressures and atmospheric pressure change, expressed in coef fi cient form by ( GC piT ), shall follow the same sign convention as provided in S",
+    "title": "32.4.1 Sign",
     "description": "",
     "data": {
-      "rule": "32.4.1 Sign Convention The combined effects of internal pressures and atmospheric pressure change, expressed in coef fi cient form by ( GC piT ), shall follow the same sign convention as provided in Section 26.4, where positive pressure acts toward the surface and negative pressure acts away from the surface.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [
-      "ASCE7-22-26.4-H1"
-    ],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-32.4.2-H1",
-    "type": "heading",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.4.2",
-      "citation": "Section 32.4.2",
-      "page": 2
-    },
-    "title": "32.4.2 Critical Load Condition Values of external pressures shall be combined algebraically with the combined effects of internal pressures and atmospheric pressure change to determine the most critic",
-    "description": "",
-    "data": {
-      "rule": "32.4.2 Critical Load Condition Values of external pressures shall be combined algebraically with the combined effects of internal pressures and atmospheric pressure change to determine the most critical load.",
+      "rule": "32.4.1 Sign",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1178,6 +1230,89 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-32.4.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-32.4.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 32,
+      "section": "32.4.1",
+      "citation": "Section 32.4.1",
+      "page": 2
+    },
+    "title": "Convention The combined effects of internal pressures and atmospheric pressure change, expressed in coef fi cient form by ( GC piT ), shall follow the same sign convention as provided in Section 26.4,",
+    "description": "",
+    "data": {
+      "rule": "Convention The combined effects of internal pressures and atmospheric pressure change, expressed in coef fi cient form by ( GC piT ), shall follow the same sign convention as provided in Section 26.4, where positive pressure acts toward the surface and negative pressure acts away from the surface.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.4-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-32.4.2-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 32,
+      "section": "32.4.2",
+      "citation": "Section 32.4.2",
+      "page": 2
+    },
+    "title": "32.4.2 Critical Load Condition",
+    "description": "",
+    "data": {
+      "rule": "32.4.2 Critical Load Condition",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-32.4.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-32.4.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 32,
+      "section": "32.4.2",
+      "citation": "Section 32.4.2",
+      "page": 2
+    },
+    "title": "Values of external pressures shall be combined algebraically with the combined effects of internal pressures and atmospheric pressure change to determine the most critical load.",
+    "description": "",
+    "data": {
+      "rule": "Values of external pressures shall be combined algebraically with the combined effects of internal pressures and atmospheric pressure change to determine the most critical load.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-32.5-H1",
     "type": "heading",
     "source": {
@@ -1187,7 +1322,7 @@
       "citation": "Section 32.5",
       "page": 2
     },
-    "title": "32.5 TORNADO HAZARD MAPS",
+    "title": "32.5",
     "description": "",
     "data": {
       "rule": "32.5 TORNADO HAZARD MAPS",
@@ -1214,10 +1349,10 @@
       "citation": "Section 32.5.1",
       "page": 2
     },
-    "title": "32.5.1 Tornado Speed The tornado speed, VT , used in the determination of tornado loads on buildings and other structures shall be determined from Figures 32.5-1 and 32.5-2 as follows:",
+    "title": "32.5.1 Tornado Speed",
     "description": "",
     "data": {
-      "rule": "32.5.1 Tornado Speed The tornado speed, VT , used in the determination of tornado loads on buildings and other structures shall be determined from Figures 32.5-1 and 32.5-2 as follows:",
+      "rule": "32.5.1 Tornado Speed",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1233,6 +1368,33 @@
   },
   {
     "id": "ASCE7-22-32.5.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-32.5.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 32,
+      "section": "32.5.1",
+      "citation": "Section 32.5.1",
+      "page": 2
+    },
+    "title": "The tornado speed, VT , used in the determination of tornado loads on buildings and other structures shall be determined from Figures 32.5-1 and 32.5-2 as follows:",
+    "description": "",
+    "data": {
+      "rule": "The tornado speed, VT , used in the determination of tornado loads on buildings and other structures shall be determined from Figures 32.5-1 and 32.5-2 as follows:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-32.5.1-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1542,7 +1704,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-32.5.1-T36",
+    "id": "ASCE7-22-32.5.1-T37",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1571,7 +1733,7 @@
     "parent_id": "ASCE7-22-32.1-F32-1-31"
   },
   {
-    "id": "ASCE7-22-32.5.1-T37",
+    "id": "ASCE7-22-32.5.1-T38",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1663,10 +1825,10 @@
       "citation": "Section 32.5.2",
       "page": 4
     },
-    "title": "32.5.2 Design for Tornado Loads Not Required For Risk Category III and IV buildings and other structures determined to have tornado speeds VT < 60 mi/h (26.8 m/s), design for tornado loads shall not b",
+    "title": "32.5.2 Design for Tornado Loads Not Required",
     "description": "",
     "data": {
-      "rule": "32.5.2 Design for Tornado Loads Not Required For Risk Category III and IV buildings and other structures determined to have tornado speeds VT < 60 mi/h (26.8 m/s), design for tornado loads shall not be required. Where VT \u2265 60 mi/h (26.8 m/ s) but is less than the following threshold speeds then design for tornado loads shall not be required:",
+      "rule": "32.5.2 Design for Tornado Loads Not Required",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1682,6 +1844,33 @@
   },
   {
     "id": "ASCE7-22-32.5.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-32.5.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 32,
+      "section": "32.5.2",
+      "citation": "Section 32.5.2",
+      "page": 4
+    },
+    "title": "For Risk Category III and IV buildings and other structures determined to have tornado speeds VT < 60 mi/h (26.8 m/s), design for tornado loads shall not be required. Where VT \u2265 60 mi/h (26.8 m/ s) bu",
+    "description": "",
+    "data": {
+      "rule": "For Risk Category III and IV buildings and other structures determined to have tornado speeds VT < 60 mi/h (26.8 m/s), design for tornado loads shall not be required. Where VT \u2265 60 mi/h (26.8 m/ s) but is less than the following threshold speeds then design for tornado loads shall not be required:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-32.5.2-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1708,7 +1897,7 @@
     "parent_id": "ASCE7-22-32.5.2-H1"
   },
   {
-    "id": "ASCE7-22-32.5.2-T3",
+    "id": "ASCE7-22-32.5.2-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1735,7 +1924,7 @@
     "parent_id": "ASCE7-22-32.5.2-H1"
   },
   {
-    "id": "ASCE7-22-32.5.2-T4",
+    "id": "ASCE7-22-32.5.2-T5",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1762,7 +1951,7 @@
       "qc_status": "pending",
       "qc_notes": null
     },
-    "parent_id": "ASCE7-22-32.5.2-T3"
+    "parent_id": "ASCE7-22-32.5.2-T4"
   },
   {
     "id": "ASCE7-22-32.5.3-P1",
@@ -1801,10 +1990,10 @@
       "citation": "Section 32.5.4",
       "page": 4
     },
-    "title": "32.5.4 Effective Plan Area The effective plan area, Ae , of the building or other structure shall be determined in accordance with this section.",
+    "title": "32.5.4 Effective Plan Area",
     "description": "",
     "data": {
-      "rule": "32.5.4 Effective Plan Area The effective plan area, Ae , of the building or other structure shall be determined in accordance with this section.",
+      "rule": "32.5.4 Effective Plan Area",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1817,6 +2006,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-32.5.4-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-32.5.4-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 32,
+      "section": "32.5.4",
+      "citation": "Section 32.5.4",
+      "page": 4
+    },
+    "title": "The effective plan area, Ae , of the building or other structure shall be determined in accordance with this section.",
+    "description": "",
+    "data": {
+      "rule": "The effective plan area, Ae , of the building or other structure shall be determined in accordance with this section.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-32.5.4.1-P1",
@@ -1855,10 +2071,10 @@
       "citation": "Section 32.5.4.2",
       "page": 4
     },
-    "title": "32.5.4.2 Other than Essential Facilities For buildings and structures that are not designated as Essential Facilities and are not required to maintain the functionality of Essential Facilities, the ef",
+    "title": "32.5.4.2 Other than Essential Facilities",
     "description": "",
     "data": {
-      "rule": "32.5.4.2 Other than Essential Facilities For buildings and structures that are not designated as Essential Facilities and are not required to maintain the functionality of Essential Facilities, the effective plan area shall be equal to the area of the smallest convex polygon enclosing the plan of the building, other structure, or facility. It is permitted to reduce the effective plan area to that of the effective plan area of the largest structurally independent building or other structure, which does not share structural components with adjacent buildings or other structures.",
+      "rule": "32.5.4.2 Other than Essential Facilities",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1871,6 +2087,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-32.5.4.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-32.5.4.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 32,
+      "section": "32.5.4.2",
+      "citation": "Section 32.5.4.2",
+      "page": 4
+    },
+    "title": "For buildings and structures that are not designated as Essential Facilities and are not required to maintain the functionality of Essential Facilities, the effective plan area shall be equal to the a",
+    "description": "",
+    "data": {
+      "rule": "For buildings and structures that are not designated as Essential Facilities and are not required to maintain the functionality of Essential Facilities, the effective plan area shall be equal to the area of the smallest convex polygon enclosing the plan of the building, other structure, or facility. It is permitted to reduce the effective plan area to that of the effective plan area of the largest structurally independent building or other structure, which does not share structural components with adjacent buildings or other structures.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-32.5.4.3-T1",
@@ -1936,7 +2179,7 @@
       "citation": "Section 32.6",
       "page": 5
     },
-    "title": "32.6 TORNADO DIRECTIONALITY FACTOR",
+    "title": "32.6",
     "description": "",
     "data": {
       "rule": "32.6 TORNADO DIRECTIONALITY FACTOR",
@@ -1992,7 +2235,7 @@
       "citation": "Section 32.7",
       "page": 5
     },
-    "title": "32.7 TORNADO EXPOSURE",
+    "title": "32.7",
     "description": "",
     "data": {
       "rule": "32.7 TORNADO EXPOSURE",
@@ -2049,7 +2292,7 @@
       "citation": "Section 32.8",
       "page": 5
     },
-    "title": "32.8 TOPOGRAPHIC FACTOR",
+    "title": "32.8",
     "description": "",
     "data": {
       "rule": "32.8 TOPOGRAPHIC FACTOR",
@@ -2106,7 +2349,7 @@
       "citation": "Section 32.9",
       "page": 5
     },
-    "title": "32.9 GROUND ELEVATION FACTOR",
+    "title": "32.9",
     "description": "",
     "data": {
       "rule": "32.9 GROUND ELEVATION FACTOR",
@@ -2163,7 +2406,7 @@
       "citation": "Section 32.10",
       "page": 5
     },
-    "title": "32.10 TORNADO VELOCITY PRESSURE",
+    "title": "32.10",
     "description": "",
     "data": {
       "rule": "32.10 TORNADO VELOCITY PRESSURE",
@@ -2190,39 +2433,10 @@
       "citation": "Section 32.10.1",
       "page": 5
     },
-    "title": "32.10.1 Tornado Velocity Pressure Exposure Coef fi cient A tornado velocity pressure exposure coef fi cient, KzTor or KhTor , as applicable, shall be determined from Table 32.10-1.",
+    "title": "32.10.1 Tornado Velocity Pressure Exposure Coef",
     "description": "",
     "data": {
-      "rule": "32.10.1 Tornado Velocity Pressure Exposure Coef fi cient A tornado velocity pressure exposure coef fi cient, KzTor or KhTor , as applicable, shall be determined from Table 32.10-1.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [
-      "ASCE7-22-32.10-E32-10-11"
-    ],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-32.10.2-H1",
-    "type": "heading",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.10.2",
-      "citation": "Section 32.10.2",
-      "page": 5
-    },
-    "title": "32.10.2 Tornado Velocity Pressure Tornado velocity pressure, qzT , evaluated at height z above ground, shall be determined in accordance with the following equation:",
-    "description": "",
-    "data": {
-      "rule": "32.10.2 Tornado Velocity Pressure Tornado velocity pressure, qzT , evaluated at height z above ground, shall be determined in accordance with the following equation: where",
+      "rule": "32.10.1 Tornado Velocity Pressure Exposure Coef",
       "conditions": [],
       "then": "",
       "else": null,
@@ -2237,7 +2451,90 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-32.10.2-T2",
+    "id": "ASCE7-22-32.10.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-32.10.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 32,
+      "section": "32.10.1",
+      "citation": "Section 32.10.1",
+      "page": 5
+    },
+    "title": "fi cient A tornado velocity pressure exposure coef fi cient, KzTor or KhTor , as applicable, shall be determined from Table 32.10-1.",
+    "description": "",
+    "data": {
+      "rule": "fi cient A tornado velocity pressure exposure coef fi cient, KzTor or KhTor , as applicable, shall be determined from Table 32.10-1.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-32.10-E32-10-11"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-32.10.2-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 32,
+      "section": "32.10.2",
+      "citation": "Section 32.10.2",
+      "page": 5
+    },
+    "title": "32.10.2 Tornado Velocity Pressure",
+    "description": "",
+    "data": {
+      "rule": "32.10.2 Tornado Velocity Pressure",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-32.10.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-32.10.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 32,
+      "section": "32.10.2",
+      "citation": "Section 32.10.2",
+      "page": 5
+    },
+    "title": "Tornado velocity pressure, qzT , evaluated at height z above ground, shall be determined in accordance with the following equation:",
+    "description": "",
+    "data": {
+      "rule": "Tornado velocity pressure, qzT , evaluated at height z above ground, shall be determined in accordance with the following equation: where",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-32.10.2-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2266,7 +2563,7 @@
     "parent_id": "ASCE7-22-32.10.2-H1"
   },
   {
-    "id": "ASCE7-22-32.10.2-T3",
+    "id": "ASCE7-22-32.10.2-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2295,7 +2592,7 @@
     "parent_id": "ASCE7-22-32.10.2-H1"
   },
   {
-    "id": "ASCE7-22-32.10.2-T4",
+    "id": "ASCE7-22-32.10.2-T5",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2360,7 +2657,7 @@
       "citation": "Section 32.11",
       "page": 5
     },
-    "title": "32.11 TORNADO GUST EFFECTS",
+    "title": "32.11",
     "description": "",
     "data": {
       "rule": "32.11 TORNADO GUST EFFECTS",
@@ -2387,10 +2684,10 @@
       "citation": "Section 32.11.1",
       "page": 5
     },
-    "title": "32.11.1 Tornado Gust-Effect Factor The tornado gust-effect factor, GT , for a building or other structure shall be 0.85 or calculated from Equation (26.11-6) using Exposure C terrain exposure constant",
+    "title": "32.11.1 Tornado Gust-Effect Factor",
     "description": "",
     "data": {
-      "rule": "32.11.1 Tornado Gust-Effect Factor The tornado gust-effect factor, GT , for a building or other structure shall be 0.85 or calculated from Equation (26.11-6) using Exposure C terrain exposure constants.",
+      "rule": "32.11.1 Tornado Gust-Effect Factor",
       "conditions": [],
       "then": "",
       "else": null,
@@ -2405,6 +2702,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-32.11.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-32.11.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 32,
+      "section": "32.11.1",
+      "citation": "Section 32.11.1",
+      "page": 5
+    },
+    "title": "The tornado gust-effect factor, GT , for a building or other structure shall be 0.85 or calculated from Equation (26.11-6) using Exposure C terrain exposure constants.",
+    "description": "",
+    "data": {
+      "rule": "The tornado gust-effect factor, GT , for a building or other structure shall be 0.85 or calculated from Equation (26.11-6) using Exposure C terrain exposure constants.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-32.11.2-H1",
     "type": "heading",
     "source": {
@@ -2414,10 +2738,10 @@
       "citation": "Section 32.11.2",
       "page": 5
     },
-    "title": "32.11.2 Limitations Where the combined gust-effect factors and pressure coef fi cients ( GCp ), ( GCpiT ), and ( GCpf ) are given in fi gures and tables, the gust-effect factor shall not be determined",
+    "title": "32.11.2 Limitations",
     "description": "",
     "data": {
-      "rule": "32.11.2 Limitations Where the combined gust-effect factors and pressure coef fi cients ( GCp ), ( GCpiT ), and ( GCpf ) are given in fi gures and tables, the gust-effect factor shall not be determined separately.",
+      "rule": "32.11.2 Limitations",
       "conditions": [],
       "then": "",
       "else": null,
@@ -2430,6 +2754,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-32.11.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-32.11.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 32,
+      "section": "32.11.2",
+      "citation": "Section 32.11.2",
+      "page": 5
+    },
+    "title": "Where the combined gust-effect factors and pressure coef fi cients ( GCp ), ( GCpiT ), and ( GCpf ) are given in fi gures and tables, the gust-effect factor shall not be determined separately.",
+    "description": "",
+    "data": {
+      "rule": "Where the combined gust-effect factors and pressure coef fi cients ( GCp ), ( GCpiT ), and ( GCpf ) are given in fi gures and tables, the gust-effect factor shall not be determined separately.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-32.12-H1",
@@ -2468,10 +2819,10 @@
       "citation": "Section 32.12.1",
       "page": 5
     },
-    "title": "32.12.1 General For the purpose of determining internal pressure coef fi cients for tornadoes, buildings and other structures for which tornado internal pressure coef fi cients, ( GCpiT ), apply shall",
+    "title": "32.12.1 General",
     "description": "",
     "data": {
-      "rule": "32.12.1 General For the purpose of determining internal pressure coef fi cients for tornadoes, buildings and other structures for which tornado internal pressure coef fi cients, ( GCpiT ), apply shall have an enclosure classi fi cation assigned in accordance with this section. If a building or other structure satis fi es both the ' open ' and ' partially enclosed ' tornado enclosure classi fi cation de fi nitions, it shall be classi fi ed as a ' partially open ' building or other structure.",
+      "rule": "32.12.1 General",
       "conditions": [],
       "then": "",
       "else": null,
@@ -2484,6 +2835,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-32.12.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-32.12.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 32,
+      "section": "32.12.1",
+      "citation": "Section 32.12.1",
+      "page": 5
+    },
+    "title": "For the purpose of determining internal pressure coef fi cients for tornadoes, buildings and other structures for which tornado internal pressure coef fi cients, ( GCpiT ), apply shall have an enclosu",
+    "description": "",
+    "data": {
+      "rule": "For the purpose of determining internal pressure coef fi cients for tornadoes, buildings and other structures for which tornado internal pressure coef fi cients, ( GCpiT ), apply shall have an enclosure classi fi cation assigned in accordance with this section. If a building or other structure satis fi es both the ' open ' and ' partially enclosed ' tornado enclosure classi fi cation de fi nitions, it shall be classi fi ed as a ' partially open ' building or other structure.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-32.12.2-P1",
@@ -2694,7 +3072,7 @@
       "citation": "Section 32.13",
       "page": 5
     },
-    "title": "Tornado internal pressure coef fi cients, ( GCpiT ), shall be determined from Table 32.13-1 based on building and other structure enclosure classi fi cations determined in accordance with Section 32.1",
+    "title": "Tornado internal pressure coef fi cients, ( GCpiT ), shall be determined from Table 32.13-1 based on building and other structure enclosure classi fi cations determined in accordance with Section 32.12.1.",
     "description": "",
     "data": {
       "rule": "Tornado internal pressure coef fi cients, ( GCpiT ), shall be determined from Table 32.13-1 based on building and other structure enclosure classi fi cations determined in accordance with Section 32.12.1. Notes:",
@@ -2728,13 +3106,13 @@
     "data": {
       "expression": "The velocity pressure at mean roof height shall be computed as qhT = qzT evaluated from Equation (32.10-1)",
       "parameters": {
-        "qzT": {
-          "description": "Tornado velocity pressure evaluated at height z above ground, lb/ft 2 (N/m 2 )",
-          "source": "ASCE7-22-32.3-T16"
-        },
         "qhT": {
           "description": "Tornado velocity pressure from Section 32.10.2 evaluated at mean roof height h , lb/ft 2 (N/m 2 );",
           "source": "ASCE7-22-32.17.3-T2"
+        },
+        "qzT": {
+          "description": "Tornado velocity pressure evaluated at height z above ground, lb/ft 2 (N/m 2 )",
+          "source": "ASCE7-22-32.3-T16"
         }
       }
     },
@@ -3075,6 +3453,33 @@
     "parent_id": "ASCE7-22-32.5-F32-5-1B1"
   },
   {
+    "id": "ASCE7-22-32.13-T20",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 32,
+      "section": "32.13",
+      "citation": "Section 32.13",
+      "page": 9
+    },
+    "title": "Tornado speeds correspond to approximately a 3% probability of exceedance in 50 years (annual exceedance probability = 0.000588, MRI = 1,700 years).",
+    "description": "",
+    "data": {
+      "rule": "Tornado speeds correspond to approximately a 3% probability of exceedance in 50 years (annual exceedance probability = 0.000588, MRI = 1,700 years).",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-32.13-H20"
+  },
+  {
     "id": "ASCE7-22-32.13-T21",
     "type": "text_block",
     "source": {
@@ -3353,6 +3758,33 @@
       "qc_notes": null
     },
     "parent_id": "ASCE7-22-32.13-H20"
+  },
+  {
+    "id": "ASCE7-22-32.13-P13",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 32,
+      "section": "32.13",
+      "citation": "Section 32.13",
+      "page": 14
+    },
+    "title": "3. Linear interpolation is permitted between contours. Point values (where shown) are provided to aid with interpolation.",
+    "description": "",
+    "data": {
+      "rule": "3. Linear interpolation is permitted between contours. Point values (where shown) are provided to aid with interpolation. nid with internolation",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-32.13-T51",
@@ -4070,6 +4502,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-32.13-P43",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 32,
+      "section": "32.13",
+      "citation": "Section 32.13",
+      "page": 34
+    },
+    "title": "3. Linear interpolation is permitted between contours. Point values (where shown) are provided to aid with interpolation.",
+    "description": "",
+    "data": {
+      "rule": "3. Linear interpolation is permitted between contours. Point values (where shown) are provided to aid with interpolation. 50 60 \u20bd 70' 80 90",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
     "id": "ASCE7-22-32.13-T248",
     "type": "text_block",
     "source": {
@@ -4646,39 +5105,10 @@
       "citation": "Section 32.13.1",
       "page": 39
     },
-    "title": "32.13.1 Reduction Factor for Large-Volume Buildings, Ri For a partially enclosed building containing a single, unpartitioned large volume, the internal pressure coef fi cient, ( GCpiT ), is permitted ",
+    "title": "32.13.1 Reduction",
     "description": "",
     "data": {
-      "rule": "32.13.1 Reduction Factor for Large-Volume Buildings, Ri For a partially enclosed building containing a single, unpartitioned large volume, the internal pressure coef fi cient, ( GCpiT ), is permitted to be multiplied by the reduction factor, Ri , as determined in Section 26.13.1.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [
-      "ASCE7-22-26.13.1-H1"
-    ],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-32.14-H1",
-    "type": "heading",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.14",
-      "citation": "Section 32.14",
-      "page": 39
-    },
-    "title": "32.14 TORNADO EXTERNAL PRESSURE COEFFICIENTS",
-    "description": "",
-    "data": {
-      "rule": "32.14 TORNADO EXTERNAL PRESSURE COEFFICIENTS",
+      "rule": "32.13.1 Reduction",
       "conditions": [],
       "then": "",
       "else": null,
@@ -4691,6 +5121,89 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-32.13.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-32.13.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 32,
+      "section": "32.13.1",
+      "citation": "Section 32.13.1",
+      "page": 39
+    },
+    "title": "Factor for Large-Volume Buildings, Ri For a partially enclosed building containing a single, unpartitioned large volume, the internal pressure coef fi cient, ( GCpiT ), is permitted to be multiplied b",
+    "description": "",
+    "data": {
+      "rule": "Factor for Large-Volume Buildings, Ri For a partially enclosed building containing a single, unpartitioned large volume, the internal pressure coef fi cient, ( GCpiT ), is permitted to be multiplied by the reduction factor, Ri , as determined in Section 26.13.1.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.13.1-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-32.14-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 32,
+      "section": "32.14",
+      "citation": "Section 32.14",
+      "page": 39
+    },
+    "title": "32.14",
+    "description": "",
+    "data": {
+      "rule": "32.14",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-32.14-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-32.14-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 32,
+      "section": "32.14",
+      "citation": "Section 32.14",
+      "page": 39
+    },
+    "title": "TORNADO EXTERNAL PRESSURE COEFFICIENTS",
+    "description": "",
+    "data": {
+      "rule": "TORNADO EXTERNAL PRESSURE COEFFICIENTS",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-32.14-P1",
@@ -4731,10 +5244,10 @@
       "citation": "Section 32.15",
       "page": 39
     },
-    "title": "32.15 TORNADO LOADS ON BUILDINGS: MAIN WIND FORCE RESISTING SYSTEM",
+    "title": "32.15",
     "description": "",
     "data": {
-      "rule": "32.15 TORNADO LOADS ON BUILDINGS: MAIN WIND FORCE RESISTING SYSTEM",
+      "rule": "32.15",
       "conditions": [],
       "then": "",
       "else": null,
@@ -4749,6 +5262,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-32.15-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-32.15-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 32,
+      "section": "32.15",
+      "citation": "Section 32.15",
+      "page": 39
+    },
+    "title": "TORNADO LOADS ON BUILDINGS: MAIN WIND FORCE RESISTING SYSTEM",
+    "description": "",
+    "data": {
+      "rule": "TORNADO LOADS ON BUILDINGS: MAIN WIND FORCE RESISTING SYSTEM",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-32.15.1-H1",
     "type": "heading",
     "source": {
@@ -4758,10 +5298,10 @@
       "citation": "Section 32.15.1",
       "page": 39
     },
-    "title": "32.15.1 Enclosed, Partially Enclosed, and Partially Open Buildings Section 27.3.1 shall apply for determination of MWFRS loads for buildings of all heights, as modi fi ed in this section. Design torna",
+    "title": "32.15.1 Enclosed, Partially Enclosed, and Partially Open",
     "description": "",
     "data": {
-      "rule": "32.15.1 Enclosed, Partially Enclosed, and Partially Open Buildings Section 27.3.1 shall apply for determination of MWFRS loads for buildings of all heights, as modi fi ed in this section. Design tornado pressures, pT , for the MWFRS of enclosed, partially enclosed, and partially open buildings of all heights shall be determined in accordance with the following equation, which replaces Equation (27.3-1):",
+      "rule": "32.15.1 Enclosed, Partially Enclosed, and Partially Open",
       "conditions": [],
       "then": "",
       "else": null,
@@ -4777,6 +5317,33 @@
   },
   {
     "id": "ASCE7-22-32.15.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-32.15.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 32,
+      "section": "32.15.1",
+      "citation": "Section 32.15.1",
+      "page": 39
+    },
+    "title": "Buildings Section 27.3.1 shall apply for determination of MWFRS loads for buildings of all heights, as modi fi ed in this section. Design tornado pressures, pT , for the MWFRS of enclosed, partially e",
+    "description": "",
+    "data": {
+      "rule": "Buildings Section 27.3.1 shall apply for determination of MWFRS loads for buildings of all heights, as modi fi ed in this section. Design tornado pressures, pT , for the MWFRS of enclosed, partially enclosed, and partially open buildings of all heights shall be determined in accordance with the following equation, which replaces Equation (27.3-1):",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-32.15.1-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -4803,7 +5370,7 @@
     "parent_id": "ASCE7-22-32.15.1-H1"
   },
   {
-    "id": "ASCE7-22-32.15.1-T2",
+    "id": "ASCE7-22-32.15.1-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -4872,7 +5439,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-32.15.1-T3",
+    "id": "ASCE7-22-32.15.1-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -4901,7 +5468,7 @@
     "parent_id": "ASCE7-22-32.15.1-H1"
   },
   {
-    "id": "ASCE7-22-32.15.1-T4",
+    "id": "ASCE7-22-32.15.1-T5",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -4930,7 +5497,7 @@
     "parent_id": "ASCE7-22-32.15.1-H1"
   },
   {
-    "id": "ASCE7-22-32.15.1-T5",
+    "id": "ASCE7-22-32.15.1-T6",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -4959,7 +5526,7 @@
     "parent_id": "ASCE7-22-32.15.1-H1"
   },
   {
-    "id": "ASCE7-22-32.15.1-T6",
+    "id": "ASCE7-22-32.15.1-T7",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -5254,17 +5821,17 @@
     "data": {
       "expression": "p =q G K C \u00f0lb\u2215ft2\u00de (32.15-2)",
       "parameters": {
-        "p": {
-          "description": "Design pressure to be used in determination of wind loads for buildings, lb/ft 2 (N/m 2 )",
-          "source": "ASCE7-22-26.3-T78"
+        "q": {
+          "description": "Discharge per unit width over the overtopped structure, as illustrated in Figure 6.12-6 and calculated in accordance with Equation (6.12-5); and",
+          "source": "ASCE7-22-6.12.2.4.2-T7"
         },
         "G": {
           "description": "Gust-effect factor from Section 26.11; and",
           "source": "ASCE7-22-27.3.2-T2"
         },
-        "q": {
-          "description": "Discharge per unit width over the overtopped structure, as illustrated in Figure 6.12-6 and calculated in accordance with Equation (6.12-5); and",
-          "source": "ASCE7-22-6.12.2.4.2-T7"
+        "p": {
+          "description": "Design pressure to be used in determination of wind loads for buildings, lb/ft 2 (N/m 2 )",
+          "source": "ASCE7-22-26.3-T78"
         }
       }
     },
@@ -5291,30 +5858,30 @@
     "data": {
       "expression": "F T =q zT G T K dT C f A s \u00f0lb\u00de (32.16-1)",
       "parameters": {
+        "q": {
+          "description": "Discharge per unit width over the overtopped structure, as illustrated in Figure 6.12-6 and calculated in accordance with Equation (6.12-5); and",
+          "source": "ASCE7-22-6.12.2.4.2-T7"
+        },
+        "T": {
+          "description": "Cumulative effect of self-straining forces and effects arising from contraction or expansion resulting from environmental or operational temperature changes, shrinkage, moisture changes, creep in component materials, movement caused by differential settlement, or combinations thereof",
+          "source": "ASCE7-22-2.2-T13"
+        },
         "A": {
           "description": "Effective wind area of element, ft 2 (m 2 )",
           "source": "ASCE7-22-29.4.5.2-T4"
-        },
-        "G": {
-          "description": "Gust-effect factor from Section 26.11; and",
-          "source": "ASCE7-22-27.3.2-T2"
-        },
-        "F": {
-          "description": "1.0 for buildings that are one story above grade plane, 1.1 for buildings that are two stories above grade plane, and 1.2 for buildings that are three stories above grade plane;",
-          "source": "ASCE7-22-12.14.8.1-T1"
         },
         "s": {
           "description": "Vertical dimension of the solid freestanding wall or solid sign from Figure 29.3-1",
           "unit": "ft",
           "source": "ASCE7-22-26.3-T92"
         },
-        "T": {
-          "description": "Cumulative effect of self-straining forces and effects arising from contraction or expansion resulting from environmental or operational temperature changes, shrinkage, moisture changes, creep in component materials, movement caused by differential settlement, or combinations thereof",
-          "source": "ASCE7-22-2.2-T13"
+        "F": {
+          "description": "1.0 for buildings that are one story above grade plane, 1.1 for buildings that are two stories above grade plane, and 1.2 for buildings that are three stories above grade plane;",
+          "source": "ASCE7-22-12.14.8.1-T1"
         },
-        "q": {
-          "description": "Discharge per unit width over the overtopped structure, as illustrated in Figure 6.12-6 and calculated in accordance with Equation (6.12-5); and",
-          "source": "ASCE7-22-6.12.2.4.2-T7"
+        "G": {
+          "description": "Gust-effect factor from Section 26.11; and",
+          "source": "ASCE7-22-27.3.2-T2"
         }
       }
     },
@@ -5450,10 +6017,10 @@
       "citation": "Section 32.15.3",
       "page": 40
     },
-    "title": "32.15.3 Roof Overhangs Section 27.3.3 shall apply for determination of MWFRS loads on roof overhangs.",
+    "title": "32.15.3 Roof",
     "description": "",
     "data": {
-      "rule": "32.15.3 Roof Overhangs Section 27.3.3 shall apply for determination of MWFRS loads on roof overhangs.",
+      "rule": "32.15.3 Roof",
       "conditions": [],
       "then": "",
       "else": null,
@@ -5468,6 +6035,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-32.15.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-32.15.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 32,
+      "section": "32.15.3",
+      "citation": "Section 32.15.3",
+      "page": 40
+    },
+    "title": "Overhangs Section 27.3.3 shall apply for determination of MWFRS loads on roof overhangs.",
+    "description": "",
+    "data": {
+      "rule": "Overhangs Section 27.3.3 shall apply for determination of MWFRS loads on roof overhangs.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-32.15.4-H1",
     "type": "heading",
     "source": {
@@ -5477,10 +6071,10 @@
       "citation": "Section 32.15.4",
       "page": 40
     },
-    "title": "32.15.4 Parapets Section 27.3.4 shall apply for determination of MWFRS loads on parapets, as modi fi ed in this section. The design tornado pressure, ppt , for the effects of parapets on the MWFRS sha",
+    "title": "32.15.4 Parapets",
     "description": "",
     "data": {
-      "rule": "32.15.4 Parapets Section 27.3.4 shall apply for determination of MWFRS loads on parapets, as modi fi ed in this section. The design tornado pressure, ppt , for the effects of parapets on the MWFRS shall be determined in accordance with the following equation, which replaces Equation (27.3-3):",
+      "rule": "32.15.4 Parapets",
       "conditions": [],
       "then": "",
       "else": null,
@@ -5496,6 +6090,33 @@
   },
   {
     "id": "ASCE7-22-32.15.4-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-32.15.4-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 32,
+      "section": "32.15.4",
+      "citation": "Section 32.15.4",
+      "page": 40
+    },
+    "title": "Section 27.3.4 shall apply for determination of MWFRS loads on parapets, as modi fi ed in this section. The design tornado pressure, ppt , for the effects of parapets on the MWFRS shall be determined ",
+    "description": "",
+    "data": {
+      "rule": "Section 27.3.4 shall apply for determination of MWFRS loads on parapets, as modi fi ed in this section. The design tornado pressure, ppt , for the effects of parapets on the MWFRS shall be determined in accordance with the following equation, which replaces Equation (27.3-3):",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-32.15.4-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -5522,7 +6143,7 @@
     "parent_id": "ASCE7-22-32.15.4-H1"
   },
   {
-    "id": "ASCE7-22-32.15.4-T2",
+    "id": "ASCE7-22-32.15.4-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -5551,7 +6172,7 @@
     "parent_id": "ASCE7-22-32.15.4-H1"
   },
   {
-    "id": "ASCE7-22-32.15.4-T3",
+    "id": "ASCE7-22-32.15.4-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -5616,10 +6237,10 @@
       "citation": "Section 32.16",
       "page": 40
     },
-    "title": "32.16 TORNADO LOADS ON BUILDING APPURTENANCES AND OTHER STRUCTURES: MAIN WIND FORCE RESISTING SYSTEM",
+    "title": "32.16",
     "description": "",
     "data": {
-      "rule": "32.16 TORNADO LOADS ON BUILDING APPURTENANCES AND OTHER STRUCTURES: MAIN WIND FORCE RESISTING SYSTEM",
+      "rule": "32.16",
       "conditions": [],
       "then": "",
       "else": null,
@@ -5634,6 +6255,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-32.16-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-32.16-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 32,
+      "section": "32.16",
+      "citation": "Section 32.16",
+      "page": 40
+    },
+    "title": "TORNADO LOADS ON BUILDING APPURTENANCES AND OTHER STRUCTURES: MAIN WIND FORCE RESISTING SYSTEM",
+    "description": "",
+    "data": {
+      "rule": "TORNADO LOADS ON BUILDING APPURTENANCES AND OTHER STRUCTURES: MAIN WIND FORCE RESISTING SYSTEM",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-32.16.1-H1",
     "type": "heading",
     "source": {
@@ -5643,10 +6291,38 @@
       "citation": "Section 32.16.1",
       "page": 40
     },
-    "title": "32.16.1 General Requirements The design tornado speed in Section 32.5 for rooftop structures and equipment, including rooftop solar panels, shall equal that used for design of the building.",
+    "title": "32.16.1 General Requirements",
     "description": "",
     "data": {
-      "rule": "32.16.1 General Requirements The design tornado speed in Section 32.5 for rooftop structures and equipment, including rooftop solar panels, shall equal that used for design of the building.",
+      "rule": "32.16.1 General Requirements",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-32.16.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-32.16.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 32,
+      "section": "32.16.1",
+      "citation": "Section 32.16.1",
+      "page": 40
+    },
+    "title": "The design tornado speed in Section 32.5 for rooftop structures and equipment, including rooftop solar panels, shall equal that used for design of the building.",
+    "description": "",
+    "data": {
+      "rule": "The design tornado speed in Section 32.5 for rooftop structures and equipment, including rooftop solar panels, shall equal that used for design of the building.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -5658,9 +6334,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-32.16.1-P1",
@@ -5699,10 +6374,10 @@
       "citation": "Section 32.16.2",
       "page": 40
     },
-    "title": "32.16.2 Solid Freestanding Walls and Solid Signs Section 29.3 shall apply for determination of MWFRS loads on solid freestanding walls and solid signs, as modi fi ed in this section. The design tornad",
+    "title": "32.16.2 Solid",
     "description": "",
     "data": {
-      "rule": "32.16.2 Solid Freestanding Walls and Solid Signs Section 29.3 shall apply for determination of MWFRS loads on solid freestanding walls and solid signs, as modi fi ed in this section. The design tornado force, FT , for solid freestanding walls and solid freestanding signs shall be determined in accordance with following equation, which replaces Equation (29.3-1):",
+      "rule": "32.16.2 Solid",
       "conditions": [],
       "then": "",
       "else": null,
@@ -5718,6 +6393,33 @@
   },
   {
     "id": "ASCE7-22-32.16.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-32.16.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 32,
+      "section": "32.16.2",
+      "citation": "Section 32.16.2",
+      "page": 40
+    },
+    "title": "Freestanding Walls and Solid Signs Section 29.3 shall apply for determination of MWFRS loads on solid freestanding walls and solid signs, as modi fi ed in this section. The design tornado force, FT , ",
+    "description": "",
+    "data": {
+      "rule": "Freestanding Walls and Solid Signs Section 29.3 shall apply for determination of MWFRS loads on solid freestanding walls and solid signs, as modi fi ed in this section. The design tornado force, FT , for solid freestanding walls and solid freestanding signs shall be determined in accordance with following equation, which replaces Equation (29.3-1):",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-32.16.2-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -5746,7 +6448,7 @@
     "parent_id": "ASCE7-22-32.16.2-H1"
   },
   {
-    "id": "ASCE7-22-32.16.2-T2",
+    "id": "ASCE7-22-32.16.2-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -5775,7 +6477,7 @@
     "parent_id": "ASCE7-22-32.16.2-H1"
   },
   {
-    "id": "ASCE7-22-32.16.2-T3",
+    "id": "ASCE7-22-32.16.2-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -5804,7 +6506,7 @@
     "parent_id": "ASCE7-22-32.16.2-H1"
   },
   {
-    "id": "ASCE7-22-32.16.2-T4",
+    "id": "ASCE7-22-32.16.2-T5",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -5831,7 +6533,7 @@
     "parent_id": "ASCE7-22-32.16.2-H1"
   },
   {
-    "id": "ASCE7-22-32.16.2-T5",
+    "id": "ASCE7-22-32.16.2-T6",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -5867,10 +6569,10 @@
       "citation": "Section 32.16.3",
       "page": 40
     },
-    "title": "32.16.3 Other Structures Section 29.4 shall apply for determination of MWFRS loads on other structures (chimneys, tanks, open signs, single-plane open frames, and trussed towers), as modi fi ed in thi",
+    "title": "32.16.3 Other",
     "description": "",
     "data": {
-      "rule": "32.16.3 Other Structures Section 29.4 shall apply for determination of MWFRS loads on other structures (chimneys, tanks, open signs, single-plane open frames, and trussed towers), as modi fi ed in this section. The design tornado force, FT , for other structures, whether ground or roof mounted, shall be determined in accordance with the following equation, which replaces Equation (29.4-1):",
+      "rule": "32.16.3 Other",
       "conditions": [],
       "then": "",
       "else": null,
@@ -5886,6 +6588,33 @@
   },
   {
     "id": "ASCE7-22-32.16.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-32.16.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 32,
+      "section": "32.16.3",
+      "citation": "Section 32.16.3",
+      "page": 40
+    },
+    "title": "Structures Section 29.4 shall apply for determination of MWFRS loads on other structures (chimneys, tanks, open signs, single-plane open frames, and trussed towers), as modi fi ed in this section. The",
+    "description": "",
+    "data": {
+      "rule": "Structures Section 29.4 shall apply for determination of MWFRS loads on other structures (chimneys, tanks, open signs, single-plane open frames, and trussed towers), as modi fi ed in this section. The design tornado force, FT , for other structures, whether ground or roof mounted, shall be determined in accordance with the following equation, which replaces Equation (29.4-1):",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-32.16.3-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -5915,7 +6644,7 @@
     "parent_id": "ASCE7-22-32.16.3-H1"
   },
   {
-    "id": "ASCE7-22-32.16.3-T2",
+    "id": "ASCE7-22-32.16.3-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -5944,7 +6673,7 @@
     "parent_id": "ASCE7-22-32.16.3-H1"
   },
   {
-    "id": "ASCE7-22-32.16.3-T3",
+    "id": "ASCE7-22-32.16.3-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -5973,7 +6702,7 @@
     "parent_id": "ASCE7-22-32.16.3-H1"
   },
   {
-    "id": "ASCE7-22-32.16.3-T4",
+    "id": "ASCE7-22-32.16.3-T5",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -6000,7 +6729,7 @@
     "parent_id": "ASCE7-22-32.16.3-H1"
   },
   {
-    "id": "ASCE7-22-32.16.3-T5",
+    "id": "ASCE7-22-32.16.3-T6",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -6036,10 +6765,10 @@
       "citation": "Section 32.16.3.1",
       "page": 40
     },
-    "title": "32.16.3.1 Trussed Towers Trussed towers and other open lattice-type structures shall be designed for an additional 40 ft 2 (3.7 m 2 ) of projected surface area of clinging debris at midheight of the s",
+    "title": "32.16.3.1 Trussed Towers",
     "description": "",
     "data": {
-      "rule": "32.16.3.1 Trussed Towers Trussed towers and other open lattice-type structures shall be designed for an additional 40 ft 2 (3.7 m 2 ) of projected surface area of clinging debris at midheight of the structure or 50 ft (15 m), whichever is less.",
+      "rule": "32.16.3.1 Trussed Towers",
       "conditions": [],
       "then": "",
       "else": null,
@@ -6054,6 +6783,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-32.16.3.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-32.16.3.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 32,
+      "section": "32.16.3.1",
+      "citation": "Section 32.16.3.1",
+      "page": 40
+    },
+    "title": "Trussed towers and other open lattice-type structures shall be designed for an additional 40 ft 2 (3.7 m 2 ) of projected surface area of clinging debris at midheight of the structure or 50 ft (15 m),",
+    "description": "",
+    "data": {
+      "rule": "Trussed towers and other open lattice-type structures shall be designed for an additional 40 ft 2 (3.7 m 2 ) of projected surface area of clinging debris at midheight of the structure or 50 ft (15 m), whichever is less.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-32.16.3.2-H1",
     "type": "heading",
     "source": {
@@ -6063,7 +6819,7 @@
       "citation": "Section 32.16.3.2",
       "page": 40
     },
-    "title": "32.16.3.2 Rooftop Structures and Equipment for Buildings Section 29.4.1 shall apply for determination of MWFRS loads on rooftop structures and equipment, as modi fi ed in this section. The lateral des",
+    "title": "32.16.3.2 Rooftop Structures and Equipment for Buildings Section 29.4.1 shall apply for determination of MWFRS loads on rooftop structures and equipment, as modi fi ed in this section. The lateral design tornado force, F hT , and vertical design tornado force, F vT , for rooftop structures and equipment, except as otherwise speci fi ed for roof-mounted solar panels (Sections 32.16.3.4 and 32.16.3.5) and structures identi fi ed in Section 32.16.3, shall be determined as follows.",
     "description": "",
     "data": {
       "rule": "32.16.3.2 Rooftop Structures and Equipment for Buildings Section 29.4.1 shall apply for determination of MWFRS loads on rooftop structures and equipment, as modi fi ed in this section. The lateral design tornado force, F hT , and vertical design tornado force, F vT , for rooftop structures and equipment, except as otherwise speci fi ed for roof-mounted solar panels (Sections 32.16.3.4 and 32.16.3.5) and structures identi fi ed in Section 32.16.3, shall be determined as follows.",
@@ -6263,33 +7019,33 @@
     "data": {
       "expression": "F vT =q hT K dT K vT \u00f0GC r \u00deA r \u00f0N\u00de (32.16-4.SI) p =q K K \u00f0GC \u00de\u00f0\u03b3 \u00de\u00f0\u03b3 \u00de\u00f0lb\u2215ft2\u00de (32.16-7)",
       "parameters": {
-        "A": {
-          "description": "Effective wind area of element, ft 2 (m 2 )",
-          "source": "ASCE7-22-29.4.5.2-T4"
-        },
-        "r": {
-          "description": "Lateral slenderness ratio of a compression member measured in terms of its effective length, KL , and the least radius of gyration of the member cross section, r",
-          "source": "ASCE7-22-11.3-T63"
+        "q": {
+          "description": "Discharge per unit width over the overtopped structure, as illustrated in Figure 6.12-6 and calculated in accordance with Equation (6.12-5); and",
+          "source": "ASCE7-22-6.12.2.4.2-T7"
         },
         "N": {
           "description": "Average fi eld standard penetration resistance for the top 100 ft (30 m) (Sections 20.3.3 and 20.4.2)",
           "source": "ASCE7-22-11.3-T73"
         },
-        "p": {
-          "description": "Design pressure to be used in determination of wind loads for buildings, lb/ft 2 (N/m 2 )",
-          "source": "ASCE7-22-26.3-T78"
-        },
-        "F": {
-          "description": "1.0 for buildings that are one story above grade plane, 1.1 for buildings that are two stories above grade plane, and 1.2 for buildings that are three stories above grade plane;",
-          "source": "ASCE7-22-12.14.8.1-T1"
+        "A": {
+          "description": "Effective wind area of element, ft 2 (m 2 )",
+          "source": "ASCE7-22-29.4.5.2-T4"
         },
         "\u03b3": {
           "description": "Average unit weight of soil, lb/ft 3 (N/m 3 )",
           "source": "ASCE7-22-11.3-T145"
         },
-        "q": {
-          "description": "Discharge per unit width over the overtopped structure, as illustrated in Figure 6.12-6 and calculated in accordance with Equation (6.12-5); and",
-          "source": "ASCE7-22-6.12.2.4.2-T7"
+        "r": {
+          "description": "Lateral slenderness ratio of a compression member measured in terms of its effective length, KL , and the least radius of gyration of the member cross section, r",
+          "source": "ASCE7-22-11.3-T63"
+        },
+        "F": {
+          "description": "1.0 for buildings that are one story above grade plane, 1.1 for buildings that are two stories above grade plane, and 1.2 for buildings that are three stories above grade plane;",
+          "source": "ASCE7-22-12.14.8.1-T1"
+        },
+        "p": {
+          "description": "Design pressure to be used in determination of wind loads for buildings, lb/ft 2 (N/m 2 )",
+          "source": "ASCE7-22-26.3-T78"
         }
       }
     },
@@ -6316,13 +7072,13 @@
     "data": {
       "expression": "p =q K \u00f0GC \u00de\u00f0lb\u2215ft2\u00de (32.16-6)",
       "parameters": {
-        "p": {
-          "description": "Design pressure to be used in determination of wind loads for buildings, lb/ft 2 (N/m 2 )",
-          "source": "ASCE7-22-26.3-T78"
-        },
         "q": {
           "description": "Discharge per unit width over the overtopped structure, as illustrated in Figure 6.12-6 and calculated in accordance with Equation (6.12-5); and",
           "source": "ASCE7-22-6.12.2.4.2-T7"
+        },
+        "p": {
+          "description": "Design pressure to be used in determination of wind loads for buildings, lb/ft 2 (N/m 2 )",
+          "source": "ASCE7-22-26.3-T78"
         }
       }
     },
@@ -6349,13 +7105,13 @@
     "data": {
       "expression": "p =qK K \u00f0GC \u00de\u2212q\u00f0GC \u00de \u00f0lb\u2215ft2\u00de (32.17-2)",
       "parameters": {
-        "p": {
-          "description": "Design pressure to be used in determination of wind loads for buildings, lb/ft 2 (N/m 2 )",
-          "source": "ASCE7-22-26.3-T78"
-        },
         "q": {
           "description": "Discharge per unit width over the overtopped structure, as illustrated in Figure 6.12-6 and calculated in accordance with Equation (6.12-5); and",
           "source": "ASCE7-22-6.12.2.4.2-T7"
+        },
+        "p": {
+          "description": "Design pressure to be used in determination of wind loads for buildings, lb/ft 2 (N/m 2 )",
+          "source": "ASCE7-22-26.3-T78"
         }
       }
     },
@@ -6921,10 +7677,10 @@
       "citation": "Section 32.17",
       "page": 41
     },
-    "title": "32.17 TORNADO LOADS: COMPONENTS AND CLADDING",
+    "title": "32.17",
     "description": "",
     "data": {
-      "rule": "32.17 TORNADO LOADS: COMPONENTS AND CLADDING",
+      "rule": "32.17",
       "conditions": [],
       "then": "",
       "else": null,
@@ -6939,6 +7695,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-32.17-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-32.17-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 32,
+      "section": "32.17",
+      "citation": "Section 32.17",
+      "page": 41
+    },
+    "title": "TORNADO LOADS: COMPONENTS AND CLADDING",
+    "description": "",
+    "data": {
+      "rule": "TORNADO LOADS: COMPONENTS AND CLADDING",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-32.17.1-H1",
     "type": "heading",
     "source": {
@@ -6948,10 +7731,10 @@
       "citation": "Section 32.17.1",
       "page": 41
     },
-    "title": "32.17.1 Low-Rise Buildings Section 30.3 shall apply for determination of component and cladding tornado loads on low-rise buildings, as modi fi ed in this section. The design tornado pressures, pT , o",
+    "title": "32.17.1 Low-Rise Buildings",
     "description": "",
     "data": {
-      "rule": "32.17.1 Low-Rise Buildings Section 30.3 shall apply for determination of component and cladding tornado loads on low-rise buildings, as modi fi ed in this section. The design tornado pressures, pT , on C&C elements in low-rise buildings and buildings with h \u2264 60 ft ( h \u2264 18.3 m) shall be determined in accordance with the following equation, which replaces Equation (30.3-1):",
+      "rule": "32.17.1 Low-Rise Buildings",
       "conditions": [],
       "then": "",
       "else": null,
@@ -6967,6 +7750,33 @@
   },
   {
     "id": "ASCE7-22-32.17.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-32.17.1-H2",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 32,
+      "section": "32.17.1",
+      "citation": "Section 32.17.1",
+      "page": 41
+    },
+    "title": "Section 30.3 shall apply for determination of component and cladding tornado loads on low-rise buildings, as modi fi ed in this section. The design tornado pressures, pT , on C&C elements in low-rise ",
+    "description": "",
+    "data": {
+      "rule": "Section 30.3 shall apply for determination of component and cladding tornado loads on low-rise buildings, as modi fi ed in this section. The design tornado pressures, pT , on C&C elements in low-rise buildings and buildings with h \u2264 60 ft ( h \u2264 18.3 m) shall be determined in accordance with the following equation, which replaces Equation (30.3-1):",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-32.17.1-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -6992,10 +7802,10 @@
       "qc_status": "pending",
       "qc_notes": null
     },
-    "parent_id": "ASCE7-22-32.17.1-H2"
+    "parent_id": "ASCE7-22-32.17.1-T1"
   },
   {
-    "id": "ASCE7-22-32.17.1-T2",
+    "id": "ASCE7-22-32.17.1-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -7053,7 +7863,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-32.17.1-T3",
+    "id": "ASCE7-22-32.17.1-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -7125,10 +7935,10 @@
       "citation": "Section 32.17.2",
       "page": 41
     },
-    "title": "32.17.2 Buildings with h > 60 ft ( h > 18.3 m) Section 30.4 shall apply for the determination of component and cladding tornado loads on buildings with h > 60 ft ( h > 18.3 m), as modi fi ed in this s",
+    "title": "32.17.2 Buildings with h",
     "description": "",
     "data": {
-      "rule": "32.17.2 Buildings with h > 60 ft ( h > 18.3 m) Section 30.4 shall apply for the determination of component and cladding tornado loads on buildings with h > 60 ft ( h > 18.3 m), as modi fi ed in this section. The design tornado pressures, pT , on C&C elements for all buildings with h > 60 ft ( h > 18.3 m) shall be determined in accordance with the following equation, which replaces Equation (30.4-1):",
+      "rule": "32.17.2 Buildings with h",
       "conditions": [],
       "then": "",
       "else": null,
@@ -7144,6 +7954,33 @@
   },
   {
     "id": "ASCE7-22-32.17.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-32.17.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 32,
+      "section": "32.17.2",
+      "citation": "Section 32.17.2",
+      "page": 41
+    },
+    "title": "> 60 ft ( h > 18.3 m) Section 30.4 shall apply for the determination of component and cladding tornado loads on buildings with h > 60 ft ( h > 18.3 m), as modi fi ed in this section. The design tornad",
+    "description": "",
+    "data": {
+      "rule": "> 60 ft ( h > 18.3 m) Section 30.4 shall apply for the determination of component and cladding tornado loads on buildings with h > 60 ft ( h > 18.3 m), as modi fi ed in this section. The design tornado pressures, pT , on C&C elements for all buildings with h > 60 ft ( h > 18.3 m) shall be determined in accordance with the following equation, which replaces Equation (30.4-1):",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-32.17.2-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -7167,7 +8004,7 @@
       "qc_status": "pending",
       "qc_notes": null
     },
-    "parent_id": "ASCE7-22-32.17.2-H1"
+    "parent_id": "ASCE7-22-32.17.2-T1"
   },
   {
     "id": "ASCE7-22-32.16-E32-16-5-SI1",
@@ -7237,13 +8074,13 @@
     "data": {
       "expression": "is defined as the level of the lowest opening in the p =q \u00bdK K \u00f0GC \u00de\u2212\u00f0GC \u00de(cid:2)\u00f0lb\u2215ft2\u00de (32.17-5)",
       "parameters": {
-        "p": {
-          "description": "Design pressure to be used in determination of wind loads for buildings, lb/ft 2 (N/m 2 )",
-          "source": "ASCE7-22-26.3-T78"
-        },
         "q": {
           "description": "Discharge per unit width over the overtopped structure, as illustrated in Figure 6.12-6 and calculated in accordance with Equation (6.12-5); and",
           "source": "ASCE7-22-6.12.2.4.2-T7"
+        },
+        "p": {
+          "description": "Design pressure to be used in determination of wind loads for buildings, lb/ft 2 (N/m 2 )",
+          "source": "ASCE7-22-26.3-T78"
         }
       }
     },
@@ -7270,13 +8107,13 @@
     "data": {
       "expression": "heights shall be determined in accordance with the following p =q K \u00f0GC \u00de \u00f0lb\u2215ft2\u00de (32.17-6)",
       "parameters": {
-        "p": {
-          "description": "Design pressure to be used in determination of wind loads for buildings, lb/ft 2 (N/m 2 )",
-          "source": "ASCE7-22-26.3-T78"
-        },
         "q": {
           "description": "Discharge per unit width over the overtopped structure, as illustrated in Figure 6.12-6 and calculated in accordance with Equation (6.12-5); and",
           "source": "ASCE7-22-6.12.2.4.2-T7"
+        },
+        "p": {
+          "description": "Design pressure to be used in determination of wind loads for buildings, lb/ft 2 (N/m 2 )",
+          "source": "ASCE7-22-26.3-T78"
         }
       }
     },
@@ -7303,13 +8140,9 @@
     "data": {
       "expression": "p T =q hT G T K dT C N \u00f0lb\u2215ft2\u00de (32.17-3)",
       "parameters": {
-        "p": {
-          "description": "Design pressure to be used in determination of wind loads for buildings, lb/ft 2 (N/m 2 )",
-          "source": "ASCE7-22-26.3-T78"
-        },
-        "G": {
-          "description": "Gust-effect factor from Section 26.11; and",
-          "source": "ASCE7-22-27.3.2-T2"
+        "q": {
+          "description": "Discharge per unit width over the overtopped structure, as illustrated in Figure 6.12-6 and calculated in accordance with Equation (6.12-5); and",
+          "source": "ASCE7-22-6.12.2.4.2-T7"
         },
         "N": {
           "description": "Average fi eld standard penetration resistance for the top 100 ft (30 m) (Sections 20.3.3 and 20.4.2)",
@@ -7319,9 +8152,13 @@
           "description": "Cumulative effect of self-straining forces and effects arising from contraction or expansion resulting from environmental or operational temperature changes, shrinkage, moisture changes, creep in component materials, movement caused by differential settlement, or combinations thereof",
           "source": "ASCE7-22-2.2-T13"
         },
-        "q": {
-          "description": "Discharge per unit width over the overtopped structure, as illustrated in Figure 6.12-6 and calculated in accordance with Equation (6.12-5); and",
-          "source": "ASCE7-22-6.12.2.4.2-T7"
+        "G": {
+          "description": "Gust-effect factor from Section 26.11; and",
+          "source": "ASCE7-22-27.3.2-T2"
+        },
+        "p": {
+          "description": "Design pressure to be used in determination of wind loads for buildings, lb/ft 2 (N/m 2 )",
+          "source": "ASCE7-22-26.3-T78"
         }
       }
     },
@@ -7348,13 +8185,13 @@
     "data": {
       "expression": "replaces Equation (30.6-1): p =q \u00bdK K \u00f0GC \u00de\u2212\u00f0GC \u00de(cid:2) \u00f0lb\u2215ft2\u00de (32.17-7)",
       "parameters": {
-        "p": {
-          "description": "Design pressure to be used in determination of wind loads for buildings, lb/ft 2 (N/m 2 )",
-          "source": "ASCE7-22-26.3-T78"
-        },
         "q": {
           "description": "Discharge per unit width over the overtopped structure, as illustrated in Figure 6.12-6 and calculated in accordance with Equation (6.12-5); and",
           "source": "ASCE7-22-6.12.2.4.2-T7"
+        },
+        "p": {
+          "description": "Design pressure to be used in determination of wind loads for buildings, lb/ft 2 (N/m 2 )",
+          "source": "ASCE7-22-26.3-T78"
         }
       }
     },
@@ -7367,7 +8204,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-32.17.2-T2",
+    "id": "ASCE7-22-32.17.2-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -7394,7 +8231,7 @@
     "parent_id": "ASCE7-22-32.17-E32-17-71"
   },
   {
-    "id": "ASCE7-22-32.17.2-T3",
+    "id": "ASCE7-22-32.17.2-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -7421,7 +8258,7 @@
     "parent_id": "ASCE7-22-32.17.2-H1"
   },
   {
-    "id": "ASCE7-22-32.17.2-T4",
+    "id": "ASCE7-22-32.17.2-T5",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -7484,7 +8321,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-32.17.2-T5",
+    "id": "ASCE7-22-32.17.2-T6",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -7513,7 +8350,7 @@
     "parent_id": "ASCE7-22-32.17.2-H1"
   },
   {
-    "id": "ASCE7-22-32.17.2-T6",
+    "id": "ASCE7-22-32.17.2-T7",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -7542,7 +8379,7 @@
     "parent_id": "ASCE7-22-32.17.2-H1"
   },
   {
-    "id": "ASCE7-22-32.17.2-T7",
+    "id": "ASCE7-22-32.17.2-T8",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -7614,10 +8451,10 @@
       "citation": "Section 32.17.3",
       "page": 42
     },
-    "title": "32.17.3 Open Buildings Section 30.5 shall apply for the determination of component and cladding tornado loads on open buildings, as modi fi ed in this section. The net tornado design pressures, pT , f",
+    "title": "32.17.3 Open Buildings",
     "description": "",
     "data": {
-      "rule": "32.17.3 Open Buildings Section 30.5 shall apply for the determination of component and cladding tornado loads on open buildings, as modi fi ed in this section. The net tornado design pressures, pT , for C&C elements of open buildings of all heights shall be determined in accordance with the following equation, which replaces Equation (30.5-1): where",
+      "rule": "32.17.3 Open Buildings",
       "conditions": [],
       "then": "",
       "else": null,
@@ -7632,7 +8469,34 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-32.17.3-T2",
+    "id": "ASCE7-22-32.17.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-32.17.3-H2",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 32,
+      "section": "32.17.3",
+      "citation": "Section 32.17.3",
+      "page": 42
+    },
+    "title": "Section 30.5 shall apply for the determination of component and cladding tornado loads on open buildings, as modi fi ed in this section. The net tornado design pressures, pT , for C&C elements of open",
+    "description": "",
+    "data": {
+      "rule": "Section 30.5 shall apply for the determination of component and cladding tornado loads on open buildings, as modi fi ed in this section. The net tornado design pressures, pT , for C&C elements of open buildings of all heights shall be determined in accordance with the following equation, which replaces Equation (30.5-1): where",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-32.17.3-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -7661,7 +8525,7 @@
     "parent_id": "ASCE7-22-32.17.3-H2"
   },
   {
-    "id": "ASCE7-22-32.17.3-T3",
+    "id": "ASCE7-22-32.17.3-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -7755,10 +8619,10 @@
       "citation": "Section 32.17.4.1",
       "page": 42
     },
-    "title": "32.17.4.1 Parapets Section 30.6 shall apply for determination of component and cladding tornado loads on parapets, as modi fi ed in this section. The design tornado pressures, pT , on C&Celements of p",
+    "title": "32.17.4.1 Parapets",
     "description": "",
     "data": {
-      "rule": "32.17.4.1 Parapets Section 30.6 shall apply for determination of component and cladding tornado loads on parapets, as modi fi ed in this section. The design tornado pressures, pT , on C&Celements of parapets for all building types and heights shall be determined in accordance with the following equation, which replaces Equation (30.6-1):",
+      "rule": "32.17.4.1 Parapets",
       "conditions": [],
       "then": "",
       "else": null,
@@ -7774,6 +8638,33 @@
   },
   {
     "id": "ASCE7-22-32.17.4.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-32.17.4.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 32,
+      "section": "32.17.4.1",
+      "citation": "Section 32.17.4.1",
+      "page": 42
+    },
+    "title": "Section 30.6 shall apply for determination of component and cladding tornado loads on parapets, as modi fi ed in this section. The design tornado pressures, pT , on C&Celements of parapets for all bui",
+    "description": "",
+    "data": {
+      "rule": "Section 30.6 shall apply for determination of component and cladding tornado loads on parapets, as modi fi ed in this section. The design tornado pressures, pT , on C&Celements of parapets for all building types and heights shall be determined in accordance with the following equation, which replaces Equation (30.6-1):",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-32.17.4.1-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -7802,7 +8693,7 @@
     "parent_id": "ASCE7-22-32.17.4.1-H1"
   },
   {
-    "id": "ASCE7-22-32.17.4.1-T2",
+    "id": "ASCE7-22-32.17.4.1-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -7831,7 +8722,7 @@
     "parent_id": "ASCE7-22-32.17.4.1-H1"
   },
   {
-    "id": "ASCE7-22-32.17.4.1-T3",
+    "id": "ASCE7-22-32.17.4.1-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -7869,10 +8760,10 @@
       "citation": "Section 32.17.4.2",
       "page": 42
     },
-    "title": "32.17.4.2 Roof Overhangs Section 30.7 shall apply for determination of component and cladding tornado loads on roof overhangs, as modi fi ed in this section. The design tornado pressures, pT , on C&C ",
+    "title": "32.17.4.2 Roof",
     "description": "",
     "data": {
-      "rule": "32.17.4.2 Roof Overhangs Section 30.7 shall apply for determination of component and cladding tornado loads on roof overhangs, as modi fi ed in this section. The design tornado pressures, pT , on C&C elements of roof overhangs for all building types and heights shall be determined in accordance with the following equation, which replaces Equation (30.7-1):",
+      "rule": "32.17.4.2 Roof",
       "conditions": [],
       "then": "",
       "else": null,
@@ -7888,6 +8779,33 @@
   },
   {
     "id": "ASCE7-22-32.17.4.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-32.17.4.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 32,
+      "section": "32.17.4.2",
+      "citation": "Section 32.17.4.2",
+      "page": 42
+    },
+    "title": "Overhangs Section 30.7 shall apply for determination of component and cladding tornado loads on roof overhangs, as modi fi ed in this section. The design tornado pressures, pT , on C&C elements of roo",
+    "description": "",
+    "data": {
+      "rule": "Overhangs Section 30.7 shall apply for determination of component and cladding tornado loads on roof overhangs, as modi fi ed in this section. The design tornado pressures, pT , on C&C elements of roof overhangs for all building types and heights shall be determined in accordance with the following equation, which replaces Equation (30.7-1):",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-32.17.4.2-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -7916,7 +8834,7 @@
     "parent_id": "ASCE7-22-32.17.4.2-H1"
   },
   {
-    "id": "ASCE7-22-32.17.4.2-T2",
+    "id": "ASCE7-22-32.17.4.2-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -7945,7 +8863,7 @@
     "parent_id": "ASCE7-22-32.17.4.2-H1"
   },
   {
-    "id": "ASCE7-22-32.17.4.2-T3",
+    "id": "ASCE7-22-32.17.4.2-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -7974,7 +8892,7 @@
     "parent_id": "ASCE7-22-32.17.4.2-H1"
   },
   {
-    "id": "ASCE7-22-32.17.4.2-T4",
+    "id": "ASCE7-22-32.17.4.2-T5",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -8001,7 +8919,7 @@
     "parent_id": "ASCE7-22-32.17.4.2-H1"
   },
   {
-    "id": "ASCE7-22-32.17.4.2-T5",
+    "id": "ASCE7-22-32.17.4.2-T6",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -8039,10 +8957,10 @@
       "citation": "Section 32.17.4.3",
       "page": 42
     },
-    "title": "32.17.4.3 Attached Canopies on Buildings with h \u2264 60 ft ( h \u2264 18.3 m) Section 30.9 shall apply for determination of component and cladding tornado loads on attached canopies on buildings with h \u2264 60 f",
+    "title": "32.17.4.3 Attached Canopies on Buildings with h",
     "description": "",
     "data": {
-      "rule": "32.17.4.3 Attached Canopies on Buildings with h \u2264 60 ft ( h \u2264 18.3 m) Section 30.9 shall apply for determination of component and cladding tornado loads on attached canopies on buildings with h \u2264 60 ft ( h \u2264 18.3 m), as modi fi ed in this section. The design tornado pressures, pT , on C&C elements of attached canopies shall be determined in accordance with the following equation, which replaces Equation (30.9-1):",
+      "rule": "32.17.4.3 Attached Canopies on Buildings with h",
       "conditions": [],
       "then": "",
       "else": null,
@@ -8058,6 +8976,33 @@
   },
   {
     "id": "ASCE7-22-32.17.4.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-32.17.4.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 32,
+      "section": "32.17.4.3",
+      "citation": "Section 32.17.4.3",
+      "page": 42
+    },
+    "title": "\u2264 60 ft ( h \u2264 18.3 m) Section 30.9 shall apply for determination of component and cladding tornado loads on attached canopies on buildings with h \u2264 60 ft ( h \u2264 18.3 m), as modi fi ed in this section. ",
+    "description": "",
+    "data": {
+      "rule": "\u2264 60 ft ( h \u2264 18.3 m) Section 30.9 shall apply for determination of component and cladding tornado loads on attached canopies on buildings with h \u2264 60 ft ( h \u2264 18.3 m), as modi fi ed in this section. The design tornado pressures, pT , on C&C elements of attached canopies shall be determined in accordance with the following equation, which replaces Equation (30.9-1):",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-32.17.4.3-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -8083,10 +9028,10 @@
       "qc_status": "pending",
       "qc_notes": null
     },
-    "parent_id": "ASCE7-22-32.17.4.3-H1"
+    "parent_id": "ASCE7-22-32.17.4.3-T1"
   },
   {
-    "id": "ASCE7-22-32.17.4.3-T2",
+    "id": "ASCE7-22-32.17.4.3-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -8124,10 +9069,10 @@
       "citation": "Section 32.17.5",
       "page": 42
     },
-    "title": "32.17.5 Nonbuilding Structures Section 30.10 shall apply for determination of component and cladding tornado loads on circular bins, silos, and tanks with h \u2264 120 ft ( h \u2264 36.6 m), as modi fi ed in th",
+    "title": "32.17.5 Nonbuilding Structures",
     "description": "",
     "data": {
-      "rule": "32.17.5 Nonbuilding Structures Section 30.10 shall apply for determination of component and cladding tornado loads on circular bins, silos, and tanks with h \u2264 120 ft ( h \u2264 36.6 m), as modi fi ed in this section.",
+      "rule": "32.17.5 Nonbuilding Structures",
       "conditions": [],
       "then": "",
       "else": null,
@@ -8142,6 +9087,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-32.17.5-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-32.17.5-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 32,
+      "section": "32.17.5",
+      "citation": "Section 32.17.5",
+      "page": 42
+    },
+    "title": "Section 30.10 shall apply for determination of component and cladding tornado loads on circular bins, silos, and tanks with h \u2264 120 ft ( h \u2264 36.6 m), as modi fi ed in this section.",
+    "description": "",
+    "data": {
+      "rule": "Section 30.10 shall apply for determination of component and cladding tornado loads on circular bins, silos, and tanks with h \u2264 120 ft ( h \u2264 36.6 m), as modi fi ed in this section.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-32.17.5.1-H1",
     "type": "heading",
     "source": {
@@ -8151,10 +9123,10 @@
       "citation": "Section 32.17.5.1",
       "page": 42
     },
-    "title": "32.17.5.1 Isolated Circular Bins, Silos, and Tanks The design tornado pressures, pT , on C&C elements of isolated circular bins, silos and tanks shall be determined in accordance with the following eq",
+    "title": "32.17.5.1 Isolated Circular Bins, Silos, and Tanks",
     "description": "",
     "data": {
-      "rule": "32.17.5.1 Isolated Circular Bins, Silos, and Tanks The design tornado pressures, pT , on C&C elements of isolated circular bins, silos and tanks shall be determined in accordance with the following equation, which replaces Equation (30.10-1):",
+      "rule": "32.17.5.1 Isolated Circular Bins, Silos, and Tanks",
       "conditions": [],
       "then": "",
       "else": null,
@@ -8170,6 +9142,33 @@
   },
   {
     "id": "ASCE7-22-32.17.5.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-32.17.5.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 32,
+      "section": "32.17.5.1",
+      "citation": "Section 32.17.5.1",
+      "page": 42
+    },
+    "title": "The design tornado pressures, pT , on C&C elements of isolated circular bins, silos and tanks shall be determined in accordance with the following equation, which replaces Equation (30.10-1):",
+    "description": "",
+    "data": {
+      "rule": "The design tornado pressures, pT , on C&C elements of isolated circular bins, silos and tanks shall be determined in accordance with the following equation, which replaces Equation (30.10-1):",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-32.17.5.1-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -8198,7 +9197,7 @@
     "parent_id": "ASCE7-22-32.17.5.1-H1"
   },
   {
-    "id": "ASCE7-22-32.17.5.1-T2",
+    "id": "ASCE7-22-32.17.5.1-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -8312,7 +9311,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-32.17.5.1-T3",
+    "id": "ASCE7-22-32.17.5.1-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -8339,7 +9338,7 @@
     "parent_id": "ASCE7-22-32.17.5.1-H1"
   },
   {
-    "id": "ASCE7-22-32.17.5.1-T4",
+    "id": "ASCE7-22-32.17.5.1-T5",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -8366,7 +9365,7 @@
     "parent_id": "ASCE7-22-32.17.5.1-H1"
   },
   {
-    "id": "ASCE7-22-32.17.5.1-T5",
+    "id": "ASCE7-22-32.17.5.1-T6",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -8404,10 +9403,10 @@
       "citation": "Section 32.18",
       "page": 43
     },
-    "title": "32.18 TORNADO LOADS: WIND TUNNEL PROCEDURE",
+    "title": "32.18",
     "description": "",
     "data": {
-      "rule": "32.18 TORNADO LOADS: WIND TUNNEL PROCEDURE",
+      "rule": "32.18",
       "conditions": [],
       "then": "",
       "else": null,
@@ -8420,6 +9419,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-32.18-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-32.18-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 32,
+      "section": "32.18",
+      "citation": "Section 32.18",
+      "page": 43
+    },
+    "title": "TORNADO LOADS: WIND TUNNEL PROCEDURE",
+    "description": "",
+    "data": {
+      "rule": "TORNADO LOADS: WIND TUNNEL PROCEDURE",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-32.18-P1",
@@ -8465,10 +9491,10 @@
       "citation": "Section 32.19",
       "page": 43
     },
-    "title": "32.19 CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
+    "title": "32.19",
     "description": "",
     "data": {
-      "rule": "32.19 CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
+      "rule": "32.19",
       "conditions": [],
       "then": "",
       "else": null,
@@ -8481,6 +9507,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-32.19-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-32.19-H3",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 32,
+      "section": "32.19",
+      "citation": "Section 32.19",
+      "page": 43
+    },
+    "title": "CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
+    "description": "",
+    "data": {
+      "rule": "CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-32.19-P1",
@@ -8510,7 +9563,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-32.19-T1",
+    "id": "ASCE7-22-32.19-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -8537,7 +9590,7 @@
     "parent_id": "ASCE7-22-32.19-H3"
   },
   {
-    "id": "ASCE7-22-32.19-T3",
+    "id": "ASCE7-22-32.19-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -8602,7 +9655,7 @@
       "citation": "Section 32.19",
       "page": 43
     },
-    "title": "ANSI/DASMA 115. 2017. Standard Method for Testing Sectional Doors, Rolling Doors, and Flexible Doors: Determination of Structural Performance under Missile Impact and Cyclic Wind Pressure . Door and A",
+    "title": "ANSI/DASMA 115. 2017. Standard Method for Testing Sectional Doors, Rolling Doors, and Flexible Doors: Determination of Structural Performance under Missile Impact and Cyclic Wind Pressure . Door and Access Systems Manufacturers Association International.",
     "description": "",
     "data": {
       "rule": "ANSI/DASMA 115. 2017. Standard Method for Testing Sectional Doors, Rolling Doors, and Flexible Doors: Determination of Structural Performance under Missile Impact and Cyclic Wind Pressure . Door and Access Systems Manufacturers Association International. Cited in: Section 32.12.3.1",
@@ -8620,7 +9673,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-32.19-T6",
+    "id": "ASCE7-22-32.19-T7",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -8647,7 +9700,7 @@
     "parent_id": "ASCE7-22-32.19-H3"
   },
   {
-    "id": "ASCE7-22-32.19-T7",
+    "id": "ASCE7-22-32.19-T8",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",

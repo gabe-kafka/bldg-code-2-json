@@ -9,10 +9,10 @@
       "citation": "Section 23",
       "page": 1
     },
-    "title": "CHAPTER 23 SEISMIC DESIGN REFERENCE DOCUMENTS",
+    "title": "CHAPTER 23",
     "description": "",
     "data": {
-      "rule": "CHAPTER 23 SEISMIC DESIGN REFERENCE DOCUMENTS",
+      "rule": "CHAPTER 23",
       "conditions": [],
       "then": "",
       "else": null,
@@ -27,6 +27,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-23-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-23-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23",
+      "citation": "Section 23",
+      "page": 1
+    },
+    "title": "SEISMIC DESIGN REFERENCE DOCUMENTS",
+    "description": "",
+    "data": {
+      "rule": "SEISMIC DESIGN REFERENCE DOCUMENTS",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-23.1-H1",
     "type": "heading",
     "source": {
@@ -36,10 +63,10 @@
       "citation": "Section 23.1",
       "page": 1
     },
-    "title": "23.1 CONSENSUS STANDARDS AND OTHER REFERENCE DOCUMENTS",
+    "title": "23.1",
     "description": "",
     "data": {
-      "rule": "23.1 CONSENSUS STANDARDS AND OTHER REFERENCE DOCUMENTS",
+      "rule": "23.1",
       "conditions": [],
       "then": "",
       "else": null,
@@ -52,6 +79,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-23.1-H50",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23.1",
+      "citation": "Section 23.1",
+      "page": 1
+    },
+    "title": "CONSENSUS STANDARDS AND OTHER REFERENCE DOCUMENTS",
+    "description": "",
+    "data": {
+      "rule": "CONSENSUS STANDARDS AND OTHER REFERENCE DOCUMENTS",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-23.1-P1",
@@ -90,10 +144,10 @@
       "citation": "Section 23.1",
       "page": 1
     },
-    "title": "*AAMA 501.6 , Recommended Dynamic Test Method for Determining the Seismic Drift Causing Glass Fallout from Window Wall, Curtain, and Storefront Systems , American Architectural Manufacturers Associati",
+    "title": "*AAMA 501.6",
     "description": "",
     "data": {
-      "rule": "*AAMA 501.6 , Recommended Dynamic Test Method for Determining the Seismic Drift Causing Glass Fallout from Window Wall, Curtain, and Storefront Systems , American Architectural Manufacturers Association, 2018. Cited in: Section 13.5.9.2",
+      "rule": "*AAMA 501.6",
       "conditions": [],
       "then": "",
       "else": null,
@@ -106,6 +160,33 @@
       "qc_notes": "topic"
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23.1-T2",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-23.1-H50",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23.1",
+      "citation": "Section 23.1",
+      "page": 1
+    },
+    "title": ", Recommended Dynamic Test Method for Determining the Seismic Drift Causing Glass Fallout from Window Wall, Curtain, and Storefront Systems , American Architectural Manufacturers Association, 2018.",
+    "description": "",
+    "data": {
+      "rule": ", Recommended Dynamic Test Method for Determining the Seismic Drift Causing Glass Fallout from Window Wall, Curtain, and Storefront Systems , American Architectural Manufacturers Association, 2018. Cited in: Section 13.5.9.2",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-23.1-R1",
@@ -131,7 +212,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-23.1-T2",
+    "id": "ASCE7-22-23.1-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -158,7 +239,30 @@
     "parent_id": "ASCE7-22-23.1-H50"
   },
   {
-    "id": "ASCE7-22-23.1-T3",
+    "id": "ASCE7-22-23.1-R2",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23.1",
+      "citation": "Section 23.1",
+      "page": 1
+    },
+    "title": "ACI 313 , Design Specification for Concrete Silos and Stacking Tubes for Storing Granular Materials and Commentary , American Concrete Institute, 2019.",
+    "description": "",
+    "data": {
+      "target": "ACI 313 , Design Specification for Concrete Silos and Stacking Tubes for Storing Granular Materials and Commentary , American Concrete Institute, 2019."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23.1-T5",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -185,7 +289,30 @@
     "parent_id": "ASCE7-22-23.1-H50"
   },
   {
-    "id": "ASCE7-22-23.1-T4",
+    "id": "ASCE7-22-23.1-R3",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23.1",
+      "citation": "Section 23.1",
+      "page": 1
+    },
+    "title": "ACI 318 , Building Code Requirements for Structural Concrete and Commentary , American Concrete Institute, 2019.",
+    "description": "",
+    "data": {
+      "target": "ACI 318 , Building Code Requirements for Structural Concrete and Commentary , American Concrete Institute, 2019."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23.1-T6",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -212,7 +339,53 @@
     "parent_id": "ASCE7-22-23.1-H50"
   },
   {
-    "id": "ASCE7-22-23.1-T5",
+    "id": "ASCE7-22-23.1-R4",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23.1",
+      "citation": "Section 23.1",
+      "page": 1
+    },
+    "title": "ACI 350.3 , Seismic Design of Liquid-Containing Concrete Structures and Commentary , American Concrete Institute, 2006. Cited in: Sections 15.7.6.1.1, 15.7.7.3",
+    "description": "",
+    "data": {
+      "target": "ACI 350.3 , Seismic Design of Liquid-Containing Concrete Structures and Commentary , American Concrete Institute, 2006. Cited in: Sections 15.7.6.1.1, 15.7.7.3"
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23.1-R5",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23.1",
+      "citation": "Section 23.1",
+      "page": 1
+    },
+    "title": "ACI 355.2-19 , Qualification of Post-Installed Mechanical Anchors in Concrete and Commentary , American Concrete Institute, 2019.",
+    "description": "",
+    "data": {
+      "target": "ACI 355.2-19 , Qualification of Post-Installed Mechanical Anchors in Concrete and Commentary , American Concrete Institute, 2019."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23.1-T7",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -239,7 +412,53 @@
     "parent_id": "ASCE7-22-23.1-H50"
   },
   {
-    "id": "ASCE7-22-23.1-T7",
+    "id": "ASCE7-22-23.1-R6",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23.1",
+      "citation": "Section 23.1",
+      "page": 1
+    },
+    "title": "ANSI/AHRI Standards 1270 (I-P) and 1271 (SI) Sections 1 through 10, excluding Appendixes , Requirements for Seismic Qualification of HVACR Equipment , Air-Conditioning, Heating, and Refrigeration Inst",
+    "description": "",
+    "data": {
+      "target": "ANSI/AHRI Standards 1270 (I-P) and 1271 (SI) Sections 1 through 10, excluding Appendixes , Requirements for Seismic Qualification of HVACR Equipment , Air-Conditioning, Heating, and Refrigeration Institute, 2015."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23.1-R7",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23.1",
+      "citation": "Section 23.1",
+      "page": 1
+    },
+    "title": "ANSI/AISC 341 , Seismic Provisions for Structural Steel Buildings , American Institute of Steel Construction, 2022.",
+    "description": "",
+    "data": {
+      "target": "ANSI/AISC 341 , Seismic Provisions for Structural Steel Buildings , American Institute of Steel Construction, 2022."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23.1-T9",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -266,7 +485,30 @@
     "parent_id": "ASCE7-22-23.1-H50"
   },
   {
-    "id": "ASCE7-22-23.1-T8",
+    "id": "ASCE7-22-23.1-R8",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23.1",
+      "citation": "Section 23.1",
+      "page": 1
+    },
+    "title": "ANSI/AISC 360 , Specification for Structural Steel Buildings , American Institute of Steel Construction, 2022.",
+    "description": "",
+    "data": {
+      "target": "ANSI/AISC 360 , Specification for Structural Steel Buildings , American Institute of Steel Construction, 2022."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23.1-T10",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -302,7 +544,7 @@
       "citation": "Section 23.1",
       "page": 1
     },
-    "title": "ANSI/AISI S100 , North American Specification for the Design of Cold-Formed Steel Structural Members , 2016 Edition (Reaf fi rmed 2020), with Supplement 2, 2020 Edition, AISI S100-16 (2020) w/S2-20, A",
+    "title": "ANSI/AISI S100 , North American Specification for the Design of Cold-Formed Steel Structural Members , 2016 Edition (Reaf fi rmed 2020), with Supplement 2, 2020 Edition, AISI S100-16 (2020) w/S2-20, American Iron and Steel Institute.",
     "description": "",
     "data": {
       "rule": "ANSI/AISI S100 , North American Specification for the Design of Cold-Formed Steel Structural Members , 2016 Edition (Reaf fi rmed 2020), with Supplement 2, 2020 Edition, AISI S100-16 (2020) w/S2-20, American Iron and Steel Institute.",
@@ -320,7 +562,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-23.1-T9",
+    "id": "ASCE7-22-23.1-T11",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -347,7 +589,30 @@
     "parent_id": "ASCE7-22-23.1-H50"
   },
   {
-    "id": "ASCE7-22-23.1-T10",
+    "id": "ASCE7-22-23.1-R9",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23.1",
+      "citation": "Section 23.1",
+      "page": 1
+    },
+    "title": "ANSI/AISI S230 , Standard for Cold-Formed Steel Framing -Prescriptive Method for Oneand Two-Family Dwellings , 2019 Edition, AISI S230-19, American Iron and Steel Institute.",
+    "description": "",
+    "data": {
+      "target": "ANSI/AISI S230 , Standard for Cold-Formed Steel Framing -Prescriptive Method for Oneand Two-Family Dwellings , 2019 Edition, AISI S230-19, American Iron and Steel Institute."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23.1-T12",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -374,7 +639,30 @@
     "parent_id": "ASCE7-22-23.1-H50"
   },
   {
-    "id": "ASCE7-22-23.1-T11",
+    "id": "ASCE7-22-23.1-R10",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23.1",
+      "citation": "Section 23.1",
+      "page": 1
+    },
+    "title": "ANSI/AISI S240 , North American Standard for Cold-Formed Steel Framing , 2020 Edition, AISI S240-20, American Iron and Steel Institute.",
+    "description": "",
+    "data": {
+      "target": "ANSI/AISI S240 , North American Standard for Cold-Formed Steel Framing , 2020 Edition, AISI S240-20, American Iron and Steel Institute."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23.1-T13",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -401,7 +689,30 @@
     "parent_id": "ASCE7-22-23.1-H50"
   },
   {
-    "id": "ASCE7-22-23.1-T12",
+    "id": "ASCE7-22-23.1-R11",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23.1",
+      "citation": "Section 23.1",
+      "page": 1
+    },
+    "title": "ANSI/AISI S310 , North American Standard for the Design of Profiled Steel Diaphragm Panels , 2020 Edition, AISI S310-20, American Iron and Steel Institute.",
+    "description": "",
+    "data": {
+      "target": "ANSI/AISI S310 , North American Standard for the Design of Profiled Steel Diaphragm Panels , 2020 Edition, AISI S310-20, American Iron and Steel Institute."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23.1-T14",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -428,7 +739,30 @@
     "parent_id": "ASCE7-22-23.1-H50"
   },
   {
-    "id": "ASCE7-22-23.1-T13",
+    "id": "ASCE7-22-23.1-R12",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23.1",
+      "citation": "Section 23.1",
+      "page": 1
+    },
+    "title": "ANSI/AISI S400 , North American Standard for Seismic Design of Cold-Formed Steel Structural Systems , 2020 Edition, AISI S400-20, American Iron and Steel Institute.",
+    "description": "",
+    "data": {
+      "target": "ANSI/AISI S400 , North American Standard for Seismic Design of Cold-Formed Steel Structural Systems , 2020 Edition, AISI S400-20, American Iron and Steel Institute."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23.1-T15",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -455,7 +789,30 @@
     "parent_id": "ASCE7-22-23.1-H50"
   },
   {
-    "id": "ASCE7-22-23.1-T14",
+    "id": "ASCE7-22-23.1-R13",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23.1",
+      "citation": "Section 23.1",
+      "page": 1
+    },
+    "title": "ANSI/RMI MH 16.1 , Specification for the Design, Testing, and Utilization of Industrial Steel Storage Racks , Rack Manufacturers Institute, 2012.",
+    "description": "",
+    "data": {
+      "target": "ANSI/RMI MH 16.1 , Specification for the Design, Testing, and Utilization of Industrial Steel Storage Racks , Rack Manufacturers Institute, 2012."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23.1-T16",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -482,7 +839,30 @@
     "parent_id": "ASCE7-22-23.1-H50"
   },
   {
-    "id": "ASCE7-22-23.1-T15",
+    "id": "ASCE7-22-23.1-R14",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23.1",
+      "citation": "Section 23.1",
+      "page": 1
+    },
+    "title": "ANSI/RMI MH 16.3 Specification for the Design, Testing, and Utilization of Industrial Steel Cantilevered Storage Racks , Rack Manufacturers Institute, 2016.",
+    "description": "",
+    "data": {
+      "target": "ANSI/RMI MH 16.3 Specification for the Design, Testing, and Utilization of Industrial Steel Cantilevered Storage Racks , Rack Manufacturers Institute, 2016."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23.1-T17",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -509,7 +889,76 @@
     "parent_id": "ASCE7-22-23.1-H50"
   },
   {
-    "id": "ASCE7-22-23.1-T18",
+    "id": "ASCE7-22-23.1-R15",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23.1",
+      "citation": "Section 23.1",
+      "page": 1
+    },
+    "title": "ANSI/SDI-QA/QC , Standard for Quality Control and Quality Assurance for Installation of Steel Deck , Steel Deck Institute, 2022.",
+    "description": "",
+    "data": {
+      "target": "ANSI/SDI-QA/QC , Standard for Quality Control and Quality Assurance for Installation of Steel Deck , Steel Deck Institute, 2022."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23.1-R16",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23.1",
+      "citation": "Section 23.1",
+      "page": 1
+    },
+    "title": "ANSI/SDI-SD , Standard for Steel Deck , Steel Deck Institute, 2022.",
+    "description": "",
+    "data": {
+      "target": "ANSI/SDI-SD , Standard for Steel Deck , Steel Deck Institute, 2022."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23.1-R17",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23.1",
+      "citation": "Section 23.1",
+      "page": 1
+    },
+    "title": "ANSI/SJI-100 , Standard Specification for K-Series, LH-Series and DLH-Series Open Web Steel Joists and for Joist Girders , Steel Joist Institute, 2020.",
+    "description": "",
+    "data": {
+      "target": "ANSI/SJI-100 , Standard Specification for K-Series, LH-Series and DLH-Series Open Web Steel Joists and for Joist Girders , Steel Joist Institute, 2020."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23.1-T20",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -536,7 +985,30 @@
     "parent_id": "ASCE7-22-23.1-H50"
   },
   {
-    "id": "ASCE7-22-23.1-T19",
+    "id": "ASCE7-22-23.1-R18",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23.1",
+      "citation": "Section 23.1",
+      "page": 1
+    },
+    "title": "ANSI/SJI-200 , Standard Specification for Composite Steel Joists , CJ-Series, Steel Joist Institute, 2015.",
+    "description": "",
+    "data": {
+      "target": "ANSI/SJI-200 , Standard Specification for Composite Steel Joists , CJ-Series, Steel Joist Institute, 2015."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23.1-T21",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -563,6 +1035,29 @@
     "parent_id": "ASCE7-22-23.1-H50"
   },
   {
+    "id": "ASCE7-22-23.1-R19",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23.1",
+      "citation": "Section 23.1",
+      "page": 1
+    },
+    "title": "ANSI/TIA-222-H , Structural Standard for Antenna Supporting Structures, Antennas and Small Wind Turbine Support Structures , Addendum 1, Telecommunications Industry Association, 2019.",
+    "description": "",
+    "data": {
+      "target": "ANSI/TIA-222-H , Structural Standard for Antenna Supporting Structures, Antennas and Small Wind Turbine Support Structures , Addendum 1, Telecommunications Industry Association, 2019."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
     "id": "ASCE7-22-23-R1",
     "type": "reference",
     "source": {
@@ -586,6 +1081,282 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-23-R2",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23",
+      "citation": "ANSI/AISC 360",
+      "page": 1
+    },
+    "title": "ANSI/AISC 360",
+    "description": "",
+    "data": {
+      "target": "ANSI/AISC 360, Specification for Structural Steel Buildings,"
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "bold_label"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23-R3",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23",
+      "citation": "ANSI/AISI S100",
+      "page": 1
+    },
+    "title": "ANSI/AISI S100",
+    "description": "",
+    "data": {
+      "target": "ANSI/AISI S100, North American Specification for the De-"
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "bold_label"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23-R4",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23",
+      "citation": "ANSI/AISI S230",
+      "page": 1
+    },
+    "title": "ANSI/AISI S230",
+    "description": "",
+    "data": {
+      "target": "ANSI/AISI S230, Standard for Cold-Formed Steel Framing"
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "bold_label"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23-R5",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23",
+      "citation": "ANSI/AISI S240",
+      "page": 1
+    },
+    "title": "ANSI/AISI S240",
+    "description": "",
+    "data": {
+      "target": "ANSI/AISI S240, North American Standard for Cold-Formed"
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "bold_label"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23-R6",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23",
+      "citation": "ANSI/AISI S310",
+      "page": 1
+    },
+    "title": "ANSI/AISI S310",
+    "description": "",
+    "data": {
+      "target": "ANSI/AISI S310, North American Standard for the Design of"
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "bold_label"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23-R7",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23",
+      "citation": "ANSI/AISI S400",
+      "page": 1
+    },
+    "title": "ANSI/AISI S400",
+    "description": "",
+    "data": {
+      "target": "ANSI/AISI S400, North American Standard for Seismic De-"
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "bold_label"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23-R8",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23",
+      "citation": "ANSI/RMI MH 16.1",
+      "page": 1
+    },
+    "title": "ANSI/RMI MH 16.1",
+    "description": "",
+    "data": {
+      "target": "ANSI/RMI MH 16.1, Specification for the Design, Testing,"
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "bold_label"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23-R9",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23",
+      "citation": "ANSI/SDI-QA/QC",
+      "page": 1
+    },
+    "title": "ANSI/SDI-QA/QC",
+    "description": "",
+    "data": {
+      "target": "ANSI/SDI-QA/QC, Standard for Quality Control and Quali-"
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "bold_label"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23-R10",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23",
+      "citation": "ANSI/SDI-SD",
+      "page": 1
+    },
+    "title": "ANSI/SDI-SD",
+    "description": "",
+    "data": {
+      "target": "ANSI/SDI-SD, Standard for Steel Deck, Steel Deck Institute,"
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "bold_label"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23-R11",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23",
+      "citation": "ANSI/SJI-100",
+      "page": 1
+    },
+    "title": "ANSI/SJI-100",
+    "description": "",
+    "data": {
+      "target": "ANSI/SJI-100,"
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "bold_label"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23-R12",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23",
+      "citation": "ANSI/SJI-200",
+      "page": 1
+    },
+    "title": "ANSI/SJI-200",
+    "description": "",
+    "data": {
+      "target": "ANSI/SJI-200, Standard Specification for Composite Steel"
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "bold_label"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23-R13",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23",
+      "citation": "ANSI/TIA-222-H",
+      "page": 1
+    },
+    "title": "ANSI/TIA-222-H",
+    "description": "",
+    "data": {
+      "target": "ANSI/TIA-222-H, Structural Standard for Antenna Supporting"
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "bold_label"
+    },
+    "parent_id": null
+  },
+  {
     "id": "ASCE7-22-23.1-H4",
     "type": "heading",
     "source": {
@@ -595,10 +1366,10 @@
       "citation": "Section 23.1",
       "page": 2
     },
-    "title": "API 12B , Specification for Bolted Tanks for Storage of Production Liquids , 12B , 16th Edition, American Petroleum Institute, 2014.",
+    "title": "API 12B",
     "description": "",
     "data": {
-      "rule": "API 12B , Specification for Bolted Tanks for Storage of Production Liquids , 12B , 16th Edition, American Petroleum Institute, 2014. Cited in: Section 15.7.8.2",
+      "rule": "API 12B",
       "conditions": [],
       "then": "",
       "else": null,
@@ -611,6 +1382,33 @@
       "qc_notes": "topic"
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23.1-T23",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-23.1-H50",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23.1",
+      "citation": "Section 23.1",
+      "page": 2
+    },
+    "title": ", Specification for Bolted Tanks for Storage of Production Liquids , 12B , 16th Edition, American Petroleum Institute, 2014.",
+    "description": "",
+    "data": {
+      "rule": ", Specification for Bolted Tanks for Storage of Production Liquids , 12B , 16th Edition, American Petroleum Institute, 2014. Cited in: Section 15.7.8.2",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-23.1-H5",
@@ -622,10 +1420,10 @@
       "citation": "Section 23.1",
       "page": 2
     },
-    "title": "API 620 , Design and Construction of Large, Welded, LowPressure Storage Tanks , 12th Edition, Addendum 2, American Petroleum Institute, 2018.",
+    "title": "API 620",
     "description": "",
     "data": {
-      "rule": "API 620 , Design and Construction of Large, Welded, LowPressure Storage Tanks , 12th Edition, Addendum 2, American Petroleum Institute, 2018.",
+      "rule": "API 620",
       "conditions": [],
       "then": "",
       "else": null,
@@ -640,7 +1438,34 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-23.1-T22",
+    "id": "ASCE7-22-23.1-T25",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-23.1-H50",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23.1",
+      "citation": "Section 23.1",
+      "page": 2
+    },
+    "title": ", Design and Construction of Large, Welded, LowPressure Storage Tanks , 12th Edition, Addendum 2, American Petroleum Institute, 2018.",
+    "description": "",
+    "data": {
+      "rule": ", Design and Construction of Large, Welded, LowPressure Storage Tanks , 12th Edition, Addendum 2, American Petroleum Institute, 2018.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-23.1-T26",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -676,10 +1501,10 @@
       "citation": "Section 23.1",
       "page": 2
     },
-    "title": "API 650 , Welded Tanks for Oil Storage , 12th Edition, Addendum 3, American Petroleum Institute, 2018.",
+    "title": "API 650",
     "description": "",
     "data": {
-      "rule": "API 650 , Welded Tanks for Oil Storage , 12th Edition, Addendum 3, American Petroleum Institute, 2018.",
+      "rule": "API 650",
       "conditions": [],
       "then": "",
       "else": null,
@@ -694,7 +1519,34 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-23.1-T23",
+    "id": "ASCE7-22-23.1-T27",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-23.1-H50",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23.1",
+      "citation": "Section 23.1",
+      "page": 2
+    },
+    "title": ", Welded Tanks for Oil Storage , 12th Edition, Addendum 3, American Petroleum Institute, 2018.",
+    "description": "",
+    "data": {
+      "rule": ", Welded Tanks for Oil Storage , 12th Edition, Addendum 3, American Petroleum Institute, 2018.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-23.1-T28",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -730,10 +1582,10 @@
       "citation": "Section 23.1",
       "page": 2
     },
-    "title": "API 653 , Tank Inspection, Repair, Alteration, and Reconstruction , 5th Edition, Addendum 1, American Petroleum Institute, 2018.",
+    "title": "API 653",
     "description": "",
     "data": {
-      "rule": "API 653 , Tank Inspection, Repair, Alteration, and Reconstruction , 5th Edition, Addendum 1, American Petroleum Institute, 2018.",
+      "rule": "API 653",
       "conditions": [],
       "then": "",
       "else": null,
@@ -748,7 +1600,34 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-23.1-T24",
+    "id": "ASCE7-22-23.1-T29",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-23.1-H50",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23.1",
+      "citation": "Section 23.1",
+      "page": 2
+    },
+    "title": ", Tank Inspection, Repair, Alteration, and Reconstruction , 5th Edition, Addendum 1, American Petroleum Institute, 2018.",
+    "description": "",
+    "data": {
+      "rule": ", Tank Inspection, Repair, Alteration, and Reconstruction , 5th Edition, Addendum 1, American Petroleum Institute, 2018.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-23.1-T30",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -784,10 +1663,10 @@
       "citation": "Section 23.1",
       "page": 2
     },
-    "title": "ASCE 4 , Seismic Analysis of Safety-Related Nuclear Structures and Commentary , ASCE, 1998.",
+    "title": "ASCE 4",
     "description": "",
     "data": {
-      "rule": "ASCE 4 , Seismic Analysis of Safety-Related Nuclear Structures and Commentary , ASCE, 1998. Cited in: Section 12.9.1.3",
+      "rule": "ASCE 4",
       "conditions": [],
       "then": "",
       "else": null,
@@ -800,6 +1679,33 @@
       "qc_notes": "topic"
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23.1-T31",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-23.1-H50",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23.1",
+      "citation": "Section 23.1",
+      "page": 2
+    },
+    "title": ", Seismic Analysis of Safety-Related Nuclear Structures and Commentary , ASCE, 1998.",
+    "description": "",
+    "data": {
+      "rule": ", Seismic Analysis of Safety-Related Nuclear Structures and Commentary , ASCE, 1998. Cited in: Section 12.9.1.3",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-23.1-H9",
@@ -811,10 +1717,10 @@
       "citation": "Section 23.1",
       "page": 2
     },
-    "title": "ASCE 8 , Specification for the Design of Cold-Formed Stainless Steel Structural Members , ASCE, 2002.",
+    "title": "ASCE 8",
     "description": "",
     "data": {
-      "rule": "ASCE 8 , Specification for the Design of Cold-Formed Stainless Steel Structural Members , ASCE, 2002.",
+      "rule": "ASCE 8",
       "conditions": [],
       "then": "",
       "else": null,
@@ -829,7 +1735,34 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-23.1-T26",
+    "id": "ASCE7-22-23.1-T33",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-23.1-H50",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23.1",
+      "citation": "Section 23.1",
+      "page": 2
+    },
+    "title": ", Specification for the Design of Cold-Formed Stainless Steel Structural Members , ASCE, 2002.",
+    "description": "",
+    "data": {
+      "rule": ", Specification for the Design of Cold-Formed Stainless Steel Structural Members , ASCE, 2002.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-23.1-T34",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -865,10 +1798,10 @@
       "citation": "Section 23.1",
       "page": 2
     },
-    "title": "ASCE 19 , Structural Applications of Steel Cables for Buildings , ASCE, 2010.",
+    "title": "ASCE 19",
     "description": "",
     "data": {
-      "rule": "ASCE 19 , Structural Applications of Steel Cables for Buildings , ASCE, 2010.",
+      "rule": "ASCE 19",
       "conditions": [],
       "then": "",
       "else": null,
@@ -883,7 +1816,34 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-23.1-T27",
+    "id": "ASCE7-22-23.1-T35",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-23.1-H50",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23.1",
+      "citation": "Section 23.1",
+      "page": 2
+    },
+    "title": ", Structural Applications of Steel Cables for Buildings , ASCE, 2010.",
+    "description": "",
+    "data": {
+      "rule": ", Structural Applications of Steel Cables for Buildings , ASCE, 2010.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-23.1-T36",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -919,10 +1879,10 @@
       "citation": "Section 23.1",
       "page": 2
     },
-    "title": "ASCE 41 , Seismic Evaluation and Retrofit of Existing Buildings , ASCE, 2017.",
+    "title": "ASCE 41",
     "description": "",
     "data": {
-      "rule": "ASCE 41 , Seismic Evaluation and Retrofit of Existing Buildings , ASCE, 2017.",
+      "rule": "ASCE 41",
       "conditions": [],
       "then": "",
       "else": null,
@@ -937,7 +1897,34 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-23.1-T28",
+    "id": "ASCE7-22-23.1-T37",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-23.1-H50",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23.1",
+      "citation": "Section 23.1",
+      "page": 2
+    },
+    "title": ", Seismic Evaluation and Retrofit of Existing Buildings , ASCE, 2017.",
+    "description": "",
+    "data": {
+      "rule": ", Seismic Evaluation and Retrofit of Existing Buildings , ASCE, 2017.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-23.1-T38",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -973,10 +1960,10 @@
       "citation": "Section 23.1",
       "page": 2
     },
-    "title": "ASCE 72 , Design of Steel Lighting System Support Pole Structures , ASCE, 2022.",
+    "title": "ASCE 72",
     "description": "",
     "data": {
-      "rule": "ASCE 72 , Design of Steel Lighting System Support Pole Structures , ASCE, 2022. Cited in : Section 15.6.10",
+      "rule": "ASCE 72",
       "conditions": [],
       "then": "",
       "else": null,
@@ -989,6 +1976,33 @@
       "qc_notes": "topic"
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23.1-T39",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-23.1-H50",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23.1",
+      "citation": "Section 23.1",
+      "page": 2
+    },
+    "title": ", Design of Steel Lighting System Support Pole Structures , ASCE, 2022.",
+    "description": "",
+    "data": {
+      "rule": ", Design of Steel Lighting System Support Pole Structures , ASCE, 2022. Cited in : Section 15.6.10",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-23.1-H13",
@@ -1000,10 +2014,10 @@
       "citation": "Section 23.1",
       "page": 2
     },
-    "title": "ASME A17.1-2019/CSA B44-19 , Safety Code for Elevators and Escalators , CSA Group, 2019.",
+    "title": "ASME A17.1-2019/CSA B44-19",
     "description": "",
     "data": {
-      "rule": "ASME A17.1-2019/CSA B44-19 , Safety Code for Elevators and Escalators , CSA Group, 2019.",
+      "rule": "ASME A17.1-2019/CSA B44-19",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1018,7 +2032,34 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-23.1-T30",
+    "id": "ASCE7-22-23.1-T41",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-23.1-H50",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23.1",
+      "citation": "Section 23.1",
+      "page": 2
+    },
+    "title": ", Safety Code for Elevators and Escalators , CSA Group, 2019.",
+    "description": "",
+    "data": {
+      "rule": ", Safety Code for Elevators and Escalators , CSA Group, 2019.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-23.1-T42",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1054,10 +2095,10 @@
       "citation": "Section 23.1",
       "page": 2
     },
-    "title": "ASME B31 , Code for Pressure Piping, American Society of Mechanical Engineers (consists of the following sections):",
+    "title": "ASME B31",
     "description": "",
     "data": {
-      "rule": "ASME B31 , Code for Pressure Piping, American Society of Mechanical Engineers (consists of the following sections):",
+      "rule": "ASME B31",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1072,6 +2113,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-23.1-T43",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-23.1-H50",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23.1",
+      "citation": "Section 23.1",
+      "page": 2
+    },
+    "title": ", Code for Pressure Piping, American Society of Mechanical Engineers (consists of the following sections):",
+    "description": "",
+    "data": {
+      "rule": ", Code for Pressure Piping, American Society of Mechanical Engineers (consists of the following sections):",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-23.1-H15",
     "type": "heading",
     "source": {
@@ -1081,7 +2149,7 @@
       "citation": "Section 23.1",
       "page": 2
     },
-    "title": "ASME B31.1 , Power Piping , 2018.",
+    "title": "ASME B31.1",
     "description": "",
     "data": {
       "rule": "ASME B31.1 , Power Piping , 2018.",
@@ -1108,7 +2176,7 @@
       "citation": "Section 23.1",
       "page": 2
     },
-    "title": "ASME B31.3 , Process Piping , 2018.",
+    "title": "ASME B31.3",
     "description": "",
     "data": {
       "rule": "ASME B31.3 , Process Piping , 2018.",
@@ -1135,10 +2203,10 @@
       "citation": "Section 23.1",
       "page": 2
     },
-    "title": "ASME B31.4 , Pipeline Transportation Systems for Liquids and Slurries , 2019.",
+    "title": "ASME B31.4",
     "description": "",
     "data": {
-      "rule": "ASME B31.4 , Pipeline Transportation Systems for Liquids and Slurries , 2019.",
+      "rule": "ASME B31.4",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1151,6 +2219,33 @@
       "qc_notes": "topic"
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23.1-T46",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-23.1-H50",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23.1",
+      "citation": "Section 23.1",
+      "page": 2
+    },
+    "title": ", Pipeline Transportation Systems for Liquids and Slurries , 2019.",
+    "description": "",
+    "data": {
+      "rule": ", Pipeline Transportation Systems for Liquids and Slurries , 2019.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-23.1-H18",
@@ -1162,10 +2257,10 @@
       "citation": "Section 23.1",
       "page": 2
     },
-    "title": "ASME B31.5 , Refrigeration Piping and Heat Transfer Components , 2019.",
+    "title": "ASME B31.5",
     "description": "",
     "data": {
-      "rule": "ASME B31.5 , Refrigeration Piping and Heat Transfer Components , 2019.",
+      "rule": "ASME B31.5",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1178,6 +2273,33 @@
       "qc_notes": "topic"
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23.1-T47",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-23.1-H50",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23.1",
+      "citation": "Section 23.1",
+      "page": 2
+    },
+    "title": ", Refrigeration Piping and Heat Transfer Components , 2019.",
+    "description": "",
+    "data": {
+      "rule": ", Refrigeration Piping and Heat Transfer Components , 2019.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-23.1-H19",
@@ -1189,10 +2311,10 @@
       "citation": "Section 23.1",
       "page": 2
     },
-    "title": "ASME B31.8 , Gas Transmission and Distribution Piping Systems , 2018.",
+    "title": "ASME B31.8",
     "description": "",
     "data": {
-      "rule": "ASME B31.8 , Gas Transmission and Distribution Piping Systems , 2018.",
+      "rule": "ASME B31.8",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1205,6 +2327,33 @@
       "qc_notes": "topic"
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23.1-T48",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-23.1-H50",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23.1",
+      "citation": "Section 23.1",
+      "page": 2
+    },
+    "title": ", Gas Transmission and Distribution Piping Systems , 2018.",
+    "description": "",
+    "data": {
+      "rule": ", Gas Transmission and Distribution Piping Systems , 2018.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-23.1-H20",
@@ -1216,10 +2365,10 @@
       "citation": "Section 23.1",
       "page": 2
     },
-    "title": "ASME B31.9 , Building Services Piping , 2017.",
+    "title": "ASME B31.9",
     "description": "",
     "data": {
-      "rule": "ASME B31.9 , Building Services Piping , 2017.",
+      "rule": "ASME B31.9",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1234,6 +2383,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-23.1-T49",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-23.1-H50",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23.1",
+      "citation": "Section 23.1",
+      "page": 2
+    },
+    "title": ", Building Services Piping , 2017.",
+    "description": "",
+    "data": {
+      "rule": ", Building Services Piping , 2017.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-23.1-H21",
     "type": "heading",
     "source": {
@@ -1243,10 +2419,10 @@
       "citation": "Section 23.1",
       "page": 2
     },
-    "title": "ASME B31.12 , Hydrogen Piping and Pipelines , 2019.",
+    "title": "ASME B31.12",
     "description": "",
     "data": {
-      "rule": "ASME B31.12 , Hydrogen Piping and Pipelines , 2019.",
+      "rule": "ASME B31.12",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1259,6 +2435,33 @@
       "qc_notes": "topic"
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23.1-T50",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-23.1-H50",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23.1",
+      "citation": "Section 23.1",
+      "page": 2
+    },
+    "title": ", Hydrogen Piping and Pipelines , 2019.",
+    "description": "",
+    "data": {
+      "rule": ", Hydrogen Piping and Pipelines , 2019.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-23.1-H22",
@@ -1315,7 +2518,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-23.1-T40",
+    "id": "ASCE7-22-23.1-T60",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1351,10 +2554,10 @@
       "citation": "Section 23.1",
       "page": 2
     },
-    "title": "ASME BPVC , Boiler and Pressure Vessel Code , American Society of Mechanical Engineers (consists of the following sections):",
+    "title": "ASME BPVC",
     "description": "",
     "data": {
-      "rule": "ASME BPVC , Boiler and Pressure Vessel Code , American Society of Mechanical Engineers (consists of the following sections):",
+      "rule": "ASME BPVC",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1367,6 +2570,33 @@
       "qc_notes": "topic"
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23.1-T61",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-23.1-H50",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23.1",
+      "citation": "Section 23.1",
+      "page": 2
+    },
+    "title": ", Boiler and Pressure Vessel Code , American Society of Mechanical Engineers (consists of the following sections):",
+    "description": "",
+    "data": {
+      "rule": ", Boiler and Pressure Vessel Code , American Society of Mechanical Engineers (consists of the following sections):",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-23.1-H25",
@@ -1378,10 +2608,10 @@
       "citation": "Section 23.1",
       "page": 2
     },
-    "title": "BPVC-I , Rules for Construction of Power Boilers , 2019. BPVC-IV , Rules for Construction of Heating Boilers , 2019.",
+    "title": "BPVC-I",
     "description": "",
     "data": {
-      "rule": "BPVC-I , Rules for Construction of Power Boilers , 2019. BPVC-IV , Rules for Construction of Heating Boilers , 2019.",
+      "rule": "BPVC-I",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1396,7 +2626,34 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-23.1-T41",
+    "id": "ASCE7-22-23.1-T62",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-23.1-H50",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23.1",
+      "citation": "Section 23.1",
+      "page": 2
+    },
+    "title": ", Rules for Construction of Power Boilers , 2019. BPVC-IV , Rules for Construction of Heating Boilers , 2019.",
+    "description": "",
+    "data": {
+      "rule": ", Rules for Construction of Power Boilers , 2019. BPVC-IV , Rules for Construction of Heating Boilers , 2019.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-23.1-T63",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1423,7 +2680,7 @@
     "parent_id": "ASCE7-22-23.1-H50"
   },
   {
-    "id": "ASCE7-22-23.1-T42",
+    "id": "ASCE7-22-23.1-T64",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1450,7 +2707,7 @@
     "parent_id": "ASCE7-22-23.1-H50"
   },
   {
-    "id": "ASCE7-22-23.1-T43",
+    "id": "ASCE7-22-23.1-T65",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1477,7 +2734,7 @@
     "parent_id": "ASCE7-22-23.1-H50"
   },
   {
-    "id": "ASCE7-22-23.1-T44",
+    "id": "ASCE7-22-23.1-T66",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1558,7 +2815,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-23.1-T46",
+    "id": "ASCE7-22-23.1-T68",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1585,7 +2842,7 @@
     "parent_id": "ASCE7-22-23.1-H50"
   },
   {
-    "id": "ASCE7-22-23.1-T47",
+    "id": "ASCE7-22-23.1-T69",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1612,7 +2869,7 @@
     "parent_id": "ASCE7-22-23.1-H50"
   },
   {
-    "id": "ASCE7-22-23.1-T49",
+    "id": "ASCE7-22-23.1-T71",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1639,7 +2896,7 @@
     "parent_id": "ASCE7-22-23.1-H50"
   },
   {
-    "id": "ASCE7-22-23.1-T51",
+    "id": "ASCE7-22-23.1-T73",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1720,7 +2977,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-23.1-T53",
+    "id": "ASCE7-22-23.1-T75",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1747,7 +3004,7 @@
     "parent_id": "ASCE7-22-23.1-H50"
   },
   {
-    "id": "ASCE7-22-23.1-T55",
+    "id": "ASCE7-22-23.1-T77",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1801,7 +3058,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-23.1-T57",
+    "id": "ASCE7-22-23.1-T79",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1963,7 +3220,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-23.1-T60",
+    "id": "ASCE7-22-23.1-T82",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2071,7 +3328,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-23.1-T63",
+    "id": "ASCE7-22-23.1-T85",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2098,7 +3355,7 @@
     "parent_id": "ASCE7-22-23.1-H50"
   },
   {
-    "id": "ASCE7-22-23.1-T65",
+    "id": "ASCE7-22-23.1-T87",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2125,7 +3382,398 @@
     "parent_id": "ASCE7-22-23.1-H50"
   },
   {
-    "id": "ASCE7-22-23.1-T68",
+    "id": "ASCE7-22-23-R14",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23",
+      "citation": "ASTM A108",
+      "page": 2
+    },
+    "title": "ASTM A108",
+    "description": "",
+    "data": {
+      "target": "ASTM A108, Standard Specification for Steel Bar, Carbon"
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "bold_label"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23-R16",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23",
+      "citation": "ASTM A500",
+      "page": 2
+    },
+    "title": "ASTM A500",
+    "description": "",
+    "data": {
+      "target": "ASTM A500, Standard Specification for Cold-Formed"
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "bold_label"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23-R17",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23",
+      "citation": "ASTM A615",
+      "page": 2
+    },
+    "title": "ASTM A615",
+    "description": "",
+    "data": {
+      "target": "ASTM A615, Standard Specification for Deformed and"
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "bold_label"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23-R18",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23",
+      "citation": "ASTM A653",
+      "page": 2
+    },
+    "title": "ASTM A653",
+    "description": "",
+    "data": {
+      "target": "ASTM A653, Standard Specification for Steel Sheet, Zinc-"
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "bold_label"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23-R19",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23",
+      "citation": "ASTM A706/A706M",
+      "page": 2
+    },
+    "title": "ASTM A706/A706M",
+    "description": "",
+    "data": {
+      "target": "ASTM A706/A706M, Standard Specification for Low-Alloy"
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "bold_label"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23-R20",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23",
+      "citation": "ASTM C635/C635M-17",
+      "page": 2
+    },
+    "title": "ASTM C635/C635M-17",
+    "description": "",
+    "data": {
+      "target": "ASTM C635/C635M-17, Standard Specification for the"
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "bold_label"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23-R21",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23",
+      "citation": "ASTM C636/C636M-19",
+      "page": 2
+    },
+    "title": "ASTM C636/C636M-19",
+    "description": "",
+    "data": {
+      "target": "ASTM C636/C636M-19, Standard Practice for Installation"
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "bold_label"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23-R22",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23",
+      "citation": "ASTM C1087-16",
+      "page": 2
+    },
+    "title": "ASTM C1087-16",
+    "description": "",
+    "data": {
+      "target": "ASTM C1087-16, Standard Test Method for Determining"
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "bold_label"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23-R23",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23",
+      "citation": "ASTM C1135-19",
+      "page": 2
+    },
+    "title": "ASTM C1135-19",
+    "description": "",
+    "data": {
+      "target": "ASTM C1135-19, Standard Test Method for Determining"
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "bold_label"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23-R24",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23",
+      "citation": "ASTM C1184-18e1",
+      "page": 2
+    },
+    "title": "ASTM C1184-18e1",
+    "description": "",
+    "data": {
+      "target": "ASTM C1184-18e1, Standard Specification for Structural"
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "bold_label"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23-R25",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23",
+      "citation": "ASTM C1265-17",
+      "page": 2
+    },
+    "title": "ASTM C1265-17",
+    "description": "",
+    "data": {
+      "target": "ASTM C1265-17, Standard Test Method for Determining the"
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "bold_label"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23-R26",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23",
+      "citation": "ASTM C1294-15",
+      "page": 2
+    },
+    "title": "ASTM C1294-15",
+    "description": "",
+    "data": {
+      "target": "ASTM C1294-15, Standard Test Method for Compatibility of"
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "bold_label"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23-R27",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23",
+      "citation": "ASTM C1369-19",
+      "page": 2
+    },
+    "title": "ASTM C1369-19",
+    "description": "",
+    "data": {
+      "target": "ASTM C1369-19, Standard Specification for Secondary Edge"
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "bold_label"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23-R28",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23",
+      "citation": "ASTM D1586",
+      "page": 2
+    },
+    "title": "ASTM D1586",
+    "description": "",
+    "data": {
+      "target": "ASTM D1586, Standard Test Method for Penetration Test"
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "bold_label"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23.1-R20",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23.1",
+      "citation": "Section 23.1",
+      "page": 3
+    },
+    "title": "ASTM D2166 , Standard Test Method for Unconfined Compressive Strength of Cohesive Soil , ASTM, 2000.",
+    "description": "",
+    "data": {
+      "target": "ASTM D2166 , Standard Test Method for Unconfined Compressive Strength of Cohesive Soil , ASTM, 2000."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23.1-R21",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23.1",
+      "citation": "Section 23.1",
+      "page": 3
+    },
+    "title": "ASTM D2216 , Standard Test Method for Laboratory Determination of Water (Moisture) Content of Soil and Rock by Mass , ASTM, 1998.",
+    "description": "",
+    "data": {
+      "target": "ASTM D2216 , Standard Test Method for Laboratory Determination of Water (Moisture) Content of Soil and Rock by Mass , ASTM, 1998."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23.1-R22",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23.1",
+      "citation": "Section 23.1",
+      "page": 3
+    },
+    "title": "ASTM D2850 , Standard Test Method for UnconsolidatedUndrained Triaxial Compression Test on Cohesive Soils , ASTM, 2003.",
+    "description": "",
+    "data": {
+      "target": "ASTM D2850 , Standard Test Method for UnconsolidatedUndrained Triaxial Compression Test on Cohesive Soils , ASTM, 2003."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23.1-T90",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2152,7 +3800,76 @@
     "parent_id": "ASCE7-22-23.1-H50"
   },
   {
-    "id": "ASCE7-22-23.1-T70",
+    "id": "ASCE7-22-23.1-R23",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23.1",
+      "citation": "Section 23.1",
+      "page": 3
+    },
+    "title": "ASTM D4318 , Standard Test Methods for Liquid Limit, Plastic Limit, and Plasticity Index of Soils , ASTM, 2000. Cited in: Sections 11.3, 20.4.3",
+    "description": "",
+    "data": {
+      "target": "ASTM D4318 , Standard Test Methods for Liquid Limit, Plastic Limit, and Plasticity Index of Soils , ASTM, 2000. Cited in: Sections 11.3, 20.4.3"
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23.1-R24",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23.1",
+      "citation": "Section 23.1",
+      "page": 3
+    },
+    "title": "ASTM E580/E580M-20 , Standard Practice for Installation of Ceiling Suspension Systems for Acoustical Tile and Lay-In Panels in Areas Subject to Earthquake Ground Motions , ASTM, 2020.",
+    "description": "",
+    "data": {
+      "target": "ASTM E580/E580M-20 , Standard Practice for Installation of Ceiling Suspension Systems for Acoustical Tile and Lay-In Panels in Areas Subject to Earthquake Ground Motions , ASTM, 2020."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23.1-R25",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23.1",
+      "citation": "Section 23.1",
+      "page": 3
+    },
+    "title": "ASTM F1554-18 , Standard Specification for Anchor Bolts, Steel, 36, 55, and 105-ksi Yield Strength , ASTM, 2018.",
+    "description": "",
+    "data": {
+      "target": "ASTM F1554-18 , Standard Specification for Anchor Bolts, Steel, 36, 55, and 105-ksi Yield Strength , ASTM, 2018."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23.1-T92",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2188,10 +3905,10 @@
       "citation": "Section 23.1",
       "page": 3
     },
-    "title": "AWC NDS-18 , National Design Specification for Wood Construction , Including Supplements, American Wood Council, 2017.",
+    "title": "AWC NDS-18",
     "description": "",
     "data": {
-      "rule": "AWC NDS-18 , National Design Specification for Wood Construction , Including Supplements, American Wood Council, 2017. Cited in: Section 14.5.1",
+      "rule": "AWC NDS-18",
       "conditions": [],
       "then": "",
       "else": null,
@@ -2204,6 +3921,33 @@
       "qc_notes": "topic"
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23.1-T93",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-23.1-H50",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23.1",
+      "citation": "Section 23.1",
+      "page": 3
+    },
+    "title": ", National Design Specification for Wood Construction , Including Supplements, American Wood Council, 2017.",
+    "description": "",
+    "data": {
+      "rule": ", National Design Specification for Wood Construction , Including Supplements, American Wood Council, 2017. Cited in: Section 14.5.1",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-23.1-H40",
@@ -2215,10 +3959,10 @@
       "citation": "Section 23.1",
       "page": 3
     },
-    "title": "AWC SDPWS-21 , Special Design Provisions for Wind and Seismic , American Wood Council, 2020.",
+    "title": "AWC SDPWS-21",
     "description": "",
     "data": {
-      "rule": "AWC SDPWS-21 , Special Design Provisions for Wind and Seismic , American Wood Council, 2020.",
+      "rule": "AWC SDPWS-21",
       "conditions": [],
       "then": "",
       "else": null,
@@ -2233,7 +3977,34 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-23.1-T72",
+    "id": "ASCE7-22-23.1-T95",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-23.1-H50",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23.1",
+      "citation": "Section 23.1",
+      "page": 3
+    },
+    "title": ", Special Design Provisions for Wind and Seismic , American Wood Council, 2020.",
+    "description": "",
+    "data": {
+      "rule": ", Special Design Provisions for Wind and Seismic , American Wood Council, 2020.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-23.1-T96",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2269,10 +4040,10 @@
       "citation": "Section 23.1",
       "page": 3
     },
-    "title": "AWWA D100-11 , Welded Carbon Steel Tanks for Water Storage , American Water Works Association, 2011.",
+    "title": "AWWA D100-11",
     "description": "",
     "data": {
-      "rule": "AWWA D100-11 , Welded Carbon Steel Tanks for Water Storage , American Water Works Association, 2011.",
+      "rule": "AWWA D100-11",
       "conditions": [],
       "then": "",
       "else": null,
@@ -2287,7 +4058,34 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-23.1-T73",
+    "id": "ASCE7-22-23.1-T97",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-23.1-H50",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23.1",
+      "citation": "Section 23.1",
+      "page": 3
+    },
+    "title": ", Welded Carbon Steel Tanks for Water Storage , American Water Works Association, 2011.",
+    "description": "",
+    "data": {
+      "rule": ", Welded Carbon Steel Tanks for Water Storage , American Water Works Association, 2011.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-23.1-T98",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2323,10 +4121,10 @@
       "citation": "Section 23.1",
       "page": 3
     },
-    "title": "AWWA D103 , Factory-Coated Bolted Carbon Steel Tanks for Water Storage , American Water Works Association, 2009 with Addendum 2014.",
+    "title": "AWWA D103",
     "description": "",
     "data": {
-      "rule": "AWWA D103 , Factory-Coated Bolted Carbon Steel Tanks for Water Storage , American Water Works Association, 2009 with Addendum 2014.",
+      "rule": "AWWA D103",
       "conditions": [],
       "then": "",
       "else": null,
@@ -2341,7 +4139,34 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-23.1-T74",
+    "id": "ASCE7-22-23.1-T99",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-23.1-H50",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23.1",
+      "citation": "Section 23.1",
+      "page": 3
+    },
+    "title": ", Factory-Coated Bolted Carbon Steel Tanks for Water Storage , American Water Works Association, 2009 with Addendum 2014.",
+    "description": "",
+    "data": {
+      "rule": ", Factory-Coated Bolted Carbon Steel Tanks for Water Storage , American Water Works Association, 2009 with Addendum 2014.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-23.1-T100",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2422,7 +4247,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-23.1-T75",
+    "id": "ASCE7-22-23.1-T101",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2458,10 +4283,10 @@
       "citation": "Section 23.1",
       "page": 3
     },
-    "title": "AWWA D110 , Wireand Strand-Wound, Circular, Prestressed Concrete Water Tanks , American Water Works Association, 2013.",
+    "title": "AWWA D110",
     "description": "",
     "data": {
-      "rule": "AWWA D110 , Wireand Strand-Wound, Circular, Prestressed Concrete Water Tanks , American Water Works Association, 2013. Cited in: Section 15.7.7.3",
+      "rule": "AWWA D110",
       "conditions": [],
       "then": "",
       "else": null,
@@ -2474,6 +4299,33 @@
       "qc_notes": "topic"
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23.1-T104",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-23.1-H50",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23.1",
+      "citation": "Section 23.1",
+      "page": 3
+    },
+    "title": ", Wireand Strand-Wound, Circular, Prestressed Concrete Water Tanks , American Water Works Association, 2013.",
+    "description": "",
+    "data": {
+      "rule": ", Wireand Strand-Wound, Circular, Prestressed Concrete Water Tanks , American Water Works Association, 2013. Cited in: Section 15.7.7.3",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-23.1-H46",
@@ -2485,10 +4337,10 @@
       "citation": "Section 23.1",
       "page": 3
     },
-    "title": "AWWA D115 , Tendon-Prestressed Concrete Water Tanks , American Water Works Association, 2017.",
+    "title": "AWWA D115",
     "description": "",
     "data": {
-      "rule": "AWWA D115 , Tendon-Prestressed Concrete Water Tanks , American Water Works Association, 2017. Cited in: Section 15.7.7.3",
+      "rule": "AWWA D115",
       "conditions": [],
       "then": "",
       "else": null,
@@ -2501,6 +4353,33 @@
       "qc_notes": "topic"
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23.1-T106",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-23.1-H50",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23.1",
+      "citation": "Section 23.1",
+      "page": 3
+    },
+    "title": ", Tendon-Prestressed Concrete Water Tanks , American Water Works Association, 2017.",
+    "description": "",
+    "data": {
+      "rule": ", Tendon-Prestressed Concrete Water Tanks , American Water Works Association, 2017. Cited in: Section 15.7.7.3",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-23.1-H47",
@@ -2512,10 +4391,10 @@
       "citation": "Section 23.1",
       "page": 3
     },
-    "title": "DOC PS 1-09 , Structural Plywood , US Department of Commerce, National Institute of Standards and Technology, 2009.",
+    "title": "DOC PS 1-09",
     "description": "",
     "data": {
-      "rule": "DOC PS 1-09 , Structural Plywood , US Department of Commerce, National Institute of Standards and Technology, 2009. Cited in: Section 11.2",
+      "rule": "DOC PS 1-09",
       "conditions": [],
       "then": "",
       "else": null,
@@ -2530,7 +4409,80 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-23.1-T81",
+    "id": "ASCE7-22-23.1-T108",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-23.1-H50",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23.1",
+      "citation": "Section 23.1",
+      "page": 3
+    },
+    "title": ", Structural Plywood , US Department of Commerce, National Institute of Standards and Technology, 2009.",
+    "description": "",
+    "data": {
+      "rule": ", Structural Plywood , US Department of Commerce, National Institute of Standards and Technology, 2009. Cited in: Section 11.2",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-23.1-R26",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23.1",
+      "citation": "Section 23.1",
+      "page": 3
+    },
+    "title": "DOC PS 2-10 , Performance Standard for Wood-Based Structural-Use Panels , US Department of Commerce, National Institute of Standards and Technology, 2011.",
+    "description": "",
+    "data": {
+      "target": "DOC PS 2-10 , Performance Standard for Wood-Based Structural-Use Panels , US Department of Commerce, National Institute of Standards and Technology, 2011."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23.1-R27",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23.1",
+      "citation": "Section 23.1",
+      "page": 3
+    },
+    "title": "Cited in: Section 11.2",
+    "description": "",
+    "data": {
+      "target": "Cited in: Section 11.2"
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23.1-T110",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2557,7 +4509,53 @@
     "parent_id": "ASCE7-22-23.1-H50"
   },
   {
-    "id": "ASCE7-22-23.1-T82",
+    "id": "ASCE7-22-23.1-R28",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23.1",
+      "citation": "Section 23.1",
+      "page": 3
+    },
+    "title": "*ICC-ES AC 156 , editorially revised September 2019, Acceptance Criteria for Seismic Certification by Shake-Table Testing of Nonstructural Components and Systems , International Code Council Evaluatio",
+    "description": "",
+    "data": {
+      "target": "*ICC-ES AC 156 , editorially revised September 2019, Acceptance Criteria for Seismic Certification by Shake-Table Testing of Nonstructural Components and Systems , International Code Council Evaluation Service, 2019."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23.1-R29",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23.1",
+      "citation": "Section 23.1",
+      "page": 3
+    },
+    "title": "Cited in: Section 13.2.5",
+    "description": "",
+    "data": {
+      "target": "Cited in: Section 13.2.5"
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23.1-T111",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2584,7 +4582,30 @@
     "parent_id": "ASCE7-22-23.1-H50"
   },
   {
-    "id": "ASCE7-22-23.1-T83",
+    "id": "ASCE7-22-23.1-R30",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23.1",
+      "citation": "Section 23.1",
+      "page": 3
+    },
+    "title": "Cited in: Section 11.1.2",
+    "description": "",
+    "data": {
+      "target": "Cited in: Section 11.1.2"
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23.1-T112",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2611,7 +4632,30 @@
     "parent_id": "ASCE7-22-23.1-H50"
   },
   {
-    "id": "ASCE7-22-23.1-T84",
+    "id": "ASCE7-22-23.1-R31",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23.1",
+      "citation": "Section 23.1",
+      "page": 3
+    },
+    "title": "Cited in: Section 13.6.4.1",
+    "description": "",
+    "data": {
+      "target": "Cited in: Section 13.6.4.1"
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23.1-T113",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2665,7 +4709,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-23.1-T85",
+    "id": "ASCE7-22-23.1-T114",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2719,7 +4763,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-23.1-T86",
+    "id": "ASCE7-22-23.1-T115",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2755,7 +4799,7 @@
       "citation": "Section 23.1",
       "page": 3
     },
-    "title": "*NIST GCR 12-917-20 , Tentative Framework for Development of Advanced Seismic Design Criteria for New Buildings. NEHRP Consultants Joint Venture, a Partnership of the Applied Technology Council and th",
+    "title": "*NIST GCR 12-917-20 , Tentative Framework for Development of Advanced Seismic Design Criteria for New Buildings. NEHRP Consultants Joint Venture, a Partnership of the Applied Technology Council and the Consortium of Universities for Research in Earthquake Engineering. US Department of Commerce, 2012.",
     "description": "",
     "data": {
       "rule": "*NIST GCR 12-917-20 , Tentative Framework for Development of Advanced Seismic Design Criteria for New Buildings. NEHRP Consultants Joint Venture, a Partnership of the Applied Technology Council and the Consortium of Universities for Research in Earthquake Engineering. US Department of Commerce, 2012.",
@@ -2773,7 +4817,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-23.1-T87",
+    "id": "ASCE7-22-23.1-T116",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2800,7 +4844,7 @@
     "parent_id": "ASCE7-22-23.1-H50"
   },
   {
-    "id": "ASCE7-22-23.1-T88",
+    "id": "ASCE7-22-23.1-T117",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2827,7 +4871,7 @@
     "parent_id": "ASCE7-22-23.1-H50"
   },
   {
-    "id": "ASCE7-22-23.1-T89",
+    "id": "ASCE7-22-23.1-T118",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2854,7 +4898,7 @@
     "parent_id": "ASCE7-22-23.1-H50"
   },
   {
-    "id": "ASCE7-22-23.1-T90",
+    "id": "ASCE7-22-23.1-T119",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2881,7 +4925,7 @@
     "parent_id": "ASCE7-22-23.1-H50"
   },
   {
-    "id": "ASCE7-22-23.1-T91",
+    "id": "ASCE7-22-23.1-T120",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2908,7 +4952,7 @@
     "parent_id": "ASCE7-22-23.1-H50"
   },
   {
-    "id": "ASCE7-22-23.1-T92",
+    "id": "ASCE7-22-23.1-T121",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2935,7 +4979,145 @@
     "parent_id": "ASCE7-22-23.1-H50"
   },
   {
-    "id": "ASCE7-22-23.1-T93",
+    "id": "ASCE7-22-23-R29",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23",
+      "citation": "ASTM D2166",
+      "page": 3
+    },
+    "title": "ASTM D2166",
+    "description": "",
+    "data": {
+      "target": "ASTM D2166, Standard Test Method for Unconfined Com-"
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "bold_label"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23-R30",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23",
+      "citation": "ASTM D2216",
+      "page": 3
+    },
+    "title": "ASTM D2216",
+    "description": "",
+    "data": {
+      "target": "ASTM D2216, Standard Test Method for Laboratory Deter-"
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "bold_label"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23-R31",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23",
+      "citation": "ASTM D2850",
+      "page": 3
+    },
+    "title": "ASTM D2850",
+    "description": "",
+    "data": {
+      "target": "ASTM D2850, Standard Test Method for Unconsolidated-"
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "bold_label"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23-R32",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23",
+      "citation": "ASTM D4318",
+      "page": 3
+    },
+    "title": "ASTM D4318",
+    "description": "",
+    "data": {
+      "target": "ASTM D4318, Standard Test Methods for Liquid Limit,"
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "bold_label"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23-R33",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23",
+      "citation": "ASTM E580/E580M-20",
+      "page": 3
+    },
+    "title": "ASTM E580/E580M-20",
+    "description": "",
+    "data": {
+      "target": "ASTM E580/E580M-20, Standard Practice for Installation"
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "bold_label"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23-R34",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 23,
+      "section": "23",
+      "citation": "ASTM F1554-18",
+      "page": 3
+    },
+    "title": "ASTM F1554-18",
+    "description": "",
+    "data": {
+      "target": "ASTM F1554-18, Standard Specification for Anchor Bolts,"
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "bold_label"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-23.1-T122",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2962,7 +5144,7 @@
     "parent_id": "ASCE7-22-23.1-H50"
   },
   {
-    "id": "ASCE7-22-23.1-T94",
+    "id": "ASCE7-22-23.1-T123",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",

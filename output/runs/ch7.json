@@ -36,7 +36,7 @@
       "citation": "Section 7.1.1",
       "page": 1
     },
-    "title": "7.1.1 De fi nitions",
+    "title": "7.1.1 De",
     "description": "",
     "data": {
       "rule": "7.1.1 De fi nitions",
@@ -63,7 +63,7 @@
       "citation": "Section 7.1.1",
       "page": 1
     },
-    "title": "CHAPTER 7 SNOW LOADS",
+    "title": "CHAPTER 7",
     "description": "",
     "data": {
       "rule": "CHAPTER 7 SNOW LOADS",
@@ -252,7 +252,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-7.1.1-T1",
+    "id": "ASCE7-22-7.1.1-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1943,13 +1943,13 @@
     "data": {
       "expression": "(cid:129) The ground snow load, p g , is less than or equal to 5 lb/ft2 p =C p (7.4-1)",
       "parameters": {
-        "p": {
-          "description": "Design pressure to be used in determination of wind loads for buildings, lb/ft 2 (N/m 2 )",
-          "source": "ASCE7-22-26.3-T78"
-        },
         "g": {
           "description": "Acceleration caused by gravity [in : \u2215 s 2 (mm \u2215 s 2 )] if the units of the displacement DM are in in. (mm);",
           "source": "ASCE7-22-17.5.3.1-T2"
+        },
+        "p": {
+          "description": "Design pressure to be used in determination of wind loads for buildings, lb/ft 2 (N/m 2 )",
+          "source": "ASCE7-22-26.3-T78"
         }
       }
     },
@@ -1976,14 +1976,6 @@
     "data": {
       "expression": "p f =0.7C e C t p g (7.3-1)",
       "parameters": {
-        "p": {
-          "description": "Design pressure to be used in determination of wind loads for buildings, lb/ft 2 (N/m 2 )",
-          "source": "ASCE7-22-26.3-T78"
-        },
-        "e": {
-          "description": "Actual eccentricity measured in plan between the center of mass of the structure above the isolation interface and the center of rigidity of the isolation system, plus accidental eccentricity [ft (mm)], taken as 5% of the longest plan dimension of the structure perpendicular to the direction of force under consideration;",
-          "source": "ASCE7-22-17.5.3.3-T4"
-        },
         "g": {
           "description": "Acceleration caused by gravity [in : \u2215 s 2 (mm \u2215 s 2 )] if the units of the displacement DM are in in. (mm);",
           "source": "ASCE7-22-17.5.3.1-T2"
@@ -1991,6 +1983,14 @@
         "t": {
           "description": "Nominal ice thickness on a cylinder caused by freezing rain at a height of 33 ft (10 m), from Figures 10.4-2 through 10.4-5, for the applicable risk category, in. (mm)",
           "source": "ASCE7-22-10.3-T9"
+        },
+        "e": {
+          "description": "Actual eccentricity measured in plan between the center of mass of the structure above the isolation interface and the center of rigidity of the isolation system, plus accidental eccentricity [ft (mm)], taken as 5% of the longest plan dimension of the structure perpendicular to the direction of force under consideration;",
+          "source": "ASCE7-22-17.5.3.3-T4"
+        },
+        "p": {
+          "description": "Design pressure to be used in determination of wind loads for buildings, lb/ft 2 (N/m 2 )",
+          "source": "ASCE7-22-26.3-T78"
         }
       }
     },
@@ -2201,10 +2201,38 @@
       "citation": "Section 7.3.1",
       "page": 7
     },
-    "title": "7.3.1 Exposure Factor, Ce The value for Ce shall be determined from Table 7.3-1.",
+    "title": "7.3.1 Exposure",
     "description": "",
     "data": {
-      "rule": "7.3.1 Exposure Factor, Ce The value for Ce shall be determined from Table 7.3-1.",
+      "rule": "7.3.1 Exposure",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-7.3.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-7.3.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 7,
+      "section": "7.3.1",
+      "citation": "Section 7.3.1",
+      "page": 7
+    },
+    "title": "Factor, Ce The value for Ce shall be determined from Table 7.3-1.",
+    "description": "",
+    "data": {
+      "rule": "Factor, Ce The value for Ce shall be determined from Table 7.3-1.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -2216,9 +2244,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-7.3.2-P1",
@@ -2286,10 +2313,10 @@
       "citation": "Section 7.3.3",
       "page": 7
     },
-    "title": "7.3.3 Minimum Snow Load for Low-Slope Roofs, pm A minimum roof snow load, pm , shall only apply to monoslope, hip, and gable roofs with slopes less than 15 degrees and to curved roofs where the vertic",
+    "title": "7.3.3 Minimum Snow Load for Low-Slope Roofs, pm",
     "description": "",
     "data": {
-      "rule": "7.3.3 Minimum Snow Load for Low-Slope Roofs, pm A minimum roof snow load, pm , shall only apply to monoslope, hip, and gable roofs with slopes less than 15 degrees and to curved roofs where the vertical angle from the eaves to the crown is less than 10 degrees. The minimum roof snow load for lowslope roofs shall be obtained as follows.",
+      "rule": "7.3.3 Minimum Snow Load for Low-Slope Roofs, pm",
       "conditions": [],
       "then": "",
       "else": null,
@@ -2305,6 +2332,33 @@
   },
   {
     "id": "ASCE7-22-7.3.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-7.3.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 7,
+      "section": "7.3.3",
+      "citation": "Section 7.3.3",
+      "page": 7
+    },
+    "title": "A minimum roof snow load, pm , shall only apply to monoslope, hip, and gable roofs with slopes less than 15 degrees and to curved roofs where the vertical angle from the eaves to the crown is less tha",
+    "description": "",
+    "data": {
+      "rule": "A minimum roof snow load, pm , shall only apply to monoslope, hip, and gable roofs with slopes less than 15 degrees and to curved roofs where the vertical angle from the eaves to the crown is less than 10 degrees. The minimum roof snow load for lowslope roofs shall be obtained as follows.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-7.3.3-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2331,7 +2385,7 @@
     "parent_id": "ASCE7-22-7.3.3-H1"
   },
   {
-    "id": "ASCE7-22-7.3.3-T2",
+    "id": "ASCE7-22-7.3.3-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2854,69 +2908,10 @@
       "citation": "Section 7.4.1",
       "page": 8
     },
-    "title": "7.4.1 Slope Factor, Cs The slope factor, Cs , shall be determined using Figure 7.4-1, as outlined in Table 7.4-1.",
+    "title": "7.4.1 Slope",
     "description": "",
     "data": {
-      "rule": "7.4.1 Slope Factor, Cs The slope factor, Cs , shall be determined using Figure 7.4-1, as outlined in Table 7.4-1.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [
-      "ASCE7-22-7.4-F7-4-11"
-    ],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-7.4.2-H1",
-    "type": "heading",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 7,
-      "section": "7.4.2",
-      "citation": "Section 7.4.2",
-      "page": 8
-    },
-    "title": "7.4.2 Slope Factor for Curved Roofs Portions of curved roofs that have a slope exceeding 70 degrees shall be considered free of snow load (i.e., Cs = 0). Balanced loads shall be determined from the ba",
-    "description": "",
-    "data": {
-      "rule": "7.4.2 Slope Factor for Curved Roofs Portions of curved roofs that have a slope exceeding 70 degrees shall be considered free of snow load (i.e., Cs = 0). Balanced loads shall be determined from the balanced load diagrams in Figure 7.4-2, with Cs determined from the appropriate curve in Figure 7.4-1.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [
-      "ASCE7-22-7.4-F7-4-11",
-      "ASCE7-22-7.4-F7-4-21"
-    ],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-7.4.3-H1",
-    "type": "heading",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 7,
-      "section": "7.4.3",
-      "citation": "Section 7.4.3",
-      "page": 8
-    },
-    "title": "7.4.3 Slope Factor for Multiple Folded Plate, Sawtooth, and Barrel Vault Roofs Multiple folded plate, sawtooth, or barrel vault roofs shall have a Cs = 1.0, with no reduction in snow load because of s",
-    "description": "",
-    "data": {
-      "rule": "7.4.3 Slope Factor for Multiple Folded Plate, Sawtooth, and Barrel Vault Roofs Multiple folded plate, sawtooth, or barrel vault roofs shall have a Cs = 1.0, with no reduction in snow load because of slope (i.e., ps = pf ).",
+      "rule": "7.4.1 Slope",
       "conditions": [],
       "then": "",
       "else": null,
@@ -2929,6 +2924,146 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-7.4.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-7.4.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 7,
+      "section": "7.4.1",
+      "citation": "Section 7.4.1",
+      "page": 8
+    },
+    "title": "Factor, Cs The slope factor, Cs , shall be determined using Figure 7.4-1, as outlined in Table 7.4-1.",
+    "description": "",
+    "data": {
+      "rule": "Factor, Cs The slope factor, Cs , shall be determined using Figure 7.4-1, as outlined in Table 7.4-1.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-7.4-F7-4-11"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-7.4.2-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 7,
+      "section": "7.4.2",
+      "citation": "Section 7.4.2",
+      "page": 8
+    },
+    "title": "7.4.2 Slope Factor for Curved Roofs",
+    "description": "",
+    "data": {
+      "rule": "7.4.2 Slope Factor for Curved Roofs",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-7.4.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-7.4.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 7,
+      "section": "7.4.2",
+      "citation": "Section 7.4.2",
+      "page": 8
+    },
+    "title": "Portions of curved roofs that have a slope exceeding 70 degrees shall be considered free of snow load (i.e., Cs = 0). Balanced loads shall be determined from the balanced load diagrams in Figure 7.4-2",
+    "description": "",
+    "data": {
+      "rule": "Portions of curved roofs that have a slope exceeding 70 degrees shall be considered free of snow load (i.e., Cs = 0). Balanced loads shall be determined from the balanced load diagrams in Figure 7.4-2, with Cs determined from the appropriate curve in Figure 7.4-1.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-7.4-F7-4-11",
+      "ASCE7-22-7.4-F7-4-21"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-7.4.3-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 7,
+      "section": "7.4.3",
+      "citation": "Section 7.4.3",
+      "page": 8
+    },
+    "title": "7.4.3 Slope Factor for Multiple Folded Plate, Sawtooth, and",
+    "description": "",
+    "data": {
+      "rule": "7.4.3 Slope Factor for Multiple Folded Plate, Sawtooth, and",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-7.4.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-7.4.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 7,
+      "section": "7.4.3",
+      "citation": "Section 7.4.3",
+      "page": 8
+    },
+    "title": "Barrel Vault Roofs Multiple folded plate, sawtooth, or barrel vault roofs shall have a Cs = 1.0, with no reduction in snow load because of slope (i.e., ps = pf ).",
+    "description": "",
+    "data": {
+      "rule": "Barrel Vault Roofs Multiple folded plate, sawtooth, or barrel vault roofs shall have a Cs = 1.0, with no reduction in snow load because of slope (i.e., ps = pf ).",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-7.4.4-P1",
@@ -3248,10 +3383,38 @@
       "citation": "Section 7.4.5",
       "page": 9
     },
-    "title": "7.4.5 Sloped Roof Snow Loads for Air-Supported Structures Roof snow loading for air-supported structures with vinyl coated exterior fabric shall be as shown in Figure 7.4-3.",
+    "title": "7.4.5 Sloped",
     "description": "",
     "data": {
-      "rule": "7.4.5 Sloped Roof Snow Loads for Air-Supported Structures Roof snow loading for air-supported structures with vinyl coated exterior fabric shall be as shown in Figure 7.4-3.",
+      "rule": "7.4.5 Sloped",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-7.4.5-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-7.4.5-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 7,
+      "section": "7.4.5",
+      "citation": "Section 7.4.5",
+      "page": 9
+    },
+    "title": "Roof Snow Loads for Air-Supported Structures Roof snow loading for air-supported structures with vinyl coated exterior fabric shall be as shown in Figure 7.4-3.",
+    "description": "",
+    "data": {
+      "rule": "Roof Snow Loads for Air-Supported Structures Roof snow loading for air-supported structures with vinyl coated exterior fabric shall be as shown in Figure 7.4-3.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -3263,9 +3426,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-7.5-H1",
@@ -3331,10 +3493,38 @@
       "citation": "Section 7.5.1",
       "page": 9
     },
-    "title": "7.5.1 Continuous Beam Systems Continuous beam systems shall be investigated for the effects of the three loadings shown in Figure 7.5-1:",
+    "title": "7.5.1 Continuous Beam Systems",
     "description": "",
     "data": {
-      "rule": "7.5.1 Continuous Beam Systems Continuous beam systems shall be investigated for the effects of the three loadings shown in Figure 7.5-1: p, C5* Full Half , 9=1.0, Case 1 5\u00b0 Point Half Full Cs = 0.6",
+      "rule": "7.5.1 Continuous Beam Systems",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-7.5.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-7.5.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 7,
+      "section": "7.5.1",
+      "citation": "Section 7.5.1",
+      "page": 9
+    },
+    "title": "Continuous beam systems shall be investigated for the effects of the three loadings shown in Figure 7.5-1:",
+    "description": "",
+    "data": {
+      "rule": "Continuous beam systems shall be investigated for the effects of the three loadings shown in Figure 7.5-1: p, C5* Full Half , 9=1.0, Case 1 5\u00b0 Point Half Full Cs = 0.6",
       "conditions": [],
       "then": "",
       "else": null,
@@ -3346,12 +3536,11 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
-    "id": "ASCE7-22-7.5.1-T11",
+    "id": "ASCE7-22-7.5.1-T12",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3380,7 +3569,7 @@
     "parent_id": "ASCE7-22-7.4-F7-4-31"
   },
   {
-    "id": "ASCE7-22-7.5.1-T14",
+    "id": "ASCE7-22-7.5.1-T15",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3407,7 +3596,7 @@
     "parent_id": "ASCE7-22-7.5.1-H1"
   },
   {
-    "id": "ASCE7-22-7.5.1-T15",
+    "id": "ASCE7-22-7.5.1-T16",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3434,7 +3623,7 @@
     "parent_id": "ASCE7-22-7.5.1-H1"
   },
   {
-    "id": "ASCE7-22-7.5.1-T16",
+    "id": "ASCE7-22-7.5.1-T17",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3524,10 +3713,10 @@
       "citation": "Section 7.5.2",
       "page": 10
     },
-    "title": "7.5.2 Other Structural Systems Areas sustaining only half the balanced snow load shall be chosen so as to produce the greatest effects on members being analyzed.",
+    "title": "7.5.2 Other Structural Systems",
     "description": "",
     "data": {
-      "rule": "7.5.2 Other Structural Systems Areas sustaining only half the balanced snow load shall be chosen so as to produce the greatest effects on members being analyzed.",
+      "rule": "7.5.2 Other Structural Systems",
       "conditions": [],
       "then": "",
       "else": null,
@@ -3540,6 +3729,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-7.5.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-7.5.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 7,
+      "section": "7.5.2",
+      "citation": "Section 7.5.2",
+      "page": 10
+    },
+    "title": "Areas sustaining only half the balanced snow load shall be chosen so as to produce the greatest effects on members being analyzed.",
+    "description": "",
+    "data": {
+      "rule": "Areas sustaining only half the balanced snow load shall be chosen so as to produce the greatest effects on members being analyzed.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-7.6-H1",
@@ -3698,13 +3914,18 @@
     "data": {
       "expression": "side, ps on the leeward side plus a rectangular surcharge with magnitude hd \u03b3 \u2215 ffiffi ffi S p and horizontal extent from the ridge 8 hd ffiffi ffi S p \u2215 3 where hd is the drift height from Equation (7.6-1)",
       "parameters": {
-        "ps": {
-          "description": "Sloped roof (balanced) snow load, lb \u2215 ft 2 (kN \u2215 m 2 )",
-          "source": "ASCE7-22-7.1.2-T13"
+        "hd": {
+          "description": "Height of snow drift",
+          "unit": "ft",
+          "source": "ASCE7-22-7.1.2-T7"
         },
         "\u03b3": {
           "description": "Average unit weight of soil, lb/ft 3 (N/m 3 )",
           "source": "ASCE7-22-11.3-T145"
+        },
+        "ps": {
+          "description": "Sloped roof (balanced) snow load, lb \u2215 ft 2 (kN \u2215 m 2 )",
+          "source": "ASCE7-22-7.1.2-T13"
         },
         "a": {
           "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
@@ -3718,11 +3939,6 @@
         "p": {
           "description": "Design pressure to be used in determination of wind loads for buildings, lb/ft 2 (N/m 2 )",
           "source": "ASCE7-22-26.3-T78"
-        },
-        "hd": {
-          "description": "Height of snow drift",
-          "unit": "ft",
-          "source": "ASCE7-22-7.1.2-T7"
         }
       }
     },
@@ -3857,10 +4073,10 @@
       "citation": "Section 7.6.2",
       "page": 11
     },
-    "title": "7.6.2 Unbalanced Snow Loads for Curved Roofs Portions of curved roofs that have a slope exceeding 70 degrees shall be considered free of snow load. If the slope of a straight line from the eaves (or t",
+    "title": "7.6.2 Unbalanced Snow Loads for Curved Roofs",
     "description": "",
     "data": {
-      "rule": "7.6.2 Unbalanced Snow Loads for Curved Roofs Portions of curved roofs that have a slope exceeding 70 degrees shall be considered free of snow load. If the slope of a straight line from the eaves (or the 70-degree point, if present) to the crown is less than 10 degrees or greater than 60 degrees, unbalanced snow loads shall not be taken into account.",
+      "rule": "7.6.2 Unbalanced Snow Loads for Curved Roofs",
       "conditions": [],
       "then": "",
       "else": null,
@@ -3873,6 +4089,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-7.6.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-7.6.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 7,
+      "section": "7.6.2",
+      "citation": "Section 7.6.2",
+      "page": 11
+    },
+    "title": "Portions of curved roofs that have a slope exceeding 70 degrees shall be considered free of snow load. If the slope of a straight line from the eaves (or the 70-degree point, if present) to the crown ",
+    "description": "",
+    "data": {
+      "rule": "Portions of curved roofs that have a slope exceeding 70 degrees shall be considered free of snow load. If the slope of a straight line from the eaves (or the 70-degree point, if present) to the crown is less than 10 degrees or greater than 60 degrees, unbalanced snow loads shall not be taken into account.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-7.6.2-P1",
@@ -3913,10 +4156,38 @@
       "citation": "Section 7.6.3",
       "page": 11
     },
-    "title": "7.6.3 Unbalanced Snow Loads for Multiple Folded Plate, Sawtooth, and Barrel Vault Roofs Unbalanced loads shall be applied to folded plate, sawtooth, and barrel-vaulted multiple roofs with a slope exce",
+    "title": "7.6.3 Unbalanced Snow Loads for Multiple Folded Plate,",
     "description": "",
     "data": {
-      "rule": "7.6.3 Unbalanced Snow Loads for Multiple Folded Plate, Sawtooth, and Barrel Vault Roofs Unbalanced loads shall be applied to folded plate, sawtooth, and barrel-vaulted multiple roofs with a slope exceeding 3 \u2215 8 in : on 12 (1.79 degrees). According to Section 7.4.4, Cs = 1.0 for such roofs, and the balanced snow load equals pf . The unbalanced snow load shall increase from one-half the balanced load at the ridge or crown (i.e., 0.5 pf ) to two times the balanced load given in Section 7.4.4 divided by Ce at the valley (i.e., 2 pf \u2215 Ce ). Balanced and unbalanced loading diagrams for a sawtooth roof are presented in Figure 7.6-3. However, the snow surface above the valley shall not be at an elevation higher than the snow above the ridge. Snow depths shall be determined by dividing the snow load by the density of that snow from Equation (7.7-1).",
+      "rule": "7.6.3 Unbalanced Snow Loads for Multiple Folded Plate,",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-7.6.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-7.6.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 7,
+      "section": "7.6.3",
+      "citation": "Section 7.6.3",
+      "page": 11
+    },
+    "title": "Sawtooth, and Barrel Vault Roofs Unbalanced loads shall be applied to folded plate, sawtooth, and barrel-vaulted multiple roofs with a slope exceeding 3 \u2215 8 in : on 12 (1.79 degrees). According to Sec",
+    "description": "",
+    "data": {
+      "rule": "Sawtooth, and Barrel Vault Roofs Unbalanced loads shall be applied to folded plate, sawtooth, and barrel-vaulted multiple roofs with a slope exceeding 3 \u2215 8 in : on 12 (1.79 degrees). According to Section 7.4.4, Cs = 1.0 for such roofs, and the balanced snow load equals pf . The unbalanced snow load shall increase from one-half the balanced load at the ridge or crown (i.e., 0.5 pf ) to two times the balanced load given in Section 7.4.4 divided by Ce at the valley (i.e., 2 pf \u2215 Ce ). Balanced and unbalanced loading diagrams for a sawtooth roof are presented in Figure 7.6-3. However, the snow surface above the valley shall not be at an elevation higher than the snow above the ridge. Snow depths shall be determined by dividing the snow load by the density of that snow from Equation (7.7-1).",
       "conditions": [],
       "then": "",
       "else": null,
@@ -3929,9 +4200,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-7.6.4-H1",
@@ -3943,10 +4213,38 @@
       "citation": "Section 7.6.4",
       "page": 11
     },
-    "title": "7.6.4 Unbalanced Snow Loads for Dome Roofs Unbalanced snow loads shall be applied to domes and similar rounded structures. Snow loads, determined in the same manner as for curved roofs in Section 7.6.",
+    "title": "7.6.4 Unbalanced Snow Loads for Dome Roofs",
     "description": "",
     "data": {
-      "rule": "7.6.4 Unbalanced Snow Loads for Dome Roofs Unbalanced snow loads shall be applied to domes and similar rounded structures. Snow loads, determined in the same manner as for curved roofs in Section 7.6.2, shall be applied to the downwind 90 degree sector in plan view. At both edges of this sector, the load shall decrease linearly to zero over sectors of 22.5 degrees each. There shall be no snow load on the remaining 225 degree upwind sector.",
+      "rule": "7.6.4 Unbalanced Snow Loads for Dome Roofs",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-7.6.4-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-7.6.4-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 7,
+      "section": "7.6.4",
+      "citation": "Section 7.6.4",
+      "page": 11
+    },
+    "title": "Unbalanced snow loads shall be applied to domes and similar rounded structures. Snow loads, determined in the same manner as for curved roofs in Section 7.6.2, shall be applied to the downwind 90 degr",
+    "description": "",
+    "data": {
+      "rule": "Unbalanced snow loads shall be applied to domes and similar rounded structures. Snow loads, determined in the same manner as for curved roofs in Section 7.6.2, shall be applied to the downwind 90 degree sector in plan view. At both edges of this sector, the load shall decrease linearly to zero over sectors of 22.5 degrees each. There shall be no snow load on the remaining 225 degree upwind sector.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -3958,9 +4256,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-7.7-H1",
@@ -4026,10 +4323,38 @@
       "citation": "Section 7.7.1",
       "page": 11
     },
-    "title": "7.7.1 Lower Roof of a Structure Snow that forms drifts comes from a higher roof or, with the wind from the opposite direction, from the roof on which the drift is located. These two kinds of drifts ( ",
+    "title": "7.7.1 Lower Roof of a Structure",
     "description": "",
     "data": {
-      "rule": "7.7.1 Lower Roof of a Structure Snow that forms drifts comes from a higher roof or, with the wind from the opposite direction, from the roof on which the drift is located. These two kinds of drifts ( ' leeward ' and ' windward, ' respectively) are shown in Figure 7.7-1. The geometry of the surcharge load due to snow drifting shall be approximated by a triangle, as shown in",
+      "rule": "7.7.1 Lower Roof of a Structure",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-7.7.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-7.7.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 7,
+      "section": "7.7.1",
+      "citation": "Section 7.7.1",
+      "page": 11
+    },
+    "title": "Snow that forms drifts comes from a higher roof or, with the wind from the opposite direction, from the roof on which the drift is located. These two kinds of drifts ( ' leeward ' and ' windward, ' re",
+    "description": "",
+    "data": {
+      "rule": "Snow that forms drifts comes from a higher roof or, with the wind from the opposite direction, from the roof on which the drift is located. These two kinds of drifts ( ' leeward ' and ' windward, ' respectively) are shown in Figure 7.7-1. The geometry of the surcharge load due to snow drifting shall be approximated by a triangle, as shown in",
       "conditions": [],
       "then": "",
       "else": null,
@@ -4041,9 +4366,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-7.7.1-P1",
@@ -4250,10 +4574,38 @@
       "citation": "Section 7.7.3",
       "page": 11
     },
-    "title": "7.7.3 Intersecting Drifts Intersecting drifts shall be evaluated at reentrant corners, parapet wall corners, intersections of gable roof with the roof step wall of a taller roof and other similar geom",
+    "title": "7.7.3 Intersecting Drifts",
     "description": "",
     "data": {
-      "rule": "7.7.3 Intersecting Drifts Intersecting drifts shall be evaluated at reentrant corners, parapet wall corners, intersections of gable roof with the roof step wall of a taller roof and other similar geometries. Section 7.7.1 shall be used to determine the snow drift geometry for each direction. Where the two snowdrifts intersect, the larger of the two snowdrift depths shall govern, as shown in Figure 7.7-3. Intersecting snowdrift loads shall be considered to occur concurrently, except that the two drift loads need not be superimposed.",
+      "rule": "7.7.3 Intersecting Drifts",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-7.7.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-7.7.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 7,
+      "section": "7.7.3",
+      "citation": "Section 7.7.3",
+      "page": 11
+    },
+    "title": "Intersecting drifts shall be evaluated at reentrant corners, parapet wall corners, intersections of gable roof with the roof step wall of a taller roof and other similar geometries. Section 7.7.1 shal",
+    "description": "",
+    "data": {
+      "rule": "Intersecting drifts shall be evaluated at reentrant corners, parapet wall corners, intersections of gable roof with the roof step wall of a taller roof and other similar geometries. Section 7.7.1 shall be used to determine the snow drift geometry for each direction. Where the two snowdrifts intersect, the larger of the two snowdrift depths shall govern, as shown in Figure 7.7-3. Intersecting snowdrift loads shall be considered to occur concurrently, except that the two drift loads need not be superimposed.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -4266,9 +4618,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-7.7.3-P1",
@@ -4873,7 +5224,7 @@
       "citation": "Section 7.10",
       "page": 14
     },
-    "title": "For locations where pg is less than, or equal to, the value of pm,max given in Table 7.3-4, but not zero, all roofs with slopes (in degrees) less than W \u2215 50 with W in ft (in SI: W \u2215 15.2 with W in m)",
+    "title": "For locations where pg is less than, or equal to, the value of pm,max given in Table 7.3-4, but not zero, all roofs with slopes (in degrees) less than W \u2215 50 with W in ft (in SI: W \u2215 15.2 with W in m) shall include a 8 lb \u2215 ft 2 (0.38 kN \u2215 m 2 ) rain-on-snow surcharge load. This additional load applies only to the sloped roof (balanced) load case and need not be used in combination with drift, sliding, unbalanced, minimum, or partial loads.",
     "description": "",
     "data": {
       "rule": "For locations where pg is less than, or equal to, the value of pm,max given in Table 7.3-4, but not zero, all roofs with slopes (in degrees) less than W \u2215 50 with W in ft (in SI: W \u2215 15.2 with W in m) shall include a 8 lb \u2215 ft 2 (0.38 kN \u2215 m 2 ) rain-on-snow surcharge load. This additional load applies only to the sloped roof (balanced) load case and need not be used in combination with drift, sliding, unbalanced, minimum, or partial loads.",
@@ -4900,7 +5251,7 @@
       "citation": "Section 7.11",
       "page": 14
     },
-    "title": "7.11 PONDING INSTABILITY",
+    "title": "7.11",
     "description": "",
     "data": {
       "rule": "7.11 PONDING INSTABILITY",
@@ -4954,7 +5305,7 @@
       "citation": "Section 7.12",
       "page": 14
     },
-    "title": "7.12 EXISTING ROOFS",
+    "title": "7.12",
     "description": "",
     "data": {
       "rule": "7.12 EXISTING ROOFS",
@@ -5011,10 +5362,10 @@
       "citation": "Section 7.13",
       "page": 14
     },
-    "title": "7.13 SNOW ON OPEN-FRAME EQUIPMENT STRUCTURES",
+    "title": "7.13",
     "description": "",
     "data": {
-      "rule": "7.13 SNOW ON OPEN-FRAME EQUIPMENT STRUCTURES",
+      "rule": "7.13",
       "conditions": [],
       "then": "",
       "else": null,
@@ -5027,6 +5378,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-7.13-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-7.13-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 7,
+      "section": "7.13",
+      "citation": "Section 7.13",
+      "page": 14
+    },
+    "title": "SNOW ON OPEN-FRAME EQUIPMENT STRUCTURES",
+    "description": "",
+    "data": {
+      "rule": "SNOW ON OPEN-FRAME EQUIPMENT STRUCTURES",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-7.13-P1",
@@ -5072,10 +5450,10 @@
       "citation": "Section 7.13.1",
       "page": 14
     },
-    "title": "7.13.1 Snow at Top Level Flat roof snow loads ( pf ) and drift loads shall be applied at the top level of the structure where there is fl ooring or elements that can retain snow. Open-frame members wi",
+    "title": "7.13.1 Snow at Top Level",
     "description": "",
     "data": {
-      "rule": "7.13.1 Snow at Top Level Flat roof snow loads ( pf ) and drift loads shall be applied at the top level of the structure where there is fl ooring or elements that can retain snow. Open-frame members with a width of more than 8 in. (200 mm) shall be considered snow retaining surfaces. The top level shall be designed for snowdrifts, in accordance with Sections 7.7 and 7.9, where there are wind walls or equivalent obstructions.",
+      "rule": "7.13.1 Snow at Top Level",
       "conditions": [],
       "then": "",
       "else": null,
@@ -5090,6 +5468,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-7.13.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-7.13.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 7,
+      "section": "7.13.1",
+      "citation": "Section 7.13.1",
+      "page": 14
+    },
+    "title": "Flat roof snow loads ( pf ) and drift loads shall be applied at the top level of the structure where there is fl ooring or elements that can retain snow. Open-frame members with a width of more than 8",
+    "description": "",
+    "data": {
+      "rule": "Flat roof snow loads ( pf ) and drift loads shall be applied at the top level of the structure where there is fl ooring or elements that can retain snow. Open-frame members with a width of more than 8 in. (200 mm) shall be considered snow retaining surfaces. The top level shall be designed for snowdrifts, in accordance with Sections 7.7 and 7.9, where there are wind walls or equivalent obstructions.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-7.13.2-H1",
     "type": "heading",
     "source": {
@@ -5099,10 +5504,10 @@
       "citation": "Section 7.13.2",
       "page": 14
     },
-    "title": "7.13.2 Snow at Levels below the Top Level At all levels with fl ooring (grating, checkered plate, etc.) located below a level with",
+    "title": "7.13.2 Snow at Levels below the Top Level",
     "description": "",
     "data": {
-      "rule": "7.13.2 Snow at Levels below the Top Level At all levels with fl ooring (grating, checkered plate, etc.) located below a level with Windward Step Leeward Step",
+      "rule": "7.13.2 Snow at Levels below the Top Level",
       "conditions": [],
       "then": "",
       "else": null,
@@ -5115,6 +5520,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-7.13.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-7.13.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 7,
+      "section": "7.13.2",
+      "citation": "Section 7.13.2",
+      "page": 14
+    },
+    "title": "At all levels with fl ooring (grating, checkered plate, etc.) located below a level with",
+    "description": "",
+    "data": {
+      "rule": "At all levels with fl ooring (grating, checkered plate, etc.) located below a level with Windward Step Leeward Step",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-7.7-F7-7-11",
@@ -5142,7 +5574,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-7.13.2-T5",
+    "id": "ASCE7-22-7.13.2-T6",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -5207,10 +5639,38 @@
       "citation": "Section 7.13.3",
       "page": 15
     },
-    "title": "7.13.3 Snow Loads on Pipes and Cable Trays Individual pipes and cable trays with a diameter (pipe) or width (tray) less than or equal to 0.73 pf \u2215 \u03b3 shall be designed for a triangular snow load in acc",
+    "title": "7.13.3 Snow Loads on Pipes and Cable Trays",
     "description": "",
     "data": {
-      "rule": "7.13.3 Snow Loads on Pipes and Cable Trays Individual pipes and cable trays with a diameter (pipe) or width (tray) less than or equal to 0.73 pf \u2215 \u03b3 shall be designed for a triangular snow load in accordance with Figure 7.13-2(a). Individual pipes and cable trays with a diameter (pipe) or width (tray) greater than 0.73 pf \u2215 \u03b3 shall be designed for a trapezoidal snow load, in accordance with Figure 7.13-2(b). Snow loads on pipes are not required to be considered if the wintertime external surface temperature of the pipe is greater than 45 \u00b0F (7.2 \u00b0C).",
+      "rule": "7.13.3 Snow Loads on Pipes and Cable Trays",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-7.13.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-7.13.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 7,
+      "section": "7.13.3",
+      "citation": "Section 7.13.3",
+      "page": 15
+    },
+    "title": "Individual pipes and cable trays with a diameter (pipe) or width (tray) less than or equal to 0.73 pf \u2215 \u03b3 shall be designed for a triangular snow load in accordance with Figure 7.13-2(a). Individual p",
+    "description": "",
+    "data": {
+      "rule": "Individual pipes and cable trays with a diameter (pipe) or width (tray) less than or equal to 0.73 pf \u2215 \u03b3 shall be designed for a triangular snow load in accordance with Figure 7.13-2(a). Individual pipes and cable trays with a diameter (pipe) or width (tray) greater than 0.73 pf \u2215 \u03b3 shall be designed for a trapezoidal snow load, in accordance with Figure 7.13-2(b). Snow loads on pipes are not required to be considered if the wintertime external surface temperature of the pipe is greater than 45 \u00b0F (7.2 \u00b0C).",
       "conditions": [],
       "then": "",
       "else": null,
@@ -5222,9 +5682,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-7.13.3-P1",
@@ -5256,7 +5715,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-7.13.3-T2",
+    "id": "ASCE7-22-7.13.3-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -5384,10 +5843,10 @@
       "citation": "Section 7.14.1",
       "page": 15
     },
-    "title": "7.14.1 Limitations on Snow Loads Derived from Scale Model Studies Snow loads derived based on scale-model studies shall not be taken as less than 80% of those speci fi ed in Sections 7.2 through 7.13 ",
+    "title": "7.14.1 Limitations on Snow Loads Derived from Scale",
     "description": "",
     "data": {
-      "rule": "7.14.1 Limitations on Snow Loads Derived from Scale Model Studies Snow loads derived based on scale-model studies shall not be taken as less than 80% of those speci fi ed in Sections 7.2 through 7.13 unless an independent peer review SNOW CORNICE 20\u00b0 | So<h D.Cos (20\u00b0) LOAD = 1.37 D Y - h ==PjY 1.37 D _D- (a) (b) Sp > h CABLE TRAY = 0.934 D ~ D",
+      "rule": "7.14.1 Limitations on Snow Loads Derived from Scale",
       "conditions": [],
       "then": "",
       "else": null,
@@ -5400,6 +5859,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-7.14.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-7.14.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 7,
+      "section": "7.14.1",
+      "citation": "Section 7.14.1",
+      "page": 15
+    },
+    "title": "Model Studies Snow loads derived based on scale-model studies shall not be taken as less than 80% of those speci fi ed in Sections 7.2 through 7.13 unless an independent peer review",
+    "description": "",
+    "data": {
+      "rule": "Model Studies Snow loads derived based on scale-model studies shall not be taken as less than 80% of those speci fi ed in Sections 7.2 through 7.13 unless an independent peer review SNOW CORNICE 20\u00b0 | So<h D.Cos (20\u00b0) LOAD = 1.37 D Y - h ==PjY 1.37 D _D- (a) (b) Sp > h CABLE TRAY = 0.934 D ~ D",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-7.13-F7-13-11",
@@ -5427,7 +5913,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-7.14.1-T14",
+    "id": "ASCE7-22-7.14.1-T15",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -5456,7 +5942,7 @@
     "parent_id": "ASCE7-22-7.13-F7-13-21"
   },
   {
-    "id": "ASCE7-22-7.14.1-T15",
+    "id": "ASCE7-22-7.14.1-T16",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -5483,7 +5969,7 @@
     "parent_id": "ASCE7-22-7.14.1-H1"
   },
   {
-    "id": "ASCE7-22-7.14.1-T16",
+    "id": "ASCE7-22-7.14.1-T17",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -5555,39 +6041,10 @@
       "citation": "Section 7.14.2",
       "page": 16
     },
-    "title": "7.14.2 Consideration of Thermal Performance in Model Studies If the study includes an assessment of the thermal performance of the building or structure, the roof insulation value shall not be taken a",
+    "title": "7.14.2 Consideration of Thermal Performance in Model",
     "description": "",
     "data": {
-      "rule": "7.14.2 Consideration of Thermal Performance in Model Studies If the study includes an assessment of the thermal performance of the building or structure, the roof insulation value shall not be taken as less than R20 [U=0.05 Btu/(h ft 2 \u02da F)] and the internal temperature shall not be taken as greater than 70 \u02da F, with the exception of continuously heated greenhouses as outlined in Table 7.3-2, where the expected thermal properties and internal temperatures may be considered. In lieu of modeling the thermal performance, the thermal factor outlined in Section 7.3.2 is permitted to be applied to the scale model snow load.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [
-      "ASCE7-22-7.3.2-P1"
-    ],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-7.15-H1",
-    "type": "heading",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 7,
-      "section": "7.15",
-      "citation": "Section 7.15",
-      "page": 16
-    },
-    "title": "7.15 CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
-    "description": "",
-    "data": {
-      "rule": "7.15 CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
+      "rule": "7.14.2 Consideration of Thermal Performance in Model",
       "conditions": [],
       "then": "",
       "else": null,
@@ -5600,6 +6057,89 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-7.14.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-7.14.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 7,
+      "section": "7.14.2",
+      "citation": "Section 7.14.2",
+      "page": 16
+    },
+    "title": "Studies If the study includes an assessment of the thermal performance of the building or structure, the roof insulation value shall not be taken as less than R20 [U=0.05 Btu/(h ft 2 \u02da F)] and the int",
+    "description": "",
+    "data": {
+      "rule": "Studies If the study includes an assessment of the thermal performance of the building or structure, the roof insulation value shall not be taken as less than R20 [U=0.05 Btu/(h ft 2 \u02da F)] and the internal temperature shall not be taken as greater than 70 \u02da F, with the exception of continuously heated greenhouses as outlined in Table 7.3-2, where the expected thermal properties and internal temperatures may be considered. In lieu of modeling the thermal performance, the thermal factor outlined in Section 7.3.2 is permitted to be applied to the scale model snow load.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-7.3.2-P1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-7.15-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 7,
+      "section": "7.15",
+      "citation": "Section 7.15",
+      "page": 16
+    },
+    "title": "7.15",
+    "description": "",
+    "data": {
+      "rule": "7.15",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-7.15-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-7.15-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 7,
+      "section": "7.15",
+      "citation": "Section 7.15",
+      "page": 16
+    },
+    "title": "CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
+    "description": "",
+    "data": {
+      "rule": "CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-7.15-P1",
@@ -5629,7 +6169,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-7.15-T1",
+    "id": "ASCE7-22-7.15-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",

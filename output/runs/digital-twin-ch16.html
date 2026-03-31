@@ -1,0 +1,266 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8">
+<title>ASCE 7-22 Chapter 16 — Digital Twin</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#FFF;--s:#F5F5F5;--t:#1A1A1A;--m:#6B6B6B;--b:#D4D4D4;--sub:#E8E8E8;
+--g:#16A34A;--a:#0057FF;--r:#DC2626;--am:#D97706;--cy:#06B6D4;--purple:#8B5CF6}
+@media(prefers-color-scheme:dark){:root{--bg:#0A0A0A;--s:#141414;--t:#E5E5E5;--m:#808080;
+--b:#2A2A2A;--sub:#1A1A1A;--a:#3B82F6}}
+body{background:var(--bg);color:var(--t);font-family:'JetBrains Mono','SF Mono',monospace;
+font-size:11px;max-width:900px;margin:0 auto;padding:16px}
+h1{font-size:13px;text-transform:uppercase;letter-spacing:.1em;margin-bottom:2px}
+.sub{font-size:10px;color:var(--m);margin-bottom:12px}
+.nav{font-size:10px;color:var(--a);margin-bottom:16px}
+.nav a{color:var(--a);text-decoration:none}
+.nav a:hover{text-decoration:underline}
+.section{margin-bottom:12px}
+.sec-num{font-size:12px;font-weight:700;color:var(--t);margin-bottom:2px}
+.sec-0,.sec-1{margin-left:0}.sec-2{margin-left:16px}.sec-3{margin-left:32px}.sec-4{margin-left:48px}
+.child{margin:3px 0;padding:4px 8px;border-left:2px solid var(--sub);font-size:10px;line-height:1.5}
+.child.provision{border-color:var(--g);background:rgba(22,163,74,0.03)}
+.child.definition{border-color:var(--purple);background:rgba(139,92,246,0.03)}
+.child.formula{border-color:var(--a);background:rgba(59,130,246,0.03)}
+.child.table{border-color:var(--cy);background:rgba(6,182,212,0.03)}
+.child.figure{border-color:var(--am);background:rgba(217,119,6,0.03)}
+.child.exception{border-color:var(--r);background:rgba(220,38,38,0.03)}
+.child.user_note{border-color:var(--m);background:rgba(128,128,128,0.03)}
+.child.text_block{border-color:var(--sub)}
+.tag{display:inline-block;padding:0 3px;border:1px solid;font-size:7px;text-transform:uppercase;
+letter-spacing:.04em;margin-right:3px;vertical-align:middle}
+.tag-provision{border-color:var(--g);color:var(--g)}
+.tag-definition{border-color:var(--purple);color:var(--purple)}
+.tag-formula{border-color:var(--a);color:var(--a)}
+.tag-table{border-color:var(--cy);color:var(--cy)}
+.tag-figure{border-color:var(--am);color:var(--am)}
+.tag-exception{border-color:var(--r);color:var(--r)}
+.tag-user_note{border-color:var(--m);color:var(--m)}
+.tag-text_block{border-color:var(--sub);color:var(--m)}
+.meta{font-size:8px;color:var(--m)}
+.xref{font-size:8px;color:var(--a)}
+b{font-weight:600}
+table.tbl{width:100%;border-collapse:collapse;font-size:9px;margin:4px 0}
+table.tbl th{text-align:left;font-size:7px;text-transform:uppercase;color:var(--m);border-bottom:1px solid var(--b);padding:1px 4px}
+table.tbl td{padding:1px 4px;border-bottom:1px solid var(--sub)}
+</style></head><body>
+<h1>ASCE 7-22 Chapter 16 — Digital Twin</h1>
+<div class="sub">125 elements · 32 provisions · 0 definitions · 4 formulas · 0 tables</div>
+<div class="nav"><a href="digital-twin-index.html">← All Chapters</a></div>
+
+<div class="section sec-0">
+<div class="sec-num">CHAPTER 16</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+NONLINEAR RESPONSE HISTORY ANALYSIS
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">16.1</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Vertical elements of the gravity force-resisting system are discontinuous.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+For nonbuilding structures, when Chapter 15 requires consideration of vertical earthquake effects.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">16.1.1 Scope</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+It shall be permitted to use nonlinear response history analysis, in accordance with the requirements of this chapter, to demonstrate acceptable strength, stiffness, and ductility to resist maximum considered earthquake (MCER) shaking with acceptable performance. When nonlinear response history analysis is performed, the design shall also satisfy the requirements of Section 16.1.2. Nonlinear respo
+<br><span class="xref">→ ASCE7-22-16.1.2-H1, ASCE7-22-16.1.3-P1, ASCE7-22-16.1.4-H1, ASCE7-22-16.2-H1 +3 more</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">16.1.2 Linear Analysis</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">16.1.4 Documentation</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">16.2</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">16.2.1.1 Method 1</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+A single target response spectrum shall be developed, based on the requirements of either Section 11.4.6 or Section 11.4.7.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">16.2.1.2 Method 2</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Two or more site-speci fi c target response spectra shall be developed. When this method is used, the following requirements shall be ful fi lled, in addition to the other requirements of this chapter:
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">16.2.2 Ground Motion Selection</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+A suite of not less than 11 ground motions shall be selected for each target spectrum. Ground motions shall consist of pairs of orthogonal horizontal ground motion components and, where vertical earthquake effects are considered, a single vertical ground motion component. Ground motions shall be selected from events within the same general tectonic regime and having generally consistent magnitudes
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">16.2.3 Ground Motion Modi</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+fi cation Ground motions shall either be amplitude-scaled in accordance with the requirements of Section 16.2.3.2 or spectrally matched in accordance with the requirements of Section 16.2.3.3. Spectral matching shall not be used for near-fault sites unless the pulse characteristics of the ground motions are retained after the matching process has been completed.
+<br><span class="xref">→ ASCE7-22-16.2.3.2-H1, ASCE7-22-16.2.3.3-H1</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">16.2.3.1 Period Range for Scaling or Matching</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Aperiod range shall be determined, corresponding to the vibration periods that contribute signi fi cantly to the building &#x27; s lateral dynamic response. This period range shall have an upper bound, greater than or equal to twice the largest fi rst-mode period in the principal horizontal directions of response, unless a lower value, not less than 1.5 times the largest fi rst-mode period, is justi fi
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">16.2.3.2 Amplitude Scaling</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+For each horizontal ground motion pair, a maximum-direction spectrum shall be constructed from the two horizontal ground motion components. Each ground motion shall be scaled, with an identical scale factor applied to both horizontal components, such that the average of the maximum-direction spectra from all ground motions generally matches or exceeds the target response spectrum over the period r
+<br><span class="xref">→ ASCE7-22-16.2.3.1-H1</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">16.2.3.3 Spectral Matching</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Each pair of ground motions shall be modi fi ed such that the average of the maximum-direction spectra for the suite equals or exceeds 110% of the target spectrum over the period range de fi ned in Section 16.2.3.1. Where vertical response is considered in the analysis, the vertical component of each ground motion shall be spectrally matched to the target vertical response spectrum, such that the 
+<br><span class="xref">→ ASCE7-22-16.2.3.1-H1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">16.2.4 Application of Ground Motions to the Structural</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Model Ground motions shall be applied to the supports of the structural model. For near-fault sites, as de fi ned in Section 11.4.1, each pair of horizontal ground motion components representative of a nearby fault source shall be rotated to the fault-normal and fault-parallel directions of the causative fault and applied to the building in such orientation. For all other selected ground motions a
+<br><span class="xref">→ ASCE7-22-16.2.3.1-H1</span>
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">16.3</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">16.3.1 Modeling</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Mathematical models shall be threedimensional and shall conform to the requirements of this section and Section 12.7. For structures that have subterranean levels, the structural model shall extend to the foundation level and ground motions shall be input at the foundation level. All elements that signi fi cantly affect seismic response when subjected to MCER ground motions shall be included. Mode
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">16.3.2 Gravity Load</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The modeling of, and demands on, elements in the analysis model shall be determined considering earthquake effects acting in combination with expected gravity loads, both with and without live load. Gravity loads with live load shall be taken as 1.0 D +0.5 L , where L shall be taken as 80% of unreduced live loads that exceed 100 lb ∕ ft 2 (4.79 kN ∕ m 2 ) and 40% of all other unreduced live loads.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">16.3.3 P-Delta Effects</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+P-delta effects considering the spatial distribution of gravity loads shall be included in the analysis.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">16.3.4 Torsion</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Inherent eccentricity resulting from any offset in the centers of mass and stiffness at each level shall be accounted for in the analysis. In addition, where a Type 1 horizontal structural irregularly exists, as de fi ned in Section 12.3.2.1, accidental eccentricity consisting of an assumed displacement of the center of mass each way from its actual location by a distance equal to 5% of the diaphr
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">16.3.5 Damping</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Hysteretic energy dissipation of structural members shall be modeled directly. Additional inherent damping, not associated with inelastic behavior of elements, shall be modeled appropriate to the structure type and shall not exceed 2.5% equivalent viscous damping in the signi fi cant modes of response.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">16.3.6 Explicit Foundation Modeling</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+When soil spring and/or dashpot elements are included in the structural model, horizontal input ground motions shall be applied to the horizontal soil elements rather than being applied to the foundation directly.
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">16.4 ANALYSIS RESULTS AND ACCEPTANCE CRITERIA</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">16.4.1 Global Acceptance Criteria</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">16.4.1.1 Unacceptable Response</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Unacceptable response to ground motion shall consist of any of the following:
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Analytical solution fails to converge,
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Predicted demands on deformation-controlled elements exceed the valid range of modeling,
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Predicted demands on critical or ordinary force-controlled elements, as de fi ned in Section 16.4.2, exceed the element capacity,
+<br><span class="xref">→ ASCE7-22-16.4.2-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Predicted deformation demands on elements not explicitly modeled exceed the deformation limits at which the members are no longer able to carry their gravity loads,
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Peak transient story drift ratio exceeds 150% of the permissible value of mean transient story drift, as per Section 16.4.1.2, or
+<br><span class="xref">→ ASCE7-22-16.4.1.2-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+For structures exceeding 240 ft (73m) in height, the residual story drift for any story exceeds a value of 0.015 hsx .
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">16.4.1.2 Transient Story Drift The mean transient story drift for all building heights, Δ in ft (m), shall not exceed two times the limits of Table 12.12-1. Additionally, for structures exceeding 100 ft (30 m) in height, Δ shall not exceed the value obtained from Equation (16.4-1):</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">16.4.1.3 Residual Story Drift</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+For structures exceeding 240 ft (73 m) in height, the mean residual story drift shall not exceed 0.01 hsx , where residual story drift is taken as the maximum value of story drift in a structure at rest, following response to an earthquake motion.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">16.4.2 Element-Level Acceptance Criteria</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+All element actions shall be classi fi ed either as force-controlled or deformationcontrolled, in accordance with ACI 318 for reinforced concrete elements or ASCE 41 for elements of other materials.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">16.4.2.1 Force-Controlled</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">16.5</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Whether the reviewer(s) concur with the analysis and its applicability to the design,
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Conformance of the design to applicable requirements of the standard, and
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Any items relating to the design or analysis that require further resolution by the Authority Having Jurisdiction.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The requirements of this standard and the standards referenced herein, as they pertain to design of the type of structure under consideration.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Selection and scaling of ground motions for use in nonlinear response history analysis.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Analytical structural modeling for use in nonlinear response history analysis, including use of laboratory tests in the creation and calibration of the structural analysis models, and including knowledge of soil -structure interaction if used in the analysis or the treatment of ground motions.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Behavior of structural systems, of the type under consideration, when subjected to earthquake loading.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">16.5.2 Review Scope</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The scope of review shall include the items identi fi ed in Section 16.1.4, as well as the associated project documentation that demonstrates conformance to the design criteria.
+<br><span class="xref">→ ASCE7-22-16.1.4-H1</span>
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">16.6</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS
+</div>
+</div>
+</body></html>

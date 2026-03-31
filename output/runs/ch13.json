@@ -9,10 +9,10 @@
       "citation": "Section 13",
       "page": 1
     },
-    "title": "CHAPTER 13 SEISMIC DESIGN REQUIREMENTS FOR NONSTRUCTURAL COMPONENTS",
+    "title": "CHAPTER 13",
     "description": "",
     "data": {
-      "rule": "CHAPTER 13 SEISMIC DESIGN REQUIREMENTS FOR NONSTRUCTURAL COMPONENTS",
+      "rule": "CHAPTER 13",
       "conditions": [],
       "then": "",
       "else": null,
@@ -25,6 +25,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-13-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-13-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 13,
+      "section": "13",
+      "citation": "Section 13",
+      "page": 1
+    },
+    "title": "SEISMIC DESIGN REQUIREMENTS FOR NONSTRUCTURAL COMPONENTS",
+    "description": "",
+    "data": {
+      "rule": "SEISMIC DESIGN REQUIREMENTS FOR NONSTRUCTURAL COMPONENTS",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-13.1-H1",
@@ -63,10 +90,10 @@
       "citation": "Section 13.1.1",
       "page": 1
     },
-    "title": "13.1.1 Scope This chapter establishes minimum design criteria for nonstructural components, including their supports and attachments.",
+    "title": "13.1.1 Scope",
     "description": "",
     "data": {
-      "rule": "13.1.1 Scope This chapter establishes minimum design criteria for nonstructural components, including their supports and attachments.",
+      "rule": "13.1.1 Scope",
       "conditions": [],
       "then": "",
       "else": null,
@@ -82,6 +109,33 @@
   },
   {
     "id": "ASCE7-22-13.1.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-13.1.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 13,
+      "section": "13.1.1",
+      "citation": "Section 13.1.1",
+      "page": 1
+    },
+    "title": "This chapter establishes minimum design criteria for nonstructural components, including their supports and attachments.",
+    "description": "",
+    "data": {
+      "rule": "This chapter establishes minimum design criteria for nonstructural components, including their supports and attachments.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-13.1.1-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -108,7 +162,7 @@
     "parent_id": "ASCE7-22-13.1.1-H1"
   },
   {
-    "id": "ASCE7-22-13.1.1-T2",
+    "id": "ASCE7-22-13.1.1-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -135,7 +189,7 @@
     "parent_id": "ASCE7-22-13.1.1-H1"
   },
   {
-    "id": "ASCE7-22-13.1.1-T3",
+    "id": "ASCE7-22-13.1.1-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -162,7 +216,7 @@
     "parent_id": "ASCE7-22-13.1.1-H1"
   },
   {
-    "id": "ASCE7-22-13.1.1-T4",
+    "id": "ASCE7-22-13.1.1-T5",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -234,10 +288,10 @@
       "citation": "Section 13.1.2",
       "page": 1
     },
-    "title": "13.1.2 Seismic Design Category For the purposes of this chapter, nonstructural components shall be assigned to the same seismic design category as",
+    "title": "13.1.2 Seismic Design Category",
     "description": "",
     "data": {
-      "rule": "13.1.2 Seismic Design Category For the purposes of this chapter, nonstructural components shall be assigned to the same seismic design category as",
+      "rule": "13.1.2 Seismic Design Category",
       "conditions": [],
       "then": "",
       "else": null,
@@ -253,6 +307,33 @@
   },
   {
     "id": "ASCE7-22-13.1.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-13.1.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 13,
+      "section": "13.1.2",
+      "citation": "Section 13.1.2",
+      "page": 1
+    },
+    "title": "For the purposes of this chapter, nonstructural components shall be assigned to the same seismic design category as",
+    "description": "",
+    "data": {
+      "rule": "For the purposes of this chapter, nonstructural components shall be assigned to the same seismic design category as",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-13.1.2-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -279,7 +360,7 @@
     "parent_id": "ASCE7-22-13.1.2-H1"
   },
   {
-    "id": "ASCE7-22-13.1.2-T2",
+    "id": "ASCE7-22-13.1.2-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -306,7 +387,7 @@
     "parent_id": "ASCE7-22-13.1.2-H1"
   },
   {
-    "id": "ASCE7-22-13.1.2-T3",
+    "id": "ASCE7-22-13.1.2-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -369,10 +450,10 @@
       "citation": "Section 13.1.3",
       "page": 1
     },
-    "title": "13.1.3 Component Importance Factor All components shall be assigned a component Importance Factor as indicated in this section. The component Importance Factor, I p , shall be taken as 1.5 if any of t",
+    "title": "13.1.3 Component Importance Factor",
     "description": "",
     "data": {
-      "rule": "13.1.3 Component Importance Factor All components shall be assigned a component Importance Factor as indicated in this section. The component Importance Factor, I p , shall be taken as 1.5 if any of the following conditions apply:",
+      "rule": "13.1.3 Component Importance Factor",
       "conditions": [],
       "then": "",
       "else": null,
@@ -385,6 +466,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-13.1.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-13.1.3-H2",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 13,
+      "section": "13.1.3",
+      "citation": "Section 13.1.3",
+      "page": 1
+    },
+    "title": "All components shall be assigned a component Importance Factor as indicated in this section. The component Importance Factor, I p , shall be taken as 1.5 if any of the following conditions apply:",
+    "description": "",
+    "data": {
+      "rule": "All components shall be assigned a component Importance Factor as indicated in this section. The component Importance Factor, I p , shall be taken as 1.5 if any of the following conditions apply:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-13.1.3-P1",
@@ -414,7 +522,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-13.1.3-T1",
+    "id": "ASCE7-22-13.1.3-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -484,7 +592,7 @@
       "citation": "Section 13.1.3",
       "page": 1
     },
-    "title": "The component conveys, supports, or otherwise contains hazardous substances and is attached to a structure or portion thereof classi fi ed by the Authority Having Jurisdiction as a hazardous occupancy",
+    "title": "The component conveys, supports, or otherwise contains hazardous substances and is attached to a structure or portion thereof classi fi ed by the Authority Having Jurisdiction as a hazardous occupancy.",
     "description": "",
     "data": {
       "rule": "The component conveys, supports, or otherwise contains hazardous substances and is attached to a structure or portion thereof classi fi ed by the Authority Having Jurisdiction as a hazardous occupancy.",
@@ -567,10 +675,10 @@
       "citation": "Section 13.1.5",
       "page": 1
     },
-    "title": "13.1.5 Premanufactured Modular Mechanical and Electrical Systems Premanufactured mechanical and electrical modules 6 ft (1.8 m) high and taller that are not otherwise prequali fi ed in accordance with",
+    "title": "13.1.5 Premanufactured Modular Mechanical and Electrical",
     "description": "",
     "data": {
-      "rule": "13.1.5 Premanufactured Modular Mechanical and Electrical Systems Premanufactured mechanical and electrical modules 6 ft (1.8 m) high and taller that are not otherwise prequali fi ed in accordance with Chapter 13 and that contain or support mechanical and electrical components shall be designed in accordance with the provisions for nonbuilding structures similar to buildings in Chapter 15. Nonstructural components contained or supported within modular systems shall be designed in accordance with Chapter 13.",
+      "rule": "13.1.5 Premanufactured Modular Mechanical and Electrical",
       "conditions": [],
       "then": "",
       "else": null,
@@ -585,6 +693,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-13.1.5-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-13.1.5-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 13,
+      "section": "13.1.5",
+      "citation": "Section 13.1.5",
+      "page": 1
+    },
+    "title": "Systems Premanufactured mechanical and electrical modules 6 ft (1.8 m) high and taller that are not otherwise prequali fi ed in accordance with Chapter 13 and that contain or support mechanical and el",
+    "description": "",
+    "data": {
+      "rule": "Systems Premanufactured mechanical and electrical modules 6 ft (1.8 m) high and taller that are not otherwise prequali fi ed in accordance with Chapter 13 and that contain or support mechanical and electrical components shall be designed in accordance with the provisions for nonbuilding structures similar to buildings in Chapter 15. Nonstructural components contained or supported within modular systems shall be designed in accordance with Chapter 13.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-13.1.6-H1",
     "type": "heading",
     "source": {
@@ -594,7 +729,7 @@
       "citation": "Section 13.1.6",
       "page": 1
     },
-    "title": "13.1.6 Application of Nonstructural Component Requirements to Nonbuilding Structures Nonbuilding structures (including storage racks and tanks) that are supported by other structures shall be designed",
+    "title": "13.1.6 Application of Nonstructural Component Requirements to Nonbuilding Structures Nonbuilding structures (including storage racks and tanks) that are supported by other structures shall be designed in accordance with Chapter 15. Where Section 15.3 requires that seismic forces be determined in accordance with Chapter 13 and values for CAR and Rpo are not provided in Table 13.5-1 or 13.6-1, the term \u00bd CAR Rpo \u008a in Equation (13.3-1) shall be taken as equal to 2.5/ R , where the value of R for the nonbuilding structure is obtained from Tables 15.4-1 or 15.4-2.",
     "description": "",
     "data": {
       "rule": "13.1.6 Application of Nonstructural Component Requirements to Nonbuilding Structures Nonbuilding structures (including storage racks and tanks) that are supported by other structures shall be designed in accordance with Chapter 15. Where Section 15.3 requires that seismic forces be determined in accordance with Chapter 13 and values for CAR and Rpo are not provided in Table 13.5-1 or 13.6-1, the term \u00bd CAR Rpo \u008a in Equation (13.3-1) shall be taken as equal to 2.5/ R , where the value of R for the nonbuilding structure is obtained from Tables 15.4-1 or 15.4-2.",
@@ -623,10 +758,10 @@
       "citation": "Section 13.1.7",
       "page": 1
     },
-    "title": "13.1.7 Reference Documents Where a reference document provides a basis for the earthquake-resistant design of a particular type of nonstructural component, that document is permitted to be used, subje",
+    "title": "13.1.7 Reference Documents",
     "description": "",
     "data": {
-      "rule": "13.1.7 Reference Documents Where a reference document provides a basis for the earthquake-resistant design of a particular type of nonstructural component, that document is permitted to be used, subject to the approval of the Authority Having Jurisdiction and the following conditions:",
+      "rule": "13.1.7 Reference Documents",
       "conditions": [],
       "then": "",
       "else": null,
@@ -639,6 +774,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-13.1.7-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-13.1.7-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 13,
+      "section": "13.1.7",
+      "citation": "Section 13.1.7",
+      "page": 1
+    },
+    "title": "Where a reference document provides a basis for the earthquake-resistant design of a particular type of nonstructural component, that document is permitted to be used, subject to the approval of the A",
+    "description": "",
+    "data": {
+      "rule": "Where a reference document provides a basis for the earthquake-resistant design of a particular type of nonstructural component, that document is permitted to be used, subject to the approval of the Authority Having Jurisdiction and the following conditions:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-13.1.7-P1",
@@ -854,7 +1016,7 @@
       "citation": "Section 13.2",
       "page": 2
     },
-    "title": "13.2 GENERAL DESIGN REQUIREMENTS",
+    "title": "13.2",
     "description": "",
     "data": {
       "rule": "13.2 GENERAL DESIGN REQUIREMENTS",
@@ -881,10 +1043,10 @@
       "citation": "Section 13.2.1",
       "page": 2
     },
-    "title": "13.2.1 Applicable Requirements for Architectural, Mechanical, and Electrical Components, Supports, and Attachments Architectural, mechanical, and electrical components, supports, and attachments shall",
+    "title": "13.2.1 Applicable",
     "description": "",
     "data": {
-      "rule": "13.2.1 Applicable Requirements for Architectural, Mechanical, and Electrical Components, Supports, and Attachments Architectural, mechanical, and electrical components, supports, and attachments shall comply with the sections referenced in Table 13.2-1. These requirements shall be satis fi ed by one of the following methods:",
+      "rule": "13.2.1 Applicable",
       "conditions": [],
       "then": "",
       "else": null,
@@ -900,6 +1062,33 @@
   },
   {
     "id": "ASCE7-22-13.2.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-13.2.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 13,
+      "section": "13.2.1",
+      "citation": "Section 13.2.1",
+      "page": 2
+    },
+    "title": "Requirements for Architectural, Mechanical, and Electrical Components, Supports, and Attachments Architectural, mechanical, and electrical components, supports, and attachments shall comply with the s",
+    "description": "",
+    "data": {
+      "rule": "Requirements for Architectural, Mechanical, and Electrical Components, Supports, and Attachments Architectural, mechanical, and electrical components, supports, and attachments shall comply with the sections referenced in Table 13.2-1. These requirements shall be satis fi ed by one of the following methods:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-13.2.1-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -926,7 +1115,7 @@
     "parent_id": "ASCE7-22-13.2.1-H1"
   },
   {
-    "id": "ASCE7-22-13.2.1-T2",
+    "id": "ASCE7-22-13.2.1-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -953,7 +1142,7 @@
     "parent_id": "ASCE7-22-13.2.1-H1"
   },
   {
-    "id": "ASCE7-22-13.2.1-T4",
+    "id": "ASCE7-22-13.2.1-T5",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -982,7 +1171,7 @@
     "parent_id": "ASCE7-22-13.2.1-H1"
   },
   {
-    "id": "ASCE7-22-13.2.1-T5",
+    "id": "ASCE7-22-13.2.1-T6",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1020,39 +1209,10 @@
       "citation": "Section 13.2.2",
       "page": 2
     },
-    "title": "13.2.2 Load Combinations Nonstructural components, including their supports and attachments, covered by this chapter and not otherwise exempt by Section 13.1.8 shall comply with Section 1.3, including",
+    "title": "13.2.2 Load",
     "description": "",
     "data": {
-      "rule": "13.2.2 Load Combinations Nonstructural components, including their supports and attachments, covered by this chapter and not otherwise exempt by Section 13.1.8 shall comply with Section 1.3, including consideration of load combinations of either Section 2.3 or 2.4, as appropriate. For the purposes of combining load effects, Fp shall be used per Section 12.4.2.1, and horizontal seismic design forces including overstrength shall be used per Section 12.4.3.1.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [
-      "ASCE7-22-13.1.8-T1"
-    ],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-13.2.3-H1",
-    "type": "heading",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 13,
-      "section": "13.2.3",
-      "citation": "Section 13.2.3",
-      "page": 2
-    },
-    "title": "13.2.3 Special Certi fi cation Requirements for Designated Seismic Systems Certi fi cations shall be provided for designated seismic systems assigned to Seismic Design Categories C through F as follow",
-    "description": "",
-    "data": {
-      "rule": "13.2.3 Special Certi fi cation Requirements for Designated Seismic Systems Certi fi cations shall be provided for designated seismic systems assigned to Seismic Design Categories C through F as follows:",
+      "rule": "13.2.2 Load",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1065,6 +1225,89 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-13.2.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-13.2.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 13,
+      "section": "13.2.2",
+      "citation": "Section 13.2.2",
+      "page": 2
+    },
+    "title": "Combinations Nonstructural components, including their supports and attachments, covered by this chapter and not otherwise exempt by Section 13.1.8 shall comply with Section 1.3, including considerati",
+    "description": "",
+    "data": {
+      "rule": "Combinations Nonstructural components, including their supports and attachments, covered by this chapter and not otherwise exempt by Section 13.1.8 shall comply with Section 1.3, including consideration of load combinations of either Section 2.3 or 2.4, as appropriate. For the purposes of combining load effects, Fp shall be used per Section 12.4.2.1, and horizontal seismic design forces including overstrength shall be used per Section 12.4.3.1.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-13.1.8-T1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-13.2.3-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 13,
+      "section": "13.2.3",
+      "citation": "Section 13.2.3",
+      "page": 2
+    },
+    "title": "13.2.3 Special Certi",
+    "description": "",
+    "data": {
+      "rule": "13.2.3 Special Certi",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-13.2.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-13.2.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 13,
+      "section": "13.2.3",
+      "citation": "Section 13.2.3",
+      "page": 2
+    },
+    "title": "fi cation Requirements for Designated Seismic Systems Certi fi cations shall be provided for designated seismic systems assigned to Seismic Design Categories C through F as follows:",
+    "description": "",
+    "data": {
+      "rule": "fi cation Requirements for Designated Seismic Systems Certi fi cations shall be provided for designated seismic systems assigned to Seismic Design Categories C through F as follows:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-13.2.3-P1",
@@ -1097,7 +1340,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-13.2.3-T1",
+    "id": "ASCE7-22-13.2.3-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1306,10 +1549,38 @@
       "citation": "Section 13.2.4",
       "page": 3
     },
-    "title": "13.2.4 Consequential Damage The functional and physical interrelationship of components, their supports, and their effect on each other shall be considered so that the failure of an essential or nones",
+    "title": "13.2.4 Consequential Damage",
     "description": "",
     "data": {
-      "rule": "13.2.4 Consequential Damage The functional and physical interrelationship of components, their supports, and their effect on each other shall be considered so that the failure of an essential or nonessential architectural, mechanical, or electrical component shall not cause the failure of an essential architectural, mechanical, or electrical component. Where not otherwise established by analysis or test, required clearances for sprinkler system drops and sprigs shall not be less than those speci fi ed in Section 13.2.4.1.",
+      "rule": "13.2.4 Consequential Damage",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-13.2.4-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-13.2.4-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 13,
+      "section": "13.2.4",
+      "citation": "Section 13.2.4",
+      "page": 3
+    },
+    "title": "The functional and physical interrelationship of components, their supports, and their effect on each other shall be considered so that the failure of an essential or nonessential architectural, mecha",
+    "description": "",
+    "data": {
+      "rule": "The functional and physical interrelationship of components, their supports, and their effect on each other shall be considered so that the failure of an essential or nonessential architectural, mechanical, or electrical component shall not cause the failure of an essential architectural, mechanical, or electrical component. Where not otherwise established by analysis or test, required clearances for sprinkler system drops and sprigs shall not be less than those speci fi ed in Section 13.2.4.1.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1321,9 +1592,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-13.2.4.1-P1",
@@ -1443,10 +1713,10 @@
       "citation": "Section 13.2.5",
       "page": 3
     },
-    "title": "13.2.5 Flexibility The design and evaluation of components, their supports, and their attachments shall consider their fl exibility and their strength.",
+    "title": "13.2.5 Flexibility",
     "description": "",
     "data": {
-      "rule": "13.2.5 Flexibility The design and evaluation of components, their supports, and their attachments shall consider their fl exibility and their strength.",
+      "rule": "13.2.5 Flexibility",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1461,6 +1731,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-13.2.5-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-13.2.5-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 13,
+      "section": "13.2.5",
+      "citation": "Section 13.2.5",
+      "page": 3
+    },
+    "title": "The design and evaluation of components, their supports, and their attachments shall consider their fl exibility and their strength.",
+    "description": "",
+    "data": {
+      "rule": "The design and evaluation of components, their supports, and their attachments shall consider their fl exibility and their strength.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-13.2.6-H1",
     "type": "heading",
     "source": {
@@ -1470,10 +1767,10 @@
       "citation": "Section 13.2.6",
       "page": 3
     },
-    "title": "13.2.6 Testing Alternative for Seismic Capacity Determination As an alternative to the analytical requirements of Sections 13.2 through 13.6, testing shall be deemed an acceptable method to determine ",
+    "title": "13.2.6 Testing",
     "description": "",
     "data": {
-      "rule": "13.2.6 Testing Alternative for Seismic Capacity Determination As an alternative to the analytical requirements of Sections 13.2 through 13.6, testing shall be deemed an acceptable method to determine the seismic capacity of components and their supports and attachments. Seismic quali fi cation by testing based on a nationally recognized testing standard procedure, such as ICC-ES AC 156, acceptable to the Authority Having Jurisdiction shall be deemed to satisfy the design and evaluation requirements provided that the substantiated seismic capacities equal or exceed the seismic demands determined in accordance with Sections 13.3.1 and 13.3.2. For the testing alternative, the maximum seismic demand determined in accordance with Equation (13.3-2) is not required to exceed 3.2 IpWp .",
+      "rule": "13.2.6 Testing",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1486,6 +1783,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-13.2.6-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-13.2.6-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 13,
+      "section": "13.2.6",
+      "citation": "Section 13.2.6",
+      "page": 3
+    },
+    "title": "Alternative for Seismic Capacity Determination As an alternative to the analytical requirements of Sections 13.2 through 13.6, testing shall be deemed an acceptable method to determine the seismic cap",
+    "description": "",
+    "data": {
+      "rule": "Alternative for Seismic Capacity Determination As an alternative to the analytical requirements of Sections 13.2 through 13.6, testing shall be deemed an acceptable method to determine the seismic capacity of components and their supports and attachments. Seismic quali fi cation by testing based on a nationally recognized testing standard procedure, such as ICC-ES AC 156, acceptable to the Authority Having Jurisdiction shall be deemed to satisfy the design and evaluation requirements provided that the substantiated seismic capacities equal or exceed the seismic demands determined in accordance with Sections 13.3.1 and 13.3.2. For the testing alternative, the maximum seismic demand determined in accordance with Equation (13.3-2) is not required to exceed 3.2 IpWp .",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-13.2.7-P1",
@@ -1551,10 +1875,10 @@
       "citation": "Section 13.2.9",
       "page": 3
     },
-    "title": "13.2.9 Supported Nonstructural Components with Greater than or Equal to 20% Combined Weight For the condition where the weight of a nonstructural component is equal to or greater than 20% of the combi",
+    "title": "13.2.9 Supported Nonstructural Components with Greater",
     "description": "",
     "data": {
-      "rule": "13.2.9 Supported Nonstructural Components with Greater than or Equal to 20% Combined Weight For the condition where the weight of a nonstructural component is equal to or greater than 20% of the combined effective seismic weight, W , of the nonstructural component and the supporting structure, an analysis combining the structural characteristics of both the nonstructural component and the supporting structure shall be performed to determine the seismic design forces. The nonstructural component and the supporting structure shall be designed for forces and displacements determined in accordance with Chapter 12 or Section 15.5, as appropriate, with the R value of the combined system taken as the lesser of 0.40 \u00bd CAR Rpo \u008a of the nonstructural component or the R value of the supporting structure. The nonstructural component and attachments shall be designed for the forces and displacements resulting from the combined analysis. Design criteria for the nonstructural component shall otherwise be in accordance with this chapter.",
+      "rule": "13.2.9 Supported Nonstructural Components with Greater",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1567,6 +1891,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-13.2.9-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-13.2.9-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 13,
+      "section": "13.2.9",
+      "citation": "Section 13.2.9",
+      "page": 3
+    },
+    "title": "than or Equal to 20% Combined Weight For the condition where the weight of a nonstructural component is equal to or greater than 20% of the combined effective seismic weight, W , of the nonstructural ",
+    "description": "",
+    "data": {
+      "rule": "than or Equal to 20% Combined Weight For the condition where the weight of a nonstructural component is equal to or greater than 20% of the combined effective seismic weight, W , of the nonstructural component and the supporting structure, an analysis combining the structural characteristics of both the nonstructural component and the supporting structure shall be performed to determine the seismic design forces. The nonstructural component and the supporting structure shall be designed for forces and displacements determined in accordance with Chapter 12 or Section 15.5, as appropriate, with the R value of the combined system taken as the lesser of 0.40 \u00bd CAR Rpo \u008a of the nonstructural component or the R value of the supporting structure. The nonstructural component and attachments shall be designed for the forces and displacements resulting from the combined analysis. Design criteria for the nonstructural component shall otherwise be in accordance with this chapter.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-13.2.9-P1",
@@ -1624,10 +1975,10 @@
       "citation": "Section 13.3",
       "page": 3
     },
-    "title": "13.3 SEISMIC DEMANDS ON NONSTRUCTURAL COMPONENTS",
+    "title": "13.3",
     "description": "",
     "data": {
-      "rule": "13.3 SEISMIC DEMANDS ON NONSTRUCTURAL COMPONENTS",
+      "rule": "13.3",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1642,6 +1993,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-13.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-13.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 13,
+      "section": "13.3",
+      "citation": "Section 13.3",
+      "page": 3
+    },
+    "title": "SEISMIC DEMANDS ON NONSTRUCTURAL COMPONENTS",
+    "description": "",
+    "data": {
+      "rule": "SEISMIC DEMANDS ON NONSTRUCTURAL COMPONENTS",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-13.3.1-H1",
     "type": "heading",
     "source": {
@@ -1651,10 +2029,10 @@
       "citation": "Section 13.3.1",
       "page": 3
     },
-    "title": "13.3.1 Horizontal Seismic Design Forces The horizontal seismic design force, Fp , shall be applied at the component ' s center of gravity and distributed relative to the component ' s mass distributio",
+    "title": "13.3.1 Horizontal",
     "description": "",
     "data": {
-      "rule": "13.3.1 Horizontal Seismic Design Forces The horizontal seismic design force, Fp , shall be applied at the component ' s center of gravity and distributed relative to the component ' s mass distribution. The redundancy factor, \u03c1 , is permitted to be taken as equal to 1.",
+      "rule": "13.3.1 Horizontal",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1667,6 +2045,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-13.3.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-13.3.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 13,
+      "section": "13.3.1",
+      "citation": "Section 13.3.1",
+      "page": 3
+    },
+    "title": "Seismic Design Forces The horizontal seismic design force, Fp , shall be applied at the component ' s center of gravity and distributed relative to the component ' s mass distribution. The redundancy ",
+    "description": "",
+    "data": {
+      "rule": "Seismic Design Forces The horizontal seismic design force, Fp , shall be applied at the component ' s center of gravity and distributed relative to the component ' s mass distribution. The redundancy factor, \u03c1 , is permitted to be taken as equal to 1.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-13.3.1-P1",
@@ -1696,7 +2101,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-13.3.1-T1",
+    "id": "ASCE7-22-13.3.1-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1723,7 +2128,7 @@
     "parent_id": "ASCE7-22-13.3.1-H1"
   },
   {
-    "id": "ASCE7-22-13.3.1-T2",
+    "id": "ASCE7-22-13.3.1-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1788,29 +2193,29 @@
     "data": {
       "expression": "I p =Component Importance Factor as determined in accor- R\u03bc =\u00bd1.1R\u2215\u00f0I e \u03a9 0 \u00de(cid:2)1\u22152 \u22651.3 (13.3-6)",
       "parameters": {
-        "p": {
-          "description": "Design pressure to be used in determination of wind loads for buildings, lb/ft 2 (N/m 2 )",
-          "source": "ASCE7-22-26.3-T78"
+        "I": {
+          "description": "Radius of gyration of the isolation system [ft (mm)], which is equal to [ \u00f0 b 2 \u00fe d 2 \u00de \u2215 12 \u008a 1 \u2215 2 for isolation systems of rectangular plan dimension, b \u00d7 d ",
+          "source": "ASCE7-22-17.5.3.3-T8"
         },
         "\u03a9": {
           "description": "Angular frequency of the waveform, equal to 2 \u03c0 \u2215 T , where T is the wave period",
           "source": "ASCE7-22-6.3-T111"
         },
-        "R": {
-          "description": "Response modi fi cation factor for the building or nonbuilding structure supporting the component, from Table 12.2-1, 15.4-1, or 15.4-2; and",
-          "source": "ASCE7-22-13.3.1.2-T3"
+        "\u03bc": {
+          "description": "Structure ductility reduction factor as determined in Section 13.3.1.2",
+          "source": "ASCE7-22-11.3-T85"
         },
         "e": {
           "description": "Actual eccentricity measured in plan between the center of mass of the structure above the isolation interface and the center of rigidity of the isolation system, plus accidental eccentricity [ft (mm)], taken as 5% of the longest plan dimension of the structure perpendicular to the direction of force under consideration;",
           "source": "ASCE7-22-17.5.3.3-T4"
         },
-        "I": {
-          "description": "Radius of gyration of the isolation system [ft (mm)], which is equal to [ \u00f0 b 2 \u00fe d 2 \u00de \u2215 12 \u008a 1 \u2215 2 for isolation systems of rectangular plan dimension, b \u00d7 d ",
-          "source": "ASCE7-22-17.5.3.3-T8"
+        "R": {
+          "description": "Response modi fi cation factor for the building or nonbuilding structure supporting the component, from Table 12.2-1, 15.4-1, or 15.4-2; and",
+          "source": "ASCE7-22-13.3.1.2-T3"
         },
-        "\u03bc": {
-          "description": "Structure ductility reduction factor as determined in Section 13.3.1.2",
-          "source": "ASCE7-22-11.3-T85"
+        "p": {
+          "description": "Design pressure to be used in determination of wind loads for buildings, lb/ft 2 (N/m 2 )",
+          "source": "ASCE7-22-26.3-T78"
         }
       }
     },
@@ -1904,7 +2309,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-13.3.1-T5",
+    "id": "ASCE7-22-13.3.1-T6",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1931,7 +2336,7 @@
     "parent_id": "ASCE7-22-13.3.1-H1"
   },
   {
-    "id": "ASCE7-22-13.3.1-T6",
+    "id": "ASCE7-22-13.3.1-T7",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1960,7 +2365,7 @@
     "parent_id": "ASCE7-22-13.3.1-H1"
   },
   {
-    "id": "ASCE7-22-13.3.1-T7",
+    "id": "ASCE7-22-13.3.1-T8",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1987,7 +2392,7 @@
     "parent_id": "ASCE7-22-13.3.1-H1"
   },
   {
-    "id": "ASCE7-22-13.3.1-T8",
+    "id": "ASCE7-22-13.3.1-T9",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2016,7 +2421,7 @@
     "parent_id": "ASCE7-22-13.3.1-H1"
   },
   {
-    "id": "ASCE7-22-13.3.1-T9",
+    "id": "ASCE7-22-13.3.1-T10",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2045,7 +2450,7 @@
     "parent_id": "ASCE7-22-13.3.1-H1"
   },
   {
-    "id": "ASCE7-22-13.3.1-T10",
+    "id": "ASCE7-22-13.3.1-T11",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2074,7 +2479,7 @@
     "parent_id": "ASCE7-22-13.3.1-H1"
   },
   {
-    "id": "ASCE7-22-13.3.1-T11",
+    "id": "ASCE7-22-13.3.1-T12",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2382,10 +2787,10 @@
       "citation": "Section 13.3.1.2",
       "page": 4
     },
-    "title": "13.3.1.2 Structure Ductility Reduction Factor, R \u03bc For components supported by a building or nonbuilding structure, the reduction factor for ductility of the supporting structure, R \u03bc , is calculated ",
+    "title": "13.3.1.2 Structure",
     "description": "",
     "data": {
-      "rule": "13.3.1.2 Structure Ductility Reduction Factor, R \u03bc For components supported by a building or nonbuilding structure, the reduction factor for ductility of the supporting structure, R \u03bc , is calculated as where",
+      "rule": "13.3.1.2 Structure",
       "conditions": [],
       "then": "",
       "else": null,
@@ -2400,7 +2805,34 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-13.3.1.2-T2",
+    "id": "ASCE7-22-13.3.1.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-13.3.1.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 13,
+      "section": "13.3.1.2",
+      "citation": "Section 13.3.1.2",
+      "page": 4
+    },
+    "title": "Ductility Reduction Factor, R \u03bc For components supported by a building or nonbuilding structure, the reduction factor for ductility of the supporting structure, R \u03bc , is calculated as",
+    "description": "",
+    "data": {
+      "rule": "Ductility Reduction Factor, R \u03bc For components supported by a building or nonbuilding structure, the reduction factor for ductility of the supporting structure, R \u03bc , is calculated as where",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-13.3.1.2-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2427,7 +2859,7 @@
     "parent_id": "ASCE7-22-13.3.1.2-H1"
   },
   {
-    "id": "ASCE7-22-13.3.1.2-T3",
+    "id": "ASCE7-22-13.3.1.2-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2454,7 +2886,7 @@
     "parent_id": "ASCE7-22-13.3.1.2-H1"
   },
   {
-    "id": "ASCE7-22-13.3.1.2-T4",
+    "id": "ASCE7-22-13.3.1.2-T5",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2653,6 +3085,39 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-13.3-E13-3-51",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 13,
+      "section": "13.3",
+      "citation": "Eq. (13.3-5)",
+      "page": 4
+    },
+    "title": "Equation (13.3-5)",
+    "description": "",
+    "data": {
+      "expression": "For components supported above grade plane by a building or nonbuilding structure, Hf is permitted to be determined by Equation (13.3-4) or Equation (13.3-5)",
+      "parameters": {
+        "Hf": {
+          "description": "Factor for force ampli fi cation as a function of height in the structure as determined in Section 13.3.1.1;",
+          "source": "ASCE7-22-13.3.1-T8"
+        },
+        "a": {
+          "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
+          "source": "ASCE7-22-28.3.7-T22"
+        }
+      }
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  },
+  {
     "id": "ASCE7-22-13.3-E13-3-91",
     "type": "formula",
     "source": {
@@ -2696,13 +3161,13 @@
     "data": {
       "expression": "F =I W a C AR (13.3-7)",
       "parameters": {
-        "W": {
-          "description": "Effective seismic weight of the building as de fi ned in Section 12.7.2. For calculation of seismicisolated building period, W is the total effective seismic weight of the building, in kip (kN), as de fi ned in Sections 19.2 and 19.3",
-          "source": "ASCE7-22-11.3-T130"
-        },
         "I": {
           "description": "Radius of gyration of the isolation system [ft (mm)], which is equal to [ \u00f0 b 2 \u00fe d 2 \u00de \u2215 12 \u008a 1 \u2215 2 for isolation systems of rectangular plan dimension, b \u00d7 d ",
           "source": "ASCE7-22-17.5.3.3-T8"
+        },
+        "W": {
+          "description": "Effective seismic weight of the building as de fi ned in Section 12.7.2. For calculation of seismicisolated building period, W is the total effective seismic weight of the building, in kip (kN), as de fi ned in Sections 19.2 and 19.3",
+          "source": "ASCE7-22-11.3-T130"
         },
         "a": {
           "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
@@ -2886,10 +3351,10 @@
       "citation": "Section 13.3.1.5",
       "page": 5
     },
-    "title": "13.3.1.5 Nonlinear Response History Analysis In lieu of the forces determined in accordance with Equation (13.3-1), the nonlinear response history analysis procedures of Chapters 16, 17, and 18 may be",
+    "title": "13.3.1.5 Nonlinear Response History Analysis",
     "description": "",
     "data": {
-      "rule": "13.3.1.5 Nonlinear Response History Analysis In lieu of the forces determined in accordance with Equation (13.3-1), the nonlinear response history analysis procedures of Chapters 16, 17, and 18 may be used to determine the seismic design force for nonstructural components. Where the dynamic properties of the nonstructural component are not explicitly modeled in the nonlinear response history analysis, the seismic design force, Fp , shall be calculated as",
+      "rule": "13.3.1.5 Nonlinear Response History Analysis",
       "conditions": [],
       "then": "",
       "else": null,
@@ -2902,6 +3367,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-13.3.1.5-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-13.3.1.5-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 13,
+      "section": "13.3.1.5",
+      "citation": "Section 13.3.1.5",
+      "page": 5
+    },
+    "title": "In lieu of the forces determined in accordance with Equation (13.3-1), the nonlinear response history analysis procedures of Chapters 16, 17, and 18 may be used to determine the seismic design force f",
+    "description": "",
+    "data": {
+      "rule": "In lieu of the forces determined in accordance with Equation (13.3-1), the nonlinear response history analysis procedures of Chapters 16, 17, and 18 may be used to determine the seismic design force for nonstructural components. Where the dynamic properties of the nonstructural component are not explicitly modeled in the nonlinear response history analysis, the seismic design force, Fp , shall be calculated as",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-13.3.1.5-P1",
@@ -2940,10 +3432,10 @@
       "citation": "Section 13.3.1.6",
       "page": 5
     },
-    "title": "13.3.1.6 Vertical Seismic Force The component, including its supports and attachments, shall be designed for a concurrent vertical seismic design force equal to Ev per Section 12.4.2.2.",
+    "title": "13.3.1.6 Vertical Seismic Force",
     "description": "",
     "data": {
-      "rule": "13.3.1.6 Vertical Seismic Force The component, including its supports and attachments, shall be designed for a concurrent vertical seismic design force equal to Ev per Section 12.4.2.2.",
+      "rule": "13.3.1.6 Vertical Seismic Force",
       "conditions": [],
       "then": "",
       "else": null,
@@ -2956,6 +3448,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-13.3.1.6-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-13.3.1.6-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 13,
+      "section": "13.3.1.6",
+      "citation": "Section 13.3.1.6",
+      "page": 5
+    },
+    "title": "The component, including its supports and attachments, shall be designed for a concurrent vertical seismic design force equal to Ev per Section 12.4.2.2.",
+    "description": "",
+    "data": {
+      "rule": "The component, including its supports and attachments, shall be designed for a concurrent vertical seismic design force equal to Ev per Section 12.4.2.2.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-13.3.1.6-X1",
@@ -3021,10 +3540,10 @@
       "citation": "Section 13.3.2",
       "page": 5
     },
-    "title": "13.3.2 Seismic Relative Displacements The effects of seismic relative displacements shall be considered in combination with displacements caused by other loads as appropriate. Seismic relative displac",
+    "title": "13.3.2 Seismic Relative Displacements",
     "description": "",
     "data": {
-      "rule": "13.3.2 Seismic Relative Displacements The effects of seismic relative displacements shall be considered in combination with displacements caused by other loads as appropriate. Seismic relative displacements, DpI , shall be calculated as",
+      "rule": "13.3.2 Seismic Relative Displacements",
       "conditions": [],
       "then": "",
       "else": null,
@@ -3040,6 +3559,33 @@
   },
   {
     "id": "ASCE7-22-13.3.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-13.3.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 13,
+      "section": "13.3.2",
+      "citation": "Section 13.3.2",
+      "page": 5
+    },
+    "title": "The effects of seismic relative displacements shall be considered in combination with displacements caused by other loads as appropriate. Seismic relative displacements, DpI , shall be calculated as",
+    "description": "",
+    "data": {
+      "rule": "The effects of seismic relative displacements shall be considered in combination with displacements caused by other loads as appropriate. Seismic relative displacements, DpI , shall be calculated as",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-13.3.2-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3264,10 +3810,10 @@
       "citation": "Section 13.3.2.2",
       "page": 5
     },
-    "title": "13.3.2.2 Displacements between Structures For two connection points on separate structures A and B or separate structural systems, one at a height hx and the other at a height hy , Dp shall be determi",
+    "title": "13.3.2.2 Displacements",
     "description": "",
     "data": {
-      "rule": "13.3.2.2 Displacements between Structures For two connection points on separate structures A and B or separate structural systems, one at a height hx and the other at a height hy , Dp shall be determined as",
+      "rule": "13.3.2.2 Displacements",
       "conditions": [],
       "then": "",
       "else": null,
@@ -3280,6 +3826,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-13.3.2.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-13.3.2.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 13,
+      "section": "13.3.2.2",
+      "citation": "Section 13.3.2.2",
+      "page": 5
+    },
+    "title": "between Structures For two connection points on separate structures A and B or separate structural systems, one at a height hx and the other at a height hy , Dp shall be determined as",
+    "description": "",
+    "data": {
+      "rule": "between Structures For two connection points on separate structures A and B or separate structural systems, one at a height hx and the other at a height hy , Dp shall be determined as",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-13.3.2.2-P1",
@@ -3363,7 +3936,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-13.3.2.2-T1",
+    "id": "ASCE7-22-13.3.2.2-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3390,7 +3963,7 @@
     "parent_id": "ASCE7-22-13.3.2.2-H1"
   },
   {
-    "id": "ASCE7-22-13.3.2.2-T2",
+    "id": "ASCE7-22-13.3.2.2-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3417,7 +3990,7 @@
     "parent_id": "ASCE7-22-13.3.2.2-H1"
   },
   {
-    "id": "ASCE7-22-13.3.2.2-T3",
+    "id": "ASCE7-22-13.3.2.2-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3444,7 +4017,7 @@
     "parent_id": "ASCE7-22-13.3.2.2-H1"
   },
   {
-    "id": "ASCE7-22-13.3.2.2-T4",
+    "id": "ASCE7-22-13.3.2.2-T5",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3471,7 +4044,7 @@
     "parent_id": "ASCE7-22-13.3.2.2-H1"
   },
   {
-    "id": "ASCE7-22-13.3.2.2-T5",
+    "id": "ASCE7-22-13.3.2.2-T6",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3498,7 +4071,7 @@
     "parent_id": "ASCE7-22-13.3.2.2-H1"
   },
   {
-    "id": "ASCE7-22-13.3.2.2-T6",
+    "id": "ASCE7-22-13.3.2.2-T7",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3525,7 +4098,7 @@
     "parent_id": "ASCE7-22-13.3.2.2-H1"
   },
   {
-    "id": "ASCE7-22-13.3.2.2-T7",
+    "id": "ASCE7-22-13.3.2.2-T8",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3610,6 +4183,35 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-13.3-E13-3-121",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 13,
+      "section": "13.3",
+      "citation": "Eq. (13.3-12)",
+      "page": 5
+    },
+    "title": "Equation (13.3-12)",
+    "description": "",
+    "data": {
+      "expression": "Where single-story structures are designed in accordance with note a of Table 12.12-1, Equation (13.3-12)",
+      "parameters": {
+        "a": {
+          "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
+          "source": "ASCE7-22-28.3.7-T22"
+        }
+      }
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  },
+  {
     "id": "ASCE7-22-13.3-E13-3-131",
     "type": "formula",
     "source": {
@@ -3643,7 +4245,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-13.3.2.2-T8",
+    "id": "ASCE7-22-13.3.2.2-T9",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3841,10 +4443,10 @@
       "citation": "Section 13.4",
       "page": 6
     },
-    "title": "13.4 NONSTRUCTURAL COMPONENT ANCHORAGE AND ATTACHMENT",
+    "title": "13.4",
     "description": "",
     "data": {
-      "rule": "13.4 NONSTRUCTURAL COMPONENT ANCHORAGE AND ATTACHMENT",
+      "rule": "13.4",
       "conditions": [],
       "then": "",
       "else": null,
@@ -3857,6 +4459,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-13.4-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-13.4-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 13,
+      "section": "13.4",
+      "citation": "Section 13.4",
+      "page": 6
+    },
+    "title": "NONSTRUCTURAL COMPONENT ANCHORAGE AND ATTACHMENT",
+    "description": "",
+    "data": {
+      "rule": "NONSTRUCTURAL COMPONENT ANCHORAGE AND ATTACHMENT",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-13.4-P1",
@@ -3925,10 +4554,10 @@
       "citation": "Section 13.4.1",
       "page": 6
     },
-    "title": "13.4.1 Design Force in the Attachment The force in the attachment shall be determined based on the prescribed forces and displacements for the component as determined in Sections 13.3.1 and 13.3.2.",
+    "title": "13.4.1 Design Force in the Attachment",
     "description": "",
     "data": {
-      "rule": "13.4.1 Design Force in the Attachment The force in the attachment shall be determined based on the prescribed forces and displacements for the component as determined in Sections 13.3.1 and 13.3.2.",
+      "rule": "13.4.1 Design Force in the Attachment",
       "conditions": [],
       "then": "",
       "else": null,
@@ -3941,6 +4570,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-13.4.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-13.4.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 13,
+      "section": "13.4.1",
+      "citation": "Section 13.4.1",
+      "page": 6
+    },
+    "title": "The force in the attachment shall be determined based on the prescribed forces and displacements for the component as determined in Sections 13.3.1 and 13.3.2.",
+    "description": "",
+    "data": {
+      "rule": "The force in the attachment shall be determined based on the prescribed forces and displacements for the component as determined in Sections 13.3.1 and 13.3.2.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-13.4.2-H1",
@@ -3952,10 +4608,10 @@
       "citation": "Section 13.4.2",
       "page": 6
     },
-    "title": "13.4.2 Anchors in Concrete or Masonry When it is required to apply the seismic load effects including overstrength in Section 12.4.3, \u03a9 0 shall be taken as the anchorage overstrength factor, \u03a9 0 p , g",
+    "title": "13.4.2 Anchors in Concrete or Masonry",
     "description": "",
     "data": {
-      "rule": "13.4.2 Anchors in Concrete or Masonry When it is required to apply the seismic load effects including overstrength in Section 12.4.3, \u03a9 0 shall be taken as the anchorage overstrength factor, \u03a9 0 p , given in Tables 13.5-1 and 13.6-1.",
+      "rule": "13.4.2 Anchors in Concrete or Masonry",
       "conditions": [],
       "then": "",
       "else": null,
@@ -3970,6 +4626,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-13.4.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-13.4.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 13,
+      "section": "13.4.2",
+      "citation": "Section 13.4.2",
+      "page": 6
+    },
+    "title": "When it is required to apply the seismic load effects including overstrength in Section 12.4.3, \u03a9 0 shall be taken as the anchorage overstrength factor, \u03a9 0 p , given in Tables 13.5-1 and 13.6-1.",
+    "description": "",
+    "data": {
+      "rule": "When it is required to apply the seismic load effects including overstrength in Section 12.4.3, \u03a9 0 shall be taken as the anchorage overstrength factor, \u03a9 0 p , given in Tables 13.5-1 and 13.6-1.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-13.4.2.1-H1",
     "type": "heading",
     "source": {
@@ -3979,10 +4662,10 @@
       "citation": "Section 13.4.2.1",
       "page": 6
     },
-    "title": "13.4.2.1 Anchors in Concrete Anchors in concrete shall be designed in accordance with Chapter 17 of ACI 318.",
+    "title": "13.4.2.1 Anchors in Concrete",
     "description": "",
     "data": {
-      "rule": "13.4.2.1 Anchors in Concrete Anchors in concrete shall be designed in accordance with Chapter 17 of ACI 318.",
+      "rule": "13.4.2.1 Anchors in Concrete",
       "conditions": [],
       "then": "",
       "else": null,
@@ -3995,6 +4678,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-13.4.2.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-13.4.2.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 13,
+      "section": "13.4.2.1",
+      "citation": "Section 13.4.2.1",
+      "page": 6
+    },
+    "title": "Anchors in concrete shall be designed in accordance with Chapter 17 of ACI 318.",
+    "description": "",
+    "data": {
+      "rule": "Anchors in concrete shall be designed in accordance with Chapter 17 of ACI 318.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-13.4.2.2-P1",
@@ -4197,10 +4907,10 @@
       "citation": "Section 13.4.5",
       "page": 6
     },
-    "title": "13.4.5 Power-Actuated Fasteners Power-actuated fasteners in concrete or steel shall not be used for sustained tension loads or for brace applications in Seismic Design Category D, E, or F unless appro",
+    "title": "13.4.5 Power-Actuated Fasteners",
     "description": "",
     "data": {
-      "rule": "13.4.5 Power-Actuated Fasteners Power-actuated fasteners in concrete or steel shall not be used for sustained tension loads or for brace applications in Seismic Design Category D, E, or F unless approved for seismic loading. Power-actuated fasteners in masonry are not permitted unless approved for seismic loading.",
+      "rule": "13.4.5 Power-Actuated Fasteners",
       "conditions": [],
       "then": "",
       "else": null,
@@ -4213,6 +4923,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-13.4.5-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-13.4.5-H2",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 13,
+      "section": "13.4.5",
+      "citation": "Section 13.4.5",
+      "page": 6
+    },
+    "title": "Power-actuated fasteners in concrete or steel shall not be used for sustained tension loads or for brace applications in Seismic Design Category D, E, or F unless approved for seismic loading. Power-a",
+    "description": "",
+    "data": {
+      "rule": "Power-actuated fasteners in concrete or steel shall not be used for sustained tension loads or for brace applications in Seismic Design Category D, E, or F unless approved for seismic loading. Power-actuated fasteners in masonry are not permitted unless approved for seismic loading.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-13.4.5-H2",
@@ -4242,7 +4979,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-13.4.5-T1",
+    "id": "ASCE7-22-13.4.5-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -4269,7 +5006,7 @@
     "parent_id": "ASCE7-22-13.4.5-H2"
   },
   {
-    "id": "ASCE7-22-13.4.5-T2",
+    "id": "ASCE7-22-13.4.5-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -4305,10 +5042,10 @@
       "citation": "Section 13.4.6",
       "page": 6
     },
-    "title": "13.4.6 Friction Clips Friction clips in Seismic Design Category D, E, or F shall not be used for supporting permanent loads in addition to resisting seismic forces. C-type beam and large fl ange clamp",
+    "title": "13.4.6 Friction Clips",
     "description": "",
     "data": {
-      "rule": "13.4.6 Friction Clips Friction clips in Seismic Design Category D, E, or F shall not be used for supporting permanent loads in addition to resisting seismic forces. C-type beam and large fl ange clamps are permitted for hangers, provided they are equipped with restraining straps equivalent to those speci fi ed in NFPA 13, Section 9.3.7. Lock nuts or equivalent shall be provided to prevent loosening of threaded connections.",
+      "rule": "13.4.6 Friction Clips",
       "conditions": [],
       "then": "",
       "else": null,
@@ -4323,6 +5060,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-13.4.6-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-13.4.6-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 13,
+      "section": "13.4.6",
+      "citation": "Section 13.4.6",
+      "page": 6
+    },
+    "title": "Friction clips in Seismic Design Category D, E, or F shall not be used for supporting permanent loads in addition to resisting seismic forces. C-type beam and large fl ange clamps are permitted for ha",
+    "description": "",
+    "data": {
+      "rule": "Friction clips in Seismic Design Category D, E, or F shall not be used for supporting permanent loads in addition to resisting seismic forces. C-type beam and large fl ange clamps are permitted for hangers, provided they are equipped with restraining straps equivalent to those speci fi ed in NFPA 13, Section 9.3.7. Lock nuts or equivalent shall be provided to prevent loosening of threaded connections.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-13.5-H1",
     "type": "heading",
     "source": {
@@ -4332,7 +5096,7 @@
       "citation": "Section 13.5",
       "page": 6
     },
-    "title": "13.5 ARCHITECTURAL COMPONENTS",
+    "title": "13.5",
     "description": "",
     "data": {
       "rule": "13.5 ARCHITECTURAL COMPONENTS",
@@ -4359,10 +5123,38 @@
       "citation": "Section 13.5.1",
       "page": 6
     },
-    "title": "13.5.1 General. Architectural components, and their supports and attachments, shall satisfy the requirements of this section. Appropriate coef fi cients shall be selected from Table 13.5-1.",
+    "title": "13.5.1 General.",
     "description": "",
     "data": {
-      "rule": "13.5.1 General. Architectural components, and their supports and attachments, shall satisfy the requirements of this section. Appropriate coef fi cients shall be selected from Table 13.5-1.",
+      "rule": "13.5.1 General.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-13.5.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-13.5.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 13,
+      "section": "13.5.1",
+      "citation": "Section 13.5.1",
+      "page": 6
+    },
+    "title": "Architectural components, and their supports and attachments, shall satisfy the requirements of this section. Appropriate coef fi cients shall be selected from Table 13.5-1.",
+    "description": "",
+    "data": {
+      "rule": "Architectural components, and their supports and attachments, shall satisfy the requirements of this section. Appropriate coef fi cients shall be selected from Table 13.5-1.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -4374,9 +5166,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-13.5.1-X1",
@@ -4433,7 +5224,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-13.5.1-T1",
+    "id": "ASCE7-22-13.5.1-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -4462,7 +5253,7 @@
     "parent_id": "ASCE7-22-13.5.1-H1"
   },
   {
-    "id": "ASCE7-22-13.5.1-T2",
+    "id": "ASCE7-22-13.5.1-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -4641,10 +5432,10 @@
       "citation": "Section 13.5.3",
       "page": 7
     },
-    "title": "13.5.3 Exterior Nonstructural Wall Elements and Connections Exterior nonstructural wall panels or elements that are attached to or enclose the structure shall be designed",
+    "title": "13.5.3 Exterior",
     "description": "",
     "data": {
-      "rule": "13.5.3 Exterior Nonstructural Wall Elements and Connections Exterior nonstructural wall panels or elements that are attached to or enclose the structure shall be designed",
+      "rule": "13.5.3 Exterior",
       "conditions": [],
       "then": "",
       "else": null,
@@ -4657,6 +5448,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-13.5.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-13.5.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 13,
+      "section": "13.5.3",
+      "citation": "Section 13.5.3",
+      "page": 7
+    },
+    "title": "Nonstructural Wall Elements and Connections Exterior nonstructural wall panels or elements that are attached to or enclose the structure shall be designed",
+    "description": "",
+    "data": {
+      "rule": "Nonstructural Wall Elements and Connections Exterior nonstructural wall panels or elements that are attached to or enclose the structure shall be designed",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-13.5-T13-5-11",
@@ -5020,10 +5838,6 @@
     "data": {
       "expression": "\u00f0L\u2215d\u00de\u2215D pl \u22656.0\u00f01\u2215in:\u00de (13.5-1)",
       "parameters": {
-        "D": {
-          "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the design earthquake ground motions, Section 18.7.3.3 \u03bc",
-          "source": "ASCE7-22-18.1.3-T79"
-        },
         "L": {
           "description": "Inside length of a rectangular tank, parallel to the direction of the earthquake force being investigated;",
           "source": "ASCE7-22-15.7.6.2-T3"
@@ -5031,6 +5845,10 @@
         "d": {
           "description": "Longest plan dimension of the structure, ft (mm) measured perpendicular to b",
           "source": "ASCE7-22-17.1.2-T4"
+        },
+        "D": {
+          "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the design earthquake ground motions, Section 18.7.3.3 \u03bc",
+          "source": "ASCE7-22-18.1.3-T79"
         }
       }
     },
@@ -5209,7 +6027,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-13.5.3-T2",
+    "id": "ASCE7-22-13.5.3-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -5236,7 +6054,7 @@
     "parent_id": "ASCE7-22-13.5.3-H1"
   },
   {
-    "id": "ASCE7-22-13.5.3-T3",
+    "id": "ASCE7-22-13.5.3-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -5347,7 +6165,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-13.5.3-T4",
+    "id": "ASCE7-22-13.5.3-T5",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -5410,10 +6228,38 @@
       "citation": "Section 13.5.4",
       "page": 8
     },
-    "title": "13.5.4 Glass Glass in glazed curtain walls and storefronts shall be designed and installed to accommodate without breakage or dislodgement the relative-displacement requirement of Section 13.5.9.",
+    "title": "13.5.4 Glass",
     "description": "",
     "data": {
-      "rule": "13.5.4 Glass Glass in glazed curtain walls and storefronts shall be designed and installed to accommodate without breakage or dislodgement the relative-displacement requirement of Section 13.5.9.",
+      "rule": "13.5.4 Glass",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-13.5.4-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-13.5.4-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 13,
+      "section": "13.5.4",
+      "citation": "Section 13.5.4",
+      "page": 8
+    },
+    "title": "Glass in glazed curtain walls and storefronts shall be designed and installed to accommodate without breakage or dislodgement the relative-displacement requirement of Section 13.5.9.",
+    "description": "",
+    "data": {
+      "rule": "Glass in glazed curtain walls and storefronts shall be designed and installed to accommodate without breakage or dislodgement the relative-displacement requirement of Section 13.5.9.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -5425,9 +6271,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-13.5.4-P1",
@@ -5468,39 +6313,10 @@
       "citation": "Section 13.5.5",
       "page": 8
     },
-    "title": "13.5.5 Out-of-Plane Bending Transverse or out-of-plane bending or deformation of a component or system that is subjected to forces as determined in Section 13.5.2 shall not exceed the de fl ection cap",
+    "title": "13.5.5 Out-of-Plane",
     "description": "",
     "data": {
-      "rule": "13.5.5 Out-of-Plane Bending Transverse or out-of-plane bending or deformation of a component or system that is subjected to forces as determined in Section 13.5.2 shall not exceed the de fl ection capability of the component or system.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [
-      "ASCE7-22-13.5.2-H1"
-    ],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-13.5.6-H1",
-    "type": "heading",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 13,
-      "section": "13.5.6",
-      "citation": "Section 13.5.6",
-      "page": 8
-    },
-    "title": "13.5.6 Suspended Ceilings Suspended ceilings shall be in accordance with this section.",
-    "description": "",
-    "data": {
-      "rule": "13.5.6 Suspended Ceilings Suspended ceilings shall be in accordance with this section.",
+      "rule": "13.5.5 Out-of-Plane",
       "conditions": [],
       "then": "",
       "else": null,
@@ -5513,6 +6329,89 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-13.5.5-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-13.5.5-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 13,
+      "section": "13.5.5",
+      "citation": "Section 13.5.5",
+      "page": 8
+    },
+    "title": "Bending Transverse or out-of-plane bending or deformation of a component or system that is subjected to forces as determined in Section 13.5.2 shall not exceed the de fl ection capability of the compo",
+    "description": "",
+    "data": {
+      "rule": "Bending Transverse or out-of-plane bending or deformation of a component or system that is subjected to forces as determined in Section 13.5.2 shall not exceed the de fl ection capability of the component or system.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-13.5.2-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-13.5.6-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 13,
+      "section": "13.5.6",
+      "citation": "Section 13.5.6",
+      "page": 8
+    },
+    "title": "13.5.6 Suspended Ceilings",
+    "description": "",
+    "data": {
+      "rule": "13.5.6 Suspended Ceilings",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-13.5.6-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-13.5.6-H2",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 13,
+      "section": "13.5.6",
+      "citation": "Section 13.5.6",
+      "page": 8
+    },
+    "title": "Suspended ceilings shall be in accordance with this section.",
+    "description": "",
+    "data": {
+      "rule": "Suspended ceilings shall be in accordance with this section.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-13.5.6-H2",
@@ -5542,7 +6441,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-13.5.6-T1",
+    "id": "ASCE7-22-13.5.6-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -5569,7 +6468,7 @@
     "parent_id": "ASCE7-22-13.5.6-H2"
   },
   {
-    "id": "ASCE7-22-13.5.6-T2",
+    "id": "ASCE7-22-13.5.6-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -6121,10 +7020,10 @@
       "citation": "Section 13.5.7.1",
       "page": 9
     },
-    "title": "13.5.7.1 General The weight of the access fl oor, Wp , shall include the weight of the fl oor system, 100% of the weight of all equipment fastened to the fl oor, and 25% of the weight of all equipment",
+    "title": "13.5.7.1 General",
     "description": "",
     "data": {
-      "rule": "13.5.7.1 General The weight of the access fl oor, Wp , shall include the weight of the fl oor system, 100% of the weight of all equipment fastened to the fl oor, and 25% of the weight of all equipment supported by but not fastened to the fl oor. The seismic force, Fp , shall be transmitted from the top surface of the access fl oor to the supporting structure.",
+      "rule": "13.5.7.1 General",
       "conditions": [],
       "then": "",
       "else": null,
@@ -6137,6 +7036,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-13.5.7.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-13.5.7.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 13,
+      "section": "13.5.7.1",
+      "citation": "Section 13.5.7.1",
+      "page": 9
+    },
+    "title": "The weight of the access fl oor, Wp , shall include the weight of the fl oor system, 100% of the weight of all equipment fastened to the fl oor, and 25% of the weight of all equipment supported by but",
+    "description": "",
+    "data": {
+      "rule": "The weight of the access fl oor, Wp , shall include the weight of the fl oor system, 100% of the weight of all equipment fastened to the fl oor, and 25% of the weight of all equipment supported by but not fastened to the fl oor. The seismic force, Fp , shall be transmitted from the top surface of the access fl oor to the supporting structure.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-13.5.7.1-P1",
@@ -6202,10 +7128,10 @@
       "citation": "Section 13.5.7.2",
       "page": 9
     },
-    "title": "13.5.7.2 Special Access Floors Access fl oors shall be considered to be ' special access fl oors ' if they are designed to comply with the following considerations:",
+    "title": "13.5.7.2 Special",
     "description": "",
     "data": {
-      "rule": "13.5.7.2 Special Access Floors Access fl oors shall be considered to be ' special access fl oors ' if they are designed to comply with the following considerations:",
+      "rule": "13.5.7.2 Special",
       "conditions": [],
       "then": "",
       "else": null,
@@ -6218,6 +7144,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-13.5.7.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-13.5.7.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 13,
+      "section": "13.5.7.2",
+      "citation": "Section 13.5.7.2",
+      "page": 9
+    },
+    "title": "Access Floors Access fl oors shall be considered to be ' special access fl oors ' if they are designed to comply with the following considerations:",
+    "description": "",
+    "data": {
+      "rule": "Access Floors Access fl oors shall be considered to be ' special access fl oors ' if they are designed to comply with the following considerations:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-13.5.7.2-P1",
@@ -6247,7 +7200,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-13.5.7.2-T1",
+    "id": "ASCE7-22-13.5.7.2-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -6274,7 +7227,7 @@
     "parent_id": "ASCE7-22-13.5.7.2-H1"
   },
   {
-    "id": "ASCE7-22-13.5.7.2-T2",
+    "id": "ASCE7-22-13.5.7.2-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -6328,7 +7281,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-13.5.7.2-T3",
+    "id": "ASCE7-22-13.5.7.2-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -6391,10 +7344,38 @@
       "citation": "Section 13.5.8.1",
       "page": 9
     },
-    "title": "13.5.8.1 General Partitions that are tied to the ceiling, and all partitions greater than 6 ft (1.8 m) high, shall be laterally braced to the building structure. Such bracing shall be independent of a",
+    "title": "13.5.8.1 General",
     "description": "",
     "data": {
-      "rule": "13.5.8.1 General Partitions that are tied to the ceiling, and all partitions greater than 6 ft (1.8 m) high, shall be laterally braced to the building structure. Such bracing shall be independent of any ceiling lateral force bracing. Bracing shall be spaced to limit horizontal de fl ection at the partition head, to be compatible with ceiling de fl ection requirements as determined in Section 13.5.6 for suspended ceilings and elsewhere in this section for other systems.",
+      "rule": "13.5.8.1 General",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-13.5.8.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-13.5.8.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 13,
+      "section": "13.5.8.1",
+      "citation": "Section 13.5.8.1",
+      "page": 9
+    },
+    "title": "Partitions that are tied to the ceiling, and all partitions greater than 6 ft (1.8 m) high, shall be laterally braced to the building structure. Such bracing shall be independent of any ceiling latera",
+    "description": "",
+    "data": {
+      "rule": "Partitions that are tied to the ceiling, and all partitions greater than 6 ft (1.8 m) high, shall be laterally braced to the building structure. Such bracing shall be independent of any ceiling lateral force bracing. Bracing shall be spaced to limit horizontal de fl ection at the partition head, to be compatible with ceiling de fl ection requirements as determined in Section 13.5.6 for suspended ceilings and elsewhere in this section for other systems.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -6406,9 +7387,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-13.5.8.1-X1",
@@ -6438,7 +7418,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-13.5.8.1-T1",
+    "id": "ASCE7-22-13.5.8.1-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -6465,7 +7445,7 @@
     "parent_id": "ASCE7-22-13.5.8.1-H1"
   },
   {
-    "id": "ASCE7-22-13.5.8.1-T2",
+    "id": "ASCE7-22-13.5.8.1-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -6492,7 +7472,7 @@
     "parent_id": "ASCE7-22-13.5.8.1-H1"
   },
   {
-    "id": "ASCE7-22-13.5.8.1-T3",
+    "id": "ASCE7-22-13.5.8.1-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -6528,10 +7508,38 @@
       "citation": "Section 13.5.8.2",
       "page": 9
     },
-    "title": "13.5.8.2 Glass Glass in glazed partitions shall be designed and installed in accordance with Section 13.5.9.",
+    "title": "13.5.8.2 Glass",
     "description": "",
     "data": {
-      "rule": "13.5.8.2 Glass Glass in glazed partitions shall be designed and installed in accordance with Section 13.5.9.",
+      "rule": "13.5.8.2 Glass",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-13.5.8.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-13.5.8.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 13,
+      "section": "13.5.8.2",
+      "citation": "Section 13.5.8.2",
+      "page": 9
+    },
+    "title": "Glass in glazed partitions shall be designed and installed in accordance with Section 13.5.9.",
+    "description": "",
+    "data": {
+      "rule": "Glass in glazed partitions shall be designed and installed in accordance with Section 13.5.9.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -6543,9 +7551,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-13.5.9-H1",
@@ -6557,7 +7564,7 @@
       "citation": "Section 13.5.9",
       "page": 9
     },
-    "title": "13.5.9 Glass in Glazed Curtain Walls, Glazed Storefronts, and Glazed Partitions",
+    "title": "13.5.9 Glass in Glazed Curtain Walls, Glazed Storefronts,",
     "description": "",
     "data": {
       "rule": "13.5.9 Glass in Glazed Curtain Walls, Glazed Storefronts, and Glazed Partitions",
@@ -6944,10 +7951,10 @@
       "citation": "Section 13.5.9.2",
       "page": 10
     },
-    "title": "13.5.9.2 Seismic Drift Limits for Glass Components \u0394 fallout , the drift causing glass fallout from the curtain wall, storefront, or partition, shall be determined in accordance with AAMA 501.6 or by ",
+    "title": "13.5.9.2 Seismic Drift Limits for Glass Components",
     "description": "",
     "data": {
-      "rule": "13.5.9.2 Seismic Drift Limits for Glass Components \u0394 fallout , the drift causing glass fallout from the curtain wall, storefront, or partition, shall be determined in accordance with AAMA 501.6 or by engineering analysis.",
+      "rule": "13.5.9.2 Seismic Drift Limits for Glass Components",
       "conditions": [],
       "then": "",
       "else": null,
@@ -6962,6 +7969,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-13.5.9.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-13.5.9.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 13,
+      "section": "13.5.9.2",
+      "citation": "Section 13.5.9.2",
+      "page": 10
+    },
+    "title": "\u0394 fallout , the drift causing glass fallout from the curtain wall, storefront, or partition, shall be determined in accordance with AAMA 501.6 or by engineering analysis.",
+    "description": "",
+    "data": {
+      "rule": "\u0394 fallout , the drift causing glass fallout from the curtain wall, storefront, or partition, shall be determined in accordance with AAMA 501.6 or by engineering analysis.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-13.5.10-H1",
     "type": "heading",
     "source": {
@@ -6971,10 +8005,38 @@
       "citation": "Section 13.5.10",
       "page": 10
     },
-    "title": "13.5.10 Egress Stairs and Ramps Egress stairs and ramps not part of the seismic force-resisting system (SFRS) of the structure to which they are attached shall be detailed to accommodate the seismic r",
+    "title": "13.5.10 Egress Stairs and Ramps",
     "description": "",
     "data": {
-      "rule": "13.5.10 Egress Stairs and Ramps Egress stairs and ramps not part of the seismic force-resisting system (SFRS) of the structure to which they are attached shall be detailed to accommodate the seismic relative displacements, DpI , de fi ned in Section 13.3.2, including diaphragm deformation. The net relative displacement shall be assumed to occur in any horizontal direction. Such elements shall be supported by means of positive and direct structural supports or by mechanical connections and fasteners in accordance with the following requirements:",
+      "rule": "13.5.10 Egress Stairs and Ramps",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-13.5.10-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-13.5.10-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 13,
+      "section": "13.5.10",
+      "citation": "Section 13.5.10",
+      "page": 10
+    },
+    "title": "Egress stairs and ramps not part of the seismic force-resisting system (SFRS) of the structure to which they are attached shall be detailed to accommodate the seismic relative displacements, DpI , de ",
+    "description": "",
+    "data": {
+      "rule": "Egress stairs and ramps not part of the seismic force-resisting system (SFRS) of the structure to which they are attached shall be detailed to accommodate the seismic relative displacements, DpI , de fi ned in Section 13.3.2, including diaphragm deformation. The net relative displacement shall be assumed to occur in any horizontal direction. Such elements shall be supported by means of positive and direct structural supports or by mechanical connections and fasteners in accordance with the following requirements:",
       "conditions": [],
       "then": "",
       "else": null,
@@ -6986,9 +8048,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-13.5.10-P1",
@@ -7159,10 +8220,38 @@
       "citation": "Section 13.5.11",
       "page": 10
     },
-    "title": "13.5.11 Penthouses and Rooftop Structures Penthouses and rooftop structures shall be designed in accordance with this section. The horizontal seismic design force, Fp , shall be determined in accordan",
+    "title": "13.5.11 Penthouses and Rooftop Structures",
     "description": "",
     "data": {
-      "rule": "13.5.11 Penthouses and Rooftop Structures Penthouses and rooftop structures shall be designed in accordance with this section. The horizontal seismic design force, Fp , shall be determined in accordance with Section 13.3.1, using the design coef fi cients listed in Table 13.5-1.",
+      "rule": "13.5.11 Penthouses and Rooftop Structures",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-13.5.11-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-13.5.11-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 13,
+      "section": "13.5.11",
+      "citation": "Section 13.5.11",
+      "page": 10
+    },
+    "title": "Penthouses and rooftop structures shall be designed in accordance with this section. The horizontal seismic design force, Fp , shall be determined in accordance with Section 13.3.1, using the design c",
+    "description": "",
+    "data": {
+      "rule": "Penthouses and rooftop structures shall be designed in accordance with this section. The horizontal seismic design force, Fp , shall be determined in accordance with Section 13.3.1, using the design coef fi cients listed in Table 13.5-1.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -7175,9 +8264,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-13.5.11-X1",
@@ -7272,10 +8360,10 @@
       "citation": "Section 13.6",
       "page": 10
     },
-    "title": "13.6 MECHANICAL AND ELECTRICAL COMPONENTS",
+    "title": "13.6",
     "description": "",
     "data": {
-      "rule": "13.6 MECHANICAL AND ELECTRICAL COMPONENTS",
+      "rule": "13.6",
       "conditions": [],
       "then": "",
       "else": null,
@@ -7290,6 +8378,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-13.6-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-13.6-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 13,
+      "section": "13.6",
+      "citation": "Section 13.6",
+      "page": 10
+    },
+    "title": "MECHANICAL AND ELECTRICAL COMPONENTS",
+    "description": "",
+    "data": {
+      "rule": "MECHANICAL AND ELECTRICAL COMPONENTS",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-13.6.1-H1",
     "type": "heading",
     "source": {
@@ -7299,10 +8414,38 @@
       "citation": "Section 13.6.1",
       "page": 10
     },
-    "title": "13.6.1 General Mechanical and electrical components and their supports shall satisfy the requirements of this section. The attachment of mechanical and electrical components and their supports to the ",
+    "title": "13.6.1 General",
     "description": "",
     "data": {
-      "rule": "13.6.1 General Mechanical and electrical components and their supports shall satisfy the requirements of this section. The attachment of mechanical and electrical components and their supports to the structure shall meet the requirements of Section 13.4. Appropriate coef fi cients shall be selected from Table 13.6-1.",
+      "rule": "13.6.1 General",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-13.6.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-13.6.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 13,
+      "section": "13.6.1",
+      "citation": "Section 13.6.1",
+      "page": 10
+    },
+    "title": "Mechanical and electrical components and their supports shall satisfy the requirements of this section. The attachment of mechanical and electrical components and their supports to the structure shall",
+    "description": "",
+    "data": {
+      "rule": "Mechanical and electrical components and their supports shall satisfy the requirements of this section. The attachment of mechanical and electrical components and their supports to the structure shall meet the requirements of Section 13.4. Appropriate coef fi cients shall be selected from Table 13.6-1.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -7315,9 +8458,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-13.6.1-X1",
@@ -7374,7 +8516,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-13.6.1-T1",
+    "id": "ASCE7-22-13.6.1-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -7735,7 +8877,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-13.6.1-T3",
+    "id": "ASCE7-22-13.6.1-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -7883,10 +9025,38 @@
       "citation": "Section 13.6.2",
       "page": 12
     },
-    "title": "13.6.2 Mechanical Components HVACRductwork shall meet the requirements of Section 13.6.6. Piping systems shall meet the requirements of Section 13.6.7. Boilers and vessels shall meet the requirements ",
+    "title": "13.6.2 Mechanical Components",
     "description": "",
     "data": {
-      "rule": "13.6.2 Mechanical Components HVACRductwork shall meet the requirements of Section 13.6.6. Piping systems shall meet the requirements of Section 13.6.7. Boilers and vessels shall meet the requirements of Section 13.6.10. Elevators shall meet the requirements of Section 13.6.11. All other mechanical components shall meet the requirements of Section 13.6.13. Mechanical components with I p greater than 1.0 shall be designed for the seismic forces and relative displacements de fi ned in Sections 13.3.1 and 13.3.2 and shall satisfy the following additional requirements:",
+      "rule": "13.6.2 Mechanical Components",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-13.6.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-13.6.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 13,
+      "section": "13.6.2",
+      "citation": "Section 13.6.2",
+      "page": 12
+    },
+    "title": "HVACRductwork shall meet the requirements of Section 13.6.6. Piping systems shall meet the requirements of Section 13.6.7. Boilers and vessels shall meet the requirements of Section 13.6.10. Elevators",
+    "description": "",
+    "data": {
+      "rule": "HVACRductwork shall meet the requirements of Section 13.6.6. Piping systems shall meet the requirements of Section 13.6.7. Boilers and vessels shall meet the requirements of Section 13.6.10. Elevators shall meet the requirements of Section 13.6.11. All other mechanical components shall meet the requirements of Section 13.6.13. Mechanical components with I p greater than 1.0 shall be designed for the seismic forces and relative displacements de fi ned in Sections 13.3.1 and 13.3.2 and shall satisfy the following additional requirements:",
       "conditions": [],
       "then": "",
       "else": null,
@@ -7902,9 +9072,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-13.6.2-P1",
@@ -8199,10 +9368,38 @@
       "citation": "Section 13.6.3",
       "page": 12
     },
-    "title": "13.6.3 Electrical Components Conduit, cable trays, and raceways shall meet the requirements of Section 13.6.5. Utility and service lines shall meet the requirements of Section 13.6.9. Other electrical",
+    "title": "13.6.3 Electrical",
     "description": "",
     "data": {
-      "rule": "13.6.3 Electrical Components Conduit, cable trays, and raceways shall meet the requirements of Section 13.6.5. Utility and service lines shall meet the requirements of Section 13.6.9. Other electrical components shall meet the requirements of Section 13.6.13. All electrical components with I p greater than 1.0 shall be designed for the seismic forces and relative displacements de fi ned in Sections 13.3.1 and 13.3.2 and shall satisfy the following additional requirements:",
+      "rule": "13.6.3 Electrical",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-13.6.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-13.6.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 13,
+      "section": "13.6.3",
+      "citation": "Section 13.6.3",
+      "page": 12
+    },
+    "title": "Components Conduit, cable trays, and raceways shall meet the requirements of Section 13.6.5. Utility and service lines shall meet the requirements of Section 13.6.9. Other electrical components shall ",
+    "description": "",
+    "data": {
+      "rule": "Components Conduit, cable trays, and raceways shall meet the requirements of Section 13.6.5. Utility and service lines shall meet the requirements of Section 13.6.9. Other electrical components shall meet the requirements of Section 13.6.13. All electrical components with I p greater than 1.0 shall be designed for the seismic forces and relative displacements de fi ned in Sections 13.3.1 and 13.3.2 and shall satisfy the following additional requirements:",
       "conditions": [],
       "then": "",
       "else": null,
@@ -8216,9 +9413,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-13.6.3-P1",
@@ -8448,10 +9644,10 @@
       "citation": "Section 13.6.4",
       "page": 13
     },
-    "title": "13.6.4 Component Supports Mechanical and electrical component supports (including those with I p = 1.0) and the means by which they are attached to the component shall be designed for the forces and d",
+    "title": "13.6.4 Component",
     "description": "",
     "data": {
-      "rule": "13.6.4 Component Supports Mechanical and electrical component supports (including those with I p = 1.0) and the means by which they are attached to the component shall be designed for the forces and displacements determined in Sections 13.3.1 and 13.3.2. Such supports include structural members, braces, frames, skirts, legs, saddles, pedestals, cables, guys, stays, snubbers, tethers, and elements forged or cast as a part of the mechanical or electrical component.",
+      "rule": "13.6.4 Component",
       "conditions": [],
       "then": "",
       "else": null,
@@ -8464,6 +9660,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-13.6.4-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-13.6.4-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 13,
+      "section": "13.6.4",
+      "citation": "Section 13.6.4",
+      "page": 13
+    },
+    "title": "Supports Mechanical and electrical component supports (including those with I p = 1.0) and the means by which they are attached to the component shall be designed for the forces and displacements dete",
+    "description": "",
+    "data": {
+      "rule": "Supports Mechanical and electrical component supports (including those with I p = 1.0) and the means by which they are attached to the component shall be designed for the forces and displacements determined in Sections 13.3.1 and 13.3.2. Such supports include structural members, braces, frames, skirts, legs, saddles, pedestals, cables, guys, stays, snubbers, tethers, and elements forged or cast as a part of the mechanical or electrical component.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-13.6.4.1-H1",
@@ -8475,10 +9698,10 @@
       "citation": "Section 13.6.4.1",
       "page": 13
     },
-    "title": "13.6.4.1 Design Basis If standard supports designed in accordance with nationally recognized standards such as ASME B31, NFPA 13, or MSS SP-58 are used, they shall be designed by either load rating (i",
+    "title": "13.6.4.1 Design",
     "description": "",
     "data": {
-      "rule": "13.6.4.1 Design Basis If standard supports designed in accordance with nationally recognized standards such as ASME B31, NFPA 13, or MSS SP-58 are used, they shall be designed by either load rating (i.e., testing) or for the calculated seismic forces. If proprietary supports are used, load rating shall be determined by approved test standards or approved materialspeci fi c design procedures. The stiffness of the support, where appropriate, shall be designed such that the seismic load path for the component performs its intended function.",
+      "rule": "13.6.4.1 Design",
       "conditions": [],
       "then": "",
       "else": null,
@@ -8491,6 +9714,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-13.6.4.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-13.6.4.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 13,
+      "section": "13.6.4.1",
+      "citation": "Section 13.6.4.1",
+      "page": 13
+    },
+    "title": "Basis If standard supports designed in accordance with nationally recognized standards such as ASME B31, NFPA 13, or MSS SP-58 are used, they shall be designed by either load rating (i.e., testing) or",
+    "description": "",
+    "data": {
+      "rule": "Basis If standard supports designed in accordance with nationally recognized standards such as ASME B31, NFPA 13, or MSS SP-58 are used, they shall be designed by either load rating (i.e., testing) or for the calculated seismic forces. If proprietary supports are used, load rating shall be determined by approved test standards or approved materialspeci fi c design procedures. The stiffness of the support, where appropriate, shall be designed such that the seismic load path for the component performs its intended function.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-13.6.4.2-H1",
@@ -8502,39 +9752,10 @@
       "citation": "Section 13.6.4.2",
       "page": 13
     },
-    "title": "13.6.4.2 Design for Relative Displacement Component supports shall be designed to accommodate the seismic relative displacements between points of support determined in accordance with Section 13.3.2.",
+    "title": "13.6.4.2 Design",
     "description": "",
     "data": {
-      "rule": "13.6.4.2 Design for Relative Displacement Component supports shall be designed to accommodate the seismic relative displacements between points of support determined in accordance with Section 13.3.2.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [
-      "ASCE7-22-13.3.2-H1"
-    ],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-13.6.4.3-H1",
-    "type": "heading",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 13,
-      "section": "13.6.4.3",
-      "citation": "Section 13.6.4.3",
-      "page": 13
-    },
-    "title": "13.6.4.3 Support Attachment to Component The means by which supports are attached to the component, except where integral (i.e., cast or forged), shall be designed to accommodate both the forces and d",
-    "description": "",
-    "data": {
-      "rule": "13.6.4.3 Support Attachment to Component The means by which supports are attached to the component, except where integral (i.e., cast or forged), shall be designed to accommodate both the forces and displacements determined in accordance with Sections 13.3.1 and 13.3.2. If I p = 1.5 for the component, the local region of the support attachment point to the component shall be evaluated for the effect of the load transfer on the component wall.",
+      "rule": "13.6.4.2 Design",
       "conditions": [],
       "then": "",
       "else": null,
@@ -8547,6 +9768,89 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-13.6.4.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-13.6.4.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 13,
+      "section": "13.6.4.2",
+      "citation": "Section 13.6.4.2",
+      "page": 13
+    },
+    "title": "for Relative Displacement Component supports shall be designed to accommodate the seismic relative displacements between points of support determined in accordance with Section 13.3.2.",
+    "description": "",
+    "data": {
+      "rule": "for Relative Displacement Component supports shall be designed to accommodate the seismic relative displacements between points of support determined in accordance with Section 13.3.2.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-13.3.2-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-13.6.4.3-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 13,
+      "section": "13.6.4.3",
+      "citation": "Section 13.6.4.3",
+      "page": 13
+    },
+    "title": "13.6.4.3 Support Attachment to Component",
+    "description": "",
+    "data": {
+      "rule": "13.6.4.3 Support Attachment to Component",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-13.6.4.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-13.6.4.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 13,
+      "section": "13.6.4.3",
+      "citation": "Section 13.6.4.3",
+      "page": 13
+    },
+    "title": "The means by which supports are attached to the component, except where integral (i.e., cast or forged), shall be designed to accommodate both the forces and displacements determined in accordance wit",
+    "description": "",
+    "data": {
+      "rule": "The means by which supports are attached to the component, except where integral (i.e., cast or forged), shall be designed to accommodate both the forces and displacements determined in accordance with Sections 13.3.1 and 13.3.2. If I p = 1.5 for the component, the local region of the support attachment point to the component shall be evaluated for the effect of the load transfer on the component wall.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-13.6.4.4-P1",
@@ -8585,10 +9889,10 @@
       "citation": "Section 13.6.4.5",
       "page": 13
     },
-    "title": "13.6.4.5 Additional Requirements The following additional requirements shall apply to mechanical and electrical component supports:",
+    "title": "13.6.4.5 Additional",
     "description": "",
     "data": {
-      "rule": "13.6.4.5 Additional Requirements The following additional requirements shall apply to mechanical and electrical component supports:",
+      "rule": "13.6.4.5 Additional",
       "conditions": [],
       "then": "",
       "else": null,
@@ -8601,6 +9905,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-13.6.4.5-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-13.6.4.5-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 13,
+      "section": "13.6.4.5",
+      "citation": "Section 13.6.4.5",
+      "page": 13
+    },
+    "title": "Requirements The following additional requirements shall apply to mechanical and electrical component supports:",
+    "description": "",
+    "data": {
+      "rule": "Requirements The following additional requirements shall apply to mechanical and electrical component supports:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-13.6.4.5-P1",
@@ -8781,7 +10112,7 @@
       "citation": "Section 13.6.4.6",
       "page": 13
     },
-    "title": "EXCEPTION : Equipment support structures and platforms designed using the coef fi cients for Other Systems in Table 13.6-1, under Equipment Supports, and which also conform to the requirements of rele",
+    "title": "EXCEPTION : Equipment support structures and platforms designed using the coef fi cients for Other Systems in Table 13.6-1, under Equipment Supports, and which also conform to the requirements of relevant material standards, need not conform to one of the types indicated in Table 12.2-1 or Table 15.4-1.",
     "description": "",
     "data": {
       "rule": "EXCEPTION : Equipment support structures and platforms designed using the coef fi cients for Other Systems in Table 13.6-1, under Equipment Supports, and which also conform to the requirements of relevant material standards, need not conform to one of the types indicated in Table 12.2-1 or Table 15.4-1.",
@@ -8862,10 +10193,38 @@
       "citation": "Section 13.6.4.7",
       "page": 13
     },
-    "title": "13.6.4.7 Distribution System Supports Distribution system supports are assigned a component resonance ductility factor from Table 13.6-1, based on the type of support system.",
+    "title": "13.6.4.7 Distribution",
     "description": "",
     "data": {
-      "rule": "13.6.4.7 Distribution System Supports Distribution system supports are assigned a component resonance ductility factor from Table 13.6-1, based on the type of support system.",
+      "rule": "13.6.4.7 Distribution",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-13.6.4.7-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-13.6.4.7-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 13,
+      "section": "13.6.4.7",
+      "citation": "Section 13.6.4.7",
+      "page": 13
+    },
+    "title": "System Supports Distribution system supports are assigned a component resonance ductility factor from Table 13.6-1, based on the type of support system.",
+    "description": "",
+    "data": {
+      "rule": "System Supports Distribution system supports are assigned a component resonance ductility factor from Table 13.6-1, based on the type of support system.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -8877,9 +10236,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-13.6.4.7-P1",
@@ -9224,10 +10582,38 @@
       "citation": "Section 13.6.6",
       "page": 14
     },
-    "title": "13.6.6 Distribution Systems: Duct Systems HVACR and other duct systems shall be designed for seismic forces and seismic relative displacements as required in Section 13.3.",
+    "title": "13.6.6 Distribution Systems: Duct Systems",
     "description": "",
     "data": {
-      "rule": "13.6.6 Distribution Systems: Duct Systems HVACR and other duct systems shall be designed for seismic forces and seismic relative displacements as required in Section 13.3.",
+      "rule": "13.6.6 Distribution Systems: Duct Systems",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-13.6.6-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-13.6.6-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 13,
+      "section": "13.6.6",
+      "citation": "Section 13.6.6",
+      "page": 14
+    },
+    "title": "HVACR and other duct systems shall be designed for seismic forces and seismic relative displacements as required in Section 13.3.",
+    "description": "",
+    "data": {
+      "rule": "HVACR and other duct systems shall be designed for seismic forces and seismic relative displacements as required in Section 13.3.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -9239,9 +10625,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-13.6.6-X1",
@@ -9307,7 +10692,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-13.6.6-T1",
+    "id": "ASCE7-22-13.6.6-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -9334,7 +10719,7 @@
     "parent_id": "ASCE7-22-13.6.6-H1"
   },
   {
-    "id": "ASCE7-22-13.6.6-T2",
+    "id": "ASCE7-22-13.6.6-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -9361,7 +10746,7 @@
     "parent_id": "ASCE7-22-13.6.6-H1"
   },
   {
-    "id": "ASCE7-22-13.6.6-T3",
+    "id": "ASCE7-22-13.6.6-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -9388,7 +10773,7 @@
     "parent_id": "ASCE7-22-13.6.6-H1"
   },
   {
-    "id": "ASCE7-22-13.6.6-T4",
+    "id": "ASCE7-22-13.6.6-T5",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -9497,10 +10882,38 @@
       "citation": "Section 13.6.7",
       "page": 14
     },
-    "title": "13.6.7 Distribution Systems: Piping and Tubing Systems Unless otherwise noted in this section, piping and tubing systems shall be designed for the seismic forces and seismic relative displacements of ",
+    "title": "13.6.7 Distribution",
     "description": "",
     "data": {
-      "rule": "13.6.7 Distribution Systems: Piping and Tubing Systems Unless otherwise noted in this section, piping and tubing systems shall be designed for the seismic forces and seismic relative displacements of Section 13.3. ASME pressure piping systems shall satisfy the requirements of Section 13.6.7.1. Fire protection sprinkler piping shall satisfy the requirements of Section 13.6.7.2. Elevator system piping shall satisfy the requirements of Section 13.6.11.",
+      "rule": "13.6.7 Distribution",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-13.6.7-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-13.6.7-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 13,
+      "section": "13.6.7",
+      "citation": "Section 13.6.7",
+      "page": 14
+    },
+    "title": "Systems: Piping and Tubing Systems Unless otherwise noted in this section, piping and tubing systems shall be designed for the seismic forces and seismic relative displacements of Section 13.3. ASME p",
+    "description": "",
+    "data": {
+      "rule": "Systems: Piping and Tubing Systems Unless otherwise noted in this section, piping and tubing systems shall be designed for the seismic forces and seismic relative displacements of Section 13.3. ASME pressure piping systems shall satisfy the requirements of Section 13.6.7.1. Fire protection sprinkler piping shall satisfy the requirements of Section 13.6.7.2. Elevator system piping shall satisfy the requirements of Section 13.6.11.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -9515,9 +10928,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-13.6.7-P1",
@@ -9547,7 +10959,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-13.6.7-T1",
+    "id": "ASCE7-22-13.6.7-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -9574,7 +10986,7 @@
     "parent_id": "ASCE7-22-13.6.7-H1"
   },
   {
-    "id": "ASCE7-22-13.6.7-T2",
+    "id": "ASCE7-22-13.6.7-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -9601,7 +11013,7 @@
     "parent_id": "ASCE7-22-13.6.7-H1"
   },
   {
-    "id": "ASCE7-22-13.6.7-T3",
+    "id": "ASCE7-22-13.6.7-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -9628,7 +11040,7 @@
     "parent_id": "ASCE7-22-13.6.7-H1"
   },
   {
-    "id": "ASCE7-22-13.6.7-T4",
+    "id": "ASCE7-22-13.6.7-T5",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -9718,10 +11130,38 @@
       "citation": "Section 13.6.7.1",
       "page": 15
     },
-    "title": "13.6.7.1 ASME Pressure Piping Systems Pressure piping systems, including their supports, designed and constructed in accordance with ASME B31 shall be deemed to meet the force, displacement, and other",
+    "title": "13.6.7.1 ASME Pressure Piping Systems",
     "description": "",
     "data": {
-      "rule": "13.6.7.1 ASME Pressure Piping Systems Pressure piping systems, including their supports, designed and constructed in accordance with ASME B31 shall be deemed to meet the force, displacement, and other requirements of this section. In lieu of speci fi c force and displacement requirements in ASME B31, the force and displacement requirements of Section 13.3 shall be used. Materials meeting the toughness requirements of ASME B31 shall be considered high-deformability materials.",
+      "rule": "13.6.7.1 ASME Pressure Piping Systems",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-13.6.7.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-13.6.7.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 13,
+      "section": "13.6.7.1",
+      "citation": "Section 13.6.7.1",
+      "page": 15
+    },
+    "title": "Pressure piping systems, including their supports, designed and constructed in accordance with ASME B31 shall be deemed to meet the force, displacement, and other requirements of this section. In lieu",
+    "description": "",
+    "data": {
+      "rule": "Pressure piping systems, including their supports, designed and constructed in accordance with ASME B31 shall be deemed to meet the force, displacement, and other requirements of this section. In lieu of speci fi c force and displacement requirements in ASME B31, the force and displacement requirements of Section 13.3 shall be used. Materials meeting the toughness requirements of ASME B31 shall be considered high-deformability materials.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -9733,9 +11173,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-13.6.7.2-H1",
@@ -9747,10 +11186,38 @@
       "citation": "Section 13.6.7.2",
       "page": 15
     },
-    "title": "13.6.7.2 Fire Protection Sprinkler Piping Systems Fire protection sprinkler piping, pipe hangers, and bracing designed and constructed in accordance with NFPA 13 shall be deemed to meet the force and ",
+    "title": "13.6.7.2 Fire",
     "description": "",
     "data": {
-      "rule": "13.6.7.2 Fire Protection Sprinkler Piping Systems Fire protection sprinkler piping, pipe hangers, and bracing designed and constructed in accordance with NFPA 13 shall be deemed to meet the force and displacement requirements of this section. Clearances for sprinkler drops and sprigs and other equipment shall conform to 13.2.4.1. The exceptions of Section 13.6.7.3 shall not apply.",
+      "rule": "13.6.7.2 Fire",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-13.6.7.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-13.6.7.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 13,
+      "section": "13.6.7.2",
+      "citation": "Section 13.6.7.2",
+      "page": 15
+    },
+    "title": "Protection Sprinkler Piping Systems Fire protection sprinkler piping, pipe hangers, and bracing designed and constructed in accordance with NFPA 13 shall be deemed to meet the force and displacement r",
+    "description": "",
+    "data": {
+      "rule": "Protection Sprinkler Piping Systems Fire protection sprinkler piping, pipe hangers, and bracing designed and constructed in accordance with NFPA 13 shall be deemed to meet the force and displacement requirements of this section. Clearances for sprinkler drops and sprigs and other equipment shall conform to 13.2.4.1. The exceptions of Section 13.6.7.3 shall not apply.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -9762,9 +11229,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-13.6.7.3-P1",
@@ -10096,10 +11562,10 @@
       "citation": "Section 13.6.8",
       "page": 15
     },
-    "title": "13.6.8 Distribution Systems: Trapezes with a Combination of Systems Trapezes that support a combination of distribution systems (electrical conduit, raceway, duct, piping, etc.) shall be designed usin",
+    "title": "13.6.8 Distribution Systems: Trapezes with a Combination",
     "description": "",
     "data": {
-      "rule": "13.6.8 Distribution Systems: Trapezes with a Combination of Systems Trapezes that support a combination of distribution systems (electrical conduit, raceway, duct, piping, etc.) shall be designed using the most restrictive requirements for the supported distribution systems from Sections 13.6.5 through 13.6.7 for the aggregate weight of the supported system. If any distribution system on the trapeze is not exempted, the trapeze shall be braced.",
+      "rule": "13.6.8 Distribution Systems: Trapezes with a Combination",
       "conditions": [],
       "then": "",
       "else": null,
@@ -10114,6 +11580,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-13.6.8-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-13.6.8-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 13,
+      "section": "13.6.8",
+      "citation": "Section 13.6.8",
+      "page": 15
+    },
+    "title": "of Systems Trapezes that support a combination of distribution systems (electrical conduit, raceway, duct, piping, etc.) shall be designed using the most restrictive requirements for the supported dis",
+    "description": "",
+    "data": {
+      "rule": "of Systems Trapezes that support a combination of distribution systems (electrical conduit, raceway, duct, piping, etc.) shall be designed using the most restrictive requirements for the supported distribution systems from Sections 13.6.5 through 13.6.7 for the aggregate weight of the supported system. If any distribution system on the trapeze is not exempted, the trapeze shall be braced.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-13.6.9-H1",
     "type": "heading",
     "source": {
@@ -10123,10 +11616,38 @@
       "citation": "Section 13.6.9",
       "page": 15
     },
-    "title": "13.6.9 Utility and Service Lines At the interface of adjacent structures or portions of the same structure that may move independently, utility lines shall be provided with adequate fl exibility to ac",
+    "title": "13.6.9 Utility and Service Lines",
     "description": "",
     "data": {
-      "rule": "13.6.9 Utility and Service Lines At the interface of adjacent structures or portions of the same structure that may move independently, utility lines shall be provided with adequate fl exibility to accommodate the anticipated differential movement between the portions that move independently. Differential displacement shall be calculated in accordance with Section 13.3.2.",
+      "rule": "13.6.9 Utility and Service Lines",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-13.6.9-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-13.6.9-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 13,
+      "section": "13.6.9",
+      "citation": "Section 13.6.9",
+      "page": 15
+    },
+    "title": "At the interface of adjacent structures or portions of the same structure that may move independently, utility lines shall be provided with adequate fl exibility to accommodate the anticipated differe",
+    "description": "",
+    "data": {
+      "rule": "At the interface of adjacent structures or portions of the same structure that may move independently, utility lines shall be provided with adequate fl exibility to accommodate the anticipated differential movement between the portions that move independently. Differential displacement shall be calculated in accordance with Section 13.3.2.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -10138,9 +11659,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-13.6.9-P1",
@@ -10261,10 +11781,38 @@
       "citation": "Section 13.6.11",
       "page": 16
     },
-    "title": "13.6.11 Elevator and Escalator Design Requirements Elevators and escalators designed in accordance with the seismic requirements of ASME A17.1 shall be deemed to meet the seismic force requirements of",
+    "title": "13.6.11 Elevator",
     "description": "",
     "data": {
-      "rule": "13.6.11 Elevator and Escalator Design Requirements Elevators and escalators designed in accordance with the seismic requirements of ASME A17.1 shall be deemed to meet the seismic force requirements of this section, except as modi fi ed in the following text. The exceptions of Section 13.6.7.3 shall not apply to elevator piping.",
+      "rule": "13.6.11 Elevator",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-13.6.11-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-13.6.11-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 13,
+      "section": "13.6.11",
+      "citation": "Section 13.6.11",
+      "page": 16
+    },
+    "title": "and Escalator Design Requirements Elevators and escalators designed in accordance with the seismic requirements of ASME A17.1 shall be deemed to meet the seismic force requirements of this section, ex",
+    "description": "",
+    "data": {
+      "rule": "and Escalator Design Requirements Elevators and escalators designed in accordance with the seismic requirements of ASME A17.1 shall be deemed to meet the seismic force requirements of this section, except as modi fi ed in the following text. The exceptions of Section 13.6.7.3 shall not apply to elevator piping.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -10276,9 +11824,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-13.6.11.1-P1",
@@ -10344,10 +11891,10 @@
       "citation": "Section 13.6.11.3",
       "page": 16
     },
-    "title": "13.6.11.3 Seismic Controls for Elevators Elevators operating with a speed of 150 ft/min (46 m/min) or greater shall be provided with seismic switches. Seismic switches shall provide an electric signal",
+    "title": "13.6.11.3 Seismic Controls for Elevators",
     "description": "",
     "data": {
-      "rule": "13.6.11.3 Seismic Controls for Elevators Elevators operating with a speed of 150 ft/min (46 m/min) or greater shall be provided with seismic switches. Seismic switches shall provide an electric signal indicating that structural motions are of such a magnitude that the operation of the elevators may be impaired. Seismic switches in accordance with Section 8.4.10.1.2 of ASME A17.1 shall be deemed to meet the requirements of this section.",
+      "rule": "13.6.11.3 Seismic Controls for Elevators",
       "conditions": [],
       "then": "",
       "else": null,
@@ -10360,6 +11907,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-13.6.11.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-13.6.11.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 13,
+      "section": "13.6.11.3",
+      "citation": "Section 13.6.11.3",
+      "page": 16
+    },
+    "title": "Elevators operating with a speed of 150 ft/min (46 m/min) or greater shall be provided with seismic switches. Seismic switches shall provide an electric signal indicating that structural motions are o",
+    "description": "",
+    "data": {
+      "rule": "Elevators operating with a speed of 150 ft/min (46 m/min) or greater shall be provided with seismic switches. Seismic switches shall provide an electric signal indicating that structural motions are of such a magnitude that the operation of the elevators may be impaired. Seismic switches in accordance with Section 8.4.10.1.2 of ASME A17.1 shall be deemed to meet the requirements of this section.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-13.6.11.3-X1",
@@ -10470,7 +12044,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-13.6.11.3-T1",
+    "id": "ASCE7-22-13.6.11.3-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -10506,10 +12080,10 @@
       "citation": "Section 13.6.11.4",
       "page": 16
     },
-    "title": "13.6.11.4 Retainer Plates Retainer plates are required at the top and bottom of the car and counterweight.",
+    "title": "13.6.11.4 Retainer Plates",
     "description": "",
     "data": {
-      "rule": "13.6.11.4 Retainer Plates Retainer plates are required at the top and bottom of the car and counterweight.",
+      "rule": "13.6.11.4 Retainer Plates",
       "conditions": [],
       "then": "",
       "else": null,
@@ -10524,6 +12098,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-13.6.11.4-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-13.6.11.4-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 13,
+      "section": "13.6.11.4",
+      "citation": "Section 13.6.11.4",
+      "page": 16
+    },
+    "title": "Retainer plates are required at the top and bottom of the car and counterweight.",
+    "description": "",
+    "data": {
+      "rule": "Retainer plates are required at the top and bottom of the car and counterweight.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-13.6.12-H1",
     "type": "heading",
     "source": {
@@ -10533,10 +12134,38 @@
       "citation": "Section 13.6.12",
       "page": 16
     },
-    "title": "13.6.12 Rooftop Solar Panels Rooftop solar panels and their attachments shall be designed for the forces and displacements determined in Section 13.3.",
+    "title": "13.6.12 Rooftop Solar Panels",
     "description": "",
     "data": {
-      "rule": "13.6.12 Rooftop Solar Panels Rooftop solar panels and their attachments shall be designed for the forces and displacements determined in Section 13.3.",
+      "rule": "13.6.12 Rooftop Solar Panels",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-13.6.12-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-13.6.12-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 13,
+      "section": "13.6.12",
+      "citation": "Section 13.6.12",
+      "page": 16
+    },
+    "title": "Rooftop solar panels and their attachments shall be designed for the forces and displacements determined in Section 13.3.",
+    "description": "",
+    "data": {
+      "rule": "Rooftop solar panels and their attachments shall be designed for the forces and displacements determined in Section 13.3.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -10548,9 +12177,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-13.6.12-X1",
@@ -10593,7 +12221,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-13.6.12-T1",
+    "id": "ASCE7-22-13.6.12-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -10620,7 +12248,7 @@
     "parent_id": "ASCE7-22-13.6.12-H1"
   },
   {
-    "id": "ASCE7-22-13.6.12-T2",
+    "id": "ASCE7-22-13.6.12-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -10714,7 +12342,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-13.6.12-T3",
+    "id": "ASCE7-22-13.6.12-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -10743,7 +12371,7 @@
     "parent_id": "ASCE7-22-13.6.12-H1"
   },
   {
-    "id": "ASCE7-22-13.6.12-T4",
+    "id": "ASCE7-22-13.6.12-T5",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -10770,7 +12398,7 @@
     "parent_id": "ASCE7-22-13.6.12-H1"
   },
   {
-    "id": "ASCE7-22-13.6.12-T5",
+    "id": "ASCE7-22-13.6.12-T6",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -10833,10 +12461,10 @@
       "citation": "Section 13.6.13",
       "page": 16
     },
-    "title": "13.6.13 Other Mechanical and Electrical Components Mechanical and electrical components, including conveyor",
+    "title": "13.6.13 Other",
     "description": "",
     "data": {
-      "rule": "13.6.13 Other Mechanical and Electrical Components Mechanical and electrical components, including conveyor",
+      "rule": "13.6.13 Other",
       "conditions": [],
       "then": "",
       "else": null,
@@ -10849,6 +12477,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-13.6.13-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-13.6.13-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 13,
+      "section": "13.6.13",
+      "citation": "Section 13.6.13",
+      "page": 16
+    },
+    "title": "Mechanical and Electrical Components Mechanical and electrical components, including conveyor",
+    "description": "",
+    "data": {
+      "rule": "Mechanical and Electrical Components Mechanical and electrical components, including conveyor",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-13.6-E13-6-11",
@@ -10963,7 +12618,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-13.6.13-T1",
+    "id": "ASCE7-22-13.6.13-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -10990,7 +12645,7 @@
     "parent_id": "ASCE7-22-13.6.13-H1"
   },
   {
-    "id": "ASCE7-22-13.6.13-T2",
+    "id": "ASCE7-22-13.6.13-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -11017,7 +12672,7 @@
     "parent_id": "ASCE7-22-13.6.13-H1"
   },
   {
-    "id": "ASCE7-22-13.6.13-T3",
+    "id": "ASCE7-22-13.6.13-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -11044,7 +12699,7 @@
     "parent_id": "ASCE7-22-13.6.13-H1"
   },
   {
-    "id": "ASCE7-22-13.6.13-T4",
+    "id": "ASCE7-22-13.6.13-T5",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -11080,10 +12735,10 @@
       "citation": "Section 13.7",
       "page": 17
     },
-    "title": "13.7 CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
+    "title": "13.7",
     "description": "",
     "data": {
-      "rule": "13.7 CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
+      "rule": "13.7",
       "conditions": [],
       "then": "",
       "else": null,
@@ -11096,6 +12751,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-13.7-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-13.7-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 13,
+      "section": "13.7",
+      "citation": "Section 13.7",
+      "page": 17
+    },
+    "title": "CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
+    "description": "",
+    "data": {
+      "rule": "CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-13.7-P1",
@@ -11125,7 +12807,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-13.7-T1",
+    "id": "ASCE7-22-13.7-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -11152,7 +12834,7 @@
     "parent_id": "ASCE7-22-13.7-H1"
   },
   {
-    "id": "ASCE7-22-13.7-T2",
+    "id": "ASCE7-22-13.7-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",

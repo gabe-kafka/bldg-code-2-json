@@ -23,7 +23,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.1.1-H1",
@@ -49,7 +50,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.1.1-P1",
@@ -82,7 +84,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.1.1-T1",
@@ -108,7 +111,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.1.1-H1"
   },
   {
     "id": "ASCE7-22-26.1.1-N1",
@@ -134,7 +138,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.1.2-H1",
@@ -162,7 +167,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.1.2-T1",
@@ -188,7 +194,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.1.2-H1"
   },
   {
     "id": "ASCE7-22-26.1.2.1-H1",
@@ -214,7 +221,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.1.2.1-T1",
@@ -240,7 +248,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.1.2.1-H2"
   },
   {
     "id": "ASCE7-22-26.1.2.1-T2",
@@ -266,7 +275,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.1.2.1-H2"
   },
   {
     "id": "ASCE7-22-26.1.2.1-T3",
@@ -292,7 +302,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.1.2.1-H2"
   },
   {
     "id": "ASCE7-22-26.1.2.1-T4",
@@ -318,7 +329,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.1.2.1-H2"
   },
   {
     "id": "ASCE7-22-26.1.2.1-H2",
@@ -344,7 +356,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.1.2.2-H1",
@@ -370,7 +383,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.1.2.2-T1",
@@ -396,7 +410,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.1.2.2-H1"
   },
   {
     "id": "ASCE7-22-26.1.2.2-T2",
@@ -422,11 +437,12 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.1.2.2-H1"
   },
   {
-    "id": "ASCE7-22-26.1.3-P1",
-    "type": "provision",
+    "id": "ASCE7-22-26.1.3-H1",
+    "type": "heading",
     "source": {
       "standard": "ASCE 7-22",
       "chapter": 26,
@@ -448,7 +464,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.2-H1",
@@ -474,7 +491,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.2-T1",
@@ -500,7 +518,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.2-H1"
   },
   {
     "id": "ASCE7-22-26.2-D1",
@@ -523,7 +542,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.2-D2",
@@ -546,11 +566,12 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
-    "id": "ASCE7-22-26.2-T2",
-    "type": "text_block",
+    "id": "ASCE7-22-26.2-N1",
+    "type": "user_note",
     "source": {
       "standard": "ASCE 7-22",
       "chapter": 26,
@@ -572,7 +593,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.2-D3",
@@ -595,7 +617,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.2-D4",
@@ -621,7 +644,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.2-D5",
@@ -644,7 +668,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.2-D6",
@@ -667,10 +692,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
-    "id": "ASCE7-22-26.2-T3",
+    "id": "ASCE7-22-26.2-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -693,10 +719,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.2-H1"
   },
   {
-    "id": "ASCE7-22-26.2-T4",
+    "id": "ASCE7-22-26.2-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -719,10 +746,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.2-H1"
   },
   {
-    "id": "ASCE7-22-26.2-T5",
+    "id": "ASCE7-22-26.2-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -745,10 +773,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.2-H1"
   },
   {
-    "id": "ASCE7-22-26.2-T6",
+    "id": "ASCE7-22-26.2-T5",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -773,10 +802,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.1-F26-1-11"
   },
   {
-    "id": "ASCE7-22-26.2-T7",
+    "id": "ASCE7-22-26.2-T6",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -799,10 +829,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.2-H1"
   },
   {
-    "id": "ASCE7-22-26.2-T8",
+    "id": "ASCE7-22-26.2-T7",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -825,10 +856,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.2-H1"
   },
   {
-    "id": "ASCE7-22-26.2-T9",
+    "id": "ASCE7-22-26.2-T8",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -851,10 +883,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.2-H1"
   },
   {
-    "id": "ASCE7-22-26.2-T11",
+    "id": "ASCE7-22-26.2-T10",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -880,10 +913,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.2-H1"
   },
   {
-    "id": "ASCE7-22-26.2-T15",
+    "id": "ASCE7-22-26.2-T14",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -908,10 +942,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.2-H1"
   },
   {
-    "id": "ASCE7-22-26.2-T19",
+    "id": "ASCE7-22-26.2-T18",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -936,10 +971,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.2-H1"
   },
   {
-    "id": "ASCE7-22-26.2-T20",
+    "id": "ASCE7-22-26.2-T19",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -964,10 +1000,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.2-H1"
   },
   {
-    "id": "ASCE7-22-26.2-T21",
+    "id": "ASCE7-22-26.2-T20",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -992,10 +1029,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.2-H1"
   },
   {
-    "id": "ASCE7-22-26.2-T22",
+    "id": "ASCE7-22-26.2-T21",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1020,10 +1058,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.2-H1"
   },
   {
-    "id": "ASCE7-22-26.2-T23",
+    "id": "ASCE7-22-26.2-T22",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1046,10 +1085,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.2-H1"
   },
   {
-    "id": "ASCE7-22-26.2-T26",
+    "id": "ASCE7-22-26.2-T25",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1061,7 +1101,7 @@
     "title": "Wind loads on the MWFRS may be",
     "description": "",
     "data": {
-      "rule": "Wind loads on the MWFRS may be determined by Wind loads on the C&C may be determined by Chapter 27: Direc /g415 onal Procedure for buildings of all heights Chapter 28:",
+      "rule": "Wind loads on the MWFRS may be determined by Wind loads on the C&C may be determined by Chapter 27: Direc/g415onal Procedure for buildings of all heights Chapter 28:",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1072,10 +1112,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.2-H1"
   },
   {
-    "id": "ASCE7-22-26.2-T36",
+    "id": "ASCE7-22-26.2-T33",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1087,7 +1128,7 @@
     "title": "Envelope Procedure for low-rise",
     "description": "",
     "data": {
-      "rule": "Envelope Procedure for low-rise buildings Chapter 29: Direc /g415 onal Procedure for",
+      "rule": "Envelope Procedure for low-rise buildings Chapter 29: Direc/g415onal Procedure for",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1098,10 +1139,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.2-H1"
   },
   {
-    "id": "ASCE7-22-26.2-T42",
+    "id": "ASCE7-22-26.2-T37",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1124,10 +1166,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.2-H1"
   },
   {
-    "id": "ASCE7-22-26.2-T43",
+    "id": "ASCE7-22-26.2-T38",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1150,10 +1193,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.2-H1"
   },
   {
-    "id": "ASCE7-22-26.2-T48",
+    "id": "ASCE7-22-26.2-T43",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1165,7 +1209,7 @@
     "title": "Envelope Procedure in Part 1, or",
     "description": "",
     "data": {
-      "rule": "Envelope Procedure in Part 1, or Direc /g415",
+      "rule": "Envelope Procedure in Part 1, or",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1176,10 +1220,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.2-H1"
   },
   {
-    "id": "ASCE7-22-26.2-T51",
+    "id": "ASCE7-22-26.2-T44",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1188,10 +1233,10 @@
       "citation": "Section 26.2",
       "page": 2
     },
-    "title": "onal Procedure in Parts 2 and 3;",
+    "title": "Direc/g415onal Procedure in Parts 2 and 3;",
     "description": "",
     "data": {
-      "rule": "onal Procedure in Parts 2 and 3;",
+      "rule": "Direc/g415onal Procedure in Parts 2 and 3;",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1202,10 +1247,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.2-H1"
   },
   {
-    "id": "ASCE7-22-26.2-T52",
+    "id": "ASCE7-22-26.2-T45",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1228,10 +1274,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.2-H1"
   },
   {
-    "id": "ASCE7-22-26.2-T54",
+    "id": "ASCE7-22-26.2-T47",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1254,10 +1301,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.2-H1"
   },
   {
-    "id": "ASCE7-22-26.2-T57",
+    "id": "ASCE7-22-26.2-T50",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1280,10 +1328,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.2-H1"
   },
   {
-    "id": "ASCE7-22-26.2-T58",
+    "id": "ASCE7-22-26.2-T51",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1306,10 +1355,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.2-H1"
   },
   {
-    "id": "ASCE7-22-26.2-T59",
+    "id": "ASCE7-22-26.2-T52",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1332,10 +1382,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.2-H1"
   },
   {
-    "id": "ASCE7-22-26.2-T60",
+    "id": "ASCE7-22-26.2-T53",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1358,7 +1409,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.2-H1"
   },
   {
     "id": "ASCE7-22-26.2-D7",
@@ -1370,18 +1422,19 @@
       "citation": "Section 26.2",
       "page": 2
     },
-    "title": "BUILDING, OPEN: A building that has each wall at least 80% open. This condition is expressed for each wall by the equation Ao \u2265 0.8 Ag",
+    "title": "BUILDING, OPEN: A building that has each wall at least 80% open. This condition is expressed for each wall by the equation Ao \u2265 0.8 Ag where Ao is the total area of openings in a wall that receives po",
     "description": "",
     "data": {
       "term": "BUILDING, OPEN",
-      "definition": "A building that has each wall at least 80% open. This condition is expressed for each wall by the equation Ao \u2265 0.8 Ag"
+      "definition": "A building that has each wall at least 80% open. This condition is expressed for each wall by the equation Ao \u2265 0.8 Ag where Ao is the total area of openings in a wall that receives positive external pressure, ft 2 (m 2 ), and Ag is the gross area of that wall in which Ao is identi fi ed, ft 2 (m 2 )."
     },
     "cross_references": [],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.2-D8",
@@ -1404,36 +1457,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
-    "id": "ASCE7-22-26.2-T61",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.2",
-      "citation": "Section 26.2",
-      "page": 2
-    },
-    "title": "where Ao is the total area of openings in a wall that receives positive external pressure, ft 2 (m 2 ), and Ag is the gross area of that wall in which Ao is identi fi ed, ft 2 (m 2 ).",
-    "description": "",
-    "data": {
-      "rule": "where Ao is the total area of openings in a wall that receives positive external pressure, ft 2 (m 2 ), and Ag is the gross area of that wall in which Ao is identi fi ed, ft 2 (m 2 ).",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.2-T62",
+    "id": "ASCE7-22-26.2-T54",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1456,10 +1484,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.2-H1"
   },
   {
-    "id": "ASCE7-22-26.2-T63",
+    "id": "ASCE7-22-26.2-T55",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1482,10 +1511,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.2-H1"
   },
   {
-    "id": "ASCE7-22-26.2-T64",
+    "id": "ASCE7-22-26.2-T56",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1508,10 +1538,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.2-H1"
   },
   {
-    "id": "ASCE7-22-26.2-T65",
+    "id": "ASCE7-22-26.2-T57",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1534,7 +1565,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.2-H1"
   },
   {
     "id": "ASCE7-22-26.2-D9",
@@ -1557,7 +1589,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.2-D10",
@@ -1582,7 +1615,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.2-D11",
@@ -1605,7 +1639,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.2-D12",
@@ -1628,7 +1663,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.2-D13",
@@ -1651,7 +1687,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.2-D14",
@@ -1674,10 +1711,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
-    "id": "ASCE7-22-26.2-T66",
+    "id": "ASCE7-22-26.2-T58",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1700,7 +1738,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.2-H1"
   },
   {
     "id": "ASCE7-22-26.2-D15",
@@ -1723,10 +1762,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
-    "id": "ASCE7-22-26.2-T67",
+    "id": "ASCE7-22-26.2-T59",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1749,7 +1789,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.2-H1"
   },
   {
     "id": "ASCE7-22-26.2-D16",
@@ -1772,7 +1813,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.2-D17",
@@ -1795,7 +1837,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.2-P1",
@@ -1821,7 +1864,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.2-D18",
@@ -1844,7 +1888,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.2-D19",
@@ -1867,7 +1912,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.2-D20",
@@ -1893,7 +1939,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.2-D21",
@@ -1916,7 +1963,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.2-D22",
@@ -1939,10 +1987,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
-    "id": "ASCE7-22-26.2-T68",
+    "id": "ASCE7-22-26.2-T60",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1961,13 +2010,14 @@
       "exceptions": []
     },
     "cross_references": [
-      "ASCE7-22-26.12.3.2-H1"
+      "ASCE7-22-26.12.3.2-P1"
     ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.2-H1"
   },
   {
     "id": "ASCE7-22-26.2-D23",
@@ -1993,10 +2043,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
-    "id": "ASCE7-22-26.2-T69",
+    "id": "ASCE7-22-26.2-T61",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2019,10 +2070,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.2-H1"
   },
   {
-    "id": "ASCE7-22-26.2-T70",
+    "id": "ASCE7-22-26.2-T62",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2045,10 +2097,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.2-H1"
   },
   {
-    "id": "ASCE7-22-26.2-T71",
+    "id": "ASCE7-22-26.2-T63",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2071,10 +2124,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.2-H1"
   },
   {
-    "id": "ASCE7-22-26.2-T72",
+    "id": "ASCE7-22-26.2-T64",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2093,13 +2147,14 @@
       "exceptions": []
     },
     "cross_references": [
-      "ASCE7-22-26.12.3.2-H1"
+      "ASCE7-22-26.12.3.2-P1"
     ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.2-H1"
   },
   {
     "id": "ASCE7-22-26.2-D24",
@@ -2122,7 +2177,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.2-P2",
@@ -2155,7 +2211,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.2-D25",
@@ -2178,7 +2235,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.2-D26",
@@ -2201,7 +2259,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.2-D27",
@@ -2227,7 +2286,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.2-D28",
@@ -2250,7 +2310,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.2-D29",
@@ -2273,11 +2334,12 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
-    "id": "ASCE7-22-26.2-T73",
-    "type": "text_block",
+    "id": "ASCE7-22-26.2-P3",
+    "type": "provision",
     "source": {
       "standard": "ASCE 7-22",
       "chapter": 26,
@@ -2289,7 +2351,14 @@
     "description": "",
     "data": {
       "rule": "WIND-BORNE DEBRIS REGIONS: Areas within hurricane-prone regions where impact protection is required for glazed openings. See Section 26.12.3.",
-      "conditions": [],
+      "conditions": [
+        {
+          "parameter": "location",
+          "operator": "in",
+          "value": "hurricane-prone regions",
+          "unit": null
+        }
+      ],
       "then": "",
       "else": null,
       "exceptions": []
@@ -2301,7 +2370,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.2-D30",
@@ -2324,7 +2394,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.3-H1",
@@ -2350,7 +2421,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.3-T1",
@@ -2376,7 +2448,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T2",
@@ -2402,7 +2475,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T3",
@@ -2428,7 +2502,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T4",
@@ -2454,7 +2529,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T5",
@@ -2480,7 +2556,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T6",
@@ -2506,7 +2583,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T7",
@@ -2532,7 +2610,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T8",
@@ -2558,7 +2637,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T9",
@@ -2584,7 +2664,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T10",
@@ -2610,7 +2691,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T11",
@@ -2636,7 +2718,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T12",
@@ -2662,7 +2745,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T13",
@@ -2688,7 +2772,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T14",
@@ -2714,7 +2799,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T15",
@@ -2742,7 +2828,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T16",
@@ -2770,7 +2857,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T17",
@@ -2796,7 +2884,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T18",
@@ -2822,7 +2911,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T19",
@@ -2848,7 +2938,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T20",
@@ -2876,7 +2967,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T21",
@@ -2902,7 +2994,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T24",
@@ -2928,7 +3021,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T25",
@@ -2954,7 +3048,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T26",
@@ -2980,7 +3075,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T27",
@@ -3006,7 +3102,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T28",
@@ -3032,7 +3129,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T29",
@@ -3058,7 +3156,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T31",
@@ -3084,7 +3183,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T32",
@@ -3110,7 +3210,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T33",
@@ -3136,7 +3237,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T34",
@@ -3162,7 +3264,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T35",
@@ -3188,7 +3291,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T36",
@@ -3214,7 +3318,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T37",
@@ -3240,7 +3345,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T38",
@@ -3266,7 +3372,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T42",
@@ -3292,7 +3399,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T43",
@@ -3318,7 +3426,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T44",
@@ -3344,7 +3453,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T45",
@@ -3370,7 +3480,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T46",
@@ -3396,7 +3507,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T47",
@@ -3422,7 +3534,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T48",
@@ -3448,7 +3561,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T49",
@@ -3476,7 +3590,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-P1",
@@ -3509,7 +3624,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.3-T50",
@@ -3535,7 +3651,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T51",
@@ -3561,7 +3678,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T52",
@@ -3587,7 +3705,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T53",
@@ -3613,7 +3732,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T54",
@@ -3639,7 +3759,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T55",
@@ -3665,7 +3786,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T56",
@@ -3691,7 +3813,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T57",
@@ -3717,7 +3840,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T58",
@@ -3729,10 +3853,39 @@
       "citation": "Section 26.3",
       "page": 4
     },
+    "title": "K 1 , K 2 , K 3 = Multipliers in Figure 26.8-1 to obtain Kzt",
+    "description": "",
+    "data": {
+      "rule": "K 1 , K 2 , K 3 = Multipliers in Figure 26.8-1 to obtain Kzt",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.8-F26-8-11"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
+  },
+  {
+    "id": "ASCE7-22-26.3-T59",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.3",
+      "citation": "Section 26.3",
+      "page": 4
+    },
     "title": "Kd = Wind directionality factor from Section 26.6 and Table 26.6-1",
     "description": "",
     "data": {
-      "rule": "Kd = Wind directionality factor from Section 26.6 and Table 26.6-1",
+      "rule": "Kd = Wind directionality factor from Section 26.6 and Table 26.6-1 Ke = Ground elevation factor",
       "conditions": [],
       "then": "",
       "else": null,
@@ -3746,35 +3899,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.3-T59",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.3",
-      "citation": "Section 26.3",
-      "page": 4
     },
-    "title": "K 1 , K 2 , K 3 = Multipliers in Figure 26.8-1 to obtain Kzt",
-    "description": "",
-    "data": {
-      "rule": "K 1 , K 2 , K 3 = Multipliers in Figure 26.8-1 to obtain Kzt Ke = Ground elevation factor",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [
-      "ASCE7-22-26.8-F26-8-11"
-    ],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T61",
@@ -3800,7 +3926,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T62",
@@ -3826,7 +3953,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T63",
@@ -3854,7 +3982,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T64",
@@ -3880,7 +4009,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T65",
@@ -3906,7 +4036,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T66",
@@ -3932,7 +4063,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T67",
@@ -3960,7 +4092,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T68",
@@ -3986,7 +4119,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T69",
@@ -4012,7 +4146,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T70",
@@ -4038,7 +4173,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T71",
@@ -4066,7 +4202,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T72",
@@ -4092,7 +4229,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T73",
@@ -4118,7 +4256,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T74",
@@ -4144,7 +4283,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T75",
@@ -4170,7 +4310,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T76",
@@ -4196,7 +4337,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T77",
@@ -4224,7 +4366,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T78",
@@ -4250,7 +4393,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T79",
@@ -4278,7 +4422,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T80",
@@ -4304,36 +4449,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T81",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.3",
-      "citation": "Section 26.3",
-      "page": 5
-    },
-    "title": "qh = Velocity pressure evaluated at height z = h , lb/ft 2 (N/m 2 )",
-    "description": "",
-    "data": {
-      "rule": "qh = Velocity pressure evaluated at height z = h , lb/ft 2 (N/m 2 )",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.3-T82",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -4356,7 +4476,35 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
+  },
+  {
+    "id": "ASCE7-22-26.3-T82",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.3",
+      "citation": "Section 26.3",
+      "page": 5
+    },
+    "title": "qh = Velocity pressure evaluated at height z = h , lb/ft 2 (N/m 2 )",
+    "description": "",
+    "data": {
+      "rule": "qh = Velocity pressure evaluated at height z = h , lb/ft 2 (N/m 2 )",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T83",
@@ -4382,7 +4530,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T84",
@@ -4408,7 +4557,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T85",
@@ -4434,7 +4584,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T86",
@@ -4460,7 +4611,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T87",
@@ -4486,7 +4638,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T88",
@@ -4512,36 +4665,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T89",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.3",
-      "citation": "Section 26.3",
-      "page": 5
-    },
-    "title": "S = Center-to-center row spacing for ground-mounted solar panels in Figure 29.4-9, ft (m)",
-    "description": "",
-    "data": {
-      "rule": "S = Center-to-center row spacing for ground-mounted solar panels in Figure 29.4-9, ft (m)",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.3-T90",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -4564,7 +4692,35 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
+  },
+  {
+    "id": "ASCE7-22-26.3-T90",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.3",
+      "citation": "Section 26.3",
+      "page": 5
+    },
+    "title": "S = Center-to-center row spacing for ground-mounted solar panels in Figure 29.4-9, ft (m)",
+    "description": "",
+    "data": {
+      "rule": "S = Center-to-center row spacing for ground-mounted solar panels in Figure 29.4-9, ft (m)",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T91",
@@ -4590,11 +4746,12 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
-    "id": "ASCE7-22-26.3-T92",
-    "type": "text_block",
+    "id": "ASCE7-22-26.3-H2",
+    "type": "heading",
     "source": {
       "standard": "ASCE 7-22",
       "chapter": 26,
@@ -4616,10 +4773,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
-    "id": "ASCE7-22-26.3-T93",
+    "id": "ASCE7-22-26.3-T92",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -4642,10 +4800,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
-    "id": "ASCE7-22-26.3-T94",
+    "id": "ASCE7-22-26.3-T93",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -4668,10 +4827,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
-    "id": "ASCE7-22-26.3-T95",
+    "id": "ASCE7-22-26.3-T94",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -4694,10 +4854,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
-    "id": "ASCE7-22-26.3-T96",
+    "id": "ASCE7-22-26.3-T95",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -4720,10 +4881,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
-    "id": "ASCE7-22-26.3-T97",
+    "id": "ASCE7-22-26.3-T96",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -4746,10 +4908,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
-    "id": "ASCE7-22-26.3-T98",
+    "id": "ASCE7-22-26.3-T97",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -4772,10 +4935,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
-    "id": "ASCE7-22-26.3-T99",
+    "id": "ASCE7-22-26.3-T98",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -4798,10 +4962,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
-    "id": "ASCE7-22-26.3-T100",
+    "id": "ASCE7-22-26.3-T99",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -4824,10 +4989,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
-    "id": "ASCE7-22-26.3-T101",
+    "id": "ASCE7-22-26.3-T100",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -4852,10 +5018,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
-    "id": "ASCE7-22-26.3-T102",
+    "id": "ASCE7-22-26.3-T101",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -4878,10 +5045,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
-    "id": "ASCE7-22-26.3-T103",
+    "id": "ASCE7-22-26.3-T102",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -4904,10 +5072,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
-    "id": "ASCE7-22-26.3-T104",
+    "id": "ASCE7-22-26.3-T103",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -4930,10 +5099,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
-    "id": "ASCE7-22-26.3-T105",
+    "id": "ASCE7-22-26.3-T104",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -4958,10 +5128,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
-    "id": "ASCE7-22-26.3-T106",
+    "id": "ASCE7-22-26.3-T105",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -4986,7 +5157,37 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
+  },
+  {
+    "id": "ASCE7-22-26.3-T106",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.3",
+      "citation": "Section 26.3",
+      "page": 5
+    },
+    "title": "\u02c6 \u03b1 = Reciprocal of \u03b1 from Table 26.11-1",
+    "description": "",
+    "data": {
+      "rule": "\u02c6 \u03b1 = Reciprocal of \u03b1 from Table 26.11-1",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.11-T26-11-12"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T107",
@@ -5014,38 +5215,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.3-T108",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.3",
-      "citation": "Section 26.3",
-      "page": 5
-    },
-    "title": "\u02c6 \u03b1 = Reciprocal of \u03b1 from Table 26.11-1",
-    "description": "",
-    "data": {
-      "rule": "\u02c6 \u03b1 = Reciprocal of \u03b1 from Table 26.11-1",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [
-      "ASCE7-22-26.11-T26-11-12"
-    ],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.3-T109",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -5070,10 +5244,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
-    "id": "ASCE7-22-26.3-T110",
+    "id": "ASCE7-22-26.3-T109",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -5096,10 +5271,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
-    "id": "ASCE7-22-26.3-T111",
+    "id": "ASCE7-22-26.3-T110",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -5122,10 +5298,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
-    "id": "ASCE7-22-26.3-T112",
+    "id": "ASCE7-22-26.3-T111",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -5148,10 +5325,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
-    "id": "ASCE7-22-26.3-T113",
+    "id": "ASCE7-22-26.3-T112",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -5174,10 +5352,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
-    "id": "ASCE7-22-26.3-T114",
+    "id": "ASCE7-22-26.3-T113",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -5200,10 +5379,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
-    "id": "ASCE7-22-26.3-T115",
+    "id": "ASCE7-22-26.3-T114",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -5228,10 +5408,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
-    "id": "ASCE7-22-26.3-T116",
+    "id": "ASCE7-22-26.3-T115",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -5250,16 +5431,17 @@
       "exceptions": []
     },
     "cross_references": [
-      "ASCE7-22-26.11.4-P1"
+      "ASCE7-22-26.11.4-H1"
     ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
-    "id": "ASCE7-22-26.3-T117",
+    "id": "ASCE7-22-26.3-T116",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -5268,10 +5450,10 @@
       "citation": "Section 26.3",
       "page": 5
     },
-    "title": "\u03b8 = Angle of plane of roof from horizontal, degrees",
+    "title": "= Angle of plane of roof from horizontal, degrees",
     "description": "",
     "data": {
-      "rule": "\u03b8 = Angle of plane of roof from horizontal, degrees",
+      "rule": "= Angle of plane of roof from horizontal, degrees",
       "conditions": [],
       "then": "",
       "else": null,
@@ -5282,10 +5464,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
-    "id": "ASCE7-22-26.3-T118",
+    "id": "ASCE7-22-26.3-T117",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -5308,10 +5491,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
-    "id": "ASCE7-22-26.3-T119",
+    "id": "ASCE7-22-26.3-T118",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -5334,7 +5518,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.3-H2"
   },
   {
     "id": "ASCE7-22-26.4-H1",
@@ -5360,7 +5545,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.4.1-H1",
@@ -5386,11 +5572,12 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
-    "id": "ASCE7-22-26.4.2-P1",
-    "type": "provision",
+    "id": "ASCE7-22-26.4.2-H1",
+    "type": "heading",
     "source": {
       "standard": "ASCE 7-22",
       "chapter": 26,
@@ -5412,7 +5599,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.4.3-H1",
@@ -5438,7 +5626,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.5-H1",
@@ -5464,7 +5653,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.5.1-H1",
@@ -5492,7 +5682,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.5.1-P1",
@@ -5518,7 +5709,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.5.1-T1",
@@ -5546,7 +5738,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.5-F26-5-1A1"
   },
   {
     "id": "ASCE7-22-26.5.1-T3",
@@ -5572,7 +5765,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.5.1-P1"
   },
   {
     "id": "ASCE7-22-26.5.1-P2",
@@ -5598,7 +5792,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.5.1-P3",
@@ -5624,7 +5819,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.5.1-P4",
@@ -5650,7 +5846,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.5.1-T4",
@@ -5678,7 +5875,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.5-F26-5-1A1"
   },
   {
     "id": "ASCE7-22-26.5.1-T7",
@@ -5693,7 +5891,7 @@
     "title": "Guam & Northern Mariana Islands",
     "description": "",
     "data": {
-      "rule": "Guam & Northern Mariana Islands Hawaii Puerto Rico U.S. Virgin Islands (67) (80) ASCE Wind Design Geodatabase ASCE Wind Design Geodatabase ASCE Wind Design Geodatabase V (mi/h) V (m/s)",
+      "rule": "Guam & Northern Mariana Islands Hawaii Puerto Rico U.S. Virgin Islands 150 180 (67) (80) ASCE Wind Design Geodatabase ASCE Wind Design Geodatabase ASCE Wind Design Geodatabase V (mi/h) V (m/s)",
       "conditions": [],
       "then": "",
       "else": null,
@@ -5704,7 +5902,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.5.1-H1"
   },
   {
     "id": "ASCE7-22-26.5.1-P5",
@@ -5730,7 +5929,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.5.1-P6",
@@ -5756,10 +5956,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
-    "id": "ASCE7-22-26.5.1-T18",
+    "id": "ASCE7-22-26.5.1-T20",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -5782,10 +5983,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.5.1-P6"
   },
   {
-    "id": "ASCE7-22-26.5.1-T19",
+    "id": "ASCE7-22-26.5.1-T21",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -5808,10 +6010,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.5.1-P6"
   },
   {
-    "id": "ASCE7-22-26.5.1-T20",
+    "id": "ASCE7-22-26.5.1-T22",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -5836,10 +6039,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.5-F26-5-1B1"
   },
   {
-    "id": "ASCE7-22-26.5.1-T22",
+    "id": "ASCE7-22-26.5.1-T24",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -5862,7 +6066,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.5.1-P6"
   },
   {
     "id": "ASCE7-22-26.5.1-P7",
@@ -5888,7 +6093,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.5.1-P8",
@@ -5914,7 +6120,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.5.1-P9",
@@ -5940,10 +6147,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
-    "id": "ASCE7-22-26.5.1-T23",
+    "id": "ASCE7-22-26.5.1-T25",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -5968,10 +6176,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.5-F26-5-1B1"
   },
   {
-    "id": "ASCE7-22-26.5.1-T26",
+    "id": "ASCE7-22-26.5.1-T28",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -5983,7 +6192,7 @@
     "title": "Guam & Northern Mariana Islands",
     "description": "",
     "data": {
-      "rule": "Guam & Northern Mariana Islands Hawaii Puerto Rico U.S. Virgin Islands (72) (87) ASCE Wind Design Geodatabase ASCE Wind Design Geodatabase ASCE Wind Design Geodatabase V (mi/h) V (m/s)",
+      "rule": "Guam & Northern Mariana Islands Hawaii Puerto Rico U.S. Virgin Islands 160 195 (72) (87) ASCE Wind Design Geodatabase ASCE Wind Design Geodatabase ASCE Wind Design Geodatabase V (mi/h) V (m/s)",
       "conditions": [],
       "then": "",
       "else": null,
@@ -5994,7 +6203,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.5.1-H1"
   },
   {
     "id": "ASCE7-22-26.5.1-P10",
@@ -6020,7 +6230,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.5.1-P11",
@@ -6046,7 +6257,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.5.1-P12",
@@ -6072,10 +6284,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
-    "id": "ASCE7-22-26.5.1-T37",
+    "id": "ASCE7-22-26.5.1-T41",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -6098,10 +6311,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.5.1-P12"
   },
   {
-    "id": "ASCE7-22-26.5.1-T38",
+    "id": "ASCE7-22-26.5.1-T42",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -6124,10 +6338,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.5.1-P12"
   },
   {
-    "id": "ASCE7-22-26.5.1-T39",
+    "id": "ASCE7-22-26.5.1-T43",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -6152,10 +6367,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.5-F26-5-1C1"
   },
   {
-    "id": "ASCE7-22-26.5.1-T41",
+    "id": "ASCE7-22-26.5.1-T45",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -6178,7 +6394,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.5.1-P12"
   },
   {
     "id": "ASCE7-22-26.5.1-P13",
@@ -6204,7 +6421,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.5.1-P14",
@@ -6230,7 +6448,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.5.1-P15",
@@ -6256,10 +6475,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
-    "id": "ASCE7-22-26.5.1-T42",
+    "id": "ASCE7-22-26.5.1-T46",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -6268,26 +6488,25 @@
       "citation": "Section 26.5.1",
       "page": 11
     },
-    "title": "Figure 26.5-1C ( Continued ). Basic wind speeds for Risk Category III buildings and other structures.",
+    "title": "8. The ASCE Wind Design Geodatabase can be accessed at the ASCE 7 Hazard Tool (https://asce7hazardtool.online) or approved equivalent.",
     "description": "",
     "data": {
-      "rule": "Figure 26.5-1C ( Continued ). Basic wind speeds for Risk Category III buildings and other structures. Location American Samoa",
+      "rule": "8. The ASCE Wind Design Geodatabase can be accessed at the ASCE 7 Hazard Tool (https://asce7hazardtool.online) or approved equivalent. Location American Samoa",
       "conditions": [],
       "then": "",
       "else": null,
       "exceptions": []
     },
-    "cross_references": [
-      "ASCE7-22-26.5-F26-5-1C1"
-    ],
+    "cross_references": [],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.5.1-P15"
   },
   {
-    "id": "ASCE7-22-26.5.1-T45",
+    "id": "ASCE7-22-26.5.1-T49",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -6299,7 +6518,7 @@
     "title": "Guam & Northern Mariana Islands",
     "description": "",
     "data": {
-      "rule": "Guam & Northern Mariana Islands Hawaii Puerto Rico U.S. Virgin Islands (76) (94) ASCE Wind Design Geodatabase ASCE Wind Design Geodatabase ASCE Wind Design Geodatabase V (mi/h) V (m/s)",
+      "rule": "Guam & Northern Mariana Islands Hawaii Puerto Rico U.S. Virgin Islands 170 210 (76) (94) ASCE Wind Design Geodatabase ASCE Wind Design Geodatabase ASCE Wind Design Geodatabase V (mi/h) V (m/s)",
       "conditions": [],
       "then": "",
       "else": null,
@@ -6310,7 +6529,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.5.1-H1"
   },
   {
     "id": "ASCE7-22-26.5.1-P16",
@@ -6336,7 +6556,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.5.1-P17",
@@ -6362,10 +6583,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
-    "id": "ASCE7-22-26.5.1-T56",
+    "id": "ASCE7-22-26.5.1-T62",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -6388,10 +6610,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.5.1-P17"
   },
   {
-    "id": "ASCE7-22-26.5.1-T57",
+    "id": "ASCE7-22-26.5.1-T63",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -6400,24 +6623,27 @@
       "citation": "Section 26.5.1",
       "page": 11
     },
-    "title": "8. The ASCE Wind Design Geodatabase can be accessed at the ASCE 7 Hazard Tool (https://asce7hazardtool.online) or approved equivalent.",
+    "title": "Figure 26.5-1C ( Continued ). Basic wind speeds for Risk Category III buildings and other structures.",
     "description": "",
     "data": {
-      "rule": "8. The ASCE Wind Design Geodatabase can be accessed at the ASCE 7 Hazard Tool (https://asce7hazardtool.online) or approved equivalent.",
+      "rule": "Figure 26.5-1C ( Continued ). Basic wind speeds for Risk Category III buildings and other structures.",
       "conditions": [],
       "then": "",
       "else": null,
       "exceptions": []
     },
-    "cross_references": [],
+    "cross_references": [
+      "ASCE7-22-26.5-F26-5-1C1"
+    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.5-F26-5-1C1"
   },
   {
-    "id": "ASCE7-22-26.5.1-T58",
+    "id": "ASCE7-22-26.5.1-T64",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -6442,10 +6668,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.5-F26-5-1D1"
   },
   {
-    "id": "ASCE7-22-26.5.1-T60",
+    "id": "ASCE7-22-26.5.1-T66",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -6468,7 +6695,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.5.1-P17"
   },
   {
     "id": "ASCE7-22-26.5.1-P18",
@@ -6494,7 +6722,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.5.1-P19",
@@ -6520,7 +6749,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.5.1-P20",
@@ -6546,10 +6776,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
-    "id": "ASCE7-22-26.5.1-T61",
+    "id": "ASCE7-22-26.5.1-T67",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -6574,10 +6805,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.5-F26-5-1D1"
   },
   {
-    "id": "ASCE7-22-26.5.1-T64",
+    "id": "ASCE7-22-26.5.1-T70",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -6589,7 +6821,7 @@
     "title": "Guam & Northern Mariana Islands",
     "description": "",
     "data": {
-      "rule": "Guam & Northern Mariana Islands Hawaii Puerto Rico U.S. Virgin Islands (80) (98) ASCE Wind Design Geodatabase ASCE Wind Design Geodatabase ASCE Wind Design Geodatabase V (mi/h) V (m/s)",
+      "rule": "Guam & Northern Mariana Islands Hawaii Puerto Rico U.S. Virgin Islands 180 220 (80) (98) ASCE Wind Design Geodatabase ASCE Wind Design Geodatabase ASCE Wind Design Geodatabase V (mi/h) V (m/s)",
       "conditions": [],
       "then": "",
       "else": null,
@@ -6600,7 +6832,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.5.1-H1"
   },
   {
     "id": "ASCE7-22-26.5.1-P21",
@@ -6626,7 +6859,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.5.1-P22",
@@ -6652,10 +6886,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
-    "id": "ASCE7-22-26.5.1-T75",
+    "id": "ASCE7-22-26.5.1-T83",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -6678,10 +6913,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.5.1-P22"
   },
   {
-    "id": "ASCE7-22-26.5.1-T76",
+    "id": "ASCE7-22-26.5.1-T84",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -6704,7 +6940,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.5.1-P22"
   },
   {
     "id": "ASCE7-22-26.5.1-P23",
@@ -6730,10 +6967,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
-    "id": "ASCE7-22-26.5.1-T77",
+    "id": "ASCE7-22-26.5.1-T85",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -6756,7 +6994,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.5.1-H1"
   },
   {
     "id": "ASCE7-22-26.5.1-P24",
@@ -6784,7 +7023,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.5.2-H1",
@@ -6813,7 +7053,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.5.2-P1",
@@ -6839,7 +7080,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.5.3-P1",
@@ -6874,7 +7116,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.5.3-P2",
@@ -6909,7 +7152,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.5.3-P3",
@@ -6942,7 +7186,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.6-H1",
@@ -6968,7 +7213,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.6-P1",
@@ -6997,7 +7243,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.7-H1",
@@ -7023,7 +7270,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.7-P1",
@@ -7049,11 +7297,12 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
-    "id": "ASCE7-22-26.7.1-H1",
-    "type": "heading",
+    "id": "ASCE7-22-26.7.1-P1",
+    "type": "provision",
     "source": {
       "standard": "ASCE 7-22",
       "chapter": 26,
@@ -7075,7 +7324,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.7.1-T1",
@@ -7103,10 +7353,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.7-H1"
   },
   {
-    "id": "ASCE7-22-26.7.1-P1",
+    "id": "ASCE7-22-26.7.1-P2",
     "type": "provision",
     "source": {
       "standard": "ASCE 7-22",
@@ -7136,10 +7387,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
-    "id": "ASCE7-22-26.7.1-P2",
+    "id": "ASCE7-22-26.7.1-P3",
     "type": "provision",
     "source": {
       "standard": "ASCE 7-22",
@@ -7162,11 +7414,12 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
-    "id": "ASCE7-22-26.7.2-P1",
-    "type": "provision",
+    "id": "ASCE7-22-26.7.2-H1",
+    "type": "heading",
     "source": {
       "standard": "ASCE 7-22",
       "chapter": 26,
@@ -7190,7 +7443,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.7.2-D1",
@@ -7213,7 +7467,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": "sub_definition"
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.7.2-D2",
@@ -7236,11 +7491,12 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": "sub_definition"
-    }
+    },
+    "parent_id": null
   },
   {
-    "id": "ASCE7-22-26.7.2-T1",
-    "type": "text_block",
+    "id": "ASCE7-22-26.7.2-D3",
+    "type": "definition",
     "source": {
       "standard": "ASCE 7-22",
       "chapter": 26,
@@ -7251,18 +7507,16 @@
     "title": "Surface Roughness D. Flat, unobstructed areas and water surfaces. This category includes smooth mud fl ats, salt fl ats, and unbroken ice.",
     "description": "",
     "data": {
-      "rule": "Surface Roughness D. Flat, unobstructed areas and water surfaces. This category includes smooth mud fl ats, salt fl ats, and unbroken ice.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
+      "term": "Surface Roughness D.",
+      "definition": "Flat, unobstructed areas and water surfaces. This category includes smooth mud fl ats, salt fl ats, and unbroken ice."
     },
     "cross_references": [],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    }
+      "qc_notes": "sub_definition"
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.7.3-H1",
@@ -7288,7 +7542,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.7.3-D1",
@@ -7311,7 +7566,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": "sub_definition"
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.7.3-D2",
@@ -7334,11 +7590,12 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": "sub_definition"
-    }
+    },
+    "parent_id": null
   },
   {
-    "id": "ASCE7-22-26.7.3-P1",
-    "type": "provision",
+    "id": "ASCE7-22-26.7.3-D3",
+    "type": "definition",
     "source": {
       "standard": "ASCE 7-22",
       "chapter": 26,
@@ -7349,34 +7606,19 @@
     "title": "Exposure D. Exposure D shall apply where the ground surface roughness, as de fi ned by Surface Roughness D, prevails in the upwind direction for a distance greater than 5,000 ft (1,524 m) or 20 times ",
     "description": "",
     "data": {
-      "rule": "Exposure D. Exposure D shall apply where the ground surface roughness, as de fi ned by Surface Roughness D, prevails in the upwind direction for a distance greater than 5,000 ft (1,524 m) or 20 times the building or structure height, whichever is greater. Exposure D shall also apply where the ground surface roughness immediately upwind of the site is B or C, and the building or structure is within a distance of 600 ft (183 m) or 20 times the building or structure height, whichever is greater, from an Exposure D condition as de fi ned in the previous sentence.",
-      "conditions": [
-        {
-          "parameter": "",
-          "operator": ">",
-          "value": 5.0,
-          "unit": null
-        },
-        {
-          "parameter": "exposure_category",
-          "operator": "==",
-          "value": "D",
-          "unit": null
-        }
-      ],
-      "then": "",
-      "else": null,
-      "exceptions": []
+      "term": "Exposure D.",
+      "definition": "Exposure D shall apply where the ground surface roughness, as de fi ned by Surface Roughness D, prevails in the upwind direction for a distance greater than 5,000 ft (1,524 m) or 20 times the building or structure height, whichever is greater. Exposure D shall also apply where the ground surface roughness immediately upwind of the site is B or C, and the building or structure is within a distance of 600 ft (183 m) or 20 times the building or structure height, whichever is greater, from an Exposure D condition as de fi ned in the previous sentence."
     },
     "cross_references": [],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    }
+      "qc_notes": "sub_definition"
+    },
+    "parent_id": null
   },
   {
-    "id": "ASCE7-22-26.7.3-P2",
+    "id": "ASCE7-22-26.7.3-P1",
     "type": "provision",
     "source": {
       "standard": "ASCE 7-22",
@@ -7399,7 +7641,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.7.3-X1",
@@ -7425,7 +7668,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.7.4-H1",
@@ -7451,7 +7695,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.7.4.1-H1",
@@ -7479,7 +7724,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.7.4.2-H1",
@@ -7505,11 +7751,12 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
-    "id": "ASCE7-22-26.7.4.3-H1",
-    "type": "heading",
+    "id": "ASCE7-22-26.7.4.3-P1",
+    "type": "provision",
     "source": {
       "standard": "ASCE 7-22",
       "chapter": 26,
@@ -7531,7 +7778,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.7.4.4-H1",
@@ -7557,7 +7805,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.8-H1",
@@ -7583,7 +7832,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.8.1-H1",
@@ -7609,7 +7859,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.8.1-T1",
@@ -7637,7 +7888,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.8.1-H1"
   },
   {
     "id": "ASCE7-22-26.8.1-T3",
@@ -7663,7 +7915,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.8.1-H1"
   },
   {
     "id": "ASCE7-22-26.8.2-D1",
@@ -7686,7 +7939,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": "sub_definition"
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.8.2-P1",
@@ -7733,7 +7987,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.8.2-T1",
@@ -7761,7 +8016,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.8-H1"
   },
   {
     "id": "ASCE7-22-26.9-H1",
@@ -7787,7 +8043,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.9-P1",
@@ -7822,7 +8079,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.9-T1",
@@ -7850,7 +8108,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.9-H1"
   },
   {
     "id": "ASCE7-22-26.9-P2",
@@ -7883,7 +8142,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.9-P3",
@@ -7911,7 +8171,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.9-P4",
@@ -7937,7 +8198,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.10-H1",
@@ -7963,7 +8225,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.10.1-H1",
@@ -7985,14 +8248,15 @@
       "exceptions": []
     },
     "cross_references": [
-      "ASCE7-22-26.10-T26-10-11",
+      "ASCE7-22-26.10-E26-10-11",
       "ASCE7-22-26.7.3-H1"
     ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.10.2-H1",
@@ -8018,7 +8282,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.10.2-H2",
@@ -8044,7 +8309,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.10.2-T13",
@@ -8070,7 +8336,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.10.2-H6"
   },
   {
     "id": "ASCE7-22-26.10.2-H3",
@@ -8096,7 +8363,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.10.2-P1",
@@ -8122,7 +8390,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.10.2-T14",
@@ -8148,7 +8417,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.10.2-H6"
   },
   {
     "id": "ASCE7-22-26.10.2-P2",
@@ -8174,7 +8444,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.10.2-H4",
@@ -8200,7 +8471,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.10.2-T15",
@@ -8226,36 +8498,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.10.2-H6"
   },
   {
     "id": "ASCE7-22-26.10.2-T16",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.10.2",
-      "citation": "Section 26.10.2",
-      "page": 16
-    },
-    "title": "2 K = Factor to account for reduction in speed-up with distance upwind or downwind of crest;",
-    "description": "",
-    "data": {
-      "rule": "2 K = Factor to account for reduction in speed-up with distance upwind or downwind of crest;",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.10.2-T17",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -8278,7 +8525,35 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.10.2-H6"
+  },
+  {
+    "id": "ASCE7-22-26.10.2-T17",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.10.2",
+      "citation": "Section 26.10.2",
+      "page": 16
+    },
+    "title": "2 K = Factor to account for reduction in speed-up with distance upwind or downwind of crest;",
+    "description": "",
+    "data": {
+      "rule": "2 K = Factor to account for reduction in speed-up with distance upwind or downwind of crest;",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-26.10.2-H6"
   },
   {
     "id": "ASCE7-22-26.10.2-T18",
@@ -8304,36 +8579,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.10.2-H6"
   },
   {
     "id": "ASCE7-22-26.10.2-T19",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.10.2",
-      "citation": "Section 26.10.2",
-      "page": 16
-    },
-    "title": "x = Distance (upwind or downwind) from the crest to the site of the building or other structure, ft (m);",
-    "description": "",
-    "data": {
-      "rule": "x = Distance (upwind or downwind) from the crest to the site of the building or other structure, ft (m);",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.10.2-T20",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -8356,7 +8606,35 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.10.2-H6"
+  },
+  {
+    "id": "ASCE7-22-26.10.2-T20",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.10.2",
+      "citation": "Section 26.10.2",
+      "page": 16
+    },
+    "title": "x = Distance (upwind or downwind) from the crest to the site of the building or other structure, ft (m);",
+    "description": "",
+    "data": {
+      "rule": "x = Distance (upwind or downwind) from the crest to the site of the building or other structure, ft (m);",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-26.10.2-H6"
   },
   {
     "id": "ASCE7-22-26.10.2-T21",
@@ -8382,7 +8660,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.10.2-H6"
   },
   {
     "id": "ASCE7-22-26.10.2-T22",
@@ -8408,7 +8687,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.10.2-H6"
   },
   {
     "id": "ASCE7-22-26.10.2-T23",
@@ -8434,7 +8714,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.10.2-H6"
   },
   {
     "id": "ASCE7-22-26.10.2-H5",
@@ -8449,7 +8730,7 @@
     "title": "Equations",
     "description": "",
     "data": {
-      "rule": "Equations",
+      "rule": "Equations Kzt = (1 +K 1 K 2 K 3 ) 2",
       "conditions": [],
       "then": "",
       "else": null,
@@ -8460,10 +8741,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
-    "id": "ASCE7-22-26.10.2-T24",
+    "id": "ASCE7-22-26.10.2-T25",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -8475,7 +8757,7 @@
     "title": "1 K = Determined from table above",
     "description": "",
     "data": {
-      "rule": "1 K = Determined from table above Kzt = (1 +K 1 K 2 K 3 ) 2 2 (1 | | / ) h K x L \u00b5 = -",
+      "rule": "1 K = Determined from table above 2 (1 | | / ) h K x L \u00b5 = -",
       "conditions": [],
       "then": "",
       "else": null,
@@ -8486,7 +8768,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.10.2-H6"
   },
   {
     "id": "ASCE7-22-26.10.2-H6",
@@ -8512,7 +8795,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.10.2-T27",
@@ -8540,7 +8824,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.8-F26-8-11"
   },
   {
     "id": "ASCE7-22-26.10.2-T31",
@@ -8568,7 +8853,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.10.2-H6"
   },
   {
     "id": "ASCE7-22-26.10.2-T32",
@@ -8596,7 +8882,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.10.2-H6"
   },
   {
     "id": "ASCE7-22-26.10.2-T33",
@@ -8624,7 +8911,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.10.2-H6"
   },
   {
     "id": "ASCE7-22-26.10.2-T34",
@@ -8652,7 +8940,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.10.2-H6"
   },
   {
     "id": "ASCE7-22-26.10.2-T35",
@@ -8678,7 +8967,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.10.2-H6"
   },
   {
     "id": "ASCE7-22-26.10.2-T36",
@@ -8704,7 +8994,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.10.2-H6"
   },
   {
     "id": "ASCE7-22-26.10.2-P3",
@@ -8730,7 +9021,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.10.2-T37",
@@ -8756,7 +9048,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.10.2-H6"
   },
   {
     "id": "ASCE7-22-26.10.2-T38",
@@ -8782,7 +9075,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.10.2-H6"
   },
   {
     "id": "ASCE7-22-26.11-H1",
@@ -8808,7 +9102,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.11.1-H1",
@@ -8834,7 +9129,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.11.2-H1",
@@ -8862,11 +9158,12 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
-    "id": "ASCE7-22-26.11.2.1-H1",
-    "type": "heading",
+    "id": "ASCE7-22-26.11.2.1-P1",
+    "type": "provision",
     "source": {
       "standard": "ASCE 7-22",
       "chapter": 26,
@@ -8890,7 +9187,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.11.2.1-T1",
@@ -8916,7 +9214,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.11.2-H1"
   },
   {
     "id": "ASCE7-22-26.11.2.1-T2",
@@ -8942,10 +9241,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.11.2-H1"
   },
   {
-    "id": "ASCE7-22-26.11.2.1-P1",
+    "id": "ASCE7-22-26.11.2.1-P2",
     "type": "provision",
     "source": {
       "standard": "ASCE 7-22",
@@ -8968,7 +9268,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.11.2.1-T3",
@@ -8994,7 +9295,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.11.2-H1"
   },
   {
     "id": "ASCE7-22-26.11.3-H1",
@@ -9020,7 +9322,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.11.3-T1",
@@ -9042,13 +9345,14 @@
       "exceptions": []
     },
     "cross_references": [
-      "ASCE7-22-26.10-T26-10-11"
+      "ASCE7-22-26.10-E26-10-11"
     ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.11.3-H2"
   },
   {
     "id": "ASCE7-22-26.11.3-T2",
@@ -9074,7 +9378,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.11.3-H2"
   },
   {
     "id": "ASCE7-22-26.11.3-T3",
@@ -9100,11 +9405,12 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.11.3-H2"
   },
   {
-    "id": "ASCE7-22-26.11.3-T6",
-    "type": "text_block",
+    "id": "ASCE7-22-26.11.3-H2",
+    "type": "heading",
     "source": {
       "standard": "ASCE 7-22",
       "chapter": 26,
@@ -9126,10 +9432,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
-    "id": "ASCE7-22-26.11.3-T8",
+    "id": "ASCE7-22-26.11.3-T7",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -9152,10 +9459,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.11.3-H2"
   },
   {
-    "id": "ASCE7-22-26.11.3-T14",
+    "id": "ASCE7-22-26.11.3-T13",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -9180,10 +9488,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.11.3-H2"
   },
   {
-    "id": "ASCE7-22-26.11.3-T15",
+    "id": "ASCE7-22-26.11.3-T14",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -9206,10 +9515,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.11.3-H2"
   },
   {
-    "id": "ASCE7-22-26.11.3-T16",
+    "id": "ASCE7-22-26.11.3-T15",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -9234,7 +9544,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.11.3-H2"
   },
   {
     "id": "ASCE7-22-26.11.3-P1",
@@ -9256,16 +9567,17 @@
       "exceptions": []
     },
     "cross_references": [
-      "ASCE7-22-26.11.2.1-H1"
+      "ASCE7-22-26.11.2.1-P1"
     ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
-    "id": "ASCE7-22-26.11.3-T17",
+    "id": "ASCE7-22-26.11.3-T16",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -9288,10 +9600,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.11.3-H2"
   },
   {
-    "id": "ASCE7-22-26.11.3-T18",
+    "id": "ASCE7-22-26.11.3-T17",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -9314,10 +9627,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.11.3-H2"
   },
   {
-    "id": "ASCE7-22-26.11.3-T19",
+    "id": "ASCE7-22-26.11.3-T18",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -9340,10 +9654,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.11.3-H2"
   },
   {
-    "id": "ASCE7-22-26.11.3-T20",
+    "id": "ASCE7-22-26.11.3-T19",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -9366,10 +9681,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.11.3-H2"
   },
   {
-    "id": "ASCE7-22-26.11.3-T23",
+    "id": "ASCE7-22-26.11.3-T22",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -9392,7 +9708,35 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.11.3-H2"
+  },
+  {
+    "id": "ASCE7-22-26.11.3-T23",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11.3",
+      "citation": "Section 26.11.3",
+      "page": 18
+    },
+    "title": "AB = Base area of the building, ft 2 (m 2 );",
+    "description": "",
+    "data": {
+      "rule": "AB = Base area of the building, ft 2 (m 2 );",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-26.11.3-H2"
   },
   {
     "id": "ASCE7-22-26.11.3-T24",
@@ -9418,36 +9762,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.11.3-H2"
   },
   {
     "id": "ASCE7-22-26.11.3-T25",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.11.3",
-      "citation": "Section 26.11.3",
-      "page": 18
-    },
-    "title": "AB = Base area of the building, ft 2 (m 2 );",
-    "description": "",
-    "data": {
-      "rule": "AB = Base area of the building, ft 2 (m 2 );",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.11.3-T26",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -9470,11 +9789,12 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.11.3-H2"
   },
   {
-    "id": "ASCE7-22-26.11.4-P1",
-    "type": "provision",
+    "id": "ASCE7-22-26.11.4-H1",
+    "type": "heading",
     "source": {
       "standard": "ASCE 7-22",
       "chapter": 26,
@@ -9486,14 +9806,7 @@
     "description": "",
     "data": {
       "rule": "26.11.4 Rigid Buildings or Other Structures For rigid buildings or other structures as de fi ned in Section 26.2, the gust-effect factor shall be taken as 0.85 or calculated by this formula:",
-      "conditions": [
-        {
-          "parameter": "flexibility",
-          "operator": "==",
-          "value": "rigid",
-          "unit": null
-        }
-      ],
+      "conditions": [],
       "then": "",
       "else": null,
       "exceptions": []
@@ -9505,7 +9818,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.11.4-T1",
@@ -9533,10 +9847,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.11.4-H1"
   },
   {
-    "id": "ASCE7-22-26.11.4-P2",
+    "id": "ASCE7-22-26.11.4-P1",
     "type": "provision",
     "source": {
       "standard": "ASCE 7-22",
@@ -9559,10 +9874,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
-    "id": "ASCE7-22-26.11.4-P3",
+    "id": "ASCE7-22-26.11.4-P2",
     "type": "provision",
     "source": {
       "standard": "ASCE 7-22",
@@ -9587,7 +9903,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.11.4-T2",
@@ -9615,7 +9932,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.11.4-H1"
   },
   {
     "id": "ASCE7-22-26.11.4-T3",
@@ -9643,7 +9961,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.11.4-H1"
   },
   {
     "id": "ASCE7-22-26.11.5-H1",
@@ -9671,7 +9990,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.11.5-P1",
@@ -9697,7 +10017,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.11.5-T1",
@@ -9719,13 +10040,14 @@
       "exceptions": []
     },
     "cross_references": [
-      "ASCE7-22-26.11.4-P1"
+      "ASCE7-22-26.11.4-H1"
     ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.11.5-H1"
   },
   {
     "id": "ASCE7-22-26.11.5-T2",
@@ -9751,7 +10073,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.11.5-H1"
   },
   {
     "id": "ASCE7-22-26.11.5-T3",
@@ -9777,7 +10100,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.11.5-H1"
   },
   {
     "id": "ASCE7-22-26.11.5-T4",
@@ -9803,7 +10127,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.11.5-H1"
   },
   {
     "id": "ASCE7-22-26.11.5-T5",
@@ -9829,7 +10154,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.11.5-H1"
   },
   {
     "id": "ASCE7-22-26.11.5-T6",
@@ -9855,7 +10181,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.11.5-H1"
   },
   {
     "id": "ASCE7-22-26.11.5-T7",
@@ -9881,7 +10208,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.11.5-H1"
   },
   {
     "id": "ASCE7-22-26.11.5-T8",
@@ -9904,13 +10232,14 @@
     },
     "cross_references": [
       "ASCE7-22-26.11-T26-11-12",
-      "ASCE7-22-26.11.4-P1"
+      "ASCE7-22-26.11.4-H1"
     ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.11.5-H1"
   },
   {
     "id": "ASCE7-22-26.11.6-H1",
@@ -9936,7 +10265,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.11.7-P1",
@@ -9962,7 +10292,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.12-H1",
@@ -9988,7 +10319,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.12.1-H1",
@@ -10016,7 +10348,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.12.2-H1",
@@ -10042,7 +10375,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.12.3-P1",
@@ -10081,7 +10415,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.12.3.1-P1",
@@ -10103,13 +10438,14 @@
       "exceptions": []
     },
     "cross_references": [
-      "ASCE7-22-26.12.3.2-H1"
+      "ASCE7-22-26.12.3.2-P1"
     ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.12.3.1-T1",
@@ -10135,7 +10471,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.12-H1"
   },
   {
     "id": "ASCE7-22-26.12.3.1-T2",
@@ -10161,7 +10498,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.12-H1"
   },
   {
     "id": "ASCE7-22-26.12.3.1-P2",
@@ -10216,7 +10554,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.12.3.1-X1",
@@ -10242,33 +10581,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.12.3.2-H1",
-    "type": "heading",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.12.3.2",
-      "citation": "Section 26.12.3.2",
-      "page": 19
     },
-    "title": "26.12.3.2 Protection Requirements for Glazed",
-    "description": "",
-    "data": {
-      "rule": "26.12.3.2 Protection Requirements for Glazed",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.12.3.2-P1",
@@ -10280,10 +10594,10 @@
       "citation": "Section 26.12.3.2",
       "page": 19
     },
-    "title": "Openings Glazing in buildings requiring protection shall be impact resistant or be protected with an impact-protective system. Impact-protective systems and impact-resistant glazing shall be subjected",
+    "title": "26.12.3.2 Protection Requirements for Glazed Openings Glazing in buildings requiring protection shall be impact resistant or be protected with an impact-protective system. Impact-protective systems an",
     "description": "",
     "data": {
-      "rule": "Openings Glazing in buildings requiring protection shall be impact resistant or be protected with an impact-protective system. Impact-protective systems and impact-resistant glazing shall be subjected to missile test and cyclic pressure differential tests in accordance with ASTM E1996 as applicable. Testing to demonstrate compliance with ASTM E1996 shall be in accordance with ASTM E1886. Impact-resistant glazing and impact-protective systems shall comply with the pass/fail criteria of Section 7 of ASTME1996 based on the missile required by Table 3 or Table 4 of ASTM E1996. Glazing in sectional doors, rolling doors, and fl exible doors shall be subjected to missile tests and cyclic pressure differential tests in accordance with ANSI/DASMA 115 as applicable.",
+      "rule": "26.12.3.2 Protection Requirements for Glazed Openings Glazing in buildings requiring protection shall be impact resistant or be protected with an impact-protective system. Impact-protective systems and impact-resistant glazing shall be subjected to missile test and cyclic pressure differential tests in accordance with ASTM E1996 as applicable. Testing to demonstrate compliance with ASTM E1996 shall be in accordance with ASTM E1886. Impact-resistant glazing and impact-protective systems shall comply with the pass/fail criteria of Section 7 of ASTME1996 based on the missile required by Table 3 or Table 4 of ASTM E1996. Glazing in sectional doors, rolling doors, and fl exible doors shall be subjected to missile tests and cyclic pressure differential tests in accordance with ANSI/DASMA 115 as applicable.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -10294,7 +10608,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.12.3.2-P2",
@@ -10329,7 +10644,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.12.3.2-X1",
@@ -10355,7 +10671,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.13-H1",
@@ -10381,7 +10698,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.13-P1",
@@ -10404,13 +10722,14 @@
     },
     "cross_references": [
       "ASCE7-22-26.12-H1",
-      "ASCE7-22-26.13-T26-13-11"
+      "ASCE7-22-26.13-E26-13-11"
     ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.13.1-H1",
@@ -10436,7 +10755,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.13.1-T1",
@@ -10451,49 +10771,24 @@
     "title": "Table 26.13-1. Main Wind Force Resisting System and Components and Cladding (All Heights): Internal Pressure Coefficient, ( GCpi ), for Enclosed, Partially Enclosed, Partially Open, and Open Buildings",
     "description": "",
     "data": {
-      "rule": "Table 26.13-1. Main Wind Force Resisting System and Components and Cladding (All Heights): Internal Pressure Coefficient, ( GCpi ), for Enclosed, Partially Enclosed, Partially Open, and Open Buildings (Walls and Roof).",
+      "rule": "Table 26.13-1. Main Wind Force Resisting System and Components and Cladding (All Heights): Internal Pressure Coefficient, ( GCpi ), for Enclosed, Partially Enclosed, Partially Open, and Open Buildings (Walls and Roof). Notes:",
       "conditions": [],
       "then": "",
       "else": null,
       "exceptions": []
     },
     "cross_references": [
-      "ASCE7-22-26.13-T26-13-11"
+      "ASCE7-22-26.13-E26-13-11"
     ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.13.1-H1"
   },
   {
-    "id": "ASCE7-22-26.13.1-H2",
-    "type": "heading",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.13.1",
-      "citation": "Section 26.13.1",
-      "page": 20
-    },
-    "title": "Notes:",
-    "description": "",
-    "data": {
-      "rule": "Notes:",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    }
-  },
-  {
-    "id": "ASCE7-22-26.13.1-T2",
+    "id": "ASCE7-22-26.13.1-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -10516,7 +10811,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.13.1-H1"
   },
   {
     "id": "ASCE7-22-26.13.1-P1",
@@ -10542,7 +10838,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.13.1-P2",
@@ -10568,10 +10865,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
-    "id": "ASCE7-22-26.13.1-T3",
+    "id": "ASCE7-22-26.13.1-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -10594,10 +10892,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.13.1-H1"
   },
   {
-    "id": "ASCE7-22-26.13.1-T4",
+    "id": "ASCE7-22-26.13.1-T5",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -10620,7 +10919,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.13.1-H1"
   },
   {
     "id": "ASCE7-22-26.13.1-P3",
@@ -10646,10 +10946,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
-    "id": "ASCE7-22-26.13.1-T5",
+    "id": "ASCE7-22-26.13.1-T6",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -10672,7 +10973,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.13.1-H1"
   },
   {
     "id": "ASCE7-22-26.14-H1",
@@ -10698,7 +11000,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.14-P1",
@@ -10724,7 +11027,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.14-R1",
@@ -10746,7 +11050,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.14-R2",
@@ -10768,7 +11073,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.14-T2",
@@ -10794,7 +11100,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.14-H1"
   },
   {
     "id": "ASCE7-22-26.14-T3",
@@ -10820,7 +11127,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.14-H1"
   },
   {
     "id": "ASCE7-22-26.14-R3",
@@ -10842,7 +11150,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.14-R4",
@@ -10864,7 +11173,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.14-T5",
@@ -10890,7 +11200,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.14-H1"
   },
   {
     "id": "ASCE7-22-26.14-R5",
@@ -10912,7 +11223,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.14-T6",
@@ -10938,7 +11250,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": "ASCE7-22-26.14-H1"
   },
   {
     "id": "ASCE7-22-26.14-R6",
@@ -10960,7 +11273,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.11-T26-11-11",
@@ -11012,69 +11326,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": "docling"
-    }
-  },
-  {
-    "id": "ASCE7-22-26-T1",
-    "type": "table",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26",
-      "citation": "",
-      "page": 7
     },
-    "title": "Table",
-    "description": "",
-    "data": {
-      "columns": [
-        {
-          "name": "Location",
-          "unit": null
-        },
-        {
-          "name": "V(mi/h)",
-          "unit": null
-        },
-        {
-          "name": "V(m/s)",
-          "unit": null
-        }
-      ],
-      "rows": [
-        {
-          "Location": "American Samoa",
-          "V(mi/h)": 150,
-          "V(m/s)": "(67)"
-        },
-        {
-          "Location": "Guam &Northern Mariana Islands",
-          "V(mi/h)": 180,
-          "V(m/s)": "(80)"
-        },
-        {
-          "Location": "Hawaii",
-          "V(mi/h)": "ASCE Wind Design Geodatabase",
-          "V(m/s)": ""
-        },
-        {
-          "Location": "Puerto Rico",
-          "V(mi/h)": "ASCE Wind Design Geodatabase",
-          "V(m/s)": ""
-        },
-        {
-          "Location": "U.S. Virgin Islands",
-          "V(mi/h)": "ASCE Wind Design Geodatabase",
-          "V(m/s)": ""
-        }
-      ]
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "docling"
-    }
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.6-T26-6-11",
@@ -11167,7 +11420,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": "docling"
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.9-T26-9-11",
@@ -11254,10 +11508,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": "docling"
-    }
+    },
+    "parent_id": null
   },
   {
-    "id": "ASCE7-22-26-T2",
+    "id": "ASCE7-22-26-T1",
     "type": "table",
     "source": {
       "standard": "ASCE 7-22",
@@ -11505,10 +11760,11 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": "docling"
-    }
+    },
+    "parent_id": null
   },
   {
-    "id": "ASCE7-22-26-T3",
+    "id": "ASCE7-22-26-T2",
     "type": "table",
     "source": {
       "standard": "ASCE 7-22",
@@ -11594,7 +11850,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": "docling"
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.10-T26-10-11",
@@ -11800,7 +12057,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": "docling"
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.11-T26-11-12",
@@ -11986,7 +12244,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": "docling"
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.13-T26-13-11",
@@ -12051,7 +12310,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": "docling"
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.1-F26-1-11",
@@ -12075,7 +12335,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": "bold_label"
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.5-F26-5-11",
@@ -12099,7 +12360,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": "bold_label"
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.5-F26-5-1A1",
@@ -12123,7 +12385,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": "bold_label"
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.5-F26-5-1B1",
@@ -12147,7 +12410,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": "bold_label"
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.5-F26-5-1C1",
@@ -12171,7 +12435,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": "bold_label"
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.5-F26-5-1D1",
@@ -12195,7 +12460,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": "bold_label"
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.8-F26-8-11",
@@ -12219,7 +12485,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": "bold_label"
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-27.3-F27-3-81",
@@ -12243,7 +12510,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": "bold_label"
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26-R1",
@@ -12265,7 +12533,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": "bold_label"
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.11-E26-11-71",
@@ -12283,8 +12552,8 @@
       "expression": "c = Turbulence intensity factor in Equation (26.11-7)",
       "parameters": {
         "c": {
-          "description": "Panel chord factor for use with rooftop solar panels in Equation (29.4-5)",
-          "source": "ASCE7-22-26.3-T111"
+          "description": "Distance from the neutral axis of a fl exural member to the fi ber of maximum compressive strain, in. (mm)",
+          "source": "ASCE7-22-11.3-T25"
         }
       }
     },
@@ -12293,7 +12562,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": "from_text"
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.11-E26-11-61",
@@ -12321,7 +12591,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": "from_text"
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.11-E26-11-101",
@@ -12349,7 +12620,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": "from_text"
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.11-E26-11-141",
@@ -12365,14 +12637,20 @@
     "description": "",
     "data": {
       "expression": "N 1 = Reduced frequency from Equation (26.11-14)",
-      "parameters": {}
+      "parameters": {
+        "N": {
+          "description": "Average fi eld standard penetration resistance for the top 100 ft (30 m) (Sections 20.3.3 and 20.4.2)",
+          "source": "ASCE7-22-11.3-T73"
+        }
+      }
     },
     "cross_references": [],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": "from_text"
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.11-E26-11-81",
@@ -12400,7 +12678,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": "from_text"
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.11-E26-11-15a1",
@@ -12429,7 +12708,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": "from_text"
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.13-E26-13-11",
@@ -12457,7 +12737,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": "from_text"
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.11-E26-11-131",
@@ -12485,7 +12766,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": "from_text"
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.11-E26-11-161",
@@ -12508,7 +12790,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": "from_text"
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.11-E26-11-91",
@@ -12531,7 +12814,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": "from_text"
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.10-E26-10-11",
@@ -12549,12 +12833,12 @@
       "expression": "The velocity pressure at mean roof height is computed as qh = qz evaluated from Equation (26.10-1)",
       "parameters": {
         "qh": {
-          "description": "Velocity pressure evaluated at height",
-          "source": "ASCE7-22-26.3-T81"
+          "description": "Velocity pressure evaluated at mean roof height h using the exposure as de fi ned in Section 26.7.3 that results in the highest wind loads for any wind direction at the site; and",
+          "source": "ASCE7-22-30.5.2-T1"
         },
         "qz": {
-          "description": "Velocity pressure evaluated at height z above ground, lb/ft 2 (N/m 2 )",
-          "source": "ASCE7-22-26.3-T84"
+          "description": "Velocity pressure evaluated at height z , as de fi ned in Section 26.10, of the centroid of area Af ;",
+          "source": "ASCE7-22-29.4-T1"
         }
       }
     },
@@ -12563,7 +12847,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": "from_text"
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.8-E26-8-11",
@@ -12578,7 +12863,7 @@
     "title": "Equation (26.8-1)",
     "description": "",
     "data": {
-      "expression": "K = 1 K K K 2 (26.8-1)",
+      "expression": "K =\u00f01\u00feK K K \u00de2 (26.8-1)",
       "parameters": {}
     },
     "cross_references": [],
@@ -12586,7 +12871,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": "pdfplumber_scan"
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.11-E26-11-11",
@@ -12601,17 +12887,20 @@
     "title": "Equation (26.11-1)",
     "description": "",
     "data": {
-      "expression": "L eff = X i= n 1 (26.11-1)",
+      "expression": "L eff = i X = n 1 (26.11-1)",
       "parameters": {
-        "n": {
-          "description": "Lowest natural frequency for ground-mounted solar panels",
-          "unit": "Hz",
-          "source": "ASCE7-22-26.3-T75"
-        },
         "L": {
           "description": "Horizontal dimension of a building measured parallel to the wind direction",
           "unit": "ft",
           "source": "ASCE7-22-26.3-T64"
+        },
+        "i": {
+          "description": "Building level referred to by a subscript i ;",
+          "source": "ASCE7-22-11.3-T59"
+        },
+        "n": {
+          "description": "Designation for the level that is uppermost in the main portion of the building",
+          "source": "ASCE7-22-11.3-T76"
         }
       }
     },
@@ -12620,7 +12909,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": "pdfplumber_scan"
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.11-E26-11-21",
@@ -12635,16 +12925,19 @@
     "title": "Equation (26.11-2)",
     "description": "",
     "data": {
-      "expression": "i n =22.2\u2215h0.8 (26.11-2)",
+      "expression": "h i n =22.2\u2215h0.8 (26.11-2)",
       "parameters": {
+        "i": {
+          "description": "Building level referred to by a subscript i ;",
+          "source": "ASCE7-22-11.3-T59"
+        },
         "h": {
-          "description": "Mean roof height of a building or height of other structure, except that eave height shall be used for roof angle \u03b8 less than or equal to 10 degrees, in ft (m)",
-          "source": "ASCE7-22-26.3-P1"
+          "description": "Height of a shear wall measured as the maximum clear height from top of foundation to bottom of diaphragm framing above, or the maximum clear height from top of diaphragm to bottom of diaphragm framing above",
+          "source": "ASCE7-22-11.3-T49"
         },
         "n": {
-          "description": "Lowest natural frequency for ground-mounted solar panels",
-          "unit": "Hz",
-          "source": "ASCE7-22-26.3-T75"
+          "description": "Designation for the level that is uppermost in the main portion of the building",
+          "source": "ASCE7-22-11.3-T76"
         }
       }
     },
@@ -12653,7 +12946,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": "pdfplumber_scan"
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.11-E26-11-31",
@@ -12671,9 +12965,8 @@
       "expression": "26.11.3 Approximate Natural Frequency The approximate n a =43.5\u2215h0.9 (26.11-3)",
       "parameters": {
         "n": {
-          "description": "Lowest natural frequency for ground-mounted solar panels",
-          "unit": "Hz",
-          "source": "ASCE7-22-26.3-T75"
+          "description": "Designation for the level that is uppermost in the main portion of the building",
+          "source": "ASCE7-22-11.3-T76"
         },
         "a": {
           "description": "Approximate lower bound natural frequency from Section 26.11.2",
@@ -12681,8 +12974,8 @@
           "source": "ASCE7-22-26.3-T77"
         },
         "h": {
-          "description": "Mean roof height of a building or height of other structure, except that eave height shall be used for roof angle \u03b8 less than or equal to 10 degrees, in ft (m)",
-          "source": "ASCE7-22-26.3-P1"
+          "description": "Height of a shear wall measured as the maximum clear height from top of foundation to bottom of diaphragm framing above, or the maximum clear height from top of diaphragm to bottom of diaphragm framing above",
+          "source": "ASCE7-22-11.3-T49"
         }
       }
     },
@@ -12691,7 +12984,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": "pdfplumber_scan"
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.11-E26-11-41",
@@ -12709,13 +13003,12 @@
       "expression": "n a =75\u2215h (26.11-4)",
       "parameters": {
         "h": {
-          "description": "Mean roof height of a building or height of other structure, except that eave height shall be used for roof angle \u03b8 less than or equal to 10 degrees, in ft (m)",
-          "source": "ASCE7-22-26.3-P1"
+          "description": "Height of a shear wall measured as the maximum clear height from top of foundation to bottom of diaphragm framing above, or the maximum clear height from top of diaphragm to bottom of diaphragm framing above",
+          "source": "ASCE7-22-11.3-T49"
         },
         "n": {
-          "description": "Lowest natural frequency for ground-mounted solar panels",
-          "unit": "Hz",
-          "source": "ASCE7-22-26.3-T75"
+          "description": "Designation for the level that is uppermost in the main portion of the building",
+          "source": "ASCE7-22-11.3-T76"
         },
         "a": {
           "description": "Approximate lower bound natural frequency from Section 26.11.2",
@@ -12729,7 +13022,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": "pdfplumber_scan"
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.11-E26-11-51",
@@ -12744,16 +13038,15 @@
     "title": "Equation (26.11-5)",
     "description": "",
     "data": {
-      "expression": "n =385 C 0.5\u2215h (26.11-5)",
+      "expression": "n =385\u00f0C \u00de0.5\u2215h (26.11-5)",
       "parameters": {
         "h": {
-          "description": "Mean roof height of a building or height of other structure, except that eave height shall be used for roof angle \u03b8 less than or equal to 10 degrees, in ft (m)",
-          "source": "ASCE7-22-26.3-P1"
+          "description": "Height of a shear wall measured as the maximum clear height from top of foundation to bottom of diaphragm framing above, or the maximum clear height from top of diaphragm to bottom of diaphragm framing above",
+          "source": "ASCE7-22-11.3-T49"
         },
         "n": {
-          "description": "Lowest natural frequency for ground-mounted solar panels",
-          "unit": "Hz",
-          "source": "ASCE7-22-26.3-T75"
+          "description": "Designation for the level that is uppermost in the main portion of the building",
+          "source": "ASCE7-22-11.3-T76"
         }
       }
     },
@@ -12762,7 +13055,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": "pdfplumber_scan"
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.11-E26-11-111",
@@ -12777,20 +13071,24 @@
     "title": "Equation (26.11-11)",
     "description": "",
     "data": {
-      "expression": "buildings or other structures as defined in Section 26.2, the g R = 2ln \u00f0 3,600n 1\u00de\u00fe 2 ln 3,600n (26.11-11)",
+      "expression": "ildings or other structures as defined in Section 26.2, the g R = 2ln\u00f03,600n 1 \u00de\u00fepffi 2 ffiffiffiffi l ffiffi n ffiffi \u00f0 ffiffi 3 ffiffi , ffi 6 ffiffiffi 0 ffiffi 0 ffiffiffi n ffiffiffiffi \u00de ffiffi (26.11-11)",
       "parameters": {
+        "n": {
+          "description": "Designation for the level that is uppermost in the main portion of the building",
+          "source": "ASCE7-22-11.3-T76"
+        },
+        "l": {
+          "description": "Integral length scale factor from Table 26.11-1",
+          "unit": "ft",
+          "source": "ASCE7-22-26.3-T71"
+        },
         "R": {
-          "description": "Resonant response factor from Equation (26.1112)",
-          "source": "ASCE7-22-26.3-T85"
+          "description": "Response modi fi cation coef fi cient as given in Tables 12.2-1, 12.14-1, 15.4-1, and 15.4-2",
+          "source": "ASCE7-22-11.3-T82"
         },
         "g": {
           "description": "Nominal height of the atmospheric boundary layer used in this standard (values appear in Table 26.11-1)",
           "source": "ASCE7-22-26.3-T105"
-        },
-        "n": {
-          "description": "Lowest natural frequency for ground-mounted solar panels",
-          "unit": "Hz",
-          "source": "ASCE7-22-26.3-T75"
         }
       }
     },
@@ -12799,7 +13097,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": "pdfplumber_scan"
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.11-E26-11-121",
@@ -12814,11 +13113,11 @@
     "title": "Equation (26.11-12)",
     "description": "",
     "data": {
-      "expression": "33 1\u22156 R= R R R 0.53 0.47R (26.11-12)",
+      "expression": "33 1\u22156 R= R R R \u00f00.53\u00fe0.47R \u00de (26.11-12)",
       "parameters": {
         "R": {
-          "description": "Resonant response factor from Equation (26.1112)",
-          "source": "ASCE7-22-26.3-T85"
+          "description": "Response modi fi cation coef fi cient as given in Tables 12.2-1, 12.14-1, 15.4-1, and 15.4-2",
+          "source": "ASCE7-22-11.3-T82"
         }
       }
     },
@@ -12827,7 +13126,8 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": "pdfplumber_scan"
-    }
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.11-E26-11-15b1",
@@ -12844,23 +13144,22 @@
     "data": {
       "expression": "\u03b7 =4.6n B\u2215V (26.11-15b)",
       "parameters": {
-        "n": {
-          "description": "Lowest natural frequency for ground-mounted solar panels",
-          "unit": "Hz",
-          "source": "ASCE7-22-26.3-T75"
-        },
         "B": {
           "description": "Horizontal dimension of a building measured normal to wind direction",
           "unit": "ft",
           "source": "ASCE7-22-26.3-T14"
         },
-        "V": {
-          "description": "Basic wind speed obtained from Figures 26.5-1A through 26.5-1D, mi/h (m/s); the basic wind speed corresponds to a 3 s gust speed at 33 ft (10 m) above the ground in Exposure Category C",
-          "source": "ASCE7-22-26.3-T95"
+        "n": {
+          "description": "Designation for the level that is uppermost in the main portion of the building",
+          "source": "ASCE7-22-11.3-T76"
         },
         "b": {
           "description": "Mean hourly wind speed factor in Equation (26.1116), from Table 26.11-1",
           "source": "ASCE7-22-26.3-T15"
+        },
+        "V": {
+          "description": "Basic wind speed obtained from Figures 26.5-1A through 26.5-1D, mi/h (m/s); the basic wind speed corresponds to a 3 s gust speed at 33 ft (10 m) above the ground in Exposure Category C",
+          "source": "ASCE7-22-26.3-T95"
         }
       }
     },
@@ -12869,6 +13168,7 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": "pdfplumber_scan"
-    }
+    },
+    "parent_id": null
   }
 ]

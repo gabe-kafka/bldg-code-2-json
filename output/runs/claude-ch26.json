@@ -1,0 +1,3193 @@
+[
+  {
+    "id": "ASCE7-22-26.1.1-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.1.1",
+      "citation": "Section 26.1.1",
+      "page": 261
+    },
+    "title": "Scope",
+    "description": "Defines the scope of Chapter 26 regarding buildings and other structures using MWFRS and C&C.",
+    "data": {
+      "rule": "Buildings and other structures, including the main wind force resisting system (MWFRS) and all components and cladding (C&C) thereof, shall be designed and constructed to resist the wind loads determined in accordance with Chapters 26 through 31.",
+      "conditions": [],
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.1.1-P2",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.1.1",
+      "citation": "Section 26.1.1",
+      "page": 261
+    },
+    "title": "Risk Category II and III Buildings \u2013 Tornado Wind Loads",
+    "description": null,
+    "data": {
+      "rule": "Risk Category II and III buildings and other structures, including the MWFRS and C&C thereof, shall also be designed and constructed to resist tornado wind loads determined in accordance with Chapter 32, as applicable.",
+      "conditions": [
+        {
+          "parameter": "risk_category",
+          "operator": "in",
+          "value": [
+            "II",
+            "III"
+          ]
+        }
+      ],
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.1.2.1-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.1.2.1",
+      "citation": "Section 26.1.2.1",
+      "page": 261
+    },
+    "title": "Permitted Procedures \u2013 MWFRS",
+    "description": null,
+    "data": {
+      "rule": "The design wind loads for buildings and other structures, including the MWFRS and C&C elements thereof, shall be determined using one of the following procedures: 1. Directional Procedure for buildings of all heights as specified in Chapter 27; 2. Envelope Procedure for low-rise buildings as specified in Chapter 28; 3. Directional Procedure for building appurtenances (roof overhangs and parapets) and other structures as specified in Chapter 29; 4. Wind Tunnel Procedure for any building or other structure as specified in Chapter 31.",
+      "conditions": [],
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.1.2.2-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.1.2.2",
+      "citation": "Section 26.1.2.2",
+      "page": 261
+    },
+    "title": "Components and Cladding \u2013 Permitted Procedures",
+    "description": null,
+    "data": {
+      "rule": "Wind loads on C&C on all buildings and other structures shall be designed using one of the following procedures: 1. Analytical Procedures provided in Parts 1 through 5, as appropriate, of Chapter 30; or 2. Wind Tunnel Procedure as specified in Chapter 31.",
+      "conditions": [],
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.1.3-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.1.3",
+      "citation": "Section 26.1.3",
+      "page": 261
+    },
+    "title": "Performance-Based Procedures",
+    "description": null,
+    "data": {
+      "rule": "Wind design of buildings and other structures using performance-based procedures shall be permitted subject to the approval of the Authority Having Jurisdiction. The performance-based wind design procedures used shall, at a minimum, conform to Section 1.3.1.3.",
+      "conditions": [],
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.1-F26.1-1",
+    "type": "figure",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.1",
+      "citation": "Figure 26.1-1",
+      "page": 262
+    },
+    "title": "Figure 26.1-1: Outline of Process for Determining Wind Loads",
+    "description": "Flowchart showing the decision process for determining wind loads on both MWFRS and C&C, listing basic parameters and linking to applicable chapters (27 through 32) depending on building type and procedure.",
+    "data": {
+      "figure_type": "flowchart",
+      "description": "Chapter 26 General Requirements box lists basic parameters (basic wind speed V, directionality factor K_d, exposure category, topographic factor K_zt, ground elevation above sea level, velocity pressure, gust effect factor, enclosure classification, internal pressure coefficient GC_pi). Flow splits into MWFRS procedures (Chapters 27, 28, 29, 31) and C&C procedures (Chapter 30: Parts 1-5, and Chapter 31: Wind Tunnel). Note states additional outlines and User Notes at beginning of each chapter for more detailed step-by-step procedures.",
+      "source_pdf_page": 262
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.2-D1",
+    "type": "definition",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.2",
+      "citation": "Section 26.2",
+      "page": 261
+    },
+    "title": "Definition: APPROVED",
+    "description": null,
+    "data": {
+      "term": "APPROVED",
+      "definition": "Acceptable to the Authority Having Jurisdiction."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.2-D2",
+    "type": "definition",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.2",
+      "citation": "Section 26.2",
+      "page": 261
+    },
+    "title": "Definition: ASCE WIND DESIGN GEODATABASE",
+    "description": null,
+    "data": {
+      "term": "ASCE WIND DESIGN GEODATABASE",
+      "definition": "The ASCE database (online version 2023-1.0) of geocoded wind speed design data."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.2-D3",
+    "type": "definition",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.2",
+      "citation": "Section 26.2",
+      "page": 261
+    },
+    "title": "Definition: ATTACHED CANOPY",
+    "description": null,
+    "data": {
+      "term": "ATTACHED CANOPY",
+      "definition": "A horizontal (maximum slope of 2:6) patio cover attached to the building wall at any height; it is different from an overhang, which is an extension of the roof surface."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.2-D4",
+    "type": "definition",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.2",
+      "citation": "Section 26.2",
+      "page": 261
+    },
+    "title": "Definition: BASIC WIND SPEED, V",
+    "description": null,
+    "data": {
+      "term": "BASIC WIND SPEED, V",
+      "definition": "Three-second gust speed at 33 ft (10 m) above the ground in Exposure Category C. See Section 26.5 as determined in accordance with Section 26.5.1."
+    },
+    "cross_references": [
+      "ASCE7-22-26.5.1-P1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.2-D5",
+    "type": "definition",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.2",
+      "citation": "Section 26.2",
+      "page": 261
+    },
+    "title": "Definition: BUILDING, ELEVATED",
+    "description": null,
+    "data": {
+      "term": "BUILDING, ELEVATED",
+      "definition": "A building supported on structural columns, not including solid perimeter walls, where the bottom of the lowest horizontal structural member of the lowest floor is at an elevation greater than 3 ft (0.9 m) above the ground."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.2-D6",
+    "type": "definition",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.2",
+      "citation": "Section 26.2",
+      "page": 261
+    },
+    "title": "Definition: BUILDING, ENCLOSED",
+    "description": null,
+    "data": {
+      "term": "BUILDING, ENCLOSED",
+      "definition": "A building that does not comply with the requirements for open or partially enclosed buildings."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.2-D7",
+    "type": "definition",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.2",
+      "citation": "Section 26.2",
+      "page": 261
+    },
+    "title": "Definition: BUILDING, OPEN",
+    "description": null,
+    "data": {
+      "term": "BUILDING, OPEN",
+      "definition": "A building that has each wall at least 80% open. This condition is expressed for each wall by the equation A_o >= 0.8A_g, where A_o is the total area of openings in a wall that receives positive external pressure, ft2 (m2), and A_g is the gross area of that wall, ft2 (m2)."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.2-D8",
+    "type": "definition",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.2",
+      "citation": "Section 26.2",
+      "page": 262
+    },
+    "title": "Definition: BUILDING, PARTIALLY ENCLOSED",
+    "description": null,
+    "data": {
+      "term": "BUILDING, PARTIALLY ENCLOSED",
+      "definition": "A building that complies with both of the following conditions: 1. The total area of openings in a wall that receives positive external pressure exceeds the sum of the areas of openings in the balance of the building envelope (walls and roof) by more than 10%; 2. The total area of openings in a wall that receives positive external pressure exceeds 4 ft2 (0.37 m2) or 1% of the area of that wall, whichever is smaller, and the percentage of openings in the balance of the building envelope does not exceed 20%. These conditions are expressed by the following equations: A_o > 1.10A_oi."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.2-D9",
+    "type": "definition",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.2",
+      "citation": "Section 26.2",
+      "page": 262
+    },
+    "title": "Definition: BUILDING, TORSIONALLY REGULAR UNDER WIND LOAD",
+    "description": null,
+    "data": {
+      "term": "BUILDING, TORSIONALLY REGULAR UNDER WIND LOAD",
+      "definition": "A building with the MWFRS about each principal axis proportioned so that the maximum displacement at each story under Case 2, the torsional wind load case, of Figure 27.3-8 does not exceed the maximum displacement at the same location under Figure 27.3-8, Case 1-8, the basic wind load case."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.2-D10",
+    "type": "definition",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.2",
+      "citation": "Section 26.2",
+      "page": 262
+    },
+    "title": "Definition: BUILDING ENVELOPE",
+    "description": null,
+    "data": {
+      "term": "BUILDING ENVELOPE",
+      "definition": "Cladding, roofing, exterior walls, glazing, door assemblies, window assemblies, skylight assemblies, and other components enclosing the building."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.2-D11",
+    "type": "definition",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.2",
+      "citation": "Section 26.2",
+      "page": 262
+    },
+    "title": "Definition: BUILDING OR OTHER STRUCTURE, FLEXIBLE",
+    "description": null,
+    "data": {
+      "term": "BUILDING OR OTHER STRUCTURE, FLEXIBLE",
+      "definition": "Slender buildings and other structures that have a fundamental natural frequency less than 1 Hz."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.2-D12",
+    "type": "definition",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.2",
+      "citation": "Section 26.2",
+      "page": 262
+    },
+    "title": "Definition: BUILDING OR OTHER STRUCTURE, RIGID",
+    "description": null,
+    "data": {
+      "term": "BUILDING OR OTHER STRUCTURE, RIGID",
+      "definition": "A building or other structure whose fundamental frequency is greater than or equal to 1 Hz."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.2-D13",
+    "type": "definition",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.2",
+      "citation": "Section 26.2",
+      "page": 262
+    },
+    "title": "Definition: BUILDING OR OTHER STRUCTURE, REGULAR-SHAPED",
+    "description": null,
+    "data": {
+      "term": "BUILDING OR OTHER STRUCTURE, REGULAR-SHAPED",
+      "definition": "A building or other structure having no unusual geometrical irregularity in spatial form."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.2-D14",
+    "type": "definition",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.2",
+      "citation": "Section 26.2",
+      "page": 263
+    },
+    "title": "Definition: COMPONENTS AND CLADDING (C&C)",
+    "description": null,
+    "data": {
+      "term": "COMPONENTS AND CLADDING (C&C)",
+      "definition": "Elements of the building envelope or elements of building appurtenances and rooftop structures and equipment that do not qualify as part of the MWFRS."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.2-D15",
+    "type": "definition",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.2",
+      "citation": "Section 26.2",
+      "page": 263
+    },
+    "title": "Definition: DESIGN FORCE, F",
+    "description": null,
+    "data": {
+      "term": "DESIGN FORCE, F",
+      "definition": "Equivalent static force to be used in the determination of wind loads for open buildings."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.2-D16",
+    "type": "definition",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.2",
+      "citation": "Section 26.2",
+      "page": 263
+    },
+    "title": "Definition: DESIGN PRESSURE, p",
+    "description": null,
+    "data": {
+      "term": "DESIGN PRESSURE, p",
+      "definition": "Equivalent static pressure to be used in the determination of wind loads for buildings."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.2-D17",
+    "type": "definition",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.2",
+      "citation": "Section 26.2",
+      "page": 263
+    },
+    "title": "Definition: DIAPHRAGM",
+    "description": null,
+    "data": {
+      "term": "DIAPHRAGM",
+      "definition": "Roof, floor, or other membrane or bracing system used to transfer lateral forces to the vertical MWFRS. For analysis under wind loads, diaphragms constructed of untopped steel decks, concrete-filled steel decks, and concrete slabs, each having a span-to-depth ratio of 2 or less, shall be permitted to be idealized as rigid. Diaphragms constructed of wood structural panels shall be idealized as a flexible diaphragm."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.2-D18",
+    "type": "definition",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.2",
+      "citation": "Section 26.2",
+      "page": 263
+    },
+    "title": "Definition: DIRECTIONAL PROCEDURE",
+    "description": null,
+    "data": {
+      "term": "DIRECTIONAL PROCEDURE",
+      "definition": "A procedure for determining wind loads for buildings and other structures in which the external pressure coefficients used are based on past wind tunnel testing of prototypical building models for specific wind directions."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.2-D19",
+    "type": "definition",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.2",
+      "citation": "Section 26.2",
+      "page": 263
+    },
+    "title": "Definition: EAVE HEIGHT, h_e",
+    "description": null,
+    "data": {
+      "term": "EAVE HEIGHT, h_e",
+      "definition": "The distance from the ground surface adjacent to the building to the roof eave line at a particular wall. If the height of the wall varies along the wall, the average height shall be used."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.2-D20",
+    "type": "definition",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.2",
+      "citation": "Section 26.2",
+      "page": 263
+    },
+    "title": "Definition: EFFECTIVE WIND AREA, A",
+    "description": null,
+    "data": {
+      "term": "EFFECTIVE WIND AREA, A",
+      "definition": "The area used to determine the external pressure coefficient GC_p and GC_r. For C&C elements, the effective wind area in Figures 30.4-1, 30.4-2 through 30.5-1, and 30.7-1 through 30.7-3 is the span length multiplied by an effective width that need not be less than one-third the span length. For rooftop solar arrays, the effective wind area is defined in Figures 29.4-7 and 29.4-8 as the area tributary for the element being considered, except that the width of the effective wind area shall not be less than 33% of the span length for the panel or area that is tributary to an individual fastener."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.2-D21",
+    "type": "definition",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.2",
+      "citation": "Section 26.2",
+      "page": 263
+    },
+    "title": "Definition: ENVELOPE PROCEDURE",
+    "description": null,
+    "data": {
+      "term": "ENVELOPE PROCEDURE",
+      "definition": "A procedure for determining wind loads for buildings in which the external pressure coefficients used were obtained by enveloping (i.e., taking the maximum from all wind directions) the pressures from wind tunnel testing of prototypical building models for all wind directions."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.2-D22",
+    "type": "definition",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.2",
+      "citation": "Section 26.2",
+      "page": 263
+    },
+    "title": "Definition: ESCARPMENT",
+    "description": null,
+    "data": {
+      "term": "ESCARPMENT",
+      "definition": "With respect to topographic effects in Section 26.8, a cliff or steep slope generally greater than 60 ft (18 m) in height separating two levels or gently sloping areas (see Figure 26.8-1). Also known as a scarp."
+    },
+    "cross_references": [
+      "ASCE7-22-26.8-F26.8-1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.2-D23",
+    "type": "definition",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.2",
+      "citation": "Section 26.2",
+      "page": 263
+    },
+    "title": "Definition: FREE ROOF",
+    "description": null,
+    "data": {
+      "term": "FREE ROOF",
+      "definition": "A roof with a configuration generally conforming to those shown in Figures 27.3-4 through 27.3-6 (mono-slope, pitched, or troughed configurations) with a clear wind flow path under the roof, meaning walls underneath the roof surface."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.2-D24",
+    "type": "definition",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.2",
+      "citation": "Section 26.2",
+      "page": 263
+    },
+    "title": "Definition: GLAZING",
+    "description": null,
+    "data": {
+      "term": "GLAZING",
+      "definition": "Glass or transparent or translucent plastic sheet used in windows, doors, skylights, or curtain walls."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.2-D25",
+    "type": "definition",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.2",
+      "citation": "Section 26.2",
+      "page": 263
+    },
+    "title": "Definition: GLAZING, IMPACT-RESISTANT",
+    "description": null,
+    "data": {
+      "term": "GLAZING, IMPACT-RESISTANT",
+      "definition": "Glazing that has been shown by testing to withstand the impact of test missiles and that is applied, attached, or locked exterior glazing. See Section 26.12.3.2."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.2-D26",
+    "type": "definition",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.2",
+      "citation": "Section 26.2",
+      "page": 263
+    },
+    "title": "Definition: HILL",
+    "description": null,
+    "data": {
+      "term": "HILL",
+      "definition": "With respect to topographic effects in Section 26.8, a land surface characterized by strong relief in any horizontal direction (see Figure 26.8-1)."
+    },
+    "cross_references": [
+      "ASCE7-22-26.8-F26.8-1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.2-D27",
+    "type": "definition",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.2",
+      "citation": "Section 26.2",
+      "page": 263
+    },
+    "title": "Definition: HURRICANE-PRONE REGIONS",
+    "description": null,
+    "data": {
+      "term": "HURRICANE-PRONE REGIONS",
+      "definition": "Areas vulnerable to hurricanes defined as: 1. The US Atlantic Ocean and Gulf of Mexico coasts where the basic wind speed for Risk Category II buildings is greater than 115 mph (51.4 m/s); and 2. Hawaii, Puerto Rico, Guam, US Virgin Islands, Northern Mariana Islands, and American Samoa."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.2-D28",
+    "type": "definition",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.2",
+      "citation": "Section 26.2",
+      "page": 263
+    },
+    "title": "Definition: IMPACT-PROTECTIVE SYSTEM",
+    "description": null,
+    "data": {
+      "term": "IMPACT-PROTECTIVE SYSTEM",
+      "definition": "Construction that has been shown by testing to withstand the impact of test missiles and that is applied, attached, or locked exterior glazing. See Sections 26.12.3.2 and 26.12.3.3."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.2-D29",
+    "type": "definition",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.2",
+      "citation": "Section 26.2",
+      "page": 263
+    },
+    "title": "Definition: MAIN WIND FORCE RESISTING SYSTEM (MWFRS)",
+    "description": null,
+    "data": {
+      "term": "MAIN WIND FORCE RESISTING SYSTEM (MWFRS)",
+      "definition": "An assemblage of structural elements assigned to provide support and stability for the overall building or other structure. The system generally receives wind loading from more than one surface."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.2-D30",
+    "type": "definition",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.2",
+      "citation": "Section 26.2",
+      "page": 263
+    },
+    "title": "Definition: MEAN ROOF HEIGHT, h",
+    "description": null,
+    "data": {
+      "term": "MEAN ROOF HEIGHT, h",
+      "definition": "The average of the roof eave height and the height to the highest point of the roof surface, except that, for roof angles less than or equal to 10 degrees, the mean roof height shall be the roof eave height."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.2-D31",
+    "type": "definition",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.2",
+      "citation": "Section 26.2",
+      "page": 263
+    },
+    "title": "Definition: OPENINGS",
+    "description": null,
+    "data": {
+      "term": "OPENINGS",
+      "definition": "Holes that allow air to flow through the building envelope during a design wind event."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.2-D32",
+    "type": "definition",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.2",
+      "citation": "Section 26.2",
+      "page": 264
+    },
+    "title": "Definition: RECOGNIZED LITERATURE",
+    "description": null,
+    "data": {
+      "term": "RECOGNIZED LITERATURE",
+      "definition": "Published research findings and technical papers that are approved."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.2-D33",
+    "type": "definition",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.2",
+      "citation": "Section 26.2",
+      "page": 264
+    },
+    "title": "Definition: RIDGE",
+    "description": null,
+    "data": {
+      "term": "RIDGE",
+      "definition": "With respect to topographic effects in Section 26.8, an elongated crest of a hill characterized by strong relief in two directions (see Figure 26.8-1)."
+    },
+    "cross_references": [
+      "ASCE7-22-26.8-F26.8-1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.2-D34",
+    "type": "definition",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.2",
+      "citation": "Section 26.2",
+      "page": 264
+    },
+    "title": "Definition: ROOFTOP SOLAR PANEL",
+    "description": null,
+    "data": {
+      "term": "ROOFTOP SOLAR PANEL",
+      "definition": "A device to receive solar radiation and convert it into electricity or heat energy. Typically, this is a photovoltaic module or solar thermal panel."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.2-D35",
+    "type": "definition",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.2",
+      "citation": "Section 26.2",
+      "page": 264
+    },
+    "title": "Definition: SOLAR ARRAY",
+    "description": null,
+    "data": {
+      "term": "SOLAR ARRAY",
+      "definition": "A number of rooftop solar panels connected together."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.2-D36",
+    "type": "definition",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.2",
+      "citation": "Section 26.2",
+      "page": 264
+    },
+    "title": "Definition: WIND-BORNE DEBRIS REGIONS",
+    "description": null,
+    "data": {
+      "term": "WIND-BORNE DEBRIS REGIONS",
+      "definition": "Areas within hurricane-prone regions located: (1) within 1 mi (1.61 km) of the coastal mean high water line where the basic wind speed is equal to or greater than 130 mph (58 m/s) or (2) in areas where the basic wind speed is equal to or greater than 140 mph (63 m/s); and (3) Hawaii."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.2-D37",
+    "type": "definition",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.2",
+      "citation": "Section 26.2",
+      "page": 264
+    },
+    "title": "Definition: WIND TUNNEL PROCEDURE",
+    "description": null,
+    "data": {
+      "term": "WIND TUNNEL PROCEDURE",
+      "definition": "A procedure for determining wind loads for buildings and other structures in which pressures and/or forces and moments are determined for each wind direction and wind speed from a model of the building or other structure and its surroundings, in accordance with Chapter 31."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.3-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.3",
+      "citation": "Section 26.3",
+      "page": 264
+    },
+    "title": "Symbols \u2013 Wind Loads General Requirements",
+    "description": "List of symbols and their definitions used throughout Chapters 26 through 31 wind load provisions.",
+    "data": {
+      "rule": "The following symbols apply only to the provisions of Chapters 26 through 31.",
+      "conditions": [],
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.4-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.4",
+      "citation": "Section 26.4",
+      "page": 265
+    },
+    "title": "General \u2014 Wind Hazard Map",
+    "description": "Establishes which wind speed map to use based on Risk Category.",
+    "data": {
+      "rule": "For Risk Category I buildings and structures, use Figure 26.5-1A. For Risk Category II buildings and structures, use Figure 26.5-1B. For Risk Category III buildings and structures, use Figure 26.5-1C. For Risk Category IV buildings and structures, use Figure 26.5-1D.",
+      "conditions": [
+        {
+          "parameter": "risk_category",
+          "operator": "==",
+          "value": "I"
+        },
+        {
+          "parameter": "risk_category",
+          "operator": "==",
+          "value": "II"
+        },
+        {
+          "parameter": "risk_category",
+          "operator": "==",
+          "value": "III"
+        },
+        {
+          "parameter": "risk_category",
+          "operator": "==",
+          "value": "IV"
+        }
+      ],
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.5-F26.5-1A",
+      "ASCE7-22-26.5-F26.5-1B",
+      "ASCE7-22-26.5-F26.5-1C",
+      "ASCE7-22-26.5-F26.5-1D"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.5.1-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.5.1",
+      "citation": "Section 26.5.1",
+      "page": 265
+    },
+    "title": "Basic Wind Speed \u2014 General Determination",
+    "description": null,
+    "data": {
+      "rule": "The basic wind speed, V, used in the determination of design wind loads on buildings and other structures shall be determined from Figure 26.5-1 as follows, except as provided in Section 26.5.2 and 26.5.3.",
+      "conditions": [],
+      "exceptions": [
+        "Alternatively, it shall be permitted to use the basic wind speeds determined using the ASCE Wind Design Geodatabase."
+      ]
+    },
+    "cross_references": [
+      "ASCE7-22-26.5-F26.5-1A",
+      "ASCE7-22-26.5-F26.5-1B",
+      "ASCE7-22-26.5-F26.5-1C",
+      "ASCE7-22-26.5-F26.5-1D"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.5-F26.5-1A",
+    "type": "figure",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.5",
+      "citation": "Figure 26.5-1A",
+      "page": 266
+    },
+    "title": "Figure 26.5-1A. Basic wind speeds for Risk Category I buildings and other structures.",
+    "description": "Contour map of the contiguous western United States and Hawaii showing basic wind speeds in mph (m/s) at 33 ft (10 m) above ground for Exposure Category C, applicable to Risk Category I buildings and structures. Notes: (1) Values are 3-s gust wind speeds at 33 ft above ground for Exposure C. (2) Linear interpolation permitted between contours. (3) Islands/coastal areas outside last contour use last wind speed contour. (4) Location-specific values permitted from ASCE Wind Design Geodatabase.",
+    "data": {
+      "figure_type": "contour_map",
+      "description": "Contour map showing basic wind speeds for Risk Category I. Contour values include 85(38), 90(40), 95(42), 100(45), 105(47), 110(49), 120(54), 130(58), 140(63), 150(67) mph (m/s). Wind speeds correspond to approximately 15% probability of exceedance in 50 years (Annual Exceedance Probability = 0.00333, MRI = 300 years).",
+      "source_pdf_page": 266
+    },
+    "cross_references": [
+      "ASCE7-22-26.5.1-P1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.5-F26.5-1A-cont",
+    "type": "figure",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.5",
+      "citation": "Figure 26.5-1A (Continued)",
+      "page": 267
+    },
+    "title": "Figure 26.5-1A (Continued). Basic wind speeds for Risk Category I \u2014 Eastern US and Special Regions.",
+    "description": "Continuation showing eastern US, Gulf Coast, Atlantic Coast, and special wind regions. Includes special location table: American Samoa 150(67), Guam & Northern Mariana Islands 180(80). Hawaii, Puerto Rico, US Virgin Islands use ASCE Wind Design Geodatabase.",
+    "data": {
+      "figure_type": "contour_map",
+      "description": "Eastern US contour map continuation for Risk Category I. Contour values 95(42) through 170(76) mph. Special Wind Regions shown with hatching. Wind speeds correspond to approximately 15% probability of exceedance in 50 years (MRI = 300 years).",
+      "source_pdf_page": 267
+    },
+    "cross_references": [
+      "ASCE7-22-26.5-F26.5-1A"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.5-F26.5-1B",
+    "type": "figure",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.5",
+      "citation": "Figure 26.5-1B",
+      "page": 268
+    },
+    "title": "Figure 26.5-1B. Basic wind speeds for Risk Category II buildings and other structures.",
+    "description": "Contour map of the contiguous western United States and Hawaii showing basic wind speeds for Risk Category II. Contour values include 90(40), 95(42), 100(45), 105(47), 110(49), 120(54), 130(58), 140(63), 150(67), 160(72) mph (m/s).",
+    "data": {
+      "figure_type": "contour_map",
+      "description": "Western US and Hawaii contour map for Risk Category II basic wind speeds at 33 ft above ground for Exposure C.",
+      "source_pdf_page": 268
+    },
+    "cross_references": [
+      "ASCE7-22-26.5.1-P1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.5-F26.5-1B-cont",
+    "type": "figure",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.5",
+      "citation": "Figure 26.5-1B (Continued)",
+      "page": 269
+    },
+    "title": "Figure 26.5-1B (Continued). Basic wind speeds for Risk Category II \u2014 Eastern US and Special Regions.",
+    "description": "Continuation showing eastern US and special regions for Risk Category II. Special locations: American Samoa 160(72), Guam & Northern Mariana Islands 195(87). Hawaii, Puerto Rico, US Virgin Islands use ASCE Wind Design Geodatabase. Wind speeds correspond to approximately 7% probability of exceedance in 50 years (MRI = 700 years).",
+    "data": {
+      "figure_type": "contour_map",
+      "description": "Eastern US contour map continuation for Risk Category II. Contour values through 180 mph. Special Wind Regions shown with hatching.",
+      "source_pdf_page": 269
+    },
+    "cross_references": [
+      "ASCE7-22-26.5-F26.5-1B"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.5-F26.5-1C",
+    "type": "figure",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.5",
+      "citation": "Figure 26.5-1C",
+      "page": 270
+    },
+    "title": "Figure 26.5-1C. Basic wind speeds for Risk Category III buildings and other structures.",
+    "description": "Contour map showing basic wind speeds for Risk Category III in the western and central US, including Alaska inset.",
+    "data": {
+      "figure_type": "contour_map",
+      "description": "Western/central US contour map for Risk Category III basic wind speeds at 33 ft above ground for Exposure C. Contour values include 95 through 170 mph.",
+      "source_pdf_page": 270
+    },
+    "cross_references": [
+      "ASCE7-22-26.5-F26.5-1C-cont"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.5-F26.5-1C-cont",
+    "type": "figure",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.5",
+      "citation": "Figure 26.5-1C (Continued)",
+      "page": 271
+    },
+    "title": "Figure 26.5-1C (Continued). Basic wind speeds for Risk Category III \u2014 Eastern US and Special Regions.",
+    "description": "Continuation for Risk Category III, eastern US, Gulf Coast, Caribbean. Special locations: American Samoa 170(76), Guam & Northern Mariana Islands 210(94). Hawaii, Puerto Rico, US Virgin Islands use ASCE Wind Design Geodatabase.",
+    "data": {
+      "figure_type": "contour_map",
+      "description": "Eastern US contour map continuation for Risk Category III. Contour values through 200 mph. Special Wind Regions shown with hatching.",
+      "source_pdf_page": 271
+    },
+    "cross_references": [
+      "ASCE7-22-26.5-F26.5-1C"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.5-F26.5-1D",
+    "type": "figure",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.5",
+      "citation": "Figure 26.5-1D",
+      "page": 272
+    },
+    "title": "Figure 26.5-1D. Basic wind speeds for Risk Category IV buildings and other structures.",
+    "description": "Contour map showing basic wind speeds for Risk Category IV in the western, central, and eastern US, including Alaska inset.",
+    "data": {
+      "figure_type": "contour_map",
+      "description": "US contour map for Risk Category IV basic wind speeds at 33 ft above ground for Exposure C. Contour values include 100 through 175 mph.",
+      "source_pdf_page": 272
+    },
+    "cross_references": [
+      "ASCE7-22-26.5-F26.5-1D-cont"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.5-F26.5-1D-cont",
+    "type": "figure",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.5",
+      "citation": "Figure 26.5-1D (Continued)",
+      "page": 273
+    },
+    "title": "Figure 26.5-1D (Continued). Basic wind speeds for Risk Category IV \u2014 Eastern US and Special Regions.",
+    "description": "Continuation for Risk Category IV, eastern US and Caribbean. Special locations: American Samoa 180(80), Guam & Northern Mariana Islands 220(98). Hawaii, Puerto Rico, US Virgin Islands use ASCE Wind Design Geodatabase.",
+    "data": {
+      "figure_type": "contour_map",
+      "description": "Eastern US contour map continuation for Risk Category IV. Contour values through 200+ mph. Special Wind Regions shown with hatching.",
+      "source_pdf_page": 273
+    },
+    "cross_references": [
+      "ASCE7-22-26.5-F26.5-1D"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.6-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.6",
+      "citation": "Section 26.6",
+      "page": 274
+    },
+    "title": "Wind Directionality Factor",
+    "description": null,
+    "data": {
+      "rule": "The wind directionality factor, K_d, shall be determined from Table 26.6-1 and shall be included in the wind loads calculated in Chapter 27 through 31. This factor of wind directionality for determining wind loads in accordance with Chapter 31 shall be based on a rational analysis of the wind speeds conforming to the requirements of Section 26.5.3 and of Section 31.4.3.",
+      "conditions": [],
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.6-T26.6-1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.6-T26.6-1",
+    "type": "table",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.6",
+      "citation": "Table 26.6-1",
+      "page": 274
+    },
+    "title": "Table 26.6-1. Wind Directionality Factor, K_d",
+    "description": null,
+    "data": {
+      "columns": [
+        {
+          "name": "Structure Type",
+          "unit": null
+        },
+        {
+          "name": "Directionality Factor K_d",
+          "unit": null
+        }
+      ],
+      "rows": [
+        {
+          "Structure Type": "Buildings \u2014 Main wind force resisting system",
+          "Directionality Factor K_d": 0.85
+        },
+        {
+          "Structure Type": "Buildings \u2014 Components and cladding",
+          "Directionality Factor K_d": 0.85
+        },
+        {
+          "Structure Type": "Buildings \u2014 Arched roofs",
+          "Directionality Factor K_d": 0.85
+        },
+        {
+          "Structure Type": "Chimneys, tanks, and similar structures \u2014 Square",
+          "Directionality Factor K_d": 0.9
+        },
+        {
+          "Structure Type": "Chimneys, tanks, and similar structures \u2014 Hexagonal",
+          "Directionality Factor K_d": 0.95
+        },
+        {
+          "Structure Type": "Chimneys, tanks, and similar structures \u2014 Octagonal",
+          "Directionality Factor K_d": 1.0
+        },
+        {
+          "Structure Type": "Chimneys, tanks, and similar structures \u2014 Round",
+          "Directionality Factor K_d": 1.0
+        },
+        {
+          "Structure Type": "Solid freestanding walls, roof signs, billboard, at-grade freestanding and attached signs",
+          "Directionality Factor K_d": 0.85
+        },
+        {
+          "Structure Type": "Open signs and single-plane open frames",
+          "Directionality Factor K_d": 0.85
+        },
+        {
+          "Structure Type": "Trussed towers \u2014 Triangular, square, or rectangular",
+          "Directionality Factor K_d": 0.85
+        },
+        {
+          "Structure Type": "Trussed towers \u2014 All other cross sections",
+          "Directionality Factor K_d": 0.95
+        }
+      ]
+    },
+    "cross_references": [
+      "ASCE7-22-26.6-P1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.7-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.7",
+      "citation": "Section 26.7",
+      "page": 274
+    },
+    "title": "Exposure \u2014 General",
+    "description": null,
+    "data": {
+      "rule": "For each wind direction considered, the upwind exposure shall be based on ground surface roughness that is determined from surface roughness categories that are defined in the following text. The exposure in these two sectors shall be determined in accordance with Sections 26.7.2 and 26.7.3, and the exposure the use of which would result in the highest wind loads shall be used to represent the winds from that direction.",
+      "conditions": [],
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.7.1-D1",
+    "type": "definition",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.7.1",
+      "citation": "Section 26.7.1",
+      "page": 274
+    },
+    "title": "Surface Roughness B",
+    "description": null,
+    "data": {
+      "term": "Surface Roughness B",
+      "definition": "Urban and suburban areas, wooded areas, or other terrain with numerous closely spaced obstructions having the size of single-family dwellings or larger."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.7.1-D2",
+    "type": "definition",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.7.1",
+      "citation": "Section 26.7.1",
+      "page": 274
+    },
+    "title": "Surface Roughness C",
+    "description": null,
+    "data": {
+      "term": "Surface Roughness C",
+      "definition": "Open terrain with scattered obstructions having heights generally less than 30 ft (9.1 m). This category includes flat, open country and grasslands."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.7.1-D3",
+    "type": "definition",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.7.1",
+      "citation": "Section 26.7.1",
+      "page": 274
+    },
+    "title": "Surface Roughness D",
+    "description": null,
+    "data": {
+      "term": "Surface Roughness D",
+      "definition": "Flat, unobstructed areas and water surfaces. This category includes smooth mud flats, salt flats, and unbroken ice."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.7.2-D1",
+    "type": "definition",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.7.2",
+      "citation": "Section 26.7.2",
+      "page": 274
+    },
+    "title": "Exposure B",
+    "description": null,
+    "data": {
+      "term": "Exposure B",
+      "definition": "For buildings or other structures with a mean roof height less than or equal to 30 ft (9.1 m), Exposure B prevails in the upwind direction for a distance greater than 1,500 ft (457 m). For buildings or other structures with a mean roof height greater than 30 ft (9.1 m), Exposure B shall apply when Surface Roughness B prevails in the upwind direction for a distance greater than 2,600 ft (792 m) or 20 times the height of the building or structure, whichever is greater."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.7.2-D2",
+    "type": "definition",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.7.2",
+      "citation": "Section 26.7.2",
+      "page": 274
+    },
+    "title": "Exposure C",
+    "description": null,
+    "data": {
+      "term": "Exposure C",
+      "definition": "Exposure C applies where Exposure B or D does not apply."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.7.2-D3",
+    "type": "definition",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.7.2",
+      "citation": "Section 26.7.2",
+      "page": 274
+    },
+    "title": "Exposure D",
+    "description": null,
+    "data": {
+      "term": "Exposure D",
+      "definition": "Exposure D shall apply where the ground surface roughness, as defined by Surface Roughness D, prevails in the upwind direction for a distance of 5,000 ft (1,524 m) or 20 times the building or structure height, whichever is greater. Exposure D shall also apply where the ground surface roughness immediately upwind of the site is B or C, and the site is within a distance of 600 ft (183 m) or 20 times the building or structure height, whichever is greater, from an Exposure D condition as defined in the previous sentence."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.7.4.1-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.7.4.1",
+      "citation": "Section 26.7.4.1",
+      "page": 274
+    },
+    "title": "Directional Procedure (Chapter 27) Exposure Requirements",
+    "description": null,
+    "data": {
+      "rule": "Wind loads for the design of the MWFRS of enclosed and partially enclosed buildings using the Directional Procedure of Chapter 27 shall be based on the exposure category for each wind direction at the site. Wind loads for the design of open buildings with monoslope, pitched, or troughed free roofs shall be based on exposure resulting in the highest wind loads for any wind direction at the site.",
+      "conditions": [],
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.7.4.2-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.7.4.2",
+      "citation": "Section 26.7.4.2",
+      "page": 274
+    },
+    "title": "Envelope Procedure (Chapter 28) Exposure Requirements",
+    "description": null,
+    "data": {
+      "rule": "Wind loads for the design of the MWFRS for all low-rise buildings designed using the Envelope Procedure of Chapter 28 shall be based on the exposure category resulting in the highest wind loads for any wind direction at the site.",
+      "conditions": [],
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.7.4.3-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.7.4.3",
+      "citation": "Section 26.7.4.3",
+      "page": 274
+    },
+    "title": "Directional Procedure for Building Appurtenances (Chapter 29) Exposure Requirements",
+    "description": null,
+    "data": {
+      "rule": "Wind loads for the design of building appurtenances (such as rooftop equipment, freestanding walls and freestanding signs, chimneys, tanks, open signs, single-plane frames, and trussed towers) as specified in Chapter 29 shall be based on the exposure category resulting in the highest wind loads for any wind direction at the site.",
+      "conditions": [],
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.7.4.4-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.7.4.4",
+      "citation": "Section 26.7.4.4",
+      "page": 274
+    },
+    "title": "Components and Cladding (Chapter 30) Exposure Requirements",
+    "description": null,
+    "data": {
+      "rule": "Design wind pressures for C&C shall be based on the exposure category resulting in the highest wind loads for any wind direction at the site.",
+      "conditions": [],
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.8.1-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.8.1",
+      "citation": "Section 26.8.1",
+      "page": 275
+    },
+    "title": "Topographic Effects \u2014 Wind Speed-Up over Hills, Ridges, and Escarpments",
+    "description": null,
+    "data": {
+      "rule": "Wind speed-up effects at isolated hills, ridges, and escarpments constituting abrupt changes in the general topography, located in any exposure category, shall be included in the design wind loads where all of the following conditions are met: 1. The building or other structure is located as shown in Figure 26.8-1 in the upper-half of a hill or ridge or near the crest of an escarpment. 2. H/L_H >= 0.2. 3. H is greater than or equal to 15 ft (4.5 m) for Exposures C and D and 60 ft (18 m) for Exposure B.",
+      "conditions": [
+        {
+          "parameter": "H/L_H",
+          "operator": ">=",
+          "value": 0.2
+        },
+        {
+          "parameter": "H",
+          "operator": ">=",
+          "value": 15,
+          "unit": "ft"
+        }
+      ],
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.8-F26.8-1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.8.2-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.8.2",
+      "citation": "Section 26.8.2",
+      "page": 275
+    },
+    "title": "Topographic Factor K_zt",
+    "description": null,
+    "data": {
+      "rule": "The topographic factor K_zt shall be included in the calculation of design wind loads by using the factor K_zt = (1 + K_1 K_2 K_3)^2. For H/L_H > 0.5, assume that H/L_H = 0.5 for evaluating K_1 and substitute 2H for L_H for evaluating K_1 and K_2. If all conditions in Section 26.8.1 are not met, K_zt = 1.0.",
+      "conditions": [],
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.8-E26.8-1",
+      "ASCE7-22-26.8-F26.8-1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.8-E26.8-1",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.8.2",
+      "citation": "Eq. (26.8-1)",
+      "page": 275
+    },
+    "title": "Topographic Factor K_zt",
+    "description": null,
+    "data": {
+      "expression": "K_zt = (1 + K_1 K_2 K_3)^2",
+      "parameters": {
+        "K_zt": {
+          "unit": "dimensionless",
+          "source": "Section 26.8.2"
+        },
+        "K_1": {
+          "unit": "dimensionless",
+          "source": "Figure 26.8-1"
+        },
+        "K_2": {
+          "unit": "dimensionless",
+          "source": "Figure 26.8-1"
+        },
+        "K_3": {
+          "unit": "dimensionless",
+          "source": "Figure 26.8-1"
+        }
+      }
+    },
+    "cross_references": [
+      "ASCE7-22-26.8-F26.8-1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.8-F26.8-1",
+    "type": "figure",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.8",
+      "citation": "Figure 26.8-1",
+      "page": 276
+    },
+    "title": "Figure 26.8-1. Topographic Factor, K_zt",
+    "description": "Diagram showing topographic multiplier tables for escarpment, 2D ridge, and 3D axisymmetrical hill, with K_1, K_2, K_3 multiplier tables as functions of H/L_H, x/L_H, and z/L_H. Includes speed-up parameter table for terrain features (2D Ridge, 2D Escarpment, 3D Axisymmetric Hill) with exposure-dependent mu and gamma values.",
+    "data": {
+      "figure_type": "geometry_diagram",
+      "description": "Geometry diagrams and multiplier tables for topographic speed-up factor K_zt. K_1 table: H/L_H from 0.20 to 0.50 for Escarpment (0.29-0.72), 2D Ridge (0.17-0.42). K_2 table: x/L_H from 0.0 to 4.0. K_3 table: z/L_H from 0.0 to 2.0. Speed-up parameters table: 2D Ridge (mu=3, gamma=2.5), 2D Escarpment (mu=2.5, gamma=1.5), 3D Axisymmetric Hill (mu=4, gamma=3).",
+      "source_pdf_page": 276
+    },
+    "cross_references": [
+      "ASCE7-22-26.8-E26.8-1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.9-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.9",
+      "citation": "Section 26.9",
+      "page": 275
+    },
+    "title": "Ground Elevation Factor",
+    "description": null,
+    "data": {
+      "rule": "The ground elevation factor, K_e, shall be determined in accordance with Table 26.9-1. It is permitted to take K_e = 1 for all elevations.",
+      "conditions": [],
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.9-T26.9-1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.9-T26.9-1",
+    "type": "table",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.9",
+      "citation": "Table 26.9-1",
+      "page": 275
+    },
+    "title": "Table 26.9-1. Ground Elevation Factor, K_e",
+    "description": null,
+    "data": {
+      "columns": [
+        {
+          "name": "Ground Elevation above Sea Level, ft",
+          "unit": "ft"
+        },
+        {
+          "name": "Ground Elevation above Sea Level, m",
+          "unit": "m"
+        },
+        {
+          "name": "K_e",
+          "unit": null
+        }
+      ],
+      "rows": [
+        {
+          "Ground Elevation above Sea Level, ft": 0,
+          "Ground Elevation above Sea Level, m": 0,
+          "K_e": 1.0
+        },
+        {
+          "Ground Elevation above Sea Level, ft": 1000,
+          "Ground Elevation above Sea Level, m": 305,
+          "K_e": 0.96
+        },
+        {
+          "Ground Elevation above Sea Level, ft": 2000,
+          "Ground Elevation above Sea Level, m": 610,
+          "K_e": 0.93
+        },
+        {
+          "Ground Elevation above Sea Level, ft": 3000,
+          "Ground Elevation above Sea Level, m": 915,
+          "K_e": 0.89
+        },
+        {
+          "Ground Elevation above Sea Level, ft": 4000,
+          "Ground Elevation above Sea Level, m": 1219,
+          "K_e": 0.87
+        },
+        {
+          "Ground Elevation above Sea Level, ft": 5000,
+          "Ground Elevation above Sea Level, m": 1524,
+          "K_e": 0.84
+        },
+        {
+          "Ground Elevation above Sea Level, ft": 6000,
+          "Ground Elevation above Sea Level, m": 1829,
+          "K_e": 0.82
+        }
+      ]
+    },
+    "cross_references": [
+      "ASCE7-22-26.9-P1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.10.1-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.10.1",
+      "citation": "Section 26.10.1",
+      "page": 275
+    },
+    "title": "Velocity Pressure Exposure Coefficient",
+    "description": null,
+    "data": {
+      "rule": "Based on the exposure category determined in accordance with Section 26.7.3, a velocity pressure exposure coefficient, K_z or K_h, as applicable, shall be determined from Table 26.10-1. A transition zone between exposure categories is permitted provided it is determined by a rational analysis method defined in the recognized literature.",
+      "conditions": [],
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.10-T26.10-1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.10-T26.10-1",
+    "type": "table",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.10.1",
+      "citation": "Table 26.10-1",
+      "page": 277
+    },
+    "title": "Table 26.10-1. Velocity Pressure Exposure Coefficients, K_z and K_h",
+    "description": null,
+    "data": {
+      "columns": [
+        {
+          "name": "Height above Ground Level, z (ft)",
+          "unit": "ft"
+        },
+        {
+          "name": "Exposure B",
+          "unit": null
+        },
+        {
+          "name": "Exposure C",
+          "unit": null
+        },
+        {
+          "name": "Exposure D",
+          "unit": null
+        }
+      ],
+      "rows": [
+        {
+          "Height above Ground Level, z (ft)": "0-15",
+          "Exposure B": 0.57,
+          "Exposure C": 0.85,
+          "Exposure D": 1.03
+        },
+        {
+          "Height above Ground Level, z (ft)": 20,
+          "Exposure B": 0.62,
+          "Exposure C": 0.9,
+          "Exposure D": 1.08
+        },
+        {
+          "Height above Ground Level, z (ft)": 25,
+          "Exposure B": 0.66,
+          "Exposure C": 0.94,
+          "Exposure D": 1.12
+        },
+        {
+          "Height above Ground Level, z (ft)": 30,
+          "Exposure B": 0.7,
+          "Exposure C": 0.98,
+          "Exposure D": 1.16
+        },
+        {
+          "Height above Ground Level, z (ft)": 40,
+          "Exposure B": 0.76,
+          "Exposure C": 1.04,
+          "Exposure D": 1.22
+        },
+        {
+          "Height above Ground Level, z (ft)": 50,
+          "Exposure B": 0.81,
+          "Exposure C": 1.09,
+          "Exposure D": 1.27
+        },
+        {
+          "Height above Ground Level, z (ft)": 60,
+          "Exposure B": 0.85,
+          "Exposure C": 1.13,
+          "Exposure D": 1.31
+        },
+        {
+          "Height above Ground Level, z (ft)": 70,
+          "Exposure B": 0.89,
+          "Exposure C": 1.17,
+          "Exposure D": 1.34
+        },
+        {
+          "Height above Ground Level, z (ft)": 80,
+          "Exposure B": 0.93,
+          "Exposure C": 1.21,
+          "Exposure D": 1.38
+        },
+        {
+          "Height above Ground Level, z (ft)": 90,
+          "Exposure B": 0.96,
+          "Exposure C": 1.24,
+          "Exposure D": 1.4
+        },
+        {
+          "Height above Ground Level, z (ft)": 100,
+          "Exposure B": 0.99,
+          "Exposure C": 1.26,
+          "Exposure D": 1.43
+        },
+        {
+          "Height above Ground Level, z (ft)": 120,
+          "Exposure B": 1.04,
+          "Exposure C": 1.31,
+          "Exposure D": 1.48
+        },
+        {
+          "Height above Ground Level, z (ft)": 140,
+          "Exposure B": 1.09,
+          "Exposure C": 1.36,
+          "Exposure D": 1.52
+        },
+        {
+          "Height above Ground Level, z (ft)": 160,
+          "Exposure B": 1.13,
+          "Exposure C": 1.39,
+          "Exposure D": 1.55
+        },
+        {
+          "Height above Ground Level, z (ft)": 180,
+          "Exposure B": 1.17,
+          "Exposure C": 1.43,
+          "Exposure D": 1.58
+        },
+        {
+          "Height above Ground Level, z (ft)": 200,
+          "Exposure B": 1.2,
+          "Exposure C": 1.46,
+          "Exposure D": 1.61
+        },
+        {
+          "Height above Ground Level, z (ft)": 250,
+          "Exposure B": 1.28,
+          "Exposure C": 1.53,
+          "Exposure D": 1.68
+        },
+        {
+          "Height above Ground Level, z (ft)": 300,
+          "Exposure B": 1.35,
+          "Exposure C": 1.59,
+          "Exposure D": 1.73
+        },
+        {
+          "Height above Ground Level, z (ft)": 350,
+          "Exposure B": 1.41,
+          "Exposure C": 1.64,
+          "Exposure D": 1.78
+        },
+        {
+          "Height above Ground Level, z (ft)": 400,
+          "Exposure B": 1.47,
+          "Exposure C": 1.69,
+          "Exposure D": 1.82
+        },
+        {
+          "Height above Ground Level, z (ft)": 450,
+          "Exposure B": 1.52,
+          "Exposure C": 1.73,
+          "Exposure D": 1.86
+        },
+        {
+          "Height above Ground Level, z (ft)": 500,
+          "Exposure B": 1.56,
+          "Exposure C": 1.77,
+          "Exposure D": 1.89
+        }
+      ]
+    },
+    "cross_references": [
+      "ASCE7-22-26.11-T26.11-1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.10.2-E26.10-1",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.10.2",
+      "citation": "Eq. (26.10-1)",
+      "page": 277
+    },
+    "title": "Velocity Pressure (Imperial Units)",
+    "description": null,
+    "data": {
+      "expression": "q_z = 0.00256 K_z K_zt K_d K_e V^2",
+      "parameters": {
+        "q_z": {
+          "unit": "lb/ft2"
+        },
+        "K_z": {
+          "unit": "dimensionless",
+          "source": "Table 26.10-1"
+        },
+        "K_zt": {
+          "unit": "dimensionless",
+          "source": "Section 26.8"
+        },
+        "K_d": {
+          "unit": "dimensionless",
+          "source": "Table 26.6-1"
+        },
+        "K_e": {
+          "unit": "dimensionless",
+          "source": "Table 26.9-1"
+        },
+        "V": {
+          "unit": "mi/h",
+          "source": "Section 26.5"
+        }
+      }
+    },
+    "cross_references": [
+      "ASCE7-22-26.10-T26.10-1",
+      "ASCE7-22-26.6-T26.6-1",
+      "ASCE7-22-26.9-T26.9-1",
+      "ASCE7-22-26.8-E26.8-1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.10.2-E26.10-1SI",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.10.2",
+      "citation": "Eq. (26.10-1SI)",
+      "page": 277
+    },
+    "title": "Velocity Pressure (SI Units)",
+    "description": null,
+    "data": {
+      "expression": "q_z = 0.613 K_z K_zt K_d K_e V^2",
+      "parameters": {
+        "q_z": {
+          "unit": "N/m2"
+        },
+        "K_z": {
+          "unit": "dimensionless",
+          "source": "Table 26.10-1"
+        },
+        "K_zt": {
+          "unit": "dimensionless",
+          "source": "Section 26.8"
+        },
+        "K_d": {
+          "unit": "dimensionless",
+          "source": "Table 26.6-1"
+        },
+        "K_e": {
+          "unit": "dimensionless",
+          "source": "Table 26.9-1"
+        },
+        "V": {
+          "unit": "m/s",
+          "source": "Section 26.5"
+        }
+      }
+    },
+    "cross_references": [
+      "ASCE7-22-26.10.2-E26.10-1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.10.2-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.10.2",
+      "citation": "Section 26.10.2",
+      "page": 277
+    },
+    "title": "Velocity Pressure at Mean Roof Height",
+    "description": null,
+    "data": {
+      "rule": "The velocity pressure at mean roof height is computed as q_h = q_z evaluated from Equation (26.10-1) using K_z at mean roof height h.",
+      "conditions": [],
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.10.2-E26.10-1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.10.2-P2",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.10.2",
+      "citation": "Section 26.10.2",
+      "page": 277
+    },
+    "title": "Basic Wind Speed V for Rooftop Structures and Equipment",
+    "description": null,
+    "data": {
+      "rule": "The basic wind speed, V, used in determination of design wind loads for rooftop structures, rooftop equipment, and other building appurtenances shall use Risk Category equal to the greater of: 1. Risk category for the building or structure on which the equipment or appurtenance is located, or 2. Risk category for any building or other structure to which the equipment or appurtenance provides a necessary service.",
+      "conditions": [],
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.11.1-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11.1",
+      "citation": "Section 26.11.1",
+      "page": 277
+    },
+    "title": "Gust-Effect Factor \u2014 Rigid Structures",
+    "description": null,
+    "data": {
+      "rule": "The gust-effect factor for a rigid building or other structure is permitted to be taken as 0.85.",
+      "conditions": [],
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.11.2-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11.2",
+      "citation": "Section 26.11.2",
+      "page": 277
+    },
+    "title": "Frequency Determination \u2014 Rigid vs. Flexible",
+    "description": null,
+    "data": {
+      "rule": "To determine whether a building or other structure is rigid or flexible as defined in Section 26.2, the fundamental natural frequency, n_a, shall be established using the structural properties and deformational characteristics of the resisting elements in a properly substantiated analysis. Lower bound frequencies as defined in Section 26.2 are permitted to be considered rigid.",
+      "conditions": [],
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.11.3-E26.11-1",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11.3",
+      "citation": "Eq. (26.11-1)",
+      "page": 277
+    },
+    "title": "Approximate Natural Frequency \u2014 Structural Steel MRF Buildings",
+    "description": null,
+    "data": {
+      "expression": "n_a = 22.8 / h^0.8",
+      "parameters": {
+        "n_a": {
+          "unit": "Hz"
+        },
+        "h": {
+          "unit": "ft"
+        }
+      }
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.11.3-E26.11-2",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11.3",
+      "citation": "Eq. (26.11-2)",
+      "page": 277
+    },
+    "title": "Approximate Natural Frequency \u2014 Concrete MRF Buildings",
+    "description": null,
+    "data": {
+      "expression": "n_a = 43.5 / h^0.9",
+      "parameters": {
+        "n_a": {
+          "unit": "Hz"
+        },
+        "h": {
+          "unit": "ft"
+        }
+      }
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.11.3-E26.11-3",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11.3",
+      "citation": "Eq. (26.11-3)",
+      "page": 277
+    },
+    "title": "Approximate Natural Frequency \u2014 Steel Buildings, Other Lateral Systems",
+    "description": null,
+    "data": {
+      "expression": "n_a = 75 / h",
+      "parameters": {
+        "n_a": {
+          "unit": "Hz"
+        },
+        "h": {
+          "unit": "ft"
+        }
+      }
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.11.3-E26.11-4",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11.3",
+      "citation": "Eq. (26.11-4)",
+      "page": 277
+    },
+    "title": "Approximate Natural Frequency \u2014 Concrete Buildings, Other Lateral Systems",
+    "description": null,
+    "data": {
+      "expression": "n_a = 43.5 / h",
+      "parameters": {
+        "n_a": {
+          "unit": "Hz"
+        },
+        "h": {
+          "unit": "ft"
+        }
+      }
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.11.3-E26.11-5",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11.3",
+      "citation": "Eq. (26.11-5)",
+      "page": 277
+    },
+    "title": "Approximate Natural Frequency \u2014 Concrete/Masonry Shear Wall Buildings",
+    "description": null,
+    "data": {
+      "expression": "n_a = 385 * (C_w)^0.5 / h",
+      "parameters": {
+        "n_a": {
+          "unit": "Hz"
+        },
+        "h": {
+          "unit": "ft"
+        },
+        "C_w": {
+          "unit": "dimensionless"
+        }
+      }
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.11.4-E26.11-6",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11.4",
+      "citation": "Eq. (26.11-6)",
+      "page": 277
+    },
+    "title": "Gust-Effect Factor G for Rigid Buildings",
+    "description": null,
+    "data": {
+      "expression": "G = 0.925 * (1 + 1.7 * g_Q * I_z_bar * Q) / (1 + 1.7 * g_v * I_z_bar)",
+      "parameters": {
+        "G": {
+          "unit": "dimensionless"
+        },
+        "g_Q": {
+          "unit": "dimensionless"
+        },
+        "g_v": {
+          "unit": "dimensionless"
+        },
+        "I_z_bar": {
+          "unit": "dimensionless"
+        },
+        "Q": {
+          "unit": "dimensionless"
+        }
+      }
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.11.4-E26.11-7",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11.4",
+      "citation": "Eq. (26.11-7)",
+      "page": 277
+    },
+    "title": "Turbulence Intensity I_z_bar",
+    "description": null,
+    "data": {
+      "expression": "I_z_bar = c * (33 / z_bar)^(1/6)",
+      "parameters": {
+        "I_z_bar": {
+          "unit": "dimensionless"
+        },
+        "c": {
+          "unit": "dimensionless",
+          "source": "Table 26.11-1"
+        },
+        "z_bar": {
+          "unit": "ft"
+        }
+      }
+    },
+    "cross_references": [
+      "ASCE7-22-26.11-T26.11-1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.11.4-E26.11-8",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11.4",
+      "citation": "Eq. (26.11-8)",
+      "page": 277
+    },
+    "title": "Background Response Factor Q",
+    "description": null,
+    "data": {
+      "expression": "Q = sqrt(1 / (1 + 0.63 * ((B + h) / L_z_bar)^0.63))",
+      "parameters": {
+        "Q": {
+          "unit": "dimensionless"
+        },
+        "B": {
+          "unit": "ft"
+        },
+        "h": {
+          "unit": "ft"
+        },
+        "L_z_bar": {
+          "unit": "ft"
+        }
+      }
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.11.4-E26.11-9",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11.4",
+      "citation": "Eq. (26.11-9)",
+      "page": 277
+    },
+    "title": "Integral Length Scale of Turbulence L_z_bar",
+    "description": null,
+    "data": {
+      "expression": "L_z_bar = l * (z_bar / 33)^epsilon",
+      "parameters": {
+        "L_z_bar": {
+          "unit": "ft"
+        },
+        "l": {
+          "unit": "ft",
+          "source": "Table 26.11-1"
+        },
+        "z_bar": {
+          "unit": "ft"
+        },
+        "epsilon": {
+          "unit": "dimensionless",
+          "source": "Table 26.11-1"
+        }
+      }
+    },
+    "cross_references": [
+      "ASCE7-22-26.11-T26.11-1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.11.5-E26.11-10",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11.5",
+      "citation": "Eq. (26.11-10)",
+      "page": 278
+    },
+    "title": "Gust-Effect Factor G_f for Flexible Structures",
+    "description": null,
+    "data": {
+      "expression": "G_f = 0.925 * (1 + 1.7 * I_z_bar * sqrt(g_Q^2 * Q^2 + g_R^2 * R^2)) / (1 + 1.7 * g_v * I_z_bar)",
+      "parameters": {
+        "G_f": {
+          "unit": "dimensionless"
+        },
+        "I_z_bar": {
+          "unit": "dimensionless"
+        },
+        "g_Q": {
+          "unit": "dimensionless"
+        },
+        "Q": {
+          "unit": "dimensionless"
+        },
+        "g_R": {
+          "unit": "dimensionless"
+        },
+        "R": {
+          "unit": "dimensionless"
+        },
+        "g_v": {
+          "unit": "dimensionless"
+        }
+      }
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.11.5-E26.11-11",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11.5",
+      "citation": "Eq. (26.11-11)",
+      "page": 278
+    },
+    "title": "Peak Factor g_R for Resonant Response",
+    "description": null,
+    "data": {
+      "expression": "g_R = sqrt(2 * ln(3600 * n_1)) + 0.577 / sqrt(2 * ln(3600 * n_1))",
+      "parameters": {
+        "g_R": {
+          "unit": "dimensionless"
+        },
+        "n_1": {
+          "unit": "Hz"
+        }
+      }
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.11.5-E26.11-12",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11.5",
+      "citation": "Eq. (26.11-12)",
+      "page": 278
+    },
+    "title": "Resonant Response Factor R",
+    "description": null,
+    "data": {
+      "expression": "R = sqrt((1 / beta) * R_N * R_h * R_B * (0.53 + 0.47 * R_L))",
+      "parameters": {
+        "R": {
+          "unit": "dimensionless"
+        },
+        "beta": {
+          "unit": "dimensionless"
+        },
+        "R_N": {
+          "unit": "dimensionless"
+        },
+        "R_h": {
+          "unit": "dimensionless"
+        },
+        "R_B": {
+          "unit": "dimensionless"
+        },
+        "R_L": {
+          "unit": "dimensionless"
+        }
+      }
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.11.5-E26.11-13",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11.5",
+      "citation": "Eq. (26.11-13)",
+      "page": 278
+    },
+    "title": "Power Spectral Density R_N",
+    "description": null,
+    "data": {
+      "expression": "R_N = 7.47 * N_1 / (1 + 10.3 * N_1)^(5/3)",
+      "parameters": {
+        "R_N": {
+          "unit": "dimensionless"
+        },
+        "N_1": {
+          "unit": "dimensionless"
+        }
+      }
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.11.5-E26.11-14",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11.5",
+      "citation": "Eq. (26.11-14)",
+      "page": 278
+    },
+    "title": "Reduced Frequency N_1",
+    "description": null,
+    "data": {
+      "expression": "N_1 = n_1 * L_z_bar / V_z_bar",
+      "parameters": {
+        "N_1": {
+          "unit": "dimensionless"
+        },
+        "n_1": {
+          "unit": "Hz"
+        },
+        "L_z_bar": {
+          "unit": "ft"
+        },
+        "V_z_bar": {
+          "unit": "ft/s"
+        }
+      }
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.11.5-E26.11-15",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11.5",
+      "citation": "Eq. (26.11-15)",
+      "page": 278
+    },
+    "title": "Peak Factors g_Q and g_v",
+    "description": null,
+    "data": {
+      "expression": "g_Q = g_v = 3.4",
+      "parameters": {
+        "g_Q": {
+          "unit": "dimensionless"
+        },
+        "g_v": {
+          "unit": "dimensionless"
+        }
+      }
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.11.5-E26.11-16",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11.5",
+      "citation": "Eq. (26.11-16)",
+      "page": 278
+    },
+    "title": "Mean Hourly Wind Speed V_z_bar",
+    "description": null,
+    "data": {
+      "expression": "V_z_bar = b_hat * (z_bar / 33)^alpha_hat * V",
+      "parameters": {
+        "V_z_bar": {
+          "unit": "ft/s"
+        },
+        "b_hat": {
+          "unit": "dimensionless",
+          "source": "Table 26.11-1"
+        },
+        "z_bar": {
+          "unit": "ft"
+        },
+        "alpha_hat": {
+          "unit": "dimensionless",
+          "source": "Table 26.11-1"
+        },
+        "V": {
+          "unit": "mi/h",
+          "source": "Section 26.5"
+        }
+      }
+    },
+    "cross_references": [
+      "ASCE7-22-26.11-T26.11-1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.11-T26.11-1",
+    "type": "table",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11",
+      "citation": "Table 26.11-1",
+      "page": 278
+    },
+    "title": "Table 26.11-1. Terrain Exposure Constants",
+    "description": null,
+    "data": {
+      "columns": [
+        {
+          "name": "Exposure",
+          "unit": null
+        },
+        {
+          "name": "alpha",
+          "unit": null
+        },
+        {
+          "name": "z_g (ft)",
+          "unit": "ft"
+        },
+        {
+          "name": "alpha_hat",
+          "unit": null
+        },
+        {
+          "name": "b_hat",
+          "unit": null
+        },
+        {
+          "name": "b",
+          "unit": null
+        },
+        {
+          "name": "c",
+          "unit": null
+        },
+        {
+          "name": "l (ft)",
+          "unit": "ft"
+        },
+        {
+          "name": "epsilon",
+          "unit": null
+        },
+        {
+          "name": "z_min (ft)",
+          "unit": "ft"
+        }
+      ],
+      "rows": [
+        {
+          "Exposure": "B",
+          "alpha": 7.0,
+          "z_g (ft)": 1200,
+          "alpha_hat": 0.25,
+          "b_hat": 0.45,
+          "b": 0.45,
+          "c": 0.3,
+          "l (ft)": 320,
+          "epsilon": 0.333,
+          "z_min (ft)": 30
+        },
+        {
+          "Exposure": "C",
+          "alpha": 9.5,
+          "z_g (ft)": 900,
+          "alpha_hat": 0.154,
+          "b_hat": 0.65,
+          "b": 0.65,
+          "c": 0.2,
+          "l (ft)": 500,
+          "epsilon": 0.2,
+          "z_min (ft)": 15
+        },
+        {
+          "Exposure": "D",
+          "alpha": 11.5,
+          "z_g (ft)": 700,
+          "alpha_hat": 0.111,
+          "b_hat": 0.8,
+          "b": 0.8,
+          "c": 0.15,
+          "l (ft)": 650,
+          "epsilon": 0.125,
+          "z_min (ft)": 7
+        }
+      ]
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.12.1-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.12.1",
+      "citation": "Section 26.12.1",
+      "page": 279
+    },
+    "title": "Enclosure Classification \u2014 General",
+    "description": null,
+    "data": {
+      "rule": "To make the enclosure classification, each exposure shall be considered in conjunction with the amount of openings present with respect to the remaining building envelope.",
+      "conditions": [],
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.12.3.2-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.12.3.2",
+      "citation": "Section 26.12.3.2",
+      "page": 279
+    },
+    "title": "Protection of Glazed Openings in Wind-Borne Debris Regions",
+    "description": null,
+    "data": {
+      "rule": "Glazed openings in Risk Category II, III, or IV buildings located in hurricane-prone regions shall be protected in accordance with Section 26.12.3.2 in the following locations: 1. Within 1 mi (1.6 km) of the mean high water line where the basic wind speed is equal to or greater than 130 mph (58 m/s); 2. In areas where the basic wind speed is equal to or greater than 140 mph (63 m/s).",
+      "conditions": [
+        {
+          "parameter": "risk_category",
+          "operator": "in",
+          "value": [
+            "II",
+            "III",
+            "IV"
+          ]
+        },
+        {
+          "parameter": "location",
+          "operator": "in",
+          "value": [
+            "hurricane-prone regions"
+          ]
+        }
+      ],
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.13-T26.13-1",
+    "type": "table",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.13",
+      "citation": "Table 26.13-1",
+      "page": 280
+    },
+    "title": "Table 26.13-1. Internal Pressure Coefficient, (GC_pi)",
+    "description": null,
+    "data": {
+      "columns": [
+        {
+          "name": "Enclosure Classification",
+          "unit": null
+        },
+        {
+          "name": "(GC_pi)",
+          "unit": null
+        }
+      ],
+      "rows": [
+        {
+          "Enclosure Classification": "Open buildings",
+          "(GC_pi)": 0.0
+        },
+        {
+          "Enclosure Classification": "Partially enclosed buildings",
+          "(GC_pi)": "+/-0.55"
+        },
+        {
+          "Enclosure Classification": "Enclosed buildings",
+          "(GC_pi)": "+/-0.18"
+        }
+      ]
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.13.1-E26.13-1",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.13.1",
+      "citation": "Eq. (26.13-1)",
+      "page": 279
+    },
+    "title": "Internal Pressure Reduction Factor R_i",
+    "description": null,
+    "data": {
+      "expression": "R_i = 0.5 * (1 + 1 / sqrt(1 + V_i / 6951000))",
+      "parameters": {
+        "R_i": {
+          "unit": "dimensionless"
+        },
+        "V_i": {
+          "unit": "ft3"
+        }
+      }
+    },
+    "cross_references": [
+      "ASCE7-22-26.13-T26.13-1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.14-R1",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.14",
+      "citation": "Section 26.14",
+      "page": 280
+    },
+    "title": "ASTM E1886",
+    "description": null,
+    "data": {
+      "target": "ASTM E1886, Standard Test Method for Performance of Exterior Windows, Curtain Walls, Doors, and Impact Protective Systems Impacted by Missile(s) and Exposed to Cyclic Pressure Differentials, ASTM International, 2019."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.14-R2",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.14",
+      "citation": "Section 26.14",
+      "page": 280
+    },
+    "title": "ASTM E1996",
+    "description": null,
+    "data": {
+      "target": "ASTM E1996, Standard Specification for Performance of Exterior Windows, Curtain Walls, Doors, and Impact Protective Systems Impacted by Windborne Debris in Hurricanes, ASTM International, 2020."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  },
+  {
+    "id": "ASCE7-22-26.14-R3",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.14",
+      "citation": "Section 26.14",
+      "page": 280
+    },
+    "title": "ANSI/DASMA 115",
+    "description": null,
+    "data": {
+      "target": "ANSI/DASMA 115, Standard Method for Testing Sectional Doors, Rolling Doors, and Flexible Doors: Determination of Structural Performance under Missile Impact and Cyclic Wind Pressure Differentials, DASMA, 2020."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    }
+  }
+]

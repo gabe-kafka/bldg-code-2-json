@@ -346,7 +346,7 @@
       "citation": "Section 5.2",
       "page": 1
     },
-    "title": "CHAPTER 5 FLOOD LOADS",
+    "title": "CHAPTER 5",
     "description": "",
     "data": {
       "rule": "CHAPTER 5 FLOOD LOADS",
@@ -451,39 +451,10 @@
       "citation": "Section 5.3.1",
       "page": 1
     },
-    "title": "5.3.1 Design Loads Structural systems of buildings or other structures shall be designed, constructed, connected, and anchored to resist fl otation, collapse, and permanent lateral displacement due to",
+    "title": "5.3.1 Design Loads",
     "description": "",
     "data": {
-      "rule": "5.3.1 Design Loads Structural systems of buildings or other structures shall be designed, constructed, connected, and anchored to resist fl otation, collapse, and permanent lateral displacement due to action of fl ood loads associated with the design fl ood (see Section 5.3.3) and other loads in accordance with the load combinations of Chapter 2.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [
-      "ASCE7-22-5.3.3-H1"
-    ],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-5.3.2-H1",
-    "type": "heading",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 5,
-      "section": "5.3.2",
-      "citation": "Section 5.3.2",
-      "page": 1
-    },
-    "title": "5.3.2 Erosion and Scour The effects of erosion and scour shall be included in the calculation of loads on buildings and other structures in fl ood hazard areas.",
-    "description": "",
-    "data": {
-      "rule": "5.3.2 Erosion and Scour The effects of erosion and scour shall be included in the calculation of loads on buildings and other structures in fl ood hazard areas.",
+      "rule": "5.3.1 Design Loads",
       "conditions": [],
       "then": "",
       "else": null,
@@ -498,6 +469,89 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-5.3.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-5.3.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.3.1",
+      "citation": "Section 5.3.1",
+      "page": 1
+    },
+    "title": "Structural systems of buildings or other structures shall be designed, constructed, connected, and anchored to resist fl otation, collapse, and permanent lateral displacement due to action of fl ood l",
+    "description": "",
+    "data": {
+      "rule": "Structural systems of buildings or other structures shall be designed, constructed, connected, and anchored to resist fl otation, collapse, and permanent lateral displacement due to action of fl ood loads associated with the design fl ood (see Section 5.3.3) and other loads in accordance with the load combinations of Chapter 2.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-5.3.3-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-5.3.2-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.3.2",
+      "citation": "Section 5.3.2",
+      "page": 1
+    },
+    "title": "5.3.2 Erosion and Scour",
+    "description": "",
+    "data": {
+      "rule": "5.3.2 Erosion and Scour",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-5.3.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-5.3.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.3.2",
+      "citation": "Section 5.3.2",
+      "page": 1
+    },
+    "title": "The effects of erosion and scour shall be included in the calculation of loads on buildings and other structures in fl ood hazard areas.",
+    "description": "",
+    "data": {
+      "rule": "The effects of erosion and scour shall be included in the calculation of loads on buildings and other structures in fl ood hazard areas.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-5.3.3-H1",
     "type": "heading",
     "source": {
@@ -507,10 +561,10 @@
       "citation": "Section 5.3.3",
       "page": 1
     },
-    "title": "5.3.3 Loads on Breakaway Walls Walls and partitions required by ASCE/SEI 24 to break away, including their connections to the structure, shall be designed for the largest of the following loads acting",
+    "title": "5.3.3 Loads",
     "description": "",
     "data": {
-      "rule": "5.3.3 Loads on Breakaway Walls Walls and partitions required by ASCE/SEI 24 to break away, including their connections to the structure, shall be designed for the largest of the following loads acting perpendicular to the plane of the wall:",
+      "rule": "5.3.3 Loads",
       "conditions": [],
       "then": "",
       "else": null,
@@ -526,6 +580,33 @@
   },
   {
     "id": "ASCE7-22-5.3.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-5.3.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.3.3",
+      "citation": "Section 5.3.3",
+      "page": 1
+    },
+    "title": "on Breakaway Walls Walls and partitions required by ASCE/SEI 24 to break away, including their connections to the structure, shall be designed for the largest of the following loads acting perpendicul",
+    "description": "",
+    "data": {
+      "rule": "on Breakaway Walls Walls and partitions required by ASCE/SEI 24 to break away, including their connections to the structure, shall be designed for the largest of the following loads acting perpendicular to the plane of the wall:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-5.3.3-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -552,7 +633,7 @@
     "parent_id": "ASCE7-22-5.3.3-H1"
   },
   {
-    "id": "ASCE7-22-5.3.3-T2",
+    "id": "ASCE7-22-5.3.3-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -606,7 +687,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-5.3.3-T3",
+    "id": "ASCE7-22-5.3.3-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -696,10 +777,10 @@
       "citation": "Section 5.4.1",
       "page": 1
     },
-    "title": "5.4.1 Load Basis In fl ood hazard areas, the structural design shall be based on the design fl ood.",
+    "title": "5.4.1 Load Basis",
     "description": "",
     "data": {
-      "rule": "5.4.1 Load Basis In fl ood hazard areas, the structural design shall be based on the design fl ood.",
+      "rule": "5.4.1 Load Basis",
       "conditions": [],
       "then": "",
       "else": null,
@@ -712,6 +793,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-5.4.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-5.4.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.4.1",
+      "citation": "Section 5.4.1",
+      "page": 1
+    },
+    "title": "In fl ood hazard areas, the structural design shall be based on the design fl ood.",
+    "description": "",
+    "data": {
+      "rule": "In fl ood hazard areas, the structural design shall be based on the design fl ood.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-5.4.2-P1",
@@ -755,18 +863,6 @@
     "data": {
       "expression": "F D =0.5\u03b3 w C D DH2 b (5.4-4)",
       "parameters": {
-        "D": {
-          "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the design earthquake ground motions, Section 18.7.3.3 \u03bc",
-          "source": "ASCE7-22-18.1.3-T79"
-        },
-        "\u03b3": {
-          "description": "Average unit weight of soil, lb/ft 3 (N/m 3 )",
-          "source": "ASCE7-22-11.3-T145"
-        },
-        "b": {
-          "description": "Shortest plan dimension of the structure [ft (mm)] measured perpendicular to d ;",
-          "source": "ASCE7-22-17.5.3.3-T5"
-        },
         "w": {
           "description": "Moisture content, in percent, per ASTM D2216",
           "source": "ASCE7-22-11.3-T135"
@@ -774,6 +870,18 @@
         "F": {
           "description": "1.0 for buildings that are one story above grade plane, 1.1 for buildings that are two stories above grade plane, and 1.2 for buildings that are three stories above grade plane;",
           "source": "ASCE7-22-12.14.8.1-T1"
+        },
+        "D": {
+          "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the design earthquake ground motions, Section 18.7.3.3 \u03bc",
+          "source": "ASCE7-22-18.1.3-T79"
+        },
+        "b": {
+          "description": "Shortest plan dimension of the structure [ft (mm)] measured perpendicular to d ;",
+          "source": "ASCE7-22-17.5.3.3-T5"
+        },
+        "\u03b3": {
+          "description": "Average unit weight of soil, lb/ft 3 (N/m 3 )",
+          "source": "ASCE7-22-11.3-T145"
         }
       }
     },
@@ -851,10 +959,10 @@
       "citation": "Section 5.4.3",
       "page": 2
     },
-    "title": "5.4.3 Hydrodynamic Loads Dynamic effects of moving water shall be determined by a detailed analysis utilizing basic concepts of fl uid mechanics.",
+    "title": "5.4.3 Hydrodynamic Loads",
     "description": "",
     "data": {
-      "rule": "5.4.3 Hydrodynamic Loads Dynamic effects of moving water shall be determined by a detailed analysis utilizing basic concepts of fl uid mechanics.",
+      "rule": "5.4.3 Hydrodynamic Loads",
       "conditions": [],
       "then": "",
       "else": null,
@@ -867,6 +975,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-5.4.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-5.4.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.4.3",
+      "citation": "Section 5.4.3",
+      "page": 2
+    },
+    "title": "Dynamic effects of moving water shall be determined by a detailed analysis utilizing basic concepts of fl uid mechanics.",
+    "description": "",
+    "data": {
+      "rule": "Dynamic effects of moving water shall be determined by a detailed analysis utilizing basic concepts of fl uid mechanics.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-5.4.3-X1",
@@ -896,7 +1031,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-5.4.3-T3",
+    "id": "ASCE7-22-5.4.3-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -923,7 +1058,7 @@
     "parent_id": "ASCE7-22-5.4.3-H1"
   },
   {
-    "id": "ASCE7-22-5.4.3-T4",
+    "id": "ASCE7-22-5.4.3-T5",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -986,10 +1121,10 @@
       "citation": "Section 5.4.4",
       "page": 2
     },
-    "title": "5.4.4 Wave Loads Wave loads shall be determined by one of the following three methods: (1) by using the analytical procedures outlined in this section, (2) by more advanced numerical modeling procedur",
+    "title": "5.4.4 Wave Loads",
     "description": "",
     "data": {
-      "rule": "5.4.4 Wave Loads Wave loads shall be determined by one of the following three methods: (1) by using the analytical procedures outlined in this section, (2) by more advanced numerical modeling procedures, or (3) by laboratory test procedures (physical modeling).",
+      "rule": "5.4.4 Wave Loads",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1002,6 +1137,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-5.4.4-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-5.4.4-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.4.4",
+      "citation": "Section 5.4.4",
+      "page": 2
+    },
+    "title": "Wave loads shall be determined by one of the following three methods: (1) by using the analytical procedures outlined in this section, (2) by more advanced numerical modeling procedures, or (3) by lab",
+    "description": "",
+    "data": {
+      "rule": "Wave loads shall be determined by one of the following three methods: (1) by using the analytical procedures outlined in this section, (2) by more advanced numerical modeling procedures, or (3) by laboratory test procedures (physical modeling).",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-5.4.4-P1",
@@ -1092,7 +1254,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-5.4.4-T1",
+    "id": "ASCE7-22-5.4.4-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1146,7 +1308,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-5.4.4-T2",
+    "id": "ASCE7-22-5.4.4-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1510,6 +1672,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-5.4.4.2-T8",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.4.4.2",
+      "citation": "Section 5.4.4.2",
+      "page": 2
+    },
+    "title": "Ft = Net breaking wave force per unit length of structure, also referred to as shock, impulse, or wave impact force, lb \u2215 ft (kN \u2215 m), acting near the still water elevation;",
+    "description": "",
+    "data": {
+      "rule": "Ft = Net breaking wave force per unit length of structure, also referred to as shock, impulse, or wave impact force, lb \u2215 ft (kN \u2215 m), acting near the still water elevation; Crest of reflecte Crest of reflect Dynam Dynam",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-5.4.4-H1"
+  },
+  {
     "id": "ASCE7-22-5.4-E5-4-21",
     "type": "formula",
     "source": {
@@ -1523,6 +1712,39 @@
     "description": "",
     "data": {
       "expression": "Breaking wave heights used in the procedures described in Sections 5.4.4.1 through 5.4.4.4 shall be calculated for V-Zones and Coastal A-Zones using Equations (5.4-2)",
+      "parameters": {
+        "A": {
+          "description": "Effective wind area of element, ft 2 (m 2 )",
+          "source": "ASCE7-22-29.4.5.2-T4"
+        },
+        "V": {
+          "description": "Basic wind speed obtained from Figures 26.5-1A through 26.5-1D, mi/h (m/s); the basic wind speed corresponds to a 3 s gust speed at 33 ft (10 m) above the ground in Exposure Category C",
+          "source": "ASCE7-22-26.3-T94"
+        }
+      }
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-5.4-E5-4-31",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.4",
+      "citation": "Eq. (5.4-3)",
+      "page": 2
+    },
+    "title": "Equation (5.4-3)",
+    "description": "",
+    "data": {
+      "expression": "Breaking wave heights used in the procedures described in Sections 5.4.4.1 through 5.4.4.4 shall be calculated for V-Zones and Coastal A-Zones using Equations (5.4-2) and (5.4-3)",
       "parameters": {
         "A": {
           "description": "Effective wind area of element, ft 2 (m 2 )",
@@ -1662,6 +1884,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-5.4.4.2-T14",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.4.4.2",
+      "citation": "Section 5.4.4.2",
+      "page": 3
+    },
+    "title": "\u03b3 w = Unit weight of water, lb \u2215 ft 3 (kN \u2215 m 3 ), = 62.4 lb \u2215 ft 3 (9.80 kN \u2215 m 3 ) for freshwater and 64.0 lb \u2215 ft 3 (10.05 kN \u2215 m 3 ) for saltwater; and ds = Still water depth, ft (m) at base of bu",
+    "description": "",
+    "data": {
+      "rule": "\u03b3 w = Unit weight of water, lb \u2215 ft 3 (kN \u2215 m 3 ), = 62.4 lb \u2215 ft 3 (9.80 kN \u2215 m 3 ) for freshwater and 64.0 lb \u2215 ft 3 (10.05 kN \u2215 m 3 ) for saltwater; and ds = Still water depth, ft (m) at base of building or other structure where the wave breaks.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-5.4.4-H1"
+  },
+  {
     "id": "ASCE7-22-5.4.4.3-H1",
     "type": "heading",
     "source": {
@@ -1671,10 +1920,10 @@
       "citation": "Section 5.4.4.3",
       "page": 3
     },
-    "title": "5.4.4.3 Breaking Wave Loads on Nonvertical Walls Breaking wave forces given by Equations (5.4-6) and (5.4-7) shall be modi fi ed in instances where the walls or surfaces upon which the breaking waves ",
+    "title": "5.4.4.3 Breaking Wave Loads on Nonvertical Walls",
     "description": "",
     "data": {
-      "rule": "5.4.4.3 Breaking Wave Loads on Nonvertical Walls Breaking wave forces given by Equations (5.4-6) and (5.4-7) shall be modi fi ed in instances where the walls or surfaces upon which the breaking waves act are nonvertical. The horizontal component of breaking wave force shall be given by Ne where",
+      "rule": "5.4.4.3 Breaking Wave Loads on Nonvertical Walls",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1689,7 +1938,34 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-5.4.4.3-T2",
+    "id": "ASCE7-22-5.4.4.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-5.4.4.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.4.4.3",
+      "citation": "Section 5.4.4.3",
+      "page": 3
+    },
+    "title": "Breaking wave forces given by Equations (5.4-6) and (5.4-7) shall be modi fi ed in instances where the walls or surfaces upon which the breaking waves act are nonvertical. The horizontal component of ",
+    "description": "",
+    "data": {
+      "rule": "Breaking wave forces given by Equations (5.4-6) and (5.4-7) shall be modi fi ed in instances where the walls or surfaces upon which the breaking waves act are nonvertical. The horizontal component of breaking wave force shall be given by Ne where",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-5.4.4.3-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1716,7 +1992,7 @@
     "parent_id": "ASCE7-22-5.4.4.3-H1"
   },
   {
-    "id": "ASCE7-22-5.4.4.3-T3",
+    "id": "ASCE7-22-5.4.4.3-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1743,7 +2019,7 @@
     "parent_id": "ASCE7-22-5.4.4.3-H1"
   },
   {
-    "id": "ASCE7-22-5.4.4.3-T4",
+    "id": "ASCE7-22-5.4.4.3-T5",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1770,7 +2046,7 @@
     "parent_id": "ASCE7-22-5.4.4.3-H1"
   },
   {
-    "id": "ASCE7-22-5.4.4.3-T5",
+    "id": "ASCE7-22-5.4.4.3-T6",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1799,7 +2075,7 @@
     "parent_id": "ASCE7-22-5.4.4.3-H1"
   },
   {
-    "id": "ASCE7-22-5.4.4.3-T6",
+    "id": "ASCE7-22-5.4.4.3-T7",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1826,7 +2102,7 @@
     "parent_id": "ASCE7-22-5.4.4.3-H1"
   },
   {
-    "id": "ASCE7-22-5.4.4.3-T7",
+    "id": "ASCE7-22-5.4.4.3-T8",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2055,10 +2331,10 @@
       "citation": "Section 5.4.5",
       "page": 3
     },
-    "title": "5.4.5 Impact Loads Impact loads result from debris, ice, and any object transported by fl oodwaters striking against buildings and structures or parts thereof. Impact loads shall be determined using a",
+    "title": "5.4.5 Impact Loads",
     "description": "",
     "data": {
-      "rule": "5.4.5 Impact Loads Impact loads result from debris, ice, and any object transported by fl oodwaters striking against buildings and structures or parts thereof. Impact loads shall be determined using a rational approach as concentrated loads acting horizontally at the most critical location at or below the DFE.",
+      "rule": "5.4.5 Impact Loads",
       "conditions": [],
       "then": "",
       "else": null,
@@ -2071,6 +2347,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-5.4.5-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-5.4.5-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.4.5",
+      "citation": "Section 5.4.5",
+      "page": 3
+    },
+    "title": "Impact loads result from debris, ice, and any object transported by fl oodwaters striking against buildings and structures or parts thereof. Impact loads shall be determined using a rational approach ",
+    "description": "",
+    "data": {
+      "rule": "Impact loads result from debris, ice, and any object transported by fl oodwaters striking against buildings and structures or parts thereof. Impact loads shall be determined using a rational approach as concentrated loads acting horizontally at the most critical location at or below the DFE.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-5.5-H1",
@@ -2136,10 +2439,10 @@
       "citation": "Section 5.5",
       "page": 3
     },
-    "title": "ASCE/SEI 24 Flood resistant design and construction, ASCE, 2014.",
+    "title": "ASCE/SEI 24",
     "description": "",
     "data": {
-      "rule": "ASCE/SEI 24 Flood resistant design and construction, ASCE, 2014. Cited in : Section 5.3.3",
+      "rule": "ASCE/SEI 24",
       "conditions": [],
       "then": "",
       "else": null,
@@ -2152,6 +2455,33 @@
       "qc_notes": "topic"
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-5.5-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-5.5-H2",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.5",
+      "citation": "Section 5.5",
+      "page": 3
+    },
+    "title": "Flood resistant design and construction, ASCE, 2014.",
+    "description": "",
+    "data": {
+      "rule": "Flood resistant design and construction, ASCE, 2014. Cited in : Section 5.3.3",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-5.4-T5-4-11",
@@ -2241,7 +2571,7 @@
     "title": "Equation (5.4-6)",
     "description": "",
     "data": {
-      "expression": "5.4.4.3 Breaking Wave Loads on Nonvertical Walls Breaking wave forces given by Equations (5.4-6)",
+      "expression": "Breaking wave forces given by Equations (5.4-6)",
       "parameters": {}
     },
     "cross_references": [],
@@ -2253,7 +2583,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-5.5-T3",
+    "id": "ASCE7-22-5.5-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2280,7 +2610,7 @@
     "parent_id": "ASCE7-22-5.5-H2"
   },
   {
-    "id": "ASCE7-22-5.5-T4",
+    "id": "ASCE7-22-5.5-T5",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",

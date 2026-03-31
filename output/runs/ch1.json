@@ -90,10 +90,10 @@
       "citation": "Section 1.2.1",
       "page": 1
     },
-    "title": "1.2.1 De fi nitions The following de fi nitions apply to all the provisions of the standard.",
+    "title": "1.2.1 De",
     "description": "",
     "data": {
-      "rule": "1.2.1 De fi nitions The following de fi nitions apply to all the provisions of the standard.",
+      "rule": "1.2.1 De",
       "conditions": [],
       "then": "",
       "else": null,
@@ -106,6 +106,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-1.2.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-1.2.1-H2",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 1,
+      "section": "1.2.1",
+      "citation": "Section 1.2.1",
+      "page": 1
+    },
+    "title": "fi nitions The following de fi nitions apply to all the provisions of the standard.",
+    "description": "",
+    "data": {
+      "rule": "fi nitions The following de fi nitions apply to all the provisions of the standard.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-1.2.1-D1",
@@ -543,7 +570,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-1.2.1-T1",
+    "id": "ASCE7-22-1.2.1-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -570,7 +597,7 @@
     "parent_id": "ASCE7-22-1.2.1-H2"
   },
   {
-    "id": "ASCE7-22-1.2.1-T2",
+    "id": "ASCE7-22-1.2.1-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -731,10 +758,10 @@
       "citation": "Section 1.2.2",
       "page": 2
     },
-    "title": "1.2.2 Symbols The following symbols apply only to the provisions of Chapter 1 as indicated:",
+    "title": "1.2.2 Symbols",
     "description": "",
     "data": {
-      "rule": "1.2.2 Symbols The following symbols apply only to the provisions of Chapter 1 as indicated: D = Dead load",
+      "rule": "1.2.2 Symbols",
       "conditions": [],
       "then": "",
       "else": null,
@@ -749,7 +776,34 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-1.2.2-T2",
+    "id": "ASCE7-22-1.2.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-1.2.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 1,
+      "section": "1.2.2",
+      "citation": "Section 1.2.2",
+      "page": 2
+    },
+    "title": "The following symbols apply only to the provisions of Chapter 1 as indicated:",
+    "description": "",
+    "data": {
+      "rule": "The following symbols apply only to the provisions of Chapter 1 as indicated: D = Dead load",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-1.2.2-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -778,7 +832,7 @@
     "parent_id": "ASCE7-22-1.2.2-H1"
   },
   {
-    "id": "ASCE7-22-1.2.2-T5",
+    "id": "ASCE7-22-1.2.2-T6",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -805,7 +859,7 @@
     "parent_id": "ASCE7-22-1.2.2-H1"
   },
   {
-    "id": "ASCE7-22-1.2.2-T8",
+    "id": "ASCE7-22-1.2.2-T9",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -868,10 +922,38 @@
       "citation": "Section 1.3.1",
       "page": 2
     },
-    "title": "1.3.1 Strength and Stiffness Buildings and other structures, and all parts thereof, shall be designed and constructed with adequate strength and stiffness to provide structural stability, protect nons",
+    "title": "1.3.1 Strength and Stiffness",
     "description": "",
     "data": {
-      "rule": "1.3.1 Strength and Stiffness Buildings and other structures, and all parts thereof, shall be designed and constructed with adequate strength and stiffness to provide structural stability, protect nonstructural components and systems, and meet the serviceability requirements of Section 1.3.2.",
+      "rule": "1.3.1 Strength and Stiffness",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-1.3.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-1.3.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 1,
+      "section": "1.3.1",
+      "citation": "Section 1.3.1",
+      "page": 2
+    },
+    "title": "Buildings and other structures, and all parts thereof, shall be designed and constructed with adequate strength and stiffness to provide structural stability, protect nonstructural components and syst",
+    "description": "",
+    "data": {
+      "rule": "Buildings and other structures, and all parts thereof, shall be designed and constructed with adequate strength and stiffness to provide structural stability, protect nonstructural components and systems, and meet the serviceability requirements of Section 1.3.2.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -883,9 +965,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-1.3.1-P1",
@@ -915,7 +996,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-1.3.1-T1",
+    "id": "ASCE7-22-1.3.1-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -944,7 +1025,7 @@
     "parent_id": "ASCE7-22-1.3.1-H1"
   },
   {
-    "id": "ASCE7-22-1.3.1-T2",
+    "id": "ASCE7-22-1.3.1-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -973,7 +1054,7 @@
     "parent_id": "ASCE7-22-1.3.1-H1"
   },
   {
-    "id": "ASCE7-22-1.3.1-T3",
+    "id": "ASCE7-22-1.3.1-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1528,10 +1609,10 @@
       "citation": "Section 1.3.2",
       "page": 3
     },
-    "title": "1.3.2 Serviceability Structural systems, and members thereof, shall be designed under service loads to have adequate stiffness to limit de fl ections, lateral drift, vibration, or any other deformatio",
+    "title": "1.3.2 Serviceability",
     "description": "",
     "data": {
-      "rule": "1.3.2 Serviceability Structural systems, and members thereof, shall be designed under service loads to have adequate stiffness to limit de fl ections, lateral drift, vibration, or any other deformations that adversely affects the intended use and performance of buildings and other structures based on requirements set forth in the applicable codes and standards or as speci fi ed in the project design criteria.",
+      "rule": "1.3.2 Serviceability",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1546,6 +1627,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-1.3.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-1.3.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 1,
+      "section": "1.3.2",
+      "citation": "Section 1.3.2",
+      "page": 3
+    },
+    "title": "Structural systems, and members thereof, shall be designed under service loads to have adequate stiffness to limit de fl ections, lateral drift, vibration, or any other deformations that adversely aff",
+    "description": "",
+    "data": {
+      "rule": "Structural systems, and members thereof, shall be designed under service loads to have adequate stiffness to limit de fl ections, lateral drift, vibration, or any other deformations that adversely affects the intended use and performance of buildings and other structures based on requirements set forth in the applicable codes and standards or as speci fi ed in the project design criteria.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-1.3.3-H1",
     "type": "heading",
     "source": {
@@ -1555,10 +1663,10 @@
       "citation": "Section 1.3.3",
       "page": 3
     },
-    "title": "1.3.3 Functionality Structural systems and members and connections thereof assigned to Risk Category IV shall be designed with reasonable probability to have adequate structural strength and stiffness",
+    "title": "1.3.3 Functionality",
     "description": "",
     "data": {
-      "rule": "1.3.3 Functionality Structural systems and members and connections thereof assigned to Risk Category IV shall be designed with reasonable probability to have adequate structural strength and stiffness to limit de fl ections, lateral drift, or other deformations such that their behavior would not prevent function of the facility immediately following any of the design-level environmental hazard events speci fi ed in this standard. Designated nonstructural systems and their attachment to the structure shall be designed with suf fi cient strength and stiffness such that their behavior would not prevent function immediately following any of the design-level environmental hazard events speci fi ed in this standard. Components of designated nonstructural systems shall be designed, quali fi ed, or otherwise protected such",
+      "rule": "1.3.3 Functionality",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1574,6 +1682,33 @@
   },
   {
     "id": "ASCE7-22-1.3.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-1.3.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 1,
+      "section": "1.3.3",
+      "citation": "Section 1.3.3",
+      "page": 3
+    },
+    "title": "Structural systems and members and connections thereof assigned to Risk Category IV shall be designed with reasonable probability to have adequate structural strength and stiffness to limit de fl ecti",
+    "description": "",
+    "data": {
+      "rule": "Structural systems and members and connections thereof assigned to Risk Category IV shall be designed with reasonable probability to have adequate structural strength and stiffness to limit de fl ections, lateral drift, or other deformations such that their behavior would not prevent function of the facility immediately following any of the design-level environmental hazard events speci fi ed in this standard. Designated nonstructural systems and their attachment to the structure shall be designed with suf fi cient strength and stiffness such that their behavior would not prevent function immediately following any of the design-level environmental hazard events speci fi ed in this standard. Components of designated nonstructural systems shall be designed, quali fi ed, or otherwise protected such",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-1.3.3-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1701,7 +1836,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-1.3.3-T2",
+    "id": "ASCE7-22-1.3.3-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1737,10 +1872,10 @@
       "citation": "Section 1.3.4",
       "page": 4
     },
-    "title": "1.3.4 Self-Straining Forces and Effects Provision shall be made for anticipated self-straining forces and effects arising from differential settlements of foundations and from restrained dimensional c",
+    "title": "1.3.4 Self-Straining Forces and Effects",
     "description": "",
     "data": {
-      "rule": "1.3.4 Self-Straining Forces and Effects Provision shall be made for anticipated self-straining forces and effects arising from differential settlements of foundations and from restrained dimensional changes caused by temperature, moisture, shrinkage, creep, and similar effects.",
+      "rule": "1.3.4 Self-Straining Forces and Effects",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1753,6 +1888,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-1.3.4-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-1.3.4-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 1,
+      "section": "1.3.4",
+      "citation": "Section 1.3.4",
+      "page": 4
+    },
+    "title": "Provision shall be made for anticipated self-straining forces and effects arising from differential settlements of foundations and from restrained dimensional changes caused by temperature, moisture, ",
+    "description": "",
+    "data": {
+      "rule": "Provision shall be made for anticipated self-straining forces and effects arising from differential settlements of foundations and from restrained dimensional changes caused by temperature, moisture, shrinkage, creep, and similar effects.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-1.3.5-H1",
@@ -1764,10 +1926,10 @@
       "citation": "Section 1.3.5",
       "page": 4
     },
-    "title": "1.3.5 Analysis Load effects on individual structural members shall be determined by methods of structural analysis that take into account equilibrium, general stability, geometric compatibility, and b",
+    "title": "1.3.5 Analysis",
     "description": "",
     "data": {
-      "rule": "1.3.5 Analysis Load effects on individual structural members shall be determined by methods of structural analysis that take into account equilibrium, general stability, geometric compatibility, and both shortand long-term material properties. Members that tend to accumulate residual deformations under repeated service loads shall have included in their analysis the added eccentricities expected to occur during their service life.",
+      "rule": "1.3.5 Analysis",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1780,6 +1942,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-1.3.5-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-1.3.5-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 1,
+      "section": "1.3.5",
+      "citation": "Section 1.3.5",
+      "page": 4
+    },
+    "title": "Load effects on individual structural members shall be determined by methods of structural analysis that take into account equilibrium, general stability, geometric compatibility, and both shortand lo",
+    "description": "",
+    "data": {
+      "rule": "Load effects on individual structural members shall be determined by methods of structural analysis that take into account equilibrium, general stability, geometric compatibility, and both shortand long-term material properties. Members that tend to accumulate residual deformations under repeated service loads shall have included in their analysis the added eccentricities expected to occur during their service life.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-1.3.6-H1",
@@ -1791,10 +1980,10 @@
       "citation": "Section 1.3.6",
       "page": 4
     },
-    "title": "1.3.6 Counteracting Structural Actions All structural members and systems and all components and cladding in a building or other structure shall be designed to resist forces caused by earthquakes, win",
+    "title": "1.3.6 Counteracting",
     "description": "",
     "data": {
-      "rule": "1.3.6 Counteracting Structural Actions All structural members and systems and all components and cladding in a building or other structure shall be designed to resist forces caused by earthquakes, wind, and tornadoes, with consideration of overturning, sliding, and uplift, and continuous load paths shall be provided for transmitting these forces to the foundation. Where sliding is used to isolate the elements, the effects of friction between sliding elements shall be included as a force. Where all or a portion of the resistance to these forces is provided by dead load, the dead load shall be taken as the minimum dead load likely to be in place during the event causing the considered forces. Consideration shall be given to the effects of vertical and horizontal de fl ections resulting from such forces.",
+      "rule": "1.3.6 Counteracting",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1809,6 +1998,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-1.3.6-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-1.3.6-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 1,
+      "section": "1.3.6",
+      "citation": "Section 1.3.6",
+      "page": 4
+    },
+    "title": "Structural Actions All structural members and systems and all components and cladding in a building or other structure shall be designed to resist forces caused by earthquakes, wind, and tornadoes, wi",
+    "description": "",
+    "data": {
+      "rule": "Structural Actions All structural members and systems and all components and cladding in a building or other structure shall be designed to resist forces caused by earthquakes, wind, and tornadoes, with consideration of overturning, sliding, and uplift, and continuous load paths shall be provided for transmitting these forces to the foundation. Where sliding is used to isolate the elements, the effects of friction between sliding elements shall be included as a force. Where all or a portion of the resistance to these forces is provided by dead load, the dead load shall be taken as the minimum dead load likely to be in place during the event causing the considered forces. Consideration shall be given to the effects of vertical and horizontal de fl ections resulting from such forces.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-1.3.7-H1",
     "type": "heading",
     "source": {
@@ -1818,10 +2034,10 @@
       "citation": "Section 1.3.7",
       "page": 4
     },
-    "title": "1.3.7 Fire Resistance Structural fi re resistance shall be provided in accordance with the requirements speci fi ed in the applicable building code. As an alternative, the performancebased design proc",
+    "title": "1.3.7 Fire",
     "description": "",
     "data": {
-      "rule": "1.3.7 Fire Resistance Structural fi re resistance shall be provided in accordance with the requirements speci fi ed in the applicable building code. As an alternative, the performancebased design procedures in Appendix E are permitted, where approved.",
+      "rule": "1.3.7 Fire",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1834,6 +2050,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-1.3.7-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-1.3.7-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 1,
+      "section": "1.3.7",
+      "citation": "Section 1.3.7",
+      "page": 4
+    },
+    "title": "Resistance Structural fi re resistance shall be provided in accordance with the requirements speci fi ed in the applicable building code. As an alternative, the performancebased design procedures in A",
+    "description": "",
+    "data": {
+      "rule": "Resistance Structural fi re resistance shall be provided in accordance with the requirements speci fi ed in the applicable building code. As an alternative, the performancebased design procedures in Appendix E are permitted, where approved.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-1.4-H1",
@@ -1904,10 +2147,10 @@
       "citation": "Section 1.4.1",
       "page": 4
     },
-    "title": "1.4.1 Load Path Connections All parts of the structure between separation joints shall be interconnected to form a continuous path to the lateral force-resisting system, and the connections shall be c",
+    "title": "1.4.1 Load Path Connections",
     "description": "",
     "data": {
-      "rule": "1.4.1 Load Path Connections All parts of the structure between separation joints shall be interconnected to form a continuous path to the lateral force-resisting system, and the connections shall be capable of transmitting the lateral forces induced by the parts being connected. Any smaller portion of the structure shall be tied to the remainder of the structure with elements having the strength to resist a force of not less than 5% of the portion ' s weight.",
+      "rule": "1.4.1 Load Path Connections",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1920,6 +2163,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-1.4.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-1.4.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 1,
+      "section": "1.4.1",
+      "citation": "Section 1.4.1",
+      "page": 4
+    },
+    "title": "All parts of the structure between separation joints shall be interconnected to form a continuous path to the lateral force-resisting system, and the connections shall be capable of transmitting the l",
+    "description": "",
+    "data": {
+      "rule": "All parts of the structure between separation joints shall be interconnected to form a continuous path to the lateral force-resisting system, and the connections shall be capable of transmitting the lateral forces induced by the parts being connected. Any smaller portion of the structure shall be tied to the remainder of the structure with elements having the strength to resist a force of not less than 5% of the portion ' s weight.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-1.4.2-P1",
@@ -2319,10 +2589,10 @@
       "citation": "Section 1.5.3",
       "page": 5
     },
-    "title": "1.5.3 Toxic, Highly Toxic, and Explosive Substances Buildings and other structures containing toxic, highly toxic, or explosive substances are permitted to be classi fi ed as Risk Category II structur",
+    "title": "1.5.3 Toxic, Highly Toxic, and Explosive Substances",
     "description": "",
     "data": {
-      "rule": "1.5.3 Toxic, Highly Toxic, and Explosive Substances Buildings and other structures containing toxic, highly toxic, or explosive substances are permitted to be classi fi ed as Risk Category II structures if it can be demonstrated to the satisfaction of the Authority Having Jurisdiction by a hazard assessment as part of an overall risk management plan (RMP) that a release of the toxic, highly toxic, or explosive substances is not suf fi cient to pose a threat to the public.",
+      "rule": "1.5.3 Toxic, Highly Toxic, and Explosive Substances",
       "conditions": [],
       "then": "",
       "else": null,
@@ -2335,6 +2605,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-1.5.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-1.5.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 1,
+      "section": "1.5.3",
+      "citation": "Section 1.5.3",
+      "page": 5
+    },
+    "title": "Buildings and other structures containing toxic, highly toxic, or explosive substances are permitted to be classi fi ed as Risk Category II structures if it can be demonstrated to the satisfaction of ",
+    "description": "",
+    "data": {
+      "rule": "Buildings and other structures containing toxic, highly toxic, or explosive substances are permitted to be classi fi ed as Risk Category II structures if it can be demonstrated to the satisfaction of the Authority Having Jurisdiction by a hazard assessment as part of an overall risk management plan (RMP) that a release of the toxic, highly toxic, or explosive substances is not suf fi cient to pose a threat to the public.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-1.5.3-P1",
@@ -2418,7 +2715,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-1.5.3-T1",
+    "id": "ASCE7-22-1.5.3-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2445,7 +2742,7 @@
     "parent_id": "ASCE7-22-1.5.3-H1"
   },
   {
-    "id": "ASCE7-22-1.5.3-T2",
+    "id": "ASCE7-22-1.5.3-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2693,10 +2990,10 @@
       "citation": "Section 1.6.1",
       "page": 6
     },
-    "title": "1.6.1 Load Test Procedure Speci fi ed Elsewhere Where the applicable building code or a material standard approved by the Authority Having Jurisdiction includes an applicable load test procedure and a",
+    "title": "1.6.1 Load Test Procedure Speci",
     "description": "",
     "data": {
-      "rule": "1.6.1 Load Test Procedure Speci fi ed Elsewhere Where the applicable building code or a material standard approved by the Authority Having Jurisdiction includes an applicable load test procedure and acceptance criteria, the load test shall be conducted in accordance with that code or standard.",
+      "rule": "1.6.1 Load Test Procedure Speci",
       "conditions": [],
       "then": "",
       "else": null,
@@ -2711,6 +3008,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-1.6.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-1.6.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 1,
+      "section": "1.6.1",
+      "citation": "Section 1.6.1",
+      "page": 6
+    },
+    "title": "fi ed Elsewhere Where the applicable building code or a material standard approved by the Authority Having Jurisdiction includes an applicable load test procedure and acceptance criteria, the load tes",
+    "description": "",
+    "data": {
+      "rule": "fi ed Elsewhere Where the applicable building code or a material standard approved by the Authority Having Jurisdiction includes an applicable load test procedure and acceptance criteria, the load test shall be conducted in accordance with that code or standard.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-1.6.2-H1",
     "type": "heading",
     "source": {
@@ -2720,10 +3044,10 @@
       "citation": "Section 1.6.2",
       "page": 6
     },
-    "title": "1.6.2 Load Test Procedure Not Speci fi ed Elsewhere In the absence of an applicable load test procedure within the building code or an applicable material standard approved by the Authority Having Jur",
+    "title": "1.6.2 Load Test Procedure Not Speci",
     "description": "",
     "data": {
-      "rule": "1.6.2 Load Test Procedure Not Speci fi ed Elsewhere In the absence of an applicable load test procedure within the building code or an applicable material standard approved by the Authority Having Jurisdiction, a load test procedure shall be developed and overseen by a registered design professional, who will also be responsible for interpreting the results of the load test. At a minimum, the applied load shall be determined using the load factors speci fi ed in the basic combinations in Section 2.3.1. The applied load shall simulate applicable loading and deformation conditions relevant to the performance of the element or structure being tested. For statically loaded components, the test load shall be left in place for a period of at least 1 h. For components that carry dynamic loads such as impact loads, the load shall be left in place for a period consistent with the component ' s actual function. For materials that have strengths that are dependent on load duration, the test load shall be adjusted to account for the difference in load duration of the test compared to the expected duration of the design loads being considered. The component or structure shall be considered to have satis fi ed the test requirements where the following criteria are met:",
+      "rule": "1.6.2 Load Test Procedure Not Speci",
       "conditions": [],
       "then": "",
       "else": null,
@@ -2739,6 +3063,33 @@
   },
   {
     "id": "ASCE7-22-1.6.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-1.6.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 1,
+      "section": "1.6.2",
+      "citation": "Section 1.6.2",
+      "page": 6
+    },
+    "title": "fi ed Elsewhere In the absence of an applicable load test procedure within the building code or an applicable material standard approved by the Authority Having Jurisdiction, a load test procedure sha",
+    "description": "",
+    "data": {
+      "rule": "fi ed Elsewhere In the absence of an applicable load test procedure within the building code or an applicable material standard approved by the Authority Having Jurisdiction, a load test procedure shall be developed and overseen by a registered design professional, who will also be responsible for interpreting the results of the load test. At a minimum, the applied load shall be determined using the load factors speci fi ed in the basic combinations in Section 2.3.1. The applied load shall simulate applicable loading and deformation conditions relevant to the performance of the element or structure being tested. For statically loaded components, the test load shall be left in place for a period of at least 1 h. For components that carry dynamic loads such as impact loads, the load shall be left in place for a period consistent with the component ' s actual function. For materials that have strengths that are dependent on load duration, the test load shall be adjusted to account for the difference in load duration of the test compared to the expected duration of the design loads being considered. The component or structure shall be considered to have satis fi ed the test requirements where the following criteria are met:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-1.6.2-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2765,7 +3116,7 @@
     "parent_id": "ASCE7-22-1.6.2-H1"
   },
   {
-    "id": "ASCE7-22-1.6.2-T2",
+    "id": "ASCE7-22-1.6.2-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2792,7 +3143,7 @@
     "parent_id": "ASCE7-22-1.6.2-H1"
   },
   {
-    "id": "ASCE7-22-1.6.2-T3",
+    "id": "ASCE7-22-1.6.2-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",

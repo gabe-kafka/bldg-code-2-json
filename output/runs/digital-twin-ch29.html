@@ -1,0 +1,364 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8">
+<title>ASCE 7-22 Chapter 29 — Digital Twin</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#FFF;--s:#F5F5F5;--t:#1A1A1A;--m:#6B6B6B;--b:#D4D4D4;--sub:#E8E8E8;
+--g:#16A34A;--a:#0057FF;--r:#DC2626;--am:#D97706;--cy:#06B6D4;--purple:#8B5CF6}
+@media(prefers-color-scheme:dark){:root{--bg:#0A0A0A;--s:#141414;--t:#E5E5E5;--m:#808080;
+--b:#2A2A2A;--sub:#1A1A1A;--a:#3B82F6}}
+body{background:var(--bg);color:var(--t);font-family:'JetBrains Mono','SF Mono',monospace;
+font-size:11px;max-width:900px;margin:0 auto;padding:16px}
+h1{font-size:13px;text-transform:uppercase;letter-spacing:.1em;margin-bottom:2px}
+.sub{font-size:10px;color:var(--m);margin-bottom:12px}
+.nav{font-size:10px;color:var(--a);margin-bottom:16px}
+.nav a{color:var(--a);text-decoration:none}
+.nav a:hover{text-decoration:underline}
+.section{margin-bottom:12px}
+.sec-num{font-size:12px;font-weight:700;color:var(--t);margin-bottom:2px}
+.sec-0,.sec-1{margin-left:0}.sec-2{margin-left:16px}.sec-3{margin-left:32px}.sec-4{margin-left:48px}
+.child{margin:3px 0;padding:4px 8px;border-left:2px solid var(--sub);font-size:10px;line-height:1.5}
+.child.provision{border-color:var(--g);background:rgba(22,163,74,0.03)}
+.child.definition{border-color:var(--purple);background:rgba(139,92,246,0.03)}
+.child.formula{border-color:var(--a);background:rgba(59,130,246,0.03)}
+.child.table{border-color:var(--cy);background:rgba(6,182,212,0.03)}
+.child.figure{border-color:var(--am);background:rgba(217,119,6,0.03)}
+.child.exception{border-color:var(--r);background:rgba(220,38,38,0.03)}
+.child.user_note{border-color:var(--m);background:rgba(128,128,128,0.03)}
+.child.text_block{border-color:var(--sub)}
+.tag{display:inline-block;padding:0 3px;border:1px solid;font-size:7px;text-transform:uppercase;
+letter-spacing:.04em;margin-right:3px;vertical-align:middle}
+.tag-provision{border-color:var(--g);color:var(--g)}
+.tag-definition{border-color:var(--purple);color:var(--purple)}
+.tag-formula{border-color:var(--a);color:var(--a)}
+.tag-table{border-color:var(--cy);color:var(--cy)}
+.tag-figure{border-color:var(--am);color:var(--am)}
+.tag-exception{border-color:var(--r);color:var(--r)}
+.tag-user_note{border-color:var(--m);color:var(--m)}
+.tag-text_block{border-color:var(--sub);color:var(--m)}
+.meta{font-size:8px;color:var(--m)}
+.xref{font-size:8px;color:var(--a)}
+b{font-weight:600}
+table.tbl{width:100%;border-collapse:collapse;font-size:9px;margin:4px 0}
+table.tbl th{text-align:left;font-size:7px;text-transform:uppercase;color:var(--m);border-bottom:1px solid var(--b);padding:1px 4px}
+table.tbl td{padding:1px 4px;border-bottom:1px solid var(--sub)}
+</style></head><body>
+<h1>ASCE 7-22 Chapter 29 — Digital Twin</h1>
+<div class="sub">218 elements · 31 provisions · 0 definitions · 13 formulas · 0 tables</div>
+<div class="nav"><a href="digital-twin-index.html">← All Chapters</a></div>
+
+<div class="section sec-0">
+<div class="sec-num">CHAPTER 29</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">29.1 SCOPE</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">29.1.1 Structure</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Types This chapter applies to the determination of wind loads on building appurtenances (such as rooftop structures and rooftop equipment) and other structures of all heights (such as solid freestanding walls and freestanding solid signs, chimneys, tanks, circular bins, silos, open signs, single-plane open frames, ground-mounted fi xed-tilt solar panel systems, and trussed towers) using the Direct
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The steps required for the determination of wind loads on building appurtenances and other structures are shown in Table 29.1-1. The steps required to determine wind loads on the Main Wind Force Resisting System (MWFRS) on circular bins, silos, and tanks are shown in Table 29.1-2.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">29.1.2 Conditions</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+An appurtenance or structure that has design wind loads, determined in accordance with this section, shall comply with all of the following conditions:
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Structure is a regular-shaped structure as de fi ned in Section 26.2; and
+<br><span class="xref">→ ASCE7-22-26.2-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Structure does not have response characteristics making it subject to across-wind loading, vortex shedding, or instability caused by galloping or fl utter; nor does it have a site location for which channeling effects or buffeting in the wake of upwind obstructions warrant special consideration.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">29.1.3 Limitations</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The provisions of this chapter take into consideration the load magni fi cation effect caused by gusts in resonance with along-wind vibrations of fl exible structures. Structures that do not meet the requirements of Section 29.1.2, or that have unusual shapes or response characteristics, shall be designed using recognized literature documenting such wind load effects or shall use the Wind Tunnel P
+<br><span class="xref">→ ASCE7-22-29.1.2-H1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">29.1.4 Shielding</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">29.2</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">29.2.1 Wind Load Parameters Speci</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+fi ed in Chapter 26 The following wind load parameters shall be determined in accordance with Chapter 26:
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Basic wind speed, V (Section 26.5);
+<br><span class="xref">→ ASCE7-22-26.5-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Wind directionality factor, Kd (Section 26.6);
+<br><span class="xref">→ ASCE7-22-26.6-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Exposure category (Section 26.7);
+<br><span class="xref">→ ASCE7-22-26.7-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Topographic factor, Kzt (Section 26.8);
+<br><span class="xref">→ ASCE7-22-26.8-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Ground elevation factor, Ke (Section 26.9); and
+<br><span class="xref">→ ASCE7-22-26.9-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Enclosure classi fi cation (Section 26.12).
+<br><span class="xref">→ ASCE7-22-26.12-H1</span>
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">29.3</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+DESIGN WIND LOADS: SOLID FREESTANDING WALLS AND SOLID SIGNS
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">29.3.1 Solid Freestanding Walls and Solid Freestanding</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Signs The design wind force for solid freestanding walls and solid freestanding signs shall be determined by the following formula: where
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+qh = Velocity pressure evaluated at height h (de fi ned in Figure 29.3-1) as determined in accordance with Section 26.10;
+<br><span class="xref">→ ASCE7-22-26.10-H1, ASCE7-22-29.3-E29-3-11</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Kd = Wind directionality factor, see Section 26.6;
+<br><span class="xref">→ ASCE7-22-26.6-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+G = Gust-effect factor from Section 26.11;
+<br><span class="xref">→ ASCE7-22-26.11-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Cf = Net force coef fi cient from Figure 29.3-1; and
+<br><span class="xref">→ ASCE7-22-29.3-E29-3-11</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+As = Gross area of the solid freestanding wall or freestanding solid sign, ft 2 (m 2 ).
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">29.4</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+DESIGN WIND LOADS: OTHER STRUCTURES
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+where qz = Velocity pressure evaluated at height z , as de fi ned in Section 26.10, of the centroid of area Af ;
+<br><span class="xref">→ ASCE7-22-26.10-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Kd = Wind directionality factor, see Section 26.6;
+<br><span class="xref">→ ASCE7-22-26.6-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+G = Gust-effect factor from Section 26.11;
+<br><span class="xref">→ ASCE7-22-26.11-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Cf = Force coef fi cients from Figures 29.4-1 through 29.4-4; and
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Af = Projected area normal to the wind except where Cf is speci fi ed for the actual surface area, ft 2 (m 2 ).
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">29.4.1 Rooftop Structures and Equipment for Buildings</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The lateral force, Fh , and vertical force, Fv , for rooftop structures and equipment, except as otherwise speci fi ed for roof-mounted solar panels (Sections 29.4.3 and 29.4.4) and structures identi fi ed in Section 29.4, shall be determined as speci fi ed.
+<br><span class="xref">→ ASCE7-22-29.4-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+qh = Velocity pressure evaluated at mean roof height of the building;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Kd = Wind directionality factor, see Section 26.6; and
+<br><span class="xref">→ ASCE7-22-26.6-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Af = Vertical projected area of the rooftop structure or equipment on a plane normal to the direction of wind, ft 2 (m 2 ). Diagrams FREESTANDING WALL SOLID SIGN OR CASE A L 0.05h AFT - e = 0.2B t→ 5/2 ] WIND +-
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+qh = Velocity pressure evaluated at the mean roof height of the building;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Ar = Horizontal projected area of rooftop structure or equipment, ft 2 (m 2 ).
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">29.4.2 Design Wind Loads: Circular Bins, Silos, and Tanks</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+with h ≤ 120 ft ( h ≤ 36.5 m), D ≤ 120 ft ( D ≤ 36.5 m), and 0.25 ≤ HD ≤ 4 Grouped circular bins, silos, and tanks of similar size with center-to-center spacing greater than two diameters shall be treated as isolated structures. For spacings less than 1.25 diameters, the structures shall be treated as grouped, and the wind pressure shall be determined from Section 29.4.2.4. For intermediate spacin
+<br><span class="xref">→ ASCE7-22-29.4.2.4-P1</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">Figure 29.4-3. Other structures (all heights): force coef</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+29.4.2.1 External Walls of Isolated Circular Bins, Silos, and Tanks To determine the overall drag on circular bins, silos, and tanks using Equation (29.4-1), a force coef fi cient Cf of 0.63, based
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+ficients, Cf , for open structures -trussed towers.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(a) hc ∕ D is in the range of 0.25 to 4.0 and the cylinder (diameter D ) is standing on the ground or supported by columns; and
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(b) Clearance height, C , is less than or equal to the height of the solid, cylinder hc , as shown in Figure 29.4-4; and
+<br><span class="xref">→ ASCE7-22-29.4-E29-4-41</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(c) Tank surface is moderately smooth, as de fi ned in Figure 29.4-1.
+<br><span class="xref">→ ASCE7-22-29.4-E29-4-11</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">29.4.2.2 Roofs of Isolated Circular Bins, Silos, and Tanks</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The net design pressures on the roofs of circular bins, silos, and tanks shall be determined from Equation (29.4-4)
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+where qh = Velocity pressure for all surfaces evaluated at mean roof height h ;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Kd = Wind directionality factor, see Section 26.6;
+<br><span class="xref">→ ASCE7-22-26.6-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Cp = External pressure coef fi cient from Figure 29.4-5 for roofs;
+<br><span class="xref">→ ASCE7-22-29.4-E29-4-51</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+( GCpi ) = Internal pressure coef fi cient for roofed structures from Section 26.13; and
+<br><span class="xref">→ ASCE7-22-26.13-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+G = Gust-effect factor from Section 26.11.
+<br><span class="xref">→ ASCE7-22-26.11-H1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">L p ≤ 6.7 ft (2.04 m),</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">29.4.4 Rooftop Solar Panels Parallel to the Roof Surface on</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Buildings of All Heights and Roof Slopes The design wind pressures for rooftop solar panels located on enclosed or partially enclosed buildings of all heights, with panels parallel to the roof surface, with a tolerance of 2 degrees and with a maximum height above the roof surface, h 2 , not exceeding 10 in. (0.25 m), shall be determined in accordance with this section. A minimum gap of 0.25 in. (6
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+qh = Velocity pressure for all surfaces evaluated at mean roof height, h ;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Kd = Wind directionality factor, see Section 26.6;
+<br><span class="xref">→ ASCE7-22-26.6-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+( GCp ) = External pressure coef fi cient for C&amp;C of roofs with respective roof zoning, determined from Figures 30.32A-I through 30.3-7 or 30.5-1;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+γ E = Array edge factor = 1.5 for uplift loads on panels that are exposed and within a distance of 2 h 2 from an edge of the array; γ E = 1.0 elsewhere for uplift loads and for all downward loads, as illustrated in Figure 29.4-7; a panel is de fi ned as exposed if d 1 to the roof edge &gt; 0.5 h and one of the following applies:
+<br><span class="xref">→ ASCE7-22-29.4-E29-4-71</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+d 1 to the adjacent array &gt; 2 h 2 or d 2 to the next adjacent panel &gt; 2 h 2 ; and
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+γ a = Solar panel pressure equalization factor, de fi ned in Figure 29.4-8. Equalization Factor, Ya 0.8 0.6 0.4 0.2 -- gaps ≥ 0.75&quot; (19 mm) and hz ≤ 5&quot; (127 mm) - gap = 0.25&quot; (6.4 mm) and h2 = 10: (254 mm) 10 100 Effective Wind Area, ft2
+<br><span class="xref">→ ASCE7-22-29.4-E29-4-81</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Case where the solar panels have been removed.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">29.4.5 Ground-Mounted Fixed-Tilt Solar Panel Systems</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+qh = Velocity pressure for all surfaces evaluated at the mean height of the panel, h in lb ∕ ft 2 (N ∕ m 2 );
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Kd = Directionality Factor; see Section 26.6 (GCgn static ) = Static net pressure coef fi cient, as determined from Figure 29.4-10;
+<br><span class="xref">→ ASCE7-22-26.6-H1, ASCE7-22-29.4-F29-4-101</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(GCgn static ) = Static moment coef fi cient, as determined from Figure 29.4-10;
+<br><span class="xref">→ ASCE7-22-29.4-F29-4-101</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+A = Effective wind area of element, ft 2 (m 2 ).
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Parameters for Application of Ground-Mounted Fixed-Tilt Solar Panel System Requirements +(GCgm), $Mc
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">29.4.5.1 Scope</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Wind loads shall be calculated in accordance with Sections 29.4.5.2 and 29.4.5.3 for ground-mounted fi xed-tilt solar photovoltaic (PV) panel systems installed in rows satisfying the following geometric limitations: Number of rows ≥ 3
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The rows have the same chord length.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The ratio of area blocked by support framing to total area below lowest edge of panels ≤ 8% over any length of 4 Lc , where
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Lc = Panel chord length, ft (m).
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Wg = Shortest row length in array, ft (m).
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+ω = Angle between the solar panels and the ground surface, degrees.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+h = Mean height of panel, ft (m).
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+S = Center-to-center row spacing, ft (m).
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+s p = Gap between adjacent panels in both directions.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+SL = Horizontal distance in longitudinal direction of open area within a single row.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+ST = Horizontal distance in transverse direction of open area between adjacent rows.
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">29.5 PARAPETS</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Wind loads on parapets are speci fi ed in Section 27.3.4 for buildings of all heights designed using the Directional Procedure and in Section 28.3.4 for low-rise buildings designed using the Envelope Procedure.
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">29.6 ROOF OVERHANGS</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Wind loads on roof overhangs are speci fi ed in Section 27.3.3 for buildings of all heights designed using the Directional Procedure and in Section 28.3.5 for low-rise buildings designed using the Envelope Procedure.
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">29.7</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">29.8</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+</body></html>

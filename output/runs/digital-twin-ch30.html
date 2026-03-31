@@ -1,0 +1,372 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8">
+<title>ASCE 7-22 Chapter 30 — Digital Twin</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#FFF;--s:#F5F5F5;--t:#1A1A1A;--m:#6B6B6B;--b:#D4D4D4;--sub:#E8E8E8;
+--g:#16A34A;--a:#0057FF;--r:#DC2626;--am:#D97706;--cy:#06B6D4;--purple:#8B5CF6}
+@media(prefers-color-scheme:dark){:root{--bg:#0A0A0A;--s:#141414;--t:#E5E5E5;--m:#808080;
+--b:#2A2A2A;--sub:#1A1A1A;--a:#3B82F6}}
+body{background:var(--bg);color:var(--t);font-family:'JetBrains Mono','SF Mono',monospace;
+font-size:11px;max-width:900px;margin:0 auto;padding:16px}
+h1{font-size:13px;text-transform:uppercase;letter-spacing:.1em;margin-bottom:2px}
+.sub{font-size:10px;color:var(--m);margin-bottom:12px}
+.nav{font-size:10px;color:var(--a);margin-bottom:16px}
+.nav a{color:var(--a);text-decoration:none}
+.nav a:hover{text-decoration:underline}
+.section{margin-bottom:12px}
+.sec-num{font-size:12px;font-weight:700;color:var(--t);margin-bottom:2px}
+.sec-0,.sec-1{margin-left:0}.sec-2{margin-left:16px}.sec-3{margin-left:32px}.sec-4{margin-left:48px}
+.child{margin:3px 0;padding:4px 8px;border-left:2px solid var(--sub);font-size:10px;line-height:1.5}
+.child.provision{border-color:var(--g);background:rgba(22,163,74,0.03)}
+.child.definition{border-color:var(--purple);background:rgba(139,92,246,0.03)}
+.child.formula{border-color:var(--a);background:rgba(59,130,246,0.03)}
+.child.table{border-color:var(--cy);background:rgba(6,182,212,0.03)}
+.child.figure{border-color:var(--am);background:rgba(217,119,6,0.03)}
+.child.exception{border-color:var(--r);background:rgba(220,38,38,0.03)}
+.child.user_note{border-color:var(--m);background:rgba(128,128,128,0.03)}
+.child.text_block{border-color:var(--sub)}
+.tag{display:inline-block;padding:0 3px;border:1px solid;font-size:7px;text-transform:uppercase;
+letter-spacing:.04em;margin-right:3px;vertical-align:middle}
+.tag-provision{border-color:var(--g);color:var(--g)}
+.tag-definition{border-color:var(--purple);color:var(--purple)}
+.tag-formula{border-color:var(--a);color:var(--a)}
+.tag-table{border-color:var(--cy);color:var(--cy)}
+.tag-figure{border-color:var(--am);color:var(--am)}
+.tag-exception{border-color:var(--r);color:var(--r)}
+.tag-user_note{border-color:var(--m);color:var(--m)}
+.tag-text_block{border-color:var(--sub);color:var(--m)}
+.meta{font-size:8px;color:var(--m)}
+.xref{font-size:8px;color:var(--a)}
+b{font-weight:600}
+table.tbl{width:100%;border-collapse:collapse;font-size:9px;margin:4px 0}
+table.tbl th{text-align:left;font-size:7px;text-transform:uppercase;color:var(--m);border-bottom:1px solid var(--b);padding:1px 4px}
+table.tbl td{padding:1px 4px;border-bottom:1px solid var(--sub)}
+</style></head><body>
+<h1>ASCE 7-22 Chapter 30 — Digital Twin</h1>
+<div class="sub">469 elements · 42 provisions · 1 definitions · 11 formulas · 1 tables</div>
+<div class="nav"><a href="digital-twin-index.html">← All Chapters</a></div>
+
+<div class="section sec-1">
+<div class="sec-num">30.1 SCOPE</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">30.1.1 Building Types</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+This chapter applies to the determination of wind pressures on components and cladding (C&amp;C) on buildings.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Part 1 is applicable to an enclosed, partially enclosed, or partially open
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Low-rise building (see de fi nition in Section 26.2); or
+<br><span class="xref">→ ASCE7-22-26.2-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Building with h ≤ 60 ft (18.3 m).
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The building has a fl at roof, gable roof, multispan gable roof, hip roof, monoslope roof, stepped roof, or sawtooth roof, and the wind pressures are calculated from a wind pressure equation.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Part 2 is applicable to an enclosed, partially enclosed, or partially open
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Building with h &gt; 60 ft (18.3 m).
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The building has a fl at roof, pitched roof, gable roof, hip roof, mansard roof, arched roof, or domed roof, and the wind pressures are calculated from a wind pressure equation.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Part 3 is applicable to an open building of all heights that has a pitched free roof, monoslope free roof, or troughed free roof.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Part 4 is applicable to building appurtenances such as roof overhangs, parapets, and rooftop equipment.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Part 5 is applicable to non-building structures -circular bins, silos, and tanks; rooftop solar panels and roof pavers.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Circular bins, silos, and tanks with h ≤ 120 ft (38.6 m);
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Rooftop solar panels: Buildings of all heights with fl at roofs or gable or hip roofs with roof slopes less than or equal to 7 degrees; and
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Roof pavers: Buildings of all heights with roof slopes less than or equal to 7 degrees.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">30.1.2 Conditions</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+A building that has design wind loads determined in accordance with this chapter shall comply with all of the following conditions:
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The building is a regular-shaped building as de fi ned in Section 26.2; and
+<br><span class="xref">→ ASCE7-22-26.2-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The building does not have response characteristics that make it subject to across-wind loading, vortex shedding, or instability caused by galloping or fl utter; nor does it have a site location for which channeling effects or buffeting in the wake of upwind obstructions warrant special consideration.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">30.1.3 Limitations</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">30.2</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">30.2.1 Wind Load Parameters Speci</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+fi ed in Chapter 26 The following wind load parameters are speci fi ed in Chapter 26:
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Basic wind speed, V (Section 26.5),
+<br><span class="xref">→ ASCE7-22-26.5-F26-5-11</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Wind directionality factor, Kd (Section 26.6),
+<br><span class="xref">→ ASCE7-22-26.6-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Exposure category (Section 26.7),
+<br><span class="xref">→ ASCE7-22-26.7-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Topographic factor, Kzt (Section 26.8),
+<br><span class="xref">→ ASCE7-22-26.8-F26-8-11</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Ground elevation factor, Ke (Section 26.9),
+<br><span class="xref">→ ASCE7-22-26.9-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Velocity pressure exposure coef fi cient, Kz or Kh (Section 26.10.1); Velocity pressure, qz (Section 26.10.2),
+<br><span class="xref">→ ASCE7-22-26.10.1-H1, ASCE7-22-26.10.2-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Gust-effect factor (Section 26.11),
+<br><span class="xref">→ ASCE7-22-26.11-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Enclosure classi fi cation (Section 26.12), and
+<br><span class="xref">→ ASCE7-22-26.12-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Internal pressure coef fi cient, ( GCpi ) (Section 26.13).
+<br><span class="xref">→ ASCE7-22-26.13-H1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">30.2.2 Minimum Design Wind Pressures</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The design wind pressure for C&amp;C of buildings shall not be less than a net pressure of 16 lb/ft 2 (0.77 kN/m 2 ) acting in either direction normal to the surface.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">30.2.4 External Pressure Coef</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">30.3</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The provisions of Section 30.3 are applicable to an enclosed, partially enclosed, or partially open
+<br><span class="xref">→ ASCE7-22-30.3-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Low-rise building (see de fi nition in Section 26.2); or
+<br><span class="xref">→ ASCE7-22-26.2-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Building with h ≤ 60 ft (18.3 m).
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The building has a fl at roof, gable roof, multispan gable roof, hip roof, monoslope roof, stepped roof, or sawtooth roof. The steps required for the determination of wind loads on C&amp;C for these building types are shown in Table 30.3-1.
+<br><span class="xref">→ ASCE7-22-30.3-E30-3-11</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">30.3.1 Conditions</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+For the determination of the design wind pressures on the C&amp;C using the provisions of Section 30.3.2, the conditions indicated on the selected fi gure(s) shall be applicable to the building under consideration.
+<br><span class="xref">→ ASCE7-22-30.3.2-H1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">30.3.2 Design Wind Pressures</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Design wind pressures on C&amp;C elements of low-rise buildings and buildings with h ≤ 60 ft (18.3 m) shall be determined from the following equation:
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Kd = Wind directionality factor, see Section 26.6; and ( GCp ) = External pressure coef fi cients given in Figure 30.3-1 (walls),
+<br><span class="xref">→ ASCE7-22-26.6-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Figures 30.3-2A -G( fl at roofs, gable roofs, and hip roofs) and 30.5.2 (pitched free roofs),
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Figsure 30.3-5A -B (monoslope roofs),
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+( GCpi ) = Internal pressure coef fi cient given in Table 26.13-1.
+<br><span class="xref">→ ASCE7-22-26.13-T26-13-11</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">Table 30.3-1. Steps to Determine C&amp;C Wind Loads for</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">30.4</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The provisions of Section 30.4 are applicable to an enclosed, partially enclosed, or partially open building with a mean roof height [ h &gt; 60 ft ( h &gt; 18.3 m)] with a fl at roof, pitched roof, gable roof, hip roof, mansard roof, arched roof, or domed roof. The steps required for the determination of wind loads on C&amp;C for these building types are shown in Table 30.4-1.
+<br><span class="xref">→ ASCE7-22-30.4-E30-4-11, ASCE7-22-30.4-H1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">30.4.1 Conditions</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+For the determination of the design wind pressures on the C&amp;C using the provisions of Section 30.4.2, the conditions indicated on the selected fi gure(s) shall be applicable to the building under consideration.
+<br><span class="xref">→ ASCE7-22-30.4.2-H1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">30.4.2 Design Wind Pressures</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">PART 3: OPEN BUILDINGS</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">30.5</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The provisions of Section 30.5 are applicable to an open building of all heights that has a pitched free roof, monosloped free roof, or troughed free roof. The steps required for the determination of wind loads on C&amp;C for these building types is shown in Table 30.5-1.
+<br><span class="xref">→ ASCE7-22-30.5-E30-5-11, ASCE7-22-30.5-H1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">30.5.1 Conditions</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+For the determination of the design wind pressures on C&amp;Cs using the provisions of Section 30.5.2, the conditions indicated on the selected fi gure(s) shall be applicable to the building under consideration.
+<br><span class="xref">→ ASCE7-22-30.5.2-H1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">30.5.2 Design Wind Pressures</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">30.6 PARAPETS</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">30.7</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">30.8</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+ROOFTOP STRUCTURES AND EQUIPMENT FOR BUILDINGS
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">30.9</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">30.10</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+CIRCULAR BINS, SILOS, AND TANKS WITH h ≤ 120 ft ( h ≤ 36 . 6 m )
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The steps required for the determination of wind loads for circular bins, silos, and tanks are shown in Table 30.10-1.
+<br><span class="xref">→ ASCE7-22-30.10-E30-10-11</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">30.10.1 Design Wind Pressure</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Design wind pressure on C&amp;C for isolated circular bins, silos, and tanks in ð lb ∕ ft 2 Þð N ∕ m 2 Þ shall be determined from the following equation: where
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+qh = Velocity pressure for all surfaces evaluated at mean roof height h
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Kd = Wind directionality factor; see Section 26.6. ( GCp ) = External pressure coef fi cients given in Section 30.10.2 for walls
+<br><span class="xref">→ ASCE7-22-26.6-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Section 30.10.5 for underneath sides Section 30.10.4 for roofs
+<br><span class="xref">→ ASCE7-22-30.10.5-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+( GCpi ) = Internal pressure coef fi cient given in Table 26.13-1 and Section 30.11.3.
+<br><span class="xref">→ ASCE7-22-26.13-T26-13-11</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">30.10.2 External Walls of Isolated Circular Bins, Silos, and</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">30.10.4 Roofs</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+of Isolated Circular Bins, Silos, and Tanks The external pressures on the roofs or lids of bins, silos, or tanks of circular cross section shall be equal to the external pressure coef fi cients, ( GCp ), given in Figure 30.10-2 for Zones 1, 2, 3, and 4.
+<br><span class="xref">→ ASCE7-22-30.10-F30-10-21</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Zone 3 is applicable to the windward edges of roofs with slope less than or equal to 30 degrees, and Zone 4 is applicable to the region near the cone apex for roofs with slope greater than 15 degrees. The applicable areas are shown in Figure 30.10-2.
+<br><span class="xref">→ ASCE7-22-30.10-F30-10-21</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">30.10.5 Undersides of Isolated Elevated Circular Bins,</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Silos, and Tanks ( GCp ) values for the undersides of elevated circular bins, silos, and tanks shall be taken as 1.2 and -0.9 for Zone 3 and 0.8 and -0.6 for Zone 1 and Zone 2, as shown in Figure 30.10-2.
+<br><span class="xref">→ ASCE7-22-30.10-F30-10-21</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">30.10.6 Roofs and Walls of Grouped Circular Bins, Silos,</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+and Tanks Closely spaced groups with center-to-center spacing less than 1.25 D , the external pressures of grouped bins, silos, or tanks, shall be equal to the external pressure coef fi cients, ( GCp ), given in Figure 30.10-3 for Zones 1, 2, 3a, 3b, and 4 for roofs and Figure 30.10-4 for Zones 5a, 5b, 8, and 9 for walls.
+<br><span class="xref">→ ASCE7-22-30.10-F30-10-31, ASCE7-22-30.10-F30-10-41</span>
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">30.11</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+ROOFTOP SOLAR PANELS FOR BUILDINGS OF ALL HEIGHTS WITH FLAT ROOFS OR GABLE OR HIP ROOFS WITH SLOPES LESS THAN 7 DEGREES
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">30.12</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+ROOF PAVERS FOR BUILDINGS OF ALL HEIGHTS WITH ROOF SLOPES LESS THAN OR EQUAL TO 7 DEGREES
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Kd = Wind directionality factor, see Section 26.6
+<br><span class="xref">→ ASCE7-22-26.6-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+qh = Velocity pressure evaluated at mean height h , as de fi ned in Section 26.10, of the roof on which the pavers are located;
+<br><span class="xref">→ ASCE7-22-26.10-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(a) The value of external pressure coef fi cient, GCp , from Figures 30.3-2A and 30.5-1, or
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(b) Determined by approved wind tunnel tests performed in accordance with Chapter 31, or
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(c) Determined by methods described in the recognized literature.
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">30.13 CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+</body></html>

@@ -1,0 +1,818 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8">
+<title>ASCE 7-22 Chapter 17 — Digital Twin</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#FFF;--s:#F5F5F5;--t:#1A1A1A;--m:#6B6B6B;--b:#D4D4D4;--sub:#E8E8E8;
+--g:#16A34A;--a:#0057FF;--r:#DC2626;--am:#D97706;--cy:#06B6D4;--purple:#8B5CF6}
+@media(prefers-color-scheme:dark){:root{--bg:#0A0A0A;--s:#141414;--t:#E5E5E5;--m:#808080;
+--b:#2A2A2A;--sub:#1A1A1A;--a:#3B82F6}}
+body{background:var(--bg);color:var(--t);font-family:'JetBrains Mono','SF Mono',monospace;
+font-size:11px;max-width:900px;margin:0 auto;padding:16px}
+h1{font-size:13px;text-transform:uppercase;letter-spacing:.1em;margin-bottom:2px}
+.sub{font-size:10px;color:var(--m);margin-bottom:12px}
+.nav{font-size:10px;color:var(--a);margin-bottom:16px}
+.nav a{color:var(--a);text-decoration:none}
+.nav a:hover{text-decoration:underline}
+.section{margin-bottom:12px}
+.sec-num{font-size:12px;font-weight:700;color:var(--t);margin-bottom:2px}
+.sec-0,.sec-1{margin-left:0}.sec-2{margin-left:16px}.sec-3{margin-left:32px}.sec-4{margin-left:48px}
+.child{margin:3px 0;padding:4px 8px;border-left:2px solid var(--sub);font-size:10px;line-height:1.5}
+.child.provision{border-color:var(--g);background:rgba(22,163,74,0.03)}
+.child.definition{border-color:var(--purple);background:rgba(139,92,246,0.03)}
+.child.formula{border-color:var(--a);background:rgba(59,130,246,0.03)}
+.child.table{border-color:var(--cy);background:rgba(6,182,212,0.03)}
+.child.figure{border-color:var(--am);background:rgba(217,119,6,0.03)}
+.child.exception{border-color:var(--r);background:rgba(220,38,38,0.03)}
+.child.user_note{border-color:var(--m);background:rgba(128,128,128,0.03)}
+.child.text_block{border-color:var(--sub)}
+.tag{display:inline-block;padding:0 3px;border:1px solid;font-size:7px;text-transform:uppercase;
+letter-spacing:.04em;margin-right:3px;vertical-align:middle}
+.tag-provision{border-color:var(--g);color:var(--g)}
+.tag-definition{border-color:var(--purple);color:var(--purple)}
+.tag-formula{border-color:var(--a);color:var(--a)}
+.tag-table{border-color:var(--cy);color:var(--cy)}
+.tag-figure{border-color:var(--am);color:var(--am)}
+.tag-exception{border-color:var(--r);color:var(--r)}
+.tag-user_note{border-color:var(--m);color:var(--m)}
+.tag-text_block{border-color:var(--sub);color:var(--m)}
+.meta{font-size:8px;color:var(--m)}
+.xref{font-size:8px;color:var(--a)}
+b{font-weight:600}
+table.tbl{width:100%;border-collapse:collapse;font-size:9px;margin:4px 0}
+table.tbl th{text-align:left;font-size:7px;text-transform:uppercase;color:var(--m);border-bottom:1px solid var(--b);padding:1px 4px}
+table.tbl td{padding:1px 4px;border-bottom:1px solid var(--sub)}
+</style></head><body>
+<h1>ASCE 7-22 Chapter 17 — Digital Twin</h1>
+<div class="sub">388 elements · 90 provisions · 14 definitions · 18 formulas · 1 tables</div>
+<div class="nav"><a href="digital-twin-index.html">← All Chapters</a></div>
+
+<div class="section sec-0">
+<div class="sec-num">CHAPTER 17</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+SEISMIC DESIGN REQUIREMENTS FOR SEISMICALLY ISOLATED STRUCTURES
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">17.1 GENERAL</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">17.1.1 De</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+fi nitions The following de fi nitions only apply to the seismically isolated structure provisions of Chapter 17 and are in addition to the de fi nitions presented in Chapter 11.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">17.1.2 Symbols</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Symbols presented in this section only apply to the seismically isolated structure provisions of Chapter 17 and are in addition to the symbols presented in Chapter 11.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+b = Shortest plan dimension of the structure, ft (mm) measured perpendicular to d
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+BM = Numerical coef fi cient as set forth in Table 17.5-1, for effective damping equal to β M
+<br><span class="xref">→ ASCE7-22-17.5-E17-5-11</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Cvx = Vertical distribution factor
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+d = Longest plan dimension of the structure, ft (mm) measured perpendicular to b
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+DM = Maximum displacement, in. (mm) at the center of rigidity of the isolation system in the direction under consideration, as prescribed by Equation (17.5-1)
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+D 0 M = Maximum displacement, in. (mm) at the center of rigidity of the isolation system in the direction under consideration, as prescribed by Equation (17.6-1)
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+DTM = Total maximum displacement, in. (mm) of an element of the isolation system including both translational displacement at the center of rigidity and the component of torsional displacement in the direction under consideration, as prescribed by Equation (17.5-3)
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+e = Actual eccentricity, ft (mm) measured in plan between the center of mass of the structure above the isolation interface and the center of rigidity of the isolation system, plus accidental eccentricity [ft (mm)] taken as 5% of the maximum building dimension perpendicular to the direction of force under consideration
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+E loop = Energy dissipated, kip ∕ in : (kN-mm), in an isolator unit during a full cycle of reversible load over a test displacement range from Δ þ to Δ -, as measured by the area enclosed by the loop of the force-de fl ection curve
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+F þ = Maximum positive force, kips (kN) in an isolator unit during a single cycle of prototype testing at a displacement amplitude of Δ þ
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+F -= Minimum negative force, kips (kN) in an isolator unit during a single cycle of prototype testing at a displacement amplitude of Δ -
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Fx = Lateral seismic force, kips (kN) at level x , as prescribed by Equation (17.5-9)
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+hi , hl , hx = Height [ft (m)] above the isolation interface of level i , l , or x
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+hsx = Height of story below level x
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+k M = Effective stiffness [kip ∕ in : (kN ∕ mm)] of the isolation system in the horizontal direction under consideration
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+k eff = Effective stiffness [kip ∕ in (kN ∕ mm)] of an isolator unit, as prescribed by Equation (17.8-1)
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+L = Effect of live load in Chapter 17 N = Number of isolator units
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+r I = Radius of gyration of the isolation system [ft (mm)]
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+RI = Numerical coef fi cient related to the type of seismic force-resisting system above the isolation system
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Tfb = Fundamental period of the structure above the isolation interface, determined using a modal analysis assuming fi xed-base conditions, s
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+TM = Effective period of the seismically isolated structure at the displacement DM in the direction under consideration, as prescribed by Equation (17.5-2), s
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Vb = Total lateral seismic design force or shear on elements of the isolation system or elements below the isolation system [kips (kN)], as prescribed by Equation (17.5-5)
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Vs = Total lateral seismic design force or shear on elements above the base level [kips (kN)], as prescribed by Equation (17.5-6) and the limits of Section 17.5.4.3
+<br><span class="xref">→ ASCE7-22-17.5.4.3-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Vst = Total unreduced lateral seismic design force or shear on elements above the base level [kips (kN)], as prescribed by Equation (17.5-7) Vs = Sheer wave velocity
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+wi ; wl ; wx = Portion of W that is located at or assigned to level i , l , or x [kips (kN)]
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+W = Effective seismic weight [kips (kN)] of the structure above the isolation interface, as de fi ned by Section 12.7.2
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Ws = Effective seismic weight [kips (kN)] of the structure above the isolation interface, as de fi ned by Section 12.7.2, excluding the effective seismic weight [kips (kN)] of the base level
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+xi ; yi = Horizontal distances [ft (mm)] from the center of mass to the i th isolator unit in the two horizontal axes of the isolation system
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+y = Distance, ft (mm) between the center of rigidity of the isolation system and the element of interest measured perpendicular to the direction of seismic loading under consideration
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+β M = Effective damping of the isolation system at the displacement DM , as prescribed by Equation (17.2-4)
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+β eff = Effective damping of the isolation system, as prescribed by Equation (17.8-2)
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+= Maximum positive displacement, in. (mm) of an
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+isolator unit during each cycle of prototype testing
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+λ ð ae ; max Þ = Property modi fi cation factor for calculation of the maximum value of the isolator property of interest, used to account for aging effects and environmental conditions, as de fi ned in Section 17.2.8.4
+<br><span class="xref">→ ASCE7-22-17.2.8.4-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Δ -= Minimum negative displacement, in. (mm) of an isolator unit during each cycle of prototype testing
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+λ ð ae ; min Þ = Property modi fi cation factor for calculation of the minimum value of the isolator property of interest, used to account for aging effects and environmental conditions, as de fi ned in Section 17.2.8.4
+<br><span class="xref">→ ASCE7-22-17.2.8.4-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+λ min = Property modi fi cation factor for calculation of the minimum value of the isolator property of interest, used to account for all sources of isolator property variability, as de fi ned in Section 17.2.8.4
+<br><span class="xref">→ ASCE7-22-17.2.8.4-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+λ max = Property modi fi cation factor for calculation of the maximum value of the isolator property of interest, used to account for all sources of isolator property variability, as de fi ned in Section 17.2.8.4
+<br><span class="xref">→ ASCE7-22-17.2.8.4-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+λ ð spec ; max Þ = Property modi fi cation factor for calculation of the maximum value of the isolator property of interest, used to account for permissible manufacturing variation on the average properties of a group of same-sized isolators, as de fi ned in Section 17.2.8.4
+<br><span class="xref">→ ASCE7-22-17.2.8.4-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+λ ð test ; max Þ = Property modi fi cation factor for calculation of the maximum value of the isolator property of interest, used to account for heating, rate of loading, and scragging, as de fi ned in Section 17.2.8.4
+<br><span class="xref">→ ASCE7-22-17.2.8.4-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+λ ð spec ; min Þ = Property modi fi cation factor for calculation of the minimum value of the isolator property of interest, used to account for permissible manufacturing variation on the average properties of a group of samesized isolators, as de fi ned in Section 17.2.8.4
+<br><span class="xref">→ ASCE7-22-17.2.8.4-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+λ ð test ; min Þ = Property modi fi cation factor for calculation of the minimum value of the isolator property of interest, used to account for heating, rate of loading, and scragging, as de fi ned in Section 17.2.8.4
+<br><span class="xref">→ ASCE7-22-17.2.8.4-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Σ j F þ D j max = Sum, for all isolator units, of the maximum absolute value of force [kips (kN)], at a positive displacement equal to DM
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Σ EM = Total energy dissipated [kip ∕ in : (kN-mm)] in the isolation system during a full cycle of response at displacement DM
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Σ j F -D j max = Sum, for all isolator units, of the maximum absolute value of force [kips (kN)], at a negative displacement equal to DM
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">17.2</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">17.2.2 Con</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+fi guration Each isolated structure shall be designated as having a structural irregularity if the structural con fi guration above the isolation system has a Type 1 horizontal structural irregularity with a TIR greater than 1.4 or Type 1a, 1b, 4a, 4b vertical irregularity, as de fi ned in Table 12.3-2.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">17.2.3 Redundancy</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+A redundancy factor, ρ , shall be assigned to the structure above the isolation system based on requirements of Section 12.3.4. The value of the redundancy factor, ρ , is permitted to be equal to 1.0 for isolated structures that do not have a structural irregularity, as de fi ned in Section 17.2.2.
+<br><span class="xref">→ ASCE7-22-17.2.2-H1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">17.2.4 Isolation System</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">17.2.4.3 Fire Resistance</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Fire resistance for the isolation system shall provide at least the same degree of protection as the fi re resistance required for the columns, walls, or other such gravitybearing elements in the same region of the structure.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">17.2.4.5 Displacement Restraint</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The isolation system shall not be con fi gured to include a displacement restraint that limits lateral displacement caused by risk-targeted maximum considered earthquake (MCER) ground motions to less than the total maximum displacement, DTM , unless the seismically isolated structure is designed in accordance with all of the following criteria:
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+MCER response is calculated in accordance with the dynamic analysis requirements of Section 17.6, explicitly considering the nonlinear characteristics of the isolation system and the structure above the isolation system.
+<br><span class="xref">→ ASCE7-22-17.6-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The structure above the isolation system is checked for stability and ductility demand of the MCER response.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The displacement restraint does not become effective at a displacement less than 0.6 times the total maximum displacement.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">17.2.4.6 Vertical-Load Stability</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Each element of the isolation system shall be designed to be stable under the design vertical load where it is subjected to a horizontal displacement equal to the total maximum displacement. The design vertical load shall be computed using load combination 2 of Section 17.2.7.1 for the maximum vertical load and load combination 3 of Section 17.2.7.1 for the minimum vertical load.
+<br><span class="xref">→ ASCE7-22-17.2.7.1-H1</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">17.2.4.7 Overturning The factor of safety against global structural overturning at the isolation interface shall not be less than 1.0 for required load combinations. All gravity and seismic loading conditions shall be investigated. Seismic forces for overturning calculations shall be based on MCER ground motions, and W shall be used for the vertical restoring force.</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">17.2.4.8 Inspection and Replacement</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+All the following items shall be addressed as part of the long-term inspection and replacement program:
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">17.2.4.9 Quality Control</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+A quality control testing program for isolator units shall be established by the RDP responsible for the structural design, incorporating the production testing requirements of Section 17.8.5.
+<br><span class="xref">→ ASCE7-22-17.8.5-H1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">17.2.5 Structural System</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">17.2.5.1 Horizontal</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Distribution of Force A horizontal diaphragm or other structural elements shall provide continuity above the isolation interface and shall have adequate strength and ductility to transmit forces from one part of the structure to another.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">17.2.5.3 Nonbuilding Structures</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Nonbuilding structures shall be designed and constructed in accordance with the requirements of Chapter 15 using design displacements and forces, calculated in accordance with Sections 17.5 or 17.6.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">17.2.5.4 Steel Ordinary Concentrically Braced Frames</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Steel ordinary concentrically braced frames are permitted as the seismic force-resisting system in seismically isolated structures assigned to Seismic Design Categories D, E, and F and are permitted to a height of 160 ft (48.4 m) or less, provided all the following design requirements are satis fi ed:
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The value of RI , as de fi ned in Section 17.5.4 is 1.0.
+<br><span class="xref">→ ASCE7-22-17.5.4-H1</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">17.2.5.5 Isolation</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+System Connections Moment-resisting connections of structural steel elements of the seismic isolation system below the base level are permitted to conform to the requirements for ordinary steel moment frames of AISC 341, E1.6a and E1.6b.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">17.2.6 Elements</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+of Structures and Nonstructural Components Parts or portions of an isolated structure, permanent nonstructural components and the attachments to them, and the attachments for permanent equipment supported by a structure shall be designed to resist seismic forces and displacements, as prescribed by this section and the applicable requirements of Chapter 13.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">17.2.6.2 Components Crossing the Isolation Interface</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Elements of seismically isolated structures and nonstructural components, or portions thereof, which cross the isolation interface, shall be designed to withstand the total maximum displacement and to accommodate, on a long-term basis, any permanent residual displacement.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">17.2.6.3 Components below the Isolation Interface</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Elements of seismically isolated structures and nonstructural components, or portions thereof, which are below the isolation interface, shall be designed and constructed in accordance with the requirements of Section 12.1 and Chapter 13.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">17.2.7 Seismic Load Effects and Load Combinations</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+All members of the isolated structure, including those that are not part of the seismic force-resisting system, shall be designed using the seismic load effects of Section 12.4, and the additional load combinations of Section 17.2.7.1, for the design of the isolation system and for the testing of prototype isolator units.
+<br><span class="xref">→ ASCE7-22-17.2.7.1-H1</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">17.2.7.1 Isolator</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Unit Vertical Load Combinations The average, minimum, and maximum vertical load on each isolator unit type shall be computed from application of horizontal seismic forces, QE , caused by MCER ground motions and the following applicable vertical load combinations:
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Average vertical load: load corresponding to 1.0 dead load plus 0.5 live load.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Maximum vertical load: load combination 6 of Section 2.3.6, where E is given by Equation (12.4-1) and 0.2 SDS is replaced by 0.12 SMS in Equation (12.4-4a).
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Minimum vertical load: load combination 7 of Section 2.3.6, where E is given by Equation (12.4-2) and 0.2 SDS is replaced by 0.12 SMS in Equation (12.4-4a).
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">17.2.8 Isolation System Properties</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+P EM = Total energy dissipated in the isolation system during a full cycle of response at the displacement DM , kips-in : (kN-mm);
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+P F -M = Sum, for all isolator units, of the absolute value of force at a negative displacement equal to DM , kips (kN).
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+P F þ M = Sum, for all isolator units, of the absolute value of force at a positive displacement equal to DM , kips (kN); and;
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">17.2.8.1 Isolation System Component Types</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+All components of the isolation system shall be categorized and grouped in terms of common type and size of isolator unit and common type and size of supplementary damping device, if such devices are also components of the isolation system.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">17.2.8.2 Isolator Unit Nominal Properties</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Isolator unit nominal design properties shall be based on average properties over the three cycles of prototype testing, speci fi ed by Item 2 of Section 17.8.2.2. Variation in isolator unit properties with vertical load are permitted to be established based on a single representative deformation cycle, by averaging the properties determined using the three vertical load combinations speci fi ed i
+<br><span class="xref">→ ASCE7-22-17.2.7.1-H1, ASCE7-22-17.8.2.2-H1</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">Measured by prototype testing, Item 2 of Section 17.8.2.2, considering variation in prototype isolator unit properties caused by required variation in vertical test load, rate of test loading or velocity effects, effects of heating during cyclic motion, history of loading, scragging (temporary degradation of mechanical properties with repeated cycling), and other potential sources of variation measured by prototype testing;</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Permitted by manufacturing speci fi cation tolerances used to determine acceptability of production isolator units, as required by Section 17.8.5; and
+<br><span class="xref">→ ASCE7-22-17.8.5-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Because of aging and environmental effects, including creep, fatigue, contamination, operating temperature and duration of exposure to that temperature and wear over the life of the structure.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">17.2.8.4 Property</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Modi fi cation Factors Maximum and minimum property modi fi cation ( λ ) factors shall be used to account for the variation of the nominal design parameters of each isolator unit type for the effects of heating caused by cyclic dynamic motion, loading rate, scragging and recovery, variability in production bearing properties, temperature, aging, environmental exposure, and contamination. When manu
+<br><span class="xref">→ ASCE7-22-17.8-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+λ ð ae ; max Þ = Property modi fi cation factor for calculation of the maximum value of the isolator property of interest, used to account for aging effects and environmental conditions;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+λ ð test ; max Þ = Property modi fi cation factor for calculation of the maximum value of the isolator property of interest, used to account for heating, rate of loading, and scragging;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+λ ð ae ; min Þ = Property modi fi cation factor for calculation of the minimum value of the isolator property of interest, used to account for aging effects and environmental conditions;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+λ ð test ; min Þ = Property modi fi cation factor for calculation of the minimum value of the isolator property of interest, used to account for heating, rate of loading, and scragging;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+λ ð spec ; min Þ = Property modi fi cation factor for calculation of the minimum value of the isolator property of interest, used to account for permissible manufacturing variation on the average properties of a group of same-sized isolators.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+λ ð spec ; max Þ = Property modi fi cation factor for calculation of the maximum value of the isolator property of interest, used to account for permissible manufacturing variation on the average properties of a group of same-sized isolators; and
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">17.2.8.5 Upper Bound and Lower Bound Force-De</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+fl ection Behavior of Isolation System Components A mathematical model of upper bound force-de fl ection (loop) behavior of each type of isolation system component shall be developed. Upper bound force-de fl ection behavior of isolation system components that are essentially hysteretic devices (e.g., isolator units) shall be modeled using the maximum values of isolator properties calculated using 
+<br><span class="xref">→ ASCE7-22-17.2.8.4-H1</span>
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">17.3</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">17.3.1 Spectral</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Response Acceleration Parameters and Response Spectrum The MCER spectral response acceleration parameters (SMS and SM1) and the MCER spectrum shall be determined in accordance with Section 11.4.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">17.3.2 Ground</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Motions for Response History Analysis Where response history analysis in accordance with Section 17.6.3.4 is used to design seismically isolated structures, the provisions of Section 16.2 shall apply except that in lieu of the requirements of Section 16.2.3.1, the period range shall be determined in accordance with the following:
+<br><span class="xref">→ ASCE7-22-17.6.3.4-H1</span>
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">17.4</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">17.4.1 Equivalent Lateral Force Procedure</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">17.4.2.1 Response Spectrum Analysis Procedure</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Response spectrum analysis procedure shall not be used for design of a seismically isolated structure unless the structure, site, and isolation system meet the criteria of Section 17.4.1, Items 1, 2, 3, 4, and 6.
+<br><span class="xref">→ ASCE7-22-17.4.1-H1</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">17.4.2.2 Response History Analysis Procedure</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The response history analysis procedure is permitted to be used for design of any seismically isolated structure and shall be used for design of all seismically isolated structures not meeting the criteria of Section 17.4.2.1.
+<br><span class="xref">→ ASCE7-22-17.4.2.1-H1</span>
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">17.5</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+EQUIVALENT LATERAL FORCE PROCEDURE
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+F 1 = Lateral seismic force [kips (kN)] induced at level 1, the base level;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Fx = Lateral seismic force [kips (kN)] induced at level x , x &gt; 1;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Cvx = Vertical distribution factor;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Vs = Total lateral seismic design force or shear on elements above the base level, as prescribed by Equation (17.5-6) and the limits of Section 17.5.4.3;
+<br><span class="xref">→ ASCE7-22-17.5.4.3-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+wi w x = Portion of Ws that is located at or assigned to level i or x ; hi hx = Height above the isolation interface of level i or x ; and Tfb = Fundamental period, in s, of the structure above the isolation interface determined using a rational modal analysis assuming fi xed-base conditions.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">17.5.1 General</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Where the equivalent lateral force procedure is used to design seismically isolated structures, the requirements of this section shall apply.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">17.5.2 Deformation</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Characteristics of the Isolation System Minimum lateral earthquake design displacements and forces on seismically isolated structures shall be based on the deformation characteristics of the isolation system. The deformation characteristics of the isolation system include the effects of the wind-restraint system if such a system is used to meet the design requirements of this standard. The deforma
+<br><span class="xref">→ ASCE7-22-17.2.8.4-H1, ASCE7-22-17.8-H1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">17.5.3 Minimum Lateral Displacements Required for Design</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+17.5.3.2 Effective Period at the Maximum Displacement The effective period of the isolated structure, TM , at the maximum
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+W = Effective seismic weight of the structure above the isolation interface as de fi ned in Section 12.7.2;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+g = Acceleration caused by gravity [in : ∕ s 2 (mm ∕ s 2 )] if the units of k M are in kip ∕ in : (kN ∕ mm).
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+kM = Effective stiffness [kip ∕ in : (kN ∕ mm)] of the isolation system at the maximum displacement, DM , as prescribed by Equation (17.2-3); and
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">17.5.3.1 Maximum Displacement</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The isolation system shall be designed and constructed to withstand, at a minimum, the maximum displacement, DM , determined using upper bound and lower bound properties, in the most critical direction of horizontal response, calculated using Equation (17.5-1): where
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+g = Acceleration caused by gravity [in : ∕ s 2 (mm ∕ s 2 )] if the units of the displacement DM are in in. (mm);
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+SM 1 = MCER 5% damped spectral acceleration parameter at 1 s period in units of g -sec, as determined in Section 11.4.4 or 11.4.8;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+TM = Effective period of the seismically isolated structure (s) at the displacement DM in the direction under consideration, as prescribed by Equation (17.5-2); and
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+BM = Numerical coef fi cient as set forth in Table 17.5-1 for the effective damping of the isolation system β M at the displacement DM .
+<br><span class="xref">→ ASCE7-22-17.5-E17-5-11</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">17.5.3.3 Total Maximum Displacement</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The total maximum displacement, DTM , of elements of the isolation system shall include additional displacement caused by actual and accidental torsion, calculated from the spatial distribution of the lateral stiffness of the isolation system and the most disadvantageous location of eccentric mass. The total maximum displacement, DTM , of elements of an isolation system shall not be taken as less 
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+DM = Displacement at the center of rigidity of the isolation system in the direction under consideration, as prescribed by Equation (17.5-1);
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+y = Distance [in. (mm)] between the centers of rigidity of the isolation system and the element of interest measured perpendicular to the direction of seismic loading under consideration;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+e = Actual eccentricity measured in plan between the center of mass of the structure above the isolation interface and the center of rigidity of the isolation system, plus accidental eccentricity [ft (mm)], taken as 5% of the longest plan dimension of the structure perpendicular to the direction of force under consideration;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+b = Shortest plan dimension of the structure [ft (mm)] measured perpendicular to d ;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+xi ; yi = Horizontal distances [ft (mm)] from the center of mass to the i th isolator unit in the two horizontal axes of the isolation system;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+N = Number of isolator units; and r I = Radius of gyration of the isolation system [ft (mm)], which is equal to [ ð b 2 þ d 2 Þ ∕ 12  1 ∕ 2 for isolation systems of rectangular plan dimension, b × d .
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">17.5.4 Minimum Lateral Forces Required for Design</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+where k M is the effective stiffness [kip ∕ in : (kN ∕ mm)] of the isolation system at the displacement DM , as prescribed by Equation (17.2-3), and DM is the maximum displacement [in. (mm)] at the center of rigidity of the isolation system in the direction under consideration, as prescribed by Equation (17.5-1).
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">17.5.4.2 Structural</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Elements above the Base Level The structure above the base level shall be designed and constructed using all of the applicable requirements for a nonisolated structure for a minimum shear force, Vs , determined using upper bound and lower bound isolation system properties, as prescribed by Equation (17.5-6):
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+where RI is the numerical coef fi cient related to the type of seismic force-resisting system above the isolation system, and Vst is the total unreduced lateral seismic design force or shear on elements above the base level, as prescribed by Equation (17.5-7).
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">17.5.4.3 Limits on V s The value of Vs shall not be taken as less than each of the following:</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">17.5.6 Drift Limits</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The maximum story drift of the structure above the isolation system shall not exceed 0.015 hsx . The drift shall be calculated by Equation (12.8-15) with Cd for the isolated structure equal to RI , as de fi ned in Section 17.5.4.2.
+<br><span class="xref">→ ASCE7-22-17.5.4.2-H1</span>
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">17.6</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">17.6.1 General</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Where dynamic analysis is used to design seismically isolated structures, the requirements of this section shall apply.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">17.6.2 Modeling</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The mathematical models of the isolated structure, including the isolation system, the seismic forceresisting system, and other structural elements, shall conform to Section 12.7.3 and to the requirements of Sections 17.6.2.1 and 17.6.2.2.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Seismic force-resisting systems with essentially elastic elements include, but are not limited to, regular structural systems designed for a lateral force not less than 100% of Vs determined in accordance with Sections 17.5.4.2 and 17.5.4.3.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">17.6.2.1 Isolation</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+System The isolation system shall be modeled using deformational characteristics developed in accordance with Section 17.2.8. The lateral displacements and forces shall be computed separately for upper bound and lower bound isolation system properties, as de fi ned in Section 17.2.8.5. The isolation system shall be modeled with suf fi cient detail to capture all of the following:
+<br><span class="xref">→ ASCE7-22-17.2.8-H1, ASCE7-22-17.2.8.5-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Spatial distribution of isolator units;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Translation, in both horizontal directions, and torsion of the structure above the isolation interface considering the most disadvantageous location of eccentric mass;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Overturning and uplift forces on individual isolator units; and
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Effects of vertical load, bilateral load, and/or the rate of loading if the force-de fl ection properties of the isolation system are dependent on one or more of these attributes.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">17.6.3 Description of Procedures</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">17.6.3.2 MCER Ground Motions</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The MCER ground motions of Section 17.3 shall be used to calculate the lateral forces and displacements in the isolated structure, the total maximum displacement of the isolation system, and the forces in the isolator units, isolator unit connections, and supporting framing immediately above and below the isolators used to resist isolator P-delta demands.
+<br><span class="xref">→ ASCE7-22-17.3-H1</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">17.6.3.4 Response</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+History Analysis Procedure Response history analysis shall be performed for a set of ground motion pairs selected and scaled in accordance with Section 17.3.2. Each pair of ground motion components shall be applied simultaneously to the model, considering the most disadvantageous location of eccentric mass. The maximum displacement of the isolation system shall be calculated from the vector sum of
+<br><span class="xref">→ ASCE7-22-17.3.2-H1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">17.6.4 Minimum Lateral Displacements and Forces</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+DM = Maximum displacement [in. (mm)] at the center of rigidity of the isolation system in the direction under consideration, as prescribed by Equation (17.5-1);
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+T = Elastic, fi xed-base period, in s, of the structure above the isolation system, as determined by Section 12.8.2, including the coef fi cient Cu , if the approximate period formulas are used to calculate the fundamental period; and
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+TM = Effective period, in s, of the seismically isolated structure, at the displacement DM in the direction under consideration, as prescribed by Equation (17.5-2).
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">17.6.4.3 Scaling of Results</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Where the factored lateral shear force on structural elements, determined using either the response spectrum or response history procedure, is less than the minimum values prescribed by Sections 17.6.4.1 and 17.6.4.2, all design parameters shall be adjusted upward proportionally.
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">17.7</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Project design criteria, including site-speci fi c spectra and ground motion histories.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Preliminary design, including the selection of the devices, determination of the maximum displacement, the total maximum displacement, and the lateral force level.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Review of quali fi cation data and appropriate property modi fi cation factors for the manufacturer and device selected.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Prototype testing program (Section 17.8.2).
+<br><span class="xref">→ ASCE7-22-17.8.2-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Final design of the entire structural system and all supporting analyses, including modeling of isolators for response history analysis, if performed.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Isolator production testing program (Section 17.8.5).
+<br><span class="xref">→ ASCE7-22-17.8.5-H1</span>
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">17.8 TESTING</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">17.8.1 General</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The deformation characteristics and damping values of the isolation system used in the design and analysis of seismically isolated structures shall be based on tests of a selected sample of the components before construction, as described in this section. The isolation system components to be tested shall include the wind-restraint system if such a system is used in the design.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The tests speci fi ed in this section are for establishing and validating the isolator unit and isolation system test properties that are used to determine design properties of the isolation system, in accordance with Section 17.2.8.
+<br><span class="xref">→ ASCE7-22-17.2.8-H1</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">17.8.1.1 Quali</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+fi cation Tests Isolation device manufacturers shall submit, for approval by the RDP the results of quali fi cation tests, analysis of test data, and supporting scienti fi c studies that are permitted to be used to quantify the effects of heating caused by cyclic dynamic motion, loading rate, scragging, variability and uncertainty in production bearing properties, temperature, aging, environmental
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">17.8.2 Prototype Tests</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Prototype tests shall be performed separately on two full-size specimens (or sets of specimens, as appropriate) of each predominant type and size of isolator unit of the isolation system. The test specimens shall include the windrestraint system if such a system is used in the design. Specimens tested shall not be used for construction unless they are accepted by the RDP responsible for the design
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">17.8.2.2 Sequence and Cycles</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Each of the following sequence of tests shall be performed for the prescribed number of cycles, at a vertical load equal to the average dead load plus one-half the effects caused by live load on all isolator units of a common type and size. Before these tests, the production set of tests speci fi ed in Section 17.8.5 shall be performed on each isolator:
+<br><span class="xref">→ ASCE7-22-17.8.5-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Twenty fully reversed cycles of loading at a lateral force corresponding to the wind design force.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(a) Three fully reversed cycles of loading at each of the following increments of the displacement: 0.25 DM , 0.5 DM , 0.67 DM , and 1.0 DM , where DM is determined in Section 17.5.3.1 or Section 17.6, as appropriate.
+<br><span class="xref">→ ASCE7-22-17.5.3.1-H1, ASCE7-22-17.6-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Three fully reversed cycles of loading at the maximum displacement, 1.0 DM .
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(a) 30 SM 1 ∕ ð SMSBM Þ , but not fewer than 10, continuous fully reversed cycles of loading at 0.75 times the maximum displacement, 0.75 DM .
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(b) The test of Item (a), performed dynamically at the effective period, TM . This test may comprise separate sets of multiple cycles of loading, with each set consisting of not fewer than fi ve continuous cycles.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">17.8.2.4 Units Dependent on Bilateral Load</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+If the forcede fl ection properties of the isolator units exhibit bilateral load dependence, the tests speci fi ed in Sections 17.8.2.2 and 17.8.2.3 shall be augmented to include bilateral load at the following increments of the maximum displacement, DM ∶ 0.25 and 1.0, 0.5 and 1.0, 0.67 and 1.0, and 1.0 and 1.0.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">17.8.2.5 Maximum and Minimum Vertical Load</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Isolator units that carry vertical load shall be subjected to one fully reversed cycle of loading at the total maximum displacement, DTM , and at each of the vertical loads corresponding to the maximum and minimum downward vertical loads, as speci fi ed in Section 17.2.7.1 on any one isolator of a common type and size. Axial load and displacement values for each test shall be the greater of those 
+<br><span class="xref">→ ASCE7-22-17.2.7.1-H1, ASCE7-22-17.2.8.5-H1</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">17.8.2.6 Sacri</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+fi cial Wind-Restraint Systems If a sacri fi cial wind-restraint system is to be used, its ultimate capacity shall be established by test.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">17.8.2.7 Testing Similar Units</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Prototype tests need not be performed if an isolator unit, when compared to another tested unit, complies with all of the following criteria:
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The isolator is not more than 15% larger nor more than 30% smaller than the previously tested prototype, in terms of governing device dimensions;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The isolator uses the same materials;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The isolator has an energy dissipated per cycle, E loop , that is not less than 85% of the previously tested unit;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The isolator is fabricated by the same manufacturer using the same or more stringent documented manufacturing and quality control procedures;
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">17.8.3 Determination of Force-De</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+fl ection Characteristics The force-de fl ection characteristics of an isolator unit shall be based on the cyclic load tests of prototype isolators speci fi ed in Section 17.8.2.
+<br><span class="xref">→ ASCE7-22-17.8.2-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+where F þ and F -are the positive and negative forces, at the maximum positive and minimum negative displacements Δ þ and Δ -, respectively.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">17.8.4 Test Specimen Adequacy</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The performance of the test specimens shall be deemed adequate if all of the following conditions are satis fi ed:
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The force-de fl ection plots for all tests speci fi ed in Section 17.8.2 have a positive incremental force-resisting capacity.
+<br><span class="xref">→ ASCE7-22-17.8.2-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The average postyield stiffness, kd , and energy dissipated per cycle, E loop , for the three cycles of test speci fi ed in Section 17.8.2.2, Item 3, for the vertical load equal to the average dead load plus one-half the effects caused by live load, including the effects of heating and rate of loading, in
+<br><span class="xref">→ ASCE7-22-17.8.2.2-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+accordance with Section 17.2.8.3, fall within the range of the nominal design values de fi ned by the permissible individual isolator range, which are typically þ ∕ -5 % greater than the λ ð spec ; min Þ and λ ð spec ; max Þ range for the average of all isolators.
+<br><span class="xref">→ ASCE7-22-17.2.8.3-P1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+For each specimen, there is no greater than a 20% change in the initial effective stiffness over the cycles of test speci fi ed in Item 4 of Section 17.8.2.2.
+<br><span class="xref">→ ASCE7-22-17.8.2.2-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+For each test specimen, the value of the postyield stiffness, k d , and energy dissipated per cycle, E loop , for any cycle of
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+For each specimen, there is no greater than a 20% decrease in the initial effective damping over the cycles of test speci fi ed in Item 4 of Section 17.8.2.2.
+<br><span class="xref">→ ASCE7-22-17.8.2.2-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+All specimens of vertical load-carrying elements of the isolation system remain stable where tested, in accordance with Section 17.8.2.5.
+<br><span class="xref">→ ASCE7-22-17.8.2.5-H1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">17.8.5 Production Tests</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+A test program for the isolator units used in the construction shall be established by the RDP. The test program shall evaluate the consistency of measured values of nominal isolator unit properties by testing 100% of the isolators in combined compression and shear, at not less than two-thirds of the maximum displacement, DM , determined using lower bound properties.
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">17.9</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS
+</div>
+</div>
+</body></html>

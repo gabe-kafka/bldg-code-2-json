@@ -1,0 +1,225 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8">
+<title>ASCE 7-22 Chapter 1 — Digital Twin</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#FFF;--s:#F5F5F5;--t:#1A1A1A;--m:#6B6B6B;--b:#D4D4D4;--sub:#E8E8E8;
+--g:#16A34A;--a:#0057FF;--r:#DC2626;--am:#D97706;--cy:#06B6D4;--purple:#8B5CF6}
+@media(prefers-color-scheme:dark){:root{--bg:#0A0A0A;--s:#141414;--t:#E5E5E5;--m:#808080;
+--b:#2A2A2A;--sub:#1A1A1A;--a:#3B82F6}}
+body{background:var(--bg);color:var(--t);font-family:'JetBrains Mono','SF Mono',monospace;
+font-size:11px;max-width:900px;margin:0 auto;padding:16px}
+h1{font-size:13px;text-transform:uppercase;letter-spacing:.1em;margin-bottom:2px}
+.sub{font-size:10px;color:var(--m);margin-bottom:12px}
+.nav{font-size:10px;color:var(--a);margin-bottom:16px}
+.nav a{color:var(--a);text-decoration:none}
+.nav a:hover{text-decoration:underline}
+.section{margin-bottom:12px}
+.sec-num{font-size:12px;font-weight:700;color:var(--t);margin-bottom:2px}
+.sec-0,.sec-1{margin-left:0}.sec-2{margin-left:16px}.sec-3{margin-left:32px}.sec-4{margin-left:48px}
+.child{margin:3px 0;padding:4px 8px;border-left:2px solid var(--sub);font-size:10px;line-height:1.5}
+.child.provision{border-color:var(--g);background:rgba(22,163,74,0.03)}
+.child.definition{border-color:var(--purple);background:rgba(139,92,246,0.03)}
+.child.formula{border-color:var(--a);background:rgba(59,130,246,0.03)}
+.child.table{border-color:var(--cy);background:rgba(6,182,212,0.03)}
+.child.figure{border-color:var(--am);background:rgba(217,119,6,0.03)}
+.child.exception{border-color:var(--r);background:rgba(220,38,38,0.03)}
+.child.user_note{border-color:var(--m);background:rgba(128,128,128,0.03)}
+.child.text_block{border-color:var(--sub)}
+.tag{display:inline-block;padding:0 3px;border:1px solid;font-size:7px;text-transform:uppercase;
+letter-spacing:.04em;margin-right:3px;vertical-align:middle}
+.tag-provision{border-color:var(--g);color:var(--g)}
+.tag-definition{border-color:var(--purple);color:var(--purple)}
+.tag-formula{border-color:var(--a);color:var(--a)}
+.tag-table{border-color:var(--cy);color:var(--cy)}
+.tag-figure{border-color:var(--am);color:var(--am)}
+.tag-exception{border-color:var(--r);color:var(--r)}
+.tag-user_note{border-color:var(--m);color:var(--m)}
+.tag-text_block{border-color:var(--sub);color:var(--m)}
+.meta{font-size:8px;color:var(--m)}
+.xref{font-size:8px;color:var(--a)}
+b{font-weight:600}
+table.tbl{width:100%;border-collapse:collapse;font-size:9px;margin:4px 0}
+table.tbl th{text-align:left;font-size:7px;text-transform:uppercase;color:var(--m);border-bottom:1px solid var(--b);padding:1px 4px}
+table.tbl td{padding:1px 4px;border-bottom:1px solid var(--sub)}
+</style></head><body>
+<h1>ASCE 7-22 Chapter 1 — Digital Twin</h1>
+<div class="sub">118 elements · 35 provisions · 21 definitions · 1 formulas · 2 tables</div>
+<div class="nav"><a href="digital-twin-index.html">← All Chapters</a></div>
+
+<div class="section sec-1">
+<div class="sec-num">1.1 SCOPE</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+This standard provides minimum loads, hazard levels, associated criteria, and intended performance goals for buildings, other structures, and their nonstructural components that are subject to building code requirements. The loads, load combinations, and associated criteria provided herein are to be used with design strengths or allowable stress limits contained in design speci fi cations for conv
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">1.2 DEFINITIONS AND SYMBOLS</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">1.2.1 De</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">1.2.2 Symbols</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The following symbols apply only to the provisions of Chapter 1 as indicated: D = Dead load
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Fx = Minimum design lateral force applied to level x of the structure and used for purposes of evaluating structural integrity in accordance with Section 1.4.2 L = Live load Lr = Roof live load
+<br><span class="xref">→ ASCE7-22-1.4.2-P1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+N = Notional load for structural integrity R = Rain load S = Snow load
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Wx = Portion of the total dead load of the structure, D , located or assigned to level x
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">1.3 BASIC REQUIREMENTS</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">1.3.1 Strength and Stiffness</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Buildings and other structures, and all parts thereof, shall be designed and constructed with adequate strength and stiffness to provide structural stability, protect nonstructural components and systems, and meet the serviceability requirements of Section 1.3.2.
+<br><span class="xref">→ ASCE7-22-1.3.2-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(a) The strength procedures of Section 1.3.1.1;
+<br><span class="xref">→ ASCE7-22-1.3.1.1-P1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(b) The allowable stress procedures of Section 1.3.1.2; or
+<br><span class="xref">→ ASCE7-22-1.3.1.2-P1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(c) Subject to the approval of the Authority Having Jurisdiction for individual projects, the performance-based procedures of Section 1.3.1.3.
+<br><span class="xref">→ ASCE7-22-1.3.1.3-P1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Table 1.3-1. Target Reliability (Annual Probability of Failure, PF ) and Associated Reliability Indices ( β ) for Load Conditions That Do Not Include Earthquake, Tsunami, or Extraordinary Events. Notes:
+<br><span class="xref">→ ASCE7-22-1.3-T1-3-15</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+1 The target reliability indexes are provided for a 50-year reference period, and the probabilities of failure have been annualized. The equations presented in Section 2.3.6 are based on reliability indexes for 50 years, because the load combination requirements in Section 2.3.2 are based on the maximum loads for the 50-year reference period.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+2 Commentary to Section 2.5 includes references to publications that describe the historic development of these target reliabilities for earthquake, tsunami, or extraordinary events.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Table 1.3-2. Target Reliability (Conditional Probability of Failure) for Structural Stability Caused by Earthquake.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Table 1.3-3. Target Reliability (Conditional Probability of Failure) for Ordinary Noncritical Structural Members Caused by Earthquake.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Table 1.3-4. Target Reliability (Conditional Probability of Failure) for Structural Elements Subject to Tsunami Inundation.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">1.3.2 Serviceability</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Structural systems, and members thereof, shall be designed under service loads to have adequate stiffness to limit de fl ections, lateral drift, vibration, or any other deformations that adversely affects the intended use and performance of buildings and other structures based on requirements set forth in the applicable codes and standards or as speci fi ed in the project design criteria.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">1.3.3 Functionality</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Structural systems and members and connections thereof assigned to Risk Category IV shall be designed with reasonable probability to have adequate structural strength and stiffness to limit de fl ections, lateral drift, or other deformations such that their behavior would not prevent function of the facility immediately following any of the design-level environmental hazard events speci fi ed in t
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Table 1.3-5. Target Reliability (Maximum Conditional Probability of Failure) for Structural Strength and Stability Limit States Caused by Extraordinary Load Events.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The provisions in Sections 1.3.1.1 and 1.3.1.2 in this standard are deemed to comply with the requirements of this section.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">1.3.4 Self-Straining Forces and Effects</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Provision shall be made for anticipated self-straining forces and effects arising from differential settlements of foundations and from restrained dimensional changes caused by temperature, moisture, shrinkage, creep, and similar effects.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">1.3.5 Analysis</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Load effects on individual structural members shall be determined by methods of structural analysis that take into account equilibrium, general stability, geometric compatibility, and both shortand long-term material properties. Members that tend to accumulate residual deformations under repeated service loads shall have included in their analysis the added eccentricities expected to occur during 
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">1.3.6 Counteracting</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Structural Actions All structural members and systems and all components and cladding in a building or other structure shall be designed to resist forces caused by earthquakes, wind, and tornadoes, with consideration of overturning, sliding, and uplift, and continuous load paths shall be provided for transmitting these forces to the foundation. Where sliding is used to isolate the elements, the ef
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">1.3.7 Fire</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Resistance Structural fi re resistance shall be provided in accordance with the requirements speci fi ed in the applicable building code. As an alternative, the performancebased design procedures in Appendix E are permitted, where approved.
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">1.4 GENERAL STRUCTURAL INTEGRITY</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+where Fx is the design lateral force applied at story x , and Wx is the portion of the total dead load of the structure, D , located or assigned to level x .
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">1.4.1 Load Path Connections</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+All parts of the structure between separation joints shall be interconnected to form a continuous path to the lateral force-resisting system, and the connections shall be capable of transmitting the lateral forces induced by the parts being connected. Any smaller portion of the structure shall be tied to the remainder of the structure with elements having the strength to resist a force of not less
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">1.5 CLASSIFICATION OF BUILDINGS AND OTHER STRUCTURES</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Table 1.5-1. Risk Category of Buildings and Other Structures for Flood, Wind, Tornado, Snow, Earthquake, and Ice Loads.
+<br><span class="xref">→ ASCE7-22-1.5-T1-5-12</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">1.5.3 Toxic, Highly Toxic, and Explosive Substances</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Buildings and other structures containing toxic, highly toxic, or explosive substances are permitted to be classi fi ed as Risk Category II structures if it can be demonstrated to the satisfaction of the Authority Having Jurisdiction by a hazard assessment as part of an overall risk management plan (RMP) that a release of the toxic, highly toxic, or explosive substances is not suf fi cient to pose
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Table 1.5-2. Importance Factors by Risk Category of Buildings and Other Structures for Earthquake Loads.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Notes: The component importance factor, I p , applicable to earthquake loads is not included in this table because it depends on the importance of the individual component rather than that of the building as a whole, or its occupancy (see Section 13.1.3).
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">1.6 IN SITU LOAD TESTS</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">1.6.1 Load Test Procedure Speci</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+fi ed Elsewhere Where the applicable building code or a material standard approved by the Authority Having Jurisdiction includes an applicable load test procedure and acceptance criteria, the load test shall be conducted in accordance with that code or standard.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">1.6.2 Load Test Procedure Not Speci</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+fi ed Elsewhere In the absence of an applicable load test procedure within the building code or an applicable material standard approved by the Authority Having Jurisdiction, a load test procedure shall be developed and overseen by a registered design professional, who will also be responsible for interpreting the results of the load test. At a minimum, the applied load shall be determined using t
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+During and after the test, the component or structure remains stable;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Within 24 h after removal of the test load, the component or structure has recovered at least 75% of the maximum de fl ection;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+De fl ection that remains after the load test (if any) does not substantively affect serviceability as determined by the registered design professional.
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">1.7 CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+29 CFR (Code of Federal Regulations) Part 1910.1200. OSHA Standards for General Industry . Appendix A, with Amendments as of February 1, 2000. Occupational Safety and Health Administration, US Department of Labor, 2005. Cited in: Section 1.2
+</div>
+</div>
+</body></html>

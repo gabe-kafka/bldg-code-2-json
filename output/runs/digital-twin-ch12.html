@@ -1,0 +1,1386 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8">
+<title>ASCE 7-22 Chapter 12 — Digital Twin</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#FFF;--s:#F5F5F5;--t:#1A1A1A;--m:#6B6B6B;--b:#D4D4D4;--sub:#E8E8E8;
+--g:#16A34A;--a:#0057FF;--r:#DC2626;--am:#D97706;--cy:#06B6D4;--purple:#8B5CF6}
+@media(prefers-color-scheme:dark){:root{--bg:#0A0A0A;--s:#141414;--t:#E5E5E5;--m:#808080;
+--b:#2A2A2A;--sub:#1A1A1A;--a:#3B82F6}}
+body{background:var(--bg);color:var(--t);font-family:'JetBrains Mono','SF Mono',monospace;
+font-size:11px;max-width:900px;margin:0 auto;padding:16px}
+h1{font-size:13px;text-transform:uppercase;letter-spacing:.1em;margin-bottom:2px}
+.sub{font-size:10px;color:var(--m);margin-bottom:12px}
+.nav{font-size:10px;color:var(--a);margin-bottom:16px}
+.nav a{color:var(--a);text-decoration:none}
+.nav a:hover{text-decoration:underline}
+.section{margin-bottom:12px}
+.sec-num{font-size:12px;font-weight:700;color:var(--t);margin-bottom:2px}
+.sec-0,.sec-1{margin-left:0}.sec-2{margin-left:16px}.sec-3{margin-left:32px}.sec-4{margin-left:48px}
+.child{margin:3px 0;padding:4px 8px;border-left:2px solid var(--sub);font-size:10px;line-height:1.5}
+.child.provision{border-color:var(--g);background:rgba(22,163,74,0.03)}
+.child.definition{border-color:var(--purple);background:rgba(139,92,246,0.03)}
+.child.formula{border-color:var(--a);background:rgba(59,130,246,0.03)}
+.child.table{border-color:var(--cy);background:rgba(6,182,212,0.03)}
+.child.figure{border-color:var(--am);background:rgba(217,119,6,0.03)}
+.child.exception{border-color:var(--r);background:rgba(220,38,38,0.03)}
+.child.user_note{border-color:var(--m);background:rgba(128,128,128,0.03)}
+.child.text_block{border-color:var(--sub)}
+.tag{display:inline-block;padding:0 3px;border:1px solid;font-size:7px;text-transform:uppercase;
+letter-spacing:.04em;margin-right:3px;vertical-align:middle}
+.tag-provision{border-color:var(--g);color:var(--g)}
+.tag-definition{border-color:var(--purple);color:var(--purple)}
+.tag-formula{border-color:var(--a);color:var(--a)}
+.tag-table{border-color:var(--cy);color:var(--cy)}
+.tag-figure{border-color:var(--am);color:var(--am)}
+.tag-exception{border-color:var(--r);color:var(--r)}
+.tag-user_note{border-color:var(--m);color:var(--m)}
+.tag-text_block{border-color:var(--sub);color:var(--m)}
+.meta{font-size:8px;color:var(--m)}
+.xref{font-size:8px;color:var(--a)}
+b{font-weight:600}
+table.tbl{width:100%;border-collapse:collapse;font-size:9px;margin:4px 0}
+table.tbl th{text-align:left;font-size:7px;text-transform:uppercase;color:var(--m);border-bottom:1px solid var(--b);padding:1px 4px}
+table.tbl td{padding:1px 4px;border-bottom:1px solid var(--sub)}
+</style></head><body>
+<h1>ASCE 7-22 Chapter 12 — Digital Twin</h1>
+<div class="sub">886 elements · 276 provisions · 11 definitions · 70 formulas · 8 tables</div>
+<div class="nav"><a href="digital-twin-index.html">← All Chapters</a></div>
+
+<div class="section sec-0">
+<div class="sec-num">CHAPTER 12</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+SEISMIC DESIGN REQUIREMENTS FOR BUILDING STRUCTURES
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">12.1</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">12.1.1 Basic Requirements</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The seismic analysis and design procedures to be used in the design of building structures and their members shall be as prescribed in this section. The building structure shall include complete lateral and vertical forceresisting systems capable of providing adequate strength, stiffness, and energy dissipation capacity to withstand the design ground motions within the prescribed limits of deforma
+<br><span class="xref">→ ASCE7-22-12.6-H1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">12.1.2 Member</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Design, Connection Design, and Deformation Limit Individual members, including those not part of the seismic force-resisting system, shall be provided with adequate strength to resist the shears, axial forces, and moments determined in accordance with this standard, and connections shall develop the strength of the connected members or the forces indicated in Section 12.1.1. The deformation of the
+<br><span class="xref">→ ASCE7-22-12.1.1-H1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">12.1.3 Continuous</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Load Path and Interconnection A continuous load path, or paths, with adequate strength and stiffness shall be provided to transfer all forces from the point of application to the fi nal point of resistance. All parts of the structure between separation joints shall be interconnected to form a continuous path to the seismic force-resisting system, and the connections shall be capable of transmittin
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">12.1.5 Foundation Design</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The foundation shall be designed to resist the forces developed and to accommodate the movements imparted to the structure and foundation by the design ground motions. The dynamic nature of the forces, the expected ground motion, the design basis for strength and energy dissipation capacity of the structure, and the dynamic properties of the soil shall be included in the determination of the found
+<br><span class="xref">→ ASCE7-22-12.13-H1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">12.1.6 Material</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Design and Detailing Requirements Structural elements, including foundation elements, shall conform to the material design and detailing requirements set forth in Chapter 14.
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">12.2 STRUCTURAL SYSTEM SELECTION</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The steel eccentrically braced frames, steel special concentrically braced frames, steel buckling-restrained braced frames, steel special plate shear walls, steel and concrete coupled composite plate shear walls, reinforced concrete
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Steel Intermediate Moment Frames
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+12.2.5.7.1 Seismic Design Category D
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+12.2.5.7.3 Seismic Design Category F
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">12.2.1 Selection</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">12.2.1.1 Alternative Structural Systems</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Use of seismic forceresisting systems not contained in Table 12.2-1 shall be permitted contingent on submittal to and approval by the Authority Having Jurisdiction and independent structural design review of an accompanying set of design criteria and substantiating analytical and test data. The design criteria shall specify any limitations on system use, including Seismic Design Category and heigh
+<br><span class="xref">→ ASCE7-22-12.2-T12-2-12</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">12.2.1.2 Elements of Seismic Force-Resisting Systems</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Elements of seismic force-resisting systems, including members and their connections, shall conform to the detailing requirements speci fi ed in Table 12.2-1 for the selected structural system.
+<br><span class="xref">→ ASCE7-22-12.2-T12-2-12</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+In-depth description of the methodology used to evaluate equivalency of the substitute element for the seismic force-resisting system of interest, or reference to published documentation describing the methodology in depth.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Justi fi cation of the applicability of the equivalency methodology, including but not limited to consideration of the similarity of the forces transferred across the connection between the substitute and conforming elements and the balance of the seismic force-resisting system, and the similarity between the substitute and conforming element on the distribution of forces and displacements in the 
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+A design procedure for the substitute elements, including procedures to determine design strength stiffness, detailing, connections, and limitations to applicability and use.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Requirements for the manufacturing, installation, and maintenance of the substitute elements.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Evidence of independent structural design review, in accordance with Section 16.5, or review by a third party acceptable to the Authority Having Jurisdiction, of conformance to the requirements of this section.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">12.2.2 Combinations</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+of Framing Systems in Different Directions Different seismic force-resisting systems are permitted to be used to resist seismic forces along each of the two orthogonal axes of the structure. Where different systems are used, the respective R , Cd , and Ω 0 coef fi cients shall apply to each system, including the structural system limitations contained in Table 12.2-1.
+<br><span class="xref">→ ASCE7-22-12.2-T12-2-12</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">12.2.3 Combinations of Framing Systems in the Same</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Direction Where different seismic force-resisting systems are used in combination to resist seismic forces in the same direction, other than those combinations considered as dual systems, the design shall comply with the requirements of this section. The most stringent applicable structural system limitations contained in Table 12.2-1 shall apply, except as otherwise permitted by this section.
+<br><span class="xref">→ ASCE7-22-12.2-T12-2-12</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(e) The upper portion is analyzed with the equivalent lateral force or modal response spectrum procedure, and the lower portion is analyzed with the equivalent lateral force procedure.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">12.2.3.1 R, C d , and Ω 0 Values for Vertical Combinations Where a structure has a vertical combination in the same direction, the following requirements shall apply.</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">12.2.3.3 R, C d , and Ω 0 Values for Horizontal Combinations The value of the response modi fi cation coef fi cient, R , used for design in the direction under consideration shall not be greater than the least value of R for any of the systems used in that direction. The de fl ection ampli fi cation factor, Cd , and the overstrength factor, Ω 0 , shall be consistent with R required in that direction.</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">12.2.4 Combination</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Framing Detailing Requirements
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">12.2.5.1 Dual System</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+For a dual system, the moment frames shall be capable of resisting at least 25% of the design seismic forces. The total seismic force resistance is to be provided by the combination of the moment frames and the shear walls or braced frames in proportion to their rigidities.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">12.2.5.3 Inverted Pendulum-Type Structures</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Regardless of the structural system selected, inverted pendulums as de fi ned in Section 11.2 shall comply with this section. Supporting columns or piers of inverted pendulum-type structures shall be designed for the bending moment calculated at the base determined using the procedures given in Section 12.8 and varying uniformly to a moment at the top equal to one-half the calculated bending momen
+<br><span class="xref">→ ASCE7-22-12.8-H1</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">12.2.5.6 Steel Ordinary Moment Frames</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+12.2.5.6.1 Seismic Design Category D or E
+</div>
+</div>
+<div class="section sec-4">
+<div class="sec-num">12.2.5.7.2 Seismic Design Category E</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(b) Steel intermediate moment frames in structures assigned to Seismic Design Category E not meeting the limitations
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Equivalent tributary lateral load
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">12.2.5.8 Shear Wall</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+-Frame Interactive Systems The shear strength of the shear walls of the shear wall -frame interactive system shall be at least 75% of the design story shear at each story. The frames of the shear wall -frame interactive system shall be capable of resisting at least 25% of the design story shear in every story.
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">12.3</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+DIAPHRAGM FLEXIBILITY, CONFIGURATION IRREGULARITIES, AND REDUNDANCY
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">12.3.1 Diaphragm Flexibility</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The structural analysis shall consider the relative stiffnesses of diaphragms and the vertical elements of the seismic force-resisting system. Unless a diaphragm can be idealized as either fl exible or rigid in accordance with Sections 12.3.1.1, 12.3.1.2, or 12.3.1.3, the structural analysis shall explicitly include consideration of the stiffness of the diaphragm (i.e., semirigid modeling assumpti
+<br><span class="xref">→ ASCE7-22-12.3.1.4-P1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+In structures where the vertical elements are steel braced frames; steel and concrete composite braced frames; or concrete, masonry, steel, or steel and concrete composite shear walls.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+In oneand two-family dwellings.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+In structures of light-frame construction where all of the following conditions are met:
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(a) Topping of concrete or similar materials is not placed over wood structural panel diaphragms except for nonstructural topping no greater than 1.5 in. (38 mm) thick, and
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(b) Each line of vertical elements of the seismic forceresisting system complies with the allowable story drift of Table 12.12-1. Drift AAoVE. Deflection OMDD
+<br><span class="xref">→ ASCE7-22-12.12-T12-12-11</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">12.3.2 Irregular and Regular Classi</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+fi cation Structures shall be classi fi ed as having a structural irregularity based on the criteria in this section. Such classi fi cation shall be based on their structural con fi gurations.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+where Δ max is the maximum story drift at the building &#x27; s edge subjected to lateral forces using the equivalent lateral force procedure per Section 12.8 with the application of accidental torsion per Section 12.8.4 and Ax = 1.0; and Δ avg is the average of the story drifts at the two opposing edges of the building
+<br><span class="xref">→ ASCE7-22-12.8-H1, ASCE7-22-12.8.4-P1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Table 12.3-1. Horizontal Structural Irregularities.
+<br><span class="xref">→ ASCE7-22-12.3-F12-3-11</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+* See Section 12.8.1.3 for requirement for any structure with an irregularity listed in this table.
+<br><span class="xref">→ ASCE7-22-12.8.1.3-P1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Table 12.3-1a. Reference Sections for Type 1 Horizontal Torsional Irregularity (TIR).
+<br><span class="xref">→ ASCE7-22-12.3-F12-3-11</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+a Refer to the reference section for the precise requirement.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+b The requirements for TIR &gt; 1.2 also apply if TIR ≤ 1.2 and if more than 75% of the story &#x27; s lateral strength below the diaphragm is provided at or on one side of the center of mass per Table 12.3-1.
+<br><span class="xref">→ ASCE7-22-12.3-F12-3-11</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Notes: The requirements in this table are cumulative; thus for TIR &gt; 1.4 or 1.6, all the requirements for TIR &gt; 1.2 also apply.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Table 12.3-2. Vertical Structural Irregularities.
+<br><span class="xref">→ ASCE7-22-12.3-F12-3-21</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+determined using the same loading and diaphragm rigidity as applied for the determination of Δ max.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">12.3.2.2 Vertical Irregularity</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">12.3.3 Limitations and Additional Requirements for Systems</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+with Structural Irregularities
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Connections of diaphragms to vertical elements and to collectors, and
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Collectors and their connections, including connections to vertical elements of the seismic force-resisting system.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">12.3.4.1 Conditions Where Value of</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+ρ is 1.0 The value of ρ is permitted to equal 1.0 for the following:
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Structures assigned to Seismic Design Category B or C;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Drift calculation and P-delta effects;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Design of nonstructural components;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Design of nonbuilding structures that are not similar to buildings;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Design of collector elements, splices, and their connections for which the seismic load effects including overstrength of Section 12.4.3 are used;
+<br><span class="xref">→ ASCE7-22-12.4.3-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Diaphragm seismic design forces determined using Equation (12.10-1), including the limits imposed by Equations (12.10-2) and (12.10-3);
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Diaphragm seismic design forces determined in accordance with Section 12.10.4;
+<br><span class="xref">→ ASCE7-22-12.10.4-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Structures with damping systems designed in accordance with Chapter 18; and
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Design of structural walls for out-of-plane forces, including their anchorage.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">12.3.4.2 Redundancy Factor,</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+ρ , for Seismic Design Categories D through F For structures assigned to Seismic Design Categorie D, E, or F in the direction of interest, ρ shall be taken as 1.3 unless one of the following two conditions is met, whereby ρ is permitted to be taken as 1.0.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(a) There are at least two bays of seismic force-resisting framing on each side of the center of mass.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(b) The reduction in lateral strength of the story in the direction of interest does not exceed 35%.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(c) The resulting system with consideration of removal of the element does not have a Type 1 Horizontal Irregularity with a TIR &gt; 1.4.
+</div>
+</div>
+<div class="section sec-4">
+<div class="sec-num">12.3.4.2.1 Redundancy Factor, ρ , for Structures with Type 1 Horizontal (Torsional) Irregularity with TIR &gt; 1.4 in Seismic Design Categories D through F For a structure assigned to Seismic Design Category D, E, or F, and having a Type 1 Horizontal irregularity with TIR &gt; 1.4 in both orthogonal directions at any given level as de fi ned in Table 12.3-1, ρ shall equal 1.3 for the entire structure in both orthogonal directions. For all other structures, including structures with a Type 1 irregularity, the requirements of 12.3.4.2 shall apply.</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">12.4</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+SEISMIC LOAD EFFECTS AND COMBINATIONS
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+12.4.2 Seismic Load Effect The seismic load effect, E , includes effects of both horizontal and vertical ground motions as shown in Eq. (12.4-1) and Eq. (12.4-2).
+<br><span class="xref">→ ASCE7-22-12.4-E12-4-11, ASCE7-22-12.4-E12-4-21</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Table 12.3-3. Requirements for Each Story Resisting More than 35% of the Base Shear. where
+<br><span class="xref">→ ASCE7-22-12.3-T12-3-33</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Em = Seismic load effect including overstrength;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Emh = Effect of horizontal seismic forces, including overstrength as de fi ned in Section 12.4.3.1 or Section 12.4.3.2; and
+<br><span class="xref">→ ASCE7-22-12.4.3.1-P1, ASCE7-22-12.4.3.2-P1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">12.4.1 Applicability</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+All members of the structure, including those not part of the seismic force-resisting system, shall be designed using the seismic load effects of Section 12.4 unless otherwise exempted by this standard. Seismic load effects are the axial, shear, and fl exural member forces resulting from application of horizontal and vertical seismic forces as set forth in Section 12.4.2. Where required, seismic l
+<br><span class="xref">→ ASCE7-22-12.4-H1, ASCE7-22-12.4.2-T1, ASCE7-22-12.4.3-H1</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">12.4.2.2 Vertical Seismic Load Effect</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">12.4.3 Seismic Load Effects Including Overstrength</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The seismic load effect including overstrength, Em , includes effects of both horizontal and vertical ground motions as shown in Eq. (12.4-5) and Eq. (12.4-6). Where required, the seismic load effects including overstrength shall be determined in accordance with the following:
+<br><span class="xref">→ ASCE7-22-12.4-E12-4-51, ASCE7-22-12.4-E12-4-61</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">12.4.4 Minimum Upward Force for Horizontal Cantilevers</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+for Seismic Design Categories D through F For a structure assigned to Seismic Design Category D, E, or F, horizontal cantilever structural members shall be designed for a supplemental basic load combination consisting of a minimum net upward force of 0.2 times the dead load for strength design, or 0.14 times the dead load for allowable stress design.
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">12.5</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">12.5.1 Direction</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+of Loading Criteria The directions of application of seismic forces used in the design shall be those that produce the most critical load effects. In lieu of an analysis that fi nds the critical direction of loading for each element of the seismic force resisting system it is permitted to satisfy this requirement using one of the two methods de fi ned in 12.5.1.1 and 12.5.1.2 subject to the condit
+<br><span class="xref">→ ASCE7-22-12.5.2-P1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">12.5.3 Seismic Design Category C</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+For a structure assigned to Seismic Design Category C, any method in Section 12.5.1 shall be permitted, unless the structure has a Type 5 horizontal irregularity, in which case the Independent Directional Procedure shall not be permitted.
+<br><span class="xref">→ ASCE7-22-12.5.1-H1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">12.5.4 Seismic Design Categories D through F</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">12.6</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">12.7</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">12.7.1 Foundation Modeling</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+For purposes of determining seismic loads, it is permitted to consider the structure to be fi xed at the base. Alternatively, where foundation fl exibility is considered, it shall be in accordance with Section 12.13.3 or Chapter 19.
+<br><span class="xref">→ ASCE7-22-12.13.3-H1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">12.7.2 Effective Seismic Weight</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">12.7.3 Structural Modeling</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+A mathematical model of the structure shall be constructed for the purpose of determining member forces and structure displacements resulting from applied loads and any imposed displacements or P-delta effects. The model shall include the stiffness and strength of elements that are signi fi cant to the distribution of forces and deformations in the structure and represent the spatial distribution 
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">12.7.4 Interaction Effects</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Moment-resisting frames that are enclosed or adjoined by elements that are more rigid and not considered to be part of the seismic force-resisting system shall be designed so that the action or failure of those elements will not impair the vertical load and seismic force-resisting
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">12.8</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+EQUIVALENT LATERAL FORCE (ELF) PROCEDURE
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Table 12.8-2. Values of Approximate Period Parameters Ct and x .
+<br><span class="xref">→ ASCE7-22-12.8-E12-8-21</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+* SI equivalents in parentheses. avg
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+er strengthlevel design earthquake I
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+ce; °1e = elasti er strengthlevel des ce; O2e = elastic б, = Сабо &quot;== L2 01 → F1 → 82- F2 → 4, =0, ≤ 4a (Table 02 = C,20 /==
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+42 = C, (820-81) /le≤A, (Table 12. 820 Д1
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Note : ∆ i = story drift; ∆ / L i i = story drift ratio; δ x = total displacement; i = level under consideration.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Story Level 1: F 1 = strength-level design earthquake force; δ e 1 = elastic displacement computed under strength-level design earthquake forces; δ δ / C d e E I 1 1 = amplified displacement; ∆ δ ∆ a 1 1 (Table 12.12-1).
+<br><span class="xref">→ ASCE7-22-12.12-T12-12-11</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Story Level 2: F 2 = strength-level design earthquake force; δ e 2 = elastic displacement computed under strength-level design earthquake forces; δ δ / C d e E I 2 2 = amplified displacement; ∆ ( δ δ ) / ∆ C d e e E a I 2 2 1 (Table 12.12-1).
+<br><span class="xref">→ ASCE7-22-12.12-T12-12-11</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">12.8.1 Seismic Base Shear</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The seismic base shear, V , in a given direction shall be determined in accordance with the following equation: where
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Cs = The seismic response coef fi cient determined in accordance with Section 12.8.1.1, and
+<br><span class="xref">→ ASCE7-22-12.8.1.1-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+W = The effective seismic weight per Section 12.7.2.
+<br><span class="xref">→ ASCE7-22-12.7.2-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The structure does not have irregularities, as de fi ned in Section 12.3.2;
+<br><span class="xref">→ ASCE7-22-12.3.2-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The structure has a fundamental period, T , that does not exceed 0.5 s, as determined using Section 12.8.2;
+<br><span class="xref">→ ASCE7-22-12.8.2-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The structure meets the requirements necessary for the redundancy factor, ρ , to be permitted to be taken as 1.0, in accordance with Section 12.3.4.2;
+<br><span class="xref">→ ASCE7-22-12.3.4.2-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The site soil properties are not classi fi ed as Site Class E or F, as de fi ned in Section 11.4.3;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The structure is classi fi ed as Risk Category I or II, as de fi ned in Section 1.5.1; and
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The response modi fi cation coef fi cient, R , as de fi ned in Table 12.2-1, is 3 or greater.
+<br><span class="xref">→ ASCE7-22-12.2-T12-2-12</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">12.8.1.1 Calculation of Seismic Response Coef</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+fi cient Where the design spectral acceleration parameter Sa determined in accordance with either Section 11.4.5.1 or Chapter 21 is available, either Method 1 or Method 2 is permitted to determine the seismic response coef fi cient, Cs . Where Exception 2 of Section 11.4.5 applies, Method 1 shall not be used. The lower bound for the seismic response coef fi cient, Cs , provided in Item 3 shall be 
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Sa = Design spectral response acceleration parameter de fi ned in Section 11.4.5.1 and determined for the period T de fi ned in Section 12.8.2;
+<br><span class="xref">→ ASCE7-22-12.8.2-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+R = Response modi fi cation factor in Table 12.2-1; and
+<br><span class="xref">→ ASCE7-22-12.2-T12-2-12</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+I e = Importance Factor determined in accordance with Section 11.5.1.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+SDS = Design spectral response acceleration parameter in the short period range as determined from Section 11.4.5 or 11.4.8;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+SD 1 = Design spectral response acceleration parameter at a period of 1.0 s, as determined from Section 11.4.5 or 11.4.6;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+T = Fundamental period of the structure(s) determined in Section 12.8.2; and
+<br><span class="xref">→ ASCE7-22-12.8.2-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+TL = Long-period transition period(s) determined in Section 11.4.6.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">12.8.1.2 Soil</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+-Structure Interaction Reduction Asoil -structure interaction reduction is permitted where determined using Chapter 19 or other generally accepted procedures approved by the Authority Having Jurisdiction.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">12.8.2 Period Determination</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The fundamental period of the structure, T , in the direction under consideration shall be established using the structural properties and deformational characteristics of the resisting elements in a properly
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Table 12.8-1. Coefficient for Upper Limit on Calculated Period.
+<br><span class="xref">→ ASCE7-22-12.8-F12-8-11</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Cq = 0.0019 ft (0.00058 m), and
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Cw is calculated from Equation (12.8-11) as follows: where
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+AB = Area of base of structure [ft 2 (m 2 )];
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Ai = Web area of shear wall i [ft 2 (m 2 )];
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Di = Length of shear wall i [ft (m)]; and x = Number of shear walls in the building effective in resisting lateral forces in the direction under consideration.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">12.8.3 Vertical Distribution of Seismic Forces</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The lateral seismic force, Fx (kip or kN), induced at any level shall be determined from the following equations: where
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Cvx = Vertical distribution factor;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+V = Total design lateral force or shear at the base of the structure [kip (kN)];
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+wi , wx = Portion of the total effective seismic weight of the structure ( W ) located or assigned to level i or x ;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+, = Height [ft (m)] from the base to level i or x ; and hi hx
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+k = Exponent related to the structure period as follows:
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+For structures that have a period of 0.5 s or less, k = 1;
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">12.8.4.1 Inherent Torsion</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+For diaphragms that are not fl exible, the distribution of lateral forces at each level shall consider the effect of the inherent torsional moment, Mt , resulting from eccentricity between the locations of the center of mass and the center of rigidity. For fl exible diaphragms, the distribution of forces to the vertical elements shall account for the position and distribution of the masses support
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">12.8.4.2 Accidental Torsion</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+A structure assigned to Seismic Design Category B with Type 1 horizontal structural irregularity and TIR &gt; 1.4.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+A structure assigned to Seismic Design Category C, D, E, or F with Type 1 horizontal structural irregularity.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">12.8.4.3 Ampli</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+fi cation of Accidental Torsional Moment A structure assigned to Seismic Design Category C, D, E, or F, where Type 1 horizontal structural irregularity exists as de fi ned in Table 12.3-1 shall have the effects accounted for by multiplying Mta at each level by a torsional ampli fi cation factor, Ax , as illustrated in Figure 12.8-1 and determined from the following equation:
+<br><span class="xref">→ ASCE7-22-12.3-F12-3-11, ASCE7-22-12.8-F12-8-11</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+where δ max is the maximum displacement [in. (mm)] at level x , computed assuming Ax = 1, and δ avg is the average of the displacements [in. (mm)] at the extreme points of the structure at level x , computed assuming Ax = 1.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">12.8.6.2 Period for Computing Displacement and Drift</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+For determining displacements and drifts, it is permitted to determine the elastic displacements, δ e , using seismic design forces based on the computed fundamental period of the structure without the upper limit, CuTa , speci fi ed in Section 12.8.2.
+<br><span class="xref">→ ASCE7-22-12.8.2-H1</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">12.8.6.3 Design</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Earthquake Displacement The Design Earthquake Displacement, δ DE , shall be determined at the location of an element or component using Equation (12.8-16) or as permitted in Chapter 16, 17, or 18. where
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Cd = De fl ection ampli fi cation factor in Table 12.2-1.
+<br><span class="xref">→ ASCE7-22-12.2-T12-2-12</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+I e = Importance Factor determined in accordance with Section 11.5.1;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+δ di = Displacement due to diaphragm deformation corresponding to the design earthquake, including Section 12.10 diaphragm forces.
+<br><span class="xref">→ ASCE7-22-12.10-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+δ e = Elastic displacement computed under design earthquake forces, including the effects of accidental torsion and torsional ampli fi cation as applicable; and
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">12.8.6.5 Design Story Drift Determination</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The Design Story Drift, Δ , shall be computed as the difference of the Design Earthquake Displacements, δ DE , as determined in accordance with Section 12.8.6, at the centers of mass at the top and bottom of the story under consideration. Where centers of mass do not align vertically, it is permitted to compute the de fl ection at the bottom of the story based on the vertical projection of the cen
+<br><span class="xref">→ ASCE7-22-12.8.6-P1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">12.8.7 P-Delta Effects</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+P-delta effects on story shears and moments, the resulting member forces and moments, and the story drifts induced by these effects are not required to be considered where the stability coef fi cient, θ , as determined by the following equation is equal to or less than 0.10: where
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Px = Total vertical design load [kip (kN)] at and above level x per Section 12.8.6.1 (where computing Px , no individual load factor need exceed 1.0);
+<br><span class="xref">→ ASCE7-22-12.8.6.1-P1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Vx ∕ Δ xe = Story stiffness at level x [kip/in (kN/mm)], calculated as the ratio of the seismic design shear, Vx , divided by the corresponding elastic story drift, Δ xe ; and hsx = Story height below level x [in. (mm)].
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">12.9</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">12.9.1 Modal Response Spectrum Analysis</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">12.9.1.1 Number of Modes</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+An analysis shall be conducted to determine the natural modes of vibration for the structure. The analysis shall include a suf fi cient number of modes to obtain a combined modal mass participation of 100% of the structure &#x27; s mass. For this purpose, it shall be permitted to represent all modes with periods less than 0.05 s in a single rigid body mode that has a period of 0.05 s.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">12.9.1.4 Scaling Design Values of Combined Response</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Abase shear, V , shall be calculated in each of the two orthogonal horizontal directions using the calculated fundamental period of the structure, T , in each direction and the procedures of Section 12.8.
+<br><span class="xref">→ ASCE7-22-12.8-H1</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">12.9.1.5 Horizontal Shear Distribution</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The distribution of horizontal shear shall be in accordance with Section 12.8.4, The effects of accidental torsion shall be accounted for by applying a static accidental torsional moment, Mta , determined in accordance with Sections 12.8.4.2 and 12.8.4.3, to the mathematical model, and combining the results with the scaled design values computed in accordance with Section 12.9.1.4.
+<br><span class="xref">→ ASCE7-22-12.8.4-P1, ASCE7-22-12.9.1.4-H1</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">12.9.1.6 P-Delta Effects</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The P-delta effects shall be determined in accordance with Section 12.8.7. The base shear used to determine the displacement and drifts shall be determined in accordance with Section 12.8.6.
+<br><span class="xref">→ ASCE7-22-12.8.6-P1, ASCE7-22-12.8.7-H1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">12.9.2 Linear Response History Analysis</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">12.9.2.2 General Modeling Requirements</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Three-dimensional (3D) models of the structure shall be required. Modeling the distribution of stiffness and mass throughout the structure &#x27; s lateral load-resisting system and diaphragms shall be in accordance with Section 12.7.3.
+<br><span class="xref">→ ASCE7-22-12.7.3-H1</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">12.9.2.3 Ground Motion Selection and Modi</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+fi cation Ground acceleration histories used for analysis shall consist of a suite of no fewer than three pairs of spectrally matched orthogonal components derived from arti fi cial or recorded ground motion events. The target response spectrum for each spectrally matched set shall be developed in accordance with Sections 11.4.6 or 21.3, as applicable.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">12.9.2.4 Application of Ground Acceleration Histories</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Two orthogonal directions of response, designated as X and Y , shall be selected and used for all response history analysis. Ground motions shall be applied independently in the X and Y directions.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">12.9.2.5 Modi</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+fi cation of Response for Design
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">12.9.2.6 Enveloping of Force Response Quantities</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Design force response quantities shall be taken as the envelope of the combined force response quantities computed in both orthogonal directions and for all ground motions considered. Where force interaction effects are considered, demand to capacity ratios are permitted to be enveloped in lieu of individual force quantities.
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">12.10</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">12.10.1 Diaphragm Design</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Diaphragms shall be designed for both the shear and the bending stresses resulting from design forces. At diaphragm discontinuities, such as openings and reentrant corners, the design shall ensure that the dissipation or transfer of edge (chord) forces, combined with other forces in the diaphragm, is within the shear and tension capacity of the diaphragm.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Fpx = Diaphragm design force at level x ;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Fi = Design force applied to level i ;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+wi = Weight tributary to level i ; and
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+wpx = Weight tributary to the diaphragm at level x .
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">12.10.2 Collector</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Elements Collector elements shall be provided that are capable of transferring the seismic forces originating in other portions of the structure to the element providing the resistance to those forces.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(a) Forces calculated using the seismic load effects including overstrength of Section 12.4.3 with seismic forces determined by the equivalent lateral force procedure of Section 12.8 or the modal response spectrum analysis procedure of Section 12.9.1;
+<br><span class="xref">→ ASCE7-22-12.4.3-H1, ASCE7-22-12.8-H1, ASCE7-22-12.9.1-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(b) Forces calculated using the seismic load effects including overstrength of Section 12.4.3 with seismic forces determined by Equation (12.10-1); and
+<br><span class="xref">→ ASCE7-22-12.4.3-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(c) Forces calculated using the load combinations of Section 2.3.6 with seismic forces determined by Equation (12.10-2).
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">12.10.3.1 Design</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Diaphragms, including chords, collectors, and their connections to the vertical elements, shall be designed in two orthogonal directions to resist the in-plane design seismic forces determined in Section 12.10.3.2. Collectors shall be provided that are capable of transferring the seismic forces originating in other portions of the structure to the vertical elements providing the resistance to thos
+<br><span class="xref">→ ASCE7-22-12.10.3.2-P1</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">12.10.3.3 Transfer</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Forces in Diaphragms Diaphragms designed in accordance with this section shall be designed for the inertial forces determined from Equations (12.10-4) and (12.10-5) and for applicable transfer forces acting through the diaphragm between vertical seismic force-resisting elements. For structures that have a horizontal structural irregularity of Type 4 in Table 12.3-1, the transfer forces between hor
+<br><span class="xref">→ ASCE7-22-12.3-F12-3-11, ASCE7-22-12.3.3.5-D1, ASCE7-22-12.4.3-H1</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">EXCEPTIONS:</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+In structures or portions thereof braced entirely by lightframe shear walls, collector elements and their connections, including connections to vertical elements, need only be designed to resist the diaphragm seismic design forces, without the 1.5 multiplier.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">12.10.3.5 Diaphragm Design Force Reduction Factor</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The diaphragm design force reduction factor, Rs , shall be determined in accordance with Table 12.10-1.
+<br><span class="xref">→ ASCE7-22-12.10-E12-10-11</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">12.10.4 Alternative</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Diaphragm Design Provisions for One-Story Structures with Flexible Diaphragms and Rigid Vertical Elements Where permitted by Section 12.10 and subject to the limitations of Section 12.10.4.1, diaphragm design forces, including design forces for chords, collectors, and their in-plane connections to vertical elements, shall be determined in accordance with Section 12.10.4.2.
+<br><span class="xref">→ ASCE7-22-12.10-H1, ASCE7-22-12.10.4.1-H1, ASCE7-22-12.10.4.2-P1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+wpx = The effective seismic weight tributary to the diaphragm, and C s-diaph is calculated as
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+SDS = Design spectral response parameter in the short period range as determined from Section 11.4.5 or 11.4.8;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+R diaph = 4.5 for wood structural panel diaphragms, 4.5 for bare steel deck diaphragms that meet the special seismic detailing requirements of AISI S400, and 1.5 for all other bare steel deck diaphragms;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+I e = Importance Factor determined in accordance with Section 11.5.1; and
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+T diaph = 0.002 L diaph for wood structural panel diaphragms, or 0.001 L diaph for pro fi led steel deck panel diaphragms, determined for each rectangular segment of the diaphragm in each orthogonal direction [seconds].
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+C d-diaph = 3.0 for wood structural panel diaphragms,
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+= 3.0 for bare steel deck diaphragms that meet the special seismic detailing requirements of AISI S400, and
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+= 1.5 for all other bare steel deck diaphragms.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">12.10.4.1 Limitations</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Diaphragms in one-story structures are permitted to be designed in accordance with Section 12.10.4 provided all of the following limitations are satis fi ed.
+<br><span class="xref">→ ASCE7-22-12.10.4-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Table 12.10-1. Diaphragm Design Force Reduction Factor, Rs . * Not Applicable
+<br><span class="xref">→ ASCE7-22-12.10-E12-10-11</span>
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">12.11</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+STRUCTURAL WALLS AND THEIR ANCHORAGE
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">12.11.1 Design for Out-of-Plane Forces</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Structural walls shall be designed for a force normal to the surface equal to Fp = 0.4 SDSI e times the weight of the structural wall with a minimum force of 10% of the weight of the structural wall.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">12.11.2 Anchorage of Structural Walls and Transfer of</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Design Forces into Diaphragms or Other Supporting Structural Elements
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+12.11.2.2 Additional Requirements for Anchorage of Concrete or Masonry Structural Walls to Diaphragms in Structures Assigned to Seismic Design Categories C through F
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">12.11.2.1 Wall Anchorage Forces</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The anchorage of structural walls to supporting construction shall provide a direct connection capable of resisting the following: where
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Fp = Design force in the individual anchors;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+SDS = Design spectral response acceleration parameter at short periods per Section 11.4.5;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+I e = Importance Factor determined in accordance with Section 11.5.1;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+ka = Ampli fi cation factor for diaphragm fl exibility;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Lf = Span, in feet, of a fl exible diaphragm that provides the lateral support for the wall (the span is measured between vertical elements that provide lateral support to the diaphragm in the direction considered; use zero for rigid diaphragms); and
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Wp = Weight of the wall tributary to the anchor.
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">12.12</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">12.12.1 Story Drift Limit</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The design story drift, Δ , as determined in Section 12.8.6, 12.9.1, or 12.9.2 shall not exceed the allowable story drift, Δ a , as obtained from Table 12.12-1 for any story.
+<br><span class="xref">→ ASCE7-22-12.12-T12-12-11, ASCE7-22-12.8.6-P1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">12.12.2 Structural Separation</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+All portions of the structure shall be designed and constructed to act as an integral unit in resisting seismic forces unless separated structurally by a distance suf fi cient to avoid damaging contact as set forth in this section.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+b Structures in which the basic structural system consists of masonry shear walls designed as vertical elements cantilevered from their base or foundation support that are so constructed that moment transfer between shear walls (coupling) is negligible.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">12.12.4 Deformation</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Compatibility for Seismic Design Categories D through F For structures assigned to Seismic Design Category D, E, or F, every structural component not included in the seismic force-resisting system in the direction under consideration shall be designed to be adequate for the gravity load effects and the seismic forces resulting from the Design Earthquake Displacements ( δ DE ) and the associated dr
+<br><span class="xref">→ ASCE7-22-12.8.6-P1</span>
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">12.13</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">12.13.1 Design Basis</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The design basis for foundations shall be as set forth in Section 12.1.5.
+<br><span class="xref">→ ASCE7-22-12.1.5-H1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">12.13.3 Foundation</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Load-Deformation Characteristics Where foundation fl exibility is included for the linear analysis procedures in Chapter 12, the load-deformation characteristics of the foundation -soil system shall be modeled in accordance with the requirements of this section. The linear load-deformation behavior of foundations shall be represented by an equivalent linear stiffness using soil properties that are
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">12.13.4 Reduction of Foundation Overturning</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Overturning effects at the soil -foundation interface are permitted to be reduced by 25% for foundations of structures that satisfy both of the following conditions:
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(a) The structure is designed in accordance with the equivalent lateral force analysis as set forth in Section 12.8, and
+<br><span class="xref">→ ASCE7-22-12.8-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(b) The structure is not an inverted pendulum or cantilevered column type structure.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Note : hwall = height of shear wall; hwp = height of wall pier; Lwall = length of shear wall; Lwp = length of wall pier. Shear wall heightto-length ratio: hwall ∕ Lwall . Wall pier height-to-length ratio: hwp ∕ Lwp .
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">12.13.5 Strength</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Design for Foundation Geotechnical Capacity Where basic combinations for strength design listed in Section 2.3 are used, combinations that include earthquake loads, E , are permitted to include reduction of foundation overturning effects de fi ned in Section 12.13.4. The following sections shall apply for determination of the applicable nominal strengths and resistance factors at the soil -foundat
+<br><span class="xref">→ ASCE7-22-12.13.4-H1</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">12.13.5.1 Nominal Strength</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The nominal foundation geotechnical capacity, Qns , shall be determined using any of the following methods:
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Presumptive load-bearing values;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+By a registered design professional based on geotechnical site investigations that include fi eld and laboratory testing to determine soil classi fi cation and as-required active, passive, and at-rest soil strength parameters; or
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+By in situ testing of prototype foundations.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">12.13.5.2 Resistance Factors</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The resistance factors prescribed in this section shall be used for vertical, lateral, and rocking resistance of all foundation types. Nominal foundation geotechnical capacities, Qns , shall be multiplied by the resistance factor, φ , shown in Table 12.13-1. Alternatively, a vertical resistance factor, φ = 0.80, is permitted to be used when the nominal strength (upward or downward) is determined b
+<br><span class="xref">→ ASCE7-22-12.13-E12-13-11</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">12.13.5.3 Acceptance</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Criteria For linear seismic analysis procedures in accordance with Sections 12.8 and 12.9, factored loads, including reductions permitted in Section 12.13.4, shall not exceed foundation design strengths, ϕ Qns .
+<br><span class="xref">→ ASCE7-22-12.13.4-H1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">12.13.6 Allowable Stress Design for Foundation Geotechnical</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Capacity Where basic combinations for allowable stress design listed in Section 2.4 are used for design, combinations that include earthquake loads, E , are permitted to include reduction of foundation overturning effects de fi ned in Section 12.13.4. Allowable foundation load capacities, Qas , shall be determined using allowable stresses in geotechnical materials that have been determined by geot
+<br><span class="xref">→ ASCE7-22-12.13.4-H1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">12.13.7 Requirements for Structures Assigned to Seismic</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Design Category C In addition to the requirements of Section 11.8.2, the following foundation design requirements shall apply to structures assigned to Seismic Design Category C.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">12.13.7.1 Pole-Type Structures</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Where construction using posts or poles as columns embedded in earth or embedded in concrete
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Table 12.13-1. Resistance Factors for Strength Design of Soil -Foundation Interface.
+<br><span class="xref">→ ASCE7-22-12.13-E12-13-11</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">12.13.7.2 Foundation Ties</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Individual pile caps, drilled piers, or caissons shall be interconnected by ties. All ties shall have a design strength in tension or compression at least equal to a force equal to 10% of SDS times the larger pile cap or column factored dead plus factored live load unless it is demonstrated that equivalent restraint will be provided by reinforced concrete beams within slabs on grade or reinforced 
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">12.13.7.3 Pile Anchorage Requirements</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+In addition to the requirements of ACI 318, anchorage of piles shall comply with this section. Where required for resistance to uplift forces, anchorage of steel pipe [round hollow structural steel (HSS) sections], concretefi lled steel pipe, or H piles to the pile cap shall be made by means other than concrete bond to the bare steel section.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">12.13.8 Requirements for Structures Assigned to Seismic</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Design Categories D through F In addition to the requirements of Sections 11.8.2, 11.8.3 and 14.1.8, the following foundation design requirements shall apply to structures assigned to Seismic Design Category D, E, or F. Design and construction of concrete foundation elements shall conform to the requirements of ACI 318, Section 18.13, except as modi fi ed by the requirements of this section.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">12.13.8.1 Pole-Type Structures Where construction using posts or poles as columns embedded in earth or embedded in concrete footings in the earth is used to resist lateral loads, the depth of embedment required for posts or poles to resist seismic forces shall be determined by means of the design criteria established in the foundation investigation report.</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">12.13.8.2 Foundation Ties</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Individual pile caps, drilled piers, or caissons shall be interconnected by ties. In addition, individual spread footings founded on soil de fi ned in Chapter 20 as Site Class E or F shall be interconnected by ties. All ties shall have a design strength in tension or compression at least equal to a force equal to 10% of SDS times the larger pile cap or column factored dead plus factored live load 
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">12.13.8.3 General Pile Design Requirement</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Piling shall be designed and constructed to withstand deformations from earthquake ground motions and structure response. Deformations shall include both freefi eld soil strains (without the structure) and deformations induced by lateral pile resistance to structure seismic forces, all as modi fi ed by soil -pile interaction.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">12.13.8.5 Pile Anchorage Requirements</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+In addition to the requirements of Section 12.13.7.3, anchorage of piles shall comply with this section. Design of anchorage of piles into the pile cap shall consider the combined effect of axial forces because of uplift and bending moments caused by fi xity to the pile cap. For piles required to resist uplift forces or provide rotational restraint, anchorage into the pile cap shall comply with th
+<br><span class="xref">→ ASCE7-22-12.13.7.3-H1</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">12.13.8.6 Splices of Pile Segments</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Splices of pile segments shall develop the nominal strength of the pile section.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">12.13.8.7 Pile</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+-Soil Interaction Pile moments, shears, and lateral de fl ections used for design shall be established considering the interaction of the pile and soil. Where the ratio of the depth of embedment of the pile to the pile diameter or width is less than or equal to 6, the pile is permitted to be assumed to be fl exurally rigid with respect to the soil.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">12.13.8.8 Pile Group Effects</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Pile group effects from soil on lateral pile nominal strength shall be included where pile centerto-center spacing in the direction of lateral force is less than eight pile diameters or widths. Pile group effects on vertical nominal strength shall be included where pile center-to-center spacing is less than three pile diameters or widths.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">12.13.9 Requirements</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+for Foundations Subject to Seismically-Induced Soil Displacement or Strength Loss Where the geotechnical investigation report required in Section 11.8 identi fi es the potential for liquefaction, seismicallyinduced permanent ground displacement, or soil strength loss in MCEG earthquake motions, structures shall be designed to accommodate the effects in accordance with the requirements of Sections 
+<br><span class="xref">→ ASCE7-22-12.4-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+potential for the occurrence of permanent horizontal ground displacement, no bearing capacity loss, no lateral resistance loss, and differential settlements of site soils or improved site soils do not exceed one-fourth of the differential settlement threshold speci fi ed in Table 12.3-3.
+<br><span class="xref">→ ASCE7-22-12.3-T12-3-33</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">12.13.9.1 Foundation Design</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Foundations shall be designed to support gravity and design earthquake loads, as indicated in the basic load combinations of Section 12.4, using the reduced soil bearing capacity, as indicated in the geotechnical investigation report, considering the effects of liquefaction, seismicallyinduced permanent ground displacement, and soil strength loss caused by MCEG earthquake motions. It shall be perm
+<br><span class="xref">→ ASCE7-22-12.4-H1</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">12.13.9.2 Shallow Foundations</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Building structures shall be permitted to be supported on shallow foundations provided that the foundations are designed and detailed in accordance with Section 12.13.9.2.1 and the conditions provided in items (a) and (b) of Section 12.13.9.2 are met.
+<br><span class="xref">→ ASCE7-22-12.13.9.2-H1, ASCE7-22-12.13.9.2.1-P1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(a) The geotechnical investigation report indicates that seismically-induced permanent horizontal ground displacement does not exceed the value in Table 12.13-2.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(b) The geotechnical investigation report indicates that the differential settlement over a de fi ned length, L , does not exceed the differential settlement threshold speci fi ed in Table 12.13-3.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Table 12.13-2. Upper Limit on Permanent Horizontal Ground Displacement for Shallow Foundations.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+where μ is the coef fi cient of friction between the bottom of the footing and the soil, as indicated in the geotechnical report, or taken as 0.5 in the absence of other information; and Pu is the total of the supported gravity loads of all footings along the same column or wall line, determined in accordance with load combination 6 in Section 2.3.6.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Table 12.13-3. Differential Settlement Threshold.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+lateral shear strength and stiffness to a slab on ground as de fi ned above.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">12.13.9.3 Deep</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Foundations Deep foundations shall be designed to support vertical loads as indicated in the basic load combinations of Section 12.4, in combination with the moments and shears caused by lateral deformation of deep foundation elements in response to lateral inertial loads. Axial capacity of the deep foundation and lateral resistance of the soil shall be reduced to account for the effects of liquef
+<br><span class="xref">→ ASCE7-22-12.4-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The seismically-induced foundation differential settlement does not exceed one-fourth of the differential settlement threshold in Table 12.13-3.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The seismically-induced foundation differential settlement does not exceed the differential settlement threshold in Table 12.13-3 and does not exceed 0.0075 L ; foundation ties comply with the additional detailing requirements of Section 12.13.9.2.1.1; and mat foundations comply with the requirements of Section 12.13.9.2.1.2.
+<br><span class="xref">→ ASCE7-22-12.13.9.2.1.1-P1, ASCE7-22-12.13.9.2.1.2-P1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The seismically-induced foundation differential settlement complies with the design requirements of Section 12.13.9.2(b); foundation ties comply with the additional detailing requirements of Section 12.13.9.2.1.1; and mat foundations comply with the requirements of Section 12.13.9.2.1.2.
+<br><span class="xref">→ ASCE7-22-12.13.9.2-H1, ASCE7-22-12.13.9.2.1.1-P1, ASCE7-22-12.13.9.2.1.2-P1</span>
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">12.14</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+SIMPLIFIED ALTERNATIVE STRUCTURAL DESIGN CRITERIA FOR SIMPLE BEARING WALL OR BUILDING FRAME SYSTEMS
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">12.14.1 General</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+E = Effect of horizontal and vertical earthquake-induced forces
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Fa = Acceleration-based site coef fi cient, see Section 12.14.8.1
+<br><span class="xref">→ ASCE7-22-12.14.8.1-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Fi = Portion of the seismic base shear, V , induced at level i
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Fp = Seismic design force applicable to a particular structural component Fx = See Section 12.14.8.2
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+hi = Height above the base to level i hx = Height above the base to level x
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Level i = Building level referred to by the subscript i ; i = 1 designates the fi rst level above the base
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Level n = Level that is uppermost in the main portion of the building Level x = See Level i
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+QE = Effect of horizontal seismic forces
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+R = Response modi fi cation coef fi cient as given in Table 12.14-1 SDS = See Section 12.14.8.1 SS = See Section 11.4.1 S 1 = See Section 11.4.1
+<br><span class="xref">→ ASCE7-22-12.14-T12-14-12</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+V = Total design shear at the base of the structure in the direction of interest, as determined using the procedure of Section 12.14.8.1
+<br><span class="xref">→ ASCE7-22-12.14.8.1-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Vx = Seismic design shear in story x ; see Section 12.14.8.3 W = See Section 12.14.8.1
+<br><span class="xref">→ ASCE7-22-12.14.8.3-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Wc = Weight of wall wi = Portion of the effective seismic weight, W , located at or assigned to level i
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Wp = Weight of structural component wx = See Section 12.14.8.2
+<br><span class="xref">→ ASCE7-22-12.14.8.2-H1</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">12.14.1.1 Simpli</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+fi ed Design Procedure The procedures of this section are permitted to be used in lieu of other analytical procedures in Chapter 12 for the analysis and design of simple buildings with bearing wall or building frame systems, subject to all of the limitations listed in this section. Where these procedures are used, the Seismic Design Category shall be determined from Table 11.6-1 using the value of
+<br><span class="xref">→ ASCE7-22-12.14.8.1-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(a) For structures with two lines of resistance in a given direction, the distance between the two lines is at least 50% of the length of the diaphragm perpendicular to the lines; and
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(b) For structures with more than two lines of resistance in a given direction, the distance between the two most extreme lines of resistance in that direction is at least 60% of the length of the diaphragm perpendicular to the lines.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">12.14.1.2 Reference</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Documents The reference documents listed in Chapter 23 shall be used as indicated in Section 12.14.
+<br><span class="xref">→ ASCE7-22-12.14-H1</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">12.14.1.3 De</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+fi nitions The de fi nitions listed in Section 11.2 shall be used in addition to the following:
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">12.14.2 Design Basis</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The structure shall include complete lateral and vertical force-resisting systems with adequate strength to resist the design seismic forces, speci fi ed in this section, in combination with other loads. Design seismic forces shall be distributed to the various elements of the structure and their connections using a linear elastic analysis in accordance with the procedures of Section 12.14.8. The 
+<br><span class="xref">→ ASCE7-22-12.14.4.1-P1, ASCE7-22-12.14.8-P1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">12.14.3 Seismic Load Effects</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+All members of the structure, including those not part of the seismic force-resisting system, shall be designed using the seismic load effects of
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Table 12.14-1. Design Coefficients and Factors for Seismic Force-Resisting Systems for Simplified Design Procedure. continues Table 12.14-1 (Continued) .
+<br><span class="xref">→ ASCE7-22-12.14-T12-14-12</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+a Response modi fi cation coef fi cient, R , for use throughout the standard.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+b P = permitted; NP = not permitted.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+c Light-frame walls with shear panels of all other materials are not permitted in Seismic Design Category E.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Em = Seismic load effect including overstrength
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Emh = The effect of horizontal seismic forces, including overstrength, as de fi ned in Section 12.14.3.2.1 or 12.14.3.2.2; and
+<br><span class="xref">→ ASCE7-22-12.14.3.2.1-P1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Ev = The vertical seismic load effect as de fi ned in Section 12.14.3.1.2.
+<br><span class="xref">→ ASCE7-22-12.14.3.1.2-P1</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">12.14.3.1 Seismic Load Effect</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The seismic load effect, E , includes effects of both horizontal and vertical ground motions as shown in Eq. (12.14-3) and Eq. (12.14-4).
+<br><span class="xref">→ ASCE7-22-12.14-E12-14-31, ASCE7-22-12.14-E12-14-41</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+where Eh is the effect of horizontal seismic forces as de fi ned in Section 12.14.3.1.1, and Ev is the effect of vertical seismic forces as de fi ned in Section 12.14.3.1.2.
+<br><span class="xref">→ ASCE7-22-12.14.3.1.1-P1, ASCE7-22-12.14.3.1.2-P1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+where QE is the effects of horizontal seismic forces from V or Fp as speci fi ed in Sections 12.14.7.5, 12.14.8.1, and 13.3.1.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+where SDS is the design spectral response acceleration parameter at short periods obtained from Section 11.4.5, and D is the effect of dead load.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+In Equations (12.14-3), (12.14-4), (12.14-7), and (12.14-8) where SDS is equal to or less than 0.125; and
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+In Equation (12.14-4) where determining demands on the soil -structure interface of foundations.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">12.14.4 Seismic Force-Resisting System</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Special framing and detailing requirements are indicated in Section 12.14.7 and in Sections 14.1, 14.2, 14.3, 14.4, and 14.5 for structures assigned to the various Seismic Design Categories.
+<br><span class="xref">→ ASCE7-22-12.14.7-H1</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">12.14.4.2 Combinations of Framing Systems</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">12.14.5 Diaphragm Flexibility</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Diaphragms constructed of steel decking (untopped), wood structural panels, or similar panelized construction techniques are permitted to be considered fl exible.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">12.14.6 Application</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+of Loading The effects of the combination of loads shall be considered as prescribed in Section 12.14.3. The design seismic forces are permitted to be applied separately in each orthogonal direction, and the combination of effects from the two directions need not be considered. Reversal of load shall be considered.
+<br><span class="xref">→ ASCE7-22-12.14.3-H1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">12.14.7 Design and Detailing Requirements</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The design and detailing of the members of the seismic force-resisting system shall comply with the requirements of this section. The foundation shall be designed to resist the forces developed and accommodate the movements imparted to the structure by the design ground motions. The dynamic nature of the forces, the expected ground motion, the design basis for strength and energy dissipation capac
+<br><span class="xref">→ ASCE7-22-12.13-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Lf = Span, in feet, of a fl exible diaphragm that provides the lateral support for the wall (the span is measured between vertical elements that provide lateral support to the diaphragm in the direction considered -use zero for rigid diaphragms);
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Fp = Design force in the individual anchors;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+ka = Ampli fi cation factor for diaphragm fl exibility;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+SDS = Design spectral response acceleration at short periods per Section 12.14.8.1;
+<br><span class="xref">→ ASCE7-22-12.14.8.1-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Wp = Weight of the wall tributary to the anchor; and
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">12.14.7.1 Connections</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+All parts of the structure between separation joints shall be interconnected, and the connection shall be capable of transmitting the seismic force, Fp , induced by the parts being connected. Any smaller portion of the structure shall be tied to the remainder of the structure with elements that have a strength of 0.20 times the short-period design spectral response acceleration coef fi cient, SDS 
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">12.14.7.2 Openings or Reentrant Building Corners</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Except where otherwise speci fi cally provided for in this standard, openings in shear walls, diaphragms, or other plate-type elements shall be provided with reinforcement at the edges of the openings or reentrant corners designed to transfer the stresses into the structure. The edge reinforcement shall extend into the body of the wall or diaphragm a distance suf fi cient to develop the force in t
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">12.14.7.4 Diaphragms</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Floor and roof diaphragms shall be designed to resist the design seismic forces at each level, Fx , calculated in accordance with Section 12.14.8.2. Where the diaphragm is required to transfer design seismic forces from the vertical-resisting elements above the diaphragm to other vertical-resisting elements below the diaphragm because of changes in relative lateral stiffness in the vertical elemen
+<br><span class="xref">→ ASCE7-22-12.14.8.2-H1</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">12.14.7.6 Bearing Walls and Shear Walls</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Exterior and interior bearing walls and shear walls and their anchorage shall be designed for a force equal to 40% of the short-period design spectral response acceleration, SDS , times the weight of wall, Wc , normal to the surface, with a minimum force of 10% of the weight of the wall. Interconnection of wall elements and connections to supporting framing systems shall have suf fi cient ductilit
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">12.14.7.7 Anchorage</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+of Nonstructural Systems Where required by Chapter 13, all portions or components of the structure shall be anchored for the seismic force, Fp , prescribed therein.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">12.14.8.1 Seismic Base Shear</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">12.14.8.2 Vertical Distribution</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The forces at each level shall be calculated using the following equation:
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+where wx is the portion of the effective seismic weight of the structure, W , at level x .
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">12.14.8.3 Horizontal Shear Distribution</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The seismic design story shear in any story, Vx [kip (kN)], shall be determined from the following equation:
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+where Fi is the the portion of the seismic base shear, V [kip (kN)], induced at level i .
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">12.14.8.4 Overturning</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The structure shall be designed to resist overturning effects caused by the seismic forces determined in
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">12.14.8.5 Drift Limits and Building Separation</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Structural drift need not be calculated. Where a drift value is needed for use in material standards, to determine structural separations between buildings or from property lines, for design of cladding, or for other design requirements, it shall be taken as 1% of structural height, hn , unless computed to be less. Each portion of the structure shall be designed to act as an integral unit in resis
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">12.15</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS
+</div>
+</div>
+</body></html>

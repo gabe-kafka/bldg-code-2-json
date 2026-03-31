@@ -1,0 +1,413 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8">
+<title>ASCE 7-22 Chapter 4 — Digital Twin</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#FFF;--s:#F5F5F5;--t:#1A1A1A;--m:#6B6B6B;--b:#D4D4D4;--sub:#E8E8E8;
+--g:#16A34A;--a:#0057FF;--r:#DC2626;--am:#D97706;--cy:#06B6D4;--purple:#8B5CF6}
+@media(prefers-color-scheme:dark){:root{--bg:#0A0A0A;--s:#141414;--t:#E5E5E5;--m:#808080;
+--b:#2A2A2A;--sub:#1A1A1A;--a:#3B82F6}}
+body{background:var(--bg);color:var(--t);font-family:'JetBrains Mono','SF Mono',monospace;
+font-size:11px;max-width:900px;margin:0 auto;padding:16px}
+h1{font-size:13px;text-transform:uppercase;letter-spacing:.1em;margin-bottom:2px}
+.sub{font-size:10px;color:var(--m);margin-bottom:12px}
+.nav{font-size:10px;color:var(--a);margin-bottom:16px}
+.nav a{color:var(--a);text-decoration:none}
+.nav a:hover{text-decoration:underline}
+.section{margin-bottom:12px}
+.sec-num{font-size:12px;font-weight:700;color:var(--t);margin-bottom:2px}
+.sec-0,.sec-1{margin-left:0}.sec-2{margin-left:16px}.sec-3{margin-left:32px}.sec-4{margin-left:48px}
+.child{margin:3px 0;padding:4px 8px;border-left:2px solid var(--sub);font-size:10px;line-height:1.5}
+.child.provision{border-color:var(--g);background:rgba(22,163,74,0.03)}
+.child.definition{border-color:var(--purple);background:rgba(139,92,246,0.03)}
+.child.formula{border-color:var(--a);background:rgba(59,130,246,0.03)}
+.child.table{border-color:var(--cy);background:rgba(6,182,212,0.03)}
+.child.figure{border-color:var(--am);background:rgba(217,119,6,0.03)}
+.child.exception{border-color:var(--r);background:rgba(220,38,38,0.03)}
+.child.user_note{border-color:var(--m);background:rgba(128,128,128,0.03)}
+.child.text_block{border-color:var(--sub)}
+.tag{display:inline-block;padding:0 3px;border:1px solid;font-size:7px;text-transform:uppercase;
+letter-spacing:.04em;margin-right:3px;vertical-align:middle}
+.tag-provision{border-color:var(--g);color:var(--g)}
+.tag-definition{border-color:var(--purple);color:var(--purple)}
+.tag-formula{border-color:var(--a);color:var(--a)}
+.tag-table{border-color:var(--cy);color:var(--cy)}
+.tag-figure{border-color:var(--am);color:var(--am)}
+.tag-exception{border-color:var(--r);color:var(--r)}
+.tag-user_note{border-color:var(--m);color:var(--m)}
+.tag-text_block{border-color:var(--sub);color:var(--m)}
+.meta{font-size:8px;color:var(--m)}
+.xref{font-size:8px;color:var(--a)}
+b{font-weight:600}
+table.tbl{width:100%;border-collapse:collapse;font-size:9px;margin:4px 0}
+table.tbl th{text-align:left;font-size:7px;text-transform:uppercase;color:var(--m);border-bottom:1px solid var(--b);padding:1px 4px}
+table.tbl td{padding:1px 4px;border-bottom:1px solid var(--sub)}
+</style></head><body>
+<h1>ASCE 7-22 Chapter 4 — Digital Twin</h1>
+<div class="sub">171 elements · 35 provisions · 10 definitions · 2 formulas · 1 tables</div>
+<div class="nav"><a href="digital-twin-index.html">← All Chapters</a></div>
+
+<div class="section sec-1">
+<div class="sec-num">4.1 DEFINITIONS</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">4.2 LOADS NOT SPECIFIED</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">4.3 UNIFORMLY DISTRIBUTED LIVE LOADS</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">4.3.1 Required Live Loads</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The live loads used in the design of buildings and other structures shall be the maximum loads
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">4.3.3 Partial Loading</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The uniform live load applied only to a portion of a structure or member shall be accounted for if it produces a more unfavorable load effect than the uniform live load applied over the full structure or member. Uniform live loads applied to a portion of a structure or member are permitted to be reduced in accordance with Section 4.7.
+<br><span class="xref">→ ASCE7-22-4.7-H1</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">4.3.3.1 Partial Loading of Roofs</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Where uniform roof live loads are reduced to less than 20 psf (0.96 kN/m 2 ) in accordance with Section 4.8.2 and are applied to the design of structural members arranged so as to create continuity, the reduced roof live load shall be applied to adjacent spans or to alternate spans, whichever produces the greatest unfavorable load effect.
+<br><span class="xref">→ ASCE7-22-4.8.2-H1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">4.3.4 Interior</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Walls and Partitions Interior walls and partitions that exceed 6 ft (1.83 m) in height, including their fi nish materials, shall have adequate strength and stiffness to resist the loads to which they are subjected but not less than a horizontal load of 5 psf (0.240 kN/m 2 ).
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">4.4 CONCENTRATED LIVE LOADS</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">4.5 LOADS ON HANDRAIL, GUARD, GRAB BAR, AND VEHICLE BARRIER SYSTEMS, AND ON SHOWER SEATS AND FIXED LADDERS</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">4.5.1 Handrail and Guard Systems</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Handrail and guard systems shall be designed to resist a single concentrated load of 200 lb (0.89 kN) applied in any direction at any point on the
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Table 4.3-1. Minimum Uniformly Distributed Live Loads, Lo , and Minimum Concentrated Live Loads. continues
+<br><span class="xref">→ ASCE7-22-4.3-T4-3-14</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Table 4.3-1 (Continued) . Minimum Uniformly Distributed Live Loads, Lo , and Minimum Concentrated Live Loads. continues
+<br><span class="xref">→ ASCE7-22-4.3-T4-3-14</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Table 4.3-1 (Continued) . Minimum Uniformly Distributed Live Loads, Lo , and Minimum Concentrated Live Loads.
+<br><span class="xref">→ ASCE7-22-4.3-T4-3-14</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+handrail or top rail to produce the maximum load effect on the element being considered and to transfer this load through the supports to the structure.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">4.5.1.1 Uniform Load</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Handrail and guard systems shall also be designed to resist a load of 50 lb ∕ ft (pound-force per linear foot) (0.73 kN/m) applied in any direction along the handrail or top rail and to transfer this load through the supports to the structure. This load need not be assumed to act concurrently with the concentrated load speci fi ed in Section 4.5.1.
+<br><span class="xref">→ ASCE7-22-4.5.1-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Factory, industrial, and storage occupancies in areas that are not accessible to the public and that serve an occupant load not greater than 50; and
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Roofs not intended for occupancy.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">4.5.2 Grab Bar Systems and Shower Seats</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Grab bar systems and shower seats shall be designed to resist a single concentrated load of 250 lb (1.11 kN) applied in any direction at any point on the grab bar or shower seat to produce the maximum load effect.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">4.5.3 Vehicle Barrier Systems</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Vehicle barrier systems for passenger vehicles shall be designed to resist a single
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">4.6 IMPACT LOADS</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">4.6.1 General</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The live loads speci fi ed in Sections 4.3 through 4.5 shall be assumed to include adequate allowance for ordinary impact conditions. Provision shall be made in the structural design for uses and loads that involve unusual vibration and impact forces.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">4.6.4 Elements Supporting Hoists for Façade Access and</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Building Maintenance Equipment Structural elements that support hoists for façade access and building maintenance equipment shall be designed for a live load of 2.5 times the rated load of the hoist or the stall load of the hoist, whichever is larger.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">4.6.5 Fall</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Arrest, Lifeline, and Rope Descent System Anchorages Fall arrest, lifeline, and rope descent system anchorages and the structural elements that support these anchorages shall be designed for a live load of 3,100 lb (13.8 kN) for each attached line in any direction that the load may be applied.
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">4.7 REDUCTION IN UNIFORM LIVE LOADS</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">4.7.1 General</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Except for roof uniform live loads, all other minimum uniformly distributed live loads, Lo , in Table 4.3-1, are permitted to be reduced in accordance with the requirements of Sections 4.7.2 through 4.7.6.
+<br><span class="xref">→ ASCE7-22-4.3-T4-3-14</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">4.7.2 Reduction in Uniform Live Loads</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Subject to the limitations of Sections 4.7.3 through 4.7.6, members for which the value of KLLAT is 400 ft 2 (37.16 m 2 ) or more are permitted to be designed for a reduced uniform live load in accordance with the following formula: where
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+L = Reduced design live load per ft 2 (m 2 ) of area supported by the member;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Lo = Unreduced design live load per ft 2 (m 2 ) of area supported by the member (see Table 4.3-1);
+<br><span class="xref">→ ASCE7-22-4.3-T4-3-14</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+KLL = Live load element factor (see Table 4.7-1); and
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+AT = Tributary area in ft 2 (m 2 ).
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">4.7.3 Heavy Live Loads</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Live loads that exceed 100 lb/ft 2 (4.79 kN/m 2 ) shall not be reduced.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">4.7.4 Passenger Vehicle Garages</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The live loads shall not be reduced in passenger vehicle garages.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">4.7.5 Assembly Area Loads</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Live loads shall not be reduced in assembly areas.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Table 4.7-1. Live Load Element Factor, KLL .
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">4.7.6 Limitations on One-Way Slabs</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The tributary area, AT , for one-way slabs shall not exceed an area de fi ned by the slab span times a width normal to the span of 1.5 times the slab span.
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">4.8 REDUCTION IN UNIFORM ROOF LIVE LOADS</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">4.8.1 General</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The minimum uniformly distributed roof live loads, Lo , in Table 4.3-1, are permitted to be reduced in accordance with the requirements of Sections 4.8.2 and 4.8.3.
+<br><span class="xref">→ ASCE7-22-4.3-T4-3-14</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">4.8.2 Ordinary Roofs, Awnings, and Canopies</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Ordinary fl at, pitched, and curved roofs, and awning and canopies other than those of fabric construction supported by a skeleton structure, are permitted to be designed for a reduced uniform roof live load, as speci fi ed in Equation (4.8-1), or other controlling combinations of loads, as speci fi ed in Chapter 2, whichever produces the greater load effect. In structures such as greenhouses, whe
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+where Lr is the reduced roof live load per ft 2 (m 2 ) of horizontal projection supported by the member, and Lo is the unreduced design roof live load per ft 2 (m 2 ) of horizontal projection supported by the member (see Table 4.3-1).
+<br><span class="xref">→ ASCE7-22-4.3-T4-3-14</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+where AT is the tributary area in ft 2 (m 2 ) supported by the member and
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+where, for a pitched roof, F is the number of inches of rise per foot (in SI: F = 0.12 × slope, with slope expressed in percentage points) and, for an arch or dome, F is the rise-to-span ratio multiplied by 32.
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">4.9 CRANE LOADS</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">4.9.1 General</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The crane live load shall be the rated capacity of the crane. Design loads for the runway beams, including connections and support brackets, of moving bridge cranes and monorail cranes shall include the maximum wheel loads of the crane and the vertical impact, lateral, and longitudinal forces induced by the moving crane.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">4.9.2 Maximum Wheel Load</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The maximum wheel loads shall be the wheel loads produced by the weight of the bridge, as applicable, plus the sum of the rated capacity and the weight of the trolley with the trolley positioned on its runway at the location where the resulting load effect is maximized.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">4.9.3 Vertical Impact Force</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The maximum wheel loads of the crane determined in accordance with Section 4.9.2 shall be increased by the percentages shown in the following text to account for the effects of vertical impact or vibration: Monorail cranes (powered) 25%
+<br><span class="xref">→ ASCE7-22-4.9.2-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Bridge crane service class D, E, or F 25%
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Bridge crane service class A, B, or C 10%
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Cranes with hand-geared bridge, trolley, and hoist 0%
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">4.9.4 Lateral Force</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The lateral force on crane runway beams with electrically powered trolleys shall be calculated as 20% of the sum of the rated capacity of the crane and the weight of the hoist and trolley. The lateral force shall be assumed to act horizontally at the traction surface of a runway beam, in either direction perpendicular to the beam, and shall be distributed with due regard to the lateral stiffness o
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">4.9.5 Longitudinal Force</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The longitudinal force on crane runway beams, except for bridge cranes with hand-geared bridges, shall be calculated as 10% of the maximum wheel loads of the crane. The longitudinal force shall be assumed to act horizontally at the traction surface of a runway beam in either direction parallel to the beam.
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">4.10</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+GARAGE AND VEHICULAR FLOOR LOADS
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">4.10.1 Passenger Vehicle Garages</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Floors in garages and portions of a building used for the storage of motor vehicles shall be designed for the uniformly distributed live loads of Table 4.3-1 or the following concentrated load: (1) for garages restricted to passenger vehicles accommodating not more than nine passengers, 3,000 lb (13.35 kN) acting on an area of 4.5 in. × 4.5 in. (114 mm × 114 mm); and (2) for mechanical parking str
+<br><span class="xref">→ ASCE7-22-4.3-T4-3-14</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">4.10.2 Truck and Bus Garages</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Live loads in garages and portions of a building used for the storage of trucks and buses shall be in accordance with the AASHTO LRFD Bridge Design Specifications ; however, provisions for fatigue and dynamic load allowance therein are not required to be applied.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">4.10.3 Sidewalks, Vehicular Driveways, and Yards Subject</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+to Trucking Uniform loads for sidewalks, vehicular driveways, and yards subject to truck loads, other than that provided in Table 4.3-1, shall also be considered where appropriate, in accordance with an approved method which contains provisions for truck loads. The concentrated wheel load provided in Table 4.3-1 shall be applied on an area of 4.5 in. × 4.5 in. (114 mm × 114 mm).
+<br><span class="xref">→ ASCE7-22-4.3-T4-3-14</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">4.10.4 Emergency</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Vehicle Loads Where a structure or portions of a structure are accessed by fi re department vehicles and other emergency vehicles, those portions of the structure subjected to such loads shall be designed for one of the following:
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">4.11</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">4.11.1 General The live loads shall not be reduced. The labeling of helicopter capacity shall be as required by the Authority Having Jurisdiction.</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">4.11.2 Concentrated</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Helicopter Loads Two single concentrated loads, 8 ft (2.44 m) apart, shall be applied on the landing area (representing the helicopter &#x27; s two main landing gear, whether skid type or wheeled type), each having a magnitude of 0.75 times the maximum takeoff weight of the helicopter and located to produce the maximum load effect on the structural elements under consideration. The concentrated loads s
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">4.12 UNINHABITABLE ATTICS</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">4.12.1 Uninhabitable Attics without Storage</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+In residential occupancies, uninhabitable attic areas without storage are those where the maximum clear height between the joist and rafter is less than 42 in. (1,067 mm) or where there are not two or more adjacent trusses with web con fi gurations capable of accommodating an assumed rectangle 42 in. (1,067 mm) in height by 24 in. (610 mm) in width, or greater, within the plane of the trusses. The
+<br><span class="xref">→ ASCE7-22-4.3-T4-3-14</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">4.12.2 Uninhabitable</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Attics with Storage In residential occupancies, uninhabitable attic areas with storage are those where the maximum clear height between the joist and rafter is 42 in. (1,067 mm) or greater or where there are two or more adjacent trusses with web con fi gurations capable of accommodating an assumed rectangle 42 in. (1,067 mm) in height by 24 in. (610 mm) in width, or greater, within the
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+plane of the trusses. For attics constructed of trusses, the live load in Table 4.3-1 need only be applied to those portions of the bottom chords where both of the following conditions are met:
+<br><span class="xref">→ ASCE7-22-4.3-T4-3-14</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The attic area is accessible from an opening not less than 20 in. (508 mm) in width by 30 in. (762 mm) in length that is located where the clear height in the attic is a minimum of 30 in. (762 mm); and
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The slope of the truss bottom chord is no greater than 2 units vertical to 12 units horizontal (9.5% slope).
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">4.13</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The live loading for library stack rooms provided in Table 4.3-1 applies to stack room fl oors that support nonmobile, doublefaced library book stacks subject to the following limitations:
+<br><span class="xref">→ ASCE7-22-4.3-T4-3-14</span>
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">4.14</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+24 lb per linear ft (0.35 kN/m) of seat applied in a direction parallel to each row of seats; and
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+10 lb per linear ft (0.15 kM/m) of seat applied in a direction perpendicular to each row of seats.
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">4.15</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">4.16 SOLAR PANEL LOADS</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">4.16.1 Roof Loads at Solar Panels</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Roof structures that support solar panel systems shall be designed to resist each of the following conditions:
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The uniform and concentrated roof live loads speci fi ed in Table 4.3-1 with the solar panel system dead loads.
+<br><span class="xref">→ ASCE7-22-4.3-T4-3-14</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The uniform and concentrated roof live loads speci fi ed in Table 4.3-1 without the solar panel system present.
+<br><span class="xref">→ ASCE7-22-4.3-T4-3-14</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">4.16.3 Open-Grid</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Roof Structures Supporting Solar Panels Structures with open-grid framing and no roof deck or sheathing supporting solar panel systems shall be designed to support the uniform and concentrated roof live loads speci fi ed in Table 4.3-1, except that the uniform roof live load shall be permitted to be reduced to 12 psf (0.57 kN/m 2 ).
+<br><span class="xref">→ ASCE7-22-4.3-T4-3-14</span>
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">4.17</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+</body></html>

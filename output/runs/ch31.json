@@ -124,7 +124,7 @@
       "citation": "Section 31.2",
       "page": 1
     },
-    "title": "31.2 TEST CONDITIONS",
+    "title": "31.2",
     "description": "",
     "data": {
       "rule": "31.2 TEST CONDITIONS",
@@ -178,7 +178,7 @@
       "citation": "Section 31.3",
       "page": 1
     },
-    "title": "31.3 DYNAMIC RESPONSE",
+    "title": "31.3",
     "description": "",
     "data": {
       "rule": "31.3 DYNAMIC RESPONSE",
@@ -234,10 +234,10 @@
       "citation": "Section 31.4",
       "page": 1
     },
-    "title": "31.4 SITE SPECIFIC LOAD EFFECTS FOR BUILDINGS, OTHER STRUCTURES, AND COMPONENTS",
+    "title": "31.4",
     "description": "",
     "data": {
-      "rule": "31.4 SITE SPECIFIC LOAD EFFECTS FOR BUILDINGS, OTHER STRUCTURES, AND COMPONENTS",
+      "rule": "31.4",
       "conditions": [],
       "then": "",
       "else": null,
@@ -250,6 +250,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-31.4-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-31.4-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 31,
+      "section": "31.4",
+      "citation": "Section 31.4",
+      "page": 1
+    },
+    "title": "SITE SPECIFIC LOAD EFFECTS FOR BUILDINGS, OTHER STRUCTURES, AND COMPONENTS",
+    "description": "",
+    "data": {
+      "rule": "SITE SPECIFIC LOAD EFFECTS FOR BUILDINGS, OTHER STRUCTURES, AND COMPONENTS",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-31.4-P1",
@@ -288,10 +315,10 @@
       "citation": "Section 31.4.1",
       "page": 1
     },
-    "title": "31.4.1 Mean Recurrence Intervals of Load Effects The load effect required for strength design shall be determined for the same mean recurrence interval as for the analytical method by using a rational",
+    "title": "31.4.1 Mean Recurrence Intervals of Load Effects",
     "description": "",
     "data": {
-      "rule": "31.4.1 Mean Recurrence Intervals of Load Effects The load effect required for strength design shall be determined for the same mean recurrence interval as for the analytical method by using a rational analysis method, as de fi ned in the recognized",
+      "rule": "31.4.1 Mean Recurrence Intervals of Load Effects",
       "conditions": [],
       "then": "",
       "else": null,
@@ -306,6 +333,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-31.4.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-31.4.1-H3",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 31,
+      "section": "31.4.1",
+      "citation": "Section 31.4.1",
+      "page": 1
+    },
+    "title": "The load effect required for strength design shall be determined for the same mean recurrence interval as for the analytical method by using a rational analysis method, as de fi ned in the recognized",
+    "description": "",
+    "data": {
+      "rule": "The load effect required for strength design shall be determined for the same mean recurrence interval as for the analytical method by using a rational analysis method, as de fi ned in the recognized",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-31.4.1-H2",
     "type": "heading",
     "source": {
@@ -315,7 +369,7 @@
       "citation": "Section 31.4.1",
       "page": 1
     },
-    "title": "CHAPTER 31 WIND TUNNEL PROCEDURE",
+    "title": "CHAPTER 31",
     "description": "",
     "data": {
       "rule": "CHAPTER 31 WIND TUNNEL PROCEDURE",
@@ -342,7 +396,7 @@
       "citation": "Section 31.4.1",
       "page": 1
     },
-    "title": "literature, for combining the directional wind tunnel data with the directional meteorological data or probabilistic models based thereon. The load effect required for allowable stress design shall be",
+    "title": "literature, for combining the directional wind tunnel data with the directional meteorological data or probabilistic models based thereon. The load effect required for allowable stress design shall be equal to the load effect required for strength design divided by 1.6. For buildings or other structures that are sensitive to possible variations in the values of the dynamic parameters, sensitivity studies shall be required to provide a rational basis for design recommendations.",
     "description": "",
     "data": {
       "rule": "literature, for combining the directional wind tunnel data with the directional meteorological data or probabilistic models based thereon. The load effect required for allowable stress design shall be equal to the load effect required for strength design divided by 1.6. For buildings or other structures that are sensitive to possible variations in the values of the dynamic parameters, sensitivity studies shall be required to provide a rational basis for design recommendations.",
@@ -369,10 +423,38 @@
       "citation": "Section 31.4.2",
       "page": 1
     },
-    "title": "31.4.2 Limitations on Wind Speeds The wind speeds, and probabilistic estimates based thereon, shall be subject to the limitations described in Section 26.5.3.",
+    "title": "31.4.2 Limitations on Wind Speeds",
     "description": "",
     "data": {
-      "rule": "31.4.2 Limitations on Wind Speeds The wind speeds, and probabilistic estimates based thereon, shall be subject to the limitations described in Section 26.5.3.",
+      "rule": "31.4.2 Limitations on Wind Speeds",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-31.4.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-31.4.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 31,
+      "section": "31.4.2",
+      "citation": "Section 31.4.2",
+      "page": 1
+    },
+    "title": "The wind speeds, and probabilistic estimates based thereon, shall be subject to the limitations described in Section 26.5.3.",
+    "description": "",
+    "data": {
+      "rule": "The wind speeds, and probabilistic estimates based thereon, shall be subject to the limitations described in Section 26.5.3.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -384,9 +466,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-31.4.3-H1",
@@ -398,10 +479,10 @@
       "citation": "Section 31.4.3",
       "page": 1
     },
-    "title": "31.4.3 Wind Directionality The directional wind climate based on recorded or simulated directional wind speed data shall be considered in determining wind loads, and the data shall be presented as par",
+    "title": "31.4.3 Wind Directionality",
     "description": "",
     "data": {
-      "rule": "31.4.3 Wind Directionality The directional wind climate based on recorded or simulated directional wind speed data shall be considered in determining wind loads, and the data shall be presented as part of the wind tunnel report submitted to the Authority Having Jurisdiction. The method for combining wind tunnel model data with information on wind speed and direction at the project site shall also be clearly stated in the Wind Tunnel Report. Variation in the wind direction, based upon uncertainty in the wind climate data, shall be considered when determining the wind loading, and the design wind loads shall be based on the largest values that result from this uncertainty. Consideration of uncertainty in the wind direction is not required in the determination of serviceabilityrelated wind effects.",
+      "rule": "31.4.3 Wind Directionality",
       "conditions": [],
       "then": "",
       "else": null,
@@ -416,6 +497,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-31.4.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-31.4.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 31,
+      "section": "31.4.3",
+      "citation": "Section 31.4.3",
+      "page": 1
+    },
+    "title": "The directional wind climate based on recorded or simulated directional wind speed data shall be considered in determining wind loads, and the data shall be presented as part of the wind tunnel report",
+    "description": "",
+    "data": {
+      "rule": "The directional wind climate based on recorded or simulated directional wind speed data shall be considered in determining wind loads, and the data shall be presented as part of the wind tunnel report submitted to the Authority Having Jurisdiction. The method for combining wind tunnel model data with information on wind speed and direction at the project site shall also be clearly stated in the Wind Tunnel Report. Variation in the wind direction, based upon uncertainty in the wind climate data, shall be considered when determining the wind loading, and the design wind loads shall be based on the largest values that result from this uncertainty. Consideration of uncertainty in the wind direction is not required in the determination of serviceabilityrelated wind effects.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-31.4.4-H1",
     "type": "heading",
     "source": {
@@ -425,10 +533,10 @@
       "citation": "Section 31.4.4",
       "page": 1
     },
-    "title": "31.4.4 Limitations on Loads Loads for the MWFRS, determined by wind tunnel testing, shall be limited such that the overall principal loads in the x and y directions are not less than 80% of those that",
+    "title": "31.4.4 Limitations",
     "description": "",
     "data": {
-      "rule": "31.4.4 Limitations on Loads Loads for the MWFRS, determined by wind tunnel testing, shall be limited such that the overall principal loads in the x and y directions are not less than 80% of those that would be obtained from Chapter 27 or Chapter 28 for buildings, or Chapter 29 for appurtenances or other structures. The overall principal load for buildings shall be based on the overturning moment for fl exible buildings and the base shear for other buildings. The overall principal load for other structures shall be based on the overturning moment for fl exible structures and the base shear for other structures.",
+      "rule": "31.4.4 Limitations",
       "conditions": [],
       "then": "",
       "else": null,
@@ -441,6 +549,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-31.4.4-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-31.4.4-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 31,
+      "section": "31.4.4",
+      "citation": "Section 31.4.4",
+      "page": 1
+    },
+    "title": "on Loads Loads for the MWFRS, determined by wind tunnel testing, shall be limited such that the overall principal loads in the x and y directions are not less than 80% of those that would be obtained ",
+    "description": "",
+    "data": {
+      "rule": "on Loads Loads for the MWFRS, determined by wind tunnel testing, shall be limited such that the overall principal loads in the x and y directions are not less than 80% of those that would be obtained from Chapter 27 or Chapter 28 for buildings, or Chapter 29 for appurtenances or other structures. The overall principal load for buildings shall be based on the overturning moment for fl exible buildings and the base shear for other buildings. The overall principal load for other structures shall be based on the overturning moment for fl exible structures and the base shear for other structures.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-31.4.4-P1",
@@ -477,7 +612,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-31.4.4-T1",
+    "id": "ASCE7-22-31.4.4-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -504,7 +639,7 @@
     "parent_id": "ASCE7-22-31.4.4-H1"
   },
   {
-    "id": "ASCE7-22-31.4.4-T2",
+    "id": "ASCE7-22-31.4.4-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -531,7 +666,7 @@
     "parent_id": "ASCE7-22-31.4.4-H1"
   },
   {
-    "id": "ASCE7-22-31.4.4-T3",
+    "id": "ASCE7-22-31.4.4-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -558,7 +693,7 @@
     "parent_id": "ASCE7-22-31.4.4-H1"
   },
   {
-    "id": "ASCE7-22-31.4.4-T4",
+    "id": "ASCE7-22-31.4.4-T5",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -594,40 +729,10 @@
       "citation": "Section 31.4.5",
       "page": 2
     },
-    "title": "31.4.5 Limitations on Wind Loads for Ground-Mounted Fixed-Tilt Solar Panel Systems For ground-mounted fi xedtilt solar panel systems that meet the limitations and geometry requirements of Section 29.4",
+    "title": "31.4.5 Limitations on Wind Loads for Ground-Mounted",
     "description": "",
     "data": {
-      "rule": "31.4.5 Limitations on Wind Loads for Ground-Mounted Fixed-Tilt Solar Panel Systems For ground-mounted fi xedtilt solar panel systems that meet the limitations and geometry requirements of Section 29.4.5.1, the minimum design wind load based on a wind tunnel study shall not be less than 65% for components and cladding (C&C) and 50% for the main wind force resisting system (MWFRS) of the values resulting from Section 29.4.5, subject to the conditions of Section 31.4.3. Wind load values lower than these limits shall be permitted when an independent peer review of the wind tunnel test is performed, in accordance with Section 31.6. The minimum design wind force based on a wind tunnel study for ground-mounted fi xed-tilt solar panel systems need not comply with the minimum net pressure of 16 lb/ft 2 (0.77 kN/m 2 ) per Section 30.2.2.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [
-      "ASCE7-22-31.4.3-H1",
-      "ASCE7-22-31.6-H1"
-    ],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-31.5-H1",
-    "type": "heading",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 31,
-      "section": "31.5",
-      "citation": "Section 31.5",
-      "page": 2
-    },
-    "title": "31.5 LOAD EFFECTS FOR BUILDINGS, OTHER STRUCTURES, AND COMPONENTS USED AT MULTIPLE SITES",
-    "description": "",
-    "data": {
-      "rule": "31.5 LOAD EFFECTS FOR BUILDINGS, OTHER STRUCTURES, AND COMPONENTS USED AT MULTIPLE SITES",
+      "rule": "31.4.5 Limitations on Wind Loads for Ground-Mounted",
       "conditions": [],
       "then": "",
       "else": null,
@@ -640,6 +745,90 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-31.4.5-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-31.4.5-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 31,
+      "section": "31.4.5",
+      "citation": "Section 31.4.5",
+      "page": 2
+    },
+    "title": "Fixed-Tilt Solar Panel Systems For ground-mounted fi xedtilt solar panel systems that meet the limitations and geometry requirements of Section 29.4.5.1, the minimum design wind load based on a wind t",
+    "description": "",
+    "data": {
+      "rule": "Fixed-Tilt Solar Panel Systems For ground-mounted fi xedtilt solar panel systems that meet the limitations and geometry requirements of Section 29.4.5.1, the minimum design wind load based on a wind tunnel study shall not be less than 65% for components and cladding (C&C) and 50% for the main wind force resisting system (MWFRS) of the values resulting from Section 29.4.5, subject to the conditions of Section 31.4.3. Wind load values lower than these limits shall be permitted when an independent peer review of the wind tunnel test is performed, in accordance with Section 31.6. The minimum design wind force based on a wind tunnel study for ground-mounted fi xed-tilt solar panel systems need not comply with the minimum net pressure of 16 lb/ft 2 (0.77 kN/m 2 ) per Section 30.2.2.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-31.4.3-H1",
+      "ASCE7-22-31.6-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-31.5-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 31,
+      "section": "31.5",
+      "citation": "Section 31.5",
+      "page": 2
+    },
+    "title": "31.5",
+    "description": "",
+    "data": {
+      "rule": "31.5",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-31.5-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-31.5-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 31,
+      "section": "31.5",
+      "citation": "Section 31.5",
+      "page": 2
+    },
+    "title": "LOAD EFFECTS FOR BUILDINGS, OTHER STRUCTURES, AND COMPONENTS USED AT MULTIPLE SITES",
+    "description": "",
+    "data": {
+      "rule": "LOAD EFFECTS FOR BUILDINGS, OTHER STRUCTURES, AND COMPONENTS USED AT MULTIPLE SITES",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-31.5.1-P1",
@@ -759,69 +948,10 @@
       "citation": "Section 31.5.2",
       "page": 2
     },
-    "title": "31.5.2 Limitations on Wind Loads for Rooftop Solar Panels For photovoltaic solar panel systems that meet the limitations and geometry requirements of Figure 29.4-7, the minimum design wind load based ",
+    "title": "31.5.2 Limitations",
     "description": "",
     "data": {
-      "rule": "31.5.2 Limitations on Wind Loads for Rooftop Solar Panels For photovoltaic solar panel systems that meet the limitations and geometry requirements of Figure 29.4-7, the minimum design wind load based on a wind tunnel study shall not be less than 65% of the values resulting from 29.4-7, subject to the conditions of Section 31.4.3. The minimum design wind force based on a wind tunnel study for roof-mounted solar panel systems need not comply with the minimum net pressure of 16 lb/ft 2 (0.77 kN/m 2 ) as per ASCE 7, Section 30.2.2.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [
-      "ASCE7-22-31.4.3-H1"
-    ],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-31.5.3-H1",
-    "type": "heading",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 31,
-      "section": "31.5.3",
-      "citation": "Section 31.5.3",
-      "page": 2
-    },
-    "title": "31.5.3 Peer Review Requirements for Wind Tunnel Tests of Buildings, Other Structures, and Components used at Multiple Sites For wind loads on buildings, other structures, and components used at multip",
-    "description": "",
-    "data": {
-      "rule": "31.5.3 Peer Review Requirements for Wind Tunnel Tests of Buildings, Other Structures, and Components used at Multiple Sites For wind loads on buildings, other structures, and components used at multiple sites determined by wind tunnel tests, an independent peer review of the wind tunnel test shall be performed in accordance with Section 31.6. For photovoltaic solar panel systems that meet the limitations and geometrical requirements of Figure 29.4-7, wind load values lower than those indicated in Section 31.5.2 shall be permitted when an independent peer review of the wind tunnel test is performed, in accordance with Section 31.6.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [
-      "ASCE7-22-31.5.2-H1",
-      "ASCE7-22-31.6-H1"
-    ],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-31.6-H1",
-    "type": "heading",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 31,
-      "section": "31.6",
-      "citation": "Section 31.6",
-      "page": 2
-    },
-    "title": "31.6 PEER REVIEW REQUIREMENT FOR WIND TUNNEL TESTS",
-    "description": "",
-    "data": {
-      "rule": "31.6 PEER REVIEW REQUIREMENT FOR WIND TUNNEL TESTS",
+      "rule": "31.5.2 Limitations",
       "conditions": [],
       "then": "",
       "else": null,
@@ -834,6 +964,146 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-31.5.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-31.5.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 31,
+      "section": "31.5.2",
+      "citation": "Section 31.5.2",
+      "page": 2
+    },
+    "title": "on Wind Loads for Rooftop Solar Panels For photovoltaic solar panel systems that meet the limitations and geometry requirements of Figure 29.4-7, the minimum design wind load based on a wind tunnel st",
+    "description": "",
+    "data": {
+      "rule": "on Wind Loads for Rooftop Solar Panels For photovoltaic solar panel systems that meet the limitations and geometry requirements of Figure 29.4-7, the minimum design wind load based on a wind tunnel study shall not be less than 65% of the values resulting from 29.4-7, subject to the conditions of Section 31.4.3. The minimum design wind force based on a wind tunnel study for roof-mounted solar panel systems need not comply with the minimum net pressure of 16 lb/ft 2 (0.77 kN/m 2 ) as per ASCE 7, Section 30.2.2.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-31.4.3-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-31.5.3-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 31,
+      "section": "31.5.3",
+      "citation": "Section 31.5.3",
+      "page": 2
+    },
+    "title": "31.5.3 Peer Review Requirements for Wind Tunnel Tests of",
+    "description": "",
+    "data": {
+      "rule": "31.5.3 Peer Review Requirements for Wind Tunnel Tests of",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-31.5.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-31.5.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 31,
+      "section": "31.5.3",
+      "citation": "Section 31.5.3",
+      "page": 2
+    },
+    "title": "Buildings, Other Structures, and Components used at Multiple Sites For wind loads on buildings, other structures, and components used at multiple sites determined by wind tunnel tests, an independent ",
+    "description": "",
+    "data": {
+      "rule": "Buildings, Other Structures, and Components used at Multiple Sites For wind loads on buildings, other structures, and components used at multiple sites determined by wind tunnel tests, an independent peer review of the wind tunnel test shall be performed in accordance with Section 31.6. For photovoltaic solar panel systems that meet the limitations and geometrical requirements of Figure 29.4-7, wind load values lower than those indicated in Section 31.5.2 shall be permitted when an independent peer review of the wind tunnel test is performed, in accordance with Section 31.6.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-31.5.2-H1",
+      "ASCE7-22-31.6-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-31.6-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 31,
+      "section": "31.6",
+      "citation": "Section 31.6",
+      "page": 2
+    },
+    "title": "31.6",
+    "description": "",
+    "data": {
+      "rule": "31.6",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-31.6-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-31.6-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 31,
+      "section": "31.6",
+      "citation": "Section 31.6",
+      "page": 2
+    },
+    "title": "PEER REVIEW REQUIREMENT FOR WIND TUNNEL TESTS",
+    "description": "",
+    "data": {
+      "rule": "PEER REVIEW REQUIREMENT FOR WIND TUNNEL TESTS",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-31.6-P1",
@@ -1011,7 +1281,7 @@
       "citation": "Section 31.7",
       "page": 2
     },
-    "title": "31.7 WIND-BORNE DEBRIS",
+    "title": "31.7",
     "description": "",
     "data": {
       "rule": "31.7 WIND-BORNE DEBRIS",
@@ -1074,10 +1344,10 @@
       "citation": "Section 31.8",
       "page": 2
     },
-    "title": "31.8 CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
+    "title": "31.8",
     "description": "",
     "data": {
-      "rule": "31.8 CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
+      "rule": "31.8",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1090,6 +1360,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-31.8-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-31.8-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 31,
+      "section": "31.8",
+      "citation": "Section 31.8",
+      "page": 2
+    },
+    "title": "CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
+    "description": "",
+    "data": {
+      "rule": "CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-31.8-P1",
@@ -1119,7 +1416,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-31.8-T1",
+    "id": "ASCE7-22-31.8-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1146,7 +1443,7 @@
     "parent_id": "ASCE7-22-31.8-H1"
   },
   {
-    "id": "ASCE7-22-31.8-T2",
+    "id": "ASCE7-22-31.8-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",

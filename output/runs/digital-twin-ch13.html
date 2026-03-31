@@ -1,0 +1,778 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8">
+<title>ASCE 7-22 Chapter 13 — Digital Twin</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#FFF;--s:#F5F5F5;--t:#1A1A1A;--m:#6B6B6B;--b:#D4D4D4;--sub:#E8E8E8;
+--g:#16A34A;--a:#0057FF;--r:#DC2626;--am:#D97706;--cy:#06B6D4;--purple:#8B5CF6}
+@media(prefers-color-scheme:dark){:root{--bg:#0A0A0A;--s:#141414;--t:#E5E5E5;--m:#808080;
+--b:#2A2A2A;--sub:#1A1A1A;--a:#3B82F6}}
+body{background:var(--bg);color:var(--t);font-family:'JetBrains Mono','SF Mono',monospace;
+font-size:11px;max-width:900px;margin:0 auto;padding:16px}
+h1{font-size:13px;text-transform:uppercase;letter-spacing:.1em;margin-bottom:2px}
+.sub{font-size:10px;color:var(--m);margin-bottom:12px}
+.nav{font-size:10px;color:var(--a);margin-bottom:16px}
+.nav a{color:var(--a);text-decoration:none}
+.nav a:hover{text-decoration:underline}
+.section{margin-bottom:12px}
+.sec-num{font-size:12px;font-weight:700;color:var(--t);margin-bottom:2px}
+.sec-0,.sec-1{margin-left:0}.sec-2{margin-left:16px}.sec-3{margin-left:32px}.sec-4{margin-left:48px}
+.child{margin:3px 0;padding:4px 8px;border-left:2px solid var(--sub);font-size:10px;line-height:1.5}
+.child.provision{border-color:var(--g);background:rgba(22,163,74,0.03)}
+.child.definition{border-color:var(--purple);background:rgba(139,92,246,0.03)}
+.child.formula{border-color:var(--a);background:rgba(59,130,246,0.03)}
+.child.table{border-color:var(--cy);background:rgba(6,182,212,0.03)}
+.child.figure{border-color:var(--am);background:rgba(217,119,6,0.03)}
+.child.exception{border-color:var(--r);background:rgba(220,38,38,0.03)}
+.child.user_note{border-color:var(--m);background:rgba(128,128,128,0.03)}
+.child.text_block{border-color:var(--sub)}
+.tag{display:inline-block;padding:0 3px;border:1px solid;font-size:7px;text-transform:uppercase;
+letter-spacing:.04em;margin-right:3px;vertical-align:middle}
+.tag-provision{border-color:var(--g);color:var(--g)}
+.tag-definition{border-color:var(--purple);color:var(--purple)}
+.tag-formula{border-color:var(--a);color:var(--a)}
+.tag-table{border-color:var(--cy);color:var(--cy)}
+.tag-figure{border-color:var(--am);color:var(--am)}
+.tag-exception{border-color:var(--r);color:var(--r)}
+.tag-user_note{border-color:var(--m);color:var(--m)}
+.tag-text_block{border-color:var(--sub);color:var(--m)}
+.meta{font-size:8px;color:var(--m)}
+.xref{font-size:8px;color:var(--a)}
+b{font-weight:600}
+table.tbl{width:100%;border-collapse:collapse;font-size:9px;margin:4px 0}
+table.tbl th{text-align:left;font-size:7px;text-transform:uppercase;color:var(--m);border-bottom:1px solid var(--b);padding:1px 4px}
+table.tbl td{padding:1px 4px;border-bottom:1px solid var(--sub)}
+</style></head><body>
+<h1>ASCE 7-22 Chapter 13 — Digital Twin</h1>
+<div class="sub">434 elements · 152 provisions · 0 definitions · 17 formulas · 3 tables</div>
+<div class="nav"><a href="digital-twin-index.html">← All Chapters</a></div>
+
+<div class="section sec-0">
+<div class="sec-num">CHAPTER 13</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+SEISMIC DESIGN REQUIREMENTS FOR NONSTRUCTURAL COMPONENTS
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">13.1 GENERAL</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+13.1.4 Exemptions The nonstructural components listed in Table 13.1-1 are exempt from the requirements of this chapter.
+<br><span class="xref">→ ASCE7-22-13.1-T13-1-12</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+13.1.8 Reference Documents Using Allowable Stress Design Where a reference document provides a basis for the earthquake-resistant design of a particular type of component,
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Table 13.1-1. Nonstructural Components Exempt from the Requirements of This Chapter.
+<br><span class="xref">→ ASCE7-22-13.1-T13-1-12</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">13.1.1 Scope</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+This chapter establishes minimum design criteria for nonstructural components, including their supports and attachments.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Nonstructural components include
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Components that are in or supported by a structure,
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Components that are outside of a structure (except for nonbuilding structures within the scope of Chapter 15) and are permanently connected to the mechanical or electrical systems, or
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Components that are part of the egress system of a structure.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">13.1.2 Seismic Design Category</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+For the purposes of this chapter, nonstructural components shall be assigned to the same seismic design category as
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The structure that they occupy or are supported by, or
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The structure to which they are permanently connected by mechanical or electrical systems, or
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+For parts of an egress system, the structure it serves.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">13.1.3 Component Importance Factor</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">13.1.5 Premanufactured Modular Mechanical and Electrical</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Systems Premanufactured mechanical and electrical modules 6 ft (1.8 m) high and taller that are not otherwise prequali fi ed in accordance with Chapter 13 and that contain or support mechanical and electrical components shall be designed in accordance with the provisions for nonbuilding structures similar to buildings in Chapter 15. Nonstructural components contained or supported within modular sy
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">13.1.6 Application of Nonstructural Component Requirements to Nonbuilding Structures Nonbuilding structures (including storage racks and tanks) that are supported by other structures shall be designed in accordance with Chapter 15. Where Section 15.3 requires that seismic forces be determined in accordance with Chapter 13 and values for CAR and Rpo are not provided in Table 13.5-1 or 13.6-1, the term ½ CAR Rpo  in Equation (13.3-1) shall be taken as equal to 2.5/ R , where the value of R for the nonbuilding structure is obtained from Tables 15.4-1 or 15.4-2.</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">13.1.7 Reference Documents</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Where a reference document provides a basis for the earthquake-resistant design of a particular type of nonstructural component, that document is permitted to be used, subject to the approval of the Authority Having Jurisdiction and the following conditions:
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">13.2</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">13.2.1 Applicable</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Requirements for Architectural, Mechanical, and Electrical Components, Supports, and Attachments Architectural, mechanical, and electrical components, supports, and attachments shall comply with the sections referenced in Table 13.2-1. These requirements shall be satis fi ed by one of the following methods:
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Project-speci fi c design and documentation submitted for approval to the Authority Having Jurisdiction after review and acceptance by a registered design professional; or
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Submittal of the manufacturer &#x27; s certi fi cation that the component is seismically quali fi ed by at least one of the following: (a) Analysis, or
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(b) Testing in accordance with the alternative set forth in Section 13.2.6, or
+<br><span class="xref">→ ASCE7-22-13.2.6-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(c) Experience data in accordance with the alternative set forth in Section 13.2.7.
+<br><span class="xref">→ ASCE7-22-13.2.7-P1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">13.2.2 Load</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Combinations Nonstructural components, including their supports and attachments, covered by this chapter and not otherwise exempt by Section 13.1.8 shall comply with Section 1.3, including consideration of load combinations of either Section 2.3 or 2.4, as appropriate. For the purposes of combining load effects, Fp shall be used per Section 12.4.2.1, and horizontal seismic design forces including 
+<br><span class="xref">→ ASCE7-22-13.1.8-T1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">13.2.3 Special Certi</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+fi cation Requirements for Designated Seismic Systems Certi fi cations shall be provided for designated seismic systems assigned to Seismic Design Categories C through F as follows:
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Table 13.2-1. Applicable Requirements for Architectural, Mechanical, and Electrical Components: Supports and Attachments.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">13.2.4 Consequential Damage</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The functional and physical interrelationship of components, their supports, and their effect on each other shall be considered so that the failure of an essential or nonessential architectural, mechanical, or electrical component shall not cause the failure of an essential architectural, mechanical, or electrical component. Where not otherwise established by analysis or test, required clearances 
+<br><span class="xref">→ ASCE7-22-13.2.4.1-P1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Permanently attached equipment, including its structural supports and bracing; and
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Other distribution systems, including their structural supports and bracing.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">13.2.5 Flexibility</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The design and evaluation of components, their supports, and their attachments shall consider their fl exibility and their strength.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">13.2.6 Testing</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Alternative for Seismic Capacity Determination As an alternative to the analytical requirements of Sections 13.2 through 13.6, testing shall be deemed an acceptable method to determine the seismic capacity of components and their supports and attachments. Seismic quali fi cation by testing based on a nationally recognized testing standard procedure, such as ICC-ES AC 156, acceptable to the Authori
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">13.2.9 Supported Nonstructural Components with Greater</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+than or Equal to 20% Combined Weight For the condition where the weight of a nonstructural component is equal to or greater than 20% of the combined effective seismic weight, W , of the nonstructural component and the supporting structure, an analysis combining the structural characteristics of both the nonstructural component and the supporting structure shall be performed to determine the seismi
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">13.3</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+SEISMIC DEMANDS ON NONSTRUCTURAL COMPONENTS
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Tp = Component fundamental period,
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Wp = Component operating weight, g = Gravitational acceleration, and
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Kp = Combined stiffness of the component, supports, and attachments, determined in terms of load per unit de fl ection at the center of gravity of the component.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">13.3.1 Horizontal</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Seismic Design Forces The horizontal seismic design force, Fp , shall be applied at the component &#x27; s center of gravity and distributed relative to the component &#x27; s mass distribution. The redundancy factor, ρ , is permitted to be taken as equal to 1.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Case 1: A combination of 100% of Fp in any one horizontal direction and 30% of Fp in a perpendicular horizontal direction applied simultaneously.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Case 2: The combination from Case 1 rotated 90 degrees.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+SDS = Spectral acceleration, short period, as determined in accordance with Section 11.4.5;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+I p = Component Importance Factor as determined in accordance with Section 13.1.3;
+<br><span class="xref">→ ASCE7-22-13.1.3-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Wp = Component operating weight;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Hf = Factor for force ampli fi cation as a function of height in the structure as determined in Section 13.3.1.1;
+<br><span class="xref">→ ASCE7-22-13.3.1.1-P1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+R μ = Structure ductility reduction factor as determined in Section 13.3.1.2;
+<br><span class="xref">→ ASCE7-22-13.3.1.2-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+CAR = Component resonance ductility factor that converts the peak fl oor or ground acceleration into the peak component acceleration, as determined in Section 13.3.1.3; and
+<br><span class="xref">→ ASCE7-22-13.3.1.3-P1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Rpo = Component strength factor as determined in Section 13.3.1.4.
+<br><span class="xref">→ ASCE7-22-13.3.1.4-T1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+13.3.1.4 Component Strength, Rpo The component strength factor, Rpo , for nonstructural components is given in Table 13.5-1 or 13.6-1.
+<br><span class="xref">→ ASCE7-22-13.5-T13-5-11</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">a 1 = 1 ∕ Ta ≤ 2.5; a 2 = ½ 1 -ð 0.4 ∕ Ta Þ 2  ≥ 0;</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+h = Average roof height of structure with respect to the base; and
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(a) The period of the nonbuilding structure, T , determined using the structural properties and deformation characteristics of the resisting elements in a properly substantiated analysis as indicated in Section 12.8.2; or
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(b) The period of the nonbuilding structure, T , determined using Equation (15.4-6); or
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(c) The period Ta determined by Equation (12.8-8), using the approximate period parameters for &#x27; all other structural systems. &#x27;
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">13.3.1.2 Structure</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Ductility Reduction Factor, R μ For components supported by a building or nonbuilding structure, the reduction factor for ductility of the supporting structure, R μ , is calculated as where
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+I e = Importance Factor as prescribed in Section 11.5.1 for the building or nonbuilding structure supporting the component;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+R = Response modi fi cation factor for the building or nonbuilding structure supporting the component, from Table 12.2-1, 15.4-1, or 15.4-2; and
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Ω 0 = Overstrength factor for the building or nonbuilding structure supporting the component, from Table 12.2-1, 15.4-1, or 15.4-2.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">13.3.1.5 Nonlinear Response History Analysis</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+In lieu of the forces determined in accordance with Equation (13.3-1), the nonlinear response history analysis procedures of Chapters 16, 17, and 18 may be used to determine the seismic design force for nonstructural components. Where the dynamic properties of the nonstructural component are not explicitly modeled in the nonlinear response history analysis, the seismic design force, Fp , shall be 
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">13.3.1.6 Vertical Seismic Force</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The component, including its supports and attachments, shall be designed for a concurrent vertical seismic design force equal to Ev per Section 12.4.2.2.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">13.3.2 Seismic Relative Displacements</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The effects of seismic relative displacements shall be considered in combination with displacements caused by other loads as appropriate. Seismic relative displacements, DpI , shall be calculated as
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+where I e is the Importance Factor in Section 11.5.1, and Dp is the displacement determined in accordance with the equations set forth in Sections 13.3.2.1 and 13.3.2.2.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+δ yA = De fl ection at building level y of structure A , determined in accordance with Equation (12.8-16).
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+δ xA = De fl ection at building level x of structure A , determined in accordance with Equation (12.8-16); and
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">13.3.2.2 Displacements</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+between Structures For two connection points on separate structures A and B or separate structural systems, one at a height hx and the other at a height hy , Dp shall be determined as
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+δ xA = De fl ection at building level x of structure A at the Design Earthquake Displacement; determined in accordance with Equation (12.8-16);
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+δ yA = De fl ection at building level y of structure A at the Design Earthquake Displacement; determined in accordance with Equation (12.8-16);
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+δ yB = De fl ection at building level y of structure B at the Design Earthquake Displacement; determined in accordance with Equation (12.8-16);
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+hx = Height of level x to which upper connection point is attached;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+hy = Height of level y to which lower connection point is attached;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Δ aB = Allowable story drift for structure B as de fi ned in Table 12.12-1; and
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Δ aA = Allowable story drift for structure A as de fi ned in Table 12.12-1;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+hsx = Story height used in the de fi nition of allowable drift, Δ a , in Table 12.12-1. Note that Δ a ∕ hsx is the drift index.
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">13.4</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+NONSTRUCTURAL COMPONENT ANCHORAGE AND ATTACHMENT
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">13.4.1 Design Force in the Attachment</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The force in the attachment shall be determined based on the prescribed forces and displacements for the component as determined in Sections 13.3.1 and 13.3.2.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">13.4.2 Anchors in Concrete or Masonry</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+When it is required to apply the seismic load effects including overstrength in Section 12.4.3, Ω 0 shall be taken as the anchorage overstrength factor, Ω 0 p , given in Tables 13.5-1 and 13.6-1.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The support or component that the anchor is connecting to the structure undergoes ductile yielding at a load level corresponding to anchor forces not greater than the design strength of the anchors, or
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">13.4.2.1 Anchors in Concrete</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Anchors in concrete shall be designed in accordance with Chapter 17 of ACI 318.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">13.4.5 Power-Actuated Fasteners</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">13.4.6 Friction Clips</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Friction clips in Seismic Design Category D, E, or F shall not be used for supporting permanent loads in addition to resisting seismic forces. C-type beam and large fl ange clamps are permitted for hangers, provided they are equipped with restraining straps equivalent to those speci fi ed in NFPA 13, Section 9.3.7. Lock nuts or equivalent shall be provided to prevent loosening of threaded connecti
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">13.5</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">13.5.1 General.</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Architectural components, and their supports and attachments, shall satisfy the requirements of this section. Appropriate coef fi cients shall be selected from Table 13.5-1.
+<br><span class="xref">→ ASCE7-22-13.5-T13-5-11</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Table 13.5-1. Coefficients for Architectural Components.
+<br><span class="xref">→ ASCE7-22-13.5-T13-5-11</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+a Overstrength factor, where required for nonductile anchorage to concrete and masonry (see Section 13.4.2).
+<br><span class="xref">→ ASCE7-22-13.4.2-H1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">13.5.2 Forces and Displacements All architectural components, and their supports and attachments, shall be designed for the seismic forces de fi ned in Section 13.3.1.</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">13.5.3 Exterior</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Nonstructural Wall Elements and Connections Exterior nonstructural wall panels or elements that are attached to or enclose the structure shall be designed
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+L = Clear length of rod between nuts or threaded plates [in. (mm)],
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+d = Rod diameter [in. (mm)], and
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+connections between the wall panels or elements and the structure, and the interconnections between wall panels or elements.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">13.5.4 Glass</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Glass in glazed curtain walls and storefronts shall be designed and installed to accommodate without breakage or dislodgement the relative-displacement requirement of Section 13.5.9.
+<br><span class="xref">→ ASCE7-22-13.5.9-H1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">13.5.5 Out-of-Plane</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Bending Transverse or out-of-plane bending or deformation of a component or system that is subjected to forces as determined in Section 13.5.2 shall not exceed the de fl ection capability of the component or system.
+<br><span class="xref">→ ASCE7-22-13.5.2-H1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">13.5.6 Suspended Ceilings</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">13.5.7 Access Floors</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">13.5.7.1 General</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The weight of the access fl oor, Wp , shall include the weight of the fl oor system, 100% of the weight of all equipment fastened to the fl oor, and 25% of the weight of all equipment supported by but not fastened to the fl oor. The seismic force, Fp , shall be transmitted from the top surface of the access fl oor to the supporting structure.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">13.5.7.2 Special</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Access Floors Access fl oors shall be considered to be &#x27; special access fl oors &#x27; if they are designed to comply with the following considerations:
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Seismic loads are not transmitted by friction, power-actuated fasteners, adhesives, or by friction produced solely by the effects of gravity.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The design analysis of the bracing system includes the destabilizing effects of individual members buckling in compression.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Floor stringers are used that are designed to carry axial seismic loads and that are mechanically fastened to the supporting pedestals.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">13.5.8 Partitions</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">13.5.8.1 General</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Partitions that are tied to the ceiling, and all partitions greater than 6 ft (1.8 m) high, shall be laterally braced to the building structure. Such bracing shall be independent of any ceiling lateral force bracing. Bracing shall be spaced to limit horizontal de fl ection at the partition head, to be compatible with ceiling de fl ection requirements as determined in Section 13.5.6 for suspended c
+<br><span class="xref">→ ASCE7-22-13.5.6-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The partition height does not exceed 9 ft (2.7 m).
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The linear weight of the partition does not exceed 10 lb (0.479 kN) times the height in ft (m) of the partition.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The partition horizontal seismic load does not exceed 5 lb/ ft 2 (0.24 kN/m 2 ).
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">13.5.8.2 Glass</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Glass in glazed partitions shall be designed and installed in accordance with Section 13.5.9.
+<br><span class="xref">→ ASCE7-22-13.5.9-H1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">13.5.9 Glass in Glazed Curtain Walls, Glazed Storefronts,</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">EXCEPTIONS:</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+where D clear is the relative horizontal (drift) displacement, measured over the height of the glass panel under consideration, which causes initial glass-to-frame contact. For rectangular glass panels within a rectangular wall frame,
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+where hp = Height of the rectangular glass panel,
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+bp = Width of the rectangular glass panel,
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+c 1 = Average of the clearances (gaps) on both sides between the vertical glass edges and the frame, and
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+c 2 = Average of the clearances (gaps) at the top and bottom between the horizontal glass edges and the frame.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">13.5.9.2 Seismic Drift Limits for Glass Components</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Δ fallout , the drift causing glass fallout from the curtain wall, storefront, or partition, shall be determined in accordance with AAMA 501.6 or by engineering analysis.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">13.5.10 Egress Stairs and Ramps</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Egress stairs and ramps not part of the seismic force-resisting system (SFRS) of the structure to which they are attached shall be detailed to accommodate the seismic relative displacements, DpI , de fi ned in Section 13.3.2, including diaphragm deformation. The net relative displacement shall be assumed to occur in any horizontal direction. Such elements shall be supported by means of positive an
+<br><span class="xref">→ ASCE7-22-13.3.2-H1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">13.5.11 Penthouses and Rooftop Structures</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Penthouses and rooftop structures shall be designed in accordance with this section. The horizontal seismic design force, Fp , shall be determined in accordance with Section 13.3.1, using the design coef fi cients listed in Table 13.5-1.
+<br><span class="xref">→ ASCE7-22-13.3.1-H1, ASCE7-22-13.5-T13-5-11</span>
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">13.6</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+MECHANICAL AND ELECTRICAL COMPONENTS
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">13.6.1 General</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Mechanical and electrical components and their supports shall satisfy the requirements of this section. The attachment of mechanical and electrical components and their supports to the structure shall meet the requirements of Section 13.4. Appropriate coef fi cients shall be selected from Table 13.6-1.
+<br><span class="xref">→ ASCE7-22-13.4-H1, ASCE7-22-13.6-E13-6-11</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Table 13.6-1. Seismic Coefficients for Mechanical and Electrical Components. continues
+<br><span class="xref">→ ASCE7-22-13.6-E13-6-11</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+b Overstrength factor as required for anchorage to concrete and masonry (see Section 13.4.2).
+<br><span class="xref">→ ASCE7-22-13.4.2-H1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">13.6.2 Mechanical Components</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+HVACRductwork shall meet the requirements of Section 13.6.6. Piping systems shall meet the requirements of Section 13.6.7. Boilers and vessels shall meet the requirements of Section 13.6.10. Elevators shall meet the requirements of Section 13.6.11. All other mechanical components shall meet the requirements of Section 13.6.13. Mechanical components with I p greater than 1.0 shall be designed for t
+<br><span class="xref">→ ASCE7-22-13.6.10-P1, ASCE7-22-13.6.11-H1, ASCE7-22-13.6.13-H1, ASCE7-22-13.6.6-H1 +1 more</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">13.6.2.1 HVACREquipment HVACRequipment that has been quali fi ed in accordance with the requirements of Chapters 1</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">13.6.3 Electrical</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Components Conduit, cable trays, and raceways shall meet the requirements of Section 13.6.5. Utility and service lines shall meet the requirements of Section 13.6.9. Other electrical components shall meet the requirements of Section 13.6.13. All electrical components with I p greater than 1.0 shall be designed for the seismic forces and relative displacements de fi ned in Sections 13.3.1 and 13.3.
+<br><span class="xref">→ ASCE7-22-13.6.13-H1, ASCE7-22-13.6.5-P1, ASCE7-22-13.6.9-H1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">13.6.4 Component</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Supports Mechanical and electrical component supports (including those with I p = 1.0) and the means by which they are attached to the component shall be designed for the forces and displacements determined in Sections 13.3.1 and 13.3.2. Such supports include structural members, braces, frames, skirts, legs, saddles, pedestals, cables, guys, stays, snubbers, tethers, and elements forged or cast as
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">13.6.4.1 Design</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Basis If standard supports designed in accordance with nationally recognized standards such as ASME B31, NFPA 13, or MSS SP-58 are used, they shall be designed by either load rating (i.e., testing) or for the calculated seismic forces. If proprietary supports are used, load rating shall be determined by approved test standards or approved materialspeci fi c design procedures. The stiffness of the 
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">13.6.4.2 Design</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+for Relative Displacement Component supports shall be designed to accommodate the seismic relative displacements between points of support determined in accordance with Section 13.3.2.
+<br><span class="xref">→ ASCE7-22-13.3.2-H1</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">13.6.4.3 Support Attachment to Component</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The means by which supports are attached to the component, except where integral (i.e., cast or forged), shall be designed to accommodate both the forces and displacements determined in accordance with Sections 13.3.1 and 13.3.2. If I p = 1.5 for the component, the local region of the support attachment point to the component shall be evaluated for the effect of the load transfer on the component 
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">13.6.4.5 Additional</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Requirements The following additional requirements shall apply to mechanical and electrical component supports:
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">EXCEPTION : Equipment support structures and platforms designed using the coef fi cients for Other Systems in Table 13.6-1, under Equipment Supports, and which also conform to the requirements of relevant material standards, need not conform to one of the types indicated in Table 12.2-1 or Table 15.4-1.</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">13.6.4.7 Distribution</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+System Supports Distribution system supports are assigned a component resonance ductility factor from Table 13.6-1, based on the type of support system.
+<br><span class="xref">→ ASCE7-22-13.6-E13-6-11</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">EXCEPTIONS:</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(a) Trapeze assemblies are used with 0.375 in. (10 mm) diameter rod hangers not exceeding 12 in. (305 mm) in length from the conduit, cable tray, or raceway support point to the connection at the supporting structure to support raceways, and the total weight supported by any single trapeze is 100 lb (445 N) or less; or
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(b) Trapeze assemblies with 0.5 in. (13 mm) diameter rod hangers not exceeding 12 in. (305 mm) in length from the conduit, cable tray, or raceway support point to the connection at the supporting structure are used to support the cable tray or raceway, and the total weight supported by any single trapeze is 200 lb (890 N) or less; or
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(c) Trapeze assemblies with 0.5 in. (13 mm) diameter rod hangers not exceeding 24 in. (610 mm) in length from the conduit, cable tray, or raceway support point to the connection at the supporting structure are used to support the cable tray or raceway, and the total weight supported by any single trapeze is 100 lb (445 N) or less; or
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(d) The conduit, cable tray, or raceway is supported by individual rod hangers 0.375 in. (10 mm) or 0.5 in. (13 mm) in diameter, and each hanger in the raceway run is 12 in. (305 mm) or less in length from the conduit, cable tray, or raceway support point connection to the supporting structure, and the total weight supported by any single rod is 50 lb (220 N) or less.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">13.6.6 Distribution Systems: Duct Systems</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+HVACR and other duct systems shall be designed for seismic forces and seismic relative displacements as required in Section 13.3.
+<br><span class="xref">→ ASCE7-22-13.3-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(a) Trapeze assemblies with 0.375 in. (10 mm) diameter rod hangers not exceeding 12 in. (305 mm) in length from the duct support point to the connection at the supporting structure are used to support the duct, and the total weight supported by any single trapeze is 100 lb (445 N) or less; or
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(b) Trapeze assemblies with 0.5 in. (13 mm) diameter rod hangers not exceeding 12 in. (305 mm) in length from the duct support point to the connection at the supporting structure are used to support the duct, and the total weight supported by any single trapeze is 200 lb (890 N) or less; or
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(c) Trapeze assemblies with 0.5 in. (13 mm) diameter rod hangers not exceeding 24 in. (610 mm) in length from the duct support point to the connection at the supporting structure are used to support the duct, and the total weight supported by any single trapeze is 100 lb (445 N) or less; or
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(d) The duct is supported by individual rod hangers 0.375 in. (10 mm) or 0.5 in. (13 mm) in diameter, and each hanger in the duct run is 12 in. (305 mm) or less in length from the duct support point to the connection at the supporting structure, and the total weight supported by any single rod is 50 lb (220 N) or less.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">13.6.7 Distribution</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Systems: Piping and Tubing Systems Unless otherwise noted in this section, piping and tubing systems shall be designed for the seismic forces and seismic relative displacements of Section 13.3. ASME pressure piping systems shall satisfy the requirements of Section 13.6.7.1. Fire protection sprinkler piping shall satisfy the requirements of Section 13.6.7.2. Elevator system piping shall satisfy the
+<br><span class="xref">→ ASCE7-22-13.3-H1, ASCE7-22-13.6.11-H1, ASCE7-22-13.6.7.1-H1, ASCE7-22-13.6.7.2-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(a) For piping constructed with ductile materials (e.g., steel, aluminum, or copper), 90% of the minimum speci fi ed yield strength;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(b) For threaded connections in piping constructed with ductile materials, 70% of the minimum speci fi ed yield strength;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(c) For piping constructed with nonductile materials (e.g., cast iron or ceramics), 10% of the material minimum speci fi ed tensile strength; and
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(d) For threaded connections in piping constructed with nonductile materials, 8% of the material minimum specifi ed tensile strength.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Trapeze assemblies are supported by 0.375 in. (10 mm) diameter rod hangers not exceeding 12 in. (305 mm) in length from the pipe support point to the connection at the supporting structure, do not support piping with I p greater than 1.0, no single pipe exceeds the limits set forth in items 4a, 4b, or 4c below, and the total weight supported by any single trapeze is 100 lb (445 N) or less;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Trapeze assemblies are supported by 0.5 in. (13 mm) diameter rod hangers not exceeding 12 in. (305 mm) in length from the pipe support point to the connection at the supporting structure, do not support piping with I p greater than 1.0, no single pipe exceeds the diameter limits set forth in items 4a, 4b, or 4c below, and the total weight supported by any single trapeze is 200 lb (890 N) or less;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Trapeze assemblies are supported by 0.5 in. (13 mm) diameter rod hangers not exceeding 24 in. (610 mm) in length from the pipe support point to the connection at the
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+supporting structure, do not support piping with I p greater than 1.0, no single pipe exceeds the diameter limits set forth in items 4a, 4b, or 4c below, and the total weight supported by any single trapeze is 100 lb (445 N) or less;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Pneumatic tube systems supported with trapeze assemblies using 0.375 in. (10 mm) diameter rod hangers not exceeding 12 in. (305 mm) in length from the tube support point to the connection at the supporting structure and the total weight supported by any single trapeze is 100 lb (445 N) or less.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Pneumatic tube systems supported by individual rod hangers 0.375 in. (10 mm) or 1.5 in. (13 mm) in diameter, and each hanger in the run is 12 in. (305 mm) or less in length from the tube support point to the connection at the supporting structure, and the total weight supported by any single rod is 50 lb (220 N) or less.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">13.6.7.1 ASME Pressure Piping Systems</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Pressure piping systems, including their supports, designed and constructed in accordance with ASME B31 shall be deemed to meet the force, displacement, and other requirements of this section. In lieu of speci fi c force and displacement requirements in ASME B31, the force and displacement requirements of Section 13.3 shall be used. Materials meeting the toughness requirements of ASME B31 shall be
+<br><span class="xref">→ ASCE7-22-13.3-H1</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">13.6.7.2 Fire</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Protection Sprinkler Piping Systems Fire protection sprinkler piping, pipe hangers, and bracing designed and constructed in accordance with NFPA 13 shall be deemed to meet the force and displacement requirements of this section. Clearances for sprinkler drops and sprigs and other equipment shall conform to 13.2.4.1. The exceptions of Section 13.6.7.3 shall not apply.
+<br><span class="xref">→ ASCE7-22-13.6.7.3-P1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">13.6.8 Distribution Systems: Trapezes with a Combination</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+of Systems Trapezes that support a combination of distribution systems (electrical conduit, raceway, duct, piping, etc.) shall be designed using the most restrictive requirements for the supported distribution systems from Sections 13.6.5 through 13.6.7 for the aggregate weight of the supported system. If any distribution system on the trapeze is not exempted, the trapeze shall be braced.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">13.6.9 Utility and Service Lines</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+At the interface of adjacent structures or portions of the same structure that may move independently, utility lines shall be provided with adequate fl exibility to accommodate the anticipated differential movement between the portions that move independently. Differential displacement shall be calculated in accordance with Section 13.3.2.
+<br><span class="xref">→ ASCE7-22-13.3.2-H1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">13.6.11 Elevator</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+and Escalator Design Requirements Elevators and escalators designed in accordance with the seismic requirements of ASME A17.1 shall be deemed to meet the seismic force requirements of this section, except as modi fi ed in the following text. The exceptions of Section 13.6.7.3 shall not apply to elevator piping.
+<br><span class="xref">→ ASCE7-22-13.6.7.3-P1</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">13.6.11.3 Seismic Controls for Elevators</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Elevators operating with a speed of 150 ft/min (46 m/min) or greater shall be provided with seismic switches. Seismic switches shall provide an electric signal indicating that structural motions are of such a magnitude that the operation of the elevators may be impaired. Seismic switches in accordance with Section 8.4.10.1.2 of ASME A17.1 shall be deemed to meet the requirements of this section.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Before the elevator is occupied, it is operated from top to bottom and back to top to verify that it is operable.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">13.6.11.4 Retainer Plates</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Retainer plates are required at the top and bottom of the car and counterweight.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">13.6.12 Rooftop Solar Panels</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Rooftop solar panels and their attachments shall be designed for the forces and displacements determined in Section 13.3.
+<br><span class="xref">→ ASCE7-22-13.3-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The height of the center of mass of any panel above the roof surface is less than half the least spacing in plan of the panel supports, but in no case greater than 3 ft (0.9 m).
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Each panel or array of panels is designed to accommodate without impact, instability, or loss of support a seismic displacement, δ mpv , of any panel relative to any roof edge or offset and any other curb or obstruction to sliding on the roof surface where δ mpv is determined in accordance with Equation (13.6-1), but is not taken as less than 2 ft (0.6 m):
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Panel framing and supports are designed for a seismic force path from the center of mass of each component to locations of friction resistance equal to the lesser of Fp from Section 13.3.1 and 0.6 Wp , where Wp is the weight of each component.
+<br><span class="xref">→ ASCE7-22-13.3.1-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+All electrical cables leading from a panel to another panel or to another roof object are designed to accommodate, without rupture or distress, differential movements between cable connection points of 1.0 δ mpv , with consideration given to torsional movement of the panel and its possible impingement on the electrical cables.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+All edges and offsets of roof surfaces on which panels are placed are bounded by a curb or parapet not less than 12 in. (305 mm) in height and designed to resist a concentrated load applied at the probable points of impact between the curb or parapet and the panel of not less than 0.2 SDS times the weight of the panel. Alternatively, a panel may be placed so that all parts of the panel are a minim
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">13.6.13 Other</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Mechanical and Electrical Components Mechanical and electrical components, including conveyor
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(a) For mechanical components constructed with ductile materials (e.g., steel, aluminum, or copper), 90% of the minimum speci fi ed yield strength;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(b) For threaded connections in components constructed with ductile materials, 70% of the minimum speci fi ed yield strength;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(c) For mechanical components constructed with nonductile materials (e.g., plastic, cast iron, or ceramics), 10% of the material minimum speci fi ed tensile strength; and
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(d) For threaded connections in components constructed with nonductile materials, 8% of the material minimum speci fi ed tensile strength.
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">13.7</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Downloaded from ascelibrary.org by Serge Terentieff on 03/10/22. Copyright ASCE. For personal use only; all rights reserved.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+This page intentionally left blank
+</div>
+</div>
+</body></html>

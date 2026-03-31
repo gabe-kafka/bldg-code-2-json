@@ -1,0 +1,604 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8">
+<title>ASCE 7-22 Chapter 18 — Digital Twin</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#FFF;--s:#F5F5F5;--t:#1A1A1A;--m:#6B6B6B;--b:#D4D4D4;--sub:#E8E8E8;
+--g:#16A34A;--a:#0057FF;--r:#DC2626;--am:#D97706;--cy:#06B6D4;--purple:#8B5CF6}
+@media(prefers-color-scheme:dark){:root{--bg:#0A0A0A;--s:#141414;--t:#E5E5E5;--m:#808080;
+--b:#2A2A2A;--sub:#1A1A1A;--a:#3B82F6}}
+body{background:var(--bg);color:var(--t);font-family:'JetBrains Mono','SF Mono',monospace;
+font-size:11px;max-width:900px;margin:0 auto;padding:16px}
+h1{font-size:13px;text-transform:uppercase;letter-spacing:.1em;margin-bottom:2px}
+.sub{font-size:10px;color:var(--m);margin-bottom:12px}
+.nav{font-size:10px;color:var(--a);margin-bottom:16px}
+.nav a{color:var(--a);text-decoration:none}
+.nav a:hover{text-decoration:underline}
+.section{margin-bottom:12px}
+.sec-num{font-size:12px;font-weight:700;color:var(--t);margin-bottom:2px}
+.sec-0,.sec-1{margin-left:0}.sec-2{margin-left:16px}.sec-3{margin-left:32px}.sec-4{margin-left:48px}
+.child{margin:3px 0;padding:4px 8px;border-left:2px solid var(--sub);font-size:10px;line-height:1.5}
+.child.provision{border-color:var(--g);background:rgba(22,163,74,0.03)}
+.child.definition{border-color:var(--purple);background:rgba(139,92,246,0.03)}
+.child.formula{border-color:var(--a);background:rgba(59,130,246,0.03)}
+.child.table{border-color:var(--cy);background:rgba(6,182,212,0.03)}
+.child.figure{border-color:var(--am);background:rgba(217,119,6,0.03)}
+.child.exception{border-color:var(--r);background:rgba(220,38,38,0.03)}
+.child.user_note{border-color:var(--m);background:rgba(128,128,128,0.03)}
+.child.text_block{border-color:var(--sub)}
+.tag{display:inline-block;padding:0 3px;border:1px solid;font-size:7px;text-transform:uppercase;
+letter-spacing:.04em;margin-right:3px;vertical-align:middle}
+.tag-provision{border-color:var(--g);color:var(--g)}
+.tag-definition{border-color:var(--purple);color:var(--purple)}
+.tag-formula{border-color:var(--a);color:var(--a)}
+.tag-table{border-color:var(--cy);color:var(--cy)}
+.tag-figure{border-color:var(--am);color:var(--am)}
+.tag-exception{border-color:var(--r);color:var(--r)}
+.tag-user_note{border-color:var(--m);color:var(--m)}
+.tag-text_block{border-color:var(--sub);color:var(--m)}
+.meta{font-size:8px;color:var(--m)}
+.xref{font-size:8px;color:var(--a)}
+b{font-weight:600}
+table.tbl{width:100%;border-collapse:collapse;font-size:9px;margin:4px 0}
+table.tbl th{text-align:left;font-size:7px;text-transform:uppercase;color:var(--m);border-bottom:1px solid var(--b);padding:1px 4px}
+table.tbl td{padding:1px 4px;border-bottom:1px solid var(--sub)}
+</style></head><body>
+<h1>ASCE 7-22 Chapter 18 — Digital Twin</h1>
+<div class="sub">516 elements · 139 provisions · 4 definitions · 74 formulas · 1 tables</div>
+<div class="nav"><a href="digital-twin-index.html">← All Chapters</a></div>
+
+<div class="section sec-0">
+<div class="sec-num">CHAPTER 18</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+SEISMIC DESIGN REQUIREMENTS FOR STRUCTURES WITH DAMPING SYSTEMS
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">18.1 GENERAL</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">18.1.1 Scope</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Every structure with a damping system, and every portion thereof, shall be designed and constructed in accordance with the requirements of this standard, as modi fi ed by this chapter. Where damping devices are used across the isolation interface of a seismically isolated structure, displacements, velocities, and accelerations shall be determined in accordance with Chapter 17.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">18.1.2 De</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+fi nitions The following de fi nitions apply only to the structures with damping system provisions of Chapter 18 and are in addition to the de fi nitions presented in Chapter 11.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+DISPLACEMENT-DEPENDENT DAMPING DEVICE: The force response of a displacement-dependent damping device is primarily a function of the relative displacement between each end of the device. The response is substantially independent of the relative velocity between each of the devices and/or the excitation frequency.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+FORCE-CONTROLLED ELEMENTS: Element actions for which reliable inelastic deformation capacity is not achievable without critical strength decay.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+VELOCITY-DEPENDENT DAMPING DEVICE: The force-displacement relation for a velocity-dependent damping device is primarily a function of the relative velocity between each end of the device and could also be a function of the relative displacement between each end of the device.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">18.1.3 Symbols</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">18.2</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+where V is the seismic base shear in the direction of interest, determined in accordance with Section 12.8, and BV þ I is the numerical coef fi cient, as set forth in Table 18.7-1, for effective damping equal to the sum of viscous damping in the fundamental
+<br><span class="xref">→ ASCE7-22-18.7-E18-7-11</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+mode of vibration of the structure in the direction of interest, β Vm ð m = 1 Þ , plus inherent damping, β I , and period of structure equal to T 1 .
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+In the direction of interest, the damping system has fewer than two damping devices on each fl oor level, con fi gured to resist torsion.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The seismic force-resisting system has Torsional Irregularity Ratio TIR &gt; 1.4, or vertical irregularity Type 1b (Table 12.3-2).
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">18.2.1.2 Damping System</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Damping devices and all other components required to connect damping devices to the other elements of the structure shall be designed to remain elastic for MCER loads. Other elements of the damping system are permitted to have inelastic response at MCER if it is shown by analysis or test that inelastic response of these elements would not adversely affect damping system function. If either the res
+<br><span class="xref">→ ASCE7-22-18.7.1-H1, ASCE7-22-18.7.2-H1, ASCE7-22-18.7.4.6-P1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">18.2.2 Seismic Hazard</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">18.2.3 Procedure Selection</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Structures with a damping system provided for seismic resistance shall be analyzed and designed using the nonlinear response history procedure of Section 18.3.
+<br><span class="xref">→ ASCE7-22-18.3-H1</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">18.2.3.1 Response Spectrum Procedure</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The response spectrum procedure of Section 18.7.1 is permitted to be used for analysis and design provided all the following conditions apply:
+<br><span class="xref">→ ASCE7-22-18.7.1-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+In each principal direction, the damping system has at least two damping devices in each story, con fi gured to resist torsion; and
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The total effective damping of the fundamental mode, β mD ð m = 1 Þ , of the structure in the direction of interest is not greater than 35% of critical.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">The height of the structure above the base does not exceed 100 ft (30 m).</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+In each principal direction, the damping system has at least two damping devices in each story, con fi gured to resist torsion.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The total effective damping of the fundamental mode, β mD ð m = 1 Þ , of the structure in the direction of interest is not greater than 35% of critical.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The seismic force-resisting system does not have horizontal irregularity Type 1a or 1b (Table 12.3-1) or vertical irregularity Type 1 or 2 (Table 12.3-2).
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Floor diaphragms are rigid, as de fi ned in Section 12.3.1.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">18.2.4 Damping System</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+λ ð ae ; max Þ = Factor to represent possible variation in damper properties above the nominal values caused by aging and environmental effects; this is a multiple of all the individual aging and environmental effects;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+λ ð test ; max Þ = Factor to represent possible variations in damper properties above the nominal values obtained from the prototype tests; this is a multiple of all the testing effects;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+λ ð ae ; min Þ = Factor to represent possible variation in damper properties below the nominal values caused by aging and environmental effects; this is a multiple of all the individual aging and environmental effects;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+λ ð test ; min Þ = Factor to represent possible variations in damper properties below the nominal values obtained from the prototype tests; this is a multiple of all the testing effects;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+λ ð spec ; min Þ = Factor established by the RDP to represent permissible variation in production damper properties below the nominal values.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+λ ð spec ; max Þ = Factor established by the RDP to represent permissible variation in production damper properties above the nominal values; and
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Maximumdesignproperty = nominal design property × λ max (18.2-4a)
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Minimumdesign property = nominal design property × λ min (18.2-4b)
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">18.2.4.1 Device</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Design The design, construction, and installation of damping devices shall be based on response to MCER ground motions and consideration of all of the following:
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Low-cycle, large-displacement degradation caused by seismic loads.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+High-cycle, small-displacement degradation caused by wind, thermal, or other cyclic loads.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Forces or displacements caused by gravity loads.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Adhesion of device parts caused by corrosion or abrasion, biodegradation, moisture, or chemical exposure.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Exposure to environmental conditions, including, but not limited to, temperature, humidity, moisture, radiation (e.g., ultraviolet light), and reactive or corrosive substances (e.g., saltwater).
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">18.2.4.2 Multiaxis Movement</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Connection points of damping devices shall provide suf fi cient articulation to accommodate simultaneous longitudinal, lateral, and vertical displacements of the damping system.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">18.2.4.4 Nominal</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Design Properties Nominal design properties for energy-dissipation devices shall be established from either project-speci fi c prototype test data or prior prototype tests on devices of a similar type and size. The nominal design properties shall be based on data from prototype tests speci fi ed in Section 18.6.2.2 (2) and determined by Section 18.6.2.4 (2). These nominal design properties shall b
+<br><span class="xref">→ ASCE7-22-18.2.4.5-P1, ASCE7-22-18.6.2.2-H1, ASCE7-22-18.6.2.4-P1</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">18.2.4.6 Damping System Redundancy</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+If fewer than four energy-dissipation devices are provided in any story of a building in either principal direction, or fewer than two devices are located on each side of the center of stiffness of any story in either principal direction, all energy-dissipation devices shall be capable of sustaining displacements equal to 130% of the maximum calculated displacement in the device under MCER. A velo
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">18.3</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+NONLINEAR RESPONSE HISTORY PROCEDURE
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">18.3.1 Damping Device Modeling</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Mathematical models of displacement-dependent damping devices shall include the hysteretic behavior of the devices consistent with test data and accounting for all signi fi cant changes in strength, stiffness, and hysteretic loop shape. Mathematical models of velocity-dependent damping devices shall include the velocity coef fi cient consistent with test data. If damping device properties change w
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">18.3.2 Accidental</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Mass Eccentricity Inherent eccentricity resulting from lack of symmetry in mass and stiffness shall be accounted for in the MCER analysis. In addition, accidental eccentricity consisting of displacement of the center of mass from the computed location by an amount equal to 5% of the diaphragm dimension separately, in each of two orthogonal directions at each diaphragm level, shall be accounted for
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">18.4</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+SEISMIC LOAD CONDITIONS AND ACCEPTANCE CRITERIA FOR NONLINEAR RESPONSE HISTORY PROCEDURE
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The seismic base shear, V min , as given by Section 18.2.1.1, and
+<br><span class="xref">→ ASCE7-22-18.2.1.1-P1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The demands from the design earthquake nonlinear response history analysis.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">18.4.3 Combination of Load Effects</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The effects on the damping system caused by gravity loads and seismic forces shall be combined, in accordance with Section 12.4, using the effect of horizontal seismic forces, QE , except that QE shall be determined in accordance with the MCER analysis. When load combinations are used that include live loading, it is permitted to use a load factor of 25% on live load for nonlinear response history
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">18.4.4 Acceptance Criteria for the Response Parameters of</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Interest The damping system components shall be evaluated by the strength design criteria of this standard using the seismic forces and seismic loading conditions determined from the MCER nonlinear response history analyses and strength reduction factor ϕ = 1.0.
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">18.5</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Project design criteria including site-speci fi c spectra and ground motion histories;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Preliminary design of the seismic force-resisting system and the damping system, including selection of the devices and their design parameters;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Review of manufacturer test data and property modi fi cation factors for the manufacturer and device selected;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Prototype testing program (Section 18.6.2);
+<br><span class="xref">→ ASCE7-22-18.6.2-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Final design of the entire structural system and supporting analyses, including modeling of the damping devices for response history analysis, if performed; and
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Damping device production testing program (Section 18.6.3).
+<br><span class="xref">→ ASCE7-22-18.6.3-P1</span>
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">18.6 TESTING</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">18.6.1 General</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The force-velocity-displacement relationships and damping properties, assumed as the damping device nominal design properties in Section 18.2.4.4, shall be con fi rmed by the tests conducted in accordance with Section 18.6.2 or shall be based on prior tests of devices meeting the similarity requirements of Section 18.6.2.3.
+<br><span class="xref">→ ASCE7-22-18.2.4.4-H1, ASCE7-22-18.6.2-H1, ASCE7-22-18.6.2.3-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The production testing requirements are speci fi ed in Section 18.6.3.
+<br><span class="xref">→ ASCE7-22-18.6.3-P1</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">18.6.1.1 Quali</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+fi cation Tests Damping device manufacturers shall submit, for approval by the RDP, the results of quali fi cation tests, analysis of test data, and supporting studies used to quantify the effects of heating caused by cyclic dynamic motion, loading rate, duration of seismic and wind loading, variability and uncertainty in production device properties, operating temperature, aging, environmental ex
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">18.6.2 Prototype Tests</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The following tests shall be performed separately on two full-size damping devices of each type and size used in the design, in the order listed as follows.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Fabrication and quality control procedures are identical for each type and size of device used in the structure.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Prototype testing of representative sizes is approved by the RDP responsible for the design of the structure.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">18.6.2.2 Sequence and Cycles of Testing</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+For all the following test sequences, each damping device shall be subjected to gravity load effects and thermal environments representative of the installed condition. For seismic testing, the displacement in the devices calculated for the MCE R ground motions, termed herein as the maximum device displacement, shall be used.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(a) Ten fully reversed cycles at the displacement in the energy-dissipation device, corresponding to 0.33 times the MCER device displacement;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(b) Five fully reversed cycles at the displacement in the energy-dissipation device, corresponding to 0.67 times the MCER device displacement;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(c) Three fully reversed cycles at the displacement in the energy-dissipation device, corresponding to 1.0 times the MCER device displacement; and
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(a) Alternative methods of testing are equivalent to the cyclic testing requirements of this section.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(b) Alternative methods capture the dependence of the damping device response on ambient temperature, frequency of loading, and temperature rise during testing.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(c) Alternative methods are approved by the RDP responsible for the design of the structure.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">18.6.2.3 Testing Similar Devices</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Prototype tests need not be performed on a particular damping device if a previously prototype-tested unit exists that meets all the following conditions:
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+It is of similar dimensional characteristics, internal construction, and static and dynamic internal pressures (if any) to the subject damping device; and
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+It is of the same type and materials as the subject damping device; and
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+It was fabricated using identical documented manufacturing and quality control procedures that govern the subject damping device; and
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+It was tested under similar maximum strokes and forces to those required of the subject damping device.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">18.6.2.5 Device Adequacy</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The performance of a prototype damping device shall be deemed adequate if all the conditions listed as follows are satis fi ed. The 15% limits speci fi ed in the following text are permitted to be increased by the RDP responsible for the design of the structure, provided that the increased limit has been demonstrated by analysis not to have a deleterious effect on the response of the structure.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+based on tests speci fi ed in Section 18.6.2.2, are satis fi ed:
+<br><span class="xref">→ ASCE7-22-18.6.2.2-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+For Test 1, no signs of damage including leakage, yielding, or breakage.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+For Tests 2, 3, and 4, the maximum force and minimum force at zero displacement for a damping device for any one cycle does not differ by more than 15% from the average maximum and minimum forces at zero displacement, as calculated from all cycles in that test at a speci fi c frequency and temperature.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+For Tests 2, 3, and 4, the maximum force and minimum force at maximum device displacement for a damping device for any one cycle does not differ by more than 15% from the average maximum and minimum forces at the maximum device displacement, as calculated from all cycles in that test at a speci fi c frequency and temperature.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+For Tests 2, 3, and 4, the area of hysteresis loop ( E loop ) of a damping device for any one cycle does not differ by more
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+than 15% from the average area of the hysteresis loop, as calculated from all cycles in that test at a speci fi c frequency and temperature.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+For Test 1, no signs of damage including leakage, yielding, or breakage.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+For velocity-dependent damping devices with stiffness, the effective stiffness of a damping device in any one cycle of Tests 2, 3, and 4 does not differ by more than 15% from the average effective stiffness, as calculated from all cycles in that test at a speci fi c frequency and temperature.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+For Tests 2, 3, and 4, the maximum force and minimum force at zero displacement for a damping device for any one cycle does not differ by more than 15% from the average maximum and minimum forces at zero displacement, as calculated from all cycles in that test at a speci fi c frequency and temperature.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+For Tests 2, 3, and 4, the area of hysteresis loop ( E loop ) of a damping device for any one cycle does not differ by more than 15% from the average area of the hysteresis loop, as calculated from all cycles in that test at a speci fi c frequency and temperature.
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">18.7</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+ALTERNATE PROCEDURES AND CORRESPONDING ACCEPTANCE CRITERIA
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Table 18.7-1. Damping Coefficient, BV þ I , B 1 D , B 1 E , BR , B 1 M , BmD , BmM (Where Period of the Structure ≥ T 0 ).
+<br><span class="xref">→ ASCE7-22-18.7-E18-7-11</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">18.7.1 Response Spectrum Procedure</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Where the response spectrum procedure is used to analyze a structure with a damping system, the requirements of this section shall apply.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">18.7.1.2 Seismic Force-Resisting System</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Table 18.7-2. Force Coefficient, a , b CmFD .
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Table 18.7-3. Force Coefficient, a , b CmFV .
+<br><span class="xref">→ ASCE7-22-18.7-E18-7-31</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+CSm = Seismic response coef fi cient of the m th mode of vibration of the structure in the direction of interest, as determined from Section 18.7.1.2.4 ( m = 1) or Section 18.7.1.2.6 ( m &gt; 1);
+<br><span class="xref">→ ASCE7-22-18.7.1.2.4-T1, ASCE7-22-18.7.1.2.6-P1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Wm = Effective seismic weight of the m th mode of vibration of the structure; and
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+ϕ im = Displacement amplitude at the i th level of the structure in the m th mode of vibration in the direction of interest, normalized to unity at the roof level.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+18.7.1.2.4 Fundamental Mode Seismic Response Coefficient The fundamental mode ( m = 1) seismic response coef fi cient,
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+numerical coef fi cient as set forth in Table 18.7-1 for effective damping equal to β mD and period of the structure equal to Tm .
+<br><span class="xref">→ ASCE7-22-18.7-E18-7-11</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">18.7.1.3 Damping System</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Design forces in damping devices and other elements of the damping system shall be determined on the basis of the fl oor de fl ection, story drift, and story velocity response parameters described in the subsequent sections.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">18.7.2 Equivalent</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Lateral Force Procedure Where the equivalent lateral force procedure is used to design a structure with a damping system, the requirements of this section shall apply.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+SM 1 = MCER, 5% damped, spectral response acceleration parameter at a period of 1 s adjusted for site class effects, as de fi ned in Section 11.4.4;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+SMS = MCER, 5% damped, spectral response acceleration parameter at short periods adjusted for site class effects, as de fi ned in Section 11.4.4; and
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+B 1 M = Numerical coef fi cient as set forth in Table 18.7-1 for effective damping equal to β mM ð m = 1 Þ and period of structure equal to T 1 M .
+<br><span class="xref">→ ASCE7-22-18.7-E18-7-11</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">18.7.2.1 Modeling</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Elements of the seismic force-resisting system shall be modeled in a manner consistent with the requirements of Section 12.8. For purposes of analysis, the structure shall be considered to be fi xed at the base.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+procedures of Section 18.7.4 and used to modify response, as required in Sections 18.7.2.2 and 18.7.2.3.
+<br><span class="xref">→ ASCE7-22-18.7.4-H1</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">18.7.2.2 Seismic Force-Resisting System</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+V 1 = Design value of the seismic base shear of the fundamental mode in a given direction of response, as determined in Section 18.7.2.2.2;
+<br><span class="xref">→ ASCE7-22-18.7.2.2.2-P1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+VR = Design value of the seismic base shear of the residual mode in a given direction, as determined in Section 18.7.2.2.6; and
+<br><span class="xref">→ ASCE7-22-18.7.2.2.6-P1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+V min = Minimum allowable value of base shear permitted for design of the seismic force-resisting system of the structure in the direction of interest, as determined in Section 18.2.1.1.
+<br><span class="xref">→ ASCE7-22-18.2.1.1-P1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+hn = The structural height as de fi ned in Section 11.2; and wi = The portion of the total effective seismic weight, W , located at or assigned to level i .
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+SDS = The design spectral response acceleration parameter in the short period range,
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+SD 1 = The design spectral response acceleration parameter at a period of 1 s, and
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+B 1 D = Numerical coef fi cient as set forth in Table 18.7-1 for effective damping equal to β mD ð m = 1 Þ and period of the structure equal to T 1 D .
+<br><span class="xref">→ ASCE7-22-18.7-E18-7-11</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">18.7.3 Damped</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Response Modi fi cation As required in Sections 18.7.1 and 18.7.2, response of the structure shall be modi fi ed for the effects of the damping system.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">18.7.3.1 Damping Coef</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+fi cient Where the period of the structure is greater than or equal to T 0 , the damping coef fi cient shall be as prescribed in Table 18.7-1. Where the period of the structure is less than T 0 , the damping coef fi cient shall be linearly interpolated between a value of 1.0 at a 0 s period for all values of effective damping and the value at period T 0 , as indicated in Table 18.7-1.
+<br><span class="xref">→ ASCE7-22-18.7-E18-7-11</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">18.7.3.2 Effective Damping</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The effective damping at the design displacement, β mD , and at the MCER displacement, β mM , of the m th mode of vibration of the structure in the direction under consideration shall be calculated using Equations (18.7-45) and (18.7-46): where
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+β HD = Component of effective damping of the structure in the direction of interest caused by postyield hysteretic behavior of the seismic force-resisting system and elements of the damping system at effective ductility demand, μ D ;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+β I = Component of effective damping of the structure caused by the inherent dissipation of energy by elements of the structure, at or just below the effective yield displacement of the seismic force-resisting system;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+β HM = Component of effective damping of the structure in the direction of interest caused by postyield hysteretic behavior of the seismic force-resisting system and elements of the damping system at effective ductility demand, μ M ;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+β Vm = Component of effective damping of the m th mode of vibration of the structure in the direction of interest caused by viscous dissipation of energy by the damping system, at or just below the effective yield displacement of the seismic force-resisting system;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+μ M = Effective ductility demand on the seismic force-resisting system in the direction of interest caused by the MCER ground motions.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+μ D = Effective ductility demand on the seismic force-resisting system in the direction of interest caused by the design earthquake ground motions; and
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+qH = Hysteresis loop adjustment factor, as de fi ned in Section 18.7.3.2.2.1;
+<br><span class="xref">→ ASCE7-22-18.7.3.2.2.1-P1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+μ M = Effective ductility demand on the seismic force-resisting system in the direction of interest caused by the MCER ground motions.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+μ D = Effective ductility demand on the seismic force-resisting system in the direction of interest caused by the design earthquake ground motions; and
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Wmj = Work done by j th damping device in one complete cycle of dynamic response corresponding to the m th mode of vibration of the structure in the direction of interest at modal displacements, δ im ;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Wm = Maximum strain energy in the m th mode of vibration of the structure in the direction of interest at modal displacements, δ im ;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Fim = m th mode inertial force at level i ; and
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+δ im = De fl ection of level i in the m th mode of vibration at the center of rigidity of the structure in the direction under consideration.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">18.7.3.3 Effective Ductility Demand</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">18.7.3.4 Maximum</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Effective Ductility Demand For determination of the hysteresis loop adjustment factor, hysteretic damping, and other parameters, the maximum value of effective ductility demand, μ max , shall be calculated using Equations (18.7-55) and (18.7-56): For T 1 D ≤ TS , For T 1 ≥ TS ,
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">18.7.4 Seismic Load Conditions and Acceptance Criteria for</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+RSA and ELF Procedures Design forces and displacements determined in accordance with the response spectrum procedure of Section 18.7.1, or the equivalent lateral force (ELF) procedure of Section 18.7.2, shall be checked using the strength design criteria of this standard and the seismic loading conditions of Section 18.7.4.3.
+<br><span class="xref">→ ASCE7-22-18.7.1-H1, ASCE7-22-18.7.2-H1, ASCE7-22-18.7.4.3-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Inelastic response does not adversely affect damping system function.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Element forces, calculated in accordance with Section 18.7.4.5, using a value of Ω 0 taken as equal to 1.0, do not exceed the strength required to satisfy the load combinations of Section 12.4.
+<br><span class="xref">→ ASCE7-22-18.7.4.5-P1</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">18.7.4.1 Seismic Force-Resisting System</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The seismic forceresisting system shall satisfy the requirements of Section 12.2.1 using seismic base shear and design forces determined in accordance with Section 18.7.1.2 or 18.7.2.2.
+<br><span class="xref">→ ASCE7-22-18.7.1.2-H1</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">18.7.4.2 Damping System</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The damping system shall satisfy the requirements of Section 12.2.1 for seismic design forces and seismic loading conditions determined in accordance with Section 18.7.4.3. Force-controlled elements of the damping system shall be designed for seismic forces that are increased by 20% from those corresponding to average MCER response.
+<br><span class="xref">→ ASCE7-22-18.7.4.3-H1</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">18.7.4.3 Combination of Load Effects</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The effects on the damping system and its components caused by gravity loads and seismic forces shall be combined in accordance with Section 12.4, using the effect of horizontal seismic forces, QE , determined in accordance with Section 18.7.4.5. The redundancy factor, ρ , shall be taken equal to 1.0 in all cases, and the seismic load effect including overstrength of Section 12.4.3 need not apply 
+<br><span class="xref">→ ASCE7-22-18.7.4.5-P1</span>
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">18.8</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS
+</div>
+</div>
+</body></html>

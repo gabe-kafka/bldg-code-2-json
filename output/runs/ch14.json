@@ -9,10 +9,10 @@
       "citation": "Section 14",
       "page": 1
     },
-    "title": "CHAPTER 14 MATERIAL-SPECIFIC SEISMIC DESIGN AND DETAILING REQUIREMENTS",
+    "title": "CHAPTER 14",
     "description": "",
     "data": {
-      "rule": "CHAPTER 14 MATERIAL-SPECIFIC SEISMIC DESIGN AND DETAILING REQUIREMENTS",
+      "rule": "CHAPTER 14",
       "conditions": [],
       "then": "",
       "else": null,
@@ -25,6 +25,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-14-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-14-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 14,
+      "section": "14",
+      "citation": "Section 14",
+      "page": 1
+    },
+    "title": "MATERIAL-SPECIFIC SEISMIC DESIGN AND DETAILING REQUIREMENTS",
+    "description": "",
+    "data": {
+      "rule": "MATERIAL-SPECIFIC SEISMIC DESIGN AND DETAILING REQUIREMENTS",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-14.0-H1",
@@ -144,10 +171,10 @@
       "citation": "Section 14.1.1",
       "page": 1
     },
-    "title": "14.1.1 Reference Documents The design, construction, and quality of steel members that resist seismic forces shall conform to the applicable requirements, as amended herein, of ANSI/AISC 341, ANSI/AIS",
+    "title": "14.1.1 Reference Documents",
     "description": "",
     "data": {
-      "rule": "14.1.1 Reference Documents The design, construction, and quality of steel members that resist seismic forces shall conform to the applicable requirements, as amended herein, of ANSI/AISC 341, ANSI/AISC 360, ANSI/AISI S100, ANSI/ AISI S230, ANSI/AISI S240, ANSI/AISI S310, ANSI/AISI S400, ANSI/SDI-QA/QC, ANSI/SDI-SD, ANSI/SJI-100, ANSI/SJI-200, ASCE 8, and ASCE 19.",
+      "rule": "14.1.1 Reference Documents",
       "conditions": [],
       "then": "",
       "else": null,
@@ -160,6 +187,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-14.1.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-14.1.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 14,
+      "section": "14.1.1",
+      "citation": "Section 14.1.1",
+      "page": 1
+    },
+    "title": "The design, construction, and quality of steel members that resist seismic forces shall conform to the applicable requirements, as amended herein, of ANSI/AISC 341, ANSI/AISC 360, ANSI/AISI S100, ANSI",
+    "description": "",
+    "data": {
+      "rule": "The design, construction, and quality of steel members that resist seismic forces shall conform to the applicable requirements, as amended herein, of ANSI/AISC 341, ANSI/AISC 360, ANSI/AISI S100, ANSI/ AISI S230, ANSI/AISI S240, ANSI/AISI S310, ANSI/AISI S400, ANSI/SDI-QA/QC, ANSI/SDI-SD, ANSI/SJI-100, ANSI/SJI-200, ASCE 8, and ASCE 19.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-14.1.2-H1",
@@ -198,10 +252,38 @@
       "citation": "Section 14.1.2.1",
       "page": 1
     },
-    "title": "14.1.2.1 General The design of structural steel for buildings and structures shall be in accordance with ANSI/AISC 360. Where required, the seismic design of structural steel structures shall be in ac",
+    "title": "14.1.2.1 General",
     "description": "",
     "data": {
-      "rule": "14.1.2.1 General The design of structural steel for buildings and structures shall be in accordance with ANSI/AISC 360. Where required, the seismic design of structural steel structures shall be in accordance with the additional provisions of Section 14.1.2.2.",
+      "rule": "14.1.2.1 General",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-14.1.2.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-14.1.2.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 14,
+      "section": "14.1.2.1",
+      "citation": "Section 14.1.2.1",
+      "page": 1
+    },
+    "title": "The design of structural steel for buildings and structures shall be in accordance with ANSI/AISC 360. Where required, the seismic design of structural steel structures shall be in accordance with the",
+    "description": "",
+    "data": {
+      "rule": "The design of structural steel for buildings and structures shall be in accordance with ANSI/AISC 360. Where required, the seismic design of structural steel structures shall be in accordance with the additional provisions of Section 14.1.2.2.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -213,9 +295,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-14.1.2.2-P1",
@@ -449,10 +530,38 @@
       "citation": "Section 14.1.4.1",
       "page": 1
     },
-    "title": "14.1.4.1 General Cold-formed steel light-frame construction shall be designed in accordance with AISI S240. Where required, the seismic design of cold-formed steel light-frame construction shall be in",
+    "title": "14.1.4.1 General",
     "description": "",
     "data": {
-      "rule": "14.1.4.1 General Cold-formed steel light-frame construction shall be designed in accordance with AISI S240. Where required, the seismic design of cold-formed steel light-frame construction shall be in accordance with the additional provisions of Section 14.1.4.2.",
+      "rule": "14.1.4.1 General",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-14.1.4.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-14.1.4.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 14,
+      "section": "14.1.4.1",
+      "citation": "Section 14.1.4.1",
+      "page": 1
+    },
+    "title": "Cold-formed steel light-frame construction shall be designed in accordance with AISI S240. Where required, the seismic design of cold-formed steel light-frame construction shall be in accordance with ",
+    "description": "",
+    "data": {
+      "rule": "Cold-formed steel light-frame construction shall be designed in accordance with AISI S240. Where required, the seismic design of cold-formed steel light-frame construction shall be in accordance with the additional provisions of Section 14.1.4.2.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -464,9 +573,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-14.1.4.2-P1",
@@ -615,10 +723,10 @@
       "citation": "Section 14.1.5",
       "page": 2
     },
-    "title": "14.1.5 Cold-Formed Steel Deck Diaphragms Cold-formed steel deck diaphragms shall be designed in accordance with the requirements of AISI S100, AISI S240, SDI-SD, or ASCE 8, as applicable. Nominal stre",
+    "title": "14.1.5 Cold-Formed Steel Deck Diaphragms",
     "description": "",
     "data": {
-      "rule": "14.1.5 Cold-Formed Steel Deck Diaphragms Cold-formed steel deck diaphragms shall be designed in accordance with the requirements of AISI S100, AISI S240, SDI-SD, or ASCE 8, as applicable. Nominal strengths shall be determined in accordance with AISI S310. The required strength of diaphragms, including bracing members that form part of the diaphragm, shall be determined in accordance with Section 12.10. Where required by this standard, special seismic detailing requirements shall be in accordance with AISI S400. Special inspections and quali fi cation of welding special inspectors for cold-formed steel fl oor and roof deck shall be in accordance with the quality assurance inspection requirements of SDI-QA/QC.",
+      "rule": "14.1.5 Cold-Formed Steel Deck Diaphragms",
       "conditions": [],
       "then": "",
       "else": null,
@@ -631,6 +739,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-14.1.5-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-14.1.5-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 14,
+      "section": "14.1.5",
+      "citation": "Section 14.1.5",
+      "page": 2
+    },
+    "title": "Cold-formed steel deck diaphragms shall be designed in accordance with the requirements of AISI S100, AISI S240, SDI-SD, or ASCE 8, as applicable. Nominal strengths shall be determined in accordance w",
+    "description": "",
+    "data": {
+      "rule": "Cold-formed steel deck diaphragms shall be designed in accordance with the requirements of AISI S100, AISI S240, SDI-SD, or ASCE 8, as applicable. Nominal strengths shall be determined in accordance with AISI S310. The required strength of diaphragms, including bracing members that form part of the diaphragm, shall be determined in accordance with Section 12.10. Where required by this standard, special seismic detailing requirements shall be in accordance with AISI S400. Special inspections and quali fi cation of welding special inspectors for cold-formed steel fl oor and roof deck shall be in accordance with the quality assurance inspection requirements of SDI-QA/QC.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-14.1.6-H1",
@@ -642,10 +777,38 @@
       "citation": "Section 14.1.6",
       "page": 2
     },
-    "title": "14.1.6 Concrete-Filled Steel Deck Diaphragms Concretefi lled steel deck diaphragms shall be of any construction permitted by the applicable reference documents in Section 14.1.1. Where a Diaphragm Des",
+    "title": "14.1.6 Concrete-Filled Steel Deck Diaphragms",
     "description": "",
     "data": {
-      "rule": "14.1.6 Concrete-Filled Steel Deck Diaphragms Concretefi lled steel deck diaphragms shall be of any construction permitted by the applicable reference documents in Section 14.1.1. Where a Diaphragm Design Force Reduction Factor, Rs , in accordance with Table 12.10-1, is used for design, the concretefi lled steel deck diaphragm and shear transfer to structural steel members shall be designed and detailed in accordance with the requirements of AISC 341.",
+      "rule": "14.1.6 Concrete-Filled Steel Deck Diaphragms",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-14.1.6-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-14.1.6-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 14,
+      "section": "14.1.6",
+      "citation": "Section 14.1.6",
+      "page": 2
+    },
+    "title": "Concretefi lled steel deck diaphragms shall be of any construction permitted by the applicable reference documents in Section 14.1.1. Where a Diaphragm Design Force Reduction Factor, Rs , in accordanc",
+    "description": "",
+    "data": {
+      "rule": "Concretefi lled steel deck diaphragms shall be of any construction permitted by the applicable reference documents in Section 14.1.1. Where a Diaphragm Design Force Reduction Factor, Rs , in accordance with Table 12.10-1, is used for design, the concretefi lled steel deck diaphragm and shear transfer to structural steel members shall be designed and detailed in accordance with the requirements of AISC 341.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -657,9 +820,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-14.1.7-H1",
@@ -671,10 +833,10 @@
       "citation": "Section 14.1.7",
       "page": 2
     },
-    "title": "14.1.7 Open Web Steel Joists and Joist Girders The design, manufacture, and use of open web steel joists and joist girders shall be in accordance with SJI-100 and SJI-200, as applicable.",
+    "title": "14.1.7 Open Web Steel Joists and Joist Girders",
     "description": "",
     "data": {
-      "rule": "14.1.7 Open Web Steel Joists and Joist Girders The design, manufacture, and use of open web steel joists and joist girders shall be in accordance with SJI-100 and SJI-200, as applicable.",
+      "rule": "14.1.7 Open Web Steel Joists and Joist Girders",
       "conditions": [],
       "then": "",
       "else": null,
@@ -687,6 +849,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-14.1.7-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-14.1.7-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 14,
+      "section": "14.1.7",
+      "citation": "Section 14.1.7",
+      "page": 2
+    },
+    "title": "The design, manufacture, and use of open web steel joists and joist girders shall be in accordance with SJI-100 and SJI-200, as applicable.",
+    "description": "",
+    "data": {
+      "rule": "The design, manufacture, and use of open web steel joists and joist girders shall be in accordance with SJI-100 and SJI-200, as applicable.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-14.1.8-H1",
@@ -698,10 +887,10 @@
       "citation": "Section 14.1.8",
       "page": 2
     },
-    "title": "14.1.8 Steel Cables The design strength of steel cables serving as main structural load carrying members shall be determined by the requirements of ASCE 19.",
+    "title": "14.1.8 Steel Cables",
     "description": "",
     "data": {
-      "rule": "14.1.8 Steel Cables The design strength of steel cables serving as main structural load carrying members shall be determined by the requirements of ASCE 19.",
+      "rule": "14.1.8 Steel Cables",
       "conditions": [],
       "then": "",
       "else": null,
@@ -716,6 +905,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-14.1.8-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-14.1.8-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 14,
+      "section": "14.1.8",
+      "citation": "Section 14.1.8",
+      "page": 2
+    },
+    "title": "The design strength of steel cables serving as main structural load carrying members shall be determined by the requirements of ASCE 19.",
+    "description": "",
+    "data": {
+      "rule": "The design strength of steel cables serving as main structural load carrying members shall be determined by the requirements of ASCE 19.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-14.1.9-H1",
     "type": "heading",
     "source": {
@@ -725,10 +941,10 @@
       "citation": "Section 14.1.9",
       "page": 2
     },
-    "title": "14.1.9 Additional Detailing Requirements for Steel Piles in Seismic Design Categories D through F In addition to the foundation requirements set forth in Sections 12.1.5 and 12.13, design and detailin",
+    "title": "14.1.9 Additional Detailing Requirements for Steel Piles in",
     "description": "",
     "data": {
-      "rule": "14.1.9 Additional Detailing Requirements for Steel Piles in Seismic Design Categories D through F In addition to the foundation requirements set forth in Sections 12.1.5 and 12.13, design and detailing of H-piles shall conform to the requirements of AISC 341, and the connection between the pile cap and steel piles or un fi lled steel pipe piles in structures assigned to Seismic Design Category D, E, or F shall be designed for a tensile force not less than 10% of the pile compression capacity.",
+      "rule": "14.1.9 Additional Detailing Requirements for Steel Piles in",
       "conditions": [],
       "then": "",
       "else": null,
@@ -741,6 +957,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-14.1.9-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-14.1.9-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 14,
+      "section": "14.1.9",
+      "citation": "Section 14.1.9",
+      "page": 2
+    },
+    "title": "Seismic Design Categories D through F In addition to the foundation requirements set forth in Sections 12.1.5 and 12.13, design and detailing of H-piles shall conform to the requirements of AISC 341, ",
+    "description": "",
+    "data": {
+      "rule": "Seismic Design Categories D through F In addition to the foundation requirements set forth in Sections 12.1.5 and 12.13, design and detailing of H-piles shall conform to the requirements of AISC 341, and the connection between the pile cap and steel piles or un fi lled steel pipe piles in structures assigned to Seismic Design Category D, E, or F shall be designed for a tensile force not less than 10% of the pile compression capacity.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-14.1.9-X1",
@@ -833,39 +1076,10 @@
       "citation": "Section 14.2.1",
       "page": 2
     },
-    "title": "14.2.1 Reference Documents The quality and testing of concrete materials and the design and construction of structural concrete members that resist seismic forces shall conform to the requirements of ",
+    "title": "14.2.1 Reference",
     "description": "",
     "data": {
-      "rule": "14.2.1 Reference Documents The quality and testing of concrete materials and the design and construction of structural concrete members that resist seismic forces shall conform to the requirements of ACI 318, except as modi fi ed in Section 14.2.2.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [
-      "ASCE7-22-14.2.2-H1"
-    ],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-14.2.2-H1",
-    "type": "heading",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 14,
-      "section": "14.2.2",
-      "citation": "Section 14.2.2",
-      "page": 2
-    },
-    "title": "14.2.2 Modi fi cations to ACI 318 The text of ACI 318 shall be modi fi ed as indicated in Sections 14.2.2.1 through 14.2.2.7. Italics are used for text within Sections 14.2.2.1 through 14.2.2.7 to ind",
-    "description": "",
-    "data": {
-      "rule": "14.2.2 Modi fi cations to ACI 318 The text of ACI 318 shall be modi fi ed as indicated in Sections 14.2.2.1 through 14.2.2.7. Italics are used for text within Sections 14.2.2.1 through 14.2.2.7 to indicate requirements that differ from ACI 318.",
+      "rule": "14.2.1 Reference",
       "conditions": [],
       "then": "",
       "else": null,
@@ -878,6 +1092,89 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-14.2.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-14.2.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 14,
+      "section": "14.2.1",
+      "citation": "Section 14.2.1",
+      "page": 2
+    },
+    "title": "Documents The quality and testing of concrete materials and the design and construction of structural concrete members that resist seismic forces shall conform to the requirements of ACI 318, except a",
+    "description": "",
+    "data": {
+      "rule": "Documents The quality and testing of concrete materials and the design and construction of structural concrete members that resist seismic forces shall conform to the requirements of ACI 318, except as modi fi ed in Section 14.2.2.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-14.2.2-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-14.2.2-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 14,
+      "section": "14.2.2",
+      "citation": "Section 14.2.2",
+      "page": 2
+    },
+    "title": "14.2.2 Modi",
+    "description": "",
+    "data": {
+      "rule": "14.2.2 Modi",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-14.2.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-14.2.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 14,
+      "section": "14.2.2",
+      "citation": "Section 14.2.2",
+      "page": 2
+    },
+    "title": "fi cations to ACI 318 The text of ACI 318 shall be modi fi ed as indicated in Sections 14.2.2.1 through 14.2.2.7. Italics are used for text within Sections 14.2.2.1 through 14.2.2.7 to indicate requir",
+    "description": "",
+    "data": {
+      "rule": "fi cations to ACI 318 The text of ACI 318 shall be modi fi ed as indicated in Sections 14.2.2.1 through 14.2.2.7. Italics are used for text within Sections 14.2.2.1 through 14.2.2.7 to indicate requirements that differ from ACI 318.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-14.2.2.1-H1",
@@ -1078,10 +1375,38 @@
       "citation": "Section 14.2.2.3",
       "page": 2
     },
-    "title": "14.2.2.3 Scope Modify ACI 318, Section 18.2.1.2, to read as follows:",
+    "title": "14.2.2.3 Scope",
     "description": "",
     "data": {
-      "rule": "14.2.2.3 Scope Modify ACI 318, Section 18.2.1.2, to read as follows:",
+      "rule": "14.2.2.3 Scope",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-14.2.2.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-14.2.2.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 14,
+      "section": "14.2.2.3",
+      "citation": "Section 14.2.2.3",
+      "page": 2
+    },
+    "title": "Modify ACI 318, Section 18.2.1.2, to read as follows:",
+    "description": "",
+    "data": {
+      "rule": "Modify ACI 318, Section 18.2.1.2, to read as follows:",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1093,9 +1418,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-18.2.1.2-H1",
@@ -1107,7 +1431,7 @@
       "citation": "Section 18.2.1.2",
       "page": 2
     },
-    "title": "18.2.1.2 All members shall satisfy requirements of Chapters 1 to 17 and 19 to 26. Structures assigned to SDC B, C, D, E, or F also shall satisfy Sections 18.2.1.3 through 18.2.1.7, as applicable, exce",
+    "title": "18.2.1.2 All members shall satisfy requirements of Chapters 1 to 17 and 19 to 26. Structures assigned to SDC B, C, D, E, or F also shall satisfy Sections 18.2.1.3 through 18.2.1.7, as applicable, except as modified by the requirements of Chapters 14 and 15 of ASCE 7. Where ACI 318, Chapter 18, conflicts with other ACI 318 chapters, Chapter 18 shall govern.",
     "description": "",
     "data": {
       "rule": "18.2.1.2 All members shall satisfy requirements of Chapters 1 to 17 and 19 to 26. Structures assigned to SDC B, C, D, E, or F also shall satisfy Sections 18.2.1.3 through 18.2.1.7, as applicable, except as modified by the requirements of Chapters 14 and 15 of ASCE 7. Where ACI 318, Chapter 18, conflicts with other ACI 318 chapters, Chapter 18 shall govern.",
@@ -1134,10 +1458,38 @@
       "citation": "Section 14.2.2.4",
       "page": 2
     },
-    "title": "14.2.2.4 Intermediate Precast Structural Walls Modify ACI 318, Section 18.5, by renumbering Sections 18.5.2.2 and 18.5.2.3 to Sections 18.5.2.3 and 18.5.2.4, respectively, and adding a new Section 18.",
+    "title": "14.2.2.4 Intermediate Precast Structural Walls",
     "description": "",
     "data": {
-      "rule": "14.2.2.4 Intermediate Precast Structural Walls Modify ACI 318, Section 18.5, by renumbering Sections 18.5.2.2 and 18.5.2.3 to Sections 18.5.2.3 and 18.5.2.4, respectively, and adding a new Section 18.5.2.2 to read as follows:",
+      "rule": "14.2.2.4 Intermediate Precast Structural Walls",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-14.2.2.4-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-14.2.2.4-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 14,
+      "section": "14.2.2.4",
+      "citation": "Section 14.2.2.4",
+      "page": 2
+    },
+    "title": "Modify ACI 318, Section 18.5, by renumbering Sections 18.5.2.2 and 18.5.2.3 to Sections 18.5.2.3 and 18.5.2.4, respectively, and adding a new Section 18.5.2.2 to read as follows:",
+    "description": "",
+    "data": {
+      "rule": "Modify ACI 318, Section 18.5, by renumbering Sections 18.5.2.2 and 18.5.2.3 to Sections 18.5.2.3 and 18.5.2.4, respectively, and adding a new Section 18.5.2.2 to read as follows:",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1149,9 +1501,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-18.5.2.2-H1",
@@ -1163,10 +1514,10 @@
       "citation": "Section 18.5.2.2",
       "page": 2
     },
-    "title": "18.5.2.2 Connections that are designed to yield shall be capable of maintaining 80% of their design strength at the deformation induced by design displacement or shall use type 2 mechanical splices.",
+    "title": "18.5.2.2",
     "description": "",
     "data": {
-      "rule": "18.5.2.2 Connections that are designed to yield shall be capable of maintaining 80% of their design strength at the deformation induced by design displacement or shall use type 2 mechanical splices.",
+      "rule": "18.5.2.2",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1179,6 +1530,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-18.5.2.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-18.5.2.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 14,
+      "section": "18.5.2.2",
+      "citation": "Section 18.5.2.2",
+      "page": 2
+    },
+    "title": "Connections that are designed to yield shall be capable of maintaining 80% of their design strength at the deformation induced by design displacement or shall use type 2 mechanical splices.",
+    "description": "",
+    "data": {
+      "rule": "Connections that are designed to yield shall be capable of maintaining 80% of their design strength at the deformation induced by design displacement or shall use type 2 mechanical splices.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-18.5.2.3-H1",
@@ -1190,10 +1568,10 @@
       "citation": "Section 18.5.2.3",
       "page": 2
     },
-    "title": "18.5.2.3 For elements of the connection that are not designed to yield, the required strength shall be based on 1.5Sy of the yielding portion of the connection.",
+    "title": "18.5.2.3",
     "description": "",
     "data": {
-      "rule": "18.5.2.3 For elements of the connection that are not designed to yield, the required strength shall be based on 1.5Sy of the yielding portion of the connection.",
+      "rule": "18.5.2.3",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1208,6 +1586,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-18.5.2.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-18.5.2.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 14,
+      "section": "18.5.2.3",
+      "citation": "Section 18.5.2.3",
+      "page": 2
+    },
+    "title": "For elements of the connection that are not designed to yield, the required strength shall be based on 1.5Sy of the yielding portion of the connection.",
+    "description": "",
+    "data": {
+      "rule": "For elements of the connection that are not designed to yield, the required strength shall be based on 1.5Sy of the yielding portion of the connection.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-18.5.2.4-H1",
     "type": "heading",
     "source": {
@@ -1217,10 +1622,10 @@
       "citation": "Section 18.5.2.4",
       "page": 2
     },
-    "title": "18.5.2.4 In structures assigned to SDC D, E, or F, wall piers shall be designed in accordance with 18.10.8 or 18.14.",
+    "title": "18.5.2.4",
     "description": "",
     "data": {
-      "rule": "18.5.2.4 In structures assigned to SDC D, E, or F, wall piers shall be designed in accordance with 18.10.8 or 18.14.",
+      "rule": "18.5.2.4",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1233,6 +1638,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-18.5.2.4-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-18.5.2.4-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 14,
+      "section": "18.5.2.4",
+      "citation": "Section 18.5.2.4",
+      "page": 2
+    },
+    "title": "In structures assigned to SDC D, E, or F, wall piers shall be designed in accordance with 18.10.8 or 18.14.",
+    "description": "",
+    "data": {
+      "rule": "In structures assigned to SDC D, E, or F, wall piers shall be designed in accordance with 18.10.8 or 18.14.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-14.2.2.5-T1",
@@ -1273,68 +1705,10 @@
       "citation": "Section 18.11.2.1",
       "page": 2
     },
-    "title": "18.11.2.1 Special structural walls constructed using precast concrete shall satisfy 18.10 in addition to 18.5.2 as modified by Section 14.2.2 of ASCE 7, except 18.10.2.4 shall not apply for precast wa",
+    "title": "18.11.2.1",
     "description": "",
     "data": {
-      "rule": "18.11.2.1 Special structural walls constructed using precast concrete shall satisfy 18.10 in addition to 18.5.2 as modified by Section 14.2.2 of ASCE 7, except 18.10.2.4 shall not apply for precast walls where deformation demands are concentrated at the panel joints.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [
-      "ASCE7-22-14.2.2-H1"
-    ],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-14.2.2.6-H1",
-    "type": "heading",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 14,
-      "section": "14.2.2.6",
-      "citation": "Section 14.2.2.6",
-      "page": 2
-    },
-    "title": "14.2.2.6 Foundations Modify ACI 318, Section 18.13.1.1, to read as follows:",
-    "description": "",
-    "data": {
-      "rule": "14.2.2.6 Foundations Modify ACI 318, Section 18.13.1.1, to read as follows:",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [
-      "ASCE7-22-18.13.1.1-H1"
-    ],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-18.13.1.1-H1",
-    "type": "heading",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 14,
-      "section": "18.13.1.1",
-      "citation": "Section 18.13.1.1",
-      "page": 2
-    },
-    "title": "18.13.1.1 Section 18.13, as modified by Sections 12.1.5 or 12.13 of ASCE 7, shall apply to foundations resisting earthquake-induced forces or transferring earthquake-induced forces between structure a",
-    "description": "",
-    "data": {
-      "rule": "18.13.1.1 Section 18.13, as modified by Sections 12.1.5 or 12.13 of ASCE 7, shall apply to foundations resisting earthquake-induced forces or transferring earthquake-induced forces between structure and ground.",
+      "rule": "18.11.2.1",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1349,6 +1723,145 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-18.11.2.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-18.11.2.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 14,
+      "section": "18.11.2.1",
+      "citation": "Section 18.11.2.1",
+      "page": 2
+    },
+    "title": "Special structural walls constructed using precast concrete shall satisfy 18.10 in addition to 18.5.2 as modified by Section 14.2.2 of ASCE 7, except 18.10.2.4 shall not apply for precast walls where ",
+    "description": "",
+    "data": {
+      "rule": "Special structural walls constructed using precast concrete shall satisfy 18.10 in addition to 18.5.2 as modified by Section 14.2.2 of ASCE 7, except 18.10.2.4 shall not apply for precast walls where deformation demands are concentrated at the panel joints.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-14.2.2-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-14.2.2.6-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 14,
+      "section": "14.2.2.6",
+      "citation": "Section 14.2.2.6",
+      "page": 2
+    },
+    "title": "14.2.2.6 Foundations",
+    "description": "",
+    "data": {
+      "rule": "14.2.2.6 Foundations",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-14.2.2.6-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-14.2.2.6-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 14,
+      "section": "14.2.2.6",
+      "citation": "Section 14.2.2.6",
+      "page": 2
+    },
+    "title": "Modify ACI 318, Section 18.13.1.1, to read as follows:",
+    "description": "",
+    "data": {
+      "rule": "Modify ACI 318, Section 18.13.1.1, to read as follows:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-18.13.1.1-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-18.13.1.1-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 14,
+      "section": "18.13.1.1",
+      "citation": "Section 18.13.1.1",
+      "page": 2
+    },
+    "title": "18.13.1.1",
+    "description": "",
+    "data": {
+      "rule": "18.13.1.1",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-18.13.1.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-18.13.1.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 14,
+      "section": "18.13.1.1",
+      "citation": "Section 18.13.1.1",
+      "page": 2
+    },
+    "title": "Section 18.13, as modified by Sections 12.1.5 or 12.13 of ASCE 7, shall apply to foundations resisting earthquake-induced forces or transferring earthquake-induced forces between structure and ground.",
+    "description": "",
+    "data": {
+      "rule": "Section 18.13, as modified by Sections 12.1.5 or 12.13 of ASCE 7, shall apply to foundations resisting earthquake-induced forces or transferring earthquake-induced forces between structure and ground.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-14.2.2.7-H1",
     "type": "heading",
     "source": {
@@ -1358,10 +1871,38 @@
       "citation": "Section 14.2.2.7",
       "page": 2
     },
-    "title": "14.2.2.7 Detailed Plain Concrete Shear Walls Modify ACI 318, Section 14.6, by adding a new Section 14.6.2 to read:",
+    "title": "14.2.2.7 Detailed Plain Concrete Shear Walls",
     "description": "",
     "data": {
-      "rule": "14.2.2.7 Detailed Plain Concrete Shear Walls Modify ACI 318, Section 14.6, by adding a new Section 14.6.2 to read:",
+      "rule": "14.2.2.7 Detailed Plain Concrete Shear Walls",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-14.2.2.7-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-14.2.2.7-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 14,
+      "section": "14.2.2.7",
+      "citation": "Section 14.2.2.7",
+      "page": 2
+    },
+    "title": "Modify ACI 318, Section 14.6, by adding a new Section 14.6.2 to read:",
+    "description": "",
+    "data": {
+      "rule": "Modify ACI 318, Section 14.6, by adding a new Section 14.6.2 to read:",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1374,9 +1915,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-14.6.2-H1",
@@ -1415,39 +1955,10 @@
       "citation": "Section 14.6.2.1",
       "page": 2
     },
-    "title": "14.6.2.1 Detailed plain concrete shear walls are walls conforming to the requirements for ordinary plain concrete shear walls and Section 14.6.2.2.",
+    "title": "14.6.2.1",
     "description": "",
     "data": {
-      "rule": "14.6.2.1 Detailed plain concrete shear walls are walls conforming to the requirements for ordinary plain concrete shear walls and Section 14.6.2.2.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [
-      "ASCE7-22-14.6.2.2-H1"
-    ],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-14.6.2.2-H1",
-    "type": "heading",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 14,
-      "section": "14.6.2.2",
-      "citation": "Section 14.6.2.2",
-      "page": 2
-    },
-    "title": "14.6.2.2 Reinforcement shall be provided as follows:",
-    "description": "",
-    "data": {
-      "rule": "14.6.2.2 Reinforcement shall be provided as follows:",
+      "rule": "14.6.2.1",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1460,6 +1971,89 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-14.6.2.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-14.6.2.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 14,
+      "section": "14.6.2.1",
+      "citation": "Section 14.6.2.1",
+      "page": 2
+    },
+    "title": "Detailed plain concrete shear walls are walls conforming to the requirements for ordinary plain concrete shear walls and Section 14.6.2.2.",
+    "description": "",
+    "data": {
+      "rule": "Detailed plain concrete shear walls are walls conforming to the requirements for ordinary plain concrete shear walls and Section 14.6.2.2.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-14.6.2.2-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-14.6.2.2-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 14,
+      "section": "14.6.2.2",
+      "citation": "Section 14.6.2.2",
+      "page": 2
+    },
+    "title": "14.6.2.2",
+    "description": "",
+    "data": {
+      "rule": "14.6.2.2",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-14.6.2.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-14.6.2.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 14,
+      "section": "14.6.2.2",
+      "citation": "Section 14.6.2.2",
+      "page": 2
+    },
+    "title": "Reinforcement shall be provided as follows:",
+    "description": "",
+    "data": {
+      "rule": "Reinforcement shall be provided as follows:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-14.6.2.2-P1",
@@ -1516,7 +2110,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-14.6.2.2-T1",
+    "id": "ASCE7-22-14.6.2.2-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1543,7 +2137,7 @@
     "parent_id": "ASCE7-22-14.6.2.2-H1"
   },
   {
-    "id": "ASCE7-22-14.6.2.2-T2",
+    "id": "ASCE7-22-14.6.2.2-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1570,7 +2164,7 @@
     "parent_id": "ASCE7-22-14.6.2.2-H1"
   },
   {
-    "id": "ASCE7-22-14.6.2.2-T3",
+    "id": "ASCE7-22-14.6.2.2-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1633,10 +2227,10 @@
       "citation": "Section 14.3",
       "page": 3
     },
-    "title": "14.3 COMPOSITE STEEL AND CONCRETE STRUCTURES",
+    "title": "14.3",
     "description": "",
     "data": {
-      "rule": "14.3 COMPOSITE STEEL AND CONCRETE STRUCTURES",
+      "rule": "14.3",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1649,6 +2243,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-14.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-14.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 14,
+      "section": "14.3",
+      "citation": "Section 14.3",
+      "page": 3
+    },
+    "title": "COMPOSITE STEEL AND CONCRETE STRUCTURES",
+    "description": "",
+    "data": {
+      "rule": "COMPOSITE STEEL AND CONCRETE STRUCTURES",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-14.3-P1",
@@ -1687,10 +2308,10 @@
       "citation": "Section 14.3.1",
       "page": 3
     },
-    "title": "14.3.1 Reference Documents The design, construction, and quality of composite steel and concrete members that resist seismic forces shall conform to the applicable requirements of AISC 341, AISC 360, ",
+    "title": "14.3.1 Reference Documents",
     "description": "",
     "data": {
-      "rule": "14.3.1 Reference Documents The design, construction, and quality of composite steel and concrete members that resist seismic forces shall conform to the applicable requirements of AISC 341, AISC 360, and ACI 318, excluding Chapter 14.",
+      "rule": "14.3.1 Reference Documents",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1703,6 +2324,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-14.3.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-14.3.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 14,
+      "section": "14.3.1",
+      "citation": "Section 14.3.1",
+      "page": 3
+    },
+    "title": "The design, construction, and quality of composite steel and concrete members that resist seismic forces shall conform to the applicable requirements of AISC 341, AISC 360, and ACI 318, excluding Chap",
+    "description": "",
+    "data": {
+      "rule": "The design, construction, and quality of composite steel and concrete members that resist seismic forces shall conform to the applicable requirements of AISC 341, AISC 360, and ACI 318, excluding Chapter 14.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-14.3.2-H1",
@@ -1714,39 +2362,10 @@
       "citation": "Section 14.3.2",
       "page": 3
     },
-    "title": "14.3.2 General Systems of structural steel acting compositely with reinforced concrete shall be designed in accordance with AISC 360 and ACI 318, excluding Chapter 14. Where required, the seismic desi",
+    "title": "14.3.2 General",
     "description": "",
     "data": {
-      "rule": "14.3.2 General Systems of structural steel acting compositely with reinforced concrete shall be designed in accordance with AISC 360 and ACI 318, excluding Chapter 14. Where required, the seismic design of composite steel and concrete systems shall be in accordance with the additional provisions of Section 14.3.3.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [
-      "ASCE7-22-14.3.3-H1"
-    ],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-14.3.3-H1",
-    "type": "heading",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 14,
-      "section": "14.3.3",
-      "citation": "Section 14.3.3",
-      "page": 3
-    },
-    "title": "14.3.3 Seismic Requirements for Composite Steel and Concrete Structures Where a response modi fi cation coef fi cient, R , in accordance with Table 12.2-1 is used for the design of systems of structur",
-    "description": "",
-    "data": {
-      "rule": "14.3.3 Seismic Requirements for Composite Steel and Concrete Structures Where a response modi fi cation coef fi cient, R , in accordance with Table 12.2-1 is used for the design of systems of structural steel acting compositely with reinforced concrete, the structures shall be designed and detailed in accordance with the requirements of AISC 341.",
+      "rule": "14.3.2 General",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1759,6 +2378,89 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-14.3.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-14.3.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 14,
+      "section": "14.3.2",
+      "citation": "Section 14.3.2",
+      "page": 3
+    },
+    "title": "Systems of structural steel acting compositely with reinforced concrete shall be designed in accordance with AISC 360 and ACI 318, excluding Chapter 14. Where required, the seismic design of composite",
+    "description": "",
+    "data": {
+      "rule": "Systems of structural steel acting compositely with reinforced concrete shall be designed in accordance with AISC 360 and ACI 318, excluding Chapter 14. Where required, the seismic design of composite steel and concrete systems shall be in accordance with the additional provisions of Section 14.3.3.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-14.3.3-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-14.3.3-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 14,
+      "section": "14.3.3",
+      "citation": "Section 14.3.3",
+      "page": 3
+    },
+    "title": "14.3.3 Seismic",
+    "description": "",
+    "data": {
+      "rule": "14.3.3 Seismic",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-14.3.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-14.3.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 14,
+      "section": "14.3.3",
+      "citation": "Section 14.3.3",
+      "page": 3
+    },
+    "title": "Requirements for Composite Steel and Concrete Structures Where a response modi fi cation coef fi cient, R , in accordance with Table 12.2-1 is used for the design of systems of structural steel acting",
+    "description": "",
+    "data": {
+      "rule": "Requirements for Composite Steel and Concrete Structures Where a response modi fi cation coef fi cient, R , in accordance with Table 12.2-1 is used for the design of systems of structural steel acting compositely with reinforced concrete, the structures shall be designed and detailed in accordance with the requirements of AISC 341.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-14.3.4-P1",
@@ -1851,39 +2553,10 @@
       "citation": "Section 14.4.1",
       "page": 3
     },
-    "title": "14.4.1 Reference Documents The design, construction, and quality assurance of masonry members that resist seismic forces shall conform to the requirements of TMS 402 and TMS 602, except as modi fi ed ",
+    "title": "14.4.1 Reference Documents",
     "description": "",
     "data": {
-      "rule": "14.4.1 Reference Documents The design, construction, and quality assurance of masonry members that resist seismic forces shall conform to the requirements of TMS 402 and TMS 602, except as modi fi ed by Section 14.4.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [
-      "ASCE7-22-14.4-H1"
-    ],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-14.4.2-H1",
-    "type": "heading",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 14,
-      "section": "14.4.2",
-      "citation": "Section 14.4.2",
-      "page": 3
-    },
-    "title": "14.4.2 R Factors To qualify for the response modi fi cation coef fi cients, R , set forth in this standard, the requirements of TMS 402 and TMS 602, as amended in subsequent sections, shall be satis f",
-    "description": "",
-    "data": {
-      "rule": "14.4.2 R Factors To qualify for the response modi fi cation coef fi cients, R , set forth in this standard, the requirements of TMS 402 and TMS 602, as amended in subsequent sections, shall be satis fi ed.",
+      "rule": "14.4.1 Reference Documents",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1896,6 +2569,89 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-14.4.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-14.4.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 14,
+      "section": "14.4.1",
+      "citation": "Section 14.4.1",
+      "page": 3
+    },
+    "title": "The design, construction, and quality assurance of masonry members that resist seismic forces shall conform to the requirements of TMS 402 and TMS 602, except as modi fi ed by Section 14.4.",
+    "description": "",
+    "data": {
+      "rule": "The design, construction, and quality assurance of masonry members that resist seismic forces shall conform to the requirements of TMS 402 and TMS 602, except as modi fi ed by Section 14.4.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-14.4-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-14.4.2-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 14,
+      "section": "14.4.2",
+      "citation": "Section 14.4.2",
+      "page": 3
+    },
+    "title": "14.4.2 R Factors",
+    "description": "",
+    "data": {
+      "rule": "14.4.2 R Factors",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-14.4.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-14.4.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 14,
+      "section": "14.4.2",
+      "citation": "Section 14.4.2",
+      "page": 3
+    },
+    "title": "To qualify for the response modi fi cation coef fi cients, R , set forth in this standard, the requirements of TMS 402 and TMS 602, as amended in subsequent sections, shall be satis fi ed.",
+    "description": "",
+    "data": {
+      "rule": "To qualify for the response modi fi cation coef fi cients, R , set forth in this standard, the requirements of TMS 402 and TMS 602, as amended in subsequent sections, shall be satis fi ed.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-14.4.2-P1",
@@ -1963,39 +2719,10 @@
       "citation": "Section 14.4.3.1",
       "page": 3
     },
-    "title": "14.4.3.1 Separation Joints Add the following new Section 7.5.1 to TMS 402:",
+    "title": "14.4.3.1 Separation Joints",
     "description": "",
     "data": {
-      "rule": "14.4.3.1 Separation Joints Add the following new Section 7.5.1 to TMS 402:",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [
-      "ASCE7-22-7.5.1-H1"
-    ],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-7.5.1-H1",
-    "type": "heading",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 14,
-      "section": "7.5.1",
-      "citation": "Section 7.5.1",
-      "page": 3
-    },
-    "title": "7.5.1 Separation Joints Where concrete abuts structural masonry and the joint between the materials is not designed as a separation joint, the concrete shall be roughened so that the average height of",
-    "description": "",
-    "data": {
-      "rule": "7.5.1 Separation Joints Where concrete abuts structural masonry and the joint between the materials is not designed as a separation joint, the concrete shall be roughened so that the average height of aggregate exposure is 0.125 in. (3 mm) and shall be bonded to the masonry in accordance with these requirements as if it were masonry. Vertical joints not intended to act as separation joints shall be crossed by horizontal reinforcement as required by Section 5.1.1.2.",
+      "rule": "14.4.3.1 Separation Joints",
       "conditions": [],
       "then": "",
       "else": null,
@@ -2008,6 +2735,89 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-14.4.3.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-14.4.3.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 14,
+      "section": "14.4.3.1",
+      "citation": "Section 14.4.3.1",
+      "page": 3
+    },
+    "title": "Add the following new Section 7.5.1 to TMS 402:",
+    "description": "",
+    "data": {
+      "rule": "Add the following new Section 7.5.1 to TMS 402:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-7.5.1-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-7.5.1-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 14,
+      "section": "7.5.1",
+      "citation": "Section 7.5.1",
+      "page": 3
+    },
+    "title": "7.5.1 Separation Joints",
+    "description": "",
+    "data": {
+      "rule": "7.5.1 Separation Joints",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-7.5.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-7.5.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 14,
+      "section": "7.5.1",
+      "citation": "Section 7.5.1",
+      "page": 3
+    },
+    "title": "Where concrete abuts structural masonry and the joint between the materials is not designed as a separation joint, the concrete shall be roughened so that the average height of aggregate exposure is 0",
+    "description": "",
+    "data": {
+      "rule": "Where concrete abuts structural masonry and the joint between the materials is not designed as a separation joint, the concrete shall be roughened so that the average height of aggregate exposure is 0.125 in. (3 mm) and shall be bonded to the masonry in accordance with these requirements as if it were masonry. Vertical joints not intended to act as separation joints shall be crossed by horizontal reinforcement as required by Section 5.1.1.2.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-14.4.4-H1",
@@ -2343,10 +3153,10 @@
       "citation": "Section 14.4.5",
       "page": 3
     },
-    "title": "14.4.5 Modi fi cations to Chapter 9 of TMS 402",
+    "title": "14.4.5 Modi",
     "description": "",
     "data": {
-      "rule": "14.4.5 Modi fi cations to Chapter 9 of TMS 402",
+      "rule": "14.4.5 Modi",
       "conditions": [],
       "then": "",
       "else": null,
@@ -2359,6 +3169,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-14.4.5-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-14.4.5-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 14,
+      "section": "14.4.5",
+      "citation": "Section 14.4.5",
+      "page": 3
+    },
+    "title": "fi cations to Chapter 9 of TMS 402",
+    "description": "",
+    "data": {
+      "rule": "fi cations to Chapter 9 of TMS 402",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-14.4.5.1-H1",
@@ -2370,39 +3207,10 @@
       "citation": "Section 14.4.5.1",
       "page": 3
     },
-    "title": "14.4.5.1 Anchoring to Masonry Add the following as the fi rst paragraph in TMS 402, Section 9.1.6:",
+    "title": "14.4.5.1 Anchoring to Masonry",
     "description": "",
     "data": {
-      "rule": "14.4.5.1 Anchoring to Masonry Add the following as the fi rst paragraph in TMS 402, Section 9.1.6:",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [
-      "ASCE7-22-9.1.6-H1"
-    ],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-9.1.6-H1",
-    "type": "heading",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 14,
-      "section": "9.1.6",
-      "citation": "Section 9.1.6",
-      "page": 3
-    },
-    "title": "9.1.6 Anchor Bolts Embedded in Grout Anchorage assemblies connecting masonry elements that are part of the seismic force-resisting system to diaphragms and chords shall be designed so that the strengt",
-    "description": "",
-    "data": {
-      "rule": "9.1.6 Anchor Bolts Embedded in Grout Anchorage assemblies connecting masonry elements that are part of the seismic force-resisting system to diaphragms and chords shall be designed so that the strength of the anchor is governed by steel tensile or shear yielding. Alternatively, the anchorage assembly is permitted to be designed so that it is governed by masonry breakout or anchor pullout, provided the anchorage assembly is designed to resist not less than 2.0 times the factored forces transmitted by the assembly.",
+      "rule": "14.4.5.1 Anchoring to Masonry",
       "conditions": [],
       "then": "",
       "else": null,
@@ -2415,6 +3223,89 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-14.4.5.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-14.4.5.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 14,
+      "section": "14.4.5.1",
+      "citation": "Section 14.4.5.1",
+      "page": 3
+    },
+    "title": "Add the following as the fi rst paragraph in TMS 402, Section 9.1.6:",
+    "description": "",
+    "data": {
+      "rule": "Add the following as the fi rst paragraph in TMS 402, Section 9.1.6:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-9.1.6-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-9.1.6-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 14,
+      "section": "9.1.6",
+      "citation": "Section 9.1.6",
+      "page": 3
+    },
+    "title": "9.1.6 Anchor Bolts Embedded in Grout",
+    "description": "",
+    "data": {
+      "rule": "9.1.6 Anchor Bolts Embedded in Grout",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-9.1.6-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-9.1.6-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 14,
+      "section": "9.1.6",
+      "citation": "Section 9.1.6",
+      "page": 3
+    },
+    "title": "Anchorage assemblies connecting masonry elements that are part of the seismic force-resisting system to diaphragms and chords shall be designed so that the strength of the anchor is governed by steel ",
+    "description": "",
+    "data": {
+      "rule": "Anchorage assemblies connecting masonry elements that are part of the seismic force-resisting system to diaphragms and chords shall be designed so that the strength of the anchor is governed by steel tensile or shear yielding. Alternatively, the anchorage assembly is permitted to be designed so that it is governed by masonry breakout or anchor pullout, provided the anchorage assembly is designed to resist not less than 2.0 times the factored forces transmitted by the assembly.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-14.4.5.2-T1",
@@ -2588,10 +3479,10 @@
       "citation": "Section 14.4.6",
       "page": 4
     },
-    "title": "14.4.6 Modi fi cations to Chapter 12 of TMS 402",
+    "title": "14.4.6 Modi",
     "description": "",
     "data": {
-      "rule": "14.4.6 Modi fi cations to Chapter 12 of TMS 402",
+      "rule": "14.4.6 Modi",
       "conditions": [],
       "then": "",
       "else": null,
@@ -2604,6 +3495,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-14.4.6-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-14.4.6-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 14,
+      "section": "14.4.6",
+      "citation": "Section 14.4.6",
+      "page": 4
+    },
+    "title": "fi cations to Chapter 12 of TMS 402",
+    "description": "",
+    "data": {
+      "rule": "fi cations to Chapter 12 of TMS 402",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-14.4.6.1-T1",
@@ -2723,10 +3641,10 @@
       "citation": "Section 14.5.1",
       "page": 4
     },
-    "title": "14.5.1 Reference Documents The quality, testing, design, and construction of members and their fastenings in wood systems that resist seismic forces shall conform to the requirements of the applicable",
+    "title": "14.5.1 Reference Documents",
     "description": "",
     "data": {
-      "rule": "14.5.1 Reference Documents The quality, testing, design, and construction of members and their fastenings in wood systems that resist seismic forces shall conform to the requirements of the applicable following reference documents: AWC NDS and AWC SDPWS.",
+      "rule": "14.5.1 Reference Documents",
       "conditions": [],
       "then": "",
       "else": null,
@@ -2741,6 +3659,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-14.5.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-14.5.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 14,
+      "section": "14.5.1",
+      "citation": "Section 14.5.1",
+      "page": 4
+    },
+    "title": "The quality, testing, design, and construction of members and their fastenings in wood systems that resist seismic forces shall conform to the requirements of the applicable following reference docume",
+    "description": "",
+    "data": {
+      "rule": "The quality, testing, design, and construction of members and their fastenings in wood systems that resist seismic forces shall conform to the requirements of the applicable following reference documents: AWC NDS and AWC SDPWS.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-14.6-H1",
     "type": "heading",
     "source": {
@@ -2750,10 +3695,10 @@
       "citation": "Section 14.6",
       "page": 4
     },
-    "title": "14.6 CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
+    "title": "14.6",
     "description": "",
     "data": {
-      "rule": "14.6 CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
+      "rule": "14.6",
       "conditions": [],
       "then": "",
       "else": null,
@@ -2766,6 +3711,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-14.6-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-14.6-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 14,
+      "section": "14.6",
+      "citation": "Section 14.6",
+      "page": 4
+    },
+    "title": "CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
+    "description": "",
+    "data": {
+      "rule": "CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-14.6-P1",

@@ -4511,13 +4511,13 @@
     "data": {
       "expression": "c = Turbulence intensity factor in Equation (26.11-7)",
       "parameters": {
-        "factor": {
-          "description": "1.8 -0.01 B , B < 100 ft ( B < 30.5 m), or 0.8, B \u2265 100 ft ( B \u2265 30.5 m);",
-          "source": "ASCE7-22-28.3.7-T54"
-        },
         "c": {
           "description": "Distance from the neutral axis of a fl exural member to the fi ber of maximum compressive strain, in. (mm)",
           "source": "ASCE7-22-11.3-T25"
+        },
+        "factor": {
+          "description": "1.8 -0.01 B , B < 100 ft ( B < 30.5 m), or 0.8, B \u2265 100 ft ( B \u2265 30.5 m);",
+          "source": "ASCE7-22-28.3.7-T54"
         }
       }
     },
@@ -4544,13 +4544,13 @@
     "data": {
       "expression": "gQ = Peak factor for background response in Equations (26.11-6)",
       "parameters": {
-        "factor": {
-          "description": "1.8 -0.01 B , B < 100 ft ( B < 30.5 m), or 0.8, B \u2265 100 ft ( B \u2265 30.5 m);",
-          "source": "ASCE7-22-28.3.7-T54"
-        },
         "gQ": {
           "description": "Peak factor for background response in Equations (26.11-6) and (26.11-10)",
           "source": "ASCE7-22-26.3-T46"
+        },
+        "factor": {
+          "description": "1.8 -0.01 B , B < 100 ft ( B < 30.5 m), or 0.8, B \u2265 100 ft ( B \u2265 30.5 m);",
+          "source": "ASCE7-22-28.3.7-T54"
         }
       }
     },
@@ -4577,13 +4577,13 @@
     "data": {
       "expression": "gQ = Peak factor for background response in Equations (26.11-6) and (26.11-10)",
       "parameters": {
-        "factor": {
-          "description": "1.8 -0.01 B , B < 100 ft ( B < 30.5 m), or 0.8, B \u2265 100 ft ( B \u2265 30.5 m);",
-          "source": "ASCE7-22-28.3.7-T54"
-        },
         "gQ": {
           "description": "Peak factor for background response in Equations (26.11-6) and (26.11-10)",
           "source": "ASCE7-22-26.3-T46"
+        },
+        "factor": {
+          "description": "1.8 -0.01 B , B < 100 ft ( B < 30.5 m), or 0.8, B \u2265 100 ft ( B \u2265 30.5 m);",
+          "source": "ASCE7-22-28.3.7-T54"
         }
       }
     },
@@ -6253,13 +6253,13 @@
     "data": {
       "expression": "Q = Background response factor from Equation (26.11-8)",
       "parameters": {
-        "Q": {
-          "description": "Background response factor from Equation (26.11-8)",
-          "source": "ASCE7-22-26.3-T80"
-        },
         "factor": {
           "description": "1.8 -0.01 B , B < 100 ft ( B < 30.5 m), or 0.8, B \u2265 100 ft ( B \u2265 30.5 m);",
           "source": "ASCE7-22-28.3.7-T54"
+        },
+        "Q": {
+          "description": "Background response factor from Equation (26.11-8)",
+          "source": "ASCE7-22-26.3-T80"
         }
       }
     },
@@ -6319,13 +6319,13 @@
     "data": {
       "expression": "Ri = Reduction factor from Equation (26.13-1)",
       "parameters": {
-        "factor": {
-          "description": "1.8 -0.01 B , B < 100 ft ( B < 30.5 m), or 0.8, B \u2265 100 ft ( B \u2265 30.5 m);",
-          "source": "ASCE7-22-28.3.7-T54"
-        },
         "Ri": {
           "description": "Reduction factor from Equation (26.13-1)",
           "source": "ASCE7-22-26.3-T88"
+        },
+        "factor": {
+          "description": "1.8 -0.01 B , B < 100 ft ( B < 30.5 m), or 0.8, B \u2265 100 ft ( B \u2265 30.5 m);",
+          "source": "ASCE7-22-28.3.7-T54"
         }
       }
     },
@@ -9740,10 +9740,6 @@
     "data": {
       "expression": "L eff = i X = n 1 (26.11-1)",
       "parameters": {
-        "i": {
-          "description": "Building level referred to by a subscript i ;",
-          "source": "ASCE7-22-11.3-T59"
-        },
         "L": {
           "description": "Inside length of a rectangular tank, parallel to the direction of the earthquake force being investigated;",
           "source": "ASCE7-22-15.7.6.2-T3"
@@ -9751,6 +9747,10 @@
         "n": {
           "description": "Number of shear walls in the building effective in resisting lateral forces in the direction under consideration;",
           "source": "ASCE7-22-26.11.3-T22"
+        },
+        "i": {
+          "description": "Building level referred to by a subscript i ;",
+          "source": "ASCE7-22-11.3-T59"
         }
       }
     },
@@ -9781,13 +9781,13 @@
           "description": "Number of shear walls in the building effective in resisting lateral forces in the direction under consideration;",
           "source": "ASCE7-22-26.11.3-T22"
         },
-        "i": {
-          "description": "Building level referred to by a subscript i ;",
-          "source": "ASCE7-22-11.3-T59"
-        },
         "h": {
           "description": "Height of a shear wall measured as the maximum clear height from top of foundation to bottom of diaphragm framing above, or the maximum clear height from top of diaphragm to bottom of diaphragm framing above",
           "source": "ASCE7-22-11.3-T49"
+        },
+        "i": {
+          "description": "Building level referred to by a subscript i ;",
+          "source": "ASCE7-22-11.3-T59"
         }
       }
     },
@@ -9814,17 +9814,17 @@
     "data": {
       "expression": "26.11.3 Approximate Natural Frequency The approximate n a =43.5\u2215h0.9 (26.11-3)",
       "parameters": {
-        "a": {
-          "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
-          "source": "ASCE7-22-28.3.7-T22"
+        "n": {
+          "description": "Number of shear walls in the building effective in resisting lateral forces in the direction under consideration;",
+          "source": "ASCE7-22-26.11.3-T22"
         },
         "h": {
           "description": "Height of a shear wall measured as the maximum clear height from top of foundation to bottom of diaphragm framing above, or the maximum clear height from top of diaphragm to bottom of diaphragm framing above",
           "source": "ASCE7-22-11.3-T49"
         },
-        "n": {
-          "description": "Number of shear walls in the building effective in resisting lateral forces in the direction under consideration;",
-          "source": "ASCE7-22-26.11.3-T22"
+        "a": {
+          "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
+          "source": "ASCE7-22-28.3.7-T22"
         }
       }
     },
@@ -11045,18 +11045,18 @@
     "data": {
       "expression": "ildings or other structures as defined in Section 26.2, the g R = 2ln\u00f03,600n 1 \u00de\u00fepffi 2 ffiffiffiffi l ffiffi n ffiffi \u00f0 ffiffi 3 ffiffi , ffi 6 ffiffiffi 0 ffiffi 0 ffiffiffi n ffiffiffiffi \u00de ffiffi (26.11-11)",
       "parameters": {
-        "g": {
-          "description": "Acceleration caused by gravity [in : \u2215 s 2 (mm \u2215 s 2 )] if the units of the displacement DM are in in. (mm);",
-          "source": "ASCE7-22-17.5.3.1-T2"
+        "n": {
+          "description": "Number of shear walls in the building effective in resisting lateral forces in the direction under consideration;",
+          "source": "ASCE7-22-26.11.3-T22"
         },
         "l": {
           "description": "Integral length scale factor from Table 26.11-1",
           "unit": "ft",
           "source": "ASCE7-22-26.3-T71"
         },
-        "n": {
-          "description": "Number of shear walls in the building effective in resisting lateral forces in the direction under consideration;",
-          "source": "ASCE7-22-26.11.3-T22"
+        "g": {
+          "description": "Acceleration caused by gravity [in : \u2215 s 2 (mm \u2215 s 2 )] if the units of the displacement DM are in in. (mm);",
+          "source": "ASCE7-22-17.5.3.1-T2"
         },
         "R": {
           "description": "Response modi fi cation factor for the building or nonbuilding structure supporting the component, from Table 12.2-1, 15.4-1, or 15.4-2; and",
@@ -11616,26 +11616,26 @@
     "data": {
       "expression": "\u03b7 =4.6n B\u2215V (26.11-15b)",
       "parameters": {
-        "\u03b7": {
-          "description": "Free surface elevation as a function of time, t , used to drive the offshore boundary condition at the 328 ft (100 m) depth contour",
-          "source": "ASCE7-22-6.3-T100"
+        "V": {
+          "description": "Basic wind speed obtained from Figures 26.5-1A through 26.5-1D, mi/h (m/s); the basic wind speed corresponds to a 3 s gust speed at 33 ft (10 m) above the ground in Exposure Category C",
+          "source": "ASCE7-22-26.3-T94"
         },
         "n": {
           "description": "Number of shear walls in the building effective in resisting lateral forces in the direction under consideration;",
           "source": "ASCE7-22-26.11.3-T22"
+        },
+        "b": {
+          "description": "Shortest plan dimension of the structure [ft (mm)] measured perpendicular to d ;",
+          "source": "ASCE7-22-17.5.3.3-T5"
         },
         "B": {
           "description": "Horizontal dimension of a building measured normal to wind direction",
           "unit": "ft",
           "source": "ASCE7-22-26.3-T14"
         },
-        "b": {
-          "description": "Shortest plan dimension of the structure [ft (mm)] measured perpendicular to d ;",
-          "source": "ASCE7-22-17.5.3.3-T5"
-        },
-        "V": {
-          "description": "Basic wind speed obtained from Figures 26.5-1A through 26.5-1D, mi/h (m/s); the basic wind speed corresponds to a 3 s gust speed at 33 ft (10 m) above the ground in Exposure Category C",
-          "source": "ASCE7-22-26.3-T94"
+        "\u03b7": {
+          "description": "Free surface elevation as a function of time, t , used to drive the offshore boundary condition at the 328 ft (100 m) depth contour",
+          "source": "ASCE7-22-6.3-T100"
         }
       }
     },

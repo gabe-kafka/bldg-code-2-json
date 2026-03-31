@@ -9,10 +9,10 @@
       "citation": "Section 16",
       "page": 1
     },
-    "title": "CHAPTER 16 NONLINEAR RESPONSE HISTORY ANALYSIS",
+    "title": "CHAPTER 16",
     "description": "",
     "data": {
-      "rule": "CHAPTER 16 NONLINEAR RESPONSE HISTORY ANALYSIS",
+      "rule": "CHAPTER 16",
       "conditions": [],
       "then": "",
       "else": null,
@@ -27,6 +27,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-16-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-16-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 16,
+      "section": "16",
+      "citation": "Section 16",
+      "page": 1
+    },
+    "title": "NONLINEAR RESPONSE HISTORY ANALYSIS",
+    "description": "",
+    "data": {
+      "rule": "NONLINEAR RESPONSE HISTORY ANALYSIS",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-16.1-H1",
     "type": "heading",
     "source": {
@@ -36,7 +63,7 @@
       "citation": "Section 16.1",
       "page": 1
     },
-    "title": "16.1 GENERAL REQUIREMENTS",
+    "title": "16.1",
     "description": "",
     "data": {
       "rule": "16.1 GENERAL REQUIREMENTS",
@@ -63,10 +90,38 @@
       "citation": "Section 16.1.1",
       "page": 1
     },
-    "title": "16.1.1 Scope It shall be permitted to use nonlinear response history analysis, in accordance with the requirements of this chapter, to demonstrate acceptable strength, stiffness, and ductility to resi",
+    "title": "16.1.1 Scope",
     "description": "",
     "data": {
-      "rule": "16.1.1 Scope It shall be permitted to use nonlinear response history analysis, in accordance with the requirements of this chapter, to demonstrate acceptable strength, stiffness, and ductility to resist maximum considered earthquake (MCER) shaking with acceptable performance. When nonlinear response history analysis is performed, the design shall also satisfy the requirements of Section 16.1.2. Nonlinear response history analysis shall include the effects of horizontal motion, and where required by Section 16.1.3, vertical motion. Documentation of the design and analysis shall be prepared in accordance with Section 16.1.4. Ground motion acceleration histories shall be selected and modi fi ed in accordance with the procedures of Section 16.2. The structure shall be modeled and analyzed in accordance with the criteria in Section 16.3. Analysis results shall meet the acceptance criteria of Section 16.4. Independent structural design review shall be performed in accordance with the requirements of Section 16.5.",
+      "rule": "16.1.1 Scope",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-16.1.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-16.1.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 16,
+      "section": "16.1.1",
+      "citation": "Section 16.1.1",
+      "page": 1
+    },
+    "title": "It shall be permitted to use nonlinear response history analysis, in accordance with the requirements of this chapter, to demonstrate acceptable strength, stiffness, and ductility to resist maximum co",
+    "description": "",
+    "data": {
+      "rule": "It shall be permitted to use nonlinear response history analysis, in accordance with the requirements of this chapter, to demonstrate acceptable strength, stiffness, and ductility to resist maximum considered earthquake (MCER) shaking with acceptable performance. When nonlinear response history analysis is performed, the design shall also satisfy the requirements of Section 16.1.2. Nonlinear response history analysis shall include the effects of horizontal motion, and where required by Section 16.1.3, vertical motion. Documentation of the design and analysis shall be prepared in accordance with Section 16.1.4. Ground motion acceleration histories shall be selected and modi fi ed in accordance with the procedures of Section 16.2. The structure shall be modeled and analyzed in accordance with the criteria in Section 16.3. Analysis results shall meet the acceptance criteria of Section 16.4. Independent structural design review shall be performed in accordance with the requirements of Section 16.5.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -84,9 +139,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-16.1.2-H1",
@@ -98,10 +152,10 @@
       "citation": "Section 16.1.2",
       "page": 1
     },
-    "title": "16.1.2 Linear Analysis In addition to nonlinear response history analysis, a linear analysis in accordance with one of the applicable procedures of Chapter 12 shall also be performed. The structure ' ",
+    "title": "16.1.2 Linear Analysis",
     "description": "",
     "data": {
-      "rule": "16.1.2 Linear Analysis In addition to nonlinear response history analysis, a linear analysis in accordance with one of the applicable procedures of Chapter 12 shall also be performed. The structure ' s design shall meet all applicable criteria of Chapter 12.",
+      "rule": "16.1.2 Linear Analysis",
       "conditions": [],
       "then": "",
       "else": null,
@@ -114,6 +168,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-16.1.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-16.1.2-H2",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 16,
+      "section": "16.1.2",
+      "citation": "Section 16.1.2",
+      "page": 1
+    },
+    "title": "In addition to nonlinear response history analysis, a linear analysis in accordance with one of the applicable procedures of Chapter 12 shall also be performed. The structure ' s design shall meet all",
+    "description": "",
+    "data": {
+      "rule": "In addition to nonlinear response history analysis, a linear analysis in accordance with one of the applicable procedures of Chapter 12 shall also be performed. The structure ' s design shall meet all applicable criteria of Chapter 12.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-16.1.2-H2",
@@ -348,10 +429,10 @@
       "citation": "Section 16.1.4",
       "page": 1
     },
-    "title": "16.1.4 Documentation Before performing the nonlinear analysis, project-speci fi c design criteria shall be approved by the independent structural design reviewer(s) and the Authority",
+    "title": "16.1.4 Documentation",
     "description": "",
     "data": {
-      "rule": "16.1.4 Documentation Before performing the nonlinear analysis, project-speci fi c design criteria shall be approved by the independent structural design reviewer(s) and the Authority",
+      "rule": "16.1.4 Documentation",
       "conditions": [],
       "then": "",
       "else": null,
@@ -364,6 +445,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-16.1.4-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-16.1.4-H2",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 16,
+      "section": "16.1.4",
+      "citation": "Section 16.1.4",
+      "page": 1
+    },
+    "title": "Before performing the nonlinear analysis, project-speci fi c design criteria shall be approved by the independent structural design reviewer(s) and the Authority",
+    "description": "",
+    "data": {
+      "rule": "Before performing the nonlinear analysis, project-speci fi c design criteria shall be approved by the independent structural design reviewer(s) and the Authority",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-16.1.4-H2",
@@ -393,7 +501,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-16.1.4-T1",
+    "id": "ASCE7-22-16.1.4-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -420,7 +528,7 @@
     "parent_id": "ASCE7-22-16.1.4-H2"
   },
   {
-    "id": "ASCE7-22-16.1.4-T2",
+    "id": "ASCE7-22-16.1.4-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -447,7 +555,7 @@
     "parent_id": "ASCE7-22-16.1.4-H2"
   },
   {
-    "id": "ASCE7-22-16.1.4-T3",
+    "id": "ASCE7-22-16.1.4-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -474,7 +582,7 @@
     "parent_id": "ASCE7-22-16.1.4-H2"
   },
   {
-    "id": "ASCE7-22-16.1.4-T4",
+    "id": "ASCE7-22-16.1.4-T5",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -501,7 +609,7 @@
     "parent_id": "ASCE7-22-16.1.4-H2"
   },
   {
-    "id": "ASCE7-22-16.1.4-T5",
+    "id": "ASCE7-22-16.1.4-T6",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -555,7 +663,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-16.1.4-T6",
+    "id": "ASCE7-22-16.1.4-T7",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -609,7 +717,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-16.1.4-T7",
+    "id": "ASCE7-22-16.1.4-T8",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -636,7 +744,7 @@
     "parent_id": "ASCE7-22-16.1.4-H2"
   },
   {
-    "id": "ASCE7-22-16.1.4-T8",
+    "id": "ASCE7-22-16.1.4-T9",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -663,7 +771,7 @@
     "parent_id": "ASCE7-22-16.1.4-H2"
   },
   {
-    "id": "ASCE7-22-16.1.4-T9",
+    "id": "ASCE7-22-16.1.4-T10",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -692,7 +800,7 @@
     "parent_id": "ASCE7-22-16.1.4-H2"
   },
   {
-    "id": "ASCE7-22-16.1.4-T10",
+    "id": "ASCE7-22-16.1.4-T11",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -728,7 +836,7 @@
       "citation": "Section 16.2",
       "page": 1
     },
-    "title": "16.2 GROUND MOTIONS",
+    "title": "16.2",
     "description": "",
     "data": {
       "rule": "16.2 GROUND MOTIONS",
@@ -839,10 +947,10 @@
       "citation": "Section 16.2.1.1",
       "page": 2
     },
-    "title": "16.2.1.1 Method 1 A single target response spectrum shall be developed, based on the requirements of either Section 11.4.6 or Section 11.4.7.",
+    "title": "16.2.1.1 Method 1",
     "description": "",
     "data": {
-      "rule": "16.2.1.1 Method 1 A single target response spectrum shall be developed, based on the requirements of either Section 11.4.6 or Section 11.4.7.",
+      "rule": "16.2.1.1 Method 1",
       "conditions": [],
       "then": "",
       "else": null,
@@ -857,6 +965,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-16.2.1.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-16.2.1.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 16,
+      "section": "16.2.1.1",
+      "citation": "Section 16.2.1.1",
+      "page": 2
+    },
+    "title": "A single target response spectrum shall be developed, based on the requirements of either Section 11.4.6 or Section 11.4.7.",
+    "description": "",
+    "data": {
+      "rule": "A single target response spectrum shall be developed, based on the requirements of either Section 11.4.6 or Section 11.4.7.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-16.2.1.2-H1",
     "type": "heading",
     "source": {
@@ -866,10 +1001,10 @@
       "citation": "Section 16.2.1.2",
       "page": 2
     },
-    "title": "16.2.1.2 Method 2 Two or more site-speci fi c target response spectra shall be developed. When this method is used, the following requirements shall be ful fi lled, in addition to the other requiremen",
+    "title": "16.2.1.2 Method 2",
     "description": "",
     "data": {
-      "rule": "16.2.1.2 Method 2 Two or more site-speci fi c target response spectra shall be developed. When this method is used, the following requirements shall be ful fi lled, in addition to the other requirements of this chapter:",
+      "rule": "16.2.1.2 Method 2",
       "conditions": [],
       "then": "",
       "else": null,
@@ -882,6 +1017,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-16.2.1.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-16.2.1.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 16,
+      "section": "16.2.1.2",
+      "citation": "Section 16.2.1.2",
+      "page": 2
+    },
+    "title": "Two or more site-speci fi c target response spectra shall be developed. When this method is used, the following requirements shall be ful fi lled, in addition to the other requirements of this chapter",
+    "description": "",
+    "data": {
+      "rule": "Two or more site-speci fi c target response spectra shall be developed. When this method is used, the following requirements shall be ful fi lled, in addition to the other requirements of this chapter:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-16.2.1.2-P1",
@@ -1040,10 +1202,10 @@
       "citation": "Section 16.2.2",
       "page": 2
     },
-    "title": "16.2.2 Ground Motion Selection A suite of not less than 11 ground motions shall be selected for each target spectrum. Ground motions shall consist of pairs of orthogonal horizontal ground motion compo",
+    "title": "16.2.2 Ground Motion Selection",
     "description": "",
     "data": {
-      "rule": "16.2.2 Ground Motion Selection A suite of not less than 11 ground motions shall be selected for each target spectrum. Ground motions shall consist of pairs of orthogonal horizontal ground motion components and, where vertical earthquake effects are considered, a single vertical ground motion component. Ground motions shall be selected from events within the same general tectonic regime and having generally consistent magnitudes and fault distances as those controlling the target spectrum and shall have a spectral shape similar to the target spectrum. For near-fault sites, as de fi ned in Section 11.4.1, and other sites where MCER shaking can exhibit directionality and impulsive characteristics, the proportion of ground motions with near-fault and rupture directivity effects shall represent the probability that MCER shaking will exhibit these effects. Where the required number of recorded ground motions is not available, it shall be permitted to supplement the available records with simulated ground motions. Ground motion simulations shall be consistent with the magnitudes, source characteristics, fault distances, and site conditions controlling the target spectrum.",
+      "rule": "16.2.2 Ground Motion Selection",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1058,6 +1220,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-16.2.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-16.2.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 16,
+      "section": "16.2.2",
+      "citation": "Section 16.2.2",
+      "page": 2
+    },
+    "title": "A suite of not less than 11 ground motions shall be selected for each target spectrum. Ground motions shall consist of pairs of orthogonal horizontal ground motion components and, where vertical earth",
+    "description": "",
+    "data": {
+      "rule": "A suite of not less than 11 ground motions shall be selected for each target spectrum. Ground motions shall consist of pairs of orthogonal horizontal ground motion components and, where vertical earthquake effects are considered, a single vertical ground motion component. Ground motions shall be selected from events within the same general tectonic regime and having generally consistent magnitudes and fault distances as those controlling the target spectrum and shall have a spectral shape similar to the target spectrum. For near-fault sites, as de fi ned in Section 11.4.1, and other sites where MCER shaking can exhibit directionality and impulsive characteristics, the proportion of ground motions with near-fault and rupture directivity effects shall represent the probability that MCER shaking will exhibit these effects. Where the required number of recorded ground motions is not available, it shall be permitted to supplement the available records with simulated ground motions. Ground motion simulations shall be consistent with the magnitudes, source characteristics, fault distances, and site conditions controlling the target spectrum.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-16.2.3-H1",
     "type": "heading",
     "source": {
@@ -1067,10 +1256,38 @@
       "citation": "Section 16.2.3",
       "page": 2
     },
-    "title": "16.2.3 Ground Motion Modi fi cation Ground motions shall either be amplitude-scaled in accordance with the requirements of Section 16.2.3.2 or spectrally matched in accordance with the requirements of",
+    "title": "16.2.3 Ground Motion Modi",
     "description": "",
     "data": {
-      "rule": "16.2.3 Ground Motion Modi fi cation Ground motions shall either be amplitude-scaled in accordance with the requirements of Section 16.2.3.2 or spectrally matched in accordance with the requirements of Section 16.2.3.3. Spectral matching shall not be used for near-fault sites unless the pulse characteristics of the ground motions are retained after the matching process has been completed.",
+      "rule": "16.2.3 Ground Motion Modi",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-16.2.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-16.2.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 16,
+      "section": "16.2.3",
+      "citation": "Section 16.2.3",
+      "page": 2
+    },
+    "title": "fi cation Ground motions shall either be amplitude-scaled in accordance with the requirements of Section 16.2.3.2 or spectrally matched in accordance with the requirements of Section 16.2.3.3. Spectra",
+    "description": "",
+    "data": {
+      "rule": "fi cation Ground motions shall either be amplitude-scaled in accordance with the requirements of Section 16.2.3.2 or spectrally matched in accordance with the requirements of Section 16.2.3.3. Spectral matching shall not be used for near-fault sites unless the pulse characteristics of the ground motions are retained after the matching process has been completed.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1083,9 +1300,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-16.2.3.1-H1",
@@ -1097,10 +1313,10 @@
       "citation": "Section 16.2.3.1",
       "page": 2
     },
-    "title": "16.2.3.1 Period Range for Scaling or Matching Aperiod range shall be determined, corresponding to the vibration periods that contribute signi fi cantly to the building ' s lateral dynamic response. Th",
+    "title": "16.2.3.1 Period Range for Scaling or Matching",
     "description": "",
     "data": {
-      "rule": "16.2.3.1 Period Range for Scaling or Matching Aperiod range shall be determined, corresponding to the vibration periods that contribute signi fi cantly to the building ' s lateral dynamic response. This period range shall have an upper bound, greater than or equal to twice the largest fi rst-mode period in the principal horizontal directions of response, unless a lower value, not less than 1.5 times the largest fi rst-mode period, is justi fi ed by dynamic analysis under MCER ground motions. The lower bound period shall be established such that the period range includes at least the number of elastic modes necessary to achieve 90% mass participation in each principal horizontal direction. The lower bound period shall not exceed 20% of the smallest fi rst-mode period for the two principal horizontal directions of response. Where vertical response is considered in the analysis, the lower bound period used for modi fi cation of vertical components of ground motion need not be taken as less than the larger of 0.1 seconds, or the lowest period at which signi fi cant vertical mass participation occurs.",
+      "rule": "16.2.3.1 Period Range for Scaling or Matching",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1115,6 +1331,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-16.2.3.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-16.2.3.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 16,
+      "section": "16.2.3.1",
+      "citation": "Section 16.2.3.1",
+      "page": 2
+    },
+    "title": "Aperiod range shall be determined, corresponding to the vibration periods that contribute signi fi cantly to the building ' s lateral dynamic response. This period range shall have an upper bound, gre",
+    "description": "",
+    "data": {
+      "rule": "Aperiod range shall be determined, corresponding to the vibration periods that contribute signi fi cantly to the building ' s lateral dynamic response. This period range shall have an upper bound, greater than or equal to twice the largest fi rst-mode period in the principal horizontal directions of response, unless a lower value, not less than 1.5 times the largest fi rst-mode period, is justi fi ed by dynamic analysis under MCER ground motions. The lower bound period shall be established such that the period range includes at least the number of elastic modes necessary to achieve 90% mass participation in each principal horizontal direction. The lower bound period shall not exceed 20% of the smallest fi rst-mode period for the two principal horizontal directions of response. Where vertical response is considered in the analysis, the lower bound period used for modi fi cation of vertical components of ground motion need not be taken as less than the larger of 0.1 seconds, or the lowest period at which signi fi cant vertical mass participation occurs.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-16.2.3.2-H1",
     "type": "heading",
     "source": {
@@ -1124,10 +1367,38 @@
       "citation": "Section 16.2.3.2",
       "page": 2
     },
-    "title": "16.2.3.2 Amplitude Scaling For each horizontal ground motion pair, a maximum-direction spectrum shall be constructed from the two horizontal ground motion components. Each ground motion shall be scale",
+    "title": "16.2.3.2 Amplitude Scaling",
     "description": "",
     "data": {
-      "rule": "16.2.3.2 Amplitude Scaling For each horizontal ground motion pair, a maximum-direction spectrum shall be constructed from the two horizontal ground motion components. Each ground motion shall be scaled, with an identical scale factor applied to both horizontal components, such that the average of the maximum-direction spectra from all ground motions generally matches or exceeds the target response spectrum over the period range de fi ned in Section 16.2.3.1. The average of the maximumdirection spectra from all the ground motions shall not fall below 90% of the target response spectrum for any period within the same period range. Where vertical response is considered in the analysis, the vertical component of each ground motion shall be scaled such that the average of the vertical response spectra envelops the target vertical response spectrum over the period range speci fi ed in Section 16.2.3.1.",
+      "rule": "16.2.3.2 Amplitude Scaling",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-16.2.3.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-16.2.3.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 16,
+      "section": "16.2.3.2",
+      "citation": "Section 16.2.3.2",
+      "page": 2
+    },
+    "title": "For each horizontal ground motion pair, a maximum-direction spectrum shall be constructed from the two horizontal ground motion components. Each ground motion shall be scaled, with an identical scale ",
+    "description": "",
+    "data": {
+      "rule": "For each horizontal ground motion pair, a maximum-direction spectrum shall be constructed from the two horizontal ground motion components. Each ground motion shall be scaled, with an identical scale factor applied to both horizontal components, such that the average of the maximum-direction spectra from all ground motions generally matches or exceeds the target response spectrum over the period range de fi ned in Section 16.2.3.1. The average of the maximumdirection spectra from all the ground motions shall not fall below 90% of the target response spectrum for any period within the same period range. Where vertical response is considered in the analysis, the vertical component of each ground motion shall be scaled such that the average of the vertical response spectra envelops the target vertical response spectrum over the period range speci fi ed in Section 16.2.3.1.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1139,9 +1410,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-16.2.3.3-H1",
@@ -1153,10 +1423,38 @@
       "citation": "Section 16.2.3.3",
       "page": 2
     },
-    "title": "16.2.3.3 Spectral Matching Each pair of ground motions shall be modi fi ed such that the average of the maximum-direction spectra for the suite equals or exceeds 110% of the target spectrum over the p",
+    "title": "16.2.3.3 Spectral Matching",
     "description": "",
     "data": {
-      "rule": "16.2.3.3 Spectral Matching Each pair of ground motions shall be modi fi ed such that the average of the maximum-direction spectra for the suite equals or exceeds 110% of the target spectrum over the period range de fi ned in Section 16.2.3.1. Where vertical response is considered in the analysis, the vertical component of each ground motion shall be spectrally matched to the target vertical response spectrum, such that the average of the matched spectra does not fall below the target vertical spectrum in the scaling range of Section 16.2.3.1.",
+      "rule": "16.2.3.3 Spectral Matching",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-16.2.3.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-16.2.3.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 16,
+      "section": "16.2.3.3",
+      "citation": "Section 16.2.3.3",
+      "page": 2
+    },
+    "title": "Each pair of ground motions shall be modi fi ed such that the average of the maximum-direction spectra for the suite equals or exceeds 110% of the target spectrum over the period range de fi ned in Se",
+    "description": "",
+    "data": {
+      "rule": "Each pair of ground motions shall be modi fi ed such that the average of the maximum-direction spectra for the suite equals or exceeds 110% of the target spectrum over the period range de fi ned in Section 16.2.3.1. Where vertical response is considered in the analysis, the vertical component of each ground motion shall be spectrally matched to the target vertical response spectrum, such that the average of the matched spectra does not fall below the target vertical spectrum in the scaling range of Section 16.2.3.1.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1168,9 +1466,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-16.2.4-H1",
@@ -1182,10 +1479,38 @@
       "citation": "Section 16.2.4",
       "page": 2
     },
-    "title": "16.2.4 Application of Ground Motions to the Structural Model Ground motions shall be applied to the supports of the structural model. For near-fault sites, as de fi ned in Section 11.4.1, each pair of",
+    "title": "16.2.4 Application of Ground Motions to the Structural",
     "description": "",
     "data": {
-      "rule": "16.2.4 Application of Ground Motions to the Structural Model Ground motions shall be applied to the supports of the structural model. For near-fault sites, as de fi ned in Section 11.4.1, each pair of horizontal ground motion components representative of a nearby fault source shall be rotated to the fault-normal and fault-parallel directions of the causative fault and applied to the building in such orientation. For all other selected ground motions at near-fault sites, and for all ground motions at other sites, each pair of horizontal ground motion components shall be applied to the building at orthogonal orientations, such that the average (or mean) of the component response spectrum for the records applied in each direction is within \u00b110% of the mean of the component response spectra of all records applied for the period range speci fi ed in Section 16.2.3.1.",
+      "rule": "16.2.4 Application of Ground Motions to the Structural",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-16.2.4-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-16.2.4-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 16,
+      "section": "16.2.4",
+      "citation": "Section 16.2.4",
+      "page": 2
+    },
+    "title": "Model Ground motions shall be applied to the supports of the structural model. For near-fault sites, as de fi ned in Section 11.4.1, each pair of horizontal ground motion components representative of ",
+    "description": "",
+    "data": {
+      "rule": "Model Ground motions shall be applied to the supports of the structural model. For near-fault sites, as de fi ned in Section 11.4.1, each pair of horizontal ground motion components representative of a nearby fault source shall be rotated to the fault-normal and fault-parallel directions of the causative fault and applied to the building in such orientation. For all other selected ground motions at near-fault sites, and for all ground motions at other sites, each pair of horizontal ground motion components shall be applied to the building at orthogonal orientations, such that the average (or mean) of the component response spectrum for the records applied in each direction is within \u00b110% of the mean of the component response spectra of all records applied for the period range speci fi ed in Section 16.2.3.1.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1197,9 +1522,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-16.3-H1",
@@ -1211,7 +1535,7 @@
       "citation": "Section 16.3",
       "page": 3
     },
-    "title": "16.3 MODELING AND ANALYSIS",
+    "title": "16.3",
     "description": "",
     "data": {
       "rule": "16.3 MODELING AND ANALYSIS",
@@ -1238,10 +1562,10 @@
       "citation": "Section 16.3.1",
       "page": 3
     },
-    "title": "16.3.1 Modeling Mathematical models shall be threedimensional and shall conform to the requirements of this section and Section 12.7. For structures that have subterranean levels, the structural model",
+    "title": "16.3.1 Modeling",
     "description": "",
     "data": {
-      "rule": "16.3.1 Modeling Mathematical models shall be threedimensional and shall conform to the requirements of this section and Section 12.7. For structures that have subterranean levels, the structural model shall extend to the foundation level and ground motions shall be input at the foundation level. All elements that signi fi cantly affect seismic response when subjected to MCER ground motions shall be included. Modeling of element nonlinear hysteretic behavior shall be consistent with ASCE 41 or applicable laboratory test data. Test data shall not be extrapolated beyond tested deformationlevels. Degradationin elementstrength or stiffnessshall be included in the hysteretic models unless it can be demonstrated that response is not suf fi cient to produce these effects.",
+      "rule": "16.3.1 Modeling",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1254,6 +1578,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-16.3.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-16.3.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 16,
+      "section": "16.3.1",
+      "citation": "Section 16.3.1",
+      "page": 3
+    },
+    "title": "Mathematical models shall be threedimensional and shall conform to the requirements of this section and Section 12.7. For structures that have subterranean levels, the structural model shall extend to",
+    "description": "",
+    "data": {
+      "rule": "Mathematical models shall be threedimensional and shall conform to the requirements of this section and Section 12.7. For structures that have subterranean levels, the structural model shall extend to the foundation level and ground motions shall be input at the foundation level. All elements that signi fi cantly affect seismic response when subjected to MCER ground motions shall be included. Modeling of element nonlinear hysteretic behavior shall be consistent with ASCE 41 or applicable laboratory test data. Test data shall not be extrapolated beyond tested deformationlevels. Degradationin elementstrength or stiffnessshall be included in the hysteretic models unless it can be demonstrated that response is not suf fi cient to produce these effects.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-16.3.1-P1",
@@ -1292,10 +1643,10 @@
       "citation": "Section 16.3.2",
       "page": 3
     },
-    "title": "16.3.2 Gravity Load The modeling of, and demands on, elements in the analysis model shall be determined considering earthquake effects acting in combination with expected gravity loads, both with and ",
+    "title": "16.3.2 Gravity Load",
     "description": "",
     "data": {
-      "rule": "16.3.2 Gravity Load The modeling of, and demands on, elements in the analysis model shall be determined considering earthquake effects acting in combination with expected gravity loads, both with and without live load. Gravity loads with live load shall be taken as 1.0 D +0.5 L , where L shall be taken as 80% of unreduced live loads that exceed 100 lb \u2215 ft 2 (4.79 kN \u2215 m 2 ) and 40% of all other unreduced live loads. Gravity loads without live load shall be taken as 1.0 D .",
+      "rule": "16.3.2 Gravity Load",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1308,6 +1659,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-16.3.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-16.3.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 16,
+      "section": "16.3.2",
+      "citation": "Section 16.3.2",
+      "page": 3
+    },
+    "title": "The modeling of, and demands on, elements in the analysis model shall be determined considering earthquake effects acting in combination with expected gravity loads, both with and without live load. G",
+    "description": "",
+    "data": {
+      "rule": "The modeling of, and demands on, elements in the analysis model shall be determined considering earthquake effects acting in combination with expected gravity loads, both with and without live load. Gravity loads with live load shall be taken as 1.0 D +0.5 L , where L shall be taken as 80% of unreduced live loads that exceed 100 lb \u2215 ft 2 (4.79 kN \u2215 m 2 ) and 40% of all other unreduced live loads. Gravity loads without live load shall be taken as 1.0 D .",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-16.3.2-X1",
@@ -1353,10 +1731,10 @@
       "citation": "Section 16.3.3",
       "page": 3
     },
-    "title": "16.3.3 P-Delta Effects P-delta effects considering the spatial distribution of gravity loads shall be included in the analysis.",
+    "title": "16.3.3 P-Delta Effects",
     "description": "",
     "data": {
-      "rule": "16.3.3 P-Delta Effects P-delta effects considering the spatial distribution of gravity loads shall be included in the analysis.",
+      "rule": "16.3.3 P-Delta Effects",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1369,6 +1747,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-16.3.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-16.3.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 16,
+      "section": "16.3.3",
+      "citation": "Section 16.3.3",
+      "page": 3
+    },
+    "title": "P-delta effects considering the spatial distribution of gravity loads shall be included in the analysis.",
+    "description": "",
+    "data": {
+      "rule": "P-delta effects considering the spatial distribution of gravity loads shall be included in the analysis.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-16.3.4-H1",
@@ -1380,10 +1785,10 @@
       "citation": "Section 16.3.4",
       "page": 3
     },
-    "title": "16.3.4 Torsion Inherent eccentricity resulting from any offset in the centers of mass and stiffness at each level shall be accounted for in the analysis. In addition, where a Type 1 horizontal structu",
+    "title": "16.3.4 Torsion",
     "description": "",
     "data": {
-      "rule": "16.3.4 Torsion Inherent eccentricity resulting from any offset in the centers of mass and stiffness at each level shall be accounted for in the analysis. In addition, where a Type 1 horizontal structural irregularly exists, as de fi ned in Section 12.3.2.1, accidental eccentricity consisting of an assumed displacement of the center of mass each way from its actual location by a distance equal to 5% of the diaphragm dimension of the structure parallel to the direction of mass shift shall be considered. The required 5% displacement of the center of mass need not be applied in both orthogonal directions at the same time.",
+      "rule": "16.3.4 Torsion",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1396,6 +1801,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-16.3.4-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-16.3.4-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 16,
+      "section": "16.3.4",
+      "citation": "Section 16.3.4",
+      "page": 3
+    },
+    "title": "Inherent eccentricity resulting from any offset in the centers of mass and stiffness at each level shall be accounted for in the analysis. In addition, where a Type 1 horizontal structural irregularly",
+    "description": "",
+    "data": {
+      "rule": "Inherent eccentricity resulting from any offset in the centers of mass and stiffness at each level shall be accounted for in the analysis. In addition, where a Type 1 horizontal structural irregularly exists, as de fi ned in Section 12.3.2.1, accidental eccentricity consisting of an assumed displacement of the center of mass each way from its actual location by a distance equal to 5% of the diaphragm dimension of the structure parallel to the direction of mass shift shall be considered. The required 5% displacement of the center of mass need not be applied in both orthogonal directions at the same time.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-16.3.5-H1",
@@ -1407,10 +1839,10 @@
       "citation": "Section 16.3.5",
       "page": 3
     },
-    "title": "16.3.5 Damping Hysteretic energy dissipation of structural members shall be modeled directly. Additional inherent damping, not associated with inelastic behavior of elements, shall be modeled appropri",
+    "title": "16.3.5 Damping",
     "description": "",
     "data": {
-      "rule": "16.3.5 Damping Hysteretic energy dissipation of structural members shall be modeled directly. Additional inherent damping, not associated with inelastic behavior of elements, shall be modeled appropriate to the structure type and shall not exceed 2.5% equivalent viscous damping in the signi fi cant modes of response.",
+      "rule": "16.3.5 Damping",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1425,6 +1857,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-16.3.5-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-16.3.5-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 16,
+      "section": "16.3.5",
+      "citation": "Section 16.3.5",
+      "page": 3
+    },
+    "title": "Hysteretic energy dissipation of structural members shall be modeled directly. Additional inherent damping, not associated with inelastic behavior of elements, shall be modeled appropriate to the stru",
+    "description": "",
+    "data": {
+      "rule": "Hysteretic energy dissipation of structural members shall be modeled directly. Additional inherent damping, not associated with inelastic behavior of elements, shall be modeled appropriate to the structure type and shall not exceed 2.5% equivalent viscous damping in the signi fi cant modes of response.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-16.3.6-H1",
     "type": "heading",
     "source": {
@@ -1434,10 +1893,10 @@
       "citation": "Section 16.3.6",
       "page": 3
     },
-    "title": "16.3.6 Explicit Foundation Modeling When soil spring and/or dashpot elements are included in the structural model, horizontal input ground motions shall be applied to the horizontal soil elements rath",
+    "title": "16.3.6 Explicit Foundation Modeling",
     "description": "",
     "data": {
-      "rule": "16.3.6 Explicit Foundation Modeling When soil spring and/or dashpot elements are included in the structural model, horizontal input ground motions shall be applied to the horizontal soil elements rather than being applied to the foundation directly.",
+      "rule": "16.3.6 Explicit Foundation Modeling",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1450,6 +1909,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-16.3.6-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-16.3.6-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 16,
+      "section": "16.3.6",
+      "citation": "Section 16.3.6",
+      "page": 3
+    },
+    "title": "When soil spring and/or dashpot elements are included in the structural model, horizontal input ground motions shall be applied to the horizontal soil elements rather than being applied to the foundat",
+    "description": "",
+    "data": {
+      "rule": "When soil spring and/or dashpot elements are included in the structural model, horizontal input ground motions shall be applied to the horizontal soil elements rather than being applied to the foundation directly.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-16.4-H1",
@@ -1601,10 +2087,10 @@
       "citation": "Section 16.4.1.1",
       "page": 3
     },
-    "title": "16.4.1.1 Unacceptable Response Unacceptable response to ground motion shall consist of any of the following:",
+    "title": "16.4.1.1 Unacceptable Response",
     "description": "",
     "data": {
-      "rule": "16.4.1.1 Unacceptable Response Unacceptable response to ground motion shall consist of any of the following:",
+      "rule": "16.4.1.1 Unacceptable Response",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1620,6 +2106,33 @@
   },
   {
     "id": "ASCE7-22-16.4.1.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-16.4.1.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 16,
+      "section": "16.4.1.1",
+      "citation": "Section 16.4.1.1",
+      "page": 3
+    },
+    "title": "Unacceptable response to ground motion shall consist of any of the following:",
+    "description": "",
+    "data": {
+      "rule": "Unacceptable response to ground motion shall consist of any of the following:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-16.4.1.1-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1646,7 +2159,7 @@
     "parent_id": "ASCE7-22-16.4.1.1-H1"
   },
   {
-    "id": "ASCE7-22-16.4.1.1-T2",
+    "id": "ASCE7-22-16.4.1.1-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1673,7 +2186,7 @@
     "parent_id": "ASCE7-22-16.4.1.1-H1"
   },
   {
-    "id": "ASCE7-22-16.4.1.1-T3",
+    "id": "ASCE7-22-16.4.1.1-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1702,7 +2215,7 @@
     "parent_id": "ASCE7-22-16.4.1.1-H1"
   },
   {
-    "id": "ASCE7-22-16.4.1.1-T4",
+    "id": "ASCE7-22-16.4.1.1-T5",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1729,7 +2242,7 @@
     "parent_id": "ASCE7-22-16.4.1.1-H1"
   },
   {
-    "id": "ASCE7-22-16.4.1.1-T5",
+    "id": "ASCE7-22-16.4.1.1-T6",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1758,7 +2271,7 @@
     "parent_id": "ASCE7-22-16.4.1.1-H1"
   },
   {
-    "id": "ASCE7-22-16.4.1.1-T6",
+    "id": "ASCE7-22-16.4.1.1-T7",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1855,7 +2368,7 @@
       "citation": "Section 16.4.1.2",
       "page": 3
     },
-    "title": "16.4.1.2 Transient Story Drift The mean transient story drift for all building heights, \u0394 in ft (m), shall not exceed two times the limits of Table 12.12-1. Additionally, for structures exceeding 100 ",
+    "title": "16.4.1.2 Transient Story Drift The mean transient story drift for all building heights, \u0394 in ft (m), shall not exceed two times the limits of Table 12.12-1. Additionally, for structures exceeding 100 ft (30 m) in height, \u0394 shall not exceed the value obtained from Equation (16.4-1):",
     "description": "",
     "data": {
       "rule": "16.4.1.2 Transient Story Drift The mean transient story drift for all building heights, \u0394 in ft (m), shall not exceed two times the limits of Table 12.12-1. Additionally, for structures exceeding 100 ft (30 m) in height, \u0394 shall not exceed the value obtained from Equation (16.4-1):",
@@ -1943,10 +2456,10 @@
       "citation": "Section 16.4.1.3",
       "page": 3
     },
-    "title": "16.4.1.3 Residual Story Drift For structures exceeding 240 ft (73 m) in height, the mean residual story drift shall not exceed 0.01 hsx , where residual story drift is taken as the maximum value of st",
+    "title": "16.4.1.3 Residual Story Drift",
     "description": "",
     "data": {
-      "rule": "16.4.1.3 Residual Story Drift For structures exceeding 240 ft (73 m) in height, the mean residual story drift shall not exceed 0.01 hsx , where residual story drift is taken as the maximum value of story drift in a structure at rest, following response to an earthquake motion.",
+      "rule": "16.4.1.3 Residual Story Drift",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1961,6 +2474,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-16.4.1.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-16.4.1.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 16,
+      "section": "16.4.1.3",
+      "citation": "Section 16.4.1.3",
+      "page": 3
+    },
+    "title": "For structures exceeding 240 ft (73 m) in height, the mean residual story drift shall not exceed 0.01 hsx , where residual story drift is taken as the maximum value of story drift in a structure at re",
+    "description": "",
+    "data": {
+      "rule": "For structures exceeding 240 ft (73 m) in height, the mean residual story drift shall not exceed 0.01 hsx , where residual story drift is taken as the maximum value of story drift in a structure at rest, following response to an earthquake motion.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-16.4.2-H1",
     "type": "heading",
     "source": {
@@ -1970,10 +2510,10 @@
       "citation": "Section 16.4.2",
       "page": 3
     },
-    "title": "16.4.2 Element-Level Acceptance Criteria All element actions shall be classi fi ed either as force-controlled or deformationcontrolled, in accordance with ACI 318 for reinforced concrete elements or A",
+    "title": "16.4.2 Element-Level Acceptance Criteria",
     "description": "",
     "data": {
-      "rule": "16.4.2 Element-Level Acceptance Criteria All element actions shall be classi fi ed either as force-controlled or deformationcontrolled, in accordance with ACI 318 for reinforced concrete elements or ASCE 41 for elements of other materials.",
+      "rule": "16.4.2 Element-Level Acceptance Criteria",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1986,6 +2526,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-16.4.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-16.4.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 16,
+      "section": "16.4.2",
+      "citation": "Section 16.4.2",
+      "page": 3
+    },
+    "title": "All element actions shall be classi fi ed either as force-controlled or deformationcontrolled, in accordance with ACI 318 for reinforced concrete elements or ASCE 41 for elements of other materials.",
+    "description": "",
+    "data": {
+      "rule": "All element actions shall be classi fi ed either as force-controlled or deformationcontrolled, in accordance with ACI 318 for reinforced concrete elements or ASCE 41 for elements of other materials.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-16.4-E16-4-11",
@@ -2087,10 +2654,10 @@
       "citation": "Section 16.4.2.1",
       "page": 4
     },
-    "title": "16.4.2.1 Force-Controlled Actions Force-controlled actions shall satisfy Equation (16.4-1) and (16.4-2):",
+    "title": "16.4.2.1 Force-Controlled",
     "description": "",
     "data": {
-      "rule": "16.4.2.1 Force-Controlled Actions Force-controlled actions shall satisfy Equation (16.4-1) and (16.4-2):",
+      "rule": "16.4.2.1 Force-Controlled",
       "conditions": [],
       "then": "",
       "else": null,
@@ -2103,6 +2670,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-16.4.2.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-16.4.2.1-H2",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 16,
+      "section": "16.4.2.1",
+      "citation": "Section 16.4.2.1",
+      "page": 4
+    },
+    "title": "Actions Force-controlled actions shall satisfy Equation (16.4-1) and (16.4-2):",
+    "description": "",
+    "data": {
+      "rule": "Actions Force-controlled actions shall satisfy Equation (16.4-1) and (16.4-2):",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-16.4.2.1-P1",
@@ -2215,7 +2809,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-16.4.2.1-T1",
+    "id": "ASCE7-22-16.4.2.1-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2242,7 +2836,7 @@
     "parent_id": "ASCE7-22-16.4.2.1-H2"
   },
   {
-    "id": "ASCE7-22-16.4.2.1-T2",
+    "id": "ASCE7-22-16.4.2.1-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2269,7 +2863,7 @@
     "parent_id": "ASCE7-22-16.4.2.1-H2"
   },
   {
-    "id": "ASCE7-22-16.4.2.1-T3",
+    "id": "ASCE7-22-16.4.2.1-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2359,7 +2953,7 @@
       "citation": "Section 16.5",
       "page": 4
     },
-    "title": "16.5 DESIGN REVIEW",
+    "title": "16.5",
     "description": "",
     "data": {
       "rule": "16.5 DESIGN REVIEW",
@@ -2404,7 +2998,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-16.5-T2",
+    "id": "ASCE7-22-16.5-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2431,7 +3025,7 @@
     "parent_id": "ASCE7-22-16.5-H1"
   },
   {
-    "id": "ASCE7-22-16.5-T3",
+    "id": "ASCE7-22-16.5-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2458,7 +3052,7 @@
     "parent_id": "ASCE7-22-16.5-H1"
   },
   {
-    "id": "ASCE7-22-16.5-T4",
+    "id": "ASCE7-22-16.5-T5",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2656,39 +3250,10 @@
       "citation": "Section 16.5.2",
       "page": 4
     },
-    "title": "16.5.2 Review Scope The scope of review shall include the items identi fi ed in Section 16.1.4, as well as the associated project documentation that demonstrates conformance to the design criteria.",
+    "title": "16.5.2 Review Scope",
     "description": "",
     "data": {
-      "rule": "16.5.2 Review Scope The scope of review shall include the items identi fi ed in Section 16.1.4, as well as the associated project documentation that demonstrates conformance to the design criteria.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [
-      "ASCE7-22-16.1.4-H1"
-    ],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-16.6-H1",
-    "type": "heading",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 16,
-      "section": "16.6",
-      "citation": "Section 16.6",
-      "page": 4
-    },
-    "title": "16.6 CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
-    "description": "",
-    "data": {
-      "rule": "16.6 CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
+      "rule": "16.5.2 Review Scope",
       "conditions": [],
       "then": "",
       "else": null,
@@ -2701,6 +3266,89 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-16.5.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-16.5.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 16,
+      "section": "16.5.2",
+      "citation": "Section 16.5.2",
+      "page": 4
+    },
+    "title": "The scope of review shall include the items identi fi ed in Section 16.1.4, as well as the associated project documentation that demonstrates conformance to the design criteria.",
+    "description": "",
+    "data": {
+      "rule": "The scope of review shall include the items identi fi ed in Section 16.1.4, as well as the associated project documentation that demonstrates conformance to the design criteria.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-16.1.4-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-16.6-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 16,
+      "section": "16.6",
+      "citation": "Section 16.6",
+      "page": 4
+    },
+    "title": "16.6",
+    "description": "",
+    "data": {
+      "rule": "16.6",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-16.6-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-16.6-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 16,
+      "section": "16.6",
+      "citation": "Section 16.6",
+      "page": 4
+    },
+    "title": "CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
+    "description": "",
+    "data": {
+      "rule": "CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-16.6-P1",
@@ -2742,7 +3390,7 @@
     "title": "Equation (16.4-2)",
     "description": "",
     "data": {
-      "expression": "16.4.2.1 Force-Controlled Actions Force-controlled actions shall satisfy Equation (16.4-1) and (16.4-2)",
+      "expression": "Actions Force-controlled actions shall satisfy Equation (16.4-1) and (16.4-2)",
       "parameters": {}
     },
     "cross_references": [],
@@ -2767,6 +3415,35 @@
     "description": "",
     "data": {
       "expression": "Force-controlled actions limited by formation of a yield mechanism, other than shear in structural walls, need only satisfy Equations (16.4-3)",
+      "parameters": {
+        "a": {
+          "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
+          "source": "ASCE7-22-28.3.7-T22"
+        }
+      }
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-16.4-E16-4-41",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 16,
+      "section": "16.4",
+      "citation": "Eq. (16.4-4)",
+      "page": 4
+    },
+    "title": "Equation (16.4-4)",
+    "description": "",
+    "data": {
+      "expression": "Force-controlled actions limited by formation of a yield mechanism, other than shear in structural walls, need only satisfy Equations (16.4-3) and (16.4-4)",
       "parameters": {
         "a": {
           "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",

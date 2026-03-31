@@ -1,0 +1,385 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8">
+<title>ASCE 7-22 Chapter 14 — Digital Twin</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#FFF;--s:#F5F5F5;--t:#1A1A1A;--m:#6B6B6B;--b:#D4D4D4;--sub:#E8E8E8;
+--g:#16A34A;--a:#0057FF;--r:#DC2626;--am:#D97706;--cy:#06B6D4;--purple:#8B5CF6}
+@media(prefers-color-scheme:dark){:root{--bg:#0A0A0A;--s:#141414;--t:#E5E5E5;--m:#808080;
+--b:#2A2A2A;--sub:#1A1A1A;--a:#3B82F6}}
+body{background:var(--bg);color:var(--t);font-family:'JetBrains Mono','SF Mono',monospace;
+font-size:11px;max-width:900px;margin:0 auto;padding:16px}
+h1{font-size:13px;text-transform:uppercase;letter-spacing:.1em;margin-bottom:2px}
+.sub{font-size:10px;color:var(--m);margin-bottom:12px}
+.nav{font-size:10px;color:var(--a);margin-bottom:16px}
+.nav a{color:var(--a);text-decoration:none}
+.nav a:hover{text-decoration:underline}
+.section{margin-bottom:12px}
+.sec-num{font-size:12px;font-weight:700;color:var(--t);margin-bottom:2px}
+.sec-0,.sec-1{margin-left:0}.sec-2{margin-left:16px}.sec-3{margin-left:32px}.sec-4{margin-left:48px}
+.child{margin:3px 0;padding:4px 8px;border-left:2px solid var(--sub);font-size:10px;line-height:1.5}
+.child.provision{border-color:var(--g);background:rgba(22,163,74,0.03)}
+.child.definition{border-color:var(--purple);background:rgba(139,92,246,0.03)}
+.child.formula{border-color:var(--a);background:rgba(59,130,246,0.03)}
+.child.table{border-color:var(--cy);background:rgba(6,182,212,0.03)}
+.child.figure{border-color:var(--am);background:rgba(217,119,6,0.03)}
+.child.exception{border-color:var(--r);background:rgba(220,38,38,0.03)}
+.child.user_note{border-color:var(--m);background:rgba(128,128,128,0.03)}
+.child.text_block{border-color:var(--sub)}
+.tag{display:inline-block;padding:0 3px;border:1px solid;font-size:7px;text-transform:uppercase;
+letter-spacing:.04em;margin-right:3px;vertical-align:middle}
+.tag-provision{border-color:var(--g);color:var(--g)}
+.tag-definition{border-color:var(--purple);color:var(--purple)}
+.tag-formula{border-color:var(--a);color:var(--a)}
+.tag-table{border-color:var(--cy);color:var(--cy)}
+.tag-figure{border-color:var(--am);color:var(--am)}
+.tag-exception{border-color:var(--r);color:var(--r)}
+.tag-user_note{border-color:var(--m);color:var(--m)}
+.tag-text_block{border-color:var(--sub);color:var(--m)}
+.meta{font-size:8px;color:var(--m)}
+.xref{font-size:8px;color:var(--a)}
+b{font-weight:600}
+table.tbl{width:100%;border-collapse:collapse;font-size:9px;margin:4px 0}
+table.tbl th{text-align:left;font-size:7px;text-transform:uppercase;color:var(--m);border-bottom:1px solid var(--b);padding:1px 4px}
+table.tbl td{padding:1px 4px;border-bottom:1px solid var(--sub)}
+</style></head><body>
+<h1>ASCE 7-22 Chapter 14 — Digital Twin</h1>
+<div class="sub">138 elements · 33 provisions · 0 definitions · 0 formulas · 0 tables</div>
+<div class="nav"><a href="digital-twin-index.html">← All Chapters</a></div>
+
+<div class="section sec-2">
+<div class="sec-num">7.5.1 Separation Joints</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Where concrete abuts structural masonry and the joint between the materials is not designed as a separation joint, the concrete shall be roughened so that the average height of aggregate exposure is 0.125 in. (3 mm) and shall be bonded to the masonry in accordance with these requirements as if it were masonry. Vertical joints not intended to act as separation joints shall be crossed by horizontal 
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">9.1.6 Anchor Bolts Embedded in Grout</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Anchorage assemblies connecting masonry elements that are part of the seismic force-resisting system to diaphragms and chords shall be designed so that the strength of the anchor is governed by steel tensile or shear yielding. Alternatively, the anchorage assembly is permitted to be designed so that it is governed by masonry breakout or anchor pullout, provided the anchorage assembly is designed t
+</div>
+</div>
+<div class="section sec-0">
+<div class="sec-num">CHAPTER 14</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+MATERIAL-SPECIFIC SEISMIC DESIGN AND DETAILING REQUIREMENTS
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">14.0 SCOPE</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">14.1 STEEL</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">14.1.1 Reference Documents</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The design, construction, and quality of steel members that resist seismic forces shall conform to the applicable requirements, as amended herein, of ANSI/AISC 341, ANSI/AISC 360, ANSI/AISI S100, ANSI/ AISI S230, ANSI/AISI S240, ANSI/AISI S310, ANSI/AISI S400, ANSI/SDI-QA/QC, ANSI/SDI-SD, ANSI/SJI-100, ANSI/SJI-200, ASCE 8, and ASCE 19.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">14.1.2 Structural Steel</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">14.1.2.1 General</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The design of structural steel for buildings and structures shall be in accordance with ANSI/AISC 360. Where required, the seismic design of structural steel structures shall be in accordance with the additional provisions of Section 14.1.2.2.
+<br><span class="xref">→ ASCE7-22-14.1.2.2-P1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">14.1.3 Cold-Formed Steel</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">14.1.4 Cold-Formed Steel Light-Frame Construction</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">14.1.4.1 General</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Cold-formed steel light-frame construction shall be designed in accordance with AISI S240. Where required, the seismic design of cold-formed steel light-frame construction shall be in accordance with the additional provisions of Section 14.1.4.2.
+<br><span class="xref">→ ASCE7-22-14.1.4.2-P1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">14.1.5 Cold-Formed Steel Deck Diaphragms</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Cold-formed steel deck diaphragms shall be designed in accordance with the requirements of AISI S100, AISI S240, SDI-SD, or ASCE 8, as applicable. Nominal strengths shall be determined in accordance with AISI S310. The required strength of diaphragms, including bracing members that form part of the diaphragm, shall be determined in accordance with Section 12.10. Where required by this standard, sp
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">14.1.6 Concrete-Filled Steel Deck Diaphragms</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Concretefi lled steel deck diaphragms shall be of any construction permitted by the applicable reference documents in Section 14.1.1. Where a Diaphragm Design Force Reduction Factor, Rs , in accordance with Table 12.10-1, is used for design, the concretefi lled steel deck diaphragm and shear transfer to structural steel members shall be designed and detailed in accordance with the requirements of 
+<br><span class="xref">→ ASCE7-22-14.1.1-H1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">14.1.7 Open Web Steel Joists and Joist Girders</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The design, manufacture, and use of open web steel joists and joist girders shall be in accordance with SJI-100 and SJI-200, as applicable.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">14.1.8 Steel Cables</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The design strength of steel cables serving as main structural load carrying members shall be determined by the requirements of ASCE 19.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">14.1.9 Additional Detailing Requirements for Steel Piles in</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Seismic Design Categories D through F In addition to the foundation requirements set forth in Sections 12.1.5 and 12.13, design and detailing of H-piles shall conform to the requirements of AISC 341, and the connection between the pile cap and steel piles or un fi lled steel pipe piles in structures assigned to Seismic Design Category D, E, or F shall be designed for a tensile force not less than 
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">14.2 CONCRETE</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">14.2.1 Reference</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Documents The quality and testing of concrete materials and the design and construction of structural concrete members that resist seismic forces shall conform to the requirements of ACI 318, except as modi fi ed in Section 14.2.2.
+<br><span class="xref">→ ASCE7-22-14.2.2-H1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">14.2.2 Modi</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+fi cations to ACI 318 The text of ACI 318 shall be modi fi ed as indicated in Sections 14.2.2.1 through 14.2.2.7. Italics are used for text within Sections 14.2.2.1 through 14.2.2.7 to indicate requirements that differ from ACI 318.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+14.2.2.2 ACI 318, Section 10.7.6 Modify Section 10.7.6 by revising Section 10.7.6.1.5 to read as follows:
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+14.2.2.5 Special Precast Structural Walls Modify ACI 318, Section 18.11.2.1, to read as follows:
+<br><span class="xref">→ ASCE7-22-18.11.2.1-H1</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">14.2.2.1 De fi nitions Add the following de fi nitions to ACI 318, Section 2.3.</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Cast-In-Place Concrete Equivalent Precast Diaphragm: A cast-in-place noncomposite topping slab diaphragm, as de fi ned in ACI 318, Section 18.12.5, or a diaphragm constructed with precast concrete components that uses closure strips between precast components with detailing that meets the requirements of ACI 318 for the seismic design category of the structure.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Detailed Plain Concrete Structural Wall: A wall complying with the requirements of ACI 318, Chapter 14.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Ordinary Precast Structural Wall: A precast wall complying with the requirements of ACI 318 excluding Chapters 14, 18, and 27.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Precast Concrete Diaphragm: Adiaphragm constructed with precast concrete components, with or without a cast-in-place topping, that includes the use of discrete connectors or joint reinforcement to transmit diaphragm forces.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">14.2.2.3 Scope</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Modify ACI 318, Section 18.2.1.2, to read as follows:
+<br><span class="xref">→ ASCE7-22-18.2.1.2-H1</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">14.2.2.4 Intermediate Precast Structural Walls</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Modify ACI 318, Section 18.5, by renumbering Sections 18.5.2.2 and 18.5.2.3 to Sections 18.5.2.3 and 18.5.2.4, respectively, and adding a new Section 18.5.2.2 to read as follows:
+<br><span class="xref">→ ASCE7-22-18.5.2.2-H1</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">14.2.2.6 Foundations</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Modify ACI 318, Section 18.13.1.1, to read as follows:
+<br><span class="xref">→ ASCE7-22-18.13.1.1-H1</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">14.2.2.7 Detailed Plain Concrete Shear Walls</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Modify ACI 318, Section 14.6, by adding a new Section 14.6.2 to read:
+<br><span class="xref">→ ASCE7-22-14.6-H1, ASCE7-22-14.6.2-H1</span>
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">14.3</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+COMPOSITE STEEL AND CONCRETE STRUCTURES
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">14.3.1 Reference Documents</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The design, construction, and quality of composite steel and concrete members that resist seismic forces shall conform to the applicable requirements of AISC 341, AISC 360, and ACI 318, excluding Chapter 14.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">14.3.2 General</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Systems of structural steel acting compositely with reinforced concrete shall be designed in accordance with AISC 360 and ACI 318, excluding Chapter 14. Where required, the seismic design of composite steel and concrete systems shall be in accordance with the additional provisions of Section 14.3.3.
+<br><span class="xref">→ ASCE7-22-14.3.3-H1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">14.3.3 Seismic</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Requirements for Composite Steel and Concrete Structures Where a response modi fi cation coef fi cient, R , in accordance with Table 12.2-1 is used for the design of systems of structural steel acting compositely with reinforced concrete, the structures shall be designed and detailed in accordance with the requirements of AISC 341.
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">14.4 MASONRY</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">14.4.1 Reference Documents</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The design, construction, and quality assurance of masonry members that resist seismic forces shall conform to the requirements of TMS 402 and TMS 602, except as modi fi ed by Section 14.4.
+<br><span class="xref">→ ASCE7-22-14.4-H1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">14.4.2 R Factors</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+To qualify for the response modi fi cation coef fi cients, R , set forth in this standard, the requirements of TMS 402 and TMS 602, as amended in subsequent sections, shall be satis fi ed.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">14.4.3 Modi fi cations to Chapter 7 of TMS 402</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">14.4.3.1 Separation Joints</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Add the following new Section 7.5.1 to TMS 402:
+<br><span class="xref">→ ASCE7-22-7.5.1-H1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">14.4.4 Modi fi cations to Chapter 6 of TMS 402</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">14.4.4.1 Reinforcement Requirements and Details</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+14.4.4.1.1 Reinforcing Bar Size Limitations. Modify TMS 402, Section 6.1.2, as follows.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Delete TMS 402, Section 6.1.2.1 and replace with:
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Delete TMS 402, Section 6.1.2.2 and replace with:
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Add the following sentence to the end of TMS 402, Section 6.1.2.4:
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+14.4.4.1.2 Splices in Reinforcement. Add the following new Sections 6.1.6.1.1.4 and 6.1.6.1.2.1 to TMS 402:
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">14.4.5 Modi</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+fi cations to Chapter 9 of TMS 402
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+14.4.5.2 Coupling Beams Add the following new Section 9.3.4.2.5 to TMS 402:
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+M 1 , M 2 = Nominal moment strength at the ends of the beam, Lc = Length of the beam between the shear walls, and Vg = Unfactored shear force caused by gravity loads.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">14.4.5.1 Anchoring to Masonry</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Add the following as the fi rst paragraph in TMS 402, Section 9.1.6:
+<br><span class="xref">→ ASCE7-22-9.1.6-H1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">14.4.6 Modi</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+fi cations to Chapter 12 of TMS 402
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+14.4.6.1 Corrugated Sheet Metal Anchors Add Section 12.2.2.11.1.1 to TMS 402 as follows:
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">14.5 WOOD</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">14.5.1 Reference Documents</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The quality, testing, design, and construction of members and their fastenings in wood systems that resist seismic forces shall conform to the requirements of the applicable following reference documents: AWC NDS and AWC SDPWS.
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">14.6</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">14.6.2 Detailed Plain Concrete Shear Walls</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">14.6.2.1</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Detailed plain concrete shear walls are walls conforming to the requirements for ordinary plain concrete shear walls and Section 14.6.2.2.
+<br><span class="xref">→ ASCE7-22-14.6.2.2-H1</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">14.6.2.2</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Reinforcement shall be provided as follows:
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Continuously at structurally connected roof and floor levels and at the top of walls;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+At the bottom of load-bearing walls or in the top of foundations where doweled to the wall; and
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+At a maximum spacing of 120 in. (3,048 mm).
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">18.2.1.2 All members shall satisfy requirements of Chapters 1 to 17 and 19 to 26. Structures assigned to SDC B, C, D, E, or F also shall satisfy Sections 18.2.1.3 through 18.2.1.7, as applicable, except as modified by the requirements of Chapters 14 and 15 of ASCE 7. Where ACI 318, Chapter 18, conflicts with other ACI 318 chapters, Chapter 18 shall govern.</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">18.5.2.2</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Connections that are designed to yield shall be capable of maintaining 80% of their design strength at the deformation induced by design displacement or shall use type 2 mechanical splices.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">18.5.2.3</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+For elements of the connection that are not designed to yield, the required strength shall be based on 1.5Sy of the yielding portion of the connection.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">18.5.2.4</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+In structures assigned to SDC D, E, or F, wall piers shall be designed in accordance with 18.10.8 or 18.14.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">18.11.2.1</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Special structural walls constructed using precast concrete shall satisfy 18.10 in addition to 18.5.2 as modified by Section 14.2.2 of ASCE 7, except 18.10.2.4 shall not apply for precast walls where deformation demands are concentrated at the panel joints.
+<br><span class="xref">→ ASCE7-22-14.2.2-H1</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">18.13.1.1</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Section 18.13, as modified by Sections 12.1.5 or 12.13 of ASCE 7, shall apply to foundations resisting earthquake-induced forces or transferring earthquake-induced forces between structure and ground.
+</div>
+</div>
+</body></html>

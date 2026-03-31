@@ -1,0 +1,491 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8">
+<title>ASCE 7-22 Chapter 26 — Digital Twin</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#FFF;--s:#F5F5F5;--t:#1A1A1A;--m:#6B6B6B;--b:#D4D4D4;--sub:#E8E8E8;
+--g:#16A34A;--a:#0057FF;--r:#DC2626;--am:#D97706;--cy:#06B6D4;--purple:#8B5CF6}
+@media(prefers-color-scheme:dark){:root{--bg:#0A0A0A;--s:#141414;--t:#E5E5E5;--m:#808080;
+--b:#2A2A2A;--sub:#1A1A1A;--a:#3B82F6}}
+body{background:var(--bg);color:var(--t);font-family:'JetBrains Mono','SF Mono',monospace;
+font-size:11px;max-width:900px;margin:0 auto;padding:16px}
+h1{font-size:13px;text-transform:uppercase;letter-spacing:.1em;margin-bottom:2px}
+.sub{font-size:10px;color:var(--m);margin-bottom:12px}
+.nav{font-size:10px;color:var(--a);margin-bottom:16px}
+.nav a{color:var(--a);text-decoration:none}
+.nav a:hover{text-decoration:underline}
+.section{margin-bottom:12px}
+.sec-num{font-size:12px;font-weight:700;color:var(--t);margin-bottom:2px}
+.sec-0,.sec-1{margin-left:0}.sec-2{margin-left:16px}.sec-3{margin-left:32px}.sec-4{margin-left:48px}
+.child{margin:3px 0;padding:4px 8px;border-left:2px solid var(--sub);font-size:10px;line-height:1.5}
+.child.provision{border-color:var(--g);background:rgba(22,163,74,0.03)}
+.child.definition{border-color:var(--purple);background:rgba(139,92,246,0.03)}
+.child.formula{border-color:var(--a);background:rgba(59,130,246,0.03)}
+.child.table{border-color:var(--cy);background:rgba(6,182,212,0.03)}
+.child.figure{border-color:var(--am);background:rgba(217,119,6,0.03)}
+.child.exception{border-color:var(--r);background:rgba(220,38,38,0.03)}
+.child.user_note{border-color:var(--m);background:rgba(128,128,128,0.03)}
+.child.text_block{border-color:var(--sub)}
+.tag{display:inline-block;padding:0 3px;border:1px solid;font-size:7px;text-transform:uppercase;
+letter-spacing:.04em;margin-right:3px;vertical-align:middle}
+.tag-provision{border-color:var(--g);color:var(--g)}
+.tag-definition{border-color:var(--purple);color:var(--purple)}
+.tag-formula{border-color:var(--a);color:var(--a)}
+.tag-table{border-color:var(--cy);color:var(--cy)}
+.tag-figure{border-color:var(--am);color:var(--am)}
+.tag-exception{border-color:var(--r);color:var(--r)}
+.tag-user_note{border-color:var(--m);color:var(--m)}
+.tag-text_block{border-color:var(--sub);color:var(--m)}
+.meta{font-size:8px;color:var(--m)}
+.xref{font-size:8px;color:var(--a)}
+b{font-weight:600}
+table.tbl{width:100%;border-collapse:collapse;font-size:9px;margin:4px 0}
+table.tbl th{text-align:left;font-size:7px;text-transform:uppercase;color:var(--m);border-bottom:1px solid var(--b);padding:1px 4px}
+table.tbl td{padding:1px 4px;border-bottom:1px solid var(--sub)}
+</style></head><body>
+<h1>ASCE 7-22 Chapter 26 — Digital Twin</h1>
+<div class="sub">450 elements · 51 provisions · 37 definitions · 20 formulas · 6 tables</div>
+<div class="nav"><a href="digital-twin-index.html">← All Chapters</a></div>
+
+<div class="section sec-1">
+<div class="sec-num">26.1</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">26.1.1 Scope</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Buildings and other structures, including the main wind force resisting system (MWFRS) and all components and cladding (C&amp;C) thereof, shall be designed and constructed to resist the wind loads determined in accordance with Chapters 26 through 31.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The provisions of this chapter de fi ne basic wind parameters for use with other provisions contained in this standard.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">26.1.2 Permitted Procedures</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The design wind loads for buildings and other structures, including the MWFRS and C&amp;C elements thereof, shall be determined using one of the procedures as speci fi ed in this section. An outline of the overall process for the determination of the wind loads, including section references, is provided in Figure 26.1-1.
+<br><span class="xref">→ ASCE7-22-26.1-F26-1-11</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Additional outlines and User Notes are provided at the beginning of Chapters 27 through 31 for more detailed step-by-step procedures for determining the wind loads.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">26.1.2.1 Main Wind Force Resisting System</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">26.1</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+.2.2 Components and Cladding Wind loads on C&amp;C on all buildings and other structures shall be designed using one of the following procedures:
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Analytical Procedures provided in Parts 1 through 5, as appropriate, of Chapter 30; or
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Wind Tunnel Procedure as speci fi ed in Chapter 31.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">26.1.3 Performance-Based</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Procedures Wind design of buildings and other structures using performance-based procedures shall be permitted subject to the approval of the Authority Having Jurisdiction. The performance-based wind design procedures used shall, at a minimum, conform to Section 1.3.1.3.
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">26.2</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The following de fi nitions apply to the provisions of Chapters 26 through 31.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Ao &lt; 0.01 Ag or 4 ft 2 ð 0.37 m 2 Þ ; whichever is smaller ;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+BUILDING, LOW-RISE: An enclosed, partially enclosed, or partially open building that complies with the following conditions:
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Chapter 26-General Requirements :
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Use to determine the basic parameters for
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+determining wind loads on both the MWFRS and C&amp;C. These basic parameters are Basic wind speed,
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+, see Section 26.5; Figure 26.5-1 Wind directionality factor, Kd , see Section 26.6
+<br><span class="xref">→ ASCE7-22-26.5-F26-5-11, ASCE7-22-26.5-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Exposure category, see Section 26.7 Topographic factor, Kzt , see Section 26.8
+<br><span class="xref">→ ASCE7-22-26.7-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Ground elevation above sea level, see Section 26.9
+<br><span class="xref">→ ASCE7-22-26.9-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Velocity pressure, see Section 26.10
+<br><span class="xref">→ ASCE7-22-26.10-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Gust Effect Factor, see Section 26.11
+<br><span class="xref">→ ASCE7-22-26.11-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Enclosure classification, see Section 26.12
+<br><span class="xref">→ ASCE7-22-26.12-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Internal pressure coefficient, GCpi , see Section 26.13
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Wind loads on the MWFRS may be determined by Wind loads on the C&amp;C may be determined by Chapter 27: Direc/g415onal Procedure for buildings of all heights Chapter 28:
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Envelope Procedure for low-rise buildings Chapter 29: Direc/g415onal Procedure for
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+building appurtenances (roof overhangs and
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+parapets) and other structures Chapter 31: Wind Tunnel Procedure for any building or other structure Chapter 30:
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Envelope Procedure in Part 1, or
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Direc/g415onal Procedure in Parts 2 and 3;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Building appurtenances (roof overhangs and parapets) in Part 4; and
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Nonbuilding structures in Part 5 Chapter 31: Wind Tunnel Procedure
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+for any building or other structure
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Note : Additional outlines and User Notes are provided at the beginning of each chapter for more detailed step-by-step procedures for determining the wind loads.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Mean roof height h less than or equal to 60 ft (18 m), and
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Mean roof height h does not exceed the least horizontal dimension.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Total area of openings in a wall that receives positive external pressure exceeds the sum of the areas of openings in the balance of the building envelope (walls and roof) by more than 10%.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Total area of openings in a wall that receives positive external pressure exceeds 4 ft 2 (0.37 m 2 ) or 1% of the area of that wall, whichever is smaller, and the percentage of openings in the balance of the building envelope does not exceed 20%.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+These conditions are expressed by the following equations:
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+where Ao and Ag are as de fi ned for open buildings; Aoi is the sum of the areas of openings in the building envelope (walls and roof), not including Ao , ft 2 (m 2 ); and Agi is the sum of the gross surface areas of the building envelope (walls and roof), not including Ag , ft 2 (m 2 ).
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+COMPONENTS AND CLADDING (C&amp;C): Elements of the building envelope or elements of building appurtenances and rooftop structures and equipment that do not qualify as part of the MWFRS.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+DESIGN PRESSURE, p : Equivalent static pressure to be used in the determination of wind loads for buildings.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+GLAZING, IMPACT-RESISTANT: Glazing that has been shown by testing to withstand the impact of test missiles. See Section 26.12.3.2.
+<br><span class="xref">→ ASCE7-22-26.12.3.2-P1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+HURRICANE-PRONE REGIONS: Areas vulnerable to hurricanes; in the United States and its territories, these are de fi ned as
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The US Atlantic Ocean and Gulf of Mexico coasts where the basic wind speed for Risk Category II buildings is greater than 115 mi/h (51.4 m/s); and
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Hawaii, Puerto Rico, Guam, US Virgin Islands, Northern Mariana Islands, and American Samoa.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+IMPACT-PROTECTIVE SYSTEM: Construction that has been shown by testing to withstand the impact of test missiles and that is applied, attached, or locked over exterior glazing. See Section 26.12.3.2.
+<br><span class="xref">→ ASCE7-22-26.12.3.2-P1</span>
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">26.3 SYMBOLS</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">26.4 GENERAL</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">26.4.1 Sign Convention</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Positive pressure acts toward the surface, and negative pressure acts away from the surface.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">26.4.2 Critical Load Condition</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Values of external and internal pressures shall be combined algebraically to determine the most critical load.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">26.4.3 Wind Pressures Acting on Opposite Faces of Each</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Building Surface In the calculation of design wind loads for the MWFRS and for C&amp;C for buildings, the algebraic sum of the pressures acting on opposite faces of each building surface shall be taken into account.
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">26.5</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">26.5.1 Basic Wind Speed</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The basic wind speed, V , used in the determination of design wind loads on buildings and other structures shall be determined from Figure 26.5-1 as follows, except as provided in Sections 26.5.2 and 26.5.3:
+<br><span class="xref">→ ASCE7-22-26.5-F26-5-11</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Guam &amp; Northern Mariana Islands Hawaii Puerto Rico U.S. Virgin Islands 150 180 (67) (80) ASCE Wind Design Geodatabase ASCE Wind Design Geodatabase ASCE Wind Design Geodatabase V (mi/h) V (m/s)
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Guam &amp; Northern Mariana Islands Hawaii Puerto Rico U.S. Virgin Islands 160 195 (72) (87) ASCE Wind Design Geodatabase ASCE Wind Design Geodatabase ASCE Wind Design Geodatabase V (mi/h) V (m/s)
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Guam &amp; Northern Mariana Islands Hawaii Puerto Rico U.S. Virgin Islands 170 210 (76) (94) ASCE Wind Design Geodatabase ASCE Wind Design Geodatabase ASCE Wind Design Geodatabase V (mi/h) V (m/s)
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Guam &amp; Northern Mariana Islands Hawaii Puerto Rico U.S. Virgin Islands 180 220 (80) (98) ASCE Wind Design Geodatabase ASCE Wind Design Geodatabase ASCE Wind Design Geodatabase V (mi/h) V (m/s)
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The ASCE Wind Design Geodatabase is available at the ASCE 7 Hazard Tool (https://asce7hazardtool.online), or approved equivalent.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">26.5.2 Special Wind Regions</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Mountainous terrain, gorges, and special wind regions shown in Figure 26.5-1 shall be examined for unusual wind conditions. The Authority Having Jurisdiction shall, if necessary, adjust the values given in Figure 26.5-1 to account for higher local wind speeds. Such adjustment shall be based on meteorological information and an estimate of the basic wind speed obtained in accordance with the provis
+<br><span class="xref">→ ASCE7-22-26.5-F26-5-11, ASCE7-22-26.5.3-P1</span>
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">26.6</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">26.7 EXPOSURE</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Table 26.6-1. Wind Directionality Factor, Kd .
+<br><span class="xref">→ ASCE7-22-26.6-T26-6-11</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">26.7.2 Surface</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Roughness Categories A ground surface roughness within each 45 degree sector shall be determined for a distance upwind of the site, as de fi ned in Section 26.7.3, from the categories de fi ned in the following text, for the purpose of assigning an exposure category as de fi ned in Section 26.7.3.
+<br><span class="xref">→ ASCE7-22-26.7.3-H1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">26.7.3 Exposure Categories</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">26.7.4 Exposure Requirements</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">26.7.4.1 Directional Procedure (Chapter 27)</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+For each wind direction considered, wind loads for the design of the MWFRS of enclosed and partially enclosed buildings using the Directional Procedure of Chapter 27 shall be based on the exposures as de fi ned in Section 26.7.3. Wind loads for the design of open buildings with monoslope, pitched, or troughed free roofs shall be based on the exposures, as de fi ned in Section 26.7.3, resulting in 
+<br><span class="xref">→ ASCE7-22-26.7.3-H1</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">26.7.4.2 Envelope Procedure (Chapter 28)</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Wind loads for the design of the MWFRS for all low-rise buildings designed using the Envelope Procedure of Chapter 28 shall be based on the exposure category resulting in the highest wind loads for any wind direction at the site.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">26.7.4.4 Components and Cladding (Chapter 30)</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Design wind pressures for C&amp;C shall be based on the exposure category resulting in the highest wind loads for any wind direction at the site.
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">26.8</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+If site conditions and locations of buildings and other structures do not meet all the conditions speci fi ed in Section 26.8.1, then Kzt = 1.0.
+<br><span class="xref">→ ASCE7-22-26.8.1-H1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">26.8.1 Wind</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Speed-Up over Hills, Ridges, and Escarpments Wind speed-up effects at isolated hills, ridges, and escarpments constituting abrupt changes in the general topography, located in any exposure category, shall be included in the determination of the wind loads when site conditions and locations of buildings and other structures meet all the following conditions:
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The building or other structure is located as shown in Figure 26.8-1 in the upper one-half of a hill or ridge or near the crest of an escarpment. H ∕ Lh ≥ 0.2.
+<br><span class="xref">→ ASCE7-22-26.8-F26-8-11</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+H is greater than or equal to 15 ft (4.5 m) for Exposures C and D and 60 ft (18 m) for Exposures B.
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">26.9</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Table 26.9-1. Ground Elevation Factor, Ke . Notes:
+<br><span class="xref">→ ASCE7-22-26.9-T26-9-11</span>
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">26.10</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">26.10.1 Velocity Pressure Exposure Coef</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+fi cient Based on the exposure category determined in Section 26.7.3, a velocity pressure exposure coef fi cient, Kz or Kh , as applicable, shall be determined from Table 26.10-1. For a site located in a transition zone between exposure categories that is near to a change in ground surface roughness, intermediate values of Kz or Kh , between those shown in Table 26.10-1 are permitted provided they
+<br><span class="xref">→ ASCE7-22-26.10-E26-10-11, ASCE7-22-26.7.3-H1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">26.10.2 Velocity Pressure</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">26.11</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">26.11.1 Gust-Effect Factor</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The gust-effect factor for a rigid building or other structure is permitted to be taken as 0.85.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">26.11.2 Frequency Determination</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+To determine whether a building or other structure is rigid or fl exible as de fi ned in Section 26.2, the fundamental natural frequency, n 1 , shall be established using the structural properties and deformational characteristics of the resisting elements in a properly substantiated analysis. Low-rise buildings, as de fi ned in Section 26.2, are permitted to be considered rigid.
+<br><span class="xref">→ ASCE7-22-26.2-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The building height is less than or equal to 300 ft (91 m).
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The building height is less than four times its effective length, L eff .
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The summations are over the height of the building, where hi is the height above grade of level i , and Li is the building length at level i parallel to the wind direction.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">26.11.3 Approximate Natural Frequency</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">26.11.4 Rigid</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Buildings or Other Structures For rigid buildings or other structures as de fi ned in Section 26.2, the gust-effect factor shall be taken as 0.85 or calculated by this formula:
+<br><span class="xref">→ ASCE7-22-26.2-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Table 26.11-1. Terrain Exposure Constants.
+<br><span class="xref">→ ASCE7-22-26.11-T26-11-12</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">26.11.5 Flexible Buildings or Other Structures</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+For fl exible buildings or other structures as de fi ned in Section 26.2, the gusteffect factor shall be calculated by
+<br><span class="xref">→ ASCE7-22-26.2-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The background response factor, Q , and the intensity of turbulence at height z , I z , are de fi ned in Section 26.11.4. The resonant response factor is
+<br><span class="xref">→ ASCE7-22-26.11.4-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+where n 1 is the fundamental natural frequency, and β is the damping ratio, fraction of critical (e.g., for 2% use 0.02 in the equation).
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The power spectral density of turbulence at the equivalent height of the structure z , evaluated at the structure &#x27; s natural reduced frequency, N 1 , is
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The size effect factors related to the height, breadth, and depth of the building are
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The mean hourly wind speed (in ft/s or m/s) at the equivalent structure height, z , is
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">26.11.6 Rational Analysis</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+In lieu of the procedure de fi ned in Sections 26.11.4 and 26.11.5, determination of the gust-effect factor by any rational analysis de fi ned in the recognized literature is permitted.
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">26.12</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Within 1 mi (1.6 km) of the mean high water line where an Exposure D condition exists upwind of the waterline and the basicwindspeedisequaltoorgreaterthan130mi/h(58m/s),or
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+In areas where the basic wind speed is equal to or greater than 140 mi/h (63 m/s).
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">26.12.1 General</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+For the purpose of determining internal pressure coef fi cients, buildings and other structures for which internal pressure coef fi cients ( GCpi ) apply shall be classi fi ed as enclosed, partially enclosed, partially open, or open, as de fi ned in Section 26.2. If a building or other structure satis fi es both the &#x27; open &#x27; and &#x27; partially enclosed &#x27; enclosure classi fi cation de fi nitions, it s
+<br><span class="xref">→ ASCE7-22-26.2-H1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">26.12.2 Openings</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Adetermination shall be made of the amount of openings in the building envelope for use in determining the enclosure classi fi cation. To make this determination, each building wall shall be assumed as the windward wall for consideration of the amount of openings present with respect to the remaining building envelope.
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">26.13</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+INTERNAL PRESSURE COEFFICIENTS
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">26.13.1 Reduction Factor for Large-Volume Buildings, R i For a partially enclosed building containing a single,</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Table 26.13-1. Main Wind Force Resisting System and Components and Cladding (All Heights): Internal Pressure Coefficient, ( GCpi ), for Enclosed, Partially Enclosed, Partially Open, and Open Buildings (Walls and Roof). Notes:
+<br><span class="xref">→ ASCE7-22-26.13-E26-13-11</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Plus and minus signs signify pressures acting toward and away from the internal surfaces, respectively.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(a) A positive value of ( GCpi ) applied to all internal surfaces, or
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(b) A negative value of ( GCpi ) applied to all internal surfaces.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+where Aog is the total area of openings in the building envelope [walls and roof (ft 2 )], and Vi is the unpartitioned internal volume (ft 3 ).
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">26.14</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Pressure , Door and Access Systems Manufacturers Association International, 2017.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Cited in: Sections 26.12.3.2, C26.12.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Cited in : Sections 26.12.3.2, C26.12
+</div>
+</div>
+</body></html>

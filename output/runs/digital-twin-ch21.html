@@ -1,0 +1,151 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8">
+<title>ASCE 7-22 Chapter 21 — Digital Twin</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#FFF;--s:#F5F5F5;--t:#1A1A1A;--m:#6B6B6B;--b:#D4D4D4;--sub:#E8E8E8;
+--g:#16A34A;--a:#0057FF;--r:#DC2626;--am:#D97706;--cy:#06B6D4;--purple:#8B5CF6}
+@media(prefers-color-scheme:dark){:root{--bg:#0A0A0A;--s:#141414;--t:#E5E5E5;--m:#808080;
+--b:#2A2A2A;--sub:#1A1A1A;--a:#3B82F6}}
+body{background:var(--bg);color:var(--t);font-family:'JetBrains Mono','SF Mono',monospace;
+font-size:11px;max-width:900px;margin:0 auto;padding:16px}
+h1{font-size:13px;text-transform:uppercase;letter-spacing:.1em;margin-bottom:2px}
+.sub{font-size:10px;color:var(--m);margin-bottom:12px}
+.nav{font-size:10px;color:var(--a);margin-bottom:16px}
+.nav a{color:var(--a);text-decoration:none}
+.nav a:hover{text-decoration:underline}
+.section{margin-bottom:12px}
+.sec-num{font-size:12px;font-weight:700;color:var(--t);margin-bottom:2px}
+.sec-0,.sec-1{margin-left:0}.sec-2{margin-left:16px}.sec-3{margin-left:32px}.sec-4{margin-left:48px}
+.child{margin:3px 0;padding:4px 8px;border-left:2px solid var(--sub);font-size:10px;line-height:1.5}
+.child.provision{border-color:var(--g);background:rgba(22,163,74,0.03)}
+.child.definition{border-color:var(--purple);background:rgba(139,92,246,0.03)}
+.child.formula{border-color:var(--a);background:rgba(59,130,246,0.03)}
+.child.table{border-color:var(--cy);background:rgba(6,182,212,0.03)}
+.child.figure{border-color:var(--am);background:rgba(217,119,6,0.03)}
+.child.exception{border-color:var(--r);background:rgba(220,38,38,0.03)}
+.child.user_note{border-color:var(--m);background:rgba(128,128,128,0.03)}
+.child.text_block{border-color:var(--sub)}
+.tag{display:inline-block;padding:0 3px;border:1px solid;font-size:7px;text-transform:uppercase;
+letter-spacing:.04em;margin-right:3px;vertical-align:middle}
+.tag-provision{border-color:var(--g);color:var(--g)}
+.tag-definition{border-color:var(--purple);color:var(--purple)}
+.tag-formula{border-color:var(--a);color:var(--a)}
+.tag-table{border-color:var(--cy);color:var(--cy)}
+.tag-figure{border-color:var(--am);color:var(--am)}
+.tag-exception{border-color:var(--r);color:var(--r)}
+.tag-user_note{border-color:var(--m);color:var(--m)}
+.tag-text_block{border-color:var(--sub);color:var(--m)}
+.meta{font-size:8px;color:var(--m)}
+.xref{font-size:8px;color:var(--a)}
+b{font-weight:600}
+table.tbl{width:100%;border-collapse:collapse;font-size:9px;margin:4px 0}
+table.tbl th{text-align:left;font-size:7px;text-transform:uppercase;color:var(--m);border-bottom:1px solid var(--b);padding:1px 4px}
+table.tbl td{padding:1px 4px;border-bottom:1px solid var(--sub)}
+</style></head><body>
+<h1>ASCE 7-22 Chapter 21 — Digital Twin</h1>
+<div class="sub">48 elements · 12 provisions · 0 definitions · 1 formulas · 1 tables</div>
+<div class="nav"><a href="digital-twin-index.html">← All Chapters</a></div>
+
+<div class="section sec-0">
+<div class="sec-num">CHAPTER 21</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+SITE-SPECIFIC GROUND MOTION PROCEDURES FOR SEISMIC DESIGN
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">21.1</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">21.1.1 Base Ground Motions</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+An MCER response spectrum shall be developed for a base condition consisting of bedrock, or when bedrock is very deep, fi rm soil conditions below softer sur fi cial layers, using the procedure of Sections 11.4.6 or 21.2. Unless a site-speci fi c ground motion hazard analysis described in Section 21.2 is carried out, the MCER base response spectrum shall be developed using the procedure of Section
+<br><span class="xref">→ ASCE7-22-21.2-H1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">21.1.2 Site Condition Modeling</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+A site response model based on low strain shear wave velocities, nonlinear or equivalent linear shear stress -strain relationships, and unit weights shall be developed. Low strain shear wave velocities shall be determined from fi eld measurements at the site or from measurements from similar soils in the site vicinity. Nonlinear or equivalent linear shear stress -strain relationships and unit weig
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">21.2</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+RISK-TARGETED MAXIMUM CONSIDERED EARTHQUAKE (MCER) GROUND MOTION HAZARD ANALYSIS
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">21.2.1 Probabilistic</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(MCER) Ground Motions The probabilistic spectral response accelerations shall be taken as the spectral response accelerations in the direction of maximum horizontal response represented by a 5% damped acceleration response spectrum that is expected to achieve a 1% probability of collapse within a 50-year period.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+50-year period for a collapse fragility that has (1) a 10% probability of collapse at said ordinate of the probabilistic ground motion response spectrum and (2) a logarithmic standard deviation value of 0.6.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">21.2.2 Deterministic</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(MCER) Ground Motions The deterministic spectral response acceleration at each period shall be calculated as an 84th-percentile 5% damped spectral response acceleration in the direction of maximum horizontal response computed at that period. The largest such acceleration calculated for scenario earthquakes on all known faults within the region shall be used. The scenario earthquakes shall be deter
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">21.2.3 Site-Speci</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+fi c MCER Response Spectrum The site-speci fi c MCER spectral response acceleration at any period, SaM , shall be taken as the lesser of the spectral response accelerations from the probabilistic ground motions of Section 21.2.1 and the deterministic ground motions of Section 21.2.2.
+<br><span class="xref">→ ASCE7-22-21.2.1-H1, ASCE7-22-21.2.2-H1</span>
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">21.2.3.1 Site Class F Sites</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+For sites classi fi ed as Site Class F requiring site-speci fi c analysis in accordance with Section 11.4.7, the site-speci fi c MCER spectral response acceleration at any period shall not be less than 80% of the MCER response spectrum obtained from the USGS Seismic Design Geodatabase for Site Class E.
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">21.3</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+where SaM is the MCER spectral response acceleration obtained from Section 21.1 or 21.2.
+<br><span class="xref">→ ASCE7-22-21.1-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Table 21.2-1. Deterministic Lower Limit Values of MCER Response Spectra and PGAG ( g ).
+<br><span class="xref">→ ASCE7-22-21.2-T21-2-11</span>
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">21.4</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+DESIGN ACCELERATION PARAMETERS
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">21.5</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+MAXIMUM CONSIDERED EARTHQUAKE GEOMETRIC MEAN (MCEG) PEAK GROUND ACCELERATION
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">21.5.1 Probabilistic MCEG Peak Ground Acceleration</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The probabilistic geometric mean peak ground acceleration shall be taken as the geometric mean peak ground acceleration with a 2% probability of exceedance within a 50-year period.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">21.5.2 Deterministic MCEG Peak Ground Acceleration The deterministic geometric mean peak ground acceleration shall be calculated as the largest 84th-percentile geometric mean peak ground acceleration for scenario earthquakes on all known active faults within the site region. The scenario earthquakes shall be determined from deaggregation for the probabilistic geometric mean peak ground acceleration. Scenario earthquakes contributing less than 10% of the largest contributor shall be ignored. The deterministic geometric mean peak ground acceleration shall not be taken as lower than the value of PGAG of Table 21.2-1 of the site class, determined in accordance with the site class requirements of Section 11.4.2.</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">21.6</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Downloaded from ascelibrary.org by Serge Terentieff on 03/10/22. Copyright ASCE. For personal use only; all rights reserved.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+This page intentionally left blank
+</div>
+</div>
+</body></html>

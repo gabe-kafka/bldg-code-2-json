@@ -1,0 +1,460 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8">
+<title>ASCE 7-22 Chapter 11 — Digital Twin</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#FFF;--s:#F5F5F5;--t:#1A1A1A;--m:#6B6B6B;--b:#D4D4D4;--sub:#E8E8E8;
+--g:#16A34A;--a:#0057FF;--r:#DC2626;--am:#D97706;--cy:#06B6D4;--purple:#8B5CF6}
+@media(prefers-color-scheme:dark){:root{--bg:#0A0A0A;--s:#141414;--t:#E5E5E5;--m:#808080;
+--b:#2A2A2A;--sub:#1A1A1A;--a:#3B82F6}}
+body{background:var(--bg);color:var(--t);font-family:'JetBrains Mono','SF Mono',monospace;
+font-size:11px;max-width:900px;margin:0 auto;padding:16px}
+h1{font-size:13px;text-transform:uppercase;letter-spacing:.1em;margin-bottom:2px}
+.sub{font-size:10px;color:var(--m);margin-bottom:12px}
+.nav{font-size:10px;color:var(--a);margin-bottom:16px}
+.nav a{color:var(--a);text-decoration:none}
+.nav a:hover{text-decoration:underline}
+.section{margin-bottom:12px}
+.sec-num{font-size:12px;font-weight:700;color:var(--t);margin-bottom:2px}
+.sec-0,.sec-1{margin-left:0}.sec-2{margin-left:16px}.sec-3{margin-left:32px}.sec-4{margin-left:48px}
+.child{margin:3px 0;padding:4px 8px;border-left:2px solid var(--sub);font-size:10px;line-height:1.5}
+.child.provision{border-color:var(--g);background:rgba(22,163,74,0.03)}
+.child.definition{border-color:var(--purple);background:rgba(139,92,246,0.03)}
+.child.formula{border-color:var(--a);background:rgba(59,130,246,0.03)}
+.child.table{border-color:var(--cy);background:rgba(6,182,212,0.03)}
+.child.figure{border-color:var(--am);background:rgba(217,119,6,0.03)}
+.child.exception{border-color:var(--r);background:rgba(220,38,38,0.03)}
+.child.user_note{border-color:var(--m);background:rgba(128,128,128,0.03)}
+.child.text_block{border-color:var(--sub)}
+.tag{display:inline-block;padding:0 3px;border:1px solid;font-size:7px;text-transform:uppercase;
+letter-spacing:.04em;margin-right:3px;vertical-align:middle}
+.tag-provision{border-color:var(--g);color:var(--g)}
+.tag-definition{border-color:var(--purple);color:var(--purple)}
+.tag-formula{border-color:var(--a);color:var(--a)}
+.tag-table{border-color:var(--cy);color:var(--cy)}
+.tag-figure{border-color:var(--am);color:var(--am)}
+.tag-exception{border-color:var(--r);color:var(--r)}
+.tag-user_note{border-color:var(--m);color:var(--m)}
+.tag-text_block{border-color:var(--sub);color:var(--m)}
+.meta{font-size:8px;color:var(--m)}
+.xref{font-size:8px;color:var(--a)}
+b{font-weight:600}
+table.tbl{width:100%;border-collapse:collapse;font-size:9px;margin:4px 0}
+table.tbl th{text-align:left;font-size:7px;text-transform:uppercase;color:var(--m);border-bottom:1px solid var(--b);padding:1px 4px}
+table.tbl td{padding:1px 4px;border-bottom:1px solid var(--sub)}
+</style></head><body>
+<h1>ASCE 7-22 Chapter 11 — Digital Twin</h1>
+<div class="sub">458 elements · 37 provisions · 74 definitions · 13 formulas · 2 tables</div>
+<div class="nav"><a href="digital-twin-index.html">← All Chapters</a></div>
+
+<div class="section sec-1">
+<div class="sec-num">11.1 GENERAL</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">11.1.1 Purpose</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">11.1.2 Scope</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Every structure and portion thereof, including nonstructural components, shall be designed and constructed to resist the effects of earthquake motions as prescribed by the seismic requirements of this standard. Certain nonbuilding structures, as described in Chapter 15, are also within the scope and shall be designed and constructed in accordance with the requirements of Chapter 15. The following 
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Detached oneand two-family dwellings that are located where the mapped, short period, spectral response acceleration parameter, SS , is less than 0.4 or where the seismic design category determined in accordance with Section 11.6 is A, B, or C.
+<br><span class="xref">→ ASCE7-22-11.6-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Detached oneand two-family wood-frame dwellings not included in Exemption 1 with not more than two stories above grade plane, satisfying the limitations of and constructed in accordance with the IRC.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Agricultural storage structures that are intended only for incidental human occupancy.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Nonbuilding structures that require special consideration of their response characteristics and environment that are not addressed in Chapter 15 and for which other regulations provide seismic criteria, such as vehicular bridges, electrical transmission towers, hydraulic structures, buried utility lines and their appurtenances, and nuclear reactors.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Piers and wharves that are not accessible to the general public.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">11.1.3 Applicability</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Structures and their nonstructural components shall be designed and constructed in accordance with the requirements of the following chapters based on the type of structure or component: Buildings: Chapter 12
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Nonbuilding structures: Chapter 15
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Nonstructural components: Chapter 13
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Seismically isolated structures: Chapter 17
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Structures with damping systems: Chapter 18
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">11.1.4 Alternate Materials and Methods of Construction</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Alternate materials and methods of construction to those prescribed in the seismic requirements of this standard shall not be used unless approved by the Authority Having Jurisdiction. Substantiating evidence shall be submitted demonstrating that the proposed alternate will be at least equal in strength, durability, and seismic resistance for the purpose intended.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">11.1.5 Quality Assurance</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Quality assurance for seismic forceresisting systems and other designated seismic systems de fi ned in Section 13.2.2 shall be provided in accordance with the requirements of the Authority Having Jurisdiction.
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">11.2</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">11.3 SYMBOLS</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+A 0 = Area of the load-carrying foundation, ft 2 (m 2 )
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Ach = Cross-sectional area, in. 2 (mm 2 ), of a structural member measured out-to-out of transverse reinforcement
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Ash = Total cross-sectional area of hoop reinforcement, in. 2 (mm 2 ), including supplementary crossties, having a spacing of s h and crossing a section with a core dimension of hc
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Avd = Required area of leg of diagonal reinforcement, in. 2 (mm 2 )
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Ax = Torsional ampli fi cation factor (Section 12.8.4.3)
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+ai = Acceleration at level i obtained from a modal analysis (Section 13.3.1)
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+ai = the maximum acceleration at level i obtained from the nonlinear response history analysis at the Design Earthquake ground motion
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+bp = Width of the rectangular glass panel
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+CAR = Component resonance ductility factor that converts the peak fl oor or ground acceleration into the peak component acceleration as determined in Section 13.3.1.3
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Cd = De fl ection ampli fi cation factor as given in Table 12.2-1, 15.4-1, or 15.4-2
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+CdX = De fl ection ampli fi cation factor in the X direction (Section 12.9.2.5)
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+CdY = De fl ection ampli fi cation factor in the Y direction (Section 12.9.2.5)
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Cs-diaph = Seismic response coef fi cient for design of diaphragms using the alternative diaphragm design method of Section 12.10.4
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Cd-diaph = De fl ection ampli fi cation factor for diaphragm de fl ection (12.10.4)
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Cp 0 = Diaphragm design acceleration coef fi cient at the structure base (Section 12.10.3.2.1)
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Cpi = Diaphragm design acceleration coef fi cient at 80% of the structural height above the base, hn (Section 12.10.3.2.1)
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Cpn = Diaphragm design acceleration coef fi cient at the structural height, hn (Section 12.10.3.2.1)
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Cpx = Diaphragm design acceleration coef fi cient at level x (Section 12.10.3.2.1)
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Cs = Seismic response coef fi cient determined in Section 12.8.1.1 or 19.3.1 (dimensionless)
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Cs 2 = Higher mode seismic response coef fi cient (Section 12.10.3.2.1)
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Ct = Building period coef fi cient (Section 12.8.2.1)
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Cv = Vertical response spectral coef fi cient as given in Table 11.9-1
+<br><span class="xref">→ ASCE7-22-11.9-E11-9-11</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Cvs = Coef fi cient of variation of soil shear modulus, de fi ned as the standard deviation divided by the mean (Section 12.13.3)
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Cvx = Vertical distribution factor as determined in Section 12.8.3
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+c = Distance from the neutral axis of a fl exural member to the fi ber of maximum compressive strain, in. (mm) D = Effect of dead load
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+D clear = Relative horizontal (drift) displacement, measured over the height of the glass panel under consideration, which causes initial glass-to-frame contact. For rectangular glass panels within a rectangular wall frame, D clear is set forth in Section 13.5.9.1
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+DpI = Seismic relative displacement (Section 13.3.2)
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Ds = Total depth of stratum in Equation (19.3-4), ft (m)
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+dc = Total thickness of cohesive soil layers in the top 100 ft (30 m), ft (m) (Section 20.4.3)
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+di = Thickness of any soil or rock layer i [between 0 and 100 ft (0 and 30 m)]; see Section 20.4.1
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+dS = Total thickness of cohesionless soil layers in the top 100 ft (30 m), ft (m) (Section 20.4.2)
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+E = Effect of horizontal and vertical earthquake-induced forces (Section 12.4)
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Ecl = Capacity-limited horizontal seismic load effect, equal to the maximum force that can develop in the element as determined by a rational, plastic mechanism analysis
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Fi , Fn , Fx = Portion of the seismic base shear, V , induced at level , or
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+, respectively, as determined in Section 12.8.3
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Fmd = Factor to convert the geometric mean spectral ordinate to a maximum direction spectral ordinate
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Fp = Seismic force acting on a component of a structure as determined in Sections 12.11.1 and 13.3.1
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Fpx = Diaphragm seismic design force at level x
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+f 0 c = Speci fi ed compressive strength of concrete used in design
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+f y = Speci fi ed yield strength of reinforcement, psi (MPa)
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+f yh = Speci fi ed yield strength of the special lateral reinforcement, psi (kPa)
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+G 0 = γυ 2 s 0 ∕ g = Average shear modulus for the soils beneath the foundation at small strain levels, lb/ft 2 (Pa)
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+G = γυ 2 s ∕ g = Average shear modulus for the soils beneath the foundation at large strain levels, lb/ft 2 (Pa)
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+g = Acceleration due to gravity H = Thickness of soil
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Hf = Factor for force ampli fi cation as a function of height in the structure as determined in Section 13.3.1.1
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+h = Height of a shear wall measured as the maximum clear height from top of foundation to bottom of diaphragm framing above, or the maximum clear height from top of diaphragm to bottom of diaphragm framing above
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+h = Average roof height of structure with respect to the base (Chapter 13)
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+h  = Effective height of the building, ft (m), as determined in Chapter 19
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+hc = Core dimension of a component measured to the outside of the special lateral reinforcement, in. (mm)
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+hi , hx = Height above the base to level i or x , respectively
+</div>
+<div class="meta">+112 more elements</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">11.4</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">11.4.1 Near-Fault Sites</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">11.4.2 Site Class</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The site shall be classi fi ed as Site Class A, B, BC, C, CD, D, DE, E, or F in accordance with Chapter 20.
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">11.4.2.1 Default Site Conditions</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Where the soil properties are not known in suf fi cient detail to determine the site class, risktargeted maximum considered earthquake (MCER) spectral response accelerations shall be based on the most critical spectral response acceleration at each period of Site Class C, Site Class CD, and Site Class D, unless the Authority Having Jurisdiction determines, based on geotechnical data, that Site Cla
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">11.4.3 Risk-Targeted Maximum Considered Earthquake</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+( MCER ) Spectral Response Acceleration Parameters Risktargeted maximum considered earthquake (MCER) spectral response acceleration parameters SS , S 1 , SMS , and SM 1 shall be obtained from the USGS Seismic Design Geodatabase for the applicable site class.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">11.4.4 Design</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Spectral Acceleration Parameters Design earthquake spectral response acceleration parameters at short periods, SDS , and at 1-s periods, SD 1 , shall be determined from Equations (11.4-1) and (11.4-2), respectively. Where the simpli fi ed alternative design procedure of Section 12.14 is used, the value of SDS shall be determined in accordance with Section 12.14.8.1, and the value for SD 1 need not
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+SMS = MCER, 5%-damped, spectral response acceleration parameter at short periods adjusted for site effects as determined in accordance with Section 11.4.3, and
+<br><span class="xref">→ ASCE7-22-11.4.3-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+SM 1 = MCER, 5%-damped, spectral response acceleration parameter at a period of 1 s adjusted for site effects as determined in accordance with Section 11.4.3.
+<br><span class="xref">→ ASCE7-22-11.4.3-H1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">11.4.5 Design Response Spectrum</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">11.4.5.1 Multi-Period Design Response Spectrum</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The multiperiod design response spectrum shall be developed as follows:
+</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">11.4.5.2 Two-Period Design Response Spectrum</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The twoperiod design response spectrum shall be developed as indicated in Figure 11.4-1 and as follows:
+<br><span class="xref">→ ASCE7-22-11.4-E11-4-11</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Spectral Response Acceleration, Sa (g) SDS SD1 D1 Sa Period, (sec)
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+SDS = Design spectral response acceleration parameter at short periods;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+SD 1 = Design spectral response acceleration parameter at a 1 s period;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+T = Fundamental period of the structure, S ; = ∕ ; and T 0 = 0.2( SD 1 ∕ SDS ); TS SD 1 SDS
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+TL = Long-period transition period(s) shown in Figures 22-14 through 22-17.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">11.4.6 Risk-Targeted Maximum Considered Earthquake</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+( MCER ) Response Spectrum Where an MCER response spectrum is required, it shall be determined by multiplying the design response spectrum by 1.5.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">11.4.7 Site-Speci</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+fi c Ground Motion Procedures A site response analysis shall be performed in accordance with Section 21.1 for structures on Site Class F sites, unless exempted in accordance with Section 20.3.1.
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">11.5</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+IMPORTANCE FACTOR AND RISK CATEGORY
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">11.5.1 Importance Factor</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+An Importance Factor, I e , shall be assigned to each structure in accordance with Table 1.5-2.
+<br><span class="xref">→ ASCE7-22-1.5-T1-5-22</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">11.5.2 Protected</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Access for Risk Category IV Where operational access to a Risk Category IV structure is required through an adjacent structure, the adjacent structure shall conform to the requirements for Risk Category IV structures. Where operational access is less than 10 ft (3.048 m) from an interior lot line or another structure on the same lot, protection from potential falling debris from adjacent structure
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">11.6</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+In each of the two orthogonal directions, the approximate fundamental period of the structure, Ta , determined in accordance with Section 12.8.2.1 is less than 0.8 Ts , where Ts is determined in accordance with Section 11.4.5.
+<br><span class="xref">→ ASCE7-22-11.4.5-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+In each of two orthogonal directions, the fundamental period of the structure used to calculate the story drift is less than Ts .
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Equation (12.8-2) is used to determine the seismic response coef fi cient, Cs .
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Table 11.6-1. Seismic Design Category Based on Short-Period Response Acceleration Parameter.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Table 11.6-2. Seismic Design Category Based on 1 s Period Response Acceleration Parameter.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The diaphragms are rigid in accordance with Section 12.3; or, for diaphragms that are not rigid, the horizontal distance between vertical elements of the seismic force-resisting system does not exceed 40 ft (12.192 m).
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">11.7</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+DESIGN REQUIREMENTS FOR SEISMIC DESIGN CATEGORY A
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">11.8 GEOLOGIC HAZARDS AND GEOTECHNICAL INVESTIGATION</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">11.8.1 Site Limitation for Seismic Design Categories E</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+and F A structure assigned to Seismic Design Category E or F shall not be located where a known potential exists for an active fault to cause rupture of the ground surface at the structure.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">11.8.2 Geotechnical Investigation Report Requirements for</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Seismic Design Categories C through F A geotechnical investigation report shall be provided for a structure assigned to Seismic Design Category C, D, E, or F in accordance with this section. An investigation shall be conducted, and a report shall be submitted that includes an evaluation of the following potential geologic and seismic hazards: (a) Slope instability, (b) Liquefaction,
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(c) Total and differential settlement, and
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+(d) Surface displacement caused by faulting or seismically induced lateral spreading or lateral fl ow.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">11.8.3 Additional</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Geotechnical Investigation Report Requirements for Seismic Design Categories D through F The geotechnical investigation report for a structure assigned to Seismic Design Category D, E, or F shall include all of the following, as applicable:
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The determination of dynamic seismic lateral earth pressures on basement and retaining walls caused by design earthquake ground motions.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Assessment of potential consequences of liquefaction, seismically-induced permanent ground displacement, and soil strength loss, including, but not limited to, estimation of total and differential settlement, lateral soil movement, lateral soil loads on foundations, reduction in foundation soil-bearing capacity and lateral soil reaction, soil downdrag and reduction in axial and lateral soil reacti
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">11.9</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+VERTICAL GROUND MOTIONS FOR SEISMIC DESIGN
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">11.9.1 General</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+If the option to incorporate the effects of vertical seismic ground motions is exercised in lieu of the requirements of Section 12.4.2.2, the requirements of this section are permitted to be used in the determination of the vertical design earthquake ground motions. The requirements of Section 11.9.2 shall only apply to structures in Seismic Design Categories C, D, E, and F located in the contermi
+<br><span class="xref">→ ASCE7-22-11.9.2-H1, ASCE7-22-11.9.3-H1</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">11.9.2</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">11.9.3 Design Vertical Response Spectrum</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The design vertical response spectral acceleration, Sav , shall be taken as two-thirds of the value of SaMv determined in Sections 11.9.1 or 11.9.2.
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">11.10 CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+</body></html>

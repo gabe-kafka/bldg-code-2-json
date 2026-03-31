@@ -36,7 +36,7 @@
       "citation": "Section 27",
       "page": 1
     },
-    "title": "WIND LOADS ON BUILDINGS: MAIN WIND FORCE RESISTING SYSTEM (DIRECTIONAL PROCEDURE)",
+    "title": "WIND LOADS ON BUILDINGS: MAIN WIND FORCE RESISTING SYSTEM",
     "description": "",
     "data": {
       "rule": "WIND LOADS ON BUILDINGS: MAIN WIND FORCE RESISTING SYSTEM (DIRECTIONAL PROCEDURE)",
@@ -90,10 +90,10 @@
       "citation": "Section 27.1.1",
       "page": 1
     },
-    "title": "27.1.1 Building Types This chapter applies to the determination of Main Wind Force Resisting System (MWFRS) wind loads on enclosed, partially enclosed, partially open, and open buildings of all height",
+    "title": "27.1.1 Building Types",
     "description": "",
     "data": {
-      "rule": "27.1.1 Building Types This chapter applies to the determination of Main Wind Force Resisting System (MWFRS) wind loads on enclosed, partially enclosed, partially open, and open buildings of all heights using the Directional Procedure, in which it is necessary to separate applied wind loads onto the windward, leeward, and sidewalls of the building to properly assess the internal forces in the MWFRS members.",
+      "rule": "27.1.1 Building Types",
       "conditions": [],
       "then": "",
       "else": null,
@@ -108,6 +108,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-27.1.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-27.1.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 27,
+      "section": "27.1.1",
+      "citation": "Section 27.1.1",
+      "page": 1
+    },
+    "title": "This chapter applies to the determination of Main Wind Force Resisting System (MWFRS) wind loads on enclosed, partially enclosed, partially open, and open buildings of all heights using the Directiona",
+    "description": "",
+    "data": {
+      "rule": "This chapter applies to the determination of Main Wind Force Resisting System (MWFRS) wind loads on enclosed, partially enclosed, partially open, and open buildings of all heights using the Directional Procedure, in which it is necessary to separate applied wind loads onto the windward, leeward, and sidewalls of the building to properly assess the internal forces in the MWFRS members.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-27.1.2-H1",
     "type": "heading",
     "source": {
@@ -117,10 +144,10 @@
       "citation": "Section 27.1.2",
       "page": 1
     },
-    "title": "27.1.2 Conditions A building that has design wind loads determined in accordance with this chapter shall comply with both of the following conditions:",
+    "title": "27.1.2 Conditions",
     "description": "",
     "data": {
-      "rule": "27.1.2 Conditions A building that has design wind loads determined in accordance with this chapter shall comply with both of the following conditions:",
+      "rule": "27.1.2 Conditions",
       "conditions": [],
       "then": "",
       "else": null,
@@ -136,6 +163,33 @@
   },
   {
     "id": "ASCE7-22-27.1.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-27.1.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 27,
+      "section": "27.1.2",
+      "citation": "Section 27.1.2",
+      "page": 1
+    },
+    "title": "A building that has design wind loads determined in accordance with this chapter shall comply with both of the following conditions:",
+    "description": "",
+    "data": {
+      "rule": "A building that has design wind loads determined in accordance with this chapter shall comply with both of the following conditions:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-27.1.2-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -164,7 +218,7 @@
     "parent_id": "ASCE7-22-27.1.2-H1"
   },
   {
-    "id": "ASCE7-22-27.1.2-T2",
+    "id": "ASCE7-22-27.1.2-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -229,10 +283,10 @@
       "citation": "Section 27.1.4",
       "page": 1
     },
-    "title": "27.1.4 Shielding There shall be no reductions in velocity pressure caused by apparent shielding afforded by buildings and other structures or terrain features.",
+    "title": "27.1.4 Shielding",
     "description": "",
     "data": {
-      "rule": "27.1.4 Shielding There shall be no reductions in velocity pressure caused by apparent shielding afforded by buildings and other structures or terrain features.",
+      "rule": "27.1.4 Shielding",
       "conditions": [],
       "then": "",
       "else": null,
@@ -247,6 +301,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-27.1.4-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-27.1.4-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 27,
+      "section": "27.1.4",
+      "citation": "Section 27.1.4",
+      "page": 1
+    },
+    "title": "There shall be no reductions in velocity pressure caused by apparent shielding afforded by buildings and other structures or terrain features.",
+    "description": "",
+    "data": {
+      "rule": "There shall be no reductions in velocity pressure caused by apparent shielding afforded by buildings and other structures or terrain features.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-27.1.5-H1",
     "type": "heading",
     "source": {
@@ -256,10 +337,10 @@
       "citation": "Section 27.1.5",
       "page": 1
     },
-    "title": "27.1.5 Minimum Design Wind Loads The wind pressure to be used in the design of the MWFRS for an enclosed, or partially enclosed, building shall not be less than 16 lb \u2215 ft 2 (0.77 kN \u2215 m 2 ) multiplie",
+    "title": "27.1.5 Minimum Design Wind Loads",
     "description": "",
     "data": {
-      "rule": "27.1.5 Minimum Design Wind Loads The wind pressure to be used in the design of the MWFRS for an enclosed, or partially enclosed, building shall not be less than 16 lb \u2215 ft 2 (0.77 kN \u2215 m 2 ) multiplied by the wall area of the building, and 8 lb \u2215 ft 2 (0.38 kN \u2215 m 2 ) multiplied by the roof area of the building, projected onto a vertical plane normal to the assumed wind direction. Wall and roof loads shall be applied simultaneously. The design wind force for open buildings shall be not less than 16 lb \u2215 ft 2 (0.77 kN \u2215 m 2 ) multiplied by the area, Af .",
+      "rule": "27.1.5 Minimum Design Wind Loads",
       "conditions": [],
       "then": "",
       "else": null,
@@ -272,6 +353,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-27.1.5-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-27.1.5-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 27,
+      "section": "27.1.5",
+      "citation": "Section 27.1.5",
+      "page": 1
+    },
+    "title": "The wind pressure to be used in the design of the MWFRS for an enclosed, or partially enclosed, building shall not be less than 16 lb \u2215 ft 2 (0.77 kN \u2215 m 2 ) multiplied by the wall area of the buildin",
+    "description": "",
+    "data": {
+      "rule": "The wind pressure to be used in the design of the MWFRS for an enclosed, or partially enclosed, building shall not be less than 16 lb \u2215 ft 2 (0.77 kN \u2215 m 2 ) multiplied by the wall area of the building, and 8 lb \u2215 ft 2 (0.38 kN \u2215 m 2 ) multiplied by the roof area of the building, projected onto a vertical plane normal to the assumed wind direction. Wall and roof loads shall be applied simultaneously. The design wind force for open buildings shall be not less than 16 lb \u2215 ft 2 (0.77 kN \u2215 m 2 ) multiplied by the area, Af .",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-27.2-H1",
@@ -625,10 +733,10 @@
       "citation": "Section 27.3",
       "page": 1
     },
-    "title": "27.3 WIND LOADS: MAIN WIND FORCE RESISTING SYSTEM",
+    "title": "27.3",
     "description": "",
     "data": {
-      "rule": "27.3 WIND LOADS: MAIN WIND FORCE RESISTING SYSTEM",
+      "rule": "27.3",
       "conditions": [],
       "then": "",
       "else": null,
@@ -643,6 +751,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-27.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-27.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 27,
+      "section": "27.3",
+      "citation": "Section 27.3",
+      "page": 1
+    },
+    "title": "WIND LOADS: MAIN WIND FORCE RESISTING SYSTEM",
+    "description": "",
+    "data": {
+      "rule": "WIND LOADS: MAIN WIND FORCE RESISTING SYSTEM",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-27.3.1-H1",
     "type": "heading",
     "source": {
@@ -652,10 +787,10 @@
       "citation": "Section 27.3.1",
       "page": 1
     },
-    "title": "27.3.1 Enclosed, Partially Enclosed, and Partially Open Rigid and Flexible Buildings Design wind pressures for the MWFRS of buildings of all heights in lb/ft 2 (N/m 2 ), shall be determined by the fol",
+    "title": "27.3.1 Enclosed, Partially Enclosed, and Partially Open",
     "description": "",
     "data": {
-      "rule": "27.3.1 Enclosed, Partially Enclosed, and Partially Open Rigid and Flexible Buildings Design wind pressures for the MWFRS of buildings of all heights in lb/ft 2 (N/m 2 ), shall be determined by the following equation:",
+      "rule": "27.3.1 Enclosed, Partially Enclosed, and Partially Open",
       "conditions": [],
       "then": "",
       "else": null,
@@ -671,6 +806,33 @@
   },
   {
     "id": "ASCE7-22-27.3.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-27.3.1-H2",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 27,
+      "section": "27.3.1",
+      "citation": "Section 27.3.1",
+      "page": 1
+    },
+    "title": "Rigid and Flexible Buildings Design wind pressures for the MWFRS of buildings of all heights in lb/ft 2 (N/m 2 ), shall be determined by the following equation:",
+    "description": "",
+    "data": {
+      "rule": "Rigid and Flexible Buildings Design wind pressures for the MWFRS of buildings of all heights in lb/ft 2 (N/m 2 ), shall be determined by the following equation:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-27.3.1-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -697,7 +859,7 @@
     "parent_id": "ASCE7-22-27.3.1-H2"
   },
   {
-    "id": "ASCE7-22-27.3.1-T2",
+    "id": "ASCE7-22-27.3.1-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -724,7 +886,7 @@
     "parent_id": "ASCE7-22-27.3.1-H2"
   },
   {
-    "id": "ASCE7-22-27.3.1-T3",
+    "id": "ASCE7-22-27.3.1-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -780,7 +942,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-27.3.1-T4",
+    "id": "ASCE7-22-27.3.1-T5",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -809,7 +971,7 @@
     "parent_id": "ASCE7-22-27.3.1-H2"
   },
   {
-    "id": "ASCE7-22-27.3.1-T5",
+    "id": "ASCE7-22-27.3.1-T6",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -836,7 +998,7 @@
     "parent_id": "ASCE7-22-27.3.1-H2"
   },
   {
-    "id": "ASCE7-22-27.3.1-T6",
+    "id": "ASCE7-22-27.3.1-T7",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -866,7 +1028,7 @@
     "parent_id": "ASCE7-22-27.3.1-H2"
   },
   {
-    "id": "ASCE7-22-27.3.1-T7",
+    "id": "ASCE7-22-27.3.1-T8",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -895,7 +1057,7 @@
     "parent_id": "ASCE7-22-27.3.1-H2"
   },
   {
-    "id": "ASCE7-22-27.3.1-T8",
+    "id": "ASCE7-22-27.3.1-T9",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -925,7 +1087,7 @@
     "parent_id": "ASCE7-22-27.3.1-H2"
   },
   {
-    "id": "ASCE7-22-27.3.1-T9",
+    "id": "ASCE7-22-27.3.1-T10",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -954,7 +1116,7 @@
     "parent_id": "ASCE7-22-27.3.1-H2"
   },
   {
-    "id": "ASCE7-22-27.3.1-T10",
+    "id": "ASCE7-22-27.3.1-T11",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -983,7 +1145,7 @@
     "parent_id": "ASCE7-22-27.3.1-H2"
   },
   {
-    "id": "ASCE7-22-27.3.1-T11",
+    "id": "ASCE7-22-27.3.1-T12",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1012,7 +1174,7 @@
     "parent_id": "ASCE7-22-27.3.1-H2"
   },
   {
-    "id": "ASCE7-22-27.3.1-T12",
+    "id": "ASCE7-22-27.3.1-T13",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1042,7 +1204,7 @@
     "parent_id": "ASCE7-22-27.3.1-H2"
   },
   {
-    "id": "ASCE7-22-27.3.1-T13",
+    "id": "ASCE7-22-27.3.1-T14",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1071,7 +1233,7 @@
     "parent_id": "ASCE7-22-27.3.1-H2"
   },
   {
-    "id": "ASCE7-22-27.3.1-T14",
+    "id": "ASCE7-22-27.3.1-T15",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1098,7 +1260,7 @@
     "parent_id": "ASCE7-22-27.3.1-H2"
   },
   {
-    "id": "ASCE7-22-27.3.1-T15",
+    "id": "ASCE7-22-27.3.1-T16",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1125,7 +1287,7 @@
     "parent_id": "ASCE7-22-27.3.1-H2"
   },
   {
-    "id": "ASCE7-22-27.3.1-T16",
+    "id": "ASCE7-22-27.3.1-T17",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1154,7 +1316,7 @@
     "parent_id": "ASCE7-22-27.3-F27-3-11"
   },
   {
-    "id": "ASCE7-22-27.3.1-T17",
+    "id": "ASCE7-22-27.3.1-T18",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1183,7 +1345,7 @@
     "parent_id": "ASCE7-22-27.3-F27-3-21"
   },
   {
-    "id": "ASCE7-22-27.3.1-T18",
+    "id": "ASCE7-22-27.3.1-T19",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1212,7 +1374,7 @@
     "parent_id": "ASCE7-22-27.3-F27-3-31"
   },
   {
-    "id": "ASCE7-22-27.3.1-T19",
+    "id": "ASCE7-22-27.3.1-T20",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1241,7 +1403,7 @@
     "parent_id": "ASCE7-22-27.3-F27-3-41"
   },
   {
-    "id": "ASCE7-22-27.3.1-T20",
+    "id": "ASCE7-22-27.3.1-T21",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1270,7 +1432,7 @@
     "parent_id": "ASCE7-22-27.3-F27-3-51"
   },
   {
-    "id": "ASCE7-22-27.3.1-T21",
+    "id": "ASCE7-22-27.3.1-T22",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1299,7 +1461,7 @@
     "parent_id": "ASCE7-22-27.3-F27-3-61"
   },
   {
-    "id": "ASCE7-22-27.3.1-T22",
+    "id": "ASCE7-22-27.3.1-T23",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1328,7 +1490,7 @@
     "parent_id": "ASCE7-22-27.3-F27-3-71"
   },
   {
-    "id": "ASCE7-22-27.3.1-T23",
+    "id": "ASCE7-22-27.3.1-T24",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1355,7 +1517,7 @@
     "parent_id": "ASCE7-22-27.3.1-H2"
   },
   {
-    "id": "ASCE7-22-27.3.1-T24",
+    "id": "ASCE7-22-27.3.1-T25",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1382,7 +1544,7 @@
     "parent_id": "ASCE7-22-27.3.1-H2"
   },
   {
-    "id": "ASCE7-22-27.3.1-T25",
+    "id": "ASCE7-22-27.3.1-T26",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1409,7 +1571,7 @@
     "parent_id": "ASCE7-22-27.3.1-H2"
   },
   {
-    "id": "ASCE7-22-27.3.1-T26",
+    "id": "ASCE7-22-27.3.1-T27",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1439,7 +1601,7 @@
     "parent_id": "ASCE7-22-27.3.1-H2"
   },
   {
-    "id": "ASCE7-22-27.3.1-T27",
+    "id": "ASCE7-22-27.3.1-T28",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1508,7 +1670,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-27.3.1-T28",
+    "id": "ASCE7-22-27.3.1-T29",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1567,7 +1729,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-27.3.1-T29",
+    "id": "ASCE7-22-27.3.1-T30",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1594,7 +1756,7 @@
     "parent_id": "ASCE7-22-27.3.1-H2"
   },
   {
-    "id": "ASCE7-22-27.3.1-T30",
+    "id": "ASCE7-22-27.3.1-T31",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1661,10 +1823,10 @@
       "citation": "Section 27.3.1.1",
       "page": 2
     },
-    "title": "27.3.1.1 Elevated Buildings The MWFRS loads for rigid or fl exible elevated buildings meeting both of the following geometric limitations, for any principal wind direction, shall be determined in acco",
+    "title": "27.3.1.1 Elevated Buildings",
     "description": "",
     "data": {
-      "rule": "27.3.1.1 Elevated Buildings The MWFRS loads for rigid or fl exible elevated buildings meeting both of the following geometric limitations, for any principal wind direction, shall be determined in accordance with this section for that principal direction.",
+      "rule": "27.3.1.1 Elevated Buildings",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1680,6 +1842,33 @@
   },
   {
     "id": "ASCE7-22-27.3.1.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-27.3.1.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 27,
+      "section": "27.3.1.1",
+      "citation": "Section 27.3.1.1",
+      "page": 2
+    },
+    "title": "The MWFRS loads for rigid or fl exible elevated buildings meeting both of the following geometric limitations, for any principal wind direction, shall be determined in accordance with this section for",
+    "description": "",
+    "data": {
+      "rule": "The MWFRS loads for rigid or fl exible elevated buildings meeting both of the following geometric limitations, for any principal wind direction, shall be determined in accordance with this section for that principal direction.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-27.3.1.1-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1706,7 +1895,7 @@
     "parent_id": "ASCE7-22-27.3.1.1-H1"
   },
   {
-    "id": "ASCE7-22-27.3.1.1-T2",
+    "id": "ASCE7-22-27.3.1.1-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1733,7 +1922,7 @@
     "parent_id": "ASCE7-22-27.3.1.1-H1"
   },
   {
-    "id": "ASCE7-22-27.3.1.1-T3",
+    "id": "ASCE7-22-27.3.1.1-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2145,7 +2334,7 @@
     "parent_id": "ASCE7-22-27.3-F27-3-11"
   },
   {
-    "id": "ASCE7-22-27-T1",
+    "id": "ASCE7-22-27-T2",
     "type": "table",
     "source": {
       "standard": "ASCE 7-22",
@@ -2923,10 +3112,10 @@
       "citation": "Section 27.3.2",
       "page": 6
     },
-    "title": "27.3.2 Open Buildings with Monoslope, Pitched, or Troughed Free Roofs The net design pressure for the MWFRS of open buildings with monoslope, pitched, or troughed free roofs in lb/ft 2 (N/m 2 ), shall",
+    "title": "27.3.2 Open",
     "description": "",
     "data": {
-      "rule": "27.3.2 Open Buildings with Monoslope, Pitched, or Troughed Free Roofs The net design pressure for the MWFRS of open buildings with monoslope, pitched, or troughed free roofs in lb/ft 2 (N/m 2 ), shall be determined by Equation (27.3-2):",
+      "rule": "27.3.2 Open",
       "conditions": [],
       "then": "",
       "else": null,
@@ -2942,6 +3131,33 @@
   },
   {
     "id": "ASCE7-22-27.3.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-27.3.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 27,
+      "section": "27.3.2",
+      "citation": "Section 27.3.2",
+      "page": 6
+    },
+    "title": "Buildings with Monoslope, Pitched, or Troughed Free Roofs The net design pressure for the MWFRS of open buildings with monoslope, pitched, or troughed free roofs in lb/ft 2 (N/m 2 ), shall be determin",
+    "description": "",
+    "data": {
+      "rule": "Buildings with Monoslope, Pitched, or Troughed Free Roofs The net design pressure for the MWFRS of open buildings with monoslope, pitched, or troughed free roofs in lb/ft 2 (N/m 2 ), shall be determined by Equation (27.3-2):",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-27.3.2-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2970,7 +3186,7 @@
     "parent_id": "ASCE7-22-27.3.2-H1"
   },
   {
-    "id": "ASCE7-22-27.3.2-T2",
+    "id": "ASCE7-22-27.3.2-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2999,7 +3215,7 @@
     "parent_id": "ASCE7-22-27.3.2-H1"
   },
   {
-    "id": "ASCE7-22-27.3.2-T3",
+    "id": "ASCE7-22-27.3.2-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3105,39 +3321,10 @@
       "citation": "Section 27.3.3",
       "page": 6
     },
-    "title": "27.3.3 Roof Overhangs The positive external pressure on the bottom surface of windward roof overhangs shall be determined using Cp = 0 . 8 and combined with the top surface pressures determined using ",
+    "title": "27.3.3 Roof Overhangs",
     "description": "",
     "data": {
-      "rule": "27.3.3 Roof Overhangs The positive external pressure on the bottom surface of windward roof overhangs shall be determined using Cp = 0 . 8 and combined with the top surface pressures determined using Figure 27.3-1.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [
-      "ASCE7-22-27.3-E27-3-11"
-    ],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-27.3.4-H1",
-    "type": "heading",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 27,
-      "section": "27.3.4",
-      "citation": "Section 27.3.4",
-      "page": 6
-    },
-    "title": "27.3.4 Parapets The design wind pressure for the effect of parapets on MWFRS of rigid or fl exible buildings in lb/ft 2 (N/m 2 ) shall be determined by Equation (27.3-3):",
-    "description": "",
-    "data": {
-      "rule": "27.3.4 Parapets The design wind pressure for the effect of parapets on MWFRS of rigid or fl exible buildings in lb/ft 2 (N/m 2 ) shall be determined by Equation (27.3-3): where",
+      "rule": "27.3.3 Roof Overhangs",
       "conditions": [],
       "then": "",
       "else": null,
@@ -3152,7 +3339,90 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-27.3.4-T2",
+    "id": "ASCE7-22-27.3.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-27.3.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 27,
+      "section": "27.3.3",
+      "citation": "Section 27.3.3",
+      "page": 6
+    },
+    "title": "The positive external pressure on the bottom surface of windward roof overhangs shall be determined using Cp = 0 . 8 and combined with the top surface pressures determined using Figure 27.3-1.",
+    "description": "",
+    "data": {
+      "rule": "The positive external pressure on the bottom surface of windward roof overhangs shall be determined using Cp = 0 . 8 and combined with the top surface pressures determined using Figure 27.3-1.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-27.3-E27-3-11"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-27.3.4-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 27,
+      "section": "27.3.4",
+      "citation": "Section 27.3.4",
+      "page": 6
+    },
+    "title": "27.3.4 Parapets",
+    "description": "",
+    "data": {
+      "rule": "27.3.4 Parapets",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-27.3.4-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-27.3.4-H16",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 27,
+      "section": "27.3.4",
+      "citation": "Section 27.3.4",
+      "page": 6
+    },
+    "title": "The design wind pressure for the effect of parapets on MWFRS of rigid or fl exible buildings in lb/ft 2 (N/m 2 ) shall be determined by Equation (27.3-3):",
+    "description": "",
+    "data": {
+      "rule": "The design wind pressure for the effect of parapets on MWFRS of rigid or fl exible buildings in lb/ft 2 (N/m 2 ) shall be determined by Equation (27.3-3): where",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-27.3.4-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3179,7 +3449,7 @@
     "parent_id": "ASCE7-22-27.3.4-H16"
   },
   {
-    "id": "ASCE7-22-27.3.4-T3",
+    "id": "ASCE7-22-27.3.4-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3208,7 +3478,7 @@
     "parent_id": "ASCE7-22-27.3.4-H16"
   },
   {
-    "id": "ASCE7-22-27.3.4-T4",
+    "id": "ASCE7-22-27.3.4-T5",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3235,7 +3505,7 @@
     "parent_id": "ASCE7-22-27.3.4-H16"
   },
   {
-    "id": "ASCE7-22-27.3.4-T6",
+    "id": "ASCE7-22-27.3.4-T7",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3276,7 +3546,7 @@
     "title": "Equation (27.3-3)",
     "description": "",
     "data": {
-      "expression": "27.3.4 Parapets The design wind pressure for the effect of parapets on MWFRS of rigid or fl exible buildings in lb/ft 2 (N/m 2 ) shall be determined by Equation (27.3-3)",
+      "expression": "The design wind pressure for the effect of parapets on MWFRS of rigid or fl exible buildings in lb/ft 2 (N/m 2 ) shall be determined by Equation (27.3-3)",
       "parameters": {
         "N": {
           "description": "Average fi eld standard penetration resistance for the top 100 ft (30 m) (Sections 20.3.3 and 20.4.2)",
@@ -3324,7 +3594,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-27.3.4-T21",
+    "id": "ASCE7-22-27.3.4-T22",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3351,7 +3621,7 @@
     "parent_id": "ASCE7-22-27.3.4-H16"
   },
   {
-    "id": "ASCE7-22-27.3.4-T24",
+    "id": "ASCE7-22-27.3.4-T25",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3432,7 +3702,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-27.3.4-T25",
+    "id": "ASCE7-22-27.3.4-T26",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3459,7 +3729,7 @@
     "parent_id": "ASCE7-22-27.3.4-H16"
   },
   {
-    "id": "ASCE7-22-27.3.4-T26",
+    "id": "ASCE7-22-27.3.4-T27",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3513,7 +3783,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-27.3.4-T27",
+    "id": "ASCE7-22-27.3.4-T28",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3542,7 +3812,7 @@
     "parent_id": "ASCE7-22-27.3.4-H16"
   },
   {
-    "id": "ASCE7-22-27.3.4-T28",
+    "id": "ASCE7-22-27.3.4-T29",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3596,7 +3866,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-27.3.4-T29",
+    "id": "ASCE7-22-27.3.4-T30",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3679,7 +3949,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-27.3.4-T37",
+    "id": "ASCE7-22-27.3.4-T38",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3735,7 +4005,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-27.3.4-T46",
+    "id": "ASCE7-22-27.3.4-T47",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3764,7 +4034,7 @@
     "parent_id": "ASCE7-22-27.3-F27-3-61"
   },
   {
-    "id": "ASCE7-22-27.3.4-T51",
+    "id": "ASCE7-22-27.3.4-T52",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3820,7 +4090,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-27.3.4-T73",
+    "id": "ASCE7-22-27.3.4-T74",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3847,7 +4117,7 @@
     "parent_id": "ASCE7-22-27.3.4-H16"
   },
   {
-    "id": "ASCE7-22-27.3.4-T74",
+    "id": "ASCE7-22-27.3.4-T75",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3874,7 +4144,7 @@
     "parent_id": "ASCE7-22-27.3.4-H16"
   },
   {
-    "id": "ASCE7-22-27.3.4-T75",
+    "id": "ASCE7-22-27.3.4-T76",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3901,7 +4171,7 @@
     "parent_id": "ASCE7-22-27.3.4-H16"
   },
   {
-    "id": "ASCE7-22-27.3.4-T76",
+    "id": "ASCE7-22-27.3.4-T77",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3968,10 +4238,38 @@
       "citation": "Section 27.3.5",
       "page": 12
     },
-    "title": "27.3.5 Design Wind Load Cases The MWFRS of buildings of all heights, the wind loads of which have been determined under the provisions of this chapter, shall be designed for the wind load cases as de ",
+    "title": "27.3.5 Design Wind Load Cases",
     "description": "",
     "data": {
-      "rule": "27.3.5 Design Wind Load Cases The MWFRS of buildings of all heights, the wind loads of which have been determined under the provisions of this chapter, shall be designed for the wind load cases as de fi ned in Figure 27.3-8.",
+      "rule": "27.3.5 Design Wind Load Cases",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-27.3.5-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-27.3.5-H2",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 27,
+      "section": "27.3.5",
+      "citation": "Section 27.3.5",
+      "page": 12
+    },
+    "title": "The MWFRS of buildings of all heights, the wind loads of which have been determined under the provisions of this chapter, shall be designed for the wind load cases as de fi ned in Figure 27.3-8.",
+    "description": "",
+    "data": {
+      "rule": "The MWFRS of buildings of all heights, the wind loads of which have been determined under the provisions of this chapter, shall be designed for the wind load cases as de fi ned in Figure 27.3-8.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -3983,9 +4281,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-27.3.5-X1",
@@ -4145,10 +4442,10 @@
       "citation": "Section 27.4",
       "page": 12
     },
-    "title": "27.4 CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
+    "title": "27.4",
     "description": "",
     "data": {
-      "rule": "27.4 CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
+      "rule": "27.4",
       "conditions": [],
       "then": "",
       "else": null,
@@ -4161,6 +4458,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-27.4-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-27.4-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 27,
+      "section": "27.4",
+      "citation": "Section 27.4",
+      "page": 12
+    },
+    "title": "CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
+    "description": "",
+    "data": {
+      "rule": "CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-27.4-P1",

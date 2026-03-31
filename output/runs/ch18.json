@@ -9,10 +9,10 @@
       "citation": "Section 18",
       "page": 1
     },
-    "title": "CHAPTER 18 SEISMIC DESIGN REQUIREMENTS FOR STRUCTURES WITH DAMPING SYSTEMS",
+    "title": "CHAPTER 18",
     "description": "",
     "data": {
-      "rule": "CHAPTER 18 SEISMIC DESIGN REQUIREMENTS FOR STRUCTURES WITH DAMPING SYSTEMS",
+      "rule": "CHAPTER 18",
       "conditions": [],
       "then": "",
       "else": null,
@@ -25,6 +25,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-18-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-18-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 18,
+      "section": "18",
+      "citation": "Section 18",
+      "page": 1
+    },
+    "title": "SEISMIC DESIGN REQUIREMENTS FOR STRUCTURES WITH DAMPING SYSTEMS",
+    "description": "",
+    "data": {
+      "rule": "SEISMIC DESIGN REQUIREMENTS FOR STRUCTURES WITH DAMPING SYSTEMS",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-18.1-H1",
@@ -63,10 +90,10 @@
       "citation": "Section 18.1.1",
       "page": 1
     },
-    "title": "18.1.1 Scope Every structure with a damping system, and every portion thereof, shall be designed and constructed in accordance with the requirements of this standard, as modi fi ed by this chapter. Wh",
+    "title": "18.1.1 Scope",
     "description": "",
     "data": {
-      "rule": "18.1.1 Scope Every structure with a damping system, and every portion thereof, shall be designed and constructed in accordance with the requirements of this standard, as modi fi ed by this chapter. Where damping devices are used across the isolation interface of a seismically isolated structure, displacements, velocities, and accelerations shall be determined in accordance with Chapter 17.",
+      "rule": "18.1.1 Scope",
       "conditions": [],
       "then": "",
       "else": null,
@@ -81,6 +108,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-18.1.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-18.1.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 18,
+      "section": "18.1.1",
+      "citation": "Section 18.1.1",
+      "page": 1
+    },
+    "title": "Every structure with a damping system, and every portion thereof, shall be designed and constructed in accordance with the requirements of this standard, as modi fi ed by this chapter. Where damping d",
+    "description": "",
+    "data": {
+      "rule": "Every structure with a damping system, and every portion thereof, shall be designed and constructed in accordance with the requirements of this standard, as modi fi ed by this chapter. Where damping devices are used across the isolation interface of a seismically isolated structure, displacements, velocities, and accelerations shall be determined in accordance with Chapter 17.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-18.1.2-H1",
     "type": "heading",
     "source": {
@@ -90,10 +144,10 @@
       "citation": "Section 18.1.2",
       "page": 1
     },
-    "title": "18.1.2 De fi nitions The following de fi nitions apply only to the structures with damping system provisions of Chapter 18 and are in addition to the de fi nitions presented in Chapter 11.",
+    "title": "18.1.2 De",
     "description": "",
     "data": {
-      "rule": "18.1.2 De fi nitions The following de fi nitions apply only to the structures with damping system provisions of Chapter 18 and are in addition to the de fi nitions presented in Chapter 11.",
+      "rule": "18.1.2 De",
       "conditions": [],
       "then": "",
       "else": null,
@@ -106,6 +160,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-18.1.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-18.1.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 18,
+      "section": "18.1.2",
+      "citation": "Section 18.1.2",
+      "page": 1
+    },
+    "title": "fi nitions The following de fi nitions apply only to the structures with damping system provisions of Chapter 18 and are in addition to the de fi nitions presented in Chapter 11.",
+    "description": "",
+    "data": {
+      "rule": "fi nitions The following de fi nitions apply only to the structures with damping system provisions of Chapter 18 and are in addition to the de fi nitions presented in Chapter 11.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-18.1.2-D1",
@@ -156,7 +237,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-18.1.2-T1",
+    "id": "ASCE7-22-18.1.2-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -183,7 +264,7 @@
     "parent_id": "ASCE7-22-18.1.2-H1"
   },
   {
-    "id": "ASCE7-22-18.1.2-T2",
+    "id": "ASCE7-22-18.1.2-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -210,7 +291,7 @@
     "parent_id": "ASCE7-22-18.1.2-H1"
   },
   {
-    "id": "ASCE7-22-18.1.2-T3",
+    "id": "ASCE7-22-18.1.2-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -246,10 +327,10 @@
       "citation": "Section 18.1.3",
       "page": 1
     },
-    "title": "18.1.3 Symbols Symbols presented in this section apply only to the structures with damping system provisions of Chapter 18 and are in addition to the symbols presented in Chapter 11.",
+    "title": "18.1.3 Symbols",
     "description": "",
     "data": {
-      "rule": "18.1.3 Symbols Symbols presented in this section apply only to the structures with damping system provisions of Chapter 18 and are in addition to the symbols presented in Chapter 11.",
+      "rule": "18.1.3 Symbols",
       "conditions": [],
       "then": "",
       "else": null,
@@ -265,6 +346,33 @@
   },
   {
     "id": "ASCE7-22-18.1.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-18.1.3-H2",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 18,
+      "section": "18.1.3",
+      "citation": "Section 18.1.3",
+      "page": 1
+    },
+    "title": "Symbols presented in this section apply only to the structures with damping system provisions of Chapter 18 and are in addition to the symbols presented in Chapter 11.",
+    "description": "",
+    "data": {
+      "rule": "Symbols presented in this section apply only to the structures with damping system provisions of Chapter 18 and are in addition to the symbols presented in Chapter 11.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-18.1.3-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -293,7 +401,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T2",
+    "id": "ASCE7-22-18.1.3-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -351,7 +459,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-18.1.3-T3",
+    "id": "ASCE7-22-18.1.3-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -380,7 +488,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T4",
+    "id": "ASCE7-22-18.1.3-T5",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -409,7 +517,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T5",
+    "id": "ASCE7-22-18.1.3-T6",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -438,7 +546,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T6",
+    "id": "ASCE7-22-18.1.3-T7",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -467,7 +575,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T7",
+    "id": "ASCE7-22-18.1.3-T8",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -494,7 +602,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T8",
+    "id": "ASCE7-22-18.1.3-T9",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -523,7 +631,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T9",
+    "id": "ASCE7-22-18.1.3-T10",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -552,7 +660,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T10",
+    "id": "ASCE7-22-18.1.3-T11",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -582,7 +690,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T11",
+    "id": "ASCE7-22-18.1.3-T12",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -611,7 +719,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T12",
+    "id": "ASCE7-22-18.1.3-T13",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -640,7 +748,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T13",
+    "id": "ASCE7-22-18.1.3-T14",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -669,7 +777,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T14",
+    "id": "ASCE7-22-18.1.3-T15",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -698,7 +806,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T15",
+    "id": "ASCE7-22-18.1.3-T16",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -727,7 +835,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T16",
+    "id": "ASCE7-22-18.1.3-T17",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -756,7 +864,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T17",
+    "id": "ASCE7-22-18.1.3-T18",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -785,7 +893,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T18",
+    "id": "ASCE7-22-18.1.3-T19",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -814,7 +922,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T19",
+    "id": "ASCE7-22-18.1.3-T20",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -843,7 +951,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T20",
+    "id": "ASCE7-22-18.1.3-T21",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -872,7 +980,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T21",
+    "id": "ASCE7-22-18.1.3-T22",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -901,7 +1009,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T22",
+    "id": "ASCE7-22-18.1.3-T23",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -930,7 +1038,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T23",
+    "id": "ASCE7-22-18.1.3-T24",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -959,7 +1067,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T24",
+    "id": "ASCE7-22-18.1.3-T25",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -988,7 +1096,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T25",
+    "id": "ASCE7-22-18.1.3-T26",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1017,7 +1125,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T26",
+    "id": "ASCE7-22-18.1.3-T27",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1046,7 +1154,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T27",
+    "id": "ASCE7-22-18.1.3-T28",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1075,7 +1183,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T28",
+    "id": "ASCE7-22-18.1.3-T29",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1104,7 +1212,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T29",
+    "id": "ASCE7-22-18.1.3-T30",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1133,7 +1241,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T30",
+    "id": "ASCE7-22-18.1.3-T31",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1162,7 +1270,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T31",
+    "id": "ASCE7-22-18.1.3-T32",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1189,7 +1297,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T32",
+    "id": "ASCE7-22-18.1.3-T33",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1218,7 +1326,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T33",
+    "id": "ASCE7-22-18.1.3-T34",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1247,7 +1355,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T34",
+    "id": "ASCE7-22-18.1.3-T35",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1276,7 +1384,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T35",
+    "id": "ASCE7-22-18.1.3-T36",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1305,7 +1413,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T36",
+    "id": "ASCE7-22-18.1.3-T37",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1334,7 +1442,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T37",
+    "id": "ASCE7-22-18.1.3-T38",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1361,7 +1469,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T38",
+    "id": "ASCE7-22-18.1.3-T39",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1390,7 +1498,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T39",
+    "id": "ASCE7-22-18.1.3-T40",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1419,7 +1527,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T40",
+    "id": "ASCE7-22-18.1.3-T41",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1448,7 +1556,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T41",
+    "id": "ASCE7-22-18.1.3-T42",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1477,7 +1585,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T42",
+    "id": "ASCE7-22-18.1.3-T43",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1504,7 +1612,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T43",
+    "id": "ASCE7-22-18.1.3-T44",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1533,7 +1641,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T44",
+    "id": "ASCE7-22-18.1.3-T45",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1562,7 +1670,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T45",
+    "id": "ASCE7-22-18.1.3-T46",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1591,7 +1699,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T46",
+    "id": "ASCE7-22-18.1.3-T47",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1618,7 +1726,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T47",
+    "id": "ASCE7-22-18.1.3-T48",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1647,7 +1755,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T48",
+    "id": "ASCE7-22-18.1.3-T49",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1674,7 +1782,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T49",
+    "id": "ASCE7-22-18.1.3-T50",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1703,7 +1811,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T50",
+    "id": "ASCE7-22-18.1.3-T51",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1732,7 +1840,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T51",
+    "id": "ASCE7-22-18.1.3-T52",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1761,7 +1869,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T52",
+    "id": "ASCE7-22-18.1.3-T53",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1790,7 +1898,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T53",
+    "id": "ASCE7-22-18.1.3-T54",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1819,7 +1927,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T54",
+    "id": "ASCE7-22-18.1.3-T55",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1848,7 +1956,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T55",
+    "id": "ASCE7-22-18.1.3-T56",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1877,7 +1985,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T56",
+    "id": "ASCE7-22-18.1.3-T57",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1906,7 +2014,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T57",
+    "id": "ASCE7-22-18.1.3-T58",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1935,7 +2043,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T58",
+    "id": "ASCE7-22-18.1.3-T59",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1964,7 +2072,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T59",
+    "id": "ASCE7-22-18.1.3-T60",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1993,7 +2101,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T60",
+    "id": "ASCE7-22-18.1.3-T61",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2084,7 +2192,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-18.1.3-T61",
+    "id": "ASCE7-22-18.1.3-T62",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2113,7 +2221,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T62",
+    "id": "ASCE7-22-18.1.3-T63",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2142,7 +2250,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T63",
+    "id": "ASCE7-22-18.1.3-T64",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2171,7 +2279,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T64",
+    "id": "ASCE7-22-18.1.3-T65",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2200,7 +2308,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T65",
+    "id": "ASCE7-22-18.1.3-T66",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2229,7 +2337,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T66",
+    "id": "ASCE7-22-18.1.3-T67",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2258,7 +2366,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T67",
+    "id": "ASCE7-22-18.1.3-T68",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2287,7 +2395,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T68",
+    "id": "ASCE7-22-18.1.3-T69",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2316,7 +2424,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T69",
+    "id": "ASCE7-22-18.1.3-T70",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2345,7 +2453,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T70",
+    "id": "ASCE7-22-18.1.3-T71",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2374,7 +2482,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T71",
+    "id": "ASCE7-22-18.1.3-T72",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2403,7 +2511,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T72",
+    "id": "ASCE7-22-18.1.3-T73",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2432,7 +2540,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T73",
+    "id": "ASCE7-22-18.1.3-T74",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2461,7 +2569,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T74",
+    "id": "ASCE7-22-18.1.3-T75",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2490,7 +2598,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T75",
+    "id": "ASCE7-22-18.1.3-T76",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2519,7 +2627,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T76",
+    "id": "ASCE7-22-18.1.3-T77",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2548,7 +2656,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T77",
+    "id": "ASCE7-22-18.1.3-T78",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2577,7 +2685,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T78",
+    "id": "ASCE7-22-18.1.3-T79",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2604,7 +2712,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T79",
+    "id": "ASCE7-22-18.1.3-T80",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2633,7 +2741,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T80",
+    "id": "ASCE7-22-18.1.3-T81",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2662,7 +2770,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T81",
+    "id": "ASCE7-22-18.1.3-T82",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2691,7 +2799,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T82",
+    "id": "ASCE7-22-18.1.3-T83",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2720,7 +2828,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T83",
+    "id": "ASCE7-22-18.1.3-T84",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2749,7 +2857,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T84",
+    "id": "ASCE7-22-18.1.3-T85",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2778,7 +2886,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T85",
+    "id": "ASCE7-22-18.1.3-T86",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2807,7 +2915,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T86",
+    "id": "ASCE7-22-18.1.3-T87",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2836,7 +2944,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T87",
+    "id": "ASCE7-22-18.1.3-T88",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2865,7 +2973,7 @@
     "parent_id": "ASCE7-22-18.1.3-H2"
   },
   {
-    "id": "ASCE7-22-18.1.3-T88",
+    "id": "ASCE7-22-18.1.3-T89",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2903,7 +3011,7 @@
       "citation": "Section 18.2",
       "page": 3
     },
-    "title": "18.2 GENERAL DESIGN REQUIREMENTS",
+    "title": "18.2",
     "description": "",
     "data": {
       "rule": "18.2 GENERAL DESIGN REQUIREMENTS",
@@ -3095,6 +3203,35 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-18.2-E18-2-21",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 18,
+      "section": "18.2",
+      "citation": "Eq. (18.2-2)",
+      "page": 3
+    },
+    "title": "Equation (18.2-2)",
+    "description": "",
+    "data": {
+      "expression": "The seismic base shear used for design of the seismic forceresisting system shall not be less than V min , where V min is determined as the greater of the values computed using Equations (18.2-1) and (18.2-2)",
+      "parameters": {
+        "V": {
+          "description": "Basic wind speed obtained from Figures 26.5-1A through 26.5-1D, mi/h (m/s); the basic wind speed corresponds to a 3 s gust speed at 33 ft (10 m) above the ground in Exposure Category C",
+          "source": "ASCE7-22-26.3-T94"
+        }
+      }
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  },
+  {
     "id": "ASCE7-22-18.2.1.1-T2",
     "type": "text_block",
     "source": {
@@ -3219,10 +3356,38 @@
       "citation": "Section 18.2.1.2",
       "page": 4
     },
-    "title": "18.2.1.2 Damping System Damping devices and all other components required to connect damping devices to the other elements of the structure shall be designed to remain elastic for MCER loads. Other el",
+    "title": "18.2.1.2 Damping System",
     "description": "",
     "data": {
-      "rule": "18.2.1.2 Damping System Damping devices and all other components required to connect damping devices to the other elements of the structure shall be designed to remain elastic for MCER loads. Other elements of the damping system are permitted to have inelastic response at MCER if it is shown by analysis or test that inelastic response of these elements would not adversely affect damping system function. If either the response spectrum procedure of Section 18.7.1 or the equivalent lateral force procedure of Section 18.7.2 is used, the inelastic response shall be limited, in accordance with the requirements of Section 18.7.4.6.",
+      "rule": "18.2.1.2 Damping System",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-18.2.1.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-18.2.1.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 18,
+      "section": "18.2.1.2",
+      "citation": "Section 18.2.1.2",
+      "page": 4
+    },
+    "title": "Damping devices and all other components required to connect damping devices to the other elements of the structure shall be designed to remain elastic for MCER loads. Other elements of the damping sy",
+    "description": "",
+    "data": {
+      "rule": "Damping devices and all other components required to connect damping devices to the other elements of the structure shall be designed to remain elastic for MCER loads. Other elements of the damping system are permitted to have inelastic response at MCER if it is shown by analysis or test that inelastic response of these elements would not adversely affect damping system function. If either the response spectrum procedure of Section 18.7.1 or the equivalent lateral force procedure of Section 18.7.2 is used, the inelastic response shall be limited, in accordance with the requirements of Section 18.7.4.6.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -3236,9 +3401,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-18.2.1.2-P1",
@@ -3361,10 +3525,38 @@
       "citation": "Section 18.2.3",
       "page": 4
     },
-    "title": "18.2.3 Procedure Selection Structures with a damping system provided for seismic resistance shall be analyzed and designed using the nonlinear response history procedure of Section 18.3.",
+    "title": "18.2.3 Procedure Selection",
     "description": "",
     "data": {
-      "rule": "18.2.3 Procedure Selection Structures with a damping system provided for seismic resistance shall be analyzed and designed using the nonlinear response history procedure of Section 18.3.",
+      "rule": "18.2.3 Procedure Selection",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-18.2.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-18.2.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 18,
+      "section": "18.2.3",
+      "citation": "Section 18.2.3",
+      "page": 4
+    },
+    "title": "Structures with a damping system provided for seismic resistance shall be analyzed and designed using the nonlinear response history procedure of Section 18.3.",
+    "description": "",
+    "data": {
+      "rule": "Structures with a damping system provided for seismic resistance shall be analyzed and designed using the nonlinear response history procedure of Section 18.3.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -3376,9 +3568,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-18.2.3-X1",
@@ -3422,10 +3613,38 @@
       "citation": "Section 18.2.3.1",
       "page": 4
     },
-    "title": "18.2.3.1 Response Spectrum Procedure The response spectrum procedure of Section 18.7.1 is permitted to be used for analysis and design provided all the following conditions apply:",
+    "title": "18.2.3.1 Response Spectrum Procedure",
     "description": "",
     "data": {
-      "rule": "18.2.3.1 Response Spectrum Procedure The response spectrum procedure of Section 18.7.1 is permitted to be used for analysis and design provided all the following conditions apply:",
+      "rule": "18.2.3.1 Response Spectrum Procedure",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-18.2.3.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-18.2.3.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 18,
+      "section": "18.2.3.1",
+      "citation": "Section 18.2.3.1",
+      "page": 4
+    },
+    "title": "The response spectrum procedure of Section 18.7.1 is permitted to be used for analysis and design provided all the following conditions apply:",
+    "description": "",
+    "data": {
+      "rule": "The response spectrum procedure of Section 18.7.1 is permitted to be used for analysis and design provided all the following conditions apply:",
       "conditions": [],
       "then": "",
       "else": null,
@@ -3437,12 +3656,11 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
-    "id": "ASCE7-22-18.2.3.1-T1",
+    "id": "ASCE7-22-18.2.3.1-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3469,7 +3687,7 @@
     "parent_id": "ASCE7-22-18.2.3.1-H1"
   },
   {
-    "id": "ASCE7-22-18.2.3.1-T2",
+    "id": "ASCE7-22-18.2.3.1-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3696,10 +3914,10 @@
       "citation": "Section 18.2.4.1",
       "page": 4
     },
-    "title": "18.2.4.1 Device Design The design, construction, and installation of damping devices shall be based on response to MCER ground motions and consideration of all of the following:",
+    "title": "18.2.4.1 Device",
     "description": "",
     "data": {
-      "rule": "18.2.4.1 Device Design The design, construction, and installation of damping devices shall be based on response to MCER ground motions and consideration of all of the following:",
+      "rule": "18.2.4.1 Device",
       "conditions": [],
       "then": "",
       "else": null,
@@ -3715,6 +3933,33 @@
   },
   {
     "id": "ASCE7-22-18.2.4.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-18.2.4.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 18,
+      "section": "18.2.4.1",
+      "citation": "Section 18.2.4.1",
+      "page": 4
+    },
+    "title": "Design The design, construction, and installation of damping devices shall be based on response to MCER ground motions and consideration of all of the following:",
+    "description": "",
+    "data": {
+      "rule": "Design The design, construction, and installation of damping devices shall be based on response to MCER ground motions and consideration of all of the following:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-18.2.4.1-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3741,7 +3986,7 @@
     "parent_id": "ASCE7-22-18.2.4.1-H1"
   },
   {
-    "id": "ASCE7-22-18.2.4.1-T2",
+    "id": "ASCE7-22-18.2.4.1-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3768,7 +4013,7 @@
     "parent_id": "ASCE7-22-18.2.4.1-H1"
   },
   {
-    "id": "ASCE7-22-18.2.4.1-T3",
+    "id": "ASCE7-22-18.2.4.1-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3795,7 +4040,7 @@
     "parent_id": "ASCE7-22-18.2.4.1-H1"
   },
   {
-    "id": "ASCE7-22-18.2.4.1-T4",
+    "id": "ASCE7-22-18.2.4.1-T5",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3822,7 +4067,7 @@
     "parent_id": "ASCE7-22-18.2.4.1-H1"
   },
   {
-    "id": "ASCE7-22-18.2.4.1-T5",
+    "id": "ASCE7-22-18.2.4.1-T6",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3914,10 +4159,10 @@
       "citation": "Section 18.2.4.2",
       "page": 4
     },
-    "title": "18.2.4.2 Multiaxis Movement Connection points of damping devices shall provide suf fi cient articulation to accommodate simultaneous longitudinal, lateral, and vertical displacements of the damping sy",
+    "title": "18.2.4.2 Multiaxis Movement",
     "description": "",
     "data": {
-      "rule": "18.2.4.2 Multiaxis Movement Connection points of damping devices shall provide suf fi cient articulation to accommodate simultaneous longitudinal, lateral, and vertical displacements of the damping system.",
+      "rule": "18.2.4.2 Multiaxis Movement",
       "conditions": [],
       "then": "",
       "else": null,
@@ -3930,6 +4175,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-18.2.4.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-18.2.4.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 18,
+      "section": "18.2.4.2",
+      "citation": "Section 18.2.4.2",
+      "page": 4
+    },
+    "title": "Connection points of damping devices shall provide suf fi cient articulation to accommodate simultaneous longitudinal, lateral, and vertical displacements of the damping system.",
+    "description": "",
+    "data": {
+      "rule": "Connection points of damping devices shall provide suf fi cient articulation to accommodate simultaneous longitudinal, lateral, and vertical displacements of the damping system.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-18.2.4.3-P1",
@@ -3995,10 +4267,38 @@
       "citation": "Section 18.2.4.4",
       "page": 5
     },
-    "title": "18.2.4.4 Nominal Design Properties Nominal design properties for energy-dissipation devices shall be established from either project-speci fi c prototype test data or prior prototype tests on devices ",
+    "title": "18.2.4.4 Nominal",
     "description": "",
     "data": {
-      "rule": "18.2.4.4 Nominal Design Properties Nominal design properties for energy-dissipation devices shall be established from either project-speci fi c prototype test data or prior prototype tests on devices of a similar type and size. The nominal design properties shall be based on data from prototype tests speci fi ed in Section 18.6.2.2 (2) and determined by Section 18.6.2.4 (2). These nominal design properties shall be modi fi ed by property variation or lambda ( \u03bb ) factors, as speci fi ed in Section 18.2.4.5.",
+      "rule": "18.2.4.4 Nominal",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-18.2.4.4-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-18.2.4.4-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 18,
+      "section": "18.2.4.4",
+      "citation": "Section 18.2.4.4",
+      "page": 5
+    },
+    "title": "Design Properties Nominal design properties for energy-dissipation devices shall be established from either project-speci fi c prototype test data or prior prototype tests on devices of a similar type",
+    "description": "",
+    "data": {
+      "rule": "Design Properties Nominal design properties for energy-dissipation devices shall be established from either project-speci fi c prototype test data or prior prototype tests on devices of a similar type and size. The nominal design properties shall be based on data from prototype tests speci fi ed in Section 18.6.2.2 (2) and determined by Section 18.6.2.4 (2). These nominal design properties shall be modi fi ed by property variation or lambda ( \u03bb ) factors, as speci fi ed in Section 18.2.4.5.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -4012,9 +4312,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-18.2.4.5-P1",
@@ -4420,10 +4719,10 @@
       "citation": "Section 18.2.4.6",
       "page": 5
     },
-    "title": "18.2.4.6 Damping System Redundancy If fewer than four energy-dissipation devices are provided in any story of a building in either principal direction, or fewer than two devices are located on each si",
+    "title": "18.2.4.6 Damping System Redundancy",
     "description": "",
     "data": {
-      "rule": "18.2.4.6 Damping System Redundancy If fewer than four energy-dissipation devices are provided in any story of a building in either principal direction, or fewer than two devices are located on each side of the center of stiffness of any story in either principal direction, all energy-dissipation devices shall be capable of sustaining displacements equal to 130% of the maximum calculated displacement in the device under MCER. A velocity-dependent device shall be capable of sustaining the force and displacement associated with a velocity equal to 130% of the maximum calculated velocity for that device under MCER.",
+      "rule": "18.2.4.6 Damping System Redundancy",
       "conditions": [],
       "then": "",
       "else": null,
@@ -4438,6 +4737,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-18.2.4.6-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-18.2.4.6-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 18,
+      "section": "18.2.4.6",
+      "citation": "Section 18.2.4.6",
+      "page": 5
+    },
+    "title": "If fewer than four energy-dissipation devices are provided in any story of a building in either principal direction, or fewer than two devices are located on each side of the center of stiffness of an",
+    "description": "",
+    "data": {
+      "rule": "If fewer than four energy-dissipation devices are provided in any story of a building in either principal direction, or fewer than two devices are located on each side of the center of stiffness of any story in either principal direction, all energy-dissipation devices shall be capable of sustaining displacements equal to 130% of the maximum calculated displacement in the device under MCER. A velocity-dependent device shall be capable of sustaining the force and displacement associated with a velocity equal to 130% of the maximum calculated velocity for that device under MCER.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-18.3-H1",
     "type": "heading",
     "source": {
@@ -4447,10 +4773,10 @@
       "citation": "Section 18.3",
       "page": 5
     },
-    "title": "18.3 NONLINEAR RESPONSE HISTORY PROCEDURE",
+    "title": "18.3",
     "description": "",
     "data": {
-      "rule": "18.3 NONLINEAR RESPONSE HISTORY PROCEDURE",
+      "rule": "18.3",
       "conditions": [],
       "then": "",
       "else": null,
@@ -4463,6 +4789,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-18.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-18.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 18,
+      "section": "18.3",
+      "citation": "Section 18.3",
+      "page": 5
+    },
+    "title": "NONLINEAR RESPONSE HISTORY PROCEDURE",
+    "description": "",
+    "data": {
+      "rule": "NONLINEAR RESPONSE HISTORY PROCEDURE",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-18.3-P1",
@@ -4639,6 +4992,43 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-18.2-E18-2-3b1",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 18,
+      "section": "18.2",
+      "citation": "Eq. (18.2-3b)",
+      "page": 5
+    },
+    "title": "Equation (18.2-3b)",
+    "description": "",
+    "data": {
+      "expression": "Maximum and minimum property modi fi cation ( \u03bb ) factors shall be established, in accordance with Equations (18.2-3a) and (18.2-3b)",
+      "parameters": {
+        "\u03bb": {
+          "description": "Time effect factor",
+          "source": "ASCE7-22-11.3-T163"
+        },
+        "a": {
+          "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
+          "source": "ASCE7-22-28.3.7-T22"
+        },
+        "b": {
+          "description": "Shortest plan dimension of the structure [ft (mm)] measured perpendicular to d ;",
+          "source": "ASCE7-22-17.5.3.3-T5"
+        }
+      }
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  },
+  {
     "id": "ASCE7-22-18.2-E18-2-4a1",
     "type": "formula",
     "source": {
@@ -4656,6 +5046,39 @@
         "a": {
           "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
           "source": "ASCE7-22-28.3.7-T22"
+        }
+      }
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-18.2-E18-2-4b1",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 18,
+      "section": "18.2",
+      "citation": "Eq. (18.2-4b)",
+      "page": 5
+    },
+    "title": "Equation (18.2-4b)",
+    "description": "",
+    "data": {
+      "expression": "Maximum and minimum analysis and design properties for each device shall be determined in accordance with Equations (18.2-4a) and (18.2-4b)",
+      "parameters": {
+        "a": {
+          "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
+          "source": "ASCE7-22-28.3.7-T22"
+        },
+        "b": {
+          "description": "Shortest plan dimension of the structure [ft (mm)] measured perpendicular to d ;",
+          "source": "ASCE7-22-17.5.3.3-T5"
         }
       }
     },
@@ -4704,10 +5127,10 @@
       "citation": "Section 18.3.1",
       "page": 6
     },
-    "title": "18.3.1 Damping Device Modeling Mathematical models of displacement-dependent damping devices shall include the hysteretic behavior of the devices consistent with test data and accounting for all signi",
+    "title": "18.3.1 Damping Device Modeling",
     "description": "",
     "data": {
-      "rule": "18.3.1 Damping Device Modeling Mathematical models of displacement-dependent damping devices shall include the hysteretic behavior of the devices consistent with test data and accounting for all signi fi cant changes in strength, stiffness, and hysteretic loop shape. Mathematical models of velocity-dependent damping devices shall include the velocity coef fi cient consistent with test data. If damping device properties change with time and/or temperature, such behavior shall be modeled explicitly. The fl exible elements of damping devices connecting damper units to the structure shall be included in the model.",
+      "rule": "18.3.1 Damping Device Modeling",
       "conditions": [],
       "then": "",
       "else": null,
@@ -4720,6 +5143,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-18.3.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-18.3.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 18,
+      "section": "18.3.1",
+      "citation": "Section 18.3.1",
+      "page": 6
+    },
+    "title": "Mathematical models of displacement-dependent damping devices shall include the hysteretic behavior of the devices consistent with test data and accounting for all signi fi cant changes in strength, s",
+    "description": "",
+    "data": {
+      "rule": "Mathematical models of displacement-dependent damping devices shall include the hysteretic behavior of the devices consistent with test data and accounting for all signi fi cant changes in strength, stiffness, and hysteretic loop shape. Mathematical models of velocity-dependent damping devices shall include the velocity coef fi cient consistent with test data. If damping device properties change with time and/or temperature, such behavior shall be modeled explicitly. The fl exible elements of damping devices connecting damper units to the structure shall be included in the model.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-18.3.1-X1",
@@ -4760,10 +5210,10 @@
       "citation": "Section 18.3.2",
       "page": 6
     },
-    "title": "18.3.2 Accidental Mass Eccentricity Inherent eccentricity resulting from lack of symmetry in mass and stiffness shall be accounted for in the MCER analysis. In addition, accidental eccentricity consis",
+    "title": "18.3.2 Accidental",
     "description": "",
     "data": {
-      "rule": "18.3.2 Accidental Mass Eccentricity Inherent eccentricity resulting from lack of symmetry in mass and stiffness shall be accounted for in the MCER analysis. In addition, accidental eccentricity consisting of displacement of the center of mass from the computed location by an amount equal to 5% of the diaphragm dimension separately, in each of two orthogonal directions at each diaphragm level, shall be accounted for in the analysis.",
+      "rule": "18.3.2 Accidental",
       "conditions": [],
       "then": "",
       "else": null,
@@ -4776,6 +5226,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-18.3.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-18.3.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 18,
+      "section": "18.3.2",
+      "citation": "Section 18.3.2",
+      "page": 6
+    },
+    "title": "Mass Eccentricity Inherent eccentricity resulting from lack of symmetry in mass and stiffness shall be accounted for in the MCER analysis. In addition, accidental eccentricity consisting of displaceme",
+    "description": "",
+    "data": {
+      "rule": "Mass Eccentricity Inherent eccentricity resulting from lack of symmetry in mass and stiffness shall be accounted for in the MCER analysis. In addition, accidental eccentricity consisting of displacement of the center of mass from the computed location by an amount equal to 5% of the diaphragm dimension separately, in each of two orthogonal directions at each diaphragm level, shall be accounted for in the analysis.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-18.3.2-X1",
@@ -4841,10 +5318,10 @@
       "citation": "Section 18.4",
       "page": 6
     },
-    "title": "18.4 SEISMIC LOAD CONDITIONS AND ACCEPTANCE CRITERIA FOR NONLINEAR RESPONSE HISTORY PROCEDURE",
+    "title": "18.4",
     "description": "",
     "data": {
-      "rule": "18.4 SEISMIC LOAD CONDITIONS AND ACCEPTANCE CRITERIA FOR NONLINEAR RESPONSE HISTORY PROCEDURE",
+      "rule": "18.4",
       "conditions": [],
       "then": "",
       "else": null,
@@ -4857,6 +5334,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-18.4-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-18.4-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 18,
+      "section": "18.4",
+      "citation": "Section 18.4",
+      "page": 6
+    },
+    "title": "SEISMIC LOAD CONDITIONS AND ACCEPTANCE CRITERIA FOR NONLINEAR RESPONSE HISTORY PROCEDURE",
+    "description": "",
+    "data": {
+      "rule": "SEISMIC LOAD CONDITIONS AND ACCEPTANCE CRITERIA FOR NONLINEAR RESPONSE HISTORY PROCEDURE",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-18.4-P1",
@@ -5061,10 +5565,10 @@
       "citation": "Section 18.4.3",
       "page": 6
     },
-    "title": "18.4.3 Combination of Load Effects The effects on the damping system caused by gravity loads and seismic forces shall be combined, in accordance with Section 12.4, using the effect of horizontal seism",
+    "title": "18.4.3 Combination of Load Effects",
     "description": "",
     "data": {
-      "rule": "18.4.3 Combination of Load Effects The effects on the damping system caused by gravity loads and seismic forces shall be combined, in accordance with Section 12.4, using the effect of horizontal seismic forces, QE , except that QE shall be determined in accordance with the MCER analysis. When load combinations are used that include live loading, it is permitted to use a load factor of 25% on live load for nonlinear response history analysis. The redundancy factor, \u03c1 , shall be taken equal to 1.0 in all cases, and the seismic load effect, including overstrength of Section 12.4.3, need not apply to the design of the damping system.",
+      "rule": "18.4.3 Combination of Load Effects",
       "conditions": [],
       "then": "",
       "else": null,
@@ -5077,6 +5581,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-18.4.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-18.4.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 18,
+      "section": "18.4.3",
+      "citation": "Section 18.4.3",
+      "page": 6
+    },
+    "title": "The effects on the damping system caused by gravity loads and seismic forces shall be combined, in accordance with Section 12.4, using the effect of horizontal seismic forces, QE , except that QE shal",
+    "description": "",
+    "data": {
+      "rule": "The effects on the damping system caused by gravity loads and seismic forces shall be combined, in accordance with Section 12.4, using the effect of horizontal seismic forces, QE , except that QE shall be determined in accordance with the MCER analysis. When load combinations are used that include live loading, it is permitted to use a load factor of 25% on live load for nonlinear response history analysis. The redundancy factor, \u03c1 , shall be taken equal to 1.0 in all cases, and the seismic load effect, including overstrength of Section 12.4.3, need not apply to the design of the damping system.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-18.4.4-H1",
@@ -5088,10 +5619,10 @@
       "citation": "Section 18.4.4",
       "page": 6
     },
-    "title": "18.4.4 Acceptance Criteria for the Response Parameters of Interest The damping system components shall be evaluated by the strength design criteria of this standard using the seismic forces and seismi",
+    "title": "18.4.4 Acceptance Criteria for the Response Parameters of",
     "description": "",
     "data": {
-      "rule": "18.4.4 Acceptance Criteria for the Response Parameters of Interest The damping system components shall be evaluated by the strength design criteria of this standard using the seismic forces and seismic loading conditions determined from the MCER nonlinear response history analyses and strength reduction factor \u03d5 = 1.0.",
+      "rule": "18.4.4 Acceptance Criteria for the Response Parameters of",
       "conditions": [],
       "then": "",
       "else": null,
@@ -5106,6 +5637,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-18.4.4-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-18.4.4-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 18,
+      "section": "18.4.4",
+      "citation": "Section 18.4.4",
+      "page": 6
+    },
+    "title": "Interest The damping system components shall be evaluated by the strength design criteria of this standard using the seismic forces and seismic loading conditions determined from the MCER nonlinear re",
+    "description": "",
+    "data": {
+      "rule": "Interest The damping system components shall be evaluated by the strength design criteria of this standard using the seismic forces and seismic loading conditions determined from the MCER nonlinear response history analyses and strength reduction factor \u03d5 = 1.0.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-18.5-H1",
     "type": "heading",
     "source": {
@@ -5115,7 +5673,7 @@
       "citation": "Section 18.5",
       "page": 6
     },
-    "title": "18.5 DESIGN REVIEW",
+    "title": "18.5",
     "description": "",
     "data": {
       "rule": "18.5 DESIGN REVIEW",
@@ -5160,7 +5718,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-18.5-T1",
+    "id": "ASCE7-22-18.5-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -5187,7 +5745,7 @@
     "parent_id": "ASCE7-22-18.5-H1"
   },
   {
-    "id": "ASCE7-22-18.5-T2",
+    "id": "ASCE7-22-18.5-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -5214,7 +5772,7 @@
     "parent_id": "ASCE7-22-18.5-H1"
   },
   {
-    "id": "ASCE7-22-18.5-T3",
+    "id": "ASCE7-22-18.5-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -5241,7 +5799,7 @@
     "parent_id": "ASCE7-22-18.5-H1"
   },
   {
-    "id": "ASCE7-22-18.5-T4",
+    "id": "ASCE7-22-18.5-T5",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -5270,7 +5828,7 @@
     "parent_id": "ASCE7-22-18.5-H1"
   },
   {
-    "id": "ASCE7-22-18.5-T5",
+    "id": "ASCE7-22-18.5-T6",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -5297,7 +5855,7 @@
     "parent_id": "ASCE7-22-18.5-H1"
   },
   {
-    "id": "ASCE7-22-18.5-T6",
+    "id": "ASCE7-22-18.5-T7",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -5362,10 +5920,38 @@
       "citation": "Section 18.6.1",
       "page": 6
     },
-    "title": "18.6.1 General The force-velocity-displacement relationships and damping properties, assumed as the damping device nominal design properties in Section 18.2.4.4, shall be con fi rmed by the tests cond",
+    "title": "18.6.1 General",
     "description": "",
     "data": {
-      "rule": "18.6.1 General The force-velocity-displacement relationships and damping properties, assumed as the damping device nominal design properties in Section 18.2.4.4, shall be con fi rmed by the tests conducted in accordance with Section 18.6.2 or shall be based on prior tests of devices meeting the similarity requirements of Section 18.6.2.3.",
+      "rule": "18.6.1 General",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-18.6.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-18.6.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 18,
+      "section": "18.6.1",
+      "citation": "Section 18.6.1",
+      "page": 6
+    },
+    "title": "The force-velocity-displacement relationships and damping properties, assumed as the damping device nominal design properties in Section 18.2.4.4, shall be con fi rmed by the tests conducted in accord",
+    "description": "",
+    "data": {
+      "rule": "The force-velocity-displacement relationships and damping properties, assumed as the damping device nominal design properties in Section 18.2.4.4, shall be con fi rmed by the tests conducted in accordance with Section 18.6.2 or shall be based on prior tests of devices meeting the similarity requirements of Section 18.6.2.3.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -5379,9 +5965,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-18.6.1-P1",
@@ -5440,7 +6025,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-18.6.1-T1",
+    "id": "ASCE7-22-18.6.1-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -5564,10 +6149,10 @@
       "citation": "Section 18.6.1.1",
       "page": 7
     },
-    "title": "18.6.1.1 Quali fi cation Tests Damping device manufacturers shall submit, for approval by the RDP, the results of quali fi cation tests, analysis of test data, and supporting studies used to quantify ",
+    "title": "18.6.1.1 Quali",
     "description": "",
     "data": {
-      "rule": "18.6.1.1 Quali fi cation Tests Damping device manufacturers shall submit, for approval by the RDP, the results of quali fi cation tests, analysis of test data, and supporting studies used to quantify the effects of heating caused by cyclic dynamic motion, loading rate, duration of seismic and wind loading, variability and uncertainty in production device properties, operating temperature, aging, environmental exposure, and contamination. The quali fi cation testing shall be applicable to the component types, materials, and force-velocity-displacement response to be used in the proposed construction.",
+      "rule": "18.6.1.1 Quali",
       "conditions": [],
       "then": "",
       "else": null,
@@ -5582,6 +6167,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-18.6.1.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-18.6.1.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 18,
+      "section": "18.6.1.1",
+      "citation": "Section 18.6.1.1",
+      "page": 7
+    },
+    "title": "fi cation Tests Damping device manufacturers shall submit, for approval by the RDP, the results of quali fi cation tests, analysis of test data, and supporting studies used to quantify the effects of ",
+    "description": "",
+    "data": {
+      "rule": "fi cation Tests Damping device manufacturers shall submit, for approval by the RDP, the results of quali fi cation tests, analysis of test data, and supporting studies used to quantify the effects of heating caused by cyclic dynamic motion, loading rate, duration of seismic and wind loading, variability and uncertainty in production device properties, operating temperature, aging, environmental exposure, and contamination. The quali fi cation testing shall be applicable to the component types, materials, and force-velocity-displacement response to be used in the proposed construction.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-18.6.2-H1",
     "type": "heading",
     "source": {
@@ -5591,10 +6203,10 @@
       "citation": "Section 18.6.2",
       "page": 7
     },
-    "title": "18.6.2 Prototype Tests The following tests shall be performed separately on two full-size damping devices of each type and size used in the design, in the order listed as follows.",
+    "title": "18.6.2 Prototype Tests",
     "description": "",
     "data": {
-      "rule": "18.6.2 Prototype Tests The following tests shall be performed separately on two full-size damping devices of each type and size used in the design, in the order listed as follows.",
+      "rule": "18.6.2 Prototype Tests",
       "conditions": [],
       "then": "",
       "else": null,
@@ -5607,6 +6219,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-18.6.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-18.6.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 18,
+      "section": "18.6.2",
+      "citation": "Section 18.6.2",
+      "page": 7
+    },
+    "title": "The following tests shall be performed separately on two full-size damping devices of each type and size used in the design, in the order listed as follows.",
+    "description": "",
+    "data": {
+      "rule": "The following tests shall be performed separately on two full-size damping devices of each type and size used in the design, in the order listed as follows.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-18.6.2-P1",
@@ -5636,7 +6275,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-18.6.2-T1",
+    "id": "ASCE7-22-18.6.2-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -5663,7 +6302,7 @@
     "parent_id": "ASCE7-22-18.6.2-H1"
   },
   {
-    "id": "ASCE7-22-18.6.2-T2",
+    "id": "ASCE7-22-18.6.2-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -5753,10 +6392,10 @@
       "citation": "Section 18.6.2.2",
       "page": 7
     },
-    "title": "18.6.2.2 Sequence and Cycles of Testing For all the following test sequences, each damping device shall be subjected to gravity load effects and thermal environments representative of the installed co",
+    "title": "18.6.2.2 Sequence and Cycles of Testing",
     "description": "",
     "data": {
-      "rule": "18.6.2.2 Sequence and Cycles of Testing For all the following test sequences, each damping device shall be subjected to gravity load effects and thermal environments representative of the installed condition. For seismic testing, the displacement in the devices calculated for the MCE R ground motions, termed herein as the maximum device displacement, shall be used.",
+      "rule": "18.6.2.2 Sequence and Cycles of Testing",
       "conditions": [],
       "then": "",
       "else": null,
@@ -5769,6 +6408,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-18.6.2.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-18.6.2.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 18,
+      "section": "18.6.2.2",
+      "citation": "Section 18.6.2.2",
+      "page": 7
+    },
+    "title": "For all the following test sequences, each damping device shall be subjected to gravity load effects and thermal environments representative of the installed condition. For seismic testing, the displa",
+    "description": "",
+    "data": {
+      "rule": "For all the following test sequences, each damping device shall be subjected to gravity load effects and thermal environments representative of the installed condition. For seismic testing, the displacement in the devices calculated for the MCE R ground motions, termed herein as the maximum device displacement, shall be used.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-18.6.2.2-P1",
@@ -5912,7 +6578,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-18.6.2.2-T1",
+    "id": "ASCE7-22-18.6.2.2-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -5939,7 +6605,7 @@
     "parent_id": "ASCE7-22-18.6.2.2-H1"
   },
   {
-    "id": "ASCE7-22-18.6.2.2-T2",
+    "id": "ASCE7-22-18.6.2.2-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -5966,7 +6632,7 @@
     "parent_id": "ASCE7-22-18.6.2.2-H1"
   },
   {
-    "id": "ASCE7-22-18.6.2.2-T3",
+    "id": "ASCE7-22-18.6.2.2-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -6076,7 +6742,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-18.6.2.2-T4",
+    "id": "ASCE7-22-18.6.2.2-T5",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -6103,7 +6769,7 @@
     "parent_id": "ASCE7-22-18.6.2.2-H1"
   },
   {
-    "id": "ASCE7-22-18.6.2.2-T5",
+    "id": "ASCE7-22-18.6.2.2-T6",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -6130,7 +6796,7 @@
     "parent_id": "ASCE7-22-18.6.2.2-H1"
   },
   {
-    "id": "ASCE7-22-18.6.2.2-T6",
+    "id": "ASCE7-22-18.6.2.2-T7",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -6220,10 +6886,10 @@
       "citation": "Section 18.6.2.3",
       "page": 7
     },
-    "title": "18.6.2.3 Testing Similar Devices Prototype tests need not be performed on a particular damping device if a previously prototype-tested unit exists that meets all the following conditions:",
+    "title": "18.6.2.3 Testing Similar Devices",
     "description": "",
     "data": {
-      "rule": "18.6.2.3 Testing Similar Devices Prototype tests need not be performed on a particular damping device if a previously prototype-tested unit exists that meets all the following conditions:",
+      "rule": "18.6.2.3 Testing Similar Devices",
       "conditions": [],
       "then": "",
       "else": null,
@@ -6239,6 +6905,33 @@
   },
   {
     "id": "ASCE7-22-18.6.2.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-18.6.2.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 18,
+      "section": "18.6.2.3",
+      "citation": "Section 18.6.2.3",
+      "page": 7
+    },
+    "title": "Prototype tests need not be performed on a particular damping device if a previously prototype-tested unit exists that meets all the following conditions:",
+    "description": "",
+    "data": {
+      "rule": "Prototype tests need not be performed on a particular damping device if a previously prototype-tested unit exists that meets all the following conditions:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-18.6.2.3-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -6265,7 +6958,7 @@
     "parent_id": "ASCE7-22-18.6.2.3-H1"
   },
   {
-    "id": "ASCE7-22-18.6.2.3-T2",
+    "id": "ASCE7-22-18.6.2.3-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -6292,7 +6985,7 @@
     "parent_id": "ASCE7-22-18.6.2.3-H1"
   },
   {
-    "id": "ASCE7-22-18.6.2.3-T3",
+    "id": "ASCE7-22-18.6.2.3-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -6319,7 +7012,7 @@
     "parent_id": "ASCE7-22-18.6.2.3-H1"
   },
   {
-    "id": "ASCE7-22-18.6.2.3-T4",
+    "id": "ASCE7-22-18.6.2.3-T5",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -6465,10 +7158,10 @@
       "citation": "Section 18.6.2.5",
       "page": 8
     },
-    "title": "18.6.2.5 Device Adequacy The performance of a prototype damping device shall be deemed adequate if all the conditions listed as follows are satis fi ed. The 15% limits speci fi ed in the following tex",
+    "title": "18.6.2.5 Device Adequacy",
     "description": "",
     "data": {
-      "rule": "18.6.2.5 Device Adequacy The performance of a prototype damping device shall be deemed adequate if all the conditions listed as follows are satis fi ed. The 15% limits speci fi ed in the following text are permitted to be increased by the RDP responsible for the design of the structure, provided that the increased limit has been demonstrated by analysis not to have a deleterious effect on the response of the structure.",
+      "rule": "18.6.2.5 Device Adequacy",
       "conditions": [],
       "then": "",
       "else": null,
@@ -6481,6 +7174,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-18.6.2.5-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-18.6.2.5-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 18,
+      "section": "18.6.2.5",
+      "citation": "Section 18.6.2.5",
+      "page": 8
+    },
+    "title": "The performance of a prototype damping device shall be deemed adequate if all the conditions listed as follows are satis fi ed. The 15% limits speci fi ed in the following text are permitted to be inc",
+    "description": "",
+    "data": {
+      "rule": "The performance of a prototype damping device shall be deemed adequate if all the conditions listed as follows are satis fi ed. The 15% limits speci fi ed in the following text are permitted to be increased by the RDP responsible for the design of the structure, provided that the increased limit has been demonstrated by analysis not to have a deleterious effect on the response of the structure.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-18.6.2.5.1-P1",
@@ -7075,10 +7795,10 @@
       "citation": "Section 18.7",
       "page": 9
     },
-    "title": "18.7 ALTERNATE PROCEDURES AND CORRESPONDING ACCEPTANCE CRITERIA",
+    "title": "18.7",
     "description": "",
     "data": {
-      "rule": "18.7 ALTERNATE PROCEDURES AND CORRESPONDING ACCEPTANCE CRITERIA",
+      "rule": "18.7",
       "conditions": [],
       "then": "",
       "else": null,
@@ -7091,6 +7811,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-18.7-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-18.7-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 18,
+      "section": "18.7",
+      "citation": "Section 18.7",
+      "page": 9
+    },
+    "title": "ALTERNATE PROCEDURES AND CORRESPONDING ACCEPTANCE CRITERIA",
+    "description": "",
+    "data": {
+      "rule": "ALTERNATE PROCEDURES AND CORRESPONDING ACCEPTANCE CRITERIA",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-18.7-P1",
@@ -7120,7 +7867,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-18.7-T1",
+    "id": "ASCE7-22-18.7-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -7185,10 +7932,10 @@
       "citation": "Section 18.7.1",
       "page": 9
     },
-    "title": "18.7.1 Response Spectrum Procedure Where the response spectrum procedure is used to analyze a structure with a damping system, the requirements of this section shall apply.",
+    "title": "18.7.1 Response Spectrum Procedure",
     "description": "",
     "data": {
-      "rule": "18.7.1 Response Spectrum Procedure Where the response spectrum procedure is used to analyze a structure with a damping system, the requirements of this section shall apply.",
+      "rule": "18.7.1 Response Spectrum Procedure",
       "conditions": [],
       "then": "",
       "else": null,
@@ -7201,6 +7948,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-18.7.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-18.7.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 18,
+      "section": "18.7.1",
+      "citation": "Section 18.7.1",
+      "page": 9
+    },
+    "title": "Where the response spectrum procedure is used to analyze a structure with a damping system, the requirements of this section shall apply.",
+    "description": "",
+    "data": {
+      "rule": "Where the response spectrum procedure is used to analyze a structure with a damping system, the requirements of this section shall apply.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-18.7.1.1-P1",
@@ -7533,13 +8307,13 @@
           "description": "Design value of the seismic base shear of the m th mode of vibration of the structure in the direction of interest, Section 18.7.1.2.2",
           "source": "ASCE7-22-18.1.3-T38"
         },
-        "a": {
-          "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
-          "source": "ASCE7-22-28.3.7-T22"
-        },
         "V": {
           "description": "Basic wind speed obtained from Figures 26.5-1A through 26.5-1D, mi/h (m/s); the basic wind speed corresponds to a 3 s gust speed at 33 ft (10 m) above the ground in Exposure Category C",
           "source": "ASCE7-22-26.3-T94"
+        },
+        "a": {
+          "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
+          "source": "ASCE7-22-28.3.7-T22"
         }
       }
     },
@@ -8411,10 +9185,10 @@
       "citation": "Section 18.7.1.3",
       "page": 11
     },
-    "title": "18.7.1.3 Damping System Design forces in damping devices and other elements of the damping system shall be determined on the basis of the fl oor de fl ection, story drift, and story velocity response ",
+    "title": "18.7.1.3 Damping System",
     "description": "",
     "data": {
-      "rule": "18.7.1.3 Damping System Design forces in damping devices and other elements of the damping system shall be determined on the basis of the fl oor de fl ection, story drift, and story velocity response parameters described in the subsequent sections.",
+      "rule": "18.7.1.3 Damping System",
       "conditions": [],
       "then": "",
       "else": null,
@@ -8427,6 +9201,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-18.7.1.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-18.7.1.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 18,
+      "section": "18.7.1.3",
+      "citation": "Section 18.7.1.3",
+      "page": 11
+    },
+    "title": "Design forces in damping devices and other elements of the damping system shall be determined on the basis of the fl oor de fl ection, story drift, and story velocity response parameters described in ",
+    "description": "",
+    "data": {
+      "rule": "Design forces in damping devices and other elements of the damping system shall be determined on the basis of the fl oor de fl ection, story drift, and story velocity response parameters described in the subsequent sections.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-18.7.1.3-P1",
@@ -8779,10 +9580,10 @@
       "citation": "Section 18.7.2",
       "page": 11
     },
-    "title": "18.7.2 Equivalent Lateral Force Procedure Where the equivalent lateral force procedure is used to design a structure with a damping system, the requirements of this section shall apply.",
+    "title": "18.7.2 Equivalent",
     "description": "",
     "data": {
-      "rule": "18.7.2 Equivalent Lateral Force Procedure Where the equivalent lateral force procedure is used to design a structure with a damping system, the requirements of this section shall apply.",
+      "rule": "18.7.2 Equivalent",
       "conditions": [],
       "then": "",
       "else": null,
@@ -8797,6 +9598,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-18.7.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-18.7.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 18,
+      "section": "18.7.2",
+      "citation": "Section 18.7.2",
+      "page": 11
+    },
+    "title": "Lateral Force Procedure Where the equivalent lateral force procedure is used to design a structure with a damping system, the requirements of this section shall apply.",
+    "description": "",
+    "data": {
+      "rule": "Lateral Force Procedure Where the equivalent lateral force procedure is used to design a structure with a damping system, the requirements of this section shall apply.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-18.7.2.1-H1",
     "type": "heading",
     "source": {
@@ -8806,10 +9634,10 @@
       "citation": "Section 18.7.2.1",
       "page": 11
     },
-    "title": "18.7.2.1 Modeling Elements of the seismic force-resisting system shall be modeled in a manner consistent with the requirements of Section 12.8. For purposes of analysis, the structure shall be conside",
+    "title": "18.7.2.1 Modeling",
     "description": "",
     "data": {
-      "rule": "18.7.2.1 Modeling Elements of the seismic force-resisting system shall be modeled in a manner consistent with the requirements of Section 12.8. For purposes of analysis, the structure shall be considered to be fi xed at the base.",
+      "rule": "18.7.2.1 Modeling",
       "conditions": [],
       "then": "",
       "else": null,
@@ -8822,6 +9650,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-18.7.2.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-18.7.2.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 18,
+      "section": "18.7.2.1",
+      "citation": "Section 18.7.2.1",
+      "page": 11
+    },
+    "title": "Elements of the seismic force-resisting system shall be modeled in a manner consistent with the requirements of Section 12.8. For purposes of analysis, the structure shall be considered to be fi xed a",
+    "description": "",
+    "data": {
+      "rule": "Elements of the seismic force-resisting system shall be modeled in a manner consistent with the requirements of Section 12.8. For purposes of analysis, the structure shall be considered to be fi xed at the base.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-18.7.2.1-P1",
@@ -8892,17 +9747,17 @@
     "data": {
       "expression": ".7.1.2.7 Design Lateral Force Design lateral force at level i caused by the m th mode of vibration, Fim , of the structure in the direction of interest shall be determined in accordance with Equation (18.7-10)",
       "parameters": {
-        "Fim": {
-          "description": "Inertial force at level i (or mass point i ) in the m th mode of vibration of the structure in the direction of interest, Section 18.7.1.2.7",
-          "source": "ASCE7-22-18.1.3-T22"
+        "i": {
+          "description": "Building level referred to by a subscript i ;",
+          "source": "ASCE7-22-11.3-T59"
         },
         "m": {
           "description": "Component demand modi fi cation factor accounting for expected ductility, applied to the expected strength of a ductility-governed element action, to obtain the acceptable structural component capacity at a particular performance level when using a linear static analysis procedure",
           "source": "ASCE7-22-6.3-T60"
         },
-        "i": {
-          "description": "Building level referred to by a subscript i ;",
-          "source": "ASCE7-22-11.3-T59"
+        "Fim": {
+          "description": "Inertial force at level i (or mass point i ) in the m th mode of vibration of the structure in the direction of interest, Section 18.7.1.2.7",
+          "source": "ASCE7-22-18.1.3-T22"
         }
       }
     },
@@ -8929,13 +9784,13 @@
     "data": {
       "expression": "tructure caused by the design earthquake ground motions at level i in the m th mode of vibration, \u03b4 imD , of the structure in the direction of interest shall be determined in accordance with Equation (18.7-11)",
       "parameters": {
-        "m": {
-          "description": "Component demand modi fi cation factor accounting for expected ductility, applied to the expected strength of a ductility-governed element action, to obtain the acceptable structural component capacity at a particular performance level when using a linear static analysis procedure",
-          "source": "ASCE7-22-6.3-T60"
-        },
         "i": {
           "description": "Building level referred to by a subscript i ;",
           "source": "ASCE7-22-11.3-T59"
+        },
+        "m": {
+          "description": "Component demand modi fi cation factor accounting for expected ductility, applied to the expected strength of a ductility-governed element action, to obtain the acceptable structural component capacity at a particular performance level when using a linear static analysis procedure",
+          "source": "ASCE7-22-6.3-T60"
         }
       }
     },
@@ -8962,10 +9817,6 @@
     "data": {
       "expression": "higher mode ( m > 1) roof displacements caused by the design earthquake ground motions, D 1 D and DmD , of the structure in the direction of interest shall be determined in accordance with Equations (18.7-12)",
       "parameters": {
-        "m": {
-          "description": "Component demand modi fi cation factor accounting for expected ductility, applied to the expected strength of a ductility-governed element action, to obtain the acceptable structural component capacity at a particular performance level when using a linear static analysis procedure",
-          "source": "ASCE7-22-6.3-T60"
-        },
         "DmD": {
           "description": "Design displacement at the center of rigidity of the roof level of the structure caused by the m th mode of vibration in the direction under consideration, Section 18.7.1.3.2",
           "source": "ASCE7-22-18.1.3-T14"
@@ -8973,6 +9824,10 @@
         "D": {
           "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the design earthquake ground motions, Section 18.7.3.3 \u03bc",
           "source": "ASCE7-22-18.1.3-T79"
+        },
+        "m": {
+          "description": "Component demand modi fi cation factor accounting for expected ductility, applied to the expected strength of a ductility-governed element action, to obtain the acceptable structural component capacity at a particular performance level when using a linear static analysis procedure",
+          "source": "ASCE7-22-6.3-T60"
         }
       }
     },
@@ -9036,17 +9891,17 @@
     "data": {
       "expression": "e Story Velocity Design story velocity in the fundamental mode, \u2207 1 D , and higher modes, \u2207 mD ( m > 1), of the structure in the direction of interest shall be calculated in accordance with Equations (18.7-14)",
       "parameters": {
-        "m": {
-          "description": "Component demand modi fi cation factor accounting for expected ductility, applied to the expected strength of a ductility-governed element action, to obtain the acceptable structural component capacity at a particular performance level when using a linear static analysis procedure",
-          "source": "ASCE7-22-6.3-T60"
+        "e": {
+          "description": "Actual eccentricity measured in plan between the center of mass of the structure above the isolation interface and the center of rigidity of the isolation system, plus accidental eccentricity [ft (mm)], taken as 5% of the longest plan dimension of the structure perpendicular to the direction of force under consideration;",
+          "source": "ASCE7-22-17.5.3.3-T4"
         },
         "D": {
           "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the design earthquake ground motions, Section 18.7.3.3 \u03bc",
           "source": "ASCE7-22-18.1.3-T79"
         },
-        "e": {
-          "description": "Actual eccentricity measured in plan between the center of mass of the structure above the isolation interface and the center of rigidity of the isolation system, plus accidental eccentricity [ft (mm)], taken as 5% of the longest plan dimension of the structure perpendicular to the direction of force under consideration;",
-          "source": "ASCE7-22-17.5.3.3-T4"
+        "m": {
+          "description": "Component demand modi fi cation factor accounting for expected ductility, applied to the expected strength of a ductility-governed element action, to obtain the acceptable structural component capacity at a particular performance level when using a linear static analysis procedure",
+          "source": "ASCE7-22-6.3-T60"
         }
       }
     },
@@ -9073,13 +9928,13 @@
     "data": {
       "expression": "ty Design story velocity in the fundamental mode, \u2207 1 D , and higher modes, \u2207 mD ( m > 1), of the structure in the direction of interest shall be calculated in accordance with Equations (18.7-14) and (18.7-15)",
       "parameters": {
-        "m": {
-          "description": "Component demand modi fi cation factor accounting for expected ductility, applied to the expected strength of a ductility-governed element action, to obtain the acceptable structural component capacity at a particular performance level when using a linear static analysis procedure",
-          "source": "ASCE7-22-6.3-T60"
-        },
         "D": {
           "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the design earthquake ground motions, Section 18.7.3.3 \u03bc",
           "source": "ASCE7-22-18.1.3-T79"
+        },
+        "m": {
+          "description": "Component demand modi fi cation factor accounting for expected ductility, applied to the expected strength of a ductility-governed element action, to obtain the acceptable structural component capacity at a particular performance level when using a linear static analysis procedure",
+          "source": "ASCE7-22-6.3-T60"
         }
       }
     },
@@ -9116,6 +9971,30 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-18.7-E18-7-171",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 18,
+      "section": "18.7",
+      "citation": "Eq. (18.7-17)",
+      "page": 11
+    },
+    "title": "Equation (18.7-17)",
+    "description": "",
+    "data": {
+      "expression": "MCER roof displacement of the structure in the direction of interest shall be calculated in accordance with Equations (18.7-16) and (18.7-17)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  },
+  {
     "id": "ASCE7-22-18.7-E18-7-291",
     "type": "formula",
     "source": {
@@ -9140,7 +10019,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-18.7.2.1-T1",
+    "id": "ASCE7-22-18.7.2.1-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -9768,13 +10647,13 @@
           "description": "Design value of the seismic base shear of the residual mode of vibration of the structure in a given direction, as determined in Section 18.7.2.2.6",
           "source": "ASCE7-22-18.1.3-T40"
         },
-        "a": {
-          "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
-          "source": "ASCE7-22-28.3.7-T22"
-        },
         "V": {
           "description": "Basic wind speed obtained from Figures 26.5-1A through 26.5-1D, mi/h (m/s); the basic wind speed corresponds to a 3 s gust speed at 33 ft (10 m) above the ground in Exposure Category C",
           "source": "ASCE7-22-26.3-T94"
+        },
+        "a": {
+          "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
+          "source": "ASCE7-22-28.3.7-T22"
         }
       }
     },
@@ -9927,6 +10806,30 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-18.7-E18-7-241",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 18,
+      "section": "18.7",
+      "citation": "Eq. (18.7-24)",
+      "page": 12
+    },
+    "title": "Equation (18.7-24)",
+    "description": "",
+    "data": {
+      "expression": "18.7.2.2.4 Fundamental Mode Seismic Response Coefficient The fundamental mode seismic response coef fi cient, CS 1 , shall be determined using Equations (18.7-23) or (18.7-24)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  },
+  {
     "id": "ASCE7-22-18.7-E18-7-251",
     "type": "formula",
     "source": {
@@ -9941,10 +10844,6 @@
     "data": {
       "expression": "esign earthquake, T 1 D , and at the MCER, T 1 M , shall be based on explicit consideration of the postyield force de fl ection characteristics of the structure or shall be calculated using Equations (18.7-25)",
       "parameters": {
-        "D": {
-          "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the design earthquake ground motions, Section 18.7.3.3 \u03bc",
-          "source": "ASCE7-22-18.1.3-T79"
-        },
         "M": {
           "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the MCER ground motions, Section 18.7.3.3",
           "source": "ASCE7-22-18.1.3-T79"
@@ -9952,6 +10851,10 @@
         "T": {
           "description": "Cumulative effect of self-straining forces and effects arising from contraction or expansion resulting from environmental or operational temperature changes, shrinkage, moisture changes, creep in component materials, movement caused by differential settlement, or combinations thereof",
           "source": "ASCE7-22-2.2-T13"
+        },
+        "D": {
+          "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the design earthquake ground motions, Section 18.7.3.3 \u03bc",
+          "source": "ASCE7-22-18.1.3-T79"
         }
       }
     },
@@ -9978,10 +10881,6 @@
     "data": {
       "expression": "ke, T 1 D , and at the MCER, T 1 M , shall be based on explicit consideration of the postyield force de fl ection characteristics of the structure or shall be calculated using Equations (18.7-25) and (18.7-26)",
       "parameters": {
-        "D": {
-          "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the design earthquake ground motions, Section 18.7.3.3 \u03bc",
-          "source": "ASCE7-22-18.1.3-T79"
-        },
         "M": {
           "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the MCER ground motions, Section 18.7.3.3",
           "source": "ASCE7-22-18.1.3-T79"
@@ -9989,6 +10888,10 @@
         "T": {
           "description": "Cumulative effect of self-straining forces and effects arising from contraction or expansion resulting from environmental or operational temperature changes, shrinkage, moisture changes, creep in component materials, movement caused by differential settlement, or combinations thereof",
           "source": "ASCE7-22-2.2-T13"
+        },
+        "D": {
+          "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the design earthquake ground motions, Section 18.7.3.3 \u03bc",
+          "source": "ASCE7-22-18.1.3-T79"
         }
       }
     },
@@ -10048,13 +10951,13 @@
           "description": "Response modi fi cation factor for the building or nonbuilding structure supporting the component, from Table 12.2-1, 15.4-1, or 15.4-2; and",
           "source": "ASCE7-22-13.3.1.2-T3"
         },
-        "factor": {
-          "description": "1.8 -0.01 B , B < 100 ft ( B < 30.5 m), or 0.8, B \u2265 100 ft ( B \u2265 30.5 m);",
-          "source": "ASCE7-22-28.3.7-T54"
-        },
         "WR": {
           "description": "Effective residual mode seismic weight, determined in accordance with Equation (18.7-30)",
           "source": "ASCE7-22-18.1.3-T46"
+        },
+        "factor": {
+          "description": "1.8 -0.01 B , B < 100 ft ( B < 30.5 m), or 0.8, B \u2265 100 ft ( B \u2265 30.5 m);",
+          "source": "ASCE7-22-28.3.7-T54"
         },
         "TR": {
           "description": "Period, in seconds, of the residual mode of vibration of the structure in the direction under consideration, Section 18.7.2.2.7",
@@ -10089,13 +10992,13 @@
           "description": "Response modi fi cation factor for the building or nonbuilding structure supporting the component, from Table 12.2-1, 15.4-1, or 15.4-2; and",
           "source": "ASCE7-22-13.3.1.2-T3"
         },
-        "factor": {
-          "description": "1.8 -0.01 B , B < 100 ft ( B < 30.5 m), or 0.8, B \u2265 100 ft ( B \u2265 30.5 m);",
-          "source": "ASCE7-22-28.3.7-T54"
-        },
         "WR": {
           "description": "Effective residual mode seismic weight, determined in accordance with Equation (18.7-30)",
           "source": "ASCE7-22-18.1.3-T46"
+        },
+        "factor": {
+          "description": "1.8 -0.01 B , B < 100 ft ( B < 30.5 m), or 0.8, B \u2265 100 ft ( B \u2265 30.5 m);",
+          "source": "ASCE7-22-28.3.7-T54"
         },
         "TR": {
           "description": "Period, in seconds, of the residual mode of vibration of the structure in the direction under consideration, Section 18.7.2.2.7",
@@ -10126,22 +11029,22 @@
     "data": {
       "expression": "mined in accordance with Equation (18.7-32): g S T2 g S T2 (18.7-37a)",
       "parameters": {
-        "S": {
-          "description": "Center-to-center row spacing for ground-mounted solar panels in Figure 29.4-9",
-          "unit": "ft",
-          "source": "ASCE7-22-26.3-T90"
-        },
         "g": {
           "description": "Acceleration caused by gravity [in : \u2215 s 2 (mm \u2215 s 2 )] if the units of the displacement DM are in in. (mm);",
           "source": "ASCE7-22-17.5.3.1-T2"
+        },
+        "T": {
+          "description": "Cumulative effect of self-straining forces and effects arising from contraction or expansion resulting from environmental or operational temperature changes, shrinkage, moisture changes, creep in component materials, movement caused by differential settlement, or combinations thereof",
+          "source": "ASCE7-22-2.2-T13"
         },
         "a": {
           "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
           "source": "ASCE7-22-28.3.7-T22"
         },
-        "T": {
-          "description": "Cumulative effect of self-straining forces and effects arising from contraction or expansion resulting from environmental or operational temperature changes, shrinkage, moisture changes, creep in component materials, movement caused by differential settlement, or combinations thereof",
-          "source": "ASCE7-22-2.2-T13"
+        "S": {
+          "description": "Center-to-center row spacing for ground-mounted solar panels in Figure 29.4-9",
+          "unit": "ft",
+          "source": "ASCE7-22-26.3-T90"
         }
       }
     },
@@ -10168,39 +11071,39 @@
     "data": {
       "expression": "where B R is a numerical coefficient as set forth in Table 18.7-1 D = g \u0393 S D1 T 1D \u2265 g \u0393 S D1 T 1 (18.7-37b)",
       "parameters": {
-        "S": {
-          "description": "Center-to-center row spacing for ground-mounted solar panels in Figure 29.4-9",
-          "unit": "ft",
-          "source": "ASCE7-22-26.3-T90"
+        "b": {
+          "description": "Shortest plan dimension of the structure [ft (mm)] measured perpendicular to d ;",
+          "source": "ASCE7-22-17.5.3.3-T5"
+        },
+        "T": {
+          "description": "Cumulative effect of self-straining forces and effects arising from contraction or expansion resulting from environmental or operational temperature changes, shrinkage, moisture changes, creep in component materials, movement caused by differential settlement, or combinations thereof",
+          "source": "ASCE7-22-2.2-T13"
+        },
+        "D": {
+          "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the design earthquake ground motions, Section 18.7.3.3 \u03bc",
+          "source": "ASCE7-22-18.1.3-T79"
+        },
+        "g": {
+          "description": "Acceleration caused by gravity [in : \u2215 s 2 (mm \u2215 s 2 )] if the units of the displacement DM are in in. (mm);",
+          "source": "ASCE7-22-17.5.3.1-T2"
         },
         "B": {
           "description": "Horizontal dimension of a building measured normal to wind direction",
           "unit": "ft",
           "source": "ASCE7-22-26.3-T14"
         },
-        "D": {
-          "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the design earthquake ground motions, Section 18.7.3.3 \u03bc",
-          "source": "ASCE7-22-18.1.3-T79"
-        },
         "R": {
           "description": "Response modi fi cation factor for the building or nonbuilding structure supporting the component, from Table 12.2-1, 15.4-1, or 15.4-2; and",
           "source": "ASCE7-22-13.3.1.2-T3"
-        },
-        "g": {
-          "description": "Acceleration caused by gravity [in : \u2215 s 2 (mm \u2215 s 2 )] if the units of the displacement DM are in in. (mm);",
-          "source": "ASCE7-22-17.5.3.1-T2"
         },
         "a": {
           "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
           "source": "ASCE7-22-28.3.7-T22"
         },
-        "T": {
-          "description": "Cumulative effect of self-straining forces and effects arising from contraction or expansion resulting from environmental or operational temperature changes, shrinkage, moisture changes, creep in component materials, movement caused by differential settlement, or combinations thereof",
-          "source": "ASCE7-22-2.2-T13"
-        },
-        "b": {
-          "description": "Shortest plan dimension of the structure [ft (mm)] measured perpendicular to d ;",
-          "source": "ASCE7-22-17.5.3.3-T5"
+        "S": {
+          "description": "Center-to-center row spacing for ground-mounted solar panels in Figure 29.4-9",
+          "unit": "ft",
+          "source": "ASCE7-22-26.3-T90"
         }
       }
     },
@@ -10227,6 +11130,10 @@
     "data": {
       "expression": "Floor deflections at level i, \u03b4 iD and \u03b4 iM , story drifts, \u0394 D and \u2207 1D =2\u03c0 T 1D (18.7-41)",
       "parameters": {
+        "T": {
+          "description": "Cumulative effect of self-straining forces and effects arising from contraction or expansion resulting from environmental or operational temperature changes, shrinkage, moisture changes, creep in component materials, movement caused by differential settlement, or combinations thereof",
+          "source": "ASCE7-22-2.2-T13"
+        },
         "i": {
           "description": "Building level referred to by a subscript i ;",
           "source": "ASCE7-22-11.3-T59"
@@ -10234,10 +11141,6 @@
         "D": {
           "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the design earthquake ground motions, Section 18.7.3.3 \u03bc",
           "source": "ASCE7-22-18.1.3-T79"
-        },
-        "T": {
-          "description": "Cumulative effect of self-straining forces and effects arising from contraction or expansion resulting from environmental or operational temperature changes, shrinkage, moisture changes, creep in component materials, movement caused by differential settlement, or combinations thereof",
-          "source": "ASCE7-22-2.2-T13"
         },
         "\u0394": {
           "description": "Design story drift as determined in Section 12.8.6 \u0394",
@@ -10268,22 +11171,22 @@
     "data": {
       "expression": "centerofrigidityoftherooflevelofthestructureinthedirection g S T2 g S T2 (18.7-43a)",
       "parameters": {
-        "S": {
-          "description": "Center-to-center row spacing for ground-mounted solar panels in Figure 29.4-9",
-          "unit": "ft",
-          "source": "ASCE7-22-26.3-T90"
-        },
         "g": {
           "description": "Acceleration caused by gravity [in : \u2215 s 2 (mm \u2215 s 2 )] if the units of the displacement DM are in in. (mm);",
           "source": "ASCE7-22-17.5.3.1-T2"
+        },
+        "T": {
+          "description": "Cumulative effect of self-straining forces and effects arising from contraction or expansion resulting from environmental or operational temperature changes, shrinkage, moisture changes, creep in component materials, movement caused by differential settlement, or combinations thereof",
+          "source": "ASCE7-22-2.2-T13"
         },
         "a": {
           "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
           "source": "ASCE7-22-28.3.7-T22"
         },
-        "T": {
-          "description": "Cumulative effect of self-straining forces and effects arising from contraction or expansion resulting from environmental or operational temperature changes, shrinkage, moisture changes, creep in component materials, movement caused by differential settlement, or combinations thereof",
-          "source": "ASCE7-22-2.2-T13"
+        "S": {
+          "description": "Center-to-center row spacing for ground-mounted solar panels in Figure 29.4-9",
+          "unit": "ft",
+          "source": "ASCE7-22-26.3-T90"
         }
       }
     },
@@ -10310,22 +11213,22 @@
     "data": {
       "expression": "g S T g S T (18.7-43b)",
       "parameters": {
-        "T": {
-          "description": "Cumulative effect of self-straining forces and effects arising from contraction or expansion resulting from environmental or operational temperature changes, shrinkage, moisture changes, creep in component materials, movement caused by differential settlement, or combinations thereof",
-          "source": "ASCE7-22-2.2-T13"
+        "g": {
+          "description": "Acceleration caused by gravity [in : \u2215 s 2 (mm \u2215 s 2 )] if the units of the displacement DM are in in. (mm);",
+          "source": "ASCE7-22-17.5.3.1-T2"
+        },
+        "b": {
+          "description": "Shortest plan dimension of the structure [ft (mm)] measured perpendicular to d ;",
+          "source": "ASCE7-22-17.5.3.3-T5"
         },
         "S": {
           "description": "Center-to-center row spacing for ground-mounted solar panels in Figure 29.4-9",
           "unit": "ft",
           "source": "ASCE7-22-26.3-T90"
         },
-        "b": {
-          "description": "Shortest plan dimension of the structure [ft (mm)] measured perpendicular to d ;",
-          "source": "ASCE7-22-17.5.3.3-T5"
-        },
-        "g": {
-          "description": "Acceleration caused by gravity [in : \u2215 s 2 (mm \u2215 s 2 )] if the units of the displacement DM are in in. (mm);",
-          "source": "ASCE7-22-17.5.3.1-T2"
+        "T": {
+          "description": "Cumulative effect of self-straining forces and effects arising from contraction or expansion resulting from environmental or operational temperature changes, shrinkage, moisture changes, creep in component materials, movement caused by differential settlement, or combinations thereof",
+          "source": "ASCE7-22-2.2-T13"
         }
       }
     },
@@ -10819,6 +11722,10 @@
     "data": {
       "expression": "esisting system at level i caused by fundamental mode response, Fi 1 , and residual mode response, FiR , of the structure in the direction of interest shall be determined in accordance with Equations (18.7-33)",
       "parameters": {
+        "i": {
+          "description": "Building level referred to by a subscript i ;",
+          "source": "ASCE7-22-11.3-T59"
+        },
         "Fi": {
           "description": "Portion of the seismic base shear, V , induced at level i",
           "source": "ASCE7-22-12.14.1.4-T6"
@@ -10826,10 +11733,6 @@
         "FiR": {
           "description": "Inertial force at level i (or mass point i ) in the residual mode of vibration of the structure in the direction of interest, Section 18.7.2.2.9",
           "source": "ASCE7-22-18.1.3-T23"
-        },
-        "i": {
-          "description": "Building level referred to by a subscript i ;",
-          "source": "ASCE7-22-11.3-T59"
         }
       }
     },
@@ -10860,6 +11763,10 @@
           "description": "Building level referred to by a subscript i ;",
           "source": "ASCE7-22-11.3-T59"
         },
+        "FiR": {
+          "description": "Inertial force at level i (or mass point i ) in the residual mode of vibration of the structure in the direction of interest, Section 18.7.2.2.9",
+          "source": "ASCE7-22-18.1.3-T23"
+        },
         "m": {
           "description": "Component demand modi fi cation factor accounting for expected ductility, applied to the expected strength of a ductility-governed element action, to obtain the acceptable structural component capacity at a particular performance level when using a linear static analysis procedure",
           "source": "ASCE7-22-6.3-T60"
@@ -10867,10 +11774,6 @@
         "Fi": {
           "description": "Portion of the seismic base shear, V , induced at level i",
           "source": "ASCE7-22-12.14.1.4-T6"
-        },
-        "FiR": {
-          "description": "Inertial force at level i (or mass point i ) in the residual mode of vibration of the structure in the direction of interest, Section 18.7.2.2.9",
-          "source": "ASCE7-22-18.1.3-T23"
         }
       }
     },
@@ -10901,13 +11804,13 @@
           "description": "Building level referred to by a subscript i ;",
           "source": "ASCE7-22-11.3-T59"
         },
-        "D": {
-          "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the design earthquake ground motions, Section 18.7.3.3 \u03bc",
-          "source": "ASCE7-22-18.1.3-T79"
-        },
         "e": {
           "description": "Actual eccentricity measured in plan between the center of mass of the structure above the isolation interface and the center of rigidity of the isolation system, plus accidental eccentricity [ft (mm)], taken as 5% of the longest plan dimension of the structure perpendicular to the direction of force under consideration;",
           "source": "ASCE7-22-17.5.3.3-T4"
+        },
+        "D": {
+          "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the design earthquake ground motions, Section 18.7.3.3 \u03bc",
+          "source": "ASCE7-22-18.1.3-T79"
         }
       }
     },
@@ -11081,6 +11984,35 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-18.7-E18-7-421",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 18,
+      "section": "18.7",
+      "citation": "Eq. (18.7-42)",
+      "page": 13
+    },
+    "title": "Equation (18.7-42)",
+    "description": "",
+    "data": {
+      "expression": "18.7.2.3.4 Design Earthquake Story Velocity Design story velocities, \u2207 D , in the direction of interest shall be calculated in accordance with Equations (18.7-40) through (18.7-42)",
+      "parameters": {
+        "D": {
+          "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the design earthquake ground motions, Section 18.7.3.3 \u03bc",
+          "source": "ASCE7-22-18.1.3-T79"
+        }
+      }
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  },
+  {
     "id": "ASCE7-22-18.7-E18-7-431",
     "type": "formula",
     "source": {
@@ -11221,10 +12153,10 @@
       "citation": "Section 18.7.3",
       "page": 14
     },
-    "title": "18.7.3 Damped Response Modi fi cation As required in Sections 18.7.1 and 18.7.2, response of the structure shall be modi fi ed for the effects of the damping system.",
+    "title": "18.7.3 Damped",
     "description": "",
     "data": {
-      "rule": "18.7.3 Damped Response Modi fi cation As required in Sections 18.7.1 and 18.7.2, response of the structure shall be modi fi ed for the effects of the damping system.",
+      "rule": "18.7.3 Damped",
       "conditions": [],
       "then": "",
       "else": null,
@@ -11237,6 +12169,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-18.7.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-18.7.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 18,
+      "section": "18.7.3",
+      "citation": "Section 18.7.3",
+      "page": 14
+    },
+    "title": "Response Modi fi cation As required in Sections 18.7.1 and 18.7.2, response of the structure shall be modi fi ed for the effects of the damping system.",
+    "description": "",
+    "data": {
+      "rule": "Response Modi fi cation As required in Sections 18.7.1 and 18.7.2, response of the structure shall be modi fi ed for the effects of the damping system.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-18.7.3.1-H1",
@@ -11248,39 +12207,10 @@
       "citation": "Section 18.7.3.1",
       "page": 14
     },
-    "title": "18.7.3.1 Damping Coef fi cient Where the period of the structure is greater than or equal to T 0 , the damping coef fi cient shall be as prescribed in Table 18.7-1. Where the period of the structure i",
+    "title": "18.7.3.1 Damping Coef",
     "description": "",
     "data": {
-      "rule": "18.7.3.1 Damping Coef fi cient Where the period of the structure is greater than or equal to T 0 , the damping coef fi cient shall be as prescribed in Table 18.7-1. Where the period of the structure is less than T 0 , the damping coef fi cient shall be linearly interpolated between a value of 1.0 at a 0 s period for all values of effective damping and the value at period T 0 , as indicated in Table 18.7-1.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [
-      "ASCE7-22-18.7-E18-7-11"
-    ],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-18.7.3.2-H1",
-    "type": "heading",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 18,
-      "section": "18.7.3.2",
-      "citation": "Section 18.7.3.2",
-      "page": 14
-    },
-    "title": "18.7.3.2 Effective Damping The effective damping at the design displacement, \u03b2 mD , and at the MCER displacement, \u03b2 mM , of the m th mode of vibration of the structure in the direction under considera",
-    "description": "",
-    "data": {
-      "rule": "18.7.3.2 Effective Damping The effective damping at the design displacement, \u03b2 mD , and at the MCER displacement, \u03b2 mM , of the m th mode of vibration of the structure in the direction under consideration shall be calculated using Equations (18.7-45) and (18.7-46): where",
+      "rule": "18.7.3.1 Damping Coef",
       "conditions": [],
       "then": "",
       "else": null,
@@ -11295,7 +12225,90 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-18.7.3.2-T2",
+    "id": "ASCE7-22-18.7.3.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-18.7.3.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 18,
+      "section": "18.7.3.1",
+      "citation": "Section 18.7.3.1",
+      "page": 14
+    },
+    "title": "fi cient Where the period of the structure is greater than or equal to T 0 , the damping coef fi cient shall be as prescribed in Table 18.7-1. Where the period of the structure is less than T 0 , the ",
+    "description": "",
+    "data": {
+      "rule": "fi cient Where the period of the structure is greater than or equal to T 0 , the damping coef fi cient shall be as prescribed in Table 18.7-1. Where the period of the structure is less than T 0 , the damping coef fi cient shall be linearly interpolated between a value of 1.0 at a 0 s period for all values of effective damping and the value at period T 0 , as indicated in Table 18.7-1.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-18.7-E18-7-11"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-18.7.3.2-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 18,
+      "section": "18.7.3.2",
+      "citation": "Section 18.7.3.2",
+      "page": 14
+    },
+    "title": "18.7.3.2 Effective Damping",
+    "description": "",
+    "data": {
+      "rule": "18.7.3.2 Effective Damping",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-18.7.3.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-18.7.3.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 18,
+      "section": "18.7.3.2",
+      "citation": "Section 18.7.3.2",
+      "page": 14
+    },
+    "title": "The effective damping at the design displacement, \u03b2 mD , and at the MCER displacement, \u03b2 mM , of the m th mode of vibration of the structure in the direction under consideration shall be calculated us",
+    "description": "",
+    "data": {
+      "rule": "The effective damping at the design displacement, \u03b2 mD , and at the MCER displacement, \u03b2 mM , of the m th mode of vibration of the structure in the direction under consideration shall be calculated using Equations (18.7-45) and (18.7-46): where",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-18.7.3.2-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -11322,7 +12335,7 @@
     "parent_id": "ASCE7-22-18.7.3.2-H1"
   },
   {
-    "id": "ASCE7-22-18.7.3.2-T3",
+    "id": "ASCE7-22-18.7.3.2-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -11349,7 +12362,7 @@
     "parent_id": "ASCE7-22-18.7.3.2-H1"
   },
   {
-    "id": "ASCE7-22-18.7.3.2-T4",
+    "id": "ASCE7-22-18.7.3.2-T5",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -11376,7 +12389,7 @@
     "parent_id": "ASCE7-22-18.7.3.2-H1"
   },
   {
-    "id": "ASCE7-22-18.7.3.2-T5",
+    "id": "ASCE7-22-18.7.3.2-T6",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -11403,7 +12416,7 @@
     "parent_id": "ASCE7-22-18.7.3.2-H1"
   },
   {
-    "id": "ASCE7-22-18.7.3.2-T6",
+    "id": "ASCE7-22-18.7.3.2-T7",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -11430,7 +12443,7 @@
     "parent_id": "ASCE7-22-18.7.3.2-H1"
   },
   {
-    "id": "ASCE7-22-18.7.3.2-T7",
+    "id": "ASCE7-22-18.7.3.2-T8",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -11985,6 +12998,10 @@
     "data": {
       "expression": "r test data support other values, the fraction of full hysteretic loop area of the seismic force-resisting system used for design shall be taken as equal to the factor, qH , calculated using Equation (18.7-49)",
       "parameters": {
+        "qH": {
+          "description": "Hysteresis loop adjustment factor, as determined in Section 18.7.3.2.2.1",
+          "source": "ASCE7-22-18.1.3-T26"
+        },
         "r": {
           "description": "Lateral slenderness ratio of a compression member measured in terms of its effective length, KL , and the least radius of gyration of the member cross section, r",
           "source": "ASCE7-22-11.3-T63"
@@ -11992,10 +13009,6 @@
         "factor": {
           "description": "1.8 -0.01 B , B < 100 ft ( B < 30.5 m), or 0.8, B \u2265 100 ft ( B \u2265 30.5 m);",
           "source": "ASCE7-22-28.3.7-T54"
-        },
-        "qH": {
-          "description": "Hysteresis loop adjustment factor, as determined in Section 18.7.3.2.2.1",
-          "source": "ASCE7-22-18.1.3-T26"
         }
       }
     },
@@ -12022,13 +13035,50 @@
     "data": {
       "expression": "Viscous damping of the m th mode of vibration of the structure, \u03b2 Vm , shall be calculated using Equations (18.7-50)",
       "parameters": {
+        "Vm": {
+          "description": "Design value of the seismic base shear of the m th mode of vibration of the structure in the direction of interest, Section 18.7.1.2.2",
+          "source": "ASCE7-22-18.1.3-T38"
+        },
         "\u03b2": {
           "description": "Fraction of critical damping for the coupled structure -foundation system, determined in Section 19.2.1",
           "source": "ASCE7-22-11.3-T140"
         },
+        "m": {
+          "description": "Component demand modi fi cation factor accounting for expected ductility, applied to the expected strength of a ductility-governed element action, to obtain the acceptable structural component capacity at a particular performance level when using a linear static analysis procedure",
+          "source": "ASCE7-22-6.3-T60"
+        }
+      }
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-18.7-E18-7-511",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 18,
+      "section": "18.7",
+      "citation": "Eq. (18.7-51)",
+      "page": 14
+    },
+    "title": "Equation (18.7-51)",
+    "description": "",
+    "data": {
+      "expression": "Viscous damping of the m th mode of vibration of the structure, \u03b2 Vm , shall be calculated using Equations (18.7-50) and (18.7-51)",
+      "parameters": {
         "Vm": {
           "description": "Design value of the seismic base shear of the m th mode of vibration of the structure in the direction of interest, Section 18.7.1.2.2",
           "source": "ASCE7-22-18.1.3-T38"
+        },
+        "\u03b2": {
+          "description": "Fraction of critical damping for the coupled structure -foundation system, determined in Section 19.2.1",
+          "source": "ASCE7-22-11.3-T140"
         },
         "m": {
           "description": "Component demand modi fi cation factor accounting for expected ductility, applied to the expected strength of a ductility-governed element action, to obtain the acceptable structural component capacity at a particular performance level when using a linear static analysis procedure",
@@ -12135,10 +13185,10 @@
       "citation": "Section 18.7.3.3",
       "page": 15
     },
-    "title": "18.7.3.3 Effective Ductility Demand The effective ductility demand on the seismic force-resisting system caused by the design earthquake ground motions, \u03bc D , and caused by the MCER ground motions, \u03bc ",
+    "title": "18.7.3.3 Effective Ductility Demand",
     "description": "",
     "data": {
-      "rule": "18.7.3.3 Effective Ductility Demand The effective ductility demand on the seismic force-resisting system caused by the design earthquake ground motions, \u03bc D , and caused by the MCER ground motions, \u03bc M , shall be calculated using Equations (18.752) through (18.7-54): where",
+      "rule": "18.7.3.3 Effective Ductility Demand",
       "conditions": [],
       "then": "",
       "else": null,
@@ -12153,7 +13203,34 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-18.7.3.3-T2",
+    "id": "ASCE7-22-18.7.3.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-18.7.3.3-H2",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 18,
+      "section": "18.7.3.3",
+      "citation": "Section 18.7.3.3",
+      "page": 15
+    },
+    "title": "The effective ductility demand on the seismic force-resisting system caused by the design earthquake ground motions, \u03bc D , and caused by the MCER ground motions, \u03bc M , shall be calculated using Equati",
+    "description": "",
+    "data": {
+      "rule": "The effective ductility demand on the seismic force-resisting system caused by the design earthquake ground motions, \u03bc D , and caused by the MCER ground motions, \u03bc M , shall be calculated using Equations (18.752) through (18.7-54): where",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-18.7.3.3-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -12182,7 +13259,7 @@
     "parent_id": "ASCE7-22-18.7.3.3-H2"
   },
   {
-    "id": "ASCE7-22-18.7.3.3-T3",
+    "id": "ASCE7-22-18.7.3.3-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -12211,7 +13288,7 @@
     "parent_id": "ASCE7-22-18.7.3.3-H2"
   },
   {
-    "id": "ASCE7-22-18.7.3.3-T4",
+    "id": "ASCE7-22-18.7.3.3-T5",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -12265,7 +13342,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-18.7.3.3-T5",
+    "id": "ASCE7-22-18.7.3.3-T6",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -12292,7 +13369,7 @@
     "parent_id": "ASCE7-22-18.7.3.3-H2"
   },
   {
-    "id": "ASCE7-22-18.7.3.3-T6",
+    "id": "ASCE7-22-18.7.3.3-T7",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -12321,7 +13398,7 @@
     "parent_id": "ASCE7-22-18.7.3.3-H2"
   },
   {
-    "id": "ASCE7-22-18.7.3.3-T7",
+    "id": "ASCE7-22-18.7.3.3-T8",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -12348,7 +13425,7 @@
     "parent_id": "ASCE7-22-18.7.3.3-H2"
   },
   {
-    "id": "ASCE7-22-18.7.3.3-T8",
+    "id": "ASCE7-22-18.7.3.3-T9",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -12377,7 +13454,7 @@
     "parent_id": "ASCE7-22-18.7.3.3-H2"
   },
   {
-    "id": "ASCE7-22-18.7.3.3-T9",
+    "id": "ASCE7-22-18.7.3.3-T10",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -12471,10 +13548,10 @@
       "citation": "Section 18.7.3.4",
       "page": 15
     },
-    "title": "18.7.3.4 Maximum Effective Ductility Demand For determination of the hysteresis loop adjustment factor, hysteretic damping, and other parameters, the maximum value of effective ductility demand, \u03bc max",
+    "title": "18.7.3.4 Maximum",
     "description": "",
     "data": {
-      "rule": "18.7.3.4 Maximum Effective Ductility Demand For determination of the hysteresis loop adjustment factor, hysteretic damping, and other parameters, the maximum value of effective ductility demand, \u03bc max , shall be calculated using Equations (18.7-55) and (18.7-56): For T 1 D \u2264 TS , For T 1 \u2265 TS ,",
+      "rule": "18.7.3.4 Maximum",
       "conditions": [],
       "then": "",
       "else": null,
@@ -12489,7 +13566,34 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-18.7.3.4-T3",
+    "id": "ASCE7-22-18.7.3.4-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-18.7.3.4-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 18,
+      "section": "18.7.3.4",
+      "citation": "Section 18.7.3.4",
+      "page": 15
+    },
+    "title": "Effective Ductility Demand For determination of the hysteresis loop adjustment factor, hysteretic damping, and other parameters, the maximum value of effective ductility demand, \u03bc max , shall be calcu",
+    "description": "",
+    "data": {
+      "rule": "Effective Ductility Demand For determination of the hysteresis loop adjustment factor, hysteretic damping, and other parameters, the maximum value of effective ductility demand, \u03bc max , shall be calculated using Equations (18.7-55) and (18.7-56): For T 1 D \u2264 TS , For T 1 \u2265 TS ,",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-18.7.3.4-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -12513,7 +13617,7 @@
       "qc_status": "pending",
       "qc_notes": null
     },
-    "parent_id": "ASCE7-22-18.7.3.4-H1"
+    "parent_id": "ASCE7-22-18.7.3.4-T1"
   },
   {
     "id": "ASCE7-22-18.7.3.4-P1",
@@ -12552,10 +13656,38 @@
       "citation": "Section 18.7.4",
       "page": 15
     },
-    "title": "18.7.4 Seismic Load Conditions and Acceptance Criteria for RSA and ELF Procedures Design forces and displacements determined in accordance with the response spectrum procedure of Section 18.7.1, or th",
+    "title": "18.7.4 Seismic Load Conditions and Acceptance Criteria for",
     "description": "",
     "data": {
-      "rule": "18.7.4 Seismic Load Conditions and Acceptance Criteria for RSA and ELF Procedures Design forces and displacements determined in accordance with the response spectrum procedure of Section 18.7.1, or the equivalent lateral force (ELF) procedure of Section 18.7.2, shall be checked using the strength design criteria of this standard and the seismic loading conditions of Section 18.7.4.3.",
+      "rule": "18.7.4 Seismic Load Conditions and Acceptance Criteria for",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-18.7.4-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-18.7.4-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 18,
+      "section": "18.7.4",
+      "citation": "Section 18.7.4",
+      "page": 15
+    },
+    "title": "RSA and ELF Procedures Design forces and displacements determined in accordance with the response spectrum procedure of Section 18.7.1, or the equivalent lateral force (ELF) procedure of Section 18.7.",
+    "description": "",
+    "data": {
+      "rule": "RSA and ELF Procedures Design forces and displacements determined in accordance with the response spectrum procedure of Section 18.7.1, or the equivalent lateral force (ELF) procedure of Section 18.7.2, shall be checked using the strength design criteria of this standard and the seismic loading conditions of Section 18.7.4.3.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -12569,9 +13701,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-18.7.4-P1",
@@ -12610,10 +13741,38 @@
       "citation": "Section 18.7.4.1",
       "page": 15
     },
-    "title": "18.7.4.1 Seismic Force-Resisting System The seismic forceresisting system shall satisfy the requirements of Section 12.2.1 using seismic base shear and design forces determined in accordance with Sect",
+    "title": "18.7.4.1 Seismic Force-Resisting System",
     "description": "",
     "data": {
-      "rule": "18.7.4.1 Seismic Force-Resisting System The seismic forceresisting system shall satisfy the requirements of Section 12.2.1 using seismic base shear and design forces determined in accordance with Section 18.7.1.2 or 18.7.2.2.",
+      "rule": "18.7.4.1 Seismic Force-Resisting System",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-18.7.4.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-18.7.4.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 18,
+      "section": "18.7.4.1",
+      "citation": "Section 18.7.4.1",
+      "page": 15
+    },
+    "title": "The seismic forceresisting system shall satisfy the requirements of Section 12.2.1 using seismic base shear and design forces determined in accordance with Section 18.7.1.2 or 18.7.2.2.",
+    "description": "",
+    "data": {
+      "rule": "The seismic forceresisting system shall satisfy the requirements of Section 12.2.1 using seismic base shear and design forces determined in accordance with Section 18.7.1.2 or 18.7.2.2.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -12625,9 +13784,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-18.7.4.1-P1",
@@ -12668,10 +13826,38 @@
       "citation": "Section 18.7.4.2",
       "page": 15
     },
-    "title": "18.7.4.2 Damping System The damping system shall satisfy the requirements of Section 12.2.1 for seismic design forces and seismic loading conditions determined in accordance with Section 18.7.4.3. For",
+    "title": "18.7.4.2 Damping System",
     "description": "",
     "data": {
-      "rule": "18.7.4.2 Damping System The damping system shall satisfy the requirements of Section 12.2.1 for seismic design forces and seismic loading conditions determined in accordance with Section 18.7.4.3. Force-controlled elements of the damping system shall be designed for seismic forces that are increased by 20% from those corresponding to average MCER response.",
+      "rule": "18.7.4.2 Damping System",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-18.7.4.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-18.7.4.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 18,
+      "section": "18.7.4.2",
+      "citation": "Section 18.7.4.2",
+      "page": 15
+    },
+    "title": "The damping system shall satisfy the requirements of Section 12.2.1 for seismic design forces and seismic loading conditions determined in accordance with Section 18.7.4.3. Force-controlled elements o",
+    "description": "",
+    "data": {
+      "rule": "The damping system shall satisfy the requirements of Section 12.2.1 for seismic design forces and seismic loading conditions determined in accordance with Section 18.7.4.3. Force-controlled elements of the damping system shall be designed for seismic forces that are increased by 20% from those corresponding to average MCER response.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -12683,9 +13869,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-18.7.4.3-H1",
@@ -12697,10 +13882,38 @@
       "citation": "Section 18.7.4.3",
       "page": 15
     },
-    "title": "18.7.4.3 Combination of Load Effects The effects on the damping system and its components caused by gravity loads and seismic forces shall be combined in accordance with Section 12.4, using the effect",
+    "title": "18.7.4.3 Combination of Load Effects",
     "description": "",
     "data": {
-      "rule": "18.7.4.3 Combination of Load Effects The effects on the damping system and its components caused by gravity loads and seismic forces shall be combined in accordance with Section 12.4, using the effect of horizontal seismic forces, QE , determined in accordance with Section 18.7.4.5. The redundancy factor, \u03c1 , shall be taken equal to 1.0 in all cases, and the seismic load effect including overstrength of Section 12.4.3 need not apply to the design of the damping system.",
+      "rule": "18.7.4.3 Combination of Load Effects",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-18.7.4.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-18.7.4.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 18,
+      "section": "18.7.4.3",
+      "citation": "Section 18.7.4.3",
+      "page": 15
+    },
+    "title": "The effects on the damping system and its components caused by gravity loads and seismic forces shall be combined in accordance with Section 12.4, using the effect of horizontal seismic forces, QE , d",
+    "description": "",
+    "data": {
+      "rule": "The effects on the damping system and its components caused by gravity loads and seismic forces shall be combined in accordance with Section 12.4, using the effect of horizontal seismic forces, QE , determined in accordance with Section 18.7.4.5. The redundancy factor, \u03c1 , shall be taken equal to 1.0 in all cases, and the seismic load effect including overstrength of Section 12.4.3 need not apply to the design of the damping system.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -12712,9 +13925,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-18.7.4.4-X1",
@@ -12789,16 +14001,16 @@
     "data": {
       "expression": "ty demand on the seismic force-resisting system caused by the design earthquake ground motions, \u03bc D , and caused by the MCER ground motions, \u03bc M , shall be calculated using Equations (18.752) through (18.7-54)",
       "parameters": {
+        "M": {
+          "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the MCER ground motions, Section 18.7.3.3",
+          "source": "ASCE7-22-18.1.3-T79"
+        },
         "\u03bc": {
           "description": "Structure ductility reduction factor as determined in Section 13.3.1.2",
           "source": "ASCE7-22-11.3-T85"
         },
         "D": {
           "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the design earthquake ground motions, Section 18.7.3.3 \u03bc",
-          "source": "ASCE7-22-18.1.3-T79"
-        },
-        "M": {
-          "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the MCER ground motions, Section 18.7.3.3",
           "source": "ASCE7-22-18.1.3-T79"
         }
       }
@@ -12826,14 +14038,6 @@
     "data": {
       "expression": "ld displacement, DY , of Equation (18.7-54) to calculate the effective ductility demand caused by the design earthquake ground motions, \u03bc D , and caused by the MCER ground motions, \u03bc M , in Equations (18.7-52)",
       "parameters": {
-        "D": {
-          "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the design earthquake ground motions, Section 18.7.3.3 \u03bc",
-          "source": "ASCE7-22-18.1.3-T79"
-        },
-        "M": {
-          "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the MCER ground motions, Section 18.7.3.3",
-          "source": "ASCE7-22-18.1.3-T79"
-        },
         "DY": {
           "description": "Displacement at the center of rigidity of the roof level of the structure at the effective yield point of the seismic force-resisting system, Section 18.7.3.3",
           "source": "ASCE7-22-18.1.3-T18"
@@ -12841,6 +14045,14 @@
         "\u03bc": {
           "description": "Structure ductility reduction factor as determined in Section 13.3.1.2",
           "source": "ASCE7-22-11.3-T85"
+        },
+        "D": {
+          "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the design earthquake ground motions, Section 18.7.3.3 \u03bc",
+          "source": "ASCE7-22-18.1.3-T79"
+        },
+        "M": {
+          "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the MCER ground motions, Section 18.7.3.3",
+          "source": "ASCE7-22-18.1.3-T79"
         }
       }
     },
@@ -12867,6 +14079,14 @@
     "data": {
       "expression": "t, DY , of Equation (18.7-54) to calculate the effective ductility demand caused by the design earthquake ground motions, \u03bc D , and caused by the MCER ground motions, \u03bc M , in Equations (18.7-52) and (18.7-53)",
       "parameters": {
+        "DY": {
+          "description": "Displacement at the center of rigidity of the roof level of the structure at the effective yield point of the seismic force-resisting system, Section 18.7.3.3",
+          "source": "ASCE7-22-18.1.3-T18"
+        },
+        "\u03bc": {
+          "description": "Structure ductility reduction factor as determined in Section 13.3.1.2",
+          "source": "ASCE7-22-11.3-T85"
+        },
         "D": {
           "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the design earthquake ground motions, Section 18.7.3.3 \u03bc",
           "source": "ASCE7-22-18.1.3-T79"
@@ -12875,17 +14095,9 @@
           "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the MCER ground motions, Section 18.7.3.3",
           "source": "ASCE7-22-18.1.3-T79"
         },
-        "DY": {
-          "description": "Displacement at the center of rigidity of the roof level of the structure at the effective yield point of the seismic force-resisting system, Section 18.7.3.3",
-          "source": "ASCE7-22-18.1.3-T18"
-        },
         "t": {
           "description": "Nominal ice thickness on a cylinder caused by freezing rain at a height of 33 ft (10 m), from Figures 10.4-2 through 10.4-5, for the applicable risk category, in. (mm)",
           "source": "ASCE7-22-10.3-T9"
-        },
-        "\u03bc": {
-          "description": "Structure ductility reduction factor as determined in Section 13.3.1.2",
-          "source": "ASCE7-22-11.3-T85"
         }
       }
     },
@@ -12945,13 +14157,13 @@
     "data": {
       "expression": "mination of the hysteresis loop adjustment factor, hysteretic damping, and other parameters, the maximum value of effective ductility demand, \u03bc max , shall be calculated using Equations (18.7-55) and (18.7-56)",
       "parameters": {
-        "factor": {
-          "description": "1.8 -0.01 B , B < 100 ft ( B < 30.5 m), or 0.8, B \u2265 100 ft ( B \u2265 30.5 m);",
-          "source": "ASCE7-22-28.3.7-T54"
-        },
         "\u03bc": {
           "description": "Structure ductility reduction factor as determined in Section 13.3.1.2",
           "source": "ASCE7-22-11.3-T85"
+        },
+        "factor": {
+          "description": "1.8 -0.01 B , B < 100 ft ( B < 30.5 m), or 0.8, B \u2265 100 ft ( B \u2265 30.5 m);",
+          "source": "ASCE7-22-28.3.7-T54"
         }
       }
     },
@@ -13448,10 +14660,10 @@
       "citation": "Section 18.8",
       "page": 16
     },
-    "title": "18.8 CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
+    "title": "18.8",
     "description": "",
     "data": {
-      "rule": "18.8 CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
+      "rule": "18.8",
       "conditions": [],
       "then": "",
       "else": null,
@@ -13464,6 +14676,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-18.8-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-18.8-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 18,
+      "section": "18.8",
+      "citation": "Section 18.8",
+      "page": 16
+    },
+    "title": "CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
+    "description": "",
+    "data": {
+      "rule": "CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-18.8-P1",

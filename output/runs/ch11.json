@@ -36,10 +36,10 @@
       "citation": "Section 11.1.1",
       "page": 1
     },
-    "title": "11.1.1 Purpose Chapter 11 presents criteria for the design and construction of buildings and other structures subject to earthquake ground motions. The speci fi ed earthquake loads are based on postel",
+    "title": "11.1.1 Purpose",
     "description": "",
     "data": {
-      "rule": "11.1.1 Purpose Chapter 11 presents criteria for the design and construction of buildings and other structures subject to earthquake ground motions. The speci fi ed earthquake loads are based on postelastic energy dissipation in the structure. Because of this fact, the requirements for design, detailing, and construction shall be satis fi ed, even for structures and members for which load combinations that do not include earthquake loads indicate larger demands than combinations that include earthquake loads.",
+      "rule": "11.1.1 Purpose",
       "conditions": [],
       "then": "",
       "else": null,
@@ -54,6 +54,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-11.1.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-11.1.1-H3",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 11,
+      "section": "11.1.1",
+      "citation": "Section 11.1.1",
+      "page": 1
+    },
+    "title": "Chapter 11 presents criteria for the design and construction of buildings and other structures subject to earthquake ground motions. The speci fi ed earthquake loads are based on postelastic energy di",
+    "description": "",
+    "data": {
+      "rule": "Chapter 11 presents criteria for the design and construction of buildings and other structures subject to earthquake ground motions. The speci fi ed earthquake loads are based on postelastic energy dissipation in the structure. Because of this fact, the requirements for design, detailing, and construction shall be satis fi ed, even for structures and members for which load combinations that do not include earthquake loads indicate larger demands than combinations that include earthquake loads.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-11.1.1-H2",
     "type": "heading",
     "source": {
@@ -63,7 +90,7 @@
       "citation": "Section 11.1.1",
       "page": 1
     },
-    "title": "CHAPTER 11 SEISMIC DESIGN CRITERIA",
+    "title": "CHAPTER 11",
     "description": "",
     "data": {
       "rule": "CHAPTER 11 SEISMIC DESIGN CRITERIA",
@@ -90,7 +117,7 @@
       "citation": "Section 11.1.1",
       "page": 1
     },
-    "title": "Buildings whose purpose is to enclose equipment or machinery and whose occupants are engaged in maintenance or monitoring of that equipment, machinery, or their associated processes shall be permitted",
+    "title": "Buildings whose purpose is to enclose equipment or machinery and whose occupants are engaged in maintenance or monitoring of that equipment, machinery, or their associated processes shall be permitted to be classi fi ed as nonbuilding structures designed and detailed in accordance with Section 15.5 of this standard.",
     "description": "",
     "data": {
       "rule": "Buildings whose purpose is to enclose equipment or machinery and whose occupants are engaged in maintenance or monitoring of that equipment, machinery, or their associated processes shall be permitted to be classi fi ed as nonbuilding structures designed and detailed in accordance with Section 15.5 of this standard.",
@@ -117,10 +144,10 @@
       "citation": "Section 11.1.2",
       "page": 1
     },
-    "title": "11.1.2 Scope Every structure and portion thereof, including nonstructural components, shall be designed and constructed to resist the effects of earthquake motions as prescribed by the seismic require",
+    "title": "11.1.2 Scope",
     "description": "",
     "data": {
-      "rule": "11.1.2 Scope Every structure and portion thereof, including nonstructural components, shall be designed and constructed to resist the effects of earthquake motions as prescribed by the seismic requirements of this standard. Certain nonbuilding structures, as described in Chapter 15, are also within the scope and shall be designed and constructed in accordance with the requirements of Chapter 15. The following structures are exempt from the seismic requirements of this standard:",
+      "rule": "11.1.2 Scope",
       "conditions": [],
       "then": "",
       "else": null,
@@ -136,6 +163,33 @@
   },
   {
     "id": "ASCE7-22-11.1.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-11.1.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 11,
+      "section": "11.1.2",
+      "citation": "Section 11.1.2",
+      "page": 1
+    },
+    "title": "Every structure and portion thereof, including nonstructural components, shall be designed and constructed to resist the effects of earthquake motions as prescribed by the seismic requirements of this",
+    "description": "",
+    "data": {
+      "rule": "Every structure and portion thereof, including nonstructural components, shall be designed and constructed to resist the effects of earthquake motions as prescribed by the seismic requirements of this standard. Certain nonbuilding structures, as described in Chapter 15, are also within the scope and shall be designed and constructed in accordance with the requirements of Chapter 15. The following structures are exempt from the seismic requirements of this standard:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-11.1.2-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -164,7 +218,7 @@
     "parent_id": "ASCE7-22-11.1.2-H1"
   },
   {
-    "id": "ASCE7-22-11.1.2-T2",
+    "id": "ASCE7-22-11.1.2-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -191,7 +245,7 @@
     "parent_id": "ASCE7-22-11.1.2-H1"
   },
   {
-    "id": "ASCE7-22-11.1.2-T3",
+    "id": "ASCE7-22-11.1.2-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -218,7 +272,7 @@
     "parent_id": "ASCE7-22-11.1.2-H1"
   },
   {
-    "id": "ASCE7-22-11.1.2-T4",
+    "id": "ASCE7-22-11.1.2-T5",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -245,7 +299,7 @@
     "parent_id": "ASCE7-22-11.1.2-H1"
   },
   {
-    "id": "ASCE7-22-11.1.2-T5",
+    "id": "ASCE7-22-11.1.2-T6",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -281,10 +335,10 @@
       "citation": "Section 11.1.3",
       "page": 1
     },
-    "title": "11.1.3 Applicability Structures and their nonstructural components shall be designed and constructed in accordance with the requirements of the following chapters based on the type of structure or com",
+    "title": "11.1.3 Applicability",
     "description": "",
     "data": {
-      "rule": "11.1.3 Applicability Structures and their nonstructural components shall be designed and constructed in accordance with the requirements of the following chapters based on the type of structure or component: Buildings: Chapter 12",
+      "rule": "11.1.3 Applicability",
       "conditions": [],
       "then": "",
       "else": null,
@@ -299,7 +353,34 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-11.1.3-T2",
+    "id": "ASCE7-22-11.1.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-11.1.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 11,
+      "section": "11.1.3",
+      "citation": "Section 11.1.3",
+      "page": 1
+    },
+    "title": "Structures and their nonstructural components shall be designed and constructed in accordance with the requirements of the following chapters based on the type of structure or component:",
+    "description": "",
+    "data": {
+      "rule": "Structures and their nonstructural components shall be designed and constructed in accordance with the requirements of the following chapters based on the type of structure or component: Buildings: Chapter 12",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-11.1.3-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -326,7 +407,7 @@
     "parent_id": "ASCE7-22-11.1.3-H1"
   },
   {
-    "id": "ASCE7-22-11.1.3-T3",
+    "id": "ASCE7-22-11.1.3-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -353,7 +434,7 @@
     "parent_id": "ASCE7-22-11.1.3-H1"
   },
   {
-    "id": "ASCE7-22-11.1.3-T4",
+    "id": "ASCE7-22-11.1.3-T5",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -380,7 +461,7 @@
     "parent_id": "ASCE7-22-11.1.3-H1"
   },
   {
-    "id": "ASCE7-22-11.1.3-T5",
+    "id": "ASCE7-22-11.1.3-T6",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -416,10 +497,10 @@
       "citation": "Section 11.1.4",
       "page": 1
     },
-    "title": "11.1.4 Alternate Materials and Methods of Construction Alternate materials and methods of construction to those prescribed in the seismic requirements of this standard shall not be used unless approve",
+    "title": "11.1.4 Alternate Materials and Methods of Construction",
     "description": "",
     "data": {
-      "rule": "11.1.4 Alternate Materials and Methods of Construction Alternate materials and methods of construction to those prescribed in the seismic requirements of this standard shall not be used unless approved by the Authority Having Jurisdiction. Substantiating evidence shall be submitted demonstrating that the proposed alternate will be at least equal in strength, durability, and seismic resistance for the purpose intended.",
+      "rule": "11.1.4 Alternate Materials and Methods of Construction",
       "conditions": [],
       "then": "",
       "else": null,
@@ -434,6 +515,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-11.1.4-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-11.1.4-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 11,
+      "section": "11.1.4",
+      "citation": "Section 11.1.4",
+      "page": 1
+    },
+    "title": "Alternate materials and methods of construction to those prescribed in the seismic requirements of this standard shall not be used unless approved by the Authority Having Jurisdiction. Substantiating ",
+    "description": "",
+    "data": {
+      "rule": "Alternate materials and methods of construction to those prescribed in the seismic requirements of this standard shall not be used unless approved by the Authority Having Jurisdiction. Substantiating evidence shall be submitted demonstrating that the proposed alternate will be at least equal in strength, durability, and seismic resistance for the purpose intended.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-11.1.5-H1",
     "type": "heading",
     "source": {
@@ -443,10 +551,10 @@
       "citation": "Section 11.1.5",
       "page": 1
     },
-    "title": "11.1.5 Quality Assurance Quality assurance for seismic forceresisting systems and other designated seismic systems de fi ned in Section 13.2.2 shall be provided in accordance with the requirements of ",
+    "title": "11.1.5 Quality Assurance",
     "description": "",
     "data": {
-      "rule": "11.1.5 Quality Assurance Quality assurance for seismic forceresisting systems and other designated seismic systems de fi ned in Section 13.2.2 shall be provided in accordance with the requirements of the Authority Having Jurisdiction.",
+      "rule": "11.1.5 Quality Assurance",
       "conditions": [],
       "then": "",
       "else": null,
@@ -459,6 +567,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-11.1.5-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-11.1.5-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 11,
+      "section": "11.1.5",
+      "citation": "Section 11.1.5",
+      "page": 1
+    },
+    "title": "Quality assurance for seismic forceresisting systems and other designated seismic systems de fi ned in Section 13.2.2 shall be provided in accordance with the requirements of the Authority Having Juri",
+    "description": "",
+    "data": {
+      "rule": "Quality assurance for seismic forceresisting systems and other designated seismic systems de fi ned in Section 13.2.2 shall be provided in accordance with the requirements of the Authority Having Jurisdiction.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-11.1.5-P1",
@@ -497,7 +632,7 @@
       "citation": "Section 11.2",
       "page": 1
     },
-    "title": "11.2 DEFINITIONS",
+    "title": "11.2",
     "description": "",
     "data": {
       "rule": "11.2 DEFINITIONS",
@@ -515,7 +650,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-11.2-T1",
+    "id": "ASCE7-22-11.2-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -878,7 +1013,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-11.2-T2",
+    "id": "ASCE7-22-11.2-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -905,7 +1040,7 @@
     "parent_id": "ASCE7-22-11.2-H8"
   },
   {
-    "id": "ASCE7-22-11.2-T3",
+    "id": "ASCE7-22-11.2-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -932,7 +1067,7 @@
     "parent_id": "ASCE7-22-11.2-H8"
   },
   {
-    "id": "ASCE7-22-11.2-T4",
+    "id": "ASCE7-22-11.2-T5",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1013,7 +1148,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-11.2-T5",
+    "id": "ASCE7-22-11.2-T6",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1040,7 +1175,7 @@
     "parent_id": "ASCE7-22-11.2-H8"
   },
   {
-    "id": "ASCE7-22-11.2-T6",
+    "id": "ASCE7-22-11.2-T7",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1139,7 +1274,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-11.2-T7",
+    "id": "ASCE7-22-11.2-T8",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1166,7 +1301,7 @@
     "parent_id": "ASCE7-22-11.2-H8"
   },
   {
-    "id": "ASCE7-22-11.2-T8",
+    "id": "ASCE7-22-11.2-T9",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1193,7 +1328,7 @@
     "parent_id": "ASCE7-22-11.2-H8"
   },
   {
-    "id": "ASCE7-22-11.2-T9",
+    "id": "ASCE7-22-11.2-T10",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1421,7 +1556,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-11.2-T10",
+    "id": "ASCE7-22-11.2-T11",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1448,7 +1583,7 @@
     "parent_id": "ASCE7-22-11.2-H8"
   },
   {
-    "id": "ASCE7-22-11.2-T11",
+    "id": "ASCE7-22-11.2-T12",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1475,7 +1610,7 @@
     "parent_id": "ASCE7-22-11.2-H8"
   },
   {
-    "id": "ASCE7-22-11.2-T12",
+    "id": "ASCE7-22-11.2-T13",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1502,7 +1637,7 @@
     "parent_id": "ASCE7-22-11.2-H8"
   },
   {
-    "id": "ASCE7-22-11.2-T13",
+    "id": "ASCE7-22-11.2-T14",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1601,7 +1736,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-11.2-T14",
+    "id": "ASCE7-22-11.2-T15",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1655,7 +1790,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-11.2-T15",
+    "id": "ASCE7-22-11.2-T16",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1682,7 +1817,7 @@
     "parent_id": "ASCE7-22-11.2-H8"
   },
   {
-    "id": "ASCE7-22-11.2-T16",
+    "id": "ASCE7-22-11.2-T17",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1709,7 +1844,7 @@
     "parent_id": "ASCE7-22-11.2-H8"
   },
   {
-    "id": "ASCE7-22-11.2-T17",
+    "id": "ASCE7-22-11.2-T18",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1736,7 +1871,7 @@
     "parent_id": "ASCE7-22-11.2-H8"
   },
   {
-    "id": "ASCE7-22-11.2-T18",
+    "id": "ASCE7-22-11.2-T19",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1763,7 +1898,7 @@
     "parent_id": "ASCE7-22-11.2-H8"
   },
   {
-    "id": "ASCE7-22-11.2-T19",
+    "id": "ASCE7-22-11.2-T20",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1838,7 +1973,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-11.2-T20",
+    "id": "ASCE7-22-11.2-T21",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1865,7 +2000,7 @@
     "parent_id": "ASCE7-22-11.2-H8"
   },
   {
-    "id": "ASCE7-22-11.2-T21",
+    "id": "ASCE7-22-11.2-T22",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1892,7 +2027,7 @@
     "parent_id": "ASCE7-22-11.2-H8"
   },
   {
-    "id": "ASCE7-22-11.2-T22",
+    "id": "ASCE7-22-11.2-T23",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1919,7 +2054,7 @@
     "parent_id": "ASCE7-22-11.2-H8"
   },
   {
-    "id": "ASCE7-22-11.2-T23",
+    "id": "ASCE7-22-11.2-T24",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1946,7 +2081,7 @@
     "parent_id": "ASCE7-22-11.2-H8"
   },
   {
-    "id": "ASCE7-22-11.2-T24",
+    "id": "ASCE7-22-11.2-T25",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2021,7 +2156,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-11.2-T25",
+    "id": "ASCE7-22-11.2-T26",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2048,7 +2183,7 @@
     "parent_id": "ASCE7-22-11.2-H8"
   },
   {
-    "id": "ASCE7-22-11.2-T26",
+    "id": "ASCE7-22-11.2-T27",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2075,7 +2210,7 @@
     "parent_id": "ASCE7-22-11.2-H8"
   },
   {
-    "id": "ASCE7-22-11.2-T27",
+    "id": "ASCE7-22-11.2-T28",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2201,7 +2336,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-11.2-T28",
+    "id": "ASCE7-22-11.2-T29",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2228,7 +2363,7 @@
     "parent_id": "ASCE7-22-11.2-H8"
   },
   {
-    "id": "ASCE7-22-11.2-T29",
+    "id": "ASCE7-22-11.2-T30",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2255,7 +2390,7 @@
     "parent_id": "ASCE7-22-11.2-H8"
   },
   {
-    "id": "ASCE7-22-11.2-T30",
+    "id": "ASCE7-22-11.2-T31",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2282,7 +2417,7 @@
     "parent_id": "ASCE7-22-11.2-H8"
   },
   {
-    "id": "ASCE7-22-11.2-T31",
+    "id": "ASCE7-22-11.2-T32",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2336,7 +2471,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-11.2-T32",
+    "id": "ASCE7-22-11.2-T33",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2363,7 +2498,7 @@
     "parent_id": "ASCE7-22-11.2-H8"
   },
   {
-    "id": "ASCE7-22-11.2-T33",
+    "id": "ASCE7-22-11.2-T34",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2390,7 +2525,7 @@
     "parent_id": "ASCE7-22-11.2-H8"
   },
   {
-    "id": "ASCE7-22-11.2-T34",
+    "id": "ASCE7-22-11.2-T35",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2417,7 +2552,7 @@
     "parent_id": "ASCE7-22-11.2-H8"
   },
   {
-    "id": "ASCE7-22-11.2-T35",
+    "id": "ASCE7-22-11.2-T36",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2540,7 +2675,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-11.2-T36",
+    "id": "ASCE7-22-11.2-T37",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2591,7 +2726,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-11.2-T37",
+    "id": "ASCE7-22-11.2-T38",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2618,7 +2753,7 @@
     "parent_id": "ASCE7-22-11.2-H8"
   },
   {
-    "id": "ASCE7-22-11.2-T38",
+    "id": "ASCE7-22-11.2-T39",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2669,7 +2804,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-11.2-T39",
+    "id": "ASCE7-22-11.2-T40",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2720,7 +2855,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-11.2-T40",
+    "id": "ASCE7-22-11.2-T41",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2819,7 +2954,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-11.2-T41",
+    "id": "ASCE7-22-11.2-T42",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2848,7 +2983,7 @@
     "parent_id": "ASCE7-22-11.2-H8"
   },
   {
-    "id": "ASCE7-22-11.2-T42",
+    "id": "ASCE7-22-11.2-T43",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2949,7 +3084,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-11.2-T43",
+    "id": "ASCE7-22-11.2-T44",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3024,7 +3159,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-11.2-T44",
+    "id": "ASCE7-22-11.2-T45",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3221,7 +3356,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-11.2-T45",
+    "id": "ASCE7-22-11.2-T46",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3272,7 +3407,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-11.2-T46",
+    "id": "ASCE7-22-11.2-T47",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3395,7 +3530,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-11.2-T47",
+    "id": "ASCE7-22-11.2-T48",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3521,7 +3656,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-11.2-T48",
+    "id": "ASCE7-22-11.2-T49",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3548,7 +3683,7 @@
     "parent_id": "ASCE7-22-11.2-H8"
   },
   {
-    "id": "ASCE7-22-11.2-T49",
+    "id": "ASCE7-22-11.2-T50",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3575,7 +3710,7 @@
     "parent_id": "ASCE7-22-11.2-H8"
   },
   {
-    "id": "ASCE7-22-11.2-T50",
+    "id": "ASCE7-22-11.2-T51",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3869,7 +4004,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-11.2-T51",
+    "id": "ASCE7-22-11.2-T52",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3896,7 +4031,7 @@
     "parent_id": "ASCE7-22-11.2-H8"
   },
   {
-    "id": "ASCE7-22-11.2-T52",
+    "id": "ASCE7-22-11.2-T53",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3923,7 +4058,7 @@
     "parent_id": "ASCE7-22-11.2-H8"
   },
   {
-    "id": "ASCE7-22-11.2-T53",
+    "id": "ASCE7-22-11.2-T54",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3950,7 +4085,7 @@
     "parent_id": "ASCE7-22-11.2-H8"
   },
   {
-    "id": "ASCE7-22-11.2-T54",
+    "id": "ASCE7-22-11.2-T55",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3977,7 +4112,7 @@
     "parent_id": "ASCE7-22-11.2-H8"
   },
   {
-    "id": "ASCE7-22-11.2-T55",
+    "id": "ASCE7-22-11.2-T56",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -4004,7 +4139,7 @@
     "parent_id": "ASCE7-22-11.2-H8"
   },
   {
-    "id": "ASCE7-22-11.2-T56",
+    "id": "ASCE7-22-11.2-T57",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -4031,7 +4166,7 @@
     "parent_id": "ASCE7-22-11.2-H8"
   },
   {
-    "id": "ASCE7-22-11.2-T57",
+    "id": "ASCE7-22-11.2-T58",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -4058,7 +4193,7 @@
     "parent_id": "ASCE7-22-11.2-H8"
   },
   {
-    "id": "ASCE7-22-11.2-T58",
+    "id": "ASCE7-22-11.2-T59",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -4085,7 +4220,7 @@
     "parent_id": "ASCE7-22-11.2-H8"
   },
   {
-    "id": "ASCE7-22-11.2-T59",
+    "id": "ASCE7-22-11.2-T60",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -8704,7 +8839,7 @@
       "citation": "Section 11.4",
       "page": 8
     },
-    "title": "11.4 SEISMIC GROUND MOTION VALUES",
+    "title": "11.4",
     "description": "",
     "data": {
       "rule": "11.4 SEISMIC GROUND MOTION VALUES",
@@ -8731,10 +8866,10 @@
       "citation": "Section 11.4.1",
       "page": 8
     },
-    "title": "11.4.1 Near-Fault Sites Sites satisfying either of the following conditions shall be classi fi ed as near fault:",
+    "title": "11.4.1 Near-Fault Sites",
     "description": "",
     "data": {
-      "rule": "11.4.1 Near-Fault Sites Sites satisfying either of the following conditions shall be classi fi ed as near fault:",
+      "rule": "11.4.1 Near-Fault Sites",
       "conditions": [],
       "then": "",
       "else": null,
@@ -8750,6 +8885,33 @@
   },
   {
     "id": "ASCE7-22-11.4.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-11.4.1-H2",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 11,
+      "section": "11.4.1",
+      "citation": "Section 11.4.1",
+      "page": 8
+    },
+    "title": "Sites satisfying either of the following conditions shall be classi fi ed as near fault:",
+    "description": "",
+    "data": {
+      "rule": "Sites satisfying either of the following conditions shall be classi fi ed as near fault:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-11.4.1-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -8776,7 +8938,7 @@
     "parent_id": "ASCE7-22-11.4.1-H2"
   },
   {
-    "id": "ASCE7-22-11.4.1-T2",
+    "id": "ASCE7-22-11.4.1-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -8900,10 +9062,10 @@
       "citation": "Section 11.4.2",
       "page": 8
     },
-    "title": "11.4.2 Site Class The site shall be classi fi ed as Site Class A, B, BC, C, CD, D, DE, E, or F in accordance with Chapter 20.",
+    "title": "11.4.2 Site Class",
     "description": "",
     "data": {
-      "rule": "11.4.2 Site Class The site shall be classi fi ed as Site Class A, B, BC, C, CD, D, DE, E, or F in accordance with Chapter 20.",
+      "rule": "11.4.2 Site Class",
       "conditions": [],
       "then": "",
       "else": null,
@@ -8916,6 +9078,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-11.4.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-11.4.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 11,
+      "section": "11.4.2",
+      "citation": "Section 11.4.2",
+      "page": 8
+    },
+    "title": "The site shall be classi fi ed as Site Class A, B, BC, C, CD, D, DE, E, or F in accordance with Chapter 20.",
+    "description": "",
+    "data": {
+      "rule": "The site shall be classi fi ed as Site Class A, B, BC, C, CD, D, DE, E, or F in accordance with Chapter 20.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-11.4.2.1-H1",
@@ -8927,10 +9116,10 @@
       "citation": "Section 11.4.2.1",
       "page": 8
     },
-    "title": "11.4.2.1 Default Site Conditions Where the soil properties are not known in suf fi cient detail to determine the site class, risktargeted maximum considered earthquake (MCER) spectral response acceler",
+    "title": "11.4.2.1 Default Site Conditions",
     "description": "",
     "data": {
-      "rule": "11.4.2.1 Default Site Conditions Where the soil properties are not known in suf fi cient detail to determine the site class, risktargeted maximum considered earthquake (MCER) spectral response accelerations shall be based on the most critical spectral response acceleration at each period of Site Class C, Site Class CD, and Site Class D, unless the Authority Having Jurisdiction determines, based on geotechnical data, that Site Class DE, E, or F soils are present at the site.",
+      "rule": "11.4.2.1 Default Site Conditions",
       "conditions": [],
       "then": "",
       "else": null,
@@ -8945,6 +9134,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-11.4.2.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-11.4.2.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 11,
+      "section": "11.4.2.1",
+      "citation": "Section 11.4.2.1",
+      "page": 8
+    },
+    "title": "Where the soil properties are not known in suf fi cient detail to determine the site class, risktargeted maximum considered earthquake (MCER) spectral response accelerations shall be based on the most",
+    "description": "",
+    "data": {
+      "rule": "Where the soil properties are not known in suf fi cient detail to determine the site class, risktargeted maximum considered earthquake (MCER) spectral response accelerations shall be based on the most critical spectral response acceleration at each period of Site Class C, Site Class CD, and Site Class D, unless the Authority Having Jurisdiction determines, based on geotechnical data, that Site Class DE, E, or F soils are present at the site.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-11.4.3-H1",
     "type": "heading",
     "source": {
@@ -8954,10 +9170,10 @@
       "citation": "Section 11.4.3",
       "page": 8
     },
-    "title": "11.4.3 Risk-Targeted Maximum Considered Earthquake ( MCER ) Spectral Response Acceleration Parameters Risktargeted maximum considered earthquake (MCER) spectral response acceleration parameters SS , S",
+    "title": "11.4.3 Risk-Targeted Maximum Considered Earthquake",
     "description": "",
     "data": {
-      "rule": "11.4.3 Risk-Targeted Maximum Considered Earthquake ( MCER ) Spectral Response Acceleration Parameters Risktargeted maximum considered earthquake (MCER) spectral response acceleration parameters SS , S 1 , SMS , and SM 1 shall be obtained from the USGS Seismic Design Geodatabase for the applicable site class.",
+      "rule": "11.4.3 Risk-Targeted Maximum Considered Earthquake",
       "conditions": [],
       "then": "",
       "else": null,
@@ -8970,6 +9186,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-11.4.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-11.4.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 11,
+      "section": "11.4.3",
+      "citation": "Section 11.4.3",
+      "page": 8
+    },
+    "title": "( MCER ) Spectral Response Acceleration Parameters Risktargeted maximum considered earthquake (MCER) spectral response acceleration parameters SS , S 1 , SMS , and SM 1 shall be obtained from the USGS",
+    "description": "",
+    "data": {
+      "rule": "( MCER ) Spectral Response Acceleration Parameters Risktargeted maximum considered earthquake (MCER) spectral response acceleration parameters SS , S 1 , SMS , and SM 1 shall be obtained from the USGS Seismic Design Geodatabase for the applicable site class.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-11.4.3-X1",
@@ -9010,10 +9253,10 @@
       "citation": "Section 11.4.4",
       "page": 8
     },
-    "title": "11.4.4 Design Spectral Acceleration Parameters Design earthquake spectral response acceleration parameters at short periods, SDS , and at 1-s periods, SD 1 , shall be determined from Equations (11.4-1",
+    "title": "11.4.4 Design",
     "description": "",
     "data": {
-      "rule": "11.4.4 Design Spectral Acceleration Parameters Design earthquake spectral response acceleration parameters at short periods, SDS , and at 1-s periods, SD 1 , shall be determined from Equations (11.4-1) and (11.4-2), respectively. Where the simpli fi ed alternative design procedure of Section 12.14 is used, the value of SDS shall be determined in accordance with Section 12.14.8.1, and the value for SD 1 need not be determined. where",
+      "rule": "11.4.4 Design",
       "conditions": [],
       "then": "",
       "else": null,
@@ -9028,6 +9271,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-11.4.4-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-11.4.4-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 11,
+      "section": "11.4.4",
+      "citation": "Section 11.4.4",
+      "page": 8
+    },
+    "title": "Spectral Acceleration Parameters Design earthquake spectral response acceleration parameters at short periods, SDS , and at 1-s periods, SD 1 , shall be determined from Equations (11.4-1) and (11.4-2)",
+    "description": "",
+    "data": {
+      "rule": "Spectral Acceleration Parameters Design earthquake spectral response acceleration parameters at short periods, SDS , and at 1-s periods, SD 1 , shall be determined from Equations (11.4-1) and (11.4-2), respectively. Where the simpli fi ed alternative design procedure of Section 12.14 is used, the value of SDS shall be determined in accordance with Section 12.14.8.1, and the value for SD 1 need not be determined. where",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-11.4-E11-4-11",
     "type": "formula",
     "source": {
@@ -9040,7 +9310,7 @@
     "title": "Equation (11.4-1)",
     "description": "",
     "data": {
-      "expression": "11.4.4 Design Spectral Acceleration Parameters Design earthquake spectral response acceleration parameters at short periods, SDS , and at 1-s periods, SD 1 , shall be determined from Equations (11.4-1)",
+      "expression": "Spectral Acceleration Parameters Design earthquake spectral response acceleration parameters at short periods, SDS , and at 1-s periods, SD 1 , shall be determined from Equations (11.4-1)",
       "parameters": {
         "SDS": {
           "description": "Design spectral response acceleration parameter in the short period range as determined from Section 11.4.5 or 11.4.8;",
@@ -9074,7 +9344,7 @@
     "title": "Equation (11.4-2)",
     "description": "",
     "data": {
-      "expression": "Design Spectral Acceleration Parameters Design earthquake spectral response acceleration parameters at short periods, SDS , and at 1-s periods, SD 1 , shall be determined from Equations (11.4-1) and (11.4-2)",
+      "expression": "Spectral Acceleration Parameters Design earthquake spectral response acceleration parameters at short periods, SDS , and at 1-s periods, SD 1 , shall be determined from Equations (11.4-1) and (11.4-2)",
       "parameters": {
         "SDS": {
           "description": "Design spectral response acceleration parameter in the short period range as determined from Section 11.4.5 or 11.4.8;",
@@ -9096,7 +9366,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-11.4.4-T2",
+    "id": "ASCE7-22-11.4.4-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -9125,7 +9395,7 @@
     "parent_id": "ASCE7-22-11.4.4-H1"
   },
   {
-    "id": "ASCE7-22-11.4.4-T3",
+    "id": "ASCE7-22-11.4.4-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -9163,10 +9433,38 @@
       "citation": "Section 11.4.5",
       "page": 9
     },
-    "title": "11.4.5 Design Response Spectrum Where a design response spectrum is required by this standard, the design response spectrum shall be determined in accordance with the requirements of Section 11.4.5.1.",
+    "title": "11.4.5 Design Response Spectrum",
     "description": "",
     "data": {
-      "rule": "11.4.5 Design Response Spectrum Where a design response spectrum is required by this standard, the design response spectrum shall be determined in accordance with the requirements of Section 11.4.5.1.",
+      "rule": "11.4.5 Design Response Spectrum",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-11.4.5-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-11.4.5-H2",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 11,
+      "section": "11.4.5",
+      "citation": "Section 11.4.5",
+      "page": 9
+    },
+    "title": "Where a design response spectrum is required by this standard, the design response spectrum shall be determined in accordance with the requirements of Section 11.4.5.1.",
+    "description": "",
+    "data": {
+      "rule": "Where a design response spectrum is required by this standard, the design response spectrum shall be determined in accordance with the requirements of Section 11.4.5.1.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -9178,9 +9476,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-11.4.5-H2",
@@ -9277,10 +9574,10 @@
       "citation": "Section 11.4.5.1",
       "page": 9
     },
-    "title": "11.4.5.1 Multi-Period Design Response Spectrum The multiperiod design response spectrum shall be developed as follows:",
+    "title": "11.4.5.1 Multi-Period Design Response Spectrum",
     "description": "",
     "data": {
-      "rule": "11.4.5.1 Multi-Period Design Response Spectrum The multiperiod design response spectrum shall be developed as follows:",
+      "rule": "11.4.5.1 Multi-Period Design Response Spectrum",
       "conditions": [],
       "then": "",
       "else": null,
@@ -9293,6 +9590,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-11.4.5.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-11.4.5.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 11,
+      "section": "11.4.5.1",
+      "citation": "Section 11.4.5.1",
+      "page": 9
+    },
+    "title": "The multiperiod design response spectrum shall be developed as follows:",
+    "description": "",
+    "data": {
+      "rule": "The multiperiod design response spectrum shall be developed as follows:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-11.4.5.1-P1",
@@ -9399,10 +9723,38 @@
       "citation": "Section 11.4.5.2",
       "page": 9
     },
-    "title": "11.4.5.2 Two-Period Design Response Spectrum The twoperiod design response spectrum shall be developed as indicated in Figure 11.4-1 and as follows:",
+    "title": "11.4.5.2 Two-Period Design Response Spectrum",
     "description": "",
     "data": {
-      "rule": "11.4.5.2 Two-Period Design Response Spectrum The twoperiod design response spectrum shall be developed as indicated in Figure 11.4-1 and as follows:",
+      "rule": "11.4.5.2 Two-Period Design Response Spectrum",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-11.4.5.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-11.4.5.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 11,
+      "section": "11.4.5.2",
+      "citation": "Section 11.4.5.2",
+      "page": 9
+    },
+    "title": "The twoperiod design response spectrum shall be developed as indicated in Figure 11.4-1 and as follows:",
+    "description": "",
+    "data": {
+      "rule": "The twoperiod design response spectrum shall be developed as indicated in Figure 11.4-1 and as follows:",
       "conditions": [],
       "then": "",
       "else": null,
@@ -9414,9 +9766,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-11.4.5.2-P1",
@@ -9446,7 +9797,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-11.4.5.2-T2",
+    "id": "ASCE7-22-11.4.5.2-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -9473,7 +9824,7 @@
     "parent_id": "ASCE7-22-11.4.5.2-H1"
   },
   {
-    "id": "ASCE7-22-11.4.5.2-T11",
+    "id": "ASCE7-22-11.4.5.2-T12",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -9583,7 +9934,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-11.4.5.2-T13",
+    "id": "ASCE7-22-11.4.5.2-T14",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -9610,7 +9961,7 @@
     "parent_id": "ASCE7-22-11.4.5.2-H1"
   },
   {
-    "id": "ASCE7-22-11.4.5.2-T14",
+    "id": "ASCE7-22-11.4.5.2-T15",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -9637,7 +9988,7 @@
     "parent_id": "ASCE7-22-11.4.5.2-H1"
   },
   {
-    "id": "ASCE7-22-11.4.5.2-T15",
+    "id": "ASCE7-22-11.4.5.2-T16",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -9664,7 +10015,7 @@
     "parent_id": "ASCE7-22-11.4.5.2-H1"
   },
   {
-    "id": "ASCE7-22-11.4.5.2-T19",
+    "id": "ASCE7-22-11.4.5.2-T20",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -9700,10 +10051,10 @@
       "citation": "Section 11.4.6",
       "page": 9
     },
-    "title": "11.4.6 Risk-Targeted Maximum Considered Earthquake ( MCER ) Response Spectrum Where an MCER response spectrum is required, it shall be determined by multiplying the design response spectrum by 1.5.",
+    "title": "11.4.6 Risk-Targeted Maximum Considered Earthquake",
     "description": "",
     "data": {
-      "rule": "11.4.6 Risk-Targeted Maximum Considered Earthquake ( MCER ) Response Spectrum Where an MCER response spectrum is required, it shall be determined by multiplying the design response spectrum by 1.5.",
+      "rule": "11.4.6 Risk-Targeted Maximum Considered Earthquake",
       "conditions": [],
       "then": "",
       "else": null,
@@ -9718,6 +10069,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-11.4.6-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-11.4.6-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 11,
+      "section": "11.4.6",
+      "citation": "Section 11.4.6",
+      "page": 9
+    },
+    "title": "( MCER ) Response Spectrum Where an MCER response spectrum is required, it shall be determined by multiplying the design response spectrum by 1.5.",
+    "description": "",
+    "data": {
+      "rule": "( MCER ) Response Spectrum Where an MCER response spectrum is required, it shall be determined by multiplying the design response spectrum by 1.5.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-11.4.7-H1",
     "type": "heading",
     "source": {
@@ -9727,10 +10105,10 @@
       "citation": "Section 11.4.7",
       "page": 9
     },
-    "title": "11.4.7 Site-Speci fi c Ground Motion Procedures A site response analysis shall be performed in accordance with Section 21.1 for structures on Site Class F sites, unless exempted in accordance with Sec",
+    "title": "11.4.7 Site-Speci",
     "description": "",
     "data": {
-      "rule": "11.4.7 Site-Speci fi c Ground Motion Procedures A site response analysis shall be performed in accordance with Section 21.1 for structures on Site Class F sites, unless exempted in accordance with Section 20.3.1.",
+      "rule": "11.4.7 Site-Speci",
       "conditions": [],
       "then": "",
       "else": null,
@@ -9743,6 +10121,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-11.4.7-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-11.4.7-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 11,
+      "section": "11.4.7",
+      "citation": "Section 11.4.7",
+      "page": 9
+    },
+    "title": "fi c Ground Motion Procedures A site response analysis shall be performed in accordance with Section 21.1 for structures on Site Class F sites, unless exempted in accordance with Section 20.3.1.",
+    "description": "",
+    "data": {
+      "rule": "fi c Ground Motion Procedures A site response analysis shall be performed in accordance with Section 21.1 for structures on Site Class F sites, unless exempted in accordance with Section 20.3.1.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-11.4.7-P1",
@@ -9838,13 +10243,13 @@
     "data": {
       "expression": "For periods less than T 0 , the design spectral response acceleration parameter, Sa , shall be taken as given in Equation (11.4-3)",
       "parameters": {
-        "Sa": {
-          "description": "Design spectral response acceleration parameter de fi ned in Section 11.4.5.1 and determined for the period T de fi ned in Section 12.8.2;",
-          "source": "ASCE7-22-12.8.1.1-T2"
-        },
         "T": {
           "description": "Cumulative effect of self-straining forces and effects arising from contraction or expansion resulting from environmental or operational temperature changes, shrinkage, moisture changes, creep in component materials, movement caused by differential settlement, or combinations thereof",
           "source": "ASCE7-22-2.2-T13"
+        },
+        "Sa": {
+          "description": "Design spectral response acceleration parameter de fi ned in Section 11.4.5.1 and determined for the period T de fi ned in Section 12.8.2;",
+          "source": "ASCE7-22-12.8.1.1-T2"
         }
       }
     },
@@ -9871,17 +10276,17 @@
     "data": {
       "expression": "For periods greater than TS and less than or equal to TL , the design spectral response acceleration parameter, Sa , shall be taken as given in Equation (11.4-4)",
       "parameters": {
-        "TS": {
-          "description": "SD 1 \u2215 SDS",
-          "source": "ASCE7-22-11.3-T109"
+        "TL": {
+          "description": "Long-period transition period(s) shown in Figures 22-14 through 22-17",
+          "source": "ASCE7-22-11.3-T108"
         },
         "Sa": {
           "description": "Design spectral response acceleration parameter de fi ned in Section 11.4.5.1 and determined for the period T de fi ned in Section 12.8.2;",
           "source": "ASCE7-22-12.8.1.1-T2"
         },
-        "TL": {
-          "description": "Long-period transition period(s) shown in Figures 22-14 through 22-17",
-          "source": "ASCE7-22-11.3-T108"
+        "TS": {
+          "description": "SD 1 \u2215 SDS",
+          "source": "ASCE7-22-11.3-T109"
         }
       }
     },
@@ -9908,13 +10313,13 @@
     "data": {
       "expression": "For periods greater than TL , Sa shall be taken as given in Equation (11.4-5)",
       "parameters": {
-        "Sa": {
-          "description": "Design spectral response acceleration parameter de fi ned in Section 11.4.5.1 and determined for the period T de fi ned in Section 12.8.2;",
-          "source": "ASCE7-22-12.8.1.1-T2"
-        },
         "TL": {
           "description": "Long-period transition period(s) shown in Figures 22-14 through 22-17",
           "source": "ASCE7-22-11.3-T108"
+        },
+        "Sa": {
+          "description": "Design spectral response acceleration parameter de fi ned in Section 11.4.5.1 and determined for the period T de fi ned in Section 12.8.2;",
+          "source": "ASCE7-22-12.8.1.1-T2"
         }
       }
     },
@@ -9963,10 +10368,10 @@
       "citation": "Section 11.5",
       "page": 10
     },
-    "title": "11.5 IMPORTANCE FACTOR AND RISK CATEGORY",
+    "title": "11.5",
     "description": "",
     "data": {
-      "rule": "11.5 IMPORTANCE FACTOR AND RISK CATEGORY",
+      "rule": "11.5",
       "conditions": [],
       "then": "",
       "else": null,
@@ -9979,6 +10384,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-11.5-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-11.5-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 11,
+      "section": "11.5",
+      "citation": "Section 11.5",
+      "page": 10
+    },
+    "title": "IMPORTANCE FACTOR AND RISK CATEGORY",
+    "description": "",
+    "data": {
+      "rule": "IMPORTANCE FACTOR AND RISK CATEGORY",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-11.5.1-H1",
@@ -9990,39 +10422,10 @@
       "citation": "Section 11.5.1",
       "page": 10
     },
-    "title": "11.5.1 Importance Factor An Importance Factor, I e , shall be assigned to each structure in accordance with Table 1.5-2.",
+    "title": "11.5.1 Importance Factor",
     "description": "",
     "data": {
-      "rule": "11.5.1 Importance Factor An Importance Factor, I e , shall be assigned to each structure in accordance with Table 1.5-2.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [
-      "ASCE7-22-1.5-T1-5-22"
-    ],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-11.5.2-H1",
-    "type": "heading",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 11,
-      "section": "11.5.2",
-      "citation": "Section 11.5.2",
-      "page": 10
-    },
-    "title": "11.5.2 Protected Access for Risk Category IV Where operational access to a Risk Category IV structure is required through an adjacent structure, the adjacent structure shall conform to the requirement",
-    "description": "",
-    "data": {
-      "rule": "11.5.2 Protected Access for Risk Category IV Where operational access to a Risk Category IV structure is required through an adjacent structure, the adjacent structure shall conform to the requirements for Risk Category IV structures. Where operational access is less than 10 ft (3.048 m) from an interior lot line or another structure on the same lot, protection from potential falling debris from adjacent structures shall be provided by the owner of the Risk Category IV structure.",
+      "rule": "11.5.1 Importance Factor",
       "conditions": [],
       "then": "",
       "else": null,
@@ -10037,6 +10440,89 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-11.5.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-11.5.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 11,
+      "section": "11.5.1",
+      "citation": "Section 11.5.1",
+      "page": 10
+    },
+    "title": "An Importance Factor, I e , shall be assigned to each structure in accordance with Table 1.5-2.",
+    "description": "",
+    "data": {
+      "rule": "An Importance Factor, I e , shall be assigned to each structure in accordance with Table 1.5-2.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-1.5-T1-5-22"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-11.5.2-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 11,
+      "section": "11.5.2",
+      "citation": "Section 11.5.2",
+      "page": 10
+    },
+    "title": "11.5.2 Protected",
+    "description": "",
+    "data": {
+      "rule": "11.5.2 Protected",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-11.5.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-11.5.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 11,
+      "section": "11.5.2",
+      "citation": "Section 11.5.2",
+      "page": 10
+    },
+    "title": "Access for Risk Category IV Where operational access to a Risk Category IV structure is required through an adjacent structure, the adjacent structure shall conform to the requirements for Risk Catego",
+    "description": "",
+    "data": {
+      "rule": "Access for Risk Category IV Where operational access to a Risk Category IV structure is required through an adjacent structure, the adjacent structure shall conform to the requirements for Risk Category IV structures. Where operational access is less than 10 ft (3.048 m) from an interior lot line or another structure on the same lot, protection from potential falling debris from adjacent structures shall be provided by the owner of the Risk Category IV structure.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-11.6-H1",
     "type": "heading",
     "source": {
@@ -10046,7 +10532,7 @@
       "citation": "Section 11.6",
       "page": 10
     },
-    "title": "11.6 SEISMIC DESIGN CATEGORY",
+    "title": "11.6",
     "description": "",
     "data": {
       "rule": "11.6 SEISMIC DESIGN CATEGORY",
@@ -10173,7 +10659,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-11.6-T1",
+    "id": "ASCE7-22-11.6-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -10202,7 +10688,7 @@
     "parent_id": "ASCE7-22-11.6-H1"
   },
   {
-    "id": "ASCE7-22-11.6-T2",
+    "id": "ASCE7-22-11.6-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -10229,7 +10715,7 @@
     "parent_id": "ASCE7-22-11.6-H1"
   },
   {
-    "id": "ASCE7-22-11.6-T3",
+    "id": "ASCE7-22-11.6-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -10256,7 +10742,7 @@
     "parent_id": "ASCE7-22-11.6-H1"
   },
   {
-    "id": "ASCE7-22-11.6-T4",
+    "id": "ASCE7-22-11.6-T5",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -10283,7 +10769,7 @@
     "parent_id": "ASCE7-22-11.6-H1"
   },
   {
-    "id": "ASCE7-22-11.6-T5",
+    "id": "ASCE7-22-11.6-T6",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -10310,7 +10796,7 @@
     "parent_id": "ASCE7-22-11.6-H1"
   },
   {
-    "id": "ASCE7-22-11.6-T6",
+    "id": "ASCE7-22-11.6-T7",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -10380,10 +10866,10 @@
       "citation": "Section 11.7",
       "page": 10
     },
-    "title": "11.7 DESIGN REQUIREMENTS FOR SEISMIC DESIGN CATEGORY A",
+    "title": "11.7",
     "description": "",
     "data": {
-      "rule": "11.7 DESIGN REQUIREMENTS FOR SEISMIC DESIGN CATEGORY A",
+      "rule": "11.7",
       "conditions": [],
       "then": "",
       "else": null,
@@ -10396,6 +10882,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-11.7-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-11.7-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 11,
+      "section": "11.7",
+      "citation": "Section 11.7",
+      "page": 10
+    },
+    "title": "DESIGN REQUIREMENTS FOR SEISMIC DESIGN CATEGORY A",
+    "description": "",
+    "data": {
+      "rule": "DESIGN REQUIREMENTS FOR SEISMIC DESIGN CATEGORY A",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-11.7-P1",
@@ -10468,10 +10981,10 @@
       "citation": "Section 11.8.1",
       "page": 10
     },
-    "title": "11.8.1 Site Limitation for Seismic Design Categories E and F A structure assigned to Seismic Design Category E or F shall not be located where a known potential exists for an active fault to cause rup",
+    "title": "11.8.1 Site Limitation for Seismic Design Categories E",
     "description": "",
     "data": {
-      "rule": "11.8.1 Site Limitation for Seismic Design Categories E and F A structure assigned to Seismic Design Category E or F shall not be located where a known potential exists for an active fault to cause rupture of the ground surface at the structure.",
+      "rule": "11.8.1 Site Limitation for Seismic Design Categories E",
       "conditions": [],
       "then": "",
       "else": null,
@@ -10484,6 +10997,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-11.8.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-11.8.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 11,
+      "section": "11.8.1",
+      "citation": "Section 11.8.1",
+      "page": 10
+    },
+    "title": "and F A structure assigned to Seismic Design Category E or F shall not be located where a known potential exists for an active fault to cause rupture of the ground surface at the structure.",
+    "description": "",
+    "data": {
+      "rule": "and F A structure assigned to Seismic Design Category E or F shall not be located where a known potential exists for an active fault to cause rupture of the ground surface at the structure.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-11.8.2-H1",
@@ -10495,10 +11035,10 @@
       "citation": "Section 11.8.2",
       "page": 10
     },
-    "title": "11.8.2 Geotechnical Investigation Report Requirements for Seismic Design Categories C through F A geotechnical investigation report shall be provided for a structure assigned to Seismic Design Categor",
+    "title": "11.8.2 Geotechnical Investigation Report Requirements for",
     "description": "",
     "data": {
-      "rule": "11.8.2 Geotechnical Investigation Report Requirements for Seismic Design Categories C through F A geotechnical investigation report shall be provided for a structure assigned to Seismic Design Category C, D, E, or F in accordance with this section. An investigation shall be conducted, and a report shall be submitted that includes an evaluation of the following potential geologic and seismic hazards: (a) Slope instability, (b) Liquefaction,",
+      "rule": "11.8.2 Geotechnical Investigation Report Requirements for",
       "conditions": [],
       "then": "",
       "else": null,
@@ -10513,7 +11053,34 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-11.8.2-T3",
+    "id": "ASCE7-22-11.8.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-11.8.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 11,
+      "section": "11.8.2",
+      "citation": "Section 11.8.2",
+      "page": 10
+    },
+    "title": "Seismic Design Categories C through F A geotechnical investigation report shall be provided for a structure assigned to Seismic Design Category C, D, E, or F in accordance with this section. An invest",
+    "description": "",
+    "data": {
+      "rule": "Seismic Design Categories C through F A geotechnical investigation report shall be provided for a structure assigned to Seismic Design Category C, D, E, or F in accordance with this section. An investigation shall be conducted, and a report shall be submitted that includes an evaluation of the following potential geologic and seismic hazards: (a) Slope instability, (b) Liquefaction,",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-11.8.2-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -10540,7 +11107,7 @@
     "parent_id": "ASCE7-22-11.8.2-H1"
   },
   {
-    "id": "ASCE7-22-11.8.2-T4",
+    "id": "ASCE7-22-11.8.2-T5",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -10698,11 +11265,6 @@
     "data": {
       "expression": "vertical seismic ground motions is exercised in lieu of the T \u22640.2s:F =1.2 (11.9-6)",
       "parameters": {
-        "s": {
-          "description": "Vertical dimension of the solid freestanding wall or solid sign from Figure 29.3-1",
-          "unit": "ft",
-          "source": "ASCE7-22-26.3-T92"
-        },
         "T": {
           "description": "Cumulative effect of self-straining forces and effects arising from contraction or expansion resulting from environmental or operational temperature changes, shrinkage, moisture changes, creep in component materials, movement caused by differential settlement, or combinations thereof",
           "source": "ASCE7-22-2.2-T13"
@@ -10710,6 +11272,11 @@
         "F": {
           "description": "1.0 for buildings that are one story above grade plane, 1.1 for buildings that are two stories above grade plane, and 1.2 for buildings that are three stories above grade plane;",
           "source": "ASCE7-22-12.14.8.1-T1"
+        },
+        "s": {
+          "description": "Vertical dimension of the solid freestanding wall or solid sign from Figure 29.3-1",
+          "unit": "ft",
+          "source": "ASCE7-22-26.3-T92"
         }
       }
     },
@@ -10736,11 +11303,6 @@
     "data": {
       "expression": "section are permitted to be used in the determination of the 0.2<T \u22641.0s\u2236F =1.2\u00fe0.0625\u00f0T \u22120.2\u00de (11.9-7)",
       "parameters": {
-        "s": {
-          "description": "Vertical dimension of the solid freestanding wall or solid sign from Figure 29.3-1",
-          "unit": "ft",
-          "source": "ASCE7-22-26.3-T92"
-        },
         "T": {
           "description": "Cumulative effect of self-straining forces and effects arising from contraction or expansion resulting from environmental or operational temperature changes, shrinkage, moisture changes, creep in component materials, movement caused by differential settlement, or combinations thereof",
           "source": "ASCE7-22-2.2-T13"
@@ -10748,6 +11310,11 @@
         "F": {
           "description": "1.0 for buildings that are one story above grade plane, 1.1 for buildings that are two stories above grade plane, and 1.2 for buildings that are three stories above grade plane;",
           "source": "ASCE7-22-12.14.8.1-T1"
+        },
+        "s": {
+          "description": "Vertical dimension of the solid freestanding wall or solid sign from Figure 29.3-1",
+          "unit": "ft",
+          "source": "ASCE7-22-26.3-T92"
         }
       }
     },
@@ -10774,6 +11341,10 @@
     "data": {
       "expression": "1<T \u22641.0s\u2236F =1.25\u00fe0.05\u00f0T \u22121.0\u00de\u22159 (11.9-8)",
       "parameters": {
+        "F": {
+          "description": "1.0 for buildings that are one story above grade plane, 1.1 for buildings that are two stories above grade plane, and 1.2 for buildings that are three stories above grade plane;",
+          "source": "ASCE7-22-12.14.8.1-T1"
+        },
         "s": {
           "description": "Vertical dimension of the solid freestanding wall or solid sign from Figure 29.3-1",
           "unit": "ft",
@@ -10782,10 +11353,6 @@
         "T": {
           "description": "Cumulative effect of self-straining forces and effects arising from contraction or expansion resulting from environmental or operational temperature changes, shrinkage, moisture changes, creep in component materials, movement caused by differential settlement, or combinations thereof",
           "source": "ASCE7-22-2.2-T13"
-        },
-        "F": {
-          "description": "1.0 for buildings that are one story above grade plane, 1.1 for buildings that are two stories above grade plane, and 1.2 for buildings that are three stories above grade plane;",
-          "source": "ASCE7-22-12.14.8.1-T1"
         }
       }
     },
@@ -10807,10 +11374,10 @@
       "citation": "Section 11.8.3",
       "page": 11
     },
-    "title": "11.8.3 Additional Geotechnical Investigation Report Requirements for Seismic Design Categories D through F The geotechnical investigation report for a structure assigned to Seismic Design Category D, ",
+    "title": "11.8.3 Additional",
     "description": "",
     "data": {
-      "rule": "11.8.3 Additional Geotechnical Investigation Report Requirements for Seismic Design Categories D through F The geotechnical investigation report for a structure assigned to Seismic Design Category D, E, or F shall include all of the following, as applicable:",
+      "rule": "11.8.3 Additional",
       "conditions": [],
       "then": "",
       "else": null,
@@ -10826,6 +11393,33 @@
   },
   {
     "id": "ASCE7-22-11.8.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-11.8.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 11,
+      "section": "11.8.3",
+      "citation": "Section 11.8.3",
+      "page": 11
+    },
+    "title": "Geotechnical Investigation Report Requirements for Seismic Design Categories D through F The geotechnical investigation report for a structure assigned to Seismic Design Category D, E, or F shall incl",
+    "description": "",
+    "data": {
+      "rule": "Geotechnical Investigation Report Requirements for Seismic Design Categories D through F The geotechnical investigation report for a structure assigned to Seismic Design Category D, E, or F shall include all of the following, as applicable:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-11.8.3-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -10881,7 +11475,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-11.8.3-T2",
+    "id": "ASCE7-22-11.8.3-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -10944,10 +11538,10 @@
       "citation": "Section 11.9",
       "page": 11
     },
-    "title": "11.9 VERTICAL GROUND MOTIONS FOR SEISMIC DESIGN",
+    "title": "11.9",
     "description": "",
     "data": {
-      "rule": "11.9 VERTICAL GROUND MOTIONS FOR SEISMIC DESIGN",
+      "rule": "11.9",
       "conditions": [],
       "then": "",
       "else": null,
@@ -10962,6 +11556,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-11.9-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-11.9-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 11,
+      "section": "11.9",
+      "citation": "Section 11.9",
+      "page": 11
+    },
+    "title": "VERTICAL GROUND MOTIONS FOR SEISMIC DESIGN",
+    "description": "",
+    "data": {
+      "rule": "VERTICAL GROUND MOTIONS FOR SEISMIC DESIGN",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-11.9.1-H1",
     "type": "heading",
     "source": {
@@ -10971,10 +11592,38 @@
       "citation": "Section 11.9.1",
       "page": 11
     },
-    "title": "11.9.1 General If the option to incorporate the effects of vertical seismic ground motions is exercised in lieu of the requirements of Section 12.4.2.2, the requirements of this section are permitted ",
+    "title": "11.9.1 General",
     "description": "",
     "data": {
-      "rule": "11.9.1 General If the option to incorporate the effects of vertical seismic ground motions is exercised in lieu of the requirements of Section 12.4.2.2, the requirements of this section are permitted to be used in the determination of the vertical design earthquake ground motions. The requirements of Section 11.9.2 shall only apply to structures in Seismic Design Categories C, D, E, and F located in the conterminous United States at or west of -105 degrees longitude, Alaska, Hawaii, Puerto Rico, US Virgin Islands, Guam and Northern Mariana Islands, and American Samoa. For structures in Seismic Design Categories C, D, E, and F located in the conterminous United States east of -105 degrees longitude, the value of SaMv shall be taken as two-thirds of the value of SaM . The requirements of Section 11.9.3 shall apply to all structures in the Seismic Design Categories C, D, E, and F.",
+      "rule": "11.9.1 General",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-11.9.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-11.9.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 11,
+      "section": "11.9.1",
+      "citation": "Section 11.9.1",
+      "page": 11
+    },
+    "title": "If the option to incorporate the effects of vertical seismic ground motions is exercised in lieu of the requirements of Section 12.4.2.2, the requirements of this section are permitted to be used in t",
+    "description": "",
+    "data": {
+      "rule": "If the option to incorporate the effects of vertical seismic ground motions is exercised in lieu of the requirements of Section 12.4.2.2, the requirements of this section are permitted to be used in the determination of the vertical design earthquake ground motions. The requirements of Section 11.9.2 shall only apply to structures in Seismic Design Categories C, D, E, and F located in the conterminous United States at or west of -105 degrees longitude, Alaska, Hawaii, Puerto Rico, US Virgin Islands, Guam and Northern Mariana Islands, and American Samoa. For structures in Seismic Design Categories C, D, E, and F located in the conterminous United States east of -105 degrees longitude, the value of SaMv shall be taken as two-thirds of the value of SaM . The requirements of Section 11.9.3 shall apply to all structures in the Seismic Design Categories C, D, E, and F.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -10987,9 +11636,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-11.9.2-H1",
@@ -11001,10 +11649,10 @@
       "citation": "Section 11.9.2",
       "page": 11
     },
-    "title": "11.9.2 MCER Vertical Response Spectrum Where a vertical response spectrum is required by this standard and site-speci fi c procedures are not used, the MCER vertical response spectral acceleration, Sa",
+    "title": "11.9.2",
     "description": "",
     "data": {
-      "rule": "11.9.2 MCER Vertical Response Spectrum Where a vertical response spectrum is required by this standard and site-speci fi c procedures are not used, the MCER vertical response spectral acceleration, SaMv , shall be developed as follows:",
+      "rule": "11.9.2",
       "conditions": [],
       "then": "",
       "else": null,
@@ -11017,6 +11665,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-11.9.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-11.9.2-H2",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 11,
+      "section": "11.9.2",
+      "citation": "Section 11.9.2",
+      "page": 11
+    },
+    "title": "MCER Vertical Response Spectrum Where a vertical response spectrum is required by this standard and site-speci fi c procedures are not used, the MCER vertical response spectral acceleration, SaMv , sh",
+    "description": "",
+    "data": {
+      "rule": "MCER Vertical Response Spectrum Where a vertical response spectrum is required by this standard and site-speci fi c procedures are not used, the MCER vertical response spectral acceleration, SaMv , shall be developed as follows:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-11.9.2-P1",
@@ -11228,7 +11903,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-11.9.2-T2",
+    "id": "ASCE7-22-11.9.2-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -11257,7 +11932,7 @@
     "parent_id": "ASCE7-22-11.9.2-H2"
   },
   {
-    "id": "ASCE7-22-11.9.2-T3",
+    "id": "ASCE7-22-11.9.2-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -11284,7 +11959,7 @@
     "parent_id": "ASCE7-22-11.9.2-H2"
   },
   {
-    "id": "ASCE7-22-11.9.2-T4",
+    "id": "ASCE7-22-11.9.2-T5",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -11311,7 +11986,7 @@
     "parent_id": "ASCE7-22-11.9.2-H2"
   },
   {
-    "id": "ASCE7-22-11.9.2-T5",
+    "id": "ASCE7-22-11.9.2-T6",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -11392,7 +12067,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-11.9.2-T6",
+    "id": "ASCE7-22-11.9.2-T7",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -11421,7 +12096,7 @@
     "parent_id": "ASCE7-22-11.9.2-H2"
   },
   {
-    "id": "ASCE7-22-11.9.2-T7",
+    "id": "ASCE7-22-11.9.2-T8",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -11552,6 +12227,10 @@
     "data": {
       "expression": "For vertical periods ( Tv ) less than or equal to 0.025 s, SaMv shall be determined in accordance with Equation (11.9-1)",
       "parameters": {
+        "Tv": {
+          "description": "Vertical period of vibration",
+          "source": "ASCE7-22-11.3-T112"
+        },
         "SaMv": {
           "description": "5% damped, MCER vertical response spectral acceleration parameter at any period as determined in accordance with Section 11.9.2",
           "source": "ASCE7-22-11.3-T93"
@@ -11560,10 +12239,6 @@
           "description": "Vertical dimension of the solid freestanding wall or solid sign from Figure 29.3-1",
           "unit": "ft",
           "source": "ASCE7-22-26.3-T92"
-        },
-        "Tv": {
-          "description": "Vertical period of vibration",
-          "source": "ASCE7-22-11.3-T112"
         }
       }
     },
@@ -11755,10 +12430,10 @@
       "citation": "Section 11.9.3",
       "page": 12
     },
-    "title": "11.9.3 Design Vertical Response Spectrum The design vertical response spectral acceleration, Sav , shall be taken as two-thirds of the value of SaMv determined in Sections 11.9.1 or 11.9.2.",
+    "title": "11.9.3 Design Vertical Response Spectrum",
     "description": "",
     "data": {
-      "rule": "11.9.3 Design Vertical Response Spectrum The design vertical response spectral acceleration, Sav , shall be taken as two-thirds of the value of SaMv determined in Sections 11.9.1 or 11.9.2.",
+      "rule": "11.9.3 Design Vertical Response Spectrum",
       "conditions": [],
       "then": "",
       "else": null,
@@ -11771,6 +12446,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-11.9.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-11.9.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 11,
+      "section": "11.9.3",
+      "citation": "Section 11.9.3",
+      "page": 12
+    },
+    "title": "The design vertical response spectral acceleration, Sav , shall be taken as two-thirds of the value of SaMv determined in Sections 11.9.1 or 11.9.2.",
+    "description": "",
+    "data": {
+      "rule": "The design vertical response spectral acceleration, Sav , shall be taken as two-thirds of the value of SaMv determined in Sections 11.9.1 or 11.9.2.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-11.10-H1",

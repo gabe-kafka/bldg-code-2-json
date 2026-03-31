@@ -87,7 +87,7 @@
       "citation": "Section 4.1",
       "page": 1
     },
-    "title": "CHAPTER 4 LIVE LOADS",
+    "title": "CHAPTER 4",
     "description": "",
     "data": {
       "rule": "CHAPTER 4 LIVE LOADS",
@@ -416,10 +416,10 @@
       "citation": "Section 4.3.1",
       "page": 1
     },
-    "title": "4.3.1 Required Live Loads The live loads used in the design of buildings and other structures shall be the maximum loads",
+    "title": "4.3.1 Required Live Loads",
     "description": "",
     "data": {
-      "rule": "4.3.1 Required Live Loads The live loads used in the design of buildings and other structures shall be the maximum loads",
+      "rule": "4.3.1 Required Live Loads",
       "conditions": [],
       "then": "",
       "else": null,
@@ -432,6 +432,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-4.3.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-4.3.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 4,
+      "section": "4.3.1",
+      "citation": "Section 4.3.1",
+      "page": 1
+    },
+    "title": "The live loads used in the design of buildings and other structures shall be the maximum loads",
+    "description": "",
+    "data": {
+      "rule": "The live loads used in the design of buildings and other structures shall be the maximum loads",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-4.3.2-P1",
@@ -506,68 +533,10 @@
       "citation": "Section 4.3.3",
       "page": 1
     },
-    "title": "4.3.3 Partial Loading The uniform live load applied only to a portion of a structure or member shall be accounted for if it produces a more unfavorable load effect than the uniform live load applied o",
+    "title": "4.3.3 Partial Loading",
     "description": "",
     "data": {
-      "rule": "4.3.3 Partial Loading The uniform live load applied only to a portion of a structure or member shall be accounted for if it produces a more unfavorable load effect than the uniform live load applied over the full structure or member. Uniform live loads applied to a portion of a structure or member are permitted to be reduced in accordance with Section 4.7.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [
-      "ASCE7-22-4.7-H1"
-    ],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-4.3.3.1-H1",
-    "type": "heading",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 4,
-      "section": "4.3.3.1",
-      "citation": "Section 4.3.3.1",
-      "page": 1
-    },
-    "title": "4.3.3.1 Partial Loading of Roofs Where uniform roof live loads are reduced to less than 20 psf (0.96 kN/m 2 ) in accordance with Section 4.8.2 and are applied to the design of structural members arran",
-    "description": "",
-    "data": {
-      "rule": "4.3.3.1 Partial Loading of Roofs Where uniform roof live loads are reduced to less than 20 psf (0.96 kN/m 2 ) in accordance with Section 4.8.2 and are applied to the design of structural members arranged so as to create continuity, the reduced roof live load shall be applied to adjacent spans or to alternate spans, whichever produces the greatest unfavorable load effect.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [
-      "ASCE7-22-4.8.2-H1"
-    ],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-4.3.4-H1",
-    "type": "heading",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 4,
-      "section": "4.3.4",
-      "citation": "Section 4.3.4",
-      "page": 1
-    },
-    "title": "4.3.4 Interior Walls and Partitions Interior walls and partitions that exceed 6 ft (1.83 m) in height, including their fi nish materials, shall have adequate strength and stiffness to resist the loads",
-    "description": "",
-    "data": {
-      "rule": "4.3.4 Interior Walls and Partitions Interior walls and partitions that exceed 6 ft (1.83 m) in height, including their fi nish materials, shall have adequate strength and stiffness to resist the loads to which they are subjected but not less than a horizontal load of 5 psf (0.240 kN/m 2 ).",
+      "rule": "4.3.3 Partial Loading",
       "conditions": [],
       "then": "",
       "else": null,
@@ -580,6 +549,145 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-4.3.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-4.3.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 4,
+      "section": "4.3.3",
+      "citation": "Section 4.3.3",
+      "page": 1
+    },
+    "title": "The uniform live load applied only to a portion of a structure or member shall be accounted for if it produces a more unfavorable load effect than the uniform live load applied over the full structure",
+    "description": "",
+    "data": {
+      "rule": "The uniform live load applied only to a portion of a structure or member shall be accounted for if it produces a more unfavorable load effect than the uniform live load applied over the full structure or member. Uniform live loads applied to a portion of a structure or member are permitted to be reduced in accordance with Section 4.7.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-4.7-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-4.3.3.1-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 4,
+      "section": "4.3.3.1",
+      "citation": "Section 4.3.3.1",
+      "page": 1
+    },
+    "title": "4.3.3.1 Partial Loading of Roofs",
+    "description": "",
+    "data": {
+      "rule": "4.3.3.1 Partial Loading of Roofs",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-4.3.3.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-4.3.3.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 4,
+      "section": "4.3.3.1",
+      "citation": "Section 4.3.3.1",
+      "page": 1
+    },
+    "title": "Where uniform roof live loads are reduced to less than 20 psf (0.96 kN/m 2 ) in accordance with Section 4.8.2 and are applied to the design of structural members arranged so as to create continuity, t",
+    "description": "",
+    "data": {
+      "rule": "Where uniform roof live loads are reduced to less than 20 psf (0.96 kN/m 2 ) in accordance with Section 4.8.2 and are applied to the design of structural members arranged so as to create continuity, the reduced roof live load shall be applied to adjacent spans or to alternate spans, whichever produces the greatest unfavorable load effect.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-4.8.2-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-4.3.4-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 4,
+      "section": "4.3.4",
+      "citation": "Section 4.3.4",
+      "page": 1
+    },
+    "title": "4.3.4 Interior",
+    "description": "",
+    "data": {
+      "rule": "4.3.4 Interior",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-4.3.4-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-4.3.4-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 4,
+      "section": "4.3.4",
+      "citation": "Section 4.3.4",
+      "page": 1
+    },
+    "title": "Walls and Partitions Interior walls and partitions that exceed 6 ft (1.83 m) in height, including their fi nish materials, shall have adequate strength and stiffness to resist the loads to which they ",
+    "description": "",
+    "data": {
+      "rule": "Walls and Partitions Interior walls and partitions that exceed 6 ft (1.83 m) in height, including their fi nish materials, shall have adequate strength and stiffness to resist the loads to which they are subjected but not less than a horizontal load of 5 psf (0.240 kN/m 2 ).",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-4.4-H1",
@@ -675,10 +783,10 @@
       "citation": "Section 4.5.1",
       "page": 1
     },
-    "title": "4.5.1 Handrail and Guard Systems Handrail and guard systems shall be designed to resist a single concentrated load of 200 lb (0.89 kN) applied in any direction at any point on the",
+    "title": "4.5.1 Handrail and Guard Systems",
     "description": "",
     "data": {
-      "rule": "4.5.1 Handrail and Guard Systems Handrail and guard systems shall be designed to resist a single concentrated load of 200 lb (0.89 kN) applied in any direction at any point on the",
+      "rule": "4.5.1 Handrail and Guard Systems",
       "conditions": [],
       "then": "",
       "else": null,
@@ -694,6 +802,33 @@
   },
   {
     "id": "ASCE7-22-4.5.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-4.5.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 4,
+      "section": "4.5.1",
+      "citation": "Section 4.5.1",
+      "page": 1
+    },
+    "title": "Handrail and guard systems shall be designed to resist a single concentrated load of 200 lb (0.89 kN) applied in any direction at any point on the",
+    "description": "",
+    "data": {
+      "rule": "Handrail and guard systems shall be designed to resist a single concentrated load of 200 lb (0.89 kN) applied in any direction at any point on the",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-4.5.1-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1108,7 +1243,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-4.5.1-T3",
+    "id": "ASCE7-22-4.5.1-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1146,6 +1281,35 @@
       "citation": "Section 4.5.1",
       "page": 4
     },
+    "title": "Table 4.3-1 (Continued) . Minimum Uniformly Distributed Live Loads, Lo , and Minimum Concentrated Live Loads.",
+    "description": "",
+    "data": {
+      "rule": "Table 4.3-1 (Continued) . Minimum Uniformly Distributed Live Loads, Lo , and Minimum Concentrated Live Loads.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-4.3-T4-3-14"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-4.5.1-H1"
+  },
+  {
+    "id": "ASCE7-22-4.5.1-T7",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 4,
+      "section": "4.5.1",
+      "citation": "Section 4.5.1",
+      "page": 4
+    },
     "title": "handrail or top rail to produce the maximum load effect on the element being considered and to transfer this load through the supports to the structure.",
     "description": "",
     "data": {
@@ -1173,10 +1337,38 @@
       "citation": "Section 4.5.1.1",
       "page": 4
     },
-    "title": "4.5.1.1 Uniform Load Handrail and guard systems shall also be designed to resist a load of 50 lb \u2215 ft (pound-force per linear foot) (0.73 kN/m) applied in any direction along the handrail or top rail ",
+    "title": "4.5.1.1 Uniform Load",
     "description": "",
     "data": {
-      "rule": "4.5.1.1 Uniform Load Handrail and guard systems shall also be designed to resist a load of 50 lb \u2215 ft (pound-force per linear foot) (0.73 kN/m) applied in any direction along the handrail or top rail and to transfer this load through the supports to the structure. This load need not be assumed to act concurrently with the concentrated load speci fi ed in Section 4.5.1.",
+      "rule": "4.5.1.1 Uniform Load",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-4.5.1.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-4.5.1.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 4,
+      "section": "4.5.1.1",
+      "citation": "Section 4.5.1.1",
+      "page": 4
+    },
+    "title": "Handrail and guard systems shall also be designed to resist a load of 50 lb \u2215 ft (pound-force per linear foot) (0.73 kN/m) applied in any direction along the handrail or top rail and to transfer this ",
+    "description": "",
+    "data": {
+      "rule": "Handrail and guard systems shall also be designed to resist a load of 50 lb \u2215 ft (pound-force per linear foot) (0.73 kN/m) applied in any direction along the handrail or top rail and to transfer this load through the supports to the structure. This load need not be assumed to act concurrently with the concentrated load speci fi ed in Section 4.5.1.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1188,9 +1380,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-4.5.1.1-X1",
@@ -1220,7 +1411,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-4.5.1.1-T2",
+    "id": "ASCE7-22-4.5.1.1-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1247,7 +1438,7 @@
     "parent_id": "ASCE7-22-4.5.1.1-H1"
   },
   {
-    "id": "ASCE7-22-4.5.1.1-T3",
+    "id": "ASCE7-22-4.5.1.1-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1310,10 +1501,10 @@
       "citation": "Section 4.5.2",
       "page": 4
     },
-    "title": "4.5.2 Grab Bar Systems and Shower Seats Grab bar systems and shower seats shall be designed to resist a single concentrated load of 250 lb (1.11 kN) applied in any direction at any point on the grab b",
+    "title": "4.5.2 Grab Bar Systems and Shower Seats",
     "description": "",
     "data": {
-      "rule": "4.5.2 Grab Bar Systems and Shower Seats Grab bar systems and shower seats shall be designed to resist a single concentrated load of 250 lb (1.11 kN) applied in any direction at any point on the grab bar or shower seat to produce the maximum load effect.",
+      "rule": "4.5.2 Grab Bar Systems and Shower Seats",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1328,6 +1519,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-4.5.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-4.5.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 4,
+      "section": "4.5.2",
+      "citation": "Section 4.5.2",
+      "page": 4
+    },
+    "title": "Grab bar systems and shower seats shall be designed to resist a single concentrated load of 250 lb (1.11 kN) applied in any direction at any point on the grab bar or shower seat to produce the maximum",
+    "description": "",
+    "data": {
+      "rule": "Grab bar systems and shower seats shall be designed to resist a single concentrated load of 250 lb (1.11 kN) applied in any direction at any point on the grab bar or shower seat to produce the maximum load effect.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-4.5.3-H1",
     "type": "heading",
     "source": {
@@ -1337,10 +1555,10 @@
       "citation": "Section 4.5.3",
       "page": 4
     },
-    "title": "4.5.3 Vehicle Barrier Systems Vehicle barrier systems for passenger vehicles shall be designed to resist a single",
+    "title": "4.5.3 Vehicle Barrier Systems",
     "description": "",
     "data": {
-      "rule": "4.5.3 Vehicle Barrier Systems Vehicle barrier systems for passenger vehicles shall be designed to resist a single",
+      "rule": "4.5.3 Vehicle Barrier Systems",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1353,6 +1571,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-4.5.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-4.5.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 4,
+      "section": "4.5.3",
+      "citation": "Section 4.5.3",
+      "page": 4
+    },
+    "title": "Vehicle barrier systems for passenger vehicles shall be designed to resist a single",
+    "description": "",
+    "data": {
+      "rule": "Vehicle barrier systems for passenger vehicles shall be designed to resist a single",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-4.7-E4-7-11",
@@ -1505,10 +1750,10 @@
       "citation": "Section 4.6.1",
       "page": 5
     },
-    "title": "4.6.1 General The live loads speci fi ed in Sections 4.3 through 4.5 shall be assumed to include adequate allowance for ordinary impact conditions. Provision shall be made in the structural design for",
+    "title": "4.6.1 General",
     "description": "",
     "data": {
-      "rule": "4.6.1 General The live loads speci fi ed in Sections 4.3 through 4.5 shall be assumed to include adequate allowance for ordinary impact conditions. Provision shall be made in the structural design for uses and loads that involve unusual vibration and impact forces.",
+      "rule": "4.6.1 General",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1521,6 +1766,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-4.6.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-4.6.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 4,
+      "section": "4.6.1",
+      "citation": "Section 4.6.1",
+      "page": 5
+    },
+    "title": "The live loads speci fi ed in Sections 4.3 through 4.5 shall be assumed to include adequate allowance for ordinary impact conditions. Provision shall be made in the structural design for uses and load",
+    "description": "",
+    "data": {
+      "rule": "The live loads speci fi ed in Sections 4.3 through 4.5 shall be assumed to include adequate allowance for ordinary impact conditions. Provision shall be made in the structural design for uses and loads that involve unusual vibration and impact forces.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-4.6.2-P1",
@@ -1586,10 +1858,10 @@
       "citation": "Section 4.6.4",
       "page": 5
     },
-    "title": "4.6.4 Elements Supporting Hoists for Fa\u00e7ade Access and Building Maintenance Equipment Structural elements that support hoists for fa\u00e7ade access and building maintenance equipment shall be designed for",
+    "title": "4.6.4 Elements Supporting Hoists for Fa\u00e7ade Access and",
     "description": "",
     "data": {
-      "rule": "4.6.4 Elements Supporting Hoists for Fa\u00e7ade Access and Building Maintenance Equipment Structural elements that support hoists for fa\u00e7ade access and building maintenance equipment shall be designed for a live load of 2.5 times the rated load of the hoist or the stall load of the hoist, whichever is larger.",
+      "rule": "4.6.4 Elements Supporting Hoists for Fa\u00e7ade Access and",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1604,6 +1876,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-4.6.4-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-4.6.4-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 4,
+      "section": "4.6.4",
+      "citation": "Section 4.6.4",
+      "page": 5
+    },
+    "title": "Building Maintenance Equipment Structural elements that support hoists for fa\u00e7ade access and building maintenance equipment shall be designed for a live load of 2.5 times the rated load of the hoist o",
+    "description": "",
+    "data": {
+      "rule": "Building Maintenance Equipment Structural elements that support hoists for fa\u00e7ade access and building maintenance equipment shall be designed for a live load of 2.5 times the rated load of the hoist or the stall load of the hoist, whichever is larger.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-4.6.5-H1",
     "type": "heading",
     "source": {
@@ -1613,10 +1912,10 @@
       "citation": "Section 4.6.5",
       "page": 5
     },
-    "title": "4.6.5 Fall Arrest, Lifeline, and Rope Descent System Anchorages Fall arrest, lifeline, and rope descent system anchorages and the structural elements that support these anchorages shall be designed fo",
+    "title": "4.6.5 Fall",
     "description": "",
     "data": {
-      "rule": "4.6.5 Fall Arrest, Lifeline, and Rope Descent System Anchorages Fall arrest, lifeline, and rope descent system anchorages and the structural elements that support these anchorages shall be designed for a live load of 3,100 lb (13.8 kN) for each attached line in any direction that the load may be applied.",
+      "rule": "4.6.5 Fall",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1629,6 +1928,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-4.6.5-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-4.6.5-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 4,
+      "section": "4.6.5",
+      "citation": "Section 4.6.5",
+      "page": 5
+    },
+    "title": "Arrest, Lifeline, and Rope Descent System Anchorages Fall arrest, lifeline, and rope descent system anchorages and the structural elements that support these anchorages shall be designed for a live lo",
+    "description": "",
+    "data": {
+      "rule": "Arrest, Lifeline, and Rope Descent System Anchorages Fall arrest, lifeline, and rope descent system anchorages and the structural elements that support these anchorages shall be designed for a live load of 3,100 lb (13.8 kN) for each attached line in any direction that the load may be applied.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-4.6.5-P1",
@@ -1694,39 +2020,10 @@
       "citation": "Section 4.7.1",
       "page": 5
     },
-    "title": "4.7.1 General Except for roof uniform live loads, all other minimum uniformly distributed live loads, Lo , in Table 4.3-1, are permitted to be reduced in accordance with the requirements of Sections 4",
+    "title": "4.7.1 General",
     "description": "",
     "data": {
-      "rule": "4.7.1 General Except for roof uniform live loads, all other minimum uniformly distributed live loads, Lo , in Table 4.3-1, are permitted to be reduced in accordance with the requirements of Sections 4.7.2 through 4.7.6.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [
-      "ASCE7-22-4.3-T4-3-14"
-    ],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-4.7.2-H1",
-    "type": "heading",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 4,
-      "section": "4.7.2",
-      "citation": "Section 4.7.2",
-      "page": 5
-    },
-    "title": "4.7.2 Reduction in Uniform Live Loads Subject to the limitations of Sections 4.7.3 through 4.7.6, members for which the value of KLLAT is 400 ft 2 (37.16 m 2 ) or more are permitted to be designed for",
-    "description": "",
-    "data": {
-      "rule": "4.7.2 Reduction in Uniform Live Loads Subject to the limitations of Sections 4.7.3 through 4.7.6, members for which the value of KLLAT is 400 ft 2 (37.16 m 2 ) or more are permitted to be designed for a reduced uniform live load in accordance with the following formula: where",
+      "rule": "4.7.1 General",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1741,7 +2038,90 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-4.7.2-T2",
+    "id": "ASCE7-22-4.7.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-4.7.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 4,
+      "section": "4.7.1",
+      "citation": "Section 4.7.1",
+      "page": 5
+    },
+    "title": "Except for roof uniform live loads, all other minimum uniformly distributed live loads, Lo , in Table 4.3-1, are permitted to be reduced in accordance with the requirements of Sections 4.7.2 through 4",
+    "description": "",
+    "data": {
+      "rule": "Except for roof uniform live loads, all other minimum uniformly distributed live loads, Lo , in Table 4.3-1, are permitted to be reduced in accordance with the requirements of Sections 4.7.2 through 4.7.6.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-4.3-T4-3-14"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-4.7.2-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 4,
+      "section": "4.7.2",
+      "citation": "Section 4.7.2",
+      "page": 5
+    },
+    "title": "4.7.2 Reduction in Uniform Live Loads",
+    "description": "",
+    "data": {
+      "rule": "4.7.2 Reduction in Uniform Live Loads",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-4.7.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-4.7.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 4,
+      "section": "4.7.2",
+      "citation": "Section 4.7.2",
+      "page": 5
+    },
+    "title": "Subject to the limitations of Sections 4.7.3 through 4.7.6, members for which the value of KLLAT is 400 ft 2 (37.16 m 2 ) or more are permitted to be designed for a reduced uniform live load in accord",
+    "description": "",
+    "data": {
+      "rule": "Subject to the limitations of Sections 4.7.3 through 4.7.6, members for which the value of KLLAT is 400 ft 2 (37.16 m 2 ) or more are permitted to be designed for a reduced uniform live load in accordance with the following formula: where",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-4.7.2-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1768,7 +2148,7 @@
     "parent_id": "ASCE7-22-4.7.2-H1"
   },
   {
-    "id": "ASCE7-22-4.7.2-T3",
+    "id": "ASCE7-22-4.7.2-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1797,7 +2177,7 @@
     "parent_id": "ASCE7-22-4.7.2-H1"
   },
   {
-    "id": "ASCE7-22-4.7.2-T4",
+    "id": "ASCE7-22-4.7.2-T5",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1824,7 +2204,7 @@
     "parent_id": "ASCE7-22-4.7.2-H1"
   },
   {
-    "id": "ASCE7-22-4.7.2-T5",
+    "id": "ASCE7-22-4.7.2-T6",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1900,10 +2280,10 @@
       "citation": "Section 4.7.3",
       "page": 5
     },
-    "title": "4.7.3 Heavy Live Loads Live loads that exceed 100 lb/ft 2 (4.79 kN/m 2 ) shall not be reduced.",
+    "title": "4.7.3 Heavy Live Loads",
     "description": "",
     "data": {
-      "rule": "4.7.3 Heavy Live Loads Live loads that exceed 100 lb/ft 2 (4.79 kN/m 2 ) shall not be reduced.",
+      "rule": "4.7.3 Heavy Live Loads",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1916,6 +2296,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-4.7.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-4.7.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 4,
+      "section": "4.7.3",
+      "citation": "Section 4.7.3",
+      "page": 5
+    },
+    "title": "Live loads that exceed 100 lb/ft 2 (4.79 kN/m 2 ) shall not be reduced.",
+    "description": "",
+    "data": {
+      "rule": "Live loads that exceed 100 lb/ft 2 (4.79 kN/m 2 ) shall not be reduced.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-4.7.3-X1",
@@ -1956,10 +2363,10 @@
       "citation": "Section 4.7.4",
       "page": 5
     },
-    "title": "4.7.4 Passenger Vehicle Garages The live loads shall not be reduced in passenger vehicle garages.",
+    "title": "4.7.4 Passenger Vehicle Garages",
     "description": "",
     "data": {
-      "rule": "4.7.4 Passenger Vehicle Garages The live loads shall not be reduced in passenger vehicle garages.",
+      "rule": "4.7.4 Passenger Vehicle Garages",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1972,6 +2379,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-4.7.4-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-4.7.4-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 4,
+      "section": "4.7.4",
+      "citation": "Section 4.7.4",
+      "page": 5
+    },
+    "title": "The live loads shall not be reduced in passenger vehicle garages.",
+    "description": "",
+    "data": {
+      "rule": "The live loads shall not be reduced in passenger vehicle garages.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-4.7.4-D1",
@@ -2009,10 +2443,10 @@
       "citation": "Section 4.7.5",
       "page": 5
     },
-    "title": "4.7.5 Assembly Area Loads Live loads shall not be reduced in assembly areas.",
+    "title": "4.7.5 Assembly Area Loads",
     "description": "",
     "data": {
-      "rule": "4.7.5 Assembly Area Loads Live loads shall not be reduced in assembly areas.",
+      "rule": "4.7.5 Assembly Area Loads",
       "conditions": [],
       "then": "",
       "else": null,
@@ -2028,6 +2462,33 @@
   },
   {
     "id": "ASCE7-22-4.7.5-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-4.7.5-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 4,
+      "section": "4.7.5",
+      "citation": "Section 4.7.5",
+      "page": 5
+    },
+    "title": "Live loads shall not be reduced in assembly areas.",
+    "description": "",
+    "data": {
+      "rule": "Live loads shall not be reduced in assembly areas.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-4.7.5-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2090,10 +2551,10 @@
       "citation": "Section 4.7.6",
       "page": 6
     },
-    "title": "4.7.6 Limitations on One-Way Slabs The tributary area, AT , for one-way slabs shall not exceed an area de fi ned by the slab span times a width normal to the span of 1.5 times the slab span.",
+    "title": "4.7.6 Limitations on One-Way Slabs",
     "description": "",
     "data": {
-      "rule": "4.7.6 Limitations on One-Way Slabs The tributary area, AT , for one-way slabs shall not exceed an area de fi ned by the slab span times a width normal to the span of 1.5 times the slab span.",
+      "rule": "4.7.6 Limitations on One-Way Slabs",
       "conditions": [],
       "then": "",
       "else": null,
@@ -2106,6 +2567,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-4.7.6-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-4.7.6-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 4,
+      "section": "4.7.6",
+      "citation": "Section 4.7.6",
+      "page": 6
+    },
+    "title": "The tributary area, AT , for one-way slabs shall not exceed an area de fi ned by the slab span times a width normal to the span of 1.5 times the slab span.",
+    "description": "",
+    "data": {
+      "rule": "The tributary area, AT , for one-way slabs shall not exceed an area de fi ned by the slab span times a width normal to the span of 1.5 times the slab span.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-4.8-H1",
@@ -2144,10 +2632,38 @@
       "citation": "Section 4.8.1",
       "page": 6
     },
-    "title": "4.8.1 General The minimum uniformly distributed roof live loads, Lo , in Table 4.3-1, are permitted to be reduced in accordance with the requirements of Sections 4.8.2 and 4.8.3.",
+    "title": "4.8.1 General",
     "description": "",
     "data": {
-      "rule": "4.8.1 General The minimum uniformly distributed roof live loads, Lo , in Table 4.3-1, are permitted to be reduced in accordance with the requirements of Sections 4.8.2 and 4.8.3.",
+      "rule": "4.8.1 General",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-4.8.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-4.8.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 4,
+      "section": "4.8.1",
+      "citation": "Section 4.8.1",
+      "page": 6
+    },
+    "title": "The minimum uniformly distributed roof live loads, Lo , in Table 4.3-1, are permitted to be reduced in accordance with the requirements of Sections 4.8.2 and 4.8.3.",
+    "description": "",
+    "data": {
+      "rule": "The minimum uniformly distributed roof live loads, Lo , in Table 4.3-1, are permitted to be reduced in accordance with the requirements of Sections 4.8.2 and 4.8.3.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -2159,9 +2675,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-4.8.2-H1",
@@ -2173,10 +2688,10 @@
       "citation": "Section 4.8.2",
       "page": 6
     },
-    "title": "4.8.2 Ordinary Roofs, Awnings, and Canopies Ordinary fl at, pitched, and curved roofs, and awning and canopies other than those of fabric construction supported by a skeleton structure, are permitted ",
+    "title": "4.8.2 Ordinary Roofs, Awnings, and Canopies",
     "description": "",
     "data": {
-      "rule": "4.8.2 Ordinary Roofs, Awnings, and Canopies Ordinary fl at, pitched, and curved roofs, and awning and canopies other than those of fabric construction supported by a skeleton structure, are permitted to be designed for a reduced uniform roof live load, as speci fi ed in Equation (4.8-1), or other controlling combinations of loads, as speci fi ed in Chapter 2, whichever produces the greater load effect. In structures such as greenhouses, where special scaffolding is used as a work surface for workers and materials during maintenance and repair operations, a lower roof load than speci fi ed in Equation (4.8-1) shall not be used unless approved by the Authority Having Jurisdiction. On such structures, the minimum roof live load shall be 12 psf (0.58 kn/m 2 ).",
+      "rule": "4.8.2 Ordinary Roofs, Awnings, and Canopies",
       "conditions": [],
       "then": "",
       "else": null,
@@ -2192,6 +2707,33 @@
   },
   {
     "id": "ASCE7-22-4.8.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-4.8.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 4,
+      "section": "4.8.2",
+      "citation": "Section 4.8.2",
+      "page": 6
+    },
+    "title": "Ordinary fl at, pitched, and curved roofs, and awning and canopies other than those of fabric construction supported by a skeleton structure, are permitted to be designed for a reduced uniform roof li",
+    "description": "",
+    "data": {
+      "rule": "Ordinary fl at, pitched, and curved roofs, and awning and canopies other than those of fabric construction supported by a skeleton structure, are permitted to be designed for a reduced uniform roof live load, as speci fi ed in Equation (4.8-1), or other controlling combinations of loads, as speci fi ed in Chapter 2, whichever produces the greater load effect. In structures such as greenhouses, where special scaffolding is used as a work surface for workers and materials during maintenance and repair operations, a lower roof load than speci fi ed in Equation (4.8-1) shall not be used unless approved by the Authority Having Jurisdiction. On such structures, the minimum roof live load shall be 12 psf (0.58 kn/m 2 ).",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-4.8.2-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2247,7 +2789,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-4.8.2-T3",
+    "id": "ASCE7-22-4.8.2-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2274,7 +2816,7 @@
     "parent_id": "ASCE7-22-4.8.2-H1"
   },
   {
-    "id": "ASCE7-22-4.8.2-T4",
+    "id": "ASCE7-22-4.8.2-T5",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2393,10 +2935,10 @@
       "citation": "Section 4.9.1",
       "page": 6
     },
-    "title": "4.9.1 General The crane live load shall be the rated capacity of the crane. Design loads for the runway beams, including connections and support brackets, of moving bridge cranes and monorail cranes s",
+    "title": "4.9.1 General",
     "description": "",
     "data": {
-      "rule": "4.9.1 General The crane live load shall be the rated capacity of the crane. Design loads for the runway beams, including connections and support brackets, of moving bridge cranes and monorail cranes shall include the maximum wheel loads of the crane and the vertical impact, lateral, and longitudinal forces induced by the moving crane.",
+      "rule": "4.9.1 General",
       "conditions": [],
       "then": "",
       "else": null,
@@ -2409,6 +2951,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-4.9.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-4.9.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 4,
+      "section": "4.9.1",
+      "citation": "Section 4.9.1",
+      "page": 6
+    },
+    "title": "The crane live load shall be the rated capacity of the crane. Design loads for the runway beams, including connections and support brackets, of moving bridge cranes and monorail cranes shall include t",
+    "description": "",
+    "data": {
+      "rule": "The crane live load shall be the rated capacity of the crane. Design loads for the runway beams, including connections and support brackets, of moving bridge cranes and monorail cranes shall include the maximum wheel loads of the crane and the vertical impact, lateral, and longitudinal forces induced by the moving crane.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-4.9.2-H1",
@@ -2420,10 +2989,10 @@
       "citation": "Section 4.9.2",
       "page": 6
     },
-    "title": "4.9.2 Maximum Wheel Load The maximum wheel loads shall be the wheel loads produced by the weight of the bridge, as applicable, plus the sum of the rated capacity and the weight of the trolley with the",
+    "title": "4.9.2 Maximum Wheel Load",
     "description": "",
     "data": {
-      "rule": "4.9.2 Maximum Wheel Load The maximum wheel loads shall be the wheel loads produced by the weight of the bridge, as applicable, plus the sum of the rated capacity and the weight of the trolley with the trolley positioned on its runway at the location where the resulting load effect is maximized.",
+      "rule": "4.9.2 Maximum Wheel Load",
       "conditions": [],
       "then": "",
       "else": null,
@@ -2438,6 +3007,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-4.9.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-4.9.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 4,
+      "section": "4.9.2",
+      "citation": "Section 4.9.2",
+      "page": 6
+    },
+    "title": "The maximum wheel loads shall be the wheel loads produced by the weight of the bridge, as applicable, plus the sum of the rated capacity and the weight of the trolley with the trolley positioned on it",
+    "description": "",
+    "data": {
+      "rule": "The maximum wheel loads shall be the wheel loads produced by the weight of the bridge, as applicable, plus the sum of the rated capacity and the weight of the trolley with the trolley positioned on its runway at the location where the resulting load effect is maximized.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-4.9.3-H1",
     "type": "heading",
     "source": {
@@ -2447,10 +3043,38 @@
       "citation": "Section 4.9.3",
       "page": 6
     },
-    "title": "4.9.3 Vertical Impact Force The maximum wheel loads of the crane determined in accordance with Section 4.9.2 shall be increased by the percentages shown in the following text to account for the effect",
+    "title": "4.9.3 Vertical Impact Force",
     "description": "",
     "data": {
-      "rule": "4.9.3 Vertical Impact Force The maximum wheel loads of the crane determined in accordance with Section 4.9.2 shall be increased by the percentages shown in the following text to account for the effects of vertical impact or vibration: Monorail cranes (powered) 25%",
+      "rule": "4.9.3 Vertical Impact Force",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-4.9.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-4.9.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 4,
+      "section": "4.9.3",
+      "citation": "Section 4.9.3",
+      "page": 6
+    },
+    "title": "The maximum wheel loads of the crane determined in accordance with Section 4.9.2 shall be increased by the percentages shown in the following text to account for the effects of vertical impact or vibr",
+    "description": "",
+    "data": {
+      "rule": "The maximum wheel loads of the crane determined in accordance with Section 4.9.2 shall be increased by the percentages shown in the following text to account for the effects of vertical impact or vibration: Monorail cranes (powered) 25%",
       "conditions": [],
       "then": "",
       "else": null,
@@ -2462,12 +3086,11 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
-    "id": "ASCE7-22-4.9.3-T2",
+    "id": "ASCE7-22-4.9.3-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2494,7 +3117,7 @@
     "parent_id": "ASCE7-22-4.9.3-H1"
   },
   {
-    "id": "ASCE7-22-4.9.3-T3",
+    "id": "ASCE7-22-4.9.3-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2521,7 +3144,7 @@
     "parent_id": "ASCE7-22-4.9.3-H1"
   },
   {
-    "id": "ASCE7-22-4.9.3-T4",
+    "id": "ASCE7-22-4.9.3-T5",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2775,10 +3398,10 @@
       "citation": "Section 4.9.4",
       "page": 7
     },
-    "title": "4.9.4 Lateral Force The lateral force on crane runway beams with electrically powered trolleys shall be calculated as 20% of the sum of the rated capacity of the crane and the weight of the hoist and ",
+    "title": "4.9.4 Lateral Force",
     "description": "",
     "data": {
-      "rule": "4.9.4 Lateral Force The lateral force on crane runway beams with electrically powered trolleys shall be calculated as 20% of the sum of the rated capacity of the crane and the weight of the hoist and trolley. The lateral force shall be assumed to act horizontally at the traction surface of a runway beam, in either direction perpendicular to the beam, and shall be distributed with due regard to the lateral stiffness of the runway beam and supporting structure.",
+      "rule": "4.9.4 Lateral Force",
       "conditions": [],
       "then": "",
       "else": null,
@@ -2791,6 +3414,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-4.9.4-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-4.9.4-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 4,
+      "section": "4.9.4",
+      "citation": "Section 4.9.4",
+      "page": 7
+    },
+    "title": "The lateral force on crane runway beams with electrically powered trolleys shall be calculated as 20% of the sum of the rated capacity of the crane and the weight of the hoist and trolley. The lateral",
+    "description": "",
+    "data": {
+      "rule": "The lateral force on crane runway beams with electrically powered trolleys shall be calculated as 20% of the sum of the rated capacity of the crane and the weight of the hoist and trolley. The lateral force shall be assumed to act horizontally at the traction surface of a runway beam, in either direction perpendicular to the beam, and shall be distributed with due regard to the lateral stiffness of the runway beam and supporting structure.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-4.9.5-H1",
@@ -2802,10 +3452,10 @@
       "citation": "Section 4.9.5",
       "page": 7
     },
-    "title": "4.9.5 Longitudinal Force The longitudinal force on crane runway beams, except for bridge cranes with hand-geared bridges, shall be calculated as 10% of the maximum wheel loads of the crane. The longit",
+    "title": "4.9.5 Longitudinal Force",
     "description": "",
     "data": {
-      "rule": "4.9.5 Longitudinal Force The longitudinal force on crane runway beams, except for bridge cranes with hand-geared bridges, shall be calculated as 10% of the maximum wheel loads of the crane. The longitudinal force shall be assumed to act horizontally at the traction surface of a runway beam in either direction parallel to the beam.",
+      "rule": "4.9.5 Longitudinal Force",
       "conditions": [],
       "then": "",
       "else": null,
@@ -2818,6 +3468,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-4.9.5-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-4.9.5-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 4,
+      "section": "4.9.5",
+      "citation": "Section 4.9.5",
+      "page": 7
+    },
+    "title": "The longitudinal force on crane runway beams, except for bridge cranes with hand-geared bridges, shall be calculated as 10% of the maximum wheel loads of the crane. The longitudinal force shall be ass",
+    "description": "",
+    "data": {
+      "rule": "The longitudinal force on crane runway beams, except for bridge cranes with hand-geared bridges, shall be calculated as 10% of the maximum wheel loads of the crane. The longitudinal force shall be assumed to act horizontally at the traction surface of a runway beam in either direction parallel to the beam.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-4.10-H1",
@@ -2829,10 +3506,10 @@
       "citation": "Section 4.10",
       "page": 7
     },
-    "title": "4.10 GARAGE AND VEHICULAR FLOOR LOADS",
+    "title": "4.10",
     "description": "",
     "data": {
-      "rule": "4.10 GARAGE AND VEHICULAR FLOOR LOADS",
+      "rule": "4.10",
       "conditions": [],
       "then": "",
       "else": null,
@@ -2845,6 +3522,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-4.10-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-4.10-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 4,
+      "section": "4.10",
+      "citation": "Section 4.10",
+      "page": 7
+    },
+    "title": "GARAGE AND VEHICULAR FLOOR LOADS",
+    "description": "",
+    "data": {
+      "rule": "GARAGE AND VEHICULAR FLOOR LOADS",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-4.10.1-H1",
@@ -2856,39 +3560,10 @@
       "citation": "Section 4.10.1",
       "page": 7
     },
-    "title": "4.10.1 Passenger Vehicle Garages Floors in garages and portions of a building used for the storage of motor vehicles shall be designed for the uniformly distributed live loads of Table 4.3-1 or the fo",
+    "title": "4.10.1 Passenger Vehicle Garages",
     "description": "",
     "data": {
-      "rule": "4.10.1 Passenger Vehicle Garages Floors in garages and portions of a building used for the storage of motor vehicles shall be designed for the uniformly distributed live loads of Table 4.3-1 or the following concentrated load: (1) for garages restricted to passenger vehicles accommodating not more than nine passengers, 3,000 lb (13.35 kN) acting on an area of 4.5 in. \u00d7 4.5 in. (114 mm \u00d7 114 mm); and (2) for mechanical parking structures without slab or deck that are used for storing passenger vehicles only 2,250 lb (10 kN) per wheel.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [
-      "ASCE7-22-4.3-T4-3-14"
-    ],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-4.10.2-H1",
-    "type": "heading",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 4,
-      "section": "4.10.2",
-      "citation": "Section 4.10.2",
-      "page": 7
-    },
-    "title": "4.10.2 Truck and Bus Garages Live loads in garages and portions of a building used for the storage of trucks and buses shall be in accordance with the AASHTO LRFD Bridge Design Specifications ; howeve",
-    "description": "",
-    "data": {
-      "rule": "4.10.2 Truck and Bus Garages Live loads in garages and portions of a building used for the storage of trucks and buses shall be in accordance with the AASHTO LRFD Bridge Design Specifications ; however, provisions for fatigue and dynamic load allowance therein are not required to be applied.",
+      "rule": "4.10.1 Passenger Vehicle Garages",
       "conditions": [],
       "then": "",
       "else": null,
@@ -2901,6 +3576,89 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-4.10.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-4.10.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 4,
+      "section": "4.10.1",
+      "citation": "Section 4.10.1",
+      "page": 7
+    },
+    "title": "Floors in garages and portions of a building used for the storage of motor vehicles shall be designed for the uniformly distributed live loads of Table 4.3-1 or the following concentrated load: (1) fo",
+    "description": "",
+    "data": {
+      "rule": "Floors in garages and portions of a building used for the storage of motor vehicles shall be designed for the uniformly distributed live loads of Table 4.3-1 or the following concentrated load: (1) for garages restricted to passenger vehicles accommodating not more than nine passengers, 3,000 lb (13.35 kN) acting on an area of 4.5 in. \u00d7 4.5 in. (114 mm \u00d7 114 mm); and (2) for mechanical parking structures without slab or deck that are used for storing passenger vehicles only 2,250 lb (10 kN) per wheel.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-4.3-T4-3-14"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-4.10.2-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 4,
+      "section": "4.10.2",
+      "citation": "Section 4.10.2",
+      "page": 7
+    },
+    "title": "4.10.2 Truck and Bus Garages",
+    "description": "",
+    "data": {
+      "rule": "4.10.2 Truck and Bus Garages",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-4.10.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-4.10.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 4,
+      "section": "4.10.2",
+      "citation": "Section 4.10.2",
+      "page": 7
+    },
+    "title": "Live loads in garages and portions of a building used for the storage of trucks and buses shall be in accordance with the AASHTO LRFD Bridge Design Specifications ; however, provisions for fatigue and",
+    "description": "",
+    "data": {
+      "rule": "Live loads in garages and portions of a building used for the storage of trucks and buses shall be in accordance with the AASHTO LRFD Bridge Design Specifications ; however, provisions for fatigue and dynamic load allowance therein are not required to be applied.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-4.10.2-X1",
@@ -2939,39 +3697,10 @@
       "citation": "Section 4.10.3",
       "page": 7
     },
-    "title": "4.10.3 Sidewalks, Vehicular Driveways, and Yards Subject to Trucking Uniform loads for sidewalks, vehicular driveways, and yards subject to truck loads, other than that provided in Table 4.3-1, shall ",
+    "title": "4.10.3 Sidewalks, Vehicular Driveways, and Yards Subject",
     "description": "",
     "data": {
-      "rule": "4.10.3 Sidewalks, Vehicular Driveways, and Yards Subject to Trucking Uniform loads for sidewalks, vehicular driveways, and yards subject to truck loads, other than that provided in Table 4.3-1, shall also be considered where appropriate, in accordance with an approved method which contains provisions for truck loads. The concentrated wheel load provided in Table 4.3-1 shall be applied on an area of 4.5 in. \u00d7 4.5 in. (114 mm \u00d7 114 mm).",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [
-      "ASCE7-22-4.3-T4-3-14"
-    ],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-4.10.4-H1",
-    "type": "heading",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 4,
-      "section": "4.10.4",
-      "citation": "Section 4.10.4",
-      "page": 7
-    },
-    "title": "4.10.4 Emergency Vehicle Loads Where a structure or portions of a structure are accessed by fi re department vehicles and other emergency vehicles, those portions of the structure subjected to such lo",
-    "description": "",
-    "data": {
-      "rule": "4.10.4 Emergency Vehicle Loads Where a structure or portions of a structure are accessed by fi re department vehicles and other emergency vehicles, those portions of the structure subjected to such loads shall be designed for one of the following:",
+      "rule": "4.10.3 Sidewalks, Vehicular Driveways, and Yards Subject",
       "conditions": [],
       "then": "",
       "else": null,
@@ -2984,6 +3713,89 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-4.10.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-4.10.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 4,
+      "section": "4.10.3",
+      "citation": "Section 4.10.3",
+      "page": 7
+    },
+    "title": "to Trucking Uniform loads for sidewalks, vehicular driveways, and yards subject to truck loads, other than that provided in Table 4.3-1, shall also be considered where appropriate, in accordance with ",
+    "description": "",
+    "data": {
+      "rule": "to Trucking Uniform loads for sidewalks, vehicular driveways, and yards subject to truck loads, other than that provided in Table 4.3-1, shall also be considered where appropriate, in accordance with an approved method which contains provisions for truck loads. The concentrated wheel load provided in Table 4.3-1 shall be applied on an area of 4.5 in. \u00d7 4.5 in. (114 mm \u00d7 114 mm).",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-4.3-T4-3-14"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-4.10.4-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 4,
+      "section": "4.10.4",
+      "citation": "Section 4.10.4",
+      "page": 7
+    },
+    "title": "4.10.4 Emergency",
+    "description": "",
+    "data": {
+      "rule": "4.10.4 Emergency",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-4.10.4-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-4.10.4-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 4,
+      "section": "4.10.4",
+      "citation": "Section 4.10.4",
+      "page": 7
+    },
+    "title": "Vehicle Loads Where a structure or portions of a structure are accessed by fi re department vehicles and other emergency vehicles, those portions of the structure subjected to such loads shall be desi",
+    "description": "",
+    "data": {
+      "rule": "Vehicle Loads Where a structure or portions of a structure are accessed by fi re department vehicles and other emergency vehicles, those portions of the structure subjected to such loads shall be designed for one of the following:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-4.10.4-P1",
@@ -3103,7 +3915,7 @@
       "citation": "Section 4.11",
       "page": 7
     },
-    "title": "4.11 HELIPAD LOADS",
+    "title": "4.11",
     "description": "",
     "data": {
       "rule": "4.11 HELIPAD LOADS",
@@ -3157,10 +3969,10 @@
       "citation": "Section 4.11.2",
       "page": 7
     },
-    "title": "4.11.2 Concentrated Helicopter Loads Two single concentrated loads, 8 ft (2.44 m) apart, shall be applied on the landing area (representing the helicopter ' s two main landing gear, whether skid type ",
+    "title": "4.11.2 Concentrated",
     "description": "",
     "data": {
-      "rule": "4.11.2 Concentrated Helicopter Loads Two single concentrated loads, 8 ft (2.44 m) apart, shall be applied on the landing area (representing the helicopter ' s two main landing gear, whether skid type or wheeled type), each having a magnitude of 0.75 times the maximum takeoff weight of the helicopter and located to produce the maximum load effect on the structural elements under consideration. The concentrated loads shall be applied over an area of 8 in. \u00d7 8 in. (200 mm \u00d7 200 mm) and are not required to act concurrently with other uniform or concentrated live loads.",
+      "rule": "4.11.2 Concentrated",
       "conditions": [],
       "then": "",
       "else": null,
@@ -3173,6 +3985,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-4.11.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-4.11.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 4,
+      "section": "4.11.2",
+      "citation": "Section 4.11.2",
+      "page": 7
+    },
+    "title": "Helicopter Loads Two single concentrated loads, 8 ft (2.44 m) apart, shall be applied on the landing area (representing the helicopter ' s two main landing gear, whether skid type or wheeled type), ea",
+    "description": "",
+    "data": {
+      "rule": "Helicopter Loads Two single concentrated loads, 8 ft (2.44 m) apart, shall be applied on the landing area (representing the helicopter ' s two main landing gear, whether skid type or wheeled type), each having a magnitude of 0.75 times the maximum takeoff weight of the helicopter and located to produce the maximum load effect on the structural elements under consideration. The concentrated loads shall be applied over an area of 8 in. \u00d7 8 in. (200 mm \u00d7 200 mm) and are not required to act concurrently with other uniform or concentrated live loads.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-4.11.2-P1",
@@ -3238,10 +4077,38 @@
       "citation": "Section 4.12.1",
       "page": 7
     },
-    "title": "4.12.1 Uninhabitable Attics without Storage In residential occupancies, uninhabitable attic areas without storage are those where the maximum clear height between the joist and rafter is less than 42 ",
+    "title": "4.12.1 Uninhabitable Attics without Storage",
     "description": "",
     "data": {
-      "rule": "4.12.1 Uninhabitable Attics without Storage In residential occupancies, uninhabitable attic areas without storage are those where the maximum clear height between the joist and rafter is less than 42 in. (1,067 mm) or where there are not two or more adjacent trusses with web con fi gurations capable of accommodating an assumed rectangle 42 in. (1,067 mm) in height by 24 in. (610 mm) in width, or greater, within the plane of the trusses. The live load in Table 4.3-1 need not be assumed to act concurrently with any other live load requirement.",
+      "rule": "4.12.1 Uninhabitable Attics without Storage",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-4.12.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-4.12.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 4,
+      "section": "4.12.1",
+      "citation": "Section 4.12.1",
+      "page": 7
+    },
+    "title": "In residential occupancies, uninhabitable attic areas without storage are those where the maximum clear height between the joist and rafter is less than 42 in. (1,067 mm) or where there are not two or",
+    "description": "",
+    "data": {
+      "rule": "In residential occupancies, uninhabitable attic areas without storage are those where the maximum clear height between the joist and rafter is less than 42 in. (1,067 mm) or where there are not two or more adjacent trusses with web con fi gurations capable of accommodating an assumed rectangle 42 in. (1,067 mm) in height by 24 in. (610 mm) in width, or greater, within the plane of the trusses. The live load in Table 4.3-1 need not be assumed to act concurrently with any other live load requirement.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -3253,9 +4120,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-4.12.2-H1",
@@ -3267,10 +4133,10 @@
       "citation": "Section 4.12.2",
       "page": 7
     },
-    "title": "4.12.2 Uninhabitable Attics with Storage In residential occupancies, uninhabitable attic areas with storage are those where the maximum clear height between the joist and rafter is 42 in. (1,067 mm) o",
+    "title": "4.12.2 Uninhabitable",
     "description": "",
     "data": {
-      "rule": "4.12.2 Uninhabitable Attics with Storage In residential occupancies, uninhabitable attic areas with storage are those where the maximum clear height between the joist and rafter is 42 in. (1,067 mm) or greater or where there are two or more adjacent trusses with web con fi gurations capable of accommodating an assumed rectangle 42 in. (1,067 mm) in height by 24 in. (610 mm) in width, or greater, within the",
+      "rule": "4.12.2 Uninhabitable",
       "conditions": [],
       "then": "",
       "else": null,
@@ -3286,6 +4152,33 @@
   },
   {
     "id": "ASCE7-22-4.12.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-4.12.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 4,
+      "section": "4.12.2",
+      "citation": "Section 4.12.2",
+      "page": 7
+    },
+    "title": "Attics with Storage In residential occupancies, uninhabitable attic areas with storage are those where the maximum clear height between the joist and rafter is 42 in. (1,067 mm) or greater or where th",
+    "description": "",
+    "data": {
+      "rule": "Attics with Storage In residential occupancies, uninhabitable attic areas with storage are those where the maximum clear height between the joist and rafter is 42 in. (1,067 mm) or greater or where there are two or more adjacent trusses with web con fi gurations capable of accommodating an assumed rectangle 42 in. (1,067 mm) in height by 24 in. (610 mm) in width, or greater, within the",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-4.12.2-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3314,7 +4207,7 @@
     "parent_id": "ASCE7-22-4.12.2-H1"
   },
   {
-    "id": "ASCE7-22-4.12.2-T2",
+    "id": "ASCE7-22-4.12.2-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3341,7 +4234,7 @@
     "parent_id": "ASCE7-22-4.12.2-H1"
   },
   {
-    "id": "ASCE7-22-4.12.2-T3",
+    "id": "ASCE7-22-4.12.2-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3411,7 +4304,7 @@
       "citation": "Section 4.13",
       "page": 8
     },
-    "title": "4.13 LIBRARY STACK ROOMS",
+    "title": "4.13",
     "description": "",
     "data": {
       "rule": "4.13 LIBRARY STACK ROOMS",
@@ -3429,7 +4322,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-4.13-T1",
+    "id": "ASCE7-22-4.13-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3555,7 +4448,7 @@
       "citation": "Section 4.14",
       "page": 8
     },
-    "title": "4.14 SEATING FOR ASSEMBLY USES",
+    "title": "4.14",
     "description": "",
     "data": {
       "rule": "4.14 SEATING FOR ASSEMBLY USES",
@@ -3602,7 +4495,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-4.14-T1",
+    "id": "ASCE7-22-4.14-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3629,7 +4522,7 @@
     "parent_id": "ASCE7-22-4.14-H1"
   },
   {
-    "id": "ASCE7-22-4.14-T2",
+    "id": "ASCE7-22-4.14-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3692,7 +4585,7 @@
       "citation": "Section 4.15",
       "page": 8
     },
-    "title": "4.15 STAIR TREADS",
+    "title": "4.15",
     "description": "",
     "data": {
       "rule": "4.15 STAIR TREADS",
@@ -3775,10 +4668,10 @@
       "citation": "Section 4.16.1",
       "page": 8
     },
-    "title": "4.16.1 Roof Loads at Solar Panels Roof structures that support solar panel systems shall be designed to resist each of the following conditions:",
+    "title": "4.16.1 Roof Loads at Solar Panels",
     "description": "",
     "data": {
-      "rule": "4.16.1 Roof Loads at Solar Panels Roof structures that support solar panel systems shall be designed to resist each of the following conditions:",
+      "rule": "4.16.1 Roof Loads at Solar Panels",
       "conditions": [],
       "then": "",
       "else": null,
@@ -3794,6 +4687,33 @@
   },
   {
     "id": "ASCE7-22-4.16.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-4.16.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 4,
+      "section": "4.16.1",
+      "citation": "Section 4.16.1",
+      "page": 8
+    },
+    "title": "Roof structures that support solar panel systems shall be designed to resist each of the following conditions:",
+    "description": "",
+    "data": {
+      "rule": "Roof structures that support solar panel systems shall be designed to resist each of the following conditions:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-4.16.1-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3849,7 +4769,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-4.16.1-T2",
+    "id": "ASCE7-22-4.16.1-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3914,39 +4834,10 @@
       "citation": "Section 4.16.3",
       "page": 8
     },
-    "title": "4.16.3 Open-Grid Roof Structures Supporting Solar Panels Structures with open-grid framing and no roof deck or sheathing supporting solar panel systems shall be designed to support the uniform and con",
+    "title": "4.16.3 Open-Grid",
     "description": "",
     "data": {
-      "rule": "4.16.3 Open-Grid Roof Structures Supporting Solar Panels Structures with open-grid framing and no roof deck or sheathing supporting solar panel systems shall be designed to support the uniform and concentrated roof live loads speci fi ed in Table 4.3-1, except that the uniform roof live load shall be permitted to be reduced to 12 psf (0.57 kN/m 2 ).",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [
-      "ASCE7-22-4.3-T4-3-14"
-    ],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-4.17-H1",
-    "type": "heading",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 4,
-      "section": "4.17",
-      "citation": "Section 4.17",
-      "page": 8
-    },
-    "title": "4.17 CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
-    "description": "",
-    "data": {
-      "rule": "4.17 CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
+      "rule": "4.16.3 Open-Grid",
       "conditions": [],
       "then": "",
       "else": null,
@@ -3959,6 +4850,89 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-4.16.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-4.16.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 4,
+      "section": "4.16.3",
+      "citation": "Section 4.16.3",
+      "page": 8
+    },
+    "title": "Roof Structures Supporting Solar Panels Structures with open-grid framing and no roof deck or sheathing supporting solar panel systems shall be designed to support the uniform and concentrated roof li",
+    "description": "",
+    "data": {
+      "rule": "Roof Structures Supporting Solar Panels Structures with open-grid framing and no roof deck or sheathing supporting solar panel systems shall be designed to support the uniform and concentrated roof live loads speci fi ed in Table 4.3-1, except that the uniform roof live load shall be permitted to be reduced to 12 psf (0.57 kN/m 2 ).",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-4.3-T4-3-14"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-4.17-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 4,
+      "section": "4.17",
+      "citation": "Section 4.17",
+      "page": 8
+    },
+    "title": "4.17",
+    "description": "",
+    "data": {
+      "rule": "4.17",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-4.17-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-4.17-H2",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 4,
+      "section": "4.17",
+      "citation": "Section 4.17",
+      "page": 8
+    },
+    "title": "CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
+    "description": "",
+    "data": {
+      "rule": "CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-4.17-P1",
@@ -3988,7 +4962,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-4.17-T1",
+    "id": "ASCE7-22-4.17-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -4042,7 +5016,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-4.17-T2",
+    "id": "ASCE7-22-4.17-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",

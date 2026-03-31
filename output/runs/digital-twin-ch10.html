@@ -1,0 +1,223 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8">
+<title>ASCE 7-22 Chapter 10 — Digital Twin</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#FFF;--s:#F5F5F5;--t:#1A1A1A;--m:#6B6B6B;--b:#D4D4D4;--sub:#E8E8E8;
+--g:#16A34A;--a:#0057FF;--r:#DC2626;--am:#D97706;--cy:#06B6D4;--purple:#8B5CF6}
+@media(prefers-color-scheme:dark){:root{--bg:#0A0A0A;--s:#141414;--t:#E5E5E5;--m:#808080;
+--b:#2A2A2A;--sub:#1A1A1A;--a:#3B82F6}}
+body{background:var(--bg);color:var(--t);font-family:'JetBrains Mono','SF Mono',monospace;
+font-size:11px;max-width:900px;margin:0 auto;padding:16px}
+h1{font-size:13px;text-transform:uppercase;letter-spacing:.1em;margin-bottom:2px}
+.sub{font-size:10px;color:var(--m);margin-bottom:12px}
+.nav{font-size:10px;color:var(--a);margin-bottom:16px}
+.nav a{color:var(--a);text-decoration:none}
+.nav a:hover{text-decoration:underline}
+.section{margin-bottom:12px}
+.sec-num{font-size:12px;font-weight:700;color:var(--t);margin-bottom:2px}
+.sec-0,.sec-1{margin-left:0}.sec-2{margin-left:16px}.sec-3{margin-left:32px}.sec-4{margin-left:48px}
+.child{margin:3px 0;padding:4px 8px;border-left:2px solid var(--sub);font-size:10px;line-height:1.5}
+.child.provision{border-color:var(--g);background:rgba(22,163,74,0.03)}
+.child.definition{border-color:var(--purple);background:rgba(139,92,246,0.03)}
+.child.formula{border-color:var(--a);background:rgba(59,130,246,0.03)}
+.child.table{border-color:var(--cy);background:rgba(6,182,212,0.03)}
+.child.figure{border-color:var(--am);background:rgba(217,119,6,0.03)}
+.child.exception{border-color:var(--r);background:rgba(220,38,38,0.03)}
+.child.user_note{border-color:var(--m);background:rgba(128,128,128,0.03)}
+.child.text_block{border-color:var(--sub)}
+.tag{display:inline-block;padding:0 3px;border:1px solid;font-size:7px;text-transform:uppercase;
+letter-spacing:.04em;margin-right:3px;vertical-align:middle}
+.tag-provision{border-color:var(--g);color:var(--g)}
+.tag-definition{border-color:var(--purple);color:var(--purple)}
+.tag-formula{border-color:var(--a);color:var(--a)}
+.tag-table{border-color:var(--cy);color:var(--cy)}
+.tag-figure{border-color:var(--am);color:var(--am)}
+.tag-exception{border-color:var(--r);color:var(--r)}
+.tag-user_note{border-color:var(--m);color:var(--m)}
+.tag-text_block{border-color:var(--sub);color:var(--m)}
+.meta{font-size:8px;color:var(--m)}
+.xref{font-size:8px;color:var(--a)}
+b{font-weight:600}
+table.tbl{width:100%;border-collapse:collapse;font-size:9px;margin:4px 0}
+table.tbl th{text-align:left;font-size:7px;text-transform:uppercase;color:var(--m);border-bottom:1px solid var(--b);padding:1px 4px}
+table.tbl td{padding:1px 4px;border-bottom:1px solid var(--sub)}
+</style></head><body>
+<h1>ASCE 7-22 Chapter 10 — Digital Twin</h1>
+<div class="sub">160 elements · 34 provisions · 7 definitions · 5 formulas · 0 tables</div>
+<div class="nav"><a href="digital-twin-index.html">← All Chapters</a></div>
+
+<div class="section sec-1">
+<div class="sec-num">10.1 GENERAL</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">10.1.1 Site-Speci</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+fi c Studies Site-speci fi c studies that are acceptable to the Authority Having Jurisdiction shall be used to determine the ice thickness or load for the applicable Risk Category, concurrent wind speed, and concurrent temperature in
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Areas where records or experience indicate that snow or in-cloud icing produce larger loads than freezing rain;
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Special icing regions, as shown in Figures 10.4-2 through 10.4-5; and
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Complex terrain, where examination indicates unusual icing conditions exist.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">10.1.2 Dynamic Loads</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Dynamic loads, such as those resulting from galloping, ice shedding, and aeolian vibrations, which are caused, or enhanced, by an ice accretion on a fl exible structural member, component, or appurtenance, are not covered in this section.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">10.1.3 Exclusions</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Electrical supply and communication systems, communications towers and masts, and other structures for which national standards exist are excluded from the requirements of this section. Applicable standards and documents include the National Electrical Safety Code, ASCE Manual of Practice 74, and ANSI/TIA-222.
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">10.2</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">10.3 SYMBOLS</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Ai = Cross-sectional area of ice, ft 2 (m 2 )
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+As = Surface area of one side of a fl at plate or the projected area of complex shapes, ft 2 (m 2 )
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+D = Diameter of a circular structure or member, as de fi ned in Chapter 29, ft (m)
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Dc = Diameter of the cylinder circumscribing an object, ft (m)
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+f z = Factor to account for the increase in ice thickness with height
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Kzt = Topographic factor, as de fi ned in Chapter 26
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+qz = Velocity pressure evaluated at height, z , as de fi ned in Chapter 29, lb ∕ ft 2 ( N ∕ m 2 )
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+r = Radius of the maximum cross section of a dome or radius of a sphere, ft (m)
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+t = Nominal ice thickness on a cylinder caused by freezing rain at a height of 33 ft (10 m), from Figures 10.4-2 through 10.4-5, for the applicable risk category, in. (mm)
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+t d = Design ice thickness from Equation (10.4-5), in. (mm)
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Vc = Concurrent gust speed, from Figures 10.5-1 and 10.5-2, mph (m ∕ s)
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Vi = Volume of ice, ft 3 (m 3 )
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+z = Height above ground, ft (m)
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+ε = Solidity ratio, as de fi ned in Chapter 29
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">10.4</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+ICE LOADS CAUSED BY FREEZING RAIN
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">10.4.1 Ice Load</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">10.4.2 Nominal Ice Thickness</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The nominal ice thickness is the equivalent radial glaze ice thickness. Figures 10.4-2 through
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">10.4.3 Height Factor</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The height factor, f z , used to increase the radial thickness of ice for height above ground, z , shall be determined by
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+where f z = 1.4 for z &gt; 900ft. where f z = 1.4 for z &gt; 275m.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">10.4.4 Topographic</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Factor Both the ice thickness and concurrent gust speed for structures on hills, ridges, and escarpments are higher than those on level terrain because of wind speed-up effects. The topographic factor for the concurrent wind pressure is Kzt , and the topographic factor for ice thickness is ð Kzt Þ 0.35 , where Kzt is obtained from Equation (26.8-1).
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">10.4.5 Design Ice Thickness for Freezing Rain</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The design ice thickness t d shall be calculated from Equation (10.4-5).
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">10.5</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+WIND ON ICE-COVERED STRUCTURES
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">10.5.1 Wind on Ice-Covered Chimneys, Tanks, and Similar</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Structures Force coef fi cients, Cf , for structures with square, hexagonal, and octagonal cross sections shall be as given in Figure 29.4-1. Force coef fi cients, Cf , for structures with round cross sections shall be as given in Figure 29.4-1 for the entry round, D p qz ≤ 2.5 for all ice thicknesses, wind speeds, and structure diameters.
+<br><span class="xref">→ ASCE7-22-29.4-F29-4-11</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">10.5.2 Wind on Ice-Covered Solid Freestanding Walls and</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Solid Signs Force coef fi cients, Cf , shall be as given in Figure 29.3-1, based on the dimensions of the wall or sign, including ice.
+<br><span class="xref">→ ASCE7-22-29.3-F29-3-11</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">10.5.3 Wind</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+on Ice-Covered Open Signs and Lattice Frameworks The solidity ratio, ε , shall be based on the projected area, including ice. The force coef fi cient, Cf , for the projected area of fl at members shall be as given in Figure 29.4-2. The force coef fi cient, Cf , for rounded members and for the additional projected area caused by ice on both fl at and rounded members shall be as given in Figure 29.4
+<br><span class="xref">→ ASCE7-22-29.4-F29-4-21</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">10.5.4 Wind on Ice-Covered Trussed Towers</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The solidity ratio, ε , shall be based on the projected area, including ice. The force coef fi cients, Cf , shall be as given in Figure 29.4-3. It is acceptable to reduce the force coef fi cients, Cf , for the additional projected area caused by ice on both round and fl at members by the factor for rounded members in Note 3 of Figure 29.4-3.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">10.5.5 Wind on Ice-Covered Guys and Cables</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The force coef fi cient, Cf , (as de fi ned in Chapter 29) for ice-covered guys and cables shall be 1.2.
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">10.6</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+DESIGN TEMPERATURES FOR FREEZING RAIN
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">10.7</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">10.8</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">10.9</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+</body></html>

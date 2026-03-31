@@ -9,10 +9,10 @@
       "citation": "Section 15",
       "page": 1
     },
-    "title": "CHAPTER 15 SEISMIC DESIGN REQUIREMENTS FOR NONBUILDING STRUCTURES",
+    "title": "CHAPTER 15",
     "description": "",
     "data": {
-      "rule": "CHAPTER 15 SEISMIC DESIGN REQUIREMENTS FOR NONBUILDING STRUCTURES",
+      "rule": "CHAPTER 15",
       "conditions": [],
       "then": "",
       "else": null,
@@ -25,6 +25,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-15-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15",
+      "citation": "Section 15",
+      "page": 1
+    },
+    "title": "SEISMIC DESIGN REQUIREMENTS FOR NONBUILDING STRUCTURES",
+    "description": "",
+    "data": {
+      "rule": "SEISMIC DESIGN REQUIREMENTS FOR NONBUILDING STRUCTURES",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-15.1-H1",
@@ -63,10 +90,10 @@
       "citation": "Section 15.1.1",
       "page": 1
     },
-    "title": "15.1.1 Nonbuilding Structures The provisions of this chapter shall apply to unoccupied nonbuilding structures and buildings whose primary purpose is to enclose equipment or machinery and whose occupan",
+    "title": "15.1.1 Nonbuilding Structures",
     "description": "",
     "data": {
-      "rule": "15.1.1 Nonbuilding Structures The provisions of this chapter shall apply to unoccupied nonbuilding structures and buildings whose primary purpose is to enclose equipment or machinery and whose occupants are engaged in maintenance or monitoring of that equipment, machinery, or their processes. Nonbuilding structures at or below the grade plane or supported by other structures shall be designed and detailed to resist the minimum lateral forces speci fi ed in this chapter. Design shall conform to the applicable requirements of other sections as modi fi ed by this section. Foundation design shall comply with the requirements of Sections 12.1.5 and 12.13, and Chapter 14.",
+      "rule": "15.1.1 Nonbuilding Structures",
       "conditions": [],
       "then": "",
       "else": null,
@@ -81,6 +108,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-15.1.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15.1.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.1.1",
+      "citation": "Section 15.1.1",
+      "page": 1
+    },
+    "title": "The provisions of this chapter shall apply to unoccupied nonbuilding structures and buildings whose primary purpose is to enclose equipment or machinery and whose occupants are engaged in maintenance ",
+    "description": "",
+    "data": {
+      "rule": "The provisions of this chapter shall apply to unoccupied nonbuilding structures and buildings whose primary purpose is to enclose equipment or machinery and whose occupants are engaged in maintenance or monitoring of that equipment, machinery, or their processes. Nonbuilding structures at or below the grade plane or supported by other structures shall be designed and detailed to resist the minimum lateral forces speci fi ed in this chapter. Design shall conform to the applicable requirements of other sections as modi fi ed by this section. Foundation design shall comply with the requirements of Sections 12.1.5 and 12.13, and Chapter 14.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-15.1.2-H1",
     "type": "heading",
     "source": {
@@ -90,10 +144,10 @@
       "citation": "Section 15.1.2",
       "page": 1
     },
-    "title": "15.1.2 Design The design of nonbuilding structures shall provide suf fi cient stiffness, strength, and ductility consistent with the requirements speci fi ed herein for buildings to resist the effects",
+    "title": "15.1.2 Design",
     "description": "",
     "data": {
-      "rule": "15.1.2 Design The design of nonbuilding structures shall provide suf fi cient stiffness, strength, and ductility consistent with the requirements speci fi ed herein for buildings to resist the effects of seismic ground motions as represented by these design forces:",
+      "rule": "15.1.2 Design",
       "conditions": [],
       "then": "",
       "else": null,
@@ -106,6 +160,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-15.1.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15.1.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.1.2",
+      "citation": "Section 15.1.2",
+      "page": 1
+    },
+    "title": "The design of nonbuilding structures shall provide suf fi cient stiffness, strength, and ductility consistent with the requirements speci fi ed herein for buildings to resist the effects of seismic gr",
+    "description": "",
+    "data": {
+      "rule": "The design of nonbuilding structures shall provide suf fi cient stiffness, strength, and ductility consistent with the requirements speci fi ed herein for buildings to resist the effects of seismic ground motions as represented by these design forces:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-15.1.2-P1",
@@ -171,10 +252,10 @@
       "citation": "Section 15.1.3",
       "page": 1
     },
-    "title": "15.1.3 Structural Analysis Procedure Selection Structural analysis procedures for nonbuilding structures that are similar to buildings shall be selected in accordance with Section 12.6. Nonbuilding st",
+    "title": "15.1.3 Structural Analysis Procedure Selection",
     "description": "",
     "data": {
-      "rule": "15.1.3 Structural Analysis Procedure Selection Structural analysis procedures for nonbuilding structures that are similar to buildings shall be selected in accordance with Section 12.6. Nonbuilding structures that are not similar to buildings shall be designed using the equivalent lateral force procedure in accordance with Section 12.8, the linear dynamic analysis procedures in accordance with Section 12.9, the nonlinear response history analysis procedure in accordance with Chapter 16, or the procedure prescribed in the speci fi c reference document.",
+      "rule": "15.1.3 Structural Analysis Procedure Selection",
       "conditions": [],
       "then": "",
       "else": null,
@@ -189,6 +270,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-15.1.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15.1.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.1.3",
+      "citation": "Section 15.1.3",
+      "page": 1
+    },
+    "title": "Structural analysis procedures for nonbuilding structures that are similar to buildings shall be selected in accordance with Section 12.6. Nonbuilding structures that are not similar to buildings shal",
+    "description": "",
+    "data": {
+      "rule": "Structural analysis procedures for nonbuilding structures that are similar to buildings shall be selected in accordance with Section 12.6. Nonbuilding structures that are not similar to buildings shall be designed using the equivalent lateral force procedure in accordance with Section 12.8, the linear dynamic analysis procedures in accordance with Section 12.9, the nonlinear response history analysis procedure in accordance with Chapter 16, or the procedure prescribed in the speci fi c reference document.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-15.1.4-H1",
     "type": "heading",
     "source": {
@@ -198,10 +306,38 @@
       "citation": "Section 15.1.4",
       "page": 1
     },
-    "title": "15.1.4 Nonbuilding Structures Sensitive to Vertical Ground Motions Tanks, vessels, hanging structures, and nonbuilding structures incorporating horizontal cantilevers shall use Section 11.9 to determi",
+    "title": "15.1.4 Nonbuilding Structures Sensitive to Vertical Ground",
     "description": "",
     "data": {
-      "rule": "15.1.4 Nonbuilding Structures Sensitive to Vertical Ground Motions Tanks, vessels, hanging structures, and nonbuilding structures incorporating horizontal cantilevers shall use Section 11.9 to determine the vertical seismic design ground motion to be applied to the design of the nonbuilding structure. For these structures, the design forces in members and connections shall be determined by modal analysis performed in accordance with Section 12.9 or response history analysis performed in accordance with Chapter 12 or 16, except that the vertical ground motion component shall be included in the analysis using the spectra de fi ned in Section 11.9. Alternatively, the equivalent static procedures of Section 12.8 and Section 15.4 are permitted to be used to determine the seismic design force with the vertical component motions. For tanks and vessels, vertical ground motions shall be applied as required by Section 15.7.2, Item (c). For hanging structures and nonbuilding structures incorporating horizontal cantilevers, the design vertical response spectral acceleration, Sav , shall be taken as the peak value from the response spectrum of Section 11.9. Alternatively, the design vertical response spectral acceleration, Sav , is permitted to be determined using the provisions of Section 11.9, with the vertical period of the structure determined by rational analysis. Horizontal seismic effects shall be combined with vertical seismic effects using the direction of loading criteria speci fi ed in Section 15.1.4.1 for hanging structures and structures incorporating horizontal cantilevers. The response modi fi cation factor, R , for use with vertical seismic design ground motions shall be taken as 1.0, except in the determination of hydrodynamic hoop forces in cylindrical tank walls. The determination of hydrodynamic hoop forces caused by vertical seismic design ground motions in cylindrical tank walls shall comply with the requirements of Section 15.7.2, Item (c), ii.",
+      "rule": "15.1.4 Nonbuilding Structures Sensitive to Vertical Ground",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-15.1.4-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15.1.4-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.1.4",
+      "citation": "Section 15.1.4",
+      "page": 1
+    },
+    "title": "Motions Tanks, vessels, hanging structures, and nonbuilding structures incorporating horizontal cantilevers shall use Section 11.9 to determine the vertical seismic design ground motion to be applied ",
+    "description": "",
+    "data": {
+      "rule": "Motions Tanks, vessels, hanging structures, and nonbuilding structures incorporating horizontal cantilevers shall use Section 11.9 to determine the vertical seismic design ground motion to be applied to the design of the nonbuilding structure. For these structures, the design forces in members and connections shall be determined by modal analysis performed in accordance with Section 12.9 or response history analysis performed in accordance with Chapter 12 or 16, except that the vertical ground motion component shall be included in the analysis using the spectra de fi ned in Section 11.9. Alternatively, the equivalent static procedures of Section 12.8 and Section 15.4 are permitted to be used to determine the seismic design force with the vertical component motions. For tanks and vessels, vertical ground motions shall be applied as required by Section 15.7.2, Item (c). For hanging structures and nonbuilding structures incorporating horizontal cantilevers, the design vertical response spectral acceleration, Sav , shall be taken as the peak value from the response spectrum of Section 11.9. Alternatively, the design vertical response spectral acceleration, Sav , is permitted to be determined using the provisions of Section 11.9, with the vertical period of the structure determined by rational analysis. Horizontal seismic effects shall be combined with vertical seismic effects using the direction of loading criteria speci fi ed in Section 15.1.4.1 for hanging structures and structures incorporating horizontal cantilevers. The response modi fi cation factor, R , for use with vertical seismic design ground motions shall be taken as 1.0, except in the determination of hydrodynamic hoop forces in cylindrical tank walls. The determination of hydrodynamic hoop forces caused by vertical seismic design ground motions in cylindrical tank walls shall comply with the requirements of Section 15.7.2, Item (c), ii.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -215,9 +351,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-15.1.4.1-P1",
@@ -582,10 +717,10 @@
       "citation": "Section 15.2.2",
       "page": 2
     },
-    "title": "15.2.2 Nonstructural Components Spanning between Nonbuilding Structures Nonstructural components spanning between nonbuilding structures shall comply with all applicable requirements of Chapter 13. De",
+    "title": "15.2.2 Nonstructural",
     "description": "",
     "data": {
-      "rule": "15.2.2 Nonstructural Components Spanning between Nonbuilding Structures Nonstructural components spanning between nonbuilding structures shall comply with all applicable requirements of Chapter 13. Design and detailing for relative displacement between structures shall be in accordance with Section 13.3.2.2.",
+      "rule": "15.2.2 Nonstructural",
       "conditions": [],
       "then": "",
       "else": null,
@@ -600,6 +735,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-15.2.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15.2.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.2.2",
+      "citation": "Section 15.2.2",
+      "page": 2
+    },
+    "title": "Components Spanning between Nonbuilding Structures Nonstructural components spanning between nonbuilding structures shall comply with all applicable requirements of Chapter 13. Design and detailing fo",
+    "description": "",
+    "data": {
+      "rule": "Components Spanning between Nonbuilding Structures Nonstructural components spanning between nonbuilding structures shall comply with all applicable requirements of Chapter 13. Design and detailing for relative displacement between structures shall be in accordance with Section 13.3.2.2.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-15.3-H1",
     "type": "heading",
     "source": {
@@ -609,10 +771,10 @@
       "citation": "Section 15.3",
       "page": 2
     },
-    "title": "15.3 NONBUILDING STRUCTURES SUPPORTED BY OTHER STRUCTURES",
+    "title": "15.3",
     "description": "",
     "data": {
-      "rule": "15.3 NONBUILDING STRUCTURES SUPPORTED BY OTHER STRUCTURES",
+      "rule": "15.3",
       "conditions": [],
       "then": "",
       "else": null,
@@ -625,6 +787,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-15.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.3",
+      "citation": "Section 15.3",
+      "page": 2
+    },
+    "title": "NONBUILDING STRUCTURES SUPPORTED BY OTHER STRUCTURES",
+    "description": "",
+    "data": {
+      "rule": "NONBUILDING STRUCTURES SUPPORTED BY OTHER STRUCTURES",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-15.3-P1",
@@ -828,10 +1017,10 @@
       "citation": "Section 15.3.2",
       "page": 2
     },
-    "title": "15.3.2 Supported Nonbuilding Structures with Greater Than or Equal to 20% of Combined Weight For the condition where the weight of the supported nonbuilding structure is equal to or greater than 20% o",
+    "title": "15.3.2 Supported",
     "description": "",
     "data": {
-      "rule": "15.3.2 Supported Nonbuilding Structures with Greater Than or Equal to 20% of Combined Weight For the condition where the weight of the supported nonbuilding structure is equal to or greater than 20% of the combined effective seismic weight of the nonbuilding structure and supporting structure, an analysis combining the structural characteristics of both the nonbuilding structure and the supporting structures shall be performed to determine the seismic design forces.",
+      "rule": "15.3.2 Supported",
       "conditions": [],
       "then": "",
       "else": null,
@@ -844,6 +1033,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-15.3.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15.3.2-H2",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.3.2",
+      "citation": "Section 15.3.2",
+      "page": 2
+    },
+    "title": "Nonbuilding Structures with Greater Than or Equal to 20% of Combined Weight For the condition where the weight of the supported nonbuilding structure is equal to or greater than 20% of the combined ef",
+    "description": "",
+    "data": {
+      "rule": "Nonbuilding Structures with Greater Than or Equal to 20% of Combined Weight For the condition where the weight of the supported nonbuilding structure is equal to or greater than 20% of the combined effective seismic weight of the nonbuilding structure and supporting structure, an analysis combining the structural characteristics of both the nonbuilding structure and the supporting structures shall be performed to determine the seismic design forces.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-15.3.2-P1",
@@ -984,10 +1200,10 @@
       "citation": "Section 15.3.3",
       "page": 3
     },
-    "title": "15.3.3 Nonstructural Components Supported by Nonbuilding Structures Nonstructural components supported by nonbuilding structures shall be designed in accordance with Chapter 13 of this standard.",
+    "title": "15.3.3 Nonstructural Components Supported by Nonbuilding",
     "description": "",
     "data": {
-      "rule": "15.3.3 Nonstructural Components Supported by Nonbuilding Structures Nonstructural components supported by nonbuilding structures shall be designed in accordance with Chapter 13 of this standard.",
+      "rule": "15.3.3 Nonstructural Components Supported by Nonbuilding",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1002,6 +1218,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-15.3.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15.3.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.3.3",
+      "citation": "Section 15.3.3",
+      "page": 3
+    },
+    "title": "Structures Nonstructural components supported by nonbuilding structures shall be designed in accordance with Chapter 13 of this standard.",
+    "description": "",
+    "data": {
+      "rule": "Structures Nonstructural components supported by nonbuilding structures shall be designed in accordance with Chapter 13 of this standard.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-15.4-H1",
     "type": "heading",
     "source": {
@@ -1011,10 +1254,10 @@
       "citation": "Section 15.4",
       "page": 3
     },
-    "title": "15.4 STRUCTURAL DESIGN REQUIREMENTS",
+    "title": "15.4",
     "description": "",
     "data": {
-      "rule": "15.4 STRUCTURAL DESIGN REQUIREMENTS",
+      "rule": "15.4",
       "conditions": [],
       "then": "",
       "else": null,
@@ -1027,6 +1270,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-15.4-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15.4-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.4",
+      "citation": "Section 15.4",
+      "page": 3
+    },
+    "title": "STRUCTURAL DESIGN REQUIREMENTS",
+    "description": "",
+    "data": {
+      "rule": "STRUCTURAL DESIGN REQUIREMENTS",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-15.4.1-P1",
@@ -1849,23 +2119,23 @@
     "data": {
       "expression": "Design and detailing C s =0.044S DS I e (15.4-1)",
       "parameters": {
-        "e": {
-          "description": "Actual eccentricity measured in plan between the center of mass of the structure above the isolation interface and the center of rigidity of the isolation system, plus accidental eccentricity [ft (mm)], taken as 5% of the longest plan dimension of the structure perpendicular to the direction of force under consideration;",
-          "source": "ASCE7-22-17.5.3.3-T4"
-        },
         "S": {
           "description": "Center-to-center row spacing for ground-mounted solar panels in Figure 29.4-9",
           "unit": "ft",
           "source": "ASCE7-22-26.3-T90"
         },
-        "s": {
-          "description": "Vertical dimension of the solid freestanding wall or solid sign from Figure 29.3-1",
-          "unit": "ft",
-          "source": "ASCE7-22-26.3-T92"
+        "e": {
+          "description": "Actual eccentricity measured in plan between the center of mass of the structure above the isolation interface and the center of rigidity of the isolation system, plus accidental eccentricity [ft (mm)], taken as 5% of the longest plan dimension of the structure perpendicular to the direction of force under consideration;",
+          "source": "ASCE7-22-17.5.3.3-T4"
         },
         "I": {
           "description": "Radius of gyration of the isolation system [ft (mm)], which is equal to [ \u00f0 b 2 \u00fe d 2 \u00de \u2215 12 \u008a 1 \u2215 2 for isolation systems of rectangular plan dimension, b \u00d7 d ",
           "source": "ASCE7-22-17.5.3.3-T8"
+        },
+        "s": {
+          "description": "Vertical dimension of the solid freestanding wall or solid sign from Figure 29.3-1",
+          "unit": "ft",
+          "source": "ASCE7-22-26.3-T92"
         }
       }
     },
@@ -2477,10 +2747,6 @@
     "data": {
       "expression": "C =0.8S \u2215\u00f0R\u2215I \u00de (15.4-2)",
       "parameters": {
-        "I": {
-          "description": "Radius of gyration of the isolation system [ft (mm)], which is equal to [ \u00f0 b 2 \u00fe d 2 \u00de \u2215 12 \u008a 1 \u2215 2 for isolation systems of rectangular plan dimension, b \u00d7 d ",
-          "source": "ASCE7-22-17.5.3.3-T8"
-        },
         "R": {
           "description": "Response modi fi cation factor for the building or nonbuilding structure supporting the component, from Table 12.2-1, 15.4-1, or 15.4-2; and",
           "source": "ASCE7-22-13.3.1.2-T3"
@@ -2489,6 +2755,10 @@
           "description": "Center-to-center row spacing for ground-mounted solar panels in Figure 29.4-9",
           "unit": "ft",
           "source": "ASCE7-22-26.3-T90"
+        },
+        "I": {
+          "description": "Radius of gyration of the isolation system [ft (mm)], which is equal to [ \u00f0 b 2 \u00fe d 2 \u00de \u2215 12 \u008a 1 \u2215 2 for isolation systems of rectangular plan dimension, b \u00d7 d ",
+          "source": "ASCE7-22-17.5.3.3-T8"
         }
       }
     },
@@ -2515,14 +2785,14 @@
     "data": {
       "expression": "C =0.044S I (15.4-3)",
       "parameters": {
-        "I": {
-          "description": "Radius of gyration of the isolation system [ft (mm)], which is equal to [ \u00f0 b 2 \u00fe d 2 \u00de \u2215 12 \u008a 1 \u2215 2 for isolation systems of rectangular plan dimension, b \u00d7 d ",
-          "source": "ASCE7-22-17.5.3.3-T8"
-        },
         "S": {
           "description": "Center-to-center row spacing for ground-mounted solar panels in Figure 29.4-9",
           "unit": "ft",
           "source": "ASCE7-22-26.3-T90"
+        },
+        "I": {
+          "description": "Radius of gyration of the isolation system [ft (mm)], which is equal to [ \u00f0 b 2 \u00fe d 2 \u00de \u2215 12 \u008a 1 \u2215 2 for isolation systems of rectangular plan dimension, b \u00d7 d ",
+          "source": "ASCE7-22-17.5.3.3-T8"
         }
       }
     },
@@ -2549,27 +2819,27 @@
     "data": {
       "expression": "C s =0.5S 1 \u2215\u00f0R\u2215I e \u00de (15.4-4)",
       "parameters": {
-        "R": {
-          "description": "Response modi fi cation factor for the building or nonbuilding structure supporting the component, from Table 12.2-1, 15.4-1, or 15.4-2; and",
-          "source": "ASCE7-22-13.3.1.2-T3"
-        },
-        "e": {
-          "description": "Actual eccentricity measured in plan between the center of mass of the structure above the isolation interface and the center of rigidity of the isolation system, plus accidental eccentricity [ft (mm)], taken as 5% of the longest plan dimension of the structure perpendicular to the direction of force under consideration;",
-          "source": "ASCE7-22-17.5.3.3-T4"
-        },
         "S": {
           "description": "Center-to-center row spacing for ground-mounted solar panels in Figure 29.4-9",
           "unit": "ft",
           "source": "ASCE7-22-26.3-T90"
         },
-        "s": {
-          "description": "Vertical dimension of the solid freestanding wall or solid sign from Figure 29.3-1",
-          "unit": "ft",
-          "source": "ASCE7-22-26.3-T92"
+        "e": {
+          "description": "Actual eccentricity measured in plan between the center of mass of the structure above the isolation interface and the center of rigidity of the isolation system, plus accidental eccentricity [ft (mm)], taken as 5% of the longest plan dimension of the structure perpendicular to the direction of force under consideration;",
+          "source": "ASCE7-22-17.5.3.3-T4"
         },
         "I": {
           "description": "Radius of gyration of the isolation system [ft (mm)], which is equal to [ \u00f0 b 2 \u00fe d 2 \u00de \u2215 12 \u008a 1 \u2215 2 for isolation systems of rectangular plan dimension, b \u00d7 d ",
           "source": "ASCE7-22-17.5.3.3-T8"
+        },
+        "R": {
+          "description": "Response modi fi cation factor for the building or nonbuilding structure supporting the component, from Table 12.2-1, 15.4-1, or 15.4-2; and",
+          "source": "ASCE7-22-13.3.1.2-T3"
+        },
+        "s": {
+          "description": "Vertical dimension of the solid freestanding wall or solid sign from Figure 29.3-1",
+          "unit": "ft",
+          "source": "ASCE7-22-26.3-T92"
         }
       }
     },
@@ -3210,70 +3480,70 @@
     "data": {
       "expression": "n un c d on a f c o c r e m le a r n a c ti e on w s it a h n t d he se r i e s q m u i i c re c m oe e f n fi ts - T=2\u03c0 u u u u u i= X 1 n w i \u03b42 i (15.4-6)",
       "parameters": {
-        "t": {
-          "description": "Nominal ice thickness on a cylinder caused by freezing rain at a height of 33 ft (10 m), from Figures 10.4-2 through 10.4-5, for the applicable risk category, in. (mm)",
-          "source": "ASCE7-22-10.3-T9"
+        "i": {
+          "description": "Building level referred to by a subscript i ;",
+          "source": "ASCE7-22-11.3-T59"
         },
-        "m": {
-          "description": "Component demand modi fi cation factor accounting for expected ductility, applied to the expected strength of a ductility-governed element action, to obtain the acceptable structural component capacity at a particular performance level when using a linear static analysis procedure",
-          "source": "ASCE7-22-6.3-T60"
+        "e": {
+          "description": "Actual eccentricity measured in plan between the center of mass of the structure above the isolation interface and the center of rigidity of the isolation system, plus accidental eccentricity [ft (mm)], taken as 5% of the longest plan dimension of the structure perpendicular to the direction of force under consideration;",
+          "source": "ASCE7-22-17.5.3.3-T4"
+        },
+        "h": {
+          "description": "Height of a shear wall measured as the maximum clear height from top of foundation to bottom of diaphragm framing above, or the maximum clear height from top of diaphragm to bottom of diaphragm framing above",
+          "source": "ASCE7-22-11.3-T49"
         },
         "s": {
           "description": "Vertical dimension of the solid freestanding wall or solid sign from Figure 29.3-1",
           "unit": "ft",
           "source": "ASCE7-22-26.3-T92"
         },
-        "a": {
-          "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
-          "source": "ASCE7-22-28.3.7-T22"
-        },
-        "c": {
-          "description": "Distance from the neutral axis of a fl exural member to the fi ber of maximum compressive strain, in. (mm)",
-          "source": "ASCE7-22-11.3-T25"
-        },
-        "h": {
-          "description": "Height of a shear wall measured as the maximum clear height from top of foundation to bottom of diaphragm framing above, or the maximum clear height from top of diaphragm to bottom of diaphragm framing above",
-          "source": "ASCE7-22-11.3-T49"
+        "n": {
+          "description": "Number of shear walls in the building effective in resisting lateral forces in the direction under consideration;",
+          "source": "ASCE7-22-26.11.3-T22"
         },
         "q": {
           "description": "Discharge per unit width over the overtopped structure, as illustrated in Figure 6.12-6 and calculated in accordance with Equation (6.12-5); and",
           "source": "ASCE7-22-6.12.2.4.2-T7"
         },
-        "n": {
-          "description": "Number of shear walls in the building effective in resisting lateral forces in the direction under consideration;",
-          "source": "ASCE7-22-26.11.3-T22"
-        },
-        "i": {
-          "description": "Building level referred to by a subscript i ;",
-          "source": "ASCE7-22-11.3-T59"
-        },
-        "r": {
-          "description": "Lateral slenderness ratio of a compression member measured in terms of its effective length, KL , and the least radius of gyration of the member cross section, r",
-          "source": "ASCE7-22-11.3-T63"
-        },
         "he": {
           "description": "Roof eave height at a particular wall, or the average height if the eave varies along the wall",
           "source": "ASCE7-22-26.3-T52"
         },
-        "e": {
-          "description": "Actual eccentricity measured in plan between the center of mass of the structure above the isolation interface and the center of rigidity of the isolation system, plus accidental eccentricity [ft (mm)], taken as 5% of the longest plan dimension of the structure perpendicular to the direction of force under consideration;",
-          "source": "ASCE7-22-17.5.3.3-T4"
+        "c": {
+          "description": "Distance from the neutral axis of a fl exural member to the fi ber of maximum compressive strain, in. (mm)",
+          "source": "ASCE7-22-11.3-T25"
         },
-        "d": {
-          "description": "Longest plan dimension of the structure, ft (mm) measured perpendicular to b",
-          "source": "ASCE7-22-17.1.2-T4"
-        },
-        "u": {
-          "description": "Horizontal fl ow velocity corresponding to a water depth equal to or greater than hss , the elevation of the sof fi t of the fl oor system; and",
-          "source": "ASCE7-22-6.10.3.2.2-T2"
+        "w": {
+          "description": "Moisture content, in percent, per ASTM D2216",
+          "source": "ASCE7-22-11.3-T135"
         },
         "T": {
           "description": "Cumulative effect of self-straining forces and effects arising from contraction or expansion resulting from environmental or operational temperature changes, shrinkage, moisture changes, creep in component materials, movement caused by differential settlement, or combinations thereof",
           "source": "ASCE7-22-2.2-T13"
         },
-        "w": {
-          "description": "Moisture content, in percent, per ASTM D2216",
-          "source": "ASCE7-22-11.3-T135"
+        "r": {
+          "description": "Lateral slenderness ratio of a compression member measured in terms of its effective length, KL , and the least radius of gyration of the member cross section, r",
+          "source": "ASCE7-22-11.3-T63"
+        },
+        "m": {
+          "description": "Component demand modi fi cation factor accounting for expected ductility, applied to the expected strength of a ductility-governed element action, to obtain the acceptable structural component capacity at a particular performance level when using a linear static analysis procedure",
+          "source": "ASCE7-22-6.3-T60"
+        },
+        "u": {
+          "description": "Horizontal fl ow velocity corresponding to a water depth equal to or greater than hss , the elevation of the sof fi t of the fl oor system; and",
+          "source": "ASCE7-22-6.10.3.2.2-T2"
+        },
+        "d": {
+          "description": "Longest plan dimension of the structure, ft (mm) measured perpendicular to b",
+          "source": "ASCE7-22-17.1.2-T4"
+        },
+        "t": {
+          "description": "Nominal ice thickness on a cylinder caused by freezing rain at a height of 33 ft (10 m), from Figures 10.4-2 through 10.4-5, for the applicable risk category, in. (mm)",
+          "source": "ASCE7-22-10.3-T9"
+        },
+        "a": {
+          "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
+          "source": "ASCE7-22-28.3.7-T22"
         }
       }
     },
@@ -3622,10 +3892,10 @@
       "citation": "Section 15.4.1.1",
       "page": 6
     },
-    "title": "15.4.1.1 Importance Factor The Importance Factor, I e , and risk category for nonbuilding structures are based on the relative hazard of the contents and the function. The value of I e shall be the la",
+    "title": "15.4.1.1 Importance Factor",
     "description": "",
     "data": {
-      "rule": "15.4.1.1 Importance Factor The Importance Factor, I e , and risk category for nonbuilding structures are based on the relative hazard of the contents and the function. The value of I e shall be the largest value determined by the following:",
+      "rule": "15.4.1.1 Importance Factor",
       "conditions": [],
       "then": "",
       "else": null,
@@ -3641,6 +3911,33 @@
   },
   {
     "id": "ASCE7-22-15.4.1.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15.4.1.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.4.1.1",
+      "citation": "Section 15.4.1.1",
+      "page": 6
+    },
+    "title": "The Importance Factor, I e , and risk category for nonbuilding structures are based on the relative hazard of the contents and the function. The value of I e shall be the largest value determined by t",
+    "description": "",
+    "data": {
+      "rule": "The Importance Factor, I e , and risk category for nonbuilding structures are based on the relative hazard of the contents and the function. The value of I e shall be the largest value determined by the following:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-15.4.1.1-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3667,7 +3964,7 @@
     "parent_id": "ASCE7-22-15.4.1.1-H1"
   },
   {
-    "id": "ASCE7-22-15.4.1.1-T2",
+    "id": "ASCE7-22-15.4.1.1-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3694,7 +3991,7 @@
     "parent_id": "ASCE7-22-15.4.1.1-H1"
   },
   {
-    "id": "ASCE7-22-15.4.1.1-T3",
+    "id": "ASCE7-22-15.4.1.1-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3730,10 +4027,10 @@
       "citation": "Section 15.4.2",
       "page": 6
     },
-    "title": "15.4.2 Rigid Nonbuilding Structures Nonbuilding structures that have a fundamental period, T , less than 0.06 s, including their anchorages, shall be designed for the lateral force obtained from the f",
+    "title": "15.4.2 Rigid Nonbuilding Structures",
     "description": "",
     "data": {
-      "rule": "15.4.2 Rigid Nonbuilding Structures Nonbuilding structures that have a fundamental period, T , less than 0.06 s, including their anchorages, shall be designed for the lateral force obtained from the following: where",
+      "rule": "15.4.2 Rigid Nonbuilding Structures",
       "conditions": [],
       "then": "",
       "else": null,
@@ -3748,7 +4045,34 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-15.4.2-T2",
+    "id": "ASCE7-22-15.4.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15.4.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.4.2",
+      "citation": "Section 15.4.2",
+      "page": 6
+    },
+    "title": "Nonbuilding structures that have a fundamental period, T , less than 0.06 s, including their anchorages, shall be designed for the lateral force obtained from the following:",
+    "description": "",
+    "data": {
+      "rule": "Nonbuilding structures that have a fundamental period, T , less than 0.06 s, including their anchorages, shall be designed for the lateral force obtained from the following: where",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-15.4.2-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3775,7 +4099,7 @@
     "parent_id": "ASCE7-22-15.4.2-H1"
   },
   {
-    "id": "ASCE7-22-15.4.2-T3",
+    "id": "ASCE7-22-15.4.2-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3802,7 +4126,7 @@
     "parent_id": "ASCE7-22-15.4.2-H1"
   },
   {
-    "id": "ASCE7-22-15.4.2-T4",
+    "id": "ASCE7-22-15.4.2-T5",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3829,7 +4153,7 @@
     "parent_id": "ASCE7-22-15.4.2-H1"
   },
   {
-    "id": "ASCE7-22-15.4.2-T5",
+    "id": "ASCE7-22-15.4.2-T6",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3894,10 +4218,10 @@
       "citation": "Section 15.4.3",
       "page": 6
     },
-    "title": "15.4.3 Loads The seismic effective weight, W , for nonbuilding structures shall include the dead load and other loads as de fi ned for structures in Section 12.7.2. For purposes of calculating design ",
+    "title": "15.4.3 Loads",
     "description": "",
     "data": {
-      "rule": "15.4.3 Loads The seismic effective weight, W , for nonbuilding structures shall include the dead load and other loads as de fi ned for structures in Section 12.7.2. For purposes of calculating design seismic forces in nonbuilding structures, W also shall include all normal operating contents for items such as tanks, vessels, bins, hoppers, and the contents of piping. W shall include snow and ice loads where these loads constitute 25% or more of W or where required by the Authority Having Jurisdiction based on local environmental characteristics.",
+      "rule": "15.4.3 Loads",
       "conditions": [],
       "then": "",
       "else": null,
@@ -3910,6 +4234,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-15.4.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15.4.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.4.3",
+      "citation": "Section 15.4.3",
+      "page": 6
+    },
+    "title": "The seismic effective weight, W , for nonbuilding structures shall include the dead load and other loads as de fi ned for structures in Section 12.7.2. For purposes of calculating design seismic force",
+    "description": "",
+    "data": {
+      "rule": "The seismic effective weight, W , for nonbuilding structures shall include the dead load and other loads as de fi ned for structures in Section 12.7.2. For purposes of calculating design seismic forces in nonbuilding structures, W also shall include all normal operating contents for items such as tanks, vessels, bins, hoppers, and the contents of piping. W shall include snow and ice loads where these loads constitute 25% or more of W or where required by the Authority Having Jurisdiction based on local environmental characteristics.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-15.4.4-P1",
@@ -3975,10 +4326,10 @@
       "citation": "Section 15.4.5",
       "page": 6
     },
-    "title": "15.4.5 Drift Limit The drift limit of Section 12.12.1 need not apply to nonbuilding structures if a rational analysis indicates that the limit can be exceeded without adversely affecting structural st",
+    "title": "15.4.5 Drift Limit",
     "description": "",
     "data": {
-      "rule": "15.4.5 Drift Limit The drift limit of Section 12.12.1 need not apply to nonbuilding structures if a rational analysis indicates that the limit can be exceeded without adversely affecting structural stability or attached or interconnected components and elements such as walkways and piping.",
+      "rule": "15.4.5 Drift Limit",
       "conditions": [],
       "then": "",
       "else": null,
@@ -3991,6 +4342,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-15.4.5-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15.4.5-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.4.5",
+      "citation": "Section 15.4.5",
+      "page": 6
+    },
+    "title": "The drift limit of Section 12.12.1 need not apply to nonbuilding structures if a rational analysis indicates that the limit can be exceeded without adversely affecting structural stability or attached",
+    "description": "",
+    "data": {
+      "rule": "The drift limit of Section 12.12.1 need not apply to nonbuilding structures if a rational analysis indicates that the limit can be exceeded without adversely affecting structural stability or attached or interconnected components and elements such as walkways and piping.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-15.4.6-H1",
@@ -4002,10 +4380,38 @@
       "citation": "Section 15.4.6",
       "page": 6
     },
-    "title": "15.4.6 P-Delta For nonbuilding structures similar to buildings, P-delta effects shall be evaluated using the requirements of Section 12.8.7. For nonbuilding structures not similar to buildings, the re",
+    "title": "15.4.6 P-Delta",
     "description": "",
     "data": {
-      "rule": "15.4.6 P-Delta For nonbuilding structures similar to buildings, P-delta effects shall be evaluated using the requirements of Section 12.8.7. For nonbuilding structures not similar to buildings, the requirements of Section 12.8.7 do not apply. For nonbuilding structures not similar to buildings, P-delta effects on design forces and drifts induced by these effects shall be explicitly considered in the design of the structure. P-delta effects for nonbuilding structures not similar to buildings shall be based on displacements determined by an elastic analysis multiplied by Cd \u2215 I e , using the appropriate Cd value from Table 15.4-2.",
+      "rule": "15.4.6 P-Delta",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-15.4.6-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15.4.6-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.4.6",
+      "citation": "Section 15.4.6",
+      "page": 6
+    },
+    "title": "For nonbuilding structures similar to buildings, P-delta effects shall be evaluated using the requirements of Section 12.8.7. For nonbuilding structures not similar to buildings, the requirements of S",
+    "description": "",
+    "data": {
+      "rule": "For nonbuilding structures similar to buildings, P-delta effects shall be evaluated using the requirements of Section 12.8.7. For nonbuilding structures not similar to buildings, the requirements of Section 12.8.7 do not apply. For nonbuilding structures not similar to buildings, P-delta effects on design forces and drifts induced by these effects shall be explicitly considered in the design of the structure. P-delta effects for nonbuilding structures not similar to buildings shall be based on displacements determined by an elastic analysis multiplied by Cd \u2215 I e , using the appropriate Cd value from Table 15.4-2.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -4017,9 +4423,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-15.4.7-H1",
@@ -4031,10 +4436,10 @@
       "citation": "Section 15.4.7",
       "page": 6
     },
-    "title": "15.4.7 Drift, De fl ection, and Structure Separation Drift, de fl ection, and structure separation calculated using strengthlevel seismic forces shall be determined in accordance with this standard un",
+    "title": "15.4.7 Drift, De",
     "description": "",
     "data": {
-      "rule": "15.4.7 Drift, De fl ection, and Structure Separation Drift, de fl ection, and structure separation calculated using strengthlevel seismic forces shall be determined in accordance with this standard unless speci fi cally amended in Chapter 15.",
+      "rule": "15.4.7 Drift, De",
       "conditions": [],
       "then": "",
       "else": null,
@@ -4049,6 +4454,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-15.4.7-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15.4.7-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.4.7",
+      "citation": "Section 15.4.7",
+      "page": 6
+    },
+    "title": "fl ection, and Structure Separation Drift, de fl ection, and structure separation calculated using strengthlevel seismic forces shall be determined in accordance with this standard unless speci fi cal",
+    "description": "",
+    "data": {
+      "rule": "fl ection, and Structure Separation Drift, de fl ection, and structure separation calculated using strengthlevel seismic forces shall be determined in accordance with this standard unless speci fi cally amended in Chapter 15.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-15.4.8-H1",
     "type": "heading",
     "source": {
@@ -4058,10 +4490,10 @@
       "citation": "Section 15.4.8",
       "page": 6
     },
-    "title": "15.4.8 Site-Speci fi c Response Spectra Where required by a reference document or the Authority Having Jurisdiction, speci fi c types of nonbuilding structures shall be designed for",
+    "title": "15.4.8 Site-Speci",
     "description": "",
     "data": {
-      "rule": "15.4.8 Site-Speci fi c Response Spectra Where required by a reference document or the Authority Having Jurisdiction, speci fi c types of nonbuilding structures shall be designed for",
+      "rule": "15.4.8 Site-Speci",
       "conditions": [],
       "then": "",
       "else": null,
@@ -4074,6 +4506,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-15.4.8-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15.4.8-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.4.8",
+      "citation": "Section 15.4.8",
+      "page": 6
+    },
+    "title": "fi c Response Spectra Where required by a reference document or the Authority Having Jurisdiction, speci fi c types of nonbuilding structures shall be designed for",
+    "description": "",
+    "data": {
+      "rule": "fi c Response Spectra Where required by a reference document or the Authority Having Jurisdiction, speci fi c types of nonbuilding structures shall be designed for",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-15.5-E15-5-11",
@@ -4168,10 +4627,10 @@
       "citation": "Section 15.4.9.1",
       "page": 7
     },
-    "title": "15.4.9.1 Anchors in Concrete Anchors in concrete used for nonbuilding structure anchorage shall be designed in accordance with Chapter 17 of ACI 318.",
+    "title": "15.4.9.1 Anchors in Concrete",
     "description": "",
     "data": {
-      "rule": "15.4.9.1 Anchors in Concrete Anchors in concrete used for nonbuilding structure anchorage shall be designed in accordance with Chapter 17 of ACI 318.",
+      "rule": "15.4.9.1 Anchors in Concrete",
       "conditions": [],
       "then": "",
       "else": null,
@@ -4186,6 +4645,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-15.4.9.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15.4.9.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.4.9.1",
+      "citation": "Section 15.4.9.1",
+      "page": 7
+    },
+    "title": "Anchors in concrete used for nonbuilding structure anchorage shall be designed in accordance with Chapter 17 of ACI 318.",
+    "description": "",
+    "data": {
+      "rule": "Anchors in concrete used for nonbuilding structure anchorage shall be designed in accordance with Chapter 17 of ACI 318.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-15.4.9.2-H1",
     "type": "heading",
     "source": {
@@ -4195,10 +4681,10 @@
       "citation": "Section 15.4.9.2",
       "page": 7
     },
-    "title": "15.4.9.2 Anchors in Masonry Anchors in masonry used for nonbuilding structure anchorage shall be designed in accordance with TMS 402. Anchors shall be designed to be governed by the tensile or shear s",
+    "title": "15.4.9.2 Anchors in Masonry",
     "description": "",
     "data": {
-      "rule": "15.4.9.2 Anchors in Masonry Anchors in masonry used for nonbuilding structure anchorage shall be designed in accordance with TMS 402. Anchors shall be designed to be governed by the tensile or shear strength of a ductile steel element.",
+      "rule": "15.4.9.2 Anchors in Masonry",
       "conditions": [],
       "then": "",
       "else": null,
@@ -4211,6 +4697,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-15.4.9.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15.4.9.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.4.9.2",
+      "citation": "Section 15.4.9.2",
+      "page": 7
+    },
+    "title": "Anchors in masonry used for nonbuilding structure anchorage shall be designed in accordance with TMS 402. Anchors shall be designed to be governed by the tensile or shear strength of a ductile steel e",
+    "description": "",
+    "data": {
+      "rule": "Anchors in masonry used for nonbuilding structure anchorage shall be designed in accordance with TMS 402. Anchors shall be designed to be governed by the tensile or shear strength of a ductile steel element.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-15.4.9.2-D1",
@@ -4237,7 +4750,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-15.4.9.2-T1",
+    "id": "ASCE7-22-15.4.9.2-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -4264,7 +4777,7 @@
     "parent_id": "ASCE7-22-15.4.9.2-H1"
   },
   {
-    "id": "ASCE7-22-15.4.9.2-T2",
+    "id": "ASCE7-22-15.4.9.2-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -4327,10 +4840,38 @@
       "citation": "Section 15.4.9.4",
       "page": 7
     },
-    "title": "15.4.9.4 ASTM F1554 Anchors When ASTM F1554 Grade 36 anchors are speci fi ed and are designed as ductile anchors in accordance with ACI 318, Section 17.10.5.3(a), or where the design must meet the req",
+    "title": "15.4.9.4 ASTM F1554 Anchors",
     "description": "",
     "data": {
-      "rule": "15.4.9.4 ASTM F1554 Anchors When ASTM F1554 Grade 36 anchors are speci fi ed and are designed as ductile anchors in accordance with ACI 318, Section 17.10.5.3(a), or where the design must meet the requirements of Section 15.7.5 or 15.7.11.7(b) of this standard, substitution of weldable ASTM F1554 Grade 55 (with Supplementary Requirement S1) anchors shall be prohibited.",
+      "rule": "15.4.9.4 ASTM F1554 Anchors",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-15.4.9.4-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15.4.9.4-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.4.9.4",
+      "citation": "Section 15.4.9.4",
+      "page": 7
+    },
+    "title": "When ASTM F1554 Grade 36 anchors are speci fi ed and are designed as ductile anchors in accordance with ACI 318, Section 17.10.5.3(a), or where the design must meet the requirements of Section 15.7.5 ",
+    "description": "",
+    "data": {
+      "rule": "When ASTM F1554 Grade 36 anchors are speci fi ed and are designed as ductile anchors in accordance with ACI 318, Section 17.10.5.3(a), or where the design must meet the requirements of Section 15.7.5 or 15.7.11.7(b) of this standard, substitution of weldable ASTM F1554 Grade 55 (with Supplementary Requirement S1) anchors shall be prohibited.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -4342,9 +4883,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-15.4.10-H1",
@@ -4356,10 +4896,38 @@
       "citation": "Section 15.4.10",
       "page": 7
     },
-    "title": "15.4.10 Requirements for Nonbuilding Structure Foundations on Lique fi able Sites Nonbuilding structure foundations on lique fi able sites shall comply with Section 12.13.9 and the requirements of Sec",
+    "title": "15.4.10 Requirements for Nonbuilding Structure Foundations",
     "description": "",
     "data": {
-      "rule": "15.4.10 Requirements for Nonbuilding Structure Foundations on Lique fi able Sites Nonbuilding structure foundations on lique fi able sites shall comply with Section 12.13.9 and the requirements of Section 15.4.10.1.",
+      "rule": "15.4.10 Requirements for Nonbuilding Structure Foundations",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-15.4.10-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15.4.10-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.4.10",
+      "citation": "Section 15.4.10",
+      "page": 7
+    },
+    "title": "on Lique fi able Sites Nonbuilding structure foundations on lique fi able sites shall comply with Section 12.13.9 and the requirements of Section 15.4.10.1.",
+    "description": "",
+    "data": {
+      "rule": "on Lique fi able Sites Nonbuilding structure foundations on lique fi able sites shall comply with Section 12.13.9 and the requirements of Section 15.4.10.1.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -4371,9 +4939,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-15.4.10.1-P1",
@@ -4466,10 +5033,38 @@
       "citation": "Section 15.5.1",
       "page": 7
     },
-    "title": "15.5.1 General Nonbuilding structures similar to buildings as de fi ned in Section 11.2 shall be designed in accordance with this standard as modi fi ed by this section and the speci fi c reference do",
+    "title": "15.5.1 General",
     "description": "",
     "data": {
-      "rule": "15.5.1 General Nonbuilding structures similar to buildings as de fi ned in Section 11.2 shall be designed in accordance with this standard as modi fi ed by this section and the speci fi c reference documents. This general category of nonbuilding structures shall be designed in accordance with the seismic requirements of this standard and the applicable portions of Section 15.4. The combination of load effects, E , shall be determined in accordance with Section 12.4.",
+      "rule": "15.5.1 General",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-15.5.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15.5.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.5.1",
+      "citation": "Section 15.5.1",
+      "page": 7
+    },
+    "title": "Nonbuilding structures similar to buildings as de fi ned in Section 11.2 shall be designed in accordance with this standard as modi fi ed by this section and the speci fi c reference documents. This g",
+    "description": "",
+    "data": {
+      "rule": "Nonbuilding structures similar to buildings as de fi ned in Section 11.2 shall be designed in accordance with this standard as modi fi ed by this section and the speci fi c reference documents. This general category of nonbuilding structures shall be designed in accordance with the seismic requirements of this standard and the applicable portions of Section 15.4. The combination of load effects, E , shall be determined in accordance with Section 12.4.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -4481,9 +5076,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-15.5.2-H1",
@@ -4522,10 +5116,38 @@
       "citation": "Section 15.5.2.1",
       "page": 7
     },
-    "title": "15.5.2.1 Design Basis In addition to the requirements of Section 15.5.1, pipe racks supported at the base of the structure shall be designed to meet the force requirements of Section 12.8 or 12.9.1. D",
+    "title": "15.5.2.1 Design Basis",
     "description": "",
     "data": {
-      "rule": "15.5.2.1 Design Basis In addition to the requirements of Section 15.5.1, pipe racks supported at the base of the structure shall be designed to meet the force requirements of Section 12.8 or 12.9.1. Displacements of the pipe rack and potential for interaction effects (pounding of the piping system) shall be considered using the ampli fi ed de fl ections calculated as where",
+      "rule": "15.5.2.1 Design Basis",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-15.5.2.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15.5.2.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.5.2.1",
+      "citation": "Section 15.5.2.1",
+      "page": 7
+    },
+    "title": "In addition to the requirements of Section 15.5.1, pipe racks supported at the base of the structure shall be designed to meet the force requirements of Section 12.8 or 12.9.1. Displacements of the pi",
+    "description": "",
+    "data": {
+      "rule": "In addition to the requirements of Section 15.5.1, pipe racks supported at the base of the structure shall be designed to meet the force requirements of Section 12.8 or 12.9.1. Displacements of the pipe rack and potential for interaction effects (pounding of the piping system) shall be considered using the ampli fi ed de fl ections calculated as where",
       "conditions": [],
       "then": "",
       "else": null,
@@ -4537,12 +5159,11 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
-    "id": "ASCE7-22-15.5.2.1-T2",
+    "id": "ASCE7-22-15.5.2.1-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -4569,7 +5190,7 @@
     "parent_id": "ASCE7-22-15.5.2.1-H1"
   },
   {
-    "id": "ASCE7-22-15.5.2.1-T3",
+    "id": "ASCE7-22-15.5.2.1-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -4596,7 +5217,7 @@
     "parent_id": "ASCE7-22-15.5.2.1-H1"
   },
   {
-    "id": "ASCE7-22-15.5.2.1-T4",
+    "id": "ASCE7-22-15.5.2.1-T5",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -4661,7 +5282,7 @@
       "citation": "Section 15.5.3",
       "page": 7
     },
-    "title": "15.5.3 Storage Racks Storage racks constructed from steel and supported at or below grade shall be designed in accordance with Section 15.5.3.1 or 15.5.3.2, as applicable, and the requirements in Sect",
+    "title": "15.5.3 Storage Racks Storage racks constructed from steel and supported at or below grade shall be designed in accordance with Section 15.5.3.1 or 15.5.3.2, as applicable, and the requirements in Section 15.5.3.3.",
     "description": "",
     "data": {
       "rule": "15.5.3 Storage Racks Storage racks constructed from steel and supported at or below grade shall be designed in accordance with Section 15.5.3.1 or 15.5.3.2, as applicable, and the requirements in Section 15.5.3.3.",
@@ -4691,10 +5312,10 @@
       "citation": "Section 15.5.3.1",
       "page": 7
     },
-    "title": "15.5.3.1 Steel Storage Racks Steel storage racks supported at or below grade shall be designed in accordance with ANSI/RMI MH 16.1, its force and displacement requirements, and the seismic design grou",
+    "title": "15.5.3.1 Steel Storage Racks",
     "description": "",
     "data": {
-      "rule": "15.5.3.1 Steel Storage Racks Steel storage racks supported at or below grade shall be designed in accordance with ANSI/RMI MH 16.1, its force and displacement requirements, and the seismic design ground motion values determined according to Section 11.4, except as follows:",
+      "rule": "15.5.3.1 Steel Storage Racks",
       "conditions": [],
       "then": "",
       "else": null,
@@ -4707,6 +5328,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-15.5.3.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15.5.3.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.5.3.1",
+      "citation": "Section 15.5.3.1",
+      "page": 7
+    },
+    "title": "Steel storage racks supported at or below grade shall be designed in accordance with ANSI/RMI MH 16.1, its force and displacement requirements, and the seismic design ground motion values determined a",
+    "description": "",
+    "data": {
+      "rule": "Steel storage racks supported at or below grade shall be designed in accordance with ANSI/RMI MH 16.1, its force and displacement requirements, and the seismic design ground motion values determined according to Section 11.4, except as follows:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-15.5.3.1.1-T1",
@@ -5048,10 +5696,10 @@
       "citation": "Section 15.5.3.2",
       "page": 8
     },
-    "title": "15.5.3.2 Steel Cantilevered Storage Racks Steel cantilevered storage racks supported at or below grade shall be designed in accordance with ANSI/RMI MH 16.3, its force and displacement requirements, a",
+    "title": "15.5.3.2 Steel Cantilevered Storage Racks",
     "description": "",
     "data": {
-      "rule": "15.5.3.2 Steel Cantilevered Storage Racks Steel cantilevered storage racks supported at or below grade shall be designed in accordance with ANSI/RMI MH 16.3, its force and displacement requirements, and the seismic design ground motion values determined according to Section 11.4, except as follows.",
+      "rule": "15.5.3.2 Steel Cantilevered Storage Racks",
       "conditions": [],
       "then": "",
       "else": null,
@@ -5064,6 +5712,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-15.5.3.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15.5.3.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.5.3.2",
+      "citation": "Section 15.5.3.2",
+      "page": 8
+    },
+    "title": "Steel cantilevered storage racks supported at or below grade shall be designed in accordance with ANSI/RMI MH 16.3, its force and displacement requirements, and the seismic design ground motion values",
+    "description": "",
+    "data": {
+      "rule": "Steel cantilevered storage racks supported at or below grade shall be designed in accordance with ANSI/RMI MH 16.3, its force and displacement requirements, and the seismic design ground motion values determined according to Section 11.4, except as follows.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-15.5.3.2.1-T1",
@@ -5547,10 +6222,10 @@
       "citation": "Section 15.5.4.1",
       "page": 8
     },
-    "title": "15.5.4.1 General Electrical power-generating facilities are power plants that generate electricity by steam turbines, combustion turbines, diesel generators, or similar turbomachinery.",
+    "title": "15.5.4.1 General",
     "description": "",
     "data": {
-      "rule": "15.5.4.1 General Electrical power-generating facilities are power plants that generate electricity by steam turbines, combustion turbines, diesel generators, or similar turbomachinery.",
+      "rule": "15.5.4.1 General",
       "conditions": [],
       "then": "",
       "else": null,
@@ -5563,6 +6238,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-15.5.4.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15.5.4.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.5.4.1",
+      "citation": "Section 15.5.4.1",
+      "page": 8
+    },
+    "title": "Electrical power-generating facilities are power plants that generate electricity by steam turbines, combustion turbines, diesel generators, or similar turbomachinery.",
+    "description": "",
+    "data": {
+      "rule": "Electrical power-generating facilities are power plants that generate electricity by steam turbines, combustion turbines, diesel generators, or similar turbomachinery.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-15.5.4.2-P1",
@@ -5800,10 +6502,10 @@
       "citation": "Section 15.5.6.1",
       "page": 8
     },
-    "title": "15.5.6.1 General Piers and wharves are structures located in waterfront areas that project into a body of water or that parallel the shoreline.",
+    "title": "15.5.6.1 General",
     "description": "",
     "data": {
-      "rule": "15.5.6.1 General Piers and wharves are structures located in waterfront areas that project into a body of water or that parallel the shoreline.",
+      "rule": "15.5.6.1 General",
       "conditions": [],
       "then": "",
       "else": null,
@@ -5818,6 +6520,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-15.5.6.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15.5.6.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.5.6.1",
+      "citation": "Section 15.5.6.1",
+      "page": 8
+    },
+    "title": "Piers and wharves are structures located in waterfront areas that project into a body of water or that parallel the shoreline.",
+    "description": "",
+    "data": {
+      "rule": "Piers and wharves are structures located in waterfront areas that project into a body of water or that parallel the shoreline.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-15.5.6.2-H1",
     "type": "heading",
     "source": {
@@ -5827,10 +6556,38 @@
       "citation": "Section 15.5.6.2",
       "page": 9
     },
-    "title": "15.5.6.2 Design Basis In addition to the requirements of Section 15.5.1, piers and wharves that are accessible to the general public, such as cruise ship terminals and piers with retail or commercial ",
+    "title": "15.5.6.2 Design",
     "description": "",
     "data": {
-      "rule": "15.5.6.2 Design Basis In addition to the requirements of Section 15.5.1, piers and wharves that are accessible to the general public, such as cruise ship terminals and piers with retail or commercial of fi ces or restaurants, shall be designed to comply with this standard. Piers and wharves that are not accessible to the general public are beyond the scope of this section.",
+      "rule": "15.5.6.2 Design",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-15.5.6.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15.5.6.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.5.6.2",
+      "citation": "Section 15.5.6.2",
+      "page": 9
+    },
+    "title": "Basis In addition to the requirements of Section 15.5.1, piers and wharves that are accessible to the general public, such as cruise ship terminals and piers with retail or commercial of fi ces or res",
+    "description": "",
+    "data": {
+      "rule": "Basis In addition to the requirements of Section 15.5.1, piers and wharves that are accessible to the general public, such as cruise ship terminals and piers with retail or commercial of fi ces or restaurants, shall be designed to comply with this standard. Piers and wharves that are not accessible to the general public are beyond the scope of this section.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -5842,9 +6599,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-15.5.6.2-P1",
@@ -5883,10 +6639,10 @@
       "citation": "Section 15.6",
       "page": 9
     },
-    "title": "15.6 GENERAL REQUIREMENTS FOR NONBUILDING STRUCTURES NOT SIMILAR TO BUILDINGS",
+    "title": "15.6",
     "description": "",
     "data": {
-      "rule": "15.6 GENERAL REQUIREMENTS FOR NONBUILDING STRUCTURES NOT SIMILAR TO BUILDINGS",
+      "rule": "15.6",
       "conditions": [],
       "then": "",
       "else": null,
@@ -5899,6 +6655,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-15.6-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15.6-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.6",
+      "citation": "Section 15.6",
+      "page": 9
+    },
+    "title": "GENERAL REQUIREMENTS FOR NONBUILDING STRUCTURES NOT SIMILAR TO BUILDINGS",
+    "description": "",
+    "data": {
+      "rule": "GENERAL REQUIREMENTS FOR NONBUILDING STRUCTURES NOT SIMILAR TO BUILDINGS",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-15.6-P1",
@@ -5964,10 +6747,10 @@
       "citation": "Section 15.6.1",
       "page": 9
     },
-    "title": "15.6.1 Earth-Retaining Structures This section applies to all earth-retaining structures assigned to Seismic Design Category D, E, or F. The lateral earth pressures caused by earthquake ground motions",
+    "title": "15.6.1 Earth-Retaining Structures",
     "description": "",
     "data": {
-      "rule": "15.6.1 Earth-Retaining Structures This section applies to all earth-retaining structures assigned to Seismic Design Category D, E, or F. The lateral earth pressures caused by earthquake ground motions shall be determined in accordance with Section 11.8.3. The risk category shall be determined by the proximity of the earth-retaining structure to other buildings and structures. If failure of the earth-retaining structure would affect the adjacent building or structure, the risk category shall not be less than that of the adjacent building or structure.",
+      "rule": "15.6.1 Earth-Retaining Structures",
       "conditions": [],
       "then": "",
       "else": null,
@@ -5980,6 +6763,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-15.6.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15.6.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.6.1",
+      "citation": "Section 15.6.1",
+      "page": 9
+    },
+    "title": "This section applies to all earth-retaining structures assigned to Seismic Design Category D, E, or F. The lateral earth pressures caused by earthquake ground motions shall be determined in accordance",
+    "description": "",
+    "data": {
+      "rule": "This section applies to all earth-retaining structures assigned to Seismic Design Category D, E, or F. The lateral earth pressures caused by earthquake ground motions shall be determined in accordance with Section 11.8.3. The risk category shall be determined by the proximity of the earth-retaining structure to other buildings and structures. If failure of the earth-retaining structure would affect the adjacent building or structure, the risk category shall not be less than that of the adjacent building or structure.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-15.6.1-P1",
@@ -6045,10 +6855,38 @@
       "citation": "Section 15.6.2.1",
       "page": 9
     },
-    "title": "15.6.2.1 General Trussed towers shall be designed to resist seismic lateral forces determined in accordance with Section 15.4. A system that meets the de fi nition of braced frame and conforms to Sect",
+    "title": "15.6.2.1 General",
     "description": "",
     "data": {
-      "rule": "15.6.2.1 General Trussed towers shall be designed to resist seismic lateral forces determined in accordance with Section 15.4. A system that meets the de fi nition of braced frame and conforms to Section 15.5, ' Nonbuilding Structures Similar to Buildings, ' and Table 15.4-1 shall not be considered a trussed tower in Table 15.4-2.",
+      "rule": "15.6.2.1 General",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-15.6.2.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15.6.2.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.6.2.1",
+      "citation": "Section 15.6.2.1",
+      "page": 9
+    },
+    "title": "Trussed towers shall be designed to resist seismic lateral forces determined in accordance with Section 15.4. A system that meets the de fi nition of braced frame and conforms to Section 15.5, ' Nonbu",
+    "description": "",
+    "data": {
+      "rule": "Trussed towers shall be designed to resist seismic lateral forces determined in accordance with Section 15.4. A system that meets the de fi nition of braced frame and conforms to Section 15.5, ' Nonbuilding Structures Similar to Buildings, ' and Table 15.4-1 shall not be considered a trussed tower in Table 15.4-2.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -6062,9 +6900,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-15.6.2.1-P1",
@@ -6103,10 +6940,38 @@
       "citation": "Section 15.6.2.2",
       "page": 9
     },
-    "title": "15.6.2.2 Concrete Chimneys and Stacks Concrete chimneys and stacks shall be designed in accordance with the requirements of ACI 307, except that (1) the design base shear shall be determined based on ",
+    "title": "15.6.2.2 Concrete Chimneys and Stacks",
     "description": "",
     "data": {
-      "rule": "15.6.2.2 Concrete Chimneys and Stacks Concrete chimneys and stacks shall be designed in accordance with the requirements of ACI 307, except that (1) the design base shear shall be determined based on Section 15.4.1 of this standard, (2) the seismic coef fi cients shall be based on the values provided in Table 15.4-2, and (3) openings shall be detailed as described in the next paragraph. When modal response spectrum analysis is used for design, the procedures of Section 12.9 shall be permitted to be used.",
+      "rule": "15.6.2.2 Concrete Chimneys and Stacks",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-15.6.2.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15.6.2.2-H2",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.6.2.2",
+      "citation": "Section 15.6.2.2",
+      "page": 9
+    },
+    "title": "Concrete chimneys and stacks shall be designed in accordance with the requirements of ACI 307, except that (1) the design base shear shall be determined based on Section 15.4.1 of this standard, (2) t",
+    "description": "",
+    "data": {
+      "rule": "Concrete chimneys and stacks shall be designed in accordance with the requirements of ACI 307, except that (1) the design base shear shall be determined based on Section 15.4.1 of this standard, (2) the seismic coef fi cients shall be based on the values provided in Table 15.4-2, and (3) openings shall be detailed as described in the next paragraph. When modal response spectrum analysis is used for design, the procedures of Section 12.9 shall be permitted to be used.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -6119,9 +6984,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-15.6.2.2-H2",
@@ -6133,7 +6997,7 @@
       "citation": "Section 15.6.2.2",
       "page": 9
     },
-    "title": "For concrete chimneys and stacks assigned to Seismic Design Categories D, E, and F, splices for vertical rebar shall be staggered such that no more than 50% of the bars are spliced at any section and ",
+    "title": "For concrete chimneys and stacks assigned to Seismic Design Categories D, E, and F, splices for vertical rebar shall be staggered such that no more than 50% of the bars are spliced at any section and alternate lap splices are staggered by the development length. In addition, where the loss of cross-sectional area is greater than 10%, cross sections in the regions of breachings/openings shall be designed and detailed for vertical force, shear force, and bending moment demands along the vertical direction, determined for the affected cross section using an overstrength factor of 1.5. The region where the overstrength factor applies shall extend above and below the opening(s) by a distance equal to half of the width of the largest opening in the affected region. Appropriate reinforcement development lengths shall be provided beyond the required region of overstrength. The jamb regions around each opening shall be detailed using the column tie requirements in Section 10.7.6 of ACI 318. Such detailing shall extend for a jamb width of a minimum of two times the wall thickness and for a height of the opening height plus twice the wall thickness above and below the opening but no less than the development length of the longitudinal bars. Where the existence of a footing or base mat precludes the ability to achieve the extension distance below the opening and within the stack, the jamb reinforcing shall be extended and developed into the footing or base mat. The percentage of longitudinal reinforcement in jamb regions shall meet the requirements of Section 10.6.1.1 of ACI 318 for compression members.",
     "description": "",
     "data": {
       "rule": "For concrete chimneys and stacks assigned to Seismic Design Categories D, E, and F, splices for vertical rebar shall be staggered such that no more than 50% of the bars are spliced at any section and alternate lap splices are staggered by the development length. In addition, where the loss of cross-sectional area is greater than 10%, cross sections in the regions of breachings/openings shall be designed and detailed for vertical force, shear force, and bending moment demands along the vertical direction, determined for the affected cross section using an overstrength factor of 1.5. The region where the overstrength factor applies shall extend above and below the opening(s) by a distance equal to half of the width of the largest opening in the affected region. Appropriate reinforcement development lengths shall be provided beyond the required region of overstrength. The jamb regions around each opening shall be detailed using the column tie requirements in Section 10.7.6 of ACI 318. Such detailing shall extend for a jamb width of a minimum of two times the wall thickness and for a height of the opening height plus twice the wall thickness above and below the opening but no less than the development length of the longitudinal bars. Where the existence of a footing or base mat precludes the ability to achieve the extension distance below the opening and within the stack, the jamb reinforcing shall be extended and developed into the footing or base mat. The percentage of longitudinal reinforcement in jamb regions shall meet the requirements of Section 10.6.1.1 of ACI 318 for compression members.",
@@ -6160,10 +7024,38 @@
       "citation": "Section 15.6.2.3",
       "page": 9
     },
-    "title": "15.6.2.3 Steel Chimneys and Stacks Steel chimneys and stacks shall be designed in accordance with the requirements of ASME STS-1, except that (1) the design base shear shall be determined based on Sec",
+    "title": "15.6.2.3 Steel Chimneys and Stacks",
     "description": "",
     "data": {
-      "rule": "15.6.2.3 Steel Chimneys and Stacks Steel chimneys and stacks shall be designed in accordance with the requirements of ASME STS-1, except that (1) the design base shear shall be determined based on Section 15.4.1 of this standard, (2) the seismic coef fi cients shall be based on the values provided in Table 15.4-2, and (3) ASME STS-1, Section 4.3.5, and Nonmandatory Appendix D Table D-1, Table D-2, Figure D-2, and Figure D-2a shall not be used. When modal response spectrum analysis is used for design, the procedures of Section 12.9 shall be permitted to be used.",
+      "rule": "15.6.2.3 Steel Chimneys and Stacks",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-15.6.2.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15.6.2.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.6.2.3",
+      "citation": "Section 15.6.2.3",
+      "page": 9
+    },
+    "title": "Steel chimneys and stacks shall be designed in accordance with the requirements of ASME STS-1, except that (1) the design base shear shall be determined based on Section 15.4.1 of this standard, (2) t",
+    "description": "",
+    "data": {
+      "rule": "Steel chimneys and stacks shall be designed in accordance with the requirements of ASME STS-1, except that (1) the design base shear shall be determined based on Section 15.4.1 of this standard, (2) the seismic coef fi cients shall be based on the values provided in Table 15.4-2, and (3) ASME STS-1, Section 4.3.5, and Nonmandatory Appendix D Table D-1, Table D-2, Figure D-2, and Figure D-2a shall not be used. When modal response spectrum analysis is used for design, the procedures of Section 12.9 shall be permitted to be used.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -6176,9 +7068,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-15.6.3-P1",
@@ -6219,10 +7110,10 @@
       "citation": "Section 15.6.4",
       "page": 9
     },
-    "title": "15.6.4 Special Hydraulic Structures Special hydraulic structures are structures that are contained inside liquidcontaining structures. These structures are exposed to liquids on both wall surfaces at ",
+    "title": "15.6.4 Special",
     "description": "",
     "data": {
-      "rule": "15.6.4 Special Hydraulic Structures Special hydraulic structures are structures that are contained inside liquidcontaining structures. These structures are exposed to liquids on both wall surfaces at the same head elevation under normal operating conditions. Special hydraulic structures are subjected to out-of-plane forces only during an earthquake, when the structure is subjected to differential hydrodynamic fl uid forces. Examples of special hydraulic structures include separation walls, baf fl e walls, weirs, and other similar structures.",
+      "rule": "15.6.4 Special",
       "conditions": [],
       "then": "",
       "else": null,
@@ -6235,6 +7126,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-15.6.4-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15.6.4-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.6.4",
+      "citation": "Section 15.6.4",
+      "page": 9
+    },
+    "title": "Hydraulic Structures Special hydraulic structures are structures that are contained inside liquidcontaining structures. These structures are exposed to liquids on both wall surfaces at the same head e",
+    "description": "",
+    "data": {
+      "rule": "Hydraulic Structures Special hydraulic structures are structures that are contained inside liquidcontaining structures. These structures are exposed to liquids on both wall surfaces at the same head elevation under normal operating conditions. Special hydraulic structures are subjected to out-of-plane forces only during an earthquake, when the structure is subjected to differential hydrodynamic fl uid forces. Examples of special hydraulic structures include separation walls, baf fl e walls, weirs, and other similar structures.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-15.6.4.1-P1",
@@ -6378,10 +7296,10 @@
       "citation": "Section 15.6.5.1",
       "page": 10
     },
-    "title": "15.6.5.1 Freeboard Sloshing of the liquid within the secondary containment area shall be considered in determining the height of the impoundment. Where the primary containment has not been designed wi",
+    "title": "15.6.5.1 Freeboard",
     "description": "",
     "data": {
-      "rule": "15.6.5.1 Freeboard Sloshing of the liquid within the secondary containment area shall be considered in determining the height of the impoundment. Where the primary containment has not been designed with a reduction in the structure category (i.e., no reduction in Importance Factor, I e ) as permitted by Section 1.5.3, no freeboard provision is required. Where the primary containment has been designed for a reduced structure category (i.e., Importance Factor I e reduced) as permitted by Section 1.5.3, a minimum freeboard, \u03b4 s , shall be provided where",
+      "rule": "15.6.5.1 Freeboard",
       "conditions": [],
       "then": "",
       "else": null,
@@ -6394,6 +7312,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-15.6.5.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15.6.5.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.6.5.1",
+      "citation": "Section 15.6.5.1",
+      "page": 10
+    },
+    "title": "Sloshing of the liquid within the secondary containment area shall be considered in determining the height of the impoundment. Where the primary containment has not been designed with a reduction in t",
+    "description": "",
+    "data": {
+      "rule": "Sloshing of the liquid within the secondary containment area shall be considered in determining the height of the impoundment. Where the primary containment has not been designed with a reduction in the structure category (i.e., no reduction in Importance Factor, I e ) as permitted by Section 1.5.3, no freeboard provision is required. Where the primary containment has been designed for a reduced structure category (i.e., Importance Factor I e reduced) as permitted by Section 1.5.3, a minimum freeboard, \u03b4 s , shall be provided where",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-15.6.5.1-P1",
@@ -6434,10 +7379,10 @@
       "citation": "Section 15.6.6",
       "page": 10
     },
-    "title": "15.6.6 Telecommunication Towers Self-supporting and guyed telecommunication towers shall be designed to resist seismic lateral forces determined in accordance with ANSI/TIA-222-H. The seismic design g",
+    "title": "15.6.6 Telecommunication Towers",
     "description": "",
     "data": {
-      "rule": "15.6.6 Telecommunication Towers Self-supporting and guyed telecommunication towers shall be designed to resist seismic lateral forces determined in accordance with ANSI/TIA-222-H. The seismic design ground motion values shall be determined according to Section 11.4.",
+      "rule": "15.6.6 Telecommunication Towers",
       "conditions": [],
       "then": "",
       "else": null,
@@ -6452,6 +7397,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-15.6.6-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15.6.6-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.6.6",
+      "citation": "Section 15.6.6",
+      "page": 10
+    },
+    "title": "Self-supporting and guyed telecommunication towers shall be designed to resist seismic lateral forces determined in accordance with ANSI/TIA-222-H. The seismic design ground motion values shall be det",
+    "description": "",
+    "data": {
+      "rule": "Self-supporting and guyed telecommunication towers shall be designed to resist seismic lateral forces determined in accordance with ANSI/TIA-222-H. The seismic design ground motion values shall be determined according to Section 11.4.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-15.6.7-H1",
     "type": "heading",
     "source": {
@@ -6461,10 +7433,38 @@
       "citation": "Section 15.6.7",
       "page": 10
     },
-    "title": "15.6.7 Steel Tubular Support Structures for Onshore Wind Turbine Generator Systems Steel tubular support structures for onshore wind turbine generator systems shall be designed to resist seismic later",
+    "title": "15.6.7 Steel Tubular Support Structures for Onshore Wind",
     "description": "",
     "data": {
-      "rule": "15.6.7 Steel Tubular Support Structures for Onshore Wind Turbine Generator Systems Steel tubular support structures for onshore wind turbine generator systems shall be designed to resist seismic lateral forces determined in accordance with Section 15.4.",
+      "rule": "15.6.7 Steel Tubular Support Structures for Onshore Wind",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-15.6.7-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15.6.7-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.6.7",
+      "citation": "Section 15.6.7",
+      "page": 10
+    },
+    "title": "Turbine Generator Systems Steel tubular support structures for onshore wind turbine generator systems shall be designed to resist seismic lateral forces determined in accordance with Section 15.4.",
+    "description": "",
+    "data": {
+      "rule": "Turbine Generator Systems Steel tubular support structures for onshore wind turbine generator systems shall be designed to resist seismic lateral forces determined in accordance with Section 15.4.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -6476,9 +7476,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-15.6.8-H1",
@@ -6517,10 +7516,38 @@
       "citation": "Section 15.6.8.1",
       "page": 10
     },
-    "title": "15.6.8.1 General Ground-supported cantilever walls or fences 6 ft (1.83 m) or greater in height shall satisfy the requirements of this section. Earth-retaining structures shall comply with Section 15.",
+    "title": "15.6.8.1 General",
     "description": "",
     "data": {
-      "rule": "15.6.8.1 General Ground-supported cantilever walls or fences 6 ft (1.83 m) or greater in height shall satisfy the requirements of this section. Earth-retaining structures shall comply with Section 15.6.1.",
+      "rule": "15.6.8.1 General",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-15.6.8.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15.6.8.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.6.8.1",
+      "citation": "Section 15.6.8.1",
+      "page": 10
+    },
+    "title": "Ground-supported cantilever walls or fences 6 ft (1.83 m) or greater in height shall satisfy the requirements of this section. Earth-retaining structures shall comply with Section 15.6.1.",
+    "description": "",
+    "data": {
+      "rule": "Ground-supported cantilever walls or fences 6 ft (1.83 m) or greater in height shall satisfy the requirements of this section. Earth-retaining structures shall comply with Section 15.6.1.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -6532,9 +7559,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-15.6.8.2-H1",
@@ -6546,10 +7572,38 @@
       "citation": "Section 15.6.8.2",
       "page": 10
     },
-    "title": "15.6.8.2 Design Basis Walls or fences shall be designed to resist earthquake ground motions in accordance with Section 15.4. Detailed plain and ordinary plain concrete or masonry walls or fences and o",
+    "title": "15.6.8.2 Design Basis",
     "description": "",
     "data": {
-      "rule": "15.6.8.2 Design Basis Walls or fences shall be designed to resist earthquake ground motions in accordance with Section 15.4. Detailed plain and ordinary plain concrete or masonry walls or fences and ordinary plain autoclaved aerated concrete (AAC) walls or fences are not permitted in Seismic Design Category C, D, E, and F.",
+      "rule": "15.6.8.2 Design Basis",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-15.6.8.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15.6.8.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.6.8.2",
+      "citation": "Section 15.6.8.2",
+      "page": 10
+    },
+    "title": "Walls or fences shall be designed to resist earthquake ground motions in accordance with Section 15.4. Detailed plain and ordinary plain concrete or masonry walls or fences and ordinary plain autoclav",
+    "description": "",
+    "data": {
+      "rule": "Walls or fences shall be designed to resist earthquake ground motions in accordance with Section 15.4. Detailed plain and ordinary plain concrete or masonry walls or fences and ordinary plain autoclaved aerated concrete (AAC) walls or fences are not permitted in Seismic Design Category C, D, E, and F.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -6561,9 +7615,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-15.6.9-H1",
@@ -6575,10 +7628,38 @@
       "citation": "Section 15.6.9",
       "page": 10
     },
-    "title": "15.6.9 Reinforced Concrete Tabletop Structure for Rotating Equipment and Process Vessels or Drums Slab-column reinforced concrete moment frames designed per Section 15.4 qualify for the seismic design",
+    "title": "15.6.9 Reinforced Concrete Tabletop Structure for Rotating",
     "description": "",
     "data": {
-      "rule": "15.6.9 Reinforced Concrete Tabletop Structure for Rotating Equipment and Process Vessels or Drums Slab-column reinforced concrete moment frames designed per Section 15.4 qualify for the seismic design parameters for the tabletop structure entries in Table 15.4-2 if the following requirements are satis fi ed:",
+      "rule": "15.6.9 Reinforced Concrete Tabletop Structure for Rotating",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-15.6.9-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15.6.9-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.6.9",
+      "citation": "Section 15.6.9",
+      "page": 10
+    },
+    "title": "Equipment and Process Vessels or Drums Slab-column reinforced concrete moment frames designed per Section 15.4 qualify for the seismic design parameters for the tabletop structure entries in Table 15.",
+    "description": "",
+    "data": {
+      "rule": "Equipment and Process Vessels or Drums Slab-column reinforced concrete moment frames designed per Section 15.4 qualify for the seismic design parameters for the tabletop structure entries in Table 15.4-2 if the following requirements are satis fi ed:",
       "conditions": [],
       "then": "",
       "else": null,
@@ -6591,12 +7672,11 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
-    "id": "ASCE7-22-15.6.9-T1",
+    "id": "ASCE7-22-15.6.9-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -6623,7 +7703,7 @@
     "parent_id": "ASCE7-22-15.6.9-H1"
   },
   {
-    "id": "ASCE7-22-15.6.9-T2",
+    "id": "ASCE7-22-15.6.9-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -6650,7 +7730,7 @@
     "parent_id": "ASCE7-22-15.6.9-H1"
   },
   {
-    "id": "ASCE7-22-15.6.9-T3",
+    "id": "ASCE7-22-15.6.9-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -6792,10 +7872,10 @@
       "citation": "Section 15.6.10",
       "page": 10
     },
-    "title": "15.6.10 Steel Lighting System Support Pole Structures Steel lighting system support pole structures shall be designed in accordance with the seismic requirements of ASCE 72, except that the seismic de",
+    "title": "15.6.10 Steel Lighting System Support Pole Structures",
     "description": "",
     "data": {
-      "rule": "15.6.10 Steel Lighting System Support Pole Structures Steel lighting system support pole structures shall be designed in accordance with the seismic requirements of ASCE 72, except that the seismic design ground motion values shall be determined according to Section 11.4.",
+      "rule": "15.6.10 Steel Lighting System Support Pole Structures",
       "conditions": [],
       "then": "",
       "else": null,
@@ -6810,6 +7890,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-15.6.10-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15.6.10-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.6.10",
+      "citation": "Section 15.6.10",
+      "page": 10
+    },
+    "title": "Steel lighting system support pole structures shall be designed in accordance with the seismic requirements of ASCE 72, except that the seismic design ground motion values shall be determined accordin",
+    "description": "",
+    "data": {
+      "rule": "Steel lighting system support pole structures shall be designed in accordance with the seismic requirements of ASCE 72, except that the seismic design ground motion values shall be determined according to Section 11.4.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-15.7-H1",
     "type": "heading",
     "source": {
@@ -6819,7 +7926,7 @@
       "citation": "Section 15.7",
       "page": 10
     },
-    "title": "15.7 TANKS AND VESSELS",
+    "title": "15.7",
     "description": "",
     "data": {
       "rule": "15.7 TANKS AND VESSELS",
@@ -6846,7 +7953,7 @@
       "citation": "Section 15.7.1",
       "page": 10
     },
-    "title": "15.7.1 General This section applies to all tanks, vessels, bins, silos, and similar containers storing liquids, gases, and granular solids supported at the base (hereafter referred to generically as '",
+    "title": "15.7.1 General This section applies to all tanks, vessels, bins, silos, and similar containers storing liquids, gases, and granular solids supported at the base (hereafter referred to generically as ' tanks and vessels ' ). Tanks and vessels covered herein include reinforced concrete, prestressed concrete, steel, aluminum, and fi ber-reinforced plastic materials. Tanks supported on elevated levels in buildings shall be designed in accordance with Section 15.3.",
     "description": "",
     "data": {
       "rule": "15.7.1 General This section applies to all tanks, vessels, bins, silos, and similar containers storing liquids, gases, and granular solids supported at the base (hereafter referred to generically as ' tanks and vessels ' ). Tanks and vessels covered herein include reinforced concrete, prestressed concrete, steel, aluminum, and fi ber-reinforced plastic materials. Tanks supported on elevated levels in buildings shall be designed in accordance with Section 15.3.",
@@ -6875,10 +7982,10 @@
       "citation": "Section 15.7.2",
       "page": 10
     },
-    "title": "15.7.2 Design Basis Tanks and vessels storing liquids, gases, and granular solids shall be designed in accordance with this standard and shall be designed to meet the requirements of the applicable re",
+    "title": "15.7.2 Design Basis",
     "description": "",
     "data": {
-      "rule": "15.7.2 Design Basis Tanks and vessels storing liquids, gases, and granular solids shall be designed in accordance with this standard and shall be designed to meet the requirements of the applicable reference documents listed in Chapter 23. Resistance to seismic forces shall be determined from a substantiated analysis based on the applicable reference documents listed in Chapter 23.",
+      "rule": "15.7.2 Design Basis",
       "conditions": [],
       "then": "",
       "else": null,
@@ -6891,6 +7998,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-15.7.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15.7.2-H2",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.7.2",
+      "citation": "Section 15.7.2",
+      "page": 10
+    },
+    "title": "Tanks and vessels storing liquids, gases, and granular solids shall be designed in accordance with this standard and shall be designed to meet the requirements of the applicable reference documents li",
+    "description": "",
+    "data": {
+      "rule": "Tanks and vessels storing liquids, gases, and granular solids shall be designed in accordance with this standard and shall be designed to meet the requirements of the applicable reference documents listed in Chapter 23. Resistance to seismic forces shall be determined from a substantiated analysis based on the applicable reference documents listed in Chapter 23.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-15.7.2-P1",
@@ -6929,7 +8063,7 @@
       "citation": "Section 15.7.2",
       "page": 10
     },
-    "title": "(b) Impulsive and convective components shall be combined by the direct sum or the square root of the sum of the squares (SRSS) method where the modal periods are separated. If signi fi cant modal cou",
+    "title": "(b) Impulsive and convective components shall be combined by the direct sum or the square root of the sum of the squares (SRSS) method where the modal periods are separated. If signi fi cant modal coupling may occur, the complete quadratic combination (CQC) method shall be used.",
     "description": "",
     "data": {
       "rule": "(b) Impulsive and convective components shall be combined by the direct sum or the square root of the sum of the squares (SRSS) method where the modal periods are separated. If signi fi cant modal coupling may occur, the complete quadratic combination (CQC) method shall be used.",
@@ -6961,10 +8095,6 @@
     "data": {
       "expression": "N = av\u03b3 \u00f0H \u2212y\u00de i (15.7-1)",
       "parameters": {
-        "N": {
-          "description": "Average fi eld standard penetration resistance for the top 100 ft (30 m) (Sections 20.3.3 and 20.4.2)",
-          "source": "ASCE7-22-11.3-T73"
-        },
         "H": {
           "description": "Load due to lateral earth pressure (including lateral earth pressure from fi xed or moving surcharge loads), ground water pressure, or pressure of bulk materials",
           "source": "ASCE7-22-2.2-T7"
@@ -6972,6 +8102,10 @@
         "y": {
           "description": "Distance [in. (mm)] between the centers of rigidity of the isolation system and the element of interest measured perpendicular to the direction of seismic loading under consideration;",
           "source": "ASCE7-22-17.5.3.3-T3"
+        },
+        "N": {
+          "description": "Average fi eld standard penetration resistance for the top 100 ft (30 m) (Sections 20.3.3 and 20.4.2)",
+          "source": "ASCE7-22-11.3-T73"
         },
         "\u03b3": {
           "description": "Average unit weight of soil, lb/ft 3 (N/m 3 )",
@@ -7073,7 +8207,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-15.7.2-T3",
+    "id": "ASCE7-22-15.7.2-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -7100,7 +8234,7 @@
     "parent_id": "ASCE7-22-15.7.2-H2"
   },
   {
-    "id": "ASCE7-22-15.7.2-T4",
+    "id": "ASCE7-22-15.7.2-T5",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -7127,7 +8261,7 @@
     "parent_id": "ASCE7-22-15.7.2-H2"
   },
   {
-    "id": "ASCE7-22-15.7.2-T5",
+    "id": "ASCE7-22-15.7.2-T6",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -7217,10 +8351,10 @@
       "citation": "Section 15.7.3",
       "page": 11
     },
-    "title": "15.7.3 Strength and Ductility Structural members that are part of the seismic force-resisting system shall be designed to provide the following.",
+    "title": "15.7.3 Strength and Ductility",
     "description": "",
     "data": {
-      "rule": "15.7.3 Strength and Ductility Structural members that are part of the seismic force-resisting system shall be designed to provide the following.",
+      "rule": "15.7.3 Strength and Ductility",
       "conditions": [],
       "then": "",
       "else": null,
@@ -7233,6 +8367,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-15.7.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15.7.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.7.3",
+      "citation": "Section 15.7.3",
+      "page": 11
+    },
+    "title": "Structural members that are part of the seismic force-resisting system shall be designed to provide the following.",
+    "description": "",
+    "data": {
+      "rule": "Structural members that are part of the seismic force-resisting system shall be designed to provide the following.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-15.7.3-P1",
@@ -7494,26 +8655,26 @@
     "data": {
       "expression": "w t = \u03c0D s\u00few r (15.7-3)",
       "parameters": {
-        "D": {
-          "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the design earthquake ground motions, Section 18.7.3.3 \u03bc",
-          "source": "ASCE7-22-18.1.3-T79"
+        "w": {
+          "description": "Moisture content, in percent, per ASTM D2216",
+          "source": "ASCE7-22-11.3-T135"
         },
         "t": {
           "description": "Nominal ice thickness on a cylinder caused by freezing rain at a height of 33 ft (10 m), from Figures 10.4-2 through 10.4-5, for the applicable risk category, in. (mm)",
           "source": "ASCE7-22-10.3-T9"
         },
-        "r": {
-          "description": "Lateral slenderness ratio of a compression member measured in terms of its effective length, KL , and the least radius of gyration of the member cross section, r",
-          "source": "ASCE7-22-11.3-T63"
+        "D": {
+          "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the design earthquake ground motions, Section 18.7.3.3 \u03bc",
+          "source": "ASCE7-22-18.1.3-T79"
         },
         "s": {
           "description": "Vertical dimension of the solid freestanding wall or solid sign from Figure 29.3-1",
           "unit": "ft",
           "source": "ASCE7-22-26.3-T92"
         },
-        "w": {
-          "description": "Moisture content, in percent, per ASTM D2216",
-          "source": "ASCE7-22-11.3-T135"
+        "r": {
+          "description": "Lateral slenderness ratio of a compression member measured in terms of its effective length, KL , and the least radius of gyration of the member cross section, r",
+          "source": "ASCE7-22-11.3-T63"
         }
       }
     },
@@ -7753,10 +8914,10 @@
       "citation": "Section 15.7.5",
       "page": 12
     },
-    "title": "15.7.5 Anchorage Tanks and vessels at grade are permitted to be designed without anchorage where they meet the requirements for self-anchored tanks in reference documents. Tanks and vessels supported ",
+    "title": "15.7.5 Anchorage",
     "description": "",
     "data": {
-      "rule": "15.7.5 Anchorage Tanks and vessels at grade are permitted to be designed without anchorage where they meet the requirements for self-anchored tanks in reference documents. Tanks and vessels supported above grade on structural towers or building structures shall be anchored to the supporting structure.",
+      "rule": "15.7.5 Anchorage",
       "conditions": [],
       "then": "",
       "else": null,
@@ -7769,6 +8930,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-15.7.5-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15.7.5-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.7.5",
+      "citation": "Section 15.7.5",
+      "page": 12
+    },
+    "title": "Tanks and vessels at grade are permitted to be designed without anchorage where they meet the requirements for self-anchored tanks in reference documents. Tanks and vessels supported above grade on st",
+    "description": "",
+    "data": {
+      "rule": "Tanks and vessels at grade are permitted to be designed without anchorage where they meet the requirements for self-anchored tanks in reference documents. Tanks and vessels supported above grade on structural towers or building structures shall be anchored to the supporting structure.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-15.7.5-P1",
@@ -7805,6 +8993,46 @@
     "cross_references": [
       "ASCE7-22-15.4.9-H1"
     ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-15.7.5-P2",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.7.5",
+      "citation": "Section 15.7.5",
+      "page": 12
+    },
+    "title": "For the anchorage of steel tanks and vessels with a diameter or width greater than 5 ft (1.5 m) or a height greater than 10 ft (3.0 m) in Seismic Design Categories C, D, E, and F, all of the following",
+    "description": "",
+    "data": {
+      "rule": "For the anchorage of steel tanks and vessels with a diameter or width greater than 5 ft (1.5 m) or a height greater than 10 ft (3.0 m) in Seismic Design Categories C, D, E, and F, all of the following special detailing requirements shall apply:",
+      "conditions": [
+        {
+          "parameter": "",
+          "operator": ">",
+          "value": 5.0,
+          "unit": "ft"
+        },
+        {
+          "parameter": "",
+          "operator": ">",
+          "value": 10.0,
+          "unit": "ft"
+        }
+      ],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -7898,7 +9126,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-15.7.5-T1",
+    "id": "ASCE7-22-15.7.5-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -8306,10 +9534,10 @@
       "citation": "Section 15.7.6.2",
       "page": 13
     },
-    "title": "15.7.6.2 Design Basis The design of tanks storing liquids shall consider the impulsive and convective (sloshing) effects and their consequences on the tank, foundation, and attached elements. The impu",
+    "title": "15.7.6.2 Design Basis",
     "description": "",
     "data": {
-      "rule": "15.7.6.2 Design Basis The design of tanks storing liquids shall consider the impulsive and convective (sloshing) effects and their consequences on the tank, foundation, and attached elements. The impulsive component corresponds to the high-frequency ampli fi ed response to the lateral ground motion of the tank roof, the shell, and the portion of the contents that moves in unison with the shell. The convective component corresponds to the low-frequency ampli fi ed response of the contents in the fundamental sloshing mode. Damping for the convective component shall be 0.5% for the sloshing liquid unless otherwise de fi ned by the reference document. The following de fi nitions shall apply:",
+      "rule": "15.7.6.2 Design Basis",
       "conditions": [],
       "then": "",
       "else": null,
@@ -8325,6 +9553,33 @@
   },
   {
     "id": "ASCE7-22-15.7.6.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15.7.6.2-H3",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.7.6.2",
+      "citation": "Section 15.7.6.2",
+      "page": 13
+    },
+    "title": "The design of tanks storing liquids shall consider the impulsive and convective (sloshing) effects and their consequences on the tank, foundation, and attached elements. The impulsive component corres",
+    "description": "",
+    "data": {
+      "rule": "The design of tanks storing liquids shall consider the impulsive and convective (sloshing) effects and their consequences on the tank, foundation, and attached elements. The impulsive component corresponds to the high-frequency ampli fi ed response to the lateral ground motion of the tank roof, the shell, and the portion of the contents that moves in unison with the shell. The convective component corresponds to the low-frequency ampli fi ed response of the contents in the fundamental sloshing mode. Damping for the convective component shall be 0.5% for the sloshing liquid unless otherwise de fi ned by the reference document. The following de fi nitions shall apply:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-15.7.6.2-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -8351,7 +9606,7 @@
     "parent_id": "ASCE7-22-15.7.6.2-H3"
   },
   {
-    "id": "ASCE7-22-15.7.6.2-T2",
+    "id": "ASCE7-22-15.7.6.2-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -8378,7 +9633,7 @@
     "parent_id": "ASCE7-22-15.7.6.2-H3"
   },
   {
-    "id": "ASCE7-22-15.7.6.2-T3",
+    "id": "ASCE7-22-15.7.6.2-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -8405,7 +9660,7 @@
     "parent_id": "ASCE7-22-15.7.6.2-H3"
   },
   {
-    "id": "ASCE7-22-15.7.6.2-T4",
+    "id": "ASCE7-22-15.7.6.2-T5",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -8432,7 +9687,7 @@
     "parent_id": "ASCE7-22-15.7.6.2-H3"
   },
   {
-    "id": "ASCE7-22-15.7.6.2-T5",
+    "id": "ASCE7-22-15.7.6.2-T6",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -8459,7 +9714,7 @@
     "parent_id": "ASCE7-22-15.7.6.2-H3"
   },
   {
-    "id": "ASCE7-22-15.7.6.2-T6",
+    "id": "ASCE7-22-15.7.6.2-T7",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -8486,7 +9741,7 @@
     "parent_id": "ASCE7-22-15.7.6.2-H3"
   },
   {
-    "id": "ASCE7-22-15.7.6.2-T7",
+    "id": "ASCE7-22-15.7.6.2-T8",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -8513,7 +9768,7 @@
     "parent_id": "ASCE7-22-15.7.6.2-H3"
   },
   {
-    "id": "ASCE7-22-15.7.6.2-T8",
+    "id": "ASCE7-22-15.7.6.2-T9",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -8540,7 +9795,7 @@
     "parent_id": "ASCE7-22-15.7.6.2-H3"
   },
   {
-    "id": "ASCE7-22-15.7.6.2-T9",
+    "id": "ASCE7-22-15.7.6.2-T10",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -8567,7 +9822,7 @@
     "parent_id": "ASCE7-22-15.7.6.2-H3"
   },
   {
-    "id": "ASCE7-22-15.7.6.2-T10",
+    "id": "ASCE7-22-15.7.6.2-T11",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -8621,7 +9876,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-15.7.6.2-T13",
+    "id": "ASCE7-22-15.7.6.2-T14",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -8677,7 +9932,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-15.7.6.2-T14",
+    "id": "ASCE7-22-15.7.6.2-T15",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -8733,7 +9988,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-15.7.6.2-T15",
+    "id": "ASCE7-22-15.7.6.2-T16",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -8808,6 +10063,33 @@
     "cross_references": [
       "ASCE7-22-15.4.1-P1"
     ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-15.7.6.2-P4",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.7.6.2",
+      "citation": "Section 15.7.6.2",
+      "page": 13
+    },
+    "title": "Where the design spectral acceleration parameter, Sa , determined in accordance with either Section 11.4.5.1 or Chapter 21 is available, the value of Sac determined by Equation (15.7-10) or (15.7-11) ",
+    "description": "",
+    "data": {
+      "rule": "Where the design spectral acceleration parameter, Sa , determined in accordance with either Section 11.4.5.1 or Chapter 21 is available, the value of Sac determined by Equation (15.7-10) or (15.7-11) is permitted to be taken as 1.5 times the value of Sa at the period Tc . The value of 1.5 Sac need not exceed the maximum value of Sa . When Exception 2 is invoked, the value of Sai must be determined using Exception 1.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -8980,6 +10262,72 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-15.7-E15-7-101",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.7",
+      "citation": "Eq. (15.7-10)",
+      "page": 13
+    },
+    "title": "Equation (15.7-10)",
+    "description": "",
+    "data": {
+      "expression": "Where the design spectral acceleration parameter, Sa , determined in accordance with either Section 11.4.5.1 or Chapter 21 is available, the value of Sac determined by Equation (15.7-10)",
+      "parameters": {
+        "Sac": {
+          "description": "Spectral acceleration of the sloshing liquid (convective component), based on the sloshing period Tc and 0.5% damping. For Tc \u2264 TL , For Tc > TL ",
+          "source": "ASCE7-22-15.7.6.2-T15"
+        },
+        "Sa": {
+          "description": "Design spectral response acceleration parameter de fi ned in Section 11.4.5.1 and determined for the period T de fi ned in Section 12.8.2;",
+          "source": "ASCE7-22-12.8.1.1-T2"
+        }
+      }
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-15.7-E15-7-111",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.7",
+      "citation": "Eq. (15.7-11)",
+      "page": 13
+    },
+    "title": "Equation (15.7-11)",
+    "description": "",
+    "data": {
+      "expression": "Where the design spectral acceleration parameter, Sa , determined in accordance with either Section 11.4.5.1 or Chapter 21 is available, the value of Sac determined by Equation (15.7-10) or (15.7-11)",
+      "parameters": {
+        "Sac": {
+          "description": "Spectral acceleration of the sloshing liquid (convective component), based on the sloshing period Tc and 0.5% damping. For Tc \u2264 TL , For Tc > TL ",
+          "source": "ASCE7-22-15.7.6.2-T15"
+        },
+        "Sa": {
+          "description": "Design spectral response acceleration parameter de fi ned in Section 11.4.5.1 and determined for the period T de fi ned in Section 12.8.2;",
+          "source": "ASCE7-22-12.8.1.1-T2"
+        }
+      }
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  },
+  {
     "id": "ASCE7-22-15.7-E15-7-121",
     "type": "formula",
     "source": {
@@ -9070,7 +10418,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-15.7.6.2-T19",
+    "id": "ASCE7-22-15.7.6.2-T20",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -9097,7 +10445,7 @@
     "parent_id": "ASCE7-22-15.7.6.2-H3"
   },
   {
-    "id": "ASCE7-22-15.7.6.2-T20",
+    "id": "ASCE7-22-15.7.6.2-T21",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -9803,14 +11151,14 @@
     "data": {
       "expression": "(a) The height of the sloshing liquid, \u03b4 s , above the product design height shall be computed using Equation (15.7-13)",
       "parameters": {
+        "a": {
+          "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
+          "source": "ASCE7-22-28.3.7-T22"
+        },
         "s": {
           "description": "Vertical dimension of the solid freestanding wall or solid sign from Figure 29.3-1",
           "unit": "ft",
           "source": "ASCE7-22-26.3-T92"
-        },
-        "a": {
-          "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
-          "source": "ASCE7-22-28.3.7-T22"
         }
       }
     },
@@ -10270,10 +11618,10 @@
       "citation": "Section 15.7.7.1",
       "page": 15
     },
-    "title": "15.7.7.1 Welded Steel Welded steel water storage tanks and vessels shall be designed in accordance with the seismic requirements of AWWA D100, with the following exception:",
+    "title": "15.7.7.1 Welded Steel",
     "description": "",
     "data": {
-      "rule": "15.7.7.1 Welded Steel Welded steel water storage tanks and vessels shall be designed in accordance with the seismic requirements of AWWA D100, with the following exception:",
+      "rule": "15.7.7.1 Welded Steel",
       "conditions": [],
       "then": "",
       "else": null,
@@ -10286,6 +11634,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-15.7.7.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15.7.7.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.7.7.1",
+      "citation": "Section 15.7.7.1",
+      "page": 15
+    },
+    "title": "Welded steel water storage tanks and vessels shall be designed in accordance with the seismic requirements of AWWA D100, with the following exception:",
+    "description": "",
+    "data": {
+      "rule": "Welded steel water storage tanks and vessels shall be designed in accordance with the seismic requirements of AWWA D100, with the following exception:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-15.7.7.1-P1",
@@ -10351,10 +11726,10 @@
       "citation": "Section 15.7.7.2",
       "page": 15
     },
-    "title": "15.7.7.2 Bolted Steel Bolted steel water storage structures shall be designed in accordance with the seismic requirements of AWWA D103, with the following exceptions:",
+    "title": "15.7.7.2 Bolted Steel",
     "description": "",
     "data": {
-      "rule": "15.7.7.2 Bolted Steel Bolted steel water storage structures shall be designed in accordance with the seismic requirements of AWWA D103, with the following exceptions:",
+      "rule": "15.7.7.2 Bolted Steel",
       "conditions": [],
       "then": "",
       "else": null,
@@ -10367,6 +11742,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-15.7.7.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15.7.7.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.7.7.2",
+      "citation": "Section 15.7.7.2",
+      "page": 15
+    },
+    "title": "Bolted steel water storage structures shall be designed in accordance with the seismic requirements of AWWA D103, with the following exceptions:",
+    "description": "",
+    "data": {
+      "rule": "Bolted steel water storage structures shall be designed in accordance with the seismic requirements of AWWA D103, with the following exceptions:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-15.7.7.2-P1",
@@ -10432,10 +11834,38 @@
       "citation": "Section 15.7.7.3",
       "page": 15
     },
-    "title": "15.7.7.3 Reinforced and Prestressed Concrete Reinforced and prestressed concrete tanks shall be designed in accordance with the seismic requirements of AWWA D110, AWWA D115, or ACI 350.3, except that ",
+    "title": "15.7.7.3 Reinforced and Prestressed Concrete",
     "description": "",
     "data": {
-      "rule": "15.7.7.3 Reinforced and Prestressed Concrete Reinforced and prestressed concrete tanks shall be designed in accordance with the seismic requirements of AWWA D110, AWWA D115, or ACI 350.3, except that the Importance Factor, I e , shall be determined according to Section 15.4.1.1; the response modi fi cation coef fi cient, R , shall be taken from Table 15.4-2; the seismic design ground motion values shall be determined according to Section 11.4; and the design input forces for strength design procedures shall be determined using the procedures of ACI 350.3, except that Sac shall be substituted for Cc in ACI 350.3, Section 9.4.2, using Equations (15.7-10) for Tc \u2264 TL and (15.7-11) for Tc > TL from Section 15.7.6.1.",
+      "rule": "15.7.7.3 Reinforced and Prestressed Concrete",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-15.7.7.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15.7.7.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.7.7.3",
+      "citation": "Section 15.7.7.3",
+      "page": 15
+    },
+    "title": "Reinforced and prestressed concrete tanks shall be designed in accordance with the seismic requirements of AWWA D110, AWWA D115, or ACI 350.3, except that the Importance Factor, I e , shall be determi",
+    "description": "",
+    "data": {
+      "rule": "Reinforced and prestressed concrete tanks shall be designed in accordance with the seismic requirements of AWWA D110, AWWA D115, or ACI 350.3, except that the Importance Factor, I e , shall be determined according to Section 15.4.1.1; the response modi fi cation coef fi cient, R , shall be taken from Table 15.4-2; the seismic design ground motion values shall be determined according to Section 11.4; and the design input forces for strength design procedures shall be determined using the procedures of ACI 350.3, except that Sac shall be substituted for Cc in ACI 350.3, Section 9.4.2, using Equations (15.7-10) for Tc \u2264 TL and (15.7-11) for Tc > TL from Section 15.7.6.1.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -10449,9 +11879,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-15.7.7.4-P1",
@@ -10686,7 +12115,7 @@
       "citation": "Section 15.7.8",
       "page": 16
     },
-    "title": "15.7.8 Petrochemical and Industrial Tanks and Vessels Storing Liquids",
+    "title": "15.7.8 Petrochemical and Industrial Tanks and Vessels",
     "description": "",
     "data": {
       "rule": "15.7.8 Petrochemical and Industrial Tanks and Vessels Storing Liquids",
@@ -10713,10 +12142,10 @@
       "citation": "Section 15.7.8.1",
       "page": 16
     },
-    "title": "15.7.8.1 Welded Steel Welded steel fl at-bottom, groundsupported petrochemical tanks, industrial tanks, and vessels storing liquids under an internal pressure less than or equal to 2.5 psig (17.2 kPa ",
+    "title": "15.7.8.1 Welded",
     "description": "",
     "data": {
-      "rule": "15.7.8.1 Welded Steel Welded steel fl at-bottom, groundsupported petrochemical tanks, industrial tanks, and vessels storing liquids under an internal pressure less than or equal to 2.5 psig (17.2 kPa g) shall be designed in accordance with the seismic requirements of API 650. Welded steel fl at-bottom, ground-supported petrochemical tanks, industrial tanks, and vessels storing liquids under an internal pressure greater than 2.5 psig (17.2 kPa g) and less than or equal to 15 psig (104.4 kPa g) shall be designed in accordance with the seismic requirements of API 620.",
+      "rule": "15.7.8.1 Welded",
       "conditions": [],
       "then": "",
       "else": null,
@@ -10731,6 +12160,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-15.7.8.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15.7.8.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.7.8.1",
+      "citation": "Section 15.7.8.1",
+      "page": 16
+    },
+    "title": "Steel Welded steel fl at-bottom, groundsupported petrochemical tanks, industrial tanks, and vessels storing liquids under an internal pressure less than or equal to 2.5 psig (17.2 kPa g) shall be desi",
+    "description": "",
+    "data": {
+      "rule": "Steel Welded steel fl at-bottom, groundsupported petrochemical tanks, industrial tanks, and vessels storing liquids under an internal pressure less than or equal to 2.5 psig (17.2 kPa g) shall be designed in accordance with the seismic requirements of API 650. Welded steel fl at-bottom, ground-supported petrochemical tanks, industrial tanks, and vessels storing liquids under an internal pressure greater than 2.5 psig (17.2 kPa g) and less than or equal to 15 psig (104.4 kPa g) shall be designed in accordance with the seismic requirements of API 620.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-15.7.8.2-H1",
     "type": "heading",
     "source": {
@@ -10740,10 +12196,10 @@
       "citation": "Section 15.7.8.2",
       "page": 16
     },
-    "title": "15.7.8.2 Bolted Steel Bolted steel tanks are used for storage of production liquids. API 12B covers the material, design, and erection requirements for vertical, cylindrical, and above-ground bolted t",
+    "title": "15.7.8.2 Bolted Steel",
     "description": "",
     "data": {
-      "rule": "15.7.8.2 Bolted Steel Bolted steel tanks are used for storage of production liquids. API 12B covers the material, design, and erection requirements for vertical, cylindrical, and above-ground bolted tanks in nominal capacities of 100 barrels (15.9 m 3 ) to 10,000 barrels (1590 m 3 ) for production service. Unless required by the Authority Having Jurisdiction, these temporary structures need not be designed for seismic loads. If design for seismic load is required, the loads are permitted to be adjusted for the temporary nature of the anticipated service life.",
+      "rule": "15.7.8.2 Bolted Steel",
       "conditions": [],
       "then": "",
       "else": null,
@@ -10756,6 +12212,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-15.7.8.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15.7.8.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.7.8.2",
+      "citation": "Section 15.7.8.2",
+      "page": 16
+    },
+    "title": "Bolted steel tanks are used for storage of production liquids. API 12B covers the material, design, and erection requirements for vertical, cylindrical, and above-ground bolted tanks in nominal capaci",
+    "description": "",
+    "data": {
+      "rule": "Bolted steel tanks are used for storage of production liquids. API 12B covers the material, design, and erection requirements for vertical, cylindrical, and above-ground bolted tanks in nominal capacities of 100 barrels (15.9 m 3 ) to 10,000 barrels (1590 m 3 ) for production service. Unless required by the Authority Having Jurisdiction, these temporary structures need not be designed for seismic loads. If design for seismic load is required, the loads are permitted to be adjusted for the temporary nature of the anticipated service life.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-15.7.8.3-P1",
@@ -10969,10 +12452,10 @@
       "citation": "Section 15.7.9",
       "page": 16
     },
-    "title": "15.7.9 Ground-Supported Storage Tanks for Granular Materials",
+    "title": "15.7.9 Ground-Supported",
     "description": "",
     "data": {
-      "rule": "15.7.9 Ground-Supported Storage Tanks for Granular Materials",
+      "rule": "15.7.9 Ground-Supported",
       "conditions": [],
       "then": "",
       "else": null,
@@ -10987,6 +12470,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-15.7.9-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15.7.9-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.7.9",
+      "citation": "Section 15.7.9",
+      "page": 16
+    },
+    "title": "Storage Tanks for Granular Materials",
+    "description": "",
+    "data": {
+      "rule": "Storage Tanks for Granular Materials",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-15.7.9.1-H1",
     "type": "heading",
     "source": {
@@ -10996,10 +12506,10 @@
       "citation": "Section 15.7.9.1",
       "page": 16
     },
-    "title": "15.7.9.1 General The intergranular behavior of the material shall be considered in determining effective mass and load paths, including the following behaviors:",
+    "title": "15.7.9.1 General",
     "description": "",
     "data": {
-      "rule": "15.7.9.1 General The intergranular behavior of the material shall be considered in determining effective mass and load paths, including the following behaviors:",
+      "rule": "15.7.9.1 General",
       "conditions": [],
       "then": "",
       "else": null,
@@ -11015,6 +12525,33 @@
   },
   {
     "id": "ASCE7-22-15.7.9.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15.7.9.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.7.9.1",
+      "citation": "Section 15.7.9.1",
+      "page": 16
+    },
+    "title": "The intergranular behavior of the material shall be considered in determining effective mass and load paths, including the following behaviors:",
+    "description": "",
+    "data": {
+      "rule": "The intergranular behavior of the material shall be considered in determining effective mass and load paths, including the following behaviors:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-15.7.9.1-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -11041,7 +12578,7 @@
     "parent_id": "ASCE7-22-15.7.9.1-H1"
   },
   {
-    "id": "ASCE7-22-15.7.9.1-T2",
+    "id": "ASCE7-22-15.7.9.1-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -11068,7 +12605,7 @@
     "parent_id": "ASCE7-22-15.7.9.1-H1"
   },
   {
-    "id": "ASCE7-22-15.7.9.1-T3",
+    "id": "ASCE7-22-15.7.9.1-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -11104,10 +12641,10 @@
       "citation": "Section 15.7.9.2",
       "page": 16
     },
-    "title": "15.7.9.2 Lateral Force Determination The lateral forces for tanks and vessels storing granular materials at grade shall be determined by the requirements and accelerations for shortperiod structures (",
+    "title": "15.7.9.2 Lateral Force Determination",
     "description": "",
     "data": {
-      "rule": "15.7.9.2 Lateral Force Determination The lateral forces for tanks and vessels storing granular materials at grade shall be determined by the requirements and accelerations for shortperiod structures (i.e., SDS ).",
+      "rule": "15.7.9.2 Lateral Force Determination",
       "conditions": [],
       "then": "",
       "else": null,
@@ -11120,6 +12657,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-15.7.9.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15.7.9.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.7.9.2",
+      "citation": "Section 15.7.9.2",
+      "page": 16
+    },
+    "title": "The lateral forces for tanks and vessels storing granular materials at grade shall be determined by the requirements and accelerations for shortperiod structures (i.e., SDS ).",
+    "description": "",
+    "data": {
+      "rule": "The lateral forces for tanks and vessels storing granular materials at grade shall be determined by the requirements and accelerations for shortperiod structures (i.e., SDS ).",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-15.7.9.3-H1",
@@ -11293,10 +12857,10 @@
       "citation": "Section 15.7.9.4",
       "page": 16
     },
-    "title": "15.7.9.4 Welded Steel Structures Welded steel granular storage structures shall be designed in accordance with the seismic requirements of this standard. Component allowable stresses and materials sha",
+    "title": "15.7.9.4 Welded Steel Structures",
     "description": "",
     "data": {
-      "rule": "15.7.9.4 Welded Steel Structures Welded steel granular storage structures shall be designed in accordance with the seismic requirements of this standard. Component allowable stresses and materials shall be per AWWA D100, except that the allowable circumferential membrane stresses and material requirements in API 650 shall apply.",
+      "rule": "15.7.9.4 Welded Steel Structures",
       "conditions": [],
       "then": "",
       "else": null,
@@ -11309,6 +12873,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-15.7.9.4-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15.7.9.4-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.7.9.4",
+      "citation": "Section 15.7.9.4",
+      "page": 16
+    },
+    "title": "Welded steel granular storage structures shall be designed in accordance with the seismic requirements of this standard. Component allowable stresses and materials shall be per AWWA D100, except that ",
+    "description": "",
+    "data": {
+      "rule": "Welded steel granular storage structures shall be designed in accordance with the seismic requirements of this standard. Component allowable stresses and materials shall be per AWWA D100, except that the allowable circumferential membrane stresses and material requirements in API 650 shall apply.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-15.7.9.5-P1",
@@ -11347,10 +12938,10 @@
       "citation": "Section 15.7.9.6",
       "page": 16
     },
-    "title": "15.7.9.6 Reinforced Concrete Structures Reinforced concrete structures for the storage of granular materials shall be designed in accordance with the seismic force requirements of this standard and th",
+    "title": "15.7.9.6 Reinforced Concrete Structures",
     "description": "",
     "data": {
-      "rule": "15.7.9.6 Reinforced Concrete Structures Reinforced concrete structures for the storage of granular materials shall be designed in accordance with the seismic force requirements of this standard and the requirements of ACI 313.",
+      "rule": "15.7.9.6 Reinforced Concrete Structures",
       "conditions": [],
       "then": "",
       "else": null,
@@ -11365,6 +12956,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-15.7.9.6-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15.7.9.6-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.7.9.6",
+      "citation": "Section 15.7.9.6",
+      "page": 16
+    },
+    "title": "Reinforced concrete structures for the storage of granular materials shall be designed in accordance with the seismic force requirements of this standard and the requirements of ACI 313.",
+    "description": "",
+    "data": {
+      "rule": "Reinforced concrete structures for the storage of granular materials shall be designed in accordance with the seismic force requirements of this standard and the requirements of ACI 313.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-15.7.9.7-H1",
     "type": "heading",
     "source": {
@@ -11374,10 +12992,10 @@
       "citation": "Section 15.7.9.7",
       "page": 16
     },
-    "title": "15.7.9.7 Prestressed Concrete Structures Prestressed concrete structures for the storage of granular materials shall be designed in accordance with the seismic force requirements of this standard and ",
+    "title": "15.7.9.7 Prestressed Concrete Structures",
     "description": "",
     "data": {
-      "rule": "15.7.9.7 Prestressed Concrete Structures Prestressed concrete structures for the storage of granular materials shall be designed in accordance with the seismic force requirements of this standard and the requirements of ACI 313.",
+      "rule": "15.7.9.7 Prestressed Concrete Structures",
       "conditions": [],
       "then": "",
       "else": null,
@@ -11390,6 +13008,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-15.7.9.7-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15.7.9.7-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.7.9.7",
+      "citation": "Section 15.7.9.7",
+      "page": 16
+    },
+    "title": "Prestressed concrete structures for the storage of granular materials shall be designed in accordance with the seismic force requirements of this standard and the requirements of ACI 313.",
+    "description": "",
+    "data": {
+      "rule": "Prestressed concrete structures for the storage of granular materials shall be designed in accordance with the seismic force requirements of this standard and the requirements of ACI 313.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-15.7.10-H1",
@@ -11486,10 +13131,10 @@
       "citation": "Section 15.7.10.2",
       "page": 17
     },
-    "title": "15.7.10.2 Effective Mass The design of the supporting tower or pedestal, anchorage, and foundation for seismic overturning shall assume that the stored material is a rigid mass acting at the volumetri",
+    "title": "15.7.10.2 Effective Mass",
     "description": "",
     "data": {
-      "rule": "15.7.10.2 Effective Mass The design of the supporting tower or pedestal, anchorage, and foundation for seismic overturning shall assume that the stored material is a rigid mass acting at the volumetric center of gravity. The effects of fl uid -structure interaction are permitted to be considered in determining the forces, effective period, and mass centroids of the system if the following requirements are met:",
+      "rule": "15.7.10.2 Effective Mass",
       "conditions": [],
       "then": "",
       "else": null,
@@ -11505,6 +13150,33 @@
   },
   {
     "id": "ASCE7-22-15.7.10.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15.7.10.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.7.10.2",
+      "citation": "Section 15.7.10.2",
+      "page": 17
+    },
+    "title": "The design of the supporting tower or pedestal, anchorage, and foundation for seismic overturning shall assume that the stored material is a rigid mass acting at the volumetric center of gravity. The ",
+    "description": "",
+    "data": {
+      "rule": "The design of the supporting tower or pedestal, anchorage, and foundation for seismic overturning shall assume that the stored material is a rigid mass acting at the volumetric center of gravity. The effects of fl uid -structure interaction are permitted to be considered in determining the forces, effective period, and mass centroids of the system if the following requirements are met:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-15.7.10.2-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -11531,7 +13203,7 @@
     "parent_id": "ASCE7-22-15.7.10.2-H1"
   },
   {
-    "id": "ASCE7-22-15.7.10.2-T2",
+    "id": "ASCE7-22-15.7.10.2-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -11594,10 +13266,10 @@
       "citation": "Section 15.7.10.3",
       "page": 17
     },
-    "title": "15.7.10.3 P-Delta Effects The lateral drift of the elevated tank shall be considered as follows:",
+    "title": "15.7.10.3 P-Delta Effects",
     "description": "",
     "data": {
-      "rule": "15.7.10.3 P-Delta Effects The lateral drift of the elevated tank shall be considered as follows:",
+      "rule": "15.7.10.3 P-Delta Effects",
       "conditions": [],
       "then": "",
       "else": null,
@@ -11610,6 +13282,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-15.7.10.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15.7.10.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.7.10.3",
+      "citation": "Section 15.7.10.3",
+      "page": 17
+    },
+    "title": "The lateral drift of the elevated tank shall be considered as follows:",
+    "description": "",
+    "data": {
+      "rule": "The lateral drift of the elevated tank shall be considered as follows:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-15.7.10.3-P1",
@@ -11763,10 +13462,10 @@
       "citation": "Section 15.7.10.4",
       "page": 17
     },
-    "title": "15.7.10.4 Transfer of Lateral Forces into Support Tower For post-supported tanks and vessels that are cross-braced:",
+    "title": "15.7.10.4 Transfer of Lateral Forces into Support Tower",
     "description": "",
     "data": {
-      "rule": "15.7.10.4 Transfer of Lateral Forces into Support Tower For post-supported tanks and vessels that are cross-braced:",
+      "rule": "15.7.10.4 Transfer of Lateral Forces into Support Tower",
       "conditions": [],
       "then": "",
       "else": null,
@@ -11779,6 +13478,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-15.7.10.4-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15.7.10.4-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.7.10.4",
+      "citation": "Section 15.7.10.4",
+      "page": 17
+    },
+    "title": "For post-supported tanks and vessels that are cross-braced:",
+    "description": "",
+    "data": {
+      "rule": "For post-supported tanks and vessels that are cross-braced:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-15.7.10.4-P1",
@@ -11986,39 +13712,10 @@
       "citation": "Section 15.7.10.6",
       "page": 17
     },
-    "title": "15.7.10.6 Welded Steel Water Storage Structures Welded steel elevated water storage structures shall be designed and detailed in accordance with the seismic requirements of AWWA D100, with the structu",
+    "title": "15.7.10.6 Welded Steel Water Storage Structures",
     "description": "",
     "data": {
-      "rule": "15.7.10.6 Welded Steel Water Storage Structures Welded steel elevated water storage structures shall be designed and detailed in accordance with the seismic requirements of AWWA D100, with the structural height limits imposed by Table 15.4-2.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [
-      "ASCE7-22-15.4-T15-4-22"
-    ],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-15.7.10.7-H1",
-    "type": "heading",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 15,
-      "section": "15.7.10.7",
-      "citation": "Section 15.7.10.7",
-      "page": 17
-    },
-    "title": "15.7.10.7 Concrete Pedestal (Composite) Tanks Concrete pedestal (composite) elevated water storage structures shall be designed in accordance with the requirements of AWWA D107, except that the seismi",
-    "description": "",
-    "data": {
-      "rule": "15.7.10.7 Concrete Pedestal (Composite) Tanks Concrete pedestal (composite) elevated water storage structures shall be designed in accordance with the requirements of AWWA D107, except that the seismic design ground motion values shall be determined according to Section 11.4.",
+      "rule": "15.7.10.6 Welded Steel Water Storage Structures",
       "conditions": [],
       "then": "",
       "else": null,
@@ -12031,6 +13728,89 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-15.7.10.6-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15.7.10.6-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.7.10.6",
+      "citation": "Section 15.7.10.6",
+      "page": 17
+    },
+    "title": "Welded steel elevated water storage structures shall be designed and detailed in accordance with the seismic requirements of AWWA D100, with the structural height limits imposed by Table 15.4-2.",
+    "description": "",
+    "data": {
+      "rule": "Welded steel elevated water storage structures shall be designed and detailed in accordance with the seismic requirements of AWWA D100, with the structural height limits imposed by Table 15.4-2.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-15.4-T15-4-22"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-15.7.10.7-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.7.10.7",
+      "citation": "Section 15.7.10.7",
+      "page": 17
+    },
+    "title": "15.7.10.7 Concrete",
+    "description": "",
+    "data": {
+      "rule": "15.7.10.7 Concrete",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-15.7.10.7-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15.7.10.7-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.7.10.7",
+      "citation": "Section 15.7.10.7",
+      "page": 17
+    },
+    "title": "Pedestal (Composite) Tanks Concrete pedestal (composite) elevated water storage structures shall be designed in accordance with the requirements of AWWA D107, except that the seismic design ground mot",
+    "description": "",
+    "data": {
+      "rule": "Pedestal (Composite) Tanks Concrete pedestal (composite) elevated water storage structures shall be designed in accordance with the requirements of AWWA D107, except that the seismic design ground motion values shall be determined according to Section 11.4.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-15.7.11-H1",
@@ -12161,10 +13941,10 @@
       "citation": "Section 15.7.11.4",
       "page": 17
     },
-    "title": "15.7.11.4 Coupling of Vessel and Support Structure Where the mass of the operating vessel or vessels supported is greater than 20% of the total mass of the combined structure, the structure and vessel",
+    "title": "15.7.11.4 Coupling of Vessel and Support Structure",
     "description": "",
     "data": {
-      "rule": "15.7.11.4 Coupling of Vessel and Support Structure Where the mass of the operating vessel or vessels supported is greater than 20% of the total mass of the combined structure, the structure and vessel designs shall consider the effects of",
+      "rule": "15.7.11.4 Coupling of Vessel and Support Structure",
       "conditions": [],
       "then": "",
       "else": null,
@@ -12177,6 +13957,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-15.7.11.4-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15.7.11.4-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.7.11.4",
+      "citation": "Section 15.7.11.4",
+      "page": 17
+    },
+    "title": "Where the mass of the operating vessel or vessels supported is greater than 20% of the total mass of the combined structure, the structure and vessel designs shall consider the effects of",
+    "description": "",
+    "data": {
+      "rule": "Where the mass of the operating vessel or vessels supported is greater than 20% of the total mass of the combined structure, the structure and vessel designs shall consider the effects of",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-15.7.11.4-P1",
@@ -12215,10 +14022,10 @@
       "citation": "Section 15.7.11.5",
       "page": 18
     },
-    "title": "15.7.11.5 Effective Mass Fluid -structure interaction (sloshing) shall be considered in determining the effective mass of the stored material, provided suf fi cient liquid surface exists for sloshing ",
+    "title": "15.7.11.5 Effective Mass",
     "description": "",
     "data": {
-      "rule": "15.7.11.5 Effective Mass Fluid -structure interaction (sloshing) shall be considered in determining the effective mass of the stored material, provided suf fi cient liquid surface exists for sloshing to occur and that Tc is greater than 3 T . Changes to or variations in material density with pressure and temperature shall be considered.",
+      "rule": "15.7.11.5 Effective Mass",
       "conditions": [],
       "then": "",
       "else": null,
@@ -12233,6 +14040,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-15.7.11.5-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15.7.11.5-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.7.11.5",
+      "citation": "Section 15.7.11.5",
+      "page": 18
+    },
+    "title": "Fluid -structure interaction (sloshing) shall be considered in determining the effective mass of the stored material, provided suf fi cient liquid surface exists for sloshing to occur and that Tc is g",
+    "description": "",
+    "data": {
+      "rule": "Fluid -structure interaction (sloshing) shall be considered in determining the effective mass of the stored material, provided suf fi cient liquid surface exists for sloshing to occur and that Tc is greater than 3 T . Changes to or variations in material density with pressure and temperature shall be considered.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-15.7.11.6-H1",
     "type": "heading",
     "source": {
@@ -12242,10 +14076,10 @@
       "citation": "Section 15.7.11.6",
       "page": 18
     },
-    "title": "15.7.11.6 Other Boilers and Pressure Vessels Boilers and pressure vessels designated as being in Risk Category IV, but not designed and constructed in accordance with the requirements of the ASME BPVC",
+    "title": "15.7.11.6 Other Boilers and Pressure Vessels",
     "description": "",
     "data": {
-      "rule": "15.7.11.6 Other Boilers and Pressure Vessels Boilers and pressure vessels designated as being in Risk Category IV, but not designed and constructed in accordance with the requirements of the ASME BPVC, shall meet the following requirements.",
+      "rule": "15.7.11.6 Other Boilers and Pressure Vessels",
       "conditions": [],
       "then": "",
       "else": null,
@@ -12258,6 +14092,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-15.7.11.6-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15.7.11.6-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.7.11.6",
+      "citation": "Section 15.7.11.6",
+      "page": 18
+    },
+    "title": "Boilers and pressure vessels designated as being in Risk Category IV, but not designed and constructed in accordance with the requirements of the ASME BPVC, shall meet the following requirements.",
+    "description": "",
+    "data": {
+      "rule": "Boilers and pressure vessels designated as being in Risk Category IV, but not designed and constructed in accordance with the requirements of the ASME BPVC, shall meet the following requirements.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-15.7.11.6-P1",
@@ -12707,10 +14568,38 @@
       "citation": "Section 15.7.12.1",
       "page": 18
     },
-    "title": "15.7.12.1 General Attachments to the pressure or liquid boundary, supports, and seismic force-resisting anchorage systems for liquid and gas spheres shall be designed to meet the force and displacemen",
+    "title": "15.7.12.1 General",
     "description": "",
     "data": {
-      "rule": "15.7.12.1 General Attachments to the pressure or liquid boundary, supports, and seismic force-resisting anchorage systems for liquid and gas spheres shall be designed to meet the force and displacement requirements of Section 15.3 or 15.4 and the additional requirements of this section. Spheres categorized as Risk Category III or IV shall themselves be designed to meet the force and displacement requirements of Section 15.3 or 15.4.",
+      "rule": "15.7.12.1 General",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-15.7.12.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15.7.12.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.7.12.1",
+      "citation": "Section 15.7.12.1",
+      "page": 18
+    },
+    "title": "Attachments to the pressure or liquid boundary, supports, and seismic force-resisting anchorage systems for liquid and gas spheres shall be designed to meet the force and displacement requirements of ",
+    "description": "",
+    "data": {
+      "rule": "Attachments to the pressure or liquid boundary, supports, and seismic force-resisting anchorage systems for liquid and gas spheres shall be designed to meet the force and displacement requirements of Section 15.3 or 15.4 and the additional requirements of this section. Spheres categorized as Risk Category III or IV shall themselves be designed to meet the force and displacement requirements of Section 15.3 or 15.4.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -12722,9 +14611,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-15.7.12.2-H1",
@@ -12736,10 +14624,38 @@
       "citation": "Section 15.7.12.2",
       "page": 18
     },
-    "title": "15.7.12.2 ASME Spheres Spheres designed and constructed in accordance with Section VIII of the ASME BPVC shall be deemed to meet the requirements of this section, provided the force and displacement r",
+    "title": "15.7.12.2 ASME Spheres",
     "description": "",
     "data": {
-      "rule": "15.7.12.2 ASME Spheres Spheres designed and constructed in accordance with Section VIII of the ASME BPVC shall be deemed to meet the requirements of this section, provided the force and displacement requirements of Section 15.3 or 15.4 are used with appropriate scaling of the force and displacement requirements to the working stress design basis.",
+      "rule": "15.7.12.2 ASME Spheres",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-15.7.12.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15.7.12.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.7.12.2",
+      "citation": "Section 15.7.12.2",
+      "page": 18
+    },
+    "title": "Spheres designed and constructed in accordance with Section VIII of the ASME BPVC shall be deemed to meet the requirements of this section, provided the force and displacement requirements of Section ",
+    "description": "",
+    "data": {
+      "rule": "Spheres designed and constructed in accordance with Section VIII of the ASME BPVC shall be deemed to meet the requirements of this section, provided the force and displacement requirements of Section 15.3 or 15.4 are used with appropriate scaling of the force and displacement requirements to the working stress design basis.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -12751,9 +14667,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-15.7.12.3-P1",
@@ -13017,10 +14932,10 @@
       "citation": "Section 15.7.12.6",
       "page": 19
     },
-    "title": "15.7.12.6 Skirt-Supported Spheres For skirt-supported spheres, the following requirements shall apply:",
+    "title": "15.7.12.6 Skirt-Supported Spheres",
     "description": "",
     "data": {
-      "rule": "15.7.12.6 Skirt-Supported Spheres For skirt-supported spheres, the following requirements shall apply:",
+      "rule": "15.7.12.6 Skirt-Supported Spheres",
       "conditions": [],
       "then": "",
       "else": null,
@@ -13033,6 +14948,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-15.7.12.6-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15.7.12.6-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.7.12.6",
+      "citation": "Section 15.7.12.6",
+      "page": 19
+    },
+    "title": "For skirt-supported spheres, the following requirements shall apply:",
+    "description": "",
+    "data": {
+      "rule": "For skirt-supported spheres, the following requirements shall apply:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-15.7.12.6-P1",
@@ -13183,7 +15125,7 @@
       "citation": "Section 15.7.14",
       "page": 19
     },
-    "title": "15.7.14 Horizontal, Saddle-Supported Vessels for Liquid or Vapor Storage",
+    "title": "15.7.14 Horizontal, Saddle-Supported Vessels for Liquid or",
     "description": "",
     "data": {
       "rule": "15.7.14 Horizontal, Saddle-Supported Vessels for Liquid or Vapor Storage",
@@ -13210,10 +15152,38 @@
       "citation": "Section 15.7.14.1",
       "page": 19
     },
-    "title": "15.7.14.1 General Horizontal vessels supported on saddles (sometimes referred to as ' blimps ' ) shall be designed to meet the force and displacement requirements of Section 15.3 or 15.4.",
+    "title": "15.7.14.1 General",
     "description": "",
     "data": {
-      "rule": "15.7.14.1 General Horizontal vessels supported on saddles (sometimes referred to as ' blimps ' ) shall be designed to meet the force and displacement requirements of Section 15.3 or 15.4.",
+      "rule": "15.7.14.1 General",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-15.7.14.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15.7.14.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.7.14.1",
+      "citation": "Section 15.7.14.1",
+      "page": 19
+    },
+    "title": "Horizontal vessels supported on saddles (sometimes referred to as ' blimps ' ) shall be designed to meet the force and displacement requirements of Section 15.3 or 15.4.",
+    "description": "",
+    "data": {
+      "rule": "Horizontal vessels supported on saddles (sometimes referred to as ' blimps ' ) shall be designed to meet the force and displacement requirements of Section 15.3 or 15.4.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -13225,9 +15195,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-15.7.14.2-H1",
@@ -13239,10 +15208,10 @@
       "citation": "Section 15.7.14.2",
       "page": 19
     },
-    "title": "15.7.14.2 Effective Mass Changes to or variations in material density shall be considered. The design of the supports, saddles, anchorage, and foundation for seismic overturning shall assume that the ",
+    "title": "15.7.14.2 Effective Mass",
     "description": "",
     "data": {
-      "rule": "15.7.14.2 Effective Mass Changes to or variations in material density shall be considered. The design of the supports, saddles, anchorage, and foundation for seismic overturning shall assume that the material stored is a rigid mass acting at the volumetric center of gravity.",
+      "rule": "15.7.14.2 Effective Mass",
       "conditions": [],
       "then": "",
       "else": null,
@@ -13257,6 +15226,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-15.7.14.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15.7.14.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.7.14.2",
+      "citation": "Section 15.7.14.2",
+      "page": 19
+    },
+    "title": "Changes to or variations in material density shall be considered. The design of the supports, saddles, anchorage, and foundation for seismic overturning shall assume that the material stored is a rigi",
+    "description": "",
+    "data": {
+      "rule": "Changes to or variations in material density shall be considered. The design of the supports, saddles, anchorage, and foundation for seismic overturning shall assume that the material stored is a rigid mass acting at the volumetric center of gravity.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-15.7.14.3-H1",
     "type": "heading",
     "source": {
@@ -13266,10 +15262,10 @@
       "citation": "Section 15.7.14.3",
       "page": 19
     },
-    "title": "15.7.14.3 Vessel Design Unless a more rigorous analysis is performed,",
+    "title": "15.7.14.3 Vessel Design",
     "description": "",
     "data": {
-      "rule": "15.7.14.3 Vessel Design Unless a more rigorous analysis is performed,",
+      "rule": "15.7.14.3 Vessel Design",
       "conditions": [],
       "then": "",
       "else": null,
@@ -13282,6 +15278,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-15.7.14.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-15.7.14.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 15,
+      "section": "15.7.14.3",
+      "citation": "Section 15.7.14.3",
+      "page": 19
+    },
+    "title": "Unless a more rigorous analysis is performed,",
+    "description": "",
+    "data": {
+      "rule": "Unless a more rigorous analysis is performed,",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-15.7.14.3-P1",

@@ -1,0 +1,198 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8">
+<title>ASCE 7-22 Chapter 27 — Digital Twin</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#FFF;--s:#F5F5F5;--t:#1A1A1A;--m:#6B6B6B;--b:#D4D4D4;--sub:#E8E8E8;
+--g:#16A34A;--a:#0057FF;--r:#DC2626;--am:#D97706;--cy:#06B6D4;--purple:#8B5CF6}
+@media(prefers-color-scheme:dark){:root{--bg:#0A0A0A;--s:#141414;--t:#E5E5E5;--m:#808080;
+--b:#2A2A2A;--sub:#1A1A1A;--a:#3B82F6}}
+body{background:var(--bg);color:var(--t);font-family:'JetBrains Mono','SF Mono',monospace;
+font-size:11px;max-width:900px;margin:0 auto;padding:16px}
+h1{font-size:13px;text-transform:uppercase;letter-spacing:.1em;margin-bottom:2px}
+.sub{font-size:10px;color:var(--m);margin-bottom:12px}
+.nav{font-size:10px;color:var(--a);margin-bottom:16px}
+.nav a{color:var(--a);text-decoration:none}
+.nav a:hover{text-decoration:underline}
+.section{margin-bottom:12px}
+.sec-num{font-size:12px;font-weight:700;color:var(--t);margin-bottom:2px}
+.sec-0,.sec-1{margin-left:0}.sec-2{margin-left:16px}.sec-3{margin-left:32px}.sec-4{margin-left:48px}
+.child{margin:3px 0;padding:4px 8px;border-left:2px solid var(--sub);font-size:10px;line-height:1.5}
+.child.provision{border-color:var(--g);background:rgba(22,163,74,0.03)}
+.child.definition{border-color:var(--purple);background:rgba(139,92,246,0.03)}
+.child.formula{border-color:var(--a);background:rgba(59,130,246,0.03)}
+.child.table{border-color:var(--cy);background:rgba(6,182,212,0.03)}
+.child.figure{border-color:var(--am);background:rgba(217,119,6,0.03)}
+.child.exception{border-color:var(--r);background:rgba(220,38,38,0.03)}
+.child.user_note{border-color:var(--m);background:rgba(128,128,128,0.03)}
+.child.text_block{border-color:var(--sub)}
+.tag{display:inline-block;padding:0 3px;border:1px solid;font-size:7px;text-transform:uppercase;
+letter-spacing:.04em;margin-right:3px;vertical-align:middle}
+.tag-provision{border-color:var(--g);color:var(--g)}
+.tag-definition{border-color:var(--purple);color:var(--purple)}
+.tag-formula{border-color:var(--a);color:var(--a)}
+.tag-table{border-color:var(--cy);color:var(--cy)}
+.tag-figure{border-color:var(--am);color:var(--am)}
+.tag-exception{border-color:var(--r);color:var(--r)}
+.tag-user_note{border-color:var(--m);color:var(--m)}
+.tag-text_block{border-color:var(--sub);color:var(--m)}
+.meta{font-size:8px;color:var(--m)}
+.xref{font-size:8px;color:var(--a)}
+b{font-weight:600}
+table.tbl{width:100%;border-collapse:collapse;font-size:9px;margin:4px 0}
+table.tbl th{text-align:left;font-size:7px;text-transform:uppercase;color:var(--m);border-bottom:1px solid var(--b);padding:1px 4px}
+table.tbl td{padding:1px 4px;border-bottom:1px solid var(--sub)}
+</style></head><body>
+<h1>ASCE 7-22 Chapter 27 — Digital Twin</h1>
+<div class="sub">158 elements · 24 provisions · 0 definitions · 4 formulas · 2 tables</div>
+<div class="nav"><a href="digital-twin-index.html">← All Chapters</a></div>
+
+<div class="section sec-0">
+<div class="sec-num">CHAPTER 27</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">27.1 SCOPE</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">27.1.1 Building Types</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+This chapter applies to the determination of Main Wind Force Resisting System (MWFRS) wind loads on enclosed, partially enclosed, partially open, and open buildings of all heights using the Directional Procedure, in which it is necessary to separate applied wind loads onto the windward, leeward, and sidewalls of the building to properly assess the internal forces in the MWFRS members.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">27.1.2 Conditions</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+A building that has design wind loads determined in accordance with this chapter shall comply with both of the following conditions:
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The building is a regular-shaped building as de fi ned in Section 26.2, and
+<br><span class="xref">→ ASCE7-22-26.2-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The building does not have response characteristics that make it subject to across-wind loading, vortex shedding, or instability caused by galloping or fl utter; nor does it have a site location for which channeling effects or buffeting, in the wake of upwind obstructions, warrant special consideration.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">27.1.4 Shielding</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+There shall be no reductions in velocity pressure caused by apparent shielding afforded by buildings and other structures or terrain features.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">27.1.5 Minimum Design Wind Loads</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The wind pressure to be used in the design of the MWFRS for an enclosed, or partially enclosed, building shall not be less than 16 lb ∕ ft 2 (0.77 kN ∕ m 2 ) multiplied by the wall area of the building, and 8 lb ∕ ft 2 (0.38 kN ∕ m 2 ) multiplied by the roof area of the building, projected onto a vertical plane normal to the assumed wind direction. Wall and roof loads shall be applied simultaneous
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">27.2 GENERAL REQUIREMENTS</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The steps to determine the wind loads on the MWFRS for enclosed, partially enclosed, partially open, and open buildings of all heights are provided in Table 27.2-1.
+<br><span class="xref">→ ASCE7-22-27.2-T27-2-11</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Basic wind speed, V (Section 26.5);
+<br><span class="xref">→ ASCE7-22-26.5-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Wind directionality factor, Kd (Section 26.6);
+<br><span class="xref">→ ASCE7-22-26.6-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Exposure category (Section 26.7);
+<br><span class="xref">→ ASCE7-22-26.7-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Topographic factor, Kzt (Section 26.8);
+<br><span class="xref">→ ASCE7-22-26.8-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Ground elevation factor, Ke (Section 26.9);
+<br><span class="xref">→ ASCE7-22-26.9-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Gust-effect factor (Section 26.11);
+<br><span class="xref">→ ASCE7-22-26.11-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Enclosure classi fi cation (Section 26.12); and
+<br><span class="xref">→ ASCE7-22-26.12-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Internal pressure coef fi cient, ( GCpi ) (Section 26.13).
+<br><span class="xref">→ ASCE7-22-26.13-H1</span>
+</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">27.3</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+WIND LOADS: MAIN WIND FORCE RESISTING SYSTEM
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">27.3.1 Enclosed, Partially Enclosed, and Partially Open</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-3">
+<div class="sec-num">27.3.1.1 Elevated Buildings</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The MWFRS loads for rigid or fl exible elevated buildings meeting both of the following geometric limitations, for any principal wind direction, shall be determined in accordance with this section for that principal direction.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The sum of the cross-sectional areas of the supporting structural elements and any enclosed or partially enclosed spaces beneath the building, as seen in a horizontal crosssection through the space under the building, does not exceed the indicated percentage of the plan cross-sectional area of the aforementioned building for the indicated L/B ratio (linear interpolation is allowed):
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+L/B Ratio Percentage of Plan Area of Building Blocked by Elements or Enclosures Beneath the Building
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The sum of the areas of the supporting structural elements and any enclosed, partially enclosed or partially open spaces, as projected onto a vertical plane normal to the wind direction, does not exceed 75% of the projected area outlined by the height of these elements and the projected width of the building above.
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Roof pressure coef fi cients for the wind direction &#x27; normal to the ridge for θ &lt; 10° and parallel to ridge for all θ &#x27; provided in Figure 27.3-1. Negative roof pressure coef fi cients denote downward loading on the bottom fl oor assembly, while positive roof pressure coef fi cients denote upward loading.
+<br><span class="xref">→ ASCE7-22-27.3-E27-3-11</span>
+</div>
+</div>
+<div class="section sec-4">
+<div class="sec-num">R oo f P r e ss u r e C o eff i c i e nts , C p , f or u s e w it h q h</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">27.3.2 Open</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Buildings with Monoslope, Pitched, or Troughed Free Roofs The net design pressure for the MWFRS of open buildings with monoslope, pitched, or troughed free roofs in lb/ft 2 (N/m 2 ), shall be determined by Equation (27.3-2):
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+Kd = Wind directionality factor (see Section 26.6);
+<br><span class="xref">→ ASCE7-22-26.6-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+G = Gust-effect factor from Section 26.11; and
+<br><span class="xref">→ ASCE7-22-26.11-H1</span>
+</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+CN = Net pressure coef fi cient determined from Figures 27.3-4 through 27.3-7.
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">27.3.3 Roof Overhangs</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+The positive external pressure on the bottom surface of windward roof overhangs shall be determined using Cp = 0 . 8 and combined with the top surface pressures determined using Figure 27.3-1.
+<br><span class="xref">→ ASCE7-22-27.3-E27-3-11</span>
+</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">27.3.4 Parapets</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-2">
+<div class="sec-num">27.3.5 Design Wind Load Cases</div>
+<div class="meta" style="padding:2px 8px">(no child elements)</div>
+</div>
+<div class="section sec-1">
+<div class="sec-num">27.4</div>
+<div class="child text_block"><span class="tag tag-text_block">text_block</span>
+CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS
+</div>
+</div>
+</body></html>

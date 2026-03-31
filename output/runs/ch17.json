@@ -9,10 +9,10 @@
       "citation": "Section 17",
       "page": 1
     },
-    "title": "CHAPTER 17 SEISMIC DESIGN REQUIREMENTS FOR SEISMICALLY ISOLATED STRUCTURES",
+    "title": "CHAPTER 17",
     "description": "",
     "data": {
-      "rule": "CHAPTER 17 SEISMIC DESIGN REQUIREMENTS FOR SEISMICALLY ISOLATED STRUCTURES",
+      "rule": "CHAPTER 17",
       "conditions": [],
       "then": "",
       "else": null,
@@ -25,6 +25,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-17-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-17-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 17,
+      "section": "17",
+      "citation": "Section 17",
+      "page": 1
+    },
+    "title": "SEISMIC DESIGN REQUIREMENTS FOR SEISMICALLY ISOLATED STRUCTURES",
+    "description": "",
+    "data": {
+      "rule": "SEISMIC DESIGN REQUIREMENTS FOR SEISMICALLY ISOLATED STRUCTURES",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-17.1-H1",
@@ -90,10 +117,10 @@
       "citation": "Section 17.1.1",
       "page": 1
     },
-    "title": "17.1.1 De fi nitions The following de fi nitions only apply to the seismically isolated structure provisions of Chapter 17 and are in addition to the de fi nitions presented in Chapter 11.",
+    "title": "17.1.1 De",
     "description": "",
     "data": {
-      "rule": "17.1.1 De fi nitions The following de fi nitions only apply to the seismically isolated structure provisions of Chapter 17 and are in addition to the de fi nitions presented in Chapter 11.",
+      "rule": "17.1.1 De",
       "conditions": [],
       "then": "",
       "else": null,
@@ -106,6 +133,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-17.1.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-17.1.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 17,
+      "section": "17.1.1",
+      "citation": "Section 17.1.1",
+      "page": 1
+    },
+    "title": "fi nitions The following de fi nitions only apply to the seismically isolated structure provisions of Chapter 17 and are in addition to the de fi nitions presented in Chapter 11.",
+    "description": "",
+    "data": {
+      "rule": "fi nitions The following de fi nitions only apply to the seismically isolated structure provisions of Chapter 17 and are in addition to the de fi nitions presented in Chapter 11.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-17.1.1-D1",
@@ -384,10 +438,10 @@
       "citation": "Section 17.1.2",
       "page": 1
     },
-    "title": "17.1.2 Symbols Symbols presented in this section only apply to the seismically isolated structure provisions of Chapter 17 and are in addition to the symbols presented in Chapter 11.",
+    "title": "17.1.2 Symbols",
     "description": "",
     "data": {
-      "rule": "17.1.2 Symbols Symbols presented in this section only apply to the seismically isolated structure provisions of Chapter 17 and are in addition to the symbols presented in Chapter 11.",
+      "rule": "17.1.2 Symbols",
       "conditions": [],
       "then": "",
       "else": null,
@@ -403,6 +457,33 @@
   },
   {
     "id": "ASCE7-22-17.1.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-17.1.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 17,
+      "section": "17.1.2",
+      "citation": "Section 17.1.2",
+      "page": 1
+    },
+    "title": "Symbols presented in this section only apply to the seismically isolated structure provisions of Chapter 17 and are in addition to the symbols presented in Chapter 11.",
+    "description": "",
+    "data": {
+      "rule": "Symbols presented in this section only apply to the seismically isolated structure provisions of Chapter 17 and are in addition to the symbols presented in Chapter 11.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-17.1.2-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -429,7 +510,7 @@
     "parent_id": "ASCE7-22-17.1.2-H1"
   },
   {
-    "id": "ASCE7-22-17.1.2-T2",
+    "id": "ASCE7-22-17.1.2-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -458,7 +539,7 @@
     "parent_id": "ASCE7-22-17.1.2-H1"
   },
   {
-    "id": "ASCE7-22-17.1.2-T3",
+    "id": "ASCE7-22-17.1.2-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -485,7 +566,7 @@
     "parent_id": "ASCE7-22-17.1.2-H1"
   },
   {
-    "id": "ASCE7-22-17.1.2-T4",
+    "id": "ASCE7-22-17.1.2-T5",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -512,7 +593,7 @@
     "parent_id": "ASCE7-22-17.1.2-H1"
   },
   {
-    "id": "ASCE7-22-17.1.2-T5",
+    "id": "ASCE7-22-17.1.2-T6",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -539,7 +620,7 @@
     "parent_id": "ASCE7-22-17.1.2-H1"
   },
   {
-    "id": "ASCE7-22-17.1.2-T6",
+    "id": "ASCE7-22-17.1.2-T7",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -566,7 +647,7 @@
     "parent_id": "ASCE7-22-17.1.2-H1"
   },
   {
-    "id": "ASCE7-22-17.1.2-T7",
+    "id": "ASCE7-22-17.1.2-T8",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -593,7 +674,7 @@
     "parent_id": "ASCE7-22-17.1.2-H1"
   },
   {
-    "id": "ASCE7-22-17.1.2-T8",
+    "id": "ASCE7-22-17.1.2-T9",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -620,7 +701,7 @@
     "parent_id": "ASCE7-22-17.1.2-H1"
   },
   {
-    "id": "ASCE7-22-17.1.2-T9",
+    "id": "ASCE7-22-17.1.2-T10",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -647,7 +728,7 @@
     "parent_id": "ASCE7-22-17.1.2-H1"
   },
   {
-    "id": "ASCE7-22-17.1.2-T10",
+    "id": "ASCE7-22-17.1.2-T11",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -674,7 +755,7 @@
     "parent_id": "ASCE7-22-17.1.2-H1"
   },
   {
-    "id": "ASCE7-22-17.1.2-T11",
+    "id": "ASCE7-22-17.1.2-T12",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -701,7 +782,7 @@
     "parent_id": "ASCE7-22-17.1.2-H1"
   },
   {
-    "id": "ASCE7-22-17.1.2-T12",
+    "id": "ASCE7-22-17.1.2-T13",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -913,7 +994,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-17.1.2-T13",
+    "id": "ASCE7-22-17.1.2-T14",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -940,7 +1021,7 @@
     "parent_id": "ASCE7-22-17.1.2-H1"
   },
   {
-    "id": "ASCE7-22-17.1.2-T14",
+    "id": "ASCE7-22-17.1.2-T15",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -967,7 +1048,7 @@
     "parent_id": "ASCE7-22-17.1.2-H1"
   },
   {
-    "id": "ASCE7-22-17.1.2-T15",
+    "id": "ASCE7-22-17.1.2-T16",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -994,7 +1075,7 @@
     "parent_id": "ASCE7-22-17.1.2-H1"
   },
   {
-    "id": "ASCE7-22-17.1.2-T16",
+    "id": "ASCE7-22-17.1.2-T17",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1021,7 +1102,7 @@
     "parent_id": "ASCE7-22-17.1.2-H1"
   },
   {
-    "id": "ASCE7-22-17.1.2-T17",
+    "id": "ASCE7-22-17.1.2-T18",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1082,7 +1163,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-17.1.2-T19",
+    "id": "ASCE7-22-17.1.2-T20",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1109,7 +1190,7 @@
     "parent_id": "ASCE7-22-17.1.2-H1"
   },
   {
-    "id": "ASCE7-22-17.1.2-T20",
+    "id": "ASCE7-22-17.1.2-T21",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1136,7 +1217,7 @@
     "parent_id": "ASCE7-22-17.1.2-H1"
   },
   {
-    "id": "ASCE7-22-17.1.2-T21",
+    "id": "ASCE7-22-17.1.2-T22",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1163,7 +1244,7 @@
     "parent_id": "ASCE7-22-17.1.2-H1"
   },
   {
-    "id": "ASCE7-22-17.1.2-T22",
+    "id": "ASCE7-22-17.1.2-T23",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1190,7 +1271,7 @@
     "parent_id": "ASCE7-22-17.1.2-H1"
   },
   {
-    "id": "ASCE7-22-17.1.2-T23",
+    "id": "ASCE7-22-17.1.2-T24",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1217,7 +1298,7 @@
     "parent_id": "ASCE7-22-17.1.2-H1"
   },
   {
-    "id": "ASCE7-22-17.1.2-T24",
+    "id": "ASCE7-22-17.1.2-T25",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1246,7 +1327,7 @@
     "parent_id": "ASCE7-22-17.1.2-H1"
   },
   {
-    "id": "ASCE7-22-17.1.2-T25",
+    "id": "ASCE7-22-17.1.2-T26",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1273,7 +1354,7 @@
     "parent_id": "ASCE7-22-17.1.2-H1"
   },
   {
-    "id": "ASCE7-22-17.1.2-T27",
+    "id": "ASCE7-22-17.1.2-T28",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1300,7 +1381,7 @@
     "parent_id": "ASCE7-22-17.1.2-H1"
   },
   {
-    "id": "ASCE7-22-17.1.2-T28",
+    "id": "ASCE7-22-17.1.2-T29",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1327,7 +1408,7 @@
     "parent_id": "ASCE7-22-17.1.2-H1"
   },
   {
-    "id": "ASCE7-22-17.1.2-T29",
+    "id": "ASCE7-22-17.1.2-T30",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1354,7 +1435,7 @@
     "parent_id": "ASCE7-22-17.1.2-H1"
   },
   {
-    "id": "ASCE7-22-17.1.2-T30",
+    "id": "ASCE7-22-17.1.2-T31",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1381,7 +1462,7 @@
     "parent_id": "ASCE7-22-17.1.2-H1"
   },
   {
-    "id": "ASCE7-22-17.1.2-T31",
+    "id": "ASCE7-22-17.1.2-T32",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1408,7 +1489,7 @@
     "parent_id": "ASCE7-22-17.1.2-H1"
   },
   {
-    "id": "ASCE7-22-17.1.2-T32",
+    "id": "ASCE7-22-17.1.2-T33",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1435,7 +1516,7 @@
     "parent_id": "ASCE7-22-17.1.2-H1"
   },
   {
-    "id": "ASCE7-22-17.1.2-T33",
+    "id": "ASCE7-22-17.1.2-T34",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1462,7 +1543,7 @@
     "parent_id": "ASCE7-22-17.1.2-H1"
   },
   {
-    "id": "ASCE7-22-17.1.2-T34",
+    "id": "ASCE7-22-17.1.2-T35",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1489,7 +1570,7 @@
     "parent_id": "ASCE7-22-17.1.2-H1"
   },
   {
-    "id": "ASCE7-22-17.1.2-T37",
+    "id": "ASCE7-22-17.1.2-T38",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1516,7 +1597,7 @@
     "parent_id": "ASCE7-22-17.1.2-H1"
   },
   {
-    "id": "ASCE7-22-17.1.2-T38",
+    "id": "ASCE7-22-17.1.2-T39",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1545,7 +1626,7 @@
     "parent_id": "ASCE7-22-17.1.2-H1"
   },
   {
-    "id": "ASCE7-22-17.1.2-T39",
+    "id": "ASCE7-22-17.1.2-T40",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1572,7 +1653,7 @@
     "parent_id": "ASCE7-22-17.1.2-H1"
   },
   {
-    "id": "ASCE7-22-17.1.2-T40",
+    "id": "ASCE7-22-17.1.2-T41",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1601,7 +1682,7 @@
     "parent_id": "ASCE7-22-17.1.2-H1"
   },
   {
-    "id": "ASCE7-22-17.1.2-T41",
+    "id": "ASCE7-22-17.1.2-T42",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1630,7 +1711,7 @@
     "parent_id": "ASCE7-22-17.1.2-H1"
   },
   {
-    "id": "ASCE7-22-17.1.2-T42",
+    "id": "ASCE7-22-17.1.2-T43",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1659,7 +1740,7 @@
     "parent_id": "ASCE7-22-17.1.2-H1"
   },
   {
-    "id": "ASCE7-22-17.1.2-T43",
+    "id": "ASCE7-22-17.1.2-T44",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1688,7 +1769,7 @@
     "parent_id": "ASCE7-22-17.1.2-H1"
   },
   {
-    "id": "ASCE7-22-17.1.2-T44",
+    "id": "ASCE7-22-17.1.2-T45",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1717,7 +1798,7 @@
     "parent_id": "ASCE7-22-17.1.2-H1"
   },
   {
-    "id": "ASCE7-22-17.1.2-T45",
+    "id": "ASCE7-22-17.1.2-T46",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1746,7 +1827,7 @@
     "parent_id": "ASCE7-22-17.1.2-H1"
   },
   {
-    "id": "ASCE7-22-17.1.2-T46",
+    "id": "ASCE7-22-17.1.2-T47",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1775,7 +1856,7 @@
     "parent_id": "ASCE7-22-17.1.2-H1"
   },
   {
-    "id": "ASCE7-22-17.1.2-T47",
+    "id": "ASCE7-22-17.1.2-T48",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1802,7 +1883,7 @@
     "parent_id": "ASCE7-22-17.1.2-H1"
   },
   {
-    "id": "ASCE7-22-17.1.2-T48",
+    "id": "ASCE7-22-17.1.2-T49",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1829,7 +1910,7 @@
     "parent_id": "ASCE7-22-17.1.2-H1"
   },
   {
-    "id": "ASCE7-22-17.1.2-T49",
+    "id": "ASCE7-22-17.1.2-T50",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1865,7 +1946,7 @@
       "citation": "Section 17.2",
       "page": 2
     },
-    "title": "17.2 GENERAL DESIGN REQUIREMENTS",
+    "title": "17.2",
     "description": "",
     "data": {
       "rule": "17.2 GENERAL DESIGN REQUIREMENTS",
@@ -2039,13 +2120,13 @@
     "data": {
       "expression": "TM = Effective period of the seismically isolated structure at the displacement DM in the direction under consideration, as prescribed by Equation (17.5-2)",
       "parameters": {
-        "DM": {
-          "description": "Maximum displacement [in. (mm)] at the center of rigidity of the isolation system in the direction under consideration, as prescribed by Equation (17.5-1);",
-          "source": "ASCE7-22-17.6.4.1-T1"
-        },
         "TM": {
           "description": "Effective period of the seismically isolated structure (s) at the displacement DM in the direction under consideration, as prescribed by Equation (17.5-2); and",
           "source": "ASCE7-22-17.5.3.1-T4"
+        },
+        "DM": {
+          "description": "Maximum displacement [in. (mm)] at the center of rigidity of the isolation system in the direction under consideration, as prescribed by Equation (17.5-1);",
+          "source": "ASCE7-22-17.6.4.1-T1"
         }
       }
     },
@@ -2163,13 +2244,13 @@
           "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the MCER ground motions, Section 18.7.3.3",
           "source": "ASCE7-22-18.1.3-T79"
         },
-        "DM": {
-          "description": "Maximum displacement [in. (mm)] at the center of rigidity of the isolation system in the direction under consideration, as prescribed by Equation (17.5-1);",
-          "source": "ASCE7-22-17.6.4.1-T1"
-        },
         "\u03b2": {
           "description": "Fraction of critical damping for the coupled structure -foundation system, determined in Section 19.2.1",
           "source": "ASCE7-22-11.3-T140"
+        },
+        "DM": {
+          "description": "Maximum displacement [in. (mm)] at the center of rigidity of the isolation system in the direction under consideration, as prescribed by Equation (17.5-1);",
+          "source": "ASCE7-22-17.6.4.1-T1"
         }
       }
     },
@@ -2220,10 +2301,10 @@
       "citation": "Section 17.2.2",
       "page": 3
     },
-    "title": "17.2.2 Con fi guration Each isolated structure shall be designated as having a structural irregularity if the structural con fi guration above the isolation system has a Type 1 horizontal structural i",
+    "title": "17.2.2 Con",
     "description": "",
     "data": {
-      "rule": "17.2.2 Con fi guration Each isolated structure shall be designated as having a structural irregularity if the structural con fi guration above the isolation system has a Type 1 horizontal structural irregularity with a TIR greater than 1.4 or Type 1a, 1b, 4a, 4b vertical irregularity, as de fi ned in Table 12.3-2.",
+      "rule": "17.2.2 Con",
       "conditions": [],
       "then": "",
       "else": null,
@@ -2238,6 +2319,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-17.2.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-17.2.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 17,
+      "section": "17.2.2",
+      "citation": "Section 17.2.2",
+      "page": 3
+    },
+    "title": "fi guration Each isolated structure shall be designated as having a structural irregularity if the structural con fi guration above the isolation system has a Type 1 horizontal structural irregularity",
+    "description": "",
+    "data": {
+      "rule": "fi guration Each isolated structure shall be designated as having a structural irregularity if the structural con fi guration above the isolation system has a Type 1 horizontal structural irregularity with a TIR greater than 1.4 or Type 1a, 1b, 4a, 4b vertical irregularity, as de fi ned in Table 12.3-2.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-17.2.3-H1",
     "type": "heading",
     "source": {
@@ -2247,10 +2355,38 @@
       "citation": "Section 17.2.3",
       "page": 3
     },
-    "title": "17.2.3 Redundancy A redundancy factor, \u03c1 , shall be assigned to the structure above the isolation system based on requirements of Section 12.3.4. The value of the redundancy factor, \u03c1 , is permitted t",
+    "title": "17.2.3 Redundancy",
     "description": "",
     "data": {
-      "rule": "17.2.3 Redundancy A redundancy factor, \u03c1 , shall be assigned to the structure above the isolation system based on requirements of Section 12.3.4. The value of the redundancy factor, \u03c1 , is permitted to be equal to 1.0 for isolated structures that do not have a structural irregularity, as de fi ned in Section 17.2.2.",
+      "rule": "17.2.3 Redundancy",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-17.2.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-17.2.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 17,
+      "section": "17.2.3",
+      "citation": "Section 17.2.3",
+      "page": 3
+    },
+    "title": "A redundancy factor, \u03c1 , shall be assigned to the structure above the isolation system based on requirements of Section 12.3.4. The value of the redundancy factor, \u03c1 , is permitted to be equal to 1.0 ",
+    "description": "",
+    "data": {
+      "rule": "A redundancy factor, \u03c1 , shall be assigned to the structure above the isolation system based on requirements of Section 12.3.4. The value of the redundancy factor, \u03c1 , is permitted to be equal to 1.0 for isolated structures that do not have a structural irregularity, as de fi ned in Section 17.2.2.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -2262,9 +2398,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-17.2.4-H1",
@@ -2359,10 +2494,10 @@
       "citation": "Section 17.2.4.3",
       "page": 3
     },
-    "title": "17.2.4.3 Fire Resistance Fire resistance for the isolation system shall provide at least the same degree of protection as the fi re resistance required for the columns, walls, or other such gravitybea",
+    "title": "17.2.4.3 Fire Resistance",
     "description": "",
     "data": {
-      "rule": "17.2.4.3 Fire Resistance Fire resistance for the isolation system shall provide at least the same degree of protection as the fi re resistance required for the columns, walls, or other such gravitybearing elements in the same region of the structure.",
+      "rule": "17.2.4.3 Fire Resistance",
       "conditions": [],
       "then": "",
       "else": null,
@@ -2375,6 +2510,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-17.2.4.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-17.2.4.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 17,
+      "section": "17.2.4.3",
+      "citation": "Section 17.2.4.3",
+      "page": 3
+    },
+    "title": "Fire resistance for the isolation system shall provide at least the same degree of protection as the fi re resistance required for the columns, walls, or other such gravitybearing elements in the same",
+    "description": "",
+    "data": {
+      "rule": "Fire resistance for the isolation system shall provide at least the same degree of protection as the fi re resistance required for the columns, walls, or other such gravitybearing elements in the same region of the structure.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-17.2.4.4-P1",
@@ -2413,10 +2575,10 @@
       "citation": "Section 17.2.4.5",
       "page": 3
     },
-    "title": "17.2.4.5 Displacement Restraint The isolation system shall not be con fi gured to include a displacement restraint that limits lateral displacement caused by risk-targeted maximum considered earthquak",
+    "title": "17.2.4.5 Displacement Restraint",
     "description": "",
     "data": {
-      "rule": "17.2.4.5 Displacement Restraint The isolation system shall not be con fi gured to include a displacement restraint that limits lateral displacement caused by risk-targeted maximum considered earthquake (MCER) ground motions to less than the total maximum displacement, DTM , unless the seismically isolated structure is designed in accordance with all of the following criteria:",
+      "rule": "17.2.4.5 Displacement Restraint",
       "conditions": [],
       "then": "",
       "else": null,
@@ -2432,6 +2594,33 @@
   },
   {
     "id": "ASCE7-22-17.2.4.5-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-17.2.4.5-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 17,
+      "section": "17.2.4.5",
+      "citation": "Section 17.2.4.5",
+      "page": 3
+    },
+    "title": "The isolation system shall not be con fi gured to include a displacement restraint that limits lateral displacement caused by risk-targeted maximum considered earthquake (MCER) ground motions to less ",
+    "description": "",
+    "data": {
+      "rule": "The isolation system shall not be con fi gured to include a displacement restraint that limits lateral displacement caused by risk-targeted maximum considered earthquake (MCER) ground motions to less than the total maximum displacement, DTM , unless the seismically isolated structure is designed in accordance with all of the following criteria:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-17.2.4.5-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2487,7 +2676,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-17.2.4.5-T2",
+    "id": "ASCE7-22-17.2.4.5-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2514,7 +2703,7 @@
     "parent_id": "ASCE7-22-17.2.4.5-H1"
   },
   {
-    "id": "ASCE7-22-17.2.4.5-T3",
+    "id": "ASCE7-22-17.2.4.5-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2550,10 +2739,38 @@
       "citation": "Section 17.2.4.6",
       "page": 3
     },
-    "title": "17.2.4.6 Vertical-Load Stability Each element of the isolation system shall be designed to be stable under the design vertical load where it is subjected to a horizontal displacement equal to the tota",
+    "title": "17.2.4.6 Vertical-Load Stability",
     "description": "",
     "data": {
-      "rule": "17.2.4.6 Vertical-Load Stability Each element of the isolation system shall be designed to be stable under the design vertical load where it is subjected to a horizontal displacement equal to the total maximum displacement. The design vertical load shall be computed using load combination 2 of Section 17.2.7.1 for the maximum vertical load and load combination 3 of Section 17.2.7.1 for the minimum vertical load.",
+      "rule": "17.2.4.6 Vertical-Load Stability",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-17.2.4.6-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-17.2.4.6-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 17,
+      "section": "17.2.4.6",
+      "citation": "Section 17.2.4.6",
+      "page": 3
+    },
+    "title": "Each element of the isolation system shall be designed to be stable under the design vertical load where it is subjected to a horizontal displacement equal to the total maximum displacement. The desig",
+    "description": "",
+    "data": {
+      "rule": "Each element of the isolation system shall be designed to be stable under the design vertical load where it is subjected to a horizontal displacement equal to the total maximum displacement. The design vertical load shall be computed using load combination 2 of Section 17.2.7.1 for the maximum vertical load and load combination 3 of Section 17.2.7.1 for the minimum vertical load.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -2565,9 +2782,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-17.2.4.7-H1",
@@ -2579,7 +2795,7 @@
       "citation": "Section 17.2.4.7",
       "page": 3
     },
-    "title": "17.2.4.7 Overturning The factor of safety against global structural overturning at the isolation interface shall not be less than 1.0 for required load combinations. All gravity and seismic loading co",
+    "title": "17.2.4.7 Overturning The factor of safety against global structural overturning at the isolation interface shall not be less than 1.0 for required load combinations. All gravity and seismic loading conditions shall be investigated. Seismic forces for overturning calculations shall be based on MCER ground motions, and W shall be used for the vertical restoring force.",
     "description": "",
     "data": {
       "rule": "17.2.4.7 Overturning The factor of safety against global structural overturning at the isolation interface shall not be less than 1.0 for required load combinations. All gravity and seismic loading conditions shall be investigated. Seismic forces for overturning calculations shall be based on MCER ground motions, and W shall be used for the vertical restoring force.",
@@ -2633,10 +2849,10 @@
       "citation": "Section 17.2.4.8",
       "page": 3
     },
-    "title": "17.2.4.8 Inspection and Replacement All the following items shall be addressed as part of the long-term inspection and replacement program:",
+    "title": "17.2.4.8 Inspection and Replacement",
     "description": "",
     "data": {
-      "rule": "17.2.4.8 Inspection and Replacement All the following items shall be addressed as part of the long-term inspection and replacement program:",
+      "rule": "17.2.4.8 Inspection and Replacement",
       "conditions": [],
       "then": "",
       "else": null,
@@ -2649,6 +2865,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-17.2.4.8-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-17.2.4.8-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 17,
+      "section": "17.2.4.8",
+      "citation": "Section 17.2.4.8",
+      "page": 3
+    },
+    "title": "All the following items shall be addressed as part of the long-term inspection and replacement program:",
+    "description": "",
+    "data": {
+      "rule": "All the following items shall be addressed as part of the long-term inspection and replacement program:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-17.2.4.8-P1",
@@ -2768,10 +3011,38 @@
       "citation": "Section 17.2.4.9",
       "page": 3
     },
-    "title": "17.2.4.9 Quality Control A quality control testing program for isolator units shall be established by the RDP responsible for the structural design, incorporating the production testing requirements o",
+    "title": "17.2.4.9 Quality Control",
     "description": "",
     "data": {
-      "rule": "17.2.4.9 Quality Control A quality control testing program for isolator units shall be established by the RDP responsible for the structural design, incorporating the production testing requirements of Section 17.8.5.",
+      "rule": "17.2.4.9 Quality Control",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-17.2.4.9-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-17.2.4.9-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 17,
+      "section": "17.2.4.9",
+      "citation": "Section 17.2.4.9",
+      "page": 3
+    },
+    "title": "A quality control testing program for isolator units shall be established by the RDP responsible for the structural design, incorporating the production testing requirements of Section 17.8.5.",
+    "description": "",
+    "data": {
+      "rule": "A quality control testing program for isolator units shall be established by the RDP responsible for the structural design, incorporating the production testing requirements of Section 17.8.5.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -2783,9 +3054,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-17.2.5-H1",
@@ -2824,10 +3094,10 @@
       "citation": "Section 17.2.5.1",
       "page": 3
     },
-    "title": "17.2.5.1 Horizontal Distribution of Force A horizontal diaphragm or other structural elements shall provide continuity above the isolation interface and shall have adequate strength and ductility to t",
+    "title": "17.2.5.1 Horizontal",
     "description": "",
     "data": {
-      "rule": "17.2.5.1 Horizontal Distribution of Force A horizontal diaphragm or other structural elements shall provide continuity above the isolation interface and shall have adequate strength and ductility to transmit forces from one part of the structure to another.",
+      "rule": "17.2.5.1 Horizontal",
       "conditions": [],
       "then": "",
       "else": null,
@@ -2840,6 +3110,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-17.2.5.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-17.2.5.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 17,
+      "section": "17.2.5.1",
+      "citation": "Section 17.2.5.1",
+      "page": 3
+    },
+    "title": "Distribution of Force A horizontal diaphragm or other structural elements shall provide continuity above the isolation interface and shall have adequate strength and ductility to transmit forces from ",
+    "description": "",
+    "data": {
+      "rule": "Distribution of Force A horizontal diaphragm or other structural elements shall provide continuity above the isolation interface and shall have adequate strength and ductility to transmit forces from one part of the structure to another.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-17.2.5.2-P1",
@@ -2878,10 +3175,10 @@
       "citation": "Section 17.2.5.3",
       "page": 3
     },
-    "title": "17.2.5.3 Nonbuilding Structures Nonbuilding structures shall be designed and constructed in accordance with the requirements of Chapter 15 using design displacements and forces, calculated in accordan",
+    "title": "17.2.5.3 Nonbuilding Structures",
     "description": "",
     "data": {
-      "rule": "17.2.5.3 Nonbuilding Structures Nonbuilding structures shall be designed and constructed in accordance with the requirements of Chapter 15 using design displacements and forces, calculated in accordance with Sections 17.5 or 17.6.",
+      "rule": "17.2.5.3 Nonbuilding Structures",
       "conditions": [],
       "then": "",
       "else": null,
@@ -2896,6 +3193,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-17.2.5.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-17.2.5.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 17,
+      "section": "17.2.5.3",
+      "citation": "Section 17.2.5.3",
+      "page": 3
+    },
+    "title": "Nonbuilding structures shall be designed and constructed in accordance with the requirements of Chapter 15 using design displacements and forces, calculated in accordance with Sections 17.5 or 17.6.",
+    "description": "",
+    "data": {
+      "rule": "Nonbuilding structures shall be designed and constructed in accordance with the requirements of Chapter 15 using design displacements and forces, calculated in accordance with Sections 17.5 or 17.6.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-17.2.5.4-H1",
     "type": "heading",
     "source": {
@@ -2905,10 +3229,10 @@
       "citation": "Section 17.2.5.4",
       "page": 3
     },
-    "title": "17.2.5.4 Steel Ordinary Concentrically Braced Frames Steel ordinary concentrically braced frames are permitted as the seismic force-resisting system in seismically isolated structures assigned to Seis",
+    "title": "17.2.5.4 Steel Ordinary Concentrically Braced Frames",
     "description": "",
     "data": {
-      "rule": "17.2.5.4 Steel Ordinary Concentrically Braced Frames Steel ordinary concentrically braced frames are permitted as the seismic force-resisting system in seismically isolated structures assigned to Seismic Design Categories D, E, and F and are permitted to a height of 160 ft (48.4 m) or less, provided all the following design requirements are satis fi ed:",
+      "rule": "17.2.5.4 Steel Ordinary Concentrically Braced Frames",
       "conditions": [],
       "then": "",
       "else": null,
@@ -2924,6 +3248,33 @@
   },
   {
     "id": "ASCE7-22-17.2.5.4-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-17.2.5.4-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 17,
+      "section": "17.2.5.4",
+      "citation": "Section 17.2.5.4",
+      "page": 3
+    },
+    "title": "Steel ordinary concentrically braced frames are permitted as the seismic force-resisting system in seismically isolated structures assigned to Seismic Design Categories D, E, and F and are permitted t",
+    "description": "",
+    "data": {
+      "rule": "Steel ordinary concentrically braced frames are permitted as the seismic force-resisting system in seismically isolated structures assigned to Seismic Design Categories D, E, and F and are permitted to a height of 160 ft (48.4 m) or less, provided all the following design requirements are satis fi ed:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-17.2.5.4-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2988,10 +3339,10 @@
       "citation": "Section 17.2.5.5",
       "page": 4
     },
-    "title": "17.2.5.5 Isolation System Connections Moment-resisting connections of structural steel elements of the seismic isolation system below the base level are permitted to conform to the requirements for or",
+    "title": "17.2.5.5 Isolation",
     "description": "",
     "data": {
-      "rule": "17.2.5.5 Isolation System Connections Moment-resisting connections of structural steel elements of the seismic isolation system below the base level are permitted to conform to the requirements for ordinary steel moment frames of AISC 341, E1.6a and E1.6b.",
+      "rule": "17.2.5.5 Isolation",
       "conditions": [],
       "then": "",
       "else": null,
@@ -3006,6 +3357,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-17.2.5.5-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-17.2.5.5-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 17,
+      "section": "17.2.5.5",
+      "citation": "Section 17.2.5.5",
+      "page": 4
+    },
+    "title": "System Connections Moment-resisting connections of structural steel elements of the seismic isolation system below the base level are permitted to conform to the requirements for ordinary steel moment",
+    "description": "",
+    "data": {
+      "rule": "System Connections Moment-resisting connections of structural steel elements of the seismic isolation system below the base level are permitted to conform to the requirements for ordinary steel moment frames of AISC 341, E1.6a and E1.6b.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-17.2.6-H1",
     "type": "heading",
     "source": {
@@ -3015,10 +3393,10 @@
       "citation": "Section 17.2.6",
       "page": 4
     },
-    "title": "17.2.6 Elements of Structures and Nonstructural Components Parts or portions of an isolated structure, permanent nonstructural components and the attachments to them, and the attachments for permanent",
+    "title": "17.2.6 Elements",
     "description": "",
     "data": {
-      "rule": "17.2.6 Elements of Structures and Nonstructural Components Parts or portions of an isolated structure, permanent nonstructural components and the attachments to them, and the attachments for permanent equipment supported by a structure shall be designed to resist seismic forces and displacements, as prescribed by this section and the applicable requirements of Chapter 13.",
+      "rule": "17.2.6 Elements",
       "conditions": [],
       "then": "",
       "else": null,
@@ -3031,6 +3409,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-17.2.6-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-17.2.6-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 17,
+      "section": "17.2.6",
+      "citation": "Section 17.2.6",
+      "page": 4
+    },
+    "title": "of Structures and Nonstructural Components Parts or portions of an isolated structure, permanent nonstructural components and the attachments to them, and the attachments for permanent equipment suppo",
+    "description": "",
+    "data": {
+      "rule": "of Structures and Nonstructural Components Parts or portions of an isolated structure, permanent nonstructural components and the attachments to them, and the attachments for permanent equipment supported by a structure shall be designed to resist seismic forces and displacements, as prescribed by this section and the applicable requirements of Chapter 13.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-17.2.6.1-P1",
@@ -3096,10 +3501,10 @@
       "citation": "Section 17.2.6.2",
       "page": 4
     },
-    "title": "17.2.6.2 Components Crossing the Isolation Interface Elements of seismically isolated structures and nonstructural components, or portions thereof, which cross the isolation interface, shall be design",
+    "title": "17.2.6.2 Components Crossing the Isolation Interface",
     "description": "",
     "data": {
-      "rule": "17.2.6.2 Components Crossing the Isolation Interface Elements of seismically isolated structures and nonstructural components, or portions thereof, which cross the isolation interface, shall be designed to withstand the total maximum displacement and to accommodate, on a long-term basis, any permanent residual displacement.",
+      "rule": "17.2.6.2 Components Crossing the Isolation Interface",
       "conditions": [],
       "then": "",
       "else": null,
@@ -3112,6 +3517,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-17.2.6.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-17.2.6.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 17,
+      "section": "17.2.6.2",
+      "citation": "Section 17.2.6.2",
+      "page": 4
+    },
+    "title": "Elements of seismically isolated structures and nonstructural components, or portions thereof, which cross the isolation interface, shall be designed to withstand the total maximum displacement and to",
+    "description": "",
+    "data": {
+      "rule": "Elements of seismically isolated structures and nonstructural components, or portions thereof, which cross the isolation interface, shall be designed to withstand the total maximum displacement and to accommodate, on a long-term basis, any permanent residual displacement.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-17.2.6.3-H1",
@@ -3123,10 +3555,10 @@
       "citation": "Section 17.2.6.3",
       "page": 4
     },
-    "title": "17.2.6.3 Components below the Isolation Interface Elements of seismically isolated structures and nonstructural components, or portions thereof, which are below the isolation interface, shall be desig",
+    "title": "17.2.6.3 Components below the Isolation Interface",
     "description": "",
     "data": {
-      "rule": "17.2.6.3 Components below the Isolation Interface Elements of seismically isolated structures and nonstructural components, or portions thereof, which are below the isolation interface, shall be designed and constructed in accordance with the requirements of Section 12.1 and Chapter 13.",
+      "rule": "17.2.6.3 Components below the Isolation Interface",
       "conditions": [],
       "then": "",
       "else": null,
@@ -3141,6 +3573,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-17.2.6.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-17.2.6.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 17,
+      "section": "17.2.6.3",
+      "citation": "Section 17.2.6.3",
+      "page": 4
+    },
+    "title": "Elements of seismically isolated structures and nonstructural components, or portions thereof, which are below the isolation interface, shall be designed and constructed in accordance with the require",
+    "description": "",
+    "data": {
+      "rule": "Elements of seismically isolated structures and nonstructural components, or portions thereof, which are below the isolation interface, shall be designed and constructed in accordance with the requirements of Section 12.1 and Chapter 13.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-17.2.7-H1",
     "type": "heading",
     "source": {
@@ -3150,10 +3609,38 @@
       "citation": "Section 17.2.7",
       "page": 4
     },
-    "title": "17.2.7 Seismic Load Effects and Load Combinations All members of the isolated structure, including those that are not part of the seismic force-resisting system, shall be designed using the seismic lo",
+    "title": "17.2.7 Seismic Load Effects and Load Combinations",
     "description": "",
     "data": {
-      "rule": "17.2.7 Seismic Load Effects and Load Combinations All members of the isolated structure, including those that are not part of the seismic force-resisting system, shall be designed using the seismic load effects of Section 12.4, and the additional load combinations of Section 17.2.7.1, for the design of the isolation system and for the testing of prototype isolator units.",
+      "rule": "17.2.7 Seismic Load Effects and Load Combinations",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-17.2.7-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-17.2.7-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 17,
+      "section": "17.2.7",
+      "citation": "Section 17.2.7",
+      "page": 4
+    },
+    "title": "All members of the isolated structure, including those that are not part of the seismic force-resisting system, shall be designed using the seismic load effects of Section 12.4, and the additional loa",
+    "description": "",
+    "data": {
+      "rule": "All members of the isolated structure, including those that are not part of the seismic force-resisting system, shall be designed using the seismic load effects of Section 12.4, and the additional load combinations of Section 17.2.7.1, for the design of the isolation system and for the testing of prototype isolator units.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -3165,9 +3652,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-17.2.7.1-H1",
@@ -3179,10 +3665,10 @@
       "citation": "Section 17.2.7.1",
       "page": 4
     },
-    "title": "17.2.7.1 Isolator Unit Vertical Load Combinations The average, minimum, and maximum vertical load on each isolator unit type shall be computed from application of horizontal seismic forces, QE , cause",
+    "title": "17.2.7.1 Isolator",
     "description": "",
     "data": {
-      "rule": "17.2.7.1 Isolator Unit Vertical Load Combinations The average, minimum, and maximum vertical load on each isolator unit type shall be computed from application of horizontal seismic forces, QE , caused by MCER ground motions and the following applicable vertical load combinations:",
+      "rule": "17.2.7.1 Isolator",
       "conditions": [],
       "then": "",
       "else": null,
@@ -3198,6 +3684,33 @@
   },
   {
     "id": "ASCE7-22-17.2.7.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-17.2.7.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 17,
+      "section": "17.2.7.1",
+      "citation": "Section 17.2.7.1",
+      "page": 4
+    },
+    "title": "Unit Vertical Load Combinations The average, minimum, and maximum vertical load on each isolator unit type shall be computed from application of horizontal seismic forces, QE , caused by MCER ground m",
+    "description": "",
+    "data": {
+      "rule": "Unit Vertical Load Combinations The average, minimum, and maximum vertical load on each isolator unit type shall be computed from application of horizontal seismic forces, QE , caused by MCER ground motions and the following applicable vertical load combinations:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-17.2.7.1-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3224,7 +3737,7 @@
     "parent_id": "ASCE7-22-17.2.7.1-H1"
   },
   {
-    "id": "ASCE7-22-17.2.7.1-T2",
+    "id": "ASCE7-22-17.2.7.1-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3251,7 +3764,7 @@
     "parent_id": "ASCE7-22-17.2.7.1-H1"
   },
   {
-    "id": "ASCE7-22-17.2.7.1-T3",
+    "id": "ASCE7-22-17.2.7.1-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3314,10 +3827,10 @@
       "citation": "Section 17.2.8.1",
       "page": 4
     },
-    "title": "17.2.8.1 Isolation System Component Types All components of the isolation system shall be categorized and grouped in terms of common type and size of isolator unit and common type and size of suppleme",
+    "title": "17.2.8.1 Isolation System Component Types",
     "description": "",
     "data": {
-      "rule": "17.2.8.1 Isolation System Component Types All components of the isolation system shall be categorized and grouped in terms of common type and size of isolator unit and common type and size of supplementary damping device, if such devices are also components of the isolation system.",
+      "rule": "17.2.8.1 Isolation System Component Types",
       "conditions": [],
       "then": "",
       "else": null,
@@ -3332,6 +3845,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-17.2.8.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-17.2.8.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 17,
+      "section": "17.2.8.1",
+      "citation": "Section 17.2.8.1",
+      "page": 4
+    },
+    "title": "All components of the isolation system shall be categorized and grouped in terms of common type and size of isolator unit and common type and size of supplementary damping device, if such devices are ",
+    "description": "",
+    "data": {
+      "rule": "All components of the isolation system shall be categorized and grouped in terms of common type and size of isolator unit and common type and size of supplementary damping device, if such devices are also components of the isolation system.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-17.2.8.2-H1",
     "type": "heading",
     "source": {
@@ -3341,10 +3881,38 @@
       "citation": "Section 17.2.8.2",
       "page": 4
     },
-    "title": "17.2.8.2 Isolator Unit Nominal Properties Isolator unit nominal design properties shall be based on average properties over the three cycles of prototype testing, speci fi ed by Item 2 of Section 17.8",
+    "title": "17.2.8.2 Isolator Unit Nominal Properties",
     "description": "",
     "data": {
-      "rule": "17.2.8.2 Isolator Unit Nominal Properties Isolator unit nominal design properties shall be based on average properties over the three cycles of prototype testing, speci fi ed by Item 2 of Section 17.8.2.2. Variation in isolator unit properties with vertical load are permitted to be established based on a single representative deformation cycle, by averaging the properties determined using the three vertical load combinations speci fi ed in Section 17.2.7.1, at each displacement level, where required to be considered by Section 17.8.2.2.",
+      "rule": "17.2.8.2 Isolator Unit Nominal Properties",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-17.2.8.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-17.2.8.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 17,
+      "section": "17.2.8.2",
+      "citation": "Section 17.2.8.2",
+      "page": 4
+    },
+    "title": "Isolator unit nominal design properties shall be based on average properties over the three cycles of prototype testing, speci fi ed by Item 2 of Section 17.8.2.2. Variation in isolator unit propertie",
+    "description": "",
+    "data": {
+      "rule": "Isolator unit nominal design properties shall be based on average properties over the three cycles of prototype testing, speci fi ed by Item 2 of Section 17.8.2.2. Variation in isolator unit properties with vertical load are permitted to be established based on a single representative deformation cycle, by averaging the properties determined using the three vertical load combinations speci fi ed in Section 17.2.7.1, at each displacement level, where required to be considered by Section 17.8.2.2.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -3357,9 +3925,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-17.2.8.2-X1",
@@ -3434,7 +4001,7 @@
       "citation": "Section 17.2.8.3",
       "page": 4
     },
-    "title": "Measured by prototype testing, Item 2 of Section 17.8.2.2, considering variation in prototype isolator unit properties caused by required variation in vertical test load, rate of test loading or veloc",
+    "title": "Measured by prototype testing, Item 2 of Section 17.8.2.2, considering variation in prototype isolator unit properties caused by required variation in vertical test load, rate of test loading or velocity effects, effects of heating during cyclic motion, history of loading, scragging (temporary degradation of mechanical properties with repeated cycling), and other potential sources of variation measured by prototype testing;",
     "description": "",
     "data": {
       "rule": "Measured by prototype testing, Item 2 of Section 17.8.2.2, considering variation in prototype isolator unit properties caused by required variation in vertical test load, rate of test loading or velocity effects, effects of heating during cyclic motion, history of loading, scragging (temporary degradation of mechanical properties with repeated cycling), and other potential sources of variation measured by prototype testing;",
@@ -3519,10 +4086,38 @@
       "citation": "Section 17.2.8.4",
       "page": 4
     },
-    "title": "17.2.8.4 Property Modi fi cation Factors Maximum and minimum property modi fi cation ( \u03bb ) factors shall be used to account for the variation of the nominal design parameters of each isolator unit typ",
+    "title": "17.2.8.4 Property",
     "description": "",
     "data": {
-      "rule": "17.2.8.4 Property Modi fi cation Factors Maximum and minimum property modi fi cation ( \u03bb ) factors shall be used to account for the variation of the nominal design parameters of each isolator unit type for the effects of heating caused by cyclic dynamic motion, loading rate, scragging and recovery, variability in production bearing properties, temperature, aging, environmental exposure, and contamination. When manufacturerspeci fi c quali fi cation test data, in accordance with Section 17.8, have been approved by the RDP these data are permitted to be used to develop the property modi fi cation factors, and the maximum and minimum limits of Equations (17.2-1) and (17.2-2) need not apply. When quali fi cation test data, in accordance with Section 17.8, have not been approved by the RDP the maximum and minimum limits of Equations (17.2-1) and (17.2-2) shall apply.",
+      "rule": "17.2.8.4 Property",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-17.2.8.4-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-17.2.8.4-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 17,
+      "section": "17.2.8.4",
+      "citation": "Section 17.2.8.4",
+      "page": 4
+    },
+    "title": "Modi fi cation Factors Maximum and minimum property modi fi cation ( \u03bb ) factors shall be used to account for the variation of the nominal design parameters of each isolator unit type for the effects ",
+    "description": "",
+    "data": {
+      "rule": "Modi fi cation Factors Maximum and minimum property modi fi cation ( \u03bb ) factors shall be used to account for the variation of the nominal design parameters of each isolator unit type for the effects of heating caused by cyclic dynamic motion, loading rate, scragging and recovery, variability in production bearing properties, temperature, aging, environmental exposure, and contamination. When manufacturerspeci fi c quali fi cation test data, in accordance with Section 17.8, have been approved by the RDP these data are permitted to be used to develop the property modi fi cation factors, and the maximum and minimum limits of Equations (17.2-1) and (17.2-2) need not apply. When quali fi cation test data, in accordance with Section 17.8, have not been approved by the RDP the maximum and minimum limits of Equations (17.2-1) and (17.2-2) shall apply.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -3534,9 +4129,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-17.2.8.4-P1",
@@ -3643,7 +4237,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-17.2.8.4-T2",
+    "id": "ASCE7-22-17.2.8.4-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3670,7 +4264,7 @@
     "parent_id": "ASCE7-22-17.2.8.4-H1"
   },
   {
-    "id": "ASCE7-22-17.2.8.4-T3",
+    "id": "ASCE7-22-17.2.8.4-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3697,7 +4291,7 @@
     "parent_id": "ASCE7-22-17.2.8.4-H1"
   },
   {
-    "id": "ASCE7-22-17.2.8.4-T4",
+    "id": "ASCE7-22-17.2.8.4-T5",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3724,7 +4318,7 @@
     "parent_id": "ASCE7-22-17.2.8.4-H1"
   },
   {
-    "id": "ASCE7-22-17.2.8.4-T5",
+    "id": "ASCE7-22-17.2.8.4-T6",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3751,7 +4345,7 @@
     "parent_id": "ASCE7-22-17.2.8.4-H1"
   },
   {
-    "id": "ASCE7-22-17.2.8.4-T6",
+    "id": "ASCE7-22-17.2.8.4-T7",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3778,7 +4372,7 @@
     "parent_id": "ASCE7-22-17.2.8.4-H1"
   },
   {
-    "id": "ASCE7-22-17.2.8.4-T7",
+    "id": "ASCE7-22-17.2.8.4-T8",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -3843,10 +4437,38 @@
       "citation": "Section 17.2.8.5",
       "page": 5
     },
-    "title": "17.2.8.5 Upper Bound and Lower Bound Force-De fl ection Behavior of Isolation System Components A mathematical model of upper bound force-de fl ection (loop) behavior of each type of isolation system ",
+    "title": "17.2.8.5 Upper Bound and Lower Bound Force-De",
     "description": "",
     "data": {
-      "rule": "17.2.8.5 Upper Bound and Lower Bound Force-De fl ection Behavior of Isolation System Components A mathematical model of upper bound force-de fl ection (loop) behavior of each type of isolation system component shall be developed. Upper bound force-de fl ection behavior of isolation system components that are essentially hysteretic devices (e.g., isolator units) shall be modeled using the maximum values of isolator properties calculated using the property modi fi cation factors of Section 17.2.8.4. Upper bound force-de fl ection behavior of isolation system components that are essentially viscous devices (e.g., supplementary viscous dampers) shall be modeled in accordance with the requirements of Chapter 18 for such devices.",
+      "rule": "17.2.8.5 Upper Bound and Lower Bound Force-De",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-17.2.8.5-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-17.2.8.5-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 17,
+      "section": "17.2.8.5",
+      "citation": "Section 17.2.8.5",
+      "page": 5
+    },
+    "title": "fl ection Behavior of Isolation System Components A mathematical model of upper bound force-de fl ection (loop) behavior of each type of isolation system component shall be developed. Upper bound forc",
+    "description": "",
+    "data": {
+      "rule": "fl ection Behavior of Isolation System Components A mathematical model of upper bound force-de fl ection (loop) behavior of each type of isolation system component shall be developed. Upper bound force-de fl ection behavior of isolation system components that are essentially hysteretic devices (e.g., isolator units) shall be modeled using the maximum values of isolator properties calculated using the property modi fi cation factors of Section 17.2.8.4. Upper bound force-de fl ection behavior of isolation system components that are essentially viscous devices (e.g., supplementary viscous dampers) shall be modeled in accordance with the requirements of Chapter 18 for such devices.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -3858,9 +4480,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-17.2.8.5-P1",
@@ -4189,13 +4810,54 @@
     "data": {
       "expression": "This determination will require independent calculation of F 1 , Fx , Cvx , and k , per Equations (17.5-8)",
       "parameters": {
+        "Fx": {
+          "description": "Minimum design lateral force applied to level x of the structure and used for purposes of evaluating structural integrity in accordance with Section 1.4.2",
+          "source": "ASCE7-22-1.2.2-T2"
+        },
         "k": {
           "description": "Effective stiffness of the impacting debris or the lateral stiffness of the impacted structural element(s) deformed by the impact, whichever is less; and",
           "source": "ASCE7-22-6.11.1-T4"
         },
+        "Cvx": {
+          "description": "Vertical distribution factor as determined in Section 12.8.3",
+          "source": "ASCE7-22-11.3-T24"
+        },
+        "F": {
+          "description": "1.0 for buildings that are one story above grade plane, 1.1 for buildings that are two stories above grade plane, and 1.2 for buildings that are three stories above grade plane;",
+          "source": "ASCE7-22-12.14.8.1-T1"
+        }
+      }
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-17.5-E17-5-111",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 17,
+      "section": "17.5",
+      "citation": "Eq. (17.5-11)",
+      "page": 5
+    },
+    "title": "Equation (17.5-11)",
+    "description": "",
+    "data": {
+      "expression": "This determination will require independent calculation of F 1 , Fx , Cvx , and k , per Equations (17.5-8) through (17.5-11)",
+      "parameters": {
         "Fx": {
           "description": "Minimum design lateral force applied to level x of the structure and used for purposes of evaluating structural integrity in accordance with Section 1.4.2",
           "source": "ASCE7-22-1.2.2-T2"
+        },
+        "k": {
+          "description": "Effective stiffness of the impacting debris or the lateral stiffness of the impacted structural element(s) deformed by the impact, whichever is less; and",
+          "source": "ASCE7-22-6.11.1-T4"
         },
         "Cvx": {
           "description": "Vertical distribution factor as determined in Section 12.8.3",
@@ -4225,7 +4887,7 @@
       "citation": "Section 17.3",
       "page": 6
     },
-    "title": "17.3 SEISMIC HAZARD",
+    "title": "17.3",
     "description": "",
     "data": {
       "rule": "17.3 SEISMIC HAZARD",
@@ -4252,10 +4914,10 @@
       "citation": "Section 17.3.1",
       "page": 6
     },
-    "title": "17.3.1 Spectral Response Acceleration Parameters and Response Spectrum The MCER spectral response acceleration parameters (SMS and SM1) and the MCER spectrum shall be determined in accordance with Sec",
+    "title": "17.3.1 Spectral",
     "description": "",
     "data": {
-      "rule": "17.3.1 Spectral Response Acceleration Parameters and Response Spectrum The MCER spectral response acceleration parameters (SMS and SM1) and the MCER spectrum shall be determined in accordance with Section 11.4.",
+      "rule": "17.3.1 Spectral",
       "conditions": [],
       "then": "",
       "else": null,
@@ -4270,6 +4932,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-17.3.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-17.3.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 17,
+      "section": "17.3.1",
+      "citation": "Section 17.3.1",
+      "page": 6
+    },
+    "title": "Response Acceleration Parameters and Response Spectrum The MCER spectral response acceleration parameters (SMS and SM1) and the MCER spectrum shall be determined in accordance with Section 11.4.",
+    "description": "",
+    "data": {
+      "rule": "Response Acceleration Parameters and Response Spectrum The MCER spectral response acceleration parameters (SMS and SM1) and the MCER spectrum shall be determined in accordance with Section 11.4.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-17.3.2-H1",
     "type": "heading",
     "source": {
@@ -4279,10 +4968,38 @@
       "citation": "Section 17.3.2",
       "page": 6
     },
-    "title": "17.3.2 Ground Motions for Response History Analysis Where response history analysis in accordance with Section 17.6.3.4 is used to design seismically isolated structures, the provisions of Section 16.",
+    "title": "17.3.2 Ground",
     "description": "",
     "data": {
-      "rule": "17.3.2 Ground Motions for Response History Analysis Where response history analysis in accordance with Section 17.6.3.4 is used to design seismically isolated structures, the provisions of Section 16.2 shall apply except that in lieu of the requirements of Section 16.2.3.1, the period range shall be determined in accordance with the following:",
+      "rule": "17.3.2 Ground",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-17.3.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-17.3.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 17,
+      "section": "17.3.2",
+      "citation": "Section 17.3.2",
+      "page": 6
+    },
+    "title": "Motions for Response History Analysis Where response history analysis in accordance with Section 17.6.3.4 is used to design seismically isolated structures, the provisions of Section 16.2 shall apply ",
+    "description": "",
+    "data": {
+      "rule": "Motions for Response History Analysis Where response history analysis in accordance with Section 17.6.3.4 is used to design seismically isolated structures, the provisions of Section 16.2 shall apply except that in lieu of the requirements of Section 16.2.3.1, the period range shall be determined in accordance with the following:",
       "conditions": [],
       "then": "",
       "else": null,
@@ -4294,9 +5011,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-17.3.2-P1",
@@ -4342,7 +5058,7 @@
       "citation": "Section 17.4",
       "page": 6
     },
-    "title": "17.4 ANALYSIS PROCEDURE SELECTION",
+    "title": "17.4",
     "description": "",
     "data": {
       "rule": "17.4 ANALYSIS PROCEDURE SELECTION",
@@ -4400,10 +5116,38 @@
       "citation": "Section 17.4.1",
       "page": 6
     },
-    "title": "17.4.1 Equivalent Lateral Force Procedure The equivalent lateral force procedure of Section 17.5 is permitted to be used for design of a seismically isolated structure provided that all of the followi",
+    "title": "17.4.1 Equivalent Lateral Force Procedure",
     "description": "",
     "data": {
-      "rule": "17.4.1 Equivalent Lateral Force Procedure The equivalent lateral force procedure of Section 17.5 is permitted to be used for design of a seismically isolated structure provided that all of the following items are satis fi ed. These requirements shall be evaluated separately for upper bound and lower bound isolation system properties, and the more restrictive requirement shall govern.",
+      "rule": "17.4.1 Equivalent Lateral Force Procedure",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-17.4.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-17.4.1-H2",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 17,
+      "section": "17.4.1",
+      "citation": "Section 17.4.1",
+      "page": 6
+    },
+    "title": "The equivalent lateral force procedure of Section 17.5 is permitted to be used for design of a seismically isolated structure provided that all of the following items are satis fi ed. These requiremen",
+    "description": "",
+    "data": {
+      "rule": "The equivalent lateral force procedure of Section 17.5 is permitted to be used for design of a seismically isolated structure provided that all of the following items are satis fi ed. These requirements shall be evaluated separately for upper bound and lower bound isolation system properties, and the more restrictive requirement shall govern.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -4415,12 +5159,11 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
-    "id": "ASCE7-22-17.4.1-T1",
+    "id": "ASCE7-22-17.4.1-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -4447,7 +5190,7 @@
     "parent_id": "ASCE7-22-17.4.1-H2"
   },
   {
-    "id": "ASCE7-22-17.4.1-T2",
+    "id": "ASCE7-22-17.4.1-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -4474,7 +5217,7 @@
     "parent_id": "ASCE7-22-17.4.1-H2"
   },
   {
-    "id": "ASCE7-22-17.4.1-T3",
+    "id": "ASCE7-22-17.4.1-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -4525,7 +5268,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-17.4.1-T4",
+    "id": "ASCE7-22-17.4.1-T5",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -4552,7 +5295,7 @@
     "parent_id": "ASCE7-22-17.4.1-H2"
   },
   {
-    "id": "ASCE7-22-17.4.1-T5",
+    "id": "ASCE7-22-17.4.1-T6",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -4579,7 +5322,7 @@
     "parent_id": "ASCE7-22-17.4.1-H2"
   },
   {
-    "id": "ASCE7-22-17.4.1-T6",
+    "id": "ASCE7-22-17.4.1-T7",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -4608,7 +5351,7 @@
     "parent_id": "ASCE7-22-17.4.1-H2"
   },
   {
-    "id": "ASCE7-22-17.4.1-T7",
+    "id": "ASCE7-22-17.4.1-T8",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -4635,7 +5378,7 @@
     "parent_id": "ASCE7-22-17.4.1-H2"
   },
   {
-    "id": "ASCE7-22-17.4.1-T8",
+    "id": "ASCE7-22-17.4.1-T9",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -4662,7 +5405,7 @@
     "parent_id": "ASCE7-22-17.4.1-H2"
   },
   {
-    "id": "ASCE7-22-17.4.1-T9",
+    "id": "ASCE7-22-17.4.1-T10",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -4756,10 +5499,38 @@
       "citation": "Section 17.4.2.1",
       "page": 6
     },
-    "title": "17.4.2.1 Response Spectrum Analysis Procedure Response spectrum analysis procedure shall not be used for design of a seismically isolated structure unless the structure, site, and isolation system mee",
+    "title": "17.4.2.1 Response Spectrum Analysis Procedure",
     "description": "",
     "data": {
-      "rule": "17.4.2.1 Response Spectrum Analysis Procedure Response spectrum analysis procedure shall not be used for design of a seismically isolated structure unless the structure, site, and isolation system meet the criteria of Section 17.4.1, Items 1, 2, 3, 4, and 6.",
+      "rule": "17.4.2.1 Response Spectrum Analysis Procedure",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-17.4.2.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-17.4.2.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 17,
+      "section": "17.4.2.1",
+      "citation": "Section 17.4.2.1",
+      "page": 6
+    },
+    "title": "Response spectrum analysis procedure shall not be used for design of a seismically isolated structure unless the structure, site, and isolation system meet the criteria of Section 17.4.1, Items 1, 2, ",
+    "description": "",
+    "data": {
+      "rule": "Response spectrum analysis procedure shall not be used for design of a seismically isolated structure unless the structure, site, and isolation system meet the criteria of Section 17.4.1, Items 1, 2, 3, 4, and 6.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -4771,9 +5542,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-17.4.2.2-H1",
@@ -4785,10 +5555,38 @@
       "citation": "Section 17.4.2.2",
       "page": 6
     },
-    "title": "17.4.2.2 Response History Analysis Procedure The response history analysis procedure is permitted to be used for design of any seismically isolated structure and shall be used for design of all seismi",
+    "title": "17.4.2.2 Response History Analysis Procedure",
     "description": "",
     "data": {
-      "rule": "17.4.2.2 Response History Analysis Procedure The response history analysis procedure is permitted to be used for design of any seismically isolated structure and shall be used for design of all seismically isolated structures not meeting the criteria of Section 17.4.2.1.",
+      "rule": "17.4.2.2 Response History Analysis Procedure",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-17.4.2.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-17.4.2.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 17,
+      "section": "17.4.2.2",
+      "citation": "Section 17.4.2.2",
+      "page": 6
+    },
+    "title": "The response history analysis procedure is permitted to be used for design of any seismically isolated structure and shall be used for design of all seismically isolated structures not meeting the cri",
+    "description": "",
+    "data": {
+      "rule": "The response history analysis procedure is permitted to be used for design of any seismically isolated structure and shall be used for design of all seismically isolated structures not meeting the criteria of Section 17.4.2.1.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -4800,9 +5598,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-17.5-H1",
@@ -4814,10 +5611,10 @@
       "citation": "Section 17.5",
       "page": 6
     },
-    "title": "17.5 EQUIVALENT LATERAL FORCE PROCEDURE",
+    "title": "17.5",
     "description": "",
     "data": {
-      "rule": "17.5 EQUIVALENT LATERAL FORCE PROCEDURE",
+      "rule": "17.5",
       "conditions": [],
       "then": "",
       "else": null,
@@ -4830,6 +5627,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-17.5-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-17.5-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 17,
+      "section": "17.5",
+      "citation": "Section 17.5",
+      "page": 6
+    },
+    "title": "EQUIVALENT LATERAL FORCE PROCEDURE",
+    "description": "",
+    "data": {
+      "rule": "EQUIVALENT LATERAL FORCE PROCEDURE",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-17.5.1-H1",
@@ -4841,10 +5665,10 @@
       "citation": "Section 17.5.1",
       "page": 6
     },
-    "title": "17.5.1 General Where the equivalent lateral force procedure is used to design seismically isolated structures, the requirements of this section shall apply.",
+    "title": "17.5.1 General",
     "description": "",
     "data": {
-      "rule": "17.5.1 General Where the equivalent lateral force procedure is used to design seismically isolated structures, the requirements of this section shall apply.",
+      "rule": "17.5.1 General",
       "conditions": [],
       "then": "",
       "else": null,
@@ -4859,6 +5683,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-17.5.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-17.5.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 17,
+      "section": "17.5.1",
+      "citation": "Section 17.5.1",
+      "page": 6
+    },
+    "title": "Where the equivalent lateral force procedure is used to design seismically isolated structures, the requirements of this section shall apply.",
+    "description": "",
+    "data": {
+      "rule": "Where the equivalent lateral force procedure is used to design seismically isolated structures, the requirements of this section shall apply.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-17.5.2-H1",
     "type": "heading",
     "source": {
@@ -4868,10 +5719,38 @@
       "citation": "Section 17.5.2",
       "page": 6
     },
-    "title": "17.5.2 Deformation Characteristics of the Isolation System Minimum lateral earthquake design displacements and forces on seismically isolated structures shall be based on the deformation characteristi",
+    "title": "17.5.2 Deformation",
     "description": "",
     "data": {
-      "rule": "17.5.2 Deformation Characteristics of the Isolation System Minimum lateral earthquake design displacements and forces on seismically isolated structures shall be based on the deformation characteristics of the isolation system. The deformation characteristics of the isolation system include the effects of the wind-restraint system if such a system is used to meet the design requirements of this standard. The deformation characteristics of the isolation system shall be based on properly substantiated prototype tests performed in accordance with Section 17.8 and shall incorporate property modi fi cation factors in accordance with Section 17.2.8.4.",
+      "rule": "17.5.2 Deformation",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-17.5.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-17.5.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 17,
+      "section": "17.5.2",
+      "citation": "Section 17.5.2",
+      "page": 6
+    },
+    "title": "Characteristics of the Isolation System Minimum lateral earthquake design displacements and forces on seismically isolated structures shall be based on the deformation characteristics of the isolation",
+    "description": "",
+    "data": {
+      "rule": "Characteristics of the Isolation System Minimum lateral earthquake design displacements and forces on seismically isolated structures shall be based on the deformation characteristics of the isolation system. The deformation characteristics of the isolation system include the effects of the wind-restraint system if such a system is used to meet the design requirements of this standard. The deformation characteristics of the isolation system shall be based on properly substantiated prototype tests performed in accordance with Section 17.8 and shall incorporate property modi fi cation factors in accordance with Section 17.2.8.4.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -4884,9 +5763,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-17.5.2-P1",
@@ -4952,10 +5830,10 @@
       "citation": "Section 17.5.3.1",
       "page": 6
     },
-    "title": "17.5.3.1 Maximum Displacement The isolation system shall be designed and constructed to withstand, at a minimum, the maximum displacement, DM , determined using upper bound and lower bound properties,",
+    "title": "17.5.3.1 Maximum Displacement",
     "description": "",
     "data": {
-      "rule": "17.5.3.1 Maximum Displacement The isolation system shall be designed and constructed to withstand, at a minimum, the maximum displacement, DM , determined using upper bound and lower bound properties, in the most critical direction of horizontal response, calculated using Equation (17.5-1): where",
+      "rule": "17.5.3.1 Maximum Displacement",
       "conditions": [],
       "then": "",
       "else": null,
@@ -4970,7 +5848,34 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-17.5.3.1-T2",
+    "id": "ASCE7-22-17.5.3.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-17.5.3.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 17,
+      "section": "17.5.3.1",
+      "citation": "Section 17.5.3.1",
+      "page": 6
+    },
+    "title": "The isolation system shall be designed and constructed to withstand, at a minimum, the maximum displacement, DM , determined using upper bound and lower bound properties, in the most critical directio",
+    "description": "",
+    "data": {
+      "rule": "The isolation system shall be designed and constructed to withstand, at a minimum, the maximum displacement, DM , determined using upper bound and lower bound properties, in the most critical direction of horizontal response, calculated using Equation (17.5-1): where",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-17.5.3.1-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -4997,7 +5902,7 @@
     "parent_id": "ASCE7-22-17.5.3.1-H1"
   },
   {
-    "id": "ASCE7-22-17.5.3.1-T3",
+    "id": "ASCE7-22-17.5.3.1-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -5024,7 +5929,7 @@
     "parent_id": "ASCE7-22-17.5.3.1-H1"
   },
   {
-    "id": "ASCE7-22-17.5.3.1-T4",
+    "id": "ASCE7-22-17.5.3.1-T5",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -5051,7 +5956,7 @@
     "parent_id": "ASCE7-22-17.5.3.1-H1"
   },
   {
-    "id": "ASCE7-22-17.5.3.1-T5",
+    "id": "ASCE7-22-17.5.3.1-T6",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -5224,10 +6129,10 @@
       "citation": "Section 17.5.3.3",
       "page": 7
     },
-    "title": "17.5.3.3 Total Maximum Displacement The total maximum displacement, DTM , of elements of the isolation system shall include additional displacement caused by actual and accidental torsion, calculated ",
+    "title": "17.5.3.3 Total Maximum Displacement",
     "description": "",
     "data": {
-      "rule": "17.5.3.3 Total Maximum Displacement The total maximum displacement, DTM , of elements of the isolation system shall include additional displacement caused by actual and accidental torsion, calculated from the spatial distribution of the lateral stiffness of the isolation system and the most disadvantageous location of eccentric mass. The total maximum displacement, DTM , of elements of an isolation system shall not be taken as less than that prescribed by Equation (17.5-3): where",
+      "rule": "17.5.3.3 Total Maximum Displacement",
       "conditions": [],
       "then": "",
       "else": null,
@@ -5242,7 +6147,34 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-17.5.3.3-T2",
+    "id": "ASCE7-22-17.5.3.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-17.5.3.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 17,
+      "section": "17.5.3.3",
+      "citation": "Section 17.5.3.3",
+      "page": 7
+    },
+    "title": "The total maximum displacement, DTM , of elements of the isolation system shall include additional displacement caused by actual and accidental torsion, calculated from the spatial distribution of the",
+    "description": "",
+    "data": {
+      "rule": "The total maximum displacement, DTM , of elements of the isolation system shall include additional displacement caused by actual and accidental torsion, calculated from the spatial distribution of the lateral stiffness of the isolation system and the most disadvantageous location of eccentric mass. The total maximum displacement, DTM , of elements of an isolation system shall not be taken as less than that prescribed by Equation (17.5-3): where",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-17.5.3.3-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -5269,7 +6201,7 @@
     "parent_id": "ASCE7-22-17.5.3.3-H1"
   },
   {
-    "id": "ASCE7-22-17.5.3.3-T3",
+    "id": "ASCE7-22-17.5.3.3-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -5296,7 +6228,7 @@
     "parent_id": "ASCE7-22-17.5.3.3-H1"
   },
   {
-    "id": "ASCE7-22-17.5.3.3-T4",
+    "id": "ASCE7-22-17.5.3.3-T5",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -5323,7 +6255,7 @@
     "parent_id": "ASCE7-22-17.5.3.3-H1"
   },
   {
-    "id": "ASCE7-22-17.5.3.3-T5",
+    "id": "ASCE7-22-17.5.3.3-T6",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -5384,7 +6316,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-17.5.3.3-T7",
+    "id": "ASCE7-22-17.5.3.3-T8",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -5411,7 +6343,7 @@
     "parent_id": "ASCE7-22-17.5.3.3-H1"
   },
   {
-    "id": "ASCE7-22-17.5.3.3-T8",
+    "id": "ASCE7-22-17.5.3.3-T9",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -5620,10 +6552,10 @@
       "citation": "Section 17.5.4.2",
       "page": 7
     },
-    "title": "17.5.4.2 Structural Elements above the Base Level The structure above the base level shall be designed and constructed using all of the applicable requirements for a nonisolated structure for a minimu",
+    "title": "17.5.4.2 Structural",
     "description": "",
     "data": {
-      "rule": "17.5.4.2 Structural Elements above the Base Level The structure above the base level shall be designed and constructed using all of the applicable requirements for a nonisolated structure for a minimum shear force, Vs , determined using upper bound and lower bound isolation system properties, as prescribed by Equation (17.5-6):",
+      "rule": "17.5.4.2 Structural",
       "conditions": [],
       "then": "",
       "else": null,
@@ -5639,6 +6571,33 @@
   },
   {
     "id": "ASCE7-22-17.5.4.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-17.5.4.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 17,
+      "section": "17.5.4.2",
+      "citation": "Section 17.5.4.2",
+      "page": 7
+    },
+    "title": "Elements above the Base Level The structure above the base level shall be designed and constructed using all of the applicable requirements for a nonisolated structure for a minimum shear force, Vs , ",
+    "description": "",
+    "data": {
+      "rule": "Elements above the Base Level The structure above the base level shall be designed and constructed using all of the applicable requirements for a nonisolated structure for a minimum shear force, Vs , determined using upper bound and lower bound isolation system properties, as prescribed by Equation (17.5-6):",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-17.5.4.2-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -5801,7 +6760,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-17.5.4.2-T2",
+    "id": "ASCE7-22-17.5.4.2-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -5918,7 +6877,7 @@
       "citation": "Section 17.5.4.3",
       "page": 8
     },
-    "title": "The lateral seismic force required by Section 12.8 for a fi xed-base structure of the same effective seismic weight, Ws , and a period equal to the period of the isolation system using the upper bound",
+    "title": "The lateral seismic force required by Section 12.8 for a fi xed-base structure of the same effective seismic weight, Ws , and a period equal to the period of the isolation system using the upper bound properties, TM ;",
     "description": "",
     "data": {
       "rule": "The lateral seismic force required by Section 12.8 for a fi xed-base structure of the same effective seismic weight, Ws , and a period equal to the period of the isolation system using the upper bound properties, TM ;",
@@ -6298,10 +7257,38 @@
       "citation": "Section 17.5.6",
       "page": 8
     },
-    "title": "17.5.6 Drift Limits The maximum story drift of the structure above the isolation system shall not exceed 0.015 hsx . The drift shall be calculated by Equation (12.8-15) with Cd for the isolated struct",
+    "title": "17.5.6 Drift Limits",
     "description": "",
     "data": {
-      "rule": "17.5.6 Drift Limits The maximum story drift of the structure above the isolation system shall not exceed 0.015 hsx . The drift shall be calculated by Equation (12.8-15) with Cd for the isolated structure equal to RI , as de fi ned in Section 17.5.4.2.",
+      "rule": "17.5.6 Drift Limits",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-17.5.6-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-17.5.6-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 17,
+      "section": "17.5.6",
+      "citation": "Section 17.5.6",
+      "page": 8
+    },
+    "title": "The maximum story drift of the structure above the isolation system shall not exceed 0.015 hsx . The drift shall be calculated by Equation (12.8-15) with Cd for the isolated structure equal to RI , as",
+    "description": "",
+    "data": {
+      "rule": "The maximum story drift of the structure above the isolation system shall not exceed 0.015 hsx . The drift shall be calculated by Equation (12.8-15) with Cd for the isolated structure equal to RI , as de fi ned in Section 17.5.4.2.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -6313,9 +7300,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-17.6-H1",
@@ -6327,7 +7313,7 @@
       "citation": "Section 17.6",
       "page": 8
     },
-    "title": "17.6 DYNAMIC ANALYSIS PROCEDURES",
+    "title": "17.6",
     "description": "",
     "data": {
       "rule": "17.6 DYNAMIC ANALYSIS PROCEDURES",
@@ -6354,10 +7340,10 @@
       "citation": "Section 17.6.1",
       "page": 8
     },
-    "title": "17.6.1 General Where dynamic analysis is used to design seismically isolated structures, the requirements of this section shall apply.",
+    "title": "17.6.1 General",
     "description": "",
     "data": {
-      "rule": "17.6.1 General Where dynamic analysis is used to design seismically isolated structures, the requirements of this section shall apply.",
+      "rule": "17.6.1 General",
       "conditions": [],
       "then": "",
       "else": null,
@@ -6370,6 +7356,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-17.6.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-17.6.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 17,
+      "section": "17.6.1",
+      "citation": "Section 17.6.1",
+      "page": 8
+    },
+    "title": "Where dynamic analysis is used to design seismically isolated structures, the requirements of this section shall apply.",
+    "description": "",
+    "data": {
+      "rule": "Where dynamic analysis is used to design seismically isolated structures, the requirements of this section shall apply.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-17.6.2-H1",
@@ -6381,10 +7394,10 @@
       "citation": "Section 17.6.2",
       "page": 8
     },
-    "title": "17.6.2 Modeling The mathematical models of the isolated structure, including the isolation system, the seismic forceresisting system, and other structural elements, shall conform to Section 12.7.3 and",
+    "title": "17.6.2 Modeling",
     "description": "",
     "data": {
-      "rule": "17.6.2 Modeling The mathematical models of the isolated structure, including the isolation system, the seismic forceresisting system, and other structural elements, shall conform to Section 12.7.3 and to the requirements of Sections 17.6.2.1 and 17.6.2.2.",
+      "rule": "17.6.2 Modeling",
       "conditions": [],
       "then": "",
       "else": null,
@@ -6399,6 +7412,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-17.6.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-17.6.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 17,
+      "section": "17.6.2",
+      "citation": "Section 17.6.2",
+      "page": 8
+    },
+    "title": "The mathematical models of the isolated structure, including the isolation system, the seismic forceresisting system, and other structural elements, shall conform to Section 12.7.3 and to the requirem",
+    "description": "",
+    "data": {
+      "rule": "The mathematical models of the isolated structure, including the isolation system, the seismic forceresisting system, and other structural elements, shall conform to Section 12.7.3 and to the requirements of Sections 17.6.2.1 and 17.6.2.2.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-17.6.2.1-H1",
     "type": "heading",
     "source": {
@@ -6408,10 +7448,38 @@
       "citation": "Section 17.6.2.1",
       "page": 8
     },
-    "title": "17.6.2.1 Isolation System The isolation system shall be modeled using deformational characteristics developed in accordance with Section 17.2.8. The lateral displacements and forces shall be computed ",
+    "title": "17.6.2.1 Isolation",
     "description": "",
     "data": {
-      "rule": "17.6.2.1 Isolation System The isolation system shall be modeled using deformational characteristics developed in accordance with Section 17.2.8. The lateral displacements and forces shall be computed separately for upper bound and lower bound isolation system properties, as de fi ned in Section 17.2.8.5. The isolation system shall be modeled with suf fi cient detail to capture all of the following:",
+      "rule": "17.6.2.1 Isolation",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-17.6.2.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-17.6.2.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 17,
+      "section": "17.6.2.1",
+      "citation": "Section 17.6.2.1",
+      "page": 8
+    },
+    "title": "System The isolation system shall be modeled using deformational characteristics developed in accordance with Section 17.2.8. The lateral displacements and forces shall be computed separately for uppe",
+    "description": "",
+    "data": {
+      "rule": "System The isolation system shall be modeled using deformational characteristics developed in accordance with Section 17.2.8. The lateral displacements and forces shall be computed separately for upper bound and lower bound isolation system properties, as de fi ned in Section 17.2.8.5. The isolation system shall be modeled with suf fi cient detail to capture all of the following:",
       "conditions": [],
       "then": "",
       "else": null,
@@ -6424,12 +7492,11 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
-    "id": "ASCE7-22-17.6.2.1-T1",
+    "id": "ASCE7-22-17.6.2.1-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -6456,7 +7523,7 @@
     "parent_id": "ASCE7-22-17.6.2.1-H1"
   },
   {
-    "id": "ASCE7-22-17.6.2.1-T2",
+    "id": "ASCE7-22-17.6.2.1-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -6483,7 +7550,7 @@
     "parent_id": "ASCE7-22-17.6.2.1-H1"
   },
   {
-    "id": "ASCE7-22-17.6.2.1-T3",
+    "id": "ASCE7-22-17.6.2.1-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -6510,7 +7577,7 @@
     "parent_id": "ASCE7-22-17.6.2.1-H1"
   },
   {
-    "id": "ASCE7-22-17.6.2.1-T4",
+    "id": "ASCE7-22-17.6.2.1-T5",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -6711,10 +7778,38 @@
       "citation": "Section 17.6.3.2",
       "page": 9
     },
-    "title": "17.6.3.2 MCER Ground Motions The MCER ground motions of Section 17.3 shall be used to calculate the lateral forces and displacements in the isolated structure, the total maximum displacement of the is",
+    "title": "17.6.3.2 MCER Ground Motions",
     "description": "",
     "data": {
-      "rule": "17.6.3.2 MCER Ground Motions The MCER ground motions of Section 17.3 shall be used to calculate the lateral forces and displacements in the isolated structure, the total maximum displacement of the isolation system, and the forces in the isolator units, isolator unit connections, and supporting framing immediately above and below the isolators used to resist isolator P-delta demands.",
+      "rule": "17.6.3.2 MCER Ground Motions",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-17.6.3.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-17.6.3.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 17,
+      "section": "17.6.3.2",
+      "citation": "Section 17.6.3.2",
+      "page": 9
+    },
+    "title": "The MCER ground motions of Section 17.3 shall be used to calculate the lateral forces and displacements in the isolated structure, the total maximum displacement of the isolation system, and the force",
+    "description": "",
+    "data": {
+      "rule": "The MCER ground motions of Section 17.3 shall be used to calculate the lateral forces and displacements in the isolated structure, the total maximum displacement of the isolation system, and the forces in the isolator units, isolator unit connections, and supporting framing immediately above and below the isolators used to resist isolator P-delta demands.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -6726,9 +7821,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-17.6.3.3-P1",
@@ -6794,10 +7888,38 @@
       "citation": "Section 17.6.3.4",
       "page": 9
     },
-    "title": "17.6.3.4 Response History Analysis Procedure Response history analysis shall be performed for a set of ground motion pairs selected and scaled in accordance with Section 17.3.2. Each pair of ground mo",
+    "title": "17.6.3.4 Response",
     "description": "",
     "data": {
-      "rule": "17.6.3.4 Response History Analysis Procedure Response history analysis shall be performed for a set of ground motion pairs selected and scaled in accordance with Section 17.3.2. Each pair of ground motion components shall be applied simultaneously to the model, considering the most disadvantageous location of eccentric mass. The maximum displacement of the isolation system shall be calculated from the vector sum of the two orthogonal displacements at each time step.",
+      "rule": "17.6.3.4 Response",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-17.6.3.4-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-17.6.3.4-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 17,
+      "section": "17.6.3.4",
+      "citation": "Section 17.6.3.4",
+      "page": 9
+    },
+    "title": "History Analysis Procedure Response history analysis shall be performed for a set of ground motion pairs selected and scaled in accordance with Section 17.3.2. Each pair of ground motion components sh",
+    "description": "",
+    "data": {
+      "rule": "History Analysis Procedure Response history analysis shall be performed for a set of ground motion pairs selected and scaled in accordance with Section 17.3.2. Each pair of ground motion components shall be applied simultaneously to the model, considering the most disadvantageous location of eccentric mass. The maximum displacement of the isolation system shall be calculated from the vector sum of the two orthogonal displacements at each time step.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -6809,9 +7931,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-17.6.3.4-P1",
@@ -7218,10 +8339,10 @@
       "citation": "Section 17.6.4.3",
       "page": 9
     },
-    "title": "17.6.4.3 Scaling of Results Where the factored lateral shear force on structural elements, determined using either the response spectrum or response history procedure, is less than the minimum values ",
+    "title": "17.6.4.3 Scaling of Results",
     "description": "",
     "data": {
-      "rule": "17.6.4.3 Scaling of Results Where the factored lateral shear force on structural elements, determined using either the response spectrum or response history procedure, is less than the minimum values prescribed by Sections 17.6.4.1 and 17.6.4.2, all design parameters shall be adjusted upward proportionally.",
+      "rule": "17.6.4.3 Scaling of Results",
       "conditions": [],
       "then": "",
       "else": null,
@@ -7234,6 +8355,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-17.6.4.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-17.6.4.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 17,
+      "section": "17.6.4.3",
+      "citation": "Section 17.6.4.3",
+      "page": 9
+    },
+    "title": "Where the factored lateral shear force on structural elements, determined using either the response spectrum or response history procedure, is less than the minimum values prescribed by Sections 17.6.",
+    "description": "",
+    "data": {
+      "rule": "Where the factored lateral shear force on structural elements, determined using either the response spectrum or response history procedure, is less than the minimum values prescribed by Sections 17.6.4.1 and 17.6.4.2, all design parameters shall be adjusted upward proportionally.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-17.6.4.4-P1",
@@ -7382,7 +8530,7 @@
       "citation": "Section 17.7",
       "page": 10
     },
-    "title": "17.7 DESIGN REVIEW",
+    "title": "17.7",
     "description": "",
     "data": {
       "rule": "17.7 DESIGN REVIEW",
@@ -7427,7 +8575,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-17.7-T1",
+    "id": "ASCE7-22-17.7-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -7454,7 +8602,7 @@
     "parent_id": "ASCE7-22-17.7-H1"
   },
   {
-    "id": "ASCE7-22-17.7-T2",
+    "id": "ASCE7-22-17.7-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -7481,7 +8629,7 @@
     "parent_id": "ASCE7-22-17.7-H1"
   },
   {
-    "id": "ASCE7-22-17.7-T3",
+    "id": "ASCE7-22-17.7-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -7508,7 +8656,7 @@
     "parent_id": "ASCE7-22-17.7-H1"
   },
   {
-    "id": "ASCE7-22-17.7-T4",
+    "id": "ASCE7-22-17.7-T5",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -7537,7 +8685,7 @@
     "parent_id": "ASCE7-22-17.7-H1"
   },
   {
-    "id": "ASCE7-22-17.7-T5",
+    "id": "ASCE7-22-17.7-T6",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -7564,7 +8712,7 @@
     "parent_id": "ASCE7-22-17.7-H1"
   },
   {
-    "id": "ASCE7-22-17.7-T6",
+    "id": "ASCE7-22-17.7-T7",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -7629,10 +8777,10 @@
       "citation": "Section 17.8.1",
       "page": 10
     },
-    "title": "17.8.1 General The deformation characteristics and damping values of the isolation system used in the design and analysis of seismically isolated structures shall be based on tests of a selected sampl",
+    "title": "17.8.1 General",
     "description": "",
     "data": {
-      "rule": "17.8.1 General The deformation characteristics and damping values of the isolation system used in the design and analysis of seismically isolated structures shall be based on tests of a selected sample of the components before construction, as described in this section. The isolation system components to be tested shall include the wind-restraint system if such a system is used in the design.",
+      "rule": "17.8.1 General",
       "conditions": [],
       "then": "",
       "else": null,
@@ -7648,6 +8796,33 @@
   },
   {
     "id": "ASCE7-22-17.8.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-17.8.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 17,
+      "section": "17.8.1",
+      "citation": "Section 17.8.1",
+      "page": 10
+    },
+    "title": "The deformation characteristics and damping values of the isolation system used in the design and analysis of seismically isolated structures shall be based on tests of a selected sample of the compon",
+    "description": "",
+    "data": {
+      "rule": "The deformation characteristics and damping values of the isolation system used in the design and analysis of seismically isolated structures shall be based on tests of a selected sample of the components before construction, as described in this section. The isolation system components to be tested shall include the wind-restraint system if such a system is used in the design.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-17.8.1-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -7685,10 +8860,10 @@
       "citation": "Section 17.8.1.1",
       "page": 10
     },
-    "title": "17.8.1.1 Quali fi cation Tests Isolation device manufacturers shall submit, for approval by the RDP the results of quali fi cation tests, analysis of test data, and supporting scienti fi c studies tha",
+    "title": "17.8.1.1 Quali",
     "description": "",
     "data": {
-      "rule": "17.8.1.1 Quali fi cation Tests Isolation device manufacturers shall submit, for approval by the RDP the results of quali fi cation tests, analysis of test data, and supporting scienti fi c studies that are permitted to be used to quantify the effects of heating caused by cyclic dynamic motion, loading rate, scragging, variability and uncertainty in production bearing properties, temperature, aging, environmental exposure, and contamination. The quali fi cation testing shall be applicable to the component types, models, materials, and sizes to be used in the construction. The quali fi cation testing shall have been performed on components manufactured by the same manufacturer supplying the components to be used in the construction. When scaled specimens are used in the quali fi cation testing, principles of scaling and similarity shall be used in the interpretation of the data.",
+      "rule": "17.8.1.1 Quali",
       "conditions": [],
       "then": "",
       "else": null,
@@ -7703,6 +8878,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-17.8.1.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-17.8.1.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 17,
+      "section": "17.8.1.1",
+      "citation": "Section 17.8.1.1",
+      "page": 10
+    },
+    "title": "fi cation Tests Isolation device manufacturers shall submit, for approval by the RDP the results of quali fi cation tests, analysis of test data, and supporting scienti fi c studies that are permitted",
+    "description": "",
+    "data": {
+      "rule": "fi cation Tests Isolation device manufacturers shall submit, for approval by the RDP the results of quali fi cation tests, analysis of test data, and supporting scienti fi c studies that are permitted to be used to quantify the effects of heating caused by cyclic dynamic motion, loading rate, scragging, variability and uncertainty in production bearing properties, temperature, aging, environmental exposure, and contamination. The quali fi cation testing shall be applicable to the component types, models, materials, and sizes to be used in the construction. The quali fi cation testing shall have been performed on components manufactured by the same manufacturer supplying the components to be used in the construction. When scaled specimens are used in the quali fi cation testing, principles of scaling and similarity shall be used in the interpretation of the data.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-17.8.2-H1",
     "type": "heading",
     "source": {
@@ -7712,10 +8914,10 @@
       "citation": "Section 17.8.2",
       "page": 10
     },
-    "title": "17.8.2 Prototype Tests Prototype tests shall be performed separately on two full-size specimens (or sets of specimens, as appropriate) of each predominant type and size of isolator unit of the isolati",
+    "title": "17.8.2 Prototype Tests",
     "description": "",
     "data": {
-      "rule": "17.8.2 Prototype Tests Prototype tests shall be performed separately on two full-size specimens (or sets of specimens, as appropriate) of each predominant type and size of isolator unit of the isolation system. The test specimens shall include the windrestraint system if such a system is used in the design. Specimens tested shall not be used for construction unless they are accepted by the RDP responsible for the design of the structure.",
+      "rule": "17.8.2 Prototype Tests",
       "conditions": [],
       "then": "",
       "else": null,
@@ -7728,6 +8930,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-17.8.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-17.8.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 17,
+      "section": "17.8.2",
+      "citation": "Section 17.8.2",
+      "page": 10
+    },
+    "title": "Prototype tests shall be performed separately on two full-size specimens (or sets of specimens, as appropriate) of each predominant type and size of isolator unit of the isolation system. The test spe",
+    "description": "",
+    "data": {
+      "rule": "Prototype tests shall be performed separately on two full-size specimens (or sets of specimens, as appropriate) of each predominant type and size of isolator unit of the isolation system. The test specimens shall include the windrestraint system if such a system is used in the design. Specimens tested shall not be used for construction unless they are accepted by the RDP responsible for the design of the structure.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-17.8.2.1-P1",
@@ -7766,10 +8995,38 @@
       "citation": "Section 17.8.2.2",
       "page": 10
     },
-    "title": "17.8.2.2 Sequence and Cycles Each of the following sequence of tests shall be performed for the prescribed number of cycles, at a vertical load equal to the average dead load plus one-half the effects",
+    "title": "17.8.2.2 Sequence and Cycles",
     "description": "",
     "data": {
-      "rule": "17.8.2.2 Sequence and Cycles Each of the following sequence of tests shall be performed for the prescribed number of cycles, at a vertical load equal to the average dead load plus one-half the effects caused by live load on all isolator units of a common type and size. Before these tests, the production set of tests speci fi ed in Section 17.8.5 shall be performed on each isolator:",
+      "rule": "17.8.2.2 Sequence and Cycles",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-17.8.2.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-17.8.2.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 17,
+      "section": "17.8.2.2",
+      "citation": "Section 17.8.2.2",
+      "page": 10
+    },
+    "title": "Each of the following sequence of tests shall be performed for the prescribed number of cycles, at a vertical load equal to the average dead load plus one-half the effects caused by live load on all i",
+    "description": "",
+    "data": {
+      "rule": "Each of the following sequence of tests shall be performed for the prescribed number of cycles, at a vertical load equal to the average dead load plus one-half the effects caused by live load on all isolator units of a common type and size. Before these tests, the production set of tests speci fi ed in Section 17.8.5 shall be performed on each isolator:",
       "conditions": [],
       "then": "",
       "else": null,
@@ -7781,12 +9038,11 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
-    "id": "ASCE7-22-17.8.2.2-T1",
+    "id": "ASCE7-22-17.8.2.2-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -7840,7 +9096,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-17.8.2.2-T2",
+    "id": "ASCE7-22-17.8.2.2-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -7897,7 +9153,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-17.8.2.2-T3",
+    "id": "ASCE7-22-17.8.2.2-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -7924,7 +9180,7 @@
     "parent_id": "ASCE7-22-17.8.2.2-H1"
   },
   {
-    "id": "ASCE7-22-17.8.2.2-T4",
+    "id": "ASCE7-22-17.8.2.2-T5",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -7951,7 +9207,7 @@
     "parent_id": "ASCE7-22-17.8.2.2-H1"
   },
   {
-    "id": "ASCE7-22-17.8.2.2-T5",
+    "id": "ASCE7-22-17.8.2.2-T6",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -8102,10 +9358,10 @@
       "citation": "Section 17.8.2.4",
       "page": 11
     },
-    "title": "17.8.2.4 Units Dependent on Bilateral Load If the forcede fl ection properties of the isolator units exhibit bilateral load dependence, the tests speci fi ed in Sections 17.8.2.2 and 17.8.2.3 shall be",
+    "title": "17.8.2.4 Units Dependent on Bilateral Load",
     "description": "",
     "data": {
-      "rule": "17.8.2.4 Units Dependent on Bilateral Load If the forcede fl ection properties of the isolator units exhibit bilateral load dependence, the tests speci fi ed in Sections 17.8.2.2 and 17.8.2.3 shall be augmented to include bilateral load at the following increments of the maximum displacement, DM \u2236 0.25 and 1.0, 0.5 and 1.0, 0.67 and 1.0, and 1.0 and 1.0.",
+      "rule": "17.8.2.4 Units Dependent on Bilateral Load",
       "conditions": [],
       "then": "",
       "else": null,
@@ -8118,6 +9374,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-17.8.2.4-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-17.8.2.4-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 17,
+      "section": "17.8.2.4",
+      "citation": "Section 17.8.2.4",
+      "page": 11
+    },
+    "title": "If the forcede fl ection properties of the isolator units exhibit bilateral load dependence, the tests speci fi ed in Sections 17.8.2.2 and 17.8.2.3 shall be augmented to include bilateral load at the",
+    "description": "",
+    "data": {
+      "rule": "If the forcede fl ection properties of the isolator units exhibit bilateral load dependence, the tests speci fi ed in Sections 17.8.2.2 and 17.8.2.3 shall be augmented to include bilateral load at the following increments of the maximum displacement, DM \u2236 0.25 and 1.0, 0.5 and 1.0, 0.67 and 1.0, and 1.0 and 1.0.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-17.8.2.4-P1",
@@ -8185,10 +9468,38 @@
       "citation": "Section 17.8.2.5",
       "page": 11
     },
-    "title": "17.8.2.5 Maximum and Minimum Vertical Load Isolator units that carry vertical load shall be subjected to one fully reversed cycle of loading at the total maximum displacement, DTM , and at each of the",
+    "title": "17.8.2.5 Maximum and Minimum Vertical Load",
     "description": "",
     "data": {
-      "rule": "17.8.2.5 Maximum and Minimum Vertical Load Isolator units that carry vertical load shall be subjected to one fully reversed cycle of loading at the total maximum displacement, DTM , and at each of the vertical loads corresponding to the maximum and minimum downward vertical loads, as speci fi ed in Section 17.2.7.1 on any one isolator of a common type and size. Axial load and displacement values for each test shall be the greater of those determined by analysis using the upper bound and lower bound values of isolation system properties, determined in accordance with Section 17.2.8.5.",
+      "rule": "17.8.2.5 Maximum and Minimum Vertical Load",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-17.8.2.5-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-17.8.2.5-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 17,
+      "section": "17.8.2.5",
+      "citation": "Section 17.8.2.5",
+      "page": 11
+    },
+    "title": "Isolator units that carry vertical load shall be subjected to one fully reversed cycle of loading at the total maximum displacement, DTM , and at each of the vertical loads corresponding to the maximu",
+    "description": "",
+    "data": {
+      "rule": "Isolator units that carry vertical load shall be subjected to one fully reversed cycle of loading at the total maximum displacement, DTM , and at each of the vertical loads corresponding to the maximum and minimum downward vertical loads, as speci fi ed in Section 17.2.7.1 on any one isolator of a common type and size. Axial load and displacement values for each test shall be the greater of those determined by analysis using the upper bound and lower bound values of isolation system properties, determined in accordance with Section 17.2.8.5.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -8201,9 +9512,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-17.8.2.5-D1",
@@ -8241,10 +9551,10 @@
       "citation": "Section 17.8.2.6",
       "page": 11
     },
-    "title": "17.8.2.6 Sacri fi cial Wind-Restraint Systems If a sacri fi cial wind-restraint system is to be used, its ultimate capacity shall be established by test.",
+    "title": "17.8.2.6 Sacri",
     "description": "",
     "data": {
-      "rule": "17.8.2.6 Sacri fi cial Wind-Restraint Systems If a sacri fi cial wind-restraint system is to be used, its ultimate capacity shall be established by test.",
+      "rule": "17.8.2.6 Sacri",
       "conditions": [],
       "then": "",
       "else": null,
@@ -8259,6 +9569,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-17.8.2.6-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-17.8.2.6-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 17,
+      "section": "17.8.2.6",
+      "citation": "Section 17.8.2.6",
+      "page": 11
+    },
+    "title": "fi cial Wind-Restraint Systems If a sacri fi cial wind-restraint system is to be used, its ultimate capacity shall be established by test.",
+    "description": "",
+    "data": {
+      "rule": "fi cial Wind-Restraint Systems If a sacri fi cial wind-restraint system is to be used, its ultimate capacity shall be established by test.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-17.8.2.7-H1",
     "type": "heading",
     "source": {
@@ -8268,10 +9605,10 @@
       "citation": "Section 17.8.2.7",
       "page": 11
     },
-    "title": "17.8.2.7 Testing Similar Units Prototype tests need not be performed if an isolator unit, when compared to another tested unit, complies with all of the following criteria:",
+    "title": "17.8.2.7 Testing Similar Units",
     "description": "",
     "data": {
-      "rule": "17.8.2.7 Testing Similar Units Prototype tests need not be performed if an isolator unit, when compared to another tested unit, complies with all of the following criteria:",
+      "rule": "17.8.2.7 Testing Similar Units",
       "conditions": [],
       "then": "",
       "else": null,
@@ -8287,6 +9624,33 @@
   },
   {
     "id": "ASCE7-22-17.8.2.7-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-17.8.2.7-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 17,
+      "section": "17.8.2.7",
+      "citation": "Section 17.8.2.7",
+      "page": 11
+    },
+    "title": "Prototype tests need not be performed if an isolator unit, when compared to another tested unit, complies with all of the following criteria:",
+    "description": "",
+    "data": {
+      "rule": "Prototype tests need not be performed if an isolator unit, when compared to another tested unit, complies with all of the following criteria:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-17.8.2.7-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -8313,7 +9677,7 @@
     "parent_id": "ASCE7-22-17.8.2.7-H1"
   },
   {
-    "id": "ASCE7-22-17.8.2.7-T2",
+    "id": "ASCE7-22-17.8.2.7-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -8340,7 +9704,7 @@
     "parent_id": "ASCE7-22-17.8.2.7-H1"
   },
   {
-    "id": "ASCE7-22-17.8.2.7-T3",
+    "id": "ASCE7-22-17.8.2.7-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -8367,7 +9731,7 @@
     "parent_id": "ASCE7-22-17.8.2.7-H1"
   },
   {
-    "id": "ASCE7-22-17.8.2.7-T4",
+    "id": "ASCE7-22-17.8.2.7-T5",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -8569,10 +9933,38 @@
       "citation": "Section 17.8.3",
       "page": 11
     },
-    "title": "17.8.3 Determination of Force-De fl ection Characteristics The force-de fl ection characteristics of an isolator unit shall be based on the cyclic load tests of prototype isolators speci fi ed in Sect",
+    "title": "17.8.3 Determination of Force-De",
     "description": "",
     "data": {
-      "rule": "17.8.3 Determination of Force-De fl ection Characteristics The force-de fl ection characteristics of an isolator unit shall be based on the cyclic load tests of prototype isolators speci fi ed in Section 17.8.2.",
+      "rule": "17.8.3 Determination of Force-De",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-17.8.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-17.8.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 17,
+      "section": "17.8.3",
+      "citation": "Section 17.8.3",
+      "page": 11
+    },
+    "title": "fl ection Characteristics The force-de fl ection characteristics of an isolator unit shall be based on the cyclic load tests of prototype isolators speci fi ed in Section 17.8.2.",
+    "description": "",
+    "data": {
+      "rule": "fl ection Characteristics The force-de fl ection characteristics of an isolator unit shall be based on the cyclic load tests of prototype isolators speci fi ed in Section 17.8.2.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -8584,9 +9976,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-17.8.3-P1",
@@ -8643,7 +10034,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-17.8.3-T1",
+    "id": "ASCE7-22-17.8.3-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -8843,10 +10234,10 @@
       "citation": "Section 17.8.4",
       "page": 11
     },
-    "title": "17.8.4 Test Specimen Adequacy The performance of the test specimens shall be deemed adequate if all of the following conditions are satis fi ed:",
+    "title": "17.8.4 Test Specimen Adequacy",
     "description": "",
     "data": {
-      "rule": "17.8.4 Test Specimen Adequacy The performance of the test specimens shall be deemed adequate if all of the following conditions are satis fi ed:",
+      "rule": "17.8.4 Test Specimen Adequacy",
       "conditions": [],
       "then": "",
       "else": null,
@@ -8862,6 +10253,33 @@
   },
   {
     "id": "ASCE7-22-17.8.4-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-17.8.4-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 17,
+      "section": "17.8.4",
+      "citation": "Section 17.8.4",
+      "page": 11
+    },
+    "title": "The performance of the test specimens shall be deemed adequate if all of the following conditions are satis fi ed:",
+    "description": "",
+    "data": {
+      "rule": "The performance of the test specimens shall be deemed adequate if all of the following conditions are satis fi ed:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-17.8.4-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -8890,7 +10308,7 @@
     "parent_id": "ASCE7-22-17.8.4-H1"
   },
   {
-    "id": "ASCE7-22-17.8.4-T2",
+    "id": "ASCE7-22-17.8.4-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -8919,7 +10337,7 @@
     "parent_id": "ASCE7-22-17.8.4-H1"
   },
   {
-    "id": "ASCE7-22-17.8.4-T3",
+    "id": "ASCE7-22-17.8.4-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -8948,7 +10366,7 @@
     "parent_id": "ASCE7-22-17.8-F17-8-11"
   },
   {
-    "id": "ASCE7-22-17.8.4-T13",
+    "id": "ASCE7-22-17.8.4-T14",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -9006,7 +10424,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-17.8.4-T14",
+    "id": "ASCE7-22-17.8.4-T15",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -9035,7 +10453,7 @@
     "parent_id": "ASCE7-22-17.8.4-H1"
   },
   {
-    "id": "ASCE7-22-17.8.4-T15",
+    "id": "ASCE7-22-17.8.4-T16",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -9091,7 +10509,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-17.8.4-T16",
+    "id": "ASCE7-22-17.8.4-T17",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -9120,7 +10538,7 @@
     "parent_id": "ASCE7-22-17.8.4-H1"
   },
   {
-    "id": "ASCE7-22-17.8.4-T17",
+    "id": "ASCE7-22-17.8.4-T18",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -9184,10 +10602,10 @@
       "citation": "Section 17.8.5",
       "page": 12
     },
-    "title": "17.8.5 Production Tests A test program for the isolator units used in the construction shall be established by the RDP. The test program shall evaluate the consistency of measured values of nominal is",
+    "title": "17.8.5 Production Tests",
     "description": "",
     "data": {
-      "rule": "17.8.5 Production Tests A test program for the isolator units used in the construction shall be established by the RDP. The test program shall evaluate the consistency of measured values of nominal isolator unit properties by testing 100% of the isolators in combined compression and shear, at not less than two-thirds of the maximum displacement, DM , determined using lower bound properties.",
+      "rule": "17.8.5 Production Tests",
       "conditions": [],
       "then": "",
       "else": null,
@@ -9200,6 +10618,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-17.8.5-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-17.8.5-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 17,
+      "section": "17.8.5",
+      "citation": "Section 17.8.5",
+      "page": 12
+    },
+    "title": "A test program for the isolator units used in the construction shall be established by the RDP. The test program shall evaluate the consistency of measured values of nominal isolator unit properties b",
+    "description": "",
+    "data": {
+      "rule": "A test program for the isolator units used in the construction shall be established by the RDP. The test program shall evaluate the consistency of measured values of nominal isolator unit properties by testing 100% of the isolators in combined compression and shear, at not less than two-thirds of the maximum displacement, DM , determined using lower bound properties.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-17.8.5-P1",
@@ -9240,10 +10685,10 @@
       "citation": "Section 17.9",
       "page": 12
     },
-    "title": "17.9 CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
+    "title": "17.9",
     "description": "",
     "data": {
-      "rule": "17.9 CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
+      "rule": "17.9",
       "conditions": [],
       "then": "",
       "else": null,
@@ -9256,6 +10701,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-17.9-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-17.9-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 17,
+      "section": "17.9",
+      "citation": "Section 17.9",
+      "page": 12
+    },
+    "title": "CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
+    "description": "",
+    "data": {
+      "rule": "CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-17.9-P1",
