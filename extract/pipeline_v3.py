@@ -123,8 +123,10 @@ def run_v3(pdf_path, standard="ASCE 7-22", chapter=26):
     seen = set()
     deduped = []
     for e in elements:
-        text = e.get("data", {}).get("rule", "") or e.get("data", {}).get("expression", "") or e.get("data", {}).get("definition", "")
-        key = (e["type"], e["source"]["section"], text[:100])
+        text = e.get("data", {}).get("rule", "") or e.get("data", {}).get("expression", "") or e.get("data", {}).get("definition", "") or e.get("data", {}).get("target", "")
+        # Use full text for short elements (references, formulas), first 200 chars for long ones
+        text_key = text if len(text) < 200 else text[:200]
+        key = (e["type"], e["source"]["section"], text_key)
         if key in seen:
             continue
         seen.add(key)
