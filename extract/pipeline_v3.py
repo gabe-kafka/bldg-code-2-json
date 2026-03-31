@@ -78,9 +78,9 @@ def run_v3(pdf_path, standard="ASCE 7-22", chapter=26):
     print("  [+] Merging short fragments...")
     elements = _merge_fragments(elements)
 
-    # Page-level equation scan
+    # Page-level equation scan — use the actual chapter PDF
     print("  [+] Page-level equation scan...")
-    _add_equations_page_level(elements, std_slug, standard, chapter, id_set, make_id)
+    _add_equations_page_level(elements, std_slug, standard, chapter, id_set, make_id, pdf_path=pdf_path)
 
     # Re-sort by page so appended formulas are in natural reading position
     elements.sort(key=lambda e: (e["source"]["page"], e.get("_seq", 0)))
@@ -751,7 +751,7 @@ def _merge_fragments(elements):
 # BLOCKER 2: Page-level equation scan
 # ═══════════════════════════════════════════════════════════════
 
-def _add_equations_page_level(elements, std_slug, standard, chapter, id_set, make_id):
+def _add_equations_page_level(elements, std_slug, standard, chapter, id_set, make_id, pdf_path=None):
     """Find equations by scanning raw PDF text via pdfplumber (not Docling)."""
     import pdfplumber
 
@@ -762,16 +762,15 @@ def _add_equations_page_level(elements, std_slug, standard, chapter, id_set, mak
             if m:
                 existing_eqs.add(m.group(1))
 
-    # Get PDF path from first element
-    pdf_path = None
-    for e in elements:
-        if e.get("source", {}).get("standard"):
-            # Reconstruct — we need to find the PDF
-            from pathlib import Path
-            pdfs = list(Path("input").glob("*.pdf"))
-            if pdfs:
-                pdf_path = pdfs[0]
-            break
+    # Use passed PDF path, or find chapter PDF
+    if pdf_path is None:
+        from pathlib import Path
+        ch_pdf = Path(f"input/ch{chapter}.pdf")
+        if ch_pdf.exists():
+            pdf_path = ch_pdf
+        else:
+            pdfs = sorted(Path("input").glob("*.pdf"), key=lambda p: p.stat().st_size)
+            pdf_path = pdfs[0] if pdfs else None
 
     if not pdf_path:
         return
