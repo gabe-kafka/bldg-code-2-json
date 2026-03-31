@@ -20,8 +20,23 @@ def build_symbols_table(elements):
     """
     symbols = {}
 
-    # Find section X.3 elements (symbols list)
-    symbol_elements = [e for e in elements if re.match(r'^\d+\.3$', e["source"]["section"])]
+    # Find symbol/notation sections — not just X.3 but any section with symbol definitions
+    # Common patterns: X.2 (definitions), X.3 (symbols/notation), and any heading with SYMBOLS/NOTATION
+    symbol_elements = []
+    for e in elements:
+        sec = e.get("source", {}).get("section", "")
+        title = e.get("title", "").upper()
+        text = e.get("data", {}).get("rule", "") or ""
+
+        # Sections that are symbol lists
+        if re.match(r'^\d+\.[23]$', sec):
+            symbol_elements.append(e)
+        # Any element whose heading mentions SYMBOLS or NOTATION
+        elif "SYMBOL" in title or "NOTATION" in title:
+            symbol_elements.append(e)
+        # Text blocks that look like symbol definitions (X = description pattern)
+        elif e["type"] == "text_block" and re.match(r'^[A-Za-z_]{1,5}\s*=\s*.{10,}', text):
+            symbol_elements.append(e)
 
     # Also scan "where" blocks anywhere in the document
     where_elements = [e for e in elements if "where" in (e.get("data", {}).get("rule", "") or "")[:20].lower()]
@@ -91,14 +106,12 @@ def resolve_parameters(elements, symbols):
         if not expression:
             continue
 
-        # Extract variable-like tokens from expression
-        var_pattern = re.compile(r'\b([A-Za-z][A-Za-z0-9_]*)\b')
-        expr_vars = set(var_pattern.findall(expression))
-        expr_vars -= skip
-
-        # Also try multi-char variables with subscripts
-        sub_pattern = re.compile(r'([A-Za-z]+(?:_[a-zA-Z0-9]+)?)')
-        expr_vars |= set(sub_pattern.findall(expression)) - skip
+        # Extract variable-like tokens from expression — broad matching
+        expr_vars = set()
+        expr_vars |= set(re.findall(r'\b([A-Za-z][A-Za-z0-9_]*)\b', expression)) - skip
+        expr_vars |= set(re.findall(r'([A-Za-z]+(?:_[a-zA-Z0-9]+)?)', expression)) - skip
+        expr_vars |= set(re.findall(r'(α|β|γ|δ|ε|ζ|η|θ|λ|μ|ν|ρ|σ|τ|φ|ω|Ω|Δ)', expression))
+        expr_vars |= set(re.findall(r'\b([A-Z][a-z][A-Z]?|[A-Z]{2,3}[0-9]?)\b', expression)) - skip
 
         params = {}
         for var in expr_vars:
