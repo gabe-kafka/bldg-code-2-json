@@ -9,7 +9,7 @@
       "citation": "Section 26.1",
       "page": 1
     },
-    "title": "26.1 PROCEDURES",
+    "title": "26.1",
     "description": "",
     "data": {
       "rule": "26.1 PROCEDURES",
@@ -36,10 +36,10 @@
       "citation": "Section 26.1.1",
       "page": 1
     },
-    "title": "26.1.1 Scope Buildings and other structures, including the main wind force resisting system (MWFRS) and all components and cladding (C&C) thereof, shall be designed and constructed to resist the wind ",
+    "title": "26.1.1 Scope",
     "description": "",
     "data": {
-      "rule": "26.1.1 Scope Buildings and other structures, including the main wind force resisting system (MWFRS) and all components and cladding (C&C) thereof, shall be designed and constructed to resist the wind loads determined in accordance with Chapters 26 through 31.",
+      "rule": "26.1.1 Scope",
       "conditions": [],
       "then": "",
       "else": null,
@@ -52,6 +52,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-26.1.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-26.1.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.1.1",
+      "citation": "Section 26.1.1",
+      "page": 1
+    },
+    "title": "Buildings and other structures, including the main wind force resisting system (MWFRS) and all components and cladding (C&C) thereof, shall be designed and constructed to resist the wind loads determi",
+    "description": "",
+    "data": {
+      "rule": "Buildings and other structures, including the main wind force resisting system (MWFRS) and all components and cladding (C&C) thereof, shall be designed and constructed to resist the wind loads determined in accordance with Chapters 26 through 31.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-26.1.1-P1",
@@ -88,7 +115,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-26.1.1-T1",
+    "id": "ASCE7-22-26.1.1-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -151,10 +178,38 @@
       "citation": "Section 26.1.2",
       "page": 1
     },
-    "title": "26.1.2 Permitted Procedures The design wind loads for buildings and other structures, including the MWFRS and C&C elements thereof, shall be determined using one of the procedures as speci fi ed in th",
+    "title": "26.1.2 Permitted Procedures",
     "description": "",
     "data": {
-      "rule": "26.1.2 Permitted Procedures The design wind loads for buildings and other structures, including the MWFRS and C&C elements thereof, shall be determined using one of the procedures as speci fi ed in this section. An outline of the overall process for the determination of the wind loads, including section references, is provided in Figure 26.1-1.",
+      "rule": "26.1.2 Permitted Procedures",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-26.1.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-26.1.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.1.2",
+      "citation": "Section 26.1.2",
+      "page": 1
+    },
+    "title": "The design wind loads for buildings and other structures, including the MWFRS and C&C elements thereof, shall be determined using one of the procedures as speci fi ed in this section. An outline of th",
+    "description": "",
+    "data": {
+      "rule": "The design wind loads for buildings and other structures, including the MWFRS and C&C elements thereof, shall be determined using one of the procedures as speci fi ed in this section. An outline of the overall process for the determination of the wind loads, including section references, is provided in Figure 26.1-1.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -166,12 +221,11 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
-    "id": "ASCE7-22-26.1.2-T1",
+    "id": "ASCE7-22-26.1.2-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -207,10 +261,10 @@
       "citation": "Section 26.1.2.1",
       "page": 1
     },
-    "title": "26.1.2.1 Main Wind Force Resisting System Wind loads for the MWFRS shall be determined using one of the following procedures:",
+    "title": "26.1.2.1 Main Wind Force Resisting System",
     "description": "",
     "data": {
-      "rule": "26.1.2.1 Main Wind Force Resisting System Wind loads for the MWFRS shall be determined using one of the following procedures:",
+      "rule": "26.1.2.1 Main Wind Force Resisting System",
       "conditions": [],
       "then": "",
       "else": null,
@@ -226,6 +280,33 @@
   },
   {
     "id": "ASCE7-22-26.1.2.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-26.1.2.1-H2",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.1.2.1",
+      "citation": "Section 26.1.2.1",
+      "page": 1
+    },
+    "title": "Wind loads for the MWFRS shall be determined using one of the following procedures:",
+    "description": "",
+    "data": {
+      "rule": "Wind loads for the MWFRS shall be determined using one of the following procedures:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.1.2.1-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -252,7 +333,7 @@
     "parent_id": "ASCE7-22-26.1.2.1-H2"
   },
   {
-    "id": "ASCE7-22-26.1.2.1-T2",
+    "id": "ASCE7-22-26.1.2.1-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -279,7 +360,7 @@
     "parent_id": "ASCE7-22-26.1.2.1-H2"
   },
   {
-    "id": "ASCE7-22-26.1.2.1-T3",
+    "id": "ASCE7-22-26.1.2.1-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -306,7 +387,7 @@
     "parent_id": "ASCE7-22-26.1.2.1-H2"
   },
   {
-    "id": "ASCE7-22-26.1.2.1-T4",
+    "id": "ASCE7-22-26.1.2.1-T5",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -342,10 +423,10 @@
       "citation": "Section 26.1.2.1",
       "page": 1
     },
-    "title": "CHAPTER 26 WIND LOADS: GENERAL REQUIREMENTS",
+    "title": "CHAPTER 26",
     "description": "",
     "data": {
-      "rule": "CHAPTER 26 WIND LOADS: GENERAL REQUIREMENTS",
+      "rule": "CHAPTER 26",
       "conditions": [],
       "then": "",
       "else": null,
@@ -360,6 +441,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-26.1.2.1-T6",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-26.1.2.1-H2",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.1.2.1",
+      "citation": "Section 26.1.2.1",
+      "page": 1
+    },
+    "title": "WIND LOADS: GENERAL REQUIREMENTS",
+    "description": "",
+    "data": {
+      "rule": "WIND LOADS: GENERAL REQUIREMENTS",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-26.1.2.2-H1",
     "type": "heading",
     "source": {
@@ -369,10 +477,10 @@
       "citation": "Section 26.1.2.2",
       "page": 1
     },
-    "title": "26.1.2.2 Components and Cladding Wind loads on C&C on all buildings and other structures shall be designed using one of the following procedures:",
+    "title": "26.1",
     "description": "",
     "data": {
-      "rule": "26.1.2.2 Components and Cladding Wind loads on C&C on all buildings and other structures shall be designed using one of the following procedures:",
+      "rule": "26.1",
       "conditions": [],
       "then": "",
       "else": null,
@@ -388,6 +496,33 @@
   },
   {
     "id": "ASCE7-22-26.1.2.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-26.1.2.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.1.2.2",
+      "citation": "Section 26.1.2.2",
+      "page": 1
+    },
+    "title": ".2.2 Components and Cladding Wind loads on C&C on all buildings and other structures shall be designed using one of the following procedures:",
+    "description": "",
+    "data": {
+      "rule": ".2.2 Components and Cladding Wind loads on C&C on all buildings and other structures shall be designed using one of the following procedures:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.1.2.2-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -414,7 +549,7 @@
     "parent_id": "ASCE7-22-26.1.2.2-H1"
   },
   {
-    "id": "ASCE7-22-26.1.2.2-T2",
+    "id": "ASCE7-22-26.1.2.2-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -450,10 +585,10 @@
       "citation": "Section 26.1.3",
       "page": 1
     },
-    "title": "26.1.3 Performance-Based Procedures Wind design of buildings and other structures using performance-based procedures shall be permitted subject to the approval of the Authority Having Jurisdiction. Th",
+    "title": "26.1.3 Performance-Based",
     "description": "",
     "data": {
-      "rule": "26.1.3 Performance-Based Procedures Wind design of buildings and other structures using performance-based procedures shall be permitted subject to the approval of the Authority Having Jurisdiction. The performance-based wind design procedures used shall, at a minimum, conform to Section 1.3.1.3.",
+      "rule": "26.1.3 Performance-Based",
       "conditions": [],
       "then": "",
       "else": null,
@@ -468,6 +603,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-26.1.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-26.1.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.1.3",
+      "citation": "Section 26.1.3",
+      "page": 1
+    },
+    "title": "Procedures Wind design of buildings and other structures using performance-based procedures shall be permitted subject to the approval of the Authority Having Jurisdiction. The performance-based wind ",
+    "description": "",
+    "data": {
+      "rule": "Procedures Wind design of buildings and other structures using performance-based procedures shall be permitted subject to the approval of the Authority Having Jurisdiction. The performance-based wind design procedures used shall, at a minimum, conform to Section 1.3.1.3.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-26.2-H1",
     "type": "heading",
     "source": {
@@ -477,7 +639,7 @@
       "citation": "Section 26.2",
       "page": 1
     },
-    "title": "26.2 DEFINITIONS",
+    "title": "26.2",
     "description": "",
     "data": {
       "rule": "26.2 DEFINITIONS",
@@ -495,7 +657,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-26.2-T1",
+    "id": "ASCE7-22-26.2-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -696,7 +858,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-26.2-T2",
+    "id": "ASCE7-22-26.2-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -723,7 +885,7 @@
     "parent_id": "ASCE7-22-26.2-H1"
   },
   {
-    "id": "ASCE7-22-26.2-T3",
+    "id": "ASCE7-22-26.2-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -747,10 +909,10 @@
       "qc_status": "pending",
       "qc_notes": null
     },
-    "parent_id": "ASCE7-22-26.2-T2"
+    "parent_id": "ASCE7-22-26.2-T3"
   },
   {
-    "id": "ASCE7-22-26.2-T4",
+    "id": "ASCE7-22-26.2-T5",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -777,7 +939,7 @@
     "parent_id": "ASCE7-22-26.2-H1"
   },
   {
-    "id": "ASCE7-22-26.2-T5",
+    "id": "ASCE7-22-26.2-T6",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -806,7 +968,7 @@
     "parent_id": "ASCE7-22-26.1-F26-1-11"
   },
   {
-    "id": "ASCE7-22-26.2-T6",
+    "id": "ASCE7-22-26.2-T7",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -833,7 +995,7 @@
     "parent_id": "ASCE7-22-26.2-H1"
   },
   {
-    "id": "ASCE7-22-26.2-T7",
+    "id": "ASCE7-22-26.2-T8",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -860,7 +1022,7 @@
     "parent_id": "ASCE7-22-26.2-H1"
   },
   {
-    "id": "ASCE7-22-26.2-T8",
+    "id": "ASCE7-22-26.2-T9",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -887,7 +1049,7 @@
     "parent_id": "ASCE7-22-26.2-H1"
   },
   {
-    "id": "ASCE7-22-26.2-T10",
+    "id": "ASCE7-22-26.2-T11",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -917,7 +1079,7 @@
     "parent_id": "ASCE7-22-26.2-H1"
   },
   {
-    "id": "ASCE7-22-26.2-T14",
+    "id": "ASCE7-22-26.2-T15",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -946,7 +1108,7 @@
     "parent_id": "ASCE7-22-26.2-H1"
   },
   {
-    "id": "ASCE7-22-26.2-T18",
+    "id": "ASCE7-22-26.2-T19",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -975,7 +1137,7 @@
     "parent_id": "ASCE7-22-26.2-H1"
   },
   {
-    "id": "ASCE7-22-26.2-T19",
+    "id": "ASCE7-22-26.2-T20",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1004,7 +1166,7 @@
     "parent_id": "ASCE7-22-26.2-H1"
   },
   {
-    "id": "ASCE7-22-26.2-T20",
+    "id": "ASCE7-22-26.2-T21",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1033,7 +1195,7 @@
     "parent_id": "ASCE7-22-26.2-H1"
   },
   {
-    "id": "ASCE7-22-26.2-T21",
+    "id": "ASCE7-22-26.2-T22",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1062,7 +1224,7 @@
     "parent_id": "ASCE7-22-26.2-H1"
   },
   {
-    "id": "ASCE7-22-26.2-T22",
+    "id": "ASCE7-22-26.2-T23",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1089,7 +1251,7 @@
     "parent_id": "ASCE7-22-26.2-H1"
   },
   {
-    "id": "ASCE7-22-26.2-T25",
+    "id": "ASCE7-22-26.2-T26",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1116,7 +1278,7 @@
     "parent_id": "ASCE7-22-26.2-H1"
   },
   {
-    "id": "ASCE7-22-26.2-T33",
+    "id": "ASCE7-22-26.2-T34",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1143,7 +1305,7 @@
     "parent_id": "ASCE7-22-26.2-H1"
   },
   {
-    "id": "ASCE7-22-26.2-T37",
+    "id": "ASCE7-22-26.2-T38",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1170,7 +1332,7 @@
     "parent_id": "ASCE7-22-26.2-H1"
   },
   {
-    "id": "ASCE7-22-26.2-T38",
+    "id": "ASCE7-22-26.2-T39",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1197,7 +1359,7 @@
     "parent_id": "ASCE7-22-26.2-H1"
   },
   {
-    "id": "ASCE7-22-26.2-T43",
+    "id": "ASCE7-22-26.2-T44",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1224,7 +1386,7 @@
     "parent_id": "ASCE7-22-26.2-H1"
   },
   {
-    "id": "ASCE7-22-26.2-T44",
+    "id": "ASCE7-22-26.2-T45",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1251,7 +1413,7 @@
     "parent_id": "ASCE7-22-26.2-H1"
   },
   {
-    "id": "ASCE7-22-26.2-T45",
+    "id": "ASCE7-22-26.2-T46",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1278,7 +1440,7 @@
     "parent_id": "ASCE7-22-26.2-H1"
   },
   {
-    "id": "ASCE7-22-26.2-T47",
+    "id": "ASCE7-22-26.2-T48",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1305,7 +1467,7 @@
     "parent_id": "ASCE7-22-26.2-H1"
   },
   {
-    "id": "ASCE7-22-26.2-T50",
+    "id": "ASCE7-22-26.2-T51",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1332,7 +1494,7 @@
     "parent_id": "ASCE7-22-26.2-H1"
   },
   {
-    "id": "ASCE7-22-26.2-T51",
+    "id": "ASCE7-22-26.2-T52",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1359,7 +1521,7 @@
     "parent_id": "ASCE7-22-26.2-H1"
   },
   {
-    "id": "ASCE7-22-26.2-T52",
+    "id": "ASCE7-22-26.2-T53",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1386,7 +1548,7 @@
     "parent_id": "ASCE7-22-26.2-H1"
   },
   {
-    "id": "ASCE7-22-26.2-T53",
+    "id": "ASCE7-22-26.2-T54",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1461,7 +1623,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-26.2-T54",
+    "id": "ASCE7-22-26.2-T55",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1488,7 +1650,7 @@
     "parent_id": "ASCE7-22-26.2-H1"
   },
   {
-    "id": "ASCE7-22-26.2-T55",
+    "id": "ASCE7-22-26.2-T56",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1515,7 +1677,7 @@
     "parent_id": "ASCE7-22-26.2-H1"
   },
   {
-    "id": "ASCE7-22-26.2-T56",
+    "id": "ASCE7-22-26.2-T57",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1542,7 +1704,7 @@
     "parent_id": "ASCE7-22-26.2-H1"
   },
   {
-    "id": "ASCE7-22-26.2-T57",
+    "id": "ASCE7-22-26.2-T58",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1790,7 +1952,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-26.2-T58",
+    "id": "ASCE7-22-26.2-T59",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -1841,7 +2003,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-26.2-T59",
+    "id": "ASCE7-22-26.2-T60",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2066,7 +2228,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-26.2-T60",
+    "id": "ASCE7-22-26.2-T61",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2122,7 +2284,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-26.2-T61",
+    "id": "ASCE7-22-26.2-T62",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2149,7 +2311,7 @@
     "parent_id": "ASCE7-22-26.2-H1"
   },
   {
-    "id": "ASCE7-22-26.2-T62",
+    "id": "ASCE7-22-26.2-T63",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2176,7 +2338,7 @@
     "parent_id": "ASCE7-22-26.2-H1"
   },
   {
-    "id": "ASCE7-22-26.2-T63",
+    "id": "ASCE7-22-26.2-T64",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -2203,7 +2365,7 @@
     "parent_id": "ASCE7-22-26.2-H1"
   },
   {
-    "id": "ASCE7-22-26.2-T64",
+    "id": "ASCE7-22-26.2-T65",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -5761,10 +5923,10 @@
       "citation": "Section 26.4.1",
       "page": 5
     },
-    "title": "26.4.1 Sign Convention Positive pressure acts toward the surface, and negative pressure acts away from the surface.",
+    "title": "26.4.1 Sign Convention",
     "description": "",
     "data": {
-      "rule": "26.4.1 Sign Convention Positive pressure acts toward the surface, and negative pressure acts away from the surface.",
+      "rule": "26.4.1 Sign Convention",
       "conditions": [],
       "then": "",
       "else": null,
@@ -5777,6 +5939,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-26.4.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-26.4.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.4.1",
+      "citation": "Section 26.4.1",
+      "page": 5
+    },
+    "title": "Positive pressure acts toward the surface, and negative pressure acts away from the surface.",
+    "description": "",
+    "data": {
+      "rule": "Positive pressure acts toward the surface, and negative pressure acts away from the surface.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-26.4.2-H1",
@@ -5788,10 +5977,10 @@
       "citation": "Section 26.4.2",
       "page": 5
     },
-    "title": "26.4.2 Critical Load Condition Values of external and internal pressures shall be combined algebraically to determine the most critical load.",
+    "title": "26.4.2 Critical Load Condition",
     "description": "",
     "data": {
-      "rule": "26.4.2 Critical Load Condition Values of external and internal pressures shall be combined algebraically to determine the most critical load.",
+      "rule": "26.4.2 Critical Load Condition",
       "conditions": [],
       "then": "",
       "else": null,
@@ -5804,6 +5993,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-26.4.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-26.4.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.4.2",
+      "citation": "Section 26.4.2",
+      "page": 5
+    },
+    "title": "Values of external and internal pressures shall be combined algebraically to determine the most critical load.",
+    "description": "",
+    "data": {
+      "rule": "Values of external and internal pressures shall be combined algebraically to determine the most critical load.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-26.4.3-H1",
@@ -5815,10 +6031,10 @@
       "citation": "Section 26.4.3",
       "page": 5
     },
-    "title": "26.4.3 Wind Pressures Acting on Opposite Faces of Each Building Surface In the calculation of design wind loads for the MWFRS and for C&C for buildings, the algebraic sum of the pressures acting on op",
+    "title": "26.4.3 Wind Pressures Acting on Opposite Faces of Each",
     "description": "",
     "data": {
-      "rule": "26.4.3 Wind Pressures Acting on Opposite Faces of Each Building Surface In the calculation of design wind loads for the MWFRS and for C&C for buildings, the algebraic sum of the pressures acting on opposite faces of each building surface shall be taken into account.",
+      "rule": "26.4.3 Wind Pressures Acting on Opposite Faces of Each",
       "conditions": [],
       "then": "",
       "else": null,
@@ -5833,6 +6049,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-26.4.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-26.4.3-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.4.3",
+      "citation": "Section 26.4.3",
+      "page": 5
+    },
+    "title": "Building Surface In the calculation of design wind loads for the MWFRS and for C&C for buildings, the algebraic sum of the pressures acting on opposite faces of each building surface shall be taken in",
+    "description": "",
+    "data": {
+      "rule": "Building Surface In the calculation of design wind loads for the MWFRS and for C&C for buildings, the algebraic sum of the pressures acting on opposite faces of each building surface shall be taken into account.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-26.5-H1",
     "type": "heading",
     "source": {
@@ -5842,7 +6085,7 @@
       "citation": "Section 26.5",
       "page": 5
     },
-    "title": "26.5 WIND HAZARD MAP",
+    "title": "26.5",
     "description": "",
     "data": {
       "rule": "26.5 WIND HAZARD MAP",
@@ -5869,10 +6112,38 @@
       "citation": "Section 26.5.1",
       "page": 5
     },
-    "title": "26.5.1 Basic Wind Speed The basic wind speed, V , used in the determination of design wind loads on buildings and other structures shall be determined from Figure 26.5-1 as follows, except as provided",
+    "title": "26.5.1 Basic Wind Speed",
     "description": "",
     "data": {
-      "rule": "26.5.1 Basic Wind Speed The basic wind speed, V , used in the determination of design wind loads on buildings and other structures shall be determined from Figure 26.5-1 as follows, except as provided in Sections 26.5.2 and 26.5.3:",
+      "rule": "26.5.1 Basic Wind Speed",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-26.5.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-26.5.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.5.1",
+      "citation": "Section 26.5.1",
+      "page": 5
+    },
+    "title": "The basic wind speed, V , used in the determination of design wind loads on buildings and other structures shall be determined from Figure 26.5-1 as follows, except as provided in Sections 26.5.2 and ",
+    "description": "",
+    "data": {
+      "rule": "The basic wind speed, V , used in the determination of design wind loads on buildings and other structures shall be determined from Figure 26.5-1 as follows, except as provided in Sections 26.5.2 and 26.5.3:",
       "conditions": [],
       "then": "",
       "else": null,
@@ -5884,9 +6155,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-26.5.1-P1",
@@ -6049,13 +6319,13 @@
     "data": {
       "expression": "Ri = Reduction factor from Equation (26.13-1)",
       "parameters": {
-        "Ri": {
-          "description": "Reduction factor from Equation (26.13-1)",
-          "source": "ASCE7-22-26.3-T88"
-        },
         "factor": {
           "description": "1.8 -0.01 B , B < 100 ft ( B < 30.5 m), or 0.8, B \u2265 100 ft ( B \u2265 30.5 m);",
           "source": "ASCE7-22-28.3.7-T54"
+        },
+        "Ri": {
+          "description": "Reduction factor from Equation (26.13-1)",
+          "source": "ASCE7-22-26.3-T88"
         }
       }
     },
@@ -6155,7 +6425,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-26.5.1-T1",
+    "id": "ASCE7-22-26.5.1-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -6184,7 +6454,7 @@
     "parent_id": "ASCE7-22-26.5-F26-5-1A1"
   },
   {
-    "id": "ASCE7-22-26.5.1-T3",
+    "id": "ASCE7-22-26.5.1-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -6292,7 +6562,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-26.5.1-T4",
+    "id": "ASCE7-22-26.5.1-T5",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -6321,7 +6591,7 @@
     "parent_id": "ASCE7-22-26.5-F26-5-1A1"
   },
   {
-    "id": "ASCE7-22-26.5.1-T7",
+    "id": "ASCE7-22-26.5.1-T8",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -6402,7 +6672,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-26.5.1-T20",
+    "id": "ASCE7-22-26.5.1-T21",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -6429,7 +6699,7 @@
     "parent_id": "ASCE7-22-26.5.1-P6"
   },
   {
-    "id": "ASCE7-22-26.5.1-T21",
+    "id": "ASCE7-22-26.5.1-T22",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -6456,7 +6726,7 @@
     "parent_id": "ASCE7-22-26.5.1-P6"
   },
   {
-    "id": "ASCE7-22-26.5.1-T22",
+    "id": "ASCE7-22-26.5.1-T23",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -6485,7 +6755,7 @@
     "parent_id": "ASCE7-22-26.5-F26-5-1B1"
   },
   {
-    "id": "ASCE7-22-26.5.1-T25",
+    "id": "ASCE7-22-26.5.1-T26",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -6514,7 +6784,7 @@
     "parent_id": "ASCE7-22-26.5-F26-5-1B1"
   },
   {
-    "id": "ASCE7-22-26.5.1-T28",
+    "id": "ASCE7-22-26.5.1-T29",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -6539,6 +6809,33 @@
       "qc_notes": null
     },
     "parent_id": "ASCE7-22-26.5.1-H1"
+  },
+  {
+    "id": "ASCE7-22-26.5.1-P11",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.5.1",
+      "citation": "Section 26.5.1",
+      "page": 9
+    },
+    "title": "6. Mountainous terrain, gorges, ocean promontories, and special wind regions shall be examined for unusual wind conditions. Site-",
+    "description": "",
+    "data": {
+      "rule": "6. Mountainous terrain, gorges, ocean promontories, and special wind regions shall be examined for unusual wind conditions. Site-",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.5.1-P12",
@@ -6568,7 +6865,34 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-26.5.1-T43",
+    "id": "ASCE7-22-26.5.1-T42",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.5.1",
+      "citation": "Section 26.5.1",
+      "page": 9
+    },
+    "title": "7. Wind speeds correspond to approximately a 15% probability of exceedance in 50 years (Annual Exceedance Probability = 0.00143, MRI = 700 years).",
+    "description": "",
+    "data": {
+      "rule": "7. Wind speeds correspond to approximately a 15% probability of exceedance in 50 years (Annual Exceedance Probability = 0.00143, MRI = 700 years).",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-26.5.1-P12"
+  },
+  {
+    "id": "ASCE7-22-26.5.1-T44",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -6597,7 +6921,34 @@
     "parent_id": "ASCE7-22-26.5-F26-5-1C1"
   },
   {
-    "id": "ASCE7-22-26.5.1-T49",
+    "id": "ASCE7-22-26.5.1-T47",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.5.1",
+      "citation": "Section 26.5.1",
+      "page": 11
+    },
+    "title": "8. The ASCE Wind Design Geodatabase can be accessed at the ASCE 7 Hazard Tool (https://asce7hazardtool.online) or approved equivalent.",
+    "description": "",
+    "data": {
+      "rule": "8. The ASCE Wind Design Geodatabase can be accessed at the ASCE 7 Hazard Tool (https://asce7hazardtool.online) or approved equivalent. Location American Samoa",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-26.5.1-P15"
+  },
+  {
+    "id": "ASCE7-22-26.5.1-T50",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -6633,6 +6984,33 @@
       "citation": "Section 26.5.1",
       "page": 11
     },
+    "title": "7. Wind speeds correspond to approximately a 15% probability of exceedance in 50 years (Annual Exceedance Probability = 0.00588, MRI = 1,700 years).",
+    "description": "",
+    "data": {
+      "rule": "7. Wind speeds correspond to approximately a 15% probability of exceedance in 50 years (Annual Exceedance Probability = 0.00588, MRI = 1,700 years).",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-26.5.1-P17"
+  },
+  {
+    "id": "ASCE7-22-26.5.1-T64",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.5.1",
+      "citation": "Section 26.5.1",
+      "page": 11
+    },
     "title": "Figure 26.5-1C ( Continued ). Basic wind speeds for Risk Category III buildings and other structures.",
     "description": "",
     "data": {
@@ -6653,7 +7031,7 @@
     "parent_id": "ASCE7-22-26.5-F26-5-1C1"
   },
   {
-    "id": "ASCE7-22-26.5.1-T64",
+    "id": "ASCE7-22-26.5.1-T65",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -6682,7 +7060,7 @@
     "parent_id": "ASCE7-22-26.5-F26-5-1D1"
   },
   {
-    "id": "ASCE7-22-26.5.1-T67",
+    "id": "ASCE7-22-26.5.1-T68",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -6711,7 +7089,7 @@
     "parent_id": "ASCE7-22-26.5-F26-5-1D1"
   },
   {
-    "id": "ASCE7-22-26.5.1-T70",
+    "id": "ASCE7-22-26.5.1-T71",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -6736,6 +7114,33 @@
       "qc_notes": null
     },
     "parent_id": "ASCE7-22-26.5.1-H1"
+  },
+  {
+    "id": "ASCE7-22-26.5.1-T84",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.5.1",
+      "citation": "Section 26.5.1",
+      "page": 13
+    },
+    "title": "7. Wind speeds correspond to approximately a 15% probability of exceedance in 50 years (Annual Exceedance Probability = 0.00033, MRI = 3,000 years).",
+    "description": "",
+    "data": {
+      "rule": "7. Wind speeds correspond to approximately a 15% probability of exceedance in 50 years (Annual Exceedance Probability = 0.00033, MRI = 3,000 years).",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-26.5.1-P22"
   },
   {
     "id": "ASCE7-22-26.5.1-P23",
@@ -6765,7 +7170,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-26.5.1-T85",
+    "id": "ASCE7-22-26.5.1-T86",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -6830,10 +7235,38 @@
       "citation": "Section 26.5.2",
       "page": 14
     },
-    "title": "26.5.2 Special Wind Regions Mountainous terrain, gorges, and special wind regions shown in Figure 26.5-1 shall be examined for unusual wind conditions. The Authority Having Jurisdiction shall, if nece",
+    "title": "26.5.2 Special Wind Regions",
     "description": "",
     "data": {
-      "rule": "26.5.2 Special Wind Regions Mountainous terrain, gorges, and special wind regions shown in Figure 26.5-1 shall be examined for unusual wind conditions. The Authority Having Jurisdiction shall, if necessary, adjust the values given in Figure 26.5-1 to account for higher local wind speeds. Such adjustment shall be based on meteorological information and an estimate of the basic wind speed obtained in accordance with the provisions of Section 26.5.3.",
+      "rule": "26.5.2 Special Wind Regions",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-26.5.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-26.5.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.5.2",
+      "citation": "Section 26.5.2",
+      "page": 14
+    },
+    "title": "Mountainous terrain, gorges, and special wind regions shown in Figure 26.5-1 shall be examined for unusual wind conditions. The Authority Having Jurisdiction shall, if necessary, adjust the values giv",
+    "description": "",
+    "data": {
+      "rule": "Mountainous terrain, gorges, and special wind regions shown in Figure 26.5-1 shall be examined for unusual wind conditions. The Authority Having Jurisdiction shall, if necessary, adjust the values given in Figure 26.5-1 to account for higher local wind speeds. Such adjustment shall be based on meteorological information and an estimate of the basic wind speed obtained in accordance with the provisions of Section 26.5.3.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -6846,9 +7279,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-26.5.2-P1",
@@ -6993,7 +7425,7 @@
       "citation": "Section 26.6",
       "page": 14
     },
-    "title": "26.6 WIND DIRECTIONALITY FACTOR",
+    "title": "26.6",
     "description": "",
     "data": {
       "rule": "26.6 WIND DIRECTIONALITY FACTOR",
@@ -7221,10 +7653,38 @@
       "citation": "Section 26.7.2",
       "page": 14
     },
-    "title": "26.7.2 Surface Roughness Categories A ground surface roughness within each 45 degree sector shall be determined for a distance upwind of the site, as de fi ned in Section 26.7.3, from the categories d",
+    "title": "26.7.2 Surface",
     "description": "",
     "data": {
-      "rule": "26.7.2 Surface Roughness Categories A ground surface roughness within each 45 degree sector shall be determined for a distance upwind of the site, as de fi ned in Section 26.7.3, from the categories de fi ned in the following text, for the purpose of assigning an exposure category as de fi ned in Section 26.7.3.",
+      "rule": "26.7.2 Surface",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-26.7.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-26.7.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.7.2",
+      "citation": "Section 26.7.2",
+      "page": 14
+    },
+    "title": "Roughness Categories A ground surface roughness within each 45 degree sector shall be determined for a distance upwind of the site, as de fi ned in Section 26.7.3, from the categories de fi ned in the",
+    "description": "",
+    "data": {
+      "rule": "Roughness Categories A ground surface roughness within each 45 degree sector shall be determined for a distance upwind of the site, as de fi ned in Section 26.7.3, from the categories de fi ned in the following text, for the purpose of assigning an exposure category as de fi ned in Section 26.7.3.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -7236,9 +7696,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-26.7.2-D1",
@@ -7620,39 +8079,10 @@
       "citation": "Section 26.7.4.1",
       "page": 15
     },
-    "title": "26.7.4.1 Directional Procedure (Chapter 27) For each wind direction considered, wind loads for the design of the MWFRS of enclosed and partially enclosed buildings using the Directional Procedure of C",
+    "title": "26.7.4.1 Directional Procedure (Chapter 27)",
     "description": "",
     "data": {
-      "rule": "26.7.4.1 Directional Procedure (Chapter 27) For each wind direction considered, wind loads for the design of the MWFRS of enclosed and partially enclosed buildings using the Directional Procedure of Chapter 27 shall be based on the exposures as de fi ned in Section 26.7.3. Wind loads for the design of open buildings with monoslope, pitched, or troughed free roofs shall be based on the exposures, as de fi ned in Section 26.7.3, resulting in the highest wind loads for any wind direction at the site.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [
-      "ASCE7-22-26.7.3-H1"
-    ],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-26.7.4.2-H1",
-    "type": "heading",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.7.4.2",
-      "citation": "Section 26.7.4.2",
-      "page": 15
-    },
-    "title": "26.7.4.2 Envelope Procedure (Chapter 28) Wind loads for the design of the MWFRS for all low-rise buildings designed using the Envelope Procedure of Chapter 28 shall be based on the exposure category r",
-    "description": "",
-    "data": {
-      "rule": "26.7.4.2 Envelope Procedure (Chapter 28) Wind loads for the design of the MWFRS for all low-rise buildings designed using the Envelope Procedure of Chapter 28 shall be based on the exposure category resulting in the highest wind loads for any wind direction at the site.",
+      "rule": "26.7.4.1 Directional Procedure (Chapter 27)",
       "conditions": [],
       "then": "",
       "else": null,
@@ -7665,6 +8095,89 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-26.7.4.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-26.7.4.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.7.4.1",
+      "citation": "Section 26.7.4.1",
+      "page": 15
+    },
+    "title": "For each wind direction considered, wind loads for the design of the MWFRS of enclosed and partially enclosed buildings using the Directional Procedure of Chapter 27 shall be based on the exposures as",
+    "description": "",
+    "data": {
+      "rule": "For each wind direction considered, wind loads for the design of the MWFRS of enclosed and partially enclosed buildings using the Directional Procedure of Chapter 27 shall be based on the exposures as de fi ned in Section 26.7.3. Wind loads for the design of open buildings with monoslope, pitched, or troughed free roofs shall be based on the exposures, as de fi ned in Section 26.7.3, resulting in the highest wind loads for any wind direction at the site.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.7.3-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.7.4.2-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.7.4.2",
+      "citation": "Section 26.7.4.2",
+      "page": 15
+    },
+    "title": "26.7.4.2 Envelope Procedure (Chapter 28)",
+    "description": "",
+    "data": {
+      "rule": "26.7.4.2 Envelope Procedure (Chapter 28)",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-26.7.4.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-26.7.4.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.7.4.2",
+      "citation": "Section 26.7.4.2",
+      "page": 15
+    },
+    "title": "Wind loads for the design of the MWFRS for all low-rise buildings designed using the Envelope Procedure of Chapter 28 shall be based on the exposure category resulting in the highest wind loads for an",
+    "description": "",
+    "data": {
+      "rule": "Wind loads for the design of the MWFRS for all low-rise buildings designed using the Envelope Procedure of Chapter 28 shall be based on the exposure category resulting in the highest wind loads for any wind direction at the site.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-26.7.4.3-P1",
@@ -7703,10 +8216,10 @@
       "citation": "Section 26.7.4.4",
       "page": 15
     },
-    "title": "26.7.4.4 Components and Cladding (Chapter 30) Design wind pressures for C&C shall be based on the exposure category resulting in the highest wind loads for any wind direction at the site.",
+    "title": "26.7.4.4 Components and Cladding (Chapter 30)",
     "description": "",
     "data": {
-      "rule": "26.7.4.4 Components and Cladding (Chapter 30) Design wind pressures for C&C shall be based on the exposure category resulting in the highest wind loads for any wind direction at the site.",
+      "rule": "26.7.4.4 Components and Cladding (Chapter 30)",
       "conditions": [],
       "then": "",
       "else": null,
@@ -7721,6 +8234,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-26.7.4.4-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-26.7.4.4-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.7.4.4",
+      "citation": "Section 26.7.4.4",
+      "page": 15
+    },
+    "title": "Design wind pressures for C&C shall be based on the exposure category resulting in the highest wind loads for any wind direction at the site.",
+    "description": "",
+    "data": {
+      "rule": "Design wind pressures for C&C shall be based on the exposure category resulting in the highest wind loads for any wind direction at the site.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-26.8-H1",
     "type": "heading",
     "source": {
@@ -7730,7 +8270,7 @@
       "citation": "Section 26.8",
       "page": 15
     },
-    "title": "26.8 TOPOGRAPHIC EFFECTS",
+    "title": "26.8",
     "description": "",
     "data": {
       "rule": "26.8 TOPOGRAPHIC EFFECTS",
@@ -7757,10 +8297,10 @@
       "citation": "Section 26.8.1",
       "page": 15
     },
-    "title": "26.8.1 Wind Speed-Up over Hills, Ridges, and Escarpments Wind speed-up effects at isolated hills, ridges, and escarpments constituting abrupt changes in the general topography, located in any exposure",
+    "title": "26.8.1 Wind",
     "description": "",
     "data": {
-      "rule": "26.8.1 Wind Speed-Up over Hills, Ridges, and Escarpments Wind speed-up effects at isolated hills, ridges, and escarpments constituting abrupt changes in the general topography, located in any exposure category, shall be included in the determination of the wind loads when site conditions and locations of buildings and other structures meet all the following conditions:",
+      "rule": "26.8.1 Wind",
       "conditions": [],
       "then": "",
       "else": null,
@@ -7776,6 +8316,33 @@
   },
   {
     "id": "ASCE7-22-26.8.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-26.8.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.8.1",
+      "citation": "Section 26.8.1",
+      "page": 15
+    },
+    "title": "Speed-Up over Hills, Ridges, and Escarpments Wind speed-up effects at isolated hills, ridges, and escarpments constituting abrupt changes in the general topography, located in any exposure category, s",
+    "description": "",
+    "data": {
+      "rule": "Speed-Up over Hills, Ridges, and Escarpments Wind speed-up effects at isolated hills, ridges, and escarpments constituting abrupt changes in the general topography, located in any exposure category, shall be included in the determination of the wind loads when site conditions and locations of buildings and other structures meet all the following conditions:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.8.1-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -7804,7 +8371,7 @@
     "parent_id": "ASCE7-22-26.8.1-H1"
   },
   {
-    "id": "ASCE7-22-26.8.1-T3",
+    "id": "ASCE7-22-26.8.1-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -7941,7 +8508,7 @@
       "citation": "Section 26.9",
       "page": 15
     },
-    "title": "26.9 GROUND ELEVATION FACTOR",
+    "title": "26.9",
     "description": "",
     "data": {
       "rule": "26.9 GROUND ELEVATION FACTOR",
@@ -7995,7 +8562,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-26.9-T1",
+    "id": "ASCE7-22-26.9-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -8123,7 +8690,7 @@
       "citation": "Section 26.10",
       "page": 15
     },
-    "title": "26.10 VELOCITY PRESSURE",
+    "title": "26.10",
     "description": "",
     "data": {
       "rule": "26.10 VELOCITY PRESSURE",
@@ -8150,40 +8717,10 @@
       "citation": "Section 26.10.1",
       "page": 15
     },
-    "title": "26.10.1 Velocity Pressure Exposure Coef fi cient Based on the exposure category determined in Section 26.7.3, a velocity pressure exposure coef fi cient, Kz or Kh , as applicable, shall be determined ",
+    "title": "26.10.1 Velocity Pressure Exposure Coef",
     "description": "",
     "data": {
-      "rule": "26.10.1 Velocity Pressure Exposure Coef fi cient Based on the exposure category determined in Section 26.7.3, a velocity pressure exposure coef fi cient, Kz or Kh , as applicable, shall be determined from Table 26.10-1. For a site located in a transition zone between exposure categories that is near to a change in ground surface roughness, intermediate values of Kz or Kh , between those shown in Table 26.10-1 are permitted provided they are determined by a rational analysis method de fi ned in the recognized literature.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [
-      "ASCE7-22-26.10-E26-10-11",
-      "ASCE7-22-26.7.3-H1"
-    ],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-26.10.2-H1",
-    "type": "heading",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.10.2",
-      "citation": "Section 26.10.2",
-      "page": 15
-    },
-    "title": "26.10.2 Velocity Pressure Velocity pressure, qz , evaluated at height z above ground shall be calculated by the following equation:",
-    "description": "",
-    "data": {
-      "rule": "26.10.2 Velocity Pressure Velocity pressure, qz , evaluated at height z above ground shall be calculated by the following equation: V(2) \u2014aa.ln. Ve) \u00b7 Speed-up X(Upwind) x (Dovanind)",
+      "rule": "26.10.1 Velocity Pressure Exposure Coef",
       "conditions": [],
       "then": "",
       "else": null,
@@ -8196,6 +8733,90 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-26.10.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-26.10.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.10.1",
+      "citation": "Section 26.10.1",
+      "page": 15
+    },
+    "title": "fi cient Based on the exposure category determined in Section 26.7.3, a velocity pressure exposure coef fi cient, Kz or Kh , as applicable, shall be determined from Table 26.10-1. For a site located i",
+    "description": "",
+    "data": {
+      "rule": "fi cient Based on the exposure category determined in Section 26.7.3, a velocity pressure exposure coef fi cient, Kz or Kh , as applicable, shall be determined from Table 26.10-1. For a site located in a transition zone between exposure categories that is near to a change in ground surface roughness, intermediate values of Kz or Kh , between those shown in Table 26.10-1 are permitted provided they are determined by a rational analysis method de fi ned in the recognized literature.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.10-E26-10-11",
+      "ASCE7-22-26.7.3-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.10.2-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.10.2",
+      "citation": "Section 26.10.2",
+      "page": 15
+    },
+    "title": "26.10.2 Velocity Pressure",
+    "description": "",
+    "data": {
+      "rule": "26.10.2 Velocity Pressure",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-26.10.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-26.10.2-H6",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.10.2",
+      "citation": "Section 26.10.2",
+      "page": 15
+    },
+    "title": "Velocity pressure, qz , evaluated at height z above ground shall be calculated by the following equation:",
+    "description": "",
+    "data": {
+      "rule": "Velocity pressure, qz , evaluated at height z above ground shall be calculated by the following equation: V(2) \u2014aa.ln. Ve) \u00b7 Speed-up X(Upwind) x (Dovanind)",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-26.9-T26-9-11",
@@ -8313,7 +8934,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-26.10.2-T13",
+    "id": "ASCE7-22-26.10.2-T14",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -8394,7 +9015,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-26.10.2-T14",
+    "id": "ASCE7-22-26.10.2-T15",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -8475,7 +9096,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-26.10.2-T15",
+    "id": "ASCE7-22-26.10.2-T16",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -8502,7 +9123,7 @@
     "parent_id": "ASCE7-22-26.10.2-H6"
   },
   {
-    "id": "ASCE7-22-26.10.2-T16",
+    "id": "ASCE7-22-26.10.2-T17",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -8529,7 +9150,7 @@
     "parent_id": "ASCE7-22-26.10.2-H6"
   },
   {
-    "id": "ASCE7-22-26.10.2-T17",
+    "id": "ASCE7-22-26.10.2-T18",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -8556,7 +9177,7 @@
     "parent_id": "ASCE7-22-26.10.2-H6"
   },
   {
-    "id": "ASCE7-22-26.10.2-T18",
+    "id": "ASCE7-22-26.10.2-T19",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -8583,7 +9204,7 @@
     "parent_id": "ASCE7-22-26.10.2-H6"
   },
   {
-    "id": "ASCE7-22-26.10.2-T19",
+    "id": "ASCE7-22-26.10.2-T20",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -8610,7 +9231,7 @@
     "parent_id": "ASCE7-22-26.10.2-H6"
   },
   {
-    "id": "ASCE7-22-26.10.2-T20",
+    "id": "ASCE7-22-26.10.2-T21",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -8637,7 +9258,7 @@
     "parent_id": "ASCE7-22-26.10.2-H6"
   },
   {
-    "id": "ASCE7-22-26.10.2-T21",
+    "id": "ASCE7-22-26.10.2-T22",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -8664,7 +9285,7 @@
     "parent_id": "ASCE7-22-26.10.2-H6"
   },
   {
-    "id": "ASCE7-22-26.10.2-T22",
+    "id": "ASCE7-22-26.10.2-T23",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -8691,7 +9312,7 @@
     "parent_id": "ASCE7-22-26.10.2-H6"
   },
   {
-    "id": "ASCE7-22-26.10.2-T23",
+    "id": "ASCE7-22-26.10.2-T24",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -8745,7 +9366,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-26.10.2-T25",
+    "id": "ASCE7-22-26.10.2-T26",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -8799,7 +9420,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-26.10.2-T27",
+    "id": "ASCE7-22-26.10.2-T28",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -9119,17 +9740,17 @@
     "data": {
       "expression": "L eff = i X = n 1 (26.11-1)",
       "parameters": {
-        "n": {
-          "description": "Number of shear walls in the building effective in resisting lateral forces in the direction under consideration;",
-          "source": "ASCE7-22-26.11.3-T22"
+        "i": {
+          "description": "Building level referred to by a subscript i ;",
+          "source": "ASCE7-22-11.3-T59"
         },
         "L": {
           "description": "Inside length of a rectangular tank, parallel to the direction of the earthquake force being investigated;",
           "source": "ASCE7-22-15.7.6.2-T3"
         },
-        "i": {
-          "description": "Building level referred to by a subscript i ;",
-          "source": "ASCE7-22-11.3-T59"
+        "n": {
+          "description": "Number of shear walls in the building effective in resisting lateral forces in the direction under consideration;",
+          "source": "ASCE7-22-26.11.3-T22"
         }
       }
     },
@@ -9160,13 +9781,13 @@
           "description": "Number of shear walls in the building effective in resisting lateral forces in the direction under consideration;",
           "source": "ASCE7-22-26.11.3-T22"
         },
-        "h": {
-          "description": "Height of a shear wall measured as the maximum clear height from top of foundation to bottom of diaphragm framing above, or the maximum clear height from top of diaphragm to bottom of diaphragm framing above",
-          "source": "ASCE7-22-11.3-T49"
-        },
         "i": {
           "description": "Building level referred to by a subscript i ;",
           "source": "ASCE7-22-11.3-T59"
+        },
+        "h": {
+          "description": "Height of a shear wall measured as the maximum clear height from top of foundation to bottom of diaphragm framing above, or the maximum clear height from top of diaphragm to bottom of diaphragm framing above",
+          "source": "ASCE7-22-11.3-T49"
         }
       }
     },
@@ -9193,10 +9814,6 @@
     "data": {
       "expression": "26.11.3 Approximate Natural Frequency The approximate n a =43.5\u2215h0.9 (26.11-3)",
       "parameters": {
-        "n": {
-          "description": "Number of shear walls in the building effective in resisting lateral forces in the direction under consideration;",
-          "source": "ASCE7-22-26.11.3-T22"
-        },
         "a": {
           "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
           "source": "ASCE7-22-28.3.7-T22"
@@ -9204,6 +9821,10 @@
         "h": {
           "description": "Height of a shear wall measured as the maximum clear height from top of foundation to bottom of diaphragm framing above, or the maximum clear height from top of diaphragm to bottom of diaphragm framing above",
           "source": "ASCE7-22-11.3-T49"
+        },
+        "n": {
+          "description": "Number of shear walls in the building effective in resisting lateral forces in the direction under consideration;",
+          "source": "ASCE7-22-26.11.3-T22"
         }
       }
     },
@@ -9216,7 +9837,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-26.10.2-T31",
+    "id": "ASCE7-22-26.10.2-T32",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -9245,7 +9866,7 @@
     "parent_id": "ASCE7-22-26.10.2-H6"
   },
   {
-    "id": "ASCE7-22-26.10.2-T32",
+    "id": "ASCE7-22-26.10.2-T33",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -9274,7 +9895,7 @@
     "parent_id": "ASCE7-22-26.10.2-H6"
   },
   {
-    "id": "ASCE7-22-26.10.2-T33",
+    "id": "ASCE7-22-26.10.2-T34",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -9303,7 +9924,7 @@
     "parent_id": "ASCE7-22-26.10.2-H6"
   },
   {
-    "id": "ASCE7-22-26.10.2-T34",
+    "id": "ASCE7-22-26.10.2-T35",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -9332,7 +9953,7 @@
     "parent_id": "ASCE7-22-26.10.2-H6"
   },
   {
-    "id": "ASCE7-22-26.10.2-T35",
+    "id": "ASCE7-22-26.10.2-T36",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -9359,7 +9980,7 @@
     "parent_id": "ASCE7-22-26.10.2-H6"
   },
   {
-    "id": "ASCE7-22-26.10.2-T36",
+    "id": "ASCE7-22-26.10.2-T37",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -9413,7 +10034,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-26.10.2-T37",
+    "id": "ASCE7-22-26.10.2-T38",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -9440,7 +10061,7 @@
     "parent_id": "ASCE7-22-26.10.2-H6"
   },
   {
-    "id": "ASCE7-22-26.10.2-T38",
+    "id": "ASCE7-22-26.10.2-T39",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -9476,7 +10097,7 @@
       "citation": "Section 26.11",
       "page": 17
     },
-    "title": "26.11 GUST EFFECTS",
+    "title": "26.11",
     "description": "",
     "data": {
       "rule": "26.11 GUST EFFECTS",
@@ -9503,10 +10124,10 @@
       "citation": "Section 26.11.1",
       "page": 17
     },
-    "title": "26.11.1 Gust-Effect Factor The gust-effect factor for a rigid building or other structure is permitted to be taken as 0.85.",
+    "title": "26.11.1 Gust-Effect Factor",
     "description": "",
     "data": {
-      "rule": "26.11.1 Gust-Effect Factor The gust-effect factor for a rigid building or other structure is permitted to be taken as 0.85.",
+      "rule": "26.11.1 Gust-Effect Factor",
       "conditions": [],
       "then": "",
       "else": null,
@@ -9521,6 +10142,33 @@
     "parent_id": null
   },
   {
+    "id": "ASCE7-22-26.11.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-26.11.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11.1",
+      "citation": "Section 26.11.1",
+      "page": 17
+    },
+    "title": "The gust-effect factor for a rigid building or other structure is permitted to be taken as 0.85.",
+    "description": "",
+    "data": {
+      "rule": "The gust-effect factor for a rigid building or other structure is permitted to be taken as 0.85.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
     "id": "ASCE7-22-26.11.2-H1",
     "type": "heading",
     "source": {
@@ -9530,10 +10178,38 @@
       "citation": "Section 26.11.2",
       "page": 17
     },
-    "title": "26.11.2 Frequency Determination To determine whether a building or other structure is rigid or fl exible as de fi ned in Section 26.2, the fundamental natural frequency, n 1 , shall be established usi",
+    "title": "26.11.2 Frequency Determination",
     "description": "",
     "data": {
-      "rule": "26.11.2 Frequency Determination To determine whether a building or other structure is rigid or fl exible as de fi ned in Section 26.2, the fundamental natural frequency, n 1 , shall be established using the structural properties and deformational characteristics of the resisting elements in a properly substantiated analysis. Low-rise buildings, as de fi ned in Section 26.2, are permitted to be considered rigid.",
+      "rule": "26.11.2 Frequency Determination",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-26.11.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-26.11.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11.2",
+      "citation": "Section 26.11.2",
+      "page": 17
+    },
+    "title": "To determine whether a building or other structure is rigid or fl exible as de fi ned in Section 26.2, the fundamental natural frequency, n 1 , shall be established using the structural properties and",
+    "description": "",
+    "data": {
+      "rule": "To determine whether a building or other structure is rigid or fl exible as de fi ned in Section 26.2, the fundamental natural frequency, n 1 , shall be established using the structural properties and deformational characteristics of the resisting elements in a properly substantiated analysis. Low-rise buildings, as de fi ned in Section 26.2, are permitted to be considered rigid.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -9545,9 +10221,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-26.11.2.1-P1",
@@ -9696,10 +10371,10 @@
       "citation": "Section 26.11.3",
       "page": 17
     },
-    "title": "26.11.3 Approximate Natural Frequency The approximate lower bound natural frequency ( na ), in Hz, of concrete or structural steel buildings meeting the conditions of",
+    "title": "26.11.3 Approximate Natural Frequency",
     "description": "",
     "data": {
-      "rule": "26.11.3 Approximate Natural Frequency The approximate lower bound natural frequency ( na ), in Hz, of concrete or structural steel buildings meeting the conditions of",
+      "rule": "26.11.3 Approximate Natural Frequency",
       "conditions": [],
       "then": "",
       "else": null,
@@ -9715,6 +10390,33 @@
   },
   {
     "id": "ASCE7-22-26.11.3-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-26.11.3-H2",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11.3",
+      "citation": "Section 26.11.3",
+      "page": 17
+    },
+    "title": "The approximate lower bound natural frequency ( na ), in Hz, of concrete or structural steel buildings meeting the conditions of",
+    "description": "",
+    "data": {
+      "rule": "The approximate lower bound natural frequency ( na ), in Hz, of concrete or structural steel buildings meeting the conditions of",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.11.3-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -9743,7 +10445,7 @@
     "parent_id": "ASCE7-22-26.11.3-H2"
   },
   {
-    "id": "ASCE7-22-26.11.3-T2",
+    "id": "ASCE7-22-26.11.3-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -9770,7 +10472,7 @@
     "parent_id": "ASCE7-22-26.11.3-H2"
   },
   {
-    "id": "ASCE7-22-26.11.3-T3",
+    "id": "ASCE7-22-26.11.3-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -9824,7 +10526,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-26.11.3-T7",
+    "id": "ASCE7-22-26.11.3-T8",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -9851,7 +10553,7 @@
     "parent_id": "ASCE7-22-26.11.3-H2"
   },
   {
-    "id": "ASCE7-22-26.11.3-T13",
+    "id": "ASCE7-22-26.11.3-T14",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -9880,7 +10582,7 @@
     "parent_id": "ASCE7-22-26.11.3-H2"
   },
   {
-    "id": "ASCE7-22-26.11.3-T14",
+    "id": "ASCE7-22-26.11.3-T15",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -9907,7 +10609,7 @@
     "parent_id": "ASCE7-22-26.11.3-H2"
   },
   {
-    "id": "ASCE7-22-26.11.3-T15",
+    "id": "ASCE7-22-26.11.3-T16",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -9965,7 +10667,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-26.11.3-T16",
+    "id": "ASCE7-22-26.11.3-T17",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -9992,7 +10694,7 @@
     "parent_id": "ASCE7-22-26.11.3-H2"
   },
   {
-    "id": "ASCE7-22-26.11.3-T17",
+    "id": "ASCE7-22-26.11.3-T18",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -10273,13 +10975,13 @@
     "data": {
       "expression": "n a =75\u2215h (26.11-4)",
       "parameters": {
-        "a": {
-          "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
-          "source": "ASCE7-22-28.3.7-T22"
-        },
         "n": {
           "description": "Number of shear walls in the building effective in resisting lateral forces in the direction under consideration;",
           "source": "ASCE7-22-26.11.3-T22"
+        },
+        "a": {
+          "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
+          "source": "ASCE7-22-28.3.7-T22"
         },
         "h": {
           "description": "Height of a shear wall measured as the maximum clear height from top of foundation to bottom of diaphragm framing above, or the maximum clear height from top of diaphragm to bottom of diaphragm framing above",
@@ -10343,22 +11045,22 @@
     "data": {
       "expression": "ildings or other structures as defined in Section 26.2, the g R = 2ln\u00f03,600n 1 \u00de\u00fepffi 2 ffiffiffiffi l ffiffi n ffiffi \u00f0 ffiffi 3 ffiffi , ffi 6 ffiffiffi 0 ffiffi 0 ffiffiffi n ffiffiffiffi \u00de ffiffi (26.11-11)",
       "parameters": {
-        "n": {
-          "description": "Number of shear walls in the building effective in resisting lateral forces in the direction under consideration;",
-          "source": "ASCE7-22-26.11.3-T22"
+        "g": {
+          "description": "Acceleration caused by gravity [in : \u2215 s 2 (mm \u2215 s 2 )] if the units of the displacement DM are in in. (mm);",
+          "source": "ASCE7-22-17.5.3.1-T2"
         },
         "l": {
           "description": "Integral length scale factor from Table 26.11-1",
           "unit": "ft",
           "source": "ASCE7-22-26.3-T71"
         },
+        "n": {
+          "description": "Number of shear walls in the building effective in resisting lateral forces in the direction under consideration;",
+          "source": "ASCE7-22-26.11.3-T22"
+        },
         "R": {
           "description": "Response modi fi cation factor for the building or nonbuilding structure supporting the component, from Table 12.2-1, 15.4-1, or 15.4-2; and",
           "source": "ASCE7-22-13.3.1.2-T3"
-        },
-        "g": {
-          "description": "Acceleration caused by gravity [in : \u2215 s 2 (mm \u2215 s 2 )] if the units of the displacement DM are in in. (mm);",
-          "source": "ASCE7-22-17.5.3.1-T2"
         }
       }
     },
@@ -10400,7 +11102,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-26.11.3-T18",
+    "id": "ASCE7-22-26.11.3-T19",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -10427,7 +11129,7 @@
     "parent_id": "ASCE7-22-26.11.3-H2"
   },
   {
-    "id": "ASCE7-22-26.11.3-T19",
+    "id": "ASCE7-22-26.11.3-T20",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -10454,7 +11156,7 @@
     "parent_id": "ASCE7-22-26.11.3-H2"
   },
   {
-    "id": "ASCE7-22-26.11.3-T22",
+    "id": "ASCE7-22-26.11.3-T23",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -10481,7 +11183,7 @@
     "parent_id": "ASCE7-22-26.11.3-H2"
   },
   {
-    "id": "ASCE7-22-26.11.3-T23",
+    "id": "ASCE7-22-26.11.3-T24",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -10508,7 +11210,7 @@
     "parent_id": "ASCE7-22-26.11.3-H2"
   },
   {
-    "id": "ASCE7-22-26.11.3-T24",
+    "id": "ASCE7-22-26.11.3-T25",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -10535,7 +11237,7 @@
     "parent_id": "ASCE7-22-26.11.3-H2"
   },
   {
-    "id": "ASCE7-22-26.11.3-T25",
+    "id": "ASCE7-22-26.11.3-T26",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -10571,10 +11273,38 @@
       "citation": "Section 26.11.4",
       "page": 18
     },
-    "title": "26.11.4 Rigid Buildings or Other Structures For rigid buildings or other structures as de fi ned in Section 26.2, the gust-effect factor shall be taken as 0.85 or calculated by this formula:",
+    "title": "26.11.4 Rigid",
     "description": "",
     "data": {
-      "rule": "26.11.4 Rigid Buildings or Other Structures For rigid buildings or other structures as de fi ned in Section 26.2, the gust-effect factor shall be taken as 0.85 or calculated by this formula:",
+      "rule": "26.11.4 Rigid",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-26.11.4-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-26.11.4-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11.4",
+      "citation": "Section 26.11.4",
+      "page": 18
+    },
+    "title": "Buildings or Other Structures For rigid buildings or other structures as de fi ned in Section 26.2, the gust-effect factor shall be taken as 0.85 or calculated by this formula:",
+    "description": "",
+    "data": {
+      "rule": "Buildings or Other Structures For rigid buildings or other structures as de fi ned in Section 26.2, the gust-effect factor shall be taken as 0.85 or calculated by this formula:",
       "conditions": [],
       "then": "",
       "else": null,
@@ -10586,12 +11316,11 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
-    "id": "ASCE7-22-26.11.4-T1",
+    "id": "ASCE7-22-26.11.4-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -10676,7 +11405,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-26.11.4-T2",
+    "id": "ASCE7-22-26.11.4-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -10705,7 +11434,7 @@
     "parent_id": "ASCE7-22-26.11.4-P1"
   },
   {
-    "id": "ASCE7-22-26.11.4-T3",
+    "id": "ASCE7-22-26.11.4-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -10743,10 +11472,38 @@
       "citation": "Section 26.11.5",
       "page": 18
     },
-    "title": "26.11.5 Flexible Buildings or Other Structures For fl exible buildings or other structures as de fi ned in Section 26.2, the gusteffect factor shall be calculated by",
+    "title": "26.11.5 Flexible Buildings or Other Structures",
     "description": "",
     "data": {
-      "rule": "26.11.5 Flexible Buildings or Other Structures For fl exible buildings or other structures as de fi ned in Section 26.2, the gusteffect factor shall be calculated by",
+      "rule": "26.11.5 Flexible Buildings or Other Structures",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-26.11.5-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-26.11.5-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11.5",
+      "citation": "Section 26.11.5",
+      "page": 18
+    },
+    "title": "For fl exible buildings or other structures as de fi ned in Section 26.2, the gusteffect factor shall be calculated by",
+    "description": "",
+    "data": {
+      "rule": "For fl exible buildings or other structures as de fi ned in Section 26.2, the gusteffect factor shall be calculated by",
       "conditions": [],
       "then": "",
       "else": null,
@@ -10758,9 +11515,8 @@
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-26.11.5-P1",
@@ -10790,7 +11546,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-26.11.5-T1",
+    "id": "ASCE7-22-26.11.5-T2",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -10819,7 +11575,7 @@
     "parent_id": "ASCE7-22-26.11.5-H1"
   },
   {
-    "id": "ASCE7-22-26.11.5-T2",
+    "id": "ASCE7-22-26.11.5-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -10860,9 +11616,9 @@
     "data": {
       "expression": "\u03b7 =4.6n B\u2215V (26.11-15b)",
       "parameters": {
-        "V": {
-          "description": "Basic wind speed obtained from Figures 26.5-1A through 26.5-1D, mi/h (m/s); the basic wind speed corresponds to a 3 s gust speed at 33 ft (10 m) above the ground in Exposure Category C",
-          "source": "ASCE7-22-26.3-T94"
+        "\u03b7": {
+          "description": "Free surface elevation as a function of time, t , used to drive the offshore boundary condition at the 328 ft (100 m) depth contour",
+          "source": "ASCE7-22-6.3-T100"
         },
         "n": {
           "description": "Number of shear walls in the building effective in resisting lateral forces in the direction under consideration;",
@@ -10877,9 +11633,9 @@
           "description": "Shortest plan dimension of the structure [ft (mm)] measured perpendicular to d ;",
           "source": "ASCE7-22-17.5.3.3-T5"
         },
-        "\u03b7": {
-          "description": "Free surface elevation as a function of time, t , used to drive the offshore boundary condition at the 328 ft (100 m) depth contour",
-          "source": "ASCE7-22-6.3-T100"
+        "V": {
+          "description": "Basic wind speed obtained from Figures 26.5-1A through 26.5-1D, mi/h (m/s); the basic wind speed corresponds to a 3 s gust speed at 33 ft (10 m) above the ground in Exposure Category C",
+          "source": "ASCE7-22-26.3-T94"
         }
       }
     },
@@ -10892,7 +11648,7 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-26.11.5-T3",
+    "id": "ASCE7-22-26.11.5-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -10919,7 +11675,7 @@
     "parent_id": "ASCE7-22-26.11.5-H1"
   },
   {
-    "id": "ASCE7-22-26.11.5-T4",
+    "id": "ASCE7-22-26.11.5-T5",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -10946,7 +11702,7 @@
     "parent_id": "ASCE7-22-26.11-E26-11-15b1"
   },
   {
-    "id": "ASCE7-22-26.11.5-T5",
+    "id": "ASCE7-22-26.11.5-T6",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -10973,7 +11729,7 @@
     "parent_id": "ASCE7-22-26.11.5-H1"
   },
   {
-    "id": "ASCE7-22-26.11.5-T6",
+    "id": "ASCE7-22-26.11.5-T7",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -11000,7 +11756,7 @@
     "parent_id": "ASCE7-22-26.11-E26-11-15b1"
   },
   {
-    "id": "ASCE7-22-26.11.5-T7",
+    "id": "ASCE7-22-26.11.5-T8",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -11027,7 +11783,7 @@
     "parent_id": "ASCE7-22-26.11.5-H1"
   },
   {
-    "id": "ASCE7-22-26.11.5-T8",
+    "id": "ASCE7-22-26.11.5-T9",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -11066,10 +11822,10 @@
       "citation": "Section 26.11.6",
       "page": 19
     },
-    "title": "26.11.6 Rational Analysis In lieu of the procedure de fi ned in Sections 26.11.4 and 26.11.5, determination of the gust-effect factor by any rational analysis de fi ned in the recognized literature is",
+    "title": "26.11.6 Rational Analysis",
     "description": "",
     "data": {
-      "rule": "26.11.6 Rational Analysis In lieu of the procedure de fi ned in Sections 26.11.4 and 26.11.5, determination of the gust-effect factor by any rational analysis de fi ned in the recognized literature is permitted.",
+      "rule": "26.11.6 Rational Analysis",
       "conditions": [],
       "then": "",
       "else": null,
@@ -11082,6 +11838,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-26.11.6-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-26.11.6-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.11.6",
+      "citation": "Section 26.11.6",
+      "page": 19
+    },
+    "title": "In lieu of the procedure de fi ned in Sections 26.11.4 and 26.11.5, determination of the gust-effect factor by any rational analysis de fi ned in the recognized literature is permitted.",
+    "description": "",
+    "data": {
+      "rule": "In lieu of the procedure de fi ned in Sections 26.11.4 and 26.11.5, determination of the gust-effect factor by any rational analysis de fi ned in the recognized literature is permitted.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-26.11.7-P1",
@@ -11120,7 +11903,7 @@
       "citation": "Section 26.12",
       "page": 19
     },
-    "title": "26.12 ENCLOSURE CLASSIFICATION",
+    "title": "26.12",
     "description": "",
     "data": {
       "rule": "26.12 ENCLOSURE CLASSIFICATION",
@@ -11147,39 +11930,10 @@
       "citation": "Section 26.12.1",
       "page": 19
     },
-    "title": "26.12.1 General For the purpose of determining internal pressure coef fi cients, buildings and other structures for which internal pressure coef fi cients ( GCpi ) apply shall be classi fi ed as enclo",
+    "title": "26.12.1 General",
     "description": "",
     "data": {
-      "rule": "26.12.1 General For the purpose of determining internal pressure coef fi cients, buildings and other structures for which internal pressure coef fi cients ( GCpi ) apply shall be classi fi ed as enclosed, partially enclosed, partially open, or open, as de fi ned in Section 26.2. If a building or other structure satis fi es both the ' open ' and ' partially enclosed ' enclosure classi fi cation de fi nitions, it shall be classi fi ed as a ' partially open ' building or other structure.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [
-      "ASCE7-22-26.2-H1"
-    ],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-26.12.2-H1",
-    "type": "heading",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 26,
-      "section": "26.12.2",
-      "citation": "Section 26.12.2",
-      "page": 19
-    },
-    "title": "26.12.2 Openings Adetermination shall be made of the amount of openings in the building envelope for use in determining the enclosure classi fi cation. To make this determination, each building wall s",
-    "description": "",
-    "data": {
-      "rule": "26.12.2 Openings Adetermination shall be made of the amount of openings in the building envelope for use in determining the enclosure classi fi cation. To make this determination, each building wall shall be assumed as the windward wall for consideration of the amount of openings present with respect to the remaining building envelope.",
+      "rule": "26.12.1 General",
       "conditions": [],
       "then": "",
       "else": null,
@@ -11192,6 +11946,89 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-26.12.1-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-26.12.1-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.12.1",
+      "citation": "Section 26.12.1",
+      "page": 19
+    },
+    "title": "For the purpose of determining internal pressure coef fi cients, buildings and other structures for which internal pressure coef fi cients ( GCpi ) apply shall be classi fi ed as enclosed, partially e",
+    "description": "",
+    "data": {
+      "rule": "For the purpose of determining internal pressure coef fi cients, buildings and other structures for which internal pressure coef fi cients ( GCpi ) apply shall be classi fi ed as enclosed, partially enclosed, partially open, or open, as de fi ned in Section 26.2. If a building or other structure satis fi es both the ' open ' and ' partially enclosed ' enclosure classi fi cation de fi nitions, it shall be classi fi ed as a ' partially open ' building or other structure.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.2-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
+  },
+  {
+    "id": "ASCE7-22-26.12.2-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.12.2",
+      "citation": "Section 26.12.2",
+      "page": 19
+    },
+    "title": "26.12.2 Openings",
+    "description": "",
+    "data": {
+      "rule": "26.12.2 Openings",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-26.12.2-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-26.12.2-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.12.2",
+      "citation": "Section 26.12.2",
+      "page": 19
+    },
+    "title": "Adetermination shall be made of the amount of openings in the building envelope for use in determining the enclosure classi fi cation. To make this determination, each building wall shall be assumed a",
+    "description": "",
+    "data": {
+      "rule": "Adetermination shall be made of the amount of openings in the building envelope for use in determining the enclosure classi fi cation. To make this determination, each building wall shall be assumed as the windward wall for consideration of the amount of openings present with respect to the remaining building envelope.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-26.12.3-P1",
@@ -11499,10 +12336,10 @@
       "citation": "Section 26.13",
       "page": 19
     },
-    "title": "26.13 INTERNAL PRESSURE COEFFICIENTS",
+    "title": "26.13",
     "description": "",
     "data": {
-      "rule": "26.13 INTERNAL PRESSURE COEFFICIENTS",
+      "rule": "26.13",
       "conditions": [],
       "then": "",
       "else": null,
@@ -11515,6 +12352,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-26.13-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-26.13-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.13",
+      "citation": "Section 26.13",
+      "page": 19
+    },
+    "title": "INTERNAL PRESSURE COEFFICIENTS",
+    "description": "",
+    "data": {
+      "rule": "INTERNAL PRESSURE COEFFICIENTS",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-26.13-P1",
@@ -11801,10 +12665,10 @@
       "citation": "Section 26.14",
       "page": 20
     },
-    "title": "26.14 CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
+    "title": "26.14",
     "description": "",
     "data": {
-      "rule": "26.14 CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
+      "rule": "26.14",
       "conditions": [],
       "then": "",
       "else": null,
@@ -11817,6 +12681,33 @@
       "qc_notes": null
     },
     "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-26.14-T1",
+    "type": "text_block",
+    "parent_id": "ASCE7-22-26.14-H1",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.14",
+      "citation": "Section 26.14",
+      "page": 20
+    },
+    "title": "CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
+    "description": "",
+    "data": {
+      "rule": "CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "split_from_heading"
+    }
   },
   {
     "id": "ASCE7-22-26.14-P1",
@@ -11869,7 +12760,30 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-26.14-T2",
+    "id": "ASCE7-22-26.14-R2",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.14",
+      "citation": "Section 26.14",
+      "page": 20
+    },
+    "title": "ANSI/DASMA 115, Standard Method for Testing Sectional Doors, Rolling Doors, and Flexible Doors: Determination of Structural Performance under Missile Impact and Cyclic Wind",
+    "description": "",
+    "data": {
+      "target": "ANSI/DASMA 115, Standard Method for Testing Sectional Doors, Rolling Doors, and Flexible Doors: Determination of Structural Performance under Missile Impact and Cyclic Wind"
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-26.14-T3",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -11896,7 +12810,7 @@
     "parent_id": "ASCE7-22-26.14-H1"
   },
   {
-    "id": "ASCE7-22-26.14-T3",
+    "id": "ASCE7-22-26.14-T4",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -11923,7 +12837,53 @@
     "parent_id": "ASCE7-22-26.14-H1"
   },
   {
-    "id": "ASCE7-22-26.14-T5",
+    "id": "ASCE7-22-26.14-R3",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.14",
+      "citation": "Section 26.14",
+      "page": 20
+    },
+    "title": "ASTM E330, Standard Test Method for Structural Performance of Exterior Windows, Doors, Skylights, and Curtain Walls by Uniform Static Air Pressure Difference , ASTM International, 2014.",
+    "description": "",
+    "data": {
+      "target": "ASTM E330, Standard Test Method for Structural Performance of Exterior Windows, Doors, Skylights, and Curtain Walls by Uniform Static Air Pressure Difference , ASTM International, 2014."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-26.14-R4",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.14",
+      "citation": "Section 26.14",
+      "page": 20
+    },
+    "title": "ASTM E1886, Standard Test Method for Performance of Exterior Windows, Curtain Walls, Doors, and Impact Protective Systems Impacted by Missile(s) and Exposed to Cyclic Pressure Differentials , ASTM, 20",
+    "description": "",
+    "data": {
+      "target": "ASTM E1886, Standard Test Method for Performance of Exterior Windows, Curtain Walls, Doors, and Impact Protective Systems Impacted by Missile(s) and Exposed to Cyclic Pressure Differentials , ASTM, 2019."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-26.14-T6",
     "type": "text_block",
     "source": {
       "standard": "ASCE 7-22",
@@ -11948,6 +12908,52 @@
       "qc_notes": null
     },
     "parent_id": "ASCE7-22-26.14-H1"
+  },
+  {
+    "id": "ASCE7-22-26.14-R5",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.14",
+      "citation": "Section 26.14",
+      "page": 20
+    },
+    "title": "ASTM E1996 , Standard Specification for Performance of Exterior Windows, Curtain Walls, Doors and Impact Protective Systems Impacted by Windborne Debris in Hurricanes , ASTM International, 2020.",
+    "description": "",
+    "data": {
+      "target": "ASTM E1996 , Standard Specification for Performance of Exterior Windows, Curtain Walls, Doors and Impact Protective Systems Impacted by Windborne Debris in Hurricanes , ASTM International, 2020."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-26.14-R6",
+    "type": "reference",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 26,
+      "section": "26.14",
+      "citation": "Section 26.14",
+      "page": 20
+    },
+    "title": "CAN/CSA A123.21, Standard Test Method for the Dynamic Wind Uplift Resistance of Membrane-Roofing Systems , CSA Group, 2014.",
+    "description": "",
+    "data": {
+      "target": "CAN/CSA A123.21, Standard Test Method for the Dynamic Wind Uplift Resistance of Membrane-Roofing Systems , CSA Group, 2014."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
   },
   {
     "id": "ASCE7-22-26.13-T26-13-11",
