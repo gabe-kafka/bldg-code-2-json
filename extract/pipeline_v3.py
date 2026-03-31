@@ -117,6 +117,30 @@ def run_v3(pdf_path, standard="ASCE 7-22", chapter=26):
     save_unresolved(unresolved)
     print_unresolved(unresolved)
 
+    # Deduplicate: same type + section + first 100 chars of text
+    print("  [+] Deduplicating...")
+    before = len(elements)
+    seen = set()
+    deduped = []
+    for e in elements:
+        text = e.get("data", {}).get("rule", "") or e.get("data", {}).get("expression", "") or e.get("data", {}).get("definition", "")
+        key = (e["type"], e["source"]["section"], text[:100])
+        if key in seen:
+            continue
+        seen.add(key)
+        deduped.append(e)
+    elements = deduped
+
+    # Remove near-empty elements (< 5 chars content, except tables/figures/headings)
+    elements = [e for e in elements
+                if e["type"] in ("table", "figure", "heading")
+                or len(e.get("data", {}).get("rule", "") or
+                       e.get("data", {}).get("expression", "") or
+                       e.get("data", {}).get("definition", "") or
+                       e.get("data", {}).get("target", "")) >= 5]
+
+    print(f"    {before} → {len(elements)} ({before - len(elements)} removed)")
+
     # Clean up internal fields
     for e in elements:
         e.pop("_seq", None)
