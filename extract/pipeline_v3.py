@@ -341,7 +341,22 @@ def _build_elements(docling, bold_map, std_slug, standard, chapter, classify_fn=
         elif elem_type == "reference":
             data = {"target": text}
         elif elem_type == "heading":
-            data = {"rule": text, "conditions": [], "then": "", "else": None, "exceptions": []}
+            # Split heading from body: bold prefix is the heading, rest is body text
+            heading_text = text
+            body_text = None
+            if bold_prefix and len(bold_prefix) > 3 and len(text) > len(bold_prefix) + 10:
+                # Try to split at the bold prefix boundary
+                # e.g. "26.1.1 Scope Buildings and..." → heading="26.1.1 Scope", body="Buildings and..."
+                # The bold prefix from PyMuPDF is the actual bold text
+                bp_clean = bold_prefix.strip()
+                if text.startswith(bp_clean):
+                    heading_text = bp_clean
+                    body_text = text[len(bp_clean):].strip()
+                elif bp_clean in text[:len(bp_clean) + 20]:
+                    idx = text.index(bp_clean) + len(bp_clean)
+                    heading_text = text[:idx].strip()
+                    body_text = text[idx:].strip()
+            data = {"rule": heading_text, "conditions": [], "then": "", "else": None, "exceptions": []}
         elif elem_type == "provision":
             data = {"rule": text, "conditions": [], "then": "", "else": None, "exceptions": []}
         else:  # text_block
@@ -354,17 +369,33 @@ def _build_elements(docling, bold_map, std_slug, standard, chapter, classify_fn=
         }
         prefix = prefix_map.get(elem_type, "T")
 
+        heading_id = make_id(section, prefix)
         elements.append({
-            "id": make_id(section, prefix),
+            "id": heading_id,
             "type": elem_type,
             "source": {"standard": standard, "chapter": chapter,
                        "section": section, "citation": f"Section {section}", "page": page_no},
-            "title": text[:200],
+            "title": heading_text if elem_type == "heading" else text[:200],
             "description": "",
             "data": data,
             "cross_references": [],
             "metadata": {"extracted_by": "auto", "qc_status": "pending", "qc_notes": notes}
         })
+
+        # If heading was split, add the body as a child text_block
+        if elem_type == "heading" and body_text and len(body_text) > 5:
+            elements.append({
+                "id": make_id(section, "T"),
+                "type": "text_block",
+                "parent_id": heading_id,
+                "source": {"standard": standard, "chapter": chapter,
+                           "section": section, "citation": f"Section {section}", "page": page_no},
+                "title": body_text[:200],
+                "description": "",
+                "data": {"rule": body_text, "conditions": [], "then": "", "else": None, "exceptions": []},
+                "cross_references": [],
+                "metadata": {"extracted_by": "auto", "qc_status": "pending", "qc_notes": "split_from_heading"}
+            })
 
     return elements, id_set, counters, make_id
 
