@@ -1,0 +1,122 @@
+{
+  "schema": {
+    "total": 18,
+    "passed": 10,
+    "failed": 8,
+    "errors": [
+      {
+        "id": "ASCE7-22-26.1.1-P1",
+        "errors": [
+          "'applies_to' is not one of ['==', '!=', '>', '>=', '<', '<=', 'in', 'not_in']"
+        ]
+      },
+      {
+        "id": "ASCE7-22-26.1.3-P1",
+        "errors": [
+          "'requires' is not one of ['==', '!=', '>', '>=', '<', '<=', 'in', 'not_in']"
+        ]
+      },
+      {
+        "id": "ASCE7-22-26.2-P1",
+        "errors": [
+          "'=' is not one of ['==', '!=', '>', '>=', '<', '<=', 'in', 'not_in']"
+        ]
+      },
+      {
+        "id": "ASCE7-22-26.2-P2",
+        "errors": [
+          "'\u2264' is not one of ['==', '!=', '>', '>=', '<', '<=', 'in', 'not_in']"
+        ]
+      },
+      {
+        "id": "ASCE7-22-26.2-E1",
+        "errors": [
+          "None is not of type 'number'"
+        ]
+      },
+      {
+        "id": "ASCE7-22-26.1-F1",
+        "errors": [
+          "{'figure_id': '26.1-1', 'caption': 'Outline of the overall process for the determination of the wind loads, including section references'} is not valid under any of the given schemas"
+        ]
+      },
+      {
+        "id": "ASCE7-22-26.1-E1",
+        "errors": [
+          "None is not of type 'number'"
+        ]
+      },
+      {
+        "id": "ASCE7-22-26.1-E2",
+        "errors": [
+          "None is not of type 'number'"
+        ]
+      }
+    ]
+  },
+  "completeness": {
+    "sections": {
+      "found": [
+        "26.1",
+        "26.1.1",
+        "26.1.3",
+        "26.2",
+        "26.1.2.1"
+      ],
+      "missing": [
+        "26.1.2"
+      ],
+      "coverage": 0.833
+    },
+    "tables": {
+      "found": [],
+      "missing": [],
+      "coverage": 1.0
+    },
+    "figures": {
+      "found": [],
+      "missing": [
+        "26.1-1",
+        "26.5-1",
+        "27.3-8"
+      ],
+      "coverage": 0.0
+    },
+    "overall_coverage": 0.556
+  },
+  "cross_references": {
+    "unresolved": 11
+  },
+  "spot_check": {
+    "sample_size": 2,
+    "average_score": 0.3,
+    "results": [
+      {
+        "id": "ASCE7-22-26.1.3-P1",
+        "score": 0.3,
+        "accurate": false,
+        "issues": [
+          "Element type should be 'provision' but content appears to be a simple section header/title",
+          "Rule text is incomplete - missing full sentence from PDF which reads 'Wind design of buildings and other structures using performance-based procedures shall be permitted subject to approval by the authority having jurisdiction'",
+          "Conditions array incorrectly structures the approval requirement as a parameter-operator-value when it's part of the main rule statement",
+          "Then clause reference 'Section 1.3.1.3' should be 'Section 1.3.1.3 of this standard' for clarity",
+          "Cross-reference format may be incorrect - should verify actual section numbering in ASCE 7-22"
+        ]
+      },
+      {
+        "id": "ASCE7-22-26.1.1-P1",
+        "score": 0.3,
+        "accurate": false,
+        "issues": [
+          "Element type should be 'provision' not 'provision' - this is correct",
+          "Source page should be higher number as this appears to be from later in Chapter 26",
+          "Title is inaccurate - should be 'General' not 'Scope - Wind Load Design Requirements'",
+          "Rule text is partially accurate but missing specific language about 'provisions of this chapter'",
+          "Exception about Risk Category III and IV tornado loads is not present in the visible text",
+          "Cross-reference to Chapter 32 is not supported by visible content",
+          "Missing reference to other applicable chapters that may be mentioned in the actual text"
+        ]
+      }
+    ]
+  }
+}

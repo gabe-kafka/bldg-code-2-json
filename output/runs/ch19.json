@@ -1,0 +1,5346 @@
+[
+  {
+    "id": "ASCE7-22-19.1-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.1",
+      "citation": "Section 19.1",
+      "page": 1
+    },
+    "title": "19.1 GENERAL",
+    "description": "",
+    "data": {
+      "rule": "19.1 GENERAL",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.1.1-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.1.1",
+      "citation": "Section 19.1.1",
+      "page": 1
+    },
+    "title": "19.1.1 Scope Determination of the design earthquake forces and he corresponding displacements of the structure is permitted to consider the effects of soil -structure interaction (SSI) in accordance w",
+    "description": "",
+    "data": {
+      "rule": "19.1.1 Scope Determination of the design earthquake forces and he corresponding displacements of the structure is permitted to consider the effects of soil -structure interaction (SSI) in accordance with this section. If soil -structure interaction effects are considered, the analytical model of the structure shall directly incorporate horizontal, vertical, and rotational foundation and soil fl exibility. For the purpose of this section, both upper and lower bound estimates for the foundation and soil stiffnesses per Section 12.13.3 shall be considered. The case that results in the smaller reduction, or greater ampli fi cation, in response parameters shall be used for design. SSI may be used in conjunction with the nonlinear response history procedure of Section 19.2.3 when the structure is located on Site Class C, D, E, or F. SSI base slab averaging and embedment effects may not be used in conjunction with the equivalent lateral procedure of Section 19.2.1 nor the linear dynamic procedure of Section 19.2.2.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-19.2.1-H1",
+      "ASCE7-22-19.2.2-H1",
+      "ASCE7-22-19.2.3-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.1.1-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.1.1",
+      "citation": "Section 19.1.1",
+      "page": 1
+    },
+    "title": "If the provisions of this chapter are used, then Sections 12.8.1.3 and 12.13.4 shall not apply.",
+    "description": "",
+    "data": {
+      "rule": "If the provisions of this chapter are used, then Sections 12.8.1.3 and 12.13.4 shall not apply.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.1.2-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.1.2",
+      "citation": "Section 19.1.2",
+      "page": 1
+    },
+    "title": "19.1.2 De fi nitions The following de fi nitions apply to the provisions of Chapter 19 and are in addition to the de fi nitions presented in Chapter 11:",
+    "description": "",
+    "data": {
+      "rule": "19.1.2 De fi nitions The following de fi nitions apply to the provisions of Chapter 19 and are in addition to the de fi nitions presented in Chapter 11:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.1.2-D1",
+    "type": "definition",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.1.2",
+      "citation": "Section 19.1.2",
+      "page": 1
+    },
+    "title": "BASE SLAB AVERAGING: Kinematic SSI of a shallow (nonembedded) foundation caused by wave incongruence over the base area.",
+    "description": "",
+    "data": {
+      "term": "BASE SLAB AVERAGING",
+      "definition": "Kinematic SSI of a shallow (nonembedded) foundation caused by wave incongruence over the base area."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.1.2-D2",
+    "type": "definition",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.1.2",
+      "citation": "Section 19.1.2",
+      "page": 1
+    },
+    "title": "FOUNDATION INPUT MOTION: Motion that effectively excites the structure and its foundation.",
+    "description": "",
+    "data": {
+      "term": "FOUNDATION INPUT MOTION",
+      "definition": "Motion that effectively excites the structure and its foundation."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.1.2-T1",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.1.2",
+      "citation": "Section 19.1.2",
+      "page": 1
+    },
+    "title": "FREE-FIELD MOTION: Motion at ground surface in absence of structure and its foundation.",
+    "description": "",
+    "data": {
+      "rule": "FREE-FIELD MOTION: Motion at ground surface in absence of structure and its foundation.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.1.2-H1"
+  },
+  {
+    "id": "ASCE7-22-19.1.2-D3",
+    "type": "definition",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.1.2",
+      "citation": "Section 19.1.2",
+      "page": 1
+    },
+    "title": "INERTIAL SSI: The dynamic interaction between the structure, its foundation, and the surrounding soil caused by the foundation input motion.",
+    "description": "",
+    "data": {
+      "term": "INERTIAL SSI",
+      "definition": "The dynamic interaction between the structure, its foundation, and the surrounding soil caused by the foundation input motion."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.1.2-D4",
+    "type": "definition",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.1.2",
+      "citation": "Section 19.1.2",
+      "page": 1
+    },
+    "title": "KINEMATIC SSI: The modi fi cation of freefi eld ground motion caused by nonvertical incident seismic waves and spatial incoherence; the modi fi cation yields the foundation input motion.",
+    "description": "",
+    "data": {
+      "term": "KINEMATIC SSI",
+      "definition": "The modi fi cation of freefi eld ground motion caused by nonvertical incident seismic waves and spatial incoherence; the modi fi cation yields the foundation input motion."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.1.2-D5",
+    "type": "definition",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.1.2",
+      "citation": "Section 19.1.2",
+      "page": 1
+    },
+    "title": "RADIATION DAMPING: The damping in the soil -structure system caused by the generation and propagation of waves away from the foundation, which are caused by dynamic displacements of the foundation rel",
+    "description": "",
+    "data": {
+      "term": "RADIATION DAMPING",
+      "definition": "The damping in the soil -structure system caused by the generation and propagation of waves away from the foundation, which are caused by dynamic displacements of the foundation relative to the freefi eld displacements."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.1.2-D6",
+    "type": "definition",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.1.2",
+      "citation": "Section 19.1.2",
+      "page": 1
+    },
+    "title": "SOIL DAMPING: The hysteretic (material) damping of the soil.",
+    "description": "",
+    "data": {
+      "term": "SOIL DAMPING",
+      "definition": "The hysteretic (material) damping of the soil."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.1.3-T1",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.1.3",
+      "citation": "Section 19.1.3",
+      "page": 1
+    },
+    "title": "19.1.3 Symbols The following symbols apply only to the provisions of Chapter 19 as indicated and are in addition to the symbols presented in Chapter 11:",
+    "description": "",
+    "data": {
+      "rule": "19.1.3 Symbols The following symbols apply only to the provisions of Chapter 19 as indicated and are in addition to the symbols presented in Chapter 11:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.1.3-H2"
+  },
+  {
+    "id": "ASCE7-22-19.1.3-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.1.3",
+      "citation": "Section 19.1.3",
+      "page": 1
+    },
+    "title": "CHAPTER 19 SOIL -STRUCTURE INTERACTION FOR SEISMIC DESIGN",
+    "description": "",
+    "data": {
+      "rule": "CHAPTER 19 SOIL -STRUCTURE INTERACTION FOR SEISMIC DESIGN",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.1.3-T2",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.1.3",
+      "citation": "Section 19.1.3",
+      "page": 1
+    },
+    "title": "ao = Dimensionless frequency [Equations (19.3-11) and (19.3-21)]",
+    "description": "",
+    "data": {
+      "rule": "ao = Dimensionless frequency [Equations (19.3-11) and (19.3-21)]",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.1.3-H2"
+  },
+  {
+    "id": "ASCE7-22-19.1.3-T3",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.1.3",
+      "citation": "Section 19.1.3",
+      "page": 1
+    },
+    "title": "B = Half the smaller dimension of the base of the structure",
+    "description": "",
+    "data": {
+      "rule": "B = Half the smaller dimension of the base of the structure",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.1.3-H2"
+  },
+  {
+    "id": "ASCE7-22-19.1.3-T4",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.1.3",
+      "citation": "Section 19.1.3",
+      "page": 1
+    },
+    "title": "B SSI = Factor to adjust the design response spectrum and MCER response spectrum in accordance with Sections 11.4.6 and 11.4.7 or a site-speci fi c response spectrum for damping ratios other than 0.05",
+    "description": "",
+    "data": {
+      "rule": "B SSI = Factor to adjust the design response spectrum and MCER response spectrum in accordance with Sections 11.4.6 and 11.4.7 or a site-speci fi c response spectrum for damping ratios other than 0.05 [Equation (19.2-4)]",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.1.3-H2"
+  },
+  {
+    "id": "ASCE7-22-19.1.3-T5",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.1.3",
+      "citation": "Section 19.1.3",
+      "page": 1
+    },
+    "title": "be = Effective foundation size [Equations (19.4-4) and (19.4-4SI)]",
+    "description": "",
+    "data": {
+      "rule": "be = Effective foundation size [Equations (19.4-4) and (19.4-4SI)]",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.1.3-H2"
+  },
+  {
+    "id": "ASCE7-22-19.1.3-T6",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.1.3",
+      "citation": "Section 19.1.3",
+      "page": 1
+    },
+    "title": "~ Cs = Seismic response coef fi cient determined in accordance with Section 12.8.1.1, assuming a fl exible structural base at the foundation -soil interface in accordance with Section 19.1",
+    "description": "",
+    "data": {
+      "rule": "~ Cs = Seismic response coef fi cient determined in accordance with Section 12.8.1.1, assuming a fl exible structural base at the foundation -soil interface in accordance with Section 19.1",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-19.1-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.1.3-H2"
+  },
+  {
+    "id": "ASCE7-22-19.1.3-T7",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.1.3",
+      "citation": "Section 19.1.3",
+      "page": 1
+    },
+    "title": "Ds = Depth of a soft layer overlaying a stiff layer [Equation (19.3-4)]",
+    "description": "",
+    "data": {
+      "rule": "Ds = Depth of a soft layer overlaying a stiff layer [Equation (19.3-4)]",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.1.3-H2"
+  },
+  {
+    "id": "ASCE7-22-19.1.3-T8",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.1.3",
+      "citation": "Section 19.1.3",
+      "page": 1
+    },
+    "title": "e = Foundation embedment depth",
+    "description": "",
+    "data": {
+      "rule": "e = Foundation embedment depth",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.1.3-H2"
+  },
+  {
+    "id": "ASCE7-22-19.1.3-T9",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.1.3",
+      "citation": "Section 19.1.3",
+      "page": 1
+    },
+    "title": "Grd = Effective shear modulus used in determining radiation damping effects derived or approximated based on G 0 ; rd and Table 19.3-2",
+    "description": "",
+    "data": {
+      "rule": "Grd = Effective shear modulus used in determining radiation damping effects derived or approximated based on G 0 ; rd and Table 19.3-2",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-19.3-E19-3-21"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.1.3-H2"
+  },
+  {
+    "id": "ASCE7-22-19.1.3-T10",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.1.3",
+      "citation": "Section 19.1.3",
+      "page": 1
+    },
+    "title": "G 0 ; rd = Average shear modulus for the soils used in determining radiation damping effects computed using Equation (20.4-1), over a depth of B or r f below the base of the structure at small strain ",
+    "description": "",
+    "data": {
+      "rule": "G 0 ; rd = Average shear modulus for the soils used in determining radiation damping effects computed using Equation (20.4-1), over a depth of B or r f below the base of the structure at small strain levels",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.1.3-H2"
+  },
+  {
+    "id": "ASCE7-22-19.1.3-T11",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.1.3",
+      "citation": "Section 19.1.3",
+      "page": 1
+    },
+    "title": "h \u0003 = Effective structure height",
+    "description": "",
+    "data": {
+      "rule": "h \u0003 = Effective structure height",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.1.3-H2"
+  },
+  {
+    "id": "ASCE7-22-19.1.3-T12",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.1.3",
+      "citation": "Section 19.1.3",
+      "page": 1
+    },
+    "title": "Kxx , Krr = Rotational foundation stiffness [Equations (19.3-9) and (19.3-19)]",
+    "description": "",
+    "data": {
+      "rule": "Kxx , Krr = Rotational foundation stiffness [Equations (19.3-9) and (19.3-19)]",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.1.3-H2"
+  },
+  {
+    "id": "ASCE7-22-19.1.3-T13",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.1.3",
+      "citation": "Section 19.1.3",
+      "page": 1
+    },
+    "title": "Ky , Kr = Translational foundational stiffness [Equations (19.3-8) and (19.3-18)]",
+    "description": "",
+    "data": {
+      "rule": "Ky , Kr = Translational foundational stiffness [Equations (19.3-8) and (19.3-18)]",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.1.3-H2"
+  },
+  {
+    "id": "ASCE7-22-19.1.3-T14",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.1.3",
+      "citation": "Section 19.1.3",
+      "page": 1
+    },
+    "title": "L = Half the larger dimension of the base of the structure",
+    "description": "",
+    "data": {
+      "rule": "L = Half the larger dimension of the base of the structure",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.1.3-H2"
+  },
+  {
+    "id": "ASCE7-22-19.1.3-T15",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.1.3",
+      "citation": "Section 19.1.3",
+      "page": 1
+    },
+    "title": "M \u0003 = Effective modal mass for the fundamental mode of vibration in the direction under consideration",
+    "description": "",
+    "data": {
+      "rule": "M \u0003 = Effective modal mass for the fundamental mode of vibration in the direction under consideration",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.1.3-H2"
+  },
+  {
+    "id": "ASCE7-22-19.1.3-T16",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.1.3",
+      "citation": "Section 19.1.3",
+      "page": 1
+    },
+    "title": "RRS bsa = Site-speci fi c response spectral modi fi cation factor for base-slab averaging [Equation (19.4-1)]",
+    "description": "",
+    "data": {
+      "rule": "RRS bsa = Site-speci fi c response spectral modi fi cation factor for base-slab averaging [Equation (19.4-1)]",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.1.3-H2"
+  },
+  {
+    "id": "ASCE7-22-19.1.3-T17",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.1.3",
+      "citation": "Section 19.1.3",
+      "page": 1
+    },
+    "title": "RRSe = Site-speci fi c response spectral modi fi cation factor for foundation embedment [Equation (19.4-5)]",
+    "description": "",
+    "data": {
+      "rule": "RRSe = Site-speci fi c response spectral modi fi cation factor for foundation embedment [Equation (19.4-5)]",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.1.3-H2"
+  },
+  {
+    "id": "ASCE7-22-19.1.3-T18",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.1.3",
+      "citation": "Section 19.1.3",
+      "page": 1
+    },
+    "title": "r f = Radius of the circular foundation",
+    "description": "",
+    "data": {
+      "rule": "r f = Radius of the circular foundation",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.1.3-H2"
+  },
+  {
+    "id": "ASCE7-22-19.1.3-T19",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.1.3",
+      "citation": "Section 19.1.3",
+      "page": 1
+    },
+    "title": "~ Sa = Response spectral acceleration including the effects of SSI [Equations (19.2-5) through (19.2-8)]",
+    "description": "",
+    "data": {
+      "rule": "~ Sa = Response spectral acceleration including the effects of SSI [Equations (19.2-5) through (19.2-8)]",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.1.3-H2"
+  },
+  {
+    "id": "ASCE7-22-19.1.3-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.1.3",
+      "citation": "Section 19.1.3",
+      "page": 1
+    },
+    "title": "T = Fundamental period of the structure determined in accordance with Section 12.8.2, based on a mathematical model with a fi xed base condition. The upper bound limitation of CuTa on the fundamental ",
+    "description": "",
+    "data": {
+      "rule": "T = Fundamental period of the structure determined in accordance with Section 12.8.2, based on a mathematical model with a fi xed base condition. The upper bound limitation of CuTa on the fundamental period from Section 12.8.2 shall not apply, and the approximate structural period, Ta , shall not be used",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.1.3-P2",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.1.3",
+      "citation": "Section 19.1.3",
+      "page": 1
+    },
+    "title": "~ T = Fundamental period of the structure using a model with a fl exible base in accordance with Section 19.1.1. The upper bound limitation of CuTa on the fundamental period from Section 12.8.2 shall ",
+    "description": "",
+    "data": {
+      "rule": "~ T = Fundamental period of the structure using a model with a fl exible base in accordance with Section 19.1.1. The upper bound limitation of CuTa on the fundamental period from Section 12.8.2 shall not apply, and",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-19.1.1-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.3-E19-3-111",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.3",
+      "citation": "Eq. (19.3-11)",
+      "page": 1
+    },
+    "title": "Equation (19.3-11)",
+    "description": "",
+    "data": {
+      "expression": "ao = Dimensionless frequency [Equations (19.3-11)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.3-E19-3-211",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.3",
+      "citation": "Eq. (19.3-21)",
+      "page": 1
+    },
+    "title": "Equation (19.3-21)",
+    "description": "",
+    "data": {
+      "expression": "ao = Dimensionless frequency [Equations (19.3-11) and (19.3-21)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.2-E19-2-41",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.2",
+      "citation": "Eq. (19.2-4)",
+      "page": 1
+    },
+    "title": "Equation (19.2-4)",
+    "description": "",
+    "data": {
+      "expression": "tor to adjust the design response spectrum and MCER response spectrum in accordance with Sections 11.4.6 and 11.4.7 or a site-speci fi c response spectrum for damping ratios other than 0.05 [Equation (19.2-4)",
+      "parameters": {
+        "a": {
+          "description": "Approximate lower bound natural frequency from Section 26.11.2",
+          "unit": "Hz",
+          "source": "ASCE7-22-26.3-T77"
+        },
+        "c": {
+          "description": "Distance from the neutral axis of a fl exural member to the fi ber of maximum compressive strain, in. (mm)",
+          "source": "ASCE7-22-11.3-T25"
+        }
+      }
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.4-E19-4-41",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.4",
+      "citation": "Eq. (19.4-4)",
+      "page": 1
+    },
+    "title": "Equation (19.4-4)",
+    "description": "",
+    "data": {
+      "expression": "be = Effective foundation size [Equations (19.4-4)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.3-E19-3-41",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.3",
+      "citation": "Eq. (19.3-4)",
+      "page": 1
+    },
+    "title": "Equation (19.3-4)",
+    "description": "",
+    "data": {
+      "expression": "Ds = Depth of a soft layer overlaying a stiff layer [Equation (19.3-4)",
+      "parameters": {
+        "a": {
+          "description": "Approximate lower bound natural frequency from Section 26.11.2",
+          "unit": "Hz",
+          "source": "ASCE7-22-26.3-T77"
+        },
+        "Ds": {
+          "description": "Total depth of stratum in Equation (19.3-4)",
+          "unit": "ft",
+          "source": "ASCE7-22-11.3-T29"
+        }
+      }
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.3-E19-3-91",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.3",
+      "citation": "Eq. (19.3-9)",
+      "page": 1
+    },
+    "title": "Equation (19.3-9)",
+    "description": "",
+    "data": {
+      "expression": "Kxx , Krr = Rotational foundation stiffness [Equations (19.3-9)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.3-E19-3-191",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.3",
+      "citation": "Eq. (19.3-19)",
+      "page": 1
+    },
+    "title": "Equation (19.3-19)",
+    "description": "",
+    "data": {
+      "expression": "Kxx , Krr = Rotational foundation stiffness [Equations (19.3-9) and (19.3-19)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.3-E19-3-81",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.3",
+      "citation": "Eq. (19.3-8)",
+      "page": 1
+    },
+    "title": "Equation (19.3-8)",
+    "description": "",
+    "data": {
+      "expression": "Ky , Kr = Translational foundational stiffness [Equations (19.3-8)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.3-E19-3-181",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.3",
+      "citation": "Eq. (19.3-18)",
+      "page": 1
+    },
+    "title": "Equation (19.3-18)",
+    "description": "",
+    "data": {
+      "expression": "Ky , Kr = Translational foundational stiffness [Equations (19.3-8) and (19.3-18)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.4-E19-4-11",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.4",
+      "citation": "Eq. (19.4-1)",
+      "page": 1
+    },
+    "title": "Equation (19.4-1)",
+    "description": "",
+    "data": {
+      "expression": "RRS bsa = Site-speci fi c response spectral modi fi cation factor for base-slab averaging [Equation (19.4-1)",
+      "parameters": {
+        "c": {
+          "description": "Distance from the neutral axis of a fl exural member to the fi ber of maximum compressive strain, in. (mm)",
+          "source": "ASCE7-22-11.3-T25"
+        }
+      }
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.4-E19-4-51",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.4",
+      "citation": "Eq. (19.4-5)",
+      "page": 1
+    },
+    "title": "Equation (19.4-5)",
+    "description": "",
+    "data": {
+      "expression": "RRSe = Site-speci fi c response spectral modi fi cation factor for foundation embedment [Equation (19.4-5)",
+      "parameters": {
+        "c": {
+          "description": "Distance from the neutral axis of a fl exural member to the fi ber of maximum compressive strain, in. (mm)",
+          "source": "ASCE7-22-11.3-T25"
+        }
+      }
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.2-E19-2-51",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.2",
+      "citation": "Eq. (19.2-5)",
+      "page": 1
+    },
+    "title": "Equation (19.2-5)",
+    "description": "",
+    "data": {
+      "expression": "~ Sa = Response spectral acceleration including the effects of SSI [Equations (19.2-5)",
+      "parameters": {
+        "Sa": {
+          "description": "5% damped design spectral response acceleration parameter at any period as de fi ned in Section 11.4.5",
+          "source": "ASCE7-22-11.3-T90"
+        }
+      }
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.2-E19-2-81",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.2",
+      "citation": "Eq. (19.2-8)",
+      "page": 1
+    },
+    "title": "Equation (19.2-8)",
+    "description": "",
+    "data": {
+      "expression": "~ Sa = Response spectral acceleration including the effects of SSI [Equations (19.2-5) through (19.2-8)",
+      "parameters": {
+        "Sa": {
+          "description": "5% damped design spectral response acceleration parameter at any period as de fi ned in Section 11.4.5",
+          "source": "ASCE7-22-11.3-T90"
+        }
+      }
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.2-E19-2-21",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.2",
+      "citation": "Eq. (19.2-2)",
+      "page": 2
+    },
+    "title": "Equation (19.2-2)",
+    "description": "",
+    "data": {
+      "expression": "the base of the structure \u0394V= C \u2212 C s W \u00af \u22640.3 V (19.2-2)",
+      "parameters": {
+        "s": {
+          "description": "Ultimate tensile strength of the bolt, stud, or insert leg wires, psi (MPa). For ASTM A307 bolts or ASTM A108 studs, it is permitted to be assumed to be 60,000 psi (415 MPa)",
+          "source": "ASCE7-22-11.3-P2"
+        },
+        "W": {
+          "description": "Effective seismic weight of the building as de fi ned in Section 12.7.2. For calculation of seismicisolated building period, W is the total effective seismic weight of the building, in kip (kN), as de fi ned in Sections 19.2 and 19.3",
+          "source": "ASCE7-22-11.3-T130"
+        },
+        "V": {
+          "description": "Basic wind speed obtained from Figures 26.5-1A through 26.5-1D, mi/h (m/s); the basic wind speed corresponds to a 3 s gust speed at 33 ft (10 m) above the ground in Exposure Category C",
+          "source": "ASCE7-22-26.3-T95"
+        }
+      }
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "pdfplumber_scan"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.1.3-P3",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.1.3",
+      "citation": "Section 19.1.3",
+      "page": 2
+    },
+    "title": "the approximate structural period, Ta , shall not be used",
+    "description": "",
+    "data": {
+      "rule": "the approximate structural period, Ta , shall not be used",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.1.3-T20",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.1.3",
+      "citation": "Section 19.1.3",
+      "page": 2
+    },
+    "title": "\u00f0 ~ T \u2215 T \u00de eff = Effective period lengthening that depends on expected ductility demand, \u03bc [Equation (19.3-2)]",
+    "description": "",
+    "data": {
+      "rule": "\u00f0 ~ T \u2215 T \u00de eff = Effective period lengthening that depends on expected ductility demand, \u03bc [Equation (19.3-2)]",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.1.3-H2"
+  },
+  {
+    "id": "ASCE7-22-19.1.3-T21",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.1.3",
+      "citation": "Section 19.1.3",
+      "page": 2
+    },
+    "title": "Txx , Trr = Fundamental translational period of SSI system [Equations (19.3-7) and (19.3-17)]",
+    "description": "",
+    "data": {
+      "rule": "Txx , Trr = Fundamental translational period of SSI system [Equations (19.3-7) and (19.3-17)]",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.1.3-H2"
+  },
+  {
+    "id": "ASCE7-22-19.1.3-T22",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.1.3",
+      "citation": "Section 19.1.3",
+      "page": 2
+    },
+    "title": "Ty , Tr = Fundamental translational period of SSI system [Equations (19.3-6) and (19.3-16)]",
+    "description": "",
+    "data": {
+      "rule": "Ty , Tr = Fundamental translational period of SSI system [Equations (19.3-6) and (19.3-16)]",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.1.3-H2"
+  },
+  {
+    "id": "ASCE7-22-19.1.3-T23",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.1.3",
+      "citation": "Section 19.1.3",
+      "page": 2
+    },
+    "title": "~ Vt = Base shear adjusted for soil -structure interaction determined through modal response spectrum analysis",
+    "description": "",
+    "data": {
+      "rule": "~ Vt = Base shear adjusted for soil -structure interaction determined through modal response spectrum analysis",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.1.3-H2"
+  },
+  {
+    "id": "ASCE7-22-19.1.3-T24",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.1.3",
+      "citation": "Section 19.1.3",
+      "page": 2
+    },
+    "title": "~ V = Base shear adjusted for soil -structure interaction [Equation (19.2-1)]",
+    "description": "",
+    "data": {
+      "rule": "~ V = Base shear adjusted for soil -structure interaction [Equation (19.2-1)]",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.1.3-H2"
+  },
+  {
+    "id": "ASCE7-22-19.1.3-P4",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.1.3",
+      "citation": "Section 19.1.3",
+      "page": 2
+    },
+    "title": "vs ; e = Average effective shear wave velocity for site soil conditions used in determining embedment effects, taken as average value of velocity over the embedment depth of the foundation determined ",
+    "description": "",
+    "data": {
+      "rule": "vs ; e = Average effective shear wave velocity for site soil conditions used in determining embedment effects, taken as average value of velocity over the embedment depth of the foundation determined using vso ; e and Table 19.3-1 or a site-speci fi c study and shall not be taken as less than 650 ft/s (200 m/s)",
+      "conditions": [
+        {
+          "parameter": "",
+          "operator": "<",
+          "value": 650.0,
+          "unit": "ft"
+        }
+      ],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-19.3-E19-3-11"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.1.3-H2",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.1.3",
+      "citation": "Section 19.1.3",
+      "page": 2
+    },
+    "title": "vs ; rd = Average effective shear wave velocity used in determining radiation damping effects over a depth of B or r f below the base of the structure, determined using vso ; rd and Table 19.3-1 or a ",
+    "description": "",
+    "data": {
+      "rule": "vs ; rd = Average effective shear wave velocity used in determining radiation damping effects over a depth of B or r f below the base of the structure, determined using vso ; rd and Table 19.3-1 or a site-speci fi c study",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-19.3-E19-3-11"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.1.3-T25",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.1.3",
+      "citation": "Section 19.1.3",
+      "page": 2
+    },
+    "title": "vso ; e = Average low strain shear wave velocity used in determining embedment effects computed using Equation (20.4-1) over the embedment depth of the foundation",
+    "description": "",
+    "data": {
+      "rule": "vso ; e = Average low strain shear wave velocity used in determining embedment effects computed using Equation (20.4-1) over the embedment depth of the foundation",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.1.3-H2"
+  },
+  {
+    "id": "ASCE7-22-19.1.3-T26",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.1.3",
+      "citation": "Section 19.1.3",
+      "page": 2
+    },
+    "title": "vso ; rd = Average low strain shear wave velocity used in determining radiation damping effects computed using Equation 20.4-1 over a depth of B or r f below the base of the structure",
+    "description": "",
+    "data": {
+      "rule": "vso ; rd = Average low strain shear wave velocity used in determining radiation damping effects computed using Equation 20.4-1 over a depth of B or r f below the base of the structure",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.1.3-H2"
+  },
+  {
+    "id": "ASCE7-22-19.1.3-T27",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.1.3",
+      "citation": "Section 19.1.3",
+      "page": 2
+    },
+    "title": "W = Weight caused by the modal mass in the fundamental mode, or alternatively, the effective seismic weight in accordance with Section 12.7.2",
+    "description": "",
+    "data": {
+      "rule": "W = Weight caused by the modal mass in the fundamental mode, or alternatively, the effective seismic weight in accordance with Section 12.7.2",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.1.3-H2"
+  },
+  {
+    "id": "ASCE7-22-19.1.3-T28",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.1.3",
+      "citation": "Section 19.1.3",
+      "page": 2
+    },
+    "title": "\u03b1 xx , \u03b1 rr = Dimensionless factor, function of dimensionless frequency, a 0 [Equations (19.3-14) and (19.3-24)]",
+    "description": "",
+    "data": {
+      "rule": "\u03b1 xx , \u03b1 rr = Dimensionless factor, function of dimensionless frequency, a 0 [Equations (19.3-14) and (19.3-24)]",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.1.3-H2"
+  },
+  {
+    "id": "ASCE7-22-19.1.3-T29",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.1.3",
+      "citation": "Section 19.1.3",
+      "page": 2
+    },
+    "title": "\u03b1 = Coef fi cient that accounts for the reduction in base shear caused by foundation damping SSI",
+    "description": "",
+    "data": {
+      "rule": "\u03b1 = Coef fi cient that accounts for the reduction in base shear caused by foundation damping SSI",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.1.3-H2"
+  },
+  {
+    "id": "ASCE7-22-19.1.3-T30",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.1.3",
+      "citation": "Section 19.1.3",
+      "page": 2
+    },
+    "title": "\u03b2 = Effective viscous damping ratio of the structure, taken as 5% unless otherwise justi fi ed by analysis",
+    "description": "",
+    "data": {
+      "rule": "\u03b2 = Effective viscous damping ratio of the structure, taken as 5% unless otherwise justi fi ed by analysis",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.1.3-H2"
+  },
+  {
+    "id": "ASCE7-22-19.1.3-T31",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.1.3",
+      "citation": "Section 19.1.3",
+      "page": 2
+    },
+    "title": "\u03b2 0 = Effective viscous damping ratio of the soil -structure system, based on Section 19.3.2 [Equation (19.3-1)]",
+    "description": "",
+    "data": {
+      "rule": "\u03b2 0 = Effective viscous damping ratio of the soil -structure system, based on Section 19.3.2 [Equation (19.3-1)]",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-19.3.2-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.1.3-H2"
+  },
+  {
+    "id": "ASCE7-22-19.1.3-T32",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.1.3",
+      "citation": "Section 19.1.3",
+      "page": 2
+    },
+    "title": "\u03b2 rd = Radiation damping ratio determined in accordance with Section 19.3.3 or 19.3.4 [Equations (19.3-5) and (19.3-15)]",
+    "description": "",
+    "data": {
+      "rule": "\u03b2 rd = Radiation damping ratio determined in accordance with Section 19.3.3 or 19.3.4 [Equations (19.3-5) and (19.3-15)]",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-19.3.3-P1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.1.3-H2"
+  },
+  {
+    "id": "ASCE7-22-19.1.3-T33",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.1.3",
+      "citation": "Section 19.1.3",
+      "page": 2
+    },
+    "title": "\u03b2 f = Effective viscous damping ratio relating to foundation -soil interaction [Equation (19.3-3)]",
+    "description": "",
+    "data": {
+      "rule": "\u03b2 f = Effective viscous damping ratio relating to foundation -soil interaction [Equation (19.3-3)]",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.1.3-H2"
+  },
+  {
+    "id": "ASCE7-22-19.1.3-T34",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.1.3",
+      "citation": "Section 19.1.3",
+      "page": 2
+    },
+    "title": "\u03b2 s , \u03b2 0 s = Soil hysteretic damping ratio determined in accordance with Section 19.3.5",
+    "description": "",
+    "data": {
+      "rule": "\u03b2 s , \u03b2 0 s = Soil hysteretic damping ratio determined in accordance with Section 19.3.5",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-19.3.5-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.1.3-H2"
+  },
+  {
+    "id": "ASCE7-22-19.1.3-T35",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.1.3",
+      "citation": "Section 19.1.3",
+      "page": 2
+    },
+    "title": "\u03b2 y , \u03b2 r = Translational foundation damping coef fi cient [Equations (19.3-10) and (19.3-20)]",
+    "description": "",
+    "data": {
+      "rule": "\u03b2 y , \u03b2 r = Translational foundation damping coef fi cient [Equations (19.3-10) and (19.3-20)]",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.1.3-H2"
+  },
+  {
+    "id": "ASCE7-22-19.1.3-T36",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.1.3",
+      "citation": "Section 19.1.3",
+      "page": 2
+    },
+    "title": "\u03b2 xx , \u03b2 rr = Rotational foundation damping coef fi cient [Equations (19.3-12) and (19.3-22)]",
+    "description": "",
+    "data": {
+      "rule": "\u03b2 xx , \u03b2 rr = Rotational foundation damping coef fi cient [Equations (19.3-12) and (19.3-22)]",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.1.3-H2"
+  },
+  {
+    "id": "ASCE7-22-19.1.3-T37",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.1.3",
+      "citation": "Section 19.1.3",
+      "page": 2
+    },
+    "title": "\u03b3 = Average unit weight of the soils over a depth of B below the base of the structure",
+    "description": "",
+    "data": {
+      "rule": "\u03b3 = Average unit weight of the soils over a depth of B below the base of the structure",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.1.3-H2"
+  },
+  {
+    "id": "ASCE7-22-19.1.3-P5",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.1.3",
+      "citation": "Section 19.1.3",
+      "page": 2
+    },
+    "title": "\u03bd = Poisson ' s ratio; it is permitted to use 0.3 for sand and 0.45 for clay soils",
+    "description": "",
+    "data": {
+      "rule": "\u03bd = Poisson ' s ratio; it is permitted to use 0.3 for sand and 0.45 for clay soils \u03bc = Expected ductility demand",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.1.3-T39",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.1.3",
+      "citation": "Section 19.1.3",
+      "page": 2
+    },
+    "title": "\u03a8 = Dimensionless factor, function of Poisson ' s ratio [Equations (19.3-13) and (19.3-23)]",
+    "description": "",
+    "data": {
+      "rule": "\u03a8 = Dimensionless factor, function of Poisson ' s ratio [Equations (19.3-13) and (19.3-23)]",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.1.3-H2"
+  },
+  {
+    "id": "ASCE7-22-19.2-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.2",
+      "citation": "Section 19.2",
+      "page": 2
+    },
+    "title": "19.2 SSI ADJUSTED STRUCTURAL DEMANDS",
+    "description": "",
+    "data": {
+      "rule": "19.2 SSI ADJUSTED STRUCTURAL DEMANDS",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.2.1-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.2.1",
+      "citation": "Section 19.2.1",
+      "page": 2
+    },
+    "title": "19.2.1 Equivalent Lateral Force Procedure The inclusion of kinematic interaction effects, in accordance with Section 19.4 or other methods, is not permitted with the equivalent lateral force procedure",
+    "description": "",
+    "data": {
+      "rule": "19.2.1 Equivalent Lateral Force Procedure The inclusion of kinematic interaction effects, in accordance with Section 19.4 or other methods, is not permitted with the equivalent lateral force procedure. To account for the effects of SSI using a linear static procedure, the base shear, V , determined from Equation (12.8-1) is permitted to be modi fi ed as follows: where",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-19.4-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.2.1-T2",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.2.1",
+      "citation": "Section 19.2.1",
+      "page": 2
+    },
+    "title": "~ V = Base shear adjusted for SSI;",
+    "description": "",
+    "data": {
+      "rule": "~ V = Base shear adjusted for SSI;",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.2.1-H1"
+  },
+  {
+    "id": "ASCE7-22-19.2.1-T3",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.2.1",
+      "citation": "Section 19.2.1",
+      "page": 2
+    },
+    "title": "V = Fixed-base structure base shear computed in accordance with Section 12.8.1;",
+    "description": "",
+    "data": {
+      "rule": "V = Fixed-base structure base shear computed in accordance with Section 12.8.1;",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.2.1-H1"
+  },
+  {
+    "id": "ASCE7-22-19.2.1-T4",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.2.1",
+      "citation": "Section 19.2.1",
+      "page": 2
+    },
+    "title": "R = Response modi fi cation factor in Table 12.2-1;",
+    "description": "",
+    "data": {
+      "rule": "R = Response modi fi cation factor in Table 12.2-1;",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.2.1-H1"
+  },
+  {
+    "id": "ASCE7-22-19.2.1-T5",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.2.1",
+      "citation": "Section 19.2.1",
+      "page": 2
+    },
+    "title": "Table 19.3-1. Effective Shear Wave Velocity Ratio \u0012 vs , rd vso , rd or vs , e vso , e \u0013 .",
+    "description": "",
+    "data": {
+      "rule": "Table 19.3-1. Effective Shear Wave Velocity Ratio \u0012 vs , rd vso , rd or vs , e vso , e \u0013 .",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-19.3-E19-3-11"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.2.1-H1"
+  },
+  {
+    "id": "ASCE7-22-19.2.1-T6",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.2.1",
+      "citation": "Section 19.2.1",
+      "page": 2
+    },
+    "title": "a Use straight-line interpolation for intermediate values of SDS \u2215 2.5.",
+    "description": "",
+    "data": {
+      "rule": "a Use straight-line interpolation for intermediate values of SDS \u2215 2.5.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.2.1-H1"
+  },
+  {
+    "id": "ASCE7-22-19.2.1-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.2.1",
+      "citation": "Section 19.2.1",
+      "page": 2
+    },
+    "title": "b Site-speci fi c geotechnical investigation and dynamic site response analyses shall be performed.",
+    "description": "",
+    "data": {
+      "rule": "b Site-speci fi c geotechnical investigation and dynamic site response analyses shall be performed.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.2.1-P2",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.2.1",
+      "citation": "Section 19.2.1",
+      "page": 2
+    },
+    "title": "c It is permitted to apply this table to the MCER response spectrum, determined according to Section 11.4.7, the SDS \u2215 2.5 headers shall be replaced by SMS \u2215 2.5; to apply the table to the site-speci ",
+    "description": "",
+    "data": {
+      "rule": "c It is permitted to apply this table to the MCER response spectrum, determined according to Section 11.4.7, the SDS \u2215 2.5 headers shall be replaced by SMS \u2215 2.5; to apply the table to the site-speci fi c MCER response spectrum, determined according to Chapter 21, the SDS \u2215 2.5 headers shall be replaced by the MCER response spectral acceleration at 0.01 s natural period.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.3-T19-3-11",
+    "type": "table",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.3",
+      "citation": "Table 19.3-1",
+      "page": 2
+    },
+    "title": "vs ; e = Average effective shear wave velocity for site soil conditions used in determining embedment effects, taken as average value of velocity over the embedment depth of the foundation determined",
+    "description": "",
+    "data": {
+      "columns": [
+        {
+          "name": "col_0",
+          "unit": null
+        },
+        {
+          "name": "Effective Peak Acceleration, S DS \u2215 2.5 a , c",
+          "unit": null
+        },
+        {
+          "name": "col_2",
+          "unit": null
+        },
+        {
+          "name": "col_3",
+          "unit": null
+        },
+        {
+          "name": "col_4",
+          "unit": null
+        }
+      ],
+      "rows": [
+        {
+          "col_0": "Site Class",
+          "Effective Peak Acceleration, S DS \u2215 2.5 a , c": "S DS \u2215 2.5 = 0",
+          "col_2": "S DS \u2215 2.5 = 0.1",
+          "col_3": "S DS \u2215 2.5 = 0.4",
+          "col_4": "S DS \u2215 2.5 \u2265 0.8"
+        },
+        {
+          "col_0": "A",
+          "Effective Peak Acceleration, S DS \u2215 2.5 a , c": 1.0,
+          "col_2": 1.0,
+          "col_3": 1.0,
+          "col_4": 1.0
+        },
+        {
+          "col_0": "B",
+          "Effective Peak Acceleration, S DS \u2215 2.5 a , c": 1.0,
+          "col_2": 1.0,
+          "col_3": 0.97,
+          "col_4": 0.95
+        },
+        {
+          "col_0": "BC",
+          "Effective Peak Acceleration, S DS \u2215 2.5 a , c": 1.0,
+          "col_2": 0.98,
+          "col_3": 0.92,
+          "col_4": 0.86
+        },
+        {
+          "col_0": "C",
+          "Effective Peak Acceleration, S DS \u2215 2.5 a , c": 1.0,
+          "col_2": 0.97,
+          "col_3": 0.87,
+          "col_4": 0.77
+        },
+        {
+          "col_0": "CD",
+          "Effective Peak Acceleration, S DS \u2215 2.5 a , c": 1.0,
+          "col_2": 0.96,
+          "col_3": 0.79,
+          "col_4": 0.5
+        },
+        {
+          "col_0": "D",
+          "Effective Peak Acceleration, S DS \u2215 2.5 a , c": 1.0,
+          "col_2": 0.95,
+          "col_3": 0.71,
+          "col_4": 0.32
+        },
+        {
+          "col_0": "DE",
+          "Effective Peak Acceleration, S DS \u2215 2.5 a , c": 1.0,
+          "col_2": 0.86,
+          "col_3": 0.4,
+          "col_4": 0.18
+        },
+        {
+          "col_0": "E",
+          "Effective Peak Acceleration, S DS \u2215 2.5 a , c": 1.0,
+          "col_2": 0.77,
+          "col_3": 0.22,
+          "col_4": "b"
+        },
+        {
+          "col_0": "F",
+          "Effective Peak Acceleration, S DS \u2215 2.5 a , c": "b",
+          "col_2": "b",
+          "col_3": "b",
+          "col_4": "b"
+        }
+      ]
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "docling"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.3-E19-3-21",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.3",
+      "citation": "Eq. (19.3-2)",
+      "page": 2
+    },
+    "title": "Equation (19.3-2)",
+    "description": "",
+    "data": {
+      "expression": "\u00f0 ~ T \u2215 T \u00de eff = Effective period lengthening that depends on expected ductility demand, \u03bc [Equation (19.3-2)",
+      "parameters": {
+        "T": {
+          "description": "Fundamental period as determined in Chapter 19",
+          "source": "ASCE7-22-11.3-T105"
+        }
+      }
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.3-E19-3-71",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.3",
+      "citation": "Eq. (19.3-7)",
+      "page": 2
+    },
+    "title": "Equation (19.3-7)",
+    "description": "",
+    "data": {
+      "expression": "Txx , Trr = Fundamental translational period of SSI system [Equations (19.3-7)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.3-E19-3-171",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.3",
+      "citation": "Eq. (19.3-17)",
+      "page": 2
+    },
+    "title": "Equation (19.3-17)",
+    "description": "",
+    "data": {
+      "expression": "Txx , Trr = Fundamental translational period of SSI system [Equations (19.3-7) and (19.3-17)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.3-E19-3-61",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.3",
+      "citation": "Eq. (19.3-6)",
+      "page": 2
+    },
+    "title": "Equation (19.3-6)",
+    "description": "",
+    "data": {
+      "expression": "Ty , Tr = Fundamental translational period of SSI system [Equations (19.3-6)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.3-E19-3-161",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.3",
+      "citation": "Eq. (19.3-16)",
+      "page": 2
+    },
+    "title": "Equation (19.3-16)",
+    "description": "",
+    "data": {
+      "expression": "Ty , Tr = Fundamental translational period of SSI system [Equations (19.3-6) and (19.3-16)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.2-E19-2-11",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.2",
+      "citation": "Eq. (19.2-1)",
+      "page": 2
+    },
+    "title": "Equation (19.2-1)",
+    "description": "",
+    "data": {
+      "expression": "~ V = Base shear adjusted for soil -structure interaction [Equation (19.2-1)",
+      "parameters": {
+        "V": {
+          "description": "Basic wind speed obtained from Figures 26.5-1A through 26.5-1D, mi/h (m/s); the basic wind speed corresponds to a 3 s gust speed at 33 ft (10 m) above the ground in Exposure Category C",
+          "source": "ASCE7-22-26.3-T95"
+        }
+      }
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.3-E19-3-141",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.3",
+      "citation": "Eq. (19.3-14)",
+      "page": 2
+    },
+    "title": "Equation (19.3-14)",
+    "description": "",
+    "data": {
+      "expression": "\u03b1 xx , \u03b1 rr = Dimensionless factor, function of dimensionless frequency, a 0 [Equations (19.3-14)",
+      "parameters": {
+        "a": {
+          "description": "Approximate lower bound natural frequency from Section 26.11.2",
+          "unit": "Hz",
+          "source": "ASCE7-22-26.3-T77"
+        }
+      }
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.3-E19-3-241",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.3",
+      "citation": "Eq. (19.3-24)",
+      "page": 2
+    },
+    "title": "Equation (19.3-24)",
+    "description": "",
+    "data": {
+      "expression": "\u03b1 xx , \u03b1 rr = Dimensionless factor, function of dimensionless frequency, a 0 [Equations (19.3-14) and (19.3-24)",
+      "parameters": {
+        "a": {
+          "description": "Approximate lower bound natural frequency from Section 26.11.2",
+          "unit": "Hz",
+          "source": "ASCE7-22-26.3-T77"
+        }
+      }
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.3-E19-3-11",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.3",
+      "citation": "Eq. (19.3-1)",
+      "page": 2
+    },
+    "title": "Equation (19.3-1)",
+    "description": "",
+    "data": {
+      "expression": "\u03b2 0 = Effective viscous damping ratio of the soil -structure system, based on Section 19.3.2 [Equation (19.3-1)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.3-E19-3-51",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.3",
+      "citation": "Eq. (19.3-5)",
+      "page": 2
+    },
+    "title": "Equation (19.3-5)",
+    "description": "",
+    "data": {
+      "expression": "\u03b2 rd = Radiation damping ratio determined in accordance with Section 19.3.3 or 19.3.4 [Equations (19.3-5)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.3-E19-3-151",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.3",
+      "citation": "Eq. (19.3-15)",
+      "page": 2
+    },
+    "title": "Equation (19.3-15)",
+    "description": "",
+    "data": {
+      "expression": "\u03b2 rd = Radiation damping ratio determined in accordance with Section 19.3.3 or 19.3.4 [Equations (19.3-5) and (19.3-15)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.3-E19-3-31",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.3",
+      "citation": "Eq. (19.3-3)",
+      "page": 2
+    },
+    "title": "Equation (19.3-3)",
+    "description": "",
+    "data": {
+      "expression": "\u03b2 f = Effective viscous damping ratio relating to foundation -soil interaction [Equation (19.3-3)",
+      "parameters": {
+        "f": {
+          "description": "Radius of the circular foundation;",
+          "source": "ASCE7-22-19.3.4-T1"
+        }
+      }
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.3-E19-3-101",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.3",
+      "citation": "Eq. (19.3-10)",
+      "page": 2
+    },
+    "title": "Equation (19.3-10)",
+    "description": "",
+    "data": {
+      "expression": "\u03b2 y , \u03b2 r = Translational foundation damping coef fi cient [Equations (19.3-10)",
+      "parameters": {
+        "y": {
+          "description": "Force scale factor in the Y direction (Section 12.9.2.5)",
+          "source": "ASCE7-22-11.3-T163"
+        },
+        "r": {
+          "description": "Lateral slenderness ratio of a compression member measured in terms of its effective length, KL , and the least radius of gyration of the member cross section, r",
+          "source": "ASCE7-22-11.3-T63"
+        }
+      }
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.3-E19-3-201",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.3",
+      "citation": "Eq. (19.3-20)",
+      "page": 2
+    },
+    "title": "Equation (19.3-20)",
+    "description": "",
+    "data": {
+      "expression": "\u03b2 y , \u03b2 r = Translational foundation damping coef fi cient [Equations (19.3-10) and (19.3-20)",
+      "parameters": {
+        "y": {
+          "description": "Force scale factor in the Y direction (Section 12.9.2.5)",
+          "source": "ASCE7-22-11.3-T163"
+        },
+        "r": {
+          "description": "Lateral slenderness ratio of a compression member measured in terms of its effective length, KL , and the least radius of gyration of the member cross section, r",
+          "source": "ASCE7-22-11.3-T63"
+        }
+      }
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.3-E19-3-121",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.3",
+      "citation": "Eq. (19.3-12)",
+      "page": 2
+    },
+    "title": "Equation (19.3-12)",
+    "description": "",
+    "data": {
+      "expression": "\u03b2 xx , \u03b2 rr = Rotational foundation damping coef fi cient [Equations (19.3-12)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.3-E19-3-221",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.3",
+      "citation": "Eq. (19.3-22)",
+      "page": 2
+    },
+    "title": "Equation (19.3-22)",
+    "description": "",
+    "data": {
+      "expression": "\u03b2 xx , \u03b2 rr = Rotational foundation damping coef fi cient [Equations (19.3-12) and (19.3-22)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.3-E19-3-131",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.3",
+      "citation": "Eq. (19.3-13)",
+      "page": 2
+    },
+    "title": "Equation (19.3-13)",
+    "description": "",
+    "data": {
+      "expression": "\u03a8 = Dimensionless factor, function of Poisson ' s ratio [Equations (19.3-13)",
+      "parameters": {
+        "s": {
+          "description": "Ultimate tensile strength of the bolt, stud, or insert leg wires, psi (MPa). For ASTM A307 bolts or ASTM A108 studs, it is permitted to be assumed to be 60,000 psi (415 MPa)",
+          "source": "ASCE7-22-11.3-P2"
+        }
+      }
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.3-E19-3-231",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.3",
+      "citation": "Eq. (19.3-23)",
+      "page": 2
+    },
+    "title": "Equation (19.3-23)",
+    "description": "",
+    "data": {
+      "expression": "\u03a8 = Dimensionless factor, function of Poisson ' s ratio [Equations (19.3-13) and (19.3-23)",
+      "parameters": {
+        "s": {
+          "description": "Ultimate tensile strength of the bolt, stud, or insert leg wires, psi (MPa). For ASTM A307 bolts or ASTM A108 studs, it is permitted to be assumed to be 60,000 psi (415 MPa)",
+          "source": "ASCE7-22-11.3-P2"
+        }
+      }
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.2.1-T7",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.2.1",
+      "citation": "Section 19.2.1",
+      "page": 3
+    },
+    "title": "Cs = Seismic response coef fi cient determined in accordance with Section 12.8.1.1, assuming a fi xed structural base at the foundation -soil interface;",
+    "description": "",
+    "data": {
+      "rule": "Cs = Seismic response coef fi cient determined in accordance with Section 12.8.1.1, assuming a fi xed structural base at the foundation -soil interface;",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.2.1-H1"
+  },
+  {
+    "id": "ASCE7-22-19.2.1-T8",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.2.1",
+      "citation": "Section 19.2.1",
+      "page": 3
+    },
+    "title": "~ Cs = Seismic response coef fi cient determined in accordance with Section 12.8.1.1, assuming fl exibility of the structural base at the foundation -soil interface in accordance with Section 19.1.1, ",
+    "description": "",
+    "data": {
+      "rule": "~ Cs = Seismic response coef fi cient determined in accordance with Section 12.8.1.1, assuming fl exibility of the structural base at the foundation -soil interface in accordance with Section 19.1.1, using ~ T as the fundamental period of the structure in lieu of the fundamental period of the structure, T , as determined by Section 12.8.2;",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-19.1.1-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.2.1-H1"
+  },
+  {
+    "id": "ASCE7-22-19.2.1-T9",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.2.1",
+      "citation": "Section 19.2.1",
+      "page": 3
+    },
+    "title": "W = Weight caused by the effective modal mass in the fundamental mode, alternatively taken as the effective seismic weight in accordance with Section 12.7.2; and",
+    "description": "",
+    "data": {
+      "rule": "W = Weight caused by the effective modal mass in the fundamental mode, alternatively taken as the effective seismic weight in accordance with Section 12.7.2; and",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.2.1-H1"
+  },
+  {
+    "id": "ASCE7-22-19.2.1-T10",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.2.1",
+      "citation": "Section 19.2.1",
+      "page": 3
+    },
+    "title": "\u03b2 0 = Effective viscous damping ratio of the soil -structure system, in accordance with Section 19.3.2.",
+    "description": "",
+    "data": {
+      "rule": "\u03b2 0 = Effective viscous damping ratio of the soil -structure system, in accordance with Section 19.3.2.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-19.3.2-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.2.1-H1"
+  },
+  {
+    "id": "ASCE7-22-19.2.2-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.2.2",
+      "citation": "Section 19.2.2",
+      "page": 3
+    },
+    "title": "19.2.2 Linear Dynamic Analysis The inclusion of kinematic interaction effects, in accordance with Section 19.4 or other methods, is not permitted with the linear dynamic procedure. To account for the ",
+    "description": "",
+    "data": {
+      "rule": "19.2.2 Linear Dynamic Analysis The inclusion of kinematic interaction effects, in accordance with Section 19.4 or other methods, is not permitted with the linear dynamic procedure. To account for the effects of SSI, a linear dynamic analysis is permitted to be performed in accordance with Section 12.9, using either the SSI modi fi ed design response spectrum and MCER response spectrum in accordance with Sections 11.4.6 and 11.4.7 or SSI modi fi ed site-speci fi c response spectrum, per Section 19.2.2.1 or an SSI modi fi ed site-speci fi c response spectrum in accordance with Section 19.2.2.2 for spectral response acceleration, ~ Sa , versus structural period, T . The resulting response spectral acceleration shall be divided by R \u2215 I e , where I e is prescribed in Section 11.5.1. The mathematical model used for the linear dynamic analysis shall include fl exibility of the foundation and underlying soil in accordance with Section 19.1.1.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-19.1.1-H1",
+      "ASCE7-22-19.2.2.1-H1",
+      "ASCE7-22-19.2.2.2-H1",
+      "ASCE7-22-19.4-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.2.2-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.2.2",
+      "citation": "Section 19.2.2",
+      "page": 3
+    },
+    "title": "Scaling of the lateral forces from the modal response analysis shall be in accordance with Section 12.9.1.4 with calculated base shear, V , replaced with SSI adjusted base shear, ~ V , determined in a",
+    "description": "",
+    "data": {
+      "rule": "Scaling of the lateral forces from the modal response analysis shall be in accordance with Section 12.9.1.4 with calculated base shear, V , replaced with SSI adjusted base shear, ~ V , determined in accordance with Equation (19.2-1) and the modal base shear, Vt , replaced by the modal base shear calculated with the effects of SSI, ~ Vt .",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.2.2-P2",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.2.2",
+      "citation": "Section 19.2.2",
+      "page": 3
+    },
+    "title": "The modal base shear calculated with the effects of SSI, ~ Vt , shall not be less than 0.7 V .",
+    "description": "",
+    "data": {
+      "rule": "The modal base shear calculated with the effects of SSI, ~ Vt , shall not be less than 0.7 V .",
+      "conditions": [
+        {
+          "parameter": "",
+          "operator": "<",
+          "value": 0.7,
+          "unit": null
+        }
+      ],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.2.2.1-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.2.2.1",
+      "citation": "Section 19.2.2.1",
+      "page": 3
+    },
+    "title": "19.2.2.1 SSI Modi fi ed General Design Response Spectrum The general design response spectrum, which includes the effects of SSI to be used with the modal analysis procedure in Section 19.2.2, shall b",
+    "description": "",
+    "data": {
+      "rule": "19.2.2.1 SSI Modi fi ed General Design Response Spectrum The general design response spectrum, which includes the effects of SSI to be used with the modal analysis procedure in Section 19.2.2, shall be developed as follows: For 0 < T < T 0 , and",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-19.2.2-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.2.2.1-T2",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.2.2.1",
+      "citation": "Section 19.2.2.1",
+      "page": 3
+    },
+    "title": "where SDS and SD 1 are de fi ned in Section 11.4.5; TS , T 0 , and TL are as de fi ned in Section 11.4.6; T is the period at the response spectrum ordinate; and BSSI is de fi ned in Equation (19.2-3).",
+    "description": "",
+    "data": {
+      "rule": "where SDS and SD 1 are de fi ned in Section 11.4.5; TS , T 0 , and TL are as de fi ned in Section 11.4.6; T is the period at the response spectrum ordinate; and BSSI is de fi ned in Equation (19.2-3).",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.2.2.1-H1"
+  },
+  {
+    "id": "ASCE7-22-19.2.2.2-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.2.2.2",
+      "citation": "Section 19.2.2.2",
+      "page": 3
+    },
+    "title": "19.2.2.2 SSI Site-Speci fi c Response Spectrum A site-speci fi c response spectrum that incorporates modi fi cations caused by SSI is permitted to be developed in accordance with the requirements of C",
+    "description": "",
+    "data": {
+      "rule": "19.2.2.2 SSI Site-Speci fi c Response Spectrum A site-speci fi c response spectrum that incorporates modi fi cations caused by SSI is permitted to be developed in accordance with the requirements of Chapter 21. The spectrum is permitted to be adjusted for the effective viscous damping ratio of \u03b2 0 , of the soil -structure system, as de fi ned in Section 19.3.2, in the development of the site-speci fi c spectrum.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-19.3.2-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.2.3-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.2.3",
+      "citation": "Section 19.2.3",
+      "page": 3
+    },
+    "title": "19.2.3 Nonlinear Response History Procedure It is permitted to account for the effects of SSI using a nonlinear response history analysis performed in accordance with Chapter 16 using acceleration his",
+    "description": "",
+    "data": {
+      "rule": "19.2.3 Nonlinear Response History Procedure It is permitted to account for the effects of SSI using a nonlinear response history analysis performed in accordance with Chapter 16 using acceleration histories scaled to a site-speci fi c response spectrum modi fi ed for kinematic interaction, in accordance with Section 19.4 or other approved methods. The mathematical model used for the analysis shall include foundation and soil fl exibility, per Section 19.1.1, and shall explicitly incorporate the effects of foundation damping, per Section 19.3 or by other approved methods. Kinematic interaction effects, per Section 19.4, are permitted to be included in the determination of the site-speci fi c response spectrum.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-19.1.1-H1",
+      "ASCE7-22-19.3-H1",
+      "ASCE7-22-19.4-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.2.3-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.2.3",
+      "citation": "Section 19.2.3",
+      "page": 3
+    },
+    "title": "The site-speci fi c response spectrum shall be developed, per the requirements of Chapter 21, with the following additional requirements:",
+    "description": "",
+    "data": {
+      "rule": "The site-speci fi c response spectrum shall be developed, per the requirements of Chapter 21, with the following additional requirements:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.2.3-P2",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.2.3",
+      "citation": "Section 19.2.3",
+      "page": 3
+    },
+    "title": "The spectrum is permitted to be adjusted for kinematic SSI effects by multiplying the spectral acceleration ordinate at each period by the corresponding response spectrum ratios for either base slab a",
+    "description": "",
+    "data": {
+      "rule": "The spectrum is permitted to be adjusted for kinematic SSI effects by multiplying the spectral acceleration ordinate at each period by the corresponding response spectrum ratios for either base slab averaging or embedment, or both base slab averaging and embedment ( RRS bsa \u00d7 RRSe ) per Section 19.4, or by directly incorporating one or both of these effects into the development of the spectrum.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-19.4-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.2.3-P3",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.2.3",
+      "citation": "Section 19.2.3",
+      "page": 3
+    },
+    "title": "For structures embedded in the ground, the site-speci fi c response spectrum is permitted to be developed at the depth of the embedded base level in lieu of at grade. For this case, the response spect",
+    "description": "",
+    "data": {
+      "rule": "For structures embedded in the ground, the site-speci fi c response spectrum is permitted to be developed at the depth of the embedded base level in lieu of at grade. For this case, the response spectrum ratio for embedment effects ( RRSe ) shall be taken as 1.0.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.2.3-P4",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.2.3",
+      "citation": "Section 19.2.3",
+      "page": 3
+    },
+    "title": "The site-speci fi c response spectrum modi fi ed for kinematic interaction shall not be taken as less than 80% of Sa as determined from a site-speci fi c response spectrum in accordance with Section 2",
+    "description": "",
+    "data": {
+      "rule": "The site-speci fi c response spectrum modi fi ed for kinematic interaction shall not be taken as less than 80% of Sa as determined from a site-speci fi c response spectrum in accordance with Section 21.3.",
+      "conditions": [
+        {
+          "parameter": "",
+          "operator": "<",
+          "value": 80.0,
+          "unit": null
+        }
+      ],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.2.3-P5",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.2.3",
+      "citation": "Section 19.2.3",
+      "page": 3
+    },
+    "title": "The site-speci fi c response spectrum modi fi ed for kinematic interaction shall not be taken as less than 70% of Sa , as determined from the design response spectrum and MCER response spectrum in acc",
+    "description": "",
+    "data": {
+      "rule": "The site-speci fi c response spectrum modi fi ed for kinematic interaction shall not be taken as less than 70% of Sa , as determined from the design response spectrum and MCER response spectrum in accordance with Sections 11.4.6 and 11.4.7.",
+      "conditions": [
+        {
+          "parameter": "",
+          "operator": "<",
+          "value": 70.0,
+          "unit": null
+        }
+      ],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.2.3-P6",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.2.3",
+      "citation": "Section 19.2.3",
+      "page": 3
+    },
+    "title": "If the acceleration histories are scaled to a site-speci fi c spectrum modi fi ed for kinematic soil -structure interaction it is permitted to include kinematic soil -structure interaction in the equi",
+    "description": "",
+    "data": {
+      "rule": "If the acceleration histories are scaled to a site-speci fi c spectrum modi fi ed for kinematic soil -structure interaction it is permitted to include kinematic soil -structure interaction in the equivalent lateral force procedure or the linear dynamic procedure conducted per Section 16.1.2 using the site-speci fi c response spectrum modi fi ed for kinematic soil -structure interaction, subject to the limitations herein. Where foundation damping is included in the nonlinear model, the equivalent lateral force procedure or the linear dynamic procedure, in conjunction with Section 16.1.2, shall be based on the provisions of 19.2.1 or 19.2.2, respectively.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.3-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.3",
+      "citation": "Section 19.3",
+      "page": 3
+    },
+    "title": "19.3 FOUNDATION DAMPING EFFECTS",
+    "description": "",
+    "data": {
+      "rule": "19.3 FOUNDATION DAMPING EFFECTS",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.3.1-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.3.1",
+      "citation": "Section 19.3.1",
+      "page": 3
+    },
+    "title": "19.3.1 Foundation Damping Requirements Foundation damping effects are permitted to be considered through direct incorporation of soil hysteretic damping and radiation damping in the mathematical model",
+    "description": "",
+    "data": {
+      "rule": "19.3.1 Foundation Damping Requirements Foundation damping effects are permitted to be considered through direct incorporation of soil hysteretic damping and radiation damping in the mathematical model of the structure. The use of the procedures in this section are permitted in conjunction with the equivalent lateral procedure modi fi cations of Section 19.2.1 or the linear dynamic procedure modi fi cations of Section 19.2.2, unless any of the following conditions occur:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-19.2.1-H1",
+      "ASCE7-22-19.2.2-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.3.1-T1",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.3.1",
+      "citation": "Section 19.3.1",
+      "page": 3
+    },
+    "title": "Afoundation system consisting of discrete footings that are not interconnected and that are spaced less than the larger",
+    "description": "",
+    "data": {
+      "rule": "Afoundation system consisting of discrete footings that are not interconnected and that are spaced less than the larger",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.3.1-H1"
+  },
+  {
+    "id": "ASCE7-22-19.2-E19-2-31",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.2",
+      "citation": "Eq. (19.2-3)",
+      "page": 3
+    },
+    "title": "Equation (19.2-3)",
+    "description": "",
+    "data": {
+      "expression": "and BSSI is de fi ned in Equation (19.2-3)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.3.1-T2",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.3.1",
+      "citation": "Section 19.3.1",
+      "page": 4
+    },
+    "title": "dimension of the supported lateral force-resisting element in the direction under consideration.",
+    "description": "",
+    "data": {
+      "rule": "dimension of the supported lateral force-resisting element in the direction under consideration.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.3.1-H1"
+  },
+  {
+    "id": "ASCE7-22-19.3.1-T3",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.3.1",
+      "citation": "Section 19.3.1",
+      "page": 4
+    },
+    "title": "A foundation system consisting of, or including, deep foundations such as piles or piers.",
+    "description": "",
+    "data": {
+      "rule": "A foundation system consisting of, or including, deep foundations such as piles or piers.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.3.1-H1"
+  },
+  {
+    "id": "ASCE7-22-19.3.1-T4",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.3.1",
+      "citation": "Section 19.3.1",
+      "page": 4
+    },
+    "title": "A foundation system consisting of structural mats interconnected by concrete slabs that are characterized as fl exible in accordance with Section 12.3.1.3 or that are not continuously connected to gra",
+    "description": "",
+    "data": {
+      "rule": "A foundation system consisting of structural mats interconnected by concrete slabs that are characterized as fl exible in accordance with Section 12.3.1.3 or that are not continuously connected to grade beams or other foundation elements.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.3.1-H1"
+  },
+  {
+    "id": "ASCE7-22-19.3.2-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.3.2",
+      "citation": "Section 19.3.2",
+      "page": 4
+    },
+    "title": "19.3.2 Effective Damping Ratio The effects of foundation damping shall be represented by the effective damping ratio of the soil -structure system, \u03b2 0 , determined in accordance with Equation (19.3-1",
+    "description": "",
+    "data": {
+      "rule": "19.3.2 Effective Damping Ratio The effects of foundation damping shall be represented by the effective damping ratio of the soil -structure system, \u03b2 0 , determined in accordance with Equation (19.3-1): where",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.3.2-T2",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.3.2",
+      "citation": "Section 19.3.2",
+      "page": 4
+    },
+    "title": "\u03b2 f = Effective viscous damping ratio relating to foundation -soil interaction;",
+    "description": "",
+    "data": {
+      "rule": "\u03b2 f = Effective viscous damping ratio relating to foundation -soil interaction;",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.3.2-H1"
+  },
+  {
+    "id": "ASCE7-22-19.3.2-T3",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.3.2",
+      "citation": "Section 19.3.2",
+      "page": 4
+    },
+    "title": "\u00f0 e T \u2215 T \u00de eff = Effective period lengthening ratio de fi ned in Equation (19.3-2).",
+    "description": "",
+    "data": {
+      "rule": "\u00f0 e T \u2215 T \u00de eff = Effective period lengthening ratio de fi ned in Equation (19.3-2).",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.3.2-H1"
+  },
+  {
+    "id": "ASCE7-22-19.3.2-T4",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.3.2",
+      "citation": "Section 19.3.2",
+      "page": 4
+    },
+    "title": "\u03b2 = Effective viscous damping ratio of the structure, taken as 5%, unless otherwise justi fi ed by analysis; and",
+    "description": "",
+    "data": {
+      "rule": "\u03b2 = Effective viscous damping ratio of the structure, taken as 5%, unless otherwise justi fi ed by analysis; and",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.3.2-H1"
+  },
+  {
+    "id": "ASCE7-22-19.3.2-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.3.2",
+      "citation": "Section 19.3.2",
+      "page": 4
+    },
+    "title": "The effective period lengthening ratio shall be determined in accordance with Equation (19.3-2):",
+    "description": "",
+    "data": {
+      "rule": "The effective period lengthening ratio shall be determined in accordance with Equation (19.3-2):",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.3.2-P2",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.3.2",
+      "citation": "Section 19.3.2",
+      "page": 4
+    },
+    "title": "where \u03bc is the expected ductility demand. For equivalent lateral force or modal response spectrum analysis procedures, \u03bc is the maximum base shear divided by the elastic base shear capacity; alternate",
+    "description": "",
+    "data": {
+      "rule": "where \u03bc is the expected ductility demand. For equivalent lateral force or modal response spectrum analysis procedures, \u03bc is the maximum base shear divided by the elastic base shear capacity; alternately, \u03bc is permitted to be taken as R \u2215 \u03a9 0 , where R and \u03a9 0 are per Table 12.2-1. For the response history analysis procedures, \u03bc is the maximum displacement divided by the yield displacement of the structure measured at the highest point above grade.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.3.2-P3",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.3.2",
+      "citation": "Section 19.3.2",
+      "page": 4
+    },
+    "title": "The foundation damping ratio caused by soil hysteretic damping and radiation damping, \u03b2 f , is permitted to be determined in accordance with Equation (19.3-3) or by other approved methods.",
+    "description": "",
+    "data": {
+      "rule": "The foundation damping ratio caused by soil hysteretic damping and radiation damping, \u03b2 f , is permitted to be determined in accordance with Equation (19.3-3) or by other approved methods.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.3.2-T5",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.3.2",
+      "citation": "Section 19.3.2",
+      "page": 4
+    },
+    "title": "e where \u03b2 s is the soil hysteretic damping ratio, determined in accordance with Section 19.3.5, and \u03b2 rd is the radiation damping ratio, determined in accordance with Section 19.3.3 or 19.3.4.",
+    "description": "",
+    "data": {
+      "rule": "e where \u03b2 s is the soil hysteretic damping ratio, determined in accordance with Section 19.3.5, and \u03b2 rd is the radiation damping ratio, determined in accordance with Section 19.3.3 or 19.3.4.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-19.3.3-P1",
+      "ASCE7-22-19.3.5-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.3.2-H1"
+  },
+  {
+    "id": "ASCE7-22-19.3.2-P4",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.3.2",
+      "citation": "Section 19.3.2",
+      "page": 4
+    },
+    "title": "If a site more than a depth B or R below the base of the building consists of a relatively uniform layer of depth, Ds , overlaying a very stiff layer with a shear wave velocity more than twice that of",
+    "description": "",
+    "data": {
+      "rule": "If a site more than a depth B or R below the base of the building consists of a relatively uniform layer of depth, Ds , overlaying a very stiff layer with a shear wave velocity more than twice that of the surface layer and 4 Ds \u2215 vs e T < 1, then the damping values, \u03b2 r , in Equation (19.3-3) shall be replaced by \u03b2 0 s , per Equation (19.3-4):",
+      "conditions": [
+        {
+          "parameter": "T",
+          "operator": "<",
+          "value": 1.0,
+          "unit": null
+        }
+      ],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.3.3-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.3.3",
+      "citation": "Section 19.3.3",
+      "page": 4
+    },
+    "title": "19.3.3 Radiation Damping for Rectangular Foundations The effects of radiation damping for structures with a rectangular foundation plan shall be represented by the effective damping ratio of the soil ",
+    "description": "",
+    "data": {
+      "rule": "19.3.3 Radiation Damping for Rectangular Foundations The effects of radiation damping for structures with a rectangular foundation plan shall be represented by the effective damping ratio of the soil -structure system, \u03b2 rd , determined in accordance with Equation (19.3-15): where",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.3.3-T2",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.3.3",
+      "citation": "Section 19.3.3",
+      "page": 4
+    },
+    "title": "M \u0003 = Effective modal mass for the fundamental mode of vibration in the direction under consideration;",
+    "description": "",
+    "data": {
+      "rule": "M \u0003 = Effective modal mass for the fundamental mode of vibration in the direction under consideration;",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.3-H1"
+  },
+  {
+    "id": "ASCE7-22-19.3.3-P2",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.3.3",
+      "citation": "Section 19.3.3",
+      "page": 4
+    },
+    "title": "h \u0003 = Effective structure height taken as the vertical distance from the foundation to the centroid of the fi rst mode shape for multistory structures. Alternatively, h \u0003 is permitted to be approximat",
+    "description": "",
+    "data": {
+      "rule": "h \u0003 = Effective structure height taken as the vertical distance from the foundation to the centroid of the fi rst mode shape for multistory structures. Alternatively, h \u0003 is permitted to be approximated as 70% of the total structure height for multistory structures or as the full height of the structure for one-story structures;",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.3.3-T3",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.3.3",
+      "citation": "Section 19.3.3",
+      "page": 4
+    },
+    "title": "L = Half the larger dimension of the base of the structure;",
+    "description": "",
+    "data": {
+      "rule": "L = Half the larger dimension of the base of the structure;",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.3-H1"
+  },
+  {
+    "id": "ASCE7-22-19.3.3-T4",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.3.3",
+      "citation": "Section 19.3.3",
+      "page": 4
+    },
+    "title": "B = Half the smaller dimension of the base of the structure;",
+    "description": "",
+    "data": {
+      "rule": "B = Half the smaller dimension of the base of the structure;",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.3-H1"
+  },
+  {
+    "id": "ASCE7-22-19.3.3-T5",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.3.3",
+      "citation": "Section 19.3.3",
+      "page": 4
+    },
+    "title": "vs ; rd = Average effective shear wave velocity over a depth of B below the base of the structure determined using vso ; rd and Table 19.3-1 or a site-speci fi c study;",
+    "description": "",
+    "data": {
+      "rule": "vs ; rd = Average effective shear wave velocity over a depth of B below the base of the structure determined using vso ; rd and Table 19.3-1 or a site-speci fi c study;",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-19.3-E19-3-11"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.3-H1"
+  },
+  {
+    "id": "ASCE7-22-19.3.3-T6",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.3.3",
+      "citation": "Section 19.3.3",
+      "page": 4
+    },
+    "title": "vso ; rd = Average low strain shear wave velocity computed using Equation (20.4-1) over a depth of B below the base of the structure;",
+    "description": "",
+    "data": {
+      "rule": "vso ; rd = Average low strain shear wave velocity computed using Equation (20.4-1) over a depth of B below the base of the structure;",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.3-H1"
+  },
+  {
+    "id": "ASCE7-22-19.3.3-T7",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.3.3",
+      "citation": "Section 19.3.3",
+      "page": 4
+    },
+    "title": "Grd = Effective shear modulus derived or approximated based on G 0 ; rd and Table 19.3-2;",
+    "description": "",
+    "data": {
+      "rule": "Grd = Effective shear modulus derived or approximated based on G 0 ; rd and Table 19.3-2;",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-19.3-E19-3-21"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.3-H1"
+  },
+  {
+    "id": "ASCE7-22-19.3.3-T8",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.3.3",
+      "citation": "Section 19.3.3",
+      "page": 4
+    },
+    "title": "G 0 ; rd = Average shear modulus for the soils computed using Equation (20.4-1) over a depth B below the base of the structure at small strain levels;",
+    "description": "",
+    "data": {
+      "rule": "G 0 ; rd = Average shear modulus for the soils computed using Equation (20.4-1) over a depth B below the base of the structure at small strain levels;",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.3-H1"
+  },
+  {
+    "id": "ASCE7-22-19.3.3-T9",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.3.3",
+      "citation": "Section 19.3.3",
+      "page": 5
+    },
+    "title": "Table 19.3-2. Effective Shear Modulus Ratio ( Grd \u2215 G 0 , rd ).",
+    "description": "",
+    "data": {
+      "rule": "Table 19.3-2. Effective Shear Modulus Ratio ( Grd \u2215 G 0 , rd ).",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-19.3-E19-3-21"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.3-H1"
+  },
+  {
+    "id": "ASCE7-22-19.3.3-T10",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.3.3",
+      "citation": "Section 19.3.3",
+      "page": 5
+    },
+    "title": "a Use straight-line interpolation for intermediate values of SDS \u2215 2.5.",
+    "description": "",
+    "data": {
+      "rule": "a Use straight-line interpolation for intermediate values of SDS \u2215 2.5.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.3-H1"
+  },
+  {
+    "id": "ASCE7-22-19.3.3-P3",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.3.3",
+      "citation": "Section 19.3.3",
+      "page": 5
+    },
+    "title": "b Site-speci fi c geotechnical investigation and dynamic site response analyses shall be performed.",
+    "description": "",
+    "data": {
+      "rule": "b Site-speci fi c geotechnical investigation and dynamic site response analyses shall be performed.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.3.3-P4",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.3.3",
+      "citation": "Section 19.3.3",
+      "page": 5
+    },
+    "title": "c It is permitted to apply this table to the MCER response spectrum, determined according to Section 11.4.7, the SDS \u2215 2.5 headers shall be replaced by SMS \u2215 2.5; to apply the table to the site-speci ",
+    "description": "",
+    "data": {
+      "rule": "c It is permitted to apply this table to the MCER response spectrum, determined according to Section 11.4.7, the SDS \u2215 2.5 headers shall be replaced by SMS \u2215 2.5; to apply the table to the site-speci fi c MCER response spectrum determined according to Chapter 21, the SDS \u2215 2.5 headers shall be replaced by the MCER response spectral acceleration at 0.01 s natural period.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.3.3-T11",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.3.3",
+      "citation": "Section 19.3.3",
+      "page": 5
+    },
+    "title": "\u03b3 = Average unit weight of the soils over a depth of B below the base of the structure; and",
+    "description": "",
+    "data": {
+      "rule": "\u03b3 = Average unit weight of the soils over a depth of B below the base of the structure; and",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.3-H1"
+  },
+  {
+    "id": "ASCE7-22-19.3.3-P5",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.3.3",
+      "citation": "Section 19.3.3",
+      "page": 5
+    },
+    "title": "\u03bd = Poisson ' s ratio; it is permitted to use 0.3 for sandy and 0.45 for clayey soils.",
+    "description": "",
+    "data": {
+      "rule": "\u03bd = Poisson ' s ratio; it is permitted to use 0.3 for sandy and 0.45 for clayey soils.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.3.4-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.3.4",
+      "citation": "Section 19.3.4",
+      "page": 5
+    },
+    "title": "19.3.4 Radiation Damping for Circular Foundations The effects of radiation damping for structures with a circular foundation plan shall be represented by the effective damping ratio of the soil -struc",
+    "description": "",
+    "data": {
+      "rule": "19.3.4 Radiation Damping for Circular Foundations The effects of radiation damping for structures with a circular foundation plan shall be represented by the effective damping ratio of the soil -structure system, \u03b2 rd , [Equation (19.3-25)] determined in accordance with Equation (19.3-15):",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.3.4-T1",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.3.4",
+      "citation": "Section 19.3.4",
+      "page": 5
+    },
+    "title": "where r f = Radius of the circular foundation;",
+    "description": "",
+    "data": {
+      "rule": "where r f = Radius of the circular foundation;",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.3.4-H1"
+  },
+  {
+    "id": "ASCE7-22-19.3.4-T2",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.3.4",
+      "citation": "Section 19.3.4",
+      "page": 5
+    },
+    "title": "vs ; rd = The average effective shear wave velocity used in determining radiation damping effects over a depth of r f below the base of the structure determined using vso ; rd and Table 19.3-1 or a si",
+    "description": "",
+    "data": {
+      "rule": "vs ; rd = The average effective shear wave velocity used in determining radiation damping effects over a depth of r f below the base of the structure determined using vso ; rd and Table 19.3-1 or a site-speci fi c study;",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-19.3-E19-3-11"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.3.4-H1"
+  },
+  {
+    "id": "ASCE7-22-19.3.4-T3",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.3.4",
+      "citation": "Section 19.3.4",
+      "page": 5
+    },
+    "title": "vso ; rd = The average low strain shear wave velocity used in determining radiation damping effects computed using Equation (20.4-1) over a depth of r f below the base of the structure;",
+    "description": "",
+    "data": {
+      "rule": "vso ; rd = The average low strain shear wave velocity used in determining radiation damping effects computed using Equation (20.4-1) over a depth of r f below the base of the structure;",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.3.4-H1"
+  },
+  {
+    "id": "ASCE7-22-19.3.4-T4",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.3.4",
+      "citation": "Section 19.3.4",
+      "page": 5
+    },
+    "title": "\u03b3 = The average unit weight of the soils over a depth of r f below the base of the structure;",
+    "description": "",
+    "data": {
+      "rule": "\u03b3 = The average unit weight of the soils over a depth of r f below the base of the structure;",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.3.4-H1"
+  },
+  {
+    "id": "ASCE7-22-19.3.4-T5",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.3.4",
+      "citation": "Section 19.3.4",
+      "page": 5
+    },
+    "title": "Grd = Effective shear modulus used in determining radiation damping effects derived or approximated based on G 0 ; rd and Table 19.3-2; and",
+    "description": "",
+    "data": {
+      "rule": "Grd = Effective shear modulus used in determining radiation damping effects derived or approximated based on G 0 ; rd and Table 19.3-2; and",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-19.3-E19-3-21"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.3.4-H1"
+  },
+  {
+    "id": "ASCE7-22-19.3.4-T6",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.3.4",
+      "citation": "Section 19.3.4",
+      "page": 5
+    },
+    "title": "G 0 ; rd = \u03b3 v 2 so ; rd \u2215 g , the average shear modulus for the soils used in determining radiation damping effects computed using Equation (20.4-1) over a depth of r f below the base of the structur",
+    "description": "",
+    "data": {
+      "rule": "G 0 ; rd = \u03b3 v 2 so ; rd \u2215 g , the average shear modulus for the soils used in determining radiation damping effects computed using Equation (20.4-1) over a depth of r f below the base of the structure at small strain levels.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.3.4-H1"
+  },
+  {
+    "id": "ASCE7-22-19.3.5-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.3.5",
+      "citation": "Section 19.3.5",
+      "page": 5
+    },
+    "title": "19.3.5 Soil Damping The effects of soil hysteretic damping shall be represented by the effective soil hysteretic damping ratio, \u03b2 s , determined based on a site-speci fi c study. Alternatively, it is ",
+    "description": "",
+    "data": {
+      "rule": "19.3.5 Soil Damping The effects of soil hysteretic damping shall be represented by the effective soil hysteretic damping ratio, \u03b2 s , determined based on a site-speci fi c study. Alternatively, it is permitted to determine \u03b2 s in accordance with Table 19.3-3.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-19.3-E19-3-31"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.4-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.4",
+      "citation": "Section 19.4",
+      "page": 5
+    },
+    "title": "19.4 BASE SLAB AVERAGING AND EMBEDMENT (KINEMATIC) SSI EFFECTS",
+    "description": "",
+    "data": {
+      "rule": "19.4 BASE SLAB AVERAGING AND EMBEDMENT (KINEMATIC) SSI EFFECTS",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.4-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.4",
+      "citation": "Section 19.4",
+      "page": 5
+    },
+    "title": "Kinematic SSI effects are permitted to be represented by response spectral modi fi cation factors RRS bsa for base slab averaging and RRSe for embedment, which are multiplied by the spectral accelerat",
+    "description": "",
+    "data": {
+      "rule": "Kinematic SSI effects are permitted to be represented by response spectral modi fi cation factors RRS bsa for base slab averaging and RRSe for embedment, which are multiplied by the spectral acceleration ordinates of the response spectrum at each period. The modi fi cation factors are calculated in accordance with Sections 19.4.1 and 19.4.2. Modi fi cations of the response spectrum for kinematic SSI effects are permitted only for use with the nonlinear response history analysis provisions of Chapter 16, using the site-speci fi c response spectrum developed",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.3-T19-3-21",
+    "type": "table",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.3",
+      "citation": "Table 19.3-2",
+      "page": 5
+    },
+    "title": "Table 19.3-2. Effective Shear Modulus Ratio ( Grd \u2215 G 0 , rd ).",
+    "description": "",
+    "data": {
+      "columns": [
+        {
+          "name": "col_0",
+          "unit": null
+        },
+        {
+          "name": "Effective Peak Acceleration, S DS \u2215 2.5 a , c",
+          "unit": null
+        },
+        {
+          "name": "col_2",
+          "unit": null
+        },
+        {
+          "name": "col_3",
+          "unit": null
+        },
+        {
+          "name": "col_4",
+          "unit": null
+        }
+      ],
+      "rows": [
+        {
+          "col_0": "Site Class",
+          "Effective Peak Acceleration, S DS \u2215 2.5 a , c": "S DS \u2215 2.5 = 0",
+          "col_2": "S DS \u2215 2.5 = 0.1",
+          "col_3": "S DS \u2215 2.5 = 0.4",
+          "col_4": "S DS \u2215 2.5 \u2265 0.8"
+        },
+        {
+          "col_0": "A",
+          "Effective Peak Acceleration, S DS \u2215 2.5 a , c": 1.0,
+          "col_2": 1.0,
+          "col_3": 1.0,
+          "col_4": 1.0
+        },
+        {
+          "col_0": "B",
+          "Effective Peak Acceleration, S DS \u2215 2.5 a , c": 1.0,
+          "col_2": 1.0,
+          "col_3": 0.95,
+          "col_4": 0.9
+        },
+        {
+          "col_0": "BC",
+          "Effective Peak Acceleration, S DS \u2215 2.5 a , c": 1.0,
+          "col_2": 0.97,
+          "col_3": 0.84,
+          "col_4": 0.73
+        },
+        {
+          "col_0": "C",
+          "Effective Peak Acceleration, S DS \u2215 2.5 a , c": 1.0,
+          "col_2": 0.95,
+          "col_3": 0.75,
+          "col_4": 0.6
+        },
+        {
+          "col_0": "CD",
+          "Effective Peak Acceleration, S DS \u2215 2.5 a , c": 1.0,
+          "col_2": 0.92,
+          "col_3": 0.62,
+          "col_4": 0.25
+        },
+        {
+          "col_0": "D",
+          "Effective Peak Acceleration, S DS \u2215 2.5 a , c": 1.0,
+          "col_2": 0.9,
+          "col_3": 0.5,
+          "col_4": 0.1
+        },
+        {
+          "col_0": "DE",
+          "Effective Peak Acceleration, S DS \u2215 2.5 a , c": 1.0,
+          "col_2": 0.73,
+          "col_3": 0.16,
+          "col_4": 0.03
+        },
+        {
+          "col_0": "E",
+          "Effective Peak Acceleration, S DS \u2215 2.5 a , c": 1.0,
+          "col_2": 0.6,
+          "col_3": 0.05,
+          "col_4": "b"
+        },
+        {
+          "col_0": "F",
+          "Effective Peak Acceleration, S DS \u2215 2.5 a , c": "b",
+          "col_2": "b",
+          "col_3": "b",
+          "col_4": "b"
+        }
+      ]
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "docling"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.3-E19-3-251",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.3",
+      "citation": "Eq. (19.3-25)",
+      "page": 5
+    },
+    "title": "Equation (19.3-25)",
+    "description": "",
+    "data": {
+      "expression": "ircular Foundations The effects of radiation damping for structures with a circular foundation plan shall be represented by the effective damping ratio of the soil -structure system, \u03b2 rd , [Equation (19.3-25)",
+      "parameters": {
+        "a": {
+          "description": "Approximate lower bound natural frequency from Section 26.11.2",
+          "unit": "Hz",
+          "source": "ASCE7-22-26.3-T77"
+        }
+      }
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.4-E19-4-21",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.4",
+      "citation": "Eq. (19.4-2)",
+      "page": 6
+    },
+    "title": "Equation (19.4-2)",
+    "description": "",
+    "data": {
+      "expression": "1\u00feb2\u00feb4\u00feb6 0\u00feb8 0\u00feb1 0 0 b \u22641 site-specific study and shall not be taken as less than B = 0 0h 2 (cid:9) 4 1(cid:10)2i 0 (19.4-2)",
+      "parameters": {
+        "b": {
+          "description": "Mean hourly wind speed factor in Equation (26.1116), from Table 26.11-1",
+          "source": "ASCE7-22-26.3-T15"
+        },
+        "h": {
+          "description": "Height of a shear wall measured as the maximum clear height from top of foundation to bottom of diaphragm framing above, or the maximum clear height from top of diaphragm to bottom of diaphragm framing above",
+          "source": "ASCE7-22-11.3-T49"
+        },
+        "i": {
+          "description": "Building level referred to by a subscript i ;",
+          "source": "ASCE7-22-11.3-T59"
+        },
+        "B": {
+          "description": "Horizontal dimension of a building measured normal to wind direction",
+          "unit": "ft",
+          "source": "ASCE7-22-26.3-T14"
+        }
+      }
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "pdfplumber_scan"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.4-T1",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.4",
+      "citation": "Section 19.4",
+      "page": 6
+    },
+    "title": "Table 19.3-3. Soil Hysteretic Damping Ratio, \u03b2 s .",
+    "description": "",
+    "data": {
+      "rule": "Table 19.3-3. Soil Hysteretic Damping Ratio, \u03b2 s .",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-19.3-E19-3-31"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.4-H1"
+  },
+  {
+    "id": "ASCE7-22-19.4-T2",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.4",
+      "citation": "Section 19.4",
+      "page": 6
+    },
+    "title": "a Use straight-line interpolation for intermediate values of SDS \u2215 2.5.",
+    "description": "",
+    "data": {
+      "rule": "a Use straight-line interpolation for intermediate values of SDS \u2215 2.5.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.4-H1"
+  },
+  {
+    "id": "ASCE7-22-19.4-P2",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.4",
+      "citation": "Section 19.4",
+      "page": 6
+    },
+    "title": "b Site-speci fi c geotechnical investigation and dynamic site response analyses shall be performed.",
+    "description": "",
+    "data": {
+      "rule": "b Site-speci fi c geotechnical investigation and dynamic site response analyses shall be performed.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.4-T3",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.4",
+      "citation": "Section 19.4",
+      "page": 6
+    },
+    "title": "in accordance with Chapter 21 and subject to the limitations in Sections 19.2.3, 19.4.1, and 19.4.2.",
+    "description": "",
+    "data": {
+      "rule": "in accordance with Chapter 21 and subject to the limitations in Sections 19.2.3, 19.4.1, and 19.4.2.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.4-H1"
+  },
+  {
+    "id": "ASCE7-22-19.4-P3",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.4",
+      "citation": "Section 19.4",
+      "page": 6
+    },
+    "title": "The product of RRS bsa \u00d7 RRSe shall not be less than 0.7.",
+    "description": "",
+    "data": {
+      "rule": "The product of RRS bsa \u00d7 RRSe shall not be less than 0.7.",
+      "conditions": [
+        {
+          "parameter": "",
+          "operator": "<",
+          "value": 0.7,
+          "unit": null
+        }
+      ],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.4.1-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.4.1",
+      "citation": "Section 19.4.1",
+      "page": 6
+    },
+    "title": "19.4.1 Base Slab Averaging Consideration of the effects of base slab averaging through the development of site-speci fi c transfer functions that represent the kinematic SSI effects expected at the si",
+    "description": "",
+    "data": {
+      "rule": "19.4.1 Base Slab Averaging Consideration of the effects of base slab averaging through the development of site-speci fi c transfer functions that represent the kinematic SSI effects expected at the site for a given foundation con fi guration is permitted.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.4.1-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.4.1",
+      "citation": "Section 19.4.1",
+      "page": 6
+    },
+    "title": "Alternatively, modi fi cations for base slab averaging using the procedures of this section are permitted for the following cases:",
+    "description": "",
+    "data": {
+      "rule": "Alternatively, modi fi cations for base slab averaging using the procedures of this section are permitted for the following cases:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.4.1-T1",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.4.1",
+      "citation": "Section 19.4.1",
+      "page": 6
+    },
+    "title": "All structures located on Site Class C, CD, D, DE, or E; and",
+    "description": "",
+    "data": {
+      "rule": "All structures located on Site Class C, CD, D, DE, or E; and",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.4.1-H1"
+  },
+  {
+    "id": "ASCE7-22-19.4.1-T2",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.4.1",
+      "citation": "Section 19.4.1",
+      "page": 6
+    },
+    "title": "Structures that have structural mats or foundation elements interconnected with concrete slabs or that are continuously connected with grade beams or other foundation elements of suf fi cient lateral ",
+    "description": "",
+    "data": {
+      "rule": "Structures that have structural mats or foundation elements interconnected with concrete slabs or that are continuously connected with grade beams or other foundation elements of suf fi cient lateral stiffness, so as not to be characterized as fl exible under the requirements of Section 12.3.1.3.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.4.1-H1"
+  },
+  {
+    "id": "ASCE7-22-19.4.1-P2",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.4.1",
+      "citation": "Section 19.4.1",
+      "page": 6
+    },
+    "title": "The modification factor for base slab averaging, RRS bsa , shall be determined using Equation (19.4-1) for each period required for analysis.",
+    "description": "",
+    "data": {
+      "rule": "The modification factor for base slab averaging, RRS bsa , shall be determined using Equation (19.4-1) for each period required for analysis. where",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.4.1-T4",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.4.1",
+      "citation": "Section 19.4.1",
+      "page": 6
+    },
+    "title": "where be is the effective foundation size (ft),",
+    "description": "",
+    "data": {
+      "rule": "where be is the effective foundation size (ft),",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.4.1-H1"
+  },
+  {
+    "id": "ASCE7-22-19.4.1-T5",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.4.1",
+      "citation": "Section 19.4.1",
+      "page": 6
+    },
+    "title": "where be is the effective foundation size (m),",
+    "description": "",
+    "data": {
+      "rule": "where be is the effective foundation size (m),",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.4.1-H1"
+  },
+  {
+    "id": "ASCE7-22-19.4.1-P3",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.4.1",
+      "citation": "Section 19.4.1",
+      "page": 6
+    },
+    "title": "T is the response spectra ordinate period, which shall not be taken as less than 0.20 s when used in Equations (19.4-3) or (19.4-3.SI); and A base is the area of the base of the structure [ft 2 (m 2 )",
+    "description": "",
+    "data": {
+      "rule": "T is the response spectra ordinate period, which shall not be taken as less than 0.20 s when used in Equations (19.4-3) or (19.4-3.SI); and A base is the area of the base of the structure [ft 2 (m 2 )].",
+      "conditions": [
+        {
+          "parameter": "",
+          "operator": "<",
+          "value": 0.2,
+          "unit": null
+        }
+      ],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.4.2-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.4.2",
+      "citation": "Section 19.4.2",
+      "page": 6
+    },
+    "title": "19.4.2 Embedment The response spectrum shall be developed based on a site-speci fi c study at the depth of the base of the structure. Alternatively, modi fi cations for embedment are permitted using t",
+    "description": "",
+    "data": {
+      "rule": "19.4.2 Embedment The response spectrum shall be developed based on a site-speci fi c study at the depth of the base of the structure. Alternatively, modi fi cations for embedment are permitted using the procedures of this section.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.4.2-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.4.2",
+      "citation": "Section 19.4.2",
+      "page": 6
+    },
+    "title": "The modi fi cation factor for embedment, RRSe , shall be determined using Equation (19.4-5) for each period required for analysis.",
+    "description": "",
+    "data": {
+      "rule": "The modi fi cation factor for embedment, RRSe , shall be determined using Equation (19.4-5) for each period required for analysis. where",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.4.2-P2",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.4.2",
+      "citation": "Section 19.4.2",
+      "page": 6
+    },
+    "title": "e = Foundation embedment depth [ft (m)], not greater than 20 ft (6.1 m) and not greater than the bottom of the base slab diaphragm; a minimum of 75% of the foundation footprint shall be present at the",
+    "description": "",
+    "data": {
+      "rule": "e = Foundation embedment depth [ft (m)], not greater than 20 ft (6.1 m) and not greater than the bottom of the base slab diaphragm; a minimum of 75% of the foundation footprint shall be present at the embedment depth, and the foundation embedment for structures located on sloping sites shall be the shallowest embedment;",
+      "conditions": [
+        {
+          "parameter": "",
+          "operator": ">",
+          "value": 20.0,
+          "unit": "ft"
+        }
+      ],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.4.2-P3",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.4.2",
+      "citation": "Section 19.4.2",
+      "page": 6
+    },
+    "title": "vs ; e = The average effective shear wave velocity for site soil conditions used in determining embedment effects, taken as average value of velocity over the embedment depth of the foundation determi",
+    "description": "",
+    "data": {
+      "rule": "vs ; e = The average effective shear wave velocity for site soil conditions used in determining embedment effects, taken as average value of velocity over the embedment depth of the foundation determined using vso ; e and Table 19.3-1 or a site-speci fi c study and shall not be taken as less than 650 ft = s (200 m = s);",
+      "conditions": [
+        {
+          "parameter": "",
+          "operator": "<",
+          "value": 650.0,
+          "unit": "ft"
+        }
+      ],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-19.3-E19-3-11"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.4.2-T2",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.4.2",
+      "citation": "Section 19.4.2",
+      "page": 6
+    },
+    "title": "vso ; e = The average low strain shear wave velocity used in determining embedment effects computed using Equation (20.4-1) over the embedment depth of the foundation; and",
+    "description": "",
+    "data": {
+      "rule": "vso ; e = The average low strain shear wave velocity used in determining embedment effects computed using Equation (20.4-1) over the embedment depth of the foundation; and",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-19.4.2-H1"
+  },
+  {
+    "id": "ASCE7-22-19.4.2-P4",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.4.2",
+      "citation": "Section 19.4.2",
+      "page": 6
+    },
+    "title": "T = Response spectra ordinate period, which shall not be taken as less than 0.20 s when used in Equation (19.4-5).",
+    "description": "",
+    "data": {
+      "rule": "T = Response spectra ordinate period, which shall not be taken as less than 0.20 s when used in Equation (19.4-5).",
+      "conditions": [
+        {
+          "parameter": "",
+          "operator": "<",
+          "value": 0.2,
+          "unit": null
+        }
+      ],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.5-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.5",
+      "citation": "Section 19.5",
+      "page": 6
+    },
+    "title": "19.5 CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
+    "description": "",
+    "data": {
+      "rule": "19.5 CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.5-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.5",
+      "citation": "Section 19.5",
+      "page": 6
+    },
+    "title": "See Chapter 23 for the list of consensus standards and other documents that shall be considered part of this standard to the extent referenced in this chapter.",
+    "description": "",
+    "data": {
+      "rule": "See Chapter 23 for the list of consensus standards and other documents that shall be considered part of this standard to the extent referenced in this chapter.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.3-T19-3-31",
+    "type": "table",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.3",
+      "citation": "Table 19.3-3",
+      "page": 6
+    },
+    "title": "Table 19.3-3. Soil Hysteretic Damping Ratio, \u03b2 s .",
+    "description": "",
+    "data": {
+      "columns": [
+        {
+          "name": "col_0",
+          "unit": null
+        },
+        {
+          "name": "Effective Peak Acceleration, S DS \u2215 2.5 a",
+          "unit": null
+        },
+        {
+          "name": "col_2",
+          "unit": null
+        },
+        {
+          "name": "col_3",
+          "unit": null
+        },
+        {
+          "name": "col_4",
+          "unit": null
+        }
+      ],
+      "rows": [
+        {
+          "col_0": "Site Class",
+          "Effective Peak Acceleration, S DS \u2215 2.5 a": "S DS \u2215 2.5 = 0",
+          "col_2": "S DS \u2215 2.5 = 0.1",
+          "col_3": "S DS \u2215 2.5 = 0.4",
+          "col_4": "S DS \u2215 2.5 \u2265 0.8"
+        },
+        {
+          "col_0": "C",
+          "Effective Peak Acceleration, S DS \u2215 2.5 a": 0.01,
+          "col_2": 0.01,
+          "col_3": 0.03,
+          "col_4": 0.05
+        },
+        {
+          "col_0": "CD",
+          "Effective Peak Acceleration, S DS \u2215 2.5 a": 0.01,
+          "col_2": 0.01,
+          "col_3": 0.05,
+          "col_4": 0.09
+        },
+        {
+          "col_0": "D",
+          "Effective Peak Acceleration, S DS \u2215 2.5 a": 0.01,
+          "col_2": 0.02,
+          "col_3": 0.07,
+          "col_4": 0.15
+        },
+        {
+          "col_0": "DE",
+          "Effective Peak Acceleration, S DS \u2215 2.5 a": 0.01,
+          "col_2": 0.03,
+          "col_3": 0.12,
+          "col_4": 0.2
+        },
+        {
+          "col_0": "E",
+          "Effective Peak Acceleration, S DS \u2215 2.5 a": 0.01,
+          "col_2": 0.05,
+          "col_3": 0.2,
+          "col_4": "b"
+        },
+        {
+          "col_0": "F",
+          "Effective Peak Acceleration, S DS \u2215 2.5 a": "b",
+          "col_2": "b",
+          "col_3": "b",
+          "col_4": "b"
+        }
+      ]
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "docling"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.4-E19-4-31",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.4",
+      "citation": "Eq. (19.4-3)",
+      "page": 6
+    },
+    "title": "Equation (19.4-3)",
+    "description": "",
+    "data": {
+      "expression": "T is the response spectra ordinate period, which shall not be taken as less than 0.20 s when used in Equations (19.4-3)",
+      "parameters": {
+        "T": {
+          "description": "Fundamental period as determined in Chapter 19",
+          "source": "ASCE7-22-11.3-T105"
+        },
+        "s": {
+          "description": "Ultimate tensile strength of the bolt, stud, or insert leg wires, psi (MPa). For ASTM A307 bolts or ASTM A108 studs, it is permitted to be assumed to be 60,000 psi (415 MPa)",
+          "source": "ASCE7-22-11.3-P2"
+        }
+      }
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-19.4-E19-4-3-SI1",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 19,
+      "section": "19.4",
+      "citation": "Eq. (19.4-3.SI)",
+      "page": 6
+    },
+    "title": "Equation (19.4-3.SI)",
+    "description": "",
+    "data": {
+      "expression": "T is the response spectra ordinate period, which shall not be taken as less than 0.20 s when used in Equations (19.4-3) or (19.4-3.SI)",
+      "parameters": {
+        "T": {
+          "description": "Fundamental period as determined in Chapter 19",
+          "source": "ASCE7-22-11.3-T105"
+        },
+        "s": {
+          "description": "Ultimate tensile strength of the bolt, stud, or insert leg wires, psi (MPa). For ASTM A307 bolts or ASTM A108 studs, it is permitted to be assumed to be 60,000 psi (415 MPa)",
+          "source": "ASCE7-22-11.3-P2"
+        }
+      }
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  }
+]

@@ -1,0 +1,6340 @@
+[
+  {
+    "id": "ASCE7-22-22-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22",
+      "citation": "Section 22",
+      "page": 1
+    },
+    "title": "CHAPTER 22 SEISMIC GROUND MOTION AND LONG-PERIOD TRANSITION MAPS",
+    "description": "",
+    "data": {
+      "rule": "CHAPTER 22 SEISMIC GROUND MOTION AND LONG-PERIOD TRANSITION MAPS",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-22-T1",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22",
+      "citation": "Section 22",
+      "page": 1
+    },
+    "title": "Contained in this chapter are Figures 22-1 through 22-8, which map the risk-targeted maximum considered earthquake (MCER) spectral response acceleration parameters, SMS and SM 1 , for default site con",
+    "description": "",
+    "data": {
+      "rule": "Contained in this chapter are Figures 22-1 through 22-8, which map the risk-targeted maximum considered earthquake (MCER) spectral response acceleration parameters, SMS and SM 1 , for default site conditions, based on the most critical spectral response acceleration of Site Classes C, CD, and D; Figures 22-9 through 22-13, which map the maximum considered earthquake geometric mean (MCEG) peak ground acceleration parameter, PGAM, for the default site conditions; and Figures 22-14 through 22-17, which map the long-period transition period parameter, TL . In accordance with Section 11.4.3, SMS and SM 1 values for Site Classes A, B, BC, C, CD, D, DE, and E -as well as values of the MCER spectral response acceleration parameters, SS and S 1 , (for Site Class BC) -are contained in the USGS Seismic Design Geodatabase de fi ned in Section 11.2; values of PGAM for all the site classes are also contained in this geodatabase, in accordance with Section 11.8.3. For the de fi nitions of these ground motion parameters, see Section 11.3.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22-H1"
+  },
+  {
+    "id": "ASCE7-22-22-T2",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22",
+      "citation": "Section 22",
+      "page": 1
+    },
+    "title": "These maps and the USGS Seismic Design Geodatabase were prepared by the US Geological Survey in collaboration with the Building Seismic Safety Council (BSSC) Provisions Update Committee and the ASCE 7",
+    "description": "",
+    "data": {
+      "rule": "These maps and the USGS Seismic Design Geodatabase were prepared by the US Geological Survey in collaboration with the Building Seismic Safety Council (BSSC) Provisions Update Committee and the ASCE 7 Seismic Subcommittee and have been updated for this standard.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22-H1"
+  },
+  {
+    "id": "ASCE7-22-22-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22",
+      "citation": "Section 22",
+      "page": 1
+    },
+    "title": "Maps of TL for Guam and the Northern Mariana Islands and for American Samoa are not provided because this parameter has not been developed for those islands via the same deaggregation computations don",
+    "description": "",
+    "data": {
+      "rule": "Maps of TL for Guam and the Northern Mariana Islands and for American Samoa are not provided because this parameter has not been developed for those islands via the same deaggregation computations done for the other US regions. Therefore, as in previous editions of this standard, the value of TL shall be 12 s for those islands.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-22-T3",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22",
+      "citation": "Section 22",
+      "page": 1
+    },
+    "title": "The following is a list of the maps contained in this chapter:",
+    "description": "",
+    "data": {
+      "rule": "The following is a list of the maps contained in this chapter:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22-H1"
+  },
+  {
+    "id": "ASCE7-22-22-T4",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22",
+      "citation": "Section 22",
+      "page": 1
+    },
+    "title": "Figure 22-1 SMS for the Default Site Conditions for the Conterminous United States",
+    "description": "",
+    "data": {
+      "rule": "Figure 22-1 SMS for the Default Site Conditions for the Conterminous United States",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22-H1"
+  },
+  {
+    "id": "ASCE7-22-22-T5",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22",
+      "citation": "Section 22",
+      "page": 1
+    },
+    "title": "Figure 22-2 SM 1 for the Default Site Conditions for the Conterminous United States",
+    "description": "",
+    "data": {
+      "rule": "Figure 22-2 SM 1 for the Default Site Conditions for the Conterminous United States",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22-H1"
+  },
+  {
+    "id": "ASCE7-22-22-T6",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22",
+      "citation": "Section 22",
+      "page": 1
+    },
+    "title": "Figure 22-3 SMS for the Default Site Conditions for Alaska",
+    "description": "",
+    "data": {
+      "rule": "Figure 22-3 SMS for the Default Site Conditions for Alaska",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22-H1"
+  },
+  {
+    "id": "ASCE7-22-22-T7",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22",
+      "citation": "Section 22",
+      "page": 1
+    },
+    "title": "Figure 22-4 SM 1 for the Default Site Conditions for Alaska",
+    "description": "",
+    "data": {
+      "rule": "Figure 22-4 SM 1 for the Default Site Conditions for Alaska",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22-H1"
+  },
+  {
+    "id": "ASCE7-22-22-T8",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22",
+      "citation": "Section 22",
+      "page": 1
+    },
+    "title": "Figure 22-5 SMS and SM 1 for the Default Site Conditions for Hawaii",
+    "description": "",
+    "data": {
+      "rule": "Figure 22-5 SMS and SM 1 for the Default Site Conditions for Hawaii",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22-H1"
+  },
+  {
+    "id": "ASCE7-22-22-T9",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22",
+      "citation": "Section 22",
+      "page": 1
+    },
+    "title": "Figure 22-6 SMS and SM 1 for the Default Site Conditions for Puerto Rico and the United States Virgin Islands",
+    "description": "",
+    "data": {
+      "rule": "Figure 22-6 SMS and SM 1 for the Default Site Conditions for Puerto Rico and the United States Virgin Islands",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22-H1"
+  },
+  {
+    "id": "ASCE7-22-22-T10",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22",
+      "citation": "Section 22",
+      "page": 1
+    },
+    "title": "Figure 22-7 SMS and SM 1 for the Default Site Conditions for Guam and the Northern Mariana Islands",
+    "description": "",
+    "data": {
+      "rule": "Figure 22-7 SMS and SM 1 for the Default Site Conditions for Guam and the Northern Mariana Islands",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22-H1"
+  },
+  {
+    "id": "ASCE7-22-22-T11",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22",
+      "citation": "Section 22",
+      "page": 1
+    },
+    "title": "Figure 22-8 SMS and SM 1 for the Default Site Conditions for American Samoa",
+    "description": "",
+    "data": {
+      "rule": "Figure 22-8 SMS and SM 1 for the Default Site Conditions for American Samoa",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22-H1"
+  },
+  {
+    "id": "ASCE7-22-22-T12",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22",
+      "citation": "Section 22",
+      "page": 1
+    },
+    "title": "Figure 22-9 PGAM for the Default Site Conditions for the conterminous United States",
+    "description": "",
+    "data": {
+      "rule": "Figure 22-9 PGAM for the Default Site Conditions for the conterminous United States",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22-H1"
+  },
+  {
+    "id": "ASCE7-22-22-T13",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22",
+      "citation": "Section 22",
+      "page": 1
+    },
+    "title": "Figure 22-10 PGAM for the Default Site Conditions for Alaska",
+    "description": "",
+    "data": {
+      "rule": "Figure 22-10 PGAM for the Default Site Conditions for Alaska",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22-H1"
+  },
+  {
+    "id": "ASCE7-22-22-T14",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22",
+      "citation": "Section 22",
+      "page": 1
+    },
+    "title": "Figure 22-11 PGAM for the Default Site Conditions for Hawaii",
+    "description": "",
+    "data": {
+      "rule": "Figure 22-11 PGAM for the Default Site Conditions for Hawaii",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22-H1"
+  },
+  {
+    "id": "ASCE7-22-22-T15",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22",
+      "citation": "Section 22",
+      "page": 1
+    },
+    "title": "Figure 22-12 PGAM for the Default Site Conditions for Puerto Rico and the United States Virgin Islands",
+    "description": "",
+    "data": {
+      "rule": "Figure 22-12 PGAM for the Default Site Conditions for Puerto Rico and the United States Virgin Islands",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22-H1"
+  },
+  {
+    "id": "ASCE7-22-22-T16",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22",
+      "citation": "Section 22",
+      "page": 1
+    },
+    "title": "Figure 22-13 PGAM for the Default Site Conditions for Guam and the Northern Mariana Islands and American Samoa",
+    "description": "",
+    "data": {
+      "rule": "Figure 22-13 PGAM for the Default Site Conditions for Guam and the Northern Mariana Islands and American Samoa",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22-H1"
+  },
+  {
+    "id": "ASCE7-22-22-T17",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22",
+      "citation": "Section 22",
+      "page": 1
+    },
+    "title": "Figure 22-14 TL for the Conterminous United States",
+    "description": "",
+    "data": {
+      "rule": "Figure 22-14 TL for the Conterminous United States Figure 22-15 TL for Alaska Figure 22-16 TL for Hawaii",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22-H1"
+  },
+  {
+    "id": "ASCE7-22-22-T20",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22",
+      "citation": "Section 22",
+      "page": 1
+    },
+    "title": "Figure 22-17 TL for Puerto Rico and the United States Virgin Islands",
+    "description": "",
+    "data": {
+      "rule": "Figure 22-17 TL for Puerto Rico and the United States Virgin Islands",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22-H1"
+  },
+  {
+    "id": "ASCE7-22-22-N1",
+    "type": "user_note",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22",
+      "citation": "Section 22",
+      "page": 1
+    },
+    "title": "User Note: The USGS Seismic Design Geodatabase is available at the ASCE 7 Hazard Tool https://asce7hazardtool.online/ or an approved equivalent.",
+    "description": "",
+    "data": {
+      "rule": "User Note: The USGS Seismic Design Geodatabase is available at the ASCE 7 Hazard Tool https://asce7hazardtool.online/ or an approved equivalent.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-22.1-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 1
+    },
+    "title": "22.1 CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
+    "description": "",
+    "data": {
+      "rule": "22.1 CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-22.1-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 1
+    },
+    "title": "See Chapter 23 for the list of consensus standards and other documents that shall be considered part of this standard to the extent referenced in this chapter.",
+    "description": "",
+    "data": {
+      "rule": "See Chapter 23 for the list of consensus standards and other documents that shall be considered part of this standard to the extent referenced in this chapter. 120\u00b0W 110\u00b0W",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-22.1-T3",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 2
+    },
+    "title": "Maps prepared by the U.S. Geological Survey (USGS) using its 2018 National Seismic Hazard Model for the conterminous United States and the site-specific ground motion procedures of the 2020 NEHRP",
+    "description": "",
+    "data": {
+      "rule": "Maps prepared by the U.S. Geological Survey (USGS) using its 2018 National Seismic Hazard Model for the conterminous United States and the site-specific ground motion procedures of the 2020 NEHRP",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T4",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 2
+    },
+    "title": "Recommended Seismic Provisions (Chapter 21).",
+    "description": "",
+    "data": {
+      "rule": "Recommended Seismic Provisions (Chapter 21).",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T5",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 2
+    },
+    "title": "Larger, more detailed versions of these maps are not provided because it is recommended that corresponding",
+    "description": "",
+    "data": {
+      "rule": "Larger, more detailed versions of these maps are not provided because it is recommended that corresponding 10.5066/F7NK3C76).",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T7",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 2
+    },
+    "title": "web services be used to determine the mapped value for a specified location (e.g., see https://doi.org",
+    "description": "",
+    "data": {
+      "rule": "web services be used to determine the mapped value for a specified location (e.g., see https://doi.org",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-H2",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 2
+    },
+    "title": "Notes:",
+    "description": "",
+    "data": {
+      "rule": "Notes:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-22.1-T8",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 2
+    },
+    "title": "Maps prepared by USGS in collaboration with the FEMA-funded Building Seismic Safety Council (BSSC) and ASCE. The basis is explained in commentaries prepared by BSSC and ASCE and in the references.",
+    "description": "",
+    "data": {
+      "rule": "Maps prepared by USGS in collaboration with the FEMA-funded Building Seismic Safety Council (BSSC) and ASCE. The basis is explained in commentaries prepared by BSSC and ASCE and in the references.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T9",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 2
+    },
+    "title": "Ground motion values contoured on these maps incorporate",
+    "description": "",
+    "data": {
+      "rule": "Ground motion values contoured on these maps incorporate",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T10",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 2
+    },
+    "title": "A target risk of structural collapse equal to 1% in 50 years based upon a generic structural fragility,",
+    "description": "",
+    "data": {
+      "rule": "A target risk of structural collapse equal to 1% in 50 years based upon a generic structural fragility,",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T11",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 2
+    },
+    "title": "A factor of 1.1 to adjust from a geometric mean to the maximum response regardless of direction, and",
+    "description": "",
+    "data": {
+      "rule": "A factor of 1.1 to adjust from a geometric mean to the maximum response regardless of direction, and",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T12",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 2
+    },
+    "title": "Deterministic upper limits imposed near large, active faults, which are taken as 1.8 times the estimated median response to the characteristic earthquake for the governing fault (1.8 is used to repres",
+    "description": "",
+    "data": {
+      "rule": "Deterministic upper limits imposed near large, active faults, which are taken as 1.8 times the estimated median response to the characteristic earthquake for the governing fault (1.8 is used to represent the 84th percentile response), but not less than 150% g .",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T13",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 2
+    },
+    "title": "As such, the values are different from those on the uniform-hazard 2014 USGS National Seismic Hazard Maps posted at https://doi.org/10.5066/F7HT2MHG.",
+    "description": "",
+    "data": {
+      "rule": "As such, the values are different from those on the uniform-hazard 2014 USGS National Seismic Hazard Maps posted at https://doi.org/10.5066/F7HT2MHG.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T14",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 2
+    },
+    "title": "Larger, more detailed versions of these maps are not provided because it is recommended that the corresponding USGS web tool (https://doi.org/10.5066/F7NK3C76) be used to determine the mapped value fo",
+    "description": "",
+    "data": {
+      "rule": "Larger, more detailed versions of these maps are not provided because it is recommended that the corresponding USGS web tool (https://doi.org/10.5066/F7NK3C76) be used to determine the mapped value for a specified location.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-N1",
+    "type": "user_note",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 2
+    },
+    "title": "User Note: The USGS Seismic Design Geodatabase is available at the ASCE 7 Hazard Tool https://asce7hazardtool.online/ or an approved equivalent.",
+    "description": "",
+    "data": {
+      "rule": "User Note: The USGS Seismic Design Geodatabase is available at the ASCE 7 Hazard Tool https://asce7hazardtool.online/ or an approved equivalent.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-22.1-T15",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 2
+    },
+    "title": "Figure 22-1. SMS for the default site conditions for the conterminous United States.",
+    "description": "",
+    "data": {
+      "rule": "Figure 22-1. SMS for the default site conditions for the conterminous United States. 100\u00b0W +50 40- 150 DISCUSSION 50\u00b0N 45\u00b0N +-25- 40\u00b0N 35\u00b0N 20. 30\u00b0N 25\u00b0N TIT 100 100 200 90\u00b0W 80\u00b0W 70\u00b0W",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22-F22-11",
+    "type": "figure",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22",
+      "citation": "Figure 22-1",
+      "page": 2
+    },
+    "title": "Figure 22-1. SMS for the default site conditions for the conterminous United States.",
+    "description": "Figure 22-1. SMS for the default site conditions for the conterminous United States.",
+    "data": {
+      "figure_type": "other",
+      "description": "Figure 22-1. SMS for the default site conditions for the conterminous United States.",
+      "source_pdf_page": 2
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "bold_label"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-22.1-T36",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 3
+    },
+    "title": "Figure 22-1 ( Continued ). SMS for the default site conditions for the conterminous United States.",
+    "description": "",
+    "data": {
+      "rule": "Figure 22-1 ( Continued ). SMS for the default site conditions for the conterminous United States. 45\u00b0N 40\u00b0N -20 35\u00b0N 100 Contour intervals, %g -300- -200- -150- \u2014125\u2014 -100- \u201490 \u2014 \u201480 - \u201470\u2014 \u201460\u2014 \u2014 50- \u201440 - \u201435\u2014 \u201430 - \u201425- \u201420- \u201415- \u201410- 30\u00b0N 200 300 400 500 Miles Contours of spectral response acceleration expressed as a percent of gravity. Hachures point in direction of decreasing values 25\u00b0N 300 400 500 Kilometers -200= 10.5066/F7NK3C76). 120\u00b0W 110\u00b0W 100\u00b0W",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T80",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 4
+    },
+    "title": "Figure 22-2. SM 1 for the default site conditions for the conterminous United States.",
+    "description": "",
+    "data": {
+      "rule": "Figure 22-2. SM 1 for the default site conditions for the conterminous United States.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-H3",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 4
+    },
+    "title": "Notes:",
+    "description": "",
+    "data": {
+      "rule": "Notes:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-22.1-T81",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 4
+    },
+    "title": "Maps prepared by USGS in collaboration with the FEMA-funded BSSC and ASCE. The basis is explained in commentaries prepared by BSSC and ASCE and in the references. Ground motion values contoured on the",
+    "description": "",
+    "data": {
+      "rule": "Maps prepared by USGS in collaboration with the FEMA-funded BSSC and ASCE. The basis is explained in commentaries prepared by BSSC and ASCE and in the references. Ground motion values contoured on these maps incorporate",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T82",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 4
+    },
+    "title": "\u2022 A target risk of structural collapse equal to 1% in 50 years based upon a generic structural fragility,",
+    "description": "",
+    "data": {
+      "rule": "\u2022 A target risk of structural collapse equal to 1% in 50 years based upon a generic structural fragility,",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T83",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 4
+    },
+    "title": "\u2022 A factor of 1.3 to adjust from a geometric mean to the maximum response regardless of direction, and",
+    "description": "",
+    "data": {
+      "rule": "\u2022 A factor of 1.3 to adjust from a geometric mean to the maximum response regardless of direction, and",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T84",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 4
+    },
+    "title": "\u2022 Deterministic upper limits imposed near large, active faults, which are taken as 1.8 times the estimated median response to the characteristic earthquake for the governing",
+    "description": "",
+    "data": {
+      "rule": "\u2022 Deterministic upper limits imposed near large, active faults, which are taken as 1.8 times the estimated median response to the characteristic earthquake for the governing",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T85",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 4
+    },
+    "title": "fault (1.8 is used to represent the 84th percentile response), but not less than 60%",
+    "description": "",
+    "data": {
+      "rule": "fault (1.8 is used to represent the 84th percentile response), but not less than 60%",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T86",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 4
+    },
+    "title": "As such, the values are different from those on the uniform-hazard 2014 USGS National Seismic Hazard Maps posted at https://doi.org/10.5066/F7HT2MHG.",
+    "description": "",
+    "data": {
+      "rule": "As such, the values are different from those on the uniform-hazard 2014 USGS National Seismic Hazard Maps posted at https://doi.org/10.5066/F7HT2MHG.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T87",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 4
+    },
+    "title": "Larger, more detailed versions of these maps are not provided because it is recommended that the corresponding USGS web tool (https://doi.org/10.5066/F7NK3C76) be used",
+    "description": "",
+    "data": {
+      "rule": "Larger, more detailed versions of these maps are not provided because it is recommended that the corresponding USGS web tool (https://doi.org/10.5066/F7NK3C76) be used",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T88",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 4
+    },
+    "title": "to determine the mapped value for a specified location.",
+    "description": "",
+    "data": {
+      "rule": "to determine the mapped value for a specified location.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-N2",
+    "type": "user_note",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 4
+    },
+    "title": "User Note:",
+    "description": "",
+    "data": {
+      "rule": "User Note:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-22.1-N3",
+    "type": "user_note",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 4
+    },
+    "title": "The USGS Seismic Design Geodatabase is available at the ASCE 7 Hazard Tool https://asce7hazardtool.online/ or an approved equivalent.",
+    "description": "",
+    "data": {
+      "rule": "The USGS Seismic Design Geodatabase is available at the ASCE 7 Hazard Tool https://asce7hazardtool.online/ or an approved equivalent. 64100 7 200 DISCUSSION",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-22.1-T92",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 4
+    },
+    "title": "Maps prepared by the U.S. Geological Survey (USGS) using its 2018 National Seismic Hazard Model for",
+    "description": "",
+    "data": {
+      "rule": "Maps prepared by the U.S. Geological Survey (USGS) using its 2018 National Seismic Hazard Model for",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T93",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 4
+    },
+    "title": "the conterminous United States and the site-specific ground motion procedures of the 2020 NEHRP",
+    "description": "",
+    "data": {
+      "rule": "the conterminous United States and the site-specific ground motion procedures of the 2020 NEHRP",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T94",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 4
+    },
+    "title": "Recommended Seismic Provisions (Chapter 21).",
+    "description": "",
+    "data": {
+      "rule": "Recommended Seismic Provisions (Chapter 21).",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T95",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 4
+    },
+    "title": "Larger, more detailed versions of these maps are not provided because it is recommended that corresponding",
+    "description": "",
+    "data": {
+      "rule": "Larger, more detailed versions of these maps are not provided because it is recommended that corresponding",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T96",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 4
+    },
+    "title": "web services be used to determine the mapped value for a specified location (e.g., see https://doi.org",
+    "description": "",
+    "data": {
+      "rule": "web services be used to determine the mapped value for a specified location (e.g., see https://doi.org 50\u00b0N 45\u00b0N 40\u00b0N 35\u00b0N 30\u00b0N 25\u00b0N 100 100 200 90\u00b0W 80\u00b0W 70\u00b0W",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22-F22-21",
+    "type": "figure",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22",
+      "citation": "Figure 22-2",
+      "page": 4
+    },
+    "title": "Figure 22-2. SM1 for the default site conditions for the conterminous United States.",
+    "description": "Figure 22-2. SM1 for the default site conditions for the conterminous United States.",
+    "data": {
+      "figure_type": "other",
+      "description": "Figure 22-2. SM1 for the default site conditions for the conterminous United States.",
+      "source_pdf_page": 4
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "bold_label"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-22.1-T109",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 5
+    },
+    "title": "Figure 22-2 ( Continued ). SM 1 for the default site conditions for the conterminous United States.",
+    "description": "",
+    "data": {
+      "rule": "Figure 22-2 ( Continued ). SM 1 for the default site conditions for the conterminous United States. -40 \u2022 50 25 200 300 400 500 Miles 300 400 500 Kilometers 45\u00b0N - 40\u00b0N 35\u00b0N Contour intervals, %g 33989999999097 -60- 30\u00b0N Contours of spectral response acceleration expressed as a percent of gravity. Hachures point in direction of decreasing values 25\u00b0N Explanation Contour intervals, %g - 200- - 175 - 150\u0433 125 100 90 -80 70 60 50 40 -35 \u00b7 30 25 20 - 151 10 160\u00b0 1410444 10 170\u00b0",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T157",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 6
+    },
+    "title": "Contours of spectral response gravity. Hachures point in direction of",
+    "description": "",
+    "data": {
+      "rule": "Contours of spectral response gravity. Hachures point in direction of",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T158",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 6
+    },
+    "title": "acceleration expressed as a percent of decreasing values",
+    "description": "",
+    "data": {
+      "rule": "acceleration expressed as a percent of decreasing values 1809 20| 35 40. DISCUSSION",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T164",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 6
+    },
+    "title": "Maps prepared by the U.S. Geological Survey (USGS) using its",
+    "description": "",
+    "data": {
+      "rule": "Maps prepared by the U.S. Geological Survey (USGS) using its",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T165",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 6
+    },
+    "title": "2007 National Seismic Hazard Model for Alaska, the site-specific",
+    "description": "",
+    "data": {
+      "rule": "2007 National Seismic Hazard Model for Alaska, the site-specific",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T166",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 6
+    },
+    "title": "ground motion procedures of the 2020 NEHRP Recommended",
+    "description": "",
+    "data": {
+      "rule": "ground motion procedures of the 2020 NEHRP Recommended",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T167",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 6
+    },
+    "title": "Seismic Provisions (Chapter 21), and the FEMA P-2078 procedures",
+    "description": "",
+    "data": {
+      "rule": "Seismic Provisions (Chapter 21), and the FEMA P-2078 procedures",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T168",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 6
+    },
+    "title": "for developing multi-period response spectra of non-conterminous",
+    "description": "",
+    "data": {
+      "rule": "for developing multi-period response spectra of non-conterminous United States sites.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T170",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 6
+    },
+    "title": "Larger, more detailed versions of these maps are not provided",
+    "description": "",
+    "data": {
+      "rule": "Larger, more detailed versions of these maps are not provided",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T171",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 6
+    },
+    "title": "because it is recommended that corresponding web servicess be used",
+    "description": "",
+    "data": {
+      "rule": "because it is recommended that corresponding web servicess be used",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T172",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 6
+    },
+    "title": "to determine the mapped value for a specified location (e.g., see",
+    "description": "",
+    "data": {
+      "rule": "to determine the mapped value for a specified location (e.g., see",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T173",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 6
+    },
+    "title": "https://doi.org/10.5066/F7NK3C76).",
+    "description": "",
+    "data": {
+      "rule": "https://doi.org/10.5066/F7NK3C76). 25| 20 1125, 125 50l *3-2x*x125| 190=00 -125| -150| 18988 1751 60l 70- -80 35- 20-100 1257120 -100 125- 5150\u20bd175 -200 T25 150- 21520 100l -125 115- 609 57. 450/ 25 3 55\u00b0 100 100 200 300 400 500 Miles 100 0 100 200 300 400 500 Kilometers 50\u00b0",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-H4",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 6
+    },
+    "title": "Notes:",
+    "description": "",
+    "data": {
+      "rule": "Notes:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-22.1-T214",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 6
+    },
+    "title": "Maps prepared by USGS in collaboration with the FEMA-funded BSSC and ASCE. The basis is explained in commentaries prepared by BSSC and ASCE and in the references.",
+    "description": "",
+    "data": {
+      "rule": "Maps prepared by USGS in collaboration with the FEMA-funded BSSC and ASCE. The basis is explained in commentaries prepared by BSSC and ASCE and in the references.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T215",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 6
+    },
+    "title": "Ground motion values contoured on these maps incorporate",
+    "description": "",
+    "data": {
+      "rule": "Ground motion values contoured on these maps incorporate",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T216",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 6
+    },
+    "title": "A target risk of structural collapse equal to 1% in 50 years based upon a generic structural fragility,",
+    "description": "",
+    "data": {
+      "rule": "A target risk of structural collapse equal to 1% in 50 years based upon a generic structural fragility,",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T217",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 6
+    },
+    "title": "A factor of 1.1 to adjust from a geometric mean to the maximum response regardless of direction, and",
+    "description": "",
+    "data": {
+      "rule": "A factor of 1.1 to adjust from a geometric mean to the maximum response regardless of direction, and",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T218",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 6
+    },
+    "title": "Deterministic upper limits imposed near large, active faults, which are taken as 1.8 times the estimated median response to the characteristic earthquake for the fault (1.8 is used to represent the 84",
+    "description": "",
+    "data": {
+      "rule": "Deterministic upper limits imposed near large, active faults, which are taken as 1.8 times the estimated median response to the characteristic earthquake for the fault (1.8 is used to represent the 84th percentile response), but not less than 150% g .",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T219",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 6
+    },
+    "title": "As such, the values are different from those on the uniform-hazard 2007 USGS National Seismic Hazard Maps for Alaska posted at https://doi.org/10.5066/F7HT2MHG. Larger, more detailed versions of these",
+    "description": "",
+    "data": {
+      "rule": "As such, the values are different from those on the uniform-hazard 2007 USGS National Seismic Hazard Maps for Alaska posted at https://doi.org/10.5066/F7HT2MHG. Larger, more detailed versions of these maps are not provided because it is recommended that the corresponding USGS web tool (https://doi.org/10.5066/F7NK3C76) be used to determine the mapped value for a specified location.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-N4",
+    "type": "user_note",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 6
+    },
+    "title": "User Note: The USGS Seismic Design Geodatabase is available at the ASCE 7 Hazard Tool https://asce7hazardtool.online/ or an approved equivalent.",
+    "description": "",
+    "data": {
+      "rule": "User Note: The USGS Seismic Design Geodatabase is available at the ASCE 7 Hazard Tool https://asce7hazardtool.online/ or an approved equivalent.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-22.1-T220",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 6
+    },
+    "title": "Figure 22-3. SMS for the default site conditions for Alaska.",
+    "description": "",
+    "data": {
+      "rule": "Figure 22-3. SMS for the default site conditions for Alaska. 1709 1609 150| 1409 130 1209 65\u00b0 Explanation Contour intervals, %g - 300 - 200 60 40 \u00b7 30 25 -20 151 10 Notes: 160\u00b0 - 10 1110411 - 10| 170\u00b0",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22-F22-31",
+    "type": "figure",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22",
+      "citation": "Figure 22-3",
+      "page": 6
+    },
+    "title": "Figure 22-3. SMS for the default site conditions for Alaska.",
+    "description": "Figure 22-3. SMS for the default site conditions for Alaska.",
+    "data": {
+      "figure_type": "other",
+      "description": "Figure 22-3. SMS for the default site conditions for Alaska.",
+      "source_pdf_page": 6
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "bold_label"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-22.1-T245",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 7
+    },
+    "title": "Contours of spectral response gravity. Hachures point in direction of",
+    "description": "",
+    "data": {
+      "rule": "Contours of spectral response gravity. Hachures point in direction of",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T246",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 7
+    },
+    "title": "acceleration expressed as a percent of decreasing values",
+    "description": "",
+    "data": {
+      "rule": "acceleration expressed as a percent of decreasing values DISCUSSION",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T248",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 7
+    },
+    "title": "Maps prepared by the U.S. Geological Survey (USGS) using its",
+    "description": "",
+    "data": {
+      "rule": "Maps prepared by the U.S. Geological Survey (USGS) using its",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T249",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 7
+    },
+    "title": "2007 National Seismic Hazard Model for Alaska, the site-specific",
+    "description": "",
+    "data": {
+      "rule": "2007 National Seismic Hazard Model for Alaska, the site-specific",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T250",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 7
+    },
+    "title": "ground motion procedures of the 2020 NEHRP Recommended",
+    "description": "",
+    "data": {
+      "rule": "ground motion procedures of the 2020 NEHRP Recommended",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T251",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 7
+    },
+    "title": "Seismic Provisions (Chapter 21), and the FEMA P-2078 procedures",
+    "description": "",
+    "data": {
+      "rule": "Seismic Provisions (Chapter 21), and the FEMA P-2078 procedures",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T252",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 7
+    },
+    "title": "for developing multi-period response spectra of non-conterminous",
+    "description": "",
+    "data": {
+      "rule": "for developing multi-period response spectra of non-conterminous United States sites.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T254",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 7
+    },
+    "title": "Larger, more detailed versions of these maps are not provided",
+    "description": "",
+    "data": {
+      "rule": "Larger, more detailed versions of these maps are not provided",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T255",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 7
+    },
+    "title": "because it is recommended that corresponding web services be used",
+    "description": "",
+    "data": {
+      "rule": "because it is recommended that corresponding web services be used",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T256",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 7
+    },
+    "title": "to determine the mapped value for a specified location (e.g.. see",
+    "description": "",
+    "data": {
+      "rule": "to determine the mapped value for a specified location (e.g.. see",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T257",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 7
+    },
+    "title": "https://doi.org/10.5066/F7NK3C76).",
+    "description": "",
+    "data": {
+      "rule": "https://doi.org/10.5066/F7NK3C76). 50- 601 80- -gol -150| -100- -125l \u2022 73808- -200- 150. 60\u00b0 125: 150. -125. 200 200| 55\u00b0 100 i 100 200 300 400 500 Miles",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T281",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 7
+    },
+    "title": "100 0 100 200 300 400 500 Kilometers",
+    "description": "",
+    "data": {
+      "rule": "100 0 100 200 300 400 500 Kilometers 50\u00b0",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-H5",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 7
+    },
+    "title": "Notes:",
+    "description": "",
+    "data": {
+      "rule": "Notes:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-22.1-T283",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 7
+    },
+    "title": "Maps prepared by USGS in collaboration with the FEMA-funded BSSC and ASCE. The basis is explained in commentaries prepared by BSSC and ASCE and in the references.",
+    "description": "",
+    "data": {
+      "rule": "Maps prepared by USGS in collaboration with the FEMA-funded BSSC and ASCE. The basis is explained in commentaries prepared by BSSC and ASCE and in the references.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T284",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 7
+    },
+    "title": "Ground motion values contoured on these maps incorporate",
+    "description": "",
+    "data": {
+      "rule": "Ground motion values contoured on these maps incorporate",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T285",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 7
+    },
+    "title": "A target risk of structural collapse equal to 1% in 50 years based upon a generic structural fragility,",
+    "description": "",
+    "data": {
+      "rule": "A target risk of structural collapse equal to 1% in 50 years based upon a generic structural fragility,",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T286",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 7
+    },
+    "title": "A factor of 1.3 to adjust from a geometric mean to the maximum response regardless of direction, and",
+    "description": "",
+    "data": {
+      "rule": "A factor of 1.3 to adjust from a geometric mean to the maximum response regardless of direction, and",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T287",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 7
+    },
+    "title": "\u00b7 Deterministic upper limits imposed near large, active faults, which are taken as 1.8 times the estimated median response to the characteristic earthquake for the fault (1.8 is used to represent the ",
+    "description": "",
+    "data": {
+      "rule": "\u00b7 Deterministic upper limits imposed near large, active faults, which are taken as 1.8 times the estimated median response to the characteristic earthquake for the fault (1.8 is used to represent the 84th percentile response), but not less than 60% g.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T288",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 7
+    },
+    "title": "As such, the values are different from those on the uniform-hazard 2007 USGS National Seismic Hazard Maps for Alaska posted at https://doi.org/10.5066/F7HT2MHG. Larger, more detailed versions of these",
+    "description": "",
+    "data": {
+      "rule": "As such, the values are different from those on the uniform-hazard 2007 USGS National Seismic Hazard Maps for Alaska posted at https://doi.org/10.5066/F7HT2MHG. Larger, more detailed versions of these maps are not provided because it is recommended that the corresponding USGS web tool (https://doi.org/10.5066/F7NK3C76) be used to determine the mapped value for a specified location.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-N5",
+    "type": "user_note",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 7
+    },
+    "title": "User Note: The USGS Seismic Design Geodatabase is available at the ASCE 7 Hazard Tool https://asce7hazardtool.online/ or an approved equivalent.",
+    "description": "",
+    "data": {
+      "rule": "User Note: The USGS Seismic Design Geodatabase is available at the ASCE 7 Hazard Tool https://asce7hazardtool.online/ or an approved equivalent.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-22.1-T289",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 7
+    },
+    "title": "Figure 22-4. SM 1 for the default site conditions for Alaska.",
+    "description": "",
+    "data": {
+      "rule": "Figure 22-4. SM 1 for the default site conditions for Alaska. 180 160| 30 3 140\u00b0 120\u00b0 65 Contour intervals, %g - 300 200 150 100 90- 80 70- 60 50 40 351 - 30 - 25- 20 - 15- Contour intervals, %g 300 200 150 100 - 75- 60 50 - 40- - 30 25 20l 15 10- 161\u00b0 23\u00b0 22\u00b0 158\u00b0 25 -30 35 40 60)",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22-F22-41",
+    "type": "figure",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22",
+      "citation": "Figure 22-4",
+      "page": 7
+    },
+    "title": "Figure 22-4. SM1 for the default site conditions for Alaska.",
+    "description": "Figure 22-4. SM1 for the default site conditions for Alaska.",
+    "data": {
+      "figure_type": "other",
+      "description": "Figure 22-4. SM1 for the default site conditions for Alaska.",
+      "source_pdf_page": 7
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "bold_label"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-22.1-T333",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 8
+    },
+    "title": "Figure 22-5. SMS and SM 1 for the default site conditions for Hawaii.",
+    "description": "",
+    "data": {
+      "rule": "Figure 22-5. SMS and SM 1 for the default site conditions for Hawaii. Notes:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T335",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 8
+    },
+    "title": "Maps prepared by USGS in collaboration with the FEMA-funded BSSC and ASCE. The basis is explained in commentaries prepared by BSSC and ASCE and in the references.",
+    "description": "",
+    "data": {
+      "rule": "Maps prepared by USGS in collaboration with the FEMA-funded BSSC and ASCE. The basis is explained in commentaries prepared by BSSC and ASCE and in the references.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T336",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 8
+    },
+    "title": "Ground motion values contoured on these maps incorporate",
+    "description": "",
+    "data": {
+      "rule": "Ground motion values contoured on these maps incorporate",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T337",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 8
+    },
+    "title": "\u2022 A target risk of structural collapse equal to 1% in 50 years based upon a generic structural fragility, and",
+    "description": "",
+    "data": {
+      "rule": "\u2022 A target risk of structural collapse equal to 1% in 50 years based upon a generic structural fragility, and",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T338",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 8
+    },
+    "title": "\u2022 Deterministic upper limits imposed near large, active faults, which are taken as 1.8 times the estimated median response to the characteristic earthquake for the fault (1.8 is",
+    "description": "",
+    "data": {
+      "rule": "\u2022 Deterministic upper limits imposed near large, active faults, which are taken as 1.8 times the estimated median response to the characteristic earthquake for the fault (1.8 is",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T339",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 8
+    },
+    "title": "used to represent the 84th percentile response), but not less than 150% and 60% g for 0.2 and 1.0 s, respectively.",
+    "description": "",
+    "data": {
+      "rule": "used to represent the 84th percentile response), but not less than 150% and 60% g for 0.2 and 1.0 s, respectively.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T340",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 8
+    },
+    "title": "As such, the values are different from those on the uniform-hazard 1998 USGS National Seismic Hazard Maps for Hawaii posted at https://doi.org/10.5066/F7HT2MHG.",
+    "description": "",
+    "data": {
+      "rule": "As such, the values are different from those on the uniform-hazard 1998 USGS National Seismic Hazard Maps for Hawaii posted at https://doi.org/10.5066/F7HT2MHG.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T341",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 8
+    },
+    "title": "Larger, more detailed versions of these maps are not provided because it is recommended that the corresponding USGS web tool (https://doi.org/10.5066/F7NK3C76) be used",
+    "description": "",
+    "data": {
+      "rule": "Larger, more detailed versions of these maps are not provided because it is recommended that the corresponding USGS web tool (https://doi.org/10.5066/F7NK3C76) be used",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T342",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 8
+    },
+    "title": "to determine the mapped value for a specified location.",
+    "description": "",
+    "data": {
+      "rule": "to determine the mapped value for a specified location.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-N6",
+    "type": "user_note",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 8
+    },
+    "title": "User Note:",
+    "description": "",
+    "data": {
+      "rule": "User Note:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-22.1-N7",
+    "type": "user_note",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 8
+    },
+    "title": "The USGS Seismic Design Geodatabase is available at the ASCE 7 Hazard Tool https://asce7hazardtool.online/ or an approved equivalent.",
+    "description": "",
+    "data": {
+      "rule": "The USGS Seismic Design Geodatabase is available at the ASCE 7 Hazard Tool https://asce7hazardtool.online/ or an approved equivalent. 21\u00b0 20\u00b0 19\u00b0 18\u00b0 23061\u00b0 22\u00b0 21\u00b0 20\u00b0 19\u00b0 180 30 20. 25. 200- 150| 3007 200 -90-80 11 10411 Contours of spectral response",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-22.1-T363",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 8
+    },
+    "title": "acceleration expressed as a percent",
+    "description": "",
+    "data": {
+      "rule": "acceleration expressed as a percent of gravity. Hachures point in",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T365",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 8
+    },
+    "title": "direction of decreasing values",
+    "description": "",
+    "data": {
+      "rule": "direction of decreasing values SMS 160\u00b0 159\u00b0 158\u00b0 -20- 15- 25| 30- 157\u00b0 156\u00b0 50| 155\u00b0 154 \u00b0 -75| -100- -150- -200- \u2014100 1300 -300- -200 150- py-100- -60- SMI 100 100 Miles 100 100 Kilometers DISCUSSION",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T396",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 8
+    },
+    "title": "Maps prepared by the U.S. Geological Survey (USGS) using its 1998 National Seismic Hazard Model for Hawaii, the",
+    "description": "",
+    "data": {
+      "rule": "Maps prepared by the U.S. Geological Survey (USGS) using its 1998 National Seismic Hazard Model for Hawaii, the",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T397",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 8
+    },
+    "title": "sit P20 procures or deeding the po Respect of i on Pois Chaser 2), and the",
+    "description": "",
+    "data": {
+      "rule": "sit P20 procures or deeding the po Respect of i on Pois Chaser 2), and the",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T398",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 8
+    },
+    "title": "arger, more detailed versions of these maps are not provided because it is recommended that corresponding web service",
+    "description": "",
+    "data": {
+      "rule": "arger, more detailed versions of these maps are not provided because it is recommended that corresponding web service",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T399",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 8
+    },
+    "title": "se used to determine the mapped value for a specified location (e.g., see https://doi.org/10.5066/F7NK3C76)",
+    "description": "",
+    "data": {
+      "rule": "se used to determine the mapped value for a specified location (e.g., see https://doi.org/10.5066/F7NK3C76) - 10| 1M10411 Contours of spectral response",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T403",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 8
+    },
+    "title": "acceleration expressed as a percent",
+    "description": "",
+    "data": {
+      "rule": "acceleration expressed as a percent of gravity. Hachures point in",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T405",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 8
+    },
+    "title": "direction of decreasing values",
+    "description": "",
+    "data": {
+      "rule": "direction of decreasing values 160\u00b0 159\u00b0 157\u00b0 -20 156\u00b0 155\u00b0 154 \u00b0 Contour intervals, %g 150 125 100 - 90 - 125 100 90 - 80 70 60 10 10",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22-F22-51",
+    "type": "figure",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22",
+      "citation": "Figure 22-5",
+      "page": 8
+    },
+    "title": "Figure 22-5. SMS and SM1 for the default site conditions for Hawaii.",
+    "description": "Figure 22-5. SMS and SM1 for the default site conditions for Hawaii.",
+    "data": {
+      "figure_type": "other",
+      "description": "Figure 22-5. SMS and SM1 for the default site conditions for Hawaii.",
+      "source_pdf_page": 8
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "bold_label"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-22.1-T426",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 9
+    },
+    "title": "Contours of spectral response of gravity. Hachures point in",
+    "description": "",
+    "data": {
+      "rule": "Contours of spectral response of gravity. Hachures point in",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T427",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 9
+    },
+    "title": "acceleration expressed as a percent direction of decreasing values",
+    "description": "",
+    "data": {
+      "rule": "acceleration expressed as a percent direction of decreasing values",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-H6",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 9
+    },
+    "title": "Notes:",
+    "description": "",
+    "data": {
+      "rule": "Notes:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-22.1-T428",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 9
+    },
+    "title": "Maps prepared by USGS in collaboration with the FEMA-funded BSSC and ASCE. The basis is explained in commentaries prepared by BSSC and ASCE and in the references. Ground motion values contoured on the",
+    "description": "",
+    "data": {
+      "rule": "Maps prepared by USGS in collaboration with the FEMA-funded BSSC and ASCE. The basis is explained in commentaries prepared by BSSC and ASCE and in the references. Ground motion values contoured on these maps incorporate",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T429",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 9
+    },
+    "title": "A target risk of structural collapse equal to 1% in 50 years based upon a generic structural fragility,",
+    "description": "",
+    "data": {
+      "rule": "A target risk of structural collapse equal to 1% in 50 years based upon a generic structural fragility,",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T430",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 9
+    },
+    "title": "A factor of 1.1 and 1.3 for 0.2 and 1.0 s, respectively, to adjust from a geometric mean to the maximum response regardless of direction, and",
+    "description": "",
+    "data": {
+      "rule": "A factor of 1.1 and 1.3 for 0.2 and 1.0 s, respectively, to adjust from a geometric mean to the maximum response regardless of direction, and",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T431",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 9
+    },
+    "title": "Deterministic upper limits imposed near large, active faults, which are taken as 1.8 times the estimated median response to the characteristic earthquake for the fault (1.8 is used to represent the 84",
+    "description": "",
+    "data": {
+      "rule": "Deterministic upper limits imposed near large, active faults, which are taken as 1.8 times the estimated median response to the characteristic earthquake for the fault (1.8 is used to represent the 84th percentile response), but not less than 150% and 60% g for 0.2 and 1.0 s, respectively.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T432",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 9
+    },
+    "title": "As such, the values are different from those on the uniform-hazard 2003 USGS National Seismic Hazard Maps for Puerto Rico and the US. Virgin Islands posted at https://doi.org/10.5066/F7HT2MHG.",
+    "description": "",
+    "data": {
+      "rule": "As such, the values are different from those on the uniform-hazard 2003 USGS National Seismic Hazard Maps for Puerto Rico and the US. Virgin Islands posted at https://doi.org/10.5066/F7HT2MHG.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T433",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 9
+    },
+    "title": "Larger, more detailed versions of these maps are not provided because it is recommended that the corresponding USGS web tool (https://doi.org/10.5066/F7NK3C76) be used to determine the mapped value fo",
+    "description": "",
+    "data": {
+      "rule": "Larger, more detailed versions of these maps are not provided because it is recommended that the corresponding USGS web tool (https://doi.org/10.5066/F7NK3C76) be used to determine the mapped value for a specified location.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-N8",
+    "type": "user_note",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 9
+    },
+    "title": "User Note:",
+    "description": "",
+    "data": {
+      "rule": "User Note:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-22.1-N9",
+    "type": "user_note",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 9
+    },
+    "title": "The USGS Seismic Design Geodatabase is available at the ASCE 7 Hazard Tool https://asce7hazardtool.online/ or an approved equivalent.",
+    "description": "",
+    "data": {
+      "rule": "The USGS Seismic Design Geodatabase is available at the ASCE 7 Hazard Tool https://asce7hazardtool.online/ or an approved equivalent.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-22.1-T434",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 9
+    },
+    "title": "Figure 22-6. SMS and SM 1 for the default site conditions for Puerto Rico and the US Virgin Islands.",
+    "description": "",
+    "data": {
+      "rule": "Figure 22-6. SMS and SM 1 for the default site conditions for Puerto Rico and the US Virgin Islands. Explanation 67\u00b030 67\u00b030' , 200 67\u00b000' 66\u00b030 PUERTO RICO 66\u00b0001 150- 64\u00b030 19\u00b000 17 200- -200 1 +150. 150 150- 150 -125| 100. + 45 49 100% 44100 \u0440 \u043e\u0442\u043e 67\u00b000' 66\u00b030' 150 PUERTO RICO (UNITED STATES) 100 100 -125 1001 -80 - 90- 50 50 -125- -150 Sus 66\u00b000' 90 SMI -100- DISCUSSION TORTOLA (UNITED KINGDOM) 18\u00b030* (SINATE STATERA SAINT THOMAS SAINT JOHN (UNITED STATES) UNITED STATES 441501114 ISLA DE VIEQUES (UNITED STATES) -150- 18\u00b000 SAINT CROI UNITED STATES 125 ****=100** 17\u00b030* 65\u00b030 65\u00b000* 64\u00b030' 19\u00b000' TORTOLA (UNITED KINGDOM) 18\u00b0301 100 -100 SAINT THOMAS (UNITED STATES) UNITED STATES ISUADE STATES -90- 18\u00b000' SAINT CROI UNITED STATES -80 -10 17\u00b030* 50 Miles 50 Kilometers",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T513",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 9
+    },
+    "title": "age, more dinailed verons of te a peat no paid because i come de a comes ding web services be.",
+    "description": "",
+    "data": {
+      "rule": "age, more dinailed verons of te a peat no paid because i come de a comes ding web services be. (UNITED STATES) 65\u00b030* 65\u00b000' 21049\u00b0 Contour intervals, %g - 300 20\u00b0 - 250 - 200 - 150 - 125 - 100 -90 80 144\u00b0 21\u00b0 Contour intervals, %g - 175 Notes:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22-F22-61",
+    "type": "figure",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22",
+      "citation": "Figure 22-6",
+      "page": 9
+    },
+    "title": "Figure 22-6. SMS and SM1 for the default site conditions for Puerto Rico and the US Virgin Islands.",
+    "description": "Figure 22-6. SMS and SM1 for the default site conditions for Puerto Rico and the US Virgin Islands.",
+    "data": {
+      "figure_type": "other",
+      "description": "Figure 22-6. SMS and SM1 for the default site conditions for Puerto Rico and the US Virgin Islands.",
+      "source_pdf_page": 9
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "bold_label"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-22.1-T533",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 10
+    },
+    "title": "Maps prepared by USGS in collaboration with the FEMA-funded BSSC. The basis is explained in commentary prepared by BSSC and in the references.",
+    "description": "",
+    "data": {
+      "rule": "Maps prepared by USGS in collaboration with the FEMA-funded BSSC. The basis is explained in commentary prepared by BSSC and in the references.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T534",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 10
+    },
+    "title": "Ground motion values contoured on these maps incorporate",
+    "description": "",
+    "data": {
+      "rule": "Ground motion values contoured on these maps incorporate",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T535",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 10
+    },
+    "title": "\u2022 A target risk of structural collapse equal to 1% in 50 years based upon a generic structural fragility,",
+    "description": "",
+    "data": {
+      "rule": "\u2022 A target risk of structural collapse equal to 1% in 50 years based upon a generic structural fragility,",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T536",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 10
+    },
+    "title": "A factor of 1.1 and 1.3 for 0.2 and 1.0 s, respectively, to adjust from a geometric mean to the maximum response regardless of direction, and",
+    "description": "",
+    "data": {
+      "rule": "A factor of 1.1 and 1.3 for 0.2 and 1.0 s, respectively, to adjust from a geometric mean to the maximum response regardless of direction, and",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T537",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 10
+    },
+    "title": "\u2022 Deterministic upper limits imposed near large, active faults, which are taken as 1.8 times the estimated median response to the characteristic earthquake for the governing",
+    "description": "",
+    "data": {
+      "rule": "\u2022 Deterministic upper limits imposed near large, active faults, which are taken as 1.8 times the estimated median response to the characteristic earthquake for the governing",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T538",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 10
+    },
+    "title": "fault (1.8 is used to represent the 84th percentile response), but not less than 150% and 60% g for 0.2 and 1.0 s, respectively.",
+    "description": "",
+    "data": {
+      "rule": "fault (1.8 is used to represent the 84th percentile response), but not less than 150% and 60% g for 0.2 and 1.0 s, respectively.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T539",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 10
+    },
+    "title": "As such, the values are different from those on the uniform-hazard 2012 USGS National Seismic Hazard Maps for Guam and the Northern Mariana Islands posted at",
+    "description": "",
+    "data": {
+      "rule": "As such, the values are different from those on the uniform-hazard 2012 USGS National Seismic Hazard Maps for Guam and the Northern Mariana Islands posted at",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T540",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 10
+    },
+    "title": "https://doi.org/10.5066/F7HT2MHG.",
+    "description": "",
+    "data": {
+      "rule": "https://doi.org/10.5066/F7HT2MHG.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T541",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 10
+    },
+    "title": "Larger, more detailed versions of these maps are not provided because it is recommended that the corresponding USGS web tool (https://doi.org/10.5066/F7NK3C76) be",
+    "description": "",
+    "data": {
+      "rule": "Larger, more detailed versions of these maps are not provided because it is recommended that the corresponding USGS web tool (https://doi.org/10.5066/F7NK3C76) be",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T542",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 10
+    },
+    "title": "used to determine the mapped value for a specified location.",
+    "description": "",
+    "data": {
+      "rule": "used to determine the mapped value for a specified location. 19\u00b0 18\u00b0 17\u00b0 16\u00b0 15\u00b0 14\u00b0 13\u00b0 & Northern Mariana Islands 150 Northern Mariana Islands 351 Guam SMS 100 Explanation 000 100 19\u00b0 18\u00b0 17\u00b0 16\u00b0 15\u00b0 14\u00b0 00\u0433. 13\u00b0 - 125 - 150 - 100| - 90 80 - 70 - 60- - 50 100 Northern Mariana Islands 19\u00b0 18\u00b0 17\u00b0 16\u00b0 610g0 90 Northern Mariana Islands 100 15\u00b0 -125 149 -175 Guam 13\u00b0 SMI 200 Miles 200 Kilometers DISCUSSION",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T604",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 10
+    },
+    "title": "Maps prepared by the U.S. Geological Survey (USGS) using its 2012 National Seismic Hazard Model for Guam and the",
+    "description": "",
+    "data": {
+      "rule": "Maps prepared by the U.S. Geological Survey (USGS) using its 2012 National Seismic Hazard Model for Guam and the",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T605",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 10
+    },
+    "title": "Northern Mariana Islands, the site-specific ground motion procedures of the 2020 NEHRP Recommended Seismic",
+    "description": "",
+    "data": {
+      "rule": "Northern Mariana Islands, the site-specific ground motion procedures of the 2020 NEHRP Recommended Seismic",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T606",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 10
+    },
+    "title": "Provisions (Chapter 21), and the FEMA P-2078 procedures for developing multi-period response spectra c",
+    "description": "",
+    "data": {
+      "rule": "Provisions (Chapter 21), and the FEMA P-2078 procedures for developing multi-period response spectra c",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T607",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 10
+    },
+    "title": "10n-conterminous United States site",
+    "description": "",
+    "data": {
+      "rule": "10n-conterminous United States site",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T608",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 10
+    },
+    "title": "arger, more detailed versions of these maps are not provided because it is recommended that corresponding web services",
+    "description": "",
+    "data": {
+      "rule": "arger, more detailed versions of these maps are not provided because it is recommended that corresponding web services",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T609",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 10
+    },
+    "title": "ised to determine the mapped value for a specified location (e.g., see https://doi.org/10.5066/F7NK3C7",
+    "description": "",
+    "data": {
+      "rule": "ised to determine the mapped value for a specified location (e.g., see https://doi.org/10.5066/F7NK3C7 150- 19\u00b0 18\u00b0 17\u00b0 16\u00b0 15\u00b0 14\u00b0 13\u00b0",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-N10",
+    "type": "user_note",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 10
+    },
+    "title": "User Note:",
+    "description": "",
+    "data": {
+      "rule": "User Note:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-22.1-N11",
+    "type": "user_note",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 10
+    },
+    "title": "The USGS Seismic Design Geodatabase is available at the ASCE 7 Hazard Tool https://asce7hazardtool.online/ or an approved equivalent.",
+    "description": "",
+    "data": {
+      "rule": "The USGS Seismic Design Geodatabase is available at the ASCE 7 Hazard Tool https://asce7hazardtool.online/ or an approved equivalent.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-22.1-T618",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 10
+    },
+    "title": "Figure 22-7. SMS and SM 1 for the default site conditions for Guam and the Northern Mariana Islands.",
+    "description": "",
+    "data": {
+      "rule": "Figure 22-7. SMS and SM 1 for the default site conditions for Guam and the Northern Mariana Islands. 20\u00b0 200- 145\u00b0|",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T622",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 10
+    },
+    "title": "Contours of spectral response acceleration expressed as a percent of gravity.",
+    "description": "",
+    "data": {
+      "rule": "Contours of spectral response acceleration expressed as a percent of gravity. - 10 \u2014 - 10 - 146\u00b0 147\u00b0 150. 148\u00b0 21\u00b0 20\u00b0| 10Q 145\u00b0 146\u00b0 147\u00b0 148\u00b0 21\u00b0 20\u00b0 - 10- \u201410 - L1-10-114",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22-F22-71",
+    "type": "figure",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22",
+      "citation": "Figure 22-7",
+      "page": 10
+    },
+    "title": "Figure 22-7. SMS and SM1 for the default site conditions for Guam and the Northern Mariana Islands.",
+    "description": "Figure 22-7. SMS and SM1 for the default site conditions for Guam and the Northern Mariana Islands.",
+    "data": {
+      "figure_type": "other",
+      "description": "Figure 22-7. SMS and SM1 for the default site conditions for Guam and the Northern Mariana Islands.",
+      "source_pdf_page": 10
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "bold_label"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-22.1-T641",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 11
+    },
+    "title": "Contours of spectral response acceleration expressed as a percent",
+    "description": "",
+    "data": {
+      "rule": "Contours of spectral response acceleration expressed as a percent",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T642",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 11
+    },
+    "title": "of gravity. Hachures point in direction of decreasing values",
+    "description": "",
+    "data": {
+      "rule": "of gravity. Hachures point in direction of decreasing values",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-H7",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 11
+    },
+    "title": "Notes:",
+    "description": "",
+    "data": {
+      "rule": "Notes: Contour intervals, %g \u2014 175 \u2014 \u2014 150 \u2014 \u2014 125 \u2014 \u2014100 \u2014 - 90 - - 80 - - 70 \u2014 60\u2014 50- 40 - -35 - - 30- 25- - 20 - 15 \u202210 -5/ Contour intervals, %g - 100 90 \u2022 80 \u202270 \u2022 60 - 50 35 \u2022 30 25 20 15| 10| DISCUSSION 12\u00b0 13\u00b0 14\u00ba 50| 75. 15\u00b0 11172\u00b0 12\u00b0 13\u00b0 14\u00b0 15\u00b0 -70- 80| 125 American -10 Samoa -15- - 20- -25- - 30- 35 40- - 50- 60- 70- -80| Tutuila Ofu Olosega Aunu'u Ta'u 90- 171\u00b0 SMs 170\u00b0 169\u00b0 Swains Island Rose Atoll Tutuila American Samoa -15- - 20- -25- -30- 401 Olosega Ta'u -50- 60. 70- 90. 80. 100. 50 \u0413\u041f\u0422 50 Ofu- Aunu'u SwI 50 50 Rose Atoll 100 Miles 100 Kilometers 12\u00b0 13\u00b0 14\u00b0 15\u00b0 168\u00b0 11\u00b0 12\u00b0 13\u00b0 14\u00b0 15\u00b0",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-22.1-T752",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 11
+    },
+    "title": "Maps prepared by USGS in collaboration with the FEMA-funded BSSC. The basis is explained in commentary prepared by BSSC and in the references. Ground motion values contoured on these maps incorporate",
+    "description": "",
+    "data": {
+      "rule": "Maps prepared by USGS in collaboration with the FEMA-funded BSSC. The basis is explained in commentary prepared by BSSC and in the references. Ground motion values contoured on these maps incorporate",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T753",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 11
+    },
+    "title": "A target risk of structural collapse equal to 1% in 50 years based upon a generic structural fragility,",
+    "description": "",
+    "data": {
+      "rule": "A target risk of structural collapse equal to 1% in 50 years based upon a generic structural fragility,",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T754",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 11
+    },
+    "title": "A factor of 1.1 and 1.3 for 0.2 and 1.0 s, respectively, to adjust from a geometric mean to the maximum response regardless of direction, and",
+    "description": "",
+    "data": {
+      "rule": "A factor of 1.1 and 1.3 for 0.2 and 1.0 s, respectively, to adjust from a geometric mean to the maximum response regardless of direction, and",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T755",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 11
+    },
+    "title": "Deterministic upper limits imposed near large, active faults, which are taken as 1.8 times the estimated median response to the characteristic earthquake for the fault (1.8 is used to represent the 84",
+    "description": "",
+    "data": {
+      "rule": "Deterministic upper limits imposed near large, active faults, which are taken as 1.8 times the estimated median response to the characteristic earthquake for the fault (1.8 is used to represent the 84th percentile response), but not less than 150% and 60% g for 0.2 and 1.0 s, respectively.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T756",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 11
+    },
+    "title": "As such, the values are different from those on the uniform-hazard 2012 USGS National Seismic Hazard Maps for American Samoa posted at https://doi.org/10.5066/ F7HT2MHG.",
+    "description": "",
+    "data": {
+      "rule": "As such, the values are different from those on the uniform-hazard 2012 USGS National Seismic Hazard Maps for American Samoa posted at https://doi.org/10.5066/ F7HT2MHG.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T757",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 11
+    },
+    "title": "Larger, more detailed versions of these maps are not provided because it is recommended that the corresponding USGS web tool (https://doi.org/10.5066/F7NK3C76) be used to determine the mapped value fo",
+    "description": "",
+    "data": {
+      "rule": "Larger, more detailed versions of these maps are not provided because it is recommended that the corresponding USGS web tool (https://doi.org/10.5066/F7NK3C76) be used to determine the mapped value for a specified location.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-N12",
+    "type": "user_note",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 11
+    },
+    "title": "User Note: The USGS Seismic Design Geodatabase is available at the ASCE 7 Hazard Tool https://asce7hazardtool.online/ or an approved equivalent.",
+    "description": "",
+    "data": {
+      "rule": "User Note: The USGS Seismic Design Geodatabase is available at the ASCE 7 Hazard Tool https://asce7hazardtool.online/ or an approved equivalent.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-22.1-T758",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 11
+    },
+    "title": "Figure 22-8. SMS and SM 1 for the default site conditions for American Samoa.",
+    "description": "",
+    "data": {
+      "rule": "Figure 22-8. SMS and SM 1 for the default site conditions for American Samoa. Explanation 1172\u00b0 171\u00b0 Swains Island 170\u00b0 169\u00b0 168\u00b0 11\u00b0 120\u00b0W 110\u00b0W",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22-F22-81",
+    "type": "figure",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22",
+      "citation": "Figure 22-8",
+      "page": 11
+    },
+    "title": "Figure 22-8. SMS and SM1 for the default site conditions for American Samoa.",
+    "description": "Figure 22-8. SMS and SM1 for the default site conditions for American Samoa.",
+    "data": {
+      "figure_type": "other",
+      "description": "Figure 22-8. SMS and SM1 for the default site conditions for American Samoa.",
+      "source_pdf_page": 11
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "bold_label"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-22.1-T770",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 12
+    },
+    "title": "Maps prepared by the U.S. Geological Survey (USGS) using its 2018 National Seismic Hazard Model for",
+    "description": "",
+    "data": {
+      "rule": "Maps prepared by the U.S. Geological Survey (USGS) using its 2018 National Seismic Hazard Model for",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T771",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 12
+    },
+    "title": "Recommended Seismic Provisions (Chapter 21).",
+    "description": "",
+    "data": {
+      "rule": "Recommended Seismic Provisions (Chapter 21).",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T772",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 12
+    },
+    "title": "the conterminous United States and the site-specific ground motion procedures of the 2020 NEHRP",
+    "description": "",
+    "data": {
+      "rule": "the conterminous United States and the site-specific ground motion procedures of the 2020 NEHRP",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T773",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 12
+    },
+    "title": "web services be used to determine the mapped value for a specified location (e.g., see https://doi.org/",
+    "description": "",
+    "data": {
+      "rule": "web services be used to determine the mapped value for a specified location (e.g., see https://doi.org/ 10.5066/F7NK3C76). 100\u00b0W",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T776",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 12
+    },
+    "title": "Figure 22-9. PGAM for the default site conditions for the conterminous United States.",
+    "description": "",
+    "data": {
+      "rule": "Figure 22-9. PGAM for the default site conditions for the conterminous United States. 50\u00b0N 50 45\u00b0N 40\u00b0N 35\u00b0N 30\u00b0N DISCUSSION",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T784",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 12
+    },
+    "title": "Larger, more detailed versions of these maps are not provided because it is recommended that corresponding",
+    "description": "",
+    "data": {
+      "rule": "Larger, more detailed versions of these maps are not provided because it is recommended that corresponding 25\u00b0N TIT 100 100 200 90\u00b0W 80\u00b0W 70\u00b0W",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22-F22-91",
+    "type": "figure",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22",
+      "citation": "Figure 22-9",
+      "page": 12
+    },
+    "title": "Figure 22-9. PGAM for the default site conditions for the conterminous United States.",
+    "description": "Figure 22-9. PGAM for the default site conditions for the conterminous United States.",
+    "data": {
+      "figure_type": "other",
+      "description": "Figure 22-9. PGAM for the default site conditions for the conterminous United States.",
+      "source_pdf_page": 12
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "bold_label"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-22.1-T793",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 13
+    },
+    "title": "Figure 22-9 ( Continued ). PGAM for the default site conditions for the conterminous United States.",
+    "description": "",
+    "data": {
+      "rule": "Figure 22-9 ( Continued ). PGAM for the default site conditions for the conterminous United States. 45\u00b0N 40\u00b0N 08 09. 35\u00b0N Contour intervals, %g -150- \u2014125- 100- -60- \u201450 - \u201440- \u201430- \u201425- \u201420- \u201415- \u20148- -6- 4- 30\u00b0N 200 300 400 500 Miles Contours of peak ground acceleration expressed as a percent of gravity Hachures point in direction of decreasing values 25\u00b0N 300 400 500 Kilometers 160\u00b0 Explanation Contour intervals, %g Contour intervals, %g - 125 125 100 - 100 - \u00b775 90 60 50 75 60 50 \u00b740 \u00b730 25 40 30 20 25 20 15 10 -8 - 10- - 10-",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T854",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 14
+    },
+    "title": "Contours of peak grounc as a percent of gravity",
+    "description": "",
+    "data": {
+      "rule": "Contours of peak grounc as a percent of gravity icceleration expressed 10 158\u00b0 -15- 150\u00b0 -20- 10|",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T862",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 14
+    },
+    "title": "Contours of peak ground acceleration",
+    "description": "",
+    "data": {
+      "rule": "Contours of peak ground acceleration",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T863",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 14
+    },
+    "title": "expressed as a percent of gravity.",
+    "description": "",
+    "data": {
+      "rule": "expressed as a percent of gravity.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T864",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 14
+    },
+    "title": "Hachures point in direction of",
+    "description": "",
+    "data": {
+      "rule": "Hachures point in direction of decreasing values DISCUSSION",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T867",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 14
+    },
+    "title": "Maps prepared by the U.S. Geological Survey",
+    "description": "",
+    "data": {
+      "rule": "Maps prepared by the U.S. Geological Survey",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T868",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 14
+    },
+    "title": "(USGS) using its 2007 National Seismic Hazard",
+    "description": "",
+    "data": {
+      "rule": "(USGS) using its 2007 National Seismic Hazard",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T869",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 14
+    },
+    "title": "Model for Alaska, the site-specific ground motion",
+    "description": "",
+    "data": {
+      "rule": "Model for Alaska, the site-specific ground motion",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T870",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 14
+    },
+    "title": "procedures of the 2020 NEHRP Recommended",
+    "description": "",
+    "data": {
+      "rule": "procedures of the 2020 NEHRP Recommended",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T871",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 14
+    },
+    "title": "Seismic Provisions (Chapter 21), and the FEMA",
+    "description": "",
+    "data": {
+      "rule": "Seismic Provisions (Chapter 21), and the FEMA",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T872",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 14
+    },
+    "title": "P-2078 procedures for developing multi-period",
+    "description": "",
+    "data": {
+      "rule": "P-2078 procedures for developing multi-period",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T873",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 14
+    },
+    "title": "response spectra of non-conterminous United",
+    "description": "",
+    "data": {
+      "rule": "response spectra of non-conterminous United States sites.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T875",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 14
+    },
+    "title": "Larger, more detailed versions of these maps are",
+    "description": "",
+    "data": {
+      "rule": "Larger, more detailed versions of these maps are",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T876",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 14
+    },
+    "title": "not provided because it is recommended that",
+    "description": "",
+    "data": {
+      "rule": "not provided because it is recommended that",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T877",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 14
+    },
+    "title": "corresponding web services be used to determine the",
+    "description": "",
+    "data": {
+      "rule": "corresponding web services be used to determine the",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T878",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 14
+    },
+    "title": "mapped value for a specified location (e.g., see",
+    "description": "",
+    "data": {
+      "rule": "mapped value for a specified location (e.g., see",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T879",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 14
+    },
+    "title": "https://doi.org/10.5066/F7NK3C76).",
+    "description": "",
+    "data": {
+      "rule": "https://doi.org/10.5066/F7NK3C76). 20 60\u00b0 25 0. 75 \u20ac 50 -60 -20 -100 55\u00b0 100 100 200 300 Miles 100 0 100 200 300 Kilometers 50\u00b0 -25 22\u00b0 -301 21\u00b0 20\u00b0 19\u00b0 DISCUSSION",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T902",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 14
+    },
+    "title": "Maps prepared by the U.S. Geological Survey (USGS) using its 1998 National",
+    "description": "",
+    "data": {
+      "rule": "Maps prepared by the U.S. Geological Survey (USGS) using its 1998 National",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T903",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 14
+    },
+    "title": "Seismic Hazard Model for Hawaii, the site-specific ground motion procedures of",
+    "description": "",
+    "data": {
+      "rule": "Seismic Hazard Model for Hawaii, the site-specific ground motion procedures of",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T904",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 14
+    },
+    "title": "the 2020 NEHRP Recommended Seismic Provisions (Chapter 21), and the FEMA",
+    "description": "",
+    "data": {
+      "rule": "the 2020 NEHRP Recommended Seismic Provisions (Chapter 21), and the FEMA",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T905",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 14
+    },
+    "title": "P-2078 procedures for developing multi-period response spectra of",
+    "description": "",
+    "data": {
+      "rule": "P-2078 procedures for developing multi-period response spectra of",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T906",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 14
+    },
+    "title": "non-conterminous United States sites",
+    "description": "",
+    "data": {
+      "rule": "non-conterminous United States sites",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T907",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 14
+    },
+    "title": "Larger, more detailed versions of these maps are not provided because it is",
+    "description": "",
+    "data": {
+      "rule": "Larger, more detailed versions of these maps are not provided because it is",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T908",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 14
+    },
+    "title": "value ended that comesionding we series be used is des She appe",
+    "description": "",
+    "data": {
+      "rule": "value ended that comesionding we series be used is des She appe",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T909",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 14
+    },
+    "title": "see https://doi.org/10.5066/F7NK3C76)",
+    "description": "",
+    "data": {
+      "rule": "see https://doi.org/10.5066/F7NK3C76) 100 100 Miles WwHtht 100 100 Kilometers 75 60 12590. 125100 60 -40- 18\u00b0 2025",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T922",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 14
+    },
+    "title": "Figure 22-10. PGAM for the default site conditions for Alaska.",
+    "description": "",
+    "data": {
+      "rule": "Figure 22-10. PGAM for the default site conditions for Alaska.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T923",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 14
+    },
+    "title": "Figure 22-11. PGAM for the default site conditions for Hawaii.",
+    "description": "",
+    "data": {
+      "rule": "Figure 22-11. PGAM for the default site conditions for Hawaii. 170\u00b0 161\u00b0 23\u00b0 180\u00b0 160\u00b0 170\u00b0 159\u00b0 160\u00b0 150\u00b0 157\u00b0 140\u00b0 156\u00b0 130\u00b0 155\u00b0 120\u00b0 154 \u00b0 65\u00b0 Contour intervals, %g - 80- 70 60 55 50 45 40 - 35- - 10| - 10| 1110411 decreasing values 67\u00b030 67\u00b000' 66\u00b030' PUERTO RICO 155",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22-F22-101",
+    "type": "figure",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22",
+      "citation": "Figure 22-10",
+      "page": 14
+    },
+    "title": "Figure 22-10. PGAM for the default site conditions for Alaska.",
+    "description": "Figure 22-10. PGAM for the default site conditions for Alaska.",
+    "data": {
+      "figure_type": "other",
+      "description": "Figure 22-10. PGAM for the default site conditions for Alaska.",
+      "source_pdf_page": 14
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "bold_label"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-22-F22-111",
+    "type": "figure",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22",
+      "citation": "Figure 22-11",
+      "page": 14
+    },
+    "title": "Figure 22-11. PGAM for the default site conditions for Hawaii.",
+    "description": "Figure 22-11. PGAM for the default site conditions for Hawaii.",
+    "data": {
+      "figure_type": "other",
+      "description": "Figure 22-11. PGAM for the default site conditions for Hawaii.",
+      "source_pdf_page": 14
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "bold_label"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-22.1-T959",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 15
+    },
+    "title": "Figure 22-12. PGAM for the default site conditions for Puerto Rico and the US Virgin Islands.",
+    "description": "",
+    "data": {
+      "rule": "Figure 22-12. PGAM for the default site conditions for Puerto Rico and the US Virgin Islands. (UNITED STATES) A DE CULEBRA (SKATED. STATES) -70- TORTOLA (UNITED KINGDOM) -60 SAINT THOMAS SAINT UNITED STATES, SAITED STATES 18\u00b030'",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T971",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 15
+    },
+    "title": "Contours of peak ground acceleration",
+    "description": "",
+    "data": {
+      "rule": "Contours of peak ground acceleration",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T972",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 15
+    },
+    "title": "pressed as a percent of gravit",
+    "description": "",
+    "data": {
+      "rule": "pressed as a percent of gravit achures point in direction -60- 455\u0433 60- -55 -50- LA DE VIEQUE JNITED STATE 18\u00b000 -45 SAINT CROI -50- UNITED STATES 59 50 -45- -40- 35- 50 17\u00b030' 50 Miles 50 50 Kilometers DISCUSSION",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T996",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 15
+    },
+    "title": "Maps prepared by the U.S. Geological Survey (USGS) using its 2003 National Seismic Hazard Model for Puerto Rico and",
+    "description": "",
+    "data": {
+      "rule": "Maps prepared by the U.S. Geological Survey (USGS) using its 2003 National Seismic Hazard Model for Puerto Rico and",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T997",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 15
+    },
+    "title": "the United States Virgin Islands, the site-specific ground motion procedures of the 2020 NEHRP Recommended Seismic",
+    "description": "",
+    "data": {
+      "rule": "the United States Virgin Islands, the site-specific ground motion procedures of the 2020 NEHRP Recommended Seismic",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T998",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 15
+    },
+    "title": "Provisions (Chapter 21), and the FEMA P-2078 procedures for developing multi-period response spectra of non-conterminous",
+    "description": "",
+    "data": {
+      "rule": "Provisions (Chapter 21), and the FEMA P-2078 procedures for developing multi-period response spectra of non-conterminous United States sites.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T1000",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 15
+    },
+    "title": "arger, more detailed versions of these maps are not provided because it is recommended that corresponding web servicess be",
+    "description": "",
+    "data": {
+      "rule": "arger, more detailed versions of these maps are not provided because it is recommended that corresponding web servicess be",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T1001",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 15
+    },
+    "title": "used to determine the mapped value for a specified location (e.g., see https://doi.org/10.5066/F7NK3C76)",
+    "description": "",
+    "data": {
+      "rule": "used to determine the mapped value for a specified location (e.g., see https://doi.org/10.5066/F7NK3C76) 66\u00b000 65\u00b030' 65\u00b000' -80 64\u00b030 19\u00b000 100 - 10-",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22-F22-121",
+    "type": "figure",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22",
+      "citation": "Figure 22-12",
+      "page": 15
+    },
+    "title": "Figure 22-12. PGAM for the default site conditions for Puerto Rico and the US Virgin Islands.",
+    "description": "Figure 22-12. PGAM for the default site conditions for Puerto Rico and the US Virgin Islands.",
+    "data": {
+      "figure_type": "other",
+      "description": "Figure 22-12. PGAM for the default site conditions for Puerto Rico and the US Virgin Islands.",
+      "source_pdf_page": 15
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "bold_label"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-22.1-T1010",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 16
+    },
+    "title": "Contours of peak ground acceleration",
+    "description": "",
+    "data": {
+      "rule": "Contours of peak ground acceleration",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T1011",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 16
+    },
+    "title": "Hachures point in direction of",
+    "description": "",
+    "data": {
+      "rule": "Hachures point in direction of 100 100 Miles 100 Kilometers Explanation Contour intervals, %g 100 90 80 70- 60 - 50 - 40 30 - 25- 20\u00b0 19\u00b0 18\u00b0 17\u00b0 16\u00b0 15\u00b0 14\u00b0 13\u00b0 Northern Mariana Islands Northern Mariana Islands 80- -100- 20\u00b0 19\u00b0 18\u00b0 17\u00b0 16\u00b0 15\u00b0 14\u00b0 13\u00b0 DISCUSSION",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T1051",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 16
+    },
+    "title": "Maps prepared by the U.S. Geological Survey (USGS) using its 2012 National",
+    "description": "",
+    "data": {
+      "rule": "Maps prepared by the U.S. Geological Survey (USGS) using its 2012 National",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T1052",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 16
+    },
+    "title": "Seismic Hazard Model for Guam and the Northern Mariana Islands, its 2012",
+    "description": "",
+    "data": {
+      "rule": "Seismic Hazard Model for Guam and the Northern Mariana Islands, its 2012",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T1053",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 16
+    },
+    "title": "National Seismic Hazard Model for American Samoa, the site-specific ground",
+    "description": "",
+    "data": {
+      "rule": "National Seismic Hazard Model for American Samoa, the site-specific ground",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T1054",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 16
+    },
+    "title": "motion procedures of the 2020 NEHRP Recommended Seismic Provisions",
+    "description": "",
+    "data": {
+      "rule": "motion procedures of the 2020 NEHRP Recommended Seismic Provisions",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T1055",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 16
+    },
+    "title": "(Chapter 21), and the FEMA P-2078 procedures for developing multi-period",
+    "description": "",
+    "data": {
+      "rule": "(Chapter 21), and the FEMA P-2078 procedures for developing multi-period",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T1056",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 16
+    },
+    "title": "response spectra of non-conterminous United States sites.",
+    "description": "",
+    "data": {
+      "rule": "response spectra of non-conterminous United States sites.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T1057",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 16
+    },
+    "title": "Larger, more detailed versions of these maps are not provided because it is",
+    "description": "",
+    "data": {
+      "rule": "Larger, more detailed versions of these maps are not provided because it is",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T1058",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 16
+    },
+    "title": "recommended that corresponding web services be used to determine the mapped",
+    "description": "",
+    "data": {
+      "rule": "recommended that corresponding web services be used to determine the mapped",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T1059",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 16
+    },
+    "title": "value for a specified location (e.g., see https://doi.org/10.5066/F7NK3C76).",
+    "description": "",
+    "data": {
+      "rule": "value for a specified location (e.g., see https://doi.org/10.5066/F7NK3C76). 50 100 Miles 100 50 100 Kilometers Contour intervals, %g 60 50 - 40- - 30 - 25 20 - 15 10 - 8- -6- - 4- \u2014 2- Guam 171\u00b0 170\u00b0 169\u00b0 Swains Island 12\u00b0 13\u00b0 14\u00b0 15\u00b0 20- 50 25 -30 40- Tutuila Ofu~ Aunu'u American Samoa 10 -15 -20- -25- 30 Olosega Ta'u Rose Atoll 168\u00b0 11\u00b0 12\u00b0 13\u00b0 14\u00b0 15\u00b0",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T1113",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 16
+    },
+    "title": "expressed as a percent of gravity.",
+    "description": "",
+    "data": {
+      "rule": "expressed as a percent of gravity. decreasing values",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T1115",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 16
+    },
+    "title": "Figure 22-13. PGAM for the default site conditions for Guam and the Northern Mariana Islands and American Samoa.",
+    "description": "",
+    "data": {
+      "rule": "Figure 22-13. PGAM for the default site conditions for Guam and the Northern Mariana Islands and American Samoa. 21099\u00b0 145\u00b0 146\u00b0 147\u00b0 148\u00b0 21\u00b0",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22-F22-131",
+    "type": "figure",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22",
+      "citation": "Figure 22-13",
+      "page": 16
+    },
+    "title": "Figure 22-13. PGAM for the default site conditions for Guam and the Northern Mariana Islands and American Samoa.",
+    "description": "Figure 22-13. PGAM for the default site conditions for Guam and the Northern Mariana Islands and American Samoa.",
+    "data": {
+      "figure_type": "other",
+      "description": "Figure 22-13. PGAM for the default site conditions for Guam and the Northern Mariana Islands and American Samoa.",
+      "source_pdf_page": 16
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "bold_label"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-22.1-T1122",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 17
+    },
+    "title": "Figure 22-14. T L for the conterminous United States.",
+    "description": "",
+    "data": {
+      "rule": "Figure 22-14. T L for the conterminous United States.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22-F22-141",
+    "type": "figure",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22",
+      "citation": "Figure 22-14",
+      "page": 17
+    },
+    "title": "Figure 22-14. T L for the conterminous United States.",
+    "description": "Figure 22-14. T L for the conterminous United States.",
+    "data": {
+      "figure_type": "other",
+      "description": "Figure 22-14. T L for the conterminous United States.",
+      "source_pdf_page": 17
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "bold_label"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-22.1-T1123",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 18
+    },
+    "title": "Figure 22-14 ( Continued ). T L for the conterminous United States.",
+    "description": "",
+    "data": {
+      "rule": "Figure 22-14 ( Continued ). T L for the conterminous United States. Figure 22-15. T L for Alaska. Figure 22-16. T L for Hawaii.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22-F22-151",
+    "type": "figure",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22",
+      "citation": "Figure 22-15",
+      "page": 19
+    },
+    "title": "Figure 22-15. T L for Alaska.",
+    "description": "Figure 22-15. T L for Alaska.",
+    "data": {
+      "figure_type": "other",
+      "description": "Figure 22-15. T L for Alaska.",
+      "source_pdf_page": 19
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "bold_label"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-22-F22-161",
+    "type": "figure",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22",
+      "citation": "Figure 22-16",
+      "page": 20
+    },
+    "title": "Figure 22-16. T L for Hawaii.",
+    "description": "Figure 22-16. T L for Hawaii.",
+    "data": {
+      "figure_type": "other",
+      "description": "Figure 22-16. T L for Hawaii.",
+      "source_pdf_page": 20
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "bold_label"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-22.1-T1126",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 21
+    },
+    "title": "Figure 22-17. T L for Puerto Rico and the US Virgin Islands.",
+    "description": "",
+    "data": {
+      "rule": "Figure 22-17. T L for Puerto Rico and the US Virgin Islands.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22-F22-171",
+    "type": "figure",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22",
+      "citation": "Figure 22-17",
+      "page": 21
+    },
+    "title": "Figure 22-17. T L for Puerto Rico and the US Virgin Islands.",
+    "description": "Figure 22-17. T L for Puerto Rico and the US Virgin Islands.",
+    "data": {
+      "figure_type": "other",
+      "description": "Figure 22-17. T L for Puerto Rico and the US Virgin Islands.",
+      "source_pdf_page": 21
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "bold_label"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-22.1-T1127",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 22
+    },
+    "title": "Downloaded from ascelibrary.org by Serge Terentieff on 03/10/22. Copyright ASCE. For personal use only; all rights reserved.",
+    "description": "",
+    "data": {
+      "rule": "Downloaded from ascelibrary.org by Serge Terentieff on 03/10/22. Copyright ASCE. For personal use only; all rights reserved.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  },
+  {
+    "id": "ASCE7-22-22.1-T1128",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 22,
+      "section": "22.1",
+      "citation": "Section 22.1",
+      "page": 22
+    },
+    "title": "This page intentionally left blank",
+    "description": "",
+    "data": {
+      "rule": "This page intentionally left blank",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-22.1-H7"
+  }
+]

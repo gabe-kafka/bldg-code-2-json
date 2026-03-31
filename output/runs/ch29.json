@@ -1,0 +1,6064 @@
+[
+  {
+    "id": "ASCE7-22-29-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29",
+      "citation": "Section 29",
+      "page": 1
+    },
+    "title": "CHAPTER 29",
+    "description": "",
+    "data": {
+      "rule": "CHAPTER 29",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29-H2",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29",
+      "citation": "Section 29",
+      "page": 1
+    },
+    "title": "WIND LOADS ON BUILDING APPURTENANCES AND OTHER STRUCTURES: MAIN WIND FORCE RESISTING SYSTEM (DIRECTIONAL PROCEDURE)",
+    "description": "",
+    "data": {
+      "rule": "WIND LOADS ON BUILDING APPURTENANCES AND OTHER STRUCTURES: MAIN WIND FORCE RESISTING SYSTEM (DIRECTIONAL PROCEDURE)",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.1-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.1",
+      "citation": "Section 29.1",
+      "page": 1
+    },
+    "title": "29.1 SCOPE",
+    "description": "",
+    "data": {
+      "rule": "29.1 SCOPE",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.1.1-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.1.1",
+      "citation": "Section 29.1.1",
+      "page": 1
+    },
+    "title": "29.1.1 Structure Types This chapter applies to the determination of wind loads on building appurtenances (such as rooftop structures and rooftop equipment) and other structures of all heights (such as",
+    "description": "",
+    "data": {
+      "rule": "29.1.1 Structure Types This chapter applies to the determination of wind loads on building appurtenances (such as rooftop structures and rooftop equipment) and other structures of all heights (such as solid freestanding walls and freestanding solid signs, chimneys, tanks, circular bins, silos, open signs, single-plane open frames, ground-mounted fi xed-tilt solar panel systems, and trussed towers) using the Directional Procedure.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.1.1-T1",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.1.1",
+      "citation": "Section 29.1.1",
+      "page": 1
+    },
+    "title": "The steps required for the determination of wind loads on building appurtenances and other structures are shown in Table 29.1-1. The steps required to determine wind loads on the Main Wind Force Resis",
+    "description": "",
+    "data": {
+      "rule": "The steps required for the determination of wind loads on building appurtenances and other structures are shown in Table 29.1-1. The steps required to determine wind loads on the Main Wind Force Resisting System (MWFRS) on circular bins, silos, and tanks are shown in Table 29.1-2.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.1.1-H1"
+  },
+  {
+    "id": "ASCE7-22-29.1.1-N1",
+    "type": "user_note",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.1.1",
+      "citation": "Section 29.1.1",
+      "page": 1
+    },
+    "title": "User Note: Use Chapter 29 to determine wind pressures on the MWFRS of solid freestanding walls, freestanding solid signs, chimneys, tanks, open signs, single-plane open frames, ground-mounted fi xed-t",
+    "description": "",
+    "data": {
+      "rule": "User Note: Use Chapter 29 to determine wind pressures on the MWFRS of solid freestanding walls, freestanding solid signs, chimneys, tanks, open signs, single-plane open frames, ground-mounted fi xed-tilt solar panel systems, and trussed towers. Wind loads on rooftop structures and equipment may be determined from the provisions of this chapter. The wind pressures are calculated using speci fi c equations, based upon the Directional Procedure.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.1.2-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.1.2",
+      "citation": "Section 29.1.2",
+      "page": 1
+    },
+    "title": "29.1.2 Conditions An appurtenance or structure that has design wind loads, determined in accordance with this section, shall comply with all of the following conditions:",
+    "description": "",
+    "data": {
+      "rule": "29.1.2 Conditions An appurtenance or structure that has design wind loads, determined in accordance with this section, shall comply with all of the following conditions:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.1.2-T1",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.1.2",
+      "citation": "Section 29.1.2",
+      "page": 1
+    },
+    "title": "Structure is a regular-shaped structure as de fi ned in Section 26.2; and",
+    "description": "",
+    "data": {
+      "rule": "Structure is a regular-shaped structure as de fi ned in Section 26.2; and",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.2-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.1.2-H1"
+  },
+  {
+    "id": "ASCE7-22-29.1.2-T2",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.1.2",
+      "citation": "Section 29.1.2",
+      "page": 1
+    },
+    "title": "Structure does not have response characteristics making it subject to across-wind loading, vortex shedding, or instability caused by galloping or fl utter; nor does it have a site location for which c",
+    "description": "",
+    "data": {
+      "rule": "Structure does not have response characteristics making it subject to across-wind loading, vortex shedding, or instability caused by galloping or fl utter; nor does it have a site location for which channeling effects or buffeting in the wake of upwind obstructions warrant special consideration.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.1.2-H1"
+  },
+  {
+    "id": "ASCE7-22-29.1.3-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.1.3",
+      "citation": "Section 29.1.3",
+      "page": 1
+    },
+    "title": "29.1.3 Limitations The provisions of this chapter take into consideration the load magni fi cation effect caused by gusts in resonance with along-wind vibrations of fl exible structures. Structures th",
+    "description": "",
+    "data": {
+      "rule": "29.1.3 Limitations The provisions of this chapter take into consideration the load magni fi cation effect caused by gusts in resonance with along-wind vibrations of fl exible structures. Structures that do not meet the requirements of Section 29.1.2, or that have unusual shapes or response characteristics, shall be designed using recognized literature documenting such wind load effects or shall use the Wind Tunnel Procedure speci fi ed in Chapter 31.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-29.1.2-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.1.4-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.1.4",
+      "citation": "Section 29.1.4",
+      "page": 1
+    },
+    "title": "29.1.4 Shielding There shall be no reductions in velocity pressure caused by apparent shielding afforded by buildings and other structures or terrain features.",
+    "description": "",
+    "data": {
+      "rule": "29.1.4 Shielding There shall be no reductions in velocity pressure caused by apparent shielding afforded by buildings and other structures or terrain features.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.1.4-H2",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.1.4",
+      "citation": "Section 29.1.4",
+      "page": 1
+    },
+    "title": "Table 29.1-1. Steps to Determine Wind Loads on MWFRS Rooftop Equipment and Other Structures.",
+    "description": "",
+    "data": {
+      "rule": "Table 29.1-1. Steps to Determine Wind Loads on MWFRS Rooftop Equipment and Other Structures.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.1.4-T1",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.1.4",
+      "citation": "Section 29.1.4",
+      "page": 1
+    },
+    "title": "Step 1: Determine the Risk Category of building or other structure; see Table 1.5-1.",
+    "description": "",
+    "data": {
+      "rule": "Step 1: Determine the Risk Category of building or other structure; see Table 1.5-1.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.1.4-H3"
+  },
+  {
+    "id": "ASCE7-22-29.1.4-T2",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.1.4",
+      "citation": "Section 29.1.4",
+      "page": 1
+    },
+    "title": "Step 2: Determine the basic wind speed, V , for applicable Risk Category; see Figure 26.5-1.",
+    "description": "",
+    "data": {
+      "rule": "Step 2: Determine the basic wind speed, V , for applicable Risk Category; see Figure 26.5-1.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.5-F26-5-11"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.1.4-H3"
+  },
+  {
+    "id": "ASCE7-22-29.1.4-T3",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.1.4",
+      "citation": "Section 29.1.4",
+      "page": 1
+    },
+    "title": "Step 3: Determine wind load parameters:",
+    "description": "",
+    "data": {
+      "rule": "Step 3: Determine wind load parameters:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.1.4-H3"
+  },
+  {
+    "id": "ASCE7-22-29.1.4-T4",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.1.4",
+      "citation": "Section 29.1.4",
+      "page": 1
+    },
+    "title": "Wind directionality factor, Kd ; see Section 26.6 and Table 26.6-1.",
+    "description": "",
+    "data": {
+      "rule": "Wind directionality factor, Kd ; see Section 26.6 and Table 26.6-1.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.6-H1",
+      "ASCE7-22-26.6-T26-6-11"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.1.4-H3"
+  },
+  {
+    "id": "ASCE7-22-29.1.4-T5",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.1.4",
+      "citation": "Section 29.1.4",
+      "page": 1
+    },
+    "title": "Exposure Category B, C, or D; see Section 26.7.",
+    "description": "",
+    "data": {
+      "rule": "Exposure Category B, C, or D; see Section 26.7.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.7-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.1.4-H3"
+  },
+  {
+    "id": "ASCE7-22-29.1.4-T6",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.1.4",
+      "citation": "Section 29.1.4",
+      "page": 1
+    },
+    "title": "Topographic factor, Kzt ; see Section 26.8 and Figure 26.8-1.",
+    "description": "",
+    "data": {
+      "rule": "Topographic factor, Kzt ; see Section 26.8 and Figure 26.8-1.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.8-F26-8-11",
+      "ASCE7-22-26.8-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.1.4-H3"
+  },
+  {
+    "id": "ASCE7-22-29.1.4-T7",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.1.4",
+      "citation": "Section 29.1.4",
+      "page": 1
+    },
+    "title": "Ground elevation factor, Ke ; see Section 26.9 and Table 26.9-1.",
+    "description": "",
+    "data": {
+      "rule": "Ground elevation factor, Ke ; see Section 26.9 and Table 26.9-1.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.9-H1",
+      "ASCE7-22-26.9-T26-9-11"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.1.4-H3"
+  },
+  {
+    "id": "ASCE7-22-29.1.4-T8",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.1.4",
+      "citation": "Section 29.1.4",
+      "page": 1
+    },
+    "title": "Gust-effect factor, G ; see Section 26.11, except for rooftop equipment and ground-mounted fi xed-tilt solar panel systems.",
+    "description": "",
+    "data": {
+      "rule": "Gust-effect factor, G ; see Section 26.11, except for rooftop equipment and ground-mounted fi xed-tilt solar panel systems.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.11-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.1.4-H3"
+  },
+  {
+    "id": "ASCE7-22-29.1.4-T9",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.1.4",
+      "citation": "Section 29.1.4",
+      "page": 1
+    },
+    "title": "Combined ( GCr ) factor for rooftop equipment; see Section 29.4.1.",
+    "description": "",
+    "data": {
+      "rule": "Combined ( GCr ) factor for rooftop equipment; see Section 29.4.1.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-29.4.1-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.1.4-H3"
+  },
+  {
+    "id": "ASCE7-22-29.1.4-T10",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.1.4",
+      "citation": "Section 29.1.4",
+      "page": 1
+    },
+    "title": "Combined ( GCpn and GCpm ) factors for ground-mounted fi xed-tilt solar panel systems; see Section 29.4.5.",
+    "description": "",
+    "data": {
+      "rule": "Combined ( GCpn and GCpm ) factors for ground-mounted fi xed-tilt solar panel systems; see Section 29.4.5.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-29.4.5-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.1.4-H3"
+  },
+  {
+    "id": "ASCE7-22-29.1.4-T11",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.1.4",
+      "citation": "Section 29.1.4",
+      "page": 1
+    },
+    "title": "Step 4: Determine velocity pressure exposure coef fi cient, Kz or Kh ; see Table 26.10-1.",
+    "description": "",
+    "data": {
+      "rule": "Step 4: Determine velocity pressure exposure coef fi cient, Kz or Kh ; see Table 26.10-1.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.10-T26-10-11"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.1.4-H3"
+  },
+  {
+    "id": "ASCE7-22-29.1.4-T12",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.1.4",
+      "citation": "Section 29.1.4",
+      "page": 1
+    },
+    "title": "Step 5: Determine velocity pressure qz or qh ; see Equation (26.10-1).",
+    "description": "",
+    "data": {
+      "rule": "Step 5: Determine velocity pressure qz or qh ; see Equation (26.10-1).",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.1.4-H3"
+  },
+  {
+    "id": "ASCE7-22-29.1.4-T13",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.1.4",
+      "citation": "Section 29.1.4",
+      "page": 1
+    },
+    "title": "Step 6: Determine force coef fi cient, Cf , except for rooftop equipment and ground-mounted fi xed-tilt solar panel systems:",
+    "description": "",
+    "data": {
+      "rule": "Step 6: Determine force coef fi cient, Cf , except for rooftop equipment and ground-mounted fi xed-tilt solar panel systems:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.1.4-H3"
+  },
+  {
+    "id": "ASCE7-22-29.1.4-T14",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.1.4",
+      "citation": "Section 29.1.4",
+      "page": 1
+    },
+    "title": "Solid freestanding signs or solid freestanding walls, Figure 29.3-1.",
+    "description": "",
+    "data": {
+      "rule": "Solid freestanding signs or solid freestanding walls, Figure 29.3-1.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-29.3-E29-3-11"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.1.4-H3"
+  },
+  {
+    "id": "ASCE7-22-29.1.4-T15",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.1.4",
+      "citation": "Section 29.1.4",
+      "page": 1
+    },
+    "title": "Chimneys, tanks, Figure 29.4-1.",
+    "description": "",
+    "data": {
+      "rule": "Chimneys, tanks, Figure 29.4-1.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-29.4-E29-4-11"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.1.4-H3"
+  },
+  {
+    "id": "ASCE7-22-29.1.4-T16",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.1.4",
+      "citation": "Section 29.1.4",
+      "page": 1
+    },
+    "title": "Open signs, single-plane open frames, Figure 29.4-2.",
+    "description": "",
+    "data": {
+      "rule": "Open signs, single-plane open frames, Figure 29.4-2.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-29.4-E29-4-21"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.1.4-H3"
+  },
+  {
+    "id": "ASCE7-22-29.1.4-T17",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.1.4",
+      "citation": "Section 29.1.4",
+      "page": 1
+    },
+    "title": "Trussed towers, Figure 29.4-3.",
+    "description": "",
+    "data": {
+      "rule": "Trussed towers, Figure 29.4-3.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-29.4-E29-4-31"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.1.4-H3"
+  },
+  {
+    "id": "ASCE7-22-29.1.4-T18",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.1.4",
+      "citation": "Section 29.1.4",
+      "page": 1
+    },
+    "title": "Rooftop equipment, using combined ( GCr ) factors listed in Section 29.4.1.",
+    "description": "",
+    "data": {
+      "rule": "Rooftop equipment, using combined ( GCr ) factors listed in Section 29.4.1.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-29.4.1-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.1.4-H3"
+  },
+  {
+    "id": "ASCE7-22-29.1.4-T19",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.1.4",
+      "citation": "Section 29.1.4",
+      "page": 1
+    },
+    "title": "Rooftop solar panels, Figure 29.4-7 and Equation (29.4-6), or Figure 29.4-8.",
+    "description": "",
+    "data": {
+      "rule": "Rooftop solar panels, Figure 29.4-7 and Equation (29.4-6), or Figure 29.4-8.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-29.4-E29-4-71",
+      "ASCE7-22-29.4-E29-4-81"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.1.4-H3"
+  },
+  {
+    "id": "ASCE7-22-29.1.4-T20",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.1.4",
+      "citation": "Section 29.1.4",
+      "page": 1
+    },
+    "title": "Ground-mounted fi xed-tilt solar panel systems, using combined ( GCpn and GCpm ) factors, see Section 29.4.5.2.",
+    "description": "",
+    "data": {
+      "rule": "Ground-mounted fi xed-tilt solar panel systems, using combined ( GCpn and GCpm ) factors, see Section 29.4.5.2.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-29.4.5.2-P1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.1.4-H3"
+  },
+  {
+    "id": "ASCE7-22-29.1.4-T21",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.1.4",
+      "citation": "Section 29.1.4",
+      "page": 1
+    },
+    "title": "Step 7: Calculate wind force, F , or pressure, p , and moment, M :",
+    "description": "",
+    "data": {
+      "rule": "Step 7: Calculate wind force, F , or pressure, p , and moment, M :",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.1.4-H3"
+  },
+  {
+    "id": "ASCE7-22-29.1.4-T22",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.1.4",
+      "citation": "Section 29.1.4",
+      "page": 1
+    },
+    "title": "Equation (29.3-1) for signs and walls.",
+    "description": "",
+    "data": {
+      "rule": "Equation (29.3-1) for signs and walls.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.1.4-H3"
+  },
+  {
+    "id": "ASCE7-22-29.1.4-T23",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.1.4",
+      "citation": "Section 29.1.4",
+      "page": 1
+    },
+    "title": "Equations (29.4-2) and (29.4-3) for rooftop structures and equipment.",
+    "description": "",
+    "data": {
+      "rule": "Equations (29.4-2) and (29.4-3) for rooftop structures and equipment.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.1.4-H3"
+  },
+  {
+    "id": "ASCE7-22-29.1.4-T24",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.1.4",
+      "citation": "Section 29.1.4",
+      "page": 1
+    },
+    "title": "Equation (29.4-1) for other structures.",
+    "description": "",
+    "data": {
+      "rule": "Equation (29.4-1) for other structures.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.1.4-H3"
+  },
+  {
+    "id": "ASCE7-22-29.1.4-T25",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.1.4",
+      "citation": "Section 29.1.4",
+      "page": 1
+    },
+    "title": "Equation (29.4-5) or (29.4-7) for rooftop solar panels.",
+    "description": "",
+    "data": {
+      "rule": "Equation (29.4-5) or (29.4-7) for rooftop solar panels.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.1.4-H3"
+  },
+  {
+    "id": "ASCE7-22-29.1.4-T26",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.1.4",
+      "citation": "Section 29.1.4",
+      "page": 1
+    },
+    "title": "Equations (29.4-8) and (29.4-9) for ground-mounted fi xedtilt solar panel systems.",
+    "description": "",
+    "data": {
+      "rule": "Equations (29.4-8) and (29.4-9) for ground-mounted fi xedtilt solar panel systems.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.1.4-H3"
+  },
+  {
+    "id": "ASCE7-22-29.4-E29-4-61",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4",
+      "citation": "Eq. (29.4-6)",
+      "page": 1
+    },
+    "title": "Equation (29.4-6)",
+    "description": "",
+    "data": {
+      "expression": "Rooftop solar panels, Figure 29.4-7 and Equation (29.4-6)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.3-E29-3-11",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.3",
+      "citation": "Eq. (29.3-1)",
+      "page": 1
+    },
+    "title": "Equation (29.3-1)",
+    "description": "",
+    "data": {
+      "expression": "Equation (29.3-1)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.4-E29-4-21",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4",
+      "citation": "Eq. (29.4-2)",
+      "page": 1
+    },
+    "title": "Equation (29.4-2)",
+    "description": "",
+    "data": {
+      "expression": "Equations (29.4-2)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.4-E29-4-31",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4",
+      "citation": "Eq. (29.4-3)",
+      "page": 1
+    },
+    "title": "Equation (29.4-3)",
+    "description": "",
+    "data": {
+      "expression": "Equations (29.4-2) and (29.4-3)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.4-E29-4-11",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4",
+      "citation": "Eq. (29.4-1)",
+      "page": 1
+    },
+    "title": "Equation (29.4-1)",
+    "description": "",
+    "data": {
+      "expression": "Equation (29.4-1)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.4-E29-4-51",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4",
+      "citation": "Eq. (29.4-5)",
+      "page": 1
+    },
+    "title": "Equation (29.4-5)",
+    "description": "",
+    "data": {
+      "expression": "Equation (29.4-5)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.4-E29-4-71",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4",
+      "citation": "Eq. (29.4-7)",
+      "page": 1
+    },
+    "title": "Equation (29.4-7)",
+    "description": "",
+    "data": {
+      "expression": "Equation (29.4-5) or (29.4-7)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.4-E29-4-81",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4",
+      "citation": "Eq. (29.4-8)",
+      "page": 1
+    },
+    "title": "Equation (29.4-8)",
+    "description": "",
+    "data": {
+      "expression": "Equations (29.4-8)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.4-E29-4-91",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4",
+      "citation": "Eq. (29.4-9)",
+      "page": 1
+    },
+    "title": "Equation (29.4-9)",
+    "description": "",
+    "data": {
+      "expression": "Equations (29.4-8) and (29.4-9)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.1.4-H3",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.1.4",
+      "citation": "Section 29.1.4",
+      "page": 2
+    },
+    "title": "Table 29.1-2. Steps to Determine Wind Loads on MWFRS Circular Bins, Silos, and Tanks.",
+    "description": "",
+    "data": {
+      "rule": "Table 29.1-2. Steps to Determine Wind Loads on MWFRS Circular Bins, Silos, and Tanks.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.1.4-T27",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.1.4",
+      "citation": "Section 29.1.4",
+      "page": 2
+    },
+    "title": "Step 1: Determine the Risk Category of structure; see Table 1.5-1.",
+    "description": "",
+    "data": {
+      "rule": "Step 1: Determine the Risk Category of structure; see Table 1.5-1.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.1.4-H3"
+  },
+  {
+    "id": "ASCE7-22-29.1.4-T28",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.1.4",
+      "citation": "Section 29.1.4",
+      "page": 2
+    },
+    "title": "Step 2: Determine the basic wind speed, V , for applicable Risk Category; see Figure 26.5-1.",
+    "description": "",
+    "data": {
+      "rule": "Step 2: Determine the basic wind speed, V , for applicable Risk Category; see Figure 26.5-1.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.5-F26-5-11"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.1.4-H3"
+  },
+  {
+    "id": "ASCE7-22-29.1.4-T29",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.1.4",
+      "citation": "Section 29.1.4",
+      "page": 2
+    },
+    "title": "Step 3: Determine wind load parameters:",
+    "description": "",
+    "data": {
+      "rule": "Step 3: Determine wind load parameters:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.1.4-H3"
+  },
+  {
+    "id": "ASCE7-22-29.1.4-T30",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.1.4",
+      "citation": "Section 29.1.4",
+      "page": 2
+    },
+    "title": "Wind directionality factor, Kd ; see Section 26.6 and Table 26.6-1.",
+    "description": "",
+    "data": {
+      "rule": "Wind directionality factor, Kd ; see Section 26.6 and Table 26.6-1.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.6-H1",
+      "ASCE7-22-26.6-T26-6-11"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.1.4-H3"
+  },
+  {
+    "id": "ASCE7-22-29.1.4-T31",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.1.4",
+      "citation": "Section 29.1.4",
+      "page": 2
+    },
+    "title": "Exposure Category B, C, or D; see Section 26.7.",
+    "description": "",
+    "data": {
+      "rule": "Exposure Category B, C, or D; see Section 26.7.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.7-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.1.4-H3"
+  },
+  {
+    "id": "ASCE7-22-29.1.4-T32",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.1.4",
+      "citation": "Section 29.1.4",
+      "page": 2
+    },
+    "title": "Topographic factor, Kzt ; see Section 26.8 and Figure 26.8-1.",
+    "description": "",
+    "data": {
+      "rule": "Topographic factor, Kzt ; see Section 26.8 and Figure 26.8-1.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.8-F26-8-11",
+      "ASCE7-22-26.8-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.1.4-H3"
+  },
+  {
+    "id": "ASCE7-22-29.1.4-T33",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.1.4",
+      "citation": "Section 29.1.4",
+      "page": 2
+    },
+    "title": "Ground elevation factor, Ke ; see Section 26.9 and Table 26.9-1.",
+    "description": "",
+    "data": {
+      "rule": "Ground elevation factor, Ke ; see Section 26.9 and Table 26.9-1.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.9-H1",
+      "ASCE7-22-26.9-T26-9-11"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.1.4-H3"
+  },
+  {
+    "id": "ASCE7-22-29.1.4-T34",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.1.4",
+      "citation": "Section 29.1.4",
+      "page": 2
+    },
+    "title": "Enclosure classi fi cation, see Section 26.12.",
+    "description": "",
+    "data": {
+      "rule": "Enclosure classi fi cation, see Section 26.12.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.12-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.1.4-H3"
+  },
+  {
+    "id": "ASCE7-22-29.1.4-T35",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.1.4",
+      "citation": "Section 29.1.4",
+      "page": 2
+    },
+    "title": "Internal pressure coef fi cient, ( GCpi ), see Table 26.13-1.",
+    "description": "",
+    "data": {
+      "rule": "Internal pressure coef fi cient, ( GCpi ), see Table 26.13-1.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.13-T26-13-11"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.1.4-H3"
+  },
+  {
+    "id": "ASCE7-22-29.1.4-T36",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.1.4",
+      "citation": "Section 29.1.4",
+      "page": 2
+    },
+    "title": "Gust-effect factor, G ; see Section 26.11.",
+    "description": "",
+    "data": {
+      "rule": "Gust-effect factor, G ; see Section 26.11.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.11-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.1.4-H3"
+  },
+  {
+    "id": "ASCE7-22-29.1.4-T37",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.1.4",
+      "citation": "Section 29.1.4",
+      "page": 2
+    },
+    "title": "Step 4: Determine velocity pressure exposure coef fi cient, Kz or Kh ; see Table 26.10-1.",
+    "description": "",
+    "data": {
+      "rule": "Step 4: Determine velocity pressure exposure coef fi cient, Kz or Kh ; see Table 26.10-1.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.10-T26-10-11"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.1.4-H3"
+  },
+  {
+    "id": "ASCE7-22-29.1.4-T38",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.1.4",
+      "citation": "Section 29.1.4",
+      "page": 2
+    },
+    "title": "Step 5: Determine velocity pressure qh ; see Equation (26.10-1).",
+    "description": "",
+    "data": {
+      "rule": "Step 5: Determine velocity pressure qh ; see Equation (26.10-1).",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.1.4-H3"
+  },
+  {
+    "id": "ASCE7-22-29.1.4-T39",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.1.4",
+      "citation": "Section 29.1.4",
+      "page": 2
+    },
+    "title": "Step 6: Determine force coef fi cient for walls, see Sections 29.4.2.1 and 29.4.2.4.",
+    "description": "",
+    "data": {
+      "rule": "Step 6: Determine force coef fi cient for walls, see Sections 29.4.2.1 and 29.4.2.4.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.1.4-H3"
+  },
+  {
+    "id": "ASCE7-22-29.1.4-T40",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.1.4",
+      "citation": "Section 29.1.4",
+      "page": 2
+    },
+    "title": "Step 7: Determine external pressure coef fi cient ( GCp ) for roofs and undersides if elevated, see Sections 29.4.2.2 and 29.4.2.3.",
+    "description": "",
+    "data": {
+      "rule": "Step 7: Determine external pressure coef fi cient ( GCp ) for roofs and undersides if elevated, see Sections 29.4.2.2 and 29.4.2.3.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.1.4-H3"
+  },
+  {
+    "id": "ASCE7-22-29.1.4-T41",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.1.4",
+      "citation": "Section 29.1.4",
+      "page": 2
+    },
+    "title": "Step 8: Calculate wind force, F , or pressure, p :",
+    "description": "",
+    "data": {
+      "rule": "Step 8: Calculate wind force, F , or pressure, p : Equation (29.4-1) for walls. Equation (29.4-4) for roofs.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.1.4-H3"
+  },
+  {
+    "id": "ASCE7-22-29.2-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.2",
+      "citation": "Section 29.2",
+      "page": 2
+    },
+    "title": "29.2 GENERAL REQUIREMENTS",
+    "description": "",
+    "data": {
+      "rule": "29.2 GENERAL REQUIREMENTS",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.2.1-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.2.1",
+      "citation": "Section 29.2.1",
+      "page": 2
+    },
+    "title": "29.2.1 Wind Load Parameters Speci fi ed in Chapter 26 The following wind load parameters shall be determined in accordance with Chapter 26:",
+    "description": "",
+    "data": {
+      "rule": "29.2.1 Wind Load Parameters Speci fi ed in Chapter 26 The following wind load parameters shall be determined in accordance with Chapter 26:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.2.1-T1",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.2.1",
+      "citation": "Section 29.2.1",
+      "page": 2
+    },
+    "title": "Basic wind speed, V (Section 26.5);",
+    "description": "",
+    "data": {
+      "rule": "Basic wind speed, V (Section 26.5);",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.5-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.2.1-H1"
+  },
+  {
+    "id": "ASCE7-22-29.2.1-T2",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.2.1",
+      "citation": "Section 29.2.1",
+      "page": 2
+    },
+    "title": "Wind directionality factor, Kd (Section 26.6);",
+    "description": "",
+    "data": {
+      "rule": "Wind directionality factor, Kd (Section 26.6);",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.6-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.2.1-H1"
+  },
+  {
+    "id": "ASCE7-22-29.2.1-T3",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.2.1",
+      "citation": "Section 29.2.1",
+      "page": 2
+    },
+    "title": "Exposure category (Section 26.7);",
+    "description": "",
+    "data": {
+      "rule": "Exposure category (Section 26.7);",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.7-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.2.1-H1"
+  },
+  {
+    "id": "ASCE7-22-29.2.1-T4",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.2.1",
+      "citation": "Section 29.2.1",
+      "page": 2
+    },
+    "title": "Topographic factor, Kzt (Section 26.8);",
+    "description": "",
+    "data": {
+      "rule": "Topographic factor, Kzt (Section 26.8);",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.8-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.2.1-H1"
+  },
+  {
+    "id": "ASCE7-22-29.2.1-T5",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.2.1",
+      "citation": "Section 29.2.1",
+      "page": 2
+    },
+    "title": "Ground elevation factor, Ke (Section 26.9); and",
+    "description": "",
+    "data": {
+      "rule": "Ground elevation factor, Ke (Section 26.9); and",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.9-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.2.1-H1"
+  },
+  {
+    "id": "ASCE7-22-29.2.1-T6",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.2.1",
+      "citation": "Section 29.2.1",
+      "page": 2
+    },
+    "title": "Enclosure classi fi cation (Section 26.12).",
+    "description": "",
+    "data": {
+      "rule": "Enclosure classi fi cation (Section 26.12).",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.12-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.2.1-H1"
+  },
+  {
+    "id": "ASCE7-22-29.3-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.3",
+      "citation": "Section 29.3",
+      "page": 2
+    },
+    "title": "29.3 DESIGN WIND LOADS: SOLID FREESTANDING WALLS AND SOLID SIGNS",
+    "description": "",
+    "data": {
+      "rule": "29.3 DESIGN WIND LOADS: SOLID FREESTANDING WALLS AND SOLID SIGNS",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.3.1-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.3.1",
+      "citation": "Section 29.3.1",
+      "page": 2
+    },
+    "title": "29.3.1 Solid Freestanding Walls and Solid Freestanding Signs The design wind force for solid freestanding walls and solid freestanding signs shall be determined by the following formula:",
+    "description": "",
+    "data": {
+      "rule": "29.3.1 Solid Freestanding Walls and Solid Freestanding Signs The design wind force for solid freestanding walls and solid freestanding signs shall be determined by the following formula: where",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.3.1-T2",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.3.1",
+      "citation": "Section 29.3.1",
+      "page": 2
+    },
+    "title": "qh = Velocity pressure evaluated at height h (de fi ned in Figure 29.3-1) as determined in accordance with Section 26.10;",
+    "description": "",
+    "data": {
+      "rule": "qh = Velocity pressure evaluated at height h (de fi ned in Figure 29.3-1) as determined in accordance with Section 26.10;",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.10-H1",
+      "ASCE7-22-29.3-E29-3-11"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.3.1-H1"
+  },
+  {
+    "id": "ASCE7-22-29.3.1-T3",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.3.1",
+      "citation": "Section 29.3.1",
+      "page": 2
+    },
+    "title": "Kd = Wind directionality factor, see Section 26.6;",
+    "description": "",
+    "data": {
+      "rule": "Kd = Wind directionality factor, see Section 26.6;",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.6-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.3.1-H1"
+  },
+  {
+    "id": "ASCE7-22-29.3.1-T4",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.3.1",
+      "citation": "Section 29.3.1",
+      "page": 2
+    },
+    "title": "G = Gust-effect factor from Section 26.11;",
+    "description": "",
+    "data": {
+      "rule": "G = Gust-effect factor from Section 26.11;",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.11-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.3.1-H1"
+  },
+  {
+    "id": "ASCE7-22-29.3.1-T5",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.3.1",
+      "citation": "Section 29.3.1",
+      "page": 2
+    },
+    "title": "Cf = Net force coef fi cient from Figure 29.3-1; and",
+    "description": "",
+    "data": {
+      "rule": "Cf = Net force coef fi cient from Figure 29.3-1; and",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-29.3-E29-3-11"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.3.1-H1"
+  },
+  {
+    "id": "ASCE7-22-29.3.1-T6",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.3.1",
+      "citation": "Section 29.3.1",
+      "page": 2
+    },
+    "title": "As = Gross area of the solid freestanding wall or freestanding solid sign, ft 2 (m 2 ).",
+    "description": "",
+    "data": {
+      "rule": "As = Gross area of the solid freestanding wall or freestanding solid sign, ft 2 (m 2 ).",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.3.1-H1"
+  },
+  {
+    "id": "ASCE7-22-29.3.2-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.3.2",
+      "citation": "Section 29.3.2",
+      "page": 2
+    },
+    "title": "29.3.2 Solid Attached Signs The design wind pressure on a solid sign attached to the wall of a building, where the plane of the sign is parallel to and in contact with the plane of the wall, and the s",
+    "description": "",
+    "data": {
+      "rule": "29.3.2 Solid Attached Signs The design wind pressure on a solid sign attached to the wall of a building, where the plane of the sign is parallel to and in contact with the plane of the wall, and the sign does not extend beyond the side or top edges of the wall, shall be determined using procedures for wind pressures on walls in accordance with Chapter 30 and setting the internal pressure coef fi cient, ( GCpi ), equal to 0.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.3.2-P2",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.3.2",
+      "citation": "Section 29.3.2",
+      "page": 2
+    },
+    "title": "This procedure shall also be applicable to solid signs attached to but not in direct contact with the wall, provided that the gap between the sign and wall is no more than 3 ft (0.9 m) and the edge of",
+    "description": "",
+    "data": {
+      "rule": "This procedure shall also be applicable to solid signs attached to but not in direct contact with the wall, provided that the gap between the sign and wall is no more than 3 ft (0.9 m) and the edge of the sign is at least 3 ft (0.9 m) in from free edges of the wall (i.e., side and top edges and bottom edges of elevated walls).",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.4-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4",
+      "citation": "Section 29.4",
+      "page": 2
+    },
+    "title": "29.4 DESIGN WIND LOADS: OTHER STRUCTURES",
+    "description": "",
+    "data": {
+      "rule": "29.4 DESIGN WIND LOADS: OTHER STRUCTURES",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.4-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4",
+      "citation": "Section 29.4",
+      "page": 2
+    },
+    "title": "The design wind force for other structures (chimneys, tanks, open signs, single-plane open frames, and trussed towers), whether ground or roof mounted, shall be determined by the following equation:",
+    "description": "",
+    "data": {
+      "rule": "The design wind force for other structures (chimneys, tanks, open signs, single-plane open frames, and trussed towers), whether ground or roof mounted, shall be determined by the following equation:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.4-T1",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4",
+      "citation": "Section 29.4",
+      "page": 2
+    },
+    "title": "where qz = Velocity pressure evaluated at height z , as de fi ned in Section 26.10, of the centroid of area Af ;",
+    "description": "",
+    "data": {
+      "rule": "where qz = Velocity pressure evaluated at height z , as de fi ned in Section 26.10, of the centroid of area Af ;",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.10-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.4-H1"
+  },
+  {
+    "id": "ASCE7-22-29.4-T2",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4",
+      "citation": "Section 29.4",
+      "page": 2
+    },
+    "title": "Kd = Wind directionality factor, see Section 26.6;",
+    "description": "",
+    "data": {
+      "rule": "Kd = Wind directionality factor, see Section 26.6;",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.6-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.4-H1"
+  },
+  {
+    "id": "ASCE7-22-29.4-T3",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4",
+      "citation": "Section 29.4",
+      "page": 2
+    },
+    "title": "G = Gust-effect factor from Section 26.11;",
+    "description": "",
+    "data": {
+      "rule": "G = Gust-effect factor from Section 26.11;",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.11-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.4-H1"
+  },
+  {
+    "id": "ASCE7-22-29.4-T4",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4",
+      "citation": "Section 29.4",
+      "page": 2
+    },
+    "title": "Cf = Force coef fi cients from Figures 29.4-1 through 29.4-4; and",
+    "description": "",
+    "data": {
+      "rule": "Cf = Force coef fi cients from Figures 29.4-1 through 29.4-4; and",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.4-H1"
+  },
+  {
+    "id": "ASCE7-22-29.4-T5",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4",
+      "citation": "Section 29.4",
+      "page": 2
+    },
+    "title": "Af = Projected area normal to the wind except where Cf is speci fi ed for the actual surface area, ft 2 (m 2 ).",
+    "description": "",
+    "data": {
+      "rule": "Af = Projected area normal to the wind except where Cf is speci fi ed for the actual surface area, ft 2 (m 2 ).",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.4-H1"
+  },
+  {
+    "id": "ASCE7-22-29.4-P2",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4",
+      "citation": "Section 29.4",
+      "page": 2
+    },
+    "title": "Determination of G , Cf , and Af for structures found in petrochemical and other industrial facilities that are not otherwise addressed in ASCE 7 is permitted in accordance with Wind Loads for Petroch",
+    "description": "",
+    "data": {
+      "rule": "Determination of G , Cf , and Af for structures found in petrochemical and other industrial facilities that are not otherwise addressed in ASCE 7 is permitted in accordance with Wind Loads for Petrochemical and Other Industrial Facilities (ASCE 2011). Determination of G , Cf , and Af for lighting system support poles is permitted in accordance with ASCE 72.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.4.1-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.1",
+      "citation": "Section 29.4.1",
+      "page": 2
+    },
+    "title": "29.4.1 Rooftop Structures and Equipment for Buildings The lateral force, Fh , and vertical force, Fv , for rooftop structures and equipment, except as otherwise speci fi ed for roof-mounted solar pane",
+    "description": "",
+    "data": {
+      "rule": "29.4.1 Rooftop Structures and Equipment for Buildings The lateral force, Fh , and vertical force, Fv , for rooftop structures and equipment, except as otherwise speci fi ed for roof-mounted solar panels (Sections 29.4.3 and 29.4.4) and structures identi fi ed in Section 29.4, shall be determined as speci fi ed.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-29.4-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.4.1-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.1",
+      "citation": "Section 29.4.1",
+      "page": 2
+    },
+    "title": "The resultant lateral force, Fh , shall be determined from Equation (29.4-2) and applied at a height above the roof surface equal to or greater than the centroid of the projected area, Af",
+    "description": "",
+    "data": {
+      "rule": "The resultant lateral force, Fh , shall be determined from Equation (29.4-2) and applied at a height above the roof surface equal to or greater than the centroid of the projected area, Af where",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.4.1-P2",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.1",
+      "citation": "Section 29.4.1",
+      "page": 2
+    },
+    "title": "( GCr ) = 1.9 for rooftop structures and equipment with Af less than 0.1 Bh ; ( GCr ) shall be permitted to be reduced linearly from 1.9 to 1.0 as the value of Af is increased from 0.1 Bh to Bh ;",
+    "description": "",
+    "data": {
+      "rule": "( GCr ) = 1.9 for rooftop structures and equipment with Af less than 0.1 Bh ; ( GCr ) shall be permitted to be reduced linearly from 1.9 to 1.0 as the value of Af is increased from 0.1 Bh to Bh ;",
+      "conditions": [
+        {
+          "parameter": "",
+          "operator": "<",
+          "value": 0.1,
+          "unit": null
+        }
+      ],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.4.1-T2",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.1",
+      "citation": "Section 29.4.1",
+      "page": 2
+    },
+    "title": "qh = Velocity pressure evaluated at mean roof height of the building;",
+    "description": "",
+    "data": {
+      "rule": "qh = Velocity pressure evaluated at mean roof height of the building;",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.4.1-H1"
+  },
+  {
+    "id": "ASCE7-22-29.4.1-T3",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.1",
+      "citation": "Section 29.4.1",
+      "page": 2
+    },
+    "title": "Kd = Wind directionality factor, see Section 26.6; and",
+    "description": "",
+    "data": {
+      "rule": "Kd = Wind directionality factor, see Section 26.6; and",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.6-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.4.1-H1"
+  },
+  {
+    "id": "ASCE7-22-29.4.1-T4",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.1",
+      "citation": "Section 29.4.1",
+      "page": 2
+    },
+    "title": "Af = Vertical projected area of the rooftop structure or equipment on a plane normal to the direction of wind, ft 2 (m 2 ).",
+    "description": "",
+    "data": {
+      "rule": "Af = Vertical projected area of the rooftop structure or equipment on a plane normal to the direction of wind, ft 2 (m 2 ). Diagrams FREESTANDING WALL SOLID SIGN OR CASE A L 0.05h AFT - e = 0.2B t\u2192 5/2 ] WIND +-",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.4.1-H1"
+  },
+  {
+    "id": "ASCE7-22-29.4-E29-4-41",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4",
+      "citation": "Eq. (29.4-4)",
+      "page": 2
+    },
+    "title": "Equation (29.4-4)",
+    "description": "",
+    "data": {
+      "expression": "Equation (29.4-4)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.4.1-T16",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.1",
+      "citation": "Section 29.4.1",
+      "page": 3
+    },
+    "title": "Figure 29.3-1. Design wind loads (all heights): force coefficients, Cf , for other structures -solid freestanding walls and solid freestanding signs.",
+    "description": "",
+    "data": {
+      "rule": "Figure 29.3-1. Design wind loads (all heights): force coefficients, Cf , for other structures -solid freestanding walls and solid freestanding signs. GROUND SURFACE ELEVATION VIEW nim Sh < 1 5=h GROUND SURFACE hi2 \u043f\u04562 1 sh = 1 CROSS-SECTION VIEW RANGE \u2022= 0.28- RANGE CASE B PLAN VIEWS CASE C WIND WIND Is",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-29.3-E29-3-11"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.3-F29-3-11"
+  },
+  {
+    "id": "ASCE7-22-29.3-F29-3-11",
+    "type": "figure",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.3",
+      "citation": "Figure 29.3-1",
+      "page": 3
+    },
+    "title": "Figure 29.3-1. Design wind loads (all heights): force coefficients, Cf , for other structures\u2014solid freestanding walls and",
+    "description": "Figure 29.3-1. Design wind loads (all heights): force coefficients, Cf , for other structures\u2014solid freestanding walls and",
+    "data": {
+      "figure_type": "other",
+      "description": "Figure 29.3-1. Design wind loads (all heights): force coefficients, Cf , for other structures\u2014solid freestanding walls and",
+      "source_pdf_page": 3
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "bold_label"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.4.1-T36",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.1",
+      "citation": "Section 29.4.1",
+      "page": 4
+    },
+    "title": "Figure 29.3-1 ( Continued ). Design wind loads (all heights): force coefficients, Cf , for other structures -solid freestanding walls and solid freestanding signs.",
+    "description": "",
+    "data": {
+      "rule": "Figure 29.3-1 ( Continued ). Design wind loads (all heights): force coefficients, Cf , for other structures -solid freestanding walls and solid freestanding signs.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-29.3-E29-3-11"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.3-F29-3-11"
+  },
+  {
+    "id": "ASCE7-22-29.4.1-T37",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.1",
+      "citation": "Section 29.4.1",
+      "page": 5
+    },
+    "title": "Figure 29.4-1. Other structures (all heights): force coefficients, Cf , for chimneys, tanks, and similar structures.",
+    "description": "",
+    "data": {
+      "rule": "Figure 29.4-1. Other structures (all heights): force coefficients, Cf , for chimneys, tanks, and similar structures.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-29.4-E29-4-11"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.4-F29-4-11"
+  },
+  {
+    "id": "ASCE7-22-29.4.1-T38",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.1",
+      "citation": "Section 29.4.1",
+      "page": 5
+    },
+    "title": "Figure 29.4-2. Other structures (all heights): force coefficients, Cf , for open signs and single-plane open frames.",
+    "description": "",
+    "data": {
+      "rule": "Figure 29.4-2. Other structures (all heights): force coefficients, Cf , for open signs and single-plane open frames. Specified where",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-29.4-E29-4-21"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.4-F29-4-21"
+  },
+  {
+    "id": "ASCE7-22-29.4-F29-4-11",
+    "type": "figure",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4",
+      "citation": "Figure 29.4-1",
+      "page": 5
+    },
+    "title": "Figure 29.4-1. Other structures (all heights): force coefficients, Cf , for chimneys, tanks, and similar structures.",
+    "description": "Figure 29.4-1. Other structures (all heights): force coefficients, Cf , for chimneys, tanks, and similar structures.",
+    "data": {
+      "figure_type": "other",
+      "description": "Figure 29.4-1. Other structures (all heights): force coefficients, Cf , for chimneys, tanks, and similar structures.",
+      "source_pdf_page": 5
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "bold_label"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.4-F29-4-21",
+    "type": "figure",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4",
+      "citation": "Figure 29.4-2",
+      "page": 5
+    },
+    "title": "Figure 29.4-2. Other structures (all heights): force coefficients, Cf , for open signs and single-plane open frames.",
+    "description": "Figure 29.4-2. Other structures (all heights): force coefficients, Cf , for open signs and single-plane open frames.",
+    "data": {
+      "figure_type": "other",
+      "description": "Figure 29.4-2. Other structures (all heights): force coefficients, Cf , for open signs and single-plane open frames.",
+      "source_pdf_page": 5
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "bold_label"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.4.1-P3",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.1",
+      "citation": "Section 29.4.1",
+      "page": 6
+    },
+    "title": "( GCr ) = 1.5 for rooftop structures and equipment with Ar less than 0.1 BL ; ( GCr ) shall be permitted to be reduced linearly from 1.5 to 1.0 as the value of Ar is increased from 0.1 BL to BL ;",
+    "description": "",
+    "data": {
+      "rule": "( GCr ) = 1.5 for rooftop structures and equipment with Ar less than 0.1 BL ; ( GCr ) shall be permitted to be reduced linearly from 1.5 to 1.0 as the value of Ar is increased from 0.1 BL to BL ;",
+      "conditions": [
+        {
+          "parameter": "",
+          "operator": "<",
+          "value": 0.1,
+          "unit": null
+        }
+      ],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.4.1-T41",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.1",
+      "citation": "Section 29.4.1",
+      "page": 6
+    },
+    "title": "qh = Velocity pressure evaluated at the mean roof height of the building;",
+    "description": "",
+    "data": {
+      "rule": "qh = Velocity pressure evaluated at the mean roof height of the building;",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.4.1-H1"
+  },
+  {
+    "id": "ASCE7-22-29.4.1-T42",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.1",
+      "citation": "Section 29.4.1",
+      "page": 6
+    },
+    "title": "Kd = Wind directionality factor, see Section 26.6; and",
+    "description": "",
+    "data": {
+      "rule": "Kd = Wind directionality factor, see Section 26.6; and",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.6-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.4.1-H1"
+  },
+  {
+    "id": "ASCE7-22-29.4.1-T43",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.1",
+      "citation": "Section 29.4.1",
+      "page": 6
+    },
+    "title": "Ar = Horizontal projected area of rooftop structure or equipment, ft 2 (m 2 ).",
+    "description": "",
+    "data": {
+      "rule": "Ar = Horizontal projected area of rooftop structure or equipment, ft 2 (m 2 ).",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.4.1-H1"
+  },
+  {
+    "id": "ASCE7-22-29.4.2-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.2",
+      "citation": "Section 29.4.2",
+      "page": 6
+    },
+    "title": "29.4.2 Design Wind Loads: Circular Bins, Silos, and Tanks with h \u2264 120 ft ( h \u2264 36.5 m), D \u2264 120 ft ( D \u2264 36.5 m), and 0.25 \u2264 HD \u2264 4 Grouped circular bins, silos, and tanks of similar size with center",
+    "description": "",
+    "data": {
+      "rule": "29.4.2 Design Wind Loads: Circular Bins, Silos, and Tanks with h \u2264 120 ft ( h \u2264 36.5 m), D \u2264 120 ft ( D \u2264 36.5 m), and 0.25 \u2264 HD \u2264 4 Grouped circular bins, silos, and tanks of similar size with center-to-center spacing greater than two diameters shall be treated as isolated structures. For spacings less than 1.25 diameters, the structures shall be treated as grouped, and the wind pressure shall be determined from Section 29.4.2.4. For intermediate spacings, linear interpolation of the Cp (or Cf ) values shall be used.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-29.4.2.4-P1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.4.2.1-T1",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.2.1",
+      "citation": "Section 29.4.2.1",
+      "page": 6
+    },
+    "title": "29.4.2.1 External Walls of Isolated Circular Bins, Silos, and Tanks To determine the overall drag on circular bins, silos, and tanks using Equation (29.4-1), a force coef fi cient Cf of 0.63, based",
+    "description": "",
+    "data": {
+      "rule": "29.4.2.1 External Walls of Isolated Circular Bins, Silos, and Tanks To determine the overall drag on circular bins, silos, and tanks using Equation (29.4-1), a force coef fi cient Cf of 0.63, based",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.4.2.1-H1"
+  },
+  {
+    "id": "ASCE7-22-29.4.2.1-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.2.1",
+      "citation": "Section 29.4.2.1",
+      "page": 6
+    },
+    "title": "Figure 29.4-3. Other structures (all heights): force coefficients, Cf , for open structures -trussed towers.",
+    "description": "",
+    "data": {
+      "rule": "Figure 29.4-3. Other structures (all heights): force coefficients, Cf , for open structures -trussed towers.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-29.4-E29-4-31"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.4.2.1-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.2.1",
+      "citation": "Section 29.4.2.1",
+      "page": 6
+    },
+    "title": "The vertical uplift force, Fv , on rooftop structures and equipment shall be determined from Equation (29.4-3)",
+    "description": "",
+    "data": {
+      "rule": "The vertical uplift force, Fv , on rooftop structures and equipment shall be determined from Equation (29.4-3)",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.4.2.1-P2",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.2.1",
+      "citation": "Section 29.4.2.1",
+      "page": 6
+    },
+    "title": "on the projected wall area Dhc , is permitted to be used in lieu of Figure 29.4-1, provided that all of the following conditions are met:",
+    "description": "",
+    "data": {
+      "rule": "on the projected wall area Dhc , is permitted to be used in lieu of Figure 29.4-1, provided that all of the following conditions are met:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-29.4-E29-4-11"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.4.2.1-T2",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.2.1",
+      "citation": "Section 29.4.2.1",
+      "page": 6
+    },
+    "title": "(a) hc \u2215 D is in the range of 0.25 to 4.0 and the cylinder (diameter D ) is standing on the ground or supported by columns; and",
+    "description": "",
+    "data": {
+      "rule": "(a) hc \u2215 D is in the range of 0.25 to 4.0 and the cylinder (diameter D ) is standing on the ground or supported by columns; and",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.4.2.1-H1"
+  },
+  {
+    "id": "ASCE7-22-29.4.2.1-T3",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.2.1",
+      "citation": "Section 29.4.2.1",
+      "page": 6
+    },
+    "title": "(b) Clearance height, C , is less than or equal to the height of the solid, cylinder hc , as shown in Figure 29.4-4; and",
+    "description": "",
+    "data": {
+      "rule": "(b) Clearance height, C , is less than or equal to the height of the solid, cylinder hc , as shown in Figure 29.4-4; and",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-29.4-E29-4-41"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.4.2.1-H1"
+  },
+  {
+    "id": "ASCE7-22-29.4.2.1-T4",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.2.1",
+      "citation": "Section 29.4.2.1",
+      "page": 6
+    },
+    "title": "(c) Tank surface is moderately smooth, as de fi ned in Figure 29.4-1.",
+    "description": "",
+    "data": {
+      "rule": "(c) Tank surface is moderately smooth, as de fi ned in Figure 29.4-1.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-29.4-E29-4-11"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.4.2.1-H1"
+  },
+  {
+    "id": "ASCE7-22-29.4.2.2-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.2.2",
+      "citation": "Section 29.4.2.2",
+      "page": 6
+    },
+    "title": "29.4.2.2 Roofs of Isolated Circular Bins, Silos, and Tanks The net design pressures on the roofs of circular bins, silos, and tanks shall be determined from Equation (29.4-4)",
+    "description": "",
+    "data": {
+      "rule": "29.4.2.2 Roofs of Isolated Circular Bins, Silos, and Tanks The net design pressures on the roofs of circular bins, silos, and tanks shall be determined from Equation (29.4-4)",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.4.2.2-T1",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.2.2",
+      "citation": "Section 29.4.2.2",
+      "page": 6
+    },
+    "title": "where qh = Velocity pressure for all surfaces evaluated at mean roof height h ;",
+    "description": "",
+    "data": {
+      "rule": "where qh = Velocity pressure for all surfaces evaluated at mean roof height h ;",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.4.2.2-H1"
+  },
+  {
+    "id": "ASCE7-22-29.4.2.2-T2",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.2.2",
+      "citation": "Section 29.4.2.2",
+      "page": 6
+    },
+    "title": "Kd = Wind directionality factor, see Section 26.6;",
+    "description": "",
+    "data": {
+      "rule": "Kd = Wind directionality factor, see Section 26.6;",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.6-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.4.2.2-H1"
+  },
+  {
+    "id": "ASCE7-22-29.4.2.2-T3",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.2.2",
+      "citation": "Section 29.4.2.2",
+      "page": 6
+    },
+    "title": "Cp = External pressure coef fi cient from Figure 29.4-5 for roofs;",
+    "description": "",
+    "data": {
+      "rule": "Cp = External pressure coef fi cient from Figure 29.4-5 for roofs;",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-29.4-E29-4-51"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.4.2.2-H1"
+  },
+  {
+    "id": "ASCE7-22-29.4.2.2-T4",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.2.2",
+      "citation": "Section 29.4.2.2",
+      "page": 6
+    },
+    "title": "( GCpi ) = Internal pressure coef fi cient for roofed structures from Section 26.13; and",
+    "description": "",
+    "data": {
+      "rule": "( GCpi ) = Internal pressure coef fi cient for roofed structures from Section 26.13; and",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.13-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.4.2.2-H1"
+  },
+  {
+    "id": "ASCE7-22-29.4.2.2-T5",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.2.2",
+      "citation": "Section 29.4.2.2",
+      "page": 6
+    },
+    "title": "G = Gust-effect factor from Section 26.11.",
+    "description": "",
+    "data": {
+      "rule": "G = Gust-effect factor from Section 26.11.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.11-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.4.2.2-H1"
+  },
+  {
+    "id": "ASCE7-22-29.4.2.2-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.2.2",
+      "citation": "Section 29.4.2.2",
+      "page": 6
+    },
+    "title": "The external pressures on the conical, fl at, or dome roofs (roof angle less than 10 degrees) of circular bins, silos, or tanks shall be",
+    "description": "",
+    "data": {
+      "rule": "The external pressures on the conical, fl at, or dome roofs (roof angle less than 10 degrees) of circular bins, silos, or tanks shall be Wind direction Elevation",
+      "conditions": [
+        {
+          "parameter": "",
+          "operator": "<",
+          "value": 10.0,
+          "unit": null
+        }
+      ],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.4-F29-4-31",
+    "type": "figure",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4",
+      "citation": "Figure 29.4-3",
+      "page": 6
+    },
+    "title": "Figure 29.4-3. Other structures (all heights): force coefficients, Cf , for open structures\u2014trussed towers.",
+    "description": "Figure 29.4-3. Other structures (all heights): force coefficients, Cf , for open structures\u2014trussed towers.",
+    "data": {
+      "figure_type": "other",
+      "description": "Figure 29.4-3. Other structures (all heights): force coefficients, Cf , for open structures\u2014trussed towers.",
+      "source_pdf_page": 6
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "bold_label"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.4.2.2-T8",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.2.2",
+      "citation": "Section 29.4.2.2",
+      "page": 7
+    },
+    "title": "Figure 29.4-4. Other structures, design wind loads for main wind force resisting systems [ h < 120 ft ( h < 36.6 m)]: circular bins, silos, and tanks on the ground or supported by columns, where D \u2264 1",
+    "description": "",
+    "data": {
+      "rule": "Figure 29.4-4. Other structures, design wind loads for main wind force resisting systems [ h < 120 ft ( h < 36.6 m)]: circular bins, silos, and tanks on the ground or supported by columns, where D \u2264 120 ft ( D \u2264 36.6 m), 0.25 \u2264 H \u2215 D < 4.0. PLAN C <H Elevation",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-29.4-E29-4-41"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.4-F29-4-41"
+  },
+  {
+    "id": "ASCE7-22-29.4.2.2-P2",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.2.2",
+      "citation": "Section 29.4.2.2",
+      "page": 7
+    },
+    "title": "equal to the external pressure coef fi cients, Cp , given in Figure 29.4-5 for Zones 1 and 2. The external pressures for dome roofs (roof angle greater than 10 degrees) shall be determined from Figure",
+    "description": "",
+    "data": {
+      "rule": "equal to the external pressure coef fi cients, Cp , given in Figure 29.4-5 for Zones 1 and 2. The external pressures for dome roofs (roof angle greater than 10 degrees) shall be determined from Figure 27.3-2.",
+      "conditions": [
+        {
+          "parameter": "",
+          "operator": ">",
+          "value": 10.0,
+          "unit": null
+        }
+      ],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-29.4-E29-4-51"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.4.2.3-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.2.3",
+      "citation": "Section 29.4.2.3",
+      "page": 7
+    },
+    "title": "29.4.2.3 Undersides of Isolated Elevated Circular Bins, Silos, and Tanks External pressure coef fi cients, Cp , for the underside of elevated circular bins, silos, or tanks with clearance height, C , ",
+    "description": "",
+    "data": {
+      "rule": "29.4.2.3 Undersides of Isolated Elevated Circular Bins, Silos, and Tanks External pressure coef fi cients, Cp , for the underside of elevated circular bins, silos, or tanks with clearance height, C , above ground less than or equal to the solid cylinder height, H , shall be taken as 0.8 and -0.6. For structures with clearance height above ground of less than or equal to one-third of the cylinder height, use linear interpolation between these values and Cp = 0.0, according to the ratio of C \u2215 h , where C and h are de fi ned, as shown in Figure 29.4-4.",
+      "conditions": [
+        {
+          "parameter": "Cp",
+          "operator": "==",
+          "value": 0.0,
+          "unit": null
+        }
+      ],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-29.4-E29-4-41"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.4.2.4-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.2.4",
+      "citation": "Section 29.4.2.4",
+      "page": 7
+    },
+    "title": "29.4.2.4 Roofs and Walls of Grouped Circular Bins, Silos, and Tanks For closely spaced groups of three or more circular bins, silos, or tanks with center-to-center spacing less than 1.25 D , roof pres",
+    "description": "",
+    "data": {
+      "rule": "29.4.2.4 Roofs and Walls of Grouped Circular Bins, Silos, and Tanks For closely spaced groups of three or more circular bins, silos, or tanks with center-to-center spacing less than 1.25 D , roof pressure coef fi cients, Cp , and drag force coef fi cient, Cf , on projected walls shall be calculated using Figure 29.4-6. The net design pressures on the roofs shall be determined from Equation (29.4-4). The overall drag shall be calculated based on Equation (29.4-1).",
+      "conditions": [
+        {
+          "parameter": "",
+          "operator": "<",
+          "value": 1.25,
+          "unit": null
+        }
+      ],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-29.4-E29-4-61"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.4.3-T1",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.3",
+      "citation": "Section 29.4.3",
+      "page": 7
+    },
+    "title": "29.4.3 Rooftop Solar Panels for Buildings of All Heights with Flat Roofs or Gable or Hip Roofs with Slopes Less Than 7 Degrees As illustrated in Figure 29.4-7, the design wind pressure for rooftop sol",
+    "description": "",
+    "data": {
+      "rule": "29.4.3 Rooftop Solar Panels for Buildings of All Heights with Flat Roofs or Gable or Hip Roofs with Slopes Less Than 7 Degrees As illustrated in Figure 29.4-7, the design wind pressure for rooftop solar panels apply to those located on enclosed or partially enclosed buildings of all heights with fl at roofs, or with gable or hip roof slopes with \u03b8 \u2264 7\u00b0, with panels conforming to",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-29.4-E29-4-71"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.4.3-H2"
+  },
+  {
+    "id": "ASCE7-22-29.4.3-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.3",
+      "citation": "Section 29.4.3",
+      "page": 7
+    },
+    "title": "L p \u2264 6.7 ft (2.04 m),",
+    "description": "",
+    "data": {
+      "rule": "L p \u2264 6.7 ft (2.04 m), \u03c9 \u2264 35\u00b0, h 1 \u2264 2 ft (0.61 m), h 2 \u2264 4 ft (1.22 m),",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.4.3-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.3",
+      "citation": "Section 29.4.3",
+      "page": 7
+    },
+    "title": "and with a minimum gap of 0.25 in. (6.4 mm) provided between all panels, and the spacing of gaps between panels not exceeding 6.7 ft (2.04 m). In addition, the minimum horizontal clear distance betwee",
+    "description": "",
+    "data": {
+      "rule": "and with a minimum gap of 0.25 in. (6.4 mm) provided between all panels, and the spacing of gaps between panels not exceeding 6.7 ft (2.04 m). In addition, the minimum horizontal clear distance between the panels and the edge of the roof shall be the larger of 2 \u00f0 h 2 -hpt \u00de and 4 ft (1.2 m) for the design pressures in this section to apply. The design wind pressure for rooftop solar panels shall be determined by Equations (29.4-5) and (29.4-6):",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.4.3-T5",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.3",
+      "citation": "Section 29.4.3",
+      "page": 7
+    },
+    "title": "where qh is the velocity pressure for all surfaces evaluated at mean roof height, h , and Kd is the wind directionality factor; see Section 26.6.",
+    "description": "",
+    "data": {
+      "rule": "where qh is the velocity pressure for all surfaces evaluated at mean roof height, h , and Kd is the wind directionality factor; see Section 26.6. Flat, Conical, or Dome Roofs Wind direction Wind direction Conical Roof Wind Direction Zone 1 Zone 2 PLAN Conical 8 < 109 Elevation 0.6 D Zone 1 0.4 D / Zone 2 PLAN Wind direction 10\u00b0 \u2264 8 5 303 Elevation",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.6-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.4.3-H2"
+  },
+  {
+    "id": "ASCE7-22-29.4-F29-4-41",
+    "type": "figure",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4",
+      "citation": "Figure 29.4-4",
+      "page": 7
+    },
+    "title": "Figure 29.4-4. Other structures, design wind loads for main wind force resisting systems [h < 120 ft (h < 36.6 m)]: circular",
+    "description": "Figure 29.4-4. Other structures, design wind loads for main wind force resisting systems [h < 120 ft (h < 36.6 m)]: circular",
+    "data": {
+      "figure_type": "other",
+      "description": "Figure 29.4-4. Other structures, design wind loads for main wind force resisting systems [h < 120 ft (h < 36.6 m)]: circular",
+      "source_pdf_page": 7
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "bold_label"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.4-F29-4-71",
+    "type": "figure",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4",
+      "citation": "Figure 29.4-7",
+      "page": 7
+    },
+    "title": "Than 7 Degrees As illustrated in Figure 29.4-7, the design",
+    "description": "Than 7 Degrees As illustrated in Figure 29.4-7, the design",
+    "data": {
+      "figure_type": "other",
+      "description": "Than 7 Degrees As illustrated in Figure 29.4-7, the design",
+      "source_pdf_page": 7
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "bold_label"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.4.3-T26",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.3",
+      "citation": "Section 29.4.3",
+      "page": 8
+    },
+    "title": "Figure 29.4-5. Other structures, design wind loads for main wind force resisting systems [ h < 120 ft ( h < 36.6 m)]: external pressure coefficients, Cp , for isolated roofs of circular bins, silos, a",
+    "description": "",
+    "data": {
+      "rule": "Figure 29.4-5. Other structures, design wind loads for main wind force resisting systems [ h < 120 ft ( h < 36.6 m)]: external pressure coefficients, Cp , for isolated roofs of circular bins, silos, and tanks, where D \u2264 120 ft ( D \u2264 36.6 m), 0.25 \u2264 H \u2215 D < 4.0. Flat, Conical, or Dome Roofs Wind Direction Wind direction Zone 1 Conical Roof Wind",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-29.4-E29-4-51"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.4-F29-4-51"
+  },
+  {
+    "id": "ASCE7-22-29.4-F29-4-51",
+    "type": "figure",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4",
+      "citation": "Figure 29.4-5",
+      "page": 8
+    },
+    "title": "Figure 29.4-5. Other structures, design wind loads for main wind force resisting systems [h<120 ft (h<36.6 m)]: external",
+    "description": "Figure 29.4-5. Other structures, design wind loads for main wind force resisting systems [h<120 ft (h<36.6 m)]: external",
+    "data": {
+      "figure_type": "other",
+      "description": "Figure 29.4-5. Other structures, design wind loads for main wind force resisting systems [h<120 ft (h<36.6 m)]: external",
+      "source_pdf_page": 8
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "bold_label"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.4.3-T34",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.3",
+      "citation": "Section 29.4.3",
+      "page": 9
+    },
+    "title": "Figure 29.4-6. Other structures, design loads for main wind force resisting systems [ h < 120 ft ( h < 36.6 m)]: drag force coefficients, cf , and roof pressure coefficients, cp , for grouped circular",
+    "description": "",
+    "data": {
+      "rule": "Figure 29.4-6. Other structures, design loads for main wind force resisting systems [ h < 120 ft ( h < 36.6 m)]: drag force coefficients, cf , and roof pressure coefficients, cp , for grouped circular bins, silos, and tanks on the ground or supported by columns, where D \u2264 120 ft ( D \u2264 36.6 m), 0.25 \u2264 H \u2215 D < 4.0, and center-to-center spacing \u2264 1.25. 0.5 D 0.5 D Zone 2 PLAN 0.6 D Zone 1 0.40 i Zone 2 PLAN Wind direction Conical 8 < 10% Elevation 109505309 Elevation Direction Ws Nominal Net 2h 2h",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-29.4-E29-4-61"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.4-F29-4-61"
+  },
+  {
+    "id": "ASCE7-22-29.4-F29-4-61",
+    "type": "figure",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4",
+      "citation": "Figure 29.4-6",
+      "page": 9
+    },
+    "title": "Figure 29.4-6. Other structures, design loads for main wind force resisting systems [h < 120 ft (h < 36.6 m)]: drag force",
+    "description": "Figure 29.4-6. Other structures, design loads for main wind force resisting systems [h < 120 ft (h < 36.6 m)]: drag force",
+    "data": {
+      "figure_type": "other",
+      "description": "Figure 29.4-6. Other structures, design loads for main wind force resisting systems [h < 120 ft (h < 36.6 m)]: drag force",
+      "source_pdf_page": 9
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "bold_label"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.4.3-T55",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.3",
+      "citation": "Section 29.4.3",
+      "page": 10
+    },
+    "title": "Pressure Coefficient (GC rn) nom",
+    "description": "",
+    "data": {
+      "rule": "Pressure Coefficient (GC rn) nom Solar Panel 2h Solar Panel",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.4.3-H2"
+  },
+  {
+    "id": "ASCE7-22-29.4.3-T60",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.3",
+      "citation": "Section 29.4.3",
+      "page": 10
+    },
+    "title": "Figure 29.4-7. Design wind loads (all heights): rooftop solar panels for enclosed and partially enclosed buildings, roof \u03b8 \u2264 7\u00b0.",
+    "description": "",
+    "data": {
+      "rule": "Figure 29.4-7. Design wind loads (all heights): rooftop solar panels for enclosed and partially enclosed buildings, roof \u03b8 \u2264 7\u00b0. An An -0 Roof Building Roof Plan Ground Building Elevation",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-29.4-E29-4-71"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.4-F29-4-71"
+  },
+  {
+    "id": "ASCE7-22-29.4.3-T68",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.3",
+      "citation": "Section 29.4.3",
+      "page": 10
+    },
+    "title": "Nominal Net Pressure Coefficients (GCrn)nom",
+    "description": "",
+    "data": {
+      "rule": "Nominal Net Pressure Coefficients (GCrn)nom 3.6 3.4 3.2 3.0 2.8 0.45 10.35) Nominal Net 3.6 3.4 3.2 3.0",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.4.3-H2"
+  },
+  {
+    "id": "ASCE7-22-29.4.3-T81",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.3",
+      "citation": "Section 29.4.3",
+      "page": 10
+    },
+    "title": "Pressure Coefficient (GC rn) nom",
+    "description": "",
+    "data": {
+      "rule": "Pressure Coefficient (GC rn) nom 2.8 2.6 2.4 2.2 .0 1.8 .6 1.4 0.8 0.6 0.4 0.2 1057 \u22641 10 100 500 1000 Normalized Wind Area, An 0\u00b0\u2264 0 \u2264 5\u00b0 5000 \u22641 10 100 500 1000 Normalized Wind Area, An 15\u00b0\u2264 0 \u2264 35\u00b0 5000 Array Edge Factors, Ve Edge of Adjacent Solar Array or Building Edge EXAMPLE PLAN 2) d, < max (4h,, 4ft) di DAVINA LEGEND",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.4.3-H2"
+  },
+  {
+    "id": "ASCE7-22-29.4.3-T116",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.3",
+      "citation": "Section 29.4.3",
+      "page": 10
+    },
+    "title": "\u2022 Non Exposed Solar Collectors (Ye = 1.0)",
+    "description": "",
+    "data": {
+      "rule": "\u2022 Non Exposed Solar Collectors (Ye = 1.0)",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.4.3-H2"
+  },
+  {
+    "id": "ASCE7-22-29.4.3-T117",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.3",
+      "citation": "Section 29.4.3",
+      "page": 10
+    },
+    "title": "Exposed Solar Panels (Ye = 1.5)",
+    "description": "",
+    "data": {
+      "rule": "Exposed Solar Panels (Ye = 1.5) Td, -1.51, typ - Row of Solar Panels -Roof A NORTH Section A-A Solar Panel Plan - WE 2h Lp. \u2021 (GCm)",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.4.3-H2"
+  },
+  {
+    "id": "ASCE7-22-29.4.3-H2",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.3",
+      "citation": "Section 29.4.3",
+      "page": 11
+    },
+    "title": "Figure 29.4-7 ( Continued ). Design wind loads (all heights): rooftop solar panels for enclosed and partially enclosed buildings, roof \u03b8 \u2264 7\u00b0.",
+    "description": "",
+    "data": {
+      "rule": "Figure 29.4-7 ( Continued ). Design wind loads (all heights): rooftop solar panels for enclosed and partially enclosed buildings, roof \u03b8 \u2264 7\u00b0. where",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-29.4-E29-4-71"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.4.3-T130",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.3",
+      "citation": "Section 29.4.3",
+      "page": 11
+    },
+    "title": "\u03b3 p = min \u00f0 1.2 ; 0.9 \u00fe hpt \u2215 h \u00de ;",
+    "description": "",
+    "data": {
+      "rule": "\u03b3 p = min \u00f0 1.2 ; 0.9 \u00fe hpt \u2215 h \u00de ;",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.4.3-H2"
+  },
+  {
+    "id": "ASCE7-22-29.4.3-T131",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.3",
+      "citation": "Section 29.4.3",
+      "page": 11
+    },
+    "title": "\u03b3 E = 1.5 for uplift loads on panels that are exposed and within a distance 1.5 \u00f0 Lp \u00de from the end of a row at an exposed edge of the array; \u03b3 E = 1.0 elsewhere for uplift loads and for all downward ",
+    "description": "",
+    "data": {
+      "rule": "\u03b3 E = 1.5 for uplift loads on panels that are exposed and within a distance 1.5 \u00f0 Lp \u00de from the end of a row at an exposed edge of the array; \u03b3 E = 1.0 elsewhere for uplift loads and for all downward loads, as illustrated in Figure 29.4-7; a panel is de fi ned as exposed if d 1 to the roof edge > 0.5 h and one of the following applies:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-29.4-E29-4-71"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.4.3-H2"
+  },
+  {
+    "id": "ASCE7-22-29.4.3-T132",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.3",
+      "citation": "Section 29.4.3",
+      "page": 11
+    },
+    "title": "\u03b3 c = max \u00f0 0.6 \u00fe 0.06 Lp ; 0.8 \u00de ; and",
+    "description": "",
+    "data": {
+      "rule": "\u03b3 c = max \u00f0 0.6 \u00fe 0.06 Lp ; 0.8 \u00de ; and",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.4.3-H2"
+  },
+  {
+    "id": "ASCE7-22-29.4.3-T133",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.3",
+      "citation": "Section 29.4.3",
+      "page": 11
+    },
+    "title": "1. d 1 to the adjacent array > max \u00f0 4 h 2 , 4 ft (1.2 m), or 2. d 2 to the next adjacent panel > max \u00f0 4 h 2 ; 4 ft (1.2 m).",
+    "description": "",
+    "data": {
+      "rule": "1. d 1 to the adjacent array > max \u00f0 4 h 2 , 4 ft (1.2 m), or 2. d 2 to the next adjacent panel > max \u00f0 4 h 2 ; 4 ft (1.2 m).",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.4.3-H2"
+  },
+  {
+    "id": "ASCE7-22-29.4.3-T134",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.3",
+      "citation": "Section 29.4.3",
+      "page": 11
+    },
+    "title": "\u00f0 GCrn \u00de nom is the nominal net pressure coef fi cient for rooftop solar panels as determined from Figure 29.4-7.",
+    "description": "",
+    "data": {
+      "rule": "\u00f0 GCrn \u00de nom is the nominal net pressure coef fi cient for rooftop solar panels as determined from Figure 29.4-7.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-29.4-E29-4-71"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.4.3-H2"
+  },
+  {
+    "id": "ASCE7-22-29.4.3-P2",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.3",
+      "citation": "Section 29.4.3",
+      "page": 11
+    },
+    "title": "When \u03c9 \u2264 2\u00b0, h 2 \u2264 0.83 ft (0.25 m), a minimum gap of 0.25 in. (6.4 mm) is provided between all panels, and the spacing of gaps between panels does not exceed 6.7 ft (2.04 m), the procedure of Section",
+    "description": "",
+    "data": {
+      "rule": "When \u03c9 \u2264 2\u00b0, h 2 \u2264 0.83 ft (0.25 m), a minimum gap of 0.25 in. (6.4 mm) is provided between all panels, and the spacing of gaps between panels does not exceed 6.7 ft (2.04 m), the procedure of Section 29.4.4 shall be permitted.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-29.4.4-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.4.3-P3",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.3",
+      "citation": "Section 29.4.3",
+      "page": 11
+    },
+    "title": "The roof shall be designed for both of the following:",
+    "description": "",
+    "data": {
+      "rule": "The roof shall be designed for both of the following:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.4.3-P4",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.3",
+      "citation": "Section 29.4.3",
+      "page": 11
+    },
+    "title": "The case where solar collectors are present. Wind loads acting on solar collectors in accordance with this section shall be applied simultaneously with roof wind loads speci fi ed in other sections ac",
+    "description": "",
+    "data": {
+      "rule": "The case where solar collectors are present. Wind loads acting on solar collectors in accordance with this section shall be applied simultaneously with roof wind loads speci fi ed in other sections acting on areas of the roof not covered by the plan projection of solar collectors. For this case, roof wind loads speci fi ed in other sections need not be applied on areas of the roof covered by the plan projection of solar collectors.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.4.3-T135",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.3",
+      "citation": "Section 29.4.3",
+      "page": 11
+    },
+    "title": "Cases where the solar arrays have been removed.",
+    "description": "",
+    "data": {
+      "rule": "Cases where the solar arrays have been removed.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.4.3-H2"
+  },
+  {
+    "id": "ASCE7-22-29.4.4-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.4",
+      "citation": "Section 29.4.4",
+      "page": 11
+    },
+    "title": "29.4.4 Rooftop Solar Panels Parallel to the Roof Surface on Buildings of All Heights and Roof Slopes The design wind pressures for rooftop solar panels located on enclosed or partially enclosed buildi",
+    "description": "",
+    "data": {
+      "rule": "29.4.4 Rooftop Solar Panels Parallel to the Roof Surface on Buildings of All Heights and Roof Slopes The design wind pressures for rooftop solar panels located on enclosed or partially enclosed buildings of all heights, with panels parallel to the roof surface, with a tolerance of 2 degrees and with a maximum height above the roof surface, h 2 , not exceeding 10 in. (0.25 m), shall be determined in accordance with this section. A minimum gap of 0.25 in. (6.4 mm) shall be provided between all panels, with the spacing of gaps between panels not exceeding 6.7 ft (2.04 m). In addition, the array shall be located at least 2 h 2 from the roof edge, a gable ridge, or a hip ridge. The design wind pressure for rooftop solar collectors shall be determined by Equation (29.4-7) where",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.4.4-T2",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.4",
+      "citation": "Section 29.4.4",
+      "page": 11
+    },
+    "title": "qh = Velocity pressure for all surfaces evaluated at mean roof height, h ;",
+    "description": "",
+    "data": {
+      "rule": "qh = Velocity pressure for all surfaces evaluated at mean roof height, h ;",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.4.4-H1"
+  },
+  {
+    "id": "ASCE7-22-29.4.4-T3",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.4",
+      "citation": "Section 29.4.4",
+      "page": 11
+    },
+    "title": "Kd = Wind directionality factor, see Section 26.6;",
+    "description": "",
+    "data": {
+      "rule": "Kd = Wind directionality factor, see Section 26.6;",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.6-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.4.4-H1"
+  },
+  {
+    "id": "ASCE7-22-29.4.4-T4",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.4",
+      "citation": "Section 29.4.4",
+      "page": 11
+    },
+    "title": "( GCp ) = External pressure coef fi cient for C&C of roofs with respective roof zoning, determined from Figures 30.32A-I through 30.3-7 or 30.5-1;",
+    "description": "",
+    "data": {
+      "rule": "( GCp ) = External pressure coef fi cient for C&C of roofs with respective roof zoning, determined from Figures 30.32A-I through 30.3-7 or 30.5-1;",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.4.4-H1"
+  },
+  {
+    "id": "ASCE7-22-29.4.4-T5",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.4",
+      "citation": "Section 29.4.4",
+      "page": 11
+    },
+    "title": "\u03b3 E = Array edge factor = 1.5 for uplift loads on panels that are exposed and within a distance of 2 h 2 from an edge of the array; \u03b3 E = 1.0 elsewhere for uplift loads and for all downward loads, as ",
+    "description": "",
+    "data": {
+      "rule": "\u03b3 E = Array edge factor = 1.5 for uplift loads on panels that are exposed and within a distance of 2 h 2 from an edge of the array; \u03b3 E = 1.0 elsewhere for uplift loads and for all downward loads, as illustrated in Figure 29.4-7; a panel is de fi ned as exposed if d 1 to the roof edge > 0.5 h and one of the following applies:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-29.4-E29-4-71"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.4.4-H1"
+  },
+  {
+    "id": "ASCE7-22-29.4.4-T6",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.4",
+      "citation": "Section 29.4.4",
+      "page": 11
+    },
+    "title": "d 1 to the adjacent array > 2 h 2 or d 2 to the next adjacent panel > 2 h 2 ; and",
+    "description": "",
+    "data": {
+      "rule": "d 1 to the adjacent array > 2 h 2 or d 2 to the next adjacent panel > 2 h 2 ; and",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.4.4-H1"
+  },
+  {
+    "id": "ASCE7-22-29.4.4-T7",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.4",
+      "citation": "Section 29.4.4",
+      "page": 11
+    },
+    "title": "\u03b3 a = Solar panel pressure equalization factor, de fi ned in Figure 29.4-8.",
+    "description": "",
+    "data": {
+      "rule": "\u03b3 a = Solar panel pressure equalization factor, de fi ned in Figure 29.4-8. Equalization Factor, Ya 0.8 0.6 0.4 0.2 -- gaps \u2265 0.75\" (19 mm) and hz \u2264 5\" (127 mm) - gap = 0.25\" (6.4 mm) and h2 = 10: (254 mm) 10 100 Effective Wind Area, ft2",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-29.4-E29-4-81"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.4.4-H1"
+  },
+  {
+    "id": "ASCE7-22-29.4-E29-4-101",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4",
+      "citation": "Eq. (29.4-10)",
+      "page": 12
+    },
+    "title": "Equation (29.4-10)",
+    "description": "",
+    "data": {
+      "expression": "solarphotovoltaic(PV)panelsystemsinstalledinrowssatisfying GC =\u00bd(cid:2)\u00f0GC \u00de (cid:2)\u00f0GC \u00de(cid:3) (29.4-10)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "pdfplumber_scan"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.4-E29-4-111",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4",
+      "citation": "Eq. (29.4-11)",
+      "page": 12
+    },
+    "title": "Equation (29.4-11)",
+    "description": "",
+    "data": {
+      "expression": "GC =\u00bd(cid:2)\u00f0GC \u00de (cid:2)\u00f0GC \u00de(cid:3) (29.4-11)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "pdfplumber_scan"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.4.4-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.4",
+      "citation": "Section 29.4.4",
+      "page": 12
+    },
+    "title": "Figure 29.4-8. Solar panel pressure equalization factor, \u03b3 a , for enclosed and partially enclosed buildings of all heights. Note : Bilinear interpolation between the solid line and the dashed line is",
+    "description": "",
+    "data": {
+      "rule": "Figure 29.4-8. Solar panel pressure equalization factor, \u03b3 a , for enclosed and partially enclosed buildings of all heights. Note : Bilinear interpolation between the solid line and the dashed line is permitted. Change to = signs for solid line. 1000",
+      "conditions": [
+        {
+          "parameter": "enclosure",
+          "operator": "==",
+          "value": "partially enclosed",
+          "unit": null
+        }
+      ],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-29.4-E29-4-81"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.4.4-P2",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.4",
+      "citation": "Section 29.4.4",
+      "page": 12
+    },
+    "title": "The roof shall be designed for both of the following:",
+    "description": "",
+    "data": {
+      "rule": "The roof shall be designed for both of the following:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.4.4-P3",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.4",
+      "citation": "Section 29.4.4",
+      "page": 12
+    },
+    "title": "In the case where solar panels are present, wind loads acting on solar collectors in accordance with this section shall be applied simultaneously with roof wind loads speci fi ed in other sections act",
+    "description": "",
+    "data": {
+      "rule": "In the case where solar panels are present, wind loads acting on solar collectors in accordance with this section shall be applied simultaneously with roof wind loads speci fi ed in other sections acting on areas of the roof not covered by the plan projection of solar collectors. For this case, roof wind loads speci fi ed in other sections need not be applied on areas of the roof covered by the plan projection of solar collectors.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.4.4-T21",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.4",
+      "citation": "Section 29.4.4",
+      "page": 12
+    },
+    "title": "Case where the solar panels have been removed.",
+    "description": "",
+    "data": {
+      "rule": "Case where the solar panels have been removed.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.4.4-H1"
+  },
+  {
+    "id": "ASCE7-22-29.4.5-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.5",
+      "citation": "Section 29.4.5",
+      "page": 12
+    },
+    "title": "29.4.5 Ground-Mounted Fixed-Tilt Solar Panel Systems",
+    "description": "",
+    "data": {
+      "rule": "29.4.5 Ground-Mounted Fixed-Tilt Solar Panel Systems",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.4.5.1-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.5.1",
+      "citation": "Section 29.4.5.1",
+      "page": 12
+    },
+    "title": "29.4.5.1 Scope Wind loads shall be calculated in accordance with Sections 29.4.5.2 and 29.4.5.3 for ground-mounted fi xed-tilt solar photovoltaic (PV) panel systems installed in rows satisfying the fo",
+    "description": "",
+    "data": {
+      "rule": "29.4.5.1 Scope Wind loads shall be calculated in accordance with Sections 29.4.5.2 and 29.4.5.3 for ground-mounted fi xed-tilt solar photovoltaic (PV) panel systems installed in rows satisfying the following geometric limitations: Number of rows \u2265 3",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.4.5.1-T2",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.5.1",
+      "citation": "Section 29.4.5.1",
+      "page": 12
+    },
+    "title": "The rows have the same chord length.",
+    "description": "",
+    "data": {
+      "rule": "The rows have the same chord length.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.4.5.1-H1"
+  },
+  {
+    "id": "ASCE7-22-29.4.5.1-T3",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.5.1",
+      "citation": "Section 29.4.5.1",
+      "page": 12
+    },
+    "title": "The ratio of area blocked by support framing to total area below lowest edge of panels \u2264 8% over any length of 4 Lc , where",
+    "description": "",
+    "data": {
+      "rule": "The ratio of area blocked by support framing to total area below lowest edge of panels \u2264 8% over any length of 4 Lc , where",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.4.5.1-H1"
+  },
+  {
+    "id": "ASCE7-22-29.4.5.1-T4",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.5.1",
+      "citation": "Section 29.4.5.1",
+      "page": 12
+    },
+    "title": "Lc = Panel chord length, ft (m).",
+    "description": "",
+    "data": {
+      "rule": "Lc = Panel chord length, ft (m).",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.4.5.1-H1"
+  },
+  {
+    "id": "ASCE7-22-29.4.5.1-T5",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.5.1",
+      "citation": "Section 29.4.5.1",
+      "page": 12
+    },
+    "title": "Wg = Shortest row length in array, ft (m).",
+    "description": "",
+    "data": {
+      "rule": "Wg = Shortest row length in array, ft (m).",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.4.5.1-H1"
+  },
+  {
+    "id": "ASCE7-22-29.4.5.1-T6",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.5.1",
+      "citation": "Section 29.4.5.1",
+      "page": 12
+    },
+    "title": "\u03c9 = Angle between the solar panels and the ground surface, degrees.",
+    "description": "",
+    "data": {
+      "rule": "\u03c9 = Angle between the solar panels and the ground surface, degrees.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.4.5.1-H1"
+  },
+  {
+    "id": "ASCE7-22-29.4.5.1-T7",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.5.1",
+      "citation": "Section 29.4.5.1",
+      "page": 12
+    },
+    "title": "h = Mean height of panel, ft (m).",
+    "description": "",
+    "data": {
+      "rule": "h = Mean height of panel, ft (m).",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.4.5.1-H1"
+  },
+  {
+    "id": "ASCE7-22-29.4.5.1-T8",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.5.1",
+      "citation": "Section 29.4.5.1",
+      "page": 12
+    },
+    "title": "S = Center-to-center row spacing, ft (m).",
+    "description": "",
+    "data": {
+      "rule": "S = Center-to-center row spacing, ft (m).",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.4.5.1-H1"
+  },
+  {
+    "id": "ASCE7-22-29.4.5.1-T9",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.5.1",
+      "citation": "Section 29.4.5.1",
+      "page": 12
+    },
+    "title": "s p = Gap between adjacent panels in both directions.",
+    "description": "",
+    "data": {
+      "rule": "s p = Gap between adjacent panels in both directions.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.4.5.1-H1"
+  },
+  {
+    "id": "ASCE7-22-29.4.5.1-T10",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.5.1",
+      "citation": "Section 29.4.5.1",
+      "page": 12
+    },
+    "title": "SL = Horizontal distance in longitudinal direction of open area within a single row.",
+    "description": "",
+    "data": {
+      "rule": "SL = Horizontal distance in longitudinal direction of open area within a single row.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.4.5.1-H1"
+  },
+  {
+    "id": "ASCE7-22-29.4.5.1-T11",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.5.1",
+      "citation": "Section 29.4.5.1",
+      "page": 12
+    },
+    "title": "ST = Horizontal distance in transverse direction of open area between adjacent rows.",
+    "description": "",
+    "data": {
+      "rule": "ST = Horizontal distance in transverse direction of open area between adjacent rows.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.4.5.1-H1"
+  },
+  {
+    "id": "ASCE7-22-29.4.5.2-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.5.2",
+      "citation": "Section 29.4.5.2",
+      "page": 12
+    },
+    "title": "29.4.5.2 Design Wind Loads The design force, Fn , and design moment about the center-of-plane of panels, Mc , for groundmounted solar panels shall be determined by Equation (29.4-8) and Equation (29.4",
+    "description": "",
+    "data": {
+      "rule": "29.4.5.2 Design Wind Loads The design force, Fn , and design moment about the center-of-plane of panels, Mc , for groundmounted solar panels shall be determined by Equation (29.4-8) and Equation (29.4-9), respectively:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.4.5.2-T1",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.5.2",
+      "citation": "Section 29.4.5.2",
+      "page": 12
+    },
+    "title": "qh = Velocity pressure for all surfaces evaluated at the mean height of the panel, h in lb \u2215 ft 2 (N \u2215 m 2 );",
+    "description": "",
+    "data": {
+      "rule": "qh = Velocity pressure for all surfaces evaluated at the mean height of the panel, h in lb \u2215 ft 2 (N \u2215 m 2 );",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.4.5-H1"
+  },
+  {
+    "id": "ASCE7-22-29.4.5.2-T2",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.5.2",
+      "citation": "Section 29.4.5.2",
+      "page": 12
+    },
+    "title": "Kd = Directionality Factor; see Section 26.6 (GCgn static ) = Static net pressure coef fi cient, as determined from Figure 29.4-10;",
+    "description": "",
+    "data": {
+      "rule": "Kd = Directionality Factor; see Section 26.6 (GCgn static ) = Static net pressure coef fi cient, as determined from Figure 29.4-10;",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.6-H1",
+      "ASCE7-22-29.4-F29-4-101"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.4.5-H1"
+  },
+  {
+    "id": "ASCE7-22-29.4.5.2-P2",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.5.2",
+      "citation": "Section 29.4.5.2",
+      "page": 12
+    },
+    "title": "(GCgm dynamic ) = Dynamic net pressure coef fi cient, as determined from Figure 29.4-11, and shall be applied with the sign that yields the most adverse load effect;",
+    "description": "",
+    "data": {
+      "rule": "(GCgm dynamic ) = Dynamic net pressure coef fi cient, as determined from Figure 29.4-11, and shall be applied with the sign that yields the most adverse load effect;",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-29.4-F29-4-111"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.4.5.2-T3",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.5.2",
+      "citation": "Section 29.4.5.2",
+      "page": 12
+    },
+    "title": "(GCgn static ) = Static moment coef fi cient, as determined from Figure 29.4-10;",
+    "description": "",
+    "data": {
+      "rule": "(GCgn static ) = Static moment coef fi cient, as determined from Figure 29.4-10;",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-29.4-F29-4-101"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.4.5-H1"
+  },
+  {
+    "id": "ASCE7-22-29.4.5.2-P3",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.5.2",
+      "citation": "Section 29.4.5.2",
+      "page": 12
+    },
+    "title": "(GCgm dynamic ) = Dynamic moment coef fi cient, as determined from Figure 29.4-11, and shall be applied with the sign that yields the most adverse load effect; and",
+    "description": "",
+    "data": {
+      "rule": "(GCgm dynamic ) = Dynamic moment coef fi cient, as determined from Figure 29.4-11, and shall be applied with the sign that yields the most adverse load effect; and",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-29.4-F29-4-111"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.4.5.2-T4",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.5.2",
+      "citation": "Section 29.4.5.2",
+      "page": 12
+    },
+    "title": "A = Effective wind area of element, ft 2 (m 2 ).",
+    "description": "",
+    "data": {
+      "rule": "A = Effective wind area of element, ft 2 (m 2 ).",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.4.5-H1"
+  },
+  {
+    "id": "ASCE7-22-29.4.5.2-P4",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.5.2",
+      "citation": "Section 29.4.5.2",
+      "page": 12
+    },
+    "title": "Interior shielded Zone 1 and exterior perimeter Zone 2 shall be designed and designated, as shown in Figure 29.4-9.",
+    "description": "",
+    "data": {
+      "rule": "Interior shielded Zone 1 and exterior perimeter Zone 2 shall be designed and designated, as shown in Figure 29.4-9.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-29.4-E29-4-91"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.4.5.2-P5",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.5.2",
+      "citation": "Section 29.4.5.2",
+      "page": 12
+    },
+    "title": "For arrays with 0.20 \u2264 \u00f0 Lc \u2215 S \u00de < 0.25, all rows shall be designed using Zone 2 static and dynamic coef fi cients.",
+    "description": "",
+    "data": {
+      "rule": "For arrays with 0.20 \u2264 \u00f0 Lc \u2215 S \u00de < 0.25, all rows shall be designed using Zone 2 static and dynamic coef fi cients.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.4.5.2-P6",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.5.2",
+      "citation": "Section 29.4.5.2",
+      "page": 12
+    },
+    "title": "For all locations, Kzt shall be determined per Equation (26.8-1). Where Kzt exceeds 1.0 per Equation (26.8-1), the static and dynamic coef fi cients for the Zone 2 shall be used throughout the entire ",
+    "description": "",
+    "data": {
+      "rule": "For all locations, Kzt shall be determined per Equation (26.8-1). Where Kzt exceeds 1.0 per Equation (26.8-1), the static and dynamic coef fi cients for the Zone 2 shall be used throughout the entire array.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.4.5.3-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.5.3",
+      "citation": "Section 29.4.5.3",
+      "page": 12
+    },
+    "title": "29.4.5.3 Design Support Posts and Foundations The support posts and foundations shall be designed for the simultaneous where",
+    "description": "",
+    "data": {
+      "rule": "29.4.5.3 Design Support Posts and Foundations The support posts and foundations shall be designed for the simultaneous where 3 Rows 2 ds \u2264 1.5Lc 3 Rows (2) \u00b7dp (2) 3 Rows Isometric View",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.4-F29-4-81",
+    "type": "figure",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4",
+      "citation": "Figure 29.4-8",
+      "page": 12
+    },
+    "title": "Figure 29.4-8. Solar panel pressure equalization factor, \u03b3a, for enclosed and partially enclosed buildings of all heights.",
+    "description": "Figure 29.4-8. Solar panel pressure equalization factor, \u03b3a, for enclosed and partially enclosed buildings of all heights.",
+    "data": {
+      "figure_type": "other",
+      "description": "Figure 29.4-8. Solar panel pressure equalization factor, \u03b3a, for enclosed and partially enclosed buildings of all heights.",
+      "source_pdf_page": 12
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "bold_label"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.4.5.3-T8",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.5.3",
+      "citation": "Section 29.4.5.3",
+      "page": 13
+    },
+    "title": "Figure 29.4-9. Parameters for application of ground-mounted fixed-tilt solar panel system requirements.",
+    "description": "",
+    "data": {
+      "rule": "Figure 29.4-9. Parameters for application of ground-mounted fixed-tilt solar panel system requirements. ds > 1.5Lc * -dp- *(GGgn), \u2021Fn ST ST Solar Panels Wg Ground",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-29.4-E29-4-91"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.4-F29-4-91"
+  },
+  {
+    "id": "ASCE7-22-29.4.5.3-T18",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.5.3",
+      "citation": "Section 29.4.5.3",
+      "page": 13
+    },
+    "title": "Parameters for Application of Ground-Mounted Fixed-Tilt Solar Panel System Requirements",
+    "description": "",
+    "data": {
+      "rule": "Parameters for Application of Ground-Mounted Fixed-Tilt Solar Panel System Requirements +(GCgm), $Mc",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.4.5-H1"
+  },
+  {
+    "id": "ASCE7-22-29.4.5.3-P2",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.5.3",
+      "citation": "Section 29.4.5.3",
+      "page": 13
+    },
+    "title": "application of the design force, Fn , and design moment, Mc . The design value used for the horizontal component of Fn shall not be less than 0.1 times the vertical component of Fn .",
+    "description": "",
+    "data": {
+      "rule": "application of the design force, Fn , and design moment, Mc . The design value used for the horizontal component of Fn shall not be less than 0.1 times the vertical component of Fn .",
+      "conditions": [
+        {
+          "parameter": "",
+          "operator": "<",
+          "value": 0.1,
+          "unit": null
+        }
+      ],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.4.5.4-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.5.4",
+      "citation": "Section 29.4.5.4",
+      "page": 13
+    },
+    "title": "29.4.5.4 Reduced Frequency for Ground-Mounted Solar Panel Systems The reduced frequency, Ns , for groundmounted solar panel systems shall be determined by Equation (29.4-12)",
+    "description": "",
+    "data": {
+      "rule": "29.4.5.4 Reduced Frequency for Ground-Mounted Solar Panel Systems The reduced frequency, Ns , for groundmounted solar panel systems shall be determined by Equation (29.4-12)",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.4.5.4-T1",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4.5.4",
+      "citation": "Section 29.4.5.4",
+      "page": 13
+    },
+    "title": "where n is the lowest natural frequency of the mode of interest (moment or bending), Hz, and V is the basic wind speed mi/h (m/s).",
+    "description": "",
+    "data": {
+      "rule": "where n is the lowest natural frequency of the mode of interest (moment or bending), Hz, and V is the basic wind speed mi/h (m/s).",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.4.5.3-T8"
+  },
+  {
+    "id": "ASCE7-22-29.5-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.5",
+      "citation": "Section 29.5",
+      "page": 13
+    },
+    "title": "29.5 PARAPETS",
+    "description": "",
+    "data": {
+      "rule": "29.5 PARAPETS",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.5-T1",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.5",
+      "citation": "Section 29.5",
+      "page": 13
+    },
+    "title": "Wind loads on parapets are speci fi ed in Section 27.3.4 for buildings of all heights designed using the Directional Procedure and in Section 28.3.4 for low-rise buildings designed using the Envelope ",
+    "description": "",
+    "data": {
+      "rule": "Wind loads on parapets are speci fi ed in Section 27.3.4 for buildings of all heights designed using the Directional Procedure and in Section 28.3.4 for low-rise buildings designed using the Envelope Procedure.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.5-H1"
+  },
+  {
+    "id": "ASCE7-22-29.6-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.6",
+      "citation": "Section 29.6",
+      "page": 13
+    },
+    "title": "29.6 ROOF OVERHANGS",
+    "description": "",
+    "data": {
+      "rule": "29.6 ROOF OVERHANGS",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.6-T1",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.6",
+      "citation": "Section 29.6",
+      "page": 13
+    },
+    "title": "Wind loads on roof overhangs are speci fi ed in Section 27.3.3 for buildings of all heights designed using the Directional Procedure and in Section 28.3.5 for low-rise buildings designed using the Env",
+    "description": "",
+    "data": {
+      "rule": "Wind loads on roof overhangs are speci fi ed in Section 27.3.3 for buildings of all heights designed using the Directional Procedure and in Section 28.3.5 for low-rise buildings designed using the Envelope Procedure.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.6-H1"
+  },
+  {
+    "id": "ASCE7-22-29.7-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.7",
+      "citation": "Section 29.7",
+      "page": 13
+    },
+    "title": "29.7 MINIMUM DESIGN WIND LOADING",
+    "description": "",
+    "data": {
+      "rule": "29.7 MINIMUM DESIGN WIND LOADING",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.7-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.7",
+      "citation": "Section 29.7",
+      "page": 13
+    },
+    "title": "The design wind force for other structures shall be not less than 16 lb \u2215 ft 2 (0.77 kN \u2215 m 2 ) multiplied by the area, Af .",
+    "description": "",
+    "data": {
+      "rule": "The design wind force for other structures shall be not less than 16 lb \u2215 ft 2 (0.77 kN \u2215 m 2 ) multiplied by the area, Af .",
+      "conditions": [
+        {
+          "parameter": "",
+          "operator": "<",
+          "value": 16.0,
+          "unit": null
+        }
+      ],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.8-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.8",
+      "citation": "Section 29.8",
+      "page": 13
+    },
+    "title": "29.8 CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
+    "description": "",
+    "data": {
+      "rule": "29.8 CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.8-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.8",
+      "citation": "Section 29.8",
+      "page": 13
+    },
+    "title": "The following consensus standards and other documents shall be considered part of this standard and are referenced in this chapter. ASCE 72, Design of Steel Lighting System Support Pole Structures , A",
+    "description": "",
+    "data": {
+      "rule": "The following consensus standards and other documents shall be considered part of this standard and are referenced in this chapter. ASCE 72, Design of Steel Lighting System Support Pole Structures , American Society of Civil Engineers, 2022.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.8-T1",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.8",
+      "citation": "Section 29.8",
+      "page": 13
+    },
+    "title": "Cited in : Sections 29.4 and C29.4",
+    "description": "",
+    "data": {
+      "rule": "Cited in : Sections 29.4 and C29.4",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.8-H2"
+  },
+  {
+    "id": "ASCE7-22-29.8-T2",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.8",
+      "citation": "Section 29.8",
+      "page": 13
+    },
+    "title": "ASCE Task Committee on Wind-Induced Forces, Wind Loads for Petrochemical and Other Industrial Facilities , American Society of Civil Engineers, 2011.",
+    "description": "",
+    "data": {
+      "rule": "ASCE Task Committee on Wind-Induced Forces, Wind Loads for Petrochemical and Other Industrial Facilities , American Society of Civil Engineers, 2011.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.8-H2"
+  },
+  {
+    "id": "ASCE7-22-29.8-T3",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.8",
+      "citation": "Section 29.8",
+      "page": 13
+    },
+    "title": "C ited in : Sections 29.4 and C29.4",
+    "description": "",
+    "data": {
+      "rule": "C ited in : Sections 29.4 and C29.4 -SL SL",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.8-H2"
+  },
+  {
+    "id": "ASCE7-22-29.4-F29-4-91",
+    "type": "figure",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4",
+      "citation": "Figure 29.4-9",
+      "page": 13
+    },
+    "title": "Figure 29.4-9. Parameters for application of ground-mounted fixed-tilt solar panel system requirements.",
+    "description": "Figure 29.4-9. Parameters for application of ground-mounted fixed-tilt solar panel system requirements.",
+    "data": {
+      "figure_type": "other",
+      "description": "Figure 29.4-9. Parameters for application of ground-mounted fixed-tilt solar panel system requirements.",
+      "source_pdf_page": 13
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "bold_label"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.4-E29-4-121",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4",
+      "citation": "Eq. (29.4-12)",
+      "page": 13
+    },
+    "title": "Equation (29.4-12)",
+    "description": "",
+    "data": {
+      "expression": "29.4.5.4 Reduced Frequency for Ground-Mounted Solar Panel Systems The reduced frequency, Ns , for groundmounted solar panel systems shall be determined by Equation (29.4-12)",
+      "parameters": {
+        "Ns": {
+          "description": "Reduced frequency for ground-mounted solar panels",
+          "source": "ASCE7-22-26.3-T74"
+        }
+      }
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.8-T6",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.8",
+      "citation": "Section 29.8",
+      "page": 14
+    },
+    "title": "Static Net Pressure Coefficients for Zones 1 and 2 (",
+    "description": "",
+    "data": {
+      "rule": "Static Net Pressure Coefficients for Zones 1 and 2 ( GCgn_static",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.8-H2"
+  },
+  {
+    "id": "ASCE7-22-29.8-T8",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.8",
+      "citation": "Section 29.8",
+      "page": 14
+    },
+    "title": "Static Moment Coefficients for Zones 1 and 2 (",
+    "description": "",
+    "data": {
+      "rule": "Static Moment Coefficients for Zones 1 and 2 ( GCgn_static",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.8-H2"
+  },
+  {
+    "id": "ASCE7-22-29.8-H2",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.8",
+      "citation": "Section 29.8",
+      "page": 14
+    },
+    "title": "Notes",
+    "description": "",
+    "data": {
+      "rule": "Notes",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.8-T10",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.8",
+      "citation": "Section 29.8",
+      "page": 14
+    },
+    "title": "Figure 29.4-10. Design wind loads: static wind load coefficients for ground-mounted fixed-tilt solar panel systems.",
+    "description": "",
+    "data": {
+      "rule": "Figure 29.4-10. Design wind loads: static wind load coefficients for ground-mounted fixed-tilt solar panel systems.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-29.4-F29-4-101"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.4-F29-4-101"
+  },
+  {
+    "id": "ASCE7-22-29.4-F29-4-101",
+    "type": "figure",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4",
+      "citation": "Figure 29.4-10",
+      "page": 14
+    },
+    "title": "Figure 29.4-10. Design wind loads: static wind load coefficients for ground-mounted fixed-tilt solar panel systems.",
+    "description": "Figure 29.4-10. Design wind loads: static wind load coefficients for ground-mounted fixed-tilt solar panel systems.",
+    "data": {
+      "figure_type": "other",
+      "description": "Figure 29.4-10. Design wind loads: static wind load coefficients for ground-mounted fixed-tilt solar panel systems.",
+      "source_pdf_page": 14
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "bold_label"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.8-T11",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.8",
+      "citation": "Section 29.8",
+      "page": 15
+    },
+    "title": "Figure 29.4-11. Design wind loads: dynamic wind load coefficients for ground-mounted fixed-tilt solar panel systems.",
+    "description": "",
+    "data": {
+      "rule": "Figure 29.4-11. Design wind loads: dynamic wind load coefficients for ground-mounted fixed-tilt solar panel systems.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-29.4-F29-4-111"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.4-F29-4-111"
+  },
+  {
+    "id": "ASCE7-22-29.8-T12",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.8",
+      "citation": "Section 29.8",
+      "page": 15
+    },
+    "title": "Dynamic Net Pressure Coefficients for Zones 1 and 2 (",
+    "description": "",
+    "data": {
+      "rule": "Dynamic Net Pressure Coefficients for Zones 1 and 2 ( GCgn_dynamic",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.8-H2"
+  },
+  {
+    "id": "ASCE7-22-29.8-T14",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.8",
+      "citation": "Section 29.8",
+      "page": 15
+    },
+    "title": "Dynamic Moment Coefficients for Zones 1 and 2 (",
+    "description": "",
+    "data": {
+      "rule": "Dynamic Moment Coefficients for Zones 1 and 2 ( GCgn_dynamic",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.8-H2"
+  },
+  {
+    "id": "ASCE7-22-29.4-F29-4-111",
+    "type": "figure",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.4",
+      "citation": "Figure 29.4-11",
+      "page": 15
+    },
+    "title": "Figure 29.4-11. Design wind loads: dynamic wind load coefficients for ground-mounted fixed-tilt solar panel systems.",
+    "description": "Figure 29.4-11. Design wind loads: dynamic wind load coefficients for ground-mounted fixed-tilt solar panel systems.",
+    "data": {
+      "figure_type": "other",
+      "description": "Figure 29.4-11. Design wind loads: dynamic wind load coefficients for ground-mounted fixed-tilt solar panel systems.",
+      "source_pdf_page": 15
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "bold_label"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-29.8-T16",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.8",
+      "citation": "Section 29.8",
+      "page": 16
+    },
+    "title": "Downloaded from ascelibrary.org by Serge Terentieff on 03/10/22. Copyright ASCE. For personal use only; all rights reserved.",
+    "description": "",
+    "data": {
+      "rule": "Downloaded from ascelibrary.org by Serge Terentieff on 03/10/22. Copyright ASCE. For personal use only; all rights reserved.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.8-H2"
+  },
+  {
+    "id": "ASCE7-22-29.8-T17",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 29,
+      "section": "29.8",
+      "citation": "Section 29.8",
+      "page": 16
+    },
+    "title": "This page intentionally left blank",
+    "description": "",
+    "data": {
+      "rule": "This page intentionally left blank",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-29.8-H2"
+  }
+]

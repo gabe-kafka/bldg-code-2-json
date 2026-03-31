@@ -1,0 +1,1324 @@
+[
+  {
+    "id": "ASCE7-22-21-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 21,
+      "section": "21",
+      "citation": "Section 21",
+      "page": 1
+    },
+    "title": "CHAPTER 21 SITE-SPECIFIC GROUND MOTION PROCEDURES FOR SEISMIC DESIGN",
+    "description": "",
+    "data": {
+      "rule": "CHAPTER 21 SITE-SPECIFIC GROUND MOTION PROCEDURES FOR SEISMIC DESIGN",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-21.1-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 21,
+      "section": "21.1",
+      "citation": "Section 21.1",
+      "page": 1
+    },
+    "title": "21.1 SITE RESPONSE ANALYSIS",
+    "description": "",
+    "data": {
+      "rule": "21.1 SITE RESPONSE ANALYSIS",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-21.1-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 21,
+      "section": "21.1",
+      "citation": "Section 21.1",
+      "page": 1
+    },
+    "title": "The requirements of Section 21.1 shall be satis fi ed where site response analysis is performed or required by Section 11.4.7. The analysis shall be documented in a report.",
+    "description": "",
+    "data": {
+      "rule": "The requirements of Section 21.1 shall be satis fi ed where site response analysis is performed or required by Section 11.4.7. The analysis shall be documented in a report.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-21.1-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-21.1.1-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 21,
+      "section": "21.1.1",
+      "citation": "Section 21.1.1",
+      "page": 1
+    },
+    "title": "21.1.1 Base Ground Motions An MCER response spectrum shall be developed for a base condition consisting of bedrock, or when bedrock is very deep, fi rm soil conditions below softer sur fi cial layers,",
+    "description": "",
+    "data": {
+      "rule": "21.1.1 Base Ground Motions An MCER response spectrum shall be developed for a base condition consisting of bedrock, or when bedrock is very deep, fi rm soil conditions below softer sur fi cial layers, using the procedure of Sections 11.4.6 or 21.2. Unless a site-speci fi c ground motion hazard analysis described in Section 21.2 is carried out, the MCER base response spectrum shall be developed using the procedure of Section 11.4.6, assuming a site condition representative of the geological conditions at the base (represented by a base-condition average shear wave velocity, \u00af vs ). At least fi ve recorded or simulated horizontal ground motion acceleration time histories shall be selected from events that have magnitudes and fault distances that are consistent with those that control the MCER ground motion. Each selected time history shall be modi fi ed so that its response spectrum is, on average, approximately at the level of the MCER rock response spectrum over the period range of signi fi cance to structural response.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-21.2-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-21.1.2-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 21,
+      "section": "21.1.2",
+      "citation": "Section 21.1.2",
+      "page": 1
+    },
+    "title": "21.1.2 Site Condition Modeling A site response model based on low strain shear wave velocities, nonlinear or equivalent linear shear stress -strain relationships, and unit weights shall be developed. ",
+    "description": "",
+    "data": {
+      "rule": "21.1.2 Site Condition Modeling A site response model based on low strain shear wave velocities, nonlinear or equivalent linear shear stress -strain relationships, and unit weights shall be developed. Low strain shear wave velocities shall be determined from fi eld measurements at the site or from measurements from similar soils in the site vicinity. Nonlinear or equivalent linear shear stress -strain relationships and unit weights shall be selected on the basis of laboratory tests or published relationships for similar soils. The uncertainties in soil properties shall be estimated. Where very deep soil pro fi les make the development of a soil model to bedrock impractical, the model is permitted to be terminated where the soil stiffness is at least as great as the values used to de fi ne Site Class C in Chapter 20.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-21.1.3-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 21,
+      "section": "21.1.3",
+      "citation": "Section 21.1.3",
+      "page": 1
+    },
+    "title": "21.1.3 Site Response Analysis and Computed Results Base ground motion time histories shall be input to the soil pro fi le as outcropping motions. Using appropriate computational techniques that treat ",
+    "description": "",
+    "data": {
+      "rule": "21.1.3 Site Response Analysis and Computed Results Base ground motion time histories shall be input to the soil pro fi le as outcropping motions. Using appropriate computational techniques that treat nonlinear soil properties in a nonlinear or equivalent-linear manner, the response of the soil pro fi le shall be determined and surface ground motion time histories shall be calculated. Ratios of 5% damped response spectra of surface ground motions to input base ground motions shall be calculated. The recommended surface MCER ground motion response spectrum shall not be lower than the MCER response spectrum of the base motion multiplied by the average surface-to-base response spectral ratios (calculated period by period) obtained from the site response analyses. The recommended surface ground motions that result from the analysis shall re fl ect consideration of sensitivity of response to uncertainty in soil properties, depth of soil model, and input motions.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-21.2-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 21,
+      "section": "21.2",
+      "citation": "Section 21.2",
+      "page": 1
+    },
+    "title": "21.2 RISK-TARGETED MAXIMUM CONSIDERED EARTHQUAKE (MCER) GROUND MOTION HAZARD ANALYSIS",
+    "description": "",
+    "data": {
+      "rule": "21.2 RISK-TARGETED MAXIMUM CONSIDERED EARTHQUAKE (MCER) GROUND MOTION HAZARD ANALYSIS",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-21.2-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 21,
+      "section": "21.2",
+      "citation": "Section 21.2",
+      "page": 1
+    },
+    "title": "The requirements of Section 21.2 shall be satis fi ed where a ground motion hazard analysis is performed or required by Section 11.4.7. The ground motion hazard analysis shall account for the regional",
+    "description": "",
+    "data": {
+      "rule": "The requirements of Section 21.2 shall be satis fi ed where a ground motion hazard analysis is performed or required by Section 11.4.7. The ground motion hazard analysis shall account for the regional tectonic setting, geology, and seismicity; the expected recurrence rates and maximum magnitudes of earthquakes on known faults and source zones; the characteristics of ground motion near source effects, if any, on ground motions; and the effects of subsurface site conditions on ground motions. The characteristics of subsurface site conditions shall be considered either using ground motion models that represent regional and local geology or in accordance with Section 21.1. The analysis shall incorporate current seismic interpretations, including uncertainties for models and parameter values for seismic sources and ground motions. If the spectral response accelerations predicted by the ground motion models do not represent the maximum response in the horizontal plane, then the response spectral accelerations computed from the hazard analysis shall be scaled by factors to increase the motions to the maximum response. If the ground motion models predict the geometric mean or similar metric of the two horizontal components, then the scale factors shall be 1.2 for periods less than, or equal to, 0.2 s, 1.25 for a period of 1.0 s, and 1.3 for periods greater than or equal to 10 s, unless it can be shown that other scale factors more closely represent the maximum response, in the horizontal plane, to the geometric mean of the horizontal components. Scale factors between these periods shall be obtained by linear interpolation. The analysis shall be documented in a report.",
+      "conditions": [
+        {
+          "parameter": "",
+          "operator": ">=",
+          "value": 10.0,
+          "unit": null
+        }
+      ],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-21.1-H1",
+      "ASCE7-22-21.2-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-21.2.1-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 21,
+      "section": "21.2.1",
+      "citation": "Section 21.2.1",
+      "page": 1
+    },
+    "title": "21.2.1 Probabilistic (MCER) Ground Motions The probabilistic spectral response accelerations shall be taken as the spectral response accelerations in the direction of maximum horizontal response repre",
+    "description": "",
+    "data": {
+      "rule": "21.2.1 Probabilistic (MCER) Ground Motions The probabilistic spectral response accelerations shall be taken as the spectral response accelerations in the direction of maximum horizontal response represented by a 5% damped acceleration response spectrum that is expected to achieve a 1% probability of collapse within a 50-year period.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-21.2.1-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 21,
+      "section": "21.2.1",
+      "citation": "Section 21.2.1",
+      "page": 1
+    },
+    "title": "At each spectral response period for which the acceleration is computed, ordinates of the probabilistic ground motion response spectrum shall be determined from iterative integration of a sitespeci fi",
+    "description": "",
+    "data": {
+      "rule": "At each spectral response period for which the acceleration is computed, ordinates of the probabilistic ground motion response spectrum shall be determined from iterative integration of a sitespeci fi c hazard curve with a lognormal probability density function representing the collapse fragility (i.e., probability of collapse as a function of spectral response acceleration). The ordinate of the probabilistic ground motion response spectrum at each period shall achieve a 1% probability of collapse within a",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-21.2.1-T1",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 21,
+      "section": "21.2.1",
+      "citation": "Section 21.2.1",
+      "page": 2
+    },
+    "title": "50-year period for a collapse fragility that has (1) a 10% probability of collapse at said ordinate of the probabilistic ground motion response spectrum and (2) a logarithmic standard deviation value ",
+    "description": "",
+    "data": {
+      "rule": "50-year period for a collapse fragility that has (1) a 10% probability of collapse at said ordinate of the probabilistic ground motion response spectrum and (2) a logarithmic standard deviation value of 0.6.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-21.2.1-H1"
+  },
+  {
+    "id": "ASCE7-22-21.2.2-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 21,
+      "section": "21.2.2",
+      "citation": "Section 21.2.2",
+      "page": 2
+    },
+    "title": "21.2.2 Deterministic (MCER) Ground Motions The deterministic spectral response acceleration at each period shall be calculated as an 84th-percentile 5% damped spectral response acceleration in the dir",
+    "description": "",
+    "data": {
+      "rule": "21.2.2 Deterministic (MCER) Ground Motions The deterministic spectral response acceleration at each period shall be calculated as an 84th-percentile 5% damped spectral response acceleration in the direction of maximum horizontal response computed at that period. The largest such acceleration calculated for scenario earthquakes on all known faults within the region shall be used. The scenario earthquakes shall be determined from deaggregation for the probabilistic spectral response acceleration at each period. Scenario earthquakes contributing less than 10% of the largest contributor at each period shall be ignored.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-21.2.2-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 21,
+      "section": "21.2.2",
+      "citation": "Section 21.2.2",
+      "page": 2
+    },
+    "title": "For the purpose of this standard, the deterministic response spectral acceleration at each period shall be taken as not less than the deterministic lower limit response spectrum, of Table 21.2-1 of th",
+    "description": "",
+    "data": {
+      "rule": "For the purpose of this standard, the deterministic response spectral acceleration at each period shall be taken as not less than the deterministic lower limit response spectrum, of Table 21.2-1 of the site class, determined in accordance with the site class requirements of Section 11.4.2.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-21.2-T21-2-11"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-21.2.2-X1",
+    "type": "exception",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 21,
+      "section": "21.2.2",
+      "citation": "Section 21.2.2",
+      "page": 2
+    },
+    "title": "EXCEPTION: The deterministic ground motion response spectrum need not be calculated where the probabilistic ground motion response spectrum of 21.2.1 is, at all response periods, less than the determi",
+    "description": "",
+    "data": {
+      "rule": "EXCEPTION: The deterministic ground motion response spectrum need not be calculated where the probabilistic ground motion response spectrum of 21.2.1 is, at all response periods, less than the deterministic lower limit response spectrum of Table 21.2-1 for the site class, determined in accordance with the site class requirements of Section 11.4.2.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-21.2-T21-2-11"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-21.2.3-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 21,
+      "section": "21.2.3",
+      "citation": "Section 21.2.3",
+      "page": 2
+    },
+    "title": "21.2.3 Site-Speci fi c MCER Response Spectrum The site-speci fi c MCER spectral response acceleration at any period, SaM , shall be taken as the lesser of the spectral response accelerations from the ",
+    "description": "",
+    "data": {
+      "rule": "21.2.3 Site-Speci fi c MCER Response Spectrum The site-speci fi c MCER spectral response acceleration at any period, SaM , shall be taken as the lesser of the spectral response accelerations from the probabilistic ground motions of Section 21.2.1 and the deterministic ground motions of Section 21.2.2.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-21.2.1-H1",
+      "ASCE7-22-21.2.2-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-21.2.3-X1",
+    "type": "exception",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 21,
+      "section": "21.2.3",
+      "citation": "Section 21.2.3",
+      "page": 2
+    },
+    "title": "EXCEPTION: The site-speci fi c MCER response spectrum may be taken as equal to the MCER response spectrum obtained from the USGS Seismic Design Geodatabase for the applicable site class.",
+    "description": "",
+    "data": {
+      "rule": "EXCEPTION: The site-speci fi c MCER response spectrum may be taken as equal to the MCER response spectrum obtained from the USGS Seismic Design Geodatabase for the applicable site class.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-21.2.3-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 21,
+      "section": "21.2.3",
+      "citation": "Section 21.2.3",
+      "page": 2
+    },
+    "title": "The site-speci fi c MCER spectral response acceleration at any period shall not be taken as less than 80% of the MCER response spectrum obtained from the USGS Seismic Design Geodatabase for the applic",
+    "description": "",
+    "data": {
+      "rule": "The site-speci fi c MCER spectral response acceleration at any period shall not be taken as less than 80% of the MCER response spectrum obtained from the USGS Seismic Design Geodatabase for the applicable site class.",
+      "conditions": [
+        {
+          "parameter": "",
+          "operator": "<",
+          "value": 80.0,
+          "unit": null
+        }
+      ],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-21.2.3.1-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 21,
+      "section": "21.2.3.1",
+      "citation": "Section 21.2.3.1",
+      "page": 2
+    },
+    "title": "21.2.3.1 Site Class F Sites For sites classi fi ed as Site Class F requiring site-speci fi c analysis in accordance with Section 11.4.7, the site-speci fi c MCER spectral response acceleration at any ",
+    "description": "",
+    "data": {
+      "rule": "21.2.3.1 Site Class F Sites For sites classi fi ed as Site Class F requiring site-speci fi c analysis in accordance with Section 11.4.7, the site-speci fi c MCER spectral response acceleration at any period shall not be less than 80% of the MCER response spectrum obtained from the USGS Seismic Design Geodatabase for Site Class E.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-21.2.3.1-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 21,
+      "section": "21.2.3.1",
+      "citation": "Section 21.2.3.1",
+      "page": 2
+    },
+    "title": "EXCEPTION: Where a different site class can be justi fi ed using the site-speci fi c classi fi cation procedures of Section 20.3.3, a lower limit of 80% of SaM for the justi fi ed site class shall be ",
+    "description": "",
+    "data": {
+      "rule": "EXCEPTION: Where a different site class can be justi fi ed using the site-speci fi c classi fi cation procedures of Section 20.3.3, a lower limit of 80% of SaM for the justi fi ed site class shall be permitted to be used.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-21.3-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 21,
+      "section": "21.3",
+      "citation": "Section 21.3",
+      "page": 2
+    },
+    "title": "21.3 DESIGN RESPONSE SPECTRUM",
+    "description": "",
+    "data": {
+      "rule": "21.3 DESIGN RESPONSE SPECTRUM",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-21.3-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 21,
+      "section": "21.3",
+      "citation": "Section 21.3",
+      "page": 2
+    },
+    "title": "The design spectral response acceleration at any period shall be determined from Equation (21.3-1):",
+    "description": "",
+    "data": {
+      "rule": "The design spectral response acceleration at any period shall be determined from Equation (21.3-1):",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-21.3-T1",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 21,
+      "section": "21.3",
+      "citation": "Section 21.3",
+      "page": 2
+    },
+    "title": "where SaM is the MCER spectral response acceleration obtained from Section 21.1 or 21.2.",
+    "description": "",
+    "data": {
+      "rule": "where SaM is the MCER spectral response acceleration obtained from Section 21.1 or 21.2.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-21.1-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-21.3-H1"
+  },
+  {
+    "id": "ASCE7-22-21.3-T2",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 21,
+      "section": "21.3",
+      "citation": "Section 21.3",
+      "page": 2
+    },
+    "title": "Table 21.2-1. Deterministic Lower Limit Values of MCER Response Spectra and PGAG ( g ).",
+    "description": "",
+    "data": {
+      "rule": "Table 21.2-1. Deterministic Lower Limit Values of MCER Response Spectra and PGAG ( g ).",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-21.2-T21-2-11"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-21.3-H1"
+  },
+  {
+    "id": "ASCE7-22-21.2-T21-2-11",
+    "type": "table",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 21,
+      "section": "21.2",
+      "citation": "Table 21.2-1",
+      "page": 2
+    },
+    "title": "For the purpose of this standard, the deterministic response spectral acceleration at each period shall be taken as not less than the deterministic lower limit response spectrum, of Table 21.2-1 of th",
+    "description": "",
+    "data": {
+      "columns": [
+        {
+          "name": "Period T (s)",
+          "unit": null
+        },
+        {
+          "name": "A",
+          "unit": null
+        },
+        {
+          "name": "B",
+          "unit": null
+        },
+        {
+          "name": "BC",
+          "unit": null
+        },
+        {
+          "name": "C",
+          "unit": null
+        },
+        {
+          "name": "CD",
+          "unit": null
+        },
+        {
+          "name": "D",
+          "unit": null
+        },
+        {
+          "name": "DE",
+          "unit": null
+        },
+        {
+          "name": "E",
+          "unit": null
+        }
+      ],
+      "rows": [
+        {
+          "Period T (s)": 0.0,
+          "A": 0.5,
+          "B": 0.57,
+          "BC": 0.66,
+          "C": 0.73,
+          "CD": 0.74,
+          "D": 0.69,
+          "DE": 0.61,
+          "E": 0.55
+        },
+        {
+          "Period T (s)": 0.01,
+          "A": 0.5,
+          "B": 0.57,
+          "BC": 0.66,
+          "C": 0.73,
+          "CD": 0.75,
+          "D": 0.7,
+          "DE": 0.62,
+          "E": 0.55
+        },
+        {
+          "Period T (s)": 0.02,
+          "A": 0.52,
+          "B": 0.58,
+          "BC": 0.68,
+          "C": 0.74,
+          "CD": 0.75,
+          "D": 0.7,
+          "DE": 0.62,
+          "E": 0.55
+        },
+        {
+          "Period T (s)": 0.03,
+          "A": 0.6,
+          "B": 0.66,
+          "BC": 0.75,
+          "C": 0.79,
+          "CD": 0.78,
+          "D": 0.7,
+          "DE": 0.62,
+          "E": 0.55
+        },
+        {
+          "Period T (s)": 0.05,
+          "A": 0.81,
+          "B": 0.89,
+          "BC": 0.95,
+          "C": 0.96,
+          "CD": 0.89,
+          "D": 0.76,
+          "DE": 0.62,
+          "E": 0.55
+        },
+        {
+          "Period T (s)": 0.075,
+          "A": 1.04,
+          "B": 1.14,
+          "BC": 1.21,
+          "C": 1.19,
+          "CD": 1.08,
+          "D": 0.9,
+          "DE": 0.71,
+          "E": 0.62
+        },
+        {
+          "Period T (s)": 0.1,
+          "A": 1.12,
+          "B": 1.25,
+          "BC": 1.37,
+          "C": 1.37,
+          "CD": 1.24,
+          "D": 1.04,
+          "DE": 0.82,
+          "E": 0.72
+        },
+        {
+          "Period T (s)": 0.15,
+          "A": 1.12,
+          "B": 1.29,
+          "BC": 1.53,
+          "C": 1.61,
+          "CD": 1.5,
+          "D": 1.27,
+          "DE": 1.0,
+          "E": 0.87
+        },
+        {
+          "Period T (s)": 0.2,
+          "A": 1.01,
+          "B": 1.19,
+          "BC": 1.5,
+          "C": 1.71,
+          "CD": 1.66,
+          "D": 1.44,
+          "DE": 1.15,
+          "E": 1.01
+        },
+        {
+          "Period T (s)": 0.25,
+          "A": 0.9,
+          "B": 1.07,
+          "BC": 1.4,
+          "C": 1.71,
+          "CD": 1.77,
+          "D": 1.58,
+          "DE": 1.3,
+          "E": 1.15
+        },
+        {
+          "Period T (s)": 0.3,
+          "A": 0.81,
+          "B": 0.98,
+          "BC": 1.3,
+          "C": 1.66,
+          "CD": 1.83,
+          "D": 1.71,
+          "DE": 1.44,
+          "E": 1.3
+        },
+        {
+          "Period T (s)": 0.4,
+          "A": 0.69,
+          "B": 0.83,
+          "BC": 1.14,
+          "C": 1.53,
+          "CD": 1.82,
+          "D": 1.8,
+          "DE": 1.61,
+          "E": 1.48
+        },
+        {
+          "Period T (s)": 0.5,
+          "A": 0.6,
+          "B": 0.72,
+          "BC": 1.01,
+          "C": 1.38,
+          "CD": 1.73,
+          "D": 1.8,
+          "DE": 1.68,
+          "E": 1.6
+        },
+        {
+          "Period T (s)": 0.75,
+          "A": 0.46,
+          "B": 0.54,
+          "BC": 0.76,
+          "C": 1.07,
+          "CD": 1.41,
+          "D": 1.57,
+          "DE": 1.6,
+          "E": 1.59
+        },
+        {
+          "Period T (s)": 1.0,
+          "A": 0.37,
+          "B": 0.42,
+          "BC": 0.6,
+          "C": 0.86,
+          "CD": 1.17,
+          "D": 1.39,
+          "DE": 1.51,
+          "E": 1.58
+        },
+        {
+          "Period T (s)": 1.5,
+          "A": 0.26,
+          "B": 0.29,
+          "BC": 0.41,
+          "C": 0.6,
+          "CD": 0.84,
+          "D": 1.09,
+          "DE": 1.35,
+          "E": 1.54
+        },
+        {
+          "Period T (s)": 2.0,
+          "A": 0.21,
+          "B": 0.23,
+          "BC": 0.31,
+          "C": 0.45,
+          "CD": 0.64,
+          "D": 0.88,
+          "DE": 1.19,
+          "E": 1.46
+        },
+        {
+          "Period T (s)": 3.0,
+          "A": 0.15,
+          "B": 0.17,
+          "BC": 0.21,
+          "C": 0.31,
+          "CD": 0.45,
+          "D": 0.63,
+          "DE": 0.89,
+          "E": 1.11
+        },
+        {
+          "Period T (s)": 4.0,
+          "A": 0.12,
+          "B": 0.13,
+          "BC": 0.16,
+          "C": 0.24,
+          "CD": 0.34,
+          "D": 0.47,
+          "DE": 0.66,
+          "E": 0.81
+        },
+        {
+          "Period T (s)": 5.0,
+          "A": 0.1,
+          "B": 0.11,
+          "BC": 0.13,
+          "C": 0.19,
+          "CD": 0.26,
+          "D": 0.36,
+          "DE": 0.49,
+          "E": 0.61
+        },
+        {
+          "Period T (s)": 7.5,
+          "A": 0.063,
+          "B": 0.068,
+          "BC": 0.08,
+          "C": 0.11,
+          "CD": 0.15,
+          "D": 0.19,
+          "DE": 0.26,
+          "E": 0.31
+        },
+        {
+          "Period T (s)": 10,
+          "A": 0.042,
+          "B": 0.045,
+          "BC": 0.052,
+          "C": 0.069,
+          "CD": 0.089,
+          "D": 0.11,
+          "DE": 0.14,
+          "E": 0.17
+        },
+        {
+          "Period T (s)": "PGA G",
+          "A": 0.37,
+          "B": 0.43,
+          "BC": 0.5,
+          "C": 0.55,
+          "CD": 0.56,
+          "D": 0.53,
+          "DE": 0.46,
+          "E": 0.42
+        }
+      ]
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "docling"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-21.3-E21-3-11",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 21,
+      "section": "21.3",
+      "citation": "Eq. (21.3-1)",
+      "page": 2
+    },
+    "title": "Equation (21.3-1)",
+    "description": "",
+    "data": {
+      "expression": "The design spectral response acceleration at any period shall be determined from Equation (21.3-1)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-21.4-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 21,
+      "section": "21.4",
+      "citation": "Section 21.4",
+      "page": 3
+    },
+    "title": "21.4 DESIGN ACCELERATION PARAMETERS",
+    "description": "",
+    "data": {
+      "rule": "21.4 DESIGN ACCELERATION PARAMETERS",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-21.4-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 21,
+      "section": "21.4",
+      "citation": "Section 21.4",
+      "page": 3
+    },
+    "title": "Where the site-speci fi c procedure is used to determine the design ground motion, in accordance with Section 21.3, the parameter SDS shall be taken as 90% of the maximum spectral acceleration, Sa , o",
+    "description": "",
+    "data": {
+      "rule": "Where the site-speci fi c procedure is used to determine the design ground motion, in accordance with Section 21.3, the parameter SDS shall be taken as 90% of the maximum spectral acceleration, Sa , obtained from the site-speci fi c spectrum at any period within the range from 0.2 to 5 s, inclusive. The parameter SD 1 shall be taken as 90% of the maximum value of the product, TSa , for periods from 1 to 2 s for sites with \u00af vs > 1,450 ft/s (\u00af vs > 442 m/s) and for periods from 1 to 5 s for sites with \u00af vs \u2264 1,450 ft/s (\u00af vs \u2264 442 m/s), but not less than 100% of the value of Sa at 1 s. The parameters SMS and SM 1 shall be taken as 1.5 times SDS and SD 1 , respectively.",
+      "conditions": [
+        {
+          "parameter": "vs",
+          "operator": ">",
+          "value": 1.0,
+          "unit": null
+        },
+        {
+          "parameter": "vs",
+          "operator": ">",
+          "value": 442.0,
+          "unit": "m"
+        },
+        {
+          "parameter": "",
+          "operator": "<",
+          "value": 100.0,
+          "unit": null
+        }
+      ],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-21.3-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-21.4-P2",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 21,
+      "section": "21.4",
+      "citation": "Section 21.4",
+      "page": 3
+    },
+    "title": "For use with the equivalent lateral force procedure, the sitespeci fi c spectral acceleration, Sa , at T shall be permitted to replace SD 1 / T in Equation (12.8-3) and SD 1 / TL / T 2 in Equation (12",
+    "description": "",
+    "data": {
+      "rule": "For use with the equivalent lateral force procedure, the sitespeci fi c spectral acceleration, Sa , at T shall be permitted to replace SD 1 / T in Equation (12.8-3) and SD 1 / TL / T 2 in Equation (12.8-4). The parameter SDS calculated per this section shall be permitted to be used in Equations (12.8-2), (12.8-5), (15.4-1), and (15.4-3). The mapped value of S 1 shall be used in Equations (12.8-6), (15.4-2), and (15.4-4).",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-21.5-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 21,
+      "section": "21.5",
+      "citation": "Section 21.5",
+      "page": 3
+    },
+    "title": "21.5 MAXIMUM CONSIDERED EARTHQUAKE GEOMETRIC MEAN (MCEG) PEAK GROUND ACCELERATION",
+    "description": "",
+    "data": {
+      "rule": "21.5 MAXIMUM CONSIDERED EARTHQUAKE GEOMETRIC MEAN (MCEG) PEAK GROUND ACCELERATION",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-21.5.1-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 21,
+      "section": "21.5.1",
+      "citation": "Section 21.5.1",
+      "page": 3
+    },
+    "title": "21.5.1 Probabilistic MCEG Peak Ground Acceleration The probabilistic geometric mean peak ground acceleration shall be taken as the geometric mean peak ground acceleration with a 2% probability of exce",
+    "description": "",
+    "data": {
+      "rule": "21.5.1 Probabilistic MCEG Peak Ground Acceleration The probabilistic geometric mean peak ground acceleration shall be taken as the geometric mean peak ground acceleration with a 2% probability of exceedance within a 50-year period.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-21.5.2-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 21,
+      "section": "21.5.2",
+      "citation": "Section 21.5.2",
+      "page": 3
+    },
+    "title": "21.5.2 Deterministic MCEG Peak Ground Acceleration The deterministic geometric mean peak ground acceleration shall be calculated as the largest 84th-percentile geometric mean peak ground acceleration ",
+    "description": "",
+    "data": {
+      "rule": "21.5.2 Deterministic MCEG Peak Ground Acceleration The deterministic geometric mean peak ground acceleration shall be calculated as the largest 84th-percentile geometric mean peak ground acceleration for scenario earthquakes on all known active faults within the site region. The scenario earthquakes shall be determined from deaggregation for the probabilistic geometric mean peak ground acceleration. Scenario earthquakes contributing less than 10% of the largest contributor shall be ignored. The deterministic geometric mean peak ground acceleration shall not be taken as lower than the value of PGAG of Table 21.2-1 of the site class, determined in accordance with the site class requirements of Section 11.4.2.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-21.2-T21-2-11"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-21.5.3-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 21,
+      "section": "21.5.3",
+      "citation": "Section 21.5.3",
+      "page": 3
+    },
+    "title": "21.5.3 Site-Speci fi c MCEG Peak Ground Acceleration PGAM The site-speci fi c MCEG peak ground acceleration, PGAM, shall be taken as the lesser of the probabilistic geometric mean peak ground accelera",
+    "description": "",
+    "data": {
+      "rule": "21.5.3 Site-Speci fi c MCEG Peak Ground Acceleration PGAM The site-speci fi c MCEG peak ground acceleration, PGAM, shall be taken as the lesser of the probabilistic geometric mean peak ground acceleration of Section 21.5.1 and the deterministic geometric mean peak ground acceleration of Section 21.5.2. The site-speci fi c MCEG peak ground acceleration shall not be taken as less than 80% of the value of the MCEG peak ground acceleration parameter PGAM obtained from the USGS Seismic Design Geodatabase for the applicable site class.",
+      "conditions": [
+        {
+          "parameter": "",
+          "operator": "<",
+          "value": 80.0,
+          "unit": null
+        }
+      ],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-21.5.1-H1",
+      "ASCE7-22-21.5.2-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-21.6-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 21,
+      "section": "21.6",
+      "citation": "Section 21.6",
+      "page": 3
+    },
+    "title": "21.6 CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
+    "description": "",
+    "data": {
+      "rule": "21.6 CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-21.6-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 21,
+      "section": "21.6",
+      "citation": "Section 21.6",
+      "page": 3
+    },
+    "title": "See Chapter 23 for the list of consensus standards and other documents that shall be considered part of this standard to the extent referenced in this chapter.",
+    "description": "",
+    "data": {
+      "rule": "See Chapter 23 for the list of consensus standards and other documents that shall be considered part of this standard to the extent referenced in this chapter.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-21.6-T1",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 21,
+      "section": "21.6",
+      "citation": "Section 21.6",
+      "page": 4
+    },
+    "title": "Downloaded from ascelibrary.org by Serge Terentieff on 03/10/22. Copyright ASCE. For personal use only; all rights reserved.",
+    "description": "",
+    "data": {
+      "rule": "Downloaded from ascelibrary.org by Serge Terentieff on 03/10/22. Copyright ASCE. For personal use only; all rights reserved.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-21.6-H1"
+  },
+  {
+    "id": "ASCE7-22-21.6-T2",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 21,
+      "section": "21.6",
+      "citation": "Section 21.6",
+      "page": 4
+    },
+    "title": "This page intentionally left blank",
+    "description": "",
+    "data": {
+      "rule": "This page intentionally left blank",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-21.6-H1"
+  }
+]

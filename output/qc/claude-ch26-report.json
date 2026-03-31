@@ -1,0 +1,97 @@
+{
+  "source": "output/runs/claude-ch26.json",
+  "total_elements": 105,
+  "post_processor_fixes": 0,
+  "schema": {
+    "total": 105,
+    "passed": 105,
+    "failed": 0,
+    "errors": []
+  },
+  "cross_references": {
+    "total": 41,
+    "resolved": 41
+  },
+  "types": {
+    "provision": 24,
+    "figure": 10,
+    "definition": 43,
+    "table": 5,
+    "formula": 20,
+    "reference": 3
+  },
+  "calibration": {
+    "per_element": [
+      {
+        "element_id": "ASCE7-22-26.1-E1",
+        "id_match": false,
+        "type_match": false,
+        "data_match": 0.0,
+        "xref_match": false,
+        "score": 0.0,
+        "details": "No matching extracted element found"
+      },
+      {
+        "element_id": "ASCE7-22-26.1-E2",
+        "id_match": false,
+        "type_match": false,
+        "data_match": 0.0,
+        "xref_match": false,
+        "score": 0.0,
+        "details": "No matching extracted element found"
+      },
+      {
+        "element_id": "ASCE7-22-26.1.2.1-P1",
+        "id_match": true,
+        "type_match": true,
+        "data_match": 0.4,
+        "xref_match": false,
+        "score": 0.5,
+        "details": "data_match: 0.40; cross_references differ"
+      },
+      {
+        "element_id": "ASCE7-22-26.1.2.2-P1",
+        "id_match": true,
+        "type_match": true,
+        "data_match": 0.4,
+        "xref_match": false,
+        "score": 0.5,
+        "details": "data_match: 0.40; cross_references differ"
+      },
+      {
+        "element_id": "ASCE7-22-26.2-E1",
+        "id_match": false,
+        "type_match": false,
+        "data_match": 0.0,
+        "xref_match": false,
+        "score": 0.0,
+        "details": "No matching extracted element found"
+      },
+      {
+        "element_id": "ASCE7-22-26.2-P2",
+        "id_match": false,
+        "type_match": false,
+        "data_match": 0.0,
+        "xref_match": false,
+        "score": 0.0,
+        "details": "No matching extracted element found"
+      },
+      {
+        "element_id": "ASCE7-22-26.2-R1",
+        "id_match": false,
+        "type_match": false,
+        "data_match": 0.0,
+        "xref_match": false,
+        "score": 0.0,
+        "details": "No matching extracted element found"
+      }
+    ],
+    "aggregate": {
+      "accuracy": 0.5,
+      "type_match_rate": 1.0,
+      "elements_compared": 2,
+      "elements_missing": 5
+    },
+    "timestamp": "2026-03-29T04:12:10.605653+00:00"
+  }
+}

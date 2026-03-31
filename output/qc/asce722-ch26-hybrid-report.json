@@ -1,0 +1,96 @@
+{
+  "source": "output/runs/asce722-ch26-hybrid.json",
+  "total_elements": 578,
+  "post_processor_fixes": 394,
+  "schema": {
+    "total": 578,
+    "passed": 578,
+    "failed": 0,
+    "errors": []
+  },
+  "cross_references": {
+    "total": 0,
+    "resolved": 0
+  },
+  "types": {
+    "provision": 416,
+    "definition": 34,
+    "formula": 108,
+    "table": 9,
+    "figure": 11
+  },
+  "calibration": {
+    "per_element": [
+      {
+        "element_id": "ASCE7-22-26.1-E1",
+        "id_match": false,
+        "type_match": false,
+        "data_match": 0.0,
+        "xref_match": false,
+        "score": 0.0,
+        "details": "No matching extracted element found"
+      },
+      {
+        "element_id": "ASCE7-22-26.1-E2",
+        "id_match": false,
+        "type_match": false,
+        "data_match": 0.0,
+        "xref_match": false,
+        "score": 0.0,
+        "details": "No matching extracted element found"
+      },
+      {
+        "element_id": "ASCE7-22-26.1.2.1-P1",
+        "id_match": false,
+        "type_match": false,
+        "data_match": 0.0,
+        "xref_match": false,
+        "score": 0.0,
+        "details": "No matching extracted element found"
+      },
+      {
+        "element_id": "ASCE7-22-26.1.2.2-P1",
+        "id_match": false,
+        "type_match": false,
+        "data_match": 0.0,
+        "xref_match": false,
+        "score": 0.0,
+        "details": "No matching extracted element found"
+      },
+      {
+        "element_id": "ASCE7-22-26.2-E1",
+        "id_match": true,
+        "type_match": true,
+        "data_match": 0.0,
+        "xref_match": true,
+        "score": 0.5,
+        "details": "data_match: 0.00"
+      },
+      {
+        "element_id": "ASCE7-22-26.2-P2",
+        "id_match": true,
+        "type_match": true,
+        "data_match": 0.4,
+        "xref_match": true,
+        "score": 0.7,
+        "details": "data_match: 0.40"
+      },
+      {
+        "element_id": "ASCE7-22-26.2-R1",
+        "id_match": false,
+        "type_match": false,
+        "data_match": 0.0,
+        "xref_match": false,
+        "score": 0.0,
+        "details": "No matching extracted element found"
+      }
+    ],
+    "aggregate": {
+      "accuracy": 0.6,
+      "type_match_rate": 1.0,
+      "elements_compared": 2,
+      "elements_missing": 5
+    },
+    "timestamp": "2026-03-29T22:04:39.696783+00:00"
+  }
+}

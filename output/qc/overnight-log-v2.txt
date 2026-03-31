@@ -1,0 +1,2023 @@
+============================================================
+OVERNIGHT BATCH EXTRACTION
+PDF: ASCE 7-22.pdf
+Started: 2026-03-30 15:15:49
+============================================================
+
+Found 32 chapters in ASCE 7-22.pdf
+Processing 29 chapters
+
+
+────────────────────────────────────────────────────────────
+[1/29] Chapter 1: GENERAL (6 pages)
+────────────────────────────────────────────────────────────
+  [1/4] PyMuPDF: scanning bold labels...
+  [2/4] Docling: document structure...
+  [3/4] Building elements from bold-label taxonomy...
+  [4/4] Enriching with tables, figures, references, equations...
+  [+] Building cross-references...
+  [+] Merging short fragments...
+  [+] Page-level equation scan...
+  [+] Parsing provision conditions...
+  [+] Building global symbols table...
+    282 symbols, 0/1 formulas have parameters
+  [+] Updating manifest...
+  [+] Tracking unresolved references...
+  Unresolved references: 11 (0 pending, 11 broken)
+  BROKEN references (target chapter extracted but element missing):
+    ASCE7-22-1.3.1-P2: Chapter 2 → Chapter 2 extracted but target not found
+    ASCE7-22-1.3.1-P2: Section 2.5 → Chapter 2 extracted but target not found
+    ASCE7-22-1.3.1.2-P1: Section 2.4 → Chapter 2 extracted but target not found
+    ASCE7-22-1.3.1.3-P1: Section 2.3.5 → Chapter 2 extracted but target not found
+    ASCE7-22-1.3.1.3-P2: Section 2.5 → Chapter 2 extracted but target not found
+    ASCE7-22-1.3.1.3-P5: Chapter 6 → Chapter 6 extracted but target not found
+    ASCE7-22-1.3.1.3.4-T3: Section 2.3.6 → Chapter 2 extracted but target not found
+    ASCE7-22-1.3.1.3.4-T4: Section 2.5 → Chapter 2 extracted but target not found
+    ASCE7-22-1.4-P1: Section 2.6 → Chapter 2 extracted but target not found
+    ASCE7-22-1.4.5-P1: Section 2.5 → Chapter 2 extracted but target not found
+    ASCE7-22-1.5.3-T2: Section 13.1.3 → Chapter 13 extracted but target not found
+  Done: 111 elements
+
+  Deploy gate for Chapter 1:
+DEPLOYMENT GATE
+============================================================
+  [PASS] SCHEMA                    111/111
+  [FAIL] COMPOSITE ≥95%            71.3%
+  [FAIL] COVERAGE ≥85%             29%
+  [PASS] FIDELITY ≥95%             100%
+  [PASS] NO SHALL IN TEXT_BLOCKS   0 found
+  [PASS] EQUATIONS ≥50%            1/1 (100%)
+  [FAIL] PARAMS ≥30%               0/1 (0%)
+  [FAIL] CONDITIONS ≥15%           2/35 (6%)
+  [PASS] CROSS-REFS >0             12 elements
+  [PASS] REFERENCES (N/A)          0 found (no ASTM/ANSI/CAN)
+  [PASS] CORE 3 TYPES              all present
+  [FAIL] 0 BROKEN REFS             11 broken, 0 pending
+  [PASS] SYMBOLS REGISTRY          282 symbols
+============================================================
+RESULT: 5 FAILURES — not ready
+
+  Chapter 1: 111 elements in 15.9s FAIL
+
+────────────────────────────────────────────────────────────
+[2/29] Chapter 2: COMBINATIONS OF LOADS (4 pages)
+────────────────────────────────────────────────────────────
+  [1/4] PyMuPDF: scanning bold labels...
+  [2/4] Docling: document structure...
+  [3/4] Building elements from bold-label taxonomy...
+  [4/4] Enriching with tables, figures, references, equations...
+  [+] Building cross-references...
+  [+] Merging short fragments...
+  [+] Page-level equation scan...
+    Found 2 additional equations from raw PDF text
+  [+] Parsing provision conditions...
+  [+] Building global symbols table...
+    282 symbols, 2/2 formulas have parameters
+  [+] Updating manifest...
+  [+] Tracking unresolved references...
+  Unresolved references: 12 (0 pending, 12 broken)
+  BROKEN references (target chapter extracted but element missing):
+    ASCE7-22-2.2-T15: Chapter 10 → Chapter 10 extracted but target not found
+    ASCE7-22-2.2-T16: Chapter 32 → Chapter 32 extracted but target not found
+    ASCE7-22-2.3.1-P2: Chapter 4 → Chapter 4 extracted but target not found
+    ASCE7-22-2.3.1-P2: Table 4.3-1 → Chapter 4 extracted but target not found
+    ASCE7-22-2.3.2-H1: Section 5.3.1 → Chapter 5 extracted but target not found
+    ASCE7-22-2.3.6-P2: Chapter 4 → Chapter 4 extracted but target not found
+    ASCE7-22-2.3.6-P2: Table 4.3-1 → Chapter 4 extracted but target not found
+    ASCE7-22-2.3.7-H1: Section 3.3 → Chapter 3 extracted but target not found
+    ASCE7-22-2.4.5-P1: Section 12.4.2 → Chapter 12 extracted but target not found
+    ASCE7-22-2.4.5-P2: Section 12.4.3 → Chapter 12 extracted but target not found
+    ASCE7-22-2.4.5-P3: Section 12.4.3 → Chapter 12 extracted but target not found
+    ASCE7-22-2.4.5-P5: Section 14.4.2 → Chapter 14 extracted but target not found
+  Done: 100 elements
+
+  Deploy gate for Chapter 2:
+DEPLOYMENT GATE
+============================================================
+  [PASS] SCHEMA                    100/100
+  [FAIL] COMPOSITE ≥95%            59.1%
+  [FAIL] COVERAGE ≥85%             0%
+  [PASS] FIDELITY ≥95%             98%
+  [PASS] NO SHALL IN TEXT_BLOCKS   0 found
+  [PASS] EQUATIONS ≥50%            2/2 (100%)
+  [PASS] PARAMS ≥30%               2/2 (100%)
+  [FAIL] CONDITIONS ≥15%           3/29 (10%)
+  [PASS] CROSS-REFS >0             10 elements
+  [PASS] REFERENCES (N/A)          0 found (no ASTM/ANSI/CAN)
+  [PASS] CORE 3 TYPES              all present
+  [FAIL] 0 BROKEN REFS             12 broken, 0 pending
+  [PASS] SYMBOLS REGISTRY          282 symbols
+============================================================
+RESULT: 4 FAILURES — not ready
+
+  Chapter 2: 100 elements in 5.5s FAIL
+
+────────────────────────────────────────────────────────────
+[3/29] Chapter 3: DEAD LOADS, SOIL LOADS, AND HYDROSTATIC PRESSURE (2 pages)
+────────────────────────────────────────────────────────────
+  [1/4] PyMuPDF: scanning bold labels...
+  [2/4] Docling: document structure...
+  [3/4] Building elements from bold-label taxonomy...
+  [4/4] Enriching with tables, figures, references, equations...
+  [+] Building cross-references...
+  [+] Merging short fragments...
+  [+] Page-level equation scan...
+  [+] Parsing provision conditions...
+  [+] Building global symbols table...
+    282 symbols, 0/0 formulas have parameters
+  [+] Updating manifest...
+  [+] Tracking unresolved references...
+  Unresolved references: 3 (0 pending, 3 broken)
+  BROKEN references (target chapter extracted but element missing):
+    ASCE7-22-3.1.3-H1: Section 1.3.6 → Chapter 1 extracted but target not found
+    ASCE7-22-3.3-P1: Section 2.3.7 → Chapter 2 extracted but target not found
+    ASCE7-22-3.3-X1: Chapter 5 → Chapter 5 extracted but target not found
+  Done: 25 elements
+
+  Deploy gate for Chapter 3:
+DEPLOYMENT GATE
+============================================================
+  [PASS] SCHEMA                    25/25
+  [PASS] COMPOSITE ≥95%            99.7%
+  [PASS] COVERAGE ≥85%             100%
+  [PASS] FIDELITY ≥95%             100%
+  [PASS] NO SHALL IN TEXT_BLOCKS   0 found
+  [PASS] EQUATIONS ≥50%            0/0 (0%)
+  [PASS] PARAMS ≥30%               0/0 (0%)
+  [FAIL] CONDITIONS ≥15%           0/6 (0%)
+  [PASS] CROSS-REFS >0             3 elements
+  [PASS] REFERENCES (N/A)          0 found (no ASTM/ANSI/CAN)
+  [PASS] CORE 3 TYPES              all present
+  [FAIL] 0 BROKEN REFS             3 broken, 0 pending
+  [PASS] SYMBOLS REGISTRY          282 symbols
+============================================================
+RESULT: 2 FAILURES — not ready
+
+  Chapter 3: 25 elements in 4.4s FAIL
+
+────────────────────────────────────────────────────────────
+[4/29] Chapter 4: LIVE LOADS (8 pages)
+────────────────────────────────────────────────────────────
+  [1/4] PyMuPDF: scanning bold labels...
+  [2/4] Docling: document structure...
+  [3/4] Building elements from bold-label taxonomy...
+  [4/4] Enriching with tables, figures, references, equations...
+  [+] Building cross-references...
+  [+] Merging short fragments...
+  [+] Page-level equation scan...
+    Found 1 additional equations from raw PDF text
+  [+] Parsing provision conditions...
+  [+] Building global symbols table...
+    282 symbols, 2/2 formulas have parameters
+  [+] Updating manifest...
+  [+] Tracking unresolved references...
+  Unresolved references: 2 (0 pending, 2 broken)
+  BROKEN references (target chapter extracted but element missing):
+    ASCE7-22-4.8.2-H1: Chapter 2 → Chapter 2 extracted but target not found
+    ASCE7-22-4.16.2-P1: Chapter 2 → Chapter 2 extracted but target not found
+  Done: 139 elements
+
+  Deploy gate for Chapter 4:
+DEPLOYMENT GATE
+============================================================
+  [PASS] SCHEMA                    139/139
+  [FAIL] COMPOSITE ≥95%            79.6%
+  [FAIL] COVERAGE ≥85%             50%
+  [PASS] FIDELITY ≥95%             99%
+  [PASS] NO SHALL IN TEXT_BLOCKS   0 found
+  [PASS] EQUATIONS ≥50%            2/2 (100%)
+  [PASS] PARAMS ≥30%               2/2 (100%)
+  [FAIL] CONDITIONS ≥15%           4/31 (13%)
+  [PASS] CROSS-REFS >0             29 elements
+  [PASS] REFERENCES (N/A)          0 found (no ASTM/ANSI/CAN)
+  [PASS] CORE 3 TYPES              all present
+  [FAIL] 0 BROKEN REFS             2 broken, 0 pending
+  [PASS] SYMBOLS REGISTRY          282 symbols
+============================================================
+RESULT: 4 FAILURES — not ready
+
+  Chapter 4: 139 elements in 23.8s FAIL
+
+────────────────────────────────────────────────────────────
+[5/29] Chapter 5: FLOOD LOADS (4 pages)
+────────────────────────────────────────────────────────────
+  [1/4] PyMuPDF: scanning bold labels...
+  [2/4] Docling: document structure...
+  [3/4] Building elements from bold-label taxonomy...
+  [4/4] Enriching with tables, figures, references, equations...
+  [+] Building cross-references...
+  [+] Merging short fragments...
+  [+] Page-level equation scan...
+    Found 4 additional equations from raw PDF text
+  [+] Parsing provision conditions...
+  [+] Building global symbols table...
+    282 symbols, 7/9 formulas have parameters
+  [+] Updating manifest...
+  [+] Tracking unresolved references...
+  Unresolved references: 5 (0 pending, 5 broken)
+  BROKEN references (target chapter extracted but element missing):
+    ASCE7-22-5.3.1-H1: Chapter 2 → Chapter 2 extracted but target not found
+    ASCE7-22-5.3.3-T1: Chapter 26 → Chapter 26 extracted but target not found
+    ASCE7-22-5.3.3-T2: Chapter 12 → Chapter 12 extracted but target not found
+    ASCE7-22-5.3.3-P2: Chapter 2 → Chapter 2 extracted but target not found
+    ASCE7-22-5.4.4.3-T6: Table 1.5-1 → Chapter 1 extracted but target not found
+  Done: 87 elements
+
+  Deploy gate for Chapter 5:
+DEPLOYMENT GATE
+============================================================
+  [PASS] SCHEMA                    87/87
+  [PASS] COMPOSITE ≥95%            98.8%
+  [PASS] COVERAGE ≥85%             100%
+  [PASS] FIDELITY ≥95%             97%
+  [PASS] NO SHALL IN TEXT_BLOCKS   0 found
+  [PASS] EQUATIONS ≥50%            9/9 (100%)
+  [PASS] PARAMS ≥30%               7/9 (78%)
+  [PASS] CONDITIONS ≥15%           3/15 (20%)
+  [PASS] CROSS-REFS >0             8 elements
+  [PASS] REFERENCES (N/A)          0 found (no ASTM/ANSI/CAN)
+  [PASS] CORE 3 TYPES              all present
+  [FAIL] 0 BROKEN REFS             5 broken, 0 pending
+  [PASS] SYMBOLS REGISTRY          282 symbols
+============================================================
+RESULT: 1 FAILURES — not ready
+
+  Chapter 5: 87 elements in 6.3s FAIL
+
+────────────────────────────────────────────────────────────
+[6/29] Chapter 6: TSUNAMI LOADS AND EFFECTS (30 pages)
+────────────────────────────────────────────────────────────
+  [1/4] PyMuPDF: scanning bold labels...
+  [2/4] Docling: document structure...
+  [3/4] Building elements from bold-label taxonomy...
+  [4/4] Enriching with tables, figures, references, equations...
+  [+] Building cross-references...
+  [+] Merging short fragments...
+  [+] Page-level equation scan...
+    Found 14 additional equations from raw PDF text
+  [+] Parsing provision conditions...
+  [+] Building global symbols table...
+    282 symbols, 39/52 formulas have parameters
+  [+] Updating manifest...
+  [+] Tracking unresolved references...
+  Unresolved references: 7 (0 pending, 7 broken)
+  BROKEN references (target chapter extracted but element missing):
+    ASCE7-22-6.2-T77: Section 13.1.3 → Chapter 13 extracted but target not found
+    ASCE7-22-6.3-T24: Section 12.4.3.1 → Chapter 12 extracted but target not found
+    ASCE7-22-6.3-T110: Table 12.2-1 → Chapter 12 extracted but target not found
+    ASCE7-22-6.8.3.4-P1: Chapter 12 → Chapter 12 extracted but target not found
+    ASCE7-22-6.8.3.5.3-P1: Section 2.5.2.2 → Chapter 2 extracted but target not found
+    ASCE7-22-6.8.9-H1: Chapter 11 → Chapter 11 extracted but target not found
+    ASCE7-22-6.12-P2: Section 11.8 → Chapter 11 extracted but target not found
+  Done: 720 elements
+
+  Deploy gate for Chapter 6:
+DEPLOYMENT GATE
+============================================================
+  [PASS] SCHEMA                    720/720
+  [FAIL] COMPOSITE ≥95%            93.3%
+  [PASS] COVERAGE ≥85%             85%
+  [PASS] FIDELITY ≥95%             98%
+  [FAIL] NO SHALL IN TEXT_BLOCKS   1 found
+  [PASS] EQUATIONS ≥50%            52/52 (100%)
+  [PASS] PARAMS ≥30%               39/52 (75%)
+  [PASS] CONDITIONS ≥15%           31/185 (17%)
+  [PASS] CROSS-REFS >0             162 elements
+  [PASS] REFERENCES (N/A)          0 found (no ASTM/ANSI/CAN)
+  [PASS] CORE 3 TYPES              all present
+  [FAIL] 0 BROKEN REFS             7 broken, 0 pending
+  [PASS] SYMBOLS REGISTRY          282 symbols
+============================================================
+RESULT: 3 FAILURES — not ready
+
+  Chapter 6: 720 elements in 36.6s FAIL
+
+────────────────────────────────────────────────────────────
+[7/29] Chapter 7: SNOW LOADS (16 pages)
+────────────────────────────────────────────────────────────
+  [1/4] PyMuPDF: scanning bold labels...
+  [2/4] Docling: document structure...
+  [3/4] Building elements from bold-label taxonomy...
+  [4/4] Enriching with tables, figures, references, equations...
+  [+] Building cross-references...
+  [+] Merging short fragments...
+  [+] Page-level equation scan...
+    Found 2 additional equations from raw PDF text
+  [+] Parsing provision conditions...
+  [+] Building global symbols table...
+    282 symbols, 3/4 formulas have parameters
+  [+] Updating manifest...
+  [+] Tracking unresolved references...
+  Unresolved references: 4 (0 pending, 4 broken)
+  BROKEN references (target chapter extracted but element missing):
+    ASCE7-22-7.1.1-D6: Chapter 8 → Chapter 8 extracted but target not found
+    ASCE7-22-7.2-P1: Table 1.3-1 → Chapter 1 extracted but target not found
+    ASCE7-22-7.14-P1: Chapter 1 → Chapter 1 extracted but target not found
+    ASCE7-22-7.14.1-P1: Section 1.3.1.3.4 → Chapter 1 extracted but target not found
+  Done: 197 elements
+
+  Deploy gate for Chapter 7:
+DEPLOYMENT GATE
+============================================================
+  [PASS] SCHEMA                    197/197
+  [PASS] COMPOSITE ≥95%            95.7%
+  [PASS] COVERAGE ≥85%             91%
+  [PASS] FIDELITY ≥95%             99%
+  [PASS] NO SHALL IN TEXT_BLOCKS   0 found
+  [PASS] EQUATIONS ≥50%            4/4 (100%)
+  [PASS] PARAMS ≥30%               3/4 (75%)
+  [PASS] CONDITIONS ≥15%           11/42 (26%)
+  [PASS] CROSS-REFS >0             51 elements
+  [PASS] REFERENCES (N/A)          0 found (no ASTM/ANSI/CAN)
+  [PASS] CORE 3 TYPES              all present
+  [FAIL] 0 BROKEN REFS             4 broken, 0 pending
+  [PASS] SYMBOLS REGISTRY          282 symbols
+============================================================
+RESULT: 1 FAILURES — not ready
+
+  Chapter 7: 197 elements in 30.9s FAIL
+
+────────────────────────────────────────────────────────────
+[8/29] Chapter 8: RAIN LOADS (2 pages)
+────────────────────────────────────────────────────────────
+  [1/4] PyMuPDF: scanning bold labels...
+  [2/4] Docling: document structure...
+  [3/4] Building elements from bold-label taxonomy...
+  [4/4] Enriching with tables, figures, references, equations...
+  [+] Building cross-references...
+  [+] Merging short fragments...
+  [+] Page-level equation scan...
+  [+] Parsing provision conditions...
+  [+] Building global symbols table...
+    282 symbols, 0/1 formulas have parameters
+  [+] Updating manifest...
+  [+] Tracking unresolved references...
+  Unresolved references: 0 (0 pending, 0 broken)
+  Done: 37 elements
+
+  Deploy gate for Chapter 8:
+DEPLOYMENT GATE
+============================================================
+  [PASS] SCHEMA                    37/37
+  [PASS] COMPOSITE ≥95%            99.8%
+  [PASS] COVERAGE ≥85%             100%
+  [PASS] FIDELITY ≥95%             100%
+  [PASS] NO SHALL IN TEXT_BLOCKS   0 found
+  [PASS] EQUATIONS ≥50%            1/1 (100%)
+  [FAIL] PARAMS ≥30%               0/1 (0%)
+  [FAIL] CONDITIONS ≥15%           0/5 (0%)
+  [PASS] CROSS-REFS >0             5 elements
+  [PASS] REFERENCES (N/A)          0 found (no ASTM/ANSI/CAN)
+  [PASS] CORE 3 TYPES              all present
+  [PASS] 0 BROKEN REFS             0 broken, 0 pending
+  [PASS] SYMBOLS REGISTRY          282 symbols
+============================================================
+RESULT: 2 FAILURES — not ready
+
+  Chapter 8: 37 elements in 111.2s FAIL
+
+────────────────────────────────────────────────────────────
+[9/29] Chapter 10: ICE LOADS (24 pages)
+────────────────────────────────────────────────────────────
+  [1/4] PyMuPDF: scanning bold labels...
+  [2/4] Docling: document structure...
+  [3/4] Building elements from bold-label taxonomy...
+  [4/4] Enriching with tables, figures, references, equations...
+  [+] Building cross-references...
+  [+] Merging short fragments...
+  [+] Page-level equation scan...
+    Found 4 additional equations from raw PDF text
+  [+] Parsing provision conditions...
+  [+] Building global symbols table...
+    282 symbols, 5/5 formulas have parameters
+  [+] Updating manifest...
+  [+] Tracking unresolved references...
+  Unresolved references: 12 (0 pending, 12 broken)
+  BROKEN references (target chapter extracted but element missing):
+    ASCE7-22-10.1-P1: Chapter 7 → Chapter 7 extracted but target not found
+    ASCE7-22-10.3-T3: Chapter 29 → Chapter 29 extracted but target not found
+    ASCE7-22-10.3-T6: Chapter 26 → Chapter 26 extracted but target not found
+    ASCE7-22-10.3-T7: Chapter 29 → Chapter 29 extracted but target not found
+    ASCE7-22-10.3-T14: Chapter 29 → Chapter 29 extracted but target not found
+    ASCE7-22-10.5.1-H1: Figure 29.4-1 → Chapter 29 extracted but target not found
+    ASCE7-22-10.5.2-H1: Figure 29.3-1 → Chapter 29 extracted but target not found
+    ASCE7-22-10.5.3-H1: Figure 29.4-2 → Chapter 29 extracted but target not found
+    ASCE7-22-10.5.4-H1: Figure 29.4-3 → Chapter 29 extracted but target not found
+    ASCE7-22-10.5.5-H1: Chapter 29 → Chapter 29 extracted but target not found
+    ASCE7-22-10.8-P5: Section 29.3 → Chapter 29 extracted but target not found
+    ASCE7-22-10.8-P7: Chapter 29 → Chapter 29 extracted but target not found
+  Done: 195 elements
+
+  Deploy gate for Chapter 10:
+DEPLOYMENT GATE
+============================================================
+  [PASS] SCHEMA                    195/195
+  [PASS] COMPOSITE ≥95%            96.3%
+  [PASS] COVERAGE ≥85%             94%
+  [PASS] FIDELITY ≥95%             97%
+  [PASS] NO SHALL IN TEXT_BLOCKS   0 found
+  [PASS] EQUATIONS ≥50%            5/5 (100%)
+  [PASS] PARAMS ≥30%               5/5 (100%)
+  [FAIL] CONDITIONS ≥15%           1/52 (2%)
+  [PASS] CROSS-REFS >0             36 elements
+  [PASS] REFERENCES >0             1 found (ASTM/ANSI/CAN present)
+  [PASS] CORE 3 TYPES              all present
+  [FAIL] 0 BROKEN REFS             12 broken, 0 pending
+  [PASS] SYMBOLS REGISTRY          282 symbols
+============================================================
+RESULT: 2 FAILURES — not ready
+
+  Chapter 10: 195 elements in 27.0s FAIL
+
+────────────────────────────────────────────────────────────
+[10/29] Chapter 11: SEISMIC DESIGN CRITERIA (12 pages)
+────────────────────────────────────────────────────────────
+  [1/4] PyMuPDF: scanning bold labels...
+  [2/4] Docling: document structure...
+  [3/4] Building elements from bold-label taxonomy...
+  [4/4] Enriching with tables, figures, references, equations...
+  [+] Building cross-references...
+  [+] Merging short fragments...
+  [+] Page-level equation scan...
+    Found 3 additional equations from raw PDF text
+  [+] Parsing provision conditions...
+  [+] Building global symbols table...
+    282 symbols, 13/13 formulas have parameters
+  [+] Updating manifest...
+  [+] Tracking unresolved references...
+  Unresolved references: 134 (0 pending, 134 broken)
+  BROKEN references (target chapter extracted but element missing):
+    ASCE7-22-11.1.1-H3: Section 15.5 → Chapter 15 extracted but target not found
+    ASCE7-22-11.1.2-H1: Chapter 15 → Chapter 15 extracted but target not found
+    ASCE7-22-11.1.2-T4: Chapter 15 → Chapter 15 extracted but target not found
+    ASCE7-22-11.1.3-H1: Chapter 12 → Chapter 12 extracted but target not found
+    ASCE7-22-11.1.3-T2: Chapter 15 → Chapter 15 extracted but target not found
+    ASCE7-22-11.1.3-T3: Chapter 13 → Chapter 13 extracted but target not found
+    ASCE7-22-11.1.3-T4: Chapter 17 → Chapter 17 extracted but target not found
+    ASCE7-22-11.1.3-T5: Chapter 18 → Chapter 18 extracted but target not found
+    ASCE7-22-11.1.5-H1: Section 13.2.2 → Chapter 13 extracted but target not found
+    ASCE7-22-11.1.5-P1: Section 13.2.2 → Chapter 13 extracted but target not found
+    ASCE7-22-11.2-D21: Chapter 13 → Chapter 13 extracted but target not found
+    ASCE7-22-11.2-T16: Section 12.8.6 → Chapter 12 extracted but target not found
+    ASCE7-22-11.2-T33: Section 12.2.5.1 → Chapter 12 extracted but target not found
+    ASCE7-22-11.2-T41: Section 21.5 → Chapter 21 extracted but target not found
+    ASCE7-22-11.2-D44: Chapter 15 → Chapter 15 extracted but target not found
+    ASCE7-22-11.2-D44: Section 15.1.1 → Chapter 15 extracted but target not found
+    ASCE7-22-11.2-D45: Table 12.2-1 → Chapter 12 extracted but target not found
+    ASCE7-22-11.2-D53: Section 18.10.9 → Chapter 18 extracted but target not found
+    ASCE7-22-11.2-D57: Chapter 20 → Chapter 20 extracted but target not found
+    ASCE7-22-11.3-T5: Section 12.8.4.3 → Chapter 12 extracted but target not found
+    ASCE7-22-11.3-T6: Section 13.3.1 → Chapter 13 extracted but target not found
+    ASCE7-22-11.3-T9: Section 13.3.1.3 → Chapter 13 extracted but target not found
+    ASCE7-22-11.3-T10: Table 12.2-1 → Chapter 12 extracted but target not found
+    ASCE7-22-11.3-T11: Section 12.9.2.5 → Chapter 12 extracted but target not found
+    ASCE7-22-11.3-T12: Section 12.9.2.5 → Chapter 12 extracted but target not found
+    ASCE7-22-11.3-T13: Section 12.10.4 → Chapter 12 extracted but target not found
+    ASCE7-22-11.3-T15: Section 12.10.3.2.1 → Chapter 12 extracted but target not found
+    ASCE7-22-11.3-T16: Section 12.10.3.2.1 → Chapter 12 extracted but target not found
+    ASCE7-22-11.3-T17: Section 12.10.3.2.1 → Chapter 12 extracted but target not found
+    ASCE7-22-11.3-T18: Section 12.10.3.2.1 → Chapter 12 extracted but target not found
+    ASCE7-22-11.3-T19: Section 12.8.1.1 → Chapter 12 extracted but target not found
+    ASCE7-22-11.3-T20: Section 12.10.3.2.1 → Chapter 12 extracted but target not found
+    ASCE7-22-11.3-T21: Section 12.8.2.1 → Chapter 12 extracted but target not found
+    ASCE7-22-11.3-T23: Section 12.13.3 → Chapter 12 extracted but target not found
+    ASCE7-22-11.3-T24: Section 12.8.3 → Chapter 12 extracted but target not found
+    ASCE7-22-11.3-T27: Section 13.5.9.1 → Chapter 13 extracted but target not found
+    ASCE7-22-11.3-T28: Section 13.3.2 → Chapter 13 extracted but target not found
+    ASCE7-22-11.3-T30: Section 20.4.3 → Chapter 20 extracted but target not found
+    ASCE7-22-11.3-T31: Section 20.4.1 → Chapter 20 extracted but target not found
+    ASCE7-22-11.3-T32: Section 20.4.2 → Chapter 20 extracted but target not found
+    ASCE7-22-11.3-T33: Section 12.4 → Chapter 12 extracted but target not found
+    ASCE7-22-11.3-T37: Section 12.8.3 → Chapter 12 extracted but target not found
+    ASCE7-22-11.3-T48: Section 13.3.1.1 → Chapter 13 extracted but target not found
+    ASCE7-22-11.3-T50: Chapter 13 → Chapter 13 extracted but target not found
+    ASCE7-22-11.3-T51: Chapter 19 → Chapter 19 extracted but target not found
+    ASCE7-22-11.3-T58: Section 13.3.1 → Chapter 13 extracted but target not found
+    ASCE7-22-11.3-T60: Section 13.3.3 → Chapter 13 extracted but target not found
+    ASCE7-22-11.3-T64: Section 12.8.3 → Chapter 12 extracted but target not found
+    ASCE7-22-11.3-T67: Section 12.10.4 → Chapter 12 extracted but target not found
+    ASCE7-22-11.3-T68: Section 12.8.4.1 → Chapter 12 extracted but target not found
+    ASCE7-22-11.3-T69: Section 12.8.4.2 → Chapter 12 extracted but target not found
+    ASCE7-22-11.3-T72: Section 12.8.2.1 → Chapter 12 extracted but target not found
+    ASCE7-22-11.3-T75: Section 20.4.2 → Chapter 20 extracted but target not found
+    ASCE7-22-11.3-T77: Table 21.2-1 → Chapter 21 extracted but target not found
+    ASCE7-22-11.3-T80: Section 12.8.7 → Chapter 12 extracted but target not found
+    ASCE7-22-11.3-T83: Section 12.10.4 → Chapter 12 extracted but target not found
+    ASCE7-22-11.3-T84: Section 13.3.1.4 → Chapter 13 extracted but target not found
+    ASCE7-22-11.3-T85: Section 13.3.1.2 → Chapter 13 extracted but target not found
+    ASCE7-22-11.3-T86: Section 12.10.3.5 → Chapter 12 extracted but target not found
+    ASCE7-22-11.3-T87: Section 12.9.2.5 → Chapter 12 extracted but target not found
+    ASCE7-22-11.3-T88: Section 12.9.2.5 → Chapter 12 extracted but target not found
+    ASCE7-22-11.3-T100: Section 20.4.3 → Chapter 20 extracted but target not found
+    ASCE7-22-11.3-T102: Section 20.4.3 → Chapter 20 extracted but target not found
+    ASCE7-22-11.3-T105: Chapter 19 → Chapter 19 extracted but target not found
+    ASCE7-22-11.3-T106: Section 12.8.2 → Chapter 12 extracted but target not found
+    ASCE7-22-11.3-T107: Section 12.10.4 → Chapter 12 extracted but target not found
+    ASCE7-22-11.3-P3: Section 12.9.2 → Chapter 12 extracted but target not found
+    ASCE7-22-11.3-T109: Section 13.3.3 → Chapter 13 extracted but target not found
+    ASCE7-22-11.3-P4: Section 12.9.2 → Chapter 12 extracted but target not found
+    ASCE7-22-11.3-T111: Section 12.3.2.1.1 → Chapter 12 extracted but target not found
+    ASCE7-22-11.3-T114: Section 12.9.2.5 → Chapter 12 extracted but target not found
+    ASCE7-22-11.3-T115: Section 12.9.2.5 → Chapter 12 extracted but target not found
+    ASCE7-22-11.3-T116: Section 12.9.2.5 → Chapter 12 extracted but target not found
+    ASCE7-22-11.3-T117: Section 12.9.2.5 → Chapter 12 extracted but target not found
+    ASCE7-22-11.3-T118: Section 12.9.1.4.1 → Chapter 12 extracted but target not found
+    ASCE7-22-11.3-T119: Section 12.9.2.5 → Chapter 12 extracted but target not found
+    ASCE7-22-11.3-T120: Section 12.8.4 → Chapter 12 extracted but target not found
+    ASCE7-22-11.3-T121: Section 12.9.2.5 → Chapter 12 extracted but target not found
+    ASCE7-22-11.3-T122: Section 19.3 → Chapter 19 extracted but target not found
+    ASCE7-22-11.3-T123: Section 19.3.1 → Chapter 19 extracted but target not found
+    ASCE7-22-11.3-T124: Section 19.3.1 → Chapter 19 extracted but target not found
+    ASCE7-22-11.3-T125: Section 19.3.1 → Chapter 19 extracted but target not found
+    ASCE7-22-11.3-T126: Section 19.2.1 → Chapter 19 extracted but target not found
+    ASCE7-22-11.3-T128: Section 20.4.1 → Chapter 20 extracted but target not found
+    ASCE7-22-11.3-T129: Section 19.2.1.1 → Chapter 19 extracted but target not found
+    ASCE7-22-11.3-T130: Section 12.7.2 → Chapter 12 extracted but target not found
+    ASCE7-22-11.3-T138: Section 13.3.1 → Chapter 13 extracted but target not found
+    ASCE7-22-11.3-T139: Section 12.10.3.2.1 → Chapter 12 extracted but target not found
+    ASCE7-22-11.3-T140: Section 19.2.1 → Chapter 19 extracted but target not found
+    ASCE7-22-11.3-T142: Section 19.2.1.2 → Chapter 19 extracted but target not found
+    ASCE7-22-11.3-T143: Section 12.10.3.2.1 → Chapter 12 extracted but target not found
+    ASCE7-22-11.3-T144: Section 12.8.6 → Chapter 12 extracted but target not found
+    ASCE7-22-11.3-T144: Section 12.3.2.1.1 → Chapter 12 extracted but target not found
+    ASCE7-22-11.3-T146: Section 12.3.2.1.1 → Chapter 12 extracted but target not found
+    ASCE7-22-11.3-T147: Section 12.12.1 → Chapter 12 extracted but target not found
+    ASCE7-22-11.3-T149: Figure 12.3-1 → Chapter 12 extracted but target not found
+    ASCE7-22-11.3-T150: Section 12.10 → Chapter 12 extracted but target not found
+    ASCE7-22-11.3-T150: Section 12.8.6 → Chapter 12 extracted but target not found
+    ASCE7-22-11.3-T151: Section 12.8.6 → Chapter 12 extracted but target not found
+    ASCE7-22-11.3-T152: Section 12.8.6 → Chapter 12 extracted but target not found
+    ASCE7-22-11.3-T153: Section 12.8.6 → Chapter 12 extracted but target not found
+    ASCE7-22-11.3-T154: Figure 12.3-1 → Chapter 12 extracted but target not found
+    ASCE7-22-11.3-T155: Section 12.8.4.3 → Chapter 12 extracted but target not found
+    ASCE7-22-11.3-T156: Section 12.12.3 → Chapter 12 extracted but target not found
+    ASCE7-22-11.3-T157: Section 12.12.3 → Chapter 12 extracted but target not found
+    ASCE7-22-11.3-T158: Section 12.8.4.3 → Chapter 12 extracted but target not found
+    ASCE7-22-11.3-T159: Section 19.3.2 → Chapter 19 extracted but target not found
+    ASCE7-22-11.3-T161: Section 12.8.7 → Chapter 12 extracted but target not found
+    ASCE7-22-11.3-T162: Section 12.9.2.5 → Chapter 12 extracted but target not found
+    ASCE7-22-11.3-T163: Section 12.9.2.5 → Chapter 12 extracted but target not found
+    ASCE7-22-11.3-T165: Section 12.3.4 → Chapter 12 extracted but target not found
+    ASCE7-22-11.3-T167: Section 12.10.4 → Chapter 12 extracted but target not found
+    ASCE7-22-11.4.2-H1: Chapter 20 → Chapter 20 extracted but target not found
+    ASCE7-22-11.4.3-X1: Section 21.4 → Chapter 21 extracted but target not found
+    ASCE7-22-11.4.3-X1: Section 21.2.3 → Chapter 21 extracted but target not found
+    ASCE7-22-11.4.4-H1: Section 12.14 → Chapter 12 extracted but target not found
+    ASCE7-22-11.4.4-H1: Section 12.14.8.1 → Chapter 12 extracted but target not found
+    ASCE7-22-11.4.5-P1: Section 21.3 → Chapter 21 extracted but target not found
+    ASCE7-22-11.4.7-H1: Section 21.1 → Chapter 21 extracted but target not found
+    ASCE7-22-11.4.7-H1: Section 20.3.1 → Chapter 20 extracted but target not found
+    ASCE7-22-11.4.7-P1: Section 21.1 → Chapter 21 extracted but target not found
+    ASCE7-22-11.4.7-P1: Section 21.2 → Chapter 21 extracted but target not found
+    ASCE7-22-11.4.7-P2: Section 21.1 → Chapter 21 extracted but target not found
+    ASCE7-22-11.4.7-P2: Section 21.3 → Chapter 21 extracted but target not found
+    ASCE7-22-11.4.7-P3: Section 21.4 → Chapter 21 extracted but target not found
+    ASCE7-22-11.4.7-P3: Section 21.5 → Chapter 21 extracted but target not found
+    ASCE7-22-11.5.1-H1: Table 1.5-2 → Chapter 1 extracted but target not found
+    ASCE7-22-11.6-P2: Chapter 19 → Chapter 19 extracted but target not found
+    ASCE7-22-11.6-T1: Section 12.8.2.1 → Chapter 12 extracted but target not found
+    ASCE7-22-11.6-P4: Section 12.14 → Chapter 12 extracted but target not found
+    ASCE7-22-11.6-P4: Section 12.14.8.1 → Chapter 12 extracted but target not found
+    ASCE7-22-11.7-P1: Section 15.6.5.1 → Chapter 15 extracted but target not found
+    ASCE7-22-11.9.1-H1: Section 12.4.2.2 → Chapter 12 extracted but target not found
+    ASCE7-22-11.10-H2: Chapter 23 → Chapter 23 extracted but target not found
+  Done: 434 elements
+
+  Deploy gate for Chapter 11:
+DEPLOYMENT GATE
+============================================================
+  [PASS] SCHEMA                    434/434
+  [FAIL] COMPOSITE ≥95%            79.6%
+  [FAIL] COVERAGE ≥85%             50%
+  [PASS] FIDELITY ≥95%             99%
+  [PASS] NO SHALL IN TEXT_BLOCKS   0 found
+  [PASS] EQUATIONS ≥50%            13/13 (100%)
+  [PASS] PARAMS ≥30%               13/13 (100%)
+  [PASS] CONDITIONS ≥15%           13/37 (35%)
+  [PASS] CROSS-REFS >0             32 elements
+  [FAIL] REFERENCES >0             0 found (ASTM/ANSI/CAN present)
+  [PASS] CORE 3 TYPES              all present
+  [FAIL] 0 BROKEN REFS             134 broken, 0 pending
+  [PASS] SYMBOLS REGISTRY          282 symbols
+============================================================
+RESULT: 4 FAILURES — not ready
+
+  Chapter 11: 434 elements in 19.6s FAIL
+
+────────────────────────────────────────────────────────────
+[11/29] Chapter 12: SEISMIC DESIGN REQUIREMENTS FOR BUILDING STRUCTURES (34 pages)
+────────────────────────────────────────────────────────────
+  [1/4] PyMuPDF: scanning bold labels...
+  [2/4] Docling: document structure...
+  [3/4] Building elements from bold-label taxonomy...
+  [4/4] Enriching with tables, figures, references, equations...
+  [+] Building cross-references...
+  [+] Merging short fragments...
+  [+] Page-level equation scan...
+    Found 26 additional equations from raw PDF text
+  [+] Parsing provision conditions...
+  [+] Building global symbols table...
+    282 symbols, 51/70 formulas have parameters
+  [+] Updating manifest...
+  [+] Tracking unresolved references...
+  Unresolved references: 79 (0 pending, 79 broken)
+  BROKEN references (target chapter extracted but element missing):
+    ASCE7-22-12.1.5-P1: Section 2.4 → Chapter 2 extracted but target not found
+    ASCE7-22-12.1.5-P1: Section 3.1.2 → Chapter 3 extracted but target not found
+    ASCE7-22-12.1.6-H1: Chapter 14 → Chapter 14 extracted but target not found
+    ASCE7-22-12.2.1-T41: Chapter 14 → Chapter 14 extracted but target not found
+    ASCE7-22-12.2.1-P7: Section 1.3.1.3 → Chapter 1 extracted but target not found
+    ASCE7-22-12.2.1.1-H1: Section 16.5 → Chapter 16 extracted but target not found
+    ASCE7-22-12.2.1.2-T5: Section 16.5 → Chapter 16 extracted but target not found
+    ASCE7-22-12.3.4.1-T8: Chapter 18 → Chapter 18 extracted but target not found
+    ASCE7-22-12.4.2-P2: Section 2.3.6 → Chapter 2 extracted but target not found
+    ASCE7-22-12.4.2-P2: Section 2.4.5 → Chapter 2 extracted but target not found
+    ASCE7-22-12.4.2.1-P3: Section 2.3.6 → Chapter 2 extracted but target not found
+    ASCE7-22-12.4.2.1-P3: Section 2.4.5 → Chapter 2 extracted but target not found
+    ASCE7-22-12.4.2.2-T1: Section 11.4.5 → Chapter 11 extracted but target not found
+    ASCE7-22-12.4.2.2-H3: Section 11.9 → Chapter 11 extracted but target not found
+    ASCE7-22-12.4.2.2-T2: Section 11.9.3 → Chapter 11 extracted but target not found
+    ASCE7-22-12.4.3.2-P1: Section 2.3.6 → Chapter 2 extracted but target not found
+    ASCE7-22-12.4.3.2-P1: Section 2.4.5 → Chapter 2 extracted but target not found
+    ASCE7-22-12.5.1.2-P3: Chapter 16 → Chapter 16 extracted but target not found
+    ASCE7-22-12.6-P1: Chapter 16 → Chapter 16 extracted but target not found
+    ASCE7-22-12.7.1-H1: Chapter 19 → Chapter 19 extracted but target not found
+    ASCE7-22-12.7.2-T1: Section 4.3.2 → Chapter 4 extracted but target not found
+    ASCE7-22-12.7.2-T4: Section 3.1.4 → Chapter 3 extracted but target not found
+    ASCE7-22-12.8.1.1-H1: Chapter 21 → Chapter 21 extracted but target not found
+    ASCE7-22-12.8.1.1-H1: Section 11.4.5.1 → Chapter 11 extracted but target not found
+    ASCE7-22-12.8.1.1-H1: Section 11.4.5 → Chapter 11 extracted but target not found
+    ASCE7-22-12.8.1.1-T2: Section 11.4.5.1 → Chapter 11 extracted but target not found
+    ASCE7-22-12.8.1.1-T4: Section 11.5.1 → Chapter 11 extracted but target not found
+    ASCE7-22-12.8.1.1-T6: Section 11.4.5 → Chapter 11 extracted but target not found
+    ASCE7-22-12.8.1.1-T8: Section 11.5.1 → Chapter 11 extracted but target not found
+    ASCE7-22-12.8.1.1-T12: Section 11.4.5 → Chapter 11 extracted but target not found
+    ASCE7-22-12.8.1.1-T14: Section 11.4.6 → Chapter 11 extracted but target not found
+    ASCE7-22-12.8.1.1-T15: Section 11.4.2 → Chapter 11 extracted but target not found
+    ASCE7-22-12.8.1.2-H1: Chapter 19 → Chapter 19 extracted but target not found
+    ASCE7-22-12.8.1.3-T1: Section 11.4.5 → Chapter 11 extracted but target not found
+    ASCE7-22-12.8.1.3-T5: Section 11.4.3 → Chapter 11 extracted but target not found
+    ASCE7-22-12.8.1.3-T6: Section 1.5.1 → Chapter 1 extracted but target not found
+    ASCE7-22-12.8.6.3-H1: Chapter 16 → Chapter 16 extracted but target not found
+    ASCE7-22-12.8.6.3-T3: Section 11.5.1 → Chapter 11 extracted but target not found
+    ASCE7-22-12.8.6.4-P1: Chapter 16 → Chapter 16 extracted but target not found
+    ASCE7-22-12.9.1.2-P1: Section 11.4.5 → Chapter 11 extracted but target not found
+    ASCE7-22-12.9.1.7-P1: Chapter 19 → Chapter 19 extracted but target not found
+    ASCE7-22-12.10.2.1-T3: Section 2.3.6 → Chapter 2 extracted but target not found
+    ASCE7-22-12.10.2.1-X1: Section 2.3.6 → Chapter 2 extracted but target not found
+    ASCE7-22-12.10.4.2.1-T4: Section 11.4.5 → Chapter 11 extracted but target not found
+    ASCE7-22-12.10.4.2.1-T6: Section 11.5.1 → Chapter 11 extracted but target not found
+    ASCE7-22-12.11.2.1-T3: Section 11.4.5 → Chapter 11 extracted but target not found
+    ASCE7-22-12.11.2.1-T4: Section 11.5.1 → Chapter 11 extracted but target not found
+    ASCE7-22-12.12.4-D1: Section 18.14 → Chapter 18 extracted but target not found
+    ASCE7-22-12.13.2-P1: Chapter 14 → Chapter 14 extracted but target not found
+    ASCE7-22-12.13.2-P1: Section 14.1.8 → Chapter 14 extracted but target not found
+    ASCE7-22-12.13.3-H1: Chapter 19 → Chapter 19 extracted but target not found
+    ASCE7-22-12.13.6-H1: Section 2.4 → Chapter 2 extracted but target not found
+    ASCE7-22-12.13.7-H1: Section 11.8.2 → Chapter 11 extracted but target not found
+    ASCE7-22-12.13.8-H1: Section 18.13 → Chapter 18 extracted but target not found
+    ASCE7-22-12.13.8.2-H1: Chapter 20 → Chapter 20 extracted but target not found
+    ASCE7-22-12.13.8.4-X1: Chapter 2 → Chapter 2 extracted but target not found
+    ASCE7-22-12.13.9-H1: Section 11.8 → Chapter 11 extracted but target not found
+    ASCE7-22-12.13.9.2.1.1-T1: Section 2.3.6 → Chapter 2 extracted but target not found
+    ASCE7-22-12.13.9.2.1.1-P3: Section 18.6.4 → Chapter 18 extracted but target not found
+    ASCE7-22-12.13.9.2.1.2-P1: Section 18.13.3.1 → Chapter 18 extracted but target not found
+    ASCE7-22-12.13.9.3.3-P1: Section 18.13.5.5 → Chapter 18 extracted but target not found
+    ASCE7-22-12.13.9.3.4-P4: Section 18.13.5.5 → Chapter 18 extracted but target not found
+    ASCE7-22-12.14.1.1-H1: Table 11.6-1 → Chapter 11 extracted but target not found
+    ASCE7-22-12.14.1.1-P1: Table 1.5-1 → Chapter 1 extracted but target not found
+    ASCE7-22-12.14.1.1-P2: Chapter 20 → Chapter 20 extracted but target not found
+    ASCE7-22-12.14.1.2-H1: Chapter 23 → Chapter 23 extracted but target not found
+    ASCE7-22-12.14.1.4-T14: Section 11.4.1 → Chapter 11 extracted but target not found
+    ASCE7-22-12.14.3.1-P1: Section 2.3.6 → Chapter 2 extracted but target not found
+    ASCE7-22-12.14.3.1-P1: Section 2.4.5 → Chapter 2 extracted but target not found
+    ASCE7-22-12.14.3.1.2-T1: Section 11.4.5 → Chapter 11 extracted but target not found
+    ASCE7-22-12.14.3.2-P2: Section 2.3.6 → Chapter 2 extracted but target not found
+    ASCE7-22-12.14.3.2-P2: Section 2.4.5 → Chapter 2 extracted but target not found
+    ASCE7-22-12.14.3.2.2-P1: Section 2.3.6 → Chapter 2 extracted but target not found
+    ASCE7-22-12.14.3.2.2-P1: Section 2.4.5 → Chapter 2 extracted but target not found
+    ASCE7-22-12.14.7-H1: Chapter 14 → Chapter 14 extracted but target not found
+    ASCE7-22-12.14.7.7-H1: Chapter 13 → Chapter 13 extracted but target not found
+    ASCE7-22-12.14.8.1-P1: Section 11.4.4 → Chapter 11 extracted but target not found
+    ASCE7-22-12.14.8.1-T6: Section 4.3.2 → Chapter 4 extracted but target not found
+    ASCE7-22-12.15-P1: Chapter 23 → Chapter 23 extracted but target not found
+  Done: 782 elements
+
+  Deploy gate for Chapter 12:
+DEPLOYMENT GATE
+============================================================
+  [PASS] SCHEMA                    782/782
+  [FAIL] COMPOSITE ≥95%            91.7%
+  [FAIL] COVERAGE ≥85%             83%
+  [PASS] FIDELITY ≥95%             96%
+  [PASS] NO SHALL IN TEXT_BLOCKS   0 found
+  [PASS] EQUATIONS ≥50%            70/70 (100%)
+  [PASS] PARAMS ≥30%               51/70 (73%)
+  [FAIL] CONDITIONS ≥15%           21/250 (8%)
+  [PASS] CROSS-REFS >0             222 elements
+  [FAIL] REFERENCES >0             0 found (ASTM/ANSI/CAN present)
+  [PASS] CORE 3 TYPES              all present
+  [FAIL] 0 BROKEN REFS             79 broken, 0 pending
+  [PASS] SYMBOLS REGISTRY          282 symbols
+============================================================
+RESULT: 5 FAILURES — not ready
+
+  Chapter 12: 782 elements in 69.5s FAIL
+
+────────────────────────────────────────────────────────────
+[12/29] Chapter 13: SEISMIC DESIGN REQUIREMENTS FOR NONSTRUCTURAL COMPONENTS (18 pages)
+────────────────────────────────────────────────────────────
+  [1/4] PyMuPDF: scanning bold labels...
+  [2/4] Docling: document structure...
+  [3/4] Building elements from bold-label taxonomy...
+  [4/4] Enriching with tables, figures, references, equations...
+  [+] Building cross-references...
+  [+] Merging short fragments...
+  [+] Page-level equation scan...
+    Found 8 additional equations from raw PDF text
+  [+] Parsing provision conditions...
+  [+] Building global symbols table...
+    282 symbols, 15/17 formulas have parameters
+  [+] Updating manifest...
+  [+] Tracking unresolved references...
+  Unresolved references: 53 (1 pending, 52 broken)
+  BROKEN references (target chapter extracted but element missing):
+    ASCE7-22-13.1.1-T3: Chapter 15 → Chapter 15 extracted but target not found
+    ASCE7-22-13.1.1-P1: Section 12.7.2 → Chapter 12 extracted but target not found
+    ASCE7-22-13.1.5-H1: Chapter 15 → Chapter 15 extracted but target not found
+    ASCE7-22-13.1.6-H1: Chapter 15 → Chapter 15 extracted but target not found
+    ASCE7-22-13.1.6-H1: Section 15.3 → Chapter 15 extracted but target not found
+    ASCE7-22-13.1.8-P1: Section 2.4 → Chapter 2 extracted but target not found
+    ASCE7-22-13.2.2-H1: Section 12.4.2.1 → Chapter 12 extracted but target not found
+    ASCE7-22-13.2.2-H1: Section 12.4.3.1 → Chapter 12 extracted but target not found
+    ASCE7-22-13.2.9-H1: Chapter 12 → Chapter 12 extracted but target not found
+    ASCE7-22-13.2.9-H1: Section 15.5 → Chapter 15 extracted but target not found
+    ASCE7-22-13.2.9-D1: Chapter 12 → Chapter 12 extracted but target not found
+    ASCE7-22-13.2.9-D1: Section 15.5 → Chapter 15 extracted but target not found
+    ASCE7-22-13.3.1-T6: Section 11.4.5 → Chapter 11 extracted but target not found
+    ASCE7-22-13.3.1.1-T3: Section 12.8.2 → Chapter 12 extracted but target not found
+    ASCE7-22-13.3.1.2-T2: Section 11.5.1 → Chapter 11 extracted but target not found
+    ASCE7-22-13.3.1.2-T3: Table 12.2-1 → Chapter 12 extracted but target not found
+    ASCE7-22-13.3.1.2-T4: Table 12.2-1 → Chapter 12 extracted but target not found
+    ASCE7-22-13.3.1.2-P1: Table 12.2-1 → Chapter 12 extracted but target not found
+    ASCE7-22-13.3.1.2-P2: Table 15.4-1 → Chapter 15 extracted but target not found
+    ASCE7-22-13.3.1.6-H1: Section 12.4.2.2 → Chapter 12 extracted but target not found
+    ASCE7-22-13.3.2-T1: Section 11.5.1 → Chapter 11 extracted but target not found
+    ASCE7-22-13.3.2.1-P3: Section 12.9 → Chapter 12 extracted but target not found
+    ASCE7-22-13.3.2.1-P3: Table 12.12-1 → Chapter 12 extracted but target not found
+    ASCE7-22-13.3.2.1-T3: Table 12.12-1 → Chapter 12 extracted but target not found
+    ASCE7-22-13.3.2.1-P4: Table 12.12-1 → Chapter 12 extracted but target not found
+    ASCE7-22-13.3.2.2-T1: Table 12.12-1 → Chapter 12 extracted but target not found
+    ASCE7-22-13.3.2.2-P1: Table 12.12-1 → Chapter 12 extracted but target not found
+    ASCE7-22-13.3.2.2-T7: Table 12.12-1 → Chapter 12 extracted but target not found
+    ASCE7-22-13.3.2.2-T8: Table 12.12-1 → Chapter 12 extracted but target not found
+    ASCE7-22-13.3.2.2-T9: Table 12.12-1 → Chapter 12 extracted but target not found
+    ASCE7-22-13.4.2-H1: Section 12.4.3 → Chapter 12 extracted but target not found
+    ASCE7-22-13.4.2.1-H1: Chapter 17 → Chapter 17 extracted but target not found
+    ASCE7-22-13.4.4-P1: Chapter 17 → Chapter 17 extracted but target not found
+    ASCE7-22-13.5.1-P2: Section 12.11.2 → Chapter 12 extracted but target not found
+    ASCE7-22-13.5.7.2-P1: Chapter 17 → Chapter 17 extracted but target not found
+    ASCE7-22-13.5.10-X2: Section 12.7.3 → Chapter 12 extracted but target not found
+    ASCE7-22-13.5.11-X1: Chapter 12 → Chapter 12 extracted but target not found
+    ASCE7-22-13.5.11.1-P1: Chapter 14 → Chapter 14 extracted but target not found
+    ASCE7-22-13.5.11.1-P1: Table 12.2-1 → Chapter 12 extracted but target not found
+    ASCE7-22-13.5.11.1-P1: Table 15.4-1 → Chapter 15 extracted but target not found
+    ASCE7-22-13.5.11.1-X1: Table 12.2-1 → Chapter 12 extracted but target not found
+    ASCE7-22-13.6.2.1-P5: Chapter 11 → Chapter 11 extracted but target not found
+    ASCE7-22-13.6.4.6-P1: Chapter 14 → Chapter 14 extracted but target not found
+    ASCE7-22-13.6.4.6-P1: Table 12.2-1 → Chapter 12 extracted but target not found
+    ASCE7-22-13.6.4.6-D1: Table 12.2-1 → Chapter 12 extracted but target not found
+    ASCE7-22-13.6.4.6-D1: Table 15.4-1 → Chapter 15 extracted but target not found
+    ASCE7-22-13.6.9-P1: Table 1.5-1 → Chapter 1 extracted but target not found
+    ASCE7-22-13.6.11.3-H1: Section 8.4.10.1.2 → Chapter 8 extracted but target not found
+    ASCE7-22-13.6.12-P1: Section 1.3.1.3.4 → Chapter 1 extracted but target not found
+    ASCE7-22-13.6.12-P3: Section 1.3.1.3.4 → Chapter 1 extracted but target not found
+    ASCE7-22-13.6.13-P1: Chapter 23 → Chapter 23 extracted but target not found
+    ASCE7-22-13.7-P1: Chapter 23 → Chapter 23 extracted but target not found
+  Pending by chapter: {9: 1}
+  Done: 375 elements
+
+  Deploy gate for Chapter 13:
+DEPLOYMENT GATE
+============================================================
+  [PASS] SCHEMA                    375/375
+  [FAIL] COMPOSITE ≥95%            83.4%
+  [FAIL] COVERAGE ≥85%             60%
+  [PASS] FIDELITY ≥95%             99%
+  [PASS] NO SHALL IN TEXT_BLOCKS   0 found
+  [PASS] EQUATIONS ≥50%            17/17 (100%)
+  [PASS] PARAMS ≥30%               15/17 (88%)
+  [FAIL] CONDITIONS ≥15%           21/144 (15%)
+  [PASS] CROSS-REFS >0             82 elements
+  [FAIL] REFERENCES >0             0 found (ASTM/ANSI/CAN present)
+  [PASS] CORE 3 TYPES              all present
+  [FAIL] 0 BROKEN REFS             52 broken, 1 pending
+  [PASS] SYMBOLS REGISTRY          282 symbols
+============================================================
+RESULT: 5 FAILURES — not ready
+
+  Chapter 13: 375 elements in 39.3s FAIL
+
+────────────────────────────────────────────────────────────
+[13/29] Chapter 14: MATERIAL-SPECIFIC SEISMIC DESIGN AND DETAILING REQUIREMENTS (4 pages)
+────────────────────────────────────────────────────────────
+  [1/4] PyMuPDF: scanning bold labels...
+  [2/4] Docling: document structure...
+  [3/4] Building elements from bold-label taxonomy...
+  [4/4] Enriching with tables, figures, references, equations...
+  [+] Building cross-references...
+  [+] Merging short fragments...
+  [+] Page-level equation scan...
+  [+] Parsing provision conditions...
+  [+] Building global symbols table...
+    282 symbols, 0/0 formulas have parameters
+  [+] Updating manifest...
+  [+] Tracking unresolved references...
+  Unresolved references: 34 (4 pending, 30 broken)
+  BROKEN references (target chapter extracted but element missing):
+    ASCE7-22-14.1.2.2.1-P1: Table 12.2-1 → Chapter 12 extracted but target not found
+    ASCE7-22-14.1.2.2.1-X1: Table 12.2-1 → Chapter 12 extracted but target not found
+    ASCE7-22-14.1.2.2.2-P1: Table 15.4-1 → Chapter 15 extracted but target not found
+    ASCE7-22-14.1.3.2-P1: Table 12.2-1 → Chapter 12 extracted but target not found
+    ASCE7-22-14.1.4.2.1-P1: Table 12.2-1 → Chapter 12 extracted but target not found
+    ASCE7-22-14.1.4.2.1-D1: Table 12.2-1 → Chapter 12 extracted but target not found
+    ASCE7-22-14.1.5-H1: Section 12.10 → Chapter 12 extracted but target not found
+    ASCE7-22-14.1.6-H1: Table 12.10-1 → Chapter 12 extracted but target not found
+    ASCE7-22-14.1.9-X1: Section 12.4.3 → Chapter 12 extracted but target not found
+    ASCE7-22-14.2.2.1-T1: Section 18.12.5 → Chapter 18 extracted but target not found
+    ASCE7-22-14.2.2.2-T1: Section 10.7.6 → Chapter 10 extracted but target not found
+    ASCE7-22-14.2.2.2-T1: Section 10.7.6.1.5 → Chapter 10 extracted but target not found
+    ASCE7-22-14.2.2.3-H1: Section 18.2.1.2 → Chapter 18 extracted but target not found
+    ASCE7-22-18.2.1.2-H1: Chapter 18 → Chapter 18 extracted but target not found
+    ASCE7-22-14.2.2.4-H1: Section 18.5 → Chapter 18 extracted but target not found
+    ASCE7-22-14.2.2.4-H1: Section 18.5.2.2 → Chapter 18 extracted but target not found
+    ASCE7-22-14.2.2.5-T1: Section 18.11.2.1 → Chapter 18 extracted but target not found
+    ASCE7-22-14.2.2.6-H1: Section 18.13.1.1 → Chapter 18 extracted but target not found
+    ASCE7-22-18.13.1.1-H1: Section 18.13 → Chapter 18 extracted but target not found
+    ASCE7-22-14.6.2.2-P1: Section 11.7.5.1 → Chapter 11 extracted but target not found
+    ASCE7-22-14.3.3-H1: Table 12.2-1 → Chapter 12 extracted but target not found
+    ASCE7-22-14.4.2-P1: Section 8.3 → Chapter 8 extracted but target not found
+    ASCE7-22-14.4.3-H1: Chapter 7 → Chapter 7 extracted but target not found
+    ASCE7-22-14.4.3.1-H1: Section 7.5.1 → Chapter 7 extracted but target not found
+    ASCE7-22-7.5.1-H1: Section 5.1.1.2 → Chapter 5 extracted but target not found
+    ASCE7-22-14.4.4-H1: Chapter 6 → Chapter 6 extracted but target not found
+    ASCE7-22-14.4.4.1.1-T4: Section 6.1.2.4 → Chapter 6 extracted but target not found
+    ASCE7-22-14.4.6-H1: Chapter 12 → Chapter 12 extracted but target not found
+    ASCE7-22-14.4.6.1-T1: Section 12.2.2.11.1.1 → Chapter 12 extracted but target not found
+    ASCE7-22-14.6-P1: Chapter 23 → Chapter 23 extracted but target not found
+  Pending by chapter: {9: 3, 25: 1}
+  Done: 102 elements
+
+  Deploy gate for Chapter 14:
+DEPLOYMENT GATE
+============================================================
+  [PASS] SCHEMA                    102/102
+  [FAIL] COMPOSITE ≥95%            59.5%
+  [FAIL] COVERAGE ≥85%             0%
+  [PASS] FIDELITY ≥95%             100%
+  [PASS] NO SHALL IN TEXT_BLOCKS   0 found
+  [PASS] EQUATIONS ≥50%            0/0 (0%)
+  [PASS] PARAMS ≥30%               0/0 (0%)
+  [FAIL] CONDITIONS ≥15%           0/32 (0%)
+  [PASS] CROSS-REFS >0             20 elements
+  [FAIL] REFERENCES >0             0 found (ASTM/ANSI/CAN present)
+  [PASS] CORE 3 TYPES              all present
+  [FAIL] 0 BROKEN REFS             30 broken, 4 pending
+  [PASS] SYMBOLS REGISTRY          282 symbols
+============================================================
+RESULT: 5 FAILURES — not ready
+
+  Chapter 14: 102 elements in 12.0s FAIL
+
+────────────────────────────────────────────────────────────
+[14/29] Chapter 15: SEISMIC DESIGN REQUIREMENTS FOR NONBUILDING STRUCTURES (20 pages)
+────────────────────────────────────────────────────────────
+  [1/4] PyMuPDF: scanning bold labels...
+  [2/4] Docling: document structure...
+  [3/4] Building elements from bold-label taxonomy...
+  [4/4] Enriching with tables, figures, references, equations...
+  [+] Building cross-references...
+  [+] Merging short fragments...
+  [+] Page-level equation scan...
+    Found 14 additional equations from raw PDF text
+  [+] Parsing provision conditions...
+  [+] Building global symbols table...
+    282 symbols, 19/23 formulas have parameters
+  [+] Updating manifest...
+  [+] Tracking unresolved references...
+  Unresolved references: 93 (1 pending, 92 broken)
+  BROKEN references (target chapter extracted but element missing):
+    ASCE7-22-15.1.1-H1: Chapter 14 → Chapter 14 extracted but target not found
+    ASCE7-22-15.1.2-P2: Section 2.4 → Chapter 2 extracted but target not found
+    ASCE7-22-15.1.3-H1: Chapter 16 → Chapter 16 extracted but target not found
+    ASCE7-22-15.1.3-H1: Section 12.6 → Chapter 12 extracted but target not found
+    ASCE7-22-15.1.3-H1: Section 12.8 → Chapter 12 extracted but target not found
+    ASCE7-22-15.1.3-H1: Section 12.9 → Chapter 12 extracted but target not found
+    ASCE7-22-15.1.4-H1: Chapter 12 → Chapter 12 extracted but target not found
+    ASCE7-22-15.1.4-H1: Section 11.9 → Chapter 11 extracted but target not found
+    ASCE7-22-15.1.4-H1: Section 12.9 → Chapter 12 extracted but target not found
+    ASCE7-22-15.1.4-H1: Section 12.8 → Chapter 12 extracted but target not found
+    ASCE7-22-15.2.1-P1: Chapter 12 → Chapter 12 extracted but target not found
+    ASCE7-22-15.2.2-H1: Chapter 13 → Chapter 13 extracted but target not found
+    ASCE7-22-15.2.2-H1: Section 13.3.2.2 → Chapter 13 extracted but target not found
+    ASCE7-22-15.3.1-P2: Chapter 13 → Chapter 13 extracted but target not found
+    ASCE7-22-15.3.1-P2: Chapter 12 → Chapter 12 extracted but target not found
+    ASCE7-22-15.3.1-P2: Section 13.1.6 → Chapter 13 extracted but target not found
+    ASCE7-22-15.3.1-P3: Chapter 12 → Chapter 12 extracted but target not found
+    ASCE7-22-15.3.1-P4: Chapter 12 → Chapter 12 extracted but target not found
+    ASCE7-22-15.3.2-P2: Chapter 12 → Chapter 12 extracted but target not found
+    ASCE7-22-15.3.2-P3: Chapter 12 → Chapter 12 extracted but target not found
+    ASCE7-22-15.3.3-H1: Chapter 13 → Chapter 13 extracted but target not found
+    ASCE7-22-15.4.1-P1: Section 12.8 → Chapter 12 extracted but target not found
+    ASCE7-22-15.4.1-P2: Table 12.2-1 → Chapter 12 extracted but target not found
+    ASCE7-22-15.4.1-T3: Section 12.2.5.4 → Chapter 12 extracted but target not found
+    ASCE7-22-15.4.1-T4: Section 12.2.5.4 → Chapter 12 extracted but target not found
+    ASCE7-22-15.4.1-T19: Section 12.8.3 → Chapter 12 extracted but target not found
+    ASCE7-22-15.4.1-T20: Section 12.9.1 → Chapter 12 extracted but target not found
+    ASCE7-22-15.4.1-T22: Section 12.8.4.2 → Chapter 12 extracted but target not found
+    ASCE7-22-15.4.1-P16: Section 12.7.3 → Chapter 12 extracted but target not found
+    ASCE7-22-15.4.1-P21: Section 19.2 → Chapter 19 extracted but target not found
+    ASCE7-22-15.4.1-P23: Section 12.4.3 → Chapter 12 extracted but target not found
+    ASCE7-22-15.4.1.1-T1: Chapter 23 → Chapter 23 extracted but target not found
+    ASCE7-22-15.4.1.1-T2: Table 1.5-2 → Chapter 1 extracted but target not found
+    ASCE7-22-15.4.2-T3: Section 11.4.5 → Chapter 11 extracted but target not found
+    ASCE7-22-15.4.2-P1: Section 12.8.3 → Chapter 12 extracted but target not found
+    ASCE7-22-15.4.3-H1: Section 12.7.2 → Chapter 12 extracted but target not found
+    ASCE7-22-15.4.4-P1: Section 12.8.2 → Chapter 12 extracted but target not found
+    ASCE7-22-15.4.5-H1: Section 12.12.1 → Chapter 12 extracted but target not found
+    ASCE7-22-15.4.6-H1: Section 12.8.7 → Chapter 12 extracted but target not found
+    ASCE7-22-15.4.8-P1: Section 11.4.8 → Chapter 11 extracted but target not found
+    ASCE7-22-15.4.9.1-H1: Chapter 17 → Chapter 17 extracted but target not found
+    ASCE7-22-15.4.9.2-T2: Section 12.4.3 → Chapter 12 extracted but target not found
+    ASCE7-22-15.4.9.4-H1: Section 17.10.5.3 → Chapter 17 extracted but target not found
+    ASCE7-22-15.4.10-H1: Section 12.13.9 → Chapter 12 extracted but target not found
+    ASCE7-22-15.4.11-P1: Chapter 14 → Chapter 14 extracted but target not found
+    ASCE7-22-15.5.1-H1: Section 12.4 → Chapter 12 extracted but target not found
+    ASCE7-22-15.5.2.1-H1: Section 12.8 → Chapter 12 extracted but target not found
+    ASCE7-22-15.5.2.1-P1: Section 13.6.2 → Chapter 13 extracted but target not found
+    ASCE7-22-15.5.3.1.1-T1: Section 7.1.2 → Chapter 7 extracted but target not found
+    ASCE7-22-7.1.2-P1: Section 12.4.3.1 → Chapter 12 extracted but target not found
+    ASCE7-22-15.5.3.1.2-T1: Section 7.1.4 → Chapter 7 extracted but target not found
+    ASCE7-22-15.5.3.2.1-T1: Section 8.5.1 → Chapter 8 extracted but target not found
+    ASCE7-22-15.5.3.3.1-X1: Section 14.1.1 → Chapter 14 extracted but target not found
+    ASCE7-22-15.5.3.3.3-P1: Section 12.8.3 → Chapter 12 extracted but target not found
+    ASCE7-22-15.5.3.3.4-P1: Section 11.1.4 → Chapter 11 extracted but target not found
+    ASCE7-22-15.6-P1: Section 12.4.2 → Chapter 12 extracted but target not found
+    ASCE7-22-15.6-X1: Section 12.3.4 → Chapter 12 extracted but target not found
+    ASCE7-22-15.6.1-H1: Section 11.8.3 → Chapter 11 extracted but target not found
+    ASCE7-22-15.6.2.2-H1: Section 12.9 → Chapter 12 extracted but target not found
+    ASCE7-22-15.6.2.2-H2: Section 10.7.6 → Chapter 10 extracted but target not found
+    ASCE7-22-15.6.2.2-H2: Section 10.6.1.1 → Chapter 10 extracted but target not found
+    ASCE7-22-15.6.2.3-H1: Section 4.3.5 → Chapter 4 extracted but target not found
+    ASCE7-22-15.6.2.3-H1: Section 12.9 → Chapter 12 extracted but target not found
+    ASCE7-22-15.6.5-P2: Section 1.5.3 → Chapter 1 extracted but target not found
+    ASCE7-22-15.6.5.1-H1: Section 1.5.3 → Chapter 1 extracted but target not found
+    ASCE7-22-15.6.9-T3: Chapter 18 → Chapter 18 extracted but target not found
+    ASCE7-22-15.6.9.1-P1: Section 18.3.3 → Chapter 18 extracted but target not found
+    ASCE7-22-15.6.9.2-P1: Section 18.3.4 → Chapter 18 extracted but target not found
+    ASCE7-22-15.7.2-H1: Chapter 23 → Chapter 23 extracted but target not found
+    ASCE7-22-15.7.2-P3: Section 11.9 → Chapter 11 extracted but target not found
+    ASCE7-22-15.7.2-T5: Section 11.9 → Chapter 11 extracted but target not found
+    ASCE7-22-15.7.2-P6: Section 11.9 → Chapter 11 extracted but target not found
+    ASCE7-22-15.7.3-P1: Section 12.4.3 → Chapter 12 extracted but target not found
+    ASCE7-22-15.7.3-P4: Section 12.4.3 → Chapter 12 extracted but target not found
+    ASCE7-22-15.7.5-P3: Section 17.4.2.9 → Chapter 17 extracted but target not found
+    ASCE7-22-15.7.5-T2: Section 12.4.3 → Chapter 12 extracted but target not found
+    ASCE7-22-15.7.6.1-P3: Chapter 23 → Chapter 23 extracted but target not found
+    ASCE7-22-15.7.6.2-P2: Chapter 21 → Chapter 21 extracted but target not found
+    ASCE7-22-15.7.6.2-P2: Section 11.4.5.1 → Chapter 11 extracted but target not found
+    ASCE7-22-15.7.6.2-P3: Chapter 21 → Chapter 21 extracted but target not found
+    ASCE7-22-15.7.6.2-P3: Section 11.4.5.1 → Chapter 11 extracted but target not found
+    ASCE7-22-15.7.6.2-P4: Chapter 21 → Chapter 21 extracted but target not found
+    ASCE7-22-15.7.6.2-P5: Chapter 22 → Chapter 22 extracted but target not found
+    ASCE7-22-15.7.6.2.1-P1: Chapter 23 → Chapter 23 extracted but target not found
+    ASCE7-22-15.7.6.2.2-P5: Table 1.5-1 → Chapter 1 extracted but target not found
+    ASCE7-22-15.7.6.2.5-P3: Section 11.1.4 → Chapter 11 extracted but target not found
+    ASCE7-22-15.7.6.2.9-P1: Chapter 23 → Chapter 23 extracted but target not found
+    ASCE7-22-15.7.7.1-P1: Section 13.5.4.4 → Chapter 13 extracted but target not found
+    ASCE7-22-15.7.10.2-P1: Chapter 19 → Chapter 19 extracted but target not found
+    ASCE7-22-15.7.10.5-P2: Section 12.8.1.1 → Chapter 12 extracted but target not found
+    ASCE7-22-15.7.11.7-P3: Section 12.4.3 → Chapter 12 extracted but target not found
+    ASCE7-22-15.8-P1: Chapter 23 → Chapter 23 extracted but target not found
+  Pending by chapter: {9: 1}
+  Done: 451 elements
+
+  Deploy gate for Chapter 15:
+DEPLOYMENT GATE
+============================================================
+  [PASS] SCHEMA                    451/451
+  [FAIL] COMPOSITE ≥95%            79.2%
+  [FAIL] COVERAGE ≥85%             50%
+  [PASS] FIDELITY ≥95%             98%
+  [PASS] NO SHALL IN TEXT_BLOCKS   0 found
+  [PASS] EQUATIONS ≥50%            23/23 (100%)
+  [PASS] PARAMS ≥30%               19/23 (83%)
+  [FAIL] CONDITIONS ≥15%           29/202 (14%)
+  [PASS] CROSS-REFS >0             80 elements
+  [FAIL] REFERENCES >0             0 found (ASTM/ANSI/CAN present)
+  [PASS] CORE 3 TYPES              all present
+  [FAIL] 0 BROKEN REFS             92 broken, 1 pending
+  [PASS] SYMBOLS REGISTRY          282 symbols
+============================================================
+RESULT: 5 FAILURES — not ready
+
+  Chapter 15: 451 elements in 54.3s FAIL
+
+────────────────────────────────────────────────────────────
+[15/29] Chapter 16: NONLINEAR RESPONSE HISTORY ANALYSIS (4 pages)
+────────────────────────────────────────────────────────────
+  [1/4] PyMuPDF: scanning bold labels...
+  [2/4] Docling: document structure...
+  [3/4] Building elements from bold-label taxonomy...
+  [4/4] Enriching with tables, figures, references, equations...
+  [+] Building cross-references...
+  [+] Merging short fragments...
+  [+] Page-level equation scan...
+  [+] Parsing provision conditions...
+  [+] Building global symbols table...
+    282 symbols, 3/4 formulas have parameters
+  [+] Updating manifest...
+  [+] Tracking unresolved references...
+  Unresolved references: 18 (0 pending, 18 broken)
+  BROKEN references (target chapter extracted but element missing):
+    ASCE7-22-16.1.2-H1: Chapter 12 → Chapter 12 extracted but target not found
+    ASCE7-22-16.1.2-P1: Section 12.12.1 → Chapter 12 extracted but target not found
+    ASCE7-22-16.1.2-P3: Section 12.4.3 → Chapter 12 extracted but target not found
+    ASCE7-22-16.1.2-P4: Chapter 12 → Chapter 12 extracted but target not found
+    ASCE7-22-16.1.3-T2: Chapter 15 → Chapter 15 extracted but target not found
+    ASCE7-22-16.1.4-T6: Section 12.12 → Chapter 12 extracted but target not found
+    ASCE7-22-16.2.1-P2: Chapter 19 → Chapter 19 extracted but target not found
+    ASCE7-22-16.2.1.1-H1: Section 11.4.6 → Chapter 11 extracted but target not found
+    ASCE7-22-16.2.1.1-H1: Section 11.4.7 → Chapter 11 extracted but target not found
+    ASCE7-22-16.2.2-H1: Section 11.4.1 → Chapter 11 extracted but target not found
+    ASCE7-22-16.2.4-H1: Section 11.4.1 → Chapter 11 extracted but target not found
+    ASCE7-22-16.3.1-H1: Section 12.7 → Chapter 12 extracted but target not found
+    ASCE7-22-16.3.4-H1: Section 12.3.2.1 → Chapter 12 extracted but target not found
+    ASCE7-22-16.4.1.2-H1: Table 12.12-1 → Chapter 12 extracted but target not found
+    ASCE7-22-16.4.1.2-P1: Table 12.12-1 → Chapter 12 extracted but target not found
+    ASCE7-22-16.4.2.1-P1: Section 1.5.1 → Chapter 1 extracted but target not found
+    ASCE7-22-16.4.2.1-P2: Chapter 14 → Chapter 14 extracted but target not found
+    ASCE7-22-16.6-P1: Chapter 23 → Chapter 23 extracted but target not found
+  Done: 101 elements
+
+  Deploy gate for Chapter 16:
+DEPLOYMENT GATE
+============================================================
+  [PASS] SCHEMA                    101/101
+  [FAIL] COMPOSITE ≥95%            59.9%
+  [FAIL] COVERAGE ≥85%             0%
+  [PASS] FIDELITY ≥95%             100%
+  [PASS] NO SHALL IN TEXT_BLOCKS   0 found
+  [PASS] EQUATIONS ≥50%            4/4 (100%)
+  [PASS] PARAMS ≥30%               3/4 (75%)
+  [FAIL] CONDITIONS ≥15%           2/28 (7%)
+  [PASS] CROSS-REFS >0             16 elements
+  [PASS] REFERENCES (N/A)          0 found (no ASTM/ANSI/CAN)
+  [PASS] CORE 3 TYPES              all present
+  [FAIL] 0 BROKEN REFS             18 broken, 0 pending
+  [PASS] SYMBOLS REGISTRY          282 symbols
+============================================================
+RESULT: 4 FAILURES — not ready
+
+  Chapter 16: 101 elements in 10.3s FAIL
+
+────────────────────────────────────────────────────────────
+[16/29] Chapter 17: SEISMIC DESIGN REQUIREMENTS FOR SEISMICALLY ISOLATED STRUCTURES (12 pages)
+────────────────────────────────────────────────────────────
+  [1/4] PyMuPDF: scanning bold labels...
+  [2/4] Docling: document structure...
+  [3/4] Building elements from bold-label taxonomy...
+  [4/4] Enriching with tables, figures, references, equations...
+  [+] Building cross-references...
+  [+] Merging short fragments...
+  [+] Page-level equation scan...
+    Found 1 additional equations from raw PDF text
+  [+] Parsing provision conditions...
+  [+] Building global symbols table...
+    282 symbols, 7/18 formulas have parameters
+  [+] Updating manifest...
+  [+] Tracking unresolved references...
+  Unresolved references: 27 (0 pending, 27 broken)
+  BROKEN references (target chapter extracted but element missing):
+    ASCE7-22-17.1.1-H1: Chapter 11 → Chapter 11 extracted but target not found
+    ASCE7-22-17.1.2-H1: Chapter 11 → Chapter 11 extracted but target not found
+    ASCE7-22-17.1.2-T30: Section 12.7.2 → Chapter 12 extracted but target not found
+    ASCE7-22-17.1.2-T31: Section 12.7.2 → Chapter 12 extracted but target not found
+    ASCE7-22-17.2.1-P1: Table 1.5-1 → Chapter 1 extracted but target not found
+    ASCE7-22-17.2.2-H1: Table 12.3-2 → Chapter 12 extracted but target not found
+    ASCE7-22-17.2.3-H1: Section 12.3.4 → Chapter 12 extracted but target not found
+    ASCE7-22-17.2.5.3-H1: Chapter 15 → Chapter 15 extracted but target not found
+    ASCE7-22-17.2.6-H1: Chapter 13 → Chapter 13 extracted but target not found
+    ASCE7-22-17.2.6.1-X1: Chapter 12 → Chapter 12 extracted but target not found
+    ASCE7-22-17.2.6.3-H1: Chapter 13 → Chapter 13 extracted but target not found
+    ASCE7-22-17.2.7-H1: Section 12.4 → Chapter 12 extracted but target not found
+    ASCE7-22-17.2.7.1-T2: Section 2.3.6 → Chapter 2 extracted but target not found
+    ASCE7-22-17.2.7.1-T3: Section 2.3.6 → Chapter 2 extracted but target not found
+    ASCE7-22-17.2.8.5-H1: Chapter 18 → Chapter 18 extracted but target not found
+    ASCE7-22-17.2.8.5-P1: Chapter 18 → Chapter 18 extracted but target not found
+    ASCE7-22-17.3.2-H1: Section 16.2 → Chapter 16 extracted but target not found
+    ASCE7-22-17.3.2-H1: Section 16.2.3.1 → Chapter 16 extracted but target not found
+    ASCE7-22-17.5.3.1-T3: Section 11.4.4 → Chapter 11 extracted but target not found
+    ASCE7-22-17.5.3.2-T3: Section 12.7.2 → Chapter 12 extracted but target not found
+    ASCE7-22-17.5.4.2-P1: Table 12.2-1 → Chapter 12 extracted but target not found
+    ASCE7-22-17.5.4.2-T2: Section 12.7.2 → Chapter 12 extracted but target not found
+    ASCE7-22-17.5.4.3-H2: Section 12.8 → Chapter 12 extracted but target not found
+    ASCE7-22-17.6.2-H1: Section 12.7.3 → Chapter 12 extracted but target not found
+    ASCE7-22-17.6.3.1-P1: Section 12.9 → Chapter 12 extracted but target not found
+    ASCE7-22-17.6.4.1-T2: Section 12.8.2 → Chapter 12 extracted but target not found
+    ASCE7-22-17.9-P1: Chapter 23 → Chapter 23 extracted but target not found
+  Done: 336 elements
+
+  Deploy gate for Chapter 17:
+DEPLOYMENT GATE
+============================================================
+  [PASS] SCHEMA                    336/336
+  [PASS] COMPOSITE ≥95%            99.9%
+  [PASS] COVERAGE ≥85%             100%
+  [PASS] FIDELITY ≥95%             100%
+  [PASS] NO SHALL IN TEXT_BLOCKS   0 found
+  [PASS] EQUATIONS ≥50%            18/18 (100%)
+  [PASS] PARAMS ≥30%               7/18 (39%)
+  [FAIL] CONDITIONS ≥15%           7/86 (8%)
+  [PASS] CROSS-REFS >0             80 elements
+  [PASS] REFERENCES (N/A)          0 found (no ASTM/ANSI/CAN)
+  [PASS] CORE 3 TYPES              all present
+  [FAIL] 0 BROKEN REFS             27 broken, 0 pending
+  [PASS] SYMBOLS REGISTRY          282 symbols
+============================================================
+RESULT: 2 FAILURES — not ready
+
+  Chapter 17: 336 elements in 18.4s FAIL
+
+────────────────────────────────────────────────────────────
+[17/29] Chapter 18: SEISMIC DESIGN REQUIREMENTS FOR STRUCTURES WITH DAMPING SYSTEMS (16 pages)
+────────────────────────────────────────────────────────────
+  [1/4] PyMuPDF: scanning bold labels...
+  [2/4] Docling: document structure...
+  [3/4] Building elements from bold-label taxonomy...
+  [4/4] Enriching with tables, figures, references, equations...
+  [+] Building cross-references...
+  [+] Merging short fragments...
+  [+] Page-level equation scan...
+    Found 10 additional equations from raw PDF text
+  [+] Parsing provision conditions...
+  [+] Building global symbols table...
+    282 symbols, 53/74 formulas have parameters
+  [+] Updating manifest...
+  [+] Tracking unresolved references...
+  Unresolved references: 34 (0 pending, 34 broken)
+  BROKEN references (target chapter extracted but element missing):
+    ASCE7-22-18.1.1-H1: Chapter 17 → Chapter 17 extracted but target not found
+    ASCE7-22-18.1.2-H1: Chapter 11 → Chapter 11 extracted but target not found
+    ASCE7-22-18.1.3-H1: Chapter 11 → Chapter 11 extracted but target not found
+    ASCE7-22-18.1.3-T20: Section 12.8.3 → Chapter 12 extracted but target not found
+    ASCE7-22-18.2.1.1-P1: Table 12.2-1 → Chapter 12 extracted but target not found
+    ASCE7-22-18.2.1.1-T1: Section 12.8 → Chapter 12 extracted but target not found
+    ASCE7-22-18.2.1.1-T4: Table 12.3-2 → Chapter 12 extracted but target not found
+    ASCE7-22-18.2.2.2-P1: Section 16.2 → Chapter 16 extracted but target not found
+    ASCE7-22-18.2.2.2-P1: Section 16.2.3.1 → Chapter 16 extracted but target not found
+    ASCE7-22-18.2.3.2-T3: Table 12.3-1 → Chapter 12 extracted but target not found
+    ASCE7-22-18.2.3.2-T3: Table 12.3-2 → Chapter 12 extracted but target not found
+    ASCE7-22-18.4.1-P1: Section 12.2.1 → Chapter 12 extracted but target not found
+    ASCE7-22-18.4.1-P3: Table 12.12-1 → Chapter 12 extracted but target not found
+    ASCE7-22-18.4.1-P3: Table 12.2-1 → Chapter 12 extracted but target not found
+    ASCE7-22-18.4.3-H1: Section 12.4 → Chapter 12 extracted but target not found
+    ASCE7-22-18.4.3-H1: Section 12.4.3 → Chapter 12 extracted but target not found
+    ASCE7-22-18.7.1.1-P1: Section 12.9 → Chapter 12 extracted but target not found
+    ASCE7-22-18.7.1.3.3-P1: Section 12.8.6 → Chapter 12 extracted but target not found
+    ASCE7-22-18.7.2.1-H1: Section 12.8 → Chapter 12 extracted but target not found
+    ASCE7-22-18.7.2.2.3-T3: Section 12.8.3 → Chapter 12 extracted but target not found
+    ASCE7-22-18.7.2.3.5-T3: Section 11.4.4 → Chapter 11 extracted but target not found
+    ASCE7-22-18.7.2.3.5-T4: Section 11.4.4 → Chapter 11 extracted but target not found
+    ASCE7-22-18.7.3.3-H2: Table 12.2-1 → Chapter 12 extracted but target not found
+    ASCE7-22-18.7.3.3-T5: Table 12.2-1 → Chapter 12 extracted but target not found
+    ASCE7-22-18.7.3.3-T7: Table 12.2-1 → Chapter 12 extracted but target not found
+    ASCE7-22-18.7.3.4-T3: Section 11.5.1 → Chapter 11 extracted but target not found
+    ASCE7-22-18.7.4.1-H1: Section 12.2.1 → Chapter 12 extracted but target not found
+    ASCE7-22-18.7.4.1-P1: Section 12.12.1 → Chapter 12 extracted but target not found
+    ASCE7-22-18.7.4.1-P1: Table 12.12-1 → Chapter 12 extracted but target not found
+    ASCE7-22-18.7.4.2-H1: Section 12.2.1 → Chapter 12 extracted but target not found
+    ASCE7-22-18.7.4.3-H1: Section 12.4 → Chapter 12 extracted but target not found
+    ASCE7-22-18.7.4.3-H1: Section 12.4.3 → Chapter 12 extracted but target not found
+    ASCE7-22-18.7.4.6-T3: Section 12.4 → Chapter 12 extracted but target not found
+    ASCE7-22-18.8-P1: Chapter 23 → Chapter 23 extracted but target not found
+  Done: 480 elements
+
+  Deploy gate for Chapter 18:
+DEPLOYMENT GATE
+============================================================
+  [PASS] SCHEMA                    480/480
+  [FAIL] COMPOSITE ≥95%            86.1%
+  [FAIL] COVERAGE ≥85%             67%
+  [PASS] FIDELITY ≥95%             99%
+  [PASS] NO SHALL IN TEXT_BLOCKS   0 found
+  [PASS] EQUATIONS ≥50%            74/74 (100%)
+  [PASS] PARAMS ≥30%               53/74 (72%)
+  [FAIL] CONDITIONS ≥15%           12/136 (9%)
+  [PASS] CROSS-REFS >0             151 elements
+  [PASS] REFERENCES (N/A)          0 found (no ASTM/ANSI/CAN)
+  [PASS] CORE 3 TYPES              all present
+  [FAIL] 0 BROKEN REFS             34 broken, 0 pending
+  [PASS] SYMBOLS REGISTRY          282 symbols
+============================================================
+RESULT: 4 FAILURES — not ready
+
+  Chapter 18: 480 elements in 31.2s FAIL
+
+────────────────────────────────────────────────────────────
+[18/29] Chapter 19: SOIL (6 pages)
+────────────────────────────────────────────────────────────
+  [1/4] PyMuPDF: scanning bold labels...
+  [2/4] Docling: document structure...
+  [3/4] Building elements from bold-label taxonomy...
+  [4/4] Enriching with tables, figures, references, equations...
+  [+] Building cross-references...
+  [+] Merging short fragments...
+  [+] Page-level equation scan...
+    Found 2 additional equations from raw PDF text
+  [+] Parsing provision conditions...
+  [+] Building global symbols table...
+    282 symbols, 20/37 formulas have parameters
+  [+] Updating manifest...
+  [+] Tracking unresolved references...
+  Unresolved references: 33 (0 pending, 33 broken)
+  BROKEN references (target chapter extracted but element missing):
+    ASCE7-22-19.1.1-H1: Section 12.13.3 → Chapter 12 extracted but target not found
+    ASCE7-22-19.1.2-H1: Chapter 11 → Chapter 11 extracted but target not found
+    ASCE7-22-19.1.3-T1: Chapter 11 → Chapter 11 extracted but target not found
+    ASCE7-22-19.1.3-T6: Section 12.8.1.1 → Chapter 12 extracted but target not found
+    ASCE7-22-19.1.3-P1: Section 12.8.2 → Chapter 12 extracted but target not found
+    ASCE7-22-19.1.3-P2: Section 12.8.2 → Chapter 12 extracted but target not found
+    ASCE7-22-19.1.3-T27: Section 12.7.2 → Chapter 12 extracted but target not found
+    ASCE7-22-19.2.1-T3: Section 12.8.1 → Chapter 12 extracted but target not found
+    ASCE7-22-19.2.1-T4: Table 12.2-1 → Chapter 12 extracted but target not found
+    ASCE7-22-19.2.1-P2: Chapter 21 → Chapter 21 extracted but target not found
+    ASCE7-22-19.2.1-P2: Section 11.4.7 → Chapter 11 extracted but target not found
+    ASCE7-22-19.2.1-T7: Section 12.8.1.1 → Chapter 12 extracted but target not found
+    ASCE7-22-19.2.1-T8: Section 12.8.1.1 → Chapter 12 extracted but target not found
+    ASCE7-22-19.2.1-T8: Section 12.8.2 → Chapter 12 extracted but target not found
+    ASCE7-22-19.2.1-T9: Section 12.7.2 → Chapter 12 extracted but target not found
+    ASCE7-22-19.2.2-H1: Section 12.9 → Chapter 12 extracted but target not found
+    ASCE7-22-19.2.2-H1: Section 11.5.1 → Chapter 11 extracted but target not found
+    ASCE7-22-19.2.2-P1: Section 12.9.1.4 → Chapter 12 extracted but target not found
+    ASCE7-22-19.2.2.1-T2: Section 11.4.5 → Chapter 11 extracted but target not found
+    ASCE7-22-19.2.2.1-T2: Section 11.4.6 → Chapter 11 extracted but target not found
+    ASCE7-22-19.2.2.2-H1: Chapter 21 → Chapter 21 extracted but target not found
+    ASCE7-22-19.2.3-H1: Chapter 16 → Chapter 16 extracted but target not found
+    ASCE7-22-19.2.3-P1: Chapter 21 → Chapter 21 extracted but target not found
+    ASCE7-22-19.2.3-P4: Section 21.3 → Chapter 21 extracted but target not found
+    ASCE7-22-19.2.3-P6: Section 16.1.2 → Chapter 16 extracted but target not found
+    ASCE7-22-19.3.1-T4: Section 12.3.1.3 → Chapter 12 extracted but target not found
+    ASCE7-22-19.3.2-P2: Table 12.2-1 → Chapter 12 extracted but target not found
+    ASCE7-22-19.3.3-P4: Chapter 21 → Chapter 21 extracted but target not found
+    ASCE7-22-19.3.3-P4: Section 11.4.7 → Chapter 11 extracted but target not found
+    ASCE7-22-19.4-T1: Chapter 16 → Chapter 16 extracted but target not found
+    ASCE7-22-19.4-T4: Chapter 21 → Chapter 21 extracted but target not found
+    ASCE7-22-19.4.1-T3: Section 12.3.1.3 → Chapter 12 extracted but target not found
+    ASCE7-22-19.5-P1: Chapter 23 → Chapter 23 extracted but target not found
+  Done: 183 elements
+
+  Deploy gate for Chapter 19:
+DEPLOYMENT GATE
+============================================================
+  [PASS] SCHEMA                    183/183
+  [PASS] COMPOSITE ≥95%            99.1%
+  [PASS] COVERAGE ≥85%             100%
+  [PASS] FIDELITY ≥95%             98%
+  [PASS] NO SHALL IN TEXT_BLOCKS   0 found
+  [PASS] EQUATIONS ≥50%            37/37 (100%)
+  [PASS] PARAMS ≥30%               20/37 (54%)
+  [PASS] CONDITIONS ≥15%           10/34 (29%)
+  [PASS] CROSS-REFS >0             28 elements
+  [PASS] REFERENCES (N/A)          0 found (no ASTM/ANSI/CAN)
+  [PASS] CORE 3 TYPES              all present
+  [FAIL] 0 BROKEN REFS             33 broken, 0 pending
+  [PASS] SYMBOLS REGISTRY          282 symbols
+============================================================
+RESULT: 1 FAILURES — not ready
+
+  Chapter 19: 183 elements in 21.2s FAIL
+
+────────────────────────────────────────────────────────────
+[19/29] Chapter 20: SITE CLASSIFICATION PROCEDURE FOR SEISMIC DESIGN (2 pages)
+────────────────────────────────────────────────────────────
+  [1/4] PyMuPDF: scanning bold labels...
+  [2/4] Docling: document structure...
+  [3/4] Building elements from bold-label taxonomy...
+  [4/4] Enriching with tables, figures, references, equations...
+  [+] Building cross-references...
+  [+] Merging short fragments...
+  [+] Page-level equation scan...
+  [+] Parsing provision conditions...
+  [+] Building global symbols table...
+    282 symbols, 1/1 formulas have parameters
+  [+] Updating manifest...
+  [+] Tracking unresolved references...
+  Unresolved references: 4 (0 pending, 4 broken)
+  BROKEN references (target chapter extracted but element missing):
+    ASCE7-22-20.1-P1: Section 11.4.2 → Chapter 11 extracted but target not found
+    ASCE7-22-20.2.1-H1: Section 21.1 → Chapter 21 extracted but target not found
+    ASCE7-22-20.3-P2: Section 11.4.2 → Chapter 11 extracted but target not found
+    ASCE7-22-20.5-P1: Chapter 23 → Chapter 23 extracted but target not found
+  Done: 31 elements
+
+  Deploy gate for Chapter 20:
+DEPLOYMENT GATE
+============================================================
+  [PASS] SCHEMA                    31/31
+  [PASS] COMPOSITE ≥95%            99.8%
+  [PASS] COVERAGE ≥85%             100%
+  [PASS] FIDELITY ≥95%             100%
+  [PASS] NO SHALL IN TEXT_BLOCKS   0 found
+  [PASS] EQUATIONS ≥50%            1/1 (100%)
+  [PASS] PARAMS ≥30%               1/1 (100%)
+  [PASS] CONDITIONS ≥15%           5/9 (56%)
+  [PASS] CROSS-REFS >0             8 elements
+  [PASS] REFERENCES (N/A)          0 found (no ASTM/ANSI/CAN)
+  [PASS] CORE 3 TYPES              all present
+  [FAIL] 0 BROKEN REFS             4 broken, 0 pending
+  [PASS] SYMBOLS REGISTRY          282 symbols
+============================================================
+RESULT: 1 FAILURES — not ready
+
+  Chapter 20: 31 elements in 5.8s FAIL
+
+────────────────────────────────────────────────────────────
+[20/29] Chapter 21: SITE-SPECIFIC GROUND MOTION PROCEDURES FOR SEISMIC DESIGN (4 pages)
+────────────────────────────────────────────────────────────
+  [1/4] PyMuPDF: scanning bold labels...
+  [2/4] Docling: document structure...
+  [3/4] Building elements from bold-label taxonomy...
+  [4/4] Enriching with tables, figures, references, equations...
+  [+] Building cross-references...
+  [+] Merging short fragments...
+  [+] Page-level equation scan...
+  [+] Parsing provision conditions...
+  [+] Building global symbols table...
+    282 symbols, 0/1 formulas have parameters
+  [+] Updating manifest...
+  [+] Tracking unresolved references...
+  Unresolved references: 10 (0 pending, 10 broken)
+  BROKEN references (target chapter extracted but element missing):
+    ASCE7-22-21.1-P1: Section 11.4.7 → Chapter 11 extracted but target not found
+    ASCE7-22-21.1.1-H1: Section 11.4.6 → Chapter 11 extracted but target not found
+    ASCE7-22-21.1.2-H1: Chapter 20 → Chapter 20 extracted but target not found
+    ASCE7-22-21.2-P1: Section 11.4.7 → Chapter 11 extracted but target not found
+    ASCE7-22-21.2.2-P1: Section 11.4.2 → Chapter 11 extracted but target not found
+    ASCE7-22-21.2.2-X1: Section 11.4.2 → Chapter 11 extracted but target not found
+    ASCE7-22-21.2.3.1-H1: Section 11.4.7 → Chapter 11 extracted but target not found
+    ASCE7-22-21.2.3.1-D1: Section 20.3.3 → Chapter 20 extracted but target not found
+    ASCE7-22-21.5.2-H1: Section 11.4.2 → Chapter 11 extracted but target not found
+    ASCE7-22-21.6-P1: Chapter 23 → Chapter 23 extracted but target not found
+  Done: 35 elements
+
+  Deploy gate for Chapter 21:
+DEPLOYMENT GATE
+============================================================
+  [PASS] SCHEMA                    35/35
+  [PASS] COMPOSITE ≥95%            99.8%
+  [PASS] COVERAGE ≥85%             100%
+  [PASS] FIDELITY ≥95%             100%
+  [PASS] NO SHALL IN TEXT_BLOCKS   0 found
+  [PASS] EQUATIONS ≥50%            1/1 (100%)
+  [FAIL] PARAMS ≥30%               0/1 (0%)
+  [PASS] CONDITIONS ≥15%           4/11 (36%)
+  [PASS] CROSS-REFS >0             11 elements
+  [PASS] REFERENCES (N/A)          0 found (no ASTM/ANSI/CAN)
+  [PASS] CORE 3 TYPES              all present
+  [FAIL] 0 BROKEN REFS             10 broken, 0 pending
+  [PASS] SYMBOLS REGISTRY          282 symbols
+============================================================
+RESULT: 2 FAILURES — not ready
+
+  Chapter 21: 35 elements in 17.0s FAIL
+
+────────────────────────────────────────────────────────────
+[21/29] Chapter 22: SEISMIC GROUND MOTION AND LONG-PERIOD TRANSITION MAPS (22 pages)
+────────────────────────────────────────────────────────────
+  [1/4] PyMuPDF: scanning bold labels...
+  [2/4] Docling: document structure...
+  [3/4] Building elements from bold-label taxonomy...
+  [4/4] Enriching with tables, figures, references, equations...
+  [+] Building cross-references...
+  [+] Merging short fragments...
+  [+] Page-level equation scan...
+  [+] Parsing provision conditions...
+  [+] Building global symbols table...
+    282 symbols, 0/0 formulas have parameters
+  [+] Updating manifest...
+  [+] Tracking unresolved references...
+  Unresolved references: 13 (0 pending, 13 broken)
+  BROKEN references (target chapter extracted but element missing):
+    ASCE7-22-22-T1: Section 11.4.3 → Chapter 11 extracted but target not found
+    ASCE7-22-22-T1: Section 11.8.3 → Chapter 11 extracted but target not found
+    ASCE7-22-22.1-P1: Chapter 23 → Chapter 23 extracted but target not found
+    ASCE7-22-22.1-T4: Chapter 21 → Chapter 21 extracted but target not found
+    ASCE7-22-22.1-T83: Chapter 21 → Chapter 21 extracted but target not found
+    ASCE7-22-22.1-T146: Chapter 21 → Chapter 21 extracted but target not found
+    ASCE7-22-22.1-T221: Chapter 21 → Chapter 21 extracted but target not found
+    ASCE7-22-22.1-T539: Chapter 21 → Chapter 21 extracted but target not found
+    ASCE7-22-22.1-T702: Chapter 21 → Chapter 21 extracted but target not found
+    ASCE7-22-22.1-T792: Chapter 21 → Chapter 21 extracted but target not found
+    ASCE7-22-22.1-T822: Chapter 21 → Chapter 21 extracted but target not found
+    ASCE7-22-22.1-T913: Chapter 21 → Chapter 21 extracted but target not found
+    ASCE7-22-22.1-T967: Chapter 21 → Chapter 21 extracted but target not found
+  Done: 235 elements
+
+  Deploy gate for Chapter 22:
+DEPLOYMENT GATE
+============================================================
+  [PASS] SCHEMA                    235/235
+  [FAIL] COMPOSITE ≥95%            59.2%
+  [FAIL] COVERAGE ≥85%             0%
+  [PASS] FIDELITY ≥95%             98%
+  [PASS] NO SHALL IN TEXT_BLOCKS   0 found
+  [PASS] EQUATIONS ≥50%            0/0 (0%)
+  [PASS] PARAMS ≥30%               0/0 (0%)
+  [FAIL] CONDITIONS ≥15%           0/2 (0%)
+  [FAIL] CROSS-REFS >0             0 elements
+  [PASS] REFERENCES (N/A)          0 found (no ASTM/ANSI/CAN)
+  [PASS] CORE 3 TYPES              all present
+  [FAIL] 0 BROKEN REFS             13 broken, 0 pending
+  [PASS] SYMBOLS REGISTRY          282 symbols
+============================================================
+RESULT: 5 FAILURES — not ready
+
+  Chapter 22: 235 elements in 44.5s FAIL
+
+────────────────────────────────────────────────────────────
+[22/29] Chapter 23: SEISMIC DESIGN REFERENCE DOCUMENTS (4 pages)
+────────────────────────────────────────────────────────────
+  [1/4] PyMuPDF: scanning bold labels...
+  [2/4] Docling: document structure...
+  [3/4] Building elements from bold-label taxonomy...
+  [4/4] Enriching with tables, figures, references, equations...
+  [+] Building cross-references...
+  [+] Merging short fragments...
+  [+] Page-level equation scan...
+  [+] Parsing provision conditions...
+  [+] Building global symbols table...
+    282 symbols, 0/0 formulas have parameters
+  [+] Updating manifest...
+  [+] Tracking unresolved references...
+  Unresolved references: 37 (0 pending, 37 broken)
+  BROKEN references (target chapter extracted but element missing):
+    ASCE7-22-23.1-T1: Section 13.5.9.2 → Chapter 13 extracted but target not found
+    ASCE7-22-23.1-T4: Table 15.4-2 → Chapter 15 extracted but target not found
+    ASCE7-22-23.1-T13: Table 15.4-1 → Chapter 15 extracted but target not found
+    ASCE7-22-23.1-T14: Table 15.4-1 → Chapter 15 extracted but target not found
+    ASCE7-22-23.1-T15: Table 15.4-1 → Chapter 15 extracted but target not found
+    ASCE7-22-23.1-T19: Table 12.2-1 → Chapter 12 extracted but target not found
+    ASCE7-22-23.1-T21: Section 15.5.3.2 → Chapter 15 extracted but target not found
+    ASCE7-22-23.1-T25: Section 14.1.1 → Chapter 14 extracted but target not found
+    ASCE7-22-23.1-T27: Section 15.7.8.2 → Chapter 15 extracted but target not found
+    ASCE7-22-23.1-T34: Section 15.7.6.1.9 → Chapter 15 extracted but target not found
+    ASCE7-22-23.1-T34: Table 15.4-1 → Chapter 15 extracted but target not found
+    ASCE7-22-23.1-T35: Section 12.9.1.3 → Chapter 12 extracted but target not found
+    ASCE7-22-23.1-T43: Section 15.6.10 → Chapter 15 extracted but target not found
+    ASCE7-22-23.1-T66: Table 13.6-1 → Chapter 13 extracted but target not found
+    ASCE7-22-23.1-T73: Section 15.7.8.5 → Chapter 15 extracted but target not found
+    ASCE7-22-23.1-T76: Section 15.6.2.3 → Chapter 15 extracted but target not found
+    ASCE7-22-23.1-T76: Table 15.4-2 → Chapter 15 extracted but target not found
+    ASCE7-22-23.1-T81: Section 14.1.3.3.4 → Chapter 14 extracted but target not found
+    ASCE7-22-23.1-T83: Section 14.2.4.5.5 → Chapter 14 extracted but target not found
+    ASCE7-22-23.1-T85: Section 14.1.3.3.3 → Chapter 14 extracted but target not found
+    ASCE7-22-23.1-T87: Section 14.2.4.5.5 → Chapter 14 extracted but target not found
+    ASCE7-22-23.1-T95: Table 13.5-2 → Chapter 13 extracted but target not found
+    ASCE7-22-23.1-T97: Table 13.5-2 → Chapter 13 extracted but target not found
+    ASCE7-22-23.1-T98: Table 13.5-2 → Chapter 13 extracted but target not found
+    ASCE7-22-23.1-T100: Table 13.5-2 → Chapter 13 extracted but target not found
+    ASCE7-22-23.1-T102: Table 13.5-2 → Chapter 13 extracted but target not found
+    ASCE7-22-23.1-T104: Table 13.5-2 → Chapter 13 extracted but target not found
+    ASCE7-22-23.1-T112: Section 14.5.1 → Chapter 14 extracted but target not found
+    ASCE7-22-23.1-T115: Table 12.10-1 → Chapter 12 extracted but target not found
+    ASCE7-22-23.1-T122: Section 15.7.10.7 → Chapter 15 extracted but target not found
+    ASCE7-22-23.1-T125: Section 15.7.7.3 → Chapter 15 extracted but target not found
+    ASCE7-22-23.1-T127: Section 15.7.7.3 → Chapter 15 extracted but target not found
+    ASCE7-22-23.1-R24: Section 13.2.5 → Chapter 13 extracted but target not found
+    ASCE7-22-23.1-R25: Section 11.1.2 → Chapter 11 extracted but target not found
+    ASCE7-22-23.1-R26: Section 13.6.4.1 → Chapter 13 extracted but target not found
+    ASCE7-22-23.1-T136: Section 15.4.8 → Chapter 15 extracted but target not found
+    ASCE7-22-23.1-T141: Section 12.13.9.2.1.1 → Chapter 12 extracted but target not found
+  Done: 169 elements
+
+  Deploy gate for Chapter 23:
+DEPLOYMENT GATE
+============================================================
+  [PASS] SCHEMA                    169/169
+  [FAIL] COMPOSITE ≥95%            57.6%
+  [FAIL] COVERAGE ≥85%             0%
+  [PASS] FIDELITY ≥95%             100%
+  [PASS] NO SHALL IN TEXT_BLOCKS   0 found
+  [PASS] EQUATIONS ≥50%            0/0 (0%)
+  [PASS] PARAMS ≥30%               0/0 (0%)
+  [FAIL] CONDITIONS ≥15%           0/1 (0%)
+  [FAIL] CROSS-REFS >0             0 elements
+  [PASS] REFERENCES >0             60 found (ASTM/ANSI/CAN present)
+  [PASS] CORE 3 TYPES              all present
+  [FAIL] 0 BROKEN REFS             37 broken, 0 pending
+  [PASS] SYMBOLS REGISTRY          282 symbols
+============================================================
+RESULT: 5 FAILURES — not ready
+
+  Chapter 23: 169 elements in 19.3s FAIL
+
+────────────────────────────────────────────────────────────
+[23/29] Chapter 26: WIND LOADS: GENERAL REQUIREMENTS (20 pages)
+────────────────────────────────────────────────────────────
+  [1/4] PyMuPDF: scanning bold labels...
+  [2/4] Docling: document structure...
+  [3/4] Building elements from bold-label taxonomy...
+  [4/4] Enriching with tables, figures, references, equations...
+  [+] Building cross-references...
+  [+] Merging short fragments...
+  [+] Page-level equation scan...
+    Found 9 additional equations from raw PDF text
+  [+] Parsing provision conditions...
+  [+] Building global symbols table...
+    282 symbols, 17/20 formulas have parameters
+  [+] Updating manifest...
+  [+] Tracking unresolved references...
+  Unresolved references: 48 (0 pending, 48 broken)
+  BROKEN references (target chapter extracted but element missing):
+    ASCE7-22-26.1.1-P1: Chapter 32 → Chapter 32 extracted but target not found
+    ASCE7-22-26.1.2.1-T1: Chapter 27 → Chapter 27 extracted but target not found
+    ASCE7-22-26.1.2.1-T2: Chapter 28 → Chapter 28 extracted but target not found
+    ASCE7-22-26.1.2.1-T3: Chapter 29 → Chapter 29 extracted but target not found
+    ASCE7-22-26.1.2.1-T4: Chapter 31 → Chapter 31 extracted but target not found
+    ASCE7-22-26.1.2.2-T1: Chapter 30 → Chapter 30 extracted but target not found
+    ASCE7-22-26.1.2.2-T2: Chapter 31 → Chapter 31 extracted but target not found
+    ASCE7-22-26.1.3-H1: Section 1.3.1.3 → Chapter 1 extracted but target not found
+    ASCE7-22-26.2-T26: Chapter 27 → Chapter 27 extracted but target not found
+    ASCE7-22-26.2-T26: Chapter 28 → Chapter 28 extracted but target not found
+    ASCE7-22-26.2-T34: Chapter 29 → Chapter 29 extracted but target not found
+    ASCE7-22-26.2-T39: Chapter 31 → Chapter 31 extracted but target not found
+    ASCE7-22-26.2-T39: Chapter 30 → Chapter 30 extracted but target not found
+    ASCE7-22-26.2-T48: Chapter 31 → Chapter 31 extracted but target not found
+    ASCE7-22-26.2-D18: Figure 29.4-7 → Chapter 29 extracted but target not found
+    ASCE7-22-26.2-D30: Chapter 31 → Chapter 31 extracted but target not found
+    ASCE7-22-26.3-T6: Figure 29.4-7 → Chapter 29 extracted but target not found
+    ASCE7-22-26.3-T11: Figure 29.4-11 → Chapter 29 extracted but target not found
+    ASCE7-22-26.3-T26: Figure 29.4-7 → Chapter 29 extracted but target not found
+    ASCE7-22-26.3-T27: Figure 29.4-7 → Chapter 29 extracted but target not found
+    ASCE7-22-26.3-T29: Figure 29.4-9 → Chapter 29 extracted but target not found
+    ASCE7-22-26.3-T32: Figure 29.4-11 → Chapter 29 extracted but target not found
+    ASCE7-22-26.3-T33: Figure 29.4-11 → Chapter 29 extracted but target not found
+    ASCE7-22-26.3-T34: Figure 29.4-10 → Chapter 29 extracted but target not found
+    ASCE7-22-26.3-T35: Figure 29.4-10 → Chapter 29 extracted but target not found
+    ASCE7-22-26.3-T45: Figure 29.4-7 → Chapter 29 extracted but target not found
+    ASCE7-22-26.3-T65: Figure 29.4-7 → Chapter 29 extracted but target not found
+    ASCE7-22-26.3-T66: Figure 29.4-9 → Chapter 29 extracted but target not found
+    ASCE7-22-26.3-T68: Figure 29.4-7 → Chapter 29 extracted but target not found
+    ASCE7-22-26.3-T69: Figure 29.3-1 → Chapter 29 extracted but target not found
+    ASCE7-22-26.3-T90: Figure 29.4-9 → Chapter 29 extracted but target not found
+    ASCE7-22-26.3-T91: Figure 29.4-9 → Chapter 29 extracted but target not found
+    ASCE7-22-26.3-H2: Figure 29.4-9 → Chapter 29 extracted but target not found
+    ASCE7-22-26.3-T92: Figure 29.3-1 → Chapter 29 extracted but target not found
+    ASCE7-22-26.3-T93: Figure 29.4-9 → Chapter 29 extracted but target not found
+    ASCE7-22-26.3-T97: Figure 29.4-9 → Chapter 29 extracted but target not found
+    ASCE7-22-26.3-T98: Figure 29.4-7 → Chapter 29 extracted but target not found
+    ASCE7-22-26.3-T99: Figure 29.4-7 → Chapter 29 extracted but target not found
+    ASCE7-22-26.3-T111: Figure 29.4-7 → Chapter 29 extracted but target not found
+    ASCE7-22-26.3-T118: Figure 29.4-7 → Chapter 29 extracted but target not found
+    ASCE7-22-26.3-T118: Figure 29.4-9 → Chapter 29 extracted but target not found
+    ASCE7-22-26.6-P1: Chapter 31 → Chapter 31 extracted but target not found
+    ASCE7-22-26.6-P1: Section 31.4.3 → Chapter 31 extracted but target not found
+    ASCE7-22-26.7.4.1-H1: Chapter 27 → Chapter 27 extracted but target not found
+    ASCE7-22-26.7.4.2-H1: Chapter 28 → Chapter 28 extracted but target not found
+    ASCE7-22-26.7.4.3-P1: Chapter 29 → Chapter 29 extracted but target not found
+    ASCE7-22-26.7.4.4-H1: Chapter 30 → Chapter 30 extracted but target not found
+    ASCE7-22-26.11.3-T2: Chapter 28 → Chapter 28 extracted but target not found
+  Done: 448 elements
+
+  Deploy gate for Chapter 26:
+DEPLOYMENT GATE
+============================================================
+  [PASS] SCHEMA                    448/448
+  [PASS] COMPOSITE ≥95%            98.9%
+  [PASS] COVERAGE ≥85%             100%
+  [PASS] FIDELITY ≥95%             98%
+  [PASS] NO SHALL IN TEXT_BLOCKS   0 found
+  [PASS] EQUATIONS ≥50%            20/20 (100%)
+  [PASS] PARAMS ≥30%               17/20 (85%)
+  [PASS] CONDITIONS ≥15%           13/64 (20%)
+  [PASS] CROSS-REFS >0             84 elements
+  [PASS] REFERENCES >0             7 found (ASTM/ANSI/CAN present)
+  [PASS] CORE 3 TYPES              all present
+  [FAIL] 0 BROKEN REFS             48 broken, 0 pending
+  [PASS] SYMBOLS REGISTRY          282 symbols
+============================================================
+RESULT: 1 FAILURES — not ready
+
+  Chapter 26: 448 elements in 81.9s FAIL
+
+────────────────────────────────────────────────────────────
+[24/29] Chapter 27: WIND LOADS ON BUILDINGS: MAIN WIND FORCE RESISTING SYSTEM (12 pages)
+────────────────────────────────────────────────────────────
+  [1/4] PyMuPDF: scanning bold labels...
+  [2/4] Docling: document structure...
+  [3/4] Building elements from bold-label taxonomy...
+  [4/4] Enriching with tables, figures, references, equations...
+  [+] Building cross-references...
+  [+] Merging short fragments...
+  [+] Page-level equation scan...
+    Found 1 additional equations from raw PDF text
+  [+] Parsing provision conditions...
+  [+] Building global symbols table...
+    282 symbols, 2/4 formulas have parameters
+  [+] Updating manifest...
+  [+] Tracking unresolved references...
+  Unresolved references: 4 (0 pending, 4 broken)
+  BROKEN references (target chapter extracted but element missing):
+    ASCE7-22-27.1.3-P1: Chapter 31 → Chapter 31 extracted but target not found
+    ASCE7-22-27.2.1-P1: Chapter 26 → Chapter 26 extracted but target not found
+    ASCE7-22-27.3.1-H2: Table 1.5-1 → Chapter 1 extracted but target not found
+    ASCE7-22-27.3.2-P2: Section 28.3.5 → Chapter 28 extracted but target not found
+  Done: 167 elements
+
+  Deploy gate for Chapter 27:
+DEPLOYMENT GATE
+============================================================
+  [PASS] SCHEMA                    167/167
+  [PASS] COMPOSITE ≥95%            95.1%
+  [PASS] COVERAGE ≥85%             90%
+  [PASS] FIDELITY ≥95%             98%
+  [PASS] NO SHALL IN TEXT_BLOCKS   0 found
+  [PASS] EQUATIONS ≥50%            4/4 (100%)
+  [PASS] PARAMS ≥30%               2/4 (50%)
+  [FAIL] CONDITIONS ≥15%           3/24 (12%)
+  [PASS] CROSS-REFS >0             60 elements
+  [PASS] REFERENCES (N/A)          0 found (no ASTM/ANSI/CAN)
+  [PASS] CORE 3 TYPES              all present
+  [FAIL] 0 BROKEN REFS             4 broken, 0 pending
+  [PASS] SYMBOLS REGISTRY          282 symbols
+============================================================
+RESULT: 2 FAILURES — not ready
+
+  Chapter 27: 167 elements in 68.1s FAIL
+
+────────────────────────────────────────────────────────────
+[25/29] Chapter 28: WIND LOADS ON BUILDINGS: MAIN WIND FORCE RESISTING SYSTEM (6 pages)
+────────────────────────────────────────────────────────────
+  [1/4] PyMuPDF: scanning bold labels...
+  [2/4] Docling: document structure...
+  [3/4] Building elements from bold-label taxonomy...
+  [4/4] Enriching with tables, figures, references, equations...
+  [+] Building cross-references...
+  [+] Merging short fragments...
+  [+] Page-level equation scan...
+    Found 1 additional equations from raw PDF text
+  [+] Parsing provision conditions...
+  [+] Building global symbols table...
+    282 symbols, 3/4 formulas have parameters
+  [+] Updating manifest...
+  [+] Tracking unresolved references...
+  Unresolved references: 5 (0 pending, 5 broken)
+  BROKEN references (target chapter extracted but element missing):
+    ASCE7-22-28.1.3-H1: Chapter 27 → Chapter 27 extracted but target not found
+    ASCE7-22-28.1.3-H1: Chapter 31 → Chapter 31 extracted but target not found
+    ASCE7-22-28.2-T2: Table 1.5-1 → Chapter 1 extracted but target not found
+    ASCE7-22-28.2.1-P1: Chapter 26 → Chapter 26 extracted but target not found
+    ASCE7-22-28.3.7-H1: Section 27.4.3 → Chapter 27 extracted but target not found
+  Done: 121 elements
+
+  Deploy gate for Chapter 28:
+DEPLOYMENT GATE
+============================================================
+  [PASS] SCHEMA                    121/121
+  [FAIL] COMPOSITE ≥95%            79.5%
+  [FAIL] COVERAGE ≥85%             50%
+  [PASS] FIDELITY ≥95%             99%
+  [PASS] NO SHALL IN TEXT_BLOCKS   0 found
+  [PASS] EQUATIONS ≥50%            4/4 (100%)
+  [PASS] PARAMS ≥30%               3/4 (75%)
+  [FAIL] CONDITIONS ≥15%           2/14 (14%)
+  [PASS] CROSS-REFS >0             35 elements
+  [PASS] REFERENCES (N/A)          0 found (no ASTM/ANSI/CAN)
+  [PASS] CORE 3 TYPES              all present
+  [FAIL] 0 BROKEN REFS             5 broken, 0 pending
+  [PASS] SYMBOLS REGISTRY          282 symbols
+============================================================
+RESULT: 4 FAILURES — not ready
+
+  Chapter 28: 121 elements in 56.3s FAIL
+
+────────────────────────────────────────────────────────────
+[26/29] Chapter 29: WIND LOADS ON BUILDING APPURTENANCES AND OTHER STRUCTURES: (16 pages)
+────────────────────────────────────────────────────────────
+  [1/4] PyMuPDF: scanning bold labels...
+  [2/4] Docling: document structure...
+  [3/4] Building elements from bold-label taxonomy...
+  [4/4] Enriching with tables, figures, references, equations...
+  [+] Building cross-references...
+  [+] Merging short fragments...
+  [+] Page-level equation scan...
+    Found 2 additional equations from raw PDF text
+  [+] Parsing provision conditions...
+  [+] Building global symbols table...
+    282 symbols, 1/13 formulas have parameters
+  [+] Updating manifest...
+  [+] Tracking unresolved references...
+  Unresolved references: 10 (0 pending, 10 broken)
+  BROKEN references (target chapter extracted but element missing):
+    ASCE7-22-29.1.3-H1: Chapter 31 → Chapter 31 extracted but target not found
+    ASCE7-22-29.1.4-T1: Table 1.5-1 → Chapter 1 extracted but target not found
+    ASCE7-22-29.1.4-T27: Table 1.5-1 → Chapter 1 extracted but target not found
+    ASCE7-22-29.2.1-H1: Chapter 26 → Chapter 26 extracted but target not found
+    ASCE7-22-29.3.2-P1: Chapter 30 → Chapter 30 extracted but target not found
+    ASCE7-22-29.4.2.2-P2: Figure 27.3-2 → Chapter 27 extracted but target not found
+    ASCE7-22-29.5-T1: Section 27.3.4 → Chapter 27 extracted but target not found
+    ASCE7-22-29.5-T1: Section 28.3.4 → Chapter 28 extracted but target not found
+    ASCE7-22-29.6-T1: Section 27.3.3 → Chapter 27 extracted but target not found
+    ASCE7-22-29.6-T1: Section 28.3.5 → Chapter 28 extracted but target not found
+  Done: 217 elements
+
+  Deploy gate for Chapter 29:
+DEPLOYMENT GATE
+============================================================
+  [PASS] SCHEMA                    217/217
+  [FAIL] COMPOSITE ≥95%            85.6%
+  [FAIL] COVERAGE ≥85%             67%
+  [PASS] FIDELITY ≥95%             97%
+  [PASS] NO SHALL IN TEXT_BLOCKS   0 found
+  [PASS] EQUATIONS ≥50%            13/13 (100%)
+  [FAIL] PARAMS ≥30%               1/13 (8%)
+  [PASS] CONDITIONS ≥15%           9/31 (29%)
+  [PASS] CROSS-REFS >0             81 elements
+  [PASS] REFERENCES (N/A)          0 found (no ASTM/ANSI/CAN)
+  [PASS] CORE 3 TYPES              all present
+  [FAIL] 0 BROKEN REFS             10 broken, 0 pending
+  [PASS] SYMBOLS REGISTRY          282 symbols
+============================================================
+RESULT: 4 FAILURES — not ready
+
+  Chapter 29: 217 elements in 113.4s FAIL
+
+────────────────────────────────────────────────────────────
+[27/29] Chapter 30: WIND LOADS: COMPONENTS AND CLADDING (36 pages)
+────────────────────────────────────────────────────────────
+  [1/4] PyMuPDF: scanning bold labels...
+  [2/4] Docling: document structure...
+  [3/4] Building elements from bold-label taxonomy...
+  [4/4] Enriching with tables, figures, references, equations...
+  [+] Building cross-references...
+  [+] Merging short fragments...
+  [+] Page-level equation scan...
+    Found 3 additional equations from raw PDF text
+  [+] Parsing provision conditions...
+  [+] Building global symbols table...
+    282 symbols, 9/11 formulas have parameters
+  [+] Updating manifest...
+  [+] Tracking unresolved references...
+  Unresolved references: 13 (0 pending, 13 broken)
+  BROKEN references (target chapter extracted but element missing):
+    ASCE7-22-30.1.3-H3: Chapter 31 → Chapter 31 extracted but target not found
+    ASCE7-22-30.2.1-H1: Chapter 26 → Chapter 26 extracted but target not found
+    ASCE7-22-30.3.2.1-T1: Table 1.5-1 → Chapter 1 extracted but target not found
+    ASCE7-22-30.4.2-T2: Table 1.5-1 → Chapter 1 extracted but target not found
+    ASCE7-22-30.4.2.1-T7: Chapter 26 → Chapter 26 extracted but target not found
+    ASCE7-22-30.5.2-T8: Table 1.5-1 → Chapter 1 extracted but target not found
+    ASCE7-22-30.6-T12: Table 1.5-1 → Chapter 1 extracted but target not found
+    ASCE7-22-30.7-T34: Table 1.5-1 → Chapter 1 extracted but target not found
+    ASCE7-22-30.8-P1: Section 29.4.1 → Chapter 29 extracted but target not found
+    ASCE7-22-30.9-T7: Table 1.5-1 → Chapter 1 extracted but target not found
+    ASCE7-22-30.10.2-T1: Table 1.5-1 → Chapter 1 extracted but target not found
+    ASCE7-22-30.11-P1: Section 29.4.3 → Chapter 29 extracted but target not found
+    ASCE7-22-30.12-T5: Chapter 31 → Chapter 31 extracted but target not found
+  Done: 485 elements
+
+  Deploy gate for Chapter 30:
+DEPLOYMENT GATE
+============================================================
+  [PASS] SCHEMA                    485/485
+  [FAIL] COMPOSITE ≥95%            89.0%
+  [FAIL] COVERAGE ≥85%             76%
+  [PASS] FIDELITY ≥95%             96%
+  [PASS] NO SHALL IN TEXT_BLOCKS   0 found
+  [PASS] EQUATIONS ≥50%            11/11 (100%)
+  [PASS] PARAMS ≥30%               9/11 (82%)
+  [PASS] CONDITIONS ≥15%           8/48 (17%)
+  [PASS] CROSS-REFS >0             217 elements
+  [PASS] REFERENCES (N/A)          0 found (no ASTM/ANSI/CAN)
+  [PASS] CORE 3 TYPES              all present
+  [FAIL] 0 BROKEN REFS             13 broken, 0 pending
+  [PASS] SYMBOLS REGISTRY          282 symbols
+============================================================
+RESULT: 3 FAILURES — not ready
+
+  Chapter 30: 485 elements in 187.4s FAIL
+
+────────────────────────────────────────────────────────────
+[28/29] Chapter 31: WIND TUNNEL PROCEDURE (2 pages)
+────────────────────────────────────────────────────────────
+  [1/4] PyMuPDF: scanning bold labels...
+  [2/4] Docling: document structure...
+  [3/4] Building elements from bold-label taxonomy...
+  [4/4] Enriching with tables, figures, references, equations...
+  [+] Building cross-references...
+  [+] Merging short fragments...
+  [+] Page-level equation scan...
+  [+] Parsing provision conditions...
+  [+] Building global symbols table...
+    282 symbols, 0/0 formulas have parameters
+  [+] Updating manifest...
+  [+] Tracking unresolved references...
+  Unresolved references: 16 (0 pending, 16 broken)
+  BROKEN references (target chapter extracted but element missing):
+    ASCE7-22-31.1-P1: Chapter 27 → Chapter 27 extracted but target not found
+    ASCE7-22-31.1-P1: Chapter 28 → Chapter 28 extracted but target not found
+    ASCE7-22-31.1-P1: Chapter 29 → Chapter 29 extracted but target not found
+    ASCE7-22-31.1-P1: Chapter 30 → Chapter 30 extracted but target not found
+    ASCE7-22-31.1-P2: Section 1.3.1.3.4 → Chapter 1 extracted but target not found
+    ASCE7-22-31.4.4-H1: Chapter 27 → Chapter 27 extracted but target not found
+    ASCE7-22-31.4.4-H1: Chapter 28 → Chapter 28 extracted but target not found
+    ASCE7-22-31.4.4-H1: Chapter 29 → Chapter 29 extracted but target not found
+    ASCE7-22-31.4.4-P1: Chapter 30 → Chapter 30 extracted but target not found
+    ASCE7-22-31.4.5-H1: Section 29.4.5.1 → Chapter 29 extracted but target not found
+    ASCE7-22-31.4.5-H1: Section 29.4.5 → Chapter 29 extracted but target not found
+    ASCE7-22-31.4.5-H1: Section 30.2.2 → Chapter 30 extracted but target not found
+    ASCE7-22-31.5.1-P1: Chapter 30 → Chapter 30 extracted but target not found
+    ASCE7-22-31.5.2-H1: Section 30.2.2 → Chapter 30 extracted but target not found
+    ASCE7-22-31.5.2-H1: Figure 29.4-7 → Chapter 29 extracted but target not found
+    ASCE7-22-31.5.3-H1: Figure 29.4-7 → Chapter 29 extracted but target not found
+  Done: 42 elements
+
+  Deploy gate for Chapter 31:
+DEPLOYMENT GATE
+============================================================
+  [PASS] SCHEMA                    42/42
+  [FAIL] COMPOSITE ≥95%            60.0%
+  [FAIL] COVERAGE ≥85%             0%
+  [PASS] FIDELITY ≥95%             100%
+  [PASS] NO SHALL IN TEXT_BLOCKS   0 found
+  [PASS] EQUATIONS ≥50%            0/0 (0%)
+  [PASS] PARAMS ≥30%               0/0 (0%)
+  [PASS] CONDITIONS ≥15%           3/18 (17%)
+  [PASS] CROSS-REFS >0             8 elements
+  [PASS] REFERENCES (N/A)          0 found (no ASTM/ANSI/CAN)
+  [PASS] CORE 3 TYPES              all present
+  [FAIL] 0 BROKEN REFS             16 broken, 0 pending
+  [PASS] SYMBOLS REGISTRY          282 symbols
+============================================================
+RESULT: 3 FAILURES — not ready
+
+  Chapter 31: 42 elements in 10.0s FAIL
+
+────────────────────────────────────────────────────────────
+[29/29] Chapter 32: TORNADO LOADS (44 pages)
+────────────────────────────────────────────────────────────
+  [1/4] PyMuPDF: scanning bold labels...
+  [2/4] Docling: document structure...
+  [3/4] Building elements from bold-label taxonomy...
+  [4/4] Enriching with tables, figures, references, equations...
+  [+] Building cross-references...
+  [+] Merging short fragments...
+  [+] Page-level equation scan...
+    Found 9 additional equations from raw PDF text
+  [+] Parsing provision conditions...
+  [+] Building global symbols table...
+    282 symbols, 17/18 formulas have parameters
+  [+] Updating manifest...
+  [+] Tracking unresolved references...
+  Unresolved references: 57 (0 pending, 57 broken)
+  BROKEN references (target chapter extracted but element missing):
+    ASCE7-22-32.1.1-H1: Chapter 2 → Chapter 2 extracted but target not found
+    ASCE7-22-32.1.1-N1: Chapter 26 → Chapter 26 extracted but target not found
+    ASCE7-22-32.1.2-H1: Chapter 28 → Chapter 28 extracted but target not found
+    ASCE7-22-32.1.2.1-H2: Chapter 27 → Chapter 27 extracted but target not found
+    ASCE7-22-32.1.2.1-T1: Chapter 29 → Chapter 29 extracted but target not found
+    ASCE7-22-32.1.2.1-T2: Chapter 31 → Chapter 31 extracted but target not found
+    ASCE7-22-32.1.2.2-T1: Chapter 30 → Chapter 30 extracted but target not found
+    ASCE7-22-32.1.2.2-T2: Chapter 31 → Chapter 31 extracted but target not found
+    ASCE7-22-32.1.3-H1: Section 1.3.1.3 → Chapter 1 extracted but target not found
+    ASCE7-22-32.2-P1: Chapter 28 → Chapter 28 extracted but target not found
+    ASCE7-22-32.3-P1: Chapter 28 → Chapter 28 extracted but target not found
+    ASCE7-22-32.15.1-H1: Section 27.3.1 → Chapter 27 extracted but target not found
+    ASCE7-22-32.15.1-T6: Section 27.3.1 → Chapter 27 extracted but target not found
+    ASCE7-22-32.15.1.1-P1: Section 27.3.1.1 → Chapter 27 extracted but target not found
+    ASCE7-22-32.15.2-P1: Section 27.3.2 → Chapter 27 extracted but target not found
+    ASCE7-22-32.15.2-T6: Section 27.3.2 → Chapter 27 extracted but target not found
+    ASCE7-22-32.15.3-H1: Section 27.3.3 → Chapter 27 extracted but target not found
+    ASCE7-22-32.15.4-H1: Section 27.3.4 → Chapter 27 extracted but target not found
+    ASCE7-22-32.15.4-T3: Section 27.3.4 → Chapter 27 extracted but target not found
+    ASCE7-22-32.15.5-P1: Section 27.3.5 → Chapter 27 extracted but target not found
+    ASCE7-22-32.16.2-H1: Section 29.3 → Chapter 29 extracted but target not found
+    ASCE7-22-32.16.2-T4: Figure 29.3-1 → Chapter 29 extracted but target not found
+    ASCE7-22-32.16.3-H1: Section 29.4 → Chapter 29 extracted but target not found
+    ASCE7-22-32.16.3-T4: Section 29.4 → Chapter 29 extracted but target not found
+    ASCE7-22-32.16.3-T5: Section 29.4 → Chapter 29 extracted but target not found
+    ASCE7-22-32.16.3.2-H1: Section 29.4.1 → Chapter 29 extracted but target not found
+    ASCE7-22-32.16.3.2-T3: Section 29.4.1 → Chapter 29 extracted but target not found
+    ASCE7-22-32.16.3.2-T4: Section 29.4.1 → Chapter 29 extracted but target not found
+    ASCE7-22-32.16.3.2-T9: Section 29.4.1 → Chapter 29 extracted but target not found
+    ASCE7-22-32.16.3.3-P1: Section 29.4.2.2 → Chapter 29 extracted but target not found
+    ASCE7-22-32.16.3.3-T8: Section 29.4.2.2 → Chapter 29 extracted but target not found
+    ASCE7-22-32.16.3.4-P1: Section 29.4.3 → Chapter 29 extracted but target not found
+    ASCE7-22-32.16.3.4-T7: Section 29.4.3 → Chapter 29 extracted but target not found
+    ASCE7-22-32.16.3.5-P1: Section 29.4.4 → Chapter 29 extracted but target not found
+    ASCE7-22-32.16.3.5-T4: Section 29.4.4 → Chapter 29 extracted but target not found
+    ASCE7-22-32.16.3.5-T5: Section 29.4.4 → Chapter 29 extracted but target not found
+    ASCE7-22-32.16.3.5-T6: Section 29.4.4 → Chapter 29 extracted but target not found
+    ASCE7-22-32.17.1-H1: Section 30.3 → Chapter 30 extracted but target not found
+    ASCE7-22-32.17.1-T3: Section 30.3 → Chapter 30 extracted but target not found
+    ASCE7-22-32.17.1.1-P1: Section 30.3.2.1 → Chapter 30 extracted but target not found
+    ASCE7-22-32.17.2-H1: Section 30.4 → Chapter 30 extracted but target not found
+    ASCE7-22-32.17.2-T7: Section 30.4 → Chapter 30 extracted but target not found
+    ASCE7-22-32.17.2.1-P1: Section 30.5.2.1 → Chapter 30 extracted but target not found
+    ASCE7-22-32.17.3-H1: Section 30.5 → Chapter 30 extracted but target not found
+    ASCE7-22-32.17.3-H2: Section 30.5 → Chapter 30 extracted but target not found
+    ASCE7-22-32.17.4.1-H1: Section 30.6 → Chapter 30 extracted but target not found
+    ASCE7-22-32.17.4.1-T3: Section 30.8 → Chapter 30 extracted but target not found
+    ASCE7-22-32.17.4.2-H1: Section 30.7 → Chapter 30 extracted but target not found
+    ASCE7-22-32.17.4.3-H1: Section 30.9 → Chapter 30 extracted but target not found
+    ASCE7-22-32.17.4.3-T2: Section 30.9 → Chapter 30 extracted but target not found
+    ASCE7-22-32.17.5-H1: Section 30.10 → Chapter 30 extracted but target not found
+    ASCE7-22-32.17.5.1-P1: Figure 30.12-2 → Chapter 30 extracted but target not found
+    ASCE7-22-32.17.5.1-P2: Figure 30.12-2 → Chapter 30 extracted but target not found
+    ASCE7-22-32.17.5.1-P3: Figure 30.12-2 → Chapter 30 extracted but target not found
+    ASCE7-22-32.17.5.1-T3: Section 30.10 → Chapter 30 extracted but target not found
+    ASCE7-22-32.17.5.1-T4: Section 30.12.3 → Chapter 30 extracted but target not found
+    ASCE7-22-32.18-P1: Chapter 31 → Chapter 31 extracted but target not found
+  Done: 411 elements
+
+  Deploy gate for Chapter 32:
+DEPLOYMENT GATE
+============================================================
+  [PASS] SCHEMA                    411/411
+  [FAIL] COMPOSITE ≥95%            92.4%
+  [FAIL] COVERAGE ≥85%             83%
+  [PASS] FIDELITY ≥95%             98%
+  [PASS] NO SHALL IN TEXT_BLOCKS   0 found
+  [PASS] EQUATIONS ≥50%            18/18 (100%)
+  [PASS] PARAMS ≥30%               17/18 (94%)
+  [FAIL] CONDITIONS ≥15%           10/89 (11%)
+  [PASS] CROSS-REFS >0             122 elements
+  [FAIL] REFERENCES >0             0 found (ASTM/ANSI/CAN present)
+  [PASS] CORE 3 TYPES              all present
+  [FAIL] 0 BROKEN REFS             57 broken, 0 pending
+  [PASS] SYMBOLS REGISTRY          282 symbols
+============================================================
+RESULT: 5 FAILURES — not ready
+
+  Chapter 32: 411 elements in 97.1s FAIL
+
+
+============================================================
+POST-BATCH AUDIT
+============================================================
+
+Global symbols: 282
+  No symbol conflicts
+
+Cross-chapter references: 778
+  Pending: 6
+  Broken: 772
+  Pending targets: {9: 5, 25: 1}
+
+
+============================================================
+MORNING REPORT
+============================================================
+Completed: 2026-03-30 15:36:33
+Total time: 20.7 minutes
+Chapters processed: 29
+Total elements: 7216
+Global symbols: 282
+
+  Ch Title                                    Pages Elements   Time   Gate
+───────────────────────────────────────────────────────────────────────────
+   1 GENERAL                                      6      111    16s   FAIL
+   2 COMBINATIONS OF LOADS                        4      100     6s   FAIL
+   3 DEAD LOADS, SOIL LOADS, AND HYDROSTATIC      2       25     4s   FAIL
+   4 LIVE LOADS                                   8      139    24s   FAIL
+   5 FLOOD LOADS                                  4       87     6s   FAIL
+   6 TSUNAMI LOADS AND EFFECTS                   30      720    37s   FAIL
+   7 SNOW LOADS                                  16      197    31s   FAIL
+   8 RAIN LOADS                                   2       37   111s   FAIL
+  10 ICE LOADS                                   24      195    27s   FAIL
+  11 SEISMIC DESIGN CRITERIA                     12      434    20s   FAIL
+  12 SEISMIC DESIGN REQUIREMENTS FOR BUILDING    34      782    70s   FAIL
+  13 SEISMIC DESIGN REQUIREMENTS FOR NONSTRUC    18      375    39s   FAIL
+  14 MATERIAL-SPECIFIC SEISMIC DESIGN AND DET     4      102    12s   FAIL
+  15 SEISMIC DESIGN REQUIREMENTS FOR NONBUILD    20      451    54s   FAIL
+  16 NONLINEAR RESPONSE HISTORY ANALYSIS          4      101    10s   FAIL
+  17 SEISMIC DESIGN REQUIREMENTS FOR SEISMICA    12      336    18s   FAIL
+  18 SEISMIC DESIGN REQUIREMENTS FOR STRUCTUR    16      480    31s   FAIL
+  19 SOIL                                         6      183    21s   FAIL
+  20 SITE CLASSIFICATION PROCEDURE FOR SEISMI     2       31     6s   FAIL
+  21 SITE-SPECIFIC GROUND MOTION PROCEDURES F     4       35    17s   FAIL
+  22 SEISMIC GROUND MOTION AND LONG-PERIOD TR    22      235    44s   FAIL
+  23 SEISMIC DESIGN REFERENCE DOCUMENTS           4      169    19s   FAIL
+  26 WIND LOADS: GENERAL REQUIREMENTS            20      448    82s   FAIL
+  27 WIND LOADS ON BUILDINGS: MAIN WIND FORCE    12      167    68s   FAIL
+  28 WIND LOADS ON BUILDINGS: MAIN WIND FORCE     6      121    56s   FAIL
+  29 WIND LOADS ON BUILDING APPURTENANCES AND    16      217   113s   FAIL
+  30 WIND LOADS: COMPONENTS AND CLADDING         36      485   187s   FAIL
+  31 WIND TUNNEL PROCEDURE                        2       42    10s   FAIL
+  32 TORNADO LOADS                               44      411    97s   FAIL
+
+  PASSED: 0  FAILED: 29  ERRORS: 0
+  Broken refs: 772  Pending refs: 6
+  Symbol conflicts: 0
+
+  Report → output/qc/batch-report.json

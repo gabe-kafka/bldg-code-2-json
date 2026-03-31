@@ -1,0 +1,3635 @@
+[
+  {
+    "id": "ASCE7-22-28-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28",
+      "citation": "Section 28",
+      "page": 1
+    },
+    "title": "CHAPTER 28",
+    "description": "",
+    "data": {
+      "rule": "CHAPTER 28",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-28-H2",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28",
+      "citation": "Section 28",
+      "page": 1
+    },
+    "title": "WIND LOADS ON BUILDINGS: MAIN WIND FORCE RESISTING SYSTEM (ENVELOPE PROCEDURE)",
+    "description": "",
+    "data": {
+      "rule": "WIND LOADS ON BUILDINGS: MAIN WIND FORCE RESISTING SYSTEM (ENVELOPE PROCEDURE)",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-28.1-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.1",
+      "citation": "Section 28.1",
+      "page": 1
+    },
+    "title": "28.1 SCOPE",
+    "description": "",
+    "data": {
+      "rule": "28.1 SCOPE",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-28.1.1-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.1.1",
+      "citation": "Section 28.1.1",
+      "page": 1
+    },
+    "title": "28.1.1 Building Types This chapter applies to the determination of Main Wind Force Resisting System (MWFRS) wind loads, using the Envelope Procedure, on low-rise buildings as de fi ned in Section 26.2",
+    "description": "",
+    "data": {
+      "rule": "28.1.1 Building Types This chapter applies to the determination of Main Wind Force Resisting System (MWFRS) wind loads, using the Envelope Procedure, on low-rise buildings as de fi ned in Section 26.2.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.2-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-28.1.2-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.1.2",
+      "citation": "Section 28.1.2",
+      "page": 1
+    },
+    "title": "28.1.2 Conditions The design wind loads determined in accordance with this section shall apply to buildings complying with all the following conditions:",
+    "description": "",
+    "data": {
+      "rule": "28.1.2 Conditions The design wind loads determined in accordance with this section shall apply to buildings complying with all the following conditions:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-28.1.2-T1",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.1.2",
+      "citation": "Section 28.1.2",
+      "page": 1
+    },
+    "title": "Building is a regular-shaped building as de fi ned in Section 26.2.",
+    "description": "",
+    "data": {
+      "rule": "Building is a regular-shaped building as de fi ned in Section 26.2.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.2-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-28.1.2-H1"
+  },
+  {
+    "id": "ASCE7-22-28.1.2-T2",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.1.2",
+      "citation": "Section 28.1.2",
+      "page": 1
+    },
+    "title": "Building does not have response characteristics that make it subject to across-wind loading, vortex shedding, or instability caused by galloping or fl utter, nor does it have a site location for which",
+    "description": "",
+    "data": {
+      "rule": "Building does not have response characteristics that make it subject to across-wind loading, vortex shedding, or instability caused by galloping or fl utter, nor does it have a site location for which channeling effects or buffeting in the wake of upwind obstructions warrant special consideration.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-28.1.2-H1"
+  },
+  {
+    "id": "ASCE7-22-28.1.2-T3",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.1.2",
+      "citation": "Section 28.1.2",
+      "page": 1
+    },
+    "title": "Building does not have an arched, barrel, or unusually shaped roof.",
+    "description": "",
+    "data": {
+      "rule": "Building does not have an arched, barrel, or unusually shaped roof.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-28.1.2-H1"
+  },
+  {
+    "id": "ASCE7-22-28.1.3-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.1.3",
+      "citation": "Section 28.1.3",
+      "page": 1
+    },
+    "title": "28.1.3 Limitations The provisions of this chapter take into consideration mean and fl uctuating loads caused by winds acting on rigid buildings. Buildings that do not meet the conditions of Section 28",
+    "description": "",
+    "data": {
+      "rule": "28.1.3 Limitations The provisions of this chapter take into consideration mean and fl uctuating loads caused by winds acting on rigid buildings. Buildings that do not meet the conditions of Section 28.1.2 shall be designed using appropriate procedures in Chapter 27, recognized literature documenting such wind load effects, or the Wind Tunnel Procedure speci fi ed in Chapter 31.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-28.1.2-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-28.1.4-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.1.4",
+      "citation": "Section 28.1.4",
+      "page": 1
+    },
+    "title": "28.1.4 Shielding There shall be no reductions in velocity pressure caused by shielding that may be afforded by other buildings and other structures or terrain features.",
+    "description": "",
+    "data": {
+      "rule": "28.1.4 Shielding There shall be no reductions in velocity pressure caused by shielding that may be afforded by other buildings and other structures or terrain features.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-28.1.4-N1",
+    "type": "user_note",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.1.4",
+      "citation": "Section 28.1.4",
+      "page": 1
+    },
+    "title": "User Note: Use Chapter 28 to determine the wind pressure on the MWFRS of low-rise buildings that have a fl at, gable, or hip roof. These provisions use the Envelope Procedure by calculating wind press",
+    "description": "",
+    "data": {
+      "rule": "User Note: Use Chapter 28 to determine the wind pressure on the MWFRS of low-rise buildings that have a fl at, gable, or hip roof. These provisions use the Envelope Procedure by calculating wind pressures from the specific equation applicable to each building surface. For building shapes and heights for which these provisions are applicable, this method generally yields the lowest wind pressure of all the analytical methods speci fi ed in this standard.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-28.2-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.2",
+      "citation": "Section 28.2",
+      "page": 1
+    },
+    "title": "28.2 GENERAL REQUIREMENTS",
+    "description": "",
+    "data": {
+      "rule": "28.2 GENERAL REQUIREMENTS",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-28.2-T1",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.2",
+      "citation": "Section 28.2",
+      "page": 1
+    },
+    "title": "The steps required for the determination of MWFRS wind loads on low-rise buildings are shown in Table 28.2-1.",
+    "description": "",
+    "data": {
+      "rule": "The steps required for the determination of MWFRS wind loads on low-rise buildings are shown in Table 28.2-1.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-28.2-H2"
+  },
+  {
+    "id": "ASCE7-22-28.2-H2",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.2",
+      "citation": "Section 28.2",
+      "page": 1
+    },
+    "title": "Table 28.2-1. Steps to Determine Wind Loads on MWFRS Low-Rise Buildings.",
+    "description": "",
+    "data": {
+      "rule": "Table 28.2-1. Steps to Determine Wind Loads on MWFRS Low-Rise Buildings.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-28.2-T2",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.2",
+      "citation": "Section 28.2",
+      "page": 1
+    },
+    "title": "Step 1: Determine risk category of building; see Table 1.5-1.",
+    "description": "",
+    "data": {
+      "rule": "Step 1: Determine risk category of building; see Table 1.5-1.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-28.2-H2"
+  },
+  {
+    "id": "ASCE7-22-28.2-T3",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.2",
+      "citation": "Section 28.2",
+      "page": 1
+    },
+    "title": "Step 2: Determine the basic wind speed, V , for applicable risk category; see Figure 26.5-1.",
+    "description": "",
+    "data": {
+      "rule": "Step 2: Determine the basic wind speed, V , for applicable risk category; see Figure 26.5-1.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.5-F26-5-11"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-28.2-H2"
+  },
+  {
+    "id": "ASCE7-22-28.2-T4",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.2",
+      "citation": "Section 28.2",
+      "page": 1
+    },
+    "title": "Step 3: Determine wind load parameters:",
+    "description": "",
+    "data": {
+      "rule": "Step 3: Determine wind load parameters:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-28.2-H2"
+  },
+  {
+    "id": "ASCE7-22-28.2-T5",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.2",
+      "citation": "Section 28.2",
+      "page": 1
+    },
+    "title": "Wind directionality factor, Kd ; see Section 26.6 and Table 26.6-1.",
+    "description": "",
+    "data": {
+      "rule": "Wind directionality factor, Kd ; see Section 26.6 and Table 26.6-1.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.6-H1",
+      "ASCE7-22-26.6-T26-6-11"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-28.2-H2"
+  },
+  {
+    "id": "ASCE7-22-28.2-T6",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.2",
+      "citation": "Section 28.2",
+      "page": 1
+    },
+    "title": "Exposure Category (B, C, or D); see Section 26.7.",
+    "description": "",
+    "data": {
+      "rule": "Exposure Category (B, C, or D); see Section 26.7.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.7-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-28.2-H2"
+  },
+  {
+    "id": "ASCE7-22-28.2-T7",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.2",
+      "citation": "Section 28.2",
+      "page": 1
+    },
+    "title": "Topographic factor, Kzt ; see Section 26.8 and Figure 26.8-1.",
+    "description": "",
+    "data": {
+      "rule": "Topographic factor, Kzt ; see Section 26.8 and Figure 26.8-1.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.8-F26-8-11",
+      "ASCE7-22-26.8-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-28.2-H2"
+  },
+  {
+    "id": "ASCE7-22-28.2-T8",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.2",
+      "citation": "Section 28.2",
+      "page": 1
+    },
+    "title": "Ground elevation factor, Ke ; see Section 26.9 and Table 26.9-1.",
+    "description": "",
+    "data": {
+      "rule": "Ground elevation factor, Ke ; see Section 26.9 and Table 26.9-1.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.9-H1",
+      "ASCE7-22-26.9-T26-9-11"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-28.2-H2"
+  },
+  {
+    "id": "ASCE7-22-28.2-T9",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.2",
+      "citation": "Section 28.2",
+      "page": 1
+    },
+    "title": "Enclosure classi fi cation; see Section 26.12.",
+    "description": "",
+    "data": {
+      "rule": "Enclosure classi fi cation; see Section 26.12.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.12-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-28.2-H2"
+  },
+  {
+    "id": "ASCE7-22-28.2-T10",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.2",
+      "citation": "Section 28.2",
+      "page": 1
+    },
+    "title": "Internal pressure coef fi cient, ( GCpi ); see Section 26.13 and Table 26.13-1.",
+    "description": "",
+    "data": {
+      "rule": "Internal pressure coef fi cient, ( GCpi ); see Section 26.13 and Table 26.13-1.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.13-H1",
+      "ASCE7-22-26.13-T26-13-11"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-28.2-H2"
+  },
+  {
+    "id": "ASCE7-22-28.2-T11",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.2",
+      "citation": "Section 28.2",
+      "page": 1
+    },
+    "title": "Step 4: Determine velocity pressure exposure coef fi cient, Kz or Kh ; see Table 26.10-1.",
+    "description": "",
+    "data": {
+      "rule": "Step 4: Determine velocity pressure exposure coef fi cient, Kz or Kh ; see Table 26.10-1.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.10-T26-10-11"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-28.2-H2"
+  },
+  {
+    "id": "ASCE7-22-28.2-T12",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.2",
+      "citation": "Section 28.2",
+      "page": 1
+    },
+    "title": "Step 5: Determine velocity pressure, qz or qh , from Equation (26.10-1).",
+    "description": "",
+    "data": {
+      "rule": "Step 5: Determine velocity pressure, qz or qh , from Equation (26.10-1).",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-28.2-H2"
+  },
+  {
+    "id": "ASCE7-22-28.2-T13",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.2",
+      "citation": "Section 28.2",
+      "page": 1
+    },
+    "title": "Step 6: Determine external pressure coef fi cient, ( GCpf ), for each load case using Section 28.3.2 for fl at and gable roofs.",
+    "description": "",
+    "data": {
+      "rule": "Step 6: Determine external pressure coef fi cient, ( GCpf ), for each load case using Section 28.3.2 for fl at and gable roofs.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-28.3.2-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-28.2-H2"
+  },
+  {
+    "id": "ASCE7-22-28.2-N1",
+    "type": "user_note",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.2",
+      "citation": "Section 28.2",
+      "page": 1
+    },
+    "title": "User Note: See Commentary Figure C28.3-2 for guidance on hip roofs.",
+    "description": "",
+    "data": {
+      "rule": "User Note: See Commentary Figure C28.3-2 for guidance on hip roofs.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-28.2-T14",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.2",
+      "citation": "Section 28.2",
+      "page": 1
+    },
+    "title": "Step 7: Calculate wind pressure, p , from Equation (28.3-1).",
+    "description": "",
+    "data": {
+      "rule": "Step 7: Calculate wind pressure, p , from Equation (28.3-1).",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-28.2-H2"
+  },
+  {
+    "id": "ASCE7-22-28.2.1-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.2.1",
+      "citation": "Section 28.2.1",
+      "page": 1
+    },
+    "title": "28.2.1 Wind Load Parameters Speci fi ed in Chapter 26 The following wind load parameters shall be determined in accordance with Chapter 26:",
+    "description": "",
+    "data": {
+      "rule": "28.2.1 Wind Load Parameters Speci fi ed in Chapter 26 The following wind load parameters shall be determined in accordance with Chapter 26:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-28.2.1-T1",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.2.1",
+      "citation": "Section 28.2.1",
+      "page": 1
+    },
+    "title": "Basic wind speed, V (Section 26.5);",
+    "description": "",
+    "data": {
+      "rule": "Basic wind speed, V (Section 26.5);",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.5-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-28.2-H2"
+  },
+  {
+    "id": "ASCE7-22-28.2.1-T2",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.2.1",
+      "citation": "Section 28.2.1",
+      "page": 1
+    },
+    "title": "Wind directionality factor, Kd (Section 26.6);",
+    "description": "",
+    "data": {
+      "rule": "Wind directionality factor, Kd (Section 26.6);",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.6-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-28.2-H2"
+  },
+  {
+    "id": "ASCE7-22-28.2.1-T3",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.2.1",
+      "citation": "Section 28.2.1",
+      "page": 1
+    },
+    "title": "Exposure category (Section 26.7);",
+    "description": "",
+    "data": {
+      "rule": "Exposure category (Section 26.7);",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.7-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-28.2-H2"
+  },
+  {
+    "id": "ASCE7-22-28.2.1-T4",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.2.1",
+      "citation": "Section 28.2.1",
+      "page": 1
+    },
+    "title": "Topographic factor, Kzt (Section 26.8);",
+    "description": "",
+    "data": {
+      "rule": "Topographic factor, Kzt (Section 26.8);",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.8-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-28.2-H2"
+  },
+  {
+    "id": "ASCE7-22-28.2.1-T5",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.2.1",
+      "citation": "Section 28.2.1",
+      "page": 1
+    },
+    "title": "Ground elevation factor, Ke (Section 26.9);",
+    "description": "",
+    "data": {
+      "rule": "Ground elevation factor, Ke (Section 26.9);",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.9-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-28.2-H2"
+  },
+  {
+    "id": "ASCE7-22-28.2.1-T6",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.2.1",
+      "citation": "Section 28.2.1",
+      "page": 1
+    },
+    "title": "Velocity pressure exposure coef fi cient, Kz or Kh (Section 26.10);",
+    "description": "",
+    "data": {
+      "rule": "Velocity pressure exposure coef fi cient, Kz or Kh (Section 26.10);",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.10-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-28.2-H2"
+  },
+  {
+    "id": "ASCE7-22-28.2.1-T7",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.2.1",
+      "citation": "Section 28.2.1",
+      "page": 1
+    },
+    "title": "Enclosure classi fi cation (Section 26.12); and",
+    "description": "",
+    "data": {
+      "rule": "Enclosure classi fi cation (Section 26.12); and",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.12-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-28.2-H2"
+  },
+  {
+    "id": "ASCE7-22-28.2.1-T8",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.2.1",
+      "citation": "Section 28.2.1",
+      "page": 1
+    },
+    "title": "Internal pressure coef fi cient, ( GCpi ) (Section 26.13).",
+    "description": "",
+    "data": {
+      "rule": "Internal pressure coef fi cient, ( GCpi ) (Section 26.13).",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.13-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-28.2-H2"
+  },
+  {
+    "id": "ASCE7-22-28.3-E28-3-11",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3",
+      "citation": "Eq. (28.3-1)",
+      "page": 1
+    },
+    "title": "Equation (28.3-1)",
+    "description": "",
+    "data": {
+      "expression": "Step 7: Calculate wind pressure, p , from Equation (28.3-1)",
+      "parameters": {
+        "p": {
+          "description": "Design pressure to be used in determination of wind loads for buildings, lb/ft 2 (N/m 2 )",
+          "source": "ASCE7-22-26.3-T78"
+        }
+      }
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-28.3-E28-3-21",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3",
+      "citation": "Eq. (28.3-2)",
+      "page": 2
+    },
+    "title": "Equation (28.3-2)",
+    "description": "",
+    "data": {
+      "expression": "EXCEPTION:Designforthetorsionalcasesisnotrequiredfor p =q K \u00f0GC \u00de\u00f0lb\u2215ft2\u00de (28.3-2)",
+      "parameters": {
+        "p": {
+          "description": "Design pressure to be used in determination of wind loads for buildings, lb/ft 2 (N/m 2 )",
+          "source": "ASCE7-22-26.3-T78"
+        },
+        "q": {
+          "description": "qzT For external pressure on all walls evaluated at height z above the ground, lb/ft 2 (N/m 2 );",
+          "source": "ASCE7-22-32.17.2-T1"
+        }
+      }
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "pdfplumber_scan"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-28.3-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3",
+      "citation": "Section 28.3",
+      "page": 2
+    },
+    "title": "28.3 WIND LOADS: MAIN WIND FORCE RESISTING SYSTEM",
+    "description": "",
+    "data": {
+      "rule": "28.3 WIND LOADS: MAIN WIND FORCE RESISTING SYSTEM",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-28.3.1-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3.1",
+      "citation": "Section 28.3.1",
+      "page": 2
+    },
+    "title": "28.3.1 Design Wind Pressure for Low-Rise Buildings Design wind pressures for the MWFRS of low-rise buildings shall be determined by the following equation:",
+    "description": "",
+    "data": {
+      "rule": "28.3.1 Design Wind Pressure for Low-Rise Buildings Design wind pressures for the MWFRS of low-rise buildings shall be determined by the following equation:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-28.3.1-T1",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3.1",
+      "citation": "Section 28.3.1",
+      "page": 2
+    },
+    "title": "where qh = Velocity pressure evaluated at mean roof height h , as de fi ned in Section 26.3;",
+    "description": "",
+    "data": {
+      "rule": "where qh = Velocity pressure evaluated at mean roof height h , as de fi ned in Section 26.3;",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.3-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-28.3.1-H2"
+  },
+  {
+    "id": "ASCE7-22-28.3.1-H2",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3.1",
+      "citation": "Section 28.3.1",
+      "page": 2
+    },
+    "title": "Kd = Wind directionality factor, see Section 26.6; ( GCpf ) = External pressure coef fi cient from Section 28.3.2; and ( GCpi ) = Internal pressure coef fi cient from Table 26.13-1.",
+    "description": "",
+    "data": {
+      "rule": "Kd = Wind directionality factor, see Section 26.6; ( GCpf ) = External pressure coef fi cient from Section 28.3.2; and ( GCpi ) = Internal pressure coef fi cient from Table 26.13-1.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.13-T26-13-11",
+      "ASCE7-22-26.6-H1",
+      "ASCE7-22-28.3.2-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-28.3.1.1-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3.1.1",
+      "citation": "Section 28.3.1.1",
+      "page": 2
+    },
+    "title": "28.3.1.1 External Pressure Coef fi cients, ( GC p f ) The combined gust-effect factor and external pressure coef fi cients used in this chapter, ( GCpf ), are not permitted to be separated.",
+    "description": "",
+    "data": {
+      "rule": "28.3.1.1 External Pressure Coef fi cients, ( GC p f ) The combined gust-effect factor and external pressure coef fi cients used in this chapter, ( GCpf ), are not permitted to be separated.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-28.3.2-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3.2",
+      "citation": "Section 28.3.2",
+      "page": 2
+    },
+    "title": "28.3.2 Load Cases Buildings shall be evaluated using each of the basic load cases and the torsional load cases acting independently in accordance with this section.",
+    "description": "",
+    "data": {
+      "rule": "28.3.2 Load Cases Buildings shall be evaluated using each of the basic load cases and the torsional load cases acting independently in accordance with this section.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-28.3.2-X1",
+    "type": "exception",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3.2",
+      "citation": "Section 28.3.2",
+      "page": 2
+    },
+    "title": "EXCEPTION: Design for the torsional cases is not required for",
+    "description": "",
+    "data": {
+      "rule": "EXCEPTION: Design for the torsional cases is not required for",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-28.3.2-T1",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3.2",
+      "citation": "Section 28.3.2",
+      "page": 2
+    },
+    "title": "One-story buildings with h less than or equal to 30 ft (9.1 m),",
+    "description": "",
+    "data": {
+      "rule": "One-story buildings with h less than or equal to 30 ft (9.1 m),",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-28.3.2-H1"
+  },
+  {
+    "id": "ASCE7-22-28.3.2-T2",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3.2",
+      "citation": "Section 28.3.2",
+      "page": 2
+    },
+    "title": "One-story and two-story light-frame buildings, or",
+    "description": "",
+    "data": {
+      "rule": "One-story and two-story light-frame buildings, or",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-28.3.2-H1"
+  },
+  {
+    "id": "ASCE7-22-28.3.2-T3",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3.2",
+      "citation": "Section 28.3.2",
+      "page": 2
+    },
+    "title": "One-story and two-story buildings with fl exible diaphragms.",
+    "description": "",
+    "data": {
+      "rule": "One-story and two-story buildings with fl exible diaphragms.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-28.3.2-H1"
+  },
+  {
+    "id": "ASCE7-22-28.3.2.1-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3.2.1",
+      "citation": "Section 28.3.2.1",
+      "page": 2
+    },
+    "title": "28.3.2.1 Basic Load Cases The external pressure coef fi cient, ( GCpf ; ), for basic load cases shall be determined in accordance with Figure 28.3-1. The building shall be evaluated with each corner t",
+    "description": "",
+    "data": {
+      "rule": "28.3.2.1 Basic Load Cases The external pressure coef fi cient, ( GCpf ; ), for basic load cases shall be determined in accordance with Figure 28.3-1. The building shall be evaluated with each corner taken as the windward corner, with loading patterns applied as shown, and with all zones being loaded simultaneously. Each corner shall be evaluated separately for the two load cases. In each load case, Zones 2E and 3E shall be located along the roof edge perpendicular to the ridge that is nearest the corner being evaluated. Combinations of external and internal pressures (see Table 26.13-1) shall be evaluated as required to obtain the most severe loadings.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.13-T26-13-11",
+      "ASCE7-22-28.3-E28-3-11"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-28.3.2.1-H2",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3.2.1",
+      "citation": "Section 28.3.2.1",
+      "page": 2
+    },
+    "title": "For fl at roofs, the roof angle, \u03b8 , shall be taken as 0, with the Zone 2/3 and Zone 2E/3E boundary located at the mid-width of the building.",
+    "description": "",
+    "data": {
+      "rule": "For fl at roofs, the roof angle, \u03b8 , shall be taken as 0, with the Zone 2/3 and Zone 2E/3E boundary located at the mid-width of the building.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-28.3.2.1-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3.2.1",
+      "citation": "Section 28.3.2.1",
+      "page": 2
+    },
+    "title": "The roof pressure coef fi cient, ( GCpf ), when negative in Zones 2 and 2E, shall be applied in Zone 2/2E for a distance from the edge of roof equal to 0.5 times the horizontal dimension of the buildi",
+    "description": "",
+    "data": {
+      "rule": "The roof pressure coef fi cient, ( GCpf ), when negative in Zones 2 and 2E, shall be applied in Zone 2/2E for a distance from the edge of roof equal to 0.5 times the horizontal dimension of the building parallel to the direction of the MWFRS being designed or 2.5 times the eave height at the windward wall, whichever is less; the remainder of Zone 2/2E extending to the ridge line shall use the pressure coef fi cient ( GCpf ) for Zone 3/3E.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-28.3.2.2-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3.2.2",
+      "citation": "Section 28.3.2.2",
+      "page": 2
+    },
+    "title": "28.3.2.2 Torsional Load Cases The external pressure coef fi cient, ( GCpf ), for torsional load cases shall be determined in accordance with Figure 28.3-2. For Zones 1 to 6 and 1E to 6E, Load Case 3 s",
+    "description": "",
+    "data": {
+      "rule": "28.3.2.2 Torsional Load Cases The external pressure coef fi cient, ( GCpf ), for torsional load cases shall be determined in accordance with Figure 28.3-2. For Zones 1 to 6 and 1E to 6E, Load Case 3 shall use Load Case 1 pressure coef fi cients from Figure 28.3-1, and Load Case 4 shall use Load Case 2 pressure coef fi cients from Figure 28.3-1. For zones designated with a ' T ' (1T to 6T), the pressure coef fi cients from Figure 28.3-2 shall be used.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-28.3-E28-3-11",
+      "ASCE7-22-28.3-F28-3-21"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-28.3.2.2-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3.2.2",
+      "citation": "Section 28.3.2.2",
+      "page": 2
+    },
+    "title": "The building shall be evaluated with each corner taken as the windward corner with loading patterns applied as shown and with all zones being loaded simultaneously. Each corner shall be evaluated sepa",
+    "description": "",
+    "data": {
+      "rule": "The building shall be evaluated with each corner taken as the windward corner with loading patterns applied as shown and with all zones being loaded simultaneously. Each corner shall be evaluated separately for the two load cases. In each load case, Zones 2E and 3E shall be located along the roof edge perpendicular to the ridge that is nearest the corner being evaluated. Combinations of external and internal pressures (see Table 26.13-1) shall be evaluated as required to obtain the most severe loadings.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.13-T26-13-11"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-28.3.2.2-P2",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3.2.2",
+      "citation": "Section 28.3.2.2",
+      "page": 2
+    },
+    "title": "For fl at roofs, the roof angle, \u03b8 , shall be taken as 0 with the Zone 2/3 and Zone 2E/3E boundary at the mid-width of the building. The roof pressure coef fi cient, ( GCpf ), when negative in Zones 2",
+    "description": "",
+    "data": {
+      "rule": "For fl at roofs, the roof angle, \u03b8 , shall be taken as 0 with the Zone 2/3 and Zone 2E/3E boundary at the mid-width of the building. The roof pressure coef fi cient, ( GCpf ), when negative in Zones 2 and 2E, shall be applied in Zone 2/2E for a distance from the edge of roof equal to 0.5 times the horizontal dimension of the building parallel to the direction of the MWFRS being designed or 2.5 times the eave height at the windward wall, whichever is less; the remainder of Zone 2/2E extending to the ridge line shall use the pressure coef fi cient, ( GCpf ), for Zone 3/3E.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-28.3.3-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3.3",
+      "citation": "Section 28.3.3",
+      "page": 2
+    },
+    "title": "28.3.3 Total Horizontal Load The total horizontal shear shall not be less than that determined by neglecting the wind forces on the roof.",
+    "description": "",
+    "data": {
+      "rule": "28.3.3 Total Horizontal Load The total horizontal shear shall not be less than that determined by neglecting the wind forces on the roof.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-28.3.3-X1",
+    "type": "exception",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3.3",
+      "citation": "Section 28.3.3",
+      "page": 2
+    },
+    "title": "EXCEPTION: This provision does not apply to buildings using moment frames for the MWFRS.",
+    "description": "",
+    "data": {
+      "rule": "EXCEPTION: This provision does not apply to buildings using moment frames for the MWFRS.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-28.3.4-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3.4",
+      "citation": "Section 28.3.4",
+      "page": 2
+    },
+    "title": "28.3.4 Parapets The design wind pressure for the effect of parapets on MWFRS of low-rise buildings with fl at, gable, or hip roofs shall be determined by the following equation:",
+    "description": "",
+    "data": {
+      "rule": "28.3.4 Parapets The design wind pressure for the effect of parapets on MWFRS of low-rise buildings with fl at, gable, or hip roofs shall be determined by the following equation:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-28.3.4-T1",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3.4",
+      "citation": "Section 28.3.4",
+      "page": 2
+    },
+    "title": "where pp = Combined net pressure on the parapet caused by the combination of the net pressures from the front and back parapet surfaces; plus (and minus) signs signify net pressure acting toward (and ",
+    "description": "",
+    "data": {
+      "rule": "where pp = Combined net pressure on the parapet caused by the combination of the net pressures from the front and back parapet surfaces; plus (and minus) signs signify net pressure acting toward (and away from) the front (exterior) side of the parapet;",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-28.3.4-H1"
+  },
+  {
+    "id": "ASCE7-22-28.3.4-T2",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3.4",
+      "citation": "Section 28.3.4",
+      "page": 2
+    },
+    "title": "qp = Velocity pressure evaluated at the top of the parapet; Kd = Wind directionality factor, see Section 26.6; and",
+    "description": "",
+    "data": {
+      "rule": "qp = Velocity pressure evaluated at the top of the parapet; Kd = Wind directionality factor, see Section 26.6; and",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.6-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-28.3.4-H1"
+  },
+  {
+    "id": "ASCE7-22-28.3.4-T3",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3.4",
+      "citation": "Section 28.3.4",
+      "page": 2
+    },
+    "title": "( GCpn ) = Combined net pressure coef fi cient: \u00fe 1.5 for windward parapet, -1.0 for leeward parapet.",
+    "description": "",
+    "data": {
+      "rule": "( GCpn ) = Combined net pressure coef fi cient: \u00fe 1.5 for windward parapet, -1.0 for leeward parapet.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-28.3.4-H1"
+  },
+  {
+    "id": "ASCE7-22-28.3.5-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3.5",
+      "citation": "Section 28.3.5",
+      "page": 2
+    },
+    "title": "28.3.5 Roof Overhangs The positive external pressure on the bottom surface of windward roof overhangs shall be determined using GCp = 0.7 in combination with the top surface pressures determined using",
+    "description": "",
+    "data": {
+      "rule": "28.3.5 Roof Overhangs The positive external pressure on the bottom surface of windward roof overhangs shall be determined using GCp = 0.7 in combination with the top surface pressures determined using Figure 28.3-1.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-28.3-E28-3-11"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-28.3.6-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3.6",
+      "citation": "Section 28.3.6",
+      "page": 2
+    },
+    "title": "28.3.6 Minimum Design Wind Loads The wind pressure to be used in the design of the MWFRS for an enclosed or partially enclosed building shall not be less than 16 lb/ft 2 (0.77 kN/m 2 ) multiplied by t",
+    "description": "",
+    "data": {
+      "rule": "28.3.6 Minimum Design Wind Loads The wind pressure to be used in the design of the MWFRS for an enclosed or partially enclosed building shall not be less than 16 lb/ft 2 (0.77 kN/m 2 ) multiplied by the wall area of the building, and 8 lb/ft 2 (0.38 kN/ m 2 ) multiplied by the roof area of the building projected onto a vertical plane normal to the assumed wind direction.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-28.3.7-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3.7",
+      "citation": "Section 28.3.7",
+      "page": 2
+    },
+    "title": "28.3.7 Horizontal Wind Loads on Open or Partially Enclosed Buildings with Transverse Frames and Pitched Roofs A horizontal pressure in the longitudinal direction (parallel to the ridge) that acts in c",
+    "description": "",
+    "data": {
+      "rule": "28.3.7 Horizontal Wind Loads on Open or Partially Enclosed Buildings with Transverse Frames and Pitched Roofs A horizontal pressure in the longitudinal direction (parallel to the ridge) that acts in combination with the roof load calculated in Section 27.4.3 for an open or partially enclosed building with transverse frames and a pitched roof ( \u03b8 < 45 degrees) shall be determined by the following equation:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-28.3.7-T1",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3.7",
+      "citation": "Section 28.3.7",
+      "page": 2
+    },
+    "title": "where qh = Velocity pressure evaluated at mean roof height h using the exposure as de fi ned in Section 26.7.3;",
+    "description": "",
+    "data": {
+      "rule": "where qh = Velocity pressure evaluated at mean roof height h using the exposure as de fi ned in Section 26.7.3; Diagrams 4E LEEWARD (3 (2 LEEWARD Basic Load Cases",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.7.3-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-28.3.7-H13"
+  },
+  {
+    "id": "ASCE7-22-28.3.7-T9",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3.7",
+      "citation": "Section 28.3.7",
+      "page": 3
+    },
+    "title": "_____________________________________________________________________________",
+    "description": "",
+    "data": {
+      "rule": "_____________________________________________________________________________ Load Case 1 Load Case 2 Diagrams WINDWARD I ASSUMED WIND DIRECTIONS 4E 3E 2E WINDWARD WIND DIRECTIONS ASSUMEO T",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-28.3.7-H13"
+  },
+  {
+    "id": "ASCE7-22-28.3.7-H2",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3.7",
+      "citation": "Section 28.3.7",
+      "page": 3
+    },
+    "title": "Notation",
+    "description": "",
+    "data": {
+      "rule": "Notation",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-28.3.7-T22",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3.7",
+      "citation": "Section 28.3.7",
+      "page": 3
+    },
+    "title": "a =10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m).",
+    "description": "",
+    "data": {
+      "rule": "a =10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m).",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-28.3.7-H13"
+  },
+  {
+    "id": "ASCE7-22-28.3.7-D1",
+    "type": "definition",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3.7",
+      "citation": "Section 28.3.7",
+      "page": 3
+    },
+    "title": "EXCEPTION: For buildings with \u03b8 = 0 to 7\u00b0 and a least horizontal dimension greater than 300 ft (90 m), dimension a shall be limited to a maximum of 0.8 h.",
+    "description": "",
+    "data": {
+      "term": "EXCEPTION",
+      "definition": "For buildings with \u03b8 = 0 to 7\u00b0 and a least horizontal dimension greater than 300 ft (90 m), dimension a shall be limited to a maximum of 0.8 h."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-28.3.7-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3.7",
+      "citation": "Section 28.3.7",
+      "page": 3
+    },
+    "title": "h =Mean roof height, ft (m), except that eave height shall be used for \u03b8 \u2264 10\u00b0.",
+    "description": "",
+    "data": {
+      "rule": "h =Mean roof height, ft (m), except that eave height shall be used for \u03b8 \u2264 10\u00b0.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-28.3.7-T23",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3.7",
+      "citation": "Section 28.3.7",
+      "page": 3
+    },
+    "title": "\u03b8 = Angle of plane of roof from horizontal, in degrees.",
+    "description": "",
+    "data": {
+      "rule": "\u03b8 = Angle of plane of roof from horizontal, in degrees.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-28.3.7-H13"
+  },
+  {
+    "id": "ASCE7-22-28.3.7-H3",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3.7",
+      "citation": "Section 28.3.7",
+      "page": 3
+    },
+    "title": "Load Case 1",
+    "description": "",
+    "data": {
+      "rule": "Load Case 1",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-28.3.7-H4",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3.7",
+      "citation": "Section 28.3.7",
+      "page": 3
+    },
+    "title": "Load Case 2",
+    "description": "",
+    "data": {
+      "rule": "Load Case 2",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-28.3.7-H5",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3.7",
+      "citation": "Section 28.3.7",
+      "page": 3
+    },
+    "title": "Notes",
+    "description": "",
+    "data": {
+      "rule": "Notes",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-28.3.7-T24",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3.7",
+      "citation": "Section 28.3.7",
+      "page": 3
+    },
+    "title": "Plus and minus signs signify pressures acting toward and away from the surfaces, respectively.",
+    "description": "",
+    "data": {
+      "rule": "Plus and minus signs signify pressures acting toward and away from the surfaces, respectively.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-28.3.7-H13"
+  },
+  {
+    "id": "ASCE7-22-28.3.7-P2",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3.7",
+      "citation": "Section 28.3.7",
+      "page": 3
+    },
+    "title": "For values of \u03b8 other than those shown, linear interpolation is permitted.",
+    "description": "",
+    "data": {
+      "rule": "For values of \u03b8 other than those shown, linear interpolation is permitted.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-28.3.7-T25",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3.7",
+      "citation": "Section 28.3.7",
+      "page": 3
+    },
+    "title": "Figure 28.3-1. Basic load cases for main wind force resisting system [ h \u2264 60 ft ( h \u2264 18.3 m)]: external pressure coefficients, ( GCpf ), for enclosed, partially enclosed, and partially open building",
+    "description": "",
+    "data": {
+      "rule": "Figure 28.3-1. Basic load cases for main wind force resisting system [ h \u2264 60 ft ( h \u2264 18.3 m)]: external pressure coefficients, ( GCpf ), for enclosed, partially enclosed, and partially open buildings -low-rise walls and roofs. Diagrams 4T LEENARD 6E",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-28.3-E28-3-11"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-28.3-F28-3-11"
+  },
+  {
+    "id": "ASCE7-22-28-T1",
+    "type": "table",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28",
+      "citation": "",
+      "page": 3
+    },
+    "title": "Table",
+    "description": "",
+    "data": {
+      "columns": [
+        {
+          "name": "col_0",
+          "unit": null
+        },
+        {
+          "name": "Building Surface",
+          "unit": null
+        },
+        {
+          "name": "col_2",
+          "unit": null
+        },
+        {
+          "name": "col_3",
+          "unit": null
+        },
+        {
+          "name": "col_4",
+          "unit": null
+        },
+        {
+          "name": "col_5",
+          "unit": null
+        },
+        {
+          "name": "col_6",
+          "unit": null
+        },
+        {
+          "name": "col_7",
+          "unit": null
+        },
+        {
+          "name": "col_8",
+          "unit": null
+        }
+      ],
+      "rows": [
+        {
+          "col_0": "Roof Angle \u03b8 (degrees)",
+          "Building Surface": 1,
+          "col_2": 2,
+          "col_3": 3,
+          "col_4": 4,
+          "col_5": "1E",
+          "col_6": "2E",
+          "col_7": "3E",
+          "col_8": "4E"
+        },
+        {
+          "col_0": "0-5",
+          "Building Surface": 0.4,
+          "col_2": "0.69 -",
+          "col_3": "0.37 -",
+          "col_4": "0.29 -",
+          "col_5": 0.61,
+          "col_6": "1.07 -",
+          "col_7": "0.53 -",
+          "col_8": "0.43 -"
+        },
+        {
+          "col_0": 20,
+          "Building Surface": 0.53,
+          "col_2": "0.69 -",
+          "col_3": "0.48 -",
+          "col_4": "0.43 -",
+          "col_5": 0.8,
+          "col_6": "1.07 -",
+          "col_7": "0.69 -",
+          "col_8": "0.64 -"
+        },
+        {
+          "col_0": "30-45",
+          "Building Surface": 0.56,
+          "col_2": 0.21,
+          "col_3": "0.43 -",
+          "col_4": "0.37 -",
+          "col_5": 0.69,
+          "col_6": 0.27,
+          "col_7": "0.53 -",
+          "col_8": "0.48 -"
+        },
+        {
+          "col_0": 90,
+          "Building Surface": 0.56,
+          "col_2": 0.56,
+          "col_3": "0.37 -",
+          "col_4": -0.37,
+          "col_5": 0.69,
+          "col_6": 0.69,
+          "col_7": "0.48 -",
+          "col_8": -0.48
+        }
+      ]
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "docling"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-28-T2",
+    "type": "table",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28",
+      "citation": "",
+      "page": 3
+    },
+    "title": "Table",
+    "description": "",
+    "data": {
+      "columns": [
+        {
+          "name": "col_0",
+          "unit": null
+        },
+        {
+          "name": "Building Surface",
+          "unit": null
+        },
+        {
+          "name": "col_2",
+          "unit": null
+        },
+        {
+          "name": "col_3",
+          "unit": null
+        },
+        {
+          "name": "col_4",
+          "unit": null
+        },
+        {
+          "name": "col_5",
+          "unit": null
+        },
+        {
+          "name": "col_6",
+          "unit": null
+        },
+        {
+          "name": "col_7",
+          "unit": null
+        },
+        {
+          "name": "col_8",
+          "unit": null
+        },
+        {
+          "name": "col_9",
+          "unit": null
+        },
+        {
+          "name": "col_10",
+          "unit": null
+        },
+        {
+          "name": "col_11",
+          "unit": null
+        },
+        {
+          "name": "col_12",
+          "unit": null
+        }
+      ],
+      "rows": [
+        {
+          "col_0": "",
+          "Building Surface": 1,
+          "col_2": 2,
+          "col_3": 3,
+          "col_4": 4,
+          "col_5": 5,
+          "col_6": 6,
+          "col_7": "1E",
+          "col_8": "2E",
+          "col_9": "3E",
+          "col_10": "4E",
+          "col_11": "5E",
+          "col_12": "6E"
+        },
+        {
+          "col_0": "0-90",
+          "Building Surface": "0.45 -",
+          "col_2": "0.69 -",
+          "col_3": "0.37 -",
+          "col_4": "0.45 -",
+          "col_5": 0.4,
+          "col_6": "0.29 -",
+          "col_7": "0.48 -",
+          "col_8": "1.07 -",
+          "col_9": "0.53 -",
+          "col_10": "0.48 -",
+          "col_11": 0.61,
+          "col_12": "0.43 -"
+        }
+      ]
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "docling"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-28.3-F28-3-11",
+    "type": "figure",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3",
+      "citation": "Figure 28.3-1",
+      "page": 3
+    },
+    "title": "Figure 28.3-1. Basic load cases for main wind force resisting system [h \u226460 ft (h \u226418.3 m)]: external pressure coefficients,",
+    "description": "Figure 28.3-1. Basic load cases for main wind force resisting system [h \u226460 ft (h \u226418.3 m)]: external pressure coefficients,",
+    "data": {
+      "figure_type": "other",
+      "description": "Figure 28.3-1. Basic load cases for main wind force resisting system [h \u226460 ft (h \u226418.3 m)]: external pressure coefficients,",
+      "source_pdf_page": 3
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "bold_label"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-28.3.7-H6",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3.7",
+      "citation": "Section 28.3.7",
+      "page": 4
+    },
+    "title": "Torsional Load Cases",
+    "description": "",
+    "data": {
+      "rule": "Torsional Load Cases",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-28.3.7-H7",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3.7",
+      "citation": "Section 28.3.7",
+      "page": 4
+    },
+    "title": "Diagrams",
+    "description": "",
+    "data": {
+      "rule": "Diagrams Load Case 3 Load Case 4 WINDWARD 0.55 5E ASSUMED WIND DIRECTIONS WINDINARD ASSUMED WIND DIRECTIONS",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-28.3.7-H8",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3.7",
+      "citation": "Section 28.3.7",
+      "page": 4
+    },
+    "title": "Notation",
+    "description": "",
+    "data": {
+      "rule": "Notation",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-28.3.7-T40",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3.7",
+      "citation": "Section 28.3.7",
+      "page": 4
+    },
+    "title": "a = 10% of least horizontal dimension or 0.4 h , whichever is smaller, but not less than either 4% of least horizontal dimensionor 3ft (0.9 m).",
+    "description": "",
+    "data": {
+      "rule": "a = 10% of least horizontal dimension or 0.4 h , whichever is smaller, but not less than either 4% of least horizontal dimensionor 3ft (0.9 m).",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-28.3.7-H13"
+  },
+  {
+    "id": "ASCE7-22-28.3.7-P3",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3.7",
+      "citation": "Section 28.3.7",
+      "page": 4
+    },
+    "title": "h =Mean roof height, in feet (meters), except that eave height shall be used for \u03b8 \u2264 10\u00b0.",
+    "description": "",
+    "data": {
+      "rule": "h =Mean roof height, in feet (meters), except that eave height shall be used for \u03b8 \u2264 10\u00b0.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-28.3.7-D2",
+    "type": "definition",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3.7",
+      "citation": "Section 28.3.7",
+      "page": 4
+    },
+    "title": "EXCEPTION: For buildings with \u03b8 = 0 to 7\u00b0 and a least horizontal dimension greater than 300 ft (90 m), dimension a shall be limited to a maximum of 0.8 h .",
+    "description": "",
+    "data": {
+      "term": "EXCEPTION",
+      "definition": "For buildings with \u03b8 = 0 to 7\u00b0 and a least horizontal dimension greater than 300 ft (90 m), dimension a shall be limited to a maximum of 0.8 h ."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-28.3.7-T41",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3.7",
+      "citation": "Section 28.3.7",
+      "page": 4
+    },
+    "title": "\u03b8 = Angle of plane of roof from horizontal, in degrees.",
+    "description": "",
+    "data": {
+      "rule": "\u03b8 = Angle of plane of roof from horizontal, in degrees.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-28.3.7-H13"
+  },
+  {
+    "id": "ASCE7-22-28.3.7-H9",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3.7",
+      "citation": "Section 28.3.7",
+      "page": 4
+    },
+    "title": "Load Case 3",
+    "description": "",
+    "data": {
+      "rule": "Load Case 3",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-28.3.7-H10",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3.7",
+      "citation": "Section 28.3.7",
+      "page": 4
+    },
+    "title": "Load Case 4",
+    "description": "",
+    "data": {
+      "rule": "Load Case 4",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-28.3.7-H11",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3.7",
+      "citation": "Section 28.3.7",
+      "page": 4
+    },
+    "title": "Notes",
+    "description": "",
+    "data": {
+      "rule": "Notes",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-28.3.7-T42",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3.7",
+      "citation": "Section 28.3.7",
+      "page": 4
+    },
+    "title": "Plus and minus signs signify pressures acting toward and away from the surfaces, respectively.",
+    "description": "",
+    "data": {
+      "rule": "Plus and minus signs signify pressures acting toward and away from the surfaces, respectively.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-28.3.7-H13"
+  },
+  {
+    "id": "ASCE7-22-28.3.7-P4",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3.7",
+      "citation": "Section 28.3.7",
+      "page": 4
+    },
+    "title": "For values of \u03b8 other than those shown, linear interpolation is permitted.",
+    "description": "",
+    "data": {
+      "rule": "For values of \u03b8 other than those shown, linear interpolation is permitted.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-28.3.7-T43",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3.7",
+      "citation": "Section 28.3.7",
+      "page": 4
+    },
+    "title": "Figure 28.3-2. Torsional load cases for main wind force resisting system [ h \u2264 60 ft ( h \u2264 18.3 m)]: external pressure coefficients, (GC pf ), for enclosed, partially enclosed, and partially open buil",
+    "description": "",
+    "data": {
+      "rule": "Figure 28.3-2. Torsional load cases for main wind force resisting system [ h \u2264 60 ft ( h \u2264 18.3 m)]: external pressure coefficients, (GC pf ), for enclosed, partially enclosed, and partially open buildings -low-rise walls and roofs. 4E 4E 2T",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-28.3-F28-3-21"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-28.3-F28-3-21"
+  },
+  {
+    "id": "ASCE7-22-28-T3",
+    "type": "table",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28",
+      "citation": "",
+      "page": 4
+    },
+    "title": "Table",
+    "description": "",
+    "data": {
+      "columns": [
+        {
+          "name": "col_0",
+          "unit": null
+        },
+        {
+          "name": "Building Surface",
+          "unit": null
+        },
+        {
+          "name": "col_2",
+          "unit": null
+        },
+        {
+          "name": "col_3",
+          "unit": null
+        },
+        {
+          "name": "col_4",
+          "unit": null
+        }
+      ],
+      "rows": [
+        {
+          "col_0": "Roof Angle \u03b8 (degrees)",
+          "Building Surface": "1T",
+          "col_2": "2T",
+          "col_3": "3T",
+          "col_4": "4T"
+        },
+        {
+          "col_0": "0-5",
+          "Building Surface": 0.1,
+          "col_2": -0.17,
+          "col_3": -0.09,
+          "col_4": -0.07
+        },
+        {
+          "col_0": 20,
+          "Building Surface": 0.13,
+          "col_2": -0.17,
+          "col_3": -0.12,
+          "col_4": -0.11
+        },
+        {
+          "col_0": "30-45",
+          "Building Surface": 0.14,
+          "col_2": 0.05,
+          "col_3": -0.11,
+          "col_4": -0.09
+        },
+        {
+          "col_0": 90,
+          "Building Surface": 0.14,
+          "col_2": 0.14,
+          "col_3": -0.09,
+          "col_4": -0.09
+        }
+      ]
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "docling"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-28-T4",
+    "type": "table",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28",
+      "citation": "",
+      "page": 4
+    },
+    "title": "Table",
+    "description": "",
+    "data": {
+      "columns": [
+        {
+          "name": "col_0",
+          "unit": null
+        },
+        {
+          "name": "Building Surface",
+          "unit": null
+        },
+        {
+          "name": "col_2",
+          "unit": null
+        }
+      ],
+      "rows": [
+        {
+          "col_0": "Roof Angle \u03b8 (degrees)",
+          "Building Surface": "5T",
+          "col_2": "6T"
+        },
+        {
+          "col_0": "0-90",
+          "Building Surface": 0.1,
+          "col_2": -0.07
+        }
+      ]
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "docling"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-28.3-F28-3-21",
+    "type": "figure",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3",
+      "citation": "Figure 28.3-2",
+      "page": 4
+    },
+    "title": "Figure 28.3-2. Torsional load cases for main wind force resisting system [h \u226460 ft (h \u226418.3 m)]: external pressure",
+    "description": "Figure 28.3-2. Torsional load cases for main wind force resisting system [h \u226460 ft (h \u226418.3 m)]: external pressure",
+    "data": {
+      "figure_type": "other",
+      "description": "Figure 28.3-2. Torsional load cases for main wind force resisting system [h \u226460 ft (h \u226418.3 m)]: external pressure",
+      "source_pdf_page": 4
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "bold_label"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-28.3.7-T47",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3.7",
+      "citation": "Section 28.3.7",
+      "page": 5
+    },
+    "title": "Figure 28.3-3. Horizontal wind loads on open or partially enclosed buildings with transverse frames and pitched roofs: definitions of geometric terminology.",
+    "description": "",
+    "data": {
+      "rule": "Figure 28.3-3. Horizontal wind loads on open or partially enclosed buildings with transverse frames and pitched roofs: definitions of geometric terminology.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-28.3-E28-3-31"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-28.3-F28-3-31"
+  },
+  {
+    "id": "ASCE7-22-28.3.7-H12",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3.7",
+      "citation": "Section 28.3.7",
+      "page": 5
+    },
+    "title": "Diagram",
+    "description": "",
+    "data": {
+      "rule": "Diagram",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-28.3.7-H13",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3.7",
+      "citation": "Section 28.3.7",
+      "page": 5
+    },
+    "title": "Notation",
+    "description": "",
+    "data": {
+      "rule": "Notation",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-28.3.7-T48",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3.7",
+      "citation": "Section 28.3.7",
+      "page": 5
+    },
+    "title": "B = Width of the building perpendicular to the ridge, ft (m)",
+    "description": "",
+    "data": {
+      "rule": "B = Width of the building perpendicular to the ridge, ft (m)",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-28.3.7-H13"
+  },
+  {
+    "id": "ASCE7-22-28.3.7-T49",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3.7",
+      "citation": "Section 28.3.7",
+      "page": 5
+    },
+    "title": "S A = Effective solid area of the end wall (i.e., the projected area of any portion of the end wall that would be exposed to the wind)",
+    "description": "",
+    "data": {
+      "rule": "S A = Effective solid area of the end wall (i.e., the projected area of any portion of the end wall that would be exposed to the wind)",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-28.3.7-H13"
+  },
+  {
+    "id": "ASCE7-22-28.3.7-T50",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3.7",
+      "citation": "Section 28.3.7",
+      "page": 5
+    },
+    "title": "E A = Total end wall area for an equivalent enclosed building",
+    "description": "",
+    "data": {
+      "rule": "E A = Total end wall area for an equivalent enclosed building",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-28.3.7-H13"
+  },
+  {
+    "id": "ASCE7-22-28.3.7-P5",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3.7",
+      "citation": "Section 28.3.7",
+      "page": 5
+    },
+    "title": "n = Number of frames, but shall not be taken as less than 3, even for 2-frame building.",
+    "description": "",
+    "data": {
+      "rule": "n = Number of frames, but shall not be taken as less than 3, even for 2-frame building. n = 5",
+      "conditions": [
+        {
+          "parameter": "n",
+          "operator": "==",
+          "value": 5.0,
+          "unit": null
+        },
+        {
+          "parameter": "",
+          "operator": "<",
+          "value": 3.0,
+          "unit": null
+        }
+      ],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-28.3.7-T52",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3.7",
+      "citation": "Section 28.3.7",
+      "page": 5
+    },
+    "title": "Kd = Wind directionality factor, see Section 26.6;",
+    "description": "",
+    "data": {
+      "rule": "Kd = Wind directionality factor, see Section 26.6;",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.6-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-28.3.7-H13"
+  },
+  {
+    "id": "ASCE7-22-28.3.7-P6",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3.7",
+      "citation": "Section 28.3.7",
+      "page": 5
+    },
+    "title": "( GCpf ) = External pressure coef fi cient given in Figure 28.3-1 for Load Case 2, where building surfaces 5 and 5E shall be used to compute the average windward end wall pressure and building surface",
+    "description": "",
+    "data": {
+      "rule": "( GCpf ) = External pressure coef fi cient given in Figure 28.3-1 for Load Case 2, where building surfaces 5 and 5E shall be used to compute the average windward end wall pressure and building surfaces 6 and 6E shall be used to compute the average leeward end wall pressure;",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-28.3-E28-3-11"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-28.3.7-T53",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3.7",
+      "citation": "Section 28.3.7",
+      "page": 5
+    },
+    "title": "KS = Shielding factor = 0.60 \u00fe 0.073 \u00f0 n -3 \u00de\u00fe \u00f0 1.25 \u03d5 1.8 \u00de ;",
+    "description": "",
+    "data": {
+      "rule": "KS = Shielding factor = 0.60 \u00fe 0.073 \u00f0 n -3 \u00de\u00fe \u00f0 1.25 \u03d5 1.8 \u00de ;",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-28.3.7-H13"
+  },
+  {
+    "id": "ASCE7-22-28.3.7-T54",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3.7",
+      "citation": "Section 28.3.7",
+      "page": 5
+    },
+    "title": "KB = Frame width factor = 1.8 -0.01 B , B < 100 ft ( B < 30.5 m), or 0.8, B \u2265 100 ft ( B \u2265 30.5 m);",
+    "description": "",
+    "data": {
+      "rule": "KB = Frame width factor = 1.8 -0.01 B , B < 100 ft ( B < 30.5 m), or 0.8, B \u2265 100 ft ( B \u2265 30.5 m);",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-28.3.7-H13"
+  },
+  {
+    "id": "ASCE7-22-28.3.7-T55",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3.7",
+      "citation": "Section 28.3.7",
+      "page": 5
+    },
+    "title": "\u03d5 = Solidity ratio = AS \u2215 AE ;",
+    "description": "",
+    "data": {
+      "rule": "\u03d5 = Solidity ratio = AS \u2215 AE ;",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-28.3.7-H13"
+  },
+  {
+    "id": "ASCE7-22-28.3.7-T56",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3.7",
+      "citation": "Section 28.3.7",
+      "page": 5
+    },
+    "title": "B = Width of the building perpendicular to the ridge, ft (m);",
+    "description": "",
+    "data": {
+      "rule": "B = Width of the building perpendicular to the ridge, ft (m);",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-28.3.7-H13"
+  },
+  {
+    "id": "ASCE7-22-28.3.7-P7",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3.7",
+      "citation": "Section 28.3.7",
+      "page": 5
+    },
+    "title": "n = Number of frames, but shall not be taken as less than 3, even for small 2-frame building;",
+    "description": "",
+    "data": {
+      "rule": "n = Number of frames, but shall not be taken as less than 3, even for small 2-frame building;",
+      "conditions": [
+        {
+          "parameter": "",
+          "operator": "<",
+          "value": 3.0,
+          "unit": null
+        }
+      ],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-28.3.7-T57",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3.7",
+      "citation": "Section 28.3.7",
+      "page": 5
+    },
+    "title": "AS = Effective solid area of the end wall, that is, the projected area of any portion of the end wall that would be exposed to the wind (Figure 28.3-3); and",
+    "description": "",
+    "data": {
+      "rule": "AS = Effective solid area of the end wall, that is, the projected area of any portion of the end wall that would be exposed to the wind (Figure 28.3-3); and",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-28.3-E28-3-31"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-28.3.7-H13"
+  },
+  {
+    "id": "ASCE7-22-28.3.7-T58",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3.7",
+      "citation": "Section 28.3.7",
+      "page": 5
+    },
+    "title": "AE = Total end wall area for an equivalent enclosed building (Figure 28.3-3).",
+    "description": "",
+    "data": {
+      "rule": "AE = Total end wall area for an equivalent enclosed building (Figure 28.3-3).",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-28.3-E28-3-31"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-28.3.7-H13"
+  },
+  {
+    "id": "ASCE7-22-28.3.7-P8",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3.7",
+      "citation": "Section 28.3.7",
+      "page": 5
+    },
+    "title": "The total longitudinal force F to be resisted by the MWFRS shall be determined by Equation (28.3-4):",
+    "description": "",
+    "data": {
+      "rule": "The total longitudinal force F to be resisted by the MWFRS shall be determined by Equation (28.3-4):",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-28.3.7-P9",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3.7",
+      "citation": "Section 28.3.7",
+      "page": 5
+    },
+    "title": "Equation (28.3-3) is applicable to buildings with open end walls and with end walls fully or partially enclosed with cladding. For all cases, AE shall be the area that is equivalent to the end wall fu",
+    "description": "",
+    "data": {
+      "rule": "Equation (28.3-3) is applicable to buildings with open end walls and with end walls fully or partially enclosed with cladding. For all cases, AE shall be the area that is equivalent to the end wall fully enclosed. The longitudinal force, F , given by Equation (28.3-4) represents the total force for which the MWFRSlongitudinal bracing shall be designed. The distribution to each sidewall shall be based on the force F applied at the centroid of the end wall area AE .",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-28.3.7-P10",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3.7",
+      "citation": "Section 28.3.7",
+      "page": 5
+    },
+    "title": "Fascia load need not be considered separately if fascia areas are included in the AS calculation.",
+    "description": "",
+    "data": {
+      "rule": "Fascia load need not be considered separately if fascia areas are included in the AS calculation.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-28.4-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.4",
+      "citation": "Section 28.4",
+      "page": 5
+    },
+    "title": "28.4 CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
+    "description": "",
+    "data": {
+      "rule": "28.4 CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-28.4-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.4",
+      "citation": "Section 28.4",
+      "page": 5
+    },
+    "title": "No consensus standards and other documents that shall be considered part of this standard are referenced in this chapter.",
+    "description": "",
+    "data": {
+      "rule": "No consensus standards and other documents that shall be considered part of this standard are referenced in this chapter.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-28.3-F28-3-31",
+    "type": "figure",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3",
+      "citation": "Figure 28.3-3",
+      "page": 5
+    },
+    "title": "Figure 28.3-3. Horizontal wind loads on open or partially enclosed buildings with transverse frames and pitched roofs:",
+    "description": "Figure 28.3-3. Horizontal wind loads on open or partially enclosed buildings with transverse frames and pitched roofs:",
+    "data": {
+      "figure_type": "other",
+      "description": "Figure 28.3-3. Horizontal wind loads on open or partially enclosed buildings with transverse frames and pitched roofs:",
+      "source_pdf_page": 5
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "bold_label"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-28.3-E28-3-41",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3",
+      "citation": "Eq. (28.3-4)",
+      "page": 5
+    },
+    "title": "Equation (28.3-4)",
+    "description": "",
+    "data": {
+      "expression": "The total longitudinal force F to be resisted by the MWFRS shall be determined by Equation (28.3-4)",
+      "parameters": {
+        "F": {
+          "description": "0.12 \u00d7 slope, with slope expressed in percentage points) and, for an arch or dome, F is the rise-to-span ratio multiplied by 32",
+          "source": "ASCE7-22-4.8.2-T4"
+        }
+      }
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-28.3-E28-3-31",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.3",
+      "citation": "Eq. (28.3-3)",
+      "page": 5
+    },
+    "title": "Equation (28.3-3)",
+    "description": "",
+    "data": {
+      "expression": "Equation (28.3-3)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-28.4-T1",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.4",
+      "citation": "Section 28.4",
+      "page": 6
+    },
+    "title": "Downloaded from ascelibrary.org by Serge Terentieff on 03/10/22. Copyright ASCE. For personal use only; all rights reserved.",
+    "description": "",
+    "data": {
+      "rule": "Downloaded from ascelibrary.org by Serge Terentieff on 03/10/22. Copyright ASCE. For personal use only; all rights reserved.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-28.4-H1"
+  },
+  {
+    "id": "ASCE7-22-28.4-T2",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 28,
+      "section": "28.4",
+      "citation": "Section 28.4",
+      "page": 6
+    },
+    "title": "This page intentionally left blank",
+    "description": "",
+    "data": {
+      "rule": "This page intentionally left blank",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-28.4-H1"
+  }
+]

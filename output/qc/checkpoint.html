@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>CHECKPOINT — Batch Quality Report</title>
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+:root {
+  --bg:#FFF; --surface:#F5F5F5; --text:#1A1A1A; --muted:#6B6B6B;
+  --dim:#505050; --border:#D4D4D4; --subtle:#E8E8E8;
+  --accent:#0057FF; --red:#DC2626; --amber:#D97706; --green:#16A34A; --cyan:#06B6D4;
+  --pass-bg:rgba(22,163,74,0.08); --fail-bg:rgba(220,38,38,0.07);
+  --partial-bg:rgba(217,119,6,0.08);
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#0A0A0A; --surface:#141414; --text:#E5E5E5; --muted:#808080;
+  --dim:#606060; --border:#2A2A2A; --subtle:#1A1A1A;
+  --accent:#3B82F6; --red:#EF4444; --amber:#F59E0B; --green:#22C55E; --cyan:#22D3EE;
+  --pass-bg:rgba(22,163,74,0.08); --fail-bg:rgba(239,68,68,0.08);
+  --partial-bg:rgba(245,158,11,0.08);
+}}
+html,body { background:var(--bg); color:var(--text);
+  font-family:'JetBrains Mono','SF Mono','Cascadia Mono','IBM Plex Mono',monospace;
+  font-size:12px; line-height:1.5; }
+.page { max-width:1100px; margin:0 auto; padding:24px 16px; }
+.hdr { border-bottom:1px solid var(--border); padding-bottom:10px; margin-bottom:20px; }
+.hdr h1 { font-size:14px; font-weight:600; text-transform:uppercase; letter-spacing:.1em; }
+.hdr .sub { font-size:10px; color:var(--muted); margin-top:2px; }
+.section { margin-bottom:28px; }
+.section-title { font-size:9px; text-transform:uppercase; letter-spacing:.12em;
+  color:var(--muted); border-bottom:1px solid var(--border); padding-bottom:4px; margin-bottom:10px; }
+/* stat grid */
+.stats { display:grid; grid-template-columns:repeat(auto-fill,minmax(160px,1fr)); gap:8px; margin-bottom:20px; }
+.stat { background:var(--surface); border:1px solid var(--border); padding:8px 10px; }
+.stat .lbl { font-size:9px; text-transform:uppercase; letter-spacing:.08em; color:var(--muted); }
+.stat .val { font-size:18px; font-variant-numeric:tabular-nums; color:var(--text); margin-top:2px; }
+.stat .sub { font-size:9px; color:var(--dim); margin-top:1px; }
+.stat.s-pass { border-color:var(--green); }
+.stat.s-fail { border-color:var(--red); }
+.stat.s-warn { border-color:var(--amber); }
+/* table */
+table { width:100%; border-collapse:collapse; font-size:11px; }
+th { font-size:9px; text-transform:uppercase; letter-spacing:.08em; color:var(--muted);
+  text-align:left; padding:4px 8px; border-bottom:2px solid var(--border); white-space:nowrap; }
+td { padding:4px 8px; border-bottom:1px solid var(--border); font-variant-numeric:tabular-nums;
+  white-space:nowrap; }
+tr.pass td { background:var(--pass-bg); }
+tr.fail td { background:var(--fail-bg); }
+tr.partial td { background:var(--partial-bg); }
+tr:hover td { filter:brightness(0.96); }
+.badge { display:inline-block; font-size:9px; padding:1px 5px; border:1px solid;
+  text-transform:uppercase; letter-spacing:.05em; }
+.badge-pass { border-color:var(--green); color:var(--green); }
+.badge-fail { border-color:var(--red); color:var(--red); }
+.badge-partial { border-color:var(--amber); color:var(--amber); }
+.badge-err { border-color:var(--muted); color:var(--muted); }
+.bar-wrap { display:flex; align-items:center; gap:5px; }
+.bar { height:6px; flex:1; background:var(--subtle); border-radius:1px; overflow:hidden; }
+.bar-fill { height:100%; border-radius:1px; }
+.bar-g { background:var(--green); }
+.bar-a { background:var(--amber); }
+.bar-r { background:var(--red); }
+.types-list { font-size:10px; color:var(--dim); }
+.note { font-size:9px; color:var(--muted); margin-top:12px; }
+
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="hdr">
+    <h1>CHECKPOINT — Batch Quality Report</h1>
+    <div class="sub">Generated 2026-03-30T19:37:28Z &nbsp;·&nbsp; Batch timestamp: 2026-03-30T19:36:33.615636+00:00</div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Overall Stats</div>
+    <div class="stats"><div class="stat s-fail"><div class="lbl">Chapters</div><div class="val">29</div><div class=sub>0 pass / 29 fail</div></div><div class="stat "><div class="lbl">Elements</div><div class="val">7,216</div></div><div class="stat "><div class="lbl">Symbols</div><div class="val">282</div></div><div class="stat "><div class="lbl">Cross-refs</div><div class="val">1,964</div><div class=sub>1,728 intra / 236 inter</div></div><div class="stat s-fail"><div class="lbl">Broken refs</div><div class="val">772</div><div class=sub>6 pending</div></div><div class="stat s-warn"><div class="lbl">Unclassified</div><div class="val">43.6%</div><div class=sub>3,148 text_blocks</div></div><div class="stat "><div class="lbl">Avg fidelity</div><div class="val">100.0%</div><div class=sub>non-empty primary fields</div></div><div class="stat s-pass"><div class="lbl">Schema valid</div><div class="val">100.0%</div><div class=sub>7,216/7,216</div></div></div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Per-Chapter Breakdown</div>
+    <table>
+      <thead>
+        <tr>
+          <th>Ch</th>
+          <th>Title</th>
+          <th style="text-align:right">Pages</th>
+          <th style="text-align:right">Elems</th>
+          <th>Type breakdown</th>
+          <th style="min-width:120px">Classified %</th>
+          <th style="min-width:120px">Fidelity %</th>
+          <th style="text-align:right">XRefs</th>
+          <th>Intra/Inter</th>
+          <th style="min-width:120px">Schema %</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+<tr class="partial"><td>1</td><td>GENERAL</td><td style="text-align:right">6</td><td style="text-align:right">111</td><td class="types-list">provision:35  text_block:25  definition:22  heading:21  table:7  formula:1</td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-g" style="width:77%"></div></div><span>77%</span></div></td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-g" style="width:100%"></div></div><span>100%</span></div></td><td style="text-align:right">15</td><td style="text-align:right">15/0</td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-g" style="width:100%"></div></div><span>100%</span></div></td><td><span class="badge badge-fail">FAIL</span></td></tr>
+<tr class="partial"><td>2</td><td>COMBINATIONS OF LOADS</td><td style="text-align:right">4</td><td style="text-align:right">100</td><td class="types-list">text_block:36  heading:32  provision:29  formula:2  exception:1</td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-a" style="width:64%"></div></div><span>64%</span></div></td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-g" style="width:100%"></div></div><span>100%</span></div></td><td style="text-align:right">12</td><td style="text-align:right">12/0</td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-g" style="width:100%"></div></div><span>100%</span></div></td><td><span class="badge badge-fail">FAIL</span></td></tr>
+<tr class="partial"><td>3</td><td>DEAD LOADS, SOIL LOADS, AND HYDROSTATIC </td><td style="text-align:right">2</td><td style="text-align:right">25</td><td class="types-list">heading:13  provision:6  text_block:3  exception:2  table:1</td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-g" style="width:88%"></div></div><span>88%</span></div></td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-g" style="width:100%"></div></div><span>100%</span></div></td><td style="text-align:right">4</td><td style="text-align:right">4/0</td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-g" style="width:100%"></div></div><span>100%</span></div></td><td><span class="badge badge-fail">FAIL</span></td></tr>
+<tr class="partial"><td>4</td><td>LIVE LOADS</td><td style="text-align:right">8</td><td style="text-align:right">139</td><td class="types-list">heading:54  text_block:32  provision:31  definition:10  exception:6  table:4</td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-g" style="width:77%"></div></div><span>77%</span></div></td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-g" style="width:100%"></div></div><span>100%</span></div></td><td style="text-align:right">30</td><td style="text-align:right">30/0</td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-g" style="width:100%"></div></div><span>100%</span></div></td><td><span class="badge badge-fail">FAIL</span></td></tr>
+<tr class="partial"><td>5</td><td>FLOOD LOADS</td><td style="text-align:right">4</td><td style="text-align:right">87</td><td class="types-list">text_block:34  heading:17  provision:15  formula:9  definition:8  figure:2</td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-a" style="width:61%"></div></div><span>61%</span></div></td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-g" style="width:100%"></div></div><span>100%</span></div></td><td style="text-align:right">8</td><td style="text-align:right">8/0</td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-g" style="width:100%"></div></div><span>100%</span></div></td><td><span class="badge badge-fail">FAIL</span></td></tr>
+<tr class="partial"><td>6</td><td>TSUNAMI LOADS AND EFFECTS</td><td style="text-align:right">30</td><td style="text-align:right">720</td><td class="types-list">text_block:278  provision:185  heading:101  definition:64  formula:52  figure:19</td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-a" style="width:61%"></div></div><span>61%</span></div></td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-g" style="width:100%"></div></div><span>100%</span></div></td><td style="text-align:right">223</td><td style="text-align:right">223/0</td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-g" style="width:100%"></div></div><span>100%</span></div></td><td><span class="badge badge-fail">FAIL</span></td></tr>
+<tr class="partial"><td>7</td><td>SNOW LOADS</td><td style="text-align:right">16</td><td style="text-align:right">197</td><td class="types-list">text_block:76  heading:42  provision:42  figure:17  definition:9  table:5</td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-a" style="width:61%"></div></div><span>61%</span></div></td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-g" style="width:100%"></div></div><span>100%</span></div></td><td style="text-align:right">57</td><td style="text-align:right">56/1</td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-g" style="width:100%"></div></div><span>100%</span></div></td><td><span class="badge badge-fail">FAIL</span></td></tr>
+<tr class="partial"><td>8</td><td>RAIN LOADS</td><td style="text-align:right">2</td><td style="text-align:right">37</td><td class="types-list">text_block:14  heading:9  definition:7  provision:5  table:1  formula:1</td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-a" style="width:62%"></div></div><span>62%</span></div></td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-g" style="width:100%"></div></div><span>100%</span></div></td><td style="text-align:right">5</td><td style="text-align:right">5/0</td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-g" style="width:100%"></div></div><span>100%</span></div></td><td><span class="badge badge-fail">FAIL</span></td></tr>
+<tr class="partial"><td>10</td><td>ICE LOADS</td><td style="text-align:right">24</td><td style="text-align:right">195</td><td class="types-list">text_block:72  provision:52  heading:36  figure:22  definition:7  formula:5</td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-a" style="width:63%"></div></div><span>63%</span></div></td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-g" style="width:100%"></div></div><span>100%</span></div></td><td style="text-align:right">36</td><td style="text-align:right">31/5</td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-g" style="width:100%"></div></div><span>100%</span></div></td><td><span class="badge badge-fail">FAIL</span></td></tr>
+<tr class="fail"><td>11</td><td>SEISMIC DESIGN CRITERIA</td><td style="text-align:right">12</td><td style="text-align:right">434</td><td class="types-list">text_block:256  definition:75  heading:46  provision:37  formula:13  table:3</td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-r" style="width:41%"></div></div><span>41%</span></div></td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-g" style="width:100%"></div></div><span>100%</span></div></td><td style="text-align:right">33</td><td style="text-align:right">32/1</td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-g" style="width:100%"></div></div><span>100%</span></div></td><td><span class="badge badge-fail">FAIL</span></td></tr>
+<tr class="partial"><td>12</td><td>SEISMIC DESIGN REQUIREMENTS FOR BUILDING</td><td style="text-align:right">34</td><td style="text-align:right">782</td><td class="types-list">text_block:257  provision:250  heading:149  formula:70  exception:25  table:16</td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-a" style="width:67%"></div></div><span>67%</span></div></td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-g" style="width:100%"></div></div><span>100%</span></div></td><td style="text-align:right">275</td><td style="text-align:right">275/0</td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-g" style="width:100%"></div></div><span>100%</span></div></td><td><span class="badge badge-fail">FAIL</span></td></tr>
+<tr class="partial"><td>13</td><td>SEISMIC DESIGN REQUIREMENTS FOR NONSTRUC</td><td style="text-align:right">18</td><td style="text-align:right">375</td><td class="types-list">provision:144  text_block:117  heading:75  formula:17  exception:15  table:5</td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-a" style="width:69%"></div></div><span>69%</span></div></td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-g" style="width:100%"></div></div><span>100%</span></div></td><td style="text-align:right">105</td><td style="text-align:right">105/0</td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-g" style="width:100%"></div></div><span>100%</span></div></td><td><span class="badge badge-fail">FAIL</span></td></tr>
+<tr class="partial"><td>14</td><td>MATERIAL-SPECIFIC SEISMIC DESIGN AND DET</td><td style="text-align:right">4</td><td style="text-align:right">102</td><td class="types-list">heading:50  provision:32  text_block:17  exception:2  definition:1</td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-g" style="width:83%"></div></div><span>83%</span></div></td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-g" style="width:100%"></div></div><span>100%</span></div></td><td style="text-align:right">21</td><td style="text-align:right">15/6</td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-g" style="width:100%"></div></div><span>100%</span></div></td><td><span class="badge badge-fail">FAIL</span></td></tr>
+<tr class="partial"><td>15</td><td>SEISMIC DESIGN REQUIREMENTS FOR NONBUILD</td><td style="text-align:right">20</td><td style="text-align:right">451</td><td class="types-list">provision:202  text_block:107  heading:106  formula:23  table:7  exception:5</td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-g" style="width:76%"></div></div><span>76%</span></div></td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-g" style="width:100%"></div></div><span>100%</span></div></td><td style="text-align:right">96</td><td style="text-align:right">91/5</td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-g" style="width:100%"></div></div><span>100%</span></div></td><td><span class="badge badge-fail">FAIL</span></td></tr>
+<tr class="partial"><td>16</td><td>NONLINEAR RESPONSE HISTORY ANALYSIS</td><td style="text-align:right">4</td><td style="text-align:right">101</td><td class="types-list">heading:35  text_block:31  provision:28  formula:4  exception:2  definition:1</td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-a" style="width:69%"></div></div><span>69%</span></div></td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-g" style="width:100%"></div></div><span>100%</span></div></td><td style="text-align:right">27</td><td style="text-align:right">27/0</td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-g" style="width:100%"></div></div><span>100%</span></div></td><td><span class="badge badge-fail">FAIL</span></td></tr>
+<tr class="partial"><td>17</td><td>SEISMIC DESIGN REQUIREMENTS FOR SEISMICA</td><td style="text-align:right">12</td><td style="text-align:right">336</td><td class="types-list">text_block:139  provision:86  heading:72  formula:18  definition:13  exception:6</td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-a" style="width:59%"></div></div><span>59%</span></div></td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-g" style="width:100%"></div></div><span>100%</span></div></td><td style="text-align:right">96</td><td style="text-align:right">96/0</td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-g" style="width:100%"></div></div><span>100%</span></div></td><td><span class="badge badge-fail">FAIL</span></td></tr>
+<tr class="partial"><td>18</td><td>SEISMIC DESIGN REQUIREMENTS FOR STRUCTUR</td><td style="text-align:right">16</td><td style="text-align:right">480</td><td class="types-list">text_block:204  provision:136  formula:74  heading:49  exception:10  definition:4</td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-a" style="width:57%"></div></div><span>57%</span></div></td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-g" style="width:100%"></div></div><span>100%</span></div></td><td style="text-align:right">173</td><td style="text-align:right">173/0</td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-g" style="width:100%"></div></div><span>100%</span></div></td><td><span class="badge badge-fail">FAIL</span></td></tr>
+<tr class="partial"><td>19</td><td>SOIL</td><td style="text-align:right">6</td><td style="text-align:right">183</td><td class="types-list">text_block:83  formula:37  provision:34  heading:20  definition:6  table:3</td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-a" style="width:55%"></div></div><span>55%</span></div></td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-g" style="width:100%"></div></div><span>100%</span></div></td><td style="text-align:right">37</td><td style="text-align:right">37/0</td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-g" style="width:100%"></div></div><span>100%</span></div></td><td><span class="badge badge-fail">FAIL</span></td></tr>
+<tr class="partial"><td>20</td><td>SITE CLASSIFICATION PROCEDURE FOR SEISMI</td><td style="text-align:right">2</td><td style="text-align:right">31</td><td class="types-list">heading:11  provision:9  text_block:6  exception:3  table:1  formula:1</td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-g" style="width:81%"></div></div><span>81%</span></div></td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-g" style="width:100%"></div></div><span>100%</span></div></td><td style="text-align:right">10</td><td style="text-align:right">10/0</td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-g" style="width:100%"></div></div><span>100%</span></div></td><td><span class="badge badge-fail">FAIL</span></td></tr>
+<tr class="partial"><td>21</td><td>SITE-SPECIFIC GROUND MOTION PROCEDURES F</td><td style="text-align:right">4</td><td style="text-align:right">35</td><td class="types-list">heading:15  provision:11  text_block:4  exception:2  definition:1  table:1</td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-g" style="width:89%"></div></div><span>89%</span></div></td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-g" style="width:100%"></div></div><span>100%</span></div></td><td style="text-align:right">14</td><td style="text-align:right">14/0</td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-g" style="width:100%"></div></div><span>100%</span></div></td><td><span class="badge badge-fail">FAIL</span></td></tr>
+<tr class="fail"><td>22</td><td>SEISMIC GROUND MOTION AND LONG-PERIOD TR</td><td style="text-align:right">22</td><td style="text-align:right">235</td><td class="types-list">text_block:196  figure:17  user_note:12  heading:8  provision:2</td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-r" style="width:17%"></div></div><span>17%</span></div></td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-g" style="width:100%"></div></div><span>100%</span></div></td><td style="text-align:right">0</td><td style="text-align:right">0/0</td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-g" style="width:100%"></div></div><span>100%</span></div></td><td><span class="badge badge-fail">FAIL</span></td></tr>
+<tr class="fail"><td>23</td><td>SEISMIC DESIGN REFERENCE DOCUMENTS</td><td style="text-align:right">4</td><td style="text-align:right">169</td><td class="types-list">text_block:105  reference:60  heading:3  provision:1</td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-r" style="width:38%"></div></div><span>38%</span></div></td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-g" style="width:100%"></div></div><span>100%</span></div></td><td style="text-align:right">0</td><td style="text-align:right">0/0</td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-g" style="width:100%"></div></div><span>100%</span></div></td><td><span class="badge badge-fail">FAIL</span></td></tr>
+<tr class="fail"><td>26</td><td>WIND LOADS: GENERAL REQUIREMENTS</td><td style="text-align:right">20</td><td style="text-align:right">448</td><td class="types-list">text_block:250  provision:64  heading:50  definition:37  formula:20  table:8</td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-r" style="width:44%"></div></div><span>44%</span></div></td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-g" style="width:100%"></div></div><span>100%</span></div></td><td style="text-align:right">97</td><td style="text-align:right">95/2</td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-g" style="width:100%"></div></div><span>100%</span></div></td><td><span class="badge badge-fail">FAIL</span></td></tr>
+<tr class="fail"><td>27</td><td>WIND LOADS ON BUILDINGS: MAIN WIND FORCE</td><td style="text-align:right">12</td><td style="text-align:right">167</td><td class="types-list">text_block:84  heading:39  provision:24  figure:8  table:6  formula:4</td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-r" style="width:50%"></div></div><span>50%</span></div></td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-g" style="width:100%"></div></div><span>100%</span></div></td><td style="text-align:right">67</td><td style="text-align:right">35/32</td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-g" style="width:100%"></div></div><span>100%</span></div></td><td><span class="badge badge-fail">FAIL</span></td></tr>
+<tr class="partial"><td>28</td><td>WIND LOADS ON BUILDINGS: MAIN WIND FORCE</td><td style="text-align:right">6</td><td style="text-align:right">121</td><td class="types-list">text_block:55  heading:35  provision:14  table:4  formula:4  figure:3</td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-a" style="width:55%"></div></div><span>55%</span></div></td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-g" style="width:100%"></div></div><span>100%</span></div></td><td style="text-align:right">43</td><td style="text-align:right">13/30</td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-g" style="width:100%"></div></div><span>100%</span></div></td><td><span class="badge badge-fail">FAIL</span></td></tr>
+<tr class="fail"><td>29</td><td>WIND LOADS ON BUILDING APPURTENANCES AND</td><td style="text-align:right">16</td><td style="text-align:right">217</td><td class="types-list">text_block:132  provision:31  heading:28  formula:13  figure:12  user_note:1</td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-r" style="width:39%"></div></div><span>39%</span></div></td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-g" style="width:100%"></div></div><span>100%</span></div></td><td style="text-align:right">90</td><td style="text-align:right">47/43</td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-g" style="width:100%"></div></div><span>100%</span></div></td><td><span class="badge badge-fail">FAIL</span></td></tr>
+<tr class="fail"><td>30</td><td>WIND LOADS: COMPONENTS AND CLADDING</td><td style="text-align:right">36</td><td style="text-align:right">485</td><td class="types-list">text_block:323  heading:64  provision:48  figure:31  formula:11  user_note:5</td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-r" style="width:33%"></div></div><span>33%</span></div></td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-g" style="width:100%"></div></div><span>100%</span></div></td><td style="text-align:right">250</td><td style="text-align:right">150/100</td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-g" style="width:100%"></div></div><span>100%</span></div></td><td><span class="badge badge-fail">FAIL</span></td></tr>
+<tr class="partial"><td>31</td><td>WIND TUNNEL PROCEDURE</td><td style="text-align:right">2</td><td style="text-align:right">42</td><td class="types-list">provision:18  heading:17  text_block:6  user_note:1</td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-g" style="width:86%"></div></div><span>86%</span></div></td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-g" style="width:100%"></div></div><span>100%</span></div></td><td style="text-align:right">10</td><td style="text-align:right">8/2</td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-g" style="width:100%"></div></div><span>100%</span></div></td><td><span class="badge badge-fail">FAIL</span></td></tr>
+<tr class="fail"><td>32</td><td>TORNADO LOADS</td><td style="text-align:right">44</td><td style="text-align:right">411</td><td class="types-list">text_block:206  provision:89  heading:77  formula:18  figure:13  table:4</td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-r" style="width:50%"></div></div><span>50%</span></div></td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-g" style="width:100%"></div></div><span>100%</span></div></td><td style="text-align:right">130</td><td style="text-align:right">121/9</td><td><div class="bar-wrap"><div class="bar"><div class="bar-fill bar-g" style="width:100%"></div></div><span>100%</span></div></td><td><span class="badge badge-fail">FAIL</span></td></tr>
+      </tbody>
+    </table>
+    <div class="note">
+      Classified % = 100% &minus; text_block share (higher is better) &nbsp;·&nbsp;
+      Fidelity % = elements with non-empty primary data field &nbsp;·&nbsp;
+      Green &ge;80%&nbsp; Amber &ge;50%&nbsp; Red &lt;50% &nbsp;&nbsp;
+      Status = deploy gate (schema + fidelity + xrefs + no SHALL in text_block)
+    </div>
+  </div>
+</div>
+</body>
+</html>

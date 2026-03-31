@@ -1,0 +1,4754 @@
+{
+  "labels": {
+    "claude": 220,
+    "vision": 250
+  },
+  "agreed": [],
+  "disagreed": [
+    {
+      "id": "ASCE7-22-26.1-F1",
+      "type_a": "figure",
+      "type_b": "figure",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Figure 26.1-1: Outline of process for determining wind loads",
+          "b": "Figure 26.1-1. Outline of process for determining wind loads."
+        },
+        {
+          "field": "data.description",
+          "a": "Outline of process for determining wind loads. Shows Chapter 26 General Requirem...",
+          "b": "Flowchart showing the outline of process for determining wind loads. Chapter 26 ..."
+        },
+        {
+          "field": "data.source_pdf_page",
+          "a": "262",
+          "b": "(missing)"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [
+            "ASCE7-22-26.1.2-P1"
+          ],
+          "only_b": [
+            "ASCE7-22-26.10",
+            "ASCE7-22-26.11",
+            "ASCE7-22-26.12",
+            "ASCE7-22-26.13",
+            "ASCE7-22-26.5",
+            "ASCE7-22-26.6",
+            "ASCE7-22-26.7",
+            "ASCE7-22-26.8",
+            "ASCE7-22-26.9",
+            "ASCE7-22-27",
+            "ASCE7-22-28",
+            "ASCE7-22-29",
+            "ASCE7-22-30",
+            "ASCE7-22-31"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.1.1-P1",
+      "type_a": "provision",
+      "type_b": "provision",
+      "fields": [
+        {
+          "field": "cross_references",
+          "only_a": [
+            "ASCE7-22-26.1.2-P1"
+          ],
+          "only_b": [
+            "ASCE7-22-26",
+            "ASCE7-22-27",
+            "ASCE7-22-28",
+            "ASCE7-22-29",
+            "ASCE7-22-30",
+            "ASCE7-22-31"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.1.1-P2",
+      "type_a": "provision",
+      "type_b": "provision",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Risk Category III and IV tornado design requirement",
+          "b": "Tornado Load Requirements for Risk Category III and IV"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [],
+          "only_b": [
+            "ASCE7-22-32"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.1.1-P3",
+      "type_a": "provision",
+      "type_b": "provision",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Basic wind parameters provisions",
+          "b": "Basic Wind Parameters for Other Provisions"
+        },
+        {
+          "field": "data.then",
+          "a": "Use basic wind parameters defined in this section",
+          "b": "Use basic wind parameters defined herein with other provisions in this standard"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.1.2-P1",
+      "type_a": "provision",
+      "type_b": "provision",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Permitted Procedures for MWFRS and C&C",
+          "b": "Permitted Procedures"
+        },
+        {
+          "field": "data.then",
+          "a": "Use one of the procedures specified in Section 26.1.2",
+          "b": "Determine design wind loads using one of the procedures specified in Sections 26..."
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.1.2.1-P1",
+      "type_a": "provision",
+      "type_b": "provision",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Main Wind Force Resisting System permitted procedures",
+          "b": "Main Wind Force Resisting System Procedures"
+        },
+        {
+          "field": "data.rule",
+          "a": "Wind loads for the MWFRS shall be determined using one of the following procedur...",
+          "b": "Wind loads for the MWFRS shall be determined using one of the following procedur..."
+        },
+        {
+          "field": "data.then",
+          "a": "Use one of the listed procedures for MWFRS wind loads",
+          "b": "Use one of: 1) Directional Procedure for buildings of all heights as specified i..."
+        },
+        {
+          "field": "cross_references",
+          "only_a": [],
+          "only_b": [
+            "ASCE7-22-27",
+            "ASCE7-22-28",
+            "ASCE7-22-29",
+            "ASCE7-22-31"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.1.2.2-P1",
+      "type_a": "provision",
+      "type_b": "provision",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Components and Cladding permitted procedures",
+          "b": "Components and Cladding Procedures"
+        },
+        {
+          "field": "data.rule",
+          "a": "Wind loads on C&C on all buildings and other structures shall be designed using ...",
+          "b": "Wind loads on C&C on all buildings and other structures shall be designed using ..."
+        },
+        {
+          "field": "data.then",
+          "a": "Use Chapter 30 Analytical Procedures or Chapter 31 Wind Tunnel Procedure for C&C",
+          "b": "Use one of: 1) Analytical Procedures provided in Parts 1 through 5, as appropria..."
+        },
+        {
+          "field": "cross_references",
+          "only_a": [],
+          "only_b": [
+            "ASCE7-22-30",
+            "ASCE7-22-31"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.1.3-P1",
+      "type_a": "provision",
+      "type_b": "provision",
+      "fields": [
+        {
+          "field": "data.rule",
+          "a": "Wind designs of buildings and other structures using performance-based procedure...",
+          "b": "Wind design of buildings and other structures using performance-based procedures..."
+        },
+        {
+          "field": "data.then",
+          "a": "Performance-based wind design permitted with AHJ approval, conforming to Section...",
+          "b": "Performance-based procedures permitted with AHJ approval, conforming to Section ..."
+        },
+        {
+          "field": "cross_references",
+          "only_a": [],
+          "only_b": [
+            "ASCE7-22-1.3.1.3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.10-E1",
+      "type_a": "formula",
+      "type_b": "formula",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Velocity Pressure Formula (Eq. 26.10-1)",
+          "b": "Velocity Pressure (Customary Units)"
+        },
+        {
+          "field": "data.parameters",
+          "a": "{6 keys}",
+          "b": "{6 keys}"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [
+            "ASCE7-22-26.10-T1",
+            "ASCE7-22-26.8.2-E1",
+            "ASCE7-22-26.9-T1"
+          ],
+          "only_b": [
+            "ASCE7-22-26.10.1",
+            "ASCE7-22-26.5",
+            "ASCE7-22-26.6",
+            "ASCE7-22-26.8.2",
+            "ASCE7-22-26.9"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.10-P1",
+      "type_a": "provision",
+      "type_b": "provision",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Velocity Pressure \u2014 Mean Roof Height",
+          "b": "Velocity Pressure"
+        },
+        {
+          "field": "data.conditions",
+          "a": "[1 items]",
+          "b": "[0 items]"
+        },
+        {
+          "field": "data.else",
+          "a": "null",
+          "b": "(missing)"
+        },
+        {
+          "field": "data.rule",
+          "a": "The velocity pressure at mean roof height is computed as qh = qz evaluated from ...",
+          "b": "Velocity pressure is determined in accordance with Section 26.10.1 (Velocity Pre..."
+        },
+        {
+          "field": "data.then",
+          "a": "Compute qh using Eq. 26.10-1 with z = h",
+          "b": "(missing)"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [
+            "ASCE7-22-26.10-E1"
+          ],
+          "only_b": [
+            "Section 26.10.1",
+            "Section 26.10.2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.10-P2",
+      "type_a": "provision",
+      "type_b": "provision",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Basic Wind Speed V for Risk Category",
+          "b": "Risk Category for Design Wind Loads"
+        },
+        {
+          "field": "data.else",
+          "a": "null",
+          "b": "(missing)"
+        },
+        {
+          "field": "data.exceptions",
+          "a": "[0 items]",
+          "b": "(missing)"
+        },
+        {
+          "field": "data.rule",
+          "a": "The basic wind speed, V, used in determination of design wind loads on buildings...",
+          "b": "The basic wind speed V used in determination of design wind loads on roofing, ro..."
+        },
+        {
+          "field": "data.then",
+          "a": "Use the greatest Risk Category among all applicable criteria",
+          "b": "(missing)"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [],
+          "only_b": [
+            "ASCE7-22-26.5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.10-T1",
+      "type_a": "table",
+      "type_b": "table",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Table 26.10-1: Velocity Pressure Exposure Coefficients, Kz and Kh",
+          "b": "Table 26.10-1: Velocity Pressure Exposure Coefficients Kz and Kh"
+        },
+        {
+          "field": "data.columns",
+          "a": "[5 items]",
+          "b": "[5 items]"
+        },
+        {
+          "field": "data.rows",
+          "a": "[22 items]",
+          "b": "[22 items]"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [
+            "ASCE7-22-26.10-E1",
+            "ASCE7-22-26.10.2-E1"
+          ],
+          "only_b": []
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.10.1-P1",
+      "type_a": "provision",
+      "type_b": "provision",
+      "fields": [
+        {
+          "field": "data.else",
+          "a": "null",
+          "b": "(missing)"
+        },
+        {
+          "field": "data.exceptions",
+          "a": "[1 items]",
+          "b": "[0 items]"
+        },
+        {
+          "field": "data.then",
+          "a": "Determine Kz or Kh from Table 26.10-1",
+          "b": "(missing)"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [
+            "ASCE7-22-26.10-T1",
+            "ASCE7-22-26.7.3-P1"
+          ],
+          "only_b": [
+            "Section 26.7.3",
+            "Table 26.10-1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.11-T1",
+      "type_a": "table",
+      "type_b": "table",
+      "fields": [
+        {
+          "field": "data.columns",
+          "a": "[11 items]",
+          "b": "[11 items]"
+        },
+        {
+          "field": "data.rows",
+          "a": "[6 items]",
+          "b": "[6 items]"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [
+            "ASCE7-22-26.11.4-E1"
+          ],
+          "only_b": []
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.11.2-P1",
+      "type_a": "provision",
+      "type_b": "provision",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Frequency Determination for Rigid vs. Flexible",
+          "b": "Frequency Determination for Rigid vs Flexible"
+        },
+        {
+          "field": "data.else",
+          "a": "null",
+          "b": "(missing)"
+        },
+        {
+          "field": "data.exceptions",
+          "a": "[1 items]",
+          "b": "[1 items]"
+        },
+        {
+          "field": "data.rule",
+          "a": "To determine whether a building or other structure is rigid or flexible as defin...",
+          "b": "To determine whether a building or other structure is rigid or flexible, the fun..."
+        },
+        {
+          "field": "data.then",
+          "a": "Establish fundamental natural frequency n1 to classify as rigid or flexible",
+          "b": "Establish n1 via structural analysis or classify as rigid if low-rise"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [],
+          "only_b": [
+            "ASCE7-22-26.2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.11.2.1-P1",
+      "type_a": "provision",
+      "type_b": "provision",
+      "fields": [
+        {
+          "field": "data.conditions",
+          "a": "[2 items]",
+          "b": "[2 items]"
+        },
+        {
+          "field": "data.else",
+          "a": "null",
+          "b": "(missing)"
+        },
+        {
+          "field": "data.exceptions",
+          "a": "[0 items]",
+          "b": "(missing)"
+        },
+        {
+          "field": "data.rule",
+          "a": "As an alternative to performing an analysis to determine n1, the approximate bui...",
+          "b": "As an alternative to performing an analysis to determine n1, the approximate bui..."
+        },
+        {
+          "field": "data.then",
+          "a": "Use approximate natural frequency na per Section 26.11.3",
+          "b": "na may be used per Section 26.11.3"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [
+            "ASCE7-22-26.11.3-E1"
+          ],
+          "only_b": [
+            "ASCE7-22-26.11.3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.11.3-E1",
+      "type_a": "formula",
+      "type_b": "formula",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Approximate Natural Frequency \u2014 Steel Moment-Resisting Frame (Eq. 26.11-2)",
+          "b": "Effective Length for Approximate Natural Frequency"
+        },
+        {
+          "field": "data.expression",
+          "a": "na = 22.2 / h^0.8",
+          "b": "Leff = sum(hi * Li, i=1..n) / sum(hi, i=1..n)"
+        },
+        {
+          "field": "data.parameters",
+          "a": "{2 keys}",
+          "b": "{3 keys}"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.11.3-E2",
+      "type_a": "formula",
+      "type_b": "formula",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Approximate Natural Frequency \u2014 Concrete Moment-Resisting Frame (Eq. 26.11-3)",
+          "b": "Approximate Natural Frequency for Steel Moment-Resisting Frame Buildings (Customary)"
+        },
+        {
+          "field": "data.expression",
+          "a": "na = 43.5 / h^0.9",
+          "b": "na = 22.2 / h^0.8"
+        },
+        {
+          "field": "data.parameters",
+          "a": "{2 keys}",
+          "b": "{2 keys}"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.11.4-E1",
+      "type_a": "formula",
+      "type_b": "formula",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Eq. 26.11-6: Gust Effect Factor for Rigid Structures",
+          "b": "Gust-Effect Factor for Rigid Buildings (Eq. 26.11-6)"
+        },
+        {
+          "field": "data.expression",
+          "a": "G = 0.925 * (1 + 1.7*g_Q*I_z_bar*Q) / (1 + 1.7*g_v*I_z_bar)",
+          "b": "G = 0.925 * ((1 + 1.7 * gQ * Iz_bar * Q) / (1 + 1.7 * gv * Iz_bar))"
+        },
+        {
+          "field": "data.parameters",
+          "a": "{4 keys}",
+          "b": "{5 keys}"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [
+            "ASCE7-22-26.11.4-E2",
+            "ASCE7-22-26.11.4-E3"
+          ],
+          "only_b": []
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.11.4-E2",
+      "type_a": "formula",
+      "type_b": "formula",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Eq. 26.11-7: Turbulence Intensity at Equivalent Height",
+          "b": "Intensity of Turbulence (Eq. 26.11-7)"
+        },
+        {
+          "field": "data.expression",
+          "a": "I_z_bar = c * (10/z_bar)^(1/6)",
+          "b": "Iz_bar = c * (33 / z_bar)^(1/6)"
+        },
+        {
+          "field": "data.parameters",
+          "a": "{2 keys}",
+          "b": "{3 keys}"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.11.4-E3",
+      "type_a": "formula",
+      "type_b": "formula",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Eq. 26.11-7.SI: Equivalent Height of Structure (Customary)",
+          "b": "Intensity of Turbulence SI (Eq. 26.11-7.SI)"
+        },
+        {
+          "field": "data.expression",
+          "a": "z_bar = 0.6*h",
+          "b": "Iz_bar = c * (10 / z_bar)^(1/6)"
+        },
+        {
+          "field": "data.parameters",
+          "a": "{2 keys}",
+          "b": "{3 keys}"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.11.4-E4",
+      "type_a": "formula",
+      "type_b": "formula",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Eq. 26.11-8: Background Response Factor Q",
+          "b": "Background Response Factor Q (Eq. 26.11-8)"
+        },
+        {
+          "field": "data.expression",
+          "a": "Q = sqrt(1 / (1 + 0.63*((B+h)/L_z_bar)^0.63))",
+          "b": "Q = sqrt(1 / (1 + 0.63 * ((B + h) / Lz_bar)^0.63))"
+        },
+        {
+          "field": "data.parameters",
+          "a": "{3 keys}",
+          "b": "{4 keys}"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [
+            "ASCE7-22-26.11.4-E5"
+          ],
+          "only_b": [
+            "ASCE7-22-26.3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.11.4-E5",
+      "type_a": "formula",
+      "type_b": "formula",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Eq. 26.11-9: Integral Length Scale of Turbulence",
+          "b": "Integral Length Scale of Turbulence (Eq. 26.11-9)"
+        },
+        {
+          "field": "data.expression",
+          "a": "L_z_bar = l * (z_bar/10)^epsilon_bar",
+          "b": "Lz_bar = l * (z_bar / 33)^epsilon_bar"
+        },
+        {
+          "field": "data.parameters",
+          "a": "{3 keys}",
+          "b": "{4 keys}"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.11.4-E6",
+      "type_a": "formula",
+      "type_b": "formula",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Eq. 26.11-9.SI: Integral Length Scale Exponent",
+          "b": "Integral Length Scale of Turbulence SI (Eq. 26.11-9.SI)"
+        },
+        {
+          "field": "data.expression",
+          "a": "L_z_bar = l * (z_bar/10)^epsilon_bar",
+          "b": "Lz_bar = l * (z_bar / 10)^epsilon_bar"
+        },
+        {
+          "field": "data.parameters",
+          "a": "{3 keys}",
+          "b": "{4 keys}"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.11.5-E1",
+      "type_a": "formula",
+      "type_b": "formula",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Eq. 26.11-10: Gust Effect Factor for Flexible Structures",
+          "b": "Gust-Effect Factor for Flexible Buildings (Eq. 26.11-10)"
+        },
+        {
+          "field": "data.expression",
+          "a": "G_f = 0.925 * (1 + 1.7*I_z_bar*sqrt(g_Q^2*Q^2 + g_R^2*R^2)) / (1 + 1.7*g_v*I_z_b...",
+          "b": "Gf = 0.925 * ((1 + 1.7 * Iz_bar * sqrt(gQ^2 * Q^2 + gR^2 * R^2)) / (1 + 1.7 * gv..."
+        },
+        {
+          "field": "data.parameters",
+          "a": "{6 keys}",
+          "b": "{7 keys}"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [
+            "ASCE7-22-26.11.4-E2",
+            "ASCE7-22-26.11.4-E4"
+          ],
+          "only_b": [
+            "ASCE7-22-26.2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.11.5-E10",
+      "type_a": "formula",
+      "type_b": "formula",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Eq. 26.11-16: Mean Hourly Wind Speed at Equivalent Height",
+          "b": "Mean Hourly Wind Speed at Equivalent Height SI (Eq. 26.11-16.SI)"
+        },
+        {
+          "field": "data.expression",
+          "a": "V_z_bar = b_bar * (z_bar/10)^alpha_bar * V",
+          "b": "Vz_bar = b_bar * (z_bar / 10)^alpha_bar * V"
+        },
+        {
+          "field": "data.parameters",
+          "a": "{4 keys}",
+          "b": "{5 keys}"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.11.5-E2",
+      "type_a": "formula",
+      "type_b": "formula",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Eq. 26.11-11: Resonant Peak Factor",
+          "b": "Resonant Peak Factor gR (Eq. 26.11-11)"
+        },
+        {
+          "field": "data.expression",
+          "a": "g_R = sqrt(2*ln(3600*n_1)) + 0.577 / sqrt(2*ln(3600*n_1))",
+          "b": "gR = sqrt(2 * ln(3600 * n1)) + 0.577 / sqrt(2 * ln(3600 * n1))"
+        },
+        {
+          "field": "data.parameters",
+          "a": "{1 keys}",
+          "b": "{2 keys}"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.11.5-E3",
+      "type_a": "formula",
+      "type_b": "formula",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Eq. 26.11-12: Resonant Response Factor R",
+          "b": "Resonant Response Factor R (Eq. 26.11-12)"
+        },
+        {
+          "field": "data.expression",
+          "a": "R = sqrt(1/beta * R_n * R_h * R_B * (0.53 + 0.47*R_L))",
+          "b": "R = sqrt(1 / beta * Rn * Rh * (0.53 + 0.47 * Rb))"
+        },
+        {
+          "field": "data.parameters",
+          "a": "{5 keys}",
+          "b": "{5 keys}"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [],
+          "only_b": [
+            "ASCE7-22-26.11.4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.11.5-E4",
+      "type_a": "formula",
+      "type_b": "formula",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Eq. 26.11-13: Reduced Frequency R_n",
+          "b": "Power Spectral Density Rn (Eq. 26.11-13)"
+        },
+        {
+          "field": "data.expression",
+          "a": "R_n = 7.47*N_1 / (1 + 10.3*N_1)^(5/3)",
+          "b": "Rn = 7.47 * N1 / (1 + 10.3 * N1)^(5/3)"
+        },
+        {
+          "field": "data.parameters",
+          "a": "{1 keys}",
+          "b": "{2 keys}"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.11.5-E5",
+      "type_a": "formula",
+      "type_b": "formula",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Eq. 26.11-14: Reduced Frequency N_1",
+          "b": "Reduced Frequency N1 (Eq. 26.11-14)"
+        },
+        {
+          "field": "data.expression",
+          "a": "N_1 = n_1 * L_z_bar / V_z_bar",
+          "b": "N1 = n1 * Lz_bar / Vz_bar"
+        },
+        {
+          "field": "data.parameters",
+          "a": "{3 keys}",
+          "b": "{4 keys}"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.11.5-E6",
+      "type_a": "formula",
+      "type_b": "formula",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Eq. 26.11-15: R_l Function",
+          "b": "Size Effect Factors Rh and Rb (Eq. 26.11-15a and 26.11-15b)"
+        },
+        {
+          "field": "data.expression",
+          "a": "R_l = (1/eta) - (1/(2*eta^2)) * (1 - e^(-2*eta)) for eta > 0; R_l = 1 for eta = ...",
+          "b": "Rl = (1 / eta) - (1 / (2 * eta^2)) * (1 - exp(-2 * eta)) for eta > 0; Rl = 1 for..."
+        },
+        {
+          "field": "data.parameters",
+          "a": "{1 keys}",
+          "b": "{2 keys}"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.11.5-E7",
+      "type_a": "formula",
+      "type_b": "formula",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Eq. 26.11-15a: eta for R_h",
+          "b": "eta_h for Rh (Eq. 26.11-15a)"
+        },
+        {
+          "field": "data.expression",
+          "a": "eta_h = 4.6*n_1*h / V_z_bar",
+          "b": "eta_h = 4.6 * n1 * h / Vz_bar"
+        },
+        {
+          "field": "data.parameters",
+          "a": "{3 keys}",
+          "b": "{4 keys}"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.11.5-E8",
+      "type_a": "formula",
+      "type_b": "formula",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Eq. 26.11-15b: eta for R_B",
+          "b": "eta_B for Rb (Eq. 26.11-15b)"
+        },
+        {
+          "field": "data.expression",
+          "a": "eta_B = 4.6*n_1*B / V_z_bar",
+          "b": "eta_B = 4.6 * n1 * B / Vz_bar"
+        },
+        {
+          "field": "data.parameters",
+          "a": "{3 keys}",
+          "b": "{4 keys}"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.11.5-E9",
+      "type_a": "formula",
+      "type_b": "formula",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Eq. 26.11-15c: eta for R_L",
+          "b": "Mean Hourly Wind Speed at Equivalent Height (Eq. 26.11-16)"
+        },
+        {
+          "field": "data.expression",
+          "a": "eta_L = 15.4*n_1*L / V_z_bar",
+          "b": "Vz_bar = b_bar * (z_bar / 33)^alpha_bar * V * (88/60)"
+        },
+        {
+          "field": "data.parameters",
+          "a": "{3 keys}",
+          "b": "{5 keys}"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [],
+          "only_b": [
+            "ASCE7-22-26.11-T1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.11.6-P1",
+      "type_a": "provision",
+      "type_b": "provision",
+      "fields": [
+        {
+          "field": "data.else",
+          "a": "null",
+          "b": "(missing)"
+        },
+        {
+          "field": "data.exceptions",
+          "a": "[0 items]",
+          "b": "(missing)"
+        },
+        {
+          "field": "data.then",
+          "a": "Use rational analysis from recognized literature",
+          "b": "(missing)"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.11.7-P1",
+      "type_a": "provision",
+      "type_b": "provision",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Limitations on Combined Gust-Effect Factor and Pressure Coefficients",
+          "b": "Limitations on Combined Gust-Effect Factors and Pressure Coefficients"
+        },
+        {
+          "field": "data.else",
+          "a": "null",
+          "b": "(missing)"
+        },
+        {
+          "field": "data.exceptions",
+          "a": "[0 items]",
+          "b": "(missing)"
+        },
+        {
+          "field": "data.rule",
+          "a": "When combined gust-effect factors and pressure coefficients (GC_p), (GC_pf), and...",
+          "b": "When combined gust-effect factors and pressure coefficients GCp, GCpf, and GCpi ..."
+        },
+        {
+          "field": "data.then",
+          "a": "Do not determine gust-effect factor separately when combined values are provided",
+          "b": "(missing)"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.12.2-P1",
+      "type_a": "provision",
+      "type_b": "provision",
+      "fields": [
+        {
+          "field": "data.else",
+          "a": "null",
+          "b": "(missing)"
+        },
+        {
+          "field": "data.exceptions",
+          "a": "[0 items]",
+          "b": "(missing)"
+        },
+        {
+          "field": "data.then",
+          "a": "Assess openings on windward wall relative to remaining building envelope",
+          "b": "(missing)"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.12.3-P1",
+      "type_a": "provision",
+      "type_b": "provision",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Protection of Glazed Openings in Hurricane-Prone Regions",
+          "b": "Protection of Glazed Openings"
+        },
+        {
+          "field": "data.conditions",
+          "a": "[2 items]",
+          "b": "[2 items]"
+        },
+        {
+          "field": "data.else",
+          "a": "null",
+          "b": "(missing)"
+        },
+        {
+          "field": "data.exceptions",
+          "a": "[0 items]",
+          "b": "(missing)"
+        },
+        {
+          "field": "data.then",
+          "a": "Protect glazed openings per Section 26.12.3",
+          "b": "Glazed openings shall be protected"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.12.3.1-P1",
+      "type_a": "provision",
+      "type_b": "provision",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Wind-Borne Debris Regions - Glazed Opening Protection",
+          "b": "Wind-Borne Debris Region Glazed Openings"
+        },
+        {
+          "field": "data.conditions",
+          "a": "[1 items]",
+          "b": "[1 items]"
+        },
+        {
+          "field": "data.else",
+          "a": "null",
+          "b": "(missing)"
+        },
+        {
+          "field": "data.exceptions",
+          "a": "[0 items]",
+          "b": "[1 items]"
+        },
+        {
+          "field": "data.rule",
+          "a": "Glazed openings shall be protected in accordance with Section 26.12.3.2 in the f...",
+          "b": "Glazed openings shall be protected in accordance with Section 26.12.3.2 in the f..."
+        },
+        {
+          "field": "data.then",
+          "a": "Protect glazed openings per Section 26.12.3.2",
+          "b": "Glazed openings shall be protected per Section 26.12.3.2"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.12.3.2-P1",
+      "type_a": "provision",
+      "type_b": "provision",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Requirements for Glazed Openings",
+          "b": "Requirements for Glazed Opening Protection"
+        },
+        {
+          "field": "data.else",
+          "a": "null",
+          "b": "(missing)"
+        },
+        {
+          "field": "data.exceptions",
+          "a": "[0 items]",
+          "b": "[1 items]"
+        },
+        {
+          "field": "data.rule",
+          "a": "Glazing in buildings requiring protection shall be impact resistant or be protec...",
+          "b": "Glazing in buildings requiring protection shall be impact resistant or be protec..."
+        },
+        {
+          "field": "data.then",
+          "a": "Glazing shall be impact resistant or protected with impact-protective system per...",
+          "b": "Glazing shall be impact resistant or protected per ASTM E1996/E1886"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [
+            "ASCE7-22-26.14-R3",
+            "ASCE7-22-26.14-R4"
+          ],
+          "only_b": [
+            "ASCE7-22-26.12.3.1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.13-T1",
+      "type_a": "table",
+      "type_b": "table",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Table 26.13-1: Main Wind Force Resisting System and Components and Cladding (All Heights): Internal Pressure Coefficient (GCpi)",
+          "b": "Table 26.13-1: Internal Pressure Coefficient (GCpi)"
+        },
+        {
+          "field": "data.rows",
+          "a": "[7 items]",
+          "b": "[7 items]"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.13.1-E1",
+      "type_a": "formula",
+      "type_b": "formula",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Eq. 26.13-1: Reduction Factor R_i for Large-Volume Buildings",
+          "b": "Reduction Factor for Large-Volume Buildings Ri (Eq. 26.13-1)"
+        },
+        {
+          "field": "data.expression",
+          "a": "R_i = 1.0 or R_i = 0.5*(1 + 1/sqrt(1 + V_i/(6951*A_og))) <= 1.0",
+          "b": "Ri = 1.0 or Ri = 0.5 * (1 + 1 / sqrt(1 + (Vi / (6952 * Ao)))), whichever is less..."
+        },
+        {
+          "field": "data.parameters",
+          "a": "{2 keys}",
+          "b": "{3 keys}"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.14-R1",
+      "type_a": "reference",
+      "type_b": "reference",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Referenced Standard: ANSI A58.1",
+          "b": "ANSI/DASMA 115"
+        },
+        {
+          "field": "data.parameters",
+          "a": "[0 items]",
+          "b": "[1 items]"
+        },
+        {
+          "field": "data.target",
+          "a": "ANSI A58.1, Minimum Design Loads for Buildings and Other Structures, American Na...",
+          "b": "ANSI/DASMA 115"
+        },
+        {
+          "field": "data.url",
+          "a": "",
+          "b": "(missing)"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [
+            "ASCE7-22-C26.5.2"
+          ],
+          "only_b": []
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.14-R2",
+      "type_a": "reference",
+      "type_b": "reference",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Referenced Standard: ANSI/DASMA 115",
+          "b": "ANSI/DASMA 108"
+        },
+        {
+          "field": "data.parameters",
+          "a": "[0 items]",
+          "b": "[1 items]"
+        },
+        {
+          "field": "data.target",
+          "a": "ANSI/DASMA 115, Standard Method for Testing Sectional Doors, Rolling Doors and F...",
+          "b": "ANSI/DASMA 108"
+        },
+        {
+          "field": "data.url",
+          "a": "",
+          "b": "(missing)"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [
+            "ASCE7-22-26.12.3.2",
+            "ASCE7-22-C26.12"
+          ],
+          "only_b": []
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.14-R3",
+      "type_a": "reference",
+      "type_b": "reference",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Referenced Standard: ASTM E1886",
+          "b": "ASTM E1886"
+        },
+        {
+          "field": "data.parameters",
+          "a": "[0 items]",
+          "b": "[2 items]"
+        },
+        {
+          "field": "data.target",
+          "a": "ASTM E1886, Standard Test Method for Performance of Exterior Windows, Curtain Wa...",
+          "b": "ASTM E1886"
+        },
+        {
+          "field": "data.url",
+          "a": "",
+          "b": "(missing)"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [
+            "ASCE7-22-26.12",
+            "ASCE7-22-26.12.3.2"
+          ],
+          "only_b": []
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.14-R4",
+      "type_a": "reference",
+      "type_b": "reference",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Referenced Standard: ASTM E1996",
+          "b": "ASTM E1996"
+        },
+        {
+          "field": "data.parameters",
+          "a": "[0 items]",
+          "b": "[2 items]"
+        },
+        {
+          "field": "data.target",
+          "a": "ASTM E1996, Standard Specification for Performance of Exterior Windows, Curtain ...",
+          "b": "ASTM E1996"
+        },
+        {
+          "field": "data.url",
+          "a": "",
+          "b": "(missing)"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [
+            "ASCE7-22-26.12",
+            "ASCE7-22-26.12.3.2"
+          ],
+          "only_b": []
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.14-R5",
+      "type_a": "reference",
+      "type_b": "reference",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Referenced Standard: ASTM E330",
+          "b": "CAN/CSA A123.21"
+        },
+        {
+          "field": "data.parameters",
+          "a": "[0 items]",
+          "b": "[1 items]"
+        },
+        {
+          "field": "data.target",
+          "a": "ASTM E330, Standard Test Method for Structural Performance of Exterior Windows, ...",
+          "b": "CAN/CSA A123.21"
+        },
+        {
+          "field": "data.url",
+          "a": "",
+          "b": "(missing)"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [
+            "ASCE7-22-C26.5.1"
+          ],
+          "only_b": []
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.14-R6",
+      "type_a": "reference",
+      "type_b": "reference",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Referenced Standard: CAN/CSA A123.21",
+          "b": "ASTM E330"
+        },
+        {
+          "field": "data.parameters",
+          "a": "[0 items]",
+          "b": "[2 items]"
+        },
+        {
+          "field": "data.target",
+          "a": "CAN/CSA A123.21, Standard Test Method for the Dynamic Wind Uplift Resistance of ...",
+          "b": "ASTM E330"
+        },
+        {
+          "field": "data.url",
+          "a": "",
+          "b": "(missing)"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [
+            "ASCE7-22-C26.5.1"
+          ],
+          "only_b": []
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.2-D1",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Definition: APPROVED",
+          "b": "Approved Definition"
+        },
+        {
+          "field": "data.conditions",
+          "a": "(missing)",
+          "b": "[0 items]"
+        },
+        {
+          "field": "data.exceptions",
+          "a": "(missing)",
+          "b": "[0 items]"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.2-D10",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Definition: BUILDING, TORSIONALLY REGULAR UNDER WIND LOAD",
+          "b": "Building, Partially Open Definition"
+        },
+        {
+          "field": "data.conditions",
+          "a": "(missing)",
+          "b": "[0 items]"
+        },
+        {
+          "field": "data.definition",
+          "a": "A building with the MWFRS about each principal axis proportioned so that the max...",
+          "b": "A building that does not comply with the requirements for open, partially enclos..."
+        },
+        {
+          "field": "data.exceptions",
+          "a": "(missing)",
+          "b": "[0 items]"
+        },
+        {
+          "field": "data.term",
+          "a": "BUILDING, TORSIONALLY REGULAR UNDER WIND LOAD",
+          "b": "BUILDING, PARTIALLY OPEN"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.2-D11",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Definition: BUILDING ENVELOPE",
+          "b": "Building, Torsionally Regular Under Wind Load Definition"
+        },
+        {
+          "field": "data.conditions",
+          "a": "(missing)",
+          "b": "[0 items]"
+        },
+        {
+          "field": "data.definition",
+          "a": "Cladding, roofing, exterior walls, glazing, door assemblies, window assemblies, ...",
+          "b": "A building with the MWFRS about each principal axis proportioned so that the max..."
+        },
+        {
+          "field": "data.exceptions",
+          "a": "(missing)",
+          "b": "[0 items]"
+        },
+        {
+          "field": "data.term",
+          "a": "BUILDING ENVELOPE",
+          "b": "BUILDING, TORSIONALLY REGULAR UNDER WIND LOAD"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [],
+          "only_b": [
+            "ASCE7-22-27.3-F8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.2-D12",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Definition: BUILDING OR OTHER STRUCTURE, FLEXIBLE",
+          "b": "Building Envelope Definition"
+        },
+        {
+          "field": "data.conditions",
+          "a": "(missing)",
+          "b": "[0 items]"
+        },
+        {
+          "field": "data.definition",
+          "a": "Slender buildings and other structures that have a fundamental natural frequency...",
+          "b": "Cladding, roofing, exterior walls, glazing, door assemblies, window assemblies, ..."
+        },
+        {
+          "field": "data.exceptions",
+          "a": "(missing)",
+          "b": "[0 items]"
+        },
+        {
+          "field": "data.term",
+          "a": "BUILDING OR OTHER STRUCTURE, FLEXIBLE",
+          "b": "BUILDING ENVELOPE"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.2-D13",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Definition: BUILDING OR OTHER STRUCTURE, REGULAR-SHAPED",
+          "b": "Building or Other Structure, Flexible Definition"
+        },
+        {
+          "field": "data.conditions",
+          "a": "(missing)",
+          "b": "[1 items]"
+        },
+        {
+          "field": "data.definition",
+          "a": "A building or other structure that has no unusual geometrical irregularity in sp...",
+          "b": "Slender buildings and other structures that have a fundamental natural frequency..."
+        },
+        {
+          "field": "data.exceptions",
+          "a": "(missing)",
+          "b": "[0 items]"
+        },
+        {
+          "field": "data.term",
+          "a": "BUILDING OR OTHER STRUCTURE, REGULAR-SHAPED",
+          "b": "BUILDING OR OTHER STRUCTURE, FLEXIBLE"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.2-D14",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Definition: BUILDING OR OTHER STRUCTURE, RIGID",
+          "b": "Glazing, Impact-Resistant"
+        },
+        {
+          "field": "data.definition",
+          "a": "A building or other structure whose fundamental frequency is greater than or equ...",
+          "b": "Glazing that has been shown by testing to withstand the impact of test missiles...."
+        },
+        {
+          "field": "data.term",
+          "a": "BUILDING OR OTHER STRUCTURE, RIGID",
+          "b": "GLAZING, IMPACT-RESISTANT"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [],
+          "only_b": [
+            "Section 26.12.3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.2-D15",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Definition: COMPONENTS AND CLADDING (C&C)",
+          "b": "Hill"
+        },
+        {
+          "field": "data.definition",
+          "a": "Elements of the building envelope or elements of building appurtenances and nonb...",
+          "b": "With respect to topographic effects in Section 26.8, a land surface characterize..."
+        },
+        {
+          "field": "data.term",
+          "a": "COMPONENTS AND CLADDING (C&C)",
+          "b": "HILL"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [],
+          "only_b": [
+            "Figure 26.8-1",
+            "Section 26.8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.2-D16",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Definition: DESIGN FORCE, F",
+          "b": "Hurricane-Prone Regions"
+        },
+        {
+          "field": "data.definition",
+          "a": "Equivalent static force to be used in the determination of wind loads for other ...",
+          "b": "Areas vulnerable to hurricanes in the United States and its territories. These a..."
+        },
+        {
+          "field": "data.term",
+          "a": "DESIGN FORCE, F",
+          "b": "HURRICANE-PRONE REGIONS"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.2-D17",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Definition: DESIGN PRESSURE, p",
+          "b": "Impact-Protective System"
+        },
+        {
+          "field": "data.definition",
+          "a": "Equivalent static pressure to be used in the determination of wind loads for bui...",
+          "b": "Construction that has been shown by testing to withstand the impact of test miss..."
+        },
+        {
+          "field": "data.term",
+          "a": "DESIGN PRESSURE, p",
+          "b": "IMPACT-PROTECTIVE SYSTEM"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [],
+          "only_b": [
+            "Section 26.12.3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.2-D18",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Definition: DIAPHRAGM",
+          "b": "Main Wind Force Resisting System (MWFRS)"
+        },
+        {
+          "field": "data.definition",
+          "a": "Roof, floor, or other membrane or bracing system acting to transfer lateral forc...",
+          "b": "An assemblage of structural elements assigned to provide support and stability f..."
+        },
+        {
+          "field": "data.term",
+          "a": "DIAPHRAGM",
+          "b": "MAIN WIND FORCE RESISTING SYSTEM (MWFRS)"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.2-D19",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Definition: DIRECTIONAL PROCEDURE",
+          "b": "Mean Roof Height"
+        },
+        {
+          "field": "data.definition",
+          "a": "A procedure for determining wind loads on buildings and other structures for spe...",
+          "b": "The average of the roof eave height and the height to the highest point on the r..."
+        },
+        {
+          "field": "data.term",
+          "a": "DIRECTIONAL PROCEDURE",
+          "b": "MEAN ROOF HEIGHT, h"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.2-D2",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Definition: ASCE WIND DESIGN GEODATABASE",
+          "b": "ASCE Wind Design Geodatabase Definition"
+        },
+        {
+          "field": "data.conditions",
+          "a": "(missing)",
+          "b": "[0 items]"
+        },
+        {
+          "field": "data.exceptions",
+          "a": "(missing)",
+          "b": "[0 items]"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [],
+          "only_b": [
+            "ASCE7-22-26.2-R1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.2-D20",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Definition: EAVE HEIGHT, he",
+          "b": "Openings"
+        },
+        {
+          "field": "data.definition",
+          "a": "The distance from the ground surface adjacent to the building to the roof eave l...",
+          "b": "Holes that allow air to flow through the building envelope during a design wind ..."
+        },
+        {
+          "field": "data.term",
+          "a": "EAVE HEIGHT, he",
+          "b": "OPENINGS"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.2-D21",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Definition: EFFECTIVE WIND AREA, A",
+          "b": "Recognized Literature"
+        },
+        {
+          "field": "data.definition",
+          "a": "The area used to determine the external pressure coefficient, (GCp) and (GCf). F...",
+          "b": "Published research findings and technical papers that are approved."
+        },
+        {
+          "field": "data.term",
+          "a": "EFFECTIVE WIND AREA, A",
+          "b": "RECOGNIZED LITERATURE"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.2-D22",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Definition: ENVELOPE PROCEDURE",
+          "b": "Ridge"
+        },
+        {
+          "field": "data.definition",
+          "a": "A procedure for determining wind loads on buildings in which pseudosteady pressu...",
+          "b": "With respect to topographic effects in Section 26.8, an elongated crest of a hil..."
+        },
+        {
+          "field": "data.term",
+          "a": "ENVELOPE PROCEDURE",
+          "b": "RIDGE"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [],
+          "only_b": [
+            "Section 26.8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.2-D23",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Definition: ESCARPMENT",
+          "b": "Rooftop Solar Panel"
+        },
+        {
+          "field": "data.definition",
+          "a": "With respect to topographic effects in Section 26.8, a cliff or steep slope gene...",
+          "b": "A device to receive solar radiation and convert it into electricity or heat ener..."
+        },
+        {
+          "field": "data.term",
+          "a": "ESCARPMENT",
+          "b": "ROOFTOP SOLAR PANEL"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.2-D24",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Definition: FREE ROOF",
+          "b": "Solar Array"
+        },
+        {
+          "field": "data.definition",
+          "a": "A roof with a configuration generally conforming to those shown in Figures 27.3-...",
+          "b": "Any number of rooftop solar panels (solar close-spaced)."
+        },
+        {
+          "field": "data.term",
+          "a": "FREE ROOF",
+          "b": "SOLAR ARRAY"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.2-D25",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Definition: GLAZING",
+          "b": "Wind-Borne Debris Regions"
+        },
+        {
+          "field": "data.definition",
+          "a": "Glass or transparent or translucent plastic sheet used in windows, doors, skylig...",
+          "b": "Areas within hurricane-prone regions where impact-resistant openings are require..."
+        },
+        {
+          "field": "data.term",
+          "a": "GLAZING",
+          "b": "WIND-BORNE DEBRIS REGIONS"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [],
+          "only_b": [
+            "Section 26.12.3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.2-D26",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Definition: GLAZING, IMPACT-RESISTANT",
+          "b": "Wind Tunnel Procedure"
+        },
+        {
+          "field": "data.definition",
+          "a": "Glazing that has been shown by testing to withstand the impact of test missiles....",
+          "b": "A procedure for determining wind loads on buildings and other structures in whic..."
+        },
+        {
+          "field": "data.term",
+          "a": "GLAZING, IMPACT-RESISTANT",
+          "b": "WIND TUNNEL PROCEDURE"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [],
+          "only_b": [
+            "Chapter 31"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.2-D3",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Definition: ATTACHED CANOPY",
+          "b": "Attached Canopy Definition"
+        },
+        {
+          "field": "data.conditions",
+          "a": "(missing)",
+          "b": "[1 items]"
+        },
+        {
+          "field": "data.definition",
+          "a": "A horizontal maximum slope of 5 degree(s) patio cover attached to the building w...",
+          "b": "A horizontal (maximum slope of 2%) patio cover attached to the building wall at ..."
+        },
+        {
+          "field": "data.exceptions",
+          "a": "(missing)",
+          "b": "[0 items]"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.2-D4",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Definition: BASIC WIND SPEED, V",
+          "b": "Basic Wind Speed Definition"
+        },
+        {
+          "field": "data.conditions",
+          "a": "(missing)",
+          "b": "[0 items]"
+        },
+        {
+          "field": "data.definition",
+          "a": "Three-second gust speed at 33 ft (10 m) above the ground in Exposure C (see Sect...",
+          "b": "Three-second gust speed at 33 ft (10 m) above the ground in Exposure C (see Sect..."
+        },
+        {
+          "field": "data.exceptions",
+          "a": "(missing)",
+          "b": "[0 items]"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [
+            "ASCE7-22-26.5.1-P1"
+          ],
+          "only_b": [
+            "ASCE7-22-26.5.1",
+            "ASCE7-22-26.7.3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.2-D5",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Definition: BUILDING, ELEVATED",
+          "b": "Building, Elevated Definition"
+        },
+        {
+          "field": "data.conditions",
+          "a": "(missing)",
+          "b": "[0 items]"
+        },
+        {
+          "field": "data.exceptions",
+          "a": "(missing)",
+          "b": "[0 items]"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.2-D6",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Definition: BUILDING, ENCLOSED",
+          "b": "Building, Enclosed Definition"
+        },
+        {
+          "field": "data.conditions",
+          "a": "(missing)",
+          "b": "[2 items]"
+        },
+        {
+          "field": "data.definition",
+          "a": "A building that has the total area of openings in each wall that receives positi...",
+          "b": "A building that has the total area of openings in each wall that receives positi..."
+        },
+        {
+          "field": "data.exceptions",
+          "a": "(missing)",
+          "b": "[0 items]"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.2-D7",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Definition: BUILDING, OPEN",
+          "b": "Building, Low-Rise Definition"
+        },
+        {
+          "field": "data.conditions",
+          "a": "(missing)",
+          "b": "[2 items]"
+        },
+        {
+          "field": "data.definition",
+          "a": "A building having each wall at least 80% open. This condition is expressed for e...",
+          "b": "An enclosed, partially enclosed, or partially open building that complies with t..."
+        },
+        {
+          "field": "data.exceptions",
+          "a": "(missing)",
+          "b": "[0 items]"
+        },
+        {
+          "field": "data.term",
+          "a": "BUILDING, OPEN",
+          "b": "BUILDING, LOW-RISE"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.2-D8",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Definition: BUILDING, PARTIALLY ENCLOSED",
+          "b": "Building, Open Definition"
+        },
+        {
+          "field": "data.conditions",
+          "a": "(missing)",
+          "b": "[1 items]"
+        },
+        {
+          "field": "data.definition",
+          "a": "A building that complies with both of the following conditions: 1. Total area of...",
+          "b": "A building having each wall at least 80% open. This condition is expressed for e..."
+        },
+        {
+          "field": "data.exceptions",
+          "a": "(missing)",
+          "b": "[0 items]"
+        },
+        {
+          "field": "data.term",
+          "a": "BUILDING, PARTIALLY ENCLOSED",
+          "b": "BUILDING, OPEN"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [],
+          "only_b": [
+            "ASCE7-22-26.2-E2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.2-D9",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Definition: BUILDING, PARTIALLY OPEN",
+          "b": "Building, Partially Enclosed Definition"
+        },
+        {
+          "field": "data.conditions",
+          "a": "(missing)",
+          "b": "[3 items]"
+        },
+        {
+          "field": "data.definition",
+          "a": "A building that does not comply with the requirements for open, partially enclos...",
+          "b": "A building that complies with both of the following conditions: 1. Total area of..."
+        },
+        {
+          "field": "data.exceptions",
+          "a": "(missing)",
+          "b": "[0 items]"
+        },
+        {
+          "field": "data.term",
+          "a": "BUILDING, PARTIALLY OPEN",
+          "b": "BUILDING, PARTIALLY ENCLOSED"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.3-S1",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Symbol: A - Effective wind area",
+          "b": "Symbol: A_oi"
+        },
+        {
+          "field": "data.definition",
+          "a": "Effective wind area, ft^2 (m^2).",
+          "b": "Total area of openings in the building envelope, ft^2 (m^2)"
+        },
+        {
+          "field": "data.term",
+          "a": "A",
+          "b": "A_oi"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.3-S10",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Symbol: Aj - Effective wind area for use with ground-mounted solar panels",
+          "b": "Symbol: c_f"
+        },
+        {
+          "field": "data.definition",
+          "a": "Effective wind area for use with ground-mounted solar panels in Figure 29.4-11, ...",
+          "b": "Force coefficient to be used in determination of wind loads for other structures"
+        },
+        {
+          "field": "data.term",
+          "a": "Aj",
+          "b": "c_f"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.3-S11",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Symbol: a - Width of pressure coefficient zone",
+          "b": "Symbol: C_p"
+        },
+        {
+          "field": "data.definition",
+          "a": "Width of pressure coefficient zone, ft (m).",
+          "b": "Net pressure coefficient to be used in determination of wind loads for open buil..."
+        },
+        {
+          "field": "data.term",
+          "a": "a",
+          "b": "C_p"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.3-S12",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Symbol: aw - Width of pressure coefficient zone for elevated buildings",
+          "b": "Symbol: C_p (external)"
+        },
+        {
+          "field": "data.definition",
+          "a": "Width of pressure coefficient zone for elevated buildings, ft (m).",
+          "b": "External pressure coefficient to be used in determination of wind loads for buil..."
+        },
+        {
+          "field": "data.term",
+          "a": "aw",
+          "b": "C_p"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.3-S13",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Symbol: B - Horizontal dimension of a building measured normal to wind direction",
+          "b": "Symbol: c"
+        },
+        {
+          "field": "data.definition",
+          "a": "Horizontal dimension of a building measured normal to wind direction, ft (m).",
+          "b": "Turbulence intensity factor in Equation (26.11-7), from Table 26.11-1"
+        },
+        {
+          "field": "data.term",
+          "a": "B",
+          "b": "c"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [],
+          "only_b": [
+            "Equation (26.11-7)",
+            "Table 26.11-1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.3-S14",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Symbol: b - Mean hourly wind speed factor",
+          "b": "Symbol: D"
+        },
+        {
+          "field": "data.definition",
+          "a": "Mean hourly wind speed factor in Equation (26.11-16), from Table 26.11-1.",
+          "b": "Diameter of a circular structure or member, ft (m)"
+        },
+        {
+          "field": "data.term",
+          "a": "b",
+          "b": "D"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.3-S15",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Symbol: b-hat - Three-second gust speed factor",
+          "b": "Symbol: D'"
+        },
+        {
+          "field": "data.definition",
+          "a": "Three-second gust speed factor from Table 26.11-1.",
+          "b": "Depth of protruding elements such as ribs and spoilers, ft (m)"
+        },
+        {
+          "field": "data.term",
+          "a": "b-hat",
+          "b": "D'"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.3-S16",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Symbol: cf - Force coefficient",
+          "b": "Symbol: d_1"
+        },
+        {
+          "field": "data.definition",
+          "a": "Force coefficient to be used in determination of wind loads for other structures...",
+          "b": "Horizontal distance of Zone 2 for ground-mounted solar panels in Figure 29.4-8, ..."
+        },
+        {
+          "field": "data.term",
+          "a": "cf",
+          "b": "d_1"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [],
+          "only_b": [
+            "Figure 29.4-8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.3-S17",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Symbol: cp - Net pressure coefficient",
+          "b": "Symbol: d_2"
+        },
+        {
+          "field": "data.definition",
+          "a": "Net pressure coefficient to be used in determination of wind loads for open buil...",
+          "b": "Horizontal offset for ground-mounted solar panels in Figure 29.4-9, ft (m)"
+        },
+        {
+          "field": "data.term",
+          "a": "cp",
+          "b": "d_2"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [],
+          "only_b": [
+            "Figure 29.4-9"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.3-S18",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Symbol: c - External pressure coefficient",
+          "b": "Symbol: d_s"
+        },
+        {
+          "field": "data.definition",
+          "a": "External pressure coefficient to be used in determination of wind loads for buil...",
+          "b": "For rooftop solar arrays, horizontal distance extending to the panel edge (to an..."
+        },
+        {
+          "field": "data.term",
+          "a": "c",
+          "b": "d_s"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [],
+          "only_b": [
+            "Figure 29.4-7"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.3-S19",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Symbol: c-bar - Turbulence intensity factor",
+          "b": "Symbol: d_s (rooftop edge)"
+        },
+        {
+          "field": "data.definition",
+          "a": "Turbulence intensity factor in Equation (26.11-7), from Table 26.11-1.",
+          "b": "For rooftop solar arrays, horizontal distance from the edge of one panel to the ..."
+        },
+        {
+          "field": "data.term",
+          "a": "c-bar",
+          "b": "d_s"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [],
+          "only_b": [
+            "Figure 29.4-7"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.3-S2",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Symbol: Af - Area of open buildings and other structures",
+          "b": "Symbol: A_o"
+        },
+        {
+          "field": "data.definition",
+          "a": "Area of open buildings and other structures either normal to the wind direction ...",
+          "b": "Sum of the areas of openings in the building envelope (walls and roof) not inclu..."
+        },
+        {
+          "field": "data.term",
+          "a": "Af",
+          "b": "A_o"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.3-S20",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Symbol: D - Diameter of a circular structure or member",
+          "b": "Symbol: F"
+        },
+        {
+          "field": "data.definition",
+          "a": "Diameter of a circular structure or member, ft (m).",
+          "b": "Design wind force for other structures, lb (N)"
+        },
+        {
+          "field": "data.term",
+          "a": "D",
+          "b": "F"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.3-S21",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Symbol: D' - Depth of protruding elements",
+          "b": "Symbol: G"
+        },
+        {
+          "field": "data.definition",
+          "a": "Depth of protruding elements such as ribs and spoilers, ft (m).",
+          "b": "Gust-effect factor"
+        },
+        {
+          "field": "data.term",
+          "a": "D'",
+          "b": "G"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.3-S22",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Symbol: d1 - Horizontal distance of Zone 2 for ground-mounted solar panels",
+          "b": "Symbol: G_f"
+        },
+        {
+          "field": "data.definition",
+          "a": "Horizontal distance of Zone 2 for ground-mounted solar panels in Figure 29.4-11,...",
+          "b": "Gust-effect factor for MWFRS of flexible buildings and other structures"
+        },
+        {
+          "field": "data.term",
+          "a": "d1",
+          "b": "G_f"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.3-S23",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Symbol: d2 - Horizontal offset for ground-mounted solar panels",
+          "b": "Symbol: (GC_pn)"
+        },
+        {
+          "field": "data.definition",
+          "a": "Horizontal offset for ground-mounted solar panels in Figure 29.4-9, ft (m).",
+          "b": "Dynamic net pressure coefficient for ground-mounted solar panel from Figure 29.4..."
+        },
+        {
+          "field": "data.term",
+          "a": "d2",
+          "b": "(GC_pn)"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [],
+          "only_b": [
+            "Figure 29.4-11"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.3-S24",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Symbol: ds - For rooftop solar arrays, horizontal distance",
+          "b": "Symbol: (GC_rn)"
+        },
+        {
+          "field": "data.definition",
+          "a": "For rooftop solar arrays, horizontal distance centroid to the parapet/edge close...",
+          "b": "Dynamic moment coefficient for ground-mounted solar panels from Figure 29.4-11"
+        },
+        {
+          "field": "data.term",
+          "a": "ds",
+          "b": "(GC_rn)"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [],
+          "only_b": [
+            "Figure 29.4-11"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.3-S25",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Symbol: ds2 - For rooftop solar arrays, horizontal distance from edge of panel to nearest edge",
+          "b": "Symbol: (GC_pf)"
+        },
+        {
+          "field": "data.definition",
+          "a": "For rooftop solar arrays, horizontal distance from the edge of one panel to the ...",
+          "b": "Static net pressure coefficient for ground-mounted solar panels from Figure 29.4..."
+        },
+        {
+          "field": "data.term",
+          "a": "ds2",
+          "b": "(GC_pf)"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [],
+          "only_b": [
+            "Figure 29.4-10"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.3-S26",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Symbol: F - Design wind force for other structures",
+          "b": "Symbol: (GC_rf)"
+        },
+        {
+          "field": "data.definition",
+          "a": "Design wind force for other structures, lb (N).",
+          "b": "Static moment coefficient for ground-mounted solar panels from Figure 29.4-10"
+        },
+        {
+          "field": "data.term",
+          "a": "F",
+          "b": "(GC_rf)"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [],
+          "only_b": [
+            "Figure 29.4-10"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.3-S27",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Symbol: Fn - Normal force for ground-mounted solar panels",
+          "b": "Symbol: (GC_p)"
+        },
+        {
+          "field": "data.definition",
+          "a": "Normal force for ground-mounted solar panels in Figure 29.4-9, lb (N).",
+          "b": "Product of external pressure coefficient and gust-effect factor to be used in de..."
+        },
+        {
+          "field": "data.term",
+          "a": "Fn",
+          "b": "(GC_p)"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.3-S28",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Symbol: G - Gust-effect factor",
+          "b": "Symbol: (GC_pf) (equivalent)"
+        },
+        {
+          "field": "data.definition",
+          "a": "Gust-effect factor.",
+          "b": "Product of the equivalent external pressure coefficient and gust-effect factor t..."
+        },
+        {
+          "field": "data.term",
+          "a": "G",
+          "b": "(GC_pf)"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.3-S29",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Symbol: Gf - Gust-effect factor for MWFRS of flexible buildings",
+          "b": "Symbol: (GC_pi)"
+        },
+        {
+          "field": "data.definition",
+          "a": "Gust-effect factor for MWFRS of flexible buildings and other structures.",
+          "b": "Product of internal pressure coefficient and gust-effect factor to be used in de..."
+        },
+        {
+          "field": "data.term",
+          "a": "Gf",
+          "b": "(GC_pi)"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.3-S3",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Symbol: Ag - Gross area of that wall in which Ao is identified",
+          "b": "Symbol: A_s"
+        },
+        {
+          "field": "data.definition",
+          "a": "Gross area of that wall in which Ao is identified, ft^2 (m^2).",
+          "b": "Gross area of the solid freestanding wall or solid sign, ft^2 (m^2)"
+        },
+        {
+          "field": "data.term",
+          "a": "Ag",
+          "b": "A_s"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.3-S30",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Symbol: (GCp) - Product of external pressure coefficient and gust-effect factor",
+          "b": "Symbol: (GC_rp)"
+        },
+        {
+          "field": "data.definition",
+          "a": "Product of external pressure coefficient and gust-effect factor to be used in de...",
+          "b": "Combined net pressure coefficient for a parapet"
+        },
+        {
+          "field": "data.term",
+          "a": "(GCp)",
+          "b": "(GC_rp)"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.3-S31",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Symbol: (GCpf) - Product of the equivalent external pressure coefficient and gust-effect factor for MWFRS of low-rise buildings",
+          "b": "Symbol: (GC_rs)"
+        },
+        {
+          "field": "data.definition",
+          "a": "Product of the equivalent external pressure coefficient and gust-effect factor t...",
+          "b": "Product of external pressure coefficient and gust-effect factor to be used in de..."
+        },
+        {
+          "field": "data.term",
+          "a": "(GCpf)",
+          "b": "(GC_rs)"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.3-S32",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Symbol: (GCpi) - Product of internal pressure coefficient and gust-effect factor",
+          "b": "Symbol: (GC_p) rooftop solar"
+        },
+        {
+          "field": "data.definition",
+          "a": "Product of internal pressure coefficient and gust-effect factor to be used in de...",
+          "b": "Net pressure coefficient for rooftop solar panels in Equations (29.4-4) and (29...."
+        },
+        {
+          "field": "data.term",
+          "a": "(GCpi)",
+          "b": "(GC_p)"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [],
+          "only_b": [
+            "Equation (29.4-4)",
+            "Equation (29.4-5)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.3-S33",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Symbol: (GCrn) - Combined net pressure coefficient for a parapet",
+          "b": "Symbol: (GC_pn) nominal rooftop solar"
+        },
+        {
+          "field": "data.definition",
+          "a": "Combined net pressure coefficient for a parapet.",
+          "b": "Nominal net pressure coefficient for rooftop solar panels determined from Figure..."
+        },
+        {
+          "field": "data.term",
+          "a": "(GCrn)",
+          "b": "(GC_pn)"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [],
+          "only_b": [
+            "Figure 29.4-7"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.3-S34",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Symbol: (GCrs) - Product of external pressure coefficient and gust-effect factor for rooftop structures",
+          "b": "Symbol: g_Q"
+        },
+        {
+          "field": "data.definition",
+          "a": "Product of external pressure coefficient and gust-effect factor to be used in de...",
+          "b": "Peak factor for background response in Equations (26.11-6) and (26.11-10)"
+        },
+        {
+          "field": "data.term",
+          "a": "(GCrs)",
+          "b": "g_Q"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [],
+          "only_b": [
+            "Equation (26.11-10)",
+            "Equation (26.11-6)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.3-S35",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Symbol: (GCrn)s - Net pressure coefficient for rooftop solar panels",
+          "b": "Symbol: g_R"
+        },
+        {
+          "field": "data.definition",
+          "a": "Net pressure coefficient for rooftop solar panels in Equations (29.4-4) and (29....",
+          "b": "Peak factor for resonant response in Equation (26.11-10)"
+        },
+        {
+          "field": "data.term",
+          "a": "(GCrn)s",
+          "b": "g_R"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [],
+          "only_b": [
+            "Equation (26.11-10)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.3-S36",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Symbol: (GCrn)nom - Nominal net pressure coefficient for rooftop solar panels",
+          "b": "Symbol: g_v"
+        },
+        {
+          "field": "data.definition",
+          "a": "Nominal net pressure coefficient for rooftop solar panels determined from Figure...",
+          "b": "Peak factor for wind response in Equations (26.11-6) and (26.11-10)"
+        },
+        {
+          "field": "data.term",
+          "a": "(GCrn)nom",
+          "b": "g_v"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [],
+          "only_b": [
+            "Equation (26.11-10)",
+            "Equation (26.11-6)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.3-S37",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Symbol: gQ - Peak factor for background response",
+          "b": "Symbol: H"
+        },
+        {
+          "field": "data.definition",
+          "a": "Peak factor for background response in Equations (26.11-6) and (26.11-10).",
+          "b": "Height of hill, ridge, or escarpment in Figure 26.8-1, ft (m)"
+        },
+        {
+          "field": "data.term",
+          "a": "gQ",
+          "b": "H"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [],
+          "only_b": [
+            "Figure 26.8-1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.3-S38",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Symbol: gR - Peak factor for resonant response",
+          "b": "Symbol: h"
+        },
+        {
+          "field": "data.definition",
+          "a": "Peak factor for resonant response in Equation (26.11-10).",
+          "b": "Mean roof height of a building or height of other structure, except that eave he..."
+        },
+        {
+          "field": "data.term",
+          "a": "gR",
+          "b": "h"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.3-S39",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Symbol: gv - Peak factor for wind response",
+          "b": "Symbol: h_e"
+        },
+        {
+          "field": "data.definition",
+          "a": "Peak factor for wind response in Equations (26.11-6) and (26.11-10).",
+          "b": "Height above grade of the bottom surface of the elevated building, ft (m)"
+        },
+        {
+          "field": "data.term",
+          "a": "gv",
+          "b": "h_e"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.3-S4",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Symbol: Agi - Sum of the gross surface areas of the building envelope",
+          "b": "Symbol: A_j"
+        },
+        {
+          "field": "data.definition",
+          "a": "Sum of the gross surface areas of the building envelope (walls and roof) not inc...",
+          "b": "Effective wind area for use with ground-mounted solar panels in Figure 29.4-11, ..."
+        },
+        {
+          "field": "data.term",
+          "a": "Agi",
+          "b": "A_j"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [],
+          "only_b": [
+            "Figure 29.4-11"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.3-S40",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Symbol: H - Height of hill, ridge, or escarpment",
+          "b": "Symbol: h_c"
+        },
+        {
+          "field": "data.definition",
+          "a": "Height of hill, ridge, or escarpment in Figure 26.8-1, ft (m).",
+          "b": "Height of the canopy (cylinder), ft (m)"
+        },
+        {
+          "field": "data.term",
+          "a": "H",
+          "b": "h_c"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.3-S41",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Symbol: h - Mean roof height of a building or height of other structure",
+          "b": "Symbol: h_r"
+        },
+        {
+          "field": "data.definition",
+          "a": "Mean roof height of a building or height of other structure, except that eave he...",
+          "b": "Roof cave height at a particular wall, or the average height if the eave varies ..."
+        },
+        {
+          "field": "data.term",
+          "a": "h",
+          "b": "h_r"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.3-S42",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Symbol: he - Height above grade of the bottom surface of the elevated building",
+          "b": "Symbol: h_p"
+        },
+        {
+          "field": "data.definition",
+          "a": "Height above grade of the bottom surface of the elevated building, ft (m).",
+          "b": "Height to top of parapet in Figures 27.5-2 and 30.6-1, ft (m)"
+        },
+        {
+          "field": "data.term",
+          "a": "he",
+          "b": "h_p"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [],
+          "only_b": [
+            "Figure 27.5-2",
+            "Figure 30.6-1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.3-S43",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Symbol: hc - Height of the eyewall cylinder",
+          "b": "Symbol: h_pt"
+        },
+        {
+          "field": "data.definition",
+          "a": "Height of the eyewall cylinder, ft (m).",
+          "b": "Mean parapet height above the adjacent roof surface for use with Equation (29.4-..."
+        },
+        {
+          "field": "data.term",
+          "a": "hc",
+          "b": "h_pt"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [],
+          "only_b": [
+            "Equation (29.4-5)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.3-S44",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Symbol: hp - Roof cave height at a particular wall",
+          "b": "Symbol: h_1"
+        },
+        {
+          "field": "data.definition",
+          "a": "Roof eave height at a particular wall, or the average height if the eave varies ...",
+          "b": "Height of a solar panel above the roof at the lower edge of the panel, ft (m)"
+        },
+        {
+          "field": "data.term",
+          "a": "hp",
+          "b": "h_1"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.3-S45",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Symbol: hpt - Height to top of parapet",
+          "b": "Symbol: h_2"
+        },
+        {
+          "field": "data.definition",
+          "a": "Height to top of parapet in Figures 27.5-2 and 30.6-1, ft (m).",
+          "b": "Height of a solar panel above the roof at the upper edge of the panel, ft (m)"
+        },
+        {
+          "field": "data.term",
+          "a": "hpt",
+          "b": "h_2"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.3-S46",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Symbol: hr - Mean parapet height above the adjacent roof surface",
+          "b": "Symbol: I_z_bar"
+        },
+        {
+          "field": "data.definition",
+          "a": "Mean parapet height above the adjacent roof surface for use with Equation (29.4-...",
+          "b": "Intensity of turbulence from Equation (26.11-7)"
+        },
+        {
+          "field": "data.term",
+          "a": "hr",
+          "b": "\u012a_z"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [],
+          "only_b": [
+            "Equation (26.11-7)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.3-S47",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Symbol: hs1 - Height of a solar panel above the roof at the lower edge of the panel",
+          "b": "Symbol: K_1, K_2, K_3"
+        },
+        {
+          "field": "data.definition",
+          "a": "Height of a solar panel above the roof at the lower edge of the panel, ft (m).",
+          "b": "Multipliers in Figure 26.8-1 to obtain K_zt"
+        },
+        {
+          "field": "data.term",
+          "a": "hs1",
+          "b": "K_1, K_2, K_3"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [],
+          "only_b": [
+            "Figure 26.8-1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.3-S48",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Symbol: hs2 - Height of a solar panel above the roof at the upper edge of the panel",
+          "b": "Symbol: K_d"
+        },
+        {
+          "field": "data.definition",
+          "a": "Height of a solar panel above the roof at the upper edge of the panel, ft (m).",
+          "b": "Wind directionality factor from Section 26.6 and Table 26.6-1"
+        },
+        {
+          "field": "data.term",
+          "a": "hs2",
+          "b": "K_d"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [],
+          "only_b": [
+            "Section 26.6",
+            "Table 26.6-1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.3-S49",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Symbol: Iz-bar - Intensity of turbulence",
+          "b": "Symbol: K_e"
+        },
+        {
+          "field": "data.definition",
+          "a": "Intensity of turbulence from Equation (26.11-7).",
+          "b": "Ground elevation factor"
+        },
+        {
+          "field": "data.term",
+          "a": "Iz-bar",
+          "b": "K_e"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.3-S5",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Symbol: Ao - Total area of openings in a wall receiving positive external pressure",
+          "b": "Symbol: a"
+        },
+        {
+          "field": "data.definition",
+          "a": "Total area of openings in a wall that receives positive external pressure, ft^2 ...",
+          "b": "Width of pressure coefficient zone, ft (m)"
+        },
+        {
+          "field": "data.term",
+          "a": "Ao",
+          "b": "a"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.3-S50",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Symbol: Kz - Multipliers in Figure 26.8-1 to obtain Kzt",
+          "b": "Symbol: K_z"
+        },
+        {
+          "field": "data.definition",
+          "a": "Multipliers in Figure 26.8-1 to obtain Kzt.",
+          "b": "Velocity pressure exposure coefficient evaluated at height z, Blt^2/(lb/ft^2)"
+        },
+        {
+          "field": "data.term",
+          "a": "K1, K2, K3",
+          "b": "K_z"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.3-S51",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Symbol: Kd - Wind directionality factor",
+          "b": "Symbol: K_h"
+        },
+        {
+          "field": "data.definition",
+          "a": "Wind directionality factor from Section 26.6 and Table 26.6-1.",
+          "b": "Velocity pressure exposure coefficient evaluated at height z = h, Blt^2/(lb/ft^2..."
+        },
+        {
+          "field": "data.term",
+          "a": "Kd",
+          "b": "K_h"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.3-S52",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Symbol: Ke - Ground elevation factor",
+          "b": "Symbol: K_zt"
+        },
+        {
+          "field": "data.definition",
+          "a": "Ground elevation factor.",
+          "b": "Topographic factor"
+        },
+        {
+          "field": "data.term",
+          "a": "Ke",
+          "b": "K_zt"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.3-S53",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Symbol: Kh - Velocity pressure exposure coefficient evaluated at height z = h",
+          "b": "Symbol: q_z"
+        },
+        {
+          "field": "data.definition",
+          "a": "Velocity pressure exposure coefficient evaluated at height z = h.",
+          "b": "Velocity pressure, lb/ft^2 (N/m^2)"
+        },
+        {
+          "field": "data.term",
+          "a": "Kh",
+          "b": "q_z"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.3-S54",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Symbol: Kz - Velocity pressure exposure coefficient evaluated at height z",
+          "b": "Symbol: q_p"
+        },
+        {
+          "field": "data.definition",
+          "a": "Velocity pressure exposure coefficient evaluated at height z.",
+          "b": "Velocity pressure at top of parapet, lb/ft^2 (N/m^2)"
+        },
+        {
+          "field": "data.term",
+          "a": "Kz",
+          "b": "q_p"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.3-S55",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Symbol: Kzt - Topographic factor",
+          "b": "Symbol: q_h"
+        },
+        {
+          "field": "data.definition",
+          "a": "Topographic factor as defined in Section 26.8.",
+          "b": "Velocity pressure evaluated at height z above ground, lb/ft^2 (N/m^2)"
+        },
+        {
+          "field": "data.term",
+          "a": "Kzt",
+          "b": "q_h"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.3-S56",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Symbol: L - Horizontal dimension of a building measured parallel to wind direction",
+          "b": "Symbol: R"
+        },
+        {
+          "field": "data.definition",
+          "a": "Horizontal dimension of a building measured parallel to the wind direction, ft (...",
+          "b": "Resonant response factor from Equation (26.11-12)"
+        },
+        {
+          "field": "data.term",
+          "a": "L",
+          "b": "R"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [],
+          "only_b": [
+            "Equation (26.11-12)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.3-S57",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Symbol: Lb - Normalized building length for rooftop solar panels",
+          "b": "Symbol: R_i"
+        },
+        {
+          "field": "data.definition",
+          "a": "Normalized building length, for use with Figure 29.4-7, ft (m).",
+          "b": "Rise-to-span ratio for arched roofs"
+        },
+        {
+          "field": "data.term",
+          "a": "Lb",
+          "b": "R_i"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.3-S58",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Symbol: Lc - Panel chord length for ground-mounted solar panels",
+          "b": "Symbol: R_B, R_L"
+        },
+        {
+          "field": "data.definition",
+          "a": "Panel chord length for ground-mounted solar panels in Figure 29.4-9, ft (m).",
+          "b": "Values from Equations (26.11-15a) and (26.11-15b)"
+        },
+        {
+          "field": "data.term",
+          "a": "Lc",
+          "b": "R_B, R_L"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [],
+          "only_b": [
+            "Equation (26.11-15a)",
+            "Equation (26.11-15b)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.3-S59",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Symbol: Lcs - Panel chord length for use with rooftop solar panels",
+          "b": "Symbol: R_h"
+        },
+        {
+          "field": "data.definition",
+          "a": "Panel chord length for use with rooftop solar panels in Figure 29.4-7, ft (m).",
+          "b": "Reduction factor from Equation (26.11-13)"
+        },
+        {
+          "field": "data.term",
+          "a": "Lcs",
+          "b": "R_h"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [],
+          "only_b": [
+            "Equation (26.11-13)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.3-S6",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Symbol: Aog - Normalized wind area for rooftop solar panels",
+          "b": "Symbol: a_w"
+        },
+        {
+          "field": "data.definition",
+          "a": "Normalized wind area for rooftop solar panels in Figure 29.4-7, ft^2 (m^2).",
+          "b": "Width of pressure coefficient zone for elevated buildings, ft (m)"
+        },
+        {
+          "field": "data.term",
+          "a": "Aog",
+          "b": "a_w"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.3-S60",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Symbol: Lh - Distance upwind of crest of hill or escarpment",
+          "b": "Symbol: R_n"
+        },
+        {
+          "field": "data.definition",
+          "a": "Distance upwind of crest of hill, ridge, or escarpment in Figure 26.8-1 to where...",
+          "b": "Value from Equation (26.11-13)"
+        },
+        {
+          "field": "data.term",
+          "a": "Lh",
+          "b": "R_n"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [],
+          "only_b": [
+            "Equation (26.11-13)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.3-S61",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Symbol: Lr - Horizontal dimension of return corner for a solid freestanding wall or sign",
+          "b": "Symbol: s"
+        },
+        {
+          "field": "data.definition",
+          "a": "Horizontal dimension of return corner for a solid freestanding wall or solid sig...",
+          "b": "Vertical dimension of the solid freestanding wall or solid sign, ft (m)"
+        },
+        {
+          "field": "data.term",
+          "a": "Lr",
+          "b": "s"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.3-S62",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Symbol: Lz-bar - Integral length scale of turbulence",
+          "b": "Symbol: S_e"
+        },
+        {
+          "field": "data.definition",
+          "a": "Integral length scale of turbulence, ft (m).",
+          "b": "Center-to-center row spacing for ground-mounted solar panels in Figure 29.4-8, f..."
+        },
+        {
+          "field": "data.term",
+          "a": "Lz-bar",
+          "b": "S_e"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [],
+          "only_b": [
+            "Figure 29.4-8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.3-S63",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Symbol: l - Integral length scale factor from Table 26.11-1",
+          "b": "Symbol: S_o"
+        },
+        {
+          "field": "data.definition",
+          "a": "Integral length scale factor from Table 26.11-1, ft (m).",
+          "b": "Open distance in longitudinal direction for ground-mounted solar panels in Figur..."
+        },
+        {
+          "field": "data.term",
+          "a": "l",
+          "b": "S_o"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [],
+          "only_b": [
+            "Figure 29.4-9"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.3-S64",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Symbol: Mf - Moment for ground-mounted solar panels",
+          "b": "Symbol: S_p"
+        },
+        {
+          "field": "data.definition",
+          "a": "Moment for ground-mounted solar panels in Figure 29.4-9, lb-ft (N-m).",
+          "b": "Open distance in transverse direction for ground-mounted solar panels in Figure ..."
+        },
+        {
+          "field": "data.term",
+          "a": "Mf",
+          "b": "S_p"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [],
+          "only_b": [
+            "Figure 29.4-9"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.3-S65",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Symbol: N1 - Reduced frequency from Equation (26.11-14)",
+          "b": "Symbol: s_v"
+        },
+        {
+          "field": "data.definition",
+          "a": "Reduced frequency from Equation (26.11-14).",
+          "b": "Vertical dimension of the solid freestanding wall or solid sign from Figure 29.4..."
+        },
+        {
+          "field": "data.term",
+          "a": "N1",
+          "b": "s_v"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [],
+          "only_b": [
+            "Figure 29.4-9"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.3-S7",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Symbol: Aoi - Total area of openings in the building envelope",
+          "b": "Symbol: B"
+        },
+        {
+          "field": "data.definition",
+          "a": "Total area of openings in the building envelope (walls and roof) not including A...",
+          "b": "Horizontal dimension of a building measured normal to wind direction, ft (m)"
+        },
+        {
+          "field": "data.term",
+          "a": "Aoi",
+          "b": "B"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.3-S8",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Symbol: Aog - Total area of openings in the building envelope",
+          "b": "Symbol: b_bar"
+        },
+        {
+          "field": "data.definition",
+          "a": "Total area of openings in the building envelope, ft^2 (m^2).",
+          "b": "Mean hourly wind speed factor in Equation (26.11-16), from Table 26.11-1"
+        },
+        {
+          "field": "data.term",
+          "a": "Aog",
+          "b": "b\u0304"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [],
+          "only_b": [
+            "Equation (26.11-16)",
+            "Table 26.11-1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.3-S9",
+      "type_a": "definition",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Symbol: As - Gross area of the solid freestanding wall or sign",
+          "b": "Symbol: b_hat"
+        },
+        {
+          "field": "data.definition",
+          "a": "Gross area of the solid freestanding wall or solid sign, ft^2 (m^2).",
+          "b": "Three-second gust speed factor from Table 26.11-1"
+        },
+        {
+          "field": "data.term",
+          "a": "As",
+          "b": "b\u0302"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [],
+          "only_b": [
+            "Table 26.11-1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.4-P1",
+      "type_a": "provision",
+      "type_b": "provision",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Section 26.4: General",
+          "b": "26.4 General"
+        },
+        {
+          "field": "data.else",
+          "a": "null",
+          "b": "(missing)"
+        },
+        {
+          "field": "data.exceptions",
+          "a": "[0 items]",
+          "b": "(missing)"
+        },
+        {
+          "field": "data.rule",
+          "a": "The general requirements specified in this section shall be used in the determin...",
+          "b": "The following symbols apply only to the provisions of Chapters 26 through 31."
+        },
+        {
+          "field": "data.then",
+          "a": "Apply general requirements of Section 26.4",
+          "b": "The symbols and notation defined in Section 26.3 apply to Chapters 26 through 31..."
+        },
+        {
+          "field": "cross_references",
+          "only_a": [],
+          "only_b": [
+            "Chapter 26",
+            "Chapter 27",
+            "Chapter 28",
+            "Chapter 29",
+            "Chapter 30",
+            "Chapter 31"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.5-P1",
+      "type_a": "provision",
+      "type_b": "provision",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Section 26.5: Wind Hazard Map",
+          "b": "26.5 Wind Hazard Map"
+        },
+        {
+          "field": "data.else",
+          "a": "null",
+          "b": "(missing)"
+        },
+        {
+          "field": "data.exceptions",
+          "a": "[0 items]",
+          "b": "(missing)"
+        },
+        {
+          "field": "data.rule",
+          "a": "The basic wind speed, V, used in the determination of design wind loads on build...",
+          "b": "The basic wind speed, V, used in the determination of design wind loads on build..."
+        },
+        {
+          "field": "data.then",
+          "a": "Determine basic wind speed V from the appropriate figure based on Risk Category",
+          "b": "(missing)"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [
+            "ASCE7-22-26.5.1-F1",
+            "ASCE7-22-26.5.1-F2"
+          ],
+          "only_b": [
+            "Figure 26.5-1",
+            "Section 26.5.1",
+            "Section 26.5.2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.5.2-P1",
+      "type_a": "provision",
+      "type_b": "provision",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Section 26.5.2: Special Wind Regions",
+          "b": "Special Wind Regions"
+        },
+        {
+          "field": "data.else",
+          "a": "null",
+          "b": "(missing)"
+        },
+        {
+          "field": "data.exceptions",
+          "a": "[0 items]",
+          "b": "[1 items]"
+        },
+        {
+          "field": "data.rule",
+          "a": "Mountainous terrain, gorges, ocean promontories, and special wind regions shown ...",
+          "b": "Mountainous terrain, gorges, and special wind regions shown in Figure 26.5-1 sha..."
+        },
+        {
+          "field": "data.then",
+          "a": "Examine for unusual wind conditions and adjust values if necessary",
+          "b": "(missing)"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [
+            "ASCE7-22-26.5.1-F1",
+            "ASCE7-22-26.5.3-P1"
+          ],
+          "only_b": [
+            "Figure 26.5-1",
+            "Section 26.5.3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.5.3-P1",
+      "type_a": "provision",
+      "type_b": "provision",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Section 26.5.3: Estimation of Basic Wind Speeds from Regional Climatic Data",
+          "b": "Estimation of Basic Wind Speeds from Regional Climatic Data"
+        },
+        {
+          "field": "data.else",
+          "a": "null",
+          "b": "(missing)"
+        },
+        {
+          "field": "data.exceptions",
+          "a": "[0 items]",
+          "b": "[2 items]"
+        },
+        {
+          "field": "data.then",
+          "a": "Regional climatic data may be used in lieu of Figure 26.5-1 values",
+          "b": "(missing)"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [
+            "ASCE7-22-26.5.1-F1"
+          ],
+          "only_b": [
+            "Figure 26.5-1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.6-P1",
+      "type_a": "provision",
+      "type_b": "provision",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Section 26.6: Wind Directionality",
+          "b": "Wind Directionality Factor"
+        },
+        {
+          "field": "data.else",
+          "a": "null",
+          "b": "(missing)"
+        },
+        {
+          "field": "data.rule",
+          "a": "The wind directionality factor, Kd, shall be determined from Table 26.6-1 and sh...",
+          "b": "The wind directionality factor, Kd, shall be determined from Table 26.6-1 and sh..."
+        },
+        {
+          "field": "data.then",
+          "a": "Use Kd from Table 26.6-1 for Chapters 27-30; use rational analysis for Chapter 3...",
+          "b": "(missing)"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [
+            "ASCE7-22-26.6-T1"
+          ],
+          "only_b": [
+            "Section 26.5.3",
+            "Section 31.4.3",
+            "Table 26.6-1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.6-T1",
+      "type_a": "table",
+      "type_b": "table",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Table 26.6-1: Wind Directionality Factor, Kd",
+          "b": "Table 26.6-1. Wind Directionality Factor, Kd"
+        },
+        {
+          "field": "data.columns",
+          "a": "[2 items]",
+          "b": "[2 items]"
+        },
+        {
+          "field": "data.rows",
+          "a": "[10 items]",
+          "b": "[11 items]"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [
+            "ASCE7-22-26.6-P1"
+          ],
+          "only_b": []
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.7-P1",
+      "type_a": "provision",
+      "type_b": "provision",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Section 26.7: Exposure",
+          "b": "Exposure"
+        },
+        {
+          "field": "data.else",
+          "a": "null",
+          "b": "(missing)"
+        },
+        {
+          "field": "data.then",
+          "a": "Base upwind exposure on ground surface roughness from natural topography, vegeta...",
+          "b": "(missing)"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.7.1-P1",
+      "type_a": "provision",
+      "type_b": "provision",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Section 26.7.1: Wind Direction and Sectors",
+          "b": "Wind Direction and Sectors"
+        },
+        {
+          "field": "data.else",
+          "a": "null",
+          "b": "(missing)"
+        },
+        {
+          "field": "data.rule",
+          "a": "For each selected wind direction at which the wind loads are to be determined, t...",
+          "b": "For each selected wind direction at which the wind loads are to be determined, t..."
+        },
+        {
+          "field": "data.then",
+          "a": "Determine exposure for two 45-degree upwind sectors and use the exposure resulti...",
+          "b": "(missing)"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [
+            "ASCE7-22-26.7.2-P1",
+            "ASCE7-22-26.7.3-P1"
+          ],
+          "only_b": [
+            "Section 26.7.2",
+            "Section 26.7.3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.7.2-P1",
+      "type_a": "provision",
+      "type_b": "provision",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Section 26.7.2: Surface Roughness Categories",
+          "b": "Surface Roughness Categories"
+        },
+        {
+          "field": "data.else",
+          "a": "null",
+          "b": "(missing)"
+        },
+        {
+          "field": "data.rule",
+          "a": "Surface Roughness Categories: A ground surface roughness within each 45-degree s...",
+          "b": "A ground surface roughness within each 45-degree sector shall be determined for ..."
+        },
+        {
+          "field": "data.then",
+          "a": "Determine surface roughness category for each 45-degree sector",
+          "b": "(missing)"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [
+            "ASCE7-22-26.7.3-P1"
+          ],
+          "only_b": [
+            "Section 26.7.3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.7.2-P2",
+      "type_a": "provision",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "type",
+          "a": "provision",
+          "b": "definition"
+        },
+        {
+          "field": "title",
+          "a": "Exposure C Definition",
+          "b": "Surface Roughness B"
+        },
+        {
+          "field": "data.conditions",
+          "a": "[1 items]",
+          "b": "[0 items]"
+        },
+        {
+          "field": "data.definition",
+          "a": "(missing)",
+          "b": "Urban and suburban areas, wooded areas, or other terrain with numerous, closely ..."
+        },
+        {
+          "field": "data.else",
+          "a": "null",
+          "b": "(missing)"
+        },
+        {
+          "field": "data.rule",
+          "a": "Exposure C shall apply for all cases where Exposure B or D does not apply.",
+          "b": "(missing)"
+        },
+        {
+          "field": "data.term",
+          "a": "(missing)",
+          "b": "Surface Roughness B"
+        },
+        {
+          "field": "data.then",
+          "a": "Use Exposure C",
+          "b": "(missing)"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.7.2-P3",
+      "type_a": "provision",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "type",
+          "a": "provision",
+          "b": "definition"
+        },
+        {
+          "field": "title",
+          "a": "Exposure D Definition",
+          "b": "Surface Roughness C"
+        },
+        {
+          "field": "data.conditions",
+          "a": "[1 items]",
+          "b": "[0 items]"
+        },
+        {
+          "field": "data.definition",
+          "a": "(missing)",
+          "b": "Open terrain with scattered obstructions having heights generally less than 30 f..."
+        },
+        {
+          "field": "data.else",
+          "a": "null",
+          "b": "(missing)"
+        },
+        {
+          "field": "data.rule",
+          "a": "Exposure D shall apply where the ground surface roughness, as defined by Surface...",
+          "b": "(missing)"
+        },
+        {
+          "field": "data.term",
+          "a": "(missing)",
+          "b": "Surface Roughness C"
+        },
+        {
+          "field": "data.then",
+          "a": "Use Exposure D",
+          "b": "(missing)"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [
+            "ASCE7-22-26.7.1"
+          ],
+          "only_b": []
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.7.2-P4",
+      "type_a": "provision",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "type",
+          "a": "provision",
+          "b": "definition"
+        },
+        {
+          "field": "title",
+          "a": "Transition Zone Between Exposure Categories",
+          "b": "Surface Roughness D"
+        },
+        {
+          "field": "data.conditions",
+          "a": "[1 items]",
+          "b": "[0 items]"
+        },
+        {
+          "field": "data.definition",
+          "a": "(missing)",
+          "b": "Flat, unobstructed areas and water surfaces. This category includes smooth mud f..."
+        },
+        {
+          "field": "data.else",
+          "a": "null",
+          "b": "(missing)"
+        },
+        {
+          "field": "data.exceptions",
+          "a": "[1 items]",
+          "b": "[0 items]"
+        },
+        {
+          "field": "data.rule",
+          "a": "For a building or structure located in the transition zone between exposure cate...",
+          "b": "(missing)"
+        },
+        {
+          "field": "data.term",
+          "a": "(missing)",
+          "b": "Surface Roughness D"
+        },
+        {
+          "field": "data.then",
+          "a": "Use the exposure category resulting in the largest wind forces",
+          "b": "(missing)"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.7.3-P1",
+      "type_a": "provision",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "type",
+          "a": "provision",
+          "b": "definition"
+        },
+        {
+          "field": "title",
+          "a": "Section 26.7.3: Exposure Categories \u2014 Exposure B",
+          "b": "Exposure B"
+        },
+        {
+          "field": "data.conditions",
+          "a": "[1 items]",
+          "b": "[0 items]"
+        },
+        {
+          "field": "data.definition",
+          "a": "(missing)",
+          "b": "For buildings or other structures with a mean roof height less than or equal to ..."
+        },
+        {
+          "field": "data.else",
+          "a": "Exposure B applies where Surface Roughness B prevails for distance greater than ...",
+          "b": "(missing)"
+        },
+        {
+          "field": "data.rule",
+          "a": "Exposure B: For buildings or other structures with a mean roof height less than ...",
+          "b": "(missing)"
+        },
+        {
+          "field": "data.term",
+          "a": "(missing)",
+          "b": "Exposure B"
+        },
+        {
+          "field": "data.then",
+          "a": "Exposure B applies where Surface Roughness B prevails for distance greater than ...",
+          "b": "(missing)"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [
+            "ASCE7-22-26.7.2-D1"
+          ],
+          "only_b": []
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.7.3-P2",
+      "type_a": "provision",
+      "type_b": "definition",
+      "fields": [
+        {
+          "field": "type",
+          "a": "provision",
+          "b": "definition"
+        },
+        {
+          "field": "title",
+          "a": "Exposure Requirements \u2014 Open Buildings and Trusses",
+          "b": "Exposure C"
+        },
+        {
+          "field": "data.conditions",
+          "a": "[1 items]",
+          "b": "[0 items]"
+        },
+        {
+          "field": "data.definition",
+          "a": "(missing)",
+          "b": "Exposure C shall apply for all cases where Exposure B or D does not apply."
+        },
+        {
+          "field": "data.else",
+          "a": "null",
+          "b": "(missing)"
+        },
+        {
+          "field": "data.rule",
+          "a": "Wind loads for the design of open buildings with monoslope, pitched, or troughed...",
+          "b": "(missing)"
+        },
+        {
+          "field": "data.term",
+          "a": "(missing)",
+          "b": "Exposure C"
+        },
+        {
+          "field": "data.then",
+          "a": "Use exposure resulting in highest wind loads for any wind direction",
+          "b": "(missing)"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [
+            "ASCE7-22-26.7.3"
+          ],
+          "only_b": []
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.7.4.1-P1",
+      "type_a": "provision",
+      "type_b": "provision",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Directional Procedure (Chapter 27) Exposure",
+          "b": "Directional Procedure (Chapter 27)"
+        },
+        {
+          "field": "data.conditions",
+          "a": "[1 items]",
+          "b": "[0 items]"
+        },
+        {
+          "field": "data.else",
+          "a": "null",
+          "b": "(missing)"
+        },
+        {
+          "field": "data.rule",
+          "a": "For each wind direction considered, wind loads for the design of the MWFRS of en...",
+          "b": "For each wind direction considered, wind loads for the design of the MWFRS of en..."
+        },
+        {
+          "field": "data.then",
+          "a": "Base exposure on Section 26.7.1 for each wind direction",
+          "b": "(missing)"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [
+            "ASCE7-22-26.7.1"
+          ],
+          "only_b": [
+            "Section 26.7.3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.7.4.2-P1",
+      "type_a": "provision",
+      "type_b": "provision",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Envelope Procedure (Chapter 28) Exposure",
+          "b": "Envelope Procedure (Chapter 28)"
+        },
+        {
+          "field": "data.conditions",
+          "a": "[1 items]",
+          "b": "[0 items]"
+        },
+        {
+          "field": "data.else",
+          "a": "null",
+          "b": "(missing)"
+        },
+        {
+          "field": "data.then",
+          "a": "Use exposure category resulting in highest wind loads for any wind direction",
+          "b": "(missing)"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.7.4.3-P1",
+      "type_a": "provision",
+      "type_b": "provision",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Directional Procedure for Building Appurtenances and Other Structures (Chapter 29) Exposure",
+          "b": "Directional Procedure for Building Appurtenances and Other Structures (Chapter 29)"
+        },
+        {
+          "field": "data.conditions",
+          "a": "[1 items]",
+          "b": "[0 items]"
+        },
+        {
+          "field": "data.else",
+          "a": "null",
+          "b": "(missing)"
+        },
+        {
+          "field": "data.then",
+          "a": "Use appropriate exposure for each wind direction considered",
+          "b": "(missing)"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.7.4.4-P1",
+      "type_a": "provision",
+      "type_b": "provision",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Components and Cladding (Chapter 30) Exposure",
+          "b": "Components and Cladding (Chapter 30)"
+        },
+        {
+          "field": "data.conditions",
+          "a": "[1 items]",
+          "b": "[0 items]"
+        },
+        {
+          "field": "data.else",
+          "a": "null",
+          "b": "(missing)"
+        },
+        {
+          "field": "data.then",
+          "a": "Use exposure category resulting in highest wind loads for any wind direction",
+          "b": "(missing)"
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.8-P1",
+      "type_a": "provision",
+      "type_b": "provision",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Topographic Effects \u2014 General Requirements",
+          "b": "Topographic Effects"
+        },
+        {
+          "field": "data.conditions",
+          "a": "[2 items]",
+          "b": "[3 items]"
+        },
+        {
+          "field": "data.else",
+          "a": "null",
+          "b": "(missing)"
+        },
+        {
+          "field": "data.then",
+          "a": "Include topographic speed-up effects using Kzt from Section 26.8.2",
+          "b": "(missing)"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [
+            "ASCE7-22-26.8.2-F1"
+          ],
+          "only_b": [
+            "Figure 26.8-1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.8.2-P1",
+      "type_a": "provision",
+      "type_b": "provision",
+      "fields": [
+        {
+          "field": "data.else",
+          "a": "null",
+          "b": "(missing)"
+        },
+        {
+          "field": "data.rule",
+          "a": "The wind speed-up effect shall be included in the calculation of design wind loa...",
+          "b": "The wind speed-up effect shall be included in the calculation of design wind loa..."
+        },
+        {
+          "field": "data.then",
+          "a": "Use Kzt per Equation 26.8-1",
+          "b": "(missing)"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [
+            "ASCE7-22-26.8.2-E1"
+          ],
+          "only_b": [
+            "Figure 26.8-1",
+            "Section 26.8.1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.9-P1",
+      "type_a": "provision",
+      "type_b": "provision",
+      "fields": [
+        {
+          "field": "data.else",
+          "a": "null",
+          "b": "(missing)"
+        },
+        {
+          "field": "data.exceptions",
+          "a": "[1 items]",
+          "b": "[0 items]"
+        },
+        {
+          "field": "data.rule",
+          "a": "The ground elevation factor to adjust for air density, Ke, shall be determined i...",
+          "b": "The ground elevation factor to adjust for air density, Ke, shall be determined i..."
+        },
+        {
+          "field": "data.then",
+          "a": "Determine Ke from Table 26.9-1 or conservatively use Ke = 1.0",
+          "b": "(missing)"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [
+            "ASCE7-22-26.9-T1"
+          ],
+          "only_b": [
+            "Table 26.9-1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ASCE7-22-26.9-T1",
+      "type_a": "table",
+      "type_b": "table",
+      "fields": [
+        {
+          "field": "title",
+          "a": "Table 26.9-1: Ground Elevation Factor, Ke",
+          "b": "Table 26.9-1. Ground Elevation Factor, Ke"
+        },
+        {
+          "field": "data.columns",
+          "a": "[2 items]",
+          "b": "[3 items]"
+        },
+        {
+          "field": "data.rows",
+          "a": "[7 items]",
+          "b": "[8 items]"
+        },
+        {
+          "field": "cross_references",
+          "only_a": [
+            "ASCE7-22-26.9-P1"
+          ],
+          "only_b": []
+        }
+      ]
+    }
+  ],
+  "only_a": [
+    "ASCE7-22-26.1.2.1-P2",
+    "ASCE7-22-26.1.2.1-P3",
+    "ASCE7-22-26.1.2.1-P4",
+    "ASCE7-22-26.1.2.1-P5",
+    "ASCE7-22-26.10-E1SI",
+    "ASCE7-22-26.10.2-E1",
+    "ASCE7-22-26.11-E1",
+    "ASCE7-22-26.11-E2",
+    "ASCE7-22-26.11-E3",
+    "ASCE7-22-26.11-E4",
+    "ASCE7-22-26.11-E5",
+    "ASCE7-22-26.11-P1",
+    "ASCE7-22-26.11.2.1-E1",
+    "ASCE7-22-26.11.3-E1SI",
+    "ASCE7-22-26.11.3-E2SI",
+    "ASCE7-22-26.11.4-P1",
+    "ASCE7-22-26.11.5-P1",
+    "ASCE7-22-26.12-P1",
+    "ASCE7-22-26.12.3.1-P2",
+    "ASCE7-22-26.12.3.2-P2",
+    "ASCE7-22-26.13-P1",
+    "ASCE7-22-26.13.1-P1",
+    "ASCE7-22-26.2-D27",
+    "ASCE7-22-26.2-D28",
+    "ASCE7-22-26.2-D29",
+    "ASCE7-22-26.2-D30",
+    "ASCE7-22-26.2-D31",
+    "ASCE7-22-26.2-D32",
+    "ASCE7-22-26.2-D33",
+    "ASCE7-22-26.2-D34",
+    "ASCE7-22-26.2-D35",
+    "ASCE7-22-26.2-D36",
+    "ASCE7-22-26.2-D37",
+    "ASCE7-22-26.2-D38",
+    "ASCE7-22-26.2-D39",
+    "ASCE7-22-26.4.1-P1",
+    "ASCE7-22-26.4.2-P1",
+    "ASCE7-22-26.4.3-P1",
+    "ASCE7-22-26.5.1-F3",
+    "ASCE7-22-26.5.1-F3E",
+    "ASCE7-22-26.5.1-F4",
+    "ASCE7-22-26.5.1-F4E",
+    "ASCE7-22-26.5.1-P1",
+    "ASCE7-22-26.5.1A-F1",
+    "ASCE7-22-26.5.1A-F2",
+    "ASCE7-22-26.5.1B-F1",
+    "ASCE7-22-26.5.1B-F2",
+    "ASCE7-22-26.5.2-P2",
+    "ASCE7-22-26.5.3-P2",
+    "ASCE7-22-26.5.3-P3",
+    "ASCE7-22-26.7.2-D1",
+    "ASCE7-22-26.7.2-D2",
+    "ASCE7-22-26.7.2-D3",
+    "ASCE7-22-26.8.2-E1",
+    "ASCE7-22-26.8.2-E2",
+    "ASCE7-22-26.8.2-E3",
+    "ASCE7-22-26.8.2-F1",
+    "ASCE7-22-26.8.2-T1",
+    "ASCE7-22-26.8.2-T2"
+  ],
+  "only_b": [
+    "ASCE7-22-26.1.1-P4",
+    "ASCE7-22-26.10-E2",
+    "ASCE7-22-26.10-P3",
+    "ASCE7-22-26.10.2-P1",
+    "ASCE7-22-26.11.1-P1",
+    "ASCE7-22-26.11.3-E10",
+    "ASCE7-22-26.11.3-E3",
+    "ASCE7-22-26.11.3-E4",
+    "ASCE7-22-26.11.3-E5",
+    "ASCE7-22-26.11.3-E6",
+    "ASCE7-22-26.11.3-E7",
+    "ASCE7-22-26.11.3-E8",
+    "ASCE7-22-26.11.3-E9",
+    "ASCE7-22-26.12.1-P1",
+    "ASCE7-22-26.14-R7",
+    "ASCE7-22-26.2-E1",
+    "ASCE7-22-26.2-E2",
+    "ASCE7-22-26.2-E3",
+    "ASCE7-22-26.2-P1",
+    "ASCE7-22-26.2-R1",
+    "ASCE7-22-26.3-S100",
+    "ASCE7-22-26.3-S101",
+    "ASCE7-22-26.3-S102",
+    "ASCE7-22-26.3-S103",
+    "ASCE7-22-26.3-S104",
+    "ASCE7-22-26.3-S105",
+    "ASCE7-22-26.3-S106",
+    "ASCE7-22-26.3-S107",
+    "ASCE7-22-26.3-S108",
+    "ASCE7-22-26.3-S109",
+    "ASCE7-22-26.3-S110",
+    "ASCE7-22-26.3-S111",
+    "ASCE7-22-26.3-S112",
+    "ASCE7-22-26.3-S113",
+    "ASCE7-22-26.3-S114",
+    "ASCE7-22-26.3-S66",
+    "ASCE7-22-26.3-S67",
+    "ASCE7-22-26.3-S68",
+    "ASCE7-22-26.3-S69",
+    "ASCE7-22-26.3-S70",
+    "ASCE7-22-26.3-S71",
+    "ASCE7-22-26.3-S72",
+    "ASCE7-22-26.3-S73",
+    "ASCE7-22-26.3-S74",
+    "ASCE7-22-26.3-S75",
+    "ASCE7-22-26.3-S76",
+    "ASCE7-22-26.3-S77",
+    "ASCE7-22-26.3-S78",
+    "ASCE7-22-26.3-S79",
+    "ASCE7-22-26.3-S80",
+    "ASCE7-22-26.3-S81",
+    "ASCE7-22-26.3-S82",
+    "ASCE7-22-26.3-S83",
+    "ASCE7-22-26.3-S84",
+    "ASCE7-22-26.3-S85",
+    "ASCE7-22-26.3-S86",
+    "ASCE7-22-26.3-S87",
+    "ASCE7-22-26.3-S88",
+    "ASCE7-22-26.3-S89",
+    "ASCE7-22-26.3-S90",
+    "ASCE7-22-26.3-S91",
+    "ASCE7-22-26.3-S92",
+    "ASCE7-22-26.3-S93",
+    "ASCE7-22-26.3-S94",
+    "ASCE7-22-26.3-S95",
+    "ASCE7-22-26.3-S96",
+    "ASCE7-22-26.3-S97",
+    "ASCE7-22-26.3-S98",
+    "ASCE7-22-26.3-S99",
+    "ASCE7-22-26.4-P2",
+    "ASCE7-22-26.4-P3",
+    "ASCE7-22-26.4-P4",
+    "ASCE7-22-26.5-F1A",
+    "ASCE7-22-26.5-F1B",
+    "ASCE7-22-26.5-F1C",
+    "ASCE7-22-26.5-F1D",
+    "ASCE7-22-26.5-P2",
+    "ASCE7-22-26.5-P3",
+    "ASCE7-22-26.5-P4",
+    "ASCE7-22-26.5-P5",
+    "ASCE7-22-26.5-P6",
+    "ASCE7-22-26.7.3-P3",
+    "ASCE7-22-26.7.3-P4",
+    "ASCE7-22-26.7.4-P1",
+    "ASCE7-22-26.8-F1",
+    "ASCE7-22-26.8-F2",
+    "ASCE7-22-26.8-F3",
+    "ASCE7-22-26.8.1-T1",
+    "ASCE7-22-26.8.1-T2"
+  ],
+  "summary": {
+    "agreed": 0,
+    "disagreed": 161,
+    "only_a": 59,
+    "only_b": 89,
+    "agreement_rate": 0.0
+  }
+}

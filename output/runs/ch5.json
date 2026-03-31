@@ -1,0 +1,2444 @@
+[
+  {
+    "id": "ASCE7-22-5.1-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.1",
+      "citation": "Section 5.1",
+      "page": 1
+    },
+    "title": "5.1 GENERAL",
+    "description": "",
+    "data": {
+      "rule": "5.1 GENERAL",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-5.1-T1",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.1",
+      "citation": "Section 5.1",
+      "page": 1
+    },
+    "title": "The provisions of this section apply to buildings and other structures located in areas prone to fl ooding as de fi ned on a fl ood hazard map.",
+    "description": "",
+    "data": {
+      "rule": "The provisions of this section apply to buildings and other structures located in areas prone to fl ooding as de fi ned on a fl ood hazard map.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-5.1-H1"
+  },
+  {
+    "id": "ASCE7-22-5.2-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.2",
+      "citation": "Section 5.2",
+      "page": 1
+    },
+    "title": "5.2 DEFINITIONS",
+    "description": "",
+    "data": {
+      "rule": "5.2 DEFINITIONS",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-5.2-T1",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.2",
+      "citation": "Section 5.2",
+      "page": 1
+    },
+    "title": "The following de fi nitions apply to the provisions of this chapter: APPROVED: Acceptable to the Authority Having Jurisdiction. BASE FLOOD: The fl ood having a 1% chance of being equaled or exceeded i",
+    "description": "",
+    "data": {
+      "rule": "The following de fi nitions apply to the provisions of this chapter: APPROVED: Acceptable to the Authority Having Jurisdiction. BASE FLOOD: The fl ood having a 1% chance of being equaled or exceeded in any given year.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-5.2-H3"
+  },
+  {
+    "id": "ASCE7-22-5.2-D1",
+    "type": "definition",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.2",
+      "citation": "Section 5.2",
+      "page": 1
+    },
+    "title": "BASE FLOOD ELEVATION (BFE): The elevation of fl ooding, including wave height, having a 1% chance of being equaled or exceeded in any given year.",
+    "description": "",
+    "data": {
+      "term": "BASE FLOOD ELEVATION (BFE)",
+      "definition": "The elevation of fl ooding, including wave height, having a 1% chance of being equaled or exceeded in any given year."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-5.2-D2",
+    "type": "definition",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.2",
+      "citation": "Section 5.2",
+      "page": 1
+    },
+    "title": "BREAKAWAYWALL: Any type of wall subject to fl ooding that is not required to provide structural support to a building or other structure and that is designed and constructed such that, under base fl o",
+    "description": "",
+    "data": {
+      "term": "BREAKAWAYWALL",
+      "definition": "Any type of wall subject to fl ooding that is not required to provide structural support to a building or other structure and that is designed and constructed such that, under base fl ood or lesser fl ood conditions, it will collapse in such a way that (1) it allows the free passage of fl oodwaters, and (2) it does not damage the structure or supporting foundation system."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-5.2-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.2",
+      "citation": "Section 5.2",
+      "page": 1
+    },
+    "title": "COASTAL A-ZONE: An area within a special fl ood hazard area, landward of a V-Zone or landward of an open coast without mapped V-Zones. To be classi fi ed as a Coastal A-Zone, the principal source of f",
+    "description": "",
+    "data": {
+      "rule": "COASTAL A-ZONE: An area within a special fl ood hazard area, landward of a V-Zone or landward of an open coast without mapped V-Zones. To be classi fi ed as a Coastal A-Zone, the principal source of fl ooding must be astronomical tides, storm surges, seiches, or tsunamis, not riverine fl ooding, and the potential for breaking wave heights greater than or equal to 1.5 ft (0.46 m) must exist during the base fl ood.",
+      "conditions": [
+        {
+          "parameter": "",
+          "operator": ">=",
+          "value": 1.5,
+          "unit": "ft"
+        }
+      ],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-5.2-T2",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.2",
+      "citation": "Section 5.2",
+      "page": 1
+    },
+    "title": "COASTAL HIGH HAZARD AREA (V-ZONE): An area within a special fl ood hazard area, extending from offshore to the inland limit of a primary frontal dune along an open coast, and any other area that is su",
+    "description": "",
+    "data": {
+      "rule": "COASTAL HIGH HAZARD AREA (V-ZONE): An area within a special fl ood hazard area, extending from offshore to the inland limit of a primary frontal dune along an open coast, and any other area that is subject to high-velocity wave action from storms or seismic sources. This area is designated on fl ood insurance rate maps (FIRMs) as V, VE, VO, or V1-30.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-5.2-H3"
+  },
+  {
+    "id": "ASCE7-22-5.2-D3",
+    "type": "definition",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.2",
+      "citation": "Section 5.2",
+      "page": 1
+    },
+    "title": "DESIGN FLOOD: The greater of the following two fl ood events: (1) the base fl ood, affecting those areas identi fi ed as special fl ood hazard areas on the community ' s FIRM; or (2) the fl ood corres",
+    "description": "",
+    "data": {
+      "term": "DESIGN FLOOD",
+      "definition": "The greater of the following two fl ood events: (1) the base fl ood, affecting those areas identi fi ed as special fl ood hazard areas on the community ' s FIRM; or (2) the fl ood corresponding to the area designated as a fl ood hazard area on a community ' s fl ood hazard map or otherwise legally designated."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-5.2-D4",
+    "type": "definition",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.2",
+      "citation": "Section 5.2",
+      "page": 1
+    },
+    "title": "DESIGN FLOOD ELEVATION (DFE): The elevation of the design fl ood, including wave height, relative to the datum speci fi ed on a community ' s fl ood hazard map.",
+    "description": "",
+    "data": {
+      "term": "DESIGN FLOOD ELEVATION (DFE)",
+      "definition": "The elevation of the design fl ood, including wave height, relative to the datum speci fi ed on a community ' s fl ood hazard map."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-5.2-D5",
+    "type": "definition",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.2",
+      "citation": "Section 5.2",
+      "page": 1
+    },
+    "title": "FLOOD HAZARD AREA: The area subject to fl ooding during the design fl ood.",
+    "description": "",
+    "data": {
+      "term": "FLOOD HAZARD AREA",
+      "definition": "The area subject to fl ooding during the design fl ood."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-5.2-D6",
+    "type": "definition",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.2",
+      "citation": "Section 5.2",
+      "page": 1
+    },
+    "title": "FLOOD HAZARD MAP: The map delineating fl ood hazard areas adopted by the Authority Having Jurisdiction.",
+    "description": "",
+    "data": {
+      "term": "FLOOD HAZARD MAP",
+      "definition": "The map delineating fl ood hazard areas adopted by the Authority Having Jurisdiction."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-5.2-D7",
+    "type": "definition",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.2",
+      "citation": "Section 5.2",
+      "page": 1
+    },
+    "title": "FLOOD INSURANCE RATE MAP (FIRM): An of fi cial map of a community on which the Federal Insurance and Mitigation Administration has delineated both special fl ood",
+    "description": "",
+    "data": {
+      "term": "FLOOD INSURANCE RATE MAP (FIRM)",
+      "definition": "An of fi cial map of a community on which the Federal Insurance and Mitigation Administration has delineated both special fl ood"
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-5.2-H2",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.2",
+      "citation": "Section 5.2",
+      "page": 1
+    },
+    "title": "CHAPTER 5 FLOOD LOADS",
+    "description": "",
+    "data": {
+      "rule": "CHAPTER 5 FLOOD LOADS",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-5.2-H3",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.2",
+      "citation": "Section 5.2",
+      "page": 1
+    },
+    "title": "hazard areas and the risk premium zones applicable to the community.",
+    "description": "",
+    "data": {
+      "rule": "hazard areas and the risk premium zones applicable to the community.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-5.2-D8",
+    "type": "definition",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.2",
+      "citation": "Section 5.2",
+      "page": 1
+    },
+    "title": "SPECIAL FLOOD HAZARD AREA (AREA OF SPECIAL FLOOD HAZARD): The land in the fl oodplain subject to a 1% or greater chance of fl ooding in any given year. These areas are delineated on a community ' s FI",
+    "description": "",
+    "data": {
+      "term": "SPECIAL FLOOD HAZARD AREA (AREA OF SPECIAL FLOOD HAZARD)",
+      "definition": "The land in the fl oodplain subject to a 1% or greater chance of fl ooding in any given year. These areas are delineated on a community ' s FIRM as A-Zones (A, AE, A1-30, A99, AR, AO, or AH) or V-Zones (V, VE, VO, or V1-30)."
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-5.3-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.3",
+      "citation": "Section 5.3",
+      "page": 1
+    },
+    "title": "5.3 DESIGN REQUIREMENTS",
+    "description": "",
+    "data": {
+      "rule": "5.3 DESIGN REQUIREMENTS",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-5.3.1-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.3.1",
+      "citation": "Section 5.3.1",
+      "page": 1
+    },
+    "title": "5.3.1 Design Loads Structural systems of buildings or other structures shall be designed, constructed, connected, and anchored to resist fl otation, collapse, and permanent lateral displacement due to",
+    "description": "",
+    "data": {
+      "rule": "5.3.1 Design Loads Structural systems of buildings or other structures shall be designed, constructed, connected, and anchored to resist fl otation, collapse, and permanent lateral displacement due to action of fl ood loads associated with the design fl ood (see Section 5.3.3) and other loads in accordance with the load combinations of Chapter 2.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-5.3.3-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-5.3.2-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.3.2",
+      "citation": "Section 5.3.2",
+      "page": 1
+    },
+    "title": "5.3.2 Erosion and Scour The effects of erosion and scour shall be included in the calculation of loads on buildings and other structures in fl ood hazard areas.",
+    "description": "",
+    "data": {
+      "rule": "5.3.2 Erosion and Scour The effects of erosion and scour shall be included in the calculation of loads on buildings and other structures in fl ood hazard areas.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-5.3.3-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.3.3",
+      "citation": "Section 5.3.3",
+      "page": 1
+    },
+    "title": "5.3.3 Loads on Breakaway Walls Walls and partitions required by ASCE/SEI 24 to break away, including their connections to the structure, shall be designed for the largest of the following loads acting",
+    "description": "",
+    "data": {
+      "rule": "5.3.3 Loads on Breakaway Walls Walls and partitions required by ASCE/SEI 24 to break away, including their connections to the structure, shall be designed for the largest of the following loads acting perpendicular to the plane of the wall:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-5.3.3-T1",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.3.3",
+      "citation": "Section 5.3.3",
+      "page": 1
+    },
+    "title": "Wind load speci fi ed in Chapter 26,",
+    "description": "",
+    "data": {
+      "rule": "Wind load speci fi ed in Chapter 26,",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-5.3.3-H1"
+  },
+  {
+    "id": "ASCE7-22-5.3.3-T2",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.3.3",
+      "citation": "Section 5.3.3",
+      "page": 1
+    },
+    "title": "Earthquake load speci fi ed in Chapter 12, and 10 psf (0.48 kN \u2215 m 2 ).",
+    "description": "",
+    "data": {
+      "rule": "Earthquake load speci fi ed in Chapter 12, and 10 psf (0.48 kN \u2215 m 2 ).",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-5.3.3-H1"
+  },
+  {
+    "id": "ASCE7-22-5.3.3-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.3.3",
+      "citation": "Section 5.3.3",
+      "page": 1
+    },
+    "title": "The loading at which breakaway walls are intended to collapse shall not exceed 20 psf (0.96 kN \u2215 m 2 ) unless the design meets the following conditions:",
+    "description": "",
+    "data": {
+      "rule": "The loading at which breakaway walls are intended to collapse shall not exceed 20 psf (0.96 kN \u2215 m 2 ) unless the design meets the following conditions:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-5.3.3-T3",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.3.3",
+      "citation": "Section 5.3.3",
+      "page": 1
+    },
+    "title": "Breakaway wall collapse is designed to result from a fl ood load less than that which occurs during the base fl ood.",
+    "description": "",
+    "data": {
+      "rule": "Breakaway wall collapse is designed to result from a fl ood load less than that which occurs during the base fl ood.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-5.3.3-H1"
+  },
+  {
+    "id": "ASCE7-22-5.3.3-P2",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.3.3",
+      "citation": "Section 5.3.3",
+      "page": 1
+    },
+    "title": "The supporting foundation and the elevated portion of the building shall be designed against collapse, permanent lateral displacement, and other structural damage due to the effects of fl ood loads in",
+    "description": "",
+    "data": {
+      "rule": "The supporting foundation and the elevated portion of the building shall be designed against collapse, permanent lateral displacement, and other structural damage due to the effects of fl ood loads in combination with other loads as speci fi ed in Chapter 2.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-5.4-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.4",
+      "citation": "Section 5.4",
+      "page": 1
+    },
+    "title": "5.4 LOADS DURING FLOODING",
+    "description": "",
+    "data": {
+      "rule": "5.4 LOADS DURING FLOODING",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-5.4.1-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.4.1",
+      "citation": "Section 5.4.1",
+      "page": 1
+    },
+    "title": "5.4.1 Load Basis In fl ood hazard areas, the structural design shall be based on the design fl ood.",
+    "description": "",
+    "data": {
+      "rule": "5.4.1 Load Basis In fl ood hazard areas, the structural design shall be based on the design fl ood.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-5.4.2-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.4.2",
+      "citation": "Section 5.4.2",
+      "page": 1
+    },
+    "title": "5.4.2 Hydrostatic Loads Hydrostatic loads caused by a depth of water to the level of the DFE shall be applied over all surfaces involved, both above and below ground level, except that for surfaces ex",
+    "description": "",
+    "data": {
+      "rule": "5.4.2 Hydrostatic Loads Hydrostatic loads caused by a depth of water to the level of the DFE shall be applied over all surfaces involved, both above and below ground level, except that for surfaces exposed to free water, the design depth shall be increased by 1 ft (0.30 m).",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-5.4-E5-4-41",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.4",
+      "citation": "Eq. (5.4-4)",
+      "page": 2
+    },
+    "title": "Equation (5.4-4)",
+    "description": "",
+    "data": {
+      "expression": "F D =0.5\u03b3 w C D DH2 b (5.4-4)",
+      "parameters": {
+        "w": {
+          "description": "Moisture content, in percent, per ASTM D2216",
+          "source": "ASCE7-22-11.3-T135"
+        },
+        "b": {
+          "description": "Mean hourly wind speed factor in Equation (26.1116), from Table 26.11-1",
+          "source": "ASCE7-22-26.3-T15"
+        },
+        "F": {
+          "description": "0.12 \u00d7 slope, with slope expressed in percentage points) and, for an arch or dome, F is the rise-to-span ratio multiplied by 32",
+          "source": "ASCE7-22-4.8.2-T4"
+        },
+        "D": {
+          "description": "Diameter of a circular structure or member, as de fi ned in Chapter 29",
+          "unit": "ft",
+          "source": "ASCE7-22-10.3-T3"
+        }
+      }
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "pdfplumber_scan"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-5.4-E5-4-11",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.4",
+      "citation": "Eq. (5.4-1)",
+      "page": 2
+    },
+    "title": "Equation (5.4-1)",
+    "description": "",
+    "data": {
+      "expression": "aV2 C =Coefficient of drag for breaking waves, = 1.75 for round d = (5.4-1)",
+      "parameters": {
+        "d": {
+          "description": "Design ice thickness from Equation (10.4-5), in. (mm)",
+          "source": "ASCE7-22-10.3-T10"
+        }
+      }
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "pdfplumber_scan"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-5.4.2-P2",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.4.2",
+      "citation": "Section 5.4.2",
+      "page": 2
+    },
+    "title": "Reduced uplift and lateral loads on surfaces of enclosed spaces below the DFE shall apply only if provision is made for entry and exit of fl oodwater.",
+    "description": "",
+    "data": {
+      "rule": "Reduced uplift and lateral loads on surfaces of enclosed spaces below the DFE shall apply only if provision is made for entry and exit of fl oodwater.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-5.4.3-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.4.3",
+      "citation": "Section 5.4.3",
+      "page": 2
+    },
+    "title": "5.4.3 Hydrodynamic Loads Dynamic effects of moving water shall be determined by a detailed analysis utilizing basic concepts of fl uid mechanics.",
+    "description": "",
+    "data": {
+      "rule": "5.4.3 Hydrodynamic Loads Dynamic effects of moving water shall be determined by a detailed analysis utilizing basic concepts of fl uid mechanics.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-5.4.3-X1",
+    "type": "exception",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.4.3",
+      "citation": "Section 5.4.3",
+      "page": 2
+    },
+    "title": "EXCEPTION: Where water velocities do not exceed 10 ft \u2215 s (3.05 m \u2215 s), dynamic effects of moving water shall be permitted to be converted into equivalent hydrostatic loads by increasing the DFE for d",
+    "description": "",
+    "data": {
+      "rule": "EXCEPTION: Where water velocities do not exceed 10 ft \u2215 s (3.05 m \u2215 s), dynamic effects of moving water shall be permitted to be converted into equivalent hydrostatic loads by increasing the DFE for design purposes by an equivalent surcharge depth, dh , on the headwater side and above the ground level only, equal to ); and where",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-5.4.3-T3",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.4.3",
+      "citation": "Section 5.4.3",
+      "page": 2
+    },
+    "title": "V = Average velocity of water, ft \u2215 s (m \u2215 s); g = Acceleration due to gravity, 32.2 ft \u2215 s 2 (9.81 m \u2215 s 2",
+    "description": "",
+    "data": {
+      "rule": "V = Average velocity of water, ft \u2215 s (m \u2215 s); g = Acceleration due to gravity, 32.2 ft \u2215 s 2 (9.81 m \u2215 s 2",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-5.4.3-H1"
+  },
+  {
+    "id": "ASCE7-22-5.4.3-T4",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.4.3",
+      "citation": "Section 5.4.3",
+      "page": 2
+    },
+    "title": "a = Coef fi cient of drag or shape factor (not less than 1.25).",
+    "description": "",
+    "data": {
+      "rule": "a = Coef fi cient of drag or shape factor (not less than 1.25).",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-5.4.3-H1"
+  },
+  {
+    "id": "ASCE7-22-5.4.3-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.4.3",
+      "citation": "Section 5.4.3",
+      "page": 2
+    },
+    "title": "The equivalent surcharge depth shall be added to the DFE design depth and the resultant hydrostatic pressures applied to, and uniformly distributed across, the vertical projected area of the building ",
+    "description": "",
+    "data": {
+      "rule": "The equivalent surcharge depth shall be added to the DFE design depth and the resultant hydrostatic pressures applied to, and uniformly distributed across, the vertical projected area of the building or structure that is perpendicular to the fl ow. Surfaces parallel to the fl ow or surfaces wetted by the tailwater shall be subject to the hydrostatic pressures for depths to the DFE only.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-5.4.4-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.4.4",
+      "citation": "Section 5.4.4",
+      "page": 2
+    },
+    "title": "5.4.4 Wave Loads Wave loads shall be determined by one of the following three methods: (1) by using the analytical procedures outlined in this section, (2) by more advanced numerical modeling procedur",
+    "description": "",
+    "data": {
+      "rule": "5.4.4 Wave Loads Wave loads shall be determined by one of the following three methods: (1) by using the analytical procedures outlined in this section, (2) by more advanced numerical modeling procedures, or (3) by laboratory test procedures (physical modeling).",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-5.4.4-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.4.4",
+      "citation": "Section 5.4.4",
+      "page": 2
+    },
+    "title": "Wave loads are those loads that result from water waves propagating over the water surface and striking a building or other structure. Design and construction of buildings and other structures subject",
+    "description": "",
+    "data": {
+      "rule": "Wave loads are those loads that result from water waves propagating over the water surface and striking a building or other structure. Design and construction of buildings and other structures subject to wave loads shall account for the following loads: waves breaking on any portion of the building or structure; uplift forces caused by shoaling waves beneath a building or structure, or portion thereof; wave runup striking any portion of the building or structure; wave-induced drag and inertia forces; and wave-induced scour at the base of a building or structure, or its foundation. Wave loads shall be included for both V-Zones and A-Zones. In V-Zones, waves are 3 ft (0.91 m) high, or higher; in coastal fl oodplains landward of the V-Zone, waves are less than 3 ft (0.91 m) high.",
+      "conditions": [
+        {
+          "parameter": "",
+          "operator": "<",
+          "value": 3.0,
+          "unit": "ft"
+        }
+      ],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-5.4.4-P2",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.4.4",
+      "citation": "Section 5.4.4",
+      "page": 2
+    },
+    "title": "Nonbreaking and broken wave loads shall be calculated using the procedures described in Sections 5.4.2 and 5.4.3 that show how to calculate hydrostatic and hydrodynamic loads.",
+    "description": "",
+    "data": {
+      "rule": "Nonbreaking and broken wave loads shall be calculated using the procedures described in Sections 5.4.2 and 5.4.3 that show how to calculate hydrostatic and hydrodynamic loads.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-5.4.4-P3",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.4.4",
+      "citation": "Section 5.4.4",
+      "page": 2
+    },
+    "title": "Breaking wave loads shall be calculated using the procedures described in Sections 5.4.4.1 through 5.4.4.4. Breaking wave heights used in the procedures described in Sections 5.4.4.1 through 5.4.4.4 s",
+    "description": "",
+    "data": {
+      "rule": "Breaking wave loads shall be calculated using the procedures described in Sections 5.4.4.1 through 5.4.4.4. Breaking wave heights used in the procedures described in Sections 5.4.4.1 through 5.4.4.4 shall be calculated for V-Zones and Coastal A-Zones using Equations (5.4-2) and (5.4-3):",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-5.4.4-T1",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.4.4",
+      "citation": "Section 5.4.4",
+      "page": 2
+    },
+    "title": "where Hb is the breaking wave height in ft (m), and ds is the local still water depth in ft (m).",
+    "description": "",
+    "data": {
+      "rule": "where Hb is the breaking wave height in ft (m), and ds is the local still water depth in ft (m).",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-5.4.4-H1"
+  },
+  {
+    "id": "ASCE7-22-5.4.4-P4",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.4.4",
+      "citation": "Section 5.4.4",
+      "page": 2
+    },
+    "title": "The local still water depth shall be calculated using Equation (5.4-3), unless more advanced procedures or laboratory tests permitted by this section are used:",
+    "description": "",
+    "data": {
+      "rule": "The local still water depth shall be calculated using Equation (5.4-3), unless more advanced procedures or laboratory tests permitted by this section are used:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-5.4.4-T2",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.4.4",
+      "citation": "Section 5.4.4",
+      "page": 2
+    },
+    "title": "where BFE is in ft (m), and G is ground elevation in ft (m).",
+    "description": "",
+    "data": {
+      "rule": "where BFE is in ft (m), and G is ground elevation in ft (m).",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-5.4.4-H1"
+  },
+  {
+    "id": "ASCE7-22-5.4.4.1-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.4.4.1",
+      "citation": "Section 5.4.4.1",
+      "page": 2
+    },
+    "title": "5.4.4.1 Breaking Wave Loads on Vertical Pilings and Columns The net force resulting from a breaking wave acting on a rigid vertical pile or column shall be assumed to act at the still water elevation ",
+    "description": "",
+    "data": {
+      "rule": "5.4.4.1 Breaking Wave Loads on Vertical Pilings and Columns The net force resulting from a breaking wave acting on a rigid vertical pile or column shall be assumed to act at the still water elevation and shall be calculated by the following: where FD = Net wave force, lb (kN);",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-5.4.4.1-T3",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.4.4.1",
+      "citation": "Section 5.4.4.1",
+      "page": 2
+    },
+    "title": "\u03b3 w = Unit weight of water, lb \u2215 ft 3 (kN \u2215 m 3 ), = 62.4 lb \u2215 ft 3 (9.80 kN \u2215 m 3 ) for freshwater and 64.0 lb \u2215 ft 3 (10.05 kN \u2215 m 3 ) for saltwater;",
+    "description": "",
+    "data": {
+      "rule": "\u03b3 w = Unit weight of water, lb \u2215 ft 3 (kN \u2215 m 3 ), = 62.4 lb \u2215 ft 3 (9.80 kN \u2215 m 3 ) for freshwater and 64.0 lb \u2215 ft 3 (10.05 kN \u2215 m 3 ) for saltwater;",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-5.4.4-H1"
+  },
+  {
+    "id": "ASCE7-22-5.4.4.1-T4",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.4.4.1",
+      "citation": "Section 5.4.4.1",
+      "page": 2
+    },
+    "title": "CD = Coef fi cient of drag for breaking waves, = 1.75 for round piles or columns and = 2.25 for square piles or columns;",
+    "description": "",
+    "data": {
+      "rule": "CD = Coef fi cient of drag for breaking waves, = 1.75 for round piles or columns and = 2.25 for square piles or columns;",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-5.4.4-H1"
+  },
+  {
+    "id": "ASCE7-22-5.4.4.1-T5",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.4.4.1",
+      "citation": "Section 5.4.4.1",
+      "page": 2
+    },
+    "title": "D = Pile or column diameter, ft (m) for circular sections, or for a square pile or column, 1.4 times the width of the pile or column, ft (m); and",
+    "description": "",
+    "data": {
+      "rule": "D = Pile or column diameter, ft (m) for circular sections, or for a square pile or column, 1.4 times the width of the pile or column, ft (m); and",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-5.4.4-H1"
+  },
+  {
+    "id": "ASCE7-22-5.4.4.1-T6",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.4.4.1",
+      "citation": "Section 5.4.4.1",
+      "page": 2
+    },
+    "title": "Hb = Breaking wave height, ft (m).",
+    "description": "",
+    "data": {
+      "rule": "Hb = Breaking wave height, ft (m).",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-5.4.4-H1"
+  },
+  {
+    "id": "ASCE7-22-5.4.4.2-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.4.4.2",
+      "citation": "Section 5.4.4.2",
+      "page": 2
+    },
+    "title": "5.4.4.2 Breaking Wave Loads on Vertical Walls Maximum pressures and net forces resulting from a normally incident breaking wave (depth limited in size, with Hb = 0.78 ds ) acting on a rigid vertical w",
+    "description": "",
+    "data": {
+      "rule": "5.4.4.2 Breaking Wave Loads on Vertical Walls Maximum pressures and net forces resulting from a normally incident breaking wave (depth limited in size, with Hb = 0.78 ds ) acting on a rigid vertical wall shall be calculated by the following: and where",
+      "conditions": [
+        {
+          "parameter": "Hb",
+          "operator": "==",
+          "value": 0.78,
+          "unit": null
+        }
+      ],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-5.4.4.2-T2",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.4.4.2",
+      "citation": "Section 5.4.4.2",
+      "page": 2
+    },
+    "title": "P max = Maximum combined dynamic ( Cp \u03b3 w d s ) and static (1.2 \u03b3 w d s ) wave pressures, also referred to as shock pressures, lb \u2215 ft 2 (kN \u2215 m 2 );",
+    "description": "",
+    "data": {
+      "rule": "P max = Maximum combined dynamic ( Cp \u03b3 w d s ) and static (1.2 \u03b3 w d s ) wave pressures, also referred to as shock pressures, lb \u2215 ft 2 (kN \u2215 m 2 );",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-5.4.4-H1"
+  },
+  {
+    "id": "ASCE7-22-5.4.4.2-T3",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.4.4.2",
+      "citation": "Section 5.4.4.2",
+      "page": 2
+    },
+    "title": "Ft = Net breaking wave force per unit length of structure, also referred to as shock, impulse, or wave impact force, lb \u2215 ft (kN \u2215 m), acting near the still water elevation;",
+    "description": "",
+    "data": {
+      "rule": "Ft = Net breaking wave force per unit length of structure, also referred to as shock, impulse, or wave impact force, lb \u2215 ft (kN \u2215 m), acting near the still water elevation;",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-5.4.4-H1"
+  },
+  {
+    "id": "ASCE7-22-5.4.4.2-T4",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.4.4.2",
+      "citation": "Section 5.4.4.2",
+      "page": 2
+    },
+    "title": "Cp = Dynamic pressure coef fi cient (1.6 < Cp < 3.5) (see Table 5.4-1);",
+    "description": "",
+    "data": {
+      "rule": "Cp = Dynamic pressure coef fi cient (1.6 < Cp < 3.5) (see Table 5.4-1);",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-5.4-F5-4-11"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-5.4.4-H1"
+  },
+  {
+    "id": "ASCE7-22-5.4.4.2-T5",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.4.4.2",
+      "citation": "Section 5.4.4.2",
+      "page": 2
+    },
+    "title": "\u03b3 w = Unit weight of water, lb \u2215 ft 3 (kN \u2215 m 3 ), = 62.4 lb \u2215 ft 3 (9.80 kN \u2215 m 3 ) for freshwater and 64.0 lb \u2215 ft 3 (10.05 kN \u2215 m 3 ) for saltwater; and ds = Still water depth, ft (m), at base of b",
+    "description": "",
+    "data": {
+      "rule": "\u03b3 w = Unit weight of water, lb \u2215 ft 3 (kN \u2215 m 3 ), = 62.4 lb \u2215 ft 3 (9.80 kN \u2215 m 3 ) for freshwater and 64.0 lb \u2215 ft 3 (10.05 kN \u2215 m 3 ) for saltwater; and ds = Still water depth, ft (m), at base of building or other structure where the wave breaks.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-5.4.4-H1"
+  },
+  {
+    "id": "ASCE7-22-5.4.4.2-T6",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.4.4.2",
+      "citation": "Section 5.4.4.2",
+      "page": 2
+    },
+    "title": "This procedure assumes the vertical wall causes a re fl ected or standing wave against the waterward side of the wall with the crest of the wave at a height of 1.2 ds above the still water level. Thus",
+    "description": "",
+    "data": {
+      "rule": "This procedure assumes the vertical wall causes a re fl ected or standing wave against the waterward side of the wall with the crest of the wave at a height of 1.2 ds above the still water level. Thus, the dynamic static and total pressure distributions against the wall are as shown in Figure 5.4-1.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-5.4-F5-4-11"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-5.4.4-H1"
+  },
+  {
+    "id": "ASCE7-22-5.4.4.2-P2",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.4.4.2",
+      "citation": "Section 5.4.4.2",
+      "page": 2
+    },
+    "title": "This procedure also assumes the space behind the vertical wall is dry, with no fl uid balancing the static component of the wave force on the outside of the wall. If free water exists behind the wall,",
+    "description": "",
+    "data": {
+      "rule": "This procedure also assumes the space behind the vertical wall is dry, with no fl uid balancing the static component of the wave force on the outside of the wall. If free water exists behind the wall, a portion of the hydrostatic component of the wave pressure and force disappears (see Figure 5.4-2) and the net force shall be computed by Equation (5.4-7) [the maximum combined wave pressure is still computed with Equation (5.4-5)]: where",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-5.4-E5-4-21"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-5.4.4.2-T8",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.4.4.2",
+      "citation": "Section 5.4.4.2",
+      "page": 2
+    },
+    "title": "Ft = Net breaking wave force per unit length of structure, also referred to as shock, impulse, or wave impact force, lb \u2215 ft (kN \u2215 m), acting near the still water elevation;",
+    "description": "",
+    "data": {
+      "rule": "Ft = Net breaking wave force per unit length of structure, also referred to as shock, impulse, or wave impact force, lb \u2215 ft (kN \u2215 m), acting near the still water elevation; Crest of reflecte Crest of reflect Dynam Dynam",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-5.4.4-H1"
+  },
+  {
+    "id": "ASCE7-22-5.4-E5-4-21",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.4",
+      "citation": "Eq. (5.4-2)",
+      "page": 2
+    },
+    "title": "Equation (5.4-2)",
+    "description": "",
+    "data": {
+      "expression": "Breaking wave heights used in the procedures described in Sections 5.4.4.1 through 5.4.4.4 shall be calculated for V-Zones and Coastal A-Zones using Equations (5.4-2)",
+      "parameters": {
+        "A": {
+          "description": "Effective wind area, ft 2 (m 2 )",
+          "source": "ASCE7-22-26.3-T2"
+        },
+        "V": {
+          "description": "Basic wind speed obtained from Figures 26.5-1A through 26.5-1D, mi/h (m/s); the basic wind speed corresponds to a 3 s gust speed at 33 ft (10 m) above the ground in Exposure Category C",
+          "source": "ASCE7-22-26.3-T95"
+        }
+      }
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-5.4-E5-4-31",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.4",
+      "citation": "Eq. (5.4-3)",
+      "page": 2
+    },
+    "title": "Equation (5.4-3)",
+    "description": "",
+    "data": {
+      "expression": "Breaking wave heights used in the procedures described in Sections 5.4.4.1 through 5.4.4.4 shall be calculated for V-Zones and Coastal A-Zones using Equations (5.4-2) and (5.4-3)",
+      "parameters": {
+        "A": {
+          "description": "Effective wind area, ft 2 (m 2 )",
+          "source": "ASCE7-22-26.3-T2"
+        },
+        "V": {
+          "description": "Basic wind speed obtained from Figures 26.5-1A through 26.5-1D, mi/h (m/s); the basic wind speed corresponds to a 3 s gust speed at 33 ft (10 m) above the ground in Exposure Category C",
+          "source": "ASCE7-22-26.3-T95"
+        }
+      }
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-5.4-E5-4-71",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.4",
+      "citation": "Eq. (5.4-7)",
+      "page": 2
+    },
+    "title": "Equation (5.4-7)",
+    "description": "",
+    "data": {
+      "expression": "If free water exists behind the wall, a portion of the hydrostatic component of the wave pressure and force disappears (see Figure 5.4-2) and the net force shall be computed by Equation (5.4-7)",
+      "parameters": {
+        "a": {
+          "description": "Approximate lower bound natural frequency from Section 26.11.2",
+          "unit": "Hz",
+          "source": "ASCE7-22-26.3-T77"
+        },
+        "wall": {
+          "description": "Vertical projected area of an individual wall element",
+          "source": "ASCE7-22-6.3-T4"
+        }
+      }
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-5.4-E5-4-51",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.4",
+      "citation": "Eq. (5.4-5)",
+      "page": 2
+    },
+    "title": "Equation (5.4-5)",
+    "description": "",
+    "data": {
+      "expression": "atic component of the wave pressure and force disappears (see Figure 5.4-2) and the net force shall be computed by Equation (5.4-7) [the maximum combined wave pressure is still computed with Equation (5.4-5)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-5.4-E5-4-81",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.4",
+      "citation": "Eq. (5.4-8)",
+      "page": 3
+    },
+    "title": "Equation (5.4-8)",
+    "description": "",
+    "data": {
+      "expression": "F =Fsin2\u03b1 (5.4-8)",
+      "parameters": {
+        "F": {
+          "description": "0.12 \u00d7 slope, with slope expressed in percentage points) and, for an arch or dome, F is the rise-to-span ratio multiplied by 32",
+          "source": "ASCE7-22-4.8.2-T4"
+        }
+      }
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "pdfplumber_scan"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-5.4-E5-4-91",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.4",
+      "citation": "Eq. (5.4-9)",
+      "page": 3
+    },
+    "title": "Equation (5.4-9)",
+    "description": "",
+    "data": {
+      "expression": "F =Fsin2\u03b1 (5.4-9)",
+      "parameters": {
+        "F": {
+          "description": "0.12 \u00d7 slope, with slope expressed in percentage points) and, for an arch or dome, F is the rise-to-span ratio multiplied by 32",
+          "source": "ASCE7-22-4.8.2-T4"
+        }
+      }
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "pdfplumber_scan"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-5.4.4.2-T13",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.4.4.2",
+      "citation": "Section 5.4.4.2",
+      "page": 3
+    },
+    "title": "Cp = Dynamic pressure coef fi cient (1.6 < Cp < 3.5) (see Table 5.4-1);",
+    "description": "",
+    "data": {
+      "rule": "Cp = Dynamic pressure coef fi cient (1.6 < Cp < 3.5) (see Table 5.4-1);",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-5.4-F5-4-11"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-5.4.4-H1"
+  },
+  {
+    "id": "ASCE7-22-5.4.4.2-T14",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.4.4.2",
+      "citation": "Section 5.4.4.2",
+      "page": 3
+    },
+    "title": "\u03b3 w = Unit weight of water, lb \u2215 ft 3 (kN \u2215 m 3 ), = 62.4 lb \u2215 ft 3 (9.80 kN \u2215 m 3 ) for freshwater and 64.0 lb \u2215 ft 3 (10.05 kN \u2215 m 3 ) for saltwater; and ds = Still water depth, ft (m) at base of bu",
+    "description": "",
+    "data": {
+      "rule": "\u03b3 w = Unit weight of water, lb \u2215 ft 3 (kN \u2215 m 3 ), = 62.4 lb \u2215 ft 3 (9.80 kN \u2215 m 3 ) for freshwater and 64.0 lb \u2215 ft 3 (10.05 kN \u2215 m 3 ) for saltwater; and ds = Still water depth, ft (m) at base of building or other structure where the wave breaks.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-5.4.4-H1"
+  },
+  {
+    "id": "ASCE7-22-5.4.4.3-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.4.4.3",
+      "citation": "Section 5.4.4.3",
+      "page": 3
+    },
+    "title": "5.4.4.3 Breaking Wave Loads on Nonvertical Walls Breaking wave forces given by Equations (5.4-6) and (5.4-7) shall be modi fi ed in instances where the walls or surfaces upon which the breaking waves ",
+    "description": "",
+    "data": {
+      "rule": "5.4.4.3 Breaking Wave Loads on Nonvertical Walls Breaking wave forces given by Equations (5.4-6) and (5.4-7) shall be modi fi ed in instances where the walls or surfaces upon which the breaking waves act are nonvertical. The horizontal component of breaking wave force shall be given by Ne where",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-5.4.4.3-T2",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.4.4.3",
+      "citation": "Section 5.4.4.3",
+      "page": 3
+    },
+    "title": "Fnv = Horizontal component of breaking wave force, lb \u2215 ft (kN \u2215 m);",
+    "description": "",
+    "data": {
+      "rule": "Fnv = Horizontal component of breaking wave force, lb \u2215 ft (kN \u2215 m);",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-5.4.4.3-H1"
+  },
+  {
+    "id": "ASCE7-22-5.4.4.3-T3",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.4.4.3",
+      "citation": "Section 5.4.4.3",
+      "page": 3
+    },
+    "title": "\u03b1 = Vertical angle between nonvertical surface and the horizontal.",
+    "description": "",
+    "data": {
+      "rule": "\u03b1 = Vertical angle between nonvertical surface and the horizontal.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-5.4.4.3-H1"
+  },
+  {
+    "id": "ASCE7-22-5.4.4.3-T4",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.4.4.3",
+      "citation": "Section 5.4.4.3",
+      "page": 3
+    },
+    "title": "Ft = Net breaking wave force acting on a vertical surface, lb \u2215 ft (kN \u2215 m); and",
+    "description": "",
+    "data": {
+      "rule": "Ft = Net breaking wave force acting on a vertical surface, lb \u2215 ft (kN \u2215 m); and",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-5.4.4.3-H1"
+  },
+  {
+    "id": "ASCE7-22-5.4.4.3-T5",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.4.4.3",
+      "citation": "Section 5.4.4.3",
+      "page": 3
+    },
+    "title": "Table 5.4-1. Value of Dynamic Pressure Coefficient, Cp .",
+    "description": "",
+    "data": {
+      "rule": "Table 5.4-1. Value of Dynamic Pressure Coefficient, Cp .",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-5.4-F5-4-11"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-5.4.4.3-H1"
+  },
+  {
+    "id": "ASCE7-22-5.4.4.3-T6",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.4.4.3",
+      "citation": "Section 5.4.4.3",
+      "page": 3
+    },
+    "title": "* For risk category, see Table 1.5-1.",
+    "description": "",
+    "data": {
+      "rule": "* For risk category, see Table 1.5-1.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-5.4.4.3-H1"
+  },
+  {
+    "id": "ASCE7-22-5.4.4.3-T7",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.4.4.3",
+      "citation": "Section 5.4.4.3",
+      "page": 3
+    },
+    "title": "Figure 5.4-1. Normally Incident Breaking Wave Pressures against a Vertical Wall (Space behind Vertical Wall Is Dry).",
+    "description": "",
+    "data": {
+      "rule": "Figure 5.4-1. Normally Incident Breaking Wave Pressures against a Vertical Wall (Space behind Vertical Wall Is Dry). Vertical Wall Crest of reflected wave Dynamic pressure",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-5.4-F5-4-11"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-5.4-F5-4-11"
+  },
+  {
+    "id": "ASCE7-22-1.2-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "1.2",
+      "citation": "Section 1.2",
+      "page": 3
+    },
+    "title": "1.2",
+    "description": "",
+    "data": {
+      "rule": "1.2",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-1.2-H2",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "1.2",
+      "citation": "Section 1.2",
+      "page": 3
+    },
+    "title": "ds",
+    "description": "",
+    "data": {
+      "rule": "ds Crest of incident wave 0.55 ds Stillwater level ds Hydrostatic pressure Ground elevation",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-1.2-T8",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "1.2",
+      "citation": "Section 1.2",
+      "page": 3
+    },
+    "title": "Figure 5.4-2. Normally Incident Breaking Wave Pressures against a Vertical Wall (Still Water Level Equal on Both Sides of Wall).",
+    "description": "",
+    "data": {
+      "rule": "Figure 5.4-2. Normally Incident Breaking Wave Pressures against a Vertical Wall (Still Water Level Equal on Both Sides of Wall). Vertical Wall Crest of reflected wave Dynamic pressure 1.2 ds Crest of incident wave 0.55 ds Stillwater level Net hydrostatic pressure Ground elevation",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-5.4-E5-4-21"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-5.4-F5-4-21"
+  },
+  {
+    "id": "ASCE7-22-5.4.4.4-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.4.4.4",
+      "citation": "Section 5.4.4.4",
+      "page": 3
+    },
+    "title": "5.4.4.4 Breaking Wave Loads from Obliquely Incident Waves Breaking wave forces given by Equations (5.4-6) and (5.4-7) shall be modi fi ed in instances where waves are obliquely incident. Breaking wave",
+    "description": "",
+    "data": {
+      "rule": "5.4.4.4 Breaking Wave Loads from Obliquely Incident Waves Breaking wave forces given by Equations (5.4-6) and (5.4-7) shall be modi fi ed in instances where waves are obliquely incident. Breaking wave forces from non-normally incident waves shall be given by where",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-5.4.4.4-T2",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.4.4.4",
+      "citation": "Section 5.4.4.4",
+      "page": 3
+    },
+    "title": "Foi = Horizontal component of obliquely incident breaking wave force, lb \u2215 ft (kN \u2215 m);",
+    "description": "",
+    "data": {
+      "rule": "Foi = Horizontal component of obliquely incident breaking wave force, lb \u2215 ft (kN \u2215 m);",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-5.4.4-H1"
+  },
+  {
+    "id": "ASCE7-22-5.4.4.4-T3",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.4.4.4",
+      "citation": "Section 5.4.4.4",
+      "page": 3
+    },
+    "title": "Ft = Net breaking wave force (normally incident waves) acting on a vertical surface, lb \u2215 ft (kN \u2215 m); and",
+    "description": "",
+    "data": {
+      "rule": "Ft = Net breaking wave force (normally incident waves) acting on a vertical surface, lb \u2215 ft (kN \u2215 m); and",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-5.4.4-H1"
+  },
+  {
+    "id": "ASCE7-22-5.4.4.4-T4",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.4.4.4",
+      "citation": "Section 5.4.4.4",
+      "page": 3
+    },
+    "title": "\u03b1 = Horizontal angle between the direction of wave approach and the vertical surface.",
+    "description": "",
+    "data": {
+      "rule": "\u03b1 = Horizontal angle between the direction of wave approach and the vertical surface.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-5.4.4-H1"
+  },
+  {
+    "id": "ASCE7-22-5.4.5-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.4.5",
+      "citation": "Section 5.4.5",
+      "page": 3
+    },
+    "title": "5.4.5 Impact Loads Impact loads result from debris, ice, and any object transported by fl oodwaters striking against buildings and structures or parts thereof. Impact loads shall be determined using a",
+    "description": "",
+    "data": {
+      "rule": "5.4.5 Impact Loads Impact loads result from debris, ice, and any object transported by fl oodwaters striking against buildings and structures or parts thereof. Impact loads shall be determined using a rational approach as concentrated loads acting horizontally at the most critical location at or below the DFE.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-5.5-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.5",
+      "citation": "Section 5.5",
+      "page": 3
+    },
+    "title": "5.5 CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
+    "description": "",
+    "data": {
+      "rule": "5.5 CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-5.5-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.5",
+      "citation": "Section 5.5",
+      "page": 3
+    },
+    "title": "This section lists the consensus standards and other documents that shall be considered part of this standard to the extent referenced in this chapter.",
+    "description": "",
+    "data": {
+      "rule": "This section lists the consensus standards and other documents that shall be considered part of this standard to the extent referenced in this chapter.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-5.5-H2",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.5",
+      "citation": "Section 5.5",
+      "page": 3
+    },
+    "title": "ASCE/SEI 24 Flood resistant design and construction, ASCE, 2014.",
+    "description": "",
+    "data": {
+      "rule": "ASCE/SEI 24 Flood resistant design and construction, ASCE, 2014. Cited in : Section 5.3.3",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "topic"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-5.4-T5-4-11",
+    "type": "table",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.4",
+      "citation": "Table 5.4-1",
+      "page": 3
+    },
+    "title": "Cp = Dynamic pressure coef fi cient (1.6 < Cp < 3.5) (see Table 5.4-1);",
+    "description": "",
+    "data": {
+      "columns": [
+        {
+          "name": "Risk Category*",
+          "unit": null
+        },
+        {
+          "name": "C p",
+          "unit": null
+        }
+      ],
+      "rows": [
+        {
+          "Risk Category*": "I",
+          "C p": 1.6
+        },
+        {
+          "Risk Category*": "II",
+          "C p": 2.8
+        },
+        {
+          "Risk Category*": "III",
+          "C p": 3.2
+        },
+        {
+          "Risk Category*": "IV",
+          "C p": 3.5
+        }
+      ]
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "docling"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-5.4-F5-4-11",
+    "type": "figure",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.4",
+      "citation": "Figure 5.4-1",
+      "page": 3
+    },
+    "title": "Figure 5.4-1. Normally Incident Breaking Wave Pressures",
+    "description": "Figure 5.4-1. Normally Incident Breaking Wave Pressures",
+    "data": {
+      "figure_type": "other",
+      "description": "Figure 5.4-1. Normally Incident Breaking Wave Pressures",
+      "source_pdf_page": 3
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "bold_label"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-5.4-F5-4-21",
+    "type": "figure",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.4",
+      "citation": "Figure 5.4-2",
+      "page": 3
+    },
+    "title": "Figure 5.4-2. Normally Incident Breaking Wave Pressures",
+    "description": "Figure 5.4-2. Normally Incident Breaking Wave Pressures",
+    "data": {
+      "figure_type": "other",
+      "description": "Figure 5.4-2. Normally Incident Breaking Wave Pressures",
+      "source_pdf_page": 3
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "bold_label"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-5.4-E5-4-61",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.4",
+      "citation": "Eq. (5.4-6)",
+      "page": 3
+    },
+    "title": "Equation (5.4-6)",
+    "description": "",
+    "data": {
+      "expression": "5.4.4.3 Breaking Wave Loads on Nonvertical Walls Breaking wave forces given by Equations (5.4-6)",
+      "parameters": {}
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-5.5-T3",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.5",
+      "citation": "Section 5.5",
+      "page": 4
+    },
+    "title": "Downloaded from ascelibrary.org by Serge Terentieff on 03/10/22. Copyright ASCE. For personal use only; all rights reserved.",
+    "description": "",
+    "data": {
+      "rule": "Downloaded from ascelibrary.org by Serge Terentieff on 03/10/22. Copyright ASCE. For personal use only; all rights reserved.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-5.5-H2"
+  },
+  {
+    "id": "ASCE7-22-5.5-T4",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 5,
+      "section": "5.5",
+      "citation": "Section 5.5",
+      "page": 4
+    },
+    "title": "This page intentionally left blank",
+    "description": "",
+    "data": {
+      "rule": "This page intentionally left blank",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-5.5-H2"
+  }
+]

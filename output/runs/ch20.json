@@ -1,0 +1,959 @@
+[
+  {
+    "id": "ASCE7-22-20-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 20,
+      "section": "20",
+      "citation": "Section 20",
+      "page": 1
+    },
+    "title": "CHAPTER 20 SITE CLASSIFICATION PROCEDURE FOR SEISMIC DESIGN",
+    "description": "",
+    "data": {
+      "rule": "CHAPTER 20 SITE CLASSIFICATION PROCEDURE FOR SEISMIC DESIGN",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-20.1-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 20,
+      "section": "20.1",
+      "citation": "Section 20.1",
+      "page": 1
+    },
+    "title": "20.1 SITE CLASSIFICATION",
+    "description": "",
+    "data": {
+      "rule": "20.1 SITE CLASSIFICATION",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-20.1-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 20,
+      "section": "20.1",
+      "citation": "Section 20.1",
+      "page": 1
+    },
+    "title": "The site soil shall be classi fi ed in accordance with Table 20.2-1 and Section 20.2 based on the average shear wave velocity parameter, \u00af vs , which is derived from the measured shear wave velocity p",
+    "description": "",
+    "data": {
+      "rule": "The site soil shall be classi fi ed in accordance with Table 20.2-1 and Section 20.2 based on the average shear wave velocity parameter, \u00af vs , which is derived from the measured shear wave velocity pro fi le from the ground surface to a depth of 100 ft (30 m). Where shear wave velocity is not measured, appropriate generalized correlations between shear wave velocity and standard penetration test (SPT) blow counts, Cone Penetration Test (CPT) tip resistance, shear strength, or other geotechnical parameters shall be used to obtain an estimated shear wave velocity pro fi le, as described in Section 20.3. Where site-speci fi c data (measured shear wave velocities or other geotechnical data that can be used to estimate shear wave velocity) are available only to a maximum depth less than 100 ft (30 m), \u00af vs shall be estimated as described in Section 20.3. Where the soil properties are not known in suf fi cient detail to determine the site class, the most critical site conditions of Site Class C, Site Class CD and Site Class D, as de fi ned in Section 11.4.2, shall be used unless the Authority Having Jurisdiction or geotechnical data determine that Site Class DE, E, or F soils are present at the site. Site Classes A and B shall not be assigned to a site if there is more than 10 ft (3.1 m) of soil between the rock surface and the bottom of the spread footing or mat foundation.",
+      "conditions": [
+        {
+          "parameter": "",
+          "operator": "<",
+          "value": 100.0,
+          "unit": "ft"
+        }
+      ],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-20.2-H1",
+      "ASCE7-22-20.2-T20-2-11",
+      "ASCE7-22-20.3-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-20.2-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 20,
+      "section": "20.2",
+      "citation": "Section 20.2",
+      "page": 1
+    },
+    "title": "20.2 SITE CLASS DEFINITIONS",
+    "description": "",
+    "data": {
+      "rule": "20.2 SITE CLASS DEFINITIONS",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-20.2-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 20,
+      "section": "20.2",
+      "citation": "Section 20.2",
+      "page": 1
+    },
+    "title": "Site class types shall be assigned in accordance with the de fi nitions provided in Table 20.2-1 and this section.",
+    "description": "",
+    "data": {
+      "rule": "Site class types shall be assigned in accordance with the de fi nitions provided in Table 20.2-1 and this section.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-20.2-T20-2-11"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-20.2.1-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 20,
+      "section": "20.2.1",
+      "citation": "Section 20.2.1",
+      "page": 1
+    },
+    "title": "20.2.1 Site Class F Where any of the following conditions is satis fi ed, the site shall be classi fi ed as Site Class F and a site response analysis, in accordance with Section 21.1, shall be perform",
+    "description": "",
+    "data": {
+      "rule": "20.2.1 Site Class F Where any of the following conditions is satis fi ed, the site shall be classi fi ed as Site Class F and a site response analysis, in accordance with Section 21.1, shall be performed:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-20.2.1-T1",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 20,
+      "section": "20.2.1",
+      "citation": "Section 20.2.1",
+      "page": 1
+    },
+    "title": "Soil pro fi le that includes soils vulnerable to potential failure or collapse under seismic loading, such as lique fi able soils, quick and highly sensitive clays, and collapsible weakly cemented soi",
+    "description": "",
+    "data": {
+      "rule": "Soil pro fi le that includes soils vulnerable to potential failure or collapse under seismic loading, such as lique fi able soils, quick and highly sensitive clays, and collapsible weakly cemented soils.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-20.2.1-H2"
+  },
+  {
+    "id": "ASCE7-22-20.2.1-X1",
+    "type": "exception",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 20,
+      "section": "20.2.1",
+      "citation": "Section 20.2.1",
+      "page": 1
+    },
+    "title": "EXCEPTION: For structures that have fundamental periods of vibration equal to, or less than, 0.5 s, site response analysis is not required to determine spectral accelerations for lique fi able soils. ",
+    "description": "",
+    "data": {
+      "rule": "EXCEPTION: For structures that have fundamental periods of vibration equal to, or less than, 0.5 s, site response analysis is not required to determine spectral accelerations for lique fi able soils. Rather, for the purpose of determining spectral accelerations only, a site class is permitted to be determined in accordance with Section 20.2 and the corresponding response spectrum determined from Section 11.4.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-20.2-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-20.2.1-T2",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 20,
+      "section": "20.2.1",
+      "citation": "Section 20.2.1",
+      "page": 1
+    },
+    "title": "Soil pro fi le includes peats and/or highly organic clays [ H > 10ft ( H > 3 m)] where H = thickness of soil.",
+    "description": "",
+    "data": {
+      "rule": "Soil pro fi le includes peats and/or highly organic clays [ H > 10ft ( H > 3 m)] where H = thickness of soil.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-20.2.1-H2"
+  },
+  {
+    "id": "ASCE7-22-20.2.1-H2",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 20,
+      "section": "20.2.1",
+      "citation": "Section 20.2.1",
+      "page": 1
+    },
+    "title": "Soil pro fi le includes very high plasticity clays [ H > 25 ft ( H > 7.6 m) with PI > 75] in a soil pro fi le that would otherwise be classi fi ed as Site Class CD, D, DE, or E.",
+    "description": "",
+    "data": {
+      "rule": "Soil pro fi le includes very high plasticity clays [ H > 25 ft ( H > 7.6 m) with PI > 75] in a soil pro fi le that would otherwise be classi fi ed as Site Class CD, D, DE, or E.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-20.2.1-X2",
+    "type": "exception",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 20,
+      "section": "20.2.1",
+      "citation": "Section 20.2.1",
+      "page": 1
+    },
+    "title": "EXCEPTION: Site response analysis is not required for this clay category for Seismic Design Category A and Seismic Design Category B, where the seismic design category is based on the values SDS and S",
+    "description": "",
+    "data": {
+      "rule": "EXCEPTION: Site response analysis is not required for this clay category for Seismic Design Category A and Seismic Design Category B, where the seismic design category is based on the values SDS and SD 1 .",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-20.2.1-T3",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 20,
+      "section": "20.2.1",
+      "citation": "Section 20.2.1",
+      "page": 1
+    },
+    "title": "Soil pro fi le includes very thick soft/medium stiff clays [ H > 120 ft ( H > 37m)] with s u < 1 ; 000 psf ( s u < 50 kPa).",
+    "description": "",
+    "data": {
+      "rule": "Soil pro fi le includes very thick soft/medium stiff clays [ H > 120 ft ( H > 37m)] with s u < 1 ; 000 psf ( s u < 50 kPa).",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-20.2.1-H2"
+  },
+  {
+    "id": "ASCE7-22-20.2.1-X3",
+    "type": "exception",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 20,
+      "section": "20.2.1",
+      "citation": "Section 20.2.1",
+      "page": 1
+    },
+    "title": "EXCEPTION: Site response analysis is not required for this clay category for Seismic Design Category A and Seismic Design Category B, where the seismic design category is based on the values SDS and S",
+    "description": "",
+    "data": {
+      "rule": "EXCEPTION: Site response analysis is not required for this clay category for Seismic Design Category A and Seismic Design Category B, where the seismic design category is based on the values SDS and SD 1 .",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-20.2.2-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 20,
+      "section": "20.2.2",
+      "citation": "Section 20.2.2",
+      "page": 1
+    },
+    "title": "20.2.2 Soft Clay Site Class E Where a site does not qualify under the criteria for Site Class F and there is a total thickness of soft clay greater than 10 ft (3 m), where a soft clay layer is de fi n",
+    "description": "",
+    "data": {
+      "rule": "20.2.2 Soft Clay Site Class E Where a site does not qualify under the criteria for Site Class F and there is a total thickness of soft clay greater than 10 ft (3 m), where a soft clay layer is de fi ned by s u < 500 psf ( s u < 25 kPa), w \u2265 40%, and PI > 20, it shall be classi fi ed as Site Class E. This classi fi cation is made regardless of \u00af vs , as computed in Section 20.4.",
+      "conditions": [
+        {
+          "parameter": "u",
+          "operator": "<",
+          "value": 500.0,
+          "unit": null
+        },
+        {
+          "parameter": "u",
+          "operator": "<",
+          "value": 25.0,
+          "unit": null
+        },
+        {
+          "parameter": "PI",
+          "operator": ">",
+          "value": 20.0,
+          "unit": null
+        },
+        {
+          "parameter": "",
+          "operator": ">",
+          "value": 10.0,
+          "unit": "ft"
+        }
+      ],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-20.4-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-20.2.3-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 20,
+      "section": "20.2.3",
+      "citation": "Section 20.2.3",
+      "page": 1
+    },
+    "title": "20.2.3 Site Classes C, CD, D, DE, and E The assignment of Site Class C, CD, D, DE, and E soils shall be made based on the average shear wave velocity, \u00af vs , which is derived from the site shear wave ",
+    "description": "",
+    "data": {
+      "rule": "20.2.3 Site Classes C, CD, D, DE, and E The assignment of Site Class C, CD, D, DE, and E soils shall be made based on the average shear wave velocity, \u00af vs , which is derived from the site shear wave velocity pro fi le from the ground surface to a depth of 100 ft (30 m), as described in Section 20.4.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-20.4-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-20.2.4-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 20,
+      "section": "20.2.4",
+      "citation": "Section 20.2.4",
+      "page": 1
+    },
+    "title": "20.2.4 Site Classes B and BC (Medium Hard and Soft Rock) Site Class B can only be assigned to a site on the basis of shear wave velocity measured on site. If shear wave velocity data are not available",
+    "description": "",
+    "data": {
+      "rule": "20.2.4 Site Classes B and BC (Medium Hard and Soft Rock) Site Class B can only be assigned to a site on the basis of shear wave velocity measured on site. If shear wave velocity data are not available and the site condition is estimated by a geotechnical engineer, engineering geologist, or seismologist as Site Class B or BC on the basis of site geology, consisting of competent rock with moderate fracturing and weathering, the site shall be classi fi ed as Site Class BC. Softer and more highly fractured and weathered rock shall either be measured on site for shear wave velocity or classi fi ed as Site Class C.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-20.2.5-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 20,
+      "section": "20.2.5",
+      "citation": "Section 20.2.5",
+      "page": 1
+    },
+    "title": "20.2.5 Site Class A (Hard Rock) The hard rock, Site Class A, category shall be supported by shear wave velocity measurement, either on site or on pro fi les of the same rock type in the same formation",
+    "description": "",
+    "data": {
+      "rule": "20.2.5 Site Class A (Hard Rock) The hard rock, Site Class A, category shall be supported by shear wave velocity measurement, either on site or on pro fi les of the same rock type in the same formation with an equal or greater degree of weathering and fracturing. Where hard rock conditions are known to be continuous to a depth of 100 ft (30 m), sur fi cial shear wave velocity measurements to maximum depths less than 100 ft are permitted to be extrapolated to assess \u00af vs .",
+      "conditions": [
+        {
+          "parameter": "",
+          "operator": "<",
+          "value": 100.0,
+          "unit": "ft"
+        }
+      ],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-20.2.5-T1",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 20,
+      "section": "20.2.5",
+      "citation": "Section 20.2.5",
+      "page": 2
+    },
+    "title": "Table 20.2-1. Site Classification.",
+    "description": "",
+    "data": {
+      "rule": "Table 20.2-1. Site Classification.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-20.2-T20-2-11"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-20.2-H1"
+  },
+  {
+    "id": "ASCE7-22-20.2.5-T2",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 20,
+      "section": "20.2.5",
+      "citation": "Section 20.2.5",
+      "page": 2
+    },
+    "title": "Note: For SI: 1 ft = 0.3048 m; 1 ft/s = 0.3048 m/s.",
+    "description": "",
+    "data": {
+      "rule": "Note: For SI: 1 ft = 0.3048 m; 1 ft/s = 0.3048 m/s.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-20.2-H1"
+  },
+  {
+    "id": "ASCE7-22-20.3-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 20,
+      "section": "20.3",
+      "citation": "Section 20.3",
+      "page": 2
+    },
+    "title": "20.3 ESTIMATION OF SHEAR WAVE VELOCITY PROFILES",
+    "description": "",
+    "data": {
+      "rule": "20.3 ESTIMATION OF SHEAR WAVE VELOCITY PROFILES",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-20.3-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 20,
+      "section": "20.3",
+      "citation": "Section 20.3",
+      "page": 2
+    },
+    "title": "Where measured shear wave velocity data are not available, shear wave velocity shall be estimated as a function of depth using correlations with suitable geotechnical parameters, including standard pe",
+    "description": "",
+    "data": {
+      "rule": "Where measured shear wave velocity data are not available, shear wave velocity shall be estimated as a function of depth using correlations with suitable geotechnical parameters, including standard penetration test (SPT) blow counts, shear strength, overburden pressure, void ratio, or cone penetration test (CPT) tip resistance, measured at the site.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-20.3-P2",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 20,
+      "section": "20.3",
+      "citation": "Section 20.3",
+      "page": 2
+    },
+    "title": "Site class based on estimated values of \u00af vs shall be derived using \u00af vs , \u00af vs /1.3, and 1.3\u00af vs when correlation models are used to derive shear wave velocities. Where correlations derived for speci",
+    "description": "",
+    "data": {
+      "rule": "Site class based on estimated values of \u00af vs shall be derived using \u00af vs , \u00af vs /1.3, and 1.3\u00af vs when correlation models are used to derive shear wave velocities. Where correlations derived for speci fi c local regions can be demonstrated to have greater accuracy, factors less than 1.3 can be used if approved by the Authority Having Jurisdiction. If the different average velocities result in different site classes per Table 20.2-1, the most critical of the site classes for ground motion analysis at each period shall be determined by a geotechnical engineer, as described in Section 11.4.2.",
+      "conditions": [
+        {
+          "parameter": "",
+          "operator": "<",
+          "value": 1.3,
+          "unit": null
+        }
+      ],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-20.2-T20-2-11"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-20.3-P3",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 20,
+      "section": "20.3",
+      "citation": "Section 20.3",
+      "page": 2
+    },
+    "title": "Where the available data used to establish the shear wave velocity pro fi le extends to depths less than 100 ft (30 m) but more than 50 ft (15 m), and the site geology is such that soft layers are unl",
+    "description": "",
+    "data": {
+      "rule": "Where the available data used to establish the shear wave velocity pro fi le extends to depths less than 100 ft (30 m) but more than 50 ft (15 m), and the site geology is such that soft layers are unlikely to be encountered between 50 and 100 ft, the shear wave velocity of the last layer in the pro fi le shall be extended to 100 ft for the calculation of \u00af vs in Equation (20.4-1). Where the data does not extend to depths of 50 ft (15 m), default site classes, as described in Section 20.1, shall be used unless another site class can be justi fi ed on the basis of the site geology.",
+      "conditions": [
+        {
+          "parameter": "",
+          "operator": "<",
+          "value": 100.0,
+          "unit": "ft"
+        }
+      ],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-20.1-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-20.4-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 20,
+      "section": "20.4",
+      "citation": "Section 20.4",
+      "page": 2
+    },
+    "title": "20.4 DEFINITIONS OF SITE CLASS PARAMETERS",
+    "description": "",
+    "data": {
+      "rule": "20.4 DEFINITIONS OF SITE CLASS PARAMETERS",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-20.4-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 20,
+      "section": "20.4",
+      "citation": "Section 20.4",
+      "page": 2
+    },
+    "title": "The de fi nitions presented in this section shall apply to the upper 100 ft (30 m) of the site pro fi le. Pro fi les containing distinct soil and rock layers shall be subdivided into those layers desi",
+    "description": "",
+    "data": {
+      "rule": "The de fi nitions presented in this section shall apply to the upper 100 ft (30 m) of the site pro fi le. Pro fi les containing distinct soil and rock layers shall be subdivided into those layers designated by a number that ranges from 1 to n at the bottom, where there is a total of n distinct layers in the upper 100 ft (30 m). The symbol i refers to any one of the layers between 1 and n .",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-20.4.1-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 20,
+      "section": "20.4.1",
+      "citation": "Section 20.4.1",
+      "page": 2
+    },
+    "title": "20.4.1 \u0016 vs , Average Shear Wave Velocity The average shear wave velocity, \u00af vs , shall be determined in accordance with the following formula:",
+    "description": "",
+    "data": {
+      "rule": "20.4.1 \u0016 vs , Average Shear Wave Velocity The average shear wave velocity, \u00af vs , shall be determined in accordance with the following formula: where",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-20.4.1-T2",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 20,
+      "section": "20.4.1",
+      "citation": "Section 20.4.1",
+      "page": 2
+    },
+    "title": "di = Thickness of any layer between 0 and 100 ft (30 m), vsi = Shear wave velocity in ft \u2215 s (m \u2215 s), and P i = 1 n di = 100 ft (30 m).",
+    "description": "",
+    "data": {
+      "rule": "di = Thickness of any layer between 0 and 100 ft (30 m), vsi = Shear wave velocity in ft \u2215 s (m \u2215 s), and P i = 1 n di = 100 ft (30 m).",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-20.4.1-H1"
+  },
+  {
+    "id": "ASCE7-22-20.5-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 20,
+      "section": "20.5",
+      "citation": "Section 20.5",
+      "page": 2
+    },
+    "title": "20.5 CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
+    "description": "",
+    "data": {
+      "rule": "20.5 CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-20.5-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 20,
+      "section": "20.5",
+      "citation": "Section 20.5",
+      "page": 2
+    },
+    "title": "See Chapter 23 for the list of consensus standards and other documents that shall be considered part of this standard to the extent referenced in this chapter.",
+    "description": "",
+    "data": {
+      "rule": "See Chapter 23 for the list of consensus standards and other documents that shall be considered part of this standard to the extent referenced in this chapter.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-20.2-T20-2-11",
+    "type": "table",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 20,
+      "section": "20.2",
+      "citation": "Table 20.2-1",
+      "page": 2
+    },
+    "title": "Table 20.2-1. Site Classification.",
+    "description": "",
+    "data": {
+      "columns": [
+        {
+          "name": "Site Class",
+          "unit": null
+        },
+        {
+          "name": "\u00af v s Calculated Using Measured or Estimated Shear Wave Velocity Profile (ft/s)",
+          "unit": null
+        }
+      ],
+      "rows": [
+        {
+          "Site Class": "A. Hard rock",
+          "\u00af v s Calculated Using Measured or Estimated Shear Wave Velocity Profile (ft/s)": "> 5,000"
+        },
+        {
+          "Site Class": "B. Medium hard rock",
+          "\u00af v s Calculated Using Measured or Estimated Shear Wave Velocity Profile (ft/s)": "> 3,000 to 5,000"
+        },
+        {
+          "Site Class": "BC. Soft rock",
+          "\u00af v s Calculated Using Measured or Estimated Shear Wave Velocity Profile (ft/s)": "> 2,100 to 3,000"
+        },
+        {
+          "Site Class": "C. Very dense sand or hard clay",
+          "\u00af v s Calculated Using Measured or Estimated Shear Wave Velocity Profile (ft/s)": "> 1,450 to 2,100"
+        },
+        {
+          "Site Class": "CD. Dense sand or very stiff clay",
+          "\u00af v s Calculated Using Measured or Estimated Shear Wave Velocity Profile (ft/s)": "> 1,000 to 1,450"
+        },
+        {
+          "Site Class": "D. Medium dense sand or stiff clay",
+          "\u00af v s Calculated Using Measured or Estimated Shear Wave Velocity Profile (ft/s)": "> 700 to 1,000"
+        },
+        {
+          "Site Class": "DE. Loose sand or medium stiff clay",
+          "\u00af v s Calculated Using Measured or Estimated Shear Wave Velocity Profile (ft/s)": "> 500 to 700"
+        },
+        {
+          "Site Class": "E. Very loose sand or soft clay",
+          "\u00af v s Calculated Using Measured or Estimated Shear Wave Velocity Profile (ft/s)": "\u2265 500"
+        },
+        {
+          "Site Class": "F. Soils requiring site response analysis in accordance with Section 21.1",
+          "\u00af v s Calculated Using Measured or Estimated Shear Wave Velocity Profile (ft/s)": "See Section 20.2.1"
+        }
+      ]
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "docling"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-20.4-E20-4-11",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 20,
+      "section": "20.4",
+      "citation": "Eq. (20.4-1)",
+      "page": 2
+    },
+    "title": "Equation (20.4-1)",
+    "description": "",
+    "data": {
+      "expression": "h that soft layers are unlikely to be encountered between 50 and 100 ft, the shear wave velocity of the last layer in the pro fi le shall be extended to 100 ft for the calculation of \u00af vs in Equation (20.4-1)",
+      "parameters": {
+        "vs": {
+          "description": "Shear wave velocity, in ft/s (m/s), at small shear strains (greater than 10 -3 % strain); see Section 19.2.1",
+          "source": "ASCE7-22-11.3-T126"
+        },
+        "h": {
+          "description": "Height of a shear wall measured as the maximum clear height from top of foundation to bottom of diaphragm framing above, or the maximum clear height from top of diaphragm to bottom of diaphragm framing above",
+          "source": "ASCE7-22-11.3-T49"
+        }
+      }
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "from_text"
+    },
+    "parent_id": null
+  }
+]

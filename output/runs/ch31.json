@@ -1,0 +1,1175 @@
+[
+  {
+    "id": "ASCE7-22-31.1-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 31,
+      "section": "31.1",
+      "citation": "Section 31.1",
+      "page": 1
+    },
+    "title": "31.1 SCOPE",
+    "description": "",
+    "data": {
+      "rule": "31.1 SCOPE",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-31.1-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 31,
+      "section": "31.1",
+      "citation": "Section 31.1",
+      "page": 1
+    },
+    "title": "The Wind Tunnel Procedure shall be used where required by Sections 27.1.3, 28.1.3, 29.1.3, and 30.1.3. The Wind Tunnel Procedure shall be permitted for any building or other structure in lieu of the d",
+    "description": "",
+    "data": {
+      "rule": "The Wind Tunnel Procedure shall be used where required by Sections 27.1.3, 28.1.3, 29.1.3, and 30.1.3. The Wind Tunnel Procedure shall be permitted for any building or other structure in lieu of the design procedures speci fi ed in Chapter 27 [main wind force resisting system (MWFRS) for buildings of all heights], Chapter 28 (MWFRS of low-rise buildings), Chapter 29 (MWFRS of all other structures), and Chapter 30 (components and cladding [C&C] for all building types and other structures).",
+      "conditions": [
+        {
+          "parameter": "building_type",
+          "operator": "==",
+          "value": "low-rise",
+          "unit": null
+        }
+      ],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-31.1-P2",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 31,
+      "section": "31.1",
+      "citation": "Section 31.1",
+      "page": 1
+    },
+    "title": "The results of numerical Wind Tunnel Procedures (i.e., the use of computational fl uid dynamics for wind engineering purposes) shall be veri fi ed, validated by a physical wind tunnel procedure in acc",
+    "description": "",
+    "data": {
+      "rule": "The results of numerical Wind Tunnel Procedures (i.e., the use of computational fl uid dynamics for wind engineering purposes) shall be veri fi ed, validated by a physical wind tunnel procedure in accordance with ASCE 49, and subject to an independent peer review, in accordance with ASCE 7 Section 1.3.1.3.4.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-31.1-N1",
+    "type": "user_note",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 31,
+      "section": "31.1",
+      "citation": "Section 31.1",
+      "page": 1
+    },
+    "title": "User Note : Chapter 31 may always be used for determining wind pressures for the MWFRS and/or for C&C of any building or other structure. This method is considered to produce the most accurate wind pr",
+    "description": "",
+    "data": {
+      "rule": "User Note : Chapter 31 may always be used for determining wind pressures for the MWFRS and/or for C&C of any building or other structure. This method is considered to produce the most accurate wind pressures and loads of any method speci fi ed in this standard.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-31.2-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 31,
+      "section": "31.2",
+      "citation": "Section 31.2",
+      "page": 1
+    },
+    "title": "31.2 TEST CONDITIONS",
+    "description": "",
+    "data": {
+      "rule": "31.2 TEST CONDITIONS",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-31.2-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 31,
+      "section": "31.2",
+      "citation": "Section 31.2",
+      "page": 1
+    },
+    "title": "Wind tunnel tests, or similar tests using fl uids other than air, used for the determination of design wind loads for any building, other structure, portion of structure, or component, shall be conduc",
+    "description": "",
+    "data": {
+      "rule": "Wind tunnel tests, or similar tests using fl uids other than air, used for the determination of design wind loads for any building, other structure, portion of structure, or component, shall be conducted in accordance with this section. Tests for the determination of the mean, fl uctuating, and peak forces and pressures shall meet the requirements of ASCE 49.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-31.3-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 31,
+      "section": "31.3",
+      "citation": "Section 31.3",
+      "page": 1
+    },
+    "title": "31.3 DYNAMIC RESPONSE",
+    "description": "",
+    "data": {
+      "rule": "31.3 DYNAMIC RESPONSE",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-31.3-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 31,
+      "section": "31.3",
+      "citation": "Section 31.3",
+      "page": 1
+    },
+    "title": "Tests for the purpose of determining the dynamic response of a building, other structure, portion of structure, or component shall be in accordance with Section 31.2. The tested model and associated a",
+    "description": "",
+    "data": {
+      "rule": "Tests for the purpose of determining the dynamic response of a building, other structure, portion of structure, or component shall be in accordance with Section 31.2. The tested model and associated analysis shall account for mass distribution, stiffness, and damping.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-31.2-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-31.4-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 31,
+      "section": "31.4",
+      "citation": "Section 31.4",
+      "page": 1
+    },
+    "title": "31.4 SITE SPECIFIC LOAD EFFECTS FOR BUILDINGS, OTHER STRUCTURES, AND COMPONENTS",
+    "description": "",
+    "data": {
+      "rule": "31.4 SITE SPECIFIC LOAD EFFECTS FOR BUILDINGS, OTHER STRUCTURES, AND COMPONENTS",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-31.4-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 31,
+      "section": "31.4",
+      "citation": "Section 31.4",
+      "page": 1
+    },
+    "title": "Load effects for buildings, other structures, and components at a single, speci fi c site shall be permitted to be determined in accordance with this section. Wind tunnel tests shall conform with the ",
+    "description": "",
+    "data": {
+      "rule": "Load effects for buildings, other structures, and components at a single, speci fi c site shall be permitted to be determined in accordance with this section. Wind tunnel tests shall conform with the requirements of Sections 31.2 and 31.3.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-31.4.1-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 31,
+      "section": "31.4.1",
+      "citation": "Section 31.4.1",
+      "page": 1
+    },
+    "title": "31.4.1 Mean Recurrence Intervals of Load Effects The load effect required for strength design shall be determined for the same mean recurrence interval as for the analytical method by using a rational",
+    "description": "",
+    "data": {
+      "rule": "31.4.1 Mean Recurrence Intervals of Load Effects The load effect required for strength design shall be determined for the same mean recurrence interval as for the analytical method by using a rational analysis method, as de fi ned in the recognized",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-31.4.1-H2",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 31,
+      "section": "31.4.1",
+      "citation": "Section 31.4.1",
+      "page": 1
+    },
+    "title": "CHAPTER 31 WIND TUNNEL PROCEDURE",
+    "description": "",
+    "data": {
+      "rule": "CHAPTER 31 WIND TUNNEL PROCEDURE",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-31.4.1-H3",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 31,
+      "section": "31.4.1",
+      "citation": "Section 31.4.1",
+      "page": 1
+    },
+    "title": "literature, for combining the directional wind tunnel data with the directional meteorological data or probabilistic models based thereon. The load effect required for allowable stress design shall be",
+    "description": "",
+    "data": {
+      "rule": "literature, for combining the directional wind tunnel data with the directional meteorological data or probabilistic models based thereon. The load effect required for allowable stress design shall be equal to the load effect required for strength design divided by 1.6. For buildings or other structures that are sensitive to possible variations in the values of the dynamic parameters, sensitivity studies shall be required to provide a rational basis for design recommendations.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-31.4.2-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 31,
+      "section": "31.4.2",
+      "citation": "Section 31.4.2",
+      "page": 1
+    },
+    "title": "31.4.2 Limitations on Wind Speeds The wind speeds, and probabilistic estimates based thereon, shall be subject to the limitations described in Section 26.5.3.",
+    "description": "",
+    "data": {
+      "rule": "31.4.2 Limitations on Wind Speeds The wind speeds, and probabilistic estimates based thereon, shall be subject to the limitations described in Section 26.5.3.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.5.3-P1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-31.4.3-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 31,
+      "section": "31.4.3",
+      "citation": "Section 31.4.3",
+      "page": 1
+    },
+    "title": "31.4.3 Wind Directionality The directional wind climate based on recorded or simulated directional wind speed data shall be considered in determining wind loads, and the data shall be presented as par",
+    "description": "",
+    "data": {
+      "rule": "31.4.3 Wind Directionality The directional wind climate based on recorded or simulated directional wind speed data shall be considered in determining wind loads, and the data shall be presented as part of the wind tunnel report submitted to the Authority Having Jurisdiction. The method for combining wind tunnel model data with information on wind speed and direction at the project site shall also be clearly stated in the Wind Tunnel Report. Variation in the wind direction, based upon uncertainty in the wind climate data, shall be considered when determining the wind loading, and the design wind loads shall be based on the largest values that result from this uncertainty. Consideration of uncertainty in the wind direction is not required in the determination of serviceabilityrelated wind effects.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-31.4.4-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 31,
+      "section": "31.4.4",
+      "citation": "Section 31.4.4",
+      "page": 1
+    },
+    "title": "31.4.4 Limitations on Loads Loads for the MWFRS, determined by wind tunnel testing, shall be limited such that the overall principal loads in the x and y directions are not less than 80% of those that",
+    "description": "",
+    "data": {
+      "rule": "31.4.4 Limitations on Loads Loads for the MWFRS, determined by wind tunnel testing, shall be limited such that the overall principal loads in the x and y directions are not less than 80% of those that would be obtained from Chapter 27 or Chapter 28 for buildings, or Chapter 29 for appurtenances or other structures. The overall principal load for buildings shall be based on the overturning moment for fl exible buildings and the base shear for other buildings. The overall principal load for other structures shall be based on the overturning moment for fl exible structures and the base shear for other structures.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-31.4.4-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 31,
+      "section": "31.4.4",
+      "citation": "Section 31.4.4",
+      "page": 1
+    },
+    "title": "Pressures for C&C, determined by wind tunnel testing, shall be limited to not less than 80% of those calculated for Zone 4 for walls and Zone 1 for roofs, using the procedure in Chapter 30. These zone",
+    "description": "",
+    "data": {
+      "rule": "Pressures for C&C, determined by wind tunnel testing, shall be limited to not less than 80% of those calculated for Zone 4 for walls and Zone 1 for roofs, using the procedure in Chapter 30. These zones refer to those shown in Figures. 30.3-1, 30.3-2A -C, 30.3-3, 30.3-4, 30.3-5A -B, 30.3-6, 30.3-7, and 30.5-1.",
+      "conditions": [
+        {
+          "parameter": "",
+          "operator": "<",
+          "value": 80.0,
+          "unit": null
+        }
+      ],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-31.4.4-T1",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 31,
+      "section": "31.4.4",
+      "citation": "Section 31.4.4",
+      "page": 1
+    },
+    "title": "The limiting values of 80% may be reduced to 50% for the MWFRS and 65% for C&C if either of the following conditions applies:",
+    "description": "",
+    "data": {
+      "rule": "The limiting values of 80% may be reduced to 50% for the MWFRS and 65% for C&C if either of the following conditions applies:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-31.4.4-H1"
+  },
+  {
+    "id": "ASCE7-22-31.4.4-T2",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 31,
+      "section": "31.4.4",
+      "citation": "Section 31.4.4",
+      "page": 1
+    },
+    "title": "There were no speci fi c in fl uential buildings or objects within the detailed proximity model.",
+    "description": "",
+    "data": {
+      "rule": "There were no speci fi c in fl uential buildings or objects within the detailed proximity model.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-31.4.4-H1"
+  },
+  {
+    "id": "ASCE7-22-31.4.4-T3",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 31,
+      "section": "31.4.4",
+      "citation": "Section 31.4.4",
+      "page": 1
+    },
+    "title": "Loads and pressures from supplemental tests for all significant wind directions in which speci fi c in fl uential buildings or objects are replaced by the roughness representative of",
+    "description": "",
+    "data": {
+      "rule": "Loads and pressures from supplemental tests for all significant wind directions in which speci fi c in fl uential buildings or objects are replaced by the roughness representative of",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-31.4.4-H1"
+  },
+  {
+    "id": "ASCE7-22-31.4.4-T4",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 31,
+      "section": "31.4.4",
+      "citation": "Section 31.4.4",
+      "page": 2
+    },
+    "title": "the adjacent roughness condition, but not rougher than Exposure B, are included in the test results.",
+    "description": "",
+    "data": {
+      "rule": "the adjacent roughness condition, but not rougher than Exposure B, are included in the test results.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-31.4.4-H1"
+  },
+  {
+    "id": "ASCE7-22-31.4.5-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 31,
+      "section": "31.4.5",
+      "citation": "Section 31.4.5",
+      "page": 2
+    },
+    "title": "31.4.5 Limitations on Wind Loads for Ground-Mounted Fixed-Tilt Solar Panel Systems For ground-mounted fi xedtilt solar panel systems that meet the limitations and geometry requirements of Section 29.4",
+    "description": "",
+    "data": {
+      "rule": "31.4.5 Limitations on Wind Loads for Ground-Mounted Fixed-Tilt Solar Panel Systems For ground-mounted fi xedtilt solar panel systems that meet the limitations and geometry requirements of Section 29.4.5.1, the minimum design wind load based on a wind tunnel study shall not be less than 65% for components and cladding (C&C) and 50% for the main wind force resisting system (MWFRS) of the values resulting from Section 29.4.5, subject to the conditions of Section 31.4.3. Wind load values lower than these limits shall be permitted when an independent peer review of the wind tunnel test is performed, in accordance with Section 31.6. The minimum design wind force based on a wind tunnel study for ground-mounted fi xed-tilt solar panel systems need not comply with the minimum net pressure of 16 lb/ft 2 (0.77 kN/m 2 ) per Section 30.2.2.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-31.4.3-H1",
+      "ASCE7-22-31.6-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-31.5-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 31,
+      "section": "31.5",
+      "citation": "Section 31.5",
+      "page": 2
+    },
+    "title": "31.5 LOAD EFFECTS FOR BUILDINGS, OTHER STRUCTURES, AND COMPONENTS USED AT MULTIPLE SITES",
+    "description": "",
+    "data": {
+      "rule": "31.5 LOAD EFFECTS FOR BUILDINGS, OTHER STRUCTURES, AND COMPONENTS USED AT MULTIPLE SITES",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-31.5.1-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 31,
+      "section": "31.5.1",
+      "citation": "Section 31.5.1",
+      "page": 2
+    },
+    "title": "31.5.1 Wind Loads Wind loads on buildings, other structures, portions of structures, or components used at multiple sites, shall be permitted to be determined by wind tunnel tests by determining load ",
+    "description": "",
+    "data": {
+      "rule": "31.5.1 Wind Loads Wind loads on buildings, other structures, portions of structures, or components used at multiple sites, shall be permitted to be determined by wind tunnel tests by determining load coef fi cients for use in the analysis equations of the Directional Procedure in Chapters 27 and 29 for MWFRS and in Part 4 of Chapter 30 for C&C. Alternatively, the loads are permitted to be speci fi ed with an analysis method de fi ned in the wind tunnel test report. It is not required to include speci fi c nearby buildings in the testing when results are to be used for multiple sites.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-31.5.1-P2",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 31,
+      "section": "31.5.1",
+      "citation": "Section 31.5.1",
+      "page": 2
+    },
+    "title": "The wind tunnel tests shall conform with the requirements of Sections 31.2 and 31.3.",
+    "description": "",
+    "data": {
+      "rule": "The wind tunnel tests shall conform with the requirements of Sections 31.2 and 31.3.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-31.5.1-P3",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 31,
+      "section": "31.5.1",
+      "citation": "Section 31.5.1",
+      "page": 2
+    },
+    "title": "Data analysis shall consider wind loads from all wind directions. Generic load coef fi cients shall be calculated to be consistent with coef fi cients in Chapters 27, 29, and 30, or shall be de fi ned",
+    "description": "",
+    "data": {
+      "rule": "Data analysis shall consider wind loads from all wind directions. Generic load coef fi cients shall be calculated to be consistent with coef fi cients in Chapters 27, 29, and 30, or shall be de fi ned to apply to an analysis procedure speci fi ed in the test report.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-31.5.1-P4",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 31,
+      "section": "31.5.1",
+      "citation": "Section 31.5.1",
+      "page": 2
+    },
+    "title": "The test report shall include data collection methods, data analysis, wind fi eld modeling, wind tunnel model details, measured wind loads, conversion of data into generic coef fi cients, and conditio",
+    "description": "",
+    "data": {
+      "rule": "The test report shall include data collection methods, data analysis, wind fi eld modeling, wind tunnel model details, measured wind loads, conversion of data into generic coef fi cients, and conditions of applicability of results. Wind tunnel results shall not be extrapolated to geometric con fi gurations that were not anticipated by the wind tunnel study. Interpolation between two or more tests shall be permitted. The limitations of the wind tunnel study shall be clearly reported.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-31.5.2-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 31,
+      "section": "31.5.2",
+      "citation": "Section 31.5.2",
+      "page": 2
+    },
+    "title": "31.5.2 Limitations on Wind Loads for Rooftop Solar Panels For photovoltaic solar panel systems that meet the limitations and geometry requirements of Figure 29.4-7, the minimum design wind load based ",
+    "description": "",
+    "data": {
+      "rule": "31.5.2 Limitations on Wind Loads for Rooftop Solar Panels For photovoltaic solar panel systems that meet the limitations and geometry requirements of Figure 29.4-7, the minimum design wind load based on a wind tunnel study shall not be less than 65% of the values resulting from 29.4-7, subject to the conditions of Section 31.4.3. The minimum design wind force based on a wind tunnel study for roof-mounted solar panel systems need not comply with the minimum net pressure of 16 lb/ft 2 (0.77 kN/m 2 ) as per ASCE 7, Section 30.2.2.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-31.4.3-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-31.5.3-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 31,
+      "section": "31.5.3",
+      "citation": "Section 31.5.3",
+      "page": 2
+    },
+    "title": "31.5.3 Peer Review Requirements for Wind Tunnel Tests of Buildings, Other Structures, and Components used at Multiple Sites For wind loads on buildings, other structures, and components used at multip",
+    "description": "",
+    "data": {
+      "rule": "31.5.3 Peer Review Requirements for Wind Tunnel Tests of Buildings, Other Structures, and Components used at Multiple Sites For wind loads on buildings, other structures, and components used at multiple sites determined by wind tunnel tests, an independent peer review of the wind tunnel test shall be performed in accordance with Section 31.6. For photovoltaic solar panel systems that meet the limitations and geometrical requirements of Figure 29.4-7, wind load values lower than those indicated in Section 31.5.2 shall be permitted when an independent peer review of the wind tunnel test is performed, in accordance with Section 31.6.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-31.5.2-H1",
+      "ASCE7-22-31.6-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-31.6-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 31,
+      "section": "31.6",
+      "citation": "Section 31.6",
+      "page": 2
+    },
+    "title": "31.6 PEER REVIEW REQUIREMENT FOR WIND TUNNEL TESTS",
+    "description": "",
+    "data": {
+      "rule": "31.6 PEER REVIEW REQUIREMENT FOR WIND TUNNEL TESTS",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-31.6-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 31,
+      "section": "31.6",
+      "citation": "Section 31.6",
+      "page": 2
+    },
+    "title": "When an independent peer review is required by Section 31.5.3 or 31.4.5, it shall be an objective, technical review performed by knowledgeable reviewer(s) experienced in performing wind tunnel studies",
+    "description": "",
+    "data": {
+      "rule": "When an independent peer review is required by Section 31.5.3 or 31.4.5, it shall be an objective, technical review performed by knowledgeable reviewer(s) experienced in performing wind tunnel studies on buildings and similar systems, and in properly simulated atmospheric boundary layers or wind fi elds. The minimum quali fi cations for the peer reviewer shall include the following:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-31.5.3-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-31.6-P2",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 31,
+      "section": "31.6",
+      "citation": "Section 31.6",
+      "page": 2
+    },
+    "title": "Peer reviewer shall be independent from the wind tunnel laboratory that performed the tests and report and shall bear no con fl ict of interest.",
+    "description": "",
+    "data": {
+      "rule": "Peer reviewer shall be independent from the wind tunnel laboratory that performed the tests and report and shall bear no con fl ict of interest.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-31.6-P3",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 31,
+      "section": "31.6",
+      "citation": "Section 31.6",
+      "page": 2
+    },
+    "title": "Peer reviewer shall have technical expertise in the application of wind tunnel studies on buildings, other structures, or components, similar to that being reviewed.",
+    "description": "",
+    "data": {
+      "rule": "Peer reviewer shall have technical expertise in the application of wind tunnel studies on buildings, other structures, or components, similar to that being reviewed.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-31.6-P4",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 31,
+      "section": "31.6",
+      "citation": "Section 31.6",
+      "page": 2
+    },
+    "title": "Peer reviewer shall have experience in performing or evaluating boundary layer wind tunnel studies and shall be familiar with the technical issues and regulations governing the Wind Tunnel Procedure i",
+    "description": "",
+    "data": {
+      "rule": "Peer reviewer shall have experience in performing or evaluating boundary layer wind tunnel studies and shall be familiar with the technical issues and regulations governing the Wind Tunnel Procedure in ASCE 49, as it is applied to the building, other structure, or component under consideration.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-31.6-P5",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 31,
+      "section": "31.6",
+      "citation": "Section 31.6",
+      "page": 2
+    },
+    "title": "The peer reviewer shall review the wind tunnel report, including, but not limited to, data collection methods, data analysis, wind fi eld modeling, building, other structure, or component wind tunnel ",
+    "description": "",
+    "data": {
+      "rule": "The peer reviewer shall review the wind tunnel report, including, but not limited to, data collection methods, data analysis, wind fi eld modeling, building, other structure, or component wind tunnel model, resulting wind loads, conversion of data into design values, conditions of applicability of results, and other relevant issues identi fi ed by the reviewer.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-31.6-P6",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 31,
+      "section": "31.6",
+      "citation": "Section 31.6",
+      "page": 2
+    },
+    "title": "The peer reviewer shall submit a written report to the Authority Having Jurisdiction and the client. The report shall include, at a minimum, statements regarding the following: scope of peer review wi",
+    "description": "",
+    "data": {
+      "rule": "The peer reviewer shall submit a written report to the Authority Having Jurisdiction and the client. The report shall include, at a minimum, statements regarding the following: scope of peer review with limitations de fi ned; the status of the wind tunnel study at time of review; conformance of the wind tunnel study with the requirements of ASCE 49 and Section 31.5.1; conclusions of the reviewer identifying areas that need further review, investigation, and/or clari fi cation; recommendations; and whether, in the reviewer ' s opinion, the wind loads derived from the wind tunnel study are in conformance with ASCE 7 for the intended use(s).",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-31.5.1-P1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-31.7-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 31,
+      "section": "31.7",
+      "citation": "Section 31.7",
+      "page": 2
+    },
+    "title": "31.7 WIND-BORNE DEBRIS",
+    "description": "",
+    "data": {
+      "rule": "31.7 WIND-BORNE DEBRIS",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-31.7-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 31,
+      "section": "31.7",
+      "citation": "Section 31.7",
+      "page": 2
+    },
+    "title": "Glazing in buildings in wind-borne debris regions shall be in accordance with Section 26.12.3.",
+    "description": "",
+    "data": {
+      "rule": "Glazing in buildings in wind-borne debris regions shall be in accordance with Section 26.12.3.",
+      "conditions": [
+        {
+          "parameter": "location",
+          "operator": "in",
+          "value": "wind-borne debris regions",
+          "unit": null
+        }
+      ],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-26.12.3-P1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-31.8-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 31,
+      "section": "31.8",
+      "citation": "Section 31.8",
+      "page": 2
+    },
+    "title": "31.8 CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
+    "description": "",
+    "data": {
+      "rule": "31.8 CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-31.8-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 31,
+      "section": "31.8",
+      "citation": "Section 31.8",
+      "page": 2
+    },
+    "title": "This section lists the consensus standards and other documents that shall be considered part of this standard to the extent referenced in this chapter.",
+    "description": "",
+    "data": {
+      "rule": "This section lists the consensus standards and other documents that shall be considered part of this standard to the extent referenced in this chapter.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-31.8-T1",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 31,
+      "section": "31.8",
+      "citation": "Section 31.8",
+      "page": 2
+    },
+    "title": "ASCE 49 , Wind Tunnel Testing for Buildings and Other Structures , American Society of Civil Engineers, 2020.",
+    "description": "",
+    "data": {
+      "rule": "ASCE 49 , Wind Tunnel Testing for Buildings and Other Structures , American Society of Civil Engineers, 2020.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-31.8-H1"
+  },
+  {
+    "id": "ASCE7-22-31.8-T2",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 31,
+      "section": "31.8",
+      "citation": "Section 31.8",
+      "page": 2
+    },
+    "title": "Cited in: Sections 31.2, 31.6, 31.6.1.2, C31, C31.4.2, C31.6.1",
+    "description": "",
+    "data": {
+      "rule": "Cited in: Sections 31.2, 31.6, 31.6.1.2, C31, C31.4.2, C31.6.1",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-31.8-H1"
+  }
+]

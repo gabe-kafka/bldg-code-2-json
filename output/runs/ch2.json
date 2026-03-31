@@ -1,0 +1,2781 @@
+[
+  {
+    "id": "ASCE7-22-2.1-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.1",
+      "citation": "Section 2.1",
+      "page": 1
+    },
+    "title": "2.1 GENERAL",
+    "description": "",
+    "data": {
+      "rule": "2.1 GENERAL",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-2.1-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.1",
+      "citation": "Section 2.1",
+      "page": 1
+    },
+    "title": "Buildings and other structures shall be designed using the provisions of either Section 2.3 or 2.4. Where elements of a structure are designed by a particular material standard or speci fi cation, the",
+    "description": "",
+    "data": {
+      "rule": "Buildings and other structures shall be designed using the provisions of either Section 2.3 or 2.4. Where elements of a structure are designed by a particular material standard or speci fi cation, they shall be designed exclusively by either Section 2.3 or 2.4.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-2.3-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-2.2-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.2",
+      "citation": "Section 2.2",
+      "page": 1
+    },
+    "title": "2.2 SYMBOLS",
+    "description": "",
+    "data": {
+      "rule": "2.2 SYMBOLS Ak",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-2.2-T2",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.2",
+      "citation": "Section 2.2",
+      "page": 1
+    },
+    "title": "= Load or load effect arising from extraordinary event, A",
+    "description": "",
+    "data": {
+      "rule": "= Load or load effect arising from extraordinary event, A D = Dead load Di = Weight of ice E = Earthquake load",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-2.2-H2"
+  },
+  {
+    "id": "ASCE7-22-2.2-T6",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.2",
+      "citation": "Section 2.2",
+      "page": 1
+    },
+    "title": "F = Load caused by fl uids with well-de fi ned pressures and maximum heights other than those caused by groundwater pressure",
+    "description": "",
+    "data": {
+      "rule": "F = Load caused by fl uids with well-de fi ned pressures and maximum heights other than those caused by groundwater pressure",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-2.2-H2"
+  },
+  {
+    "id": "ASCE7-22-2.2-H2",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.2",
+      "citation": "Section 2.2",
+      "page": 1
+    },
+    "title": "Fa = Flood load",
+    "description": "",
+    "data": {
+      "rule": "Fa = Flood load",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-2.2-T7",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.2",
+      "citation": "Section 2.2",
+      "page": 1
+    },
+    "title": "H = Load due to lateral earth pressure (including lateral earth pressure from fi xed or moving surcharge loads), ground water pressure, or pressure of bulk materials",
+    "description": "",
+    "data": {
+      "rule": "H = Load due to lateral earth pressure (including lateral earth pressure from fi xed or moving surcharge loads), ground water pressure, or pressure of bulk materials L = Live load Lr = Roof live load",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-2.2-H2"
+  },
+  {
+    "id": "ASCE7-22-2.2-T10",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.2",
+      "citation": "Section 2.2",
+      "page": 1
+    },
+    "title": "N = Notional load for structural integrity, Section 1.4",
+    "description": "",
+    "data": {
+      "rule": "N = Notional load for structural integrity, Section 1.4 R = Rain load S = Snow load",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-2.2-H2"
+  },
+  {
+    "id": "ASCE7-22-2.2-T13",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.2",
+      "citation": "Section 2.2",
+      "page": 1
+    },
+    "title": "T = Cumulative effect of self-straining forces and effects arising from contraction or expansion resulting from environmental or operational temperature changes, shrinkage, moisture changes, creep in ",
+    "description": "",
+    "data": {
+      "rule": "T = Cumulative effect of self-straining forces and effects arising from contraction or expansion resulting from environmental or operational temperature changes, shrinkage, moisture changes, creep in component materials, movement caused by differential settlement, or combinations thereof W = Wind load",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-2.2-H2"
+  },
+  {
+    "id": "ASCE7-22-2.2-T15",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.2",
+      "citation": "Section 2.2",
+      "page": 1
+    },
+    "title": "Wi = Wind-on-ice, determined in accordance with Chapter 10",
+    "description": "",
+    "data": {
+      "rule": "Wi = Wind-on-ice, determined in accordance with Chapter 10",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-2.2-H2"
+  },
+  {
+    "id": "ASCE7-22-2.2-T16",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.2",
+      "citation": "Section 2.2",
+      "page": 1
+    },
+    "title": "WT = Tornado load, determined in accordance with Chapter 32",
+    "description": "",
+    "data": {
+      "rule": "WT = Tornado load, determined in accordance with Chapter 32",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-2.2-H2"
+  },
+  {
+    "id": "ASCE7-22-2.3-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.3",
+      "citation": "Section 2.3",
+      "page": 1
+    },
+    "title": "2.3 LOAD COMBINATIONS FOR STRENGTH DESIGN",
+    "description": "",
+    "data": {
+      "rule": "2.3 LOAD COMBINATIONS FOR STRENGTH DESIGN",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-2.3.1-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.3.1",
+      "citation": "Section 2.3.1",
+      "page": 1
+    },
+    "title": "2.3.1 Basic Combinations Structures, components, and foundations shall be designed so that their design strength equals or exceeds the effects of the factored loads in the following combinations. Effe",
+    "description": "",
+    "data": {
+      "rule": "2.3.1 Basic Combinations Structures, components, and foundations shall be designed so that their design strength equals or exceeds the effects of the factored loads in the following combinations. Effects of one or more loads not acting shall be considered. Seismic load effects shall be combined loads, in accordance with Section 2.3.6. The most unfavorable effects from wind loads, tornado loads, and earthquake loads shall be considered, where appropriate, but they need not be assumed to act simultaneously. Refer to Sections 1.4, 2.3.6, 12.4, and 12.14.3 for the speci fi c de fi nition of the earthquake load effect, E . Each relevant strength limit state shall be investigated.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-2.3.6-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-2.3.1-T1",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.3.1",
+      "citation": "Section 2.3.1",
+      "page": 1
+    },
+    "title": "1a. 1.4 D 2a. 1.2 D \u00fe 1.6 L \u00fe (0.5 Lr or 0.3 S or 0.5 R ) 3a. 1.2 D 1.6 or 1.0 S or 1.6 R ) ( L or 0.5 W",
+    "description": "",
+    "data": {
+      "rule": "1a. 1.4 D 2a. 1.2 D \u00fe 1.6 L \u00fe (0.5 Lr or 0.3 S or 0.5 R ) 3a. 1.2 D 1.6 or 1.0 S or 1.6 R ) ( L or 0.5 W \u00fe\u00f0 Lr \u00fe )",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-2.3.1-H3"
+  },
+  {
+    "id": "ASCE7-22-2.3.1-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.3.1",
+      "citation": "Section 2.3.1",
+      "page": 1
+    },
+    "title": "CHAPTER 2 COMBINATIONS OF LOADS",
+    "description": "",
+    "data": {
+      "rule": "CHAPTER 2 COMBINATIONS OF LOADS",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-2.3.1-H2",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.3.1",
+      "citation": "Section 2.3.1",
+      "page": 1
+    },
+    "title": "4a. 1.2 D \u00fe 1.0( W or WT) \u00fe L \u00fe (0.5 Lr or 0.3 S or 0.5 R ) 5a. 0.9 D \u00fe 1.0( W or WT )",
+    "description": "",
+    "data": {
+      "rule": "4a. 1.2 D \u00fe 1.0( W or WT) \u00fe L \u00fe (0.5 Lr or 0.3 S or 0.5 R ) 5a. 0.9 D \u00fe 1.0( W or WT )",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-2.3.1-H3",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.3.1",
+      "citation": "Section 2.3.1",
+      "page": 1
+    },
+    "title": "EXCEPTIONS:",
+    "description": "",
+    "data": {
+      "rule": "EXCEPTIONS:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-2.3.1-P2",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.3.1",
+      "citation": "Section 2.3.1",
+      "page": 1
+    },
+    "title": "The load factor on L in combinations 3a and 4a is permitted to equal 0.5 for all occupancies in which Lo in Chapter 4, Table 4.3-1, is less than or equal to 100 psf (4.78 kN/m 2 ), with the exception ",
+    "description": "",
+    "data": {
+      "rule": "The load factor on L in combinations 3a and 4a is permitted to equal 0.5 for all occupancies in which Lo in Chapter 4, Table 4.3-1, is less than or equal to 100 psf (4.78 kN/m 2 ), with the exception of garages or areas occupied as places of public assembly.",
+      "conditions": [
+        {
+          "parameter": "",
+          "operator": "<=",
+          "value": 100.0,
+          "unit": null
+        }
+      ],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-2.3.1-P3",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.3.1",
+      "citation": "Section 2.3.1",
+      "page": 1
+    },
+    "title": "In combinations 2a and 4a, the companion load, S , shall be taken as either the fl at roof snow load ( pf ) or the sloped roof snow load ( ps ).",
+    "description": "",
+    "data": {
+      "rule": "In combinations 2a and 4a, the companion load, S , shall be taken as either the fl at roof snow load ( pf ) or the sloped roof snow load ( ps ).",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-2.3.1-P4",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.3.1",
+      "citation": "Section 2.3.1",
+      "page": 1
+    },
+    "title": "Where using WT in combination 4a, (0.5 Lr or 0.3 S or 0.5 R ) is permitted to be replaced with 0.5 ( Lr or R ).",
+    "description": "",
+    "data": {
+      "rule": "Where using WT in combination 4a, (0.5 Lr or 0.3 S or 0.5 R ) is permitted to be replaced with 0.5 ( Lr or R ).",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-2.3.1-P5",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.3.1",
+      "citation": "Section 2.3.1",
+      "page": 1
+    },
+    "title": "Where fl uid loads, F , are present, they shall be included with the same load factor as dead load, D , in combinations 1a through 4a. Where loads, H , are present, they shall be included as follows:",
+    "description": "",
+    "data": {
+      "rule": "Where fl uid loads, F , are present, they shall be included with the same load factor as dead load, D , in combinations 1a through 4a. Where loads, H , are present, they shall be included as follows:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-2.3.1-T3",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.3.1",
+      "citation": "Section 2.3.1",
+      "page": 1
+    },
+    "title": "Where the effect of H adds to the principal load effect, include H with a load factor of 1.6;",
+    "description": "",
+    "data": {
+      "rule": "Where the effect of H adds to the principal load effect, include H with a load factor of 1.6;",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-2.3.1-H3"
+  },
+  {
+    "id": "ASCE7-22-2.3.1-T4",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.3.1",
+      "citation": "Section 2.3.1",
+      "page": 1
+    },
+    "title": "Where the effect of H resists the principal load effect, include H with a load factor of 0.9, where the load H is permanent, or a load factor of 0 for all other conditions.",
+    "description": "",
+    "data": {
+      "rule": "Where the effect of H resists the principal load effect, include H with a load factor of 0.9, where the load H is permanent, or a load factor of 0 for all other conditions.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-2.3.1-H3"
+  },
+  {
+    "id": "ASCE7-22-2.3.1-P6",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.3.1",
+      "citation": "Section 2.3.1",
+      "page": 1
+    },
+    "title": "Each relevant strength limit state shall be investigated.",
+    "description": "",
+    "data": {
+      "rule": "Each relevant strength limit state shall be investigated.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-2.3.2-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.3.2",
+      "citation": "Section 2.3.2",
+      "page": 1
+    },
+    "title": "2.3.2 Load Combinations Including Flood Load When a structure is located in a fl ood zone (Section 5.3.1), the following load combinations shall be considered in addition to the basic combinations in ",
+    "description": "",
+    "data": {
+      "rule": "2.3.2 Load Combinations Including Flood Load When a structure is located in a fl ood zone (Section 5.3.1), the following load combinations shall be considered in addition to the basic combinations in Section 2.3.1:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-2.3.1-P1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-2.3.2-T1",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.3.2",
+      "citation": "Section 2.3.2",
+      "page": 1
+    },
+    "title": "In V-Zones or Coastal A-Zones:",
+    "description": "",
+    "data": {
+      "rule": "In V-Zones or Coastal A-Zones:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-2.3.2-H1"
+  },
+  {
+    "id": "ASCE7-22-2.3.2-T2",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.3.2",
+      "citation": "Section 2.3.2",
+      "page": 1
+    },
+    "title": "4b. 1.2 D \u00fe 1.0 W \u00fe 2.0 Fa \u00fe L \u00fe (0.5 Lr or 0.3 S or 0.5 R ) 5b. 0.9 D \u00fe 1.0 W \u00fe 2.0 Fa In noncoastal A-Zones: 4b. 1.2 D \u00fe 0.5 W \u00fe 1.0 Fa \u00fe L \u00fe (0.5 Lr or 0.3 S or 0.5 R )",
+    "description": "",
+    "data": {
+      "rule": "4b. 1.2 D \u00fe 1.0 W \u00fe 2.0 Fa \u00fe L \u00fe (0.5 Lr or 0.3 S or 0.5 R ) 5b. 0.9 D \u00fe 1.0 W \u00fe 2.0 Fa In noncoastal A-Zones: 4b. 1.2 D \u00fe 0.5 W \u00fe 1.0 Fa \u00fe L \u00fe (0.5 Lr or 0.3 S or 0.5 R ) 5b. 0.9 D \u00fe 0.5 W \u00fe 1.0 Fa",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-2.3.2-H1"
+  },
+  {
+    "id": "ASCE7-22-2.3.3-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.3.3",
+      "citation": "Section 2.3.3",
+      "page": 1
+    },
+    "title": "2.3.3 Load Combinations Including Atmospheric Ice and Wind-on-Ice Loads When a structure is subjected to atmospheric ice and wind-on-ice loads, the following load combinations shall be considered:",
+    "description": "",
+    "data": {
+      "rule": "2.3.3 Load Combinations Including Atmospheric Ice and Wind-on-Ice Loads When a structure is subjected to atmospheric ice and wind-on-ice loads, the following load combinations shall be considered:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-2.3.3-T1",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.3.3",
+      "citation": "Section 2.3.3",
+      "page": 1
+    },
+    "title": "2b. 1.2 D \u00fe 1.6 L \u00fe 0.2 Di \u00fe 0.3 S 4c. 1.2 D \u00fe L \u00fe Di \u00fe Wi \u00fe 0.3 S 4d. 1.2 D \u00fe Di",
+    "description": "",
+    "data": {
+      "rule": "2b. 1.2 D \u00fe 1.6 L \u00fe 0.2 Di \u00fe 0.3 S 4c. 1.2 D \u00fe L \u00fe Di \u00fe Wi \u00fe 0.3 S 4d. 1.2 D \u00fe Di",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-2.3.3-H1"
+  },
+  {
+    "id": "ASCE7-22-2.3.4-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.3.4",
+      "citation": "Section 2.3.4",
+      "page": 1
+    },
+    "title": "2.3.4 Load Combinations Including Self-Straining Forces and Effects Where the structural effects of T are expected to",
+    "description": "",
+    "data": {
+      "rule": "2.3.4 Load Combinations Including Self-Straining Forces and Effects Where the structural effects of T are expected to 5c. 0.9 D \u00fe Di + Wi",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-2.3.4-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.3.4",
+      "citation": "Section 2.3.4",
+      "page": 2
+    },
+    "title": "adversely affect structural safety or performance, T shall be considered in combination with other loads. The load factor on T shall be established considering the uncertainty associated with the like",
+    "description": "",
+    "data": {
+      "rule": "adversely affect structural safety or performance, T shall be considered in combination with other loads. The load factor on T shall be established considering the uncertainty associated with the likely magnitude of the structural forces and effects, the probability that the maximum effect of T will occur simultaneously with other applied loadings, and the potential adverse consequences if the effect of T is greater than assumed. The load factor on T shall not have a value less than 1.0.",
+      "conditions": [
+        {
+          "parameter": "",
+          "operator": "<",
+          "value": 1.0,
+          "unit": null
+        }
+      ],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-2.3.5-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.3.5",
+      "citation": "Section 2.3.5",
+      "page": 2
+    },
+    "title": "2.3.5 Load Combinations for Nonspeci fi ed Loads Where approved by the Authority Having Jurisdiction, the registered design professional is permitted to determine the combined load effect for strength",
+    "description": "",
+    "data": {
+      "rule": "2.3.5 Load Combinations for Nonspeci fi ed Loads Where approved by the Authority Having Jurisdiction, the registered design professional is permitted to determine the combined load effect for strength design using a method that is consistent with the method on which the load combination requirements in Section 2.3.1 are based. Such a method must be probability based and must be accompanied by documentation regarding the analysis and collection of supporting data that are acceptable to the Authority Having Jurisdiction.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-2.3.1-P1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-2.3.6-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.3.6",
+      "citation": "Section 2.3.6",
+      "page": 2
+    },
+    "title": "2.3.6 Basic Combinations with Seismic Load Effects When a structure is subject to seismic load effects, the following load combinations shall be considered in addition to the basic combinations in Sec",
+    "description": "",
+    "data": {
+      "rule": "2.3.6 Basic Combinations with Seismic Load Effects When a structure is subject to seismic load effects, the following load combinations shall be considered in addition to the basic combinations in Section 2.3.1. The most unfavorable effects from seismic loads shall be investigated where appropriate, but they need not be considered to act simultaneously with wind or tornado loads.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-2.3.1-P1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-2.3.6-H2",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.3.6",
+      "citation": "Section 2.3.6",
+      "page": 2
+    },
+    "title": "Where the prescribed seismic load effect, E = f \u00f0 Ev ; Eh \u00de , defi ned in Sections 12.4.2 or 12.14.3.1, is combined with the effects of other loads, the following seismic load combinations shall be us",
+    "description": "",
+    "data": {
+      "rule": "Where the prescribed seismic load effect, E = f \u00f0 Ev ; Eh \u00de , defi ned in Sections 12.4.2 or 12.14.3.1, is combined with the effects of other loads, the following seismic load combinations shall be used:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-2.3.6-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.3.6",
+      "citation": "Section 2.3.6",
+      "page": 2
+    },
+    "title": "Where the seismic load effect with overstrength, Em = f \u00f0 Ev ; Emh \u00de , de fi ned in Sections 12.4.3 or 12.14.3.2, is combined with the effects of other loads, the following seismic load combination fo",
+    "description": "",
+    "data": {
+      "rule": "Where the seismic load effect with overstrength, Em = f \u00f0 Ev ; Emh \u00de , de fi ned in Sections 12.4.3 or 12.14.3.2, is combined with the effects of other loads, the following seismic load combination for structures shall be used:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-2.3.6-T1",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.3.6",
+      "citation": "Section 2.3.6",
+      "page": 2
+    },
+    "title": "6. 1.2 D \u00fe Ev \u00fe Emh \u00fe L \u00fe 0.15 S 7. 0.9 D -Ev \u00fe Emh",
+    "description": "",
+    "data": {
+      "rule": "6. 1.2 D \u00fe Ev \u00fe Emh \u00fe L \u00fe 0.15 S 7. 0.9 D -Ev \u00fe Emh",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-2.3.6-P1"
+  },
+  {
+    "id": "ASCE7-22-2.3.6-H3",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.3.6",
+      "citation": "Section 2.3.6",
+      "page": 2
+    },
+    "title": "EXCEPTION:",
+    "description": "",
+    "data": {
+      "rule": "EXCEPTION:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-2.3.6-P2",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.3.6",
+      "citation": "Section 2.3.6",
+      "page": 2
+    },
+    "title": "The load factor on L in combination 6 is permitted to equal 0.5 for all occupancies in which Lo in Chapter 4, Table 4.3-1, is less than or equal to 100 psf (4.78 kN/m 2 ), with the exception of garage",
+    "description": "",
+    "data": {
+      "rule": "The load factor on L in combination 6 is permitted to equal 0.5 for all occupancies in which Lo in Chapter 4, Table 4.3-1, is less than or equal to 100 psf (4.78 kN/m 2 ), with the exception of garages or areas occupied as places of public assembly.",
+      "conditions": [
+        {
+          "parameter": "",
+          "operator": "<=",
+          "value": 100.0,
+          "unit": null
+        }
+      ],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-2.3.6-P3",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.3.6",
+      "citation": "Section 2.3.6",
+      "page": 2
+    },
+    "title": "In combination 6, the companion load, S , shall be taken as either the fl at roof snow load ( pf ) or the sloped roof snow load ( ps ).",
+    "description": "",
+    "data": {
+      "rule": "In combination 6, the companion load, S , shall be taken as either the fl at roof snow load ( pf ) or the sloped roof snow load ( ps ).",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-2.3.6-P4",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.3.6",
+      "citation": "Section 2.3.6",
+      "page": 2
+    },
+    "title": "Where fl uid loads, F , are present, they shall be included with the same load factor as dead load D in combinations 6 and 7. Where loads, H , are present, they shall be included as follows:",
+    "description": "",
+    "data": {
+      "rule": "Where fl uid loads, F , are present, they shall be included with the same load factor as dead load D in combinations 6 and 7. Where loads, H , are present, they shall be included as follows:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-2.3.6-T2",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.3.6",
+      "citation": "Section 2.3.6",
+      "page": 2
+    },
+    "title": "Where the effect of H adds to the primary variable load effect, include H with a load factor of 1.6.",
+    "description": "",
+    "data": {
+      "rule": "Where the effect of H adds to the primary variable load effect, include H with a load factor of 1.6.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-2.3.6-H3"
+  },
+  {
+    "id": "ASCE7-22-2.3.6-T3",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.3.6",
+      "citation": "Section 2.3.6",
+      "page": 2
+    },
+    "title": "Where the effect of H resists the primary variable load effect, include H with a load factor of 0.9 where the load H is permanent, or a load factor of 0 for all other conditions.",
+    "description": "",
+    "data": {
+      "rule": "Where the effect of H resists the primary variable load effect, include H with a load factor of 0.9 where the load H is permanent, or a load factor of 0 for all other conditions.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-2.3.6-H3"
+  },
+  {
+    "id": "ASCE7-22-2.3.7-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.3.7",
+      "citation": "Section 2.3.7",
+      "page": 2
+    },
+    "title": "2.3.7 Alternative Method for Loads from Water in Soil This section is permitted as an alternate for combining loads from soil and water in soil to the requirements in Section 2.3.1. The alternate is o",
+    "description": "",
+    "data": {
+      "rule": "2.3.7 Alternative Method for Loads from Water in Soil This section is permitted as an alternate for combining loads from soil and water in soil to the requirements in Section 2.3.1. The alternate is only permitted when using the loads de fi ned in Section 3.3. For the purposes of this section, replace Symbol H from Section 2.2 with new symbols Heb and Hw as follows:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-2.2-H1",
+      "ASCE7-22-2.3.1-P1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-2.3.7-T1",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.3.7",
+      "citation": "Section 2.3.7",
+      "page": 2
+    },
+    "title": "Heb = Load due to lateral earth pressure or pressure of bulk materials, including the effect of buoyancy from ground water pressure on the lateral pressure of earth or bulk materials but otherwise exc",
+    "description": "",
+    "data": {
+      "rule": "Heb = Load due to lateral earth pressure or pressure of bulk materials, including the effect of buoyancy from ground water pressure on the lateral pressure of earth or bulk materials but otherwise excluding ground water pressure",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-2.3.7-H2"
+  },
+  {
+    "id": "ASCE7-22-2.3.7-T2",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.3.7",
+      "citation": "Section 2.3.7",
+      "page": 2
+    },
+    "title": "Hw = Load due to ground water pressure in soil",
+    "description": "",
+    "data": {
+      "rule": "Hw = Load due to ground water pressure in soil",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-2.3.7-H2"
+  },
+  {
+    "id": "ASCE7-22-2.3.7-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.3.7",
+      "citation": "Section 2.3.7",
+      "page": 2
+    },
+    "title": "Where loads Heb and Hw are present, they shall be included in the basic load combinations of Section 2.3.1 as follows:",
+    "description": "",
+    "data": {
+      "rule": "Where loads Heb and Hw are present, they shall be included in the basic load combinations of Section 2.3.1 as follows:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-2.3.1-P1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-2.3.7-H2",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.3.7",
+      "citation": "Section 2.3.7",
+      "page": 2
+    },
+    "title": "Where the effect of Heb adds to the principal load effect, compute Heb based on the maximum ground water elevation and include Heb with a load factor of 1.6.",
+    "description": "",
+    "data": {
+      "rule": "Where the effect of Heb adds to the principal load effect, compute Heb based on the maximum ground water elevation and include Heb with a load factor of 1.6.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-2.3.7-T3",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.3.7",
+      "citation": "Section 2.3.7",
+      "page": 2
+    },
+    "title": "Where the effect of Heb resists the principal load effect, compute Heb based on the minimum ground water elevation, and include Heb with a load factor of 0.9 where the load Heb is permanent or a load ",
+    "description": "",
+    "data": {
+      "rule": "Where the effect of Heb resists the principal load effect, compute Heb based on the minimum ground water elevation, and include Heb with a load factor of 0.9 where the load Heb is permanent or a load factor of 0 for all other conditions.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-2.3.7-H2"
+  },
+  {
+    "id": "ASCE7-22-2.3.7-T4",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.3.7",
+      "citation": "Section 2.3.7",
+      "page": 2
+    },
+    "title": "Where the effect of Hw adds to the principal load effect, include Hw based on the maximum ground water elevation with a load factor of 1.0.",
+    "description": "",
+    "data": {
+      "rule": "Where the effect of Hw adds to the principal load effect, include Hw based on the maximum ground water elevation with a load factor of 1.0.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-2.3.7-H2"
+  },
+  {
+    "id": "ASCE7-22-2.3.7-T5",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.3.7",
+      "citation": "Section 2.3.7",
+      "page": 2
+    },
+    "title": "Where the effect of Hw resists the principal load effect and the soil is permanent, compute Hw based on the minimum ground water elevation and include Hw with a load factor of 1.0, otherwise assign a ",
+    "description": "",
+    "data": {
+      "rule": "Where the effect of Hw resists the principal load effect and the soil is permanent, compute Hw based on the minimum ground water elevation and include Hw with a load factor of 1.0, otherwise assign a load factor of 0.0 to Hw .",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-2.3.7-H2"
+  },
+  {
+    "id": "ASCE7-22-2.4-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.4",
+      "citation": "Section 2.4",
+      "page": 2
+    },
+    "title": "2.4 LOAD COMBINATIONS FOR ALLOWABLE STRESS DESIGN",
+    "description": "",
+    "data": {
+      "rule": "2.4 LOAD COMBINATIONS FOR ALLOWABLE STRESS DESIGN",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-2.4.1-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.4.1",
+      "citation": "Section 2.4.1",
+      "page": 2
+    },
+    "title": "2.4.1 Basic Combinations Loads listed herein shall be considered to act in the following combinations; whichever produces the most unfavorable effect on the building, foundation, or structural member ",
+    "description": "",
+    "data": {
+      "rule": "2.4.1 Basic Combinations Loads listed herein shall be considered to act in the following combinations; whichever produces the most unfavorable effect on the building, foundation, or structural member shall be considered. Effects of one or more loads not acting shall be considered. Seismic load effects shall be combined with other loads, in accordance with Section 2.4.5. The most unfavorable effects from wind loads, tornado loads, and earthquake loads shall be considered, where appropriate, but they need not be assumed to act simultaneously. Refer to Sections 1.4, 2.4.5, 12.4, and 12.14.3 for the speci fi c de fi nition of the earthquake load effect, E .",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-2.4.5-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-2.4.1-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.4.1",
+      "citation": "Section 2.4.1",
+      "page": 2
+    },
+    "title": "Increases in allowable stress shall not be used with the loads or load combinations given in this standard unless it can be demonstrated that such an increase is justi fi ed by structural behavior cau",
+    "description": "",
+    "data": {
+      "rule": "Increases in allowable stress shall not be used with the loads or load combinations given in this standard unless it can be demonstrated that such an increase is justi fi ed by structural behavior caused by rate or duration of load.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-2.4.1-T1",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.4.1",
+      "citation": "Section 2.4.1",
+      "page": 2
+    },
+    "title": "1a. D 2a. D \u00fe L 3a. D \u00fe\u00f0 Lr or 0.7 S or R ) 4a. D \u00fe 0.75 L \u00fe 0.75( Lr or 0.7 S or R ) 5a. D \u00fe 0.6 \u00f0 W or WT \u00de 6a. D \u00fe 0.75 L \u00fe 0.75 \u00f0 0.6 \u00f0 W or WT \u00de\u00de \u00fe 0.75 \u00f0 Lr or 0 : 7S or R \u00de 7a. 0.6 D \u00fe 0.6 \u00f0 W ",
+    "description": "",
+    "data": {
+      "rule": "1a. D 2a. D \u00fe L 3a. D \u00fe\u00f0 Lr or 0.7 S or R ) 4a. D \u00fe 0.75 L \u00fe 0.75( Lr or 0.7 S or R ) 5a. D \u00fe 0.6 \u00f0 W or WT \u00de 6a. D \u00fe 0.75 L \u00fe 0.75 \u00f0 0.6 \u00f0 W or WT \u00de\u00de \u00fe 0.75 \u00f0 Lr or 0 : 7S or R \u00de 7a. 0.6 D \u00fe 0.6 \u00f0 W or WT \u00de",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-2.4.1-H2"
+  },
+  {
+    "id": "ASCE7-22-2.4.1-H2",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.4.1",
+      "citation": "Section 2.4.1",
+      "page": 2
+    },
+    "title": "EXCEPTIONS:",
+    "description": "",
+    "data": {
+      "rule": "EXCEPTIONS:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-2.4.1-P2",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.4.1",
+      "citation": "Section 2.4.1",
+      "page": 2
+    },
+    "title": "In combinations 4a and 6a, the companion load, S , shall be taken as either the fl at roof snow load ( pf ) or the sloped roof snow load ( ps ).",
+    "description": "",
+    "data": {
+      "rule": "In combinations 4a and 6a, the companion load, S , shall be taken as either the fl at roof snow load ( pf ) or the sloped roof snow load ( ps ).",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-2.4.1-P3",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.4.1",
+      "citation": "Section 2.4.1",
+      "page": 2
+    },
+    "title": "For nonbuilding structures in which the wind or tornado load is determined from force coef fi cients, Cf , identi fi ed in Figures 29.4-1, 29.4-2, and 29.4-3 and the projected area contributing wind o",
+    "description": "",
+    "data": {
+      "rule": "For nonbuilding structures in which the wind or tornado load is determined from force coef fi cients, Cf , identi fi ed in Figures 29.4-1, 29.4-2, and 29.4-3 and the projected area contributing wind or tornado force to a foundation element exceeds 1,000 ft 2 (93 m 2 ) on either a vertical or a horizontal plane, it shall be permitted to replace ( W or WT ) with 0.9 ( W or WT ) in combination 7a for design of the foundation, excluding anchorage of the structure to the foundation.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-2.5-E2-5-11",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.5",
+      "citation": "Eq. (2.5-1)",
+      "page": 3
+    },
+    "title": "Equation (2.5-1)",
+    "description": "",
+    "data": {
+      "expression": "\u00f00.9 or 1.2\u00deD\u00feA \u00fe0.5L\u00fe0.15S (2.5-1)",
+      "parameters": {
+        "A": {
+          "description": "Effective wind area, ft 2 (m 2 )",
+          "source": "ASCE7-22-26.3-T2"
+        },
+        "L": {
+          "description": "Horizontal dimension of a building measured parallel to the wind direction",
+          "unit": "ft",
+          "source": "ASCE7-22-26.3-T64"
+        },
+        "D": {
+          "description": "Diameter of a circular structure or member, as de fi ned in Chapter 29",
+          "unit": "ft",
+          "source": "ASCE7-22-10.3-T3"
+        },
+        "S": {
+          "description": "5 ft). For interior bays regardless of the orientation of the members, the minimum rise ( \u03b2 in inches) for a run of 1 ft to achieve no local minimum is",
+          "source": "ASCE7-22-0.2-T1310"
+        }
+      }
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "pdfplumber_scan"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-2.5-E2-5-21",
+    "type": "formula",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.5",
+      "citation": "Eq. (2.5-2)",
+      "page": 3
+    },
+    "title": "Equation (2.5-2)",
+    "description": "",
+    "data": {
+      "expression": "spheric ice loads shall be used: \u00f00.9 or 1.2\u00deD\u00fe0.5L\u00fe0.2\u00f0L r or 0.7S or R\u00de (2.5-2)",
+      "parameters": {
+        "L": {
+          "description": "Horizontal dimension of a building measured parallel to the wind direction",
+          "unit": "ft",
+          "source": "ASCE7-22-26.3-T64"
+        },
+        "r": {
+          "description": "Lateral slenderness ratio of a compression member measured in terms of its effective length, KL , and the least radius of gyration of the member cross section, r",
+          "source": "ASCE7-22-11.3-T63"
+        },
+        "R": {
+          "description": "Response modi fi cation coef fi cient as given in Tables 12.2-1, 12.14-1, 15.4-1, and 15.4-2",
+          "source": "ASCE7-22-11.3-T82"
+        },
+        "D": {
+          "description": "Diameter of a circular structure or member, as de fi ned in Chapter 29",
+          "unit": "ft",
+          "source": "ASCE7-22-10.3-T3"
+        },
+        "S": {
+          "description": "5 ft). For interior bays regardless of the orientation of the members, the minimum rise ( \u03b2 in inches) for a run of 1 ft to achieve no local minimum is",
+          "source": "ASCE7-22-0.2-T1310"
+        }
+      }
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "pdfplumber_scan"
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-2.4.1-P4",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.4.1",
+      "citation": "Section 2.4.1",
+      "page": 3
+    },
+    "title": "Where using WT in combination 6a, 0.75 ( Lr or 0.7 S or R ) is permitted to be replaced with 0.75 ( Lr or R ).",
+    "description": "",
+    "data": {
+      "rule": "Where using WT in combination 6a, 0.75 ( Lr or 0.7 S or R ) is permitted to be replaced with 0.75 ( Lr or R ).",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-2.4.1-P5",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.4.1",
+      "citation": "Section 2.4.1",
+      "page": 3
+    },
+    "title": "Where fl uid loads, F , are present, they shall be included in combinations 1a through 6a, with the same factor as that used for dead load, D .",
+    "description": "",
+    "data": {
+      "rule": "Where fl uid loads, F , are present, they shall be included in combinations 1a through 6a, with the same factor as that used for dead load, D .",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-2.4.1-P6",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.4.1",
+      "citation": "Section 2.4.1",
+      "page": 3
+    },
+    "title": "Where loads, H , are present, they shall be included as follows:",
+    "description": "",
+    "data": {
+      "rule": "Where loads, H , are present, they shall be included as follows:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-2.4.1-T2",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.4.1",
+      "citation": "Section 2.4.1",
+      "page": 3
+    },
+    "title": "Where the effect of H adds to the principal load effect, include H with a load factor of 1.0.",
+    "description": "",
+    "data": {
+      "rule": "Where the effect of H adds to the principal load effect, include H with a load factor of 1.0.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-2.5-E2-5-21"
+  },
+  {
+    "id": "ASCE7-22-2.4.1-T3",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.4.1",
+      "citation": "Section 2.4.1",
+      "page": 3
+    },
+    "title": "Where the effect of H resists the principal load effect, include H with a load factor of 0.6 where the load H is permanent, or a load factor of 0 for all other conditions.",
+    "description": "",
+    "data": {
+      "rule": "Where the effect of H resists the principal load effect, include H with a load factor of 0.6 where the load H is permanent, or a load factor of 0 for all other conditions.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-2.5-E2-5-21"
+  },
+  {
+    "id": "ASCE7-22-2.4.2-X1",
+    "type": "exception",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.4.2",
+      "citation": "Section 2.4.2",
+      "page": 3
+    },
+    "title": "2.4.2 Load Combinations Including Flood Load When a structure is located in a fl ood zone, the following load combinations shall be considered:",
+    "description": "",
+    "data": {
+      "rule": "2.4.2 Load Combinations Including Flood Load When a structure is located in a fl ood zone, the following load combinations shall be considered:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-2.4.2-T1",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.4.2",
+      "citation": "Section 2.4.2",
+      "page": 3
+    },
+    "title": "In V-Zones or Coastal A-Zones:",
+    "description": "",
+    "data": {
+      "rule": "In V-Zones or Coastal A-Zones: 5b. D \u00fe 0.6 W \u00fe 1.5 Fa",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-2.4-H1"
+  },
+  {
+    "id": "ASCE7-22-2.4.2-T3",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.4.2",
+      "citation": "Section 2.4.2",
+      "page": 3
+    },
+    "title": "6b. D \u00fe 0.75 L \u00fe 0.75(0.6 W ) \u00fe 0.75( Lr or 0.7 S or R ) \u00fe 1.5 Fa 7b. 0.6 D 0.6 W 1.5",
+    "description": "",
+    "data": {
+      "rule": "6b. D \u00fe 0.75 L \u00fe 0.75(0.6 W ) \u00fe 0.75( Lr or 0.7 S or R ) \u00fe 1.5 Fa 7b. 0.6 D 0.6 W 1.5",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-2.4-H1"
+  },
+  {
+    "id": "ASCE7-22-2.4.2-T4",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.4.2",
+      "citation": "Section 2.4.2",
+      "page": 3
+    },
+    "title": "6b. D \u00fe 0.75 L \u00fe 0.75(0.6 W ) \u00fe 0.75( Lr or 0.7 S or R ) \u00fe 0.75 Fa",
+    "description": "",
+    "data": {
+      "rule": "6b. D \u00fe 0.75 L \u00fe 0.75(0.6 W ) \u00fe 0.75( Lr or 0.7 S or R ) \u00fe 0.75 Fa",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-2.4-H1"
+  },
+  {
+    "id": "ASCE7-22-2.4.2-T5",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.4.2",
+      "citation": "Section 2.4.2",
+      "page": 3
+    },
+    "title": "\u00fe \u00fe Fa In noncoastal A-Zones: 5b. D \u00fe 0.6 W \u00fe 0.75 Fa 7b. 0.6 D \u00fe 0.6 W \u00fe 0.75 Fa",
+    "description": "",
+    "data": {
+      "rule": "\u00fe \u00fe Fa In noncoastal A-Zones: 5b. D \u00fe 0.6 W \u00fe 0.75 Fa 7b. 0.6 D \u00fe 0.6 W \u00fe 0.75 Fa",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-2.4-H1"
+  },
+  {
+    "id": "ASCE7-22-2.4.3-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.4.3",
+      "citation": "Section 2.4.3",
+      "page": 3
+    },
+    "title": "2.4.3 Load Combinations Including Atmospheric Ice and Wind-on-Ice Loads When a structure is subjected to atmospheric ice and wind-on-ice loads, the following load combinations shall be considered:",
+    "description": "",
+    "data": {
+      "rule": "2.4.3 Load Combinations Including Atmospheric Ice and Wind-on-Ice Loads When a structure is subjected to atmospheric ice and wind-on-ice loads, the following load combinations shall be considered:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-2.4.3-T1",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.4.3",
+      "citation": "Section 2.4.3",
+      "page": 3
+    },
+    "title": "1b. D \u00fe 0.7 Di 2b. D \u00fe L \u00fe 0.7 Di 3b. D \u00fe 0.7 Di \u00fe 0.7 Wi + 0.7 S",
+    "description": "",
+    "data": {
+      "rule": "1b. D \u00fe 0.7 Di 2b. D \u00fe L \u00fe 0.7 Di 3b. D \u00fe 0.7 Di \u00fe 0.7 Wi + 0.7 S 7c. 0.6D \u00fe 0.7 Di \u00fe 0.7 Wi",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-2.4.3-H1"
+  },
+  {
+    "id": "ASCE7-22-2.4.4-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.4.4",
+      "citation": "Section 2.4.4",
+      "page": 3
+    },
+    "title": "2.4.4 Load Combinations Including Self-Straining Forces and Effects Where the structural effects of T are expected to adversely affect structural safety or performance, T shall be considered in combin",
+    "description": "",
+    "data": {
+      "rule": "2.4.4 Load Combinations Including Self-Straining Forces and Effects Where the structural effects of T are expected to adversely affect structural safety or performance, T shall be considered in combination with other loads. Where the maximum effect of load, T , is unlikely to occur simultaneously with the maximum effects of other variable loads, it shall be permitted to reduce the magnitude of T considered in combination with these other loads. The fraction of T considered in combination with other loads shall not be less than 0.75.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-2.4.5-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.4.5",
+      "citation": "Section 2.4.5",
+      "page": 3
+    },
+    "title": "2.4.5 Basic Combinations with Seismic Load Effects When a structure is subject to seismic load effects, the following load combinations shall be considered in addition to the basic combinations and as",
+    "description": "",
+    "data": {
+      "rule": "2.4.5 Basic Combinations with Seismic Load Effects When a structure is subject to seismic load effects, the following load combinations shall be considered in addition to the basic combinations and associated exceptions detailed in Section 2.4.1.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-2.4.1-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-2.4.5-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.4.5",
+      "citation": "Section 2.4.5",
+      "page": 3
+    },
+    "title": "Where the prescribed seismic load effect, E = f \u00f0 Ev ; Eh \u00de , de fi ned in Section 12.4.2 or 12.14.3.1, is combined with the effects of other loads, the following seismic load combinations shall be us",
+    "description": "",
+    "data": {
+      "rule": "Where the prescribed seismic load effect, E = f \u00f0 Ev ; Eh \u00de , de fi ned in Section 12.4.2 or 12.14.3.1, is combined with the effects of other loads, the following seismic load combinations shall be used:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-2.4.5-T1",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.4.5",
+      "citation": "Section 2.4.5",
+      "page": 3
+    },
+    "title": "8. 1.0 D \u00fe 0.7 Ev \u00fe 0.7 Eh 9. 1.0 D \u00fe 0.525 Ev \u00fe 0.525 Eh \u00fe 0.75 L \u00fe 0.1 S -",
+    "description": "",
+    "data": {
+      "rule": "8. 1.0 D \u00fe 0.7 Ev \u00fe 0.7 Eh 9. 1.0 D \u00fe 0.525 Ev \u00fe 0.525 Eh \u00fe 0.75 L \u00fe 0.1 S -",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-2.4.5-P1"
+  },
+  {
+    "id": "ASCE7-22-2.4.5-P2",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.4.5",
+      "citation": "Section 2.4.5",
+      "page": 3
+    },
+    "title": "Where the seismic load effect with overstrength, Em = f \u00f0 Ev ; Emh \u00de , de fi ned in Section 12.4.3 or 12.14.3.2, is combined with the effects of other loads, the following seismic load combinations fo",
+    "description": "",
+    "data": {
+      "rule": "Where the seismic load effect with overstrength, Em = f \u00f0 Ev ; Emh \u00de , de fi ned in Section 12.4.3 or 12.14.3.2, is combined with the effects of other loads, the following seismic load combinations for structures not subject to fl ood or atmospheric ice loads shall be used:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-2.4.5-T2",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.4.5",
+      "citation": "Section 2.4.5",
+      "page": 3
+    },
+    "title": "8. 1.0 D \u00fe 0.7 Ev \u00fe 0.7 Emh 9. 1.0 D \u00fe 0.525 Ev \u00fe 0.525 Emh \u00fe 0.75 L \u00fe 0.1 S 10. 0.6 D -0.7 0.7",
+    "description": "",
+    "data": {
+      "rule": "8. 1.0 D \u00fe 0.7 Ev \u00fe 0.7 Emh 9. 1.0 D \u00fe 0.525 Ev \u00fe 0.525 Emh \u00fe 0.75 L \u00fe 0.1 S 10. 0.6 D -0.7 0.7 Ev \u00fe Emh",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-2.4.5-P2"
+  },
+  {
+    "id": "ASCE7-22-2.4.5-P3",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.4.5",
+      "citation": "Section 2.4.5",
+      "page": 3
+    },
+    "title": "Where allowable stress design methodologies are used with the seismic load effect de fi ned in Section 12.4.3 or 12.14.3.2 and applied in load combinations 8, 9, or 10, allowable stresses are permitte",
+    "description": "",
+    "data": {
+      "rule": "Where allowable stress design methodologies are used with the seismic load effect de fi ned in Section 12.4.3 or 12.14.3.2 and applied in load combinations 8, 9, or 10, allowable stresses are permitted to be determined using an allowable stress increase factor of 1.2. This increase shall not be combined with increases in allowable stresses or load combination reductions otherwise permitted by this standard, or the material reference document, except for increases caused by adjustment factors, in accordance with AWC NDS.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-2.4.5-H2",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.4.5",
+      "citation": "Section 2.4.5",
+      "page": 3
+    },
+    "title": "EXCEPTIONS:",
+    "description": "",
+    "data": {
+      "rule": "EXCEPTIONS:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-2.4.5-P4",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.4.5",
+      "citation": "Section 2.4.5",
+      "page": 3
+    },
+    "title": "In combination 9, the companion load, S , shall be taken as either the fl at roof snow load ( pf ) or the sloped roof snow load ( ps ).",
+    "description": "",
+    "data": {
+      "rule": "In combination 9, the companion load, S , shall be taken as either the fl at roof snow load ( pf ) or the sloped roof snow load ( ps ).",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-2.4.5-P5",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.4.5",
+      "citation": "Section 2.4.5",
+      "page": 3
+    },
+    "title": "It shall be permitted to replace 0.6 D with 0.9 D in combination 10 for the design of special reinforced masonry shear walls where the walls satisfy the requirement of Section 14.4.2.",
+    "description": "",
+    "data": {
+      "rule": "It shall be permitted to replace 0.6 D with 0.9 D in combination 10 for the design of special reinforced masonry shear walls where the walls satisfy the requirement of Section 14.4.2.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-2.4.5-P6",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.4.5",
+      "citation": "Section 2.4.5",
+      "page": 3
+    },
+    "title": "Where fl uid loads, F , are present, they shall be included in combinations 8, 9, and 10, with the same factor as that used for dead load, D .",
+    "description": "",
+    "data": {
+      "rule": "Where fl uid loads, F , are present, they shall be included in combinations 8, 9, and 10, with the same factor as that used for dead load, D .",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-2.4.5-P7",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.4.5",
+      "citation": "Section 2.4.5",
+      "page": 3
+    },
+    "title": "Where loads H are present, they shall be included as follows:",
+    "description": "",
+    "data": {
+      "rule": "Where loads H are present, they shall be included as follows:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-2.4.5-T4",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.4.5",
+      "citation": "Section 2.4.5",
+      "page": 3
+    },
+    "title": "Where the effect of H adds to the primary variable load effect, include H with a load factor of 1.0.",
+    "description": "",
+    "data": {
+      "rule": "Where the effect of H adds to the primary variable load effect, include H with a load factor of 1.0.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-2.4.5-H2"
+  },
+  {
+    "id": "ASCE7-22-2.4.5-T5",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.4.5",
+      "citation": "Section 2.4.5",
+      "page": 3
+    },
+    "title": "Where the effect of H resists the primary variable load effect, include H with a load factor of 0.6 where the load H is permanent or a load factor of 0 for all other conditions.",
+    "description": "",
+    "data": {
+      "rule": "Where the effect of H resists the primary variable load effect, include H with a load factor of 0.6 where the load H is permanent or a load factor of 0 for all other conditions.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-2.4.5-H2"
+  },
+  {
+    "id": "ASCE7-22-2.5-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.5",
+      "citation": "Section 2.5",
+      "page": 3
+    },
+    "title": "2.5 LOAD COMBINATIONS FOR EXTRAORDINARY EVENTS",
+    "description": "",
+    "data": {
+      "rule": "2.5 LOAD COMBINATIONS FOR EXTRAORDINARY EVENTS",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-2.5.1-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.5.1",
+      "citation": "Section 2.5.1",
+      "page": 3
+    },
+    "title": "2.5.1 Applicability Where required by the owner or applicable code, strength and stability shall be checked to ensure that structures are capable of withstanding the effects of extraordinary (i.e., lo",
+    "description": "",
+    "data": {
+      "rule": "2.5.1 Applicability Where required by the owner or applicable code, strength and stability shall be checked to ensure that structures are capable of withstanding the effects of extraordinary (i.e., low probability) events, such as fi res, explosions, and vehicular impact without disproportionate collapse.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-2.5.2-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.5.2",
+      "citation": "Section 2.5.2",
+      "page": 3
+    },
+    "title": "2.5.2 Load Combinations",
+    "description": "",
+    "data": {
+      "rule": "2.5.2 Load Combinations",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-2.5.2.1-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.5.2.1",
+      "citation": "Section 2.5.2.1",
+      "page": 3
+    },
+    "title": "2.5.2.1 Capacity For checking the capacity of a structure or structural element to withstand the effect of an extraordinary event, the following gravity load combination shall be considered:",
+    "description": "",
+    "data": {
+      "rule": "2.5.2.1 Capacity For checking the capacity of a structure or structural element to withstand the effect of an extraordinary event, the following gravity load combination shall be considered:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-2.5.2.1-T1",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.5.2.1",
+      "citation": "Section 2.5.2.1",
+      "page": 3
+    },
+    "title": "in which Ak is the load or load effect resulting from the extraordinary event, A .",
+    "description": "",
+    "data": {
+      "rule": "in which Ak is the load or load effect resulting from the extraordinary event, A .",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-2.5.2-H1"
+  },
+  {
+    "id": "ASCE7-22-2.5.2.2-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.5.2.2",
+      "citation": "Section 2.5.2.2",
+      "page": 3
+    },
+    "title": "2.5.2.2 Residual Capacity For checking the residual loadcarrying capacity of a structure or structural element following the occurrence of a damaging event, selected load-bearing elements identi fi ed",
+    "description": "",
+    "data": {
+      "rule": "2.5.2.2 Residual Capacity For checking the residual loadcarrying capacity of a structure or structural element following the occurrence of a damaging event, selected load-bearing elements identi fi ed by the registered design professional shall be notionally removed, and the capacity of the damaged structure shall be evaluated using the following gravity load combination:",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-2.5.3-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.5.3",
+      "citation": "Section 2.5.3",
+      "page": 4
+    },
+    "title": "2.5.3 Stability Requirements Stability shall be provided for the structure as a whole and for each of its elements. Any method that considers the in fl uence of second-order effects is permitted.",
+    "description": "",
+    "data": {
+      "rule": "2.5.3 Stability Requirements Stability shall be provided for the structure as a whole and for each of its elements. Any method that considers the in fl uence of second-order effects is permitted.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-2.6-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.6",
+      "citation": "Section 2.6",
+      "page": 4
+    },
+    "title": "2.6 LOAD COMBINATIONS FOR GENERAL STRUCTURAL INTEGRITY LOADS",
+    "description": "",
+    "data": {
+      "rule": "2.6 LOAD COMBINATIONS FOR GENERAL STRUCTURAL INTEGRITY LOADS",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-2.6-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.6",
+      "citation": "Section 2.6",
+      "page": 4
+    },
+    "title": "The notional loads, N , speci fi ed in Section 1.4 for structural integrity shall be combined with other loads, in accordance with Section 2.6.1 for strength design and Section 2.6.2 for allowable str",
+    "description": "",
+    "data": {
+      "rule": "The notional loads, N , speci fi ed in Section 1.4 for structural integrity shall be combined with other loads, in accordance with Section 2.6.1 for strength design and Section 2.6.2 for allowable stress design.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [
+      "ASCE7-22-2.6.1-H1",
+      "ASCE7-22-2.6.2-H1"
+    ],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-2.6.1-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.6.1",
+      "citation": "Section 2.6.1",
+      "page": 4
+    },
+    "title": "2.6.1 Strength Design Notional Load Combinations",
+    "description": "",
+    "data": {
+      "rule": "2.6.1 Strength Design Notional Load Combinations 1.2 D \u00fe 1.0 N \u00fe L \u00fe 0.15 S 0.9 D \u00fe 1.0 N",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-2.6.2-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.6.2",
+      "citation": "Section 2.6.2",
+      "page": 4
+    },
+    "title": "2.6.2 Allowable Stress Design Notional Load Combinations",
+    "description": "",
+    "data": {
+      "rule": "2.6.2 Allowable Stress Design Notional Load Combinations D \u00fe 0.7 N 0.6 D \u00fe 0.7 N",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-2.6.2-T3",
+    "type": "text_block",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.6.2",
+      "citation": "Section 2.6.2",
+      "page": 4
+    },
+    "title": "D \u00fe 0.75 \u00f0 0.7 N \u00de \u00fe 0.75 L \u00fe 0.75 ( Lr or 0.7 S or R )",
+    "description": "",
+    "data": {
+      "rule": "D \u00fe 0.75 \u00f0 0.7 N \u00de \u00fe 0.75 L \u00fe 0.75 ( Lr or 0.7 S or R )",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": "ASCE7-22-2.6.2-H1"
+  },
+  {
+    "id": "ASCE7-22-2.7-H1",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.7",
+      "citation": "Section 2.7",
+      "page": 4
+    },
+    "title": "2.7 CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
+    "description": "",
+    "data": {
+      "rule": "2.7 CONSENSUS STANDARDS AND OTHER REFERENCED DOCUMENTS",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-2.7-P1",
+    "type": "provision",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.7",
+      "citation": "Section 2.7",
+      "page": 4
+    },
+    "title": "This section lists the consensus standards and other documents that shall be considered part of this standard to the extent referenced in this chapter.",
+    "description": "",
+    "data": {
+      "rule": "This section lists the consensus standards and other documents that shall be considered part of this standard to the extent referenced in this chapter.",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": null
+    },
+    "parent_id": null
+  },
+  {
+    "id": "ASCE7-22-2.7-H2",
+    "type": "heading",
+    "source": {
+      "standard": "ASCE 7-22",
+      "chapter": 2,
+      "section": "2.7",
+      "citation": "Section 2.7",
+      "page": 4
+    },
+    "title": "AWC NDS , National Design Specification for Wood Construction, Including Supplements , 2018 edition. American Wood Council, 2017.",
+    "description": "",
+    "data": {
+      "rule": "AWC NDS , National Design Specification for Wood Construction, Including Supplements , 2018 edition. American Wood Council, 2017. Cited in: Section 2.4.5",
+      "conditions": [],
+      "then": "",
+      "else": null,
+      "exceptions": []
+    },
+    "cross_references": [],
+    "metadata": {
+      "extracted_by": "auto",
+      "qc_status": "pending",
+      "qc_notes": "topic"
+    },
+    "parent_id": null
+  }
+]

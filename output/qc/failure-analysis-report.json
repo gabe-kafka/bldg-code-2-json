@@ -1,0 +1,383 @@
+{
+  "report_title": "Extraction Failure Analysis — ASCE 7-22 Chapter 26",
+  "report_date": "2026-03-28",
+  "data_sources": {
+    "raw_extraction": "output/raw/asce722-ch26.json (18 elements)",
+    "refine_run1": "output/refine/run-1/elements.json (16 elements, 6 passed)",
+    "refine_run2": "output/refine/run-2/elements.json (20 elements, 15 passed — BEST RUN)",
+    "qc_report": "output/qc/asce722-ch26-qc-report.json (initial extraction QC)"
+  },
+  "summary": {
+    "note": "The task description mentions 92 elements, but actual extraction produced 18-20 elements from the first 2 pages of Chapter 26. Analysis below covers all data across raw + 2 refinement runs.",
+    "best_run_composite_score": 0.4928,
+    "best_run_schema_validity": "75% (15/20 passed)",
+    "best_run_accuracy": "44% (avg spot-check score, 1/10 fully accurate)",
+    "best_run_completeness": "55.6%",
+    "best_run_xref_resolution": "0% (0/12 resolved)"
+  },
+
+  "failure_taxonomy": {
+    "description": "All failure types observed across raw extraction + 2 refinement runs",
+    "categories": [
+      {
+        "id": "F1",
+        "category": "Invalid operator: Unicode symbols",
+        "observed_values": ["≤", "≥"],
+        "expected_values": ["<=", ">="],
+        "occurrences_raw": 1,
+        "occurrences_run1": 4,
+        "occurrences_run2": 2,
+        "total_unique_affected_elements": 7,
+        "fixable_deterministically": true,
+        "fix_strategy": "Post-processor regex/map: replace ≤→<=, ≥→>=, <→<, >→> in all condition operator fields",
+        "priority": "HIGH — most common failure, trivial fix"
+      },
+      {
+        "id": "F2",
+        "category": "Invalid operator: single equals '='",
+        "observed_values": ["="],
+        "expected_values": ["=="],
+        "occurrences_raw": 1,
+        "occurrences_run1": 0,
+        "occurrences_run2": 2,
+        "total_unique_affected_elements": 3,
+        "fixable_deterministically": true,
+        "fix_strategy": "Post-processor map: replace '=' → '==' in condition operator fields",
+        "priority": "HIGH — common, trivial fix"
+      },
+      {
+        "id": "F3",
+        "category": "Invalid operator: semantic/non-standard verbs",
+        "observed_values": ["applies_to", "requires"],
+        "expected_values": ["==", "in", or restructure as rule text"],
+        "occurrences_raw": 2,
+        "occurrences_run1": 1,
+        "occurrences_run2": 0,
+        "total_unique_affected_elements": 2,
+        "fixable_deterministically": "PARTIAL",
+        "fix_strategy": "For 'applies_to': map to 'in' or '==' depending on value type. For 'requires': move the condition into the rule text and remove from conditions array. Refinement run-2 already fixed these via better prompting — indicates prompt improvement is more effective.",
+        "priority": "MEDIUM — resolved by run-2 prompt improvements, but keep mapping as fallback"
+      },
+      {
+        "id": "F4",
+        "category": "Null in numeric array (range field)",
+        "observed_values": ["[0, null]"],
+        "expected_values": ["[0, Infinity] or omit range field"],
+        "occurrences_raw": 3,
+        "occurrences_run1": 1,
+        "occurrences_run2": 0,
+        "total_unique_affected_elements": 3,
+        "fixable_deterministically": true,
+        "fix_strategy": "Post-processor: if range array contains null, either remove the range field entirely or replace null with a sentinel (e.g., 1e12). Removing is safer since unbounded ranges are implicit.",
+        "priority": "MEDIUM — resolved by run-2 but add as defensive fix"
+      },
+      {
+        "id": "F5",
+        "category": "Wrong data shape for figure elements",
+        "observed_values": ["{figure_id, caption}"],
+        "expected_values": ["{figure_class: {figure_type, description}, data: {...}} OR retype as skipped_figure with {figure_type, description, skip_reason}"],
+        "occurrences_raw": 1,
+        "occurrences_run1": 1,
+        "occurrences_run2": 1,
+        "total_unique_affected_elements": 1,
+        "fixable_deterministically": "PARTIAL",
+        "fix_strategy": "Post-processor: If figure data has {figure_id, caption} shape but no digitized data, retype element to 'skipped_figure' with figure_type='diagram' and skip_reason='Flowchart/diagram not digitizable'. This covers Ch26 Fig 26.1-1 specifically. For actual charts with data, LLM re-extraction needed.",
+        "priority": "HIGH — persistent across all runs, needs post-processor + schema-aware retyping"
+      },
+      {
+        "id": "F6",
+        "category": "None/null where string required",
+        "observed_values": ["None (Python null) in string fields like 'then', 'description'"],
+        "expected_values": ["empty string '' or actual text"],
+        "occurrences_raw": 0,
+        "occurrences_run1": 3,
+        "occurrences_run2": 0,
+        "total_unique_affected_elements": 3,
+        "fixable_deterministically": true,
+        "fix_strategy": "Post-processor: Replace null/None with empty string '' for fields typed as 'string' (not 'string|null'). Check schema for which fields allow null vs require string.",
+        "priority": "MEDIUM — resolved by run-2 but add defensive fix"
+      },
+      {
+        "id": "F7",
+        "category": "Wrong type for data field (array instead of object)",
+        "observed_values": ["reference data.parameters as array instead of expected structure"],
+        "expected_values": ["object conforming to reference_data schema"],
+        "occurrences_raw": 0,
+        "occurrences_run1": 1,
+        "occurrences_run2": 0,
+        "total_unique_affected_elements": 1,
+        "fixable_deterministically": false,
+        "fix_strategy": "LLM re-extraction needed. The reference data schema expects {target, url, parameters[]} which should be correct — investigate whether validator is checking against wrong schema branch.",
+        "priority": "LOW — only in run-1, resolved by run-2"
+      }
+    ],
+    "summary_table": {
+      "headers": ["ID", "Category", "Count (best run)", "Deterministic Fix?", "Strategy"],
+      "rows": [
+        ["F1", "Unicode operators (≤ ≥)", 2, "YES", "Map ≤→<= ≥→>="],
+        ["F2", "Single equals (=)", 2, "YES", "Map =→=="],
+        ["F3", "Semantic operators (applies_to, requires)", 0, "PARTIAL", "Map or move to rule text; prompt approach preferred"],
+        ["F4", "Null in numeric range", 0, "YES", "Remove range field or replace null"],
+        ["F5", "Wrong figure data shape", 1, "PARTIAL", "Retype to skipped_figure for diagrams"],
+        ["F6", "Null where string required", 0, "YES", "Replace null with empty string"],
+        ["F7", "Array instead of object", 0, "NO", "LLM re-extraction"]
+      ]
+    }
+  },
+
+  "operator_mapping_table": {
+    "description": "Recommended deterministic operator mappings for post-processor",
+    "mappings": [
+      {"input": "=", "output": "==", "confidence": "100%", "notes": "Direct equivalence"},
+      {"input": "≤", "output": "<=", "confidence": "100%", "notes": "Unicode to ASCII"},
+      {"input": "≥", "output": ">=", "confidence": "100%", "notes": "Unicode to ASCII"},
+      {"input": "≠", "output": "!=", "confidence": "100%", "notes": "Unicode to ASCII (not yet observed but anticipated)"},
+      {"input": "<", "output": "<", "confidence": "100%", "notes": "Already valid but include for completeness"},
+      {"input": ">", "output": ">", "confidence": "100%", "notes": "Already valid but include for completeness"},
+      {"input": "equals", "output": "==", "confidence": "95%", "notes": "English word form"},
+      {"input": "equal to", "output": "==", "confidence": "95%", "notes": "English phrase form"},
+      {"input": "not equal to", "output": "!=", "confidence": "95%", "notes": "English phrase form"},
+      {"input": "less than", "output": "<", "confidence": "95%", "notes": "English phrase form"},
+      {"input": "less than or equal to", "output": "<=", "confidence": "95%", "notes": "English phrase form"},
+      {"input": "greater than", "output": ">", "confidence": "95%", "notes": "English phrase form"},
+      {"input": "greater than or equal to", "output": ">=", "confidence": "95%", "notes": "English phrase form"},
+      {"input": "applies_to", "output": "in", "confidence": "70%", "notes": "Semantic — usually means membership; review context"},
+      {"input": "requires", "output": null, "confidence": "N/A", "notes": "REMOVE condition, merge into rule text — not a comparison operator"}
+    ]
+  },
+
+  "gold_standard_candidates": {
+    "description": "Elements suitable for gold standard set, ranked by quality. With only 20 elements extracted from 2 pages, candidate pool is limited. Best strategy: manually verify and correct the top candidates to create gold set.",
+    "tier_1_verified_accurate": [
+      {
+        "id": "ASCE7-22-26.1.1-P1",
+        "type": "provision",
+        "run": "run-2",
+        "schema_valid": true,
+        "spot_check_score": 1.0,
+        "notes": "Only element with perfect accuracy score. General scope provision — good exemplar for simple provisions."
+      }
+    ],
+    "tier_2_schema_valid_decent_accuracy": [
+      {
+        "id": "ASCE7-22-26.1.2.1-P1",
+        "type": "provision",
+        "run": "run-1",
+        "schema_valid_in_run1": false,
+        "schema_valid_in_run2": true,
+        "spot_check_score_run1": 1.0,
+        "notes": "Perfect accuracy in run-1 spot-check. Procedure selection provision — good exemplar."
+      },
+      {
+        "id": "ASCE7-22-26.1.2.2-P1",
+        "type": "provision",
+        "run": "run-2",
+        "schema_valid": true,
+        "spot_check_score_run1": 1.0,
+        "spot_check_score_run2": 0.6,
+        "notes": "Scored 1.0 in run-1, 0.6 in run-2 (more detail expected). Good C&C procedure exemplar with minor fixes needed."
+      },
+      {
+        "id": "ASCE7-22-26.1-F1",
+        "type": "figure",
+        "run": "run-2",
+        "schema_valid": false,
+        "spot_check_score": 0.7,
+        "notes": "Highest-scoring figure. Once retyped to skipped_figure, would be good exemplar for diagram handling."
+      }
+    ],
+    "tier_3_schema_valid_needs_accuracy_review": [
+      {
+        "id": "ASCE7-22-26.2-P1",
+        "type": "provision (definition)",
+        "schema_valid_run2": true,
+        "spot_check_score_run1": 1.0,
+        "spot_check_score_run2": 0.3,
+        "notes": "Definition of 'Approved'. Simple definition — good exemplar once type handling resolved."
+      },
+      {
+        "id": "ASCE7-22-26.2-P5",
+        "type": "provision (definition)",
+        "schema_valid_run2": true,
+        "spot_check_score": null,
+        "notes": "Definition of 'Elevated Building'. Not spot-checked. Simple structure, likely accurate."
+      },
+      {
+        "id": "ASCE7-22-26.2-P7",
+        "type": "provision (definition)",
+        "schema_valid_run2": true,
+        "spot_check_score": null,
+        "notes": "Definition of 'Low-Rise Building'. Not spot-checked."
+      },
+      {
+        "id": "ASCE7-22-26.1-R1",
+        "type": "reference",
+        "schema_valid_run2": true,
+        "spot_check_score": null,
+        "notes": "ASCE Geodatabase reference. Only reference-type element — important for type coverage."
+      },
+      {
+        "id": "ASCE7-22-26-P1",
+        "type": "provision (definition)",
+        "schema_valid_run2": true,
+        "spot_check_score": null,
+        "notes": "Open Building definition with numeric condition. Good exemplar for definition-as-provision pattern."
+      },
+      {
+        "id": "ASCE7-22-26-P2",
+        "type": "provision (definition)",
+        "schema_valid_run2": true,
+        "spot_check_score_run1": 0.6,
+        "notes": "Partially Enclosed Building. Multiple conditions — good for complex condition exemplar."
+      },
+      {
+        "id": "ASCE7-22-26-P6",
+        "type": "provision (definition)",
+        "schema_valid_run2": true,
+        "spot_check_score_run2": 0.3,
+        "notes": "Flexible Building definition. Has numeric threshold condition."
+      }
+    ],
+    "recommended_gold_set": {
+      "description": "Start with these 4 verified/high-confidence elements, manually correct them as needed, then expand to tier-3 after manual review",
+      "ids": [
+        "ASCE7-22-26.1.1-P1",
+        "ASCE7-22-26.1.2.1-P1",
+        "ASCE7-22-26.1.2.2-P1",
+        "ASCE7-22-26.1-R1"
+      ],
+      "type_coverage": {
+        "provision": 3,
+        "reference": 1,
+        "formula": 0,
+        "table": 0,
+        "figure": 0,
+        "skipped_figure": 0
+      },
+      "gaps": "No gold candidates for formula, table, figure, or skipped_figure types from this extraction. Chapter 26 pages 1-2 contain mostly provisions and definitions. Tables and formulas appear in later sections (26.5+)."
+    }
+  },
+
+  "cross_reference_analysis": {
+    "total_unresolved_run2": 12,
+    "total_unresolved_raw": 11,
+    "categories": {
+      "expected_within_chapter_not_yet_extracted": {
+        "description": "References to Ch26 sections that exist but weren't in the extracted page range. Will resolve when full chapter is extracted.",
+        "count": 10,
+        "refs": [
+          {"ref": "ASCE7-22-26.5.1", "from": "ASCE7-22-26.2-P4", "reason": "Section 26.5 not yet extracted"},
+          {"ref": "ASCE7-22-26.7.3", "from": "ASCE7-22-26.2-P4", "reason": "Section 26.7 not yet extracted"},
+          {"ref": "ASCE7-22-26.5-P1", "from": "ASCE7-22-26.1-F1", "reason": "Section 26.5 not yet extracted"},
+          {"ref": "ASCE7-22-26.6-P1", "from": "ASCE7-22-26.1-F1", "reason": "Section 26.6 not yet extracted"},
+          {"ref": "ASCE7-22-26.7-P1", "from": "ASCE7-22-26.1-F1", "reason": "Section 26.7 not yet extracted"},
+          {"ref": "ASCE7-22-26.8-P1", "from": "ASCE7-22-26.1-F1", "reason": "Section 26.8 not yet extracted"},
+          {"ref": "ASCE7-22-26.9-P1", "from": "ASCE7-22-26.1-F1", "reason": "Section 26.9 not yet extracted"},
+          {"ref": "ASCE7-22-26.10-P1", "from": "ASCE7-22-26.1-F1", "reason": "Section 26.10 not yet extracted"},
+          {"ref": "ASCE7-22-26.11-P1", "from": "ASCE7-22-26.1-F1", "reason": "Section 26.11 not yet extracted"},
+          {"ref": "ASCE7-22-26.12-P1", "from": "ASCE7-22-26.1-F1", "reason": "Section 26.12 not yet extracted"}
+        ],
+        "action": "No action needed — these will auto-resolve as extraction covers full chapter"
+      },
+      "expected_external_chapter": {
+        "description": "References to other chapters outside Ch26. These are correct references that will never resolve within this chapter's extraction.",
+        "count": 1,
+        "refs": [
+          {"ref": "ASCE7-22-27.3-F8", "from": "ASCE7-22-26-P4", "reason": "Figure in Chapter 27 — valid cross-chapter reference"}
+        ],
+        "action": "Mark as 'external' in xref metadata. Do not count against xref resolution score for single-chapter extraction."
+      },
+      "potentially_incorrect": {
+        "description": "References that may have been auto-generated incorrectly by the LLM",
+        "count": 1,
+        "refs": [
+          {"ref": "ASCE7-22-26.13-P1", "from": "ASCE7-22-26.1-F1", "reason": "Chapter 26 may not have section 26.13 — verify against PDF TOC. Run-2 figure element generated refs to 26.5-P1 through 26.13-P1 based on flowchart interpretation."}
+        ],
+        "action": "Verify against PDF TOC. If section 26.13 doesn't exist, remove this cross-reference."
+      }
+    },
+    "raw_extraction_external_refs": {
+      "description": "External chapter references from raw extraction that run-2 stripped (lost information)",
+      "refs": [
+        {"ref": "ASCE7-22-32", "context": "Tornado loads chapter reference from 26.1.1-P1"},
+        {"ref": "ASCE7-22-27", "context": "Directional Procedure chapter from 26.1.2.1-P1"},
+        {"ref": "ASCE7-22-28", "context": "Envelope Procedure chapter from 26.1.2.1-P1"},
+        {"ref": "ASCE7-22-29", "context": "Appurtenances chapter from 26.1.2.1-P1"},
+        {"ref": "ASCE7-22-30", "context": "C&C chapter from 26.1.2.2-P1"},
+        {"ref": "ASCE7-22-31", "context": "Wind Tunnel chapter from 26.1.2.1-P1 and 26.1.2.2-P1"},
+        {"ref": "ASCE7-22-1.3.1.3", "context": "Performance-based procedures from 26.1.3-P1"}
+      ],
+      "action": "Run-2 prompt told LLM to only include refs to current document, which removed valid external chapter refs. Adjust prompt to allow external chapter-level refs."
+    }
+  },
+
+  "additional_findings": {
+    "missing_definition_type": {
+      "severity": "HIGH",
+      "description": "Schema has type enum [table, provision, formula, figure, skipped_figure, reference] but NO 'definition' type. Section 26.2 is entirely definitions. Spot-checker repeatedly flags 'should be definition not provision'. Two options: (1) Add 'definition' type to schema with simple {term, meaning, cross_references} data shape, or (2) Keep definitions as provisions and accept the semantic mismatch. Option 1 recommended — definitions are structurally different from conditional provisions.",
+      "affected_elements": [
+        "ASCE7-22-26.2-P1", "ASCE7-22-26.2-P2", "ASCE7-22-26.2-P3",
+        "ASCE7-22-26.2-P4", "ASCE7-22-26.2-P5", "ASCE7-22-26.2-P6",
+        "ASCE7-22-26.2-P7", "ASCE7-22-26-P1", "ASCE7-22-26-P2",
+        "ASCE7-22-26-P3", "ASCE7-22-26-P4", "ASCE7-22-26-P5",
+        "ASCE7-22-26-P6"
+      ]
+    },
+    "id_format_inconsistency": {
+      "severity": "MEDIUM",
+      "description": "Two ID patterns observed: (1) 'ASCE7-22-26.2-P1' (section-qualified) and (2) 'ASCE7-22-26-P1' (chapter-level). The chapter-level IDs (section='26') appear for definitions that span the whole definitions section. Schema pattern '^[A-Z0-9]+-[0-9.]+-[A-Z]?[0-9.]+(-[A-Za-z0-9]+)?$' allows both but semantic convention should be established.",
+      "recommendation": "Use section-level IDs consistently. Definitions from 26.2 should be ASCE7-22-26.2-P{n} not ASCE7-22-26-P{n}."
+    },
+    "accuracy_regression_run2": {
+      "severity": "MEDIUM",
+      "description": "Run-2 improved schema validity (37.5%→75%) but accuracy decreased (57%→44%). The stricter prompting produced more schema-compliant elements but with less accurate content. Spot-check scores dropped for several elements. This suggests the LLM is over-fitting to schema structure at the expense of content fidelity.",
+      "recommendation": "Separate concerns: use post-processor for schema compliance (operator mapping, null handling) and use prompting for content accuracy. Don't burden the prompt with schema enforcement."
+    },
+    "extraction_coverage_gap": {
+      "severity": "HIGH",
+      "description": "Only 2 pages of Chapter 26 were extracted, yielding 18-20 elements from sections 26.1-26.2. Full chapter likely has 60+ sections (26.1 through 26.12+) with numerous tables, figures, and formulas. Current extraction covers ~5-10% of actual chapter content.",
+      "recommendation": "Expand page range to cover full chapter before focusing on quality refinement."
+    }
+  },
+
+  "recommended_post_processor_spec": {
+    "description": "Deterministic fixes to apply after LLM extraction, before QC",
+    "transforms": [
+      {
+        "name": "normalize_operators",
+        "target": "data.conditions[*].operator",
+        "applies_to_types": ["provision"],
+        "logic": "Apply operator_mapping_table. If operator not in valid enum after mapping, flag for LLM retry.",
+        "estimated_fix_rate": "80-100% of operator failures"
+      },
+      {
+        "name": "remove_null_ranges",
+        "target": "data.parameters.*.range",
+        "applies_to_types": ["formula"],
+        "logic": "If range array contains null, remove the range key entirely.",
+        "estimated_fix_rate": "100% of null-in-range failures"
+      },
+      {
+        "name": "null_to_empty_string",
+        "target": "multiple string fields",
+        "applies_to_types": ["all"],
+        "logic": "For fields with type 'string' (not 'string|null'), replace null with ''. Fields: data.then, data.rule, title, description (check schema — description allows null).",
+        "estimated_fix_rate": "100% of null-string failures"
+      },
+      {
+        "name": "retype_diagram_figures",
+        "target": "type + data",
+        "applies_to_types": ["figure"],
+        "logic": "If type=='figure' and data matches {figure_id, caption} shape (no figure_class/data), retype to 'skipped_figure' with figure_type='diagram', description=caption, skip_reason='Diagram/flowchart — not digitizable to data points'.",
+        "estimated_fix_rate": "100% of diagram figure failures"
+      },
+      {
+        "name": "normalize_section_ids",
+        "target": "id, source.section",
+        "applies_to_types": ["all"],
+        "logic": "Ensure source.section is specific (e.g., '26.2' not '26'). Regenerate ID to match section.",
+        "estimated_fix_rate": "100% of ID format issues"
+      }
+    ]
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "elements": 680,
+  "coverage": {
+    "sections": {
+      "ground_truth": 50,
+      "extracted": 51,
+      "found": 50,
+      "missing": [],
+      "extra": [
+        "26.11.2.1"
+      ],
+      "score": 1.0
+    },
+    "tables": {
+      "ground_truth": 5,
+      "extracted": 5,
+      "found": 5,
+      "missing": [],
+      "extra": [],
+      "score": 1.0
+    },
+    "figures": {
+      "ground_truth": 3,
+      "extracted": 3,
+      "found": 3,
+      "missing": [],
+      "extra": [],
+      "score": 1.0
+    },
+    "equations": {
+      "ground_truth": 20,
+      "extracted": 20,
+      "found": 20,
+      "missing": [],
+      "extra": [],
+      "score": 1.0
+    },
+    "score": 1.0,
+    "total_ground_truth": 78,
+    "total_found": 78
+  },
+  "fidelity": {
+    "score": 0.4482758620689655,
+    "total_checked": 551,
+    "exact_matches": 147,
+    "partial_matches": 100,
+    "failures": 304,
+    "failure_details": [
+      {
+        "id": "ASCE7-22-26.1-P4",
+        "page": 1,
+        "snippet": "26.1.2.1 Main Wind Force Resisting System Wind loads for the",
+        "type": "provision"
+      },
+      {
+        "id": "ASCE7-22-26.1-T6",
+        "page": 1,
+        "snippet": "3. Directional Procedure for building appurtenances (rooftop",
+        "type": "text_block"
+      },
+      {
+        "id": "ASCE7-22-26.1-T7",
+        "page": 1,
+        "snippet": "4. Wind Tunnel Procedure for all buildings and all other str",
+        "type": "text_block"
+      },
+      {
+        "id": "ASCE7-22-26.1-T8",
+        "page": 1,
+        "snippet": "1. Analytical Procedures provided in Parts 1 through 5, as a",
+        "type": "text_block"
+      },
+      {
+        "id": "ASCE7-22-26.1-P6",
+        "page": 1,
+        "snippet": "26.1.3 Performance-Based Procedures Wind design of buildings",
+        "type": "provision"
+      },
+      {
+        "id": "ASCE7-22-26.2-D1",
+        "page": 1,
+        "snippet": "Acceptable to the Authority Having Jurisdiction.",
+        "type": "definition"
+      },
+      {
+        "id": "ASCE7-22-26.2-D2",
+        "page": 1,
+        "snippet": "The ASCE database (version 2022-1.0) of geocoded wind speed ",
+        "type": "definition"
+      },
+      {
+        "id": "ASCE7-22-26.2-T2",
+        "page": 1,
+        "snippet": "User Note: The ASCE Wind Design Geodatabase of geocoded wind",
+        "type": "text_block"
+      },
+      {
+        "id": "ASCE7-22-26.2-D3",
+        "page": 1,
+        "snippet": "A horizontal (maximum slope of 2%) patio cover attached to t",
+        "type": "definition"
+      },
+      {
+        "id": "ASCE7-22-26.2-D4",
+        "page": 1,
+        "snippet": "Three-second gust speed at 33 ft (10 m) above the ground in ",
+        "type": "definition"
+      },
+      {
+        "id": "ASCE7-22-26.2-D5",
+        "page": 1,
+        "snippet": "A building supported on structural elements where wind can p",
+        "type": "definition"
+      },
+      {
+        "id": "ASCE7-22-26.2-D6",
+        "page": 1,
+        "snippet": "A building that has the total area of openings in each wall ",
+        "type": "definition"
+      },
+      {
+        "id": "ASCE7-22-26.2-T3",
+        "page": 1,
+        "snippet": "A < 0.01A or 4 ft2 0.37 m2 ; whichever is smaller; o g \u00f0 \u00de",
+        "type": "text_block"
+      },
+      {
+        "id": "ASCE7-22-26.2-T5",
+        "page": 1,
+        "snippet": "o g BUILDING, LOW-RISE: An enclosed, partially enclosed, or ",
+        "type": "text_block"
+      },
+      {
+        "id": "ASCE7-22-26.2-T9",
+        "page": 2,
+        "snippet": "Chapter 26\u2013General Requirements: determining wind loads on b",
+        "type": "text_block"
+      }
+    ]
+  },
+  "structure": {
+    "score": 0.971,
+    "duplicate_ids": [],
+    "out_of_order_sections": 37,
+    "empty_fields": 23,
+    "order_score": 0.946,
+    "completeness_score": 0.966,
+    "issues": []
+  },
+  "composite": 0.774
+}

@@ -1,0 +1,224 @@
+{
+  "source": "output/raw/asce722-ch26.json",
+  "total_elements": 111,
+  "post_processor_fixes": 0,
+  "schema": {
+    "total": 111,
+    "passed": 90,
+    "failed": 21,
+    "errors": [
+      {
+        "id": "ASCE7-22-26.1-F1",
+        "errors": [
+          "{'figure_id': '26.1-1', 'type': 'flowchart'} is not valid under any of the given schemas"
+        ]
+      },
+      {
+        "id": "ASCE7-22-26.5.1-R1",
+        "errors": [
+          "['basic wind speeds for contiguous United States', 'basic wind speeds for Alaska', 'basic wind speeds for selected special wind regions'] is not of type 'object'"
+        ]
+      },
+      {
+        "id": "ASCE7-22-26.5-R1",
+        "errors": [
+          "['location-specific basic wind speeds'] is not of type 'object'"
+        ]
+      },
+      {
+        "id": "ASCE7-22-26.5-P2",
+        "errors": [
+          "{'rule': 'Islands, coastal areas, and land boundaries outside the last contour shall use the last wind speed contour', 'conditions': [{'parameter': 'location', 'operator': 'outside', 'value': 'last wind speed contour', 'unit': None}], 'then': 'Use the last wind speed contour value', 'else': None, 'exceptions': []} is not valid under any of the given schemas"
+        ]
+      },
+      {
+        "id": "ASCE7-22-26.5-F1",
+        "errors": [
+          "{'figure_id': '26.5-1B', 'title': 'Basic wind speeds for Risk Category II buildings and other structures'} is not valid under any of the given schemas"
+        ]
+      },
+      {
+        "id": "ASCE7-22-26.5.3-P1",
+        "errors": [
+          "{'rule': 'Regional climatic data shall only be used in lieu of basic wind speeds when specific conditions are met', 'conditions': [{'parameter': 'location', 'operator': 'outside', 'value': 'hurricane-prone regions', 'unit': None}, {'parameter': 'analysis procedures', 'operator': 'approved', 'value': 'extreme-value statistical analysis procedures', 'unit': None}, {'parameter': 'data quality factors', 'operator': 'accounted for', 'value': 'length of record, sampling error, averaging time, anemometer height, data quality, and terrain exposure', 'unit': None}], 'then': 'Permitted to use regional climatic data and reduction in basic wind speed below Figure 26.5-1 is permitted', 'else': None, 'exceptions': []} is not valid under any of the given schemas"
+        ]
+      },
+      {
+        "id": "ASCE7-22-26.8-F1",
+        "errors": [
+          "{'figure_id': '26.8-1', 'caption': 'Topographic factor, Kzt'} is not valid under any of the given schemas"
+        ]
+      },
+      {
+        "id": "ASCE7-22-26-F1",
+        "errors": [
+          "{'figure_class': {'figure_type': 'table_image', 'extractable': True, 'description': 'This figure shows topographic multiplier tables with K1, K2, and K3 values for different hill/escarpment geometries and distances, along with diagrams and equations for calculating topographic factors.', 'skip_reason': None}, 'skipped': False, 'data': {'columns': [{'name': 'Hill_Shape', 'unit': None}, {'name': 'K1_over_H_Lh_Exposure_B', 'unit': None}, {'name': 'K1_over_H_Lh_Exposure_C', 'unit': None}, {'name': 'K1_over_H_Lh_Exposure_D', 'unit': None}, {'name': 'gamma', 'unit': None}, {'name': 'mu_Upwind_of_Crest', 'unit': None}, {'name': 'mu_Downwind_of_Crest', 'unit': None}], 'rows': [{'Hill_Shape': '2D ridges (or valleys with negative H in K1/(H/Lh))', 'K1_H_Lh_Exposure_B': 1.3, 'K1_H_Lh_Exposure_C': 1.45, 'K1_H_Lh_Exposure_D': 1.55, 'K1_H_Lh_gamma': 3, 'mu_Upwind_of_Crest': 1.5, 'mu_Downwind_of_Crest': 1.5}, {'Hill_Shape': '2D escarpments', 'K1_H_Lh_Exposure_B': 0.75, 'K1_H_Lh_Exposure_C': 0.85, 'K1_H_Lh_Exposure_D': 0.95, 'K1_H_Lh_gamma': 2.5, 'mu_Upwind_of_Crest': 1.5, 'mu_Downwind_of_Crest': 4}, {'Hill_Shape': '3D axisymmetrical hill', 'K1_H_Lh_Exposure_B': 0.95, 'K1_H_Lh_Exposure_C': 1.05, 'K1_H_Lh_Exposure_D': 1.15, 'K1_H_Lh_gamma': 4, 'mu_Upwind_of_Crest': 1.5, 'mu_Downwind_of_Crest': 1.5}]}, 'verification': {'verified': False, 'issues': [{'severity': 'critical', 'description': \"Column headers are incorrectly named. The table shows 'K\u2081/(H/L\u2095)' values for different exposures, not 'K1_H_Lh_Exposure_X'\", 'fix': 'Rename columns to reflect they contain K\u2081/(H/L\u2095) values'}, {'severity': 'critical', 'description': \"Column header 'K1_H_Lh_gamma' should be 'gamma' as it represents the \u03b3 parameter\", 'fix': \"Rename to 'gamma'\"}, {'severity': 'critical', 'description': 'Column headers use underscores instead of proper mathematical notation', 'fix': \"Use proper notation like 'K1_over_H_Lh' or similar clear naming\"}], 'corrections': {'columns': [{'name': 'Hill_Shape', 'unit': None}, {'name': 'K1_over_H_Lh_Exposure_B', 'unit': None}, {'name': 'K1_over_H_Lh_Exposure_C', 'unit': None}, {'name': 'K1_over_H_Lh_Exposure_D', 'unit': None}, {'name': 'gamma', 'unit': None}, {'name': 'mu_Upwind_of_Crest', 'unit': None}, {'name': 'mu_Downwind_of_Crest', 'unit': None}]}}} is not valid under any of the given schemas"
+        ]
+      },
+      {
+        "id": "ASCE7-22-26.11.4-P1",
+        "errors": [
+          "{'rule': 'For rigid buildings or other structures as defined in Section 26.2, the gust-effect factor shall be taken as 0.85 or calculated by formula', 'conditions': [{'parameter': 'building type', 'operator': '=', 'value': 'rigid', 'unit': ''}], 'then': 'Use G = 0.85 or calculate using Equation 26.11-6', 'else': None, 'exceptions': []} is not valid under any of the given schemas"
+        ]
+      },
+      {
+        "id": "ASCE7-22-26.11.5-P1",
+        "errors": [
+          "{'rule': 'For flexible buildings or other structures as defined in Section 26.2, the gust-effect factor shall be calculated by the specified formula', 'conditions': [{'parameter': 'building type', 'operator': '=', 'value': 'flexible', 'unit': ''}], 'then': 'Calculate using Equation 26.11-10', 'else': None, 'exceptions': []} is not valid under any of the given schemas"
+        ]
+      },
+      {
+        "id": "ASCE7-22-26.11.7-P1",
+        "errors": [
+          "{'rule': 'Where combined gust-effect factors and pressure coefficients are given in figures and tables, the gust-effect factor shall not be determined separately', 'conditions': [{'parameter': 'combined factors', 'operator': 'are provided', 'value': 'GCp, GCpi, GCpf', 'unit': 'dimensionless'}], 'then': 'Do not calculate gust-effect factor separately', 'else': None, 'exceptions': []} is not valid under any of the given schemas"
+        ]
+      },
+      {
+        "id": "ASCE7-22-26.12.3.1-P1",
+        "errors": [
+          "{'rule': 'Glazed openings shall be protected in specified wind-borne debris regions', 'conditions': [{'parameter': 'location_type_1', 'operator': 'within', 'value': 1, 'unit': 'mi from mean high water line with Exposure D upwind and basic wind speed >= 130 mi/h'}, {'parameter': 'location_type_2', 'operator': '>=', 'value': 140, 'unit': 'mi/h basic wind speed'}], 'then': 'Protect glazed openings in accordance with Section 26.12.3.2', 'else': None, 'exceptions': ['Glazing located more than 60 ft above ground and more than 30 ft above aggregate-surfaced roofs within 1,500 ft of building shall be permitted to be unprotected']} is not valid under any of the given schemas"
+        ]
+      },
+      {
+        "id": "ASCE7-22-26.12.3.2-R1",
+        "errors": [
+          "['missile test', 'cyclic pressure differential test', 'pass/fail criteria', 'missile requirements'] is not of type 'object'"
+        ]
+      },
+      {
+        "id": "ASCE7-22-26.12.3.2-R2",
+        "errors": [
+          "['compliance testing procedures'] is not of type 'object'"
+        ]
+      },
+      {
+        "id": "ASCE7-22-26.12.3.2-R3",
+        "errors": [
+          "['sectional door glazing tests', 'rolling door glazing tests', 'flexible door glazing tests'] is not of type 'object'"
+        ]
+      },
+      {
+        "id": "ASCE7-22-26.14-R1",
+        "errors": [
+          "[] is not of type 'object'"
+        ]
+      },
+      {
+        "id": "ASCE7-22-26.14-R2",
+        "errors": [
+          "['missile impact', 'cyclic wind pressure'] is not of type 'object'"
+        ]
+      },
+      {
+        "id": "ASCE7-22-26.14-R3",
+        "errors": [
+          "['uniform static air pressure difference'] is not of type 'object'"
+        ]
+      },
+      {
+        "id": "ASCE7-22-26.14-R4",
+        "errors": [
+          "['missile impact', 'cyclic pressure differentials'] is not of type 'object'"
+        ]
+      },
+      {
+        "id": "ASCE7-22-26.14-R5",
+        "errors": [
+          "['windborne debris impact', 'hurricanes'] is not of type 'object'"
+        ]
+      },
+      {
+        "id": "ASCE7-22-26.14-R6",
+        "errors": [
+          "['dynamic wind uplift resistance', 'membrane-roofing systems'] is not of type 'object'"
+        ]
+      }
+    ]
+  },
+  "cross_references": {
+    "total": 116,
+    "resolved": 33
+  },
+  "types": {
+    "provision": 35,
+    "definition": 23,
+    "reference": 13,
+    "formula": 27,
+    "figure": 4,
+    "table": 9
+  },
+  "calibration": {
+    "per_element": [
+      {
+        "element_id": "ASCE7-22-26.1-E1",
+        "id_match": false,
+        "type_match": false,
+        "data_match": 0.0,
+        "xref_match": false,
+        "score": 0.0,
+        "details": "No matching extracted element found"
+      },
+      {
+        "element_id": "ASCE7-22-26.1-E2",
+        "id_match": false,
+        "type_match": false,
+        "data_match": 0.0,
+        "xref_match": false,
+        "score": 0.0,
+        "details": "No matching extracted element found"
+      },
+      {
+        "element_id": "ASCE7-22-26.1.2.1-P1",
+        "id_match": true,
+        "type_match": true,
+        "data_match": 0.6,
+        "xref_match": true,
+        "score": 0.8,
+        "details": "data_match: 0.60"
+      },
+      {
+        "element_id": "ASCE7-22-26.1.2.2-P1",
+        "id_match": true,
+        "type_match": true,
+        "data_match": 0.6,
+        "xref_match": true,
+        "score": 0.8,
+        "details": "data_match: 0.60"
+      },
+      {
+        "element_id": "ASCE7-22-26.2-E1",
+        "id_match": true,
+        "type_match": true,
+        "data_match": 0.3333,
+        "xref_match": true,
+        "score": 0.6667,
+        "details": "data_match: 0.33"
+      },
+      {
+        "element_id": "ASCE7-22-26.2-P2",
+        "id_match": false,
+        "type_match": false,
+        "data_match": 0.0,
+        "xref_match": false,
+        "score": 0.0,
+        "details": "No matching extracted element found"
+      },
+      {
+        "element_id": "ASCE7-22-26.2-R1",
+        "id_match": true,
+        "type_match": true,
+        "data_match": 1.0,
+        "xref_match": true,
+        "score": 1.0,
+        "details": "perfect match"
+      }
+    ],
+    "aggregate": {
+      "accuracy": 0.8167,
+      "type_match_rate": 1.0,
+      "elements_compared": 4,
+      "elements_missing": 3
+    },
+    "timestamp": "2026-03-29T03:16:45.154997+00:00"
+  }
+}

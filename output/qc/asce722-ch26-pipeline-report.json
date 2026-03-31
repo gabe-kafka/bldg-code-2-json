@@ -1,0 +1,530 @@
+{
+  "pipeline": {
+    "standard": "ASCE 7-22",
+    "chapter": 26,
+    "pages": "1-30",
+    "total_elements": 111
+  },
+  "fix": {
+    "post_processor_fixes": 0,
+    "retry_report": {
+      "fixed": {
+        "ASCE7-22-26.1-F1": {
+          "retries": 1,
+          "original_errors": [
+            "{'figure_id': '26.1-1', 'type': 'flowchart'} is not valid under any of the given schemas"
+          ]
+        },
+        "ASCE7-22-26.5-P2": {
+          "retries": 1,
+          "original_errors": [
+            "{'rule': 'Islands, coastal areas, and land boundaries outside the last contour shall use the last wind speed contour', 'conditions': [{'parameter': 'location', 'operator': 'outside', 'value': 'last wind speed contour', 'unit': None}], 'then': 'Use the last wind speed contour value', 'else': None, 'exceptions': []} is not valid under any of the given schemas"
+          ]
+        },
+        "ASCE7-22-26.5-F1": {
+          "retries": 1,
+          "original_errors": [
+            "{'figure_id': '26.5-1B', 'title': 'Basic wind speeds for Risk Category II buildings and other structures'} is not valid under any of the given schemas"
+          ]
+        },
+        "ASCE7-22-26.5.3-P1": {
+          "retries": 1,
+          "original_errors": [
+            "{'rule': 'Regional climatic data shall only be used in lieu of basic wind speeds when specific conditions are met', 'conditions': [{'parameter': 'location', 'operator': 'outside', 'value': 'hurricane-prone regions', 'unit': None}, {'parameter': 'analysis procedures', 'operator': 'approved', 'value': 'extreme-value statistical analysis procedures', 'unit': None}, {'parameter': 'data quality factors', 'operator': 'accounted for', 'value': 'length of record, sampling error, averaging time, anemometer height, data quality, and terrain exposure', 'unit': None}], 'then': 'Permitted to use regional climatic data and reduction in basic wind speed below Figure 26.5-1 is permitted', 'else': None, 'exceptions': []} is not valid under any of the given schemas"
+          ]
+        },
+        "ASCE7-22-26.8-F1": {
+          "retries": 1,
+          "original_errors": [
+            "{'figure_id': '26.8-1', 'caption': 'Topographic factor, Kzt'} is not valid under any of the given schemas"
+          ]
+        },
+        "ASCE7-22-26.11.4-P1": {
+          "retries": 1,
+          "original_errors": [
+            "{'rule': 'For rigid buildings or other structures as defined in Section 26.2, the gust-effect factor shall be taken as 0.85 or calculated by formula', 'conditions': [{'parameter': 'building type', 'operator': '=', 'value': 'rigid', 'unit': ''}], 'then': 'Use G = 0.85 or calculate using Equation 26.11-6', 'else': None, 'exceptions': []} is not valid under any of the given schemas"
+          ]
+        },
+        "ASCE7-22-26.11.5-P1": {
+          "retries": 1,
+          "original_errors": [
+            "{'rule': 'For flexible buildings or other structures as defined in Section 26.2, the gust-effect factor shall be calculated by the specified formula', 'conditions': [{'parameter': 'building type', 'operator': '=', 'value': 'flexible', 'unit': ''}], 'then': 'Calculate using Equation 26.11-10', 'else': None, 'exceptions': []} is not valid under any of the given schemas"
+          ]
+        },
+        "ASCE7-22-26.11.7-P1": {
+          "retries": 1,
+          "original_errors": [
+            "{'rule': 'Where combined gust-effect factors and pressure coefficients are given in figures and tables, the gust-effect factor shall not be determined separately', 'conditions': [{'parameter': 'combined factors', 'operator': 'are provided', 'value': 'GCp, GCpi, GCpf', 'unit': 'dimensionless'}], 'then': 'Do not calculate gust-effect factor separately', 'else': None, 'exceptions': []} is not valid under any of the given schemas"
+          ]
+        },
+        "ASCE7-22-26.12.3.1-P1": {
+          "retries": 1,
+          "original_errors": [
+            "{'rule': 'Glazed openings shall be protected in specified wind-borne debris regions', 'conditions': [{'parameter': 'location_type_1', 'operator': 'within', 'value': 1, 'unit': 'mi from mean high water line with Exposure D upwind and basic wind speed >= 130 mi/h'}, {'parameter': 'location_type_2', 'operator': '>=', 'value': 140, 'unit': 'mi/h basic wind speed'}], 'then': 'Protect glazed openings in accordance with Section 26.12.3.2', 'else': None, 'exceptions': ['Glazing located more than 60 ft above ground and more than 30 ft above aggregate-surfaced roofs within 1,500 ft of building shall be permitted to be unprotected']} is not valid under any of the given schemas"
+          ]
+        },
+        "ASCE7-22-26.14-R3": {
+          "retries": 1,
+          "original_errors": [
+            "['uniform static air pressure difference'] is not of type 'object'"
+          ]
+        },
+        "ASCE7-22-26.14-R4": {
+          "retries": 1,
+          "original_errors": [
+            "['missile impact', 'cyclic pressure differentials'] is not of type 'object'"
+          ]
+        },
+        "ASCE7-22-26.14-R5": {
+          "retries": 3,
+          "original_errors": [
+            "['windborne debris impact', 'hurricanes'] is not of type 'object'"
+          ]
+        }
+      },
+      "still_failing": [
+        "ASCE7-22-26.5.1-R1",
+        "ASCE7-22-26.5-R1",
+        "ASCE7-22-26.12.3.2-R1",
+        "ASCE7-22-26.12.3.2-R2",
+        "ASCE7-22-26.12.3.2-R3",
+        "ASCE7-22-26.14-R1",
+        "ASCE7-22-26.14-R2",
+        "ASCE7-22-26.14-R6"
+      ],
+      "skipped": [
+        "ASCE7-22-26.1.1-P1",
+        "ASCE7-22-26.1.1-P2",
+        "ASCE7-22-26.1.2.1-P1",
+        "ASCE7-22-26.1.2.2-P1",
+        "ASCE7-22-26.1.3-P1",
+        "ASCE7-22-26.2-D1",
+        "ASCE7-22-26.2-D2",
+        "ASCE7-22-26.2-R1",
+        "ASCE7-22-26.2-D3",
+        "ASCE7-22-26.2-D4",
+        "ASCE7-22-26.2-D5",
+        "ASCE7-22-26.2-D6",
+        "ASCE7-22-26.2-E1",
+        "ASCE7-22-26.2-D7",
+        "ASCE7-22-26-D1",
+        "ASCE7-22-26-E1",
+        "ASCE7-22-26-D2",
+        "ASCE7-22-26-D3",
+        "ASCE7-22-26-D4",
+        "ASCE7-22-26-D5",
+        "ASCE7-22-26-D6",
+        "ASCE7-22-26-E2",
+        "ASCE7-22-26-D7",
+        "ASCE7-22-26-D8",
+        "ASCE7-22-26-D9",
+        "ASCE7-22-26-D10",
+        "ASCE7-22-26-D11",
+        "ASCE7-22-26-D12",
+        "ASCE7-22-26.3-D1",
+        "ASCE7-22-26.4.1-P1",
+        "ASCE7-22-26.4.2-P1",
+        "ASCE7-22-26.4.3-P1",
+        "ASCE7-22-26.5.1-P1",
+        "ASCE7-22-26.5.1-P2",
+        "ASCE7-22-26.5-P1",
+        "ASCE7-22-26.5-P3",
+        "ASCE7-22-26.5-T2",
+        "ASCE7-22-26.5-T1",
+        "ASCE7-22-26.5-P5",
+        "ASCE7-22-26.5-P6",
+        "ASCE7-22-26.5-P7",
+        "ASCE7-22-26.5.2-P1",
+        "ASCE7-22-26.5.2-R1",
+        "ASCE7-22-26.5.3-P2",
+        "ASCE7-22-26.6-T1",
+        "ASCE7-22-26.7.2-D1",
+        "ASCE7-22-26.7.2-D2",
+        "ASCE7-22-26.7.2-D3",
+        "ASCE7-22-26.7.3-P1",
+        "ASCE7-22-26.7.3-P2",
+        "ASCE7-22-26.8.2-E1",
+        "ASCE7-22-26.9-T1",
+        "ASCE7-22-26.8.1-P1",
+        "ASCE7-22-26.8-T1",
+        "ASCE7-22-26.8-E1",
+        "ASCE7-22-26.8-E2",
+        "ASCE7-22-26.8-T2",
+        "ASCE7-22-26-F1",
+        "ASCE7-22-26.10-E1",
+        "ASCE7-22-26.10-E2",
+        "ASCE7-22-26.10.1-T1",
+        "ASCE7-22-26.10-P1",
+        "ASCE7-22-26.11.1-P1",
+        "ASCE7-22-26.11.2-P1",
+        "ASCE7-22-26.11.2-E1",
+        "ASCE7-22-26.11.3-E1",
+        "ASCE7-22-26.11.3-E2",
+        "ASCE7-22-26.11.3-E3",
+        "ASCE7-22-26.11.3-E4",
+        "ASCE7-22-26.11-E1",
+        "ASCE7-22-26.11-E2",
+        "ASCE7-22-26.11-E3",
+        "ASCE7-22-26.11-E4",
+        "ASCE7-22-26.11-E5",
+        "ASCE7-22-26.11-E6",
+        "ASCE7-22-26.11-E7",
+        "ASCE7-22-26.11-E8",
+        "ASCE7-22-26.11-E9",
+        "ASCE7-22-26.11-E10",
+        "ASCE7-22-26.11-E11",
+        "ASCE7-22-26.11-T1",
+        "ASCE7-22-26.11-E12",
+        "ASCE7-22-26.11-E13",
+        "ASCE7-22-26.11.6-P1",
+        "ASCE7-22-26.12.1-P1",
+        "ASCE7-22-26.12.2-P1",
+        "ASCE7-22-26.12.3-P1",
+        "ASCE7-22-26.12.3.2-P1",
+        "ASCE7-22-26.13-P1",
+        "ASCE7-22-26.13-T1",
+        "ASCE7-22-26.13-E1"
+      ]
+    }
+  },
+  "qc": {
+    "schema": {
+      "total": 111,
+      "passed": 103,
+      "failed": 8,
+      "errors": [
+        {
+          "id": "ASCE7-22-26.5.1-R1",
+          "errors": [
+            "['basic wind speeds for contiguous United States', 'basic wind speeds for Alaska', 'basic wind speeds for selected special wind regions'] is not of type 'object'"
+          ]
+        },
+        {
+          "id": "ASCE7-22-26.5-R1",
+          "errors": [
+            "['location-specific basic wind speeds'] is not of type 'object'"
+          ]
+        },
+        {
+          "id": "ASCE7-22-26.12.3.2-R1",
+          "errors": [
+            "['missile test', 'cyclic pressure differential test', 'pass/fail criteria', 'missile requirements'] is not of type 'object'"
+          ]
+        },
+        {
+          "id": "ASCE7-22-26.12.3.2-R2",
+          "errors": [
+            "['compliance testing procedures'] is not of type 'object'"
+          ]
+        },
+        {
+          "id": "ASCE7-22-26.12.3.2-R3",
+          "errors": [
+            "['sectional door glazing tests', 'rolling door glazing tests', 'flexible door glazing tests'] is not of type 'object'"
+          ]
+        },
+        {
+          "id": "ASCE7-22-26.14-R1",
+          "errors": [
+            "[] is not of type 'object'"
+          ]
+        },
+        {
+          "id": "ASCE7-22-26.14-R2",
+          "errors": [
+            "['missile impact', 'cyclic wind pressure'] is not of type 'object'"
+          ]
+        },
+        {
+          "id": "ASCE7-22-26.14-R6",
+          "errors": [
+            "['dynamic wind uplift resistance', 'membrane-roofing systems'] is not of type 'object'"
+          ]
+        }
+      ]
+    },
+    "completeness": {
+      "sections": {
+        "found": [
+          "26.1",
+          "26.1.1",
+          "26.1.3",
+          "26.2",
+          "26.1.2.1",
+          "26.3",
+          "26.4.3",
+          "26.5.2",
+          "26.5.3",
+          "26.6",
+          "26.7.3",
+          "26.8",
+          "26.10",
+          "26.8.1",
+          "26.11",
+          "26.11.1",
+          "26.11.2",
+          "26.11.3",
+          "26.11.4",
+          "26.12.3.2",
+          "26.11.6",
+          "26.11.7",
+          "26.12.1",
+          "26.13",
+          "26.12.2",
+          "26.14"
+        ],
+        "missing": [
+          "26.1.2",
+          "26.7",
+          "26.7.1",
+          "26.7.4",
+          "26.7.4.1",
+          "26.7.4.2",
+          "26.7.4.3",
+          "26.7.4.4",
+          "0.20",
+          "0.25",
+          "0.30",
+          "0.35",
+          "0.40",
+          "0.45",
+          "0.50",
+          "3.50",
+          "4.00",
+          "0.90",
+          "1.00",
+          "0.50",
+          "2.00",
+          "26.12"
+        ],
+        "coverage": 0.542
+      },
+      "tables": {
+        "found": [],
+        "missing": [
+          "26.11-1",
+          "26.6-1",
+          "26.9-1",
+          "26.10-1",
+          "26.13-1"
+        ],
+        "coverage": 0.0
+      },
+      "figures": {
+        "found": [],
+        "missing": [
+          "26.1-1",
+          "26.5-1",
+          "27.3-8",
+          "26.8-1",
+          "29.4-7",
+          "29.4-11",
+          "29.4-9",
+          "29.4-10",
+          "29.3-1"
+        ],
+        "coverage": 0.0
+      },
+      "overall_coverage": 0.419
+    },
+    "cross_references": {
+      "total": 116,
+      "resolved": 33
+    },
+    "spot_check": {
+      "sample_size": 10,
+      "average_score": 0.49,
+      "results": [
+        {
+          "id": "ASCE7-22-26.11-E7",
+          "score": 0.7,
+          "accurate": false,
+          "issues": [
+            "Formula expression is incorrect - should be G = 0.925*((1 + 1.7*I_z*sqrt(B^2 + R^2))/(1 + 1.7*g_v*I_z))",
+            "Parameter g_Q description is incorrect - should be 'peak factor for background response'",
+            "Parameter Q is incorrect - should be sqrt(B^2 + R^2) where B is background response factor and R is resonance response factor",
+            "Missing parameter definitions for B and R factors",
+            "The simplified form shown uses different variables than extracted"
+          ]
+        },
+        {
+          "id": "ASCE7-22-26.1-F1",
+          "score": 0.3,
+          "accurate": false,
+          "issues": [
+            "Figure type incorrectly classified as 'xy_chart' - this is a flowchart/process diagram, not a chart with x/y axes",
+            "Data structure completely incorrect - flowcharts don't have x_axis, y_axis, or curve data points",
+            "Missing actual flowchart content including decision boxes, process steps, and flow connections",
+            "Cross-references appear to be generic chapter references rather than specific references from the actual figure",
+            "Title and description are reasonable but the core data representation is fundamentally wrong for a flowchart"
+          ]
+        },
+        {
+          "id": "ASCE7-22-26.1.2.2-P1",
+          "score": 0.7,
+          "accurate": false,
+          "issues": [
+            "Source section is incorrect - should be '26.1.2' not '26.1.2.2'",
+            "Title should be 'Components and Cladding' not 'Components and Cladding Procedures'",
+            "Rule text incomplete - missing 'except as provided in Section 26.1.3' clause",
+            "Then clause missing specific reference to 'Section 26.1.3' exception",
+            "Cross-reference to ASCE7-22-26.1.3 is missing"
+          ]
+        },
+        {
+          "id": "ASCE7-22-26.12.2-P1",
+          "score": 0.3,
+          "accurate": false,
+          "issues": [
+            "Missing section 26.12.2.1 which appears before the extracted content",
+            "The rule text is incomplete - missing the full context about determination of openings",
+            "Missing the complete procedure described in the PDF which includes specific steps for opening assessment",
+            "The 'then' clause about windward wall assumption appears to be from a different part of the procedure",
+            "Missing important procedural details visible in the PDF about how the determination should be made",
+            "The extracted content doesn't capture the complete provision structure shown in the source"
+          ]
+        },
+        {
+          "id": "ASCE7-22-26.5.1-R1",
+          "score": 0.3,
+          "accurate": false,
+          "issues": [
+            "Element type should be 'provision' not 'reference' - this is a code provision text, not a reference to external material",
+            "Missing main provision text about using ASCE Wind Design Geodatabase for basic wind speeds",
+            "Missing sub-provisions 26.5.1.1, 26.5.1.2, and 26.5.1.3 that specify different geographic regions",
+            "Page number incorrect - should be from a different page number based on the content shown",
+            "Data structure inappropriate for a code provision - should capture the actual regulatory text and requirements"
+          ]
+        },
+        {
+          "id": "ASCE7-22-26.4.2-P1",
+          "score": 0.3,
+          "accurate": false,
+          "issues": [
+            "Element type should be 'table' not 'provision' - the content shows a structured table with multiple load combinations",
+            "Missing all tabular data - the PDF shows a detailed table with columns for Load Combination, External Pressure Coefficient, Internal Pressure Coefficient, and Net Pressure Coefficient",
+            "Missing specific load combination cases (1) through (4) with their respective pressure coefficient values",
+            "Rule text is oversimplified - should capture the specific methodology for determining critical load conditions from the table",
+            "Missing numerical pressure coefficient values shown in the table columns",
+            "Title should reflect this is about load combinations table rather than just 'Critical Load Condition'",
+            "Missing the structured data format that would properly represent the tabular information"
+          ]
+        },
+        {
+          "id": "ASCE7-22-26-D12",
+          "score": 1.0,
+          "accurate": true,
+          "issues": []
+        },
+        {
+          "id": "ASCE7-22-26-D2",
+          "score": 0.3,
+          "accurate": false,
+          "issues": [
+            "Definition text is severely garbled and incorrect - conditions 1 and 2 about mean roof height are mixed with opening area equations",
+            "Missing condition 2: 'Mean roof height h does not exceed the least horizontal dimension'",
+            "Missing the 'or > 0.01A_g' part of the A_o condition in structured conditions",
+            "Missing condition about 'whichever is smaller' logic",
+            "The definition should clearly separate the two main conditions from the opening area requirements",
+            "Extracted conditions do not match the actual definition structure from the PDF"
+          ]
+        },
+        {
+          "id": "ASCE7-22-26.2-D7",
+          "score": 0.3,
+          "accurate": false,
+          "issues": [
+            "Missing critical conditions - the definition includes specific height and area requirements that are not captured in the conditions array",
+            "Definition is incomplete - should specify 'that complies with the following conditions:' followed by the actual conditions",
+            "Conditions array is empty but should contain the height limitation (mean roof height \u2264 60 ft) and area requirements",
+            "Missing the specific numerical thresholds that define what constitutes a low-rise building"
+          ]
+        },
+        {
+          "id": "ASCE7-22-26.11-T1",
+          "score": 0.7,
+          "accurate": false,
+          "issues": [
+            "Missing \u03b1 column - there are two \u03b1 columns in the extracted data but the table shows only one \u03b1 column",
+            "Column structure incorrect - the extracted data shows 11 columns but the actual table has 10 columns",
+            "Column headers may be misaligned due to duplicate \u03b1 column in extraction"
+          ]
+        }
+      ]
+    }
+  },
+  "calibration": {
+    "per_element": [
+      {
+        "element_id": "ASCE7-22-26.1-E1",
+        "id_match": false,
+        "type_match": false,
+        "data_match": 0.0,
+        "xref_match": false,
+        "score": 0.0,
+        "details": "No matching extracted element found"
+      },
+      {
+        "element_id": "ASCE7-22-26.1-E2",
+        "id_match": false,
+        "type_match": false,
+        "data_match": 0.0,
+        "xref_match": false,
+        "score": 0.0,
+        "details": "No matching extracted element found"
+      },
+      {
+        "element_id": "ASCE7-22-26.1.2.1-P1",
+        "id_match": true,
+        "type_match": true,
+        "data_match": 0.6,
+        "xref_match": true,
+        "score": 0.8,
+        "details": "data_match: 0.60"
+      },
+      {
+        "element_id": "ASCE7-22-26.1.2.2-P1",
+        "id_match": true,
+        "type_match": true,
+        "data_match": 0.6,
+        "xref_match": true,
+        "score": 0.8,
+        "details": "data_match: 0.60"
+      },
+      {
+        "element_id": "ASCE7-22-26.2-E1",
+        "id_match": true,
+        "type_match": true,
+        "data_match": 0.3333,
+        "xref_match": true,
+        "score": 0.6667,
+        "details": "data_match: 0.33"
+      },
+      {
+        "element_id": "ASCE7-22-26.2-P2",
+        "id_match": false,
+        "type_match": false,
+        "data_match": 0.0,
+        "xref_match": false,
+        "score": 0.0,
+        "details": "No matching extracted element found"
+      },
+      {
+        "element_id": "ASCE7-22-26.2-R1",
+        "id_match": true,
+        "type_match": true,
+        "data_match": 1.0,
+        "xref_match": true,
+        "score": 1.0,
+        "details": "perfect match"
+      }
+    ],
+    "aggregate": {
+      "accuracy": 0.8167,
+      "type_match_rate": 1.0,
+      "elements_compared": 4,
+      "elements_missing": 3
+    },
+    "timestamp": "2026-03-29T02:10:33.439344+00:00"
+  }
+}
