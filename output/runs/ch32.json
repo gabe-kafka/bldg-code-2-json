@@ -1385,14 +1385,13 @@
     "data": {
       "expression": "ppT = Combined net tornado design pressure on a parapet from Equation (32.15-3)",
       "parameters": {
-        "ppT": {
-          "description": "Combined net tornado design pressure on the parapet caused by the combination of the net pressures from the front and back parapet surfaces, lb/ft 2 (N/m 2 ). Plus (and minus) signs signify net pressure acting toward (and away from) the front (exterior) side of the parapet;",
-          "source": "ASCE7-22-32.15.4-T1"
-        },
         "a": {
-          "description": "Approximate lower bound natural frequency from Section 26.11.2",
-          "unit": "Hz",
-          "source": "ASCE7-22-26.3-T77"
+          "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
+          "source": "ASCE7-22-28.3.7-T22"
+        },
+        "ppT": {
+          "description": "Combined net tornado design pressure on a parapet from Equation (32.15-3), lb/ft 2 (N/m 2 )",
+          "source": "ASCE7-22-32.3-T10"
         }
       }
     },
@@ -1539,31 +1538,6 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-32.1-F32-1-21",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.1",
-      "citation": "Figure 32.1-2",
-      "page": 3
-    },
-    "title": "Figure 32.1-2. Flowchart of process for determining when design for tornado loads is required.",
-    "description": "Figure 32.1-2. Flowchart of process for determining when design for tornado loads is required.",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 32.1-2. Flowchart of process for determining when design for tornado loads is required.",
-      "source_pdf_page": 3
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
     },
     "parent_id": null
   },
@@ -1924,31 +1898,6 @@
       "qc_notes": null
     },
     "parent_id": "ASCE7-22-32.5.4-H1"
-  },
-  {
-    "id": "ASCE7-22-32.1-F32-1-31",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.1",
-      "citation": "Figure 32.1-3",
-      "page": 4
-    },
-    "title": "Figure 32.1-3. Outline of process for determining tornado loads.",
-    "description": "Figure 32.1-3. Outline of process for determining tornado loads.",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 32.1-3. Outline of process for determining tornado loads.",
-      "source_pdf_page": 4
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
   },
   {
     "id": "ASCE7-22-32.5.4.3-P1",
@@ -2780,12 +2729,12 @@
       "expression": "The velocity pressure at mean roof height shall be computed as qhT = qzT evaluated from Equation (32.10-1)",
       "parameters": {
         "qzT": {
-          "description": "Tornado velocity pressure from Section 32.10.2 evaluated at height z , as de fi ned in Section 26.10, of the centroid of area Af , lb/ft 2 (N/m 2 );",
-          "source": "ASCE7-22-32.16.3-T1"
+          "description": "Tornado velocity pressure evaluated at height z above ground, lb/ft 2 (N/m 2 )",
+          "source": "ASCE7-22-32.3-T16"
         },
         "qhT": {
           "description": "Tornado velocity pressure from Section 32.10.2 evaluated at mean roof height h , lb/ft 2 (N/m 2 );",
-          "source": "ASCE7-22-32.16.3.5-T1"
+          "source": "ASCE7-22-32.17.3-T2"
         }
       }
     },
@@ -3097,114 +3046,6 @@
     "parent_id": "ASCE7-22-32.5-F32-5-1A1"
   },
   {
-    "id": "ASCE7-22-32.13-T13",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 8
-    },
-    "title": "1. Values are 3 s gust speeds in mi/h at 33 ft (10 m) above ground.",
-    "description": "",
-    "data": {
-      "rule": "1. Values are 3 s gust speeds in mi/h at 33 ft (10 m) above ground.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-32.13-P3"
-  },
-  {
-    "id": "ASCE7-22-32.13-T14",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 8
-    },
-    "title": "2. To convert tornado speeds from mi/h to m/s, multiply mapped values by 0.447.",
-    "description": "",
-    "data": {
-      "rule": "2. To convert tornado speeds from mi/h to m/s, multiply mapped values by 0.447.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-32.13-P3"
-  },
-  {
-    "id": "ASCE7-22-32.13-P4",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 8
-    },
-    "title": "3. Linear interpolation is permitted between contours. Point values (where shown) are provided to aid with interpolation.",
-    "description": "",
-    "data": {
-      "rule": "3. Linear interpolation is permitted between contours. Point values (where shown) are provided to aid with interpolation.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-32.13-H4",
-    "type": "heading",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 8
-    },
-    "title": "Notes :",
-    "description": "",
-    "data": {
-      "rule": "Notes :",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-32.13-T15",
     "type": "text_block",
     "source": {
@@ -3234,112 +3075,6 @@
     "parent_id": "ASCE7-22-32.5-F32-5-1B1"
   },
   {
-    "id": "ASCE7-22-32.5-F32-5-1B1",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.5",
-      "citation": "Figure 32.5-1B",
-      "page": 8
-    },
-    "title": "Figure 32.5-1B. Tornado speeds for Risk Category III buildings and other structures, for effective",
-    "description": "Figure 32.5-1B. Tornado speeds for Risk Category III buildings and other structures, for effective",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 32.5-1B. Tornado speeds for Risk Category III buildings and other structures, for effective",
-      "source_pdf_page": 8
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-32.13-P5",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 9
-    },
-    "title": "Islands, coastal areas, and land boundaries outside the last contour shall use the last tornado speed contour.",
-    "description": "",
-    "data": {
-      "rule": "Islands, coastal areas, and land boundaries outside the last contour shall use the last tornado speed contour.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-32.13-T20",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 9
-    },
-    "title": "Tornado speeds correspond to approximately a 3% probability of exceedance in 50 years (annual exceedance probability = 0.000588, MRI = 1,700 years).",
-    "description": "",
-    "data": {
-      "rule": "Tornado speeds correspond to approximately a 3% probability of exceedance in 50 years (annual exceedance probability = 0.000588, MRI = 1,700 years).",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-32.13-H20"
-  },
-  {
-    "id": "ASCE7-22-32.13-P6",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 9
-    },
-    "title": "Location-specific tornado speed is permitted to be determined using the ASCE Tornado Design Geodatabase, available at the ASCE 7 Hazard Tool (http://asce7hazardtool.online) or approved equivalent.",
-    "description": "",
-    "data": {
-      "rule": "Location-specific tornado speed is permitted to be determined using the ASCE Tornado Design Geodatabase, available at the ASCE 7 Hazard Tool (http://asce7hazardtool.online) or approved equivalent.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-32.13-T21",
     "type": "text_block",
     "source": {
@@ -3367,33 +3102,6 @@
       "qc_notes": null
     },
     "parent_id": "ASCE7-22-32.5-F32-5-1B1"
-  },
-  {
-    "id": "ASCE7-22-32.13-H5",
-    "type": "heading",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 10
-    },
-    "title": "Notes :",
-    "description": "",
-    "data": {
-      "rule": "Notes :",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
   },
   {
     "id": "ASCE7-22-32.13-T23",
@@ -3506,85 +3214,6 @@
     "parent_id": "ASCE7-22-32.5-F32-5-1C1"
   },
   {
-    "id": "ASCE7-22-32.5-F32-5-1C1",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.5",
-      "citation": "Figure 32.5-1C",
-      "page": 10
-    },
-    "title": "Figure 32.5-1C. Tornado speeds for Risk Category III buildings and other structures, for effective",
-    "description": "Figure 32.5-1C. Tornado speeds for Risk Category III buildings and other structures, for effective",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 32.5-1C. Tornado speeds for Risk Category III buildings and other structures, for effective",
-      "source_pdf_page": 10
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-32.13-P8",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 11
-    },
-    "title": "Islands, coastal areas, and land boundaries outside the last contour shall use the last tornado speed contour.",
-    "description": "",
-    "data": {
-      "rule": "Islands, coastal areas, and land boundaries outside the last contour shall use the last tornado speed contour.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-32.13-T31",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 11
-    },
-    "title": "Tornado speeds correspond to approximately a 3% probability of exceedance in 50 years (annual exceedance probability = 0.000588, MRI = 1,700 years).",
-    "description": "",
-    "data": {
-      "rule": "Tornado speeds correspond to approximately a 3% probability of exceedance in 50 years (annual exceedance probability = 0.000588, MRI = 1,700 years).",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-32.13-H20"
-  },
-  {
     "id": "ASCE7-22-32.13-P9",
     "type": "provision",
     "source": {
@@ -3641,114 +3270,6 @@
     "parent_id": "ASCE7-22-32.5-F32-5-1C1"
   },
   {
-    "id": "ASCE7-22-32.13-H6",
-    "type": "heading",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 12
-    },
-    "title": "Notes :",
-    "description": "",
-    "data": {
-      "rule": "Notes :",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-32.13-T34",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 12
-    },
-    "title": "1. Values are 3 s gust speeds in mi/h at 33 ft (10 m) above ground.",
-    "description": "",
-    "data": {
-      "rule": "1. Values are 3 s gust speeds in mi/h at 33 ft (10 m) above ground.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-32.13-H6"
-  },
-  {
-    "id": "ASCE7-22-32.13-T35",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 12
-    },
-    "title": "2. To convert tornado speeds from mi/h to m/s, multiply mapped values by 0.447.",
-    "description": "",
-    "data": {
-      "rule": "2. To convert tornado speeds from mi/h to m/s, multiply mapped values by 0.447.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-32.13-H6"
-  },
-  {
-    "id": "ASCE7-22-32.13-P10",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 12
-    },
-    "title": "3. Linear interpolation is permitted between contours. Point values (where shown) are provided to aid with interpolation.",
-    "description": "",
-    "data": {
-      "rule": "3. Linear interpolation is permitted between contours. Point values (where shown) are provided to aid with interpolation.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-32.13-T36",
     "type": "text_block",
     "source": {
@@ -3776,112 +3297,6 @@
       "qc_notes": null
     },
     "parent_id": "ASCE7-22-32.5-F32-5-1D1"
-  },
-  {
-    "id": "ASCE7-22-32.5-F32-5-1D1",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.5",
-      "citation": "Figure 32.5-1D",
-      "page": 12
-    },
-    "title": "Figure 32.5-1D. Tornado speeds for Risk Category III buildings and other structures, for effective",
-    "description": "Figure 32.5-1D. Tornado speeds for Risk Category III buildings and other structures, for effective",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 32.5-1D. Tornado speeds for Risk Category III buildings and other structures, for effective",
-      "source_pdf_page": 12
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-32.13-P11",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 13
-    },
-    "title": "Islands, coastal areas, and land boundaries outside the last contour shall use the last tornado speed contour.",
-    "description": "",
-    "data": {
-      "rule": "Islands, coastal areas, and land boundaries outside the last contour shall use the last tornado speed contour.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-32.13-T42",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 13
-    },
-    "title": "Tornado speeds correspond to approximately a 3% probability of exceedance in 50 years (annual exceedance probability = 0.000588, MRI = 1,700 years).",
-    "description": "",
-    "data": {
-      "rule": "Tornado speeds correspond to approximately a 3% probability of exceedance in 50 years (annual exceedance probability = 0.000588, MRI = 1,700 years).",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-32.13-H20"
-  },
-  {
-    "id": "ASCE7-22-32.13-P12",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 13
-    },
-    "title": "Location-specific tornado speed is permitted to be determined using the ASCE Tornado Design Geodatabase, available at the ASCE 7 Hazard Tool (http://asce7hazardtool.online) or approved equivalent.",
-    "description": "",
-    "data": {
-      "rule": "Location-specific tornado speed is permitted to be determined using the ASCE Tornado Design Geodatabase, available at the ASCE 7 Hazard Tool (http://asce7hazardtool.online) or approved equivalent.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
   },
   {
     "id": "ASCE7-22-32.13-T43",
@@ -3913,60 +3328,6 @@
     "parent_id": "ASCE7-22-32.5-F32-5-1D1"
   },
   {
-    "id": "ASCE7-22-32.13-T45",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 14
-    },
-    "title": "1. Values are 3 s gust speeds in mi/h at 33 ft (10 m) above ground.",
-    "description": "",
-    "data": {
-      "rule": "1. Values are 3 s gust speeds in mi/h at 33 ft (10 m) above ground.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-32.13-P12"
-  },
-  {
-    "id": "ASCE7-22-32.13-T46",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 14
-    },
-    "title": "2. To convert tornado speeds from mi/h to m/s, multiply mapped values by 0.447.",
-    "description": "",
-    "data": {
-      "rule": "2. To convert tornado speeds from mi/h to m/s, multiply mapped values by 0.447.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-32.13-P12"
-  },
-  {
     "id": "ASCE7-22-32.13-T47",
     "type": "text_block",
     "source": {
@@ -3992,114 +3353,6 @@
       "qc_notes": null
     },
     "parent_id": "ASCE7-22-32.13-H20"
-  },
-  {
-    "id": "ASCE7-22-32.13-H7",
-    "type": "heading",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 14
-    },
-    "title": "Notes :",
-    "description": "",
-    "data": {
-      "rule": "Notes :",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-32.13-T48",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 14
-    },
-    "title": "1. Values are 3 s gust speeds in mi/h at 33 ft (10 m) above ground.",
-    "description": "",
-    "data": {
-      "rule": "1. Values are 3 s gust speeds in mi/h at 33 ft (10 m) above ground.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-32.13-H7"
-  },
-  {
-    "id": "ASCE7-22-32.13-T49",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 14
-    },
-    "title": "2. To convert tornado speeds from mi/h to m/s, multiply mapped values by 0.447.",
-    "description": "",
-    "data": {
-      "rule": "2. To convert tornado speeds from mi/h to m/s, multiply mapped values by 0.447.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-32.13-H7"
-  },
-  {
-    "id": "ASCE7-22-32.13-P13",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 14
-    },
-    "title": "3. Linear interpolation is permitted between contours. Point values (where shown) are provided to aid with interpolation.",
-    "description": "",
-    "data": {
-      "rule": "3. Linear interpolation is permitted between contours. Point values (where shown) are provided to aid with interpolation. nid with internolation",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
   },
   {
     "id": "ASCE7-22-32.13-T51",
@@ -4129,112 +3382,6 @@
       "qc_notes": null
     },
     "parent_id": "ASCE7-22-32.5-F32-5-1A1"
-  },
-  {
-    "id": "ASCE7-22-32.5-F32-5-11",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.5",
-      "citation": "Figure 32.5-1",
-      "page": 14
-    },
-    "title": "Figure 32.5-1E. Tornado speeds for Risk Category III buildings and other structures, for effective",
-    "description": "Figure 32.5-1E. Tornado speeds for Risk Category III buildings and other structures, for effective",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 32.5-1E. Tornado speeds for Risk Category III buildings and other structures, for effective",
-      "source_pdf_page": 14
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-32.13-P14",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 15
-    },
-    "title": "Islands, coastal areas, and land boundaries outside the last contour shall use the last tornado speed contour.",
-    "description": "",
-    "data": {
-      "rule": "Islands, coastal areas, and land boundaries outside the last contour shall use the last tornado speed contour.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-32.13-T58",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 15
-    },
-    "title": "Tornado speeds correspond to approximately a 3% probability of exceedance in 50 years (annual exceedance probability = 0.000588, MRI = 1,700 years).",
-    "description": "",
-    "data": {
-      "rule": "Tornado speeds correspond to approximately a 3% probability of exceedance in 50 years (annual exceedance probability = 0.000588, MRI = 1,700 years).",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-32.13-H20"
-  },
-  {
-    "id": "ASCE7-22-32.13-P15",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 15
-    },
-    "title": "Location-specific tornado speed is permitted to be determined using the ASCE Tornado Design Geodatabase, available at the ASCE 7 Hazard Tool (http://asce7hazardtool.online) or approved equivalent.",
-    "description": "",
-    "data": {
-      "rule": "Location-specific tornado speed is permitted to be determined using the ASCE Tornado Design Geodatabase, available at the ASCE 7 Hazard Tool (http://asce7hazardtool.online) or approved equivalent.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
   },
   {
     "id": "ASCE7-22-32.13-T59",
@@ -4293,114 +3440,6 @@
     "parent_id": "ASCE7-22-32.13-P15"
   },
   {
-    "id": "ASCE7-22-32.13-T62",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 16
-    },
-    "title": "1. Values are 3 s gust speeds in mi/h at 33 ft (10 m) above ground.",
-    "description": "",
-    "data": {
-      "rule": "1. Values are 3 s gust speeds in mi/h at 33 ft (10 m) above ground.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-32.13-P15"
-  },
-  {
-    "id": "ASCE7-22-32.13-T63",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 16
-    },
-    "title": "2. To convert tornado speeds from mi/h to m/s, multiply mapped values by 0.447.",
-    "description": "",
-    "data": {
-      "rule": "2. To convert tornado speeds from mi/h to m/s, multiply mapped values by 0.447.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-32.13-P15"
-  },
-  {
-    "id": "ASCE7-22-32.13-P16",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 16
-    },
-    "title": "3. Linear interpolation is permitted between contours. Point values (where shown) are provided to aid with interpolation.",
-    "description": "",
-    "data": {
-      "rule": "3. Linear interpolation is permitted between contours. Point values (where shown) are provided to aid with interpolation.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-32.13-H8",
-    "type": "heading",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 16
-    },
-    "title": "Notes :",
-    "description": "",
-    "data": {
-      "rule": "Notes :",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-32.13-T64",
     "type": "text_block",
     "source": {
@@ -4428,87 +3467,6 @@
       "qc_notes": null
     },
     "parent_id": "ASCE7-22-32.5-F32-5-1A1"
-  },
-  {
-    "id": "ASCE7-22-32.13-P17",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 17
-    },
-    "title": "Islands, coastal areas, and land boundaries outside the last contour shall use the last tornado speed contour.",
-    "description": "",
-    "data": {
-      "rule": "Islands, coastal areas, and land boundaries outside the last contour shall use the last tornado speed contour.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-32.13-T74",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 17
-    },
-    "title": "Tornado speeds correspond to approximately a 3% probability of exceedance in 50 years (annual exceedance probability = 0.000588, MRI = 1,700 years).",
-    "description": "",
-    "data": {
-      "rule": "Tornado speeds correspond to approximately a 3% probability of exceedance in 50 years (annual exceedance probability = 0.000588, MRI = 1,700 years).",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-32.13-H20"
-  },
-  {
-    "id": "ASCE7-22-32.13-P18",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 17
-    },
-    "title": "Location-specific tornado speed is permitted to be determined using the ASCE Tornado Design Geodatabase, available at the ASCE 7 Hazard Tool (http://asce7hazardtool.online) or approved equivalent.",
-    "description": "",
-    "data": {
-      "rule": "Location-specific tornado speed is permitted to be determined using the ASCE Tornado Design Geodatabase, available at the ASCE 7 Hazard Tool (http://asce7hazardtool.online) or approved equivalent.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
   },
   {
     "id": "ASCE7-22-32.13-T75",
@@ -4540,114 +3498,6 @@
     "parent_id": "ASCE7-22-32.5-F32-5-1A1"
   },
   {
-    "id": "ASCE7-22-32.13-H9",
-    "type": "heading",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 18
-    },
-    "title": "Notes :",
-    "description": "",
-    "data": {
-      "rule": "Notes :",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-32.13-T81",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 18
-    },
-    "title": "Values are 3 s gust speeds in mi/h at 33 ft (10 m) above ground.",
-    "description": "",
-    "data": {
-      "rule": "Values are 3 s gust speeds in mi/h at 33 ft (10 m) above ground.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-32.13-H20"
-  },
-  {
-    "id": "ASCE7-22-32.13-T82",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 18
-    },
-    "title": "2. To convert tornado speeds from mi/h to m/s, multiply mapped values by 0.447.",
-    "description": "",
-    "data": {
-      "rule": "2. To convert tornado speeds from mi/h to m/s, multiply mapped values by 0.447.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-32.13-H9"
-  },
-  {
-    "id": "ASCE7-22-32.13-P19",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 18
-    },
-    "title": "3. Linear interpolation is permitted between contours. Point values (where shown) are provided to aid with interpolation.",
-    "description": "",
-    "data": {
-      "rule": "3. Linear interpolation is permitted between contours. Point values (where shown) are provided to aid with interpolation.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-32.13-T83",
     "type": "text_block",
     "source": {
@@ -4675,87 +3525,6 @@
       "qc_notes": null
     },
     "parent_id": "ASCE7-22-32.5-F32-5-1A1"
-  },
-  {
-    "id": "ASCE7-22-32.13-P20",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 19
-    },
-    "title": "Islands, coastal areas, and land boundaries outside the last contour shall use the last tornado speed contour.",
-    "description": "",
-    "data": {
-      "rule": "Islands, coastal areas, and land boundaries outside the last contour shall use the last tornado speed contour.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-32.13-T99",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 19
-    },
-    "title": "Tornado speeds correspond to approximately a 3% probability of exceedance in 50 years (annual exceedance probability = 0.000588, MRI = 1,700 years).",
-    "description": "",
-    "data": {
-      "rule": "Tornado speeds correspond to approximately a 3% probability of exceedance in 50 years (annual exceedance probability = 0.000588, MRI = 1,700 years).",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-32.13-H20"
-  },
-  {
-    "id": "ASCE7-22-32.13-P21",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 19
-    },
-    "title": "Location-specific tornado speed is permitted to be determined using the ASCE Tornado Design Geodatabase, available at the ASCE 7 Hazard Tool (http://asce7hazardtool.online) or approved equivalent.",
-    "description": "",
-    "data": {
-      "rule": "Location-specific tornado speed is permitted to be determined using the ASCE Tornado Design Geodatabase, available at the ASCE 7 Hazard Tool (http://asce7hazardtool.online) or approved equivalent.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
   },
   {
     "id": "ASCE7-22-32.13-T100",
@@ -4814,87 +3583,6 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-32.13-T112",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 20
-    },
-    "title": "Values are 3 s gust speeds in mi/h at 33 ft (10 m) above ground.",
-    "description": "",
-    "data": {
-      "rule": "Values are 3 s gust speeds in mi/h at 33 ft (10 m) above ground.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-32.13-H20"
-  },
-  {
-    "id": "ASCE7-22-32.13-T113",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 20
-    },
-    "title": "2. To convert tornado speeds from mi/h to m/s, multiply mapped values by 0.447.",
-    "description": "",
-    "data": {
-      "rule": "2. To convert tornado speeds from mi/h to m/s, multiply mapped values by 0.447.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-32.13-H10"
-  },
-  {
-    "id": "ASCE7-22-32.13-P22",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 20
-    },
-    "title": "Linear interpolation is permitted between contours. Point values (where shown) are provided to aid with interpolation.",
-    "description": "",
-    "data": {
-      "rule": "Linear interpolation is permitted between contours. Point values (where shown) are provided to aid with interpolation.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-32.13-T114",
     "type": "text_block",
     "source": {
@@ -4922,87 +3610,6 @@
       "qc_notes": null
     },
     "parent_id": "ASCE7-22-32.5-F32-5-1A1"
-  },
-  {
-    "id": "ASCE7-22-32.13-P23",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 21
-    },
-    "title": "Islands, coastal areas, and land boundaries outside the last contour shall use the last tornado speed contour.",
-    "description": "",
-    "data": {
-      "rule": "Islands, coastal areas, and land boundaries outside the last contour shall use the last tornado speed contour.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-32.13-T130",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 21
-    },
-    "title": "Tornado speeds correspond to approximately a 3% probability of exceedance in 50 years (annual exceedance probability = 0.000588, MRI = 1,700 years).",
-    "description": "",
-    "data": {
-      "rule": "Tornado speeds correspond to approximately a 3% probability of exceedance in 50 years (annual exceedance probability = 0.000588, MRI = 1,700 years).",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-32.13-H20"
-  },
-  {
-    "id": "ASCE7-22-32.13-P24",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 21
-    },
-    "title": "6. Location-specific tornado speed is permitted to be determined using the ASCE Tornado Design Geodatabase, available at the ASCE 7 Hazard Tool (http://asce7hazardtool.online) or approved equivalent.",
-    "description": "",
-    "data": {
-      "rule": "6. Location-specific tornado speed is permitted to be determined using the ASCE Tornado Design Geodatabase, available at the ASCE 7 Hazard Tool (http://asce7hazardtool.online) or approved equivalent.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
   },
   {
     "id": "ASCE7-22-32.13-T131",
@@ -5034,114 +3641,6 @@
     "parent_id": "ASCE7-22-32.5-F32-5-1A1"
   },
   {
-    "id": "ASCE7-22-32.13-P25",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 22
-    },
-    "title": "3. Linear interpolation is permitted between contours. Point values (where shown) are provided to aid with interpolation.",
-    "description": "",
-    "data": {
-      "rule": "3. Linear interpolation is permitted between contours. Point values (where shown) are provided to aid with interpolation.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-32.13-H11",
-    "type": "heading",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 22
-    },
-    "title": "Notes :",
-    "description": "",
-    "data": {
-      "rule": "Notes :",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-32.13-T133",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 22
-    },
-    "title": "1. Values are 3 s gust speeds in mi/h at 33 ft (10 m) above ground.",
-    "description": "",
-    "data": {
-      "rule": "1. Values are 3 s gust speeds in mi/h at 33 ft (10 m) above ground.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-32.13-H11"
-  },
-  {
-    "id": "ASCE7-22-32.13-T134",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 22
-    },
-    "title": "2. To convert tornado speeds from mi/h to m/s, multiply mapped values by 0.447.",
-    "description": "",
-    "data": {
-      "rule": "2. To convert tornado speeds from mi/h to m/s, multiply mapped values by 0.447.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-32.13-H11"
-  },
-  {
     "id": "ASCE7-22-32.13-T135",
     "type": "text_block",
     "source": {
@@ -5171,58 +3670,6 @@
     "parent_id": "ASCE7-22-32.5-F32-5-2A1"
   },
   {
-    "id": "ASCE7-22-32.5-F32-5-2A1",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.5",
-      "citation": "Figure 32.5-2A",
-      "page": 22
-    },
-    "title": "Figure 32.5-2A. Tornado speeds for Risk Category IV buildings and other structures, for effective plan area of 1 ft2 (0.1 m2).",
-    "description": "Figure 32.5-2A. Tornado speeds for Risk Category IV buildings and other structures, for effective plan area of 1 ft2 (0.1 m2).",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 32.5-2A. Tornado speeds for Risk Category IV buildings and other structures, for effective plan area of 1 ft2 (0.1 m2).",
-      "source_pdf_page": 22
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-32.13-P26",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 23
-    },
-    "title": "Islands, coastal areas, and land boundaries outside the last contour shall use the last tornado speed contour.",
-    "description": "",
-    "data": {
-      "rule": "Islands, coastal areas, and land boundaries outside the last contour shall use the last tornado speed contour.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-32.13-T142",
     "type": "text_block",
     "source": {
@@ -5248,33 +3695,6 @@
       "qc_notes": null
     },
     "parent_id": "ASCE7-22-32.13-H20"
-  },
-  {
-    "id": "ASCE7-22-32.13-P27",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 23
-    },
-    "title": "6. Location-specific tornado speed is permitted to be determined using the ASCE Tornado Design Geodatabase, available at the ASCE 7 Hazard Tool (http://asce7hazardtool.online) or approved equivalent.",
-    "description": "",
-    "data": {
-      "rule": "6. Location-specific tornado speed is permitted to be determined using the ASCE Tornado Design Geodatabase, available at the ASCE 7 Hazard Tool (http://asce7hazardtool.online) or approved equivalent.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
   },
   {
     "id": "ASCE7-22-32.13-T143",
@@ -5306,141 +3726,6 @@
     "parent_id": "ASCE7-22-32.5-F32-5-2A1"
   },
   {
-    "id": "ASCE7-22-32.13-T145",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 24
-    },
-    "title": "1. Values are 3 s gust speeds in mi/h at 33 ft (10 m) above ground.",
-    "description": "",
-    "data": {
-      "rule": "1. Values are 3 s gust speeds in mi/h at 33 ft (10 m) above ground.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-32.13-P27"
-  },
-  {
-    "id": "ASCE7-22-32.13-T146",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 24
-    },
-    "title": "1. Values are 3 s gust speeds in mi/h at 33 ft (10 m) above ground.",
-    "description": "",
-    "data": {
-      "rule": "1. Values are 3 s gust speeds in mi/h at 33 ft (10 m) above ground.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-32.13-P27"
-  },
-  {
-    "id": "ASCE7-22-32.13-T147",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 24
-    },
-    "title": "2. To convert tornado speeds from mi/h to m/s, multiply mapped values by 0.447.",
-    "description": "",
-    "data": {
-      "rule": "2. To convert tornado speeds from mi/h to m/s, multiply mapped values by 0.447.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-32.13-P27"
-  },
-  {
-    "id": "ASCE7-22-32.13-P28",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 24
-    },
-    "title": "3. Linear interpolation is permitted between contours. Point values (where shown) are provided to aid with interpolation.",
-    "description": "",
-    "data": {
-      "rule": "3. Linear interpolation is permitted between contours. Point values (where shown) are provided to aid with interpolation.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-32.13-H12",
-    "type": "heading",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 24
-    },
-    "title": "Notes :",
-    "description": "",
-    "data": {
-      "rule": "Notes :",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-32.13-T148",
     "type": "text_block",
     "source": {
@@ -5468,112 +3753,6 @@
       "qc_notes": null
     },
     "parent_id": "ASCE7-22-32.5-F32-5-2B1"
-  },
-  {
-    "id": "ASCE7-22-32.5-F32-5-2B1",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.5",
-      "citation": "Figure 32.5-2B",
-      "page": 24
-    },
-    "title": "Figure 32.5-2B. Tornado speeds for Risk Category IV buildings and other structures, for effective plan area of 2,000 ft2",
-    "description": "Figure 32.5-2B. Tornado speeds for Risk Category IV buildings and other structures, for effective plan area of 2,000 ft2",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 32.5-2B. Tornado speeds for Risk Category IV buildings and other structures, for effective plan area of 2,000 ft2",
-      "source_pdf_page": 24
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-32.13-P29",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 25
-    },
-    "title": "Islands, coastal areas, and land boundaries outside the last contour shall use the last tornado speed contour.",
-    "description": "",
-    "data": {
-      "rule": "Islands, coastal areas, and land boundaries outside the last contour shall use the last tornado speed contour.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-32.13-T155",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 25
-    },
-    "title": "Tornado speeds correspond to approximately a 1.7% probability of exceedance in 50 years (annual exceedance probability = 0.00033, MRI = 3,000 years).",
-    "description": "",
-    "data": {
-      "rule": "Tornado speeds correspond to approximately a 1.7% probability of exceedance in 50 years (annual exceedance probability = 0.00033, MRI = 3,000 years).",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-32.13-H20"
-  },
-  {
-    "id": "ASCE7-22-32.13-P30",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 25
-    },
-    "title": "Location-specific tornado speed is permitted to be determined using the ASCE Tornado Design Geodatabase, available at the ASCE 7 Hazard Tool (http://asce7hazardtool.online) or approved equivalent.",
-    "description": "",
-    "data": {
-      "rule": "Location-specific tornado speed is permitted to be determined using the ASCE Tornado Design Geodatabase, available at the ASCE 7 Hazard Tool (http://asce7hazardtool.online) or approved equivalent.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
   },
   {
     "id": "ASCE7-22-32.13-T156",
@@ -5605,114 +3784,6 @@
     "parent_id": "ASCE7-22-32.5-F32-5-2B1"
   },
   {
-    "id": "ASCE7-22-32.13-H13",
-    "type": "heading",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 26
-    },
-    "title": "Notes :",
-    "description": "",
-    "data": {
-      "rule": "Notes :",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-32.13-T158",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 26
-    },
-    "title": "Values are 3 s gust speeds in mi/h at 33 ft (10 m) above ground.",
-    "description": "",
-    "data": {
-      "rule": "Values are 3 s gust speeds in mi/h at 33 ft (10 m) above ground.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-32.13-H20"
-  },
-  {
-    "id": "ASCE7-22-32.13-T159",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 26
-    },
-    "title": "2. To convert tornado speeds from mi/h to m/s, multiply mapped values by 0.447.",
-    "description": "",
-    "data": {
-      "rule": "2. To convert tornado speeds from mi/h to m/s, multiply mapped values by 0.447.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-32.13-H13"
-  },
-  {
-    "id": "ASCE7-22-32.13-P31",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 26
-    },
-    "title": "Linear interpolation is permitted between contours. Point values (where shown) are provided to aid with interpolation.",
-    "description": "",
-    "data": {
-      "rule": "Linear interpolation is permitted between contours. Point values (where shown) are provided to aid with interpolation.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-32.13-T160",
     "type": "text_block",
     "source": {
@@ -5740,112 +3811,6 @@
       "qc_notes": null
     },
     "parent_id": "ASCE7-22-32.5-F32-5-2C1"
-  },
-  {
-    "id": "ASCE7-22-32.5-F32-5-2C1",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.5",
-      "citation": "Figure 32.5-2C",
-      "page": 26
-    },
-    "title": "Figure 32.5-2C. Tornado speeds for Risk Category IV buildings and other structures, for effective plan area of 10,000 ft2",
-    "description": "Figure 32.5-2C. Tornado speeds for Risk Category IV buildings and other structures, for effective plan area of 10,000 ft2",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 32.5-2C. Tornado speeds for Risk Category IV buildings and other structures, for effective plan area of 10,000 ft2",
-      "source_pdf_page": 26
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-32.13-P32",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 27
-    },
-    "title": "Islands, coastal areas, and land boundaries outside the last contour shall use the last tornado speed contour.",
-    "description": "",
-    "data": {
-      "rule": "Islands, coastal areas, and land boundaries outside the last contour shall use the last tornado speed contour.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-32.13-T170",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 27
-    },
-    "title": "Tornado speeds correspond to approximately a 1.7% probability of exceedance in 50 years (annual exceedance probability = 0.00033, MRI = 3,000 years).",
-    "description": "",
-    "data": {
-      "rule": "Tornado speeds correspond to approximately a 1.7% probability of exceedance in 50 years (annual exceedance probability = 0.00033, MRI = 3,000 years).",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-32.13-H20"
-  },
-  {
-    "id": "ASCE7-22-32.13-P33",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 27
-    },
-    "title": "Location-specific tornado speed is permitted to be determined using the ASCE Tornado Design Geodatabase, available at the ASCE 7 Hazard Tool (http://asce7hazardtool.online) or approved equivalent.",
-    "description": "",
-    "data": {
-      "rule": "Location-specific tornado speed is permitted to be determined using the ASCE Tornado Design Geodatabase, available at the ASCE 7 Hazard Tool (http://asce7hazardtool.online) or approved equivalent.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
   },
   {
     "id": "ASCE7-22-32.13-T171",
@@ -5877,114 +3842,6 @@
     "parent_id": "ASCE7-22-32.5-F32-5-2C1"
   },
   {
-    "id": "ASCE7-22-32.13-H14",
-    "type": "heading",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 28
-    },
-    "title": "Notes :",
-    "description": "",
-    "data": {
-      "rule": "Notes :",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-32.13-T173",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 28
-    },
-    "title": "Values are 3 s gust speeds in mi/h at 33 ft (10 m) above ground.",
-    "description": "",
-    "data": {
-      "rule": "Values are 3 s gust speeds in mi/h at 33 ft (10 m) above ground.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-32.13-H20"
-  },
-  {
-    "id": "ASCE7-22-32.13-T174",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 28
-    },
-    "title": "2. To convert tornado speeds from mi/h to m/s, multiply mapped values by 0.447.",
-    "description": "",
-    "data": {
-      "rule": "2. To convert tornado speeds from mi/h to m/s, multiply mapped values by 0.447.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-32.13-H14"
-  },
-  {
-    "id": "ASCE7-22-32.13-P34",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 28
-    },
-    "title": "Linear interpolation is permitted between contours. Point values (where shown) are provided to aid with interpolation.",
-    "description": "",
-    "data": {
-      "rule": "Linear interpolation is permitted between contours. Point values (where shown) are provided to aid with interpolation.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-32.13-T175",
     "type": "text_block",
     "source": {
@@ -6012,112 +3869,6 @@
       "qc_notes": null
     },
     "parent_id": "ASCE7-22-32.5-F32-5-2D1"
-  },
-  {
-    "id": "ASCE7-22-32.5-F32-5-2D1",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.5",
-      "citation": "Figure 32.5-2D",
-      "page": 28
-    },
-    "title": "Figure 32.5-2D. Tornado speeds for Risk Category IV buildings and other structures, for effective plan area of 40,000 ft2",
-    "description": "Figure 32.5-2D. Tornado speeds for Risk Category IV buildings and other structures, for effective plan area of 40,000 ft2",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 32.5-2D. Tornado speeds for Risk Category IV buildings and other structures, for effective plan area of 40,000 ft2",
-      "source_pdf_page": 28
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-32.13-P35",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 29
-    },
-    "title": "Islands, coastal areas, and land boundaries outside the last contour shall use the last tornado speed contour.",
-    "description": "",
-    "data": {
-      "rule": "Islands, coastal areas, and land boundaries outside the last contour shall use the last tornado speed contour.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-32.13-T189",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 29
-    },
-    "title": "Tornado speeds correspond to approximately a 1.7% probability of exceedance in 50 years (annual exceedance probability = 0.00033, MRI = 3,000 years).",
-    "description": "",
-    "data": {
-      "rule": "Tornado speeds correspond to approximately a 1.7% probability of exceedance in 50 years (annual exceedance probability = 0.00033, MRI = 3,000 years).",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-32.13-H20"
-  },
-  {
-    "id": "ASCE7-22-32.13-P36",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 29
-    },
-    "title": "6. Location-specific tornado speed is permitted to be determined using the ASCE Tornado Design Geodatabase, available at the ASCE 7 Hazard Tool (http://asce7hazardtool.online) or approved equivalent.",
-    "description": "",
-    "data": {
-      "rule": "6. Location-specific tornado speed is permitted to be determined using the ASCE Tornado Design Geodatabase, available at the ASCE 7 Hazard Tool (http://asce7hazardtool.online) or approved equivalent.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
   },
   {
     "id": "ASCE7-22-32.13-T190",
@@ -6149,114 +3900,6 @@
     "parent_id": "ASCE7-22-32.5-F32-5-2D1"
   },
   {
-    "id": "ASCE7-22-32.13-H15",
-    "type": "heading",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 30
-    },
-    "title": "Notes :",
-    "description": "",
-    "data": {
-      "rule": "Notes :",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-32.13-T195",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 30
-    },
-    "title": "1. Values are 3 s gust speeds in mi/h at 33 ft (10 m) above ground.",
-    "description": "",
-    "data": {
-      "rule": "1. Values are 3 s gust speeds in mi/h at 33 ft (10 m) above ground.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-32.13-H15"
-  },
-  {
-    "id": "ASCE7-22-32.13-T196",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 30
-    },
-    "title": "2. To convert tornado speeds from mi/h to m/s, multiply mapped values by 0.447.",
-    "description": "",
-    "data": {
-      "rule": "2. To convert tornado speeds from mi/h to m/s, multiply mapped values by 0.447.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-32.13-H15"
-  },
-  {
-    "id": "ASCE7-22-32.13-P37",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 30
-    },
-    "title": "3. Linear interpolation is permitted between contours. Point values (where shown) are provided to aid with interpolation.",
-    "description": "",
-    "data": {
-      "rule": "3. Linear interpolation is permitted between contours. Point values (where shown) are provided to aid with interpolation.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-32.13-T197",
     "type": "text_block",
     "source": {
@@ -6284,112 +3927,6 @@
       "qc_notes": null
     },
     "parent_id": "ASCE7-22-32.5-F32-5-2A1"
-  },
-  {
-    "id": "ASCE7-22-32.5-F32-5-21",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.5",
-      "citation": "Figure 32.5-2",
-      "page": 30
-    },
-    "title": "Figure 32.5-2E. Tornado speeds for Risk Category IV buildings and other structures, for effective plan area of 100,000 ft2",
-    "description": "Figure 32.5-2E. Tornado speeds for Risk Category IV buildings and other structures, for effective plan area of 100,000 ft2",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 32.5-2E. Tornado speeds for Risk Category IV buildings and other structures, for effective plan area of 100,000 ft2",
-      "source_pdf_page": 30
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-32.13-P38",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 31
-    },
-    "title": "Islands, coastal areas, and land boundaries outside the last contour shall use the last tornado speed contour.",
-    "description": "",
-    "data": {
-      "rule": "Islands, coastal areas, and land boundaries outside the last contour shall use the last tornado speed contour.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-32.13-T209",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 31
-    },
-    "title": "Tornado speeds correspond to approximately a 1.7% probability of exceedance in 50 years (annual exceedance probability = 0.00033, MRI = 3,000 years).",
-    "description": "",
-    "data": {
-      "rule": "Tornado speeds correspond to approximately a 1.7% probability of exceedance in 50 years (annual exceedance probability = 0.00033, MRI = 3,000 years).",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-32.13-H20"
-  },
-  {
-    "id": "ASCE7-22-32.13-P39",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 31
-    },
-    "title": "Location-specific tornado speed is permitted to be determined using the ASCE Tornado Design Geodatabase, available at the ASCE 7 Hazard Tool (http://asce7hazardtool.online) or approved equivalent.",
-    "description": "",
-    "data": {
-      "rule": "Location-specific tornado speed is permitted to be determined using the ASCE Tornado Design Geodatabase, available at the ASCE 7 Hazard Tool (http://asce7hazardtool.online) or approved equivalent.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
   },
   {
     "id": "ASCE7-22-32.13-T210",
@@ -6421,60 +3958,6 @@
     "parent_id": "ASCE7-22-32.5-F32-5-2A1"
   },
   {
-    "id": "ASCE7-22-32.13-T215",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 32
-    },
-    "title": "1. Values are 3 s gust speeds in mi/h at 33 ft (10 m) above ground.",
-    "description": "",
-    "data": {
-      "rule": "1. Values are 3 s gust speeds in mi/h at 33 ft (10 m) above ground.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-32.13-P39"
-  },
-  {
-    "id": "ASCE7-22-32.13-T216",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 32
-    },
-    "title": "2. To convert tornado speeds from mi/h to m/s, multiply mapped values by 0.447.",
-    "description": "",
-    "data": {
-      "rule": "2. To convert tornado speeds from mi/h to m/s, multiply mapped values by 0.447.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-32.13-P39"
-  },
-  {
     "id": "ASCE7-22-32.13-H16",
     "type": "heading",
     "source": {
@@ -6488,33 +3971,6 @@
     "description": "",
     "data": {
       "rule": "Notes : 50 60 70",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-32.13-P40",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 32
-    },
-    "title": "Linear interpolation is permitted between contours. Point values (where shown) are provided to aid with interpolation.",
-    "description": "",
-    "data": {
-      "rule": "Linear interpolation is permitted between contours. Point values (where shown) are provided to aid with interpolation.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -6556,87 +4012,6 @@
       "qc_notes": null
     },
     "parent_id": "ASCE7-22-32.5-F32-5-2A1"
-  },
-  {
-    "id": "ASCE7-22-32.13-P41",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 33
-    },
-    "title": "Islands, coastal areas, and land boundaries outside the last contour shall use the last tornado speed contour.",
-    "description": "",
-    "data": {
-      "rule": "Islands, coastal areas, and land boundaries outside the last contour shall use the last tornado speed contour.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-32.13-T234",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 33
-    },
-    "title": "Tornado speeds correspond to approximately a 1.7% probability of exceedance in 50 years (annual exceedance probability = 0.00033, MRI = 3,000 years).",
-    "description": "",
-    "data": {
-      "rule": "Tornado speeds correspond to approximately a 1.7% probability of exceedance in 50 years (annual exceedance probability = 0.00033, MRI = 3,000 years).",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-32.13-H20"
-  },
-  {
-    "id": "ASCE7-22-32.13-P42",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 33
-    },
-    "title": "Location-specific tornado speed is permitted to be determined using the ASCE Tornado Design Geodatabase, available at the ASCE 7 Hazard Tool (http://asce7hazardtool.online) or approved equivalent.",
-    "description": "",
-    "data": {
-      "rule": "Location-specific tornado speed is permitted to be determined using the ASCE Tornado Design Geodatabase, available at the ASCE 7 Hazard Tool (http://asce7hazardtool.online) or approved equivalent.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
   },
   {
     "id": "ASCE7-22-32.13-T235",
@@ -6695,87 +4070,6 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-32.13-T241",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 34
-    },
-    "title": "1. Values are 3 s gust speeds in mi/h at 33 ft (10 m) above ground.",
-    "description": "",
-    "data": {
-      "rule": "1. Values are 3 s gust speeds in mi/h at 33 ft (10 m) above ground.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-32.13-H17"
-  },
-  {
-    "id": "ASCE7-22-32.13-T242",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 34
-    },
-    "title": "2. To convert tornado speeds from mi/h to m/s, multiply mapped values by 0.447.",
-    "description": "",
-    "data": {
-      "rule": "2. To convert tornado speeds from mi/h to m/s, multiply mapped values by 0.447.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-32.13-H17"
-  },
-  {
-    "id": "ASCE7-22-32.13-P43",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 34
-    },
-    "title": "3. Linear interpolation is permitted between contours. Point values (where shown) are provided to aid with interpolation.",
-    "description": "",
-    "data": {
-      "rule": "3. Linear interpolation is permitted between contours. Point values (where shown) are provided to aid with interpolation. 50 60 \u20bd 70' 80 90",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-32.13-T248",
     "type": "text_block",
     "source": {
@@ -6803,87 +4097,6 @@
       "qc_notes": null
     },
     "parent_id": "ASCE7-22-32.5-F32-5-2A1"
-  },
-  {
-    "id": "ASCE7-22-32.13-P44",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 35
-    },
-    "title": "Islands, coastal areas, and land boundaries outside the last contour shall use the last tornado speed contour.",
-    "description": "",
-    "data": {
-      "rule": "Islands, coastal areas, and land boundaries outside the last contour shall use the last tornado speed contour.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-32.13-T263",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 35
-    },
-    "title": "Tornado speeds correspond to approximately a 1.7% probability of exceedance in 50 years (annual exceedance probability = 0.00033, MRI = 3,000 years).",
-    "description": "",
-    "data": {
-      "rule": "Tornado speeds correspond to approximately a 1.7% probability of exceedance in 50 years (annual exceedance probability = 0.00033, MRI = 3,000 years).",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-32.13-H20"
-  },
-  {
-    "id": "ASCE7-22-32.13-P45",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 35
-    },
-    "title": "Location-specific tornado speed is permitted to be determined using the ASCE Tornado Design Geodatabase, available at the ASCE 7 Hazard Tool (http://asce7hazardtool.online) or approved equivalent.",
-    "description": "",
-    "data": {
-      "rule": "Location-specific tornado speed is permitted to be determined using the ASCE Tornado Design Geodatabase, available at the ASCE 7 Hazard Tool (http://asce7hazardtool.online) or approved equivalent.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
   },
   {
     "id": "ASCE7-22-32.13-T264",
@@ -6942,33 +4155,6 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-32.13-T271",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 36
-    },
-    "title": "1. Values are 3 s gust speeds in mi/h at 33 ft (10 m) above ground.",
-    "description": "",
-    "data": {
-      "rule": "1. Values are 3 s gust speeds in mi/h at 33 ft (10 m) above ground.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-32.13-H18"
-  },
-  {
     "id": "ASCE7-22-32.13-T272",
     "type": "text_block",
     "source": {
@@ -6994,33 +4180,6 @@
       "qc_notes": null
     },
     "parent_id": "ASCE7-22-32.13-H18"
-  },
-  {
-    "id": "ASCE7-22-32.13-P46",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 36
-    },
-    "title": "Linear interpolation is permitted between contours. Point values (where shown) are provided to aid with interpolation.",
-    "description": "",
-    "data": {
-      "rule": "Linear interpolation is permitted between contours. Point values (where shown) are provided to aid with interpolation.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
   },
   {
     "id": "ASCE7-22-32.13-T279",
@@ -7050,87 +4209,6 @@
       "qc_notes": null
     },
     "parent_id": "ASCE7-22-32.5-F32-5-2A1"
-  },
-  {
-    "id": "ASCE7-22-32.13-P47",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 37
-    },
-    "title": "Islands, coastal areas, and land boundaries outside the last contour shall use the last tornado speed contour.",
-    "description": "",
-    "data": {
-      "rule": "Islands, coastal areas, and land boundaries outside the last contour shall use the last tornado speed contour.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-32.13-T300",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 37
-    },
-    "title": "Tornado speeds correspond to approximately a 1.7% probability of exceedance in 50 years (annual exceedance probability = 0.00033, MRI = 3,000 years).",
-    "description": "",
-    "data": {
-      "rule": "Tornado speeds correspond to approximately a 1.7% probability of exceedance in 50 years (annual exceedance probability = 0.00033, MRI = 3,000 years).",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-32.13-H20"
-  },
-  {
-    "id": "ASCE7-22-32.13-P48",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 37
-    },
-    "title": "Location-specific tornado speed is permitted to be determined using the ASCE Tornado Design Geodatabase, available at the ASCE 7 Hazard Tool (http://asce7hazardtool.online) or approved equivalent.",
-    "description": "",
-    "data": {
-      "rule": "Location-specific tornado speed is permitted to be determined using the ASCE Tornado Design Geodatabase, available at the ASCE 7 Hazard Tool (http://asce7hazardtool.online) or approved equivalent.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
   },
   {
     "id": "ASCE7-22-32.13-T301",
@@ -7218,33 +4296,6 @@
       "qc_notes": null
     },
     "parent_id": "ASCE7-22-32.13-H20"
-  },
-  {
-    "id": "ASCE7-22-32.13-H19",
-    "type": "heading",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 38
-    },
-    "title": "Notes :",
-    "description": "",
-    "data": {
-      "rule": "Notes :",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
   },
   {
     "id": "ASCE7-22-32.13-P49",
@@ -7387,33 +4438,6 @@
       "qc_notes": null
     },
     "parent_id": "ASCE7-22-32.13-H20"
-  },
-  {
-    "id": "ASCE7-22-32.13-H20",
-    "type": "heading",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.13",
-      "citation": "Section 32.13",
-      "page": 38
-    },
-    "title": "Notes :",
-    "description": "",
-    "data": {
-      "rule": "Notes :",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
   },
   {
     "id": "ASCE7-22-32.13-T313",
@@ -7601,135 +4625,6 @@
         {
           "Structure Type": "Arched roofs, circular domes, and all other structures",
           "Tornado Directionality Factor, K dT": "Use value from Table 26.6-1"
-        }
-      ]
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "docling"
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-32.6-T32-6-12",
-    "type": "table",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.6",
-      "citation": "Table 32.6-1",
-      "page": 38
-    },
-    "title": "Table 32.6-1. Tornado Directionality Factor, KdT .",
-    "description": "",
-    "data": {
-      "columns": [
-        {
-          "name": "Height above Ground Level, z or h",
-          "unit": null
-        },
-        {
-          "name": "col_1",
-          "unit": null
-        },
-        {
-          "name": "K zTor and K hTor",
-          "unit": null
-        }
-      ],
-      "rows": [
-        {
-          "Height above Ground Level, z or h": "ft",
-          "col_1": "m",
-          "K zTor and K hTor": ""
-        },
-        {
-          "Height above Ground Level, z or h": "0 - 200",
-          "col_1": "0 - 61.0",
-          "K zTor and K hTor": 1.0
-        },
-        {
-          "Height above Ground Level, z or h": 250,
-          "col_1": 76.2,
-          "K zTor and K hTor": 0.96
-        },
-        {
-          "Height above Ground Level, z or h": 300,
-          "col_1": 91.4,
-          "K zTor and K hTor": 0.92
-        },
-        {
-          "Height above Ground Level, z or h": "> 328",
-          "col_1": "> 100",
-          "K zTor and K hTor": 0.9
-        }
-      ]
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "docling"
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-32.6-T32-6-13",
-    "type": "table",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.6",
-      "citation": "Table 32.6-1",
-      "page": 38
-    },
-    "title": "Table 32.6-1. Tornado Directionality Factor, KdT .",
-    "description": "",
-    "data": {
-      "columns": [
-        {
-          "name": "Enclosure Classification",
-          "unit": null
-        },
-        {
-          "name": "Criteria for Enclosure Classification",
-          "unit": null
-        },
-        {
-          "name": "Internal Pressure Combined with Atmospheric Pressure Change",
-          "unit": null
-        },
-        {
-          "name": "Tornado Internal Pressure Coefficient, (GC piT )",
-          "unit": null
-        }
-      ],
-      "rows": [
-        {
-          "Enclosure Classification": "Sealed other structures Enclosed buildings and other structures",
-          "Criteria for Enclosure Classification": "See Section 32.2 See Table 26.13-1",
-          "Internal Pressure Combined with Atmospheric Pressure Change": "Extreme High",
-          "Tornado Internal Pressure Coefficient, (GC piT )": "+1.0 +0.55 - 0.18"
-        },
-        {
-          "Enclosure Classification": "Partially enclosed buildings and other structures",
-          "Criteria for Enclosure Classification": "See Table 26.13-1",
-          "Internal Pressure Combined with Atmospheric Pressure Change": "High",
-          "Tornado Internal Pressure Coefficient, (GC piT )": "\u00fe 0.55 - 0.55"
-        },
-        {
-          "Enclosure Classification": "Partially open buildings and other structures",
-          "Criteria for Enclosure Classification": "See Table 26.13-1",
-          "Internal Pressure Combined with Atmospheric Pressure Change": "Moderate",
-          "Tornado Internal Pressure Coefficient, (GC piT )": "\u00fe 0.18 - 0.18"
-        },
-        {
-          "Enclosure Classification": "Open buildings and other structures",
-          "Criteria for Enclosure Classification": "See Table 26.13-1",
-          "Internal Pressure Combined with Atmospheric Pressure Change": "Negligible",
-          "Tornado Internal Pressure Coefficient, (GC piT )": 0.0
         }
       ]
     },
@@ -8363,13 +5258,13 @@
           "description": "Design pressure to be used in determination of wind loads for buildings, lb/ft 2 (N/m 2 )",
           "source": "ASCE7-22-26.3-T78"
         },
-        "q": {
-          "description": "qzT For external pressure on all walls evaluated at height z above the ground, lb/ft 2 (N/m 2 );",
-          "source": "ASCE7-22-32.17.2-T1"
-        },
         "G": {
-          "description": "Lower-bound limit on deterministic maximum considered earthquake geometric mean peak ground acceleration (Table 21.2-1)",
-          "source": "ASCE7-22-11.3-T77"
+          "description": "Gust-effect factor from Section 26.11; and",
+          "source": "ASCE7-22-27.3.2-T2"
+        },
+        "q": {
+          "description": "Discharge per unit width over the overtopped structure, as illustrated in Figure 6.12-6 and calculated in accordance with Equation (6.12-5); and",
+          "source": "ASCE7-22-6.12.2.4.2-T7"
         }
       }
     },
@@ -8396,33 +5291,30 @@
     "data": {
       "expression": "F T =q zT G T K dT C f A s \u00f0lb\u00de (32.16-1)",
       "parameters": {
-        "f": {
-          "description": "Radius of the circular foundation;",
-          "source": "ASCE7-22-19.3.4-T1"
-        },
         "A": {
-          "description": "Effective wind area, ft 2 (m 2 )",
-          "source": "ASCE7-22-26.3-T2"
+          "description": "Effective wind area of element, ft 2 (m 2 )",
+          "source": "ASCE7-22-29.4.5.2-T4"
         },
         "G": {
-          "description": "Lower-bound limit on deterministic maximum considered earthquake geometric mean peak ground acceleration (Table 21.2-1)",
-          "source": "ASCE7-22-11.3-T77"
-        },
-        "T": {
-          "description": "Fundamental period as determined in Chapter 19",
-          "source": "ASCE7-22-11.3-T105"
-        },
-        "s": {
-          "description": "Ultimate tensile strength of the bolt, stud, or insert leg wires, psi (MPa). For ASTM A307 bolts or ASTM A108 studs, it is permitted to be assumed to be 60,000 psi (415 MPa)",
-          "source": "ASCE7-22-11.3-P2"
+          "description": "Gust-effect factor from Section 26.11; and",
+          "source": "ASCE7-22-27.3.2-T2"
         },
         "F": {
-          "description": "0.12 \u00d7 slope, with slope expressed in percentage points) and, for an arch or dome, F is the rise-to-span ratio multiplied by 32",
-          "source": "ASCE7-22-4.8.2-T4"
+          "description": "1.0 for buildings that are one story above grade plane, 1.1 for buildings that are two stories above grade plane, and 1.2 for buildings that are three stories above grade plane;",
+          "source": "ASCE7-22-12.14.8.1-T1"
+        },
+        "s": {
+          "description": "Vertical dimension of the solid freestanding wall or solid sign from Figure 29.3-1",
+          "unit": "ft",
+          "source": "ASCE7-22-26.3-T92"
+        },
+        "T": {
+          "description": "Cumulative effect of self-straining forces and effects arising from contraction or expansion resulting from environmental or operational temperature changes, shrinkage, moisture changes, creep in component materials, movement caused by differential settlement, or combinations thereof",
+          "source": "ASCE7-22-2.2-T13"
         },
         "q": {
-          "description": "qzT For external pressure on all walls evaluated at height z above the ground, lb/ft 2 (N/m 2 );",
-          "source": "ASCE7-22-32.17.2-T1"
+          "description": "Discharge per unit width over the overtopped structure, as illustrated in Figure 6.12-6 and calculated in accordance with Equation (6.12-5); and",
+          "source": "ASCE7-22-6.12.2.4.2-T7"
         }
       }
     },
@@ -9372,8 +6264,12 @@
       "expression": "F vT =q hT K dT K vT \u00f0GC r \u00deA r \u00f0N\u00de (32.16-4.SI) p =q K K \u00f0GC \u00de\u00f0\u03b3 \u00de\u00f0\u03b3 \u00de\u00f0lb\u2215ft2\u00de (32.16-7)",
       "parameters": {
         "A": {
-          "description": "Effective wind area, ft 2 (m 2 )",
-          "source": "ASCE7-22-26.3-T2"
+          "description": "Effective wind area of element, ft 2 (m 2 )",
+          "source": "ASCE7-22-29.4.5.2-T4"
+        },
+        "r": {
+          "description": "Lateral slenderness ratio of a compression member measured in terms of its effective length, KL , and the least radius of gyration of the member cross section, r",
+          "source": "ASCE7-22-11.3-T63"
         },
         "N": {
           "description": "Average fi eld standard penetration resistance for the top 100 ft (30 m) (Sections 20.3.3 and 20.4.2)",
@@ -9384,16 +6280,16 @@
           "source": "ASCE7-22-26.3-T78"
         },
         "F": {
-          "description": "0.12 \u00d7 slope, with slope expressed in percentage points) and, for an arch or dome, F is the rise-to-span ratio multiplied by 32",
-          "source": "ASCE7-22-4.8.2-T4"
+          "description": "1.0 for buildings that are one story above grade plane, 1.1 for buildings that are two stories above grade plane, and 1.2 for buildings that are three stories above grade plane;",
+          "source": "ASCE7-22-12.14.8.1-T1"
+        },
+        "\u03b3": {
+          "description": "Average unit weight of soil, lb/ft 3 (N/m 3 )",
+          "source": "ASCE7-22-11.3-T145"
         },
         "q": {
-          "description": "qzT For external pressure on all walls evaluated at height z above the ground, lb/ft 2 (N/m 2 );",
-          "source": "ASCE7-22-32.17.2-T1"
-        },
-        "r": {
-          "description": "Lateral slenderness ratio of a compression member measured in terms of its effective length, KL , and the least radius of gyration of the member cross section, r",
-          "source": "ASCE7-22-11.3-T63"
+          "description": "Discharge per unit width over the overtopped structure, as illustrated in Figure 6.12-6 and calculated in accordance with Equation (6.12-5); and",
+          "source": "ASCE7-22-6.12.2.4.2-T7"
         }
       }
     },
@@ -9425,8 +6321,8 @@
           "source": "ASCE7-22-26.3-T78"
         },
         "q": {
-          "description": "qzT For external pressure on all walls evaluated at height z above the ground, lb/ft 2 (N/m 2 );",
-          "source": "ASCE7-22-32.17.2-T1"
+          "description": "Discharge per unit width over the overtopped structure, as illustrated in Figure 6.12-6 and calculated in accordance with Equation (6.12-5); and",
+          "source": "ASCE7-22-6.12.2.4.2-T7"
         }
       }
     },
@@ -9458,8 +6354,8 @@
           "source": "ASCE7-22-26.3-T78"
         },
         "q": {
-          "description": "qzT For external pressure on all walls evaluated at height z above the ground, lb/ft 2 (N/m 2 );",
-          "source": "ASCE7-22-32.17.2-T1"
+          "description": "Discharge per unit width over the overtopped structure, as illustrated in Figure 6.12-6 and calculated in accordance with Equation (6.12-5); and",
+          "source": "ASCE7-22-6.12.2.4.2-T7"
         }
       }
     },
@@ -9501,35 +6397,6 @@
     "parent_id": "ASCE7-22-32.16.3.2-H1"
   },
   {
-    "id": "ASCE7-22-32.16.3.2-T7",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.16.3.2",
-      "citation": "Section 32.16.3.2",
-      "page": 41
-    },
-    "title": "KdT = Tornado directionality factor from Section 32.6,",
-    "description": "",
-    "data": {
-      "rule": "KdT = Tornado directionality factor from Section 32.6,",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [
-      "ASCE7-22-32.6-H1"
-    ],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-32.16.3.2-H1"
-  },
-  {
     "id": "ASCE7-22-32.16.3.2-T8",
     "type": "text_block",
     "source": {
@@ -9551,33 +6418,6 @@
     "cross_references": [
       "ASCE7-22-32.14-H1"
     ],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-32.16.3.2-H1"
-  },
-  {
-    "id": "ASCE7-22-32.16.3.2-T9",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 32,
-      "section": "32.16.3.2",
-      "citation": "Section 32.16.3.2",
-      "page": 41
-    },
-    "title": "\u00f0 GCr \u00de = Product of external pressure coef fi cient and gust-effect factor from Section 29.4.1, and",
-    "description": "",
-    "data": {
-      "rule": "\u00f0 GCr \u00de = Product of external pressure coef fi cient and gust-effect factor from Section 29.4.1, and",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -10402,8 +7242,8 @@
           "source": "ASCE7-22-26.3-T78"
         },
         "q": {
-          "description": "qzT For external pressure on all walls evaluated at height z above the ground, lb/ft 2 (N/m 2 );",
-          "source": "ASCE7-22-32.17.2-T1"
+          "description": "Discharge per unit width over the overtopped structure, as illustrated in Figure 6.12-6 and calculated in accordance with Equation (6.12-5); and",
+          "source": "ASCE7-22-6.12.2.4.2-T7"
         }
       }
     },
@@ -10435,8 +7275,8 @@
           "source": "ASCE7-22-26.3-T78"
         },
         "q": {
-          "description": "qzT For external pressure on all walls evaluated at height z above the ground, lb/ft 2 (N/m 2 );",
-          "source": "ASCE7-22-32.17.2-T1"
+          "description": "Discharge per unit width over the overtopped structure, as illustrated in Figure 6.12-6 and calculated in accordance with Equation (6.12-5); and",
+          "source": "ASCE7-22-6.12.2.4.2-T7"
         }
       }
     },
@@ -10463,25 +7303,25 @@
     "data": {
       "expression": "p T =q hT G T K dT C N \u00f0lb\u2215ft2\u00de (32.17-3)",
       "parameters": {
-        "T": {
-          "description": "Fundamental period as determined in Chapter 19",
-          "source": "ASCE7-22-11.3-T105"
-        },
         "p": {
           "description": "Design pressure to be used in determination of wind loads for buildings, lb/ft 2 (N/m 2 )",
           "source": "ASCE7-22-26.3-T78"
+        },
+        "G": {
+          "description": "Gust-effect factor from Section 26.11; and",
+          "source": "ASCE7-22-27.3.2-T2"
         },
         "N": {
           "description": "Average fi eld standard penetration resistance for the top 100 ft (30 m) (Sections 20.3.3 and 20.4.2)",
           "source": "ASCE7-22-11.3-T73"
         },
-        "q": {
-          "description": "qzT For external pressure on all walls evaluated at height z above the ground, lb/ft 2 (N/m 2 );",
-          "source": "ASCE7-22-32.17.2-T1"
+        "T": {
+          "description": "Cumulative effect of self-straining forces and effects arising from contraction or expansion resulting from environmental or operational temperature changes, shrinkage, moisture changes, creep in component materials, movement caused by differential settlement, or combinations thereof",
+          "source": "ASCE7-22-2.2-T13"
         },
-        "G": {
-          "description": "Lower-bound limit on deterministic maximum considered earthquake geometric mean peak ground acceleration (Table 21.2-1)",
-          "source": "ASCE7-22-11.3-T77"
+        "q": {
+          "description": "Discharge per unit width over the overtopped structure, as illustrated in Figure 6.12-6 and calculated in accordance with Equation (6.12-5); and",
+          "source": "ASCE7-22-6.12.2.4.2-T7"
         }
       }
     },
@@ -10513,8 +7353,8 @@
           "source": "ASCE7-22-26.3-T78"
         },
         "q": {
-          "description": "qzT For external pressure on all walls evaluated at height z above the ground, lb/ft 2 (N/m 2 );",
-          "source": "ASCE7-22-32.17.2-T1"
+          "description": "Discharge per unit width over the overtopped structure, as illustrated in Figure 6.12-6 and calculated in accordance with Equation (6.12-5); and",
+          "source": "ASCE7-22-6.12.2.4.2-T7"
         }
       }
     },

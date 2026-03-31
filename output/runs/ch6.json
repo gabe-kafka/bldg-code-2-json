@@ -2255,12 +2255,12 @@
       "expression": "PORE PRESSURE SOFTENING PARAMETER, \u039b T: A dimensionless parameter de fi ned by Equation (6.12-1)",
       "parameters": {
         "A": {
-          "description": "Effective wind area, ft 2 (m 2 )",
-          "source": "ASCE7-22-26.3-T2"
+          "description": "Effective wind area of element, ft 2 (m 2 )",
+          "source": "ASCE7-22-29.4.5.2-T4"
         },
         "T": {
-          "description": "Fundamental period as determined in Chapter 19",
-          "source": "ASCE7-22-11.3-T105"
+          "description": "Cumulative effect of self-straining forces and effects arising from contraction or expansion resulting from environmental or operational temperature changes, shrinkage, moisture changes, creep in component materials, movement caused by differential settlement, or combinations thereof",
+          "source": "ASCE7-22-2.2-T13"
         }
       }
     },
@@ -4178,19 +4178,17 @@
     "data": {
       "expression": "R\u2215H =1.5 (6.5-2a)",
       "parameters": {
-        "H": {
-          "description": "Height of hill, ridge, or escarpment in Figure 26.8-1",
-          "unit": "ft",
-          "source": "ASCE7-22-26.3-T49"
-        },
         "a": {
-          "description": "Approximate lower bound natural frequency from Section 26.11.2",
-          "unit": "Hz",
-          "source": "ASCE7-22-26.3-T77"
+          "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
+          "source": "ASCE7-22-28.3.7-T22"
+        },
+        "H": {
+          "description": "Load due to lateral earth pressure (including lateral earth pressure from fi xed or moving surcharge loads), ground water pressure, or pressure of bulk materials",
+          "source": "ASCE7-22-2.2-T7"
         },
         "R": {
-          "description": "Response modi fi cation coef fi cient as given in Tables 12.2-1, 12.14-1, 15.4-1, and 15.4-2",
-          "source": "ASCE7-22-11.3-T82"
+          "description": "Response modi fi cation factor for the building or nonbuilding structure supporting the component, from Table 12.2-1, 15.4-1, or 15.4-2; and",
+          "source": "ASCE7-22-13.3.1.2-T3"
         }
       }
     },
@@ -5422,8 +5420,8 @@
       "expression": "100 100 (6.5-2b)",
       "parameters": {
         "b": {
-          "description": "Mean hourly wind speed factor in Equation (26.1116), from Table 26.11-1",
-          "source": "ASCE7-22-26.3-T15"
+          "description": "Shortest plan dimension of the structure [ft (mm)] measured perpendicular to d ;",
+          "source": "ASCE7-22-17.5.3.3-T5"
         }
       }
     },
@@ -5451,17 +5449,16 @@
       "expression": "R\u2215H =4.0 (6.5-2c)",
       "parameters": {
         "H": {
-          "description": "Height of hill, ridge, or escarpment in Figure 26.8-1",
-          "unit": "ft",
-          "source": "ASCE7-22-26.3-T49"
+          "description": "Load due to lateral earth pressure (including lateral earth pressure from fi xed or moving surcharge loads), ground water pressure, or pressure of bulk materials",
+          "source": "ASCE7-22-2.2-T7"
+        },
+        "R": {
+          "description": "Response modi fi cation factor for the building or nonbuilding structure supporting the component, from Table 12.2-1, 15.4-1, or 15.4-2; and",
+          "source": "ASCE7-22-13.3.1.2-T3"
         },
         "c": {
           "description": "Distance from the neutral axis of a fl exural member to the fi ber of maximum compressive strain, in. (mm)",
           "source": "ASCE7-22-11.3-T25"
-        },
-        "R": {
-          "description": "Response modi fi cation coef fi cient as given in Tables 12.2-1, 12.14-1, 15.4-1, and 15.4-2",
-          "source": "ASCE7-22-11.3-T82"
         }
       }
     },
@@ -5489,8 +5486,8 @@
       "expression": "100 100 (6.5-2d)",
       "parameters": {
         "d": {
-          "description": "Design ice thickness from Equation (10.4-5), in. (mm)",
-          "source": "ASCE7-22-10.3-T10"
+          "description": "Longest plan dimension of the structure, ft (mm) measured perpendicular to b",
+          "source": "ASCE7-22-17.1.2-T4"
         }
       }
     },
@@ -5518,17 +5515,16 @@
       "expression": "R\u2215H =2.5 (6.5-2e)",
       "parameters": {
         "H": {
-          "description": "Height of hill, ridge, or escarpment in Figure 26.8-1",
-          "unit": "ft",
-          "source": "ASCE7-22-26.3-T49"
-        },
-        "e": {
-          "description": "Elastic displacement computed under design earthquake forces (Section 12.8.6)",
-          "source": "ASCE7-22-11.3-T152"
+          "description": "Load due to lateral earth pressure (including lateral earth pressure from fi xed or moving surcharge loads), ground water pressure, or pressure of bulk materials",
+          "source": "ASCE7-22-2.2-T7"
         },
         "R": {
-          "description": "Response modi fi cation coef fi cient as given in Tables 12.2-1, 12.14-1, 15.4-1, and 15.4-2",
-          "source": "ASCE7-22-11.3-T82"
+          "description": "Response modi fi cation factor for the building or nonbuilding structure supporting the component, from Table 12.2-1, 15.4-1, or 15.4-2; and",
+          "source": "ASCE7-22-13.3.1.2-T3"
+        },
+        "e": {
+          "description": "Actual eccentricity measured in plan between the center of mass of the structure above the isolation interface and the center of rigidity of the isolation system, plus accidental eccentricity [ft (mm)], taken as 5% of the longest plan dimension of the structure perpendicular to the direction of force under consideration;",
+          "source": "ASCE7-22-17.5.3.3-T4"
         }
       }
     },
@@ -6211,13 +6207,14 @@
     "data": {
       "expression": "s i = Friction slope of the energy grade line between points i and i -1, is calculated per Equation (6.6-2)",
       "parameters": {
-        "s": {
-          "description": "Ultimate tensile strength of the bolt, stud, or insert leg wires, psi (MPa). For ASTM A307 bolts or ASTM A108 studs, it is permitted to be assumed to be 60,000 psi (415 MPa)",
-          "source": "ASCE7-22-11.3-P2"
-        },
         "i": {
           "description": "Building level referred to by a subscript i ;",
           "source": "ASCE7-22-11.3-T59"
+        },
+        "s": {
+          "description": "Vertical dimension of the solid freestanding wall or solid sign from Figure 29.3-1",
+          "unit": "ft",
+          "source": "ASCE7-22-26.3-T92"
         }
       }
     },
@@ -6914,14 +6911,13 @@
     "data": {
       "expression": "Velocity shall be determined as a function of inundation depth, in accordance with the prescribed value of the Froude number calculated according to Equation (6.6-3)",
       "parameters": {
-        "a": {
-          "description": "Approximate lower bound natural frequency from Section 26.11.2",
-          "unit": "Hz",
-          "source": "ASCE7-22-26.3-T77"
-        },
         "number": {
-          "description": "u \u2215 ffiffiffiffi ffi gh p F",
-          "source": "ASCE7-22-6.3-T32"
+          "description": "u \u2215 \u00f0 gh \u00de 1 \u2215 2 at point i ;",
+          "source": "ASCE7-22-6.6.2-T5"
+        },
+        "a": {
+          "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
+          "source": "ASCE7-22-28.3.7-T22"
         }
       }
     },
@@ -6948,13 +6944,17 @@
     "data": {
       "expression": "locations along the topographic transect where the average slope, \u03c6 i, 200 , is negative, the velocity determined in accordance with Equation (6.6-3) shall be increased by an amount \u0394 ui per Equation (6.6-4)",
       "parameters": {
-        "ui": {
-          "description": "Undrained shear strength of any cohesive soil layer i [between 0 and 100 ft (0 and 30 m)]; see Section 20.4.3",
-          "source": "ASCE7-22-11.3-T102"
+        "\u0394": {
+          "description": "Design story drift as determined in Section 12.8.6 \u0394",
+          "source": "ASCE7-22-11.3-T144"
         },
         "i": {
           "description": "Building level referred to by a subscript i ;",
           "source": "ASCE7-22-11.3-T59"
+        },
+        "ui": {
+          "description": "Maximum fl ow velocity at point i ;",
+          "source": "ASCE7-22-6.6.2-T4"
         }
       }
     },
@@ -7203,31 +7203,6 @@
     "data": {
       "figure_type": "other",
       "description": "Figure 6.7-1. Extent of ASCE Tsunami Design Geodatabase of geocoded reference points of Offshore Tsunami Amplitude,",
-      "source_pdf_page": 9
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-6.7-F6-7-21",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 6,
-      "section": "6.7",
-      "citation": "Figure 6.7-2",
-      "page": 9
-    },
-    "title": "Figure 6.7-2. Illustration of tsunami offshore incident waveform parameters at 328 ft (100 m) depth with N = 2.",
-    "description": "Figure 6.7-2. Illustration of tsunami offshore incident waveform parameters at 328 ft (100 m) depth with N = 2.",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 6.7-2. Illustration of tsunami offshore incident waveform parameters at 328 ft (100 m) depth with N = 2.",
       "source_pdf_page": 9
     },
     "cross_references": [],
@@ -7939,94 +7914,6 @@
         {
           "Subduction Zone": "Kamchatka-Kurile and Japan Trench",
           "Maximum Moment Magnitude, M w": 9.4
-        }
-      ]
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "docling"
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-6.7-T6-7-12",
-    "type": "table",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 6,
-      "section": "6.7",
-      "citation": "Table 6.7-1",
-      "page": 10
-    },
-    "title": "The possibility of negative and positive leading amplitudes of the tsunami shall be considered, with the waveform given by Equation (6.7-1) using the values of parameters given by the ASCE Tsunami Des",
-    "description": "",
-    "data": {
-      "columns": [
-        {
-          "name": "Region",
-          "unit": null
-        },
-        {
-          "name": "a 1",
-          "unit": null
-        },
-        {
-          "name": "a 2 a",
-          "unit": null
-        },
-        {
-          "name": "T TSU b",
-          "unit": null
-        },
-        {
-          "name": "N",
-          "unit": null
-        }
-      ],
-      "rows": [
-        {
-          "Region": "Washington",
-          "a 1": "1.0 H T",
-          "a 2 a": "- 0.61 to - 0.82 H T",
-          "T TSU b": "30 to 40 min",
-          "N": 2
-        },
-        {
-          "Region": "Oregon",
-          "a 1": "1.0 H T",
-          "a 2 a": "- 0.55 to - 0.67 H T",
-          "T TSU b": "30 to 45 min",
-          "N": 2
-        },
-        {
-          "Region": "California - north inclusive of Cape Mendocino",
-          "a 1": "1.0 H T",
-          "a 2 a": "- 0.55 to - 0.67 H T",
-          "T TSU b": "25 to 35 min",
-          "N": 2
-        },
-        {
-          "Region": "California - south of Cape Mendocino",
-          "a 1": "1.0 H T",
-          "a 2 a": "- 0.43 to - 0.67 H T",
-          "T TSU b": "25 to 35 min",
-          "N": 3
-        },
-        {
-          "Region": "Alaska",
-          "a 1": "1.0 H T",
-          "a 2 a": "- 0.55 to - 0.82 H T",
-          "T TSU b": "20 to 40 min",
-          "N": 2
-        },
-        {
-          "Region": "Hawaii",
-          "a 1": "1.0 H T",
-          "a 2 a": "- 0.67 to - 1.0 H T",
-          "T TSU b": "25 to 30 min",
-          "N": 3
         }
       ]
     },
@@ -9585,31 +9472,6 @@
     "parent_id": "ASCE7-22-6.7.6-H1"
   },
   {
-    "id": "ASCE7-22-6.7-F6-7-31",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 6,
-      "section": "6.7",
-      "citation": "Figure 6.7-3",
-      "page": 13
-    },
-    "title": "Figure 6.7-3. Earthquake-induced regional ground subsidence (in feet) associated with a Maximum Considered",
-    "description": "Figure 6.7-3. Earthquake-induced regional ground subsidence (in feet) associated with a Maximum Considered",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 6.7-3. Earthquake-induced regional ground subsidence (in feet) associated with a Maximum Considered",
-      "source_pdf_page": 13
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-6.8-E6-8-1b1",
     "type": "formula",
     "source": {
@@ -9624,32 +9486,30 @@
     "data": {
       "expression": "Other Structures Tsunami Risk Category III Critical 1.2D\u00feF \u00fe0.5L\u00fe0.2S\u00feH (6.8-1b)",
       "parameters": {
-        "L": {
-          "description": "Horizontal dimension of a building measured parallel to the wind direction",
+        "S": {
+          "description": "Center-to-center row spacing for ground-mounted solar panels in Figure 29.4-9",
           "unit": "ft",
-          "source": "ASCE7-22-26.3-T64"
+          "source": "ASCE7-22-26.3-T90"
         },
-        "b": {
-          "description": "Mean hourly wind speed factor in Equation (26.1116), from Table 26.11-1",
-          "source": "ASCE7-22-26.3-T15"
+        "L": {
+          "description": "Inside length of a rectangular tank, parallel to the direction of the earthquake force being investigated;",
+          "source": "ASCE7-22-15.7.6.2-T3"
         },
         "H": {
-          "description": "Height of hill, ridge, or escarpment in Figure 26.8-1",
-          "unit": "ft",
-          "source": "ASCE7-22-26.3-T49"
+          "description": "Load due to lateral earth pressure (including lateral earth pressure from fi xed or moving surcharge loads), ground water pressure, or pressure of bulk materials",
+          "source": "ASCE7-22-2.2-T7"
         },
         "D": {
-          "description": "Diameter of a circular structure or member, as de fi ned in Chapter 29",
-          "unit": "ft",
-          "source": "ASCE7-22-10.3-T3"
+          "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the design earthquake ground motions, Section 18.7.3.3 \u03bc",
+          "source": "ASCE7-22-18.1.3-T79"
+        },
+        "b": {
+          "description": "Shortest plan dimension of the structure [ft (mm)] measured perpendicular to d ;",
+          "source": "ASCE7-22-17.5.3.3-T5"
         },
         "F": {
-          "description": "0.12 \u00d7 slope, with slope expressed in percentage points) and, for an arch or dome, F is the rise-to-span ratio multiplied by 32",
-          "source": "ASCE7-22-4.8.2-T4"
-        },
-        "S": {
-          "description": "5 ft). For interior bays regardless of the orientation of the members, the minimum rise ( \u03b2 in inches) for a run of 1 ft to achieve no local minimum is",
-          "source": "ASCE7-22-0.2-T1310"
+          "description": "1.0 for buildings that are one story above grade plane, 1.1 for buildings that are two stories above grade plane, and 1.2 for buildings that are three stories above grade plane;",
+          "source": "ASCE7-22-12.14.8.1-T1"
         }
       }
     },
@@ -10333,9 +10193,8 @@
       "expression": "6.8.3.3 Load Combinations Principal tsunami forces and effects shall be combined with other speci fi ed loads in accordance with the load combinations of Equation (6.8-1a)",
       "parameters": {
         "a": {
-          "description": "Approximate lower bound natural frequency from Section 26.11.2",
-          "unit": "Hz",
-          "source": "ASCE7-22-26.3-T77"
+          "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
+          "source": "ASCE7-22-28.3.7-T22"
         }
       }
     },
@@ -10681,8 +10540,12 @@
       "expression": "behavior and the duration of the load effect, as follows: \u03c1 =k \u03c1 (6.8-5)",
       "parameters": {
         "k": {
-          "description": "Effective stiffness of the impacting debris or the lateral stiffness of the impacted structural element",
-          "source": "ASCE7-22-6.3-T54"
+          "description": "Effective stiffness of the impacting debris or the lateral stiffness of the impacted structural element(s) deformed by the impact, whichever is less; and",
+          "source": "ASCE7-22-6.11.1-T4"
+        },
+        "\u03c1": {
+          "description": "Redundancy factor based on the extent of structural redundancy present in a building, as de fi ned in Section 12.3.4",
+          "source": "ASCE7-22-11.3-T165"
         }
       }
     },
@@ -11981,56 +11844,6 @@
     "parent_id": "ASCE7-22-6.9.1-H1"
   },
   {
-    "id": "ASCE7-22-6.8-T6-8-21",
-    "type": "table",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 6,
-      "section": "6.8",
-      "citation": "Table 6.8-2",
-      "page": 17
-    },
-    "title": "The scale factors used in the physical modeling shall not be less than those shown in Table 6.8-2. Scale model tests not directly addressed in Table 6.8-2 shall include a justi fi cation of the model",
-    "description": "",
-    "data": {
-      "columns": [
-        {
-          "name": "Model Element",
-          "unit": null
-        },
-        {
-          "name": "Minimum Scale Factor",
-          "unit": null
-        }
-      ],
-      "rows": [
-        {
-          "Model Element": "Individual buildings",
-          "Minimum Scale Factor": "1:25"
-        },
-        {
-          "Model Element": "Flow modeling for groups of buildings",
-          "Minimum Scale Factor": "1:200"
-        },
-        {
-          "Model Element": "Structural components (e.g., walls, columns, piers)",
-          "Minimum Scale Factor": "1:10"
-        },
-        {
-          "Model Element": "Geotechnical investigations",
-          "Minimum Scale Factor": "1:5"
-        }
-      ]
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "docling"
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-6.9-E6-9-11",
     "type": "formula",
     "source": {
@@ -12072,6 +11885,10 @@
         "p": {
           "description": "Design pressure to be used in determination of wind loads for buildings, lb/ft 2 (N/m 2 )",
           "source": "ASCE7-22-26.3-T78"
+        },
+        "\u03b3": {
+          "description": "Average unit weight of soil, lb/ft 3 (N/m 3 )",
+          "source": "ASCE7-22-11.3-T145"
         },
         "h": {
           "description": "Height of a shear wall measured as the maximum clear height from top of foundation to bottom of diaphragm framing above, or the maximum clear height from top of diaphragm to bottom of diaphragm framing above",
@@ -12670,13 +12487,8 @@
       "expression": "mi breakaway walls, or having a twoor three-sided perimeter structural wall con fi guration regardless of length, shall be designed to resist an unbalanced hydrostatic lateral force given by Equation (6.9-2)",
       "parameters": {
         "a": {
-          "description": "Approximate lower bound natural frequency from Section 26.11.2",
-          "unit": "Hz",
-          "source": "ASCE7-22-26.3-T77"
-        },
-        "wall": {
-          "description": "Vertical projected area of an individual wall element",
-          "source": "ASCE7-22-6.3-T4"
+          "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
+          "source": "ASCE7-22-28.3.7-T22"
         }
       }
     },
@@ -12702,12 +12514,7 @@
     "description": "",
     "data": {
       "expression": "Where the fl ow overtops the wall, the lateral hydrostatic force on the wall shall be determined using Equation (6.9-3)",
-      "parameters": {
-        "wall": {
-          "description": "Vertical projected area of an individual wall element",
-          "source": "ASCE7-22-6.3-T4"
-        }
-      }
+      "parameters": {}
     },
     "cross_references": [],
     "metadata": {
@@ -12733,9 +12540,8 @@
       "expression": "ual Water Surcharge Load on Floors and Walls All horizontal fl oors below the maximum inundation depth shall be designed for dead load plus a residual water surcharge pressure, pr , given by Equation (6.9-4)",
       "parameters": {
         "a": {
-          "description": "Approximate lower bound natural frequency from Section 26.11.2",
-          "unit": "Hz",
-          "source": "ASCE7-22-26.3-T77"
+          "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
+          "source": "ASCE7-22-28.3.7-T22"
         }
       }
     },
@@ -12787,8 +12593,9 @@
       "expression": "Structures The building ' s lateral-force-resisting system shall be designed to resist overall drag forces at each level caused either by incoming or outgoing fl ow at Load Case 2 given by Equations (6.10-2)",
       "parameters": {
         "s": {
-          "description": "Ultimate tensile strength of the bolt, stud, or insert leg wires, psi (MPa). For ASTM A307 bolts or ASTM A108 studs, it is permitted to be assumed to be 60,000 psi (415 MPa)",
-          "source": "ASCE7-22-11.3-P2"
+          "description": "Vertical dimension of the solid freestanding wall or solid sign from Figure 29.3-1",
+          "unit": "ft",
+          "source": "ASCE7-22-26.3-T92"
         }
       }
     },
@@ -12815,13 +12622,14 @@
     "data": {
       "expression": "he building ' s lateral-force-resisting system shall be designed to resist overall drag forces at each level caused either by incoming or outgoing fl ow at Load Case 2 given by Equations (6.10-2) and (6.10-3)",
       "parameters": {
+        "s": {
+          "description": "Vertical dimension of the solid freestanding wall or solid sign from Figure 29.3-1",
+          "unit": "ft",
+          "source": "ASCE7-22-26.3-T92"
+        },
         "he": {
           "description": "Roof eave height at a particular wall, or the average height if the eave varies along the wall",
           "source": "ASCE7-22-26.3-T52"
-        },
-        "s": {
-          "description": "Ultimate tensile strength of the bolt, stud, or insert leg wires, psi (MPa). For ASTM A307 bolts or ASTM A108 studs, it is permitted to be assumed to be 60,000 psi (415 MPa)",
-          "source": "ASCE7-22-11.3-P2"
         }
       }
     },
@@ -12872,18 +12680,25 @@
     "data": {
       "expression": "F =C C \u03c1 I D u2 (6.10-8)",
       "parameters": {
-        "F": {
-          "description": "0.12 \u00d7 slope, with slope expressed in percentage points) and, for an arch or dome, F is the rise-to-span ratio multiplied by 32",
-          "source": "ASCE7-22-4.8.2-T4"
+        "D": {
+          "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the design earthquake ground motions, Section 18.7.3.3 \u03bc",
+          "source": "ASCE7-22-18.1.3-T79"
+        },
+        "I": {
+          "description": "Radius of gyration of the isolation system [ft (mm)], which is equal to [ \u00f0 b 2 \u00fe d 2 \u00de \u2215 12 \u008a 1 \u2215 2 for isolation systems of rectangular plan dimension, b \u00d7 d ",
+          "source": "ASCE7-22-17.5.3.3-T8"
         },
         "u": {
-          "description": "Average undrained shear strength in top 100 ft (30 m); see Sections 20.3.3 and 20.4.3, ASTM D2166, or ASTM D2850",
-          "source": "ASCE7-22-11.3-T101"
+          "description": "Horizontal fl ow velocity corresponding to a water depth equal to or greater than hss , the elevation of the sof fi t of the fl oor system; and",
+          "source": "ASCE7-22-6.10.3.2.2-T2"
         },
-        "D": {
-          "description": "Diameter of a circular structure or member, as de fi ned in Chapter 29",
-          "unit": "ft",
-          "source": "ASCE7-22-10.3-T3"
+        "\u03c1": {
+          "description": "Redundancy factor based on the extent of structural redundancy present in a building, as de fi ned in Section 12.3.4",
+          "source": "ASCE7-22-11.3-T165"
+        },
+        "F": {
+          "description": "1.0 for buildings that are one story above grade plane, 1.1 for buildings that are two stories above grade plane, and 1.2 for buildings that are three stories above grade plane;",
+          "source": "ASCE7-22-12.14.8.1-T1"
         }
       }
     },
@@ -13321,126 +13136,6 @@
     "parent_id": "ASCE7-22-6.10-F6-10-11"
   },
   {
-    "id": "ASCE7-22-6.10-T6-10-21",
-    "type": "table",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 6,
-      "section": "6.10",
-      "citation": "Table 6.10-2",
-      "page": 19
-    },
-    "title": "Table 6.10-2. Drag Coefficients for Structural Components.",
-    "description": "",
-    "data": {
-      "columns": [
-        {
-          "name": "Structural Element Section",
-          "unit": null
-        },
-        {
-          "name": "Drag Coefficient, C d",
-          "unit": null
-        }
-      ],
-      "rows": [
-        {
-          "Structural Element Section": "Round column or equilateral polygon with six sides or more",
-          "Drag Coefficient, C d": 1.2
-        },
-        {
-          "Structural Element Section": "Rectangular column of at least 2:1 aspect ratio with longer face oriented parallel to fl ow",
-          "Drag Coefficient, C d": 1.6
-        },
-        {
-          "Structural Element Section": "Triangular column pointing into fl ow",
-          "Drag Coefficient, C d": 1.6
-        },
-        {
-          "Structural Element Section": "Freestanding wall submerged in fl ow",
-          "Drag Coefficient, C d": 1.6
-        },
-        {
-          "Structural Element Section": "Square or rectangular column with longer face oriented perpendicular to fl ow",
-          "Drag Coefficient, C d": 2.0
-        },
-        {
-          "Structural Element Section": "Triangular column pointing away from fl ow",
-          "Drag Coefficient, C d": 2.0
-        },
-        {
-          "Structural Element Section": "Wall or fl at plate, normal to fl ow",
-          "Drag Coefficient, C d": 2.0
-        },
-        {
-          "Structural Element Section": "Diamond-shape column, pointed into the fl ow (based on face width, not projected width)",
-          "Drag Coefficient, C d": 2.5
-        },
-        {
-          "Structural Element Section": "Rectangular beam, normal to fl ow",
-          "Drag Coefficient, C d": 2.0
-        },
-        {
-          "Structural Element Section": "I, L, and channel shapes",
-          "Drag Coefficient, C d": 2.0
-        }
-      ]
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "docling"
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-6.10-T6-10-22",
-    "type": "table",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 6,
-      "section": "6.10",
-      "citation": "Table 6.10-2",
-      "page": 19
-    },
-    "title": "Table 6.10-2. Drag Coefficients for Structural Components.",
-    "description": "",
-    "data": {
-      "columns": [
-        {
-          "name": "Froude number, F r",
-          "unit": null
-        },
-        {
-          "name": "Resistance Coefficient, C r",
-          "unit": null
-        }
-      ],
-      "rows": [
-        {
-          "Froude number, F r": "0 < F r < 0.25",
-          "Resistance Coefficient, C r": 3.6
-        },
-        {
-          "Froude number, F r": "0.25 < F r < 1.3",
-          "Resistance Coefficient, C r": "4.22 - 2.48 F r"
-        },
-        {
-          "Froude number, F r": "1.3 < F r < 2.75",
-          "Resistance Coefficient, C r": 1.0
-        }
-      ]
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "docling"
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-6.10-F6-10-11",
     "type": "figure",
     "source": {
@@ -13480,14 +13175,13 @@
     "data": {
       "expression": "6.10.2.3 Tsunami Loads on Vertical Structural Components, Fw The force Fw on vertical structural components shall be determined as the hydrodynamic drag forces in accordance with Equation (6.10-5a)",
       "parameters": {
-        "a": {
-          "description": "Approximate lower bound natural frequency from Section 26.11.2",
-          "unit": "Hz",
-          "source": "ASCE7-22-26.3-T77"
-        },
         "Fw": {
           "description": "Load on wall or pier",
           "source": "ASCE7-22-6.3-T32"
+        },
+        "a": {
+          "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
+          "source": "ASCE7-22-28.3.7-T22"
         }
       }
     },
@@ -13514,26 +13208,25 @@
     "data": {
       "expression": "a Froude number at the site that is greater than 1.0 and where individual wall, wall pier, or column components have a widthto-inundation-depth ratio of 3 or more, Fw shall be determined by Equation (6.10-5b)",
       "parameters": {
-        "b": {
-          "description": "Mean hourly wind speed factor in Equation (26.1116), from Table 26.11-1",
-          "source": "ASCE7-22-26.3-T15"
-        },
         "a": {
-          "description": "Approximate lower bound natural frequency from Section 26.11.2",
-          "unit": "Hz",
-          "source": "ASCE7-22-26.3-T77"
+          "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
+          "source": "ASCE7-22-28.3.7-T22"
         },
         "Fw": {
           "description": "Load on wall or pier",
           "source": "ASCE7-22-6.3-T32"
         },
-        "number": {
-          "description": "u \u2215 ffiffiffiffi ffi gh p F",
-          "source": "ASCE7-22-6.3-T32"
+        "b": {
+          "description": "Shortest plan dimension of the structure [ft (mm)] measured perpendicular to d ;",
+          "source": "ASCE7-22-17.5.3.3-T5"
         },
-        "wall": {
-          "description": "Vertical projected area of an individual wall element",
-          "source": "ASCE7-22-6.3-T4"
+        "number": {
+          "description": "u \u2215 \u00f0 gh \u00de 1 \u2215 2 at point i ;",
+          "source": "ASCE7-22-6.6.2-T5"
+        },
+        "ratio": {
+          "description": "'rise'/L",
+          "source": "ASCE7-22-30.4.2.1-T6"
         }
       }
     },
@@ -13564,13 +13257,9 @@
           "description": "Hydrodynamic force on a perforated wall",
           "source": "ASCE7-22-6.3-T30"
         },
-        "wall": {
-          "description": "Vertical projected area of an individual wall element",
-          "source": "ASCE7-22-6.3-T4"
-        },
         "n": {
-          "description": "Designation for the level that is uppermost in the main portion of the building",
-          "source": "ASCE7-22-11.3-T76"
+          "description": "Number of shear walls in the building effective in resisting lateral forces in the direction under consideration;",
+          "source": "ASCE7-22-26.11.3-T22"
         }
       }
     },
@@ -13598,8 +13287,12 @@
       "expression": "walls oriented at an angle less than 90 degrees to the fl ow directions considered in Section 6.8.3, the transient lateral load per unit width, F w \u03b8 , shall be determined in accordance with Equation (6.10-7)",
       "parameters": {
         "F": {
-          "description": "0.12 \u00d7 slope, with slope expressed in percentage points) and, for an arch or dome, F is the rise-to-span ratio multiplied by 32",
-          "source": "ASCE7-22-4.8.2-T4"
+          "description": "1.0 for buildings that are one story above grade plane, 1.1 for buildings that are two stories above grade plane, and 1.2 for buildings that are three stories above grade plane;",
+          "source": "ASCE7-22-12.14.8.1-T1"
+        },
+        "\u03b8": {
+          "description": "Stability coef fi cient for P-delta effects as determined in Section 12.8.7",
+          "source": "ASCE7-22-11.3-T161"
         },
         "w": {
           "description": "Moisture content, in percent, per ASTM D2216",
@@ -13630,35 +13323,39 @@
     "data": {
       "expression": "F l\u00fe =C cp C\u00fe l \u03c1 s I tsu D p u2 (6.10-9)",
       "parameters": {
-        "u": {
-          "description": "Average undrained shear strength in top 100 ft (30 m); see Sections 20.3.3 and 20.4.3, ASTM D2166, or ASTM D2850",
-          "source": "ASCE7-22-11.3-T101"
-        },
-        "D": {
-          "description": "Diameter of a circular structure or member, as de fi ned in Chapter 29",
-          "unit": "ft",
-          "source": "ASCE7-22-10.3-T3"
-        },
-        "tsu": {
-          "description": "Importance Factor for tsunami forces to account for additional uncertainty in estimated parameters",
-          "source": "ASCE7-22-6.3-T52"
-        },
-        "s": {
-          "description": "Ultimate tensile strength of the bolt, stud, or insert leg wires, psi (MPa). For ASTM A307 bolts or ASTM A108 studs, it is permitted to be assumed to be 60,000 psi (415 MPa)",
-          "source": "ASCE7-22-11.3-P2"
-        },
-        "p": {
-          "description": "Design pressure to be used in determination of wind loads for buildings, lb/ft 2 (N/m 2 )",
-          "source": "ASCE7-22-26.3-T78"
-        },
         "l": {
           "description": "Integral length scale factor from Table 26.11-1",
           "unit": "ft",
           "source": "ASCE7-22-26.3-T71"
         },
+        "D": {
+          "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the design earthquake ground motions, Section 18.7.3.3 \u03bc",
+          "source": "ASCE7-22-18.1.3-T79"
+        },
+        "p": {
+          "description": "Design pressure to be used in determination of wind loads for buildings, lb/ft 2 (N/m 2 )",
+          "source": "ASCE7-22-26.3-T78"
+        },
+        "s": {
+          "description": "Vertical dimension of the solid freestanding wall or solid sign from Figure 29.3-1",
+          "unit": "ft",
+          "source": "ASCE7-22-26.3-T92"
+        },
+        "I": {
+          "description": "Radius of gyration of the isolation system [ft (mm)], which is equal to [ \u00f0 b 2 \u00fe d 2 \u00de \u2215 12 \u008a 1 \u2215 2 for isolation systems of rectangular plan dimension, b \u00d7 d ",
+          "source": "ASCE7-22-17.5.3.3-T8"
+        },
+        "u": {
+          "description": "Horizontal fl ow velocity corresponding to a water depth equal to or greater than hss , the elevation of the sof fi t of the fl oor system; and",
+          "source": "ASCE7-22-6.10.3.2.2-T2"
+        },
+        "\u03c1": {
+          "description": "Redundancy factor based on the extent of structural redundancy present in a building, as de fi ned in Section 12.3.4",
+          "source": "ASCE7-22-11.3-T165"
+        },
         "F": {
-          "description": "0.12 \u00d7 slope, with slope expressed in percentage points) and, for an arch or dome, F is the rise-to-span ratio multiplied by 32",
-          "source": "ASCE7-22-4.8.2-T4"
+          "description": "1.0 for buildings that are one story above grade plane, 1.1 for buildings that are two stories above grade plane, and 1.2 for buildings that are three stories above grade plane;",
+          "source": "ASCE7-22-12.14.8.1-T1"
         }
       }
     },
@@ -13685,35 +13382,39 @@
     "data": {
       "expression": "F l\u2212 =C cp C\u2212 l \u03c1 s I tsu D p u2 (6.10-10)",
       "parameters": {
-        "u": {
-          "description": "Average undrained shear strength in top 100 ft (30 m); see Sections 20.3.3 and 20.4.3, ASTM D2166, or ASTM D2850",
-          "source": "ASCE7-22-11.3-T101"
-        },
-        "D": {
-          "description": "Diameter of a circular structure or member, as de fi ned in Chapter 29",
-          "unit": "ft",
-          "source": "ASCE7-22-10.3-T3"
-        },
-        "tsu": {
-          "description": "Importance Factor for tsunami forces to account for additional uncertainty in estimated parameters",
-          "source": "ASCE7-22-6.3-T52"
-        },
-        "s": {
-          "description": "Ultimate tensile strength of the bolt, stud, or insert leg wires, psi (MPa). For ASTM A307 bolts or ASTM A108 studs, it is permitted to be assumed to be 60,000 psi (415 MPa)",
-          "source": "ASCE7-22-11.3-P2"
-        },
-        "p": {
-          "description": "Design pressure to be used in determination of wind loads for buildings, lb/ft 2 (N/m 2 )",
-          "source": "ASCE7-22-26.3-T78"
-        },
         "l": {
           "description": "Integral length scale factor from Table 26.11-1",
           "unit": "ft",
           "source": "ASCE7-22-26.3-T71"
         },
+        "D": {
+          "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the design earthquake ground motions, Section 18.7.3.3 \u03bc",
+          "source": "ASCE7-22-18.1.3-T79"
+        },
+        "p": {
+          "description": "Design pressure to be used in determination of wind loads for buildings, lb/ft 2 (N/m 2 )",
+          "source": "ASCE7-22-26.3-T78"
+        },
+        "s": {
+          "description": "Vertical dimension of the solid freestanding wall or solid sign from Figure 29.3-1",
+          "unit": "ft",
+          "source": "ASCE7-22-26.3-T92"
+        },
+        "I": {
+          "description": "Radius of gyration of the isolation system [ft (mm)], which is equal to [ \u00f0 b 2 \u00fe d 2 \u00de \u2215 12 \u008a 1 \u2215 2 for isolation systems of rectangular plan dimension, b \u00d7 d ",
+          "source": "ASCE7-22-17.5.3.3-T8"
+        },
+        "u": {
+          "description": "Horizontal fl ow velocity corresponding to a water depth equal to or greater than hss , the elevation of the sof fi t of the fl oor system; and",
+          "source": "ASCE7-22-6.10.3.2.2-T2"
+        },
+        "\u03c1": {
+          "description": "Redundancy factor based on the extent of structural redundancy present in a building, as de fi ned in Section 12.3.4",
+          "source": "ASCE7-22-11.3-T165"
+        },
         "F": {
-          "description": "0.12 \u00d7 slope, with slope expressed in percentage points) and, for an arch or dome, F is the rise-to-span ratio multiplied by 32",
-          "source": "ASCE7-22-4.8.2-T4"
+          "description": "1.0 for buildings that are one story above grade plane, 1.1 for buildings that are two stories above grade plane, and 1.2 for buildings that are three stories above grade plane;",
+          "source": "ASCE7-22-12.14.8.1-T1"
         }
       }
     },
@@ -13928,60 +13629,6 @@
     "cross_references": [
       "ASCE7-22-6.10-E6-10-31"
     ],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-6.10.2-H1"
-  },
-  {
-    "id": "ASCE7-22-6.10.2.6.1-T34",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 6,
-      "section": "6.10.2.6.1",
-      "citation": "Section 6.10.2.6.1",
-      "page": 20
-    },
-    "title": "\u03c1 s = Minimum fl uid mass density for design hydrodynamic loads,",
-    "description": "",
-    "data": {
-      "rule": "\u03c1 s = Minimum fl uid mass density for design hydrodynamic loads, I tsu = Importance Factor,",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-6.10.2-H1"
-  },
-  {
-    "id": "ASCE7-22-6.10.2.6.1-T36",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 6,
-      "section": "6.10.2.6.1",
-      "citation": "Section 6.10.2.6.1",
-      "page": 20
-    },
-    "title": "Dp = Pipe diameter, and u = Tsunami fl ow velocity.",
-    "description": "",
-    "data": {
-      "rule": "Dp = Pipe diameter, and u = Tsunami fl ow velocity.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -14389,148 +14036,6 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-6.10-T6-10-41",
-    "type": "table",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 6,
-      "section": "6.10",
-      "citation": "Table 6.10-4",
-      "page": 20
-    },
-    "title": "Table 6.10-4. Upward Lift Coefficient, C \u00fe l , for Pipelines.",
-    "description": "",
-    "data": {
-      "columns": [
-        {
-          "name": "Froude number, F r",
-          "unit": null
-        },
-        {
-          "name": "Upward Lift Coefficient, C \u00fe l",
-          "unit": null
-        }
-      ],
-      "rows": [
-        {
-          "Froude number, F r": "0 < F r < 0.25",
-          "Upward Lift Coefficient, C \u00fe l": 2.8
-        },
-        {
-          "Froude number, F r": "0.25 < F r < 1.3",
-          "Upward Lift Coefficient, C \u00fe l": "3.23 - 1.71 F r"
-        },
-        {
-          "Froude number, F r": "1.3 < F r < 2.75",
-          "Upward Lift Coefficient, C \u00fe l": 1.0
-        }
-      ]
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "docling"
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-6.10-T6-10-42",
-    "type": "table",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 6,
-      "section": "6.10",
-      "citation": "Table 6.10-4",
-      "page": 20
-    },
-    "title": "Table 6.10-4. Upward Lift Coefficient, C \u00fe l , for Pipelines.",
-    "description": "",
-    "data": {
-      "columns": [
-        {
-          "name": "Froude number, F r",
-          "unit": null
-        },
-        {
-          "name": "Downward Lift Coefficient, C - l",
-          "unit": null
-        }
-      ],
-      "rows": [
-        {
-          "Froude number, F r": "0 < F r < 0.25",
-          "Downward Lift Coefficient, C - l": "- 2.8"
-        },
-        {
-          "Froude number, F r": "0.25 < F r < 1.3",
-          "Downward Lift Coefficient, C - l": "2.19 F r - 3.35"
-        },
-        {
-          "Froude number, F r": "1.3 < F r < 2.75",
-          "Downward Lift Coefficient, C - l": "- 0.5"
-        }
-      ]
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "docling"
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-6.10-F6-10-21",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 6,
-      "section": "6.10",
-      "citation": "Figure 6.10-2",
-      "page": 20
-    },
-    "title": "Figure 6.10-2. Upward lift coefficient, C\u00fe",
-    "description": "Figure 6.10-2. Upward lift coefficient, C\u00fe",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 6.10-2. Upward lift coefficient, C\u00fe",
-      "source_pdf_page": 20
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-6.10-F6-10-31",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 6,
-      "section": "6.10",
-      "citation": "Figure 6.10-3",
-      "page": 20
-    },
-    "title": "Figure 6.10-3. Downward lift coefficient, C\u2212",
-    "description": "Figure 6.10-3. Downward lift coefficient, C\u2212",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 6.10-3. Downward lift coefficient, C\u2212",
-      "source_pdf_page": 20
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-6.10-E6-10-111",
     "type": "formula",
     "source": {
@@ -14569,14 +14074,13 @@
     "data": {
       "expression": "abs over Sloping Grade Horizontal slabs located over grade slope, \u03c6 , greater than 10 degrees shall be designed for a redirected uplift pressure applied to the sof fi t of the slab, given by Equation (6.10-12)",
       "parameters": {
-        "a": {
-          "description": "Approximate lower bound natural frequency from Section 26.11.2",
-          "unit": "Hz",
-          "source": "ASCE7-22-26.3-T77"
-        },
         "t": {
           "description": "Nominal ice thickness on a cylinder caused by freezing rain at a height of 33 ft (10 m), from Figures 10.4-2 through 10.4-5, for the applicable risk category, in. (mm)",
           "source": "ASCE7-22-10.3-T9"
+        },
+        "a": {
+          "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
+          "source": "ASCE7-22-28.3.7-T22"
         }
       }
     },
@@ -14608,8 +14112,8 @@
           "source": "ASCE7-22-11.3-T135"
         },
         "g": {
-          "description": "Nominal height of the atmospheric boundary layer used in this standard (values appear in Table 26.11-1)",
-          "source": "ASCE7-22-26.3-T105"
+          "description": "Acceleration caused by gravity [in : \u2215 s 2 (mm \u2215 s 2 )] if the units of the displacement DM are in in. (mm);",
+          "source": "ASCE7-22-17.5.3.1-T2"
         }
       }
     },
@@ -14641,8 +14145,8 @@
           "source": "ASCE7-22-11.3-T135"
         },
         "g": {
-          "description": "Nominal height of the atmospheric boundary layer used in this standard (values appear in Table 26.11-1)",
-          "source": "ASCE7-22-26.3-T105"
+          "description": "Acceleration caused by gravity [in : \u2215 s 2 (mm \u2215 s 2 )] if the units of the displacement DM are in in. (mm);",
+          "source": "ASCE7-22-17.5.3.1-T2"
         }
       }
     },
@@ -15253,12 +14757,7 @@
     "description": "",
     "data": {
       "expression": "Depth Where the inundation depth is less than two-thirds of the clear story height, the uplift pressures speci fi ed in Section 6.10.3.3.1 shall be permitted to be reduced in accordance with Equation (6.10-13)",
-      "parameters": {
-        "clear": {
-          "description": "Relative horizontal (drift) displacement, measured over the height of the glass panel under consideration, which causes initial glass-to-frame contact. For rectangular glass panels within a rectangular wall frame, D clear is set forth in Section 13.5.9.1",
-          "source": "ASCE7-22-11.3-T27"
-        }
-      }
+      "parameters": {}
     },
     "cross_references": [],
     "metadata": {
@@ -15282,12 +14781,7 @@
     "description": "",
     "data": {
       "expression": "Wall Openings Where the wall blocking the bore below the slab has openings through which the fl ow can pass, the reduced pressure on the wall and slab shall be determined in accordance with Equation (6.10-14)",
-      "parameters": {
-        "wall": {
-          "description": "Vertical projected area of an individual wall element",
-          "source": "ASCE7-22-6.3-T4"
-        }
-      }
+      "parameters": {}
     },
     "cross_references": [],
     "metadata": {
@@ -15312,18 +14806,13 @@
     "data": {
       "expression": "ovided with an opening gap or breakaway panel designed to create a gap of width wg adjacent to the wall, then the uplift pressure on the remaining slab shall be determined in accordance with Equation (6.10-15)",
       "parameters": {
-        "a": {
-          "description": "Approximate lower bound natural frequency from Section 26.11.2",
-          "unit": "Hz",
-          "source": "ASCE7-22-26.3-T77"
-        },
-        "wall": {
-          "description": "Vertical projected area of an individual wall element",
-          "source": "ASCE7-22-6.3-T4"
-        },
         "wg": {
           "description": "Width of opening gap in slab",
           "source": "ASCE7-22-6.3-T89"
+        },
+        "a": {
+          "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
+          "source": "ASCE7-22-28.3.7-T22"
         }
       }
     },
@@ -15912,96 +15401,6 @@
     "parent_id": "ASCE7-22-6.11.5.1-H1"
   },
   {
-    "id": "ASCE7-22-6.8-T6-8-12",
-    "type": "table",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 6,
-      "section": "6.8",
-      "citation": "Table 6.8-1",
-      "page": 22
-    },
-    "title": "I tsu = Importance Factor (given in Table 6.8-1);",
-    "description": "",
-    "data": {
-      "columns": [
-        {
-          "name": "Ratio of Impact Duration to Natural Period of the Impacted Structural Element",
-          "unit": null
-        },
-        {
-          "name": "R max (Response Ratio)",
-          "unit": null
-        }
-      ],
-      "rows": [
-        {
-          "Ratio of Impact Duration to Natural Period of the Impacted Structural Element": 0.0,
-          "R max (Response Ratio)": 0.0
-        },
-        {
-          "Ratio of Impact Duration to Natural Period of the Impacted Structural Element": 0.1,
-          "R max (Response Ratio)": 0.4
-        },
-        {
-          "Ratio of Impact Duration to Natural Period of the Impacted Structural Element": 0.2,
-          "R max (Response Ratio)": 0.8
-        },
-        {
-          "Ratio of Impact Duration to Natural Period of the Impacted Structural Element": 0.3,
-          "R max (Response Ratio)": 1.1
-        },
-        {
-          "Ratio of Impact Duration to Natural Period of the Impacted Structural Element": 0.4,
-          "R max (Response Ratio)": 1.4
-        },
-        {
-          "Ratio of Impact Duration to Natural Period of the Impacted Structural Element": 0.5,
-          "R max (Response Ratio)": 1.5
-        },
-        {
-          "Ratio of Impact Duration to Natural Period of the Impacted Structural Element": 0.6,
-          "R max (Response Ratio)": 1.7
-        },
-        {
-          "Ratio of Impact Duration to Natural Period of the Impacted Structural Element": 0.7,
-          "R max (Response Ratio)": 1.8
-        },
-        {
-          "Ratio of Impact Duration to Natural Period of the Impacted Structural Element": 0.9,
-          "R max (Response Ratio)": 1.8
-        },
-        {
-          "Ratio of Impact Duration to Natural Period of the Impacted Structural Element": 1.0,
-          "R max (Response Ratio)": 1.7
-        },
-        {
-          "Ratio of Impact Duration to Natural Period of the Impacted Structural Element": 1.1,
-          "R max (Response Ratio)": 1.7
-        },
-        {
-          "Ratio of Impact Duration to Natural Period of the Impacted Structural Element": 1.2,
-          "R max (Response Ratio)": 1.6
-        },
-        {
-          "Ratio of Impact Duration to Natural Period of the Impacted Structural Element": 1.3,
-          "R max (Response Ratio)": 1.6
-        },
-        {
-          "Ratio of Impact Duration to Natural Period of the Impacted Structural Element": "\u2265 1.4",
-          "R max (Response Ratio)": 1.5
-        }
-      ]
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "docling"
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-6.11-E6-11-21",
     "type": "formula",
     "source": {
@@ -16041,8 +15440,8 @@
       "expression": "The design instantaneous debris impact force, Fi , shall be determined in accordance with Equation (6.11-3)",
       "parameters": {
         "Fi": {
-          "description": "Debris impact design force",
-          "source": "ASCE7-22-6.3-T28"
+          "description": "Portion of the seismic base shear, V , induced at level i",
+          "source": "ASCE7-22-12.14.1.4-T6"
         }
       }
     },
@@ -17779,8 +17178,8 @@
       "expression": "F \u039b = Pore pressure softening vertical fl ux index, shall be determined in accordance with Equation (6.12-2)",
       "parameters": {
         "F": {
-          "description": "0.12 \u00d7 slope, with slope expressed in percentage points) and, for an arch or dome, F is the rise-to-span ratio multiplied by 32",
-          "source": "ASCE7-22-4.8.2-T4"
+          "description": "1.0 for buildings that are one story above grade plane, 1.1 for buildings that are two stories above grade plane, and 1.2 for buildings that are three stories above grade plane;",
+          "source": "ASCE7-22-12.14.8.1-T1"
         }
       }
     },
@@ -17806,7 +17205,12 @@
     "description": "",
     "data": {
       "expression": "I \u039b = Pore pressure softening drawdown inertia index, shall be determined in accordance with Equation (6.12-3)",
-      "parameters": {}
+      "parameters": {
+        "I": {
+          "description": "Radius of gyration of the isolation system [ft (mm)], which is equal to [ \u00f0 b 2 \u00fe d 2 \u00de \u2215 12 \u008a 1 \u2215 2 for isolation systems of rectangular plan dimension, b \u00d7 d ",
+          "source": "ASCE7-22-17.5.3.3-T8"
+        }
+      }
     },
     "cross_references": [],
     "metadata": {
@@ -17831,9 +17235,14 @@
     "data": {
       "expression": "\u03b3 s = Fluid weight density for tsunami loads per Equation (6.8-4)",
       "parameters": {
+        "\u03b3": {
+          "description": "Average unit weight of soil, lb/ft 3 (N/m 3 )",
+          "source": "ASCE7-22-11.3-T145"
+        },
         "s": {
-          "description": "Ultimate tensile strength of the bolt, stud, or insert leg wires, psi (MPa). For ASTM A307 bolts or ASTM A108 studs, it is permitted to be assumed to be 60,000 psi (415 MPa)",
-          "source": "ASCE7-22-11.3-P2"
+          "description": "Vertical dimension of the solid freestanding wall or solid sign from Figure 29.3-1",
+          "unit": "ft",
+          "source": "ASCE7-22-26.3-T92"
         }
       }
     },
@@ -18103,56 +17512,6 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-6.12-F6-12-21",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 6,
-      "section": "6.12",
-      "citation": "Figure 6.12-2",
-      "page": 26
-    },
-    "title": "Figure 6.12-2. Susceptibility to pore pressure softening due to tsunami inundation.",
-    "description": "Figure 6.12-2. Susceptibility to pore pressure softening due to tsunami inundation.",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 6.12-2. Susceptibility to pore pressure softening due to tsunami inundation.",
-      "source_pdf_page": 26
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-6.12-F6-12-31",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 6,
-      "section": "6.12",
-      "citation": "Figure 6.12-3",
-      "page": 26
-    },
-    "title": "Figure 6.12-3. Susceptible depth, De, affected by tsunami-induced pore pressure softening",
-    "description": "Figure 6.12-3. Susceptible depth, De, affected by tsunami-induced pore pressure softening",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 6.12-3. Susceptible depth, De, affected by tsunami-induced pore pressure softening",
-      "source_pdf_page": 26
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-6.12.2.4.1-T47",
     "type": "text_block",
     "source": {
@@ -18416,140 +17775,6 @@
     "parent_id": "ASCE7-22-6.12.2.4.2-H1"
   },
   {
-    "id": "ASCE7-22-6.12-T6-12-21",
-    "type": "table",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 6,
-      "section": "6.12",
-      "citation": "Table 6.12-2",
-      "page": 27
-    },
-    "title": "Table 6.12-2. Design Scour Depth Caused by Sustained Flow and Pore Pressure Softening.",
-    "description": "",
-    "data": {
-      "columns": [
-        {
-          "name": "Inundation Depth, h",
-          "unit": null
-        },
-        {
-          "name": "Scour Depth, D *",
-          "unit": null
-        }
-      ],
-      "rows": [
-        {
-          "Inundation Depth, h": "< 10 ft (3.05 m)",
-          "Scour Depth, D *": "1.2 h"
-        },
-        {
-          "Inundation Depth, h": "\u2265 10 ft (3.05 m)",
-          "Scour Depth, D *": "12 ft (3.66 m)"
-        }
-      ]
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "docling"
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-6.12-T6-12-22",
-    "type": "table",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 6,
-      "section": "6.12",
-      "citation": "Table 6.12-2",
-      "page": 27
-    },
-    "title": "Table 6.12-2. Design Scour Depth Caused by Sustained Flow and Pore Pressure Softening.",
-    "description": "",
-    "data": {
-      "columns": [
-        {
-          "name": "Froude Number, F r",
-          "unit": null
-        },
-        {
-          "name": "D s \u2215 b",
-          "unit": null
-        }
-      ],
-      "rows": [
-        {
-          "Froude Number, F r": "< 1.0",
-          "D s \u2215 b": "1.3 F r"
-        },
-        {
-          "Froude Number, F r": "\u2265 1.0",
-          "D s \u2215 b": 1.3
-        }
-      ]
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "docling"
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-6.12-F6-12-41",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 6,
-      "section": "6.12",
-      "citation": "Figure 6.12-4",
-      "page": 27
-    },
-    "title": "Figure 6.12-4. Scour depth caused by sustained flow and",
-    "description": "Figure 6.12-4. Scour depth caused by sustained flow and",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 6.12-4. Scour depth caused by sustained flow and",
-      "source_pdf_page": 27
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-6.12-F6-12-51",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 6,
-      "section": "6.12",
-      "citation": "Figure 6.12-5",
-      "page": 27
-    },
-    "title": "Figure 6.12-5. Vertical extent of pile scour to projected element width ratio.",
-    "description": "Figure 6.12-5. Vertical extent of pile scour to projected element width ratio.",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 6.12-5. Vertical extent of pile scour to projected element width ratio.",
-      "source_pdf_page": 27
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-6.12-E6-12-41",
     "type": "formula",
     "source": {
@@ -18565,13 +17790,13 @@
       "expression": "In the absence of site-speci fi c dynamic modeling and analysis, the plunging scour depth, D s shall be determined by Equation (6.12-4)",
       "parameters": {
         "D": {
-          "description": "Diameter of a circular structure or member, as de fi ned in Chapter 29",
-          "unit": "ft",
-          "source": "ASCE7-22-10.3-T3"
+          "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the design earthquake ground motions, Section 18.7.3.3 \u03bc",
+          "source": "ASCE7-22-18.1.3-T79"
         },
         "s": {
-          "description": "Ultimate tensile strength of the bolt, stud, or insert leg wires, psi (MPa). For ASTM A307 bolts or ASTM A108 studs, it is permitted to be assumed to be 60,000 psi (415 MPa)",
-          "source": "ASCE7-22-11.3-P2"
+          "description": "Vertical dimension of the solid freestanding wall or solid sign from Figure 29.3-1",
+          "unit": "ft",
+          "source": "ASCE7-22-26.3-T92"
         },
         "c": {
           "description": "Distance from the neutral axis of a fl exural member to the fi ber of maximum compressive strain, in. (mm)",
@@ -18603,13 +17828,8 @@
       "expression": "C =0.611\u00fe0.08 H O (6.12-6)",
       "parameters": {
         "H": {
-          "description": "Height of hill, ridge, or escarpment in Figure 26.8-1",
-          "unit": "ft",
-          "source": "ASCE7-22-26.3-T49"
-        },
-        "O": {
-          "description": "Overstrength factor for the lateral-force-resisting system given in Table 12.2-1",
-          "source": "ASCE7-22-6.3-T110"
+          "description": "Load due to lateral earth pressure (including lateral earth pressure from fi xed or moving surcharge loads), ground water pressure, or pressure of bulk materials",
+          "source": "ASCE7-22-2.2-T7"
         }
       }
     },
@@ -19345,31 +18565,6 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-6.12-F6-12-61",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 6,
-      "section": "6.12",
-      "citation": "Figure 6.12-6",
-      "page": 28
-    },
-    "title": "Figure 6.12-6. Plunging scour parameters.",
-    "description": "Figure 6.12-6. Plunging scour parameters.",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 6.12-6. Plunging scour parameters.",
-      "source_pdf_page": 28
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-6.12-E6-12-51",
     "type": "formula",
     "source": {
@@ -19385,8 +18580,8 @@
       "expression": "q = Discharge per unit width over the overtopped structure, as illustrated in Figure 6.12-6 and calculated in accordance with Equation (6.12-5)",
       "parameters": {
         "q": {
-          "description": "qzT For external pressure on all walls evaluated at height z above the ground, lb/ft 2 (N/m 2 );",
-          "source": "ASCE7-22-32.17.2-T1"
+          "description": "Discharge per unit width over the overtopped structure, as illustrated in Figure 6.12-6 and calculated in accordance with Equation (6.12-5); and",
+          "source": "ASCE7-22-6.12.2.4.2-T7"
         }
       }
     },

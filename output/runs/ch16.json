@@ -2005,6 +2005,10 @@
         "m": {
           "description": "Component demand modi fi cation factor accounting for expected ductility, applied to the expected strength of a ductility-governed element action, to obtain the acceptable structural component capacity at a particular performance level when using a linear static analysis procedure",
           "source": "ASCE7-22-6.3-T60"
+        },
+        "\u0394": {
+          "description": "Design story drift as determined in Section 12.8.6 \u0394",
+          "source": "ASCE7-22-11.3-T144"
         }
       }
     },
@@ -2765,39 +2769,8 @@
       "expression": "Force-controlled actions limited by formation of a yield mechanism, other than shear in structural walls, need only satisfy Equations (16.4-3)",
       "parameters": {
         "a": {
-          "description": "Approximate lower bound natural frequency from Section 26.11.2",
-          "unit": "Hz",
-          "source": "ASCE7-22-26.3-T77"
-        }
-      }
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "from_text"
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-16.4-E16-4-41",
-    "type": "formula",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 16,
-      "section": "16.4",
-      "citation": "Eq. (16.4-4)",
-      "page": 4
-    },
-    "title": "Equation (16.4-4)",
-    "description": "",
-    "data": {
-      "expression": "Force-controlled actions limited by formation of a yield mechanism, other than shear in structural walls, need only satisfy Equations (16.4-3) and (16.4-4)",
-      "parameters": {
-        "a": {
-          "description": "Approximate lower bound natural frequency from Section 26.11.2",
-          "unit": "Hz",
-          "source": "ASCE7-22-26.3-T77"
+          "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
+          "source": "ASCE7-22-28.3.7-T22"
         }
       }
     },

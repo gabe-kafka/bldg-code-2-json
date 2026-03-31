@@ -1336,181 +1336,6 @@
     "parent_id": "ASCE7-22-29.1.4-H3"
   },
   {
-    "id": "ASCE7-22-29.1.4-T28",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 29,
-      "section": "29.1.4",
-      "citation": "Section 29.1.4",
-      "page": 2
-    },
-    "title": "Step 2: Determine the basic wind speed, V , for applicable Risk Category; see Figure 26.5-1.",
-    "description": "",
-    "data": {
-      "rule": "Step 2: Determine the basic wind speed, V , for applicable Risk Category; see Figure 26.5-1.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [
-      "ASCE7-22-26.5-F26-5-11"
-    ],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-29.1.4-H3"
-  },
-  {
-    "id": "ASCE7-22-29.1.4-T29",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 29,
-      "section": "29.1.4",
-      "citation": "Section 29.1.4",
-      "page": 2
-    },
-    "title": "Step 3: Determine wind load parameters:",
-    "description": "",
-    "data": {
-      "rule": "Step 3: Determine wind load parameters:",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-29.1.4-H3"
-  },
-  {
-    "id": "ASCE7-22-29.1.4-T30",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 29,
-      "section": "29.1.4",
-      "citation": "Section 29.1.4",
-      "page": 2
-    },
-    "title": "Wind directionality factor, Kd ; see Section 26.6 and Table 26.6-1.",
-    "description": "",
-    "data": {
-      "rule": "Wind directionality factor, Kd ; see Section 26.6 and Table 26.6-1.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [
-      "ASCE7-22-26.6-H1",
-      "ASCE7-22-26.6-T26-6-11"
-    ],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-29.1.4-H3"
-  },
-  {
-    "id": "ASCE7-22-29.1.4-T31",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 29,
-      "section": "29.1.4",
-      "citation": "Section 29.1.4",
-      "page": 2
-    },
-    "title": "Exposure Category B, C, or D; see Section 26.7.",
-    "description": "",
-    "data": {
-      "rule": "Exposure Category B, C, or D; see Section 26.7.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [
-      "ASCE7-22-26.7-H1"
-    ],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-29.1.4-H3"
-  },
-  {
-    "id": "ASCE7-22-29.1.4-T32",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 29,
-      "section": "29.1.4",
-      "citation": "Section 29.1.4",
-      "page": 2
-    },
-    "title": "Topographic factor, Kzt ; see Section 26.8 and Figure 26.8-1.",
-    "description": "",
-    "data": {
-      "rule": "Topographic factor, Kzt ; see Section 26.8 and Figure 26.8-1.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [
-      "ASCE7-22-26.8-F26-8-11",
-      "ASCE7-22-26.8-H1"
-    ],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-29.1.4-H3"
-  },
-  {
-    "id": "ASCE7-22-29.1.4-T33",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 29,
-      "section": "29.1.4",
-      "citation": "Section 29.1.4",
-      "page": 2
-    },
-    "title": "Ground elevation factor, Ke ; see Section 26.9 and Table 26.9-1.",
-    "description": "",
-    "data": {
-      "rule": "Ground elevation factor, Ke ; see Section 26.9 and Table 26.9-1.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [
-      "ASCE7-22-26.9-H1",
-      "ASCE7-22-26.9-T26-9-11"
-    ],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-29.1.4-H3"
-  },
-  {
     "id": "ASCE7-22-29.1.4-T34",
     "type": "text_block",
     "source": {
@@ -1589,35 +1414,6 @@
     },
     "cross_references": [
       "ASCE7-22-26.11-H1"
-    ],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-29.1.4-H3"
-  },
-  {
-    "id": "ASCE7-22-29.1.4-T37",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 29,
-      "section": "29.1.4",
-      "citation": "Section 29.1.4",
-      "page": 2
-    },
-    "title": "Step 4: Determine velocity pressure exposure coef fi cient, Kz or Kh ; see Table 26.10-1.",
-    "description": "",
-    "data": {
-      "rule": "Step 4: Determine velocity pressure exposure coef fi cient, Kz or Kh ; see Table 26.10-1.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [
-      "ASCE7-22-26.10-T26-10-11"
     ],
     "metadata": {
       "extracted_by": "auto",
@@ -2800,31 +2596,6 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-29.4-F29-4-21",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 29,
-      "section": "29.4",
-      "citation": "Figure 29.4-2",
-      "page": 5
-    },
-    "title": "Figure 29.4-2. Other structures (all heights): force coefficients, Cf , for open signs and single-plane open frames.",
-    "description": "Figure 29.4-2. Other structures (all heights): force coefficients, Cf , for open signs and single-plane open frames.",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 29.4-2. Other structures (all heights): force coefficients, Cf , for open signs and single-plane open frames.",
-      "source_pdf_page": 5
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-29.4.1-P3",
     "type": "provision",
     "source": {
@@ -2878,35 +2649,6 @@
       "exceptions": []
     },
     "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-29.4.1-H1"
-  },
-  {
-    "id": "ASCE7-22-29.4.1-T42",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 29,
-      "section": "29.4.1",
-      "citation": "Section 29.4.1",
-      "page": 6
-    },
-    "title": "Kd = Wind directionality factor, see Section 26.6; and",
-    "description": "",
-    "data": {
-      "rule": "Kd = Wind directionality factor, see Section 26.6; and",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [
-      "ASCE7-22-26.6-H1"
-    ],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -3372,31 +3114,6 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-29.4-F29-4-31",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 29,
-      "section": "29.4",
-      "citation": "Figure 29.4-3",
-      "page": 6
-    },
-    "title": "Figure 29.4-3. Other structures (all heights): force coefficients, Cf , for open structures\u2014trussed towers.",
-    "description": "Figure 29.4-3. Other structures (all heights): force coefficients, Cf , for open structures\u2014trussed towers.",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 29.4-3. Other structures (all heights): force coefficients, Cf , for open structures\u2014trussed towers.",
-      "source_pdf_page": 6
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-29.4.2.2-T8",
     "type": "text_block",
     "source": {
@@ -3646,56 +3363,6 @@
     "parent_id": "ASCE7-22-29.4.3-H2"
   },
   {
-    "id": "ASCE7-22-29.4-F29-4-41",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 29,
-      "section": "29.4",
-      "citation": "Figure 29.4-4",
-      "page": 7
-    },
-    "title": "Figure 29.4-4. Other structures, design wind loads for main wind force resisting systems [h < 120 ft (h < 36.6 m)]: circular",
-    "description": "Figure 29.4-4. Other structures, design wind loads for main wind force resisting systems [h < 120 ft (h < 36.6 m)]: circular",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 29.4-4. Other structures, design wind loads for main wind force resisting systems [h < 120 ft (h < 36.6 m)]: circular",
-      "source_pdf_page": 7
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-29.4-F29-4-71",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 29,
-      "section": "29.4",
-      "citation": "Figure 29.4-7",
-      "page": 7
-    },
-    "title": "Than 7 Degrees As illustrated in Figure 29.4-7, the design",
-    "description": "Than 7 Degrees As illustrated in Figure 29.4-7, the design",
-    "data": {
-      "figure_type": "other",
-      "description": "Than 7 Degrees As illustrated in Figure 29.4-7, the design",
-      "source_pdf_page": 7
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-29.4.3-T26",
     "type": "text_block",
     "source": {
@@ -3725,31 +3392,6 @@
     "parent_id": "ASCE7-22-29.4-F29-4-51"
   },
   {
-    "id": "ASCE7-22-29.4-F29-4-51",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 29,
-      "section": "29.4",
-      "citation": "Figure 29.4-5",
-      "page": 8
-    },
-    "title": "Figure 29.4-5. Other structures, design wind loads for main wind force resisting systems [h<120 ft (h<36.6 m)]: external",
-    "description": "Figure 29.4-5. Other structures, design wind loads for main wind force resisting systems [h<120 ft (h<36.6 m)]: external",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 29.4-5. Other structures, design wind loads for main wind force resisting systems [h<120 ft (h<36.6 m)]: external",
-      "source_pdf_page": 8
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-29.4.3-T34",
     "type": "text_block",
     "source": {
@@ -3777,31 +3419,6 @@
       "qc_notes": null
     },
     "parent_id": "ASCE7-22-29.4-F29-4-61"
-  },
-  {
-    "id": "ASCE7-22-29.4-F29-4-61",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 29,
-      "section": "29.4",
-      "citation": "Figure 29.4-6",
-      "page": 9
-    },
-    "title": "Figure 29.4-6. Other structures, design loads for main wind force resisting systems [h < 120 ft (h < 36.6 m)]: drag force",
-    "description": "Figure 29.4-6. Other structures, design loads for main wind force resisting systems [h < 120 ft (h < 36.6 m)]: drag force",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 29.4-6. Other structures, design loads for main wind force resisting systems [h < 120 ft (h < 36.6 m)]: drag force",
-      "source_pdf_page": 9
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
   },
   {
     "id": "ASCE7-22-29.4.3-T55",
@@ -5238,31 +4855,6 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-29.4-F29-4-81",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 29,
-      "section": "29.4",
-      "citation": "Figure 29.4-8",
-      "page": 12
-    },
-    "title": "Figure 29.4-8. Solar panel pressure equalization factor, \u03b3a, for enclosed and partially enclosed buildings of all heights.",
-    "description": "Figure 29.4-8. Solar panel pressure equalization factor, \u03b3a, for enclosed and partially enclosed buildings of all heights.",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 29.4-8. Solar panel pressure equalization factor, \u03b3a, for enclosed and partially enclosed buildings of all heights.",
-      "source_pdf_page": 12
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-29.4.5.3-T8",
     "type": "text_block",
     "source": {
@@ -5711,31 +5303,6 @@
     "parent_id": "ASCE7-22-29.8-H2"
   },
   {
-    "id": "ASCE7-22-29.4-F29-4-91",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 29,
-      "section": "29.4",
-      "citation": "Figure 29.4-9",
-      "page": 13
-    },
-    "title": "Figure 29.4-9. Parameters for application of ground-mounted fixed-tilt solar panel system requirements.",
-    "description": "Figure 29.4-9. Parameters for application of ground-mounted fixed-tilt solar panel system requirements.",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 29.4-9. Parameters for application of ground-mounted fixed-tilt solar panel system requirements.",
-      "source_pdf_page": 13
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-29.4-E29-4-121",
     "type": "formula",
     "source": {
@@ -5875,31 +5442,6 @@
     "parent_id": "ASCE7-22-29.4-F29-4-101"
   },
   {
-    "id": "ASCE7-22-29.4-F29-4-101",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 29,
-      "section": "29.4",
-      "citation": "Figure 29.4-10",
-      "page": 14
-    },
-    "title": "Figure 29.4-10. Design wind loads: static wind load coefficients for ground-mounted fixed-tilt solar panel systems.",
-    "description": "Figure 29.4-10. Design wind loads: static wind load coefficients for ground-mounted fixed-tilt solar panel systems.",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 29.4-10. Design wind loads: static wind load coefficients for ground-mounted fixed-tilt solar panel systems.",
-      "source_pdf_page": 14
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-29.8-T11",
     "type": "text_block",
     "source": {
@@ -5981,31 +5523,6 @@
       "qc_notes": null
     },
     "parent_id": "ASCE7-22-29.8-H2"
-  },
-  {
-    "id": "ASCE7-22-29.4-F29-4-111",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 29,
-      "section": "29.4",
-      "citation": "Figure 29.4-11",
-      "page": 15
-    },
-    "title": "Figure 29.4-11. Design wind loads: dynamic wind load coefficients for ground-mounted fixed-tilt solar panel systems.",
-    "description": "Figure 29.4-11. Design wind loads: dynamic wind load coefficients for ground-mounted fixed-tilt solar panel systems.",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 29.4-11. Design wind loads: dynamic wind load coefficients for ground-mounted fixed-tilt solar panel systems.",
-      "source_pdf_page": 15
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
   },
   {
     "id": "ASCE7-22-29.8-T16",

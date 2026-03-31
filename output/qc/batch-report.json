@@ -1,22 +1,22 @@
 {
-  "timestamp": "2026-03-31T01:12:49.572873+00:00",
-  "total_time_seconds": 985,
+  "timestamp": "2026-03-31T01:43:22.453895+00:00",
+  "total_time_seconds": 928,
   "chapters": [
     {
       "chapter": 1,
       "title": "GENERAL",
       "pages": 6,
-      "elements": 111,
+      "elements": 105,
       "types": {
         "heading": 21,
         "text_block": 25,
-        "definition": 22,
+        "definition": 21,
         "provision": 35,
-        "table": 7,
+        "table": 2,
         "formula": 1
       },
       "deploy_pass": false,
-      "time": 15.3,
+      "time": 14.7,
       "file": "output/runs/ch1.json"
     },
     {
@@ -32,7 +32,7 @@
         "exception": 1
       },
       "deploy_pass": false,
-      "time": 5.7,
+      "time": 5.6,
       "file": "output/runs/ch2.json"
     },
     {
@@ -48,83 +48,83 @@
         "exception": 2
       },
       "deploy_pass": false,
-      "time": 4.5,
+      "time": 4.4,
       "file": "output/runs/ch3.json"
     },
     {
       "chapter": 4,
       "title": "LIVE LOADS",
       "pages": 8,
-      "elements": 139,
+      "elements": 135,
       "types": {
         "heading": 54,
-        "text_block": 28,
+        "text_block": 27,
         "definition": 10,
         "provision": 35,
         "exception": 6,
-        "table": 4,
+        "table": 1,
         "formula": 2
       },
       "deploy_pass": false,
-      "time": 26.8,
+      "time": 24.5,
       "file": "output/runs/ch4.json"
     },
     {
       "chapter": 5,
       "title": "FLOOD LOADS",
       "pages": 4,
-      "elements": 88,
+      "elements": 83,
       "types": {
         "heading": 18,
-        "text_block": 34,
+        "text_block": 31,
         "definition": 8,
         "provision": 15,
-        "formula": 9,
+        "formula": 8,
         "exception": 1,
         "table": 1,
-        "figure": 2
+        "figure": 1
       },
       "deploy_pass": false,
-      "time": 6.5,
+      "time": 6.1,
       "file": "output/runs/ch5.json"
     },
     {
       "chapter": 6,
       "title": "TSUNAMI LOADS AND EFFECTS",
       "pages": 30,
-      "elements": 720,
+      "elements": 700,
       "types": {
         "heading": 101,
-        "text_block": 275,
+        "text_block": 273,
         "definition": 65,
         "provision": 187,
         "exception": 5,
         "user_note": 1,
-        "figure": 19,
+        "figure": 10,
         "formula": 52,
-        "table": 15
+        "table": 6
       },
       "deploy_pass": false,
-      "time": 37.5,
+      "time": 36.1,
       "file": "output/runs/ch6.json"
     },
     {
       "chapter": 7,
       "title": "SNOW LOADS",
       "pages": 16,
-      "elements": 197,
+      "elements": 181,
       "types": {
         "heading": 42,
         "definition": 9,
-        "text_block": 73,
+        "text_block": 71,
         "provision": 45,
         "formula": 4,
-        "figure": 17,
-        "table": 5,
+        "figure": 6,
+        "table": 2,
         "exception": 2
       },
       "deploy_pass": false,
-      "time": 32.9,
+      "time": 29.7,
       "file": "output/runs/ch7.json"
     },
     {
@@ -141,81 +141,81 @@
         "formula": 1
       },
       "deploy_pass": false,
-      "time": 4.8,
+      "time": 4.3,
       "file": "output/runs/ch8.json"
     },
     {
       "chapter": 10,
       "title": "ICE LOADS",
       "pages": 24,
-      "elements": 196,
+      "elements": 140,
       "types": {
-        "heading": 36,
-        "provision": 52,
-        "text_block": 73,
+        "heading": 28,
+        "provision": 33,
+        "text_block": 61,
         "definition": 7,
         "formula": 5,
-        "figure": 22,
+        "figure": 5,
         "reference": 1
       },
       "deploy_pass": false,
-      "time": 28.9,
+      "time": 26.5,
       "file": "output/runs/ch10.json"
     },
     {
       "chapter": 11,
       "title": "SEISMIC DESIGN CRITERIA",
       "pages": 12,
-      "elements": 434,
+      "elements": 432,
       "types": {
         "heading": 46,
         "text_block": 256,
         "provision": 37,
-        "definition": 75,
+        "definition": 74,
         "user_note": 1,
         "exception": 2,
         "formula": 13,
         "figure": 1,
-        "table": 3
+        "table": 2
       },
       "deploy_pass": false,
-      "time": 20.9,
+      "time": 18.8,
       "file": "output/runs/ch11.json"
     },
     {
       "chapter": 12,
       "title": "SEISMIC DESIGN REQUIREMENTS FOR BUILDING STRUCTURES",
       "pages": 34,
-      "elements": 787,
+      "elements": 768,
       "types": {
         "heading": 150,
         "exception": 25,
         "provision": 276,
-        "text_block": 233,
-        "table": 16,
+        "text_block": 229,
+        "table": 8,
         "definition": 11,
-        "formula": 70,
-        "figure": 6
+        "formula": 66,
+        "figure": 3
       },
       "deploy_pass": false,
-      "time": 50.0,
+      "time": 49.0,
       "file": "output/runs/ch12.json"
     },
     {
       "chapter": 13,
       "title": "SEISMIC DESIGN REQUIREMENTS FOR NONSTRUCTURAL COMPONENTS",
       "pages": 18,
-      "elements": 376,
+      "elements": 372,
       "types": {
         "heading": 76,
         "text_block": 111,
         "provision": 152,
-        "formula": 17,
-        "table": 5,
+        "formula": 15,
+        "table": 3,
         "exception": 15
       },
       "deploy_pass": false,
-      "time": 33.6,
+      "time": 31.8,
       "file": "output/runs/ch13.json"
     },
     {
@@ -230,112 +230,112 @@
         "text_block": 17
       },
       "deploy_pass": false,
-      "time": 17.3,
+      "time": 10.9,
       "file": "output/runs/ch14.json"
     },
     {
       "chapter": 15,
       "title": "SEISMIC DESIGN REQUIREMENTS FOR NONBUILDING STRUCTURES",
       "pages": 20,
-      "elements": 452,
+      "elements": 444,
       "types": {
         "heading": 106,
-        "provision": 214,
-        "text_block": 96,
+        "provision": 212,
+        "text_block": 95,
         "exception": 5,
-        "table": 7,
-        "formula": 23,
+        "table": 4,
+        "formula": 21,
         "definition": 1
       },
       "deploy_pass": false,
-      "time": 151.4,
+      "time": 42.8,
       "file": "output/runs/ch15.json"
     },
     {
       "chapter": 16,
       "title": "NONLINEAR RESPONSE HISTORY ANALYSIS",
       "pages": 4,
-      "elements": 101,
+      "elements": 100,
       "types": {
         "heading": 35,
         "provision": 32,
         "text_block": 28,
         "exception": 2,
-        "formula": 4
+        "formula": 3
       },
       "deploy_pass": false,
-      "time": 26.5,
+      "time": 9.0,
       "file": "output/runs/ch16.json"
     },
     {
       "chapter": 17,
       "title": "SEISMIC DESIGN REQUIREMENTS FOR SEISMICALLY ISOLATED STRUCTURES",
       "pages": 12,
-      "elements": 336,
+      "elements": 334,
       "types": {
         "heading": 72,
-        "provision": 91,
+        "provision": 90,
         "definition": 14,
         "text_block": 133,
-        "formula": 18,
+        "formula": 17,
         "table": 1,
         "exception": 6,
         "figure": 1
       },
       "deploy_pass": false,
-      "time": 123.3,
+      "time": 21.8,
       "file": "output/runs/ch17.json"
     },
     {
       "chapter": 18,
       "title": "SEISMIC DESIGN REQUIREMENTS FOR STRUCTURES WITH DAMPING SYSTEMS",
       "pages": 16,
-      "elements": 480,
+      "elements": 471,
       "types": {
         "heading": 49,
         "definition": 4,
         "text_block": 201,
-        "formula": 74,
+        "formula": 67,
         "provision": 139,
         "exception": 10,
-        "table": 3
+        "table": 1
       },
       "deploy_pass": false,
-      "time": 45.9,
+      "time": 124.8,
       "file": "output/runs/ch18.json"
     },
     {
       "chapter": 19,
       "title": "SOIL",
       "pages": 6,
-      "elements": 183,
+      "elements": 178,
       "types": {
         "heading": 20,
-        "provision": 36,
+        "provision": 35,
         "definition": 6,
         "text_block": 81,
-        "formula": 37,
-        "table": 3
+        "formula": 35,
+        "table": 1
       },
       "deploy_pass": false,
-      "time": 18.2,
+      "time": 28.0,
       "file": "output/runs/ch19.json"
     },
     {
       "chapter": 20,
       "title": "SITE CLASSIFICATION PROCEDURE FOR SEISMIC DESIGN",
       "pages": 2,
-      "elements": 31,
+      "elements": 30,
       "types": {
         "heading": 11,
         "provision": 9,
         "text_block": 6,
-        "exception": 3,
+        "exception": 2,
         "table": 1,
         "formula": 1
       },
       "deploy_pass": false,
-      "time": 5.3,
+      "time": 7.3,
       "file": "output/runs/ch20.json"
     },
     {
@@ -352,135 +352,135 @@
         "formula": 1
       },
       "deploy_pass": false,
-      "time": 11.1,
+      "time": 16.8,
       "file": "output/runs/ch21.json"
     },
     {
       "chapter": 22,
       "title": "SEISMIC GROUND MOTION AND LONG-PERIOD TRANSITION MAPS",
       "pages": 22,
-      "elements": 236,
+      "elements": 152,
       "types": {
-        "heading": 8,
-        "text_block": 196,
+        "heading": 4,
+        "text_block": 141,
         "provision": 2,
-        "user_note": 13,
-        "figure": 17
+        "user_note": 4,
+        "figure": 1
       },
       "deploy_pass": false,
-      "time": 39.9,
+      "time": 51.6,
       "file": "output/runs/ch22.json"
     },
     {
       "chapter": 23,
       "title": "SEISMIC DESIGN REFERENCE DOCUMENTS",
       "pages": 4,
-      "elements": 178,
+      "elements": 111,
       "types": {
         "heading": 51,
         "provision": 1,
-        "reference": 65,
-        "text_block": 61
+        "reference": 2,
+        "text_block": 57
       },
       "deploy_pass": false,
-      "time": 9.1,
+      "time": 23.9,
       "file": "output/runs/ch23.json"
     },
     {
       "chapter": 26,
       "title": "WIND LOADS: GENERAL REQUIREMENTS",
       "pages": 20,
-      "elements": 448,
+      "elements": 412,
       "types": {
         "heading": 50,
-        "provision": 65,
-        "text_block": 248,
+        "provision": 50,
+        "text_block": 238,
         "user_note": 2,
         "definition": 37,
-        "figure": 8,
+        "figure": 4,
         "formula": 20,
-        "table": 8,
+        "table": 6,
         "exception": 3,
-        "reference": 7
+        "reference": 2
       },
       "deploy_pass": false,
-      "time": 52.6,
+      "time": 72.8,
       "file": "output/runs/ch26.json"
     },
     {
       "chapter": 27,
       "title": "WIND LOADS ON BUILDINGS: MAIN WIND FORCE RESISTING SYSTEM",
       "pages": 12,
-      "elements": 167,
+      "elements": 146,
       "types": {
-        "heading": 39,
-        "text_block": 84,
+        "heading": 30,
+        "text_block": 83,
         "provision": 24,
         "user_note": 1,
-        "table": 6,
+        "table": 2,
         "formula": 4,
-        "figure": 8,
+        "figure": 1,
         "exception": 1
       },
       "deploy_pass": false,
-      "time": 38.1,
+      "time": 53.0,
       "file": "output/runs/ch27.json"
     },
     {
       "chapter": 28,
       "title": "WIND LOADS ON BUILDINGS: MAIN WIND FORCE RESISTING SYSTEM",
       "pages": 6,
-      "elements": 122,
+      "elements": 110,
       "types": {
-        "heading": 35,
-        "text_block": 55,
+        "heading": 32,
+        "text_block": 53,
         "user_note": 2,
-        "provision": 15,
+        "provision": 14,
         "formula": 4,
         "exception": 2,
-        "definition": 2,
-        "table": 4,
-        "figure": 3
+        "definition": 1,
+        "table": 1,
+        "figure": 1
       },
       "deploy_pass": false,
-      "time": 11.4,
+      "time": 14.5,
       "file": "output/runs/ch28.json"
     },
     {
       "chapter": 29,
       "title": "WIND LOADS ON BUILDING APPURTENANCES AND OTHER STRUCTURES:",
       "pages": 16,
-      "elements": 218,
+      "elements": 200,
       "types": {
         "heading": 28,
-        "text_block": 133,
+        "text_block": 125,
         "user_note": 1,
         "formula": 13,
         "provision": 31,
-        "figure": 12
+        "figure": 2
       },
       "deploy_pass": false,
-      "time": 32.0,
+      "time": 39.5,
       "file": "output/runs/ch29.json"
     },
     {
       "chapter": 30,
       "title": "WIND LOADS: COMPONENTS AND CLADDING",
       "pages": 36,
-      "elements": 484,
+      "elements": 436,
       "types": {
         "heading": 64,
-        "text_block": 321,
-        "provision": 48,
+        "text_block": 308,
+        "provision": 35,
         "user_note": 6,
         "definition": 1,
         "formula": 11,
-        "figure": 31,
+        "figure": 9,
         "exception": 1,
         "table": 1
       },
       "deploy_pass": false,
-      "time": 68.9,
+      "time": 76.9,
       "file": "output/runs/ch30.json"
     },
     {
@@ -495,39 +495,39 @@
         "text_block": 6
       },
       "deploy_pass": false,
-      "time": 4.7,
+      "time": 12.9,
       "file": "output/runs/ch31.json"
     },
     {
       "chapter": 32,
       "title": "TORNADO LOADS",
       "pages": 44,
-      "elements": 414,
+      "elements": 299,
       "types": {
-        "heading": 76,
+        "heading": 63,
         "user_note": 1,
-        "text_block": 206,
-        "provision": 93,
+        "text_block": 160,
+        "provision": 50,
         "definition": 3,
-        "figure": 13,
+        "figure": 2,
         "formula": 18,
-        "table": 4
+        "table": 2
       },
       "deploy_pass": false,
-      "time": 54.9,
+      "time": 63.0,
       "file": "output/runs/ch32.json"
     }
   ],
-  "symbols_count": 282,
+  "symbols_count": 569,
   "symbol_conflicts": {},
   "unresolved_summary": {
-    "total": 640,
+    "total": 633,
     "pending": 6,
-    "broken": 634
+    "broken": 627
   },
   "summary": {
     "chapters_processed": 29,
-    "total_elements": 7241,
+    "total_elements": 6682,
     "passed": 0,
     "failed": 29,
     "errored": 0

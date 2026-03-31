@@ -1,0 +1,1740 @@
+============================================================
+OVERNIGHT BATCH EXTRACTION
+PDF: ASCE 7-22.pdf
+Started: 2026-03-30 21:27:54
+============================================================
+
+Found 32 chapters in ASCE 7-22.pdf
+Processing 29 chapters
+
+
+────────────────────────────────────────────────────────────
+[1/29] Chapter 1: GENERAL (6 pages)
+────────────────────────────────────────────────────────────
+  [1/4] PyMuPDF: scanning bold labels...
+  [2/4] Docling: document structure...
+  [2.5] Learning chapter-specific patterns...
+  Discovered patterns:
+    definition_markers: ['ALLCAPS_COLON']
+    section_prefixes: ['1.1', '1.2', '1.2.1 De', '1.2.2 Symbols', '1.3', '1.3.1 Strength and S', '1.3.1.1 Strength', '1.3.1.2 Allowable', '1.3.1.3 Performance-', '1.3.2 Serviceability']
+    skip_patterns: ['Minimum Design Loads and Assoc', 'STANDARD ASCE/SEI 7-22']
+    topic_headings: ['BASIC REQUIREMENTS', 'CLASSIFICATION OF BUILDINGS AND OTHER', 'CONSENSUS STANDARDS AND OTHER', 'DEFINITIONS AND SYMBOLS', 'GENERAL', 'GENERAL STRUCTURAL INTEGRITY', 'II', 'III', 'IN SITU LOAD TESTS', 'IV']
+  [3/4] Building elements from elastic classification...
+  [4/4] Enriching with tables, figures, references, equations...
+  [+] Building cross-references...
+  [+] Merging short fragments...
+  [+] Page-level equation scan...
+  [+] Associating body text with parent elements...
+    25/25 text_blocks associated with parents
+  [+] Parsing provision conditions...
+  [+] Building global symbols table...
+    569 symbols, 0/1 formulas have parameters
+  [+] Updating manifest...
+  [+] Tracking unresolved references...
+  Internal refs: 12 (0 pending, 12 broken)
+  Broken by chapter: {2: 11, 13: 1}
+  [+] Deduplicating...
+    111 → 105 (6 removed)
+  Done: 105 elements
+
+  Deploy gate for Chapter 1:
+DEPLOYMENT GATE
+============================================================
+  [PASS] SCHEMA                    105/105
+  [FAIL] COMPOSITE ≥95%            71.2%
+  [FAIL] COVERAGE ≥85%             29%
+  [PASS] FIDELITY ≥95%             100%
+  [PASS] NO SHALL IN TEXT_BLOCKS   0 found
+  [PASS] EQUATIONS ≥50%            1/1 (100%)
+  [FAIL] PARAMS ≥30%               0/1 (0%)
+  [FAIL] CONDITIONS ≥15%           2/35 (6%)
+  [PASS] CROSS-REFS >0             12 elements
+  [PASS] REFERENCES (N/A)          0 found (no ASTM/ANSI/CAN)
+  [PASS] CORE 3 TYPES              all present
+  [FAIL] 0 BROKEN REFS             12 broken, 0 pending
+  [PASS] SYMBOLS REGISTRY          569 symbols
+============================================================
+RESULT: 5 FAILURES — not ready
+
+  Chapter 1: 105 elements in 14.7s FAIL
+
+────────────────────────────────────────────────────────────
+[2/29] Chapter 2: COMBINATIONS OF LOADS (4 pages)
+────────────────────────────────────────────────────────────
+  [1/4] PyMuPDF: scanning bold labels...
+  [2/4] Docling: document structure...
+  [2.5] Learning chapter-specific patterns...
+  Discovered patterns:
+    exception_markers: ['EXCEPTION', 'EXCEPTIONS']
+    section_prefixes: ['2.1', '2.2', '2.3', '2.3.1 Basic', '2.3.2 Load Combinati', '2.3.3 Load Combinati', '2.3.4 Load Combinati', '2.3.5 Load Combinati', '2.3.6 Basic Combinat', '2.3.7 Alternative Me']
+    skip_patterns: ['10', 'Minimum Design Loads and Assoc', 'STANDARD ASCE/SEI 7-22']
+    topic_headings: ['AWC NDS', 'COMBINATIONS OF LOADS', 'CONSENSUS STANDARDS AND OTHER', 'EVENTS', 'GENERAL', 'LOAD COMBINATIONS FOR ALLOWABLE', 'LOAD COMBINATIONS FOR EXTRAORDINARY', 'LOAD COMBINATIONS FOR GENERAL', 'LOAD COMBINATIONS FOR STRENGTH DESIGN', 'REFERENCED DOCUMENTS']
+  [3/4] Building elements from elastic classification...
+  [4/4] Enriching with tables, figures, references, equations...
+  [+] Building cross-references...
+  [+] Merging short fragments...
+  [+] Page-level equation scan...
+    Found 2 additional equations from raw PDF text
+  [+] Associating body text with parent elements...
+    35/35 text_blocks associated with parents
+  [+] Parsing provision conditions...
+  [+] Building global symbols table...
+    569 symbols, 2/2 formulas have parameters
+  [+] Updating manifest...
+  [+] Tracking unresolved references...
+  Internal refs: 10 (0 pending, 10 broken)
+  Broken by chapter: {1: 2, 3: 1, 4: 2, 5: 1, 12: 3, 14: 1}
+  [+] Deduplicating...
+    100 → 100 (0 removed)
+  Done: 100 elements
+
+  Deploy gate for Chapter 2:
+DEPLOYMENT GATE
+============================================================
+  [PASS] SCHEMA                    100/100
+  [FAIL] COMPOSITE ≥95%            59.1%
+  [FAIL] COVERAGE ≥85%             0%
+  [PASS] FIDELITY ≥95%             98%
+  [PASS] NO SHALL IN TEXT_BLOCKS   0 found
+  [PASS] EQUATIONS ≥50%            2/2 (100%)
+  [PASS] PARAMS ≥30%               2/2 (100%)
+  [FAIL] CONDITIONS ≥15%           3/29 (10%)
+  [PASS] CROSS-REFS >0             10 elements
+  [PASS] REFERENCES (N/A)          0 found (no ASTM/ANSI/CAN)
+  [PASS] CORE 3 TYPES              all present
+  [FAIL] 0 BROKEN REFS             10 broken, 0 pending
+  [PASS] SYMBOLS REGISTRY          569 symbols
+============================================================
+RESULT: 4 FAILURES — not ready
+
+  Chapter 2: 100 elements in 5.6s FAIL
+
+────────────────────────────────────────────────────────────
+[3/29] Chapter 3: DEAD LOADS, SOIL LOADS, AND HYDROSTATIC PRESSURE (2 pages)
+────────────────────────────────────────────────────────────
+  [1/4] PyMuPDF: scanning bold labels...
+  [2/4] Docling: document structure...
+  [2.5] Learning chapter-specific patterns...
+  Discovered patterns:
+    exception_markers: ['EXCEPTION', 'EXCEPTIONS']
+    section_prefixes: ['3.1', '3.1.1 De', '3.1.2 Weights of Mat', '3.1.3 Weight of Fixe', '3.1.4 Vegetative and', '3.1.5 Solar Panels', '3.2', '3.2.1 Lateral', '3.2.2 Uplift Loads o', '3.3']
+    skip_patterns: ['11', '12', 'Minimum Design Loads and Assoc', 'STANDARD ASCE/SEI 7-22']
+    topic_headings: ['ALTERNATIVE METHOD FOR LOADS FROM', 'CONSENSUS STANDARDS AND OTHER', 'DEAD LOADS', 'DEAD LOADS, SOIL LOADS, AND HYDROSTATIC PRESSURE', 'REFERENCED DOCUMENTS', 'SOIL LOADS AND HYDROSTATIC PRESSURE', 'WATER IN SOIL']
+  [3/4] Building elements from elastic classification...
+  [4/4] Enriching with tables, figures, references, equations...
+  [+] Building cross-references...
+  [+] Merging short fragments...
+  [+] Page-level equation scan...
+  [+] Associating body text with parent elements...
+    2/2 text_blocks associated with parents
+  [+] Parsing provision conditions...
+  [+] Building global symbols table...
+    569 symbols, 0/0 formulas have parameters
+  [+] Updating manifest...
+  [+] Tracking unresolved references...
+  Internal refs: 2 (0 pending, 2 broken)
+  Broken by chapter: {1: 1, 2: 1}
+  [+] Deduplicating...
+    25 → 25 (0 removed)
+  Done: 25 elements
+
+  Deploy gate for Chapter 3:
+DEPLOYMENT GATE
+============================================================
+  [PASS] SCHEMA                    25/25
+  [PASS] COMPOSITE ≥95%            100.0%
+  [PASS] COVERAGE ≥85%             100%
+  [PASS] FIDELITY ≥95%             100%
+  [PASS] NO SHALL IN TEXT_BLOCKS   0 found
+  [PASS] EQUATIONS ≥50%            0/0 (0%)
+  [PASS] PARAMS ≥30%               0/0 (0%)
+  [FAIL] CONDITIONS ≥15%           0/7 (0%)
+  [PASS] CROSS-REFS >0             3 elements
+  [PASS] REFERENCES (N/A)          0 found (no ASTM/ANSI/CAN)
+  [PASS] CORE 3 TYPES              all present
+  [FAIL] 0 BROKEN REFS             2 broken, 0 pending
+  [PASS] SYMBOLS REGISTRY          569 symbols
+============================================================
+RESULT: 2 FAILURES — not ready
+
+  Chapter 3: 25 elements in 4.4s FAIL
+
+────────────────────────────────────────────────────────────
+[4/29] Chapter 4: LIVE LOADS (8 pages)
+────────────────────────────────────────────────────────────
+  [1/4] PyMuPDF: scanning bold labels...
+  [2/4] Docling: document structure...
+  [2.5] Learning chapter-specific patterns...
+  Discovered patterns:
+    definition_markers: ['ALLCAPS_COLON']
+    exception_markers: ['EXCEPTION', 'EXCEPTIONS']
+    section_prefixes: ['4.1', '4.10', '4.10.1 Passenger Veh', '4.10.2 Truck and Bus', '4.10.3 Sidewalks, Ve', '4.10.4 Emergency', '4.11', '4.11.1 General', '4.11.2 Concentrated', '4.12']
+    skip_patterns: ['13', '14', '15', '16', '17', '18', '19', '20', 'Minimum Design Loads and Assoc', 'STANDARD ASCE/SEI 7-22']
+    topic_headings: ['CONCENTRATED LIVE LOADS', 'CONSENSUS STANDARDS AND OTHER', 'CRANE LOADS', 'DEFINITIONS', 'GARAGE AND VEHICULAR FLOOR LOADS', 'HELIPAD LOADS', 'IMPACT LOADS', 'K LL*', 'LIBRARY STACK ROOMS', 'LIVE LOADS']
+  [3/4] Building elements from elastic classification...
+  [4/4] Enriching with tables, figures, references, equations...
+  [+] Building cross-references...
+  [+] Merging short fragments...
+  [+] Page-level equation scan...
+    Found 1 additional equations from raw PDF text
+  [+] Associating body text with parent elements...
+    28/28 text_blocks associated with parents
+  [+] Parsing provision conditions...
+  [+] Building global symbols table...
+    569 symbols, 2/2 formulas have parameters
+  [+] Updating manifest...
+  [+] Tracking unresolved references...
+  Internal refs: 0 (0 pending, 0 broken)
+  [+] Deduplicating...
+    139 → 135 (4 removed)
+  Done: 135 elements
+
+  Deploy gate for Chapter 4:
+DEPLOYMENT GATE
+============================================================
+  [PASS] SCHEMA                    135/135
+  [FAIL] COMPOSITE ≥95%            79.5%
+  [FAIL] COVERAGE ≥85%             50%
+  [PASS] FIDELITY ≥95%             99%
+  [PASS] NO SHALL IN TEXT_BLOCKS   0 found
+  [PASS] EQUATIONS ≥50%            2/2 (100%)
+  [PASS] PARAMS ≥30%               2/2 (100%)
+  [FAIL] CONDITIONS ≥15%           4/35 (11%)
+  [PASS] CROSS-REFS >0             28 elements
+  [PASS] REFERENCES (N/A)          0 found (no ASTM/ANSI/CAN)
+  [PASS] CORE 3 TYPES              all present
+  [PASS] 0 BROKEN REFS             0 broken, 0 pending
+  [PASS] SYMBOLS REGISTRY          569 symbols
+============================================================
+RESULT: 3 FAILURES — not ready
+
+  Chapter 4: 135 elements in 24.5s FAIL
+
+────────────────────────────────────────────────────────────
+[5/29] Chapter 5: FLOOD LOADS (4 pages)
+────────────────────────────────────────────────────────────
+  [1/4] PyMuPDF: scanning bold labels...
+  [2/4] Docling: document structure...
+  [2.5] Learning chapter-specific patterns...
+  Discovered patterns:
+    definition_markers: ['ALLCAPS_COLON']
+    exception_markers: ['EXCEPTION']
+    section_prefixes: ['5.1', '5.2', '5.3', '5.3.1 Design Loads', '5.3.2 Erosion and Sc', '5.3.3 Loads', '5.4', '5.4.1 Load Basis', '5.4.2 Hydrostatic Lo', '5.4.3 Hydrodynamic L']
+    skip_patterns: ['21', '22', '23', 'Minimum Design Loads and Assoc', 'STANDARD ASCE/SEI 7-22']
+    topic_headings: ['(AREA', 'AREA', 'ASCE/SEI 24', 'CONSENSUS STANDARDS AND OTHER', 'DEFINITIONS', 'DESIGN REQUIREMENTS', 'FLOOD', 'FLOOD LOADS', 'GENERAL', 'HAZARD']
+  [3/4] Building elements from elastic classification...
+  [4/4] Enriching with tables, figures, references, equations...
+  [+] Building cross-references...
+  [+] Merging short fragments...
+  [+] Page-level equation scan...
+    Found 4 additional equations from raw PDF text
+  [+] Associating body text with parent elements...
+    34/34 text_blocks associated with parents
+  [+] Parsing provision conditions...
+  [+] Building global symbols table...
+    569 symbols, 7/9 formulas have parameters
+  [+] Updating manifest...
+  [+] Tracking unresolved references...
+  Internal refs: 1 (0 pending, 1 broken)
+  Broken by chapter: {1: 1}
+
+  External standards referenced: 1
+  Total external refs: 2
+
+  TOP EXTERNAL DEPENDENCIES:
+      2x  ASCE/SEI 24                     from chapters [5]
+  [+] Deduplicating...
+    88 → 83 (5 removed)
+  Done: 83 elements
+
+  Deploy gate for Chapter 5:
+DEPLOYMENT GATE
+============================================================
+  [PASS] SCHEMA                    83/83
+  [FAIL] COMPOSITE ≥95%            85.2%
+  [FAIL] COVERAGE ≥85%             67%
+  [PASS] FIDELITY ≥95%             97%
+  [PASS] NO SHALL IN TEXT_BLOCKS   0 found
+  [PASS] EQUATIONS ≥50%            8/8 (100%)
+  [PASS] PARAMS ≥30%               6/8 (75%)
+  [PASS] CONDITIONS ≥15%           3/15 (20%)
+  [PASS] CROSS-REFS >0             7 elements
+  [PASS] REFERENCES (N/A)          0 found (no ASTM/ANSI/CAN)
+  [PASS] CORE 3 TYPES              all present
+  [FAIL] 0 BROKEN REFS             1 broken, 0 pending
+  [PASS] SYMBOLS REGISTRY          569 symbols
+============================================================
+RESULT: 3 FAILURES — not ready
+
+  Chapter 5: 83 elements in 6.1s FAIL
+
+────────────────────────────────────────────────────────────
+[6/29] Chapter 6: TSUNAMI LOADS AND EFFECTS (30 pages)
+────────────────────────────────────────────────────────────
+  [1/4] PyMuPDF: scanning bold labels...
+  [2/4] Docling: document structure...
+  [2.5] Learning chapter-specific patterns...
+  Discovered patterns:
+    definition_markers: ['ALLCAPS_COLON']
+    exception_markers: ['EXCEPTION']
+    note_markers: ['User Note']
+    section_prefixes: ['6.1', '6.1.1 Scope', '6.10', '6.10.1 Simpli', '6.10.2 Detailed Hydr', '6.10.2.1 Overall', '6.10.2.2 Drag', '6.10.2.3 Tsunami Loa', '6.10.2.4 Hydrodynami', '6.10.2.6 Loads']
+    skip_patterns: ['25', '26', '27', '28', '29', '30', '31', '32', '33', '34']
+    sub_definition_markers: ['Figure 6.5-1. Runup ']
+    topic_headings: ['ANALYSIS OF DESIGN INUNDATION DEPTH AND', 'AND IV STRUCTURES', 'BASED ON RUNUP', 'BASED ON SITE-SPECIFIC PROBABILISTIC', 'COLLAPSE PREVENTION STRUCTURAL PERFOR-', 'COMPONENTS', 'COMPONENTS AND SYSTEMS', 'CONSENSUS STANDARDS AND OTHER', 'DEBRIS IMPACT LOADS', 'DEFINITIONS']
+  [3/4] Building elements from elastic classification...
+  [4/4] Enriching with tables, figures, references, equations...
+  [+] Building cross-references...
+  [+] Merging short fragments...
+  [+] Page-level equation scan...
+    Found 14 additional equations from raw PDF text
+  [+] Associating body text with parent elements...
+    275/275 text_blocks associated with parents
+  [+] Parsing provision conditions...
+  [+] Building global symbols table...
+    569 symbols, 38/52 formulas have parameters
+  [+] Updating manifest...
+  [+] Tracking unresolved references...
+  Internal refs: 8 (0 pending, 8 broken)
+  Broken by chapter: {1: 2, 2: 1, 3: 1, 11: 1, 12: 2, 13: 1}
+
+  External standards referenced: 2
+  Total external refs: 2
+
+  TOP EXTERNAL DEPENDENCIES:
+      1x  ASCE/SEI 24-14                  from chapters [6]
+      1x  ASCE/SEI 41-13                  from chapters [6]
+  [+] Deduplicating...
+    720 → 700 (20 removed)
+  Done: 700 elements
+
+  Deploy gate for Chapter 6:
+DEPLOYMENT GATE
+============================================================
+  [PASS] SCHEMA                    700/700
+  [FAIL] COMPOSITE ≥95%            77.8%
+  [FAIL] COVERAGE ≥85%             47%
+  [PASS] FIDELITY ≥95%             98%
+  [FAIL] NO SHALL IN TEXT_BLOCKS   1 found
+  [PASS] EQUATIONS ≥50%            52/52 (100%)
+  [PASS] PARAMS ≥30%               38/52 (73%)
+  [PASS] CONDITIONS ≥15%           32/187 (17%)
+  [PASS] CROSS-REFS >0             161 elements
+  [PASS] REFERENCES (N/A)          0 found (no ASTM/ANSI/CAN)
+  [PASS] CORE 3 TYPES              all present
+  [FAIL] 0 BROKEN REFS             8 broken, 0 pending
+  [PASS] SYMBOLS REGISTRY          569 symbols
+============================================================
+RESULT: 4 FAILURES — not ready
+
+  Chapter 6: 700 elements in 36.1s FAIL
+
+────────────────────────────────────────────────────────────
+[7/29] Chapter 7: SNOW LOADS (16 pages)
+────────────────────────────────────────────────────────────
+  [1/4] PyMuPDF: scanning bold labels...
+  [2/4] Docling: document structure...
+  [2.5] Learning chapter-specific patterns...
+  Discovered patterns:
+    definition_markers: ['ALLCAPS_COLON']
+    exception_markers: ['EXCEPTION']
+    section_prefixes: ['0.73pf', '7.1', '7.1.1 De', '7.1.2 Symbols', '7.10', '7.11', '7.12', '7.13', '7.13.1 Snow at Top L', '7.13.2 Snow at Level']
+    skip_patterns: ['55', '56', '57', '58', '59', '60', '61', '62', '63', '64']
+    topic_headings: ['ALTERNATE PROCEDURE', 'ASCE 49', 'CONSENSUS STANDARDS AND OTHER', 'DEFINITIONS AND SYMBOLS', 'DRIFTS ON LOWER ROOFS (AERODYNAMIC', 'EXISTING ROOFS', 'II', 'III', 'IV', 'PONDING INSTABILITY']
+  [3/4] Building elements from elastic classification...
+  [4/4] Enriching with tables, figures, references, equations...
+  [+] Building cross-references...
+  [+] Merging short fragments...
+  [+] Page-level equation scan...
+    Found 2 additional equations from raw PDF text
+  [+] Associating body text with parent elements...
+    73/73 text_blocks associated with parents
+  [+] Parsing provision conditions...
+  [+] Building global symbols table...
+    569 symbols, 4/4 formulas have parameters
+  [+] Updating manifest...
+  [+] Tracking unresolved references...
+  Internal refs: 2 (0 pending, 2 broken)
+  Broken by chapter: {1: 2}
+  [+] Deduplicating...
+    197 → 181 (16 removed)
+  Done: 181 elements
+
+  Deploy gate for Chapter 7:
+DEPLOYMENT GATE
+============================================================
+  [PASS] SCHEMA                    181/181
+  [FAIL] COMPOSITE ≥95%            73.7%
+  [FAIL] COVERAGE ≥85%             36%
+  [PASS] FIDELITY ≥95%             99%
+  [PASS] NO SHALL IN TEXT_BLOCKS   0 found
+  [PASS] EQUATIONS ≥50%            4/4 (100%)
+  [PASS] PARAMS ≥30%               4/4 (100%)
+  [PASS] CONDITIONS ≥15%           11/45 (24%)
+  [PASS] CROSS-REFS >0             51 elements
+  [PASS] REFERENCES (N/A)          0 found (no ASTM/ANSI/CAN)
+  [PASS] CORE 3 TYPES              all present
+  [FAIL] 0 BROKEN REFS             2 broken, 0 pending
+  [PASS] SYMBOLS REGISTRY          569 symbols
+============================================================
+RESULT: 3 FAILURES — not ready
+
+  Chapter 7: 181 elements in 29.7s FAIL
+
+────────────────────────────────────────────────────────────
+[8/29] Chapter 8: RAIN LOADS (2 pages)
+────────────────────────────────────────────────────────────
+  [1/4] PyMuPDF: scanning bold labels...
+  [2/4] Docling: document structure...
+  [2.5] Learning chapter-specific patterns...
+  Discovered patterns:
+    definition_markers: ['ALLCAPS_COLON']
+    section_prefixes: ['8.1', '8.1.1 De', '8.1.2 Symbols', '8.2', '8.3', '8.4', '8.5', 'CHAPTER']
+    skip_patterns: ['71', 'Minimum Design Loads and Assoc']
+    topic_headings: ['BAYS WITH LOW SLOPE', 'CONSENSUS STANDARDS AND OTHER', 'DEFINITIONS AND SYMBOLS', 'DESIGN RAIN LOADS', 'DRAINAGE TO EXISTING ROOFS', 'RAIN LOADS', 'REFERENCED DOCUMENTS', 'SECONDARY DRAINAGE SYSTEM FOR STRUCTUR-']
+  [3/4] Building elements from elastic classification...
+  [4/4] Enriching with tables, figures, references, equations...
+  [+] Building cross-references...
+  [+] Merging short fragments...
+  [+] Page-level equation scan...
+  [+] Associating body text with parent elements...
+    15/15 text_blocks associated with parents
+  [+] Parsing provision conditions...
+  [+] Building global symbols table...
+    569 symbols, 0/1 formulas have parameters
+  [+] Updating manifest...
+  [+] Tracking unresolved references...
+  Internal refs: 0 (0 pending, 0 broken)
+  [+] Deduplicating...
+    38 → 38 (0 removed)
+  Done: 38 elements
+
+  Deploy gate for Chapter 8:
+DEPLOYMENT GATE
+============================================================
+  [PASS] SCHEMA                    38/38
+  [PASS] COMPOSITE ≥95%            99.8%
+  [PASS] COVERAGE ≥85%             100%
+  [PASS] FIDELITY ≥95%             100%
+  [PASS] NO SHALL IN TEXT_BLOCKS   0 found
+  [PASS] EQUATIONS ≥50%            1/1 (100%)
+  [FAIL] PARAMS ≥30%               0/1 (0%)
+  [FAIL] CONDITIONS ≥15%           0/5 (0%)
+  [PASS] CROSS-REFS >0             5 elements
+  [PASS] REFERENCES (N/A)          0 found (no ASTM/ANSI/CAN)
+  [PASS] CORE 3 TYPES              all present
+  [PASS] 0 BROKEN REFS             0 broken, 0 pending
+  [PASS] SYMBOLS REGISTRY          569 symbols
+============================================================
+RESULT: 2 FAILURES — not ready
+
+  Chapter 8: 38 elements in 4.3s FAIL
+
+────────────────────────────────────────────────────────────
+[9/29] Chapter 10: ICE LOADS (24 pages)
+────────────────────────────────────────────────────────────
+  [1/4] PyMuPDF: scanning bold labels...
+  [2/4] Docling: document structure...
+  [2.5] Learning chapter-specific patterns...
+  Discovered patterns:
+    definition_markers: ['ALLCAPS_COLON']
+    reference_markers: ['ANSI/TIA-222']
+    section_prefixes: ['10.1', '10.1.1 Site-Speci', '10.1.2 Dynamic Loads', '10.1.3 Exclusions', '10.2', '10.3', '10.4', '10.4.1 Ice Load', '10.4.2 Nominal Ice T', '10.4.3 Height Factor']
+    skip_patterns: ['75', '76', '77', '78', '79', '80', '81', '82', '83', '84']
+    topic_headings: ['CONSENSUS STANDARDS AND OTHER', 'DEFINITIONS', 'DESIGN PROCEDURE', 'DESIGN TEMPERATURES FOR FREEZING RAIN', 'GENERAL', 'ICE LOADS', 'ICE LOADS CAUSED BY FREEZING RAIN', 'NESC,', 'PARTIAL LOADING', 'REFERENCED DOCUMENTS']
+  [3/4] Building elements from elastic classification...
+  [4/4] Enriching with tables, figures, references, equations...
+  [+] Building cross-references...
+  [+] Merging short fragments...
+  [+] Page-level equation scan...
+    Found 4 additional equations from raw PDF text
+  [+] Associating body text with parent elements...
+    73/73 text_blocks associated with parents
+  [+] Parsing provision conditions...
+  [+] Building global symbols table...
+    569 symbols, 5/5 formulas have parameters
+  [+] Updating manifest...
+  [+] Tracking unresolved references...
+  Internal refs: 6 (0 pending, 6 broken)
+  Broken by chapter: {2: 1, 29: 5}
+
+  External standards referenced: 2
+  Total external refs: 2
+
+  TOP EXTERNAL DEPENDENCIES:
+      1x  ANSI/TIA-222.                   from chapters [10]
+      1x  ANSI/TIA-222                    from chapters [10]
+  [+] Deduplicating...
+    196 → 140 (56 removed)
+  Done: 140 elements
+
+  Deploy gate for Chapter 10:
+DEPLOYMENT GATE
+============================================================
+  [PASS] SCHEMA                    140/140
+  [FAIL] COMPOSITE ≥95%            65.9%
+  [FAIL] COVERAGE ≥85%             19%
+  [PASS] FIDELITY ≥95%             97%
+  [PASS] NO SHALL IN TEXT_BLOCKS   0 found
+  [PASS] EQUATIONS ≥50%            5/5 (100%)
+  [PASS] PARAMS ≥30%               5/5 (100%)
+  [FAIL] CONDITIONS ≥15%           1/33 (3%)
+  [PASS] CROSS-REFS >0             36 elements
+  [PASS] REFERENCES >0             1 found (ASTM/ANSI/CAN present)
+  [PASS] CORE 3 TYPES              all present
+  [FAIL] 0 BROKEN REFS             6 broken, 0 pending
+  [PASS] SYMBOLS REGISTRY          569 symbols
+============================================================
+RESULT: 4 FAILURES — not ready
+
+  Chapter 10: 140 elements in 26.5s FAIL
+
+────────────────────────────────────────────────────────────
+[10/29] Chapter 11: SEISMIC DESIGN CRITERIA (12 pages)
+────────────────────────────────────────────────────────────
+  [1/4] PyMuPDF: scanning bold labels...
+  [2/4] Docling: document structure...
+  [2.5] Learning chapter-specific patterns...
+  Discovered patterns:
+    definition_markers: ['ALLCAPS_COLON']
+    exception_markers: ['EXCEPTION', 'EXCEPTIONS']
+    note_markers: ['User Note']
+    section_prefixes: ['11.1', '11.1.1 Purpose', '11.1.2 Scope', '11.1.3 Applicability', '11.1.4 Alternate Mat', '11.1.5 Quality Assur', '11.10', '11.2', '11.3', '11.4']
+    skip_patterns: ['100', '101', '102', '103', '104', '105', '106', '107', '108', '109']
+    sub_definition_markers: ['Class BC', 'Class C', 'Class CD', 'Seismic Design Categ', 'Value of SDS']
+    topic_headings: ['(MCE)', 'AIR-CONDITIONING,', 'BOUNDARY', 'CANTILEVERED', 'CATEGORY A', 'CHARACTERISTIC', 'COLLECTOR (DRAG STRUT, TIE, DIAPHRAGM', 'COLUMN', 'CONCRETE', 'CONSENSUS STANDARDS AND OTHER']
+  [3/4] Building elements from elastic classification...
+  [4/4] Enriching with tables, figures, references, equations...
+  [+] Building cross-references...
+  [+] Merging short fragments...
+  [+] Page-level equation scan...
+    Found 3 additional equations from raw PDF text
+  [+] Associating body text with parent elements...
+    256/256 text_blocks associated with parents
+  [+] Parsing provision conditions...
+  [+] Building global symbols table...
+    569 symbols, 13/13 formulas have parameters
+  [+] Updating manifest...
+  [+] Tracking unresolved references...
+  Internal refs: 121 (0 pending, 121 broken)
+  Broken by chapter: {1: 2, 2: 1, 12: 72, 13: 13, 15: 3, 18: 1, 19: 9, 20: 8, 21: 12}
+
+  External standards referenced: 8
+  Total external refs: 10
+
+  TOP EXTERNAL DEPENDENCIES:
+      3x  ACI 318                         from chapters [11]
+      1x  ASTM A307                       from chapters [11]
+      1x  ASTM A108                       from chapters [11]
+      1x  ASTM D1586                      from chapters [11]
+      1x  ASTM D4318                      from chapters [11]
+      1x  ASTM D2166                      from chapters [11]
+      1x  ASTM D2850                      from chapters [11]
+      1x  ASTM D2216                      from chapters [11]
+  [+] Deduplicating...
+    434 → 432 (2 removed)
+  Done: 432 elements
+
+  Deploy gate for Chapter 11:
+DEPLOYMENT GATE
+============================================================
+  [PASS] SCHEMA                    432/432
+  [FAIL] COMPOSITE ≥95%            79.5%
+  [FAIL] COVERAGE ≥85%             50%
+  [PASS] FIDELITY ≥95%             99%
+  [PASS] NO SHALL IN TEXT_BLOCKS   0 found
+  [PASS] EQUATIONS ≥50%            13/13 (100%)
+  [PASS] PARAMS ≥30%               13/13 (100%)
+  [PASS] CONDITIONS ≥15%           13/37 (35%)
+  [PASS] CROSS-REFS >0             32 elements
+  [FAIL] REFERENCES >0             0 found (ASTM/ANSI/CAN present)
+  [PASS] CORE 3 TYPES              all present
+  [FAIL] 0 BROKEN REFS             121 broken, 0 pending
+  [PASS] SYMBOLS REGISTRY          569 symbols
+============================================================
+RESULT: 4 FAILURES — not ready
+
+  Chapter 11: 432 elements in 18.8s FAIL
+
+────────────────────────────────────────────────────────────
+[11/29] Chapter 12: SEISMIC DESIGN REQUIREMENTS FOR BUILDING STRUCTURES (34 pages)
+────────────────────────────────────────────────────────────
+  [1/4] PyMuPDF: scanning bold labels...
+  [2/4] Docling: document structure...
+  [2.5] Learning chapter-specific patterns...
+  Discovered patterns:
+    definition_markers: ['ALLCAPS_COLON']
+    exception_markers: ['EXCEPTION', 'EXCEPTIONS']
+    section_prefixes: ['12.1', '12.1.1 Basic Require', '12.1.2 Member', '12.1.3 Continuous', '12.1.4 Connection to', '12.1.5 Foundation De', '12.1.6 Material', '12.10', '12.10.1 Diaphragm De', '12.10.1.1 Diaphragm']
+    skip_patterns: ['111', '112', '113', '114', '115', '116', '117', '118', '119', '120']
+    sub_definition_markers: ['Categories D through', 'Category D', 'Category E or F', 'Design Categories D ', 'Seismic Design Categ']
+    topic_headings: ['A. BEARING WALL SYSTEMS', 'ANALYSIS PROCEDURE SELECTION', 'ANCHORAGE', 'AND ORDINARY REINFORCED CONCRETE SHEAR WALLS', 'B. BUILDING FRAME SYSTEMS', 'C. MOMENT-RESISTING FRAME SYSTEMS', 'CAPABLE OF RESISTING AT LEAST 25% OF PRESCRIBED', 'CONSENSUS STANDARDS AND OTHER', 'D, E', 'D. DUAL SYSTEMS WITH SPECIAL MOMENT FRAMES']
+  [3/4] Building elements from elastic classification...
+  [4/4] Enriching with tables, figures, references, equations...
+  [+] Building cross-references...
+  [+] Merging short fragments...
+  [+] Page-level equation scan...
+    Found 26 additional equations from raw PDF text
+  [+] Associating body text with parent elements...
+    233/233 text_blocks associated with parents
+  [+] Parsing provision conditions...
+  [+] Building global symbols table...
+    569 symbols, 52/70 formulas have parameters
+  [+] Updating manifest...
+  [+] Tracking unresolved references...
+  Internal refs: 73 (0 pending, 73 broken)
+  Broken by chapter: {1: 3, 2: 22, 3: 3, 4: 3, 11: 33, 14: 1, 16: 2, 18: 6}
+
+  External standards referenced: 5
+  Total external refs: 19
+
+  TOP EXTERNAL DEPENDENCIES:
+      6x  ACI 318.                        from chapters [12]
+      6x  ACI 318                         from chapters [12]
+      3x  ANSI/AISI                       from chapters [12]
+      2x  ANSI/AISC                       from chapters [12]
+      2x  AISC 341.                       from chapters [12]
+  [+] Deduplicating...
+    787 → 768 (19 removed)
+  Done: 768 elements
+
+  Deploy gate for Chapter 12:
+DEPLOYMENT GATE
+============================================================
+  [PASS] SCHEMA                    768/768
+  [FAIL] COMPOSITE ≥95%            80.5%
+  [FAIL] COVERAGE ≥85%             56%
+  [PASS] FIDELITY ≥95%             96%
+  [PASS] NO SHALL IN TEXT_BLOCKS   0 found
+  [PASS] EQUATIONS ≥50%            66/66 (100%)
+  [PASS] PARAMS ≥30%               49/66 (74%)
+  [FAIL] CONDITIONS ≥15%           23/276 (8%)
+  [PASS] CROSS-REFS >0             220 elements
+  [FAIL] REFERENCES >0             0 found (ASTM/ANSI/CAN present)
+  [PASS] CORE 3 TYPES              all present
+  [FAIL] 0 BROKEN REFS             73 broken, 0 pending
+  [PASS] SYMBOLS REGISTRY          569 symbols
+============================================================
+RESULT: 5 FAILURES — not ready
+
+  Chapter 12: 768 elements in 49.0s FAIL
+
+────────────────────────────────────────────────────────────
+[12/29] Chapter 13: SEISMIC DESIGN REQUIREMENTS FOR NONSTRUCTURAL COMPONENTS (18 pages)
+────────────────────────────────────────────────────────────
+  [1/4] PyMuPDF: scanning bold labels...
+  [2/4] Docling: document structure...
+  [2.5] Learning chapter-specific patterns...
+  Discovered patterns:
+    exception_markers: ['EXCEPTION', 'EXCEPTIONS']
+    section_prefixes: ['13.1', '13.1.1 Scope', '13.1.2 Seismic Desig', '13.1.3 Component Imp', '13.1.4 Exemptions', '13.1.5 Premanufactur', '13.1.6 Application', '13.1.7 Reference Doc', '13.1.8 Reference', '13.2']
+    skip_patterns: ['145', '146', '147', '148', '149', '150', '151', '152', '153', '154']
+    topic_headings: ['AND ATTACHMENT', 'ARCHITECTURAL COMPONENTS', 'CAR', 'COMPONENTS', 'CONSENSUS STANDARDS AND OTHER', 'DISTRIBUTION SYSTEM SUPPORTS', 'DISTRIBUTION SYSTEMS', 'EQUIPMENT SUPPORT STRUCTURES AND PLATFORMS', 'GENERAL', 'GENERAL DESIGN REQUIREMENTS']
+  [3/4] Building elements from elastic classification...
+  [4/4] Enriching with tables, figures, references, equations...
+  [+] Building cross-references...
+  [+] Merging short fragments...
+  [+] Page-level equation scan...
+    Found 8 additional equations from raw PDF text
+  [+] Associating body text with parent elements...
+    111/111 text_blocks associated with parents
+  [+] Parsing provision conditions...
+  [+] Building global symbols table...
+    569 symbols, 15/17 formulas have parameters
+  [+] Updating manifest...
+  [+] Tracking unresolved references...
+  Internal refs: 41 (1 pending, 40 broken)
+  Broken by chapter: {1: 4, 2: 2, 8: 1, 11: 3, 12: 24, 15: 6}
+
+  External standards referenced: 15
+  Total external refs: 19
+
+  TOP EXTERNAL DEPENDENCIES:
+      2x  ACI 318                         from chapters [13]
+      2x  ASTM C635                       from chapters [13]
+      2x  ASTM C636                       from chapters [13]
+      2x  ASTM E580                       from chapters [13]
+      1x  ACI 318.                        from chapters [13]
+      1x  TMS 402                         from chapters [13]
+      1x  ACI 355.2                       from chapters [13]
+      1x  ASTM F1554                      from chapters [13]
+      1x  ASTM C1087                      from chapters [13]
+      1x  ASTM C1135                      from chapters [13]
+      1x  ASTM C1184                      from chapters [13]
+      1x  ASTM C1265                      from chapters [13]
+      1x  ASTM C1294                      from chapters [13]
+      1x  ASTM C1369                      from chapters [13]
+      1x  ANSI/AHRI                       from chapters [13]
+  [+] Deduplicating...
+    376 → 372 (4 removed)
+  Done: 372 elements
+
+  Deploy gate for Chapter 13:
+DEPLOYMENT GATE
+============================================================
+  [PASS] SCHEMA                    372/372
+  [FAIL] COMPOSITE ≥95%            83.3%
+  [FAIL] COVERAGE ≥85%             60%
+  [PASS] FIDELITY ≥95%             99%
+  [PASS] NO SHALL IN TEXT_BLOCKS   0 found
+  [PASS] EQUATIONS ≥50%            15/15 (100%)
+  [PASS] PARAMS ≥30%               13/15 (87%)
+  [PASS] CONDITIONS ≥15%           24/152 (16%)
+  [PASS] CROSS-REFS >0             82 elements
+  [FAIL] REFERENCES >0             0 found (ASTM/ANSI/CAN present)
+  [PASS] CORE 3 TYPES              all present
+  [FAIL] 0 BROKEN REFS             40 broken, 1 pending
+  [PASS] SYMBOLS REGISTRY          569 symbols
+============================================================
+RESULT: 4 FAILURES — not ready
+
+  Chapter 13: 372 elements in 31.8s FAIL
+
+────────────────────────────────────────────────────────────
+[13/29] Chapter 14: MATERIAL-SPECIFIC SEISMIC DESIGN AND DETAILING REQUIREMENTS (4 pages)
+────────────────────────────────────────────────────────────
+  [1/4] PyMuPDF: scanning bold labels...
+  [2/4] Docling: document structure...
+  [2.5] Learning chapter-specific patterns...
+  Discovered patterns:
+    exception_markers: ['EXCEPTION']
+    section_prefixes: ['10.7.6.1.5', '12.2.2.11.1.1', '14.0', '14.1', '14.1.1 Reference Doc', '14.1.2 Structural St', '14.1.2.1 General', '14.1.2.2 Seismic', '14.1.3 Cold-Formed S', '14.1.3.1 General']
+    skip_patterns: ['163', '164', '165', '166', 'Minimum Design Loads and Assoc', 'STANDARD ASCE/SEI 7-22']
+    sub_definition_markers: ['Seismic Design Categ']
+    topic_headings: ['COMPOSITE STEEL AND CONCRETE', 'CONCRETE', 'CONSENSUS STANDARDS AND OTHER', 'MASONRY', 'MATERIAL-SPECIFIC SEISMIC DESIGN AND DETAILING REQUIREMENTS', 'REFERENCED DOCUMENTS', 'SCOPE', 'STEEL', 'STRUCTURES', 'WOOD']
+  [3/4] Building elements from elastic classification...
+  [4/4] Enriching with tables, figures, references, equations...
+  [+] Building cross-references...
+  [+] Merging short fragments...
+  [+] Page-level equation scan...
+  [+] Associating body text with parent elements...
+    17/17 text_blocks associated with parents
+  [+] Parsing provision conditions...
+  [+] Building global symbols table...
+    569 symbols, 0/0 formulas have parameters
+  [+] Updating manifest...
+  [+] Tracking unresolved references...
+  Internal refs: 33 (4 pending, 29 broken)
+  Broken by chapter: {2: 1, 5: 1, 6: 4, 7: 1, 8: 1, 10: 2, 11: 1, 12: 10, 15: 1, 18: 7}
+
+  External standards referenced: 14
+  Total external refs: 55
+
+  TOP EXTERNAL DEPENDENCIES:
+     16x  TMS 402                         from chapters [14]
+     15x  ACI 318                         from chapters [14]
+      4x  AISC 341                        from chapters [14]
+      4x  AISC 360                        from chapters [14]
+      4x  AISC 341.                       from chapters [14]
+      2x  ANSI/AISC                       from chapters [14]
+      2x  ACI 318.                        from chapters [14]
+      2x  TMS 602                         from chapters [14]
+      1x  ANSI/AISI                       from chapters [14]
+      1x  ANSI/SDI-QA                     from chapters [14]
+      1x  ANSI/SDI-SD                     from chapters [14]
+      1x  ANSI/SJI-100                    from chapters [14]
+      1x  ANSI/SJI-200                    from chapters [14]
+      1x  AISC 360.                       from chapters [14]
+  [+] Deduplicating...
+    102 → 102 (0 removed)
+  Done: 102 elements
+
+  Deploy gate for Chapter 14:
+DEPLOYMENT GATE
+============================================================
+  [PASS] SCHEMA                    102/102
+  [FAIL] COMPOSITE ≥95%            59.5%
+  [FAIL] COVERAGE ≥85%             0%
+  [PASS] FIDELITY ≥95%             100%
+  [PASS] NO SHALL IN TEXT_BLOCKS   0 found
+  [PASS] EQUATIONS ≥50%            0/0 (0%)
+  [PASS] PARAMS ≥30%               0/0 (0%)
+  [FAIL] CONDITIONS ≥15%           0/33 (0%)
+  [PASS] CROSS-REFS >0             20 elements
+  [FAIL] REFERENCES >0             0 found (ASTM/ANSI/CAN present)
+  [PASS] CORE 3 TYPES              all present
+  [FAIL] 0 BROKEN REFS             29 broken, 4 pending
+  [PASS] SYMBOLS REGISTRY          569 symbols
+============================================================
+RESULT: 5 FAILURES — not ready
+
+  Chapter 14: 102 elements in 10.9s FAIL
+
+────────────────────────────────────────────────────────────
+[14/29] Chapter 15: SEISMIC DESIGN REQUIREMENTS FOR NONBUILDING STRUCTURES (20 pages)
+────────────────────────────────────────────────────────────
+  [1/4] PyMuPDF: scanning bold labels...
+  [2/4] Docling: document structure...
+  [2.5] Learning chapter-specific patterns...
+  Discovered patterns:
+    definition_markers: ['ALLCAPS_COLON']
+    exception_markers: ['EXCEPTION', 'EXCEPTIONS']
+    section_prefixes: ['15.1', '15.1.1 Nonbuilding S', '15.1.2 Design', '15.1.3 Structural An', '15.1.4 Nonbuilding S', '15.1.4.1 Direction', '15.2', '15.2.1 General', '15.2.2 Nonstructural', '15.3']
+    skip_patterns: ['167', '168', '169', '170', '171', '172', '173', '174', '175', '176']
+    sub_definition_markers: ['Anchorage Ratio, J', 'Value of SDS']
+    topic_headings: ['ADJACENT STRUCTURES', 'BUILDINGS', 'CONSENSUS STANDARDS AND OTHER', 'GENERAL', 'GENERAL REQUIREMENTS FOR NONBUILDING', 'III', 'IV', 'NONBUILDING STRUCTURES CONNECTED BY', 'NONBUILDING STRUCTURES SIMILAR TO', 'NONBUILDING STRUCTURES SUPPORTED BY']
+  [3/4] Building elements from elastic classification...
+  [4/4] Enriching with tables, figures, references, equations...
+  [+] Building cross-references...
+  [+] Merging short fragments...
+  [+] Page-level equation scan...
+    Found 14 additional equations from raw PDF text
+  [+] Associating body text with parent elements...
+    96/96 text_blocks associated with parents
+  [+] Parsing provision conditions...
+  [+] Building global symbols table...
+    569 symbols, 17/23 formulas have parameters
+  [+] Updating manifest...
+  [+] Tracking unresolved references...
+  Internal refs: 83 (1 pending, 82 broken)
+  Broken by chapter: {1: 4, 2: 4, 4: 1, 7: 2, 8: 1, 10: 2, 11: 23, 12: 35, 13: 4, 14: 1, 17: 2, 18: 2, 19: 1}
+
+  External standards referenced: 15
+  Total external refs: 35
+
+  TOP EXTERNAL DEPENDENCIES:
+      8x  ACI 318                         from chapters [15]
+      6x  ANSI/RMI                        from chapters [15]
+      3x  ACI 318.                        from chapters [15]
+      3x  ASCE/SEI 7                      from chapters [15]
+      3x  ACI 313.                        from chapters [15]
+      2x  ACI 307                         from chapters [15]
+      2x  ACI 350.3                       from chapters [15]
+      1x  AISC 341                        from chapters [15]
+      1x  AISC 341.                       from chapters [15]
+      1x  TMS 402                         from chapters [15]
+      1x  ACI 355.2                       from chapters [15]
+      1x  ASTM F1554                      from chapters [15]
+      1x  ANSI/TIA-222-H.                 from chapters [15]
+      1x  ACI 350.3.                      from chapters [15]
+      1x  AISC 360                        from chapters [15]
+  [+] Deduplicating...
+    452 → 444 (8 removed)
+  Done: 444 elements
+
+  Deploy gate for Chapter 15:
+DEPLOYMENT GATE
+============================================================
+  [PASS] SCHEMA                    444/444
+  [FAIL] COMPOSITE ≥95%            72.4%
+  [FAIL] COVERAGE ≥85%             33%
+  [PASS] FIDELITY ≥95%             98%
+  [PASS] NO SHALL IN TEXT_BLOCKS   0 found
+  [PASS] EQUATIONS ≥50%            21/21 (100%)
+  [PASS] PARAMS ≥30%               15/21 (71%)
+  [FAIL] CONDITIONS ≥15%           28/212 (13%)
+  [PASS] CROSS-REFS >0             80 elements
+  [FAIL] REFERENCES >0             0 found (ASTM/ANSI/CAN present)
+  [PASS] CORE 3 TYPES              all present
+  [FAIL] 0 BROKEN REFS             82 broken, 1 pending
+  [PASS] SYMBOLS REGISTRY          569 symbols
+============================================================
+RESULT: 5 FAILURES — not ready
+
+  Chapter 15: 444 elements in 42.8s FAIL
+
+────────────────────────────────────────────────────────────
+[15/29] Chapter 16: NONLINEAR RESPONSE HISTORY ANALYSIS (4 pages)
+────────────────────────────────────────────────────────────
+  [1/4] PyMuPDF: scanning bold labels...
+  [2/4] Docling: document structure...
+  [2.5] Learning chapter-specific patterns...
+  Discovered patterns:
+    exception_markers: ['EXCEPTION', 'EXCEPTIONS']
+    section_prefixes: ['16.1', '16.1.1 Scope', '16.1.2 Linear Analys', '16.1.3 Vertical Resp', '16.1.4 Documentation', '16.2', '16.2.1 Target Respon', '16.2.1.1 Method 1', '16.2.1.2 Method 2', '16.2.2 Ground Motion']
+    skip_patterns: ['187', '188', '189', '190', 'Minimum Design Loads and Assoc', 'STANDARD ASCE/SEI 7-22']
+    topic_headings: ['ANALYSIS RESULTS AND ACCEPTANCE', 'CONSENSUS STANDARDS AND OTHER', 'CRITERIA', 'DESIGN REVIEW', 'GENERAL REQUIREMENTS', 'GROUND MOTIONS', 'MODELING AND ANALYSIS', 'NONLINEAR RESPONSE HISTORY ANALYSIS', 'REFERENCED DOCUMENTS']
+  [3/4] Building elements from elastic classification...
+  [4/4] Enriching with tables, figures, references, equations...
+  [+] Building cross-references...
+  [+] Merging short fragments...
+  [+] Page-level equation scan...
+  [+] Associating body text with parent elements...
+    28/28 text_blocks associated with parents
+  [+] Parsing provision conditions...
+  [+] Building global symbols table...
+    569 symbols, 3/4 formulas have parameters
+  [+] Updating manifest...
+  [+] Tracking unresolved references...
+  Internal refs: 12 (0 pending, 12 broken)
+  Broken by chapter: {1: 1, 11: 4, 12: 7}
+
+  External standards referenced: 1
+  Total external refs: 3
+
+  TOP EXTERNAL DEPENDENCIES:
+      3x  ACI 318                         from chapters [16]
+  [+] Deduplicating...
+    101 → 100 (1 removed)
+  Done: 100 elements
+
+  Deploy gate for Chapter 16:
+DEPLOYMENT GATE
+============================================================
+  [PASS] SCHEMA                    100/100
+  [FAIL] COMPOSITE ≥95%            59.9%
+  [FAIL] COVERAGE ≥85%             0%
+  [PASS] FIDELITY ≥95%             100%
+  [PASS] NO SHALL IN TEXT_BLOCKS   0 found
+  [PASS] EQUATIONS ≥50%            3/3 (100%)
+  [PASS] PARAMS ≥30%               2/3 (67%)
+  [FAIL] CONDITIONS ≥15%           4/32 (12%)
+  [PASS] CROSS-REFS >0             16 elements
+  [PASS] REFERENCES (N/A)          0 found (no ASTM/ANSI/CAN)
+  [PASS] CORE 3 TYPES              all present
+  [FAIL] 0 BROKEN REFS             12 broken, 0 pending
+  [PASS] SYMBOLS REGISTRY          569 symbols
+============================================================
+RESULT: 4 FAILURES — not ready
+
+  Chapter 16: 100 elements in 9.0s FAIL
+
+────────────────────────────────────────────────────────────
+[16/29] Chapter 17: SEISMIC DESIGN REQUIREMENTS FOR SEISMICALLY ISOLATED STRUCTURES (12 pages)
+────────────────────────────────────────────────────────────
+  [1/4] PyMuPDF: scanning bold labels...
+  [2/4] Docling: document structure...
+  [2.5] Learning chapter-specific patterns...
+  Discovered patterns:
+    definition_markers: ['ALLCAPS_COLON']
+    exception_markers: ['EXCEPTION']
+    section_prefixes: ['17.1', '17.1.1 De', '17.1.2 Symbols', '17.2', '17.2.1 Importance', '17.2.2 Con', '17.2.3 Redundancy', '17.2.4 Isolation Sys', '17.2.4.1 Environment', '17.2.4.2 Wind Forces']
+    skip_patterns: ['191', '192', '193', '194', '195', '196', '197', '198', '199', '200']
+    sub_definition_markers: ['Table 17.5-1. Dampin']
+    topic_headings: ['ANALYSIS PROCEDURE SELECTION', 'CONSENSUS STANDARDS AND OTHER', 'DESIGN REVIEW', 'DYNAMIC ANALYSIS PROCEDURES', 'EQUIVALENT LATERAL FORCE PROCEDURE', 'GENERAL', 'GENERAL DESIGN REQUIREMENTS', 'REFERENCED DOCUMENTS', 'SEISMIC HAZARD', 'TESTING']
+  [3/4] Building elements from elastic classification...
+  [4/4] Enriching with tables, figures, references, equations...
+  [+] Building cross-references...
+  [+] Merging short fragments...
+  [+] Page-level equation scan...
+    Found 1 additional equations from raw PDF text
+  [+] Associating body text with parent elements...
+    133/133 text_blocks associated with parents
+  [+] Parsing provision conditions...
+  [+] Building global symbols table...
+    569 symbols, 12/18 formulas have parameters
+  [+] Updating manifest...
+  [+] Tracking unresolved references...
+  Internal refs: 20 (0 pending, 20 broken)
+  Broken by chapter: {1: 1, 2: 2, 11: 2, 12: 13, 16: 2}
+
+  External standards referenced: 1
+  Total external refs: 1
+
+  TOP EXTERNAL DEPENDENCIES:
+      1x  AISC 341                        from chapters [17]
+  [+] Deduplicating...
+    336 → 334 (2 removed)
+  Done: 334 elements
+
+  Deploy gate for Chapter 17:
+DEPLOYMENT GATE
+============================================================
+  [PASS] SCHEMA                    334/334
+  [PASS] COMPOSITE ≥95%            99.8%
+  [PASS] COVERAGE ≥85%             100%
+  [PASS] FIDELITY ≥95%             100%
+  [PASS] NO SHALL IN TEXT_BLOCKS   0 found
+  [PASS] EQUATIONS ≥50%            17/17 (100%)
+  [PASS] PARAMS ≥30%               11/17 (65%)
+  [FAIL] CONDITIONS ≥15%           9/90 (10%)
+  [PASS] CROSS-REFS >0             79 elements
+  [PASS] REFERENCES (N/A)          0 found (no ASTM/ANSI/CAN)
+  [PASS] CORE 3 TYPES              all present
+  [FAIL] 0 BROKEN REFS             20 broken, 0 pending
+  [PASS] SYMBOLS REGISTRY          569 symbols
+============================================================
+RESULT: 2 FAILURES — not ready
+
+  Chapter 17: 334 elements in 21.8s FAIL
+
+────────────────────────────────────────────────────────────
+[17/29] Chapter 18: SEISMIC DESIGN REQUIREMENTS FOR STRUCTURES WITH DAMPING SYSTEMS (16 pages)
+────────────────────────────────────────────────────────────
+  [1/4] PyMuPDF: scanning bold labels...
+  [2/4] Docling: document structure...
+  [2.5] Learning chapter-specific patterns...
+  Discovered patterns:
+    definition_markers: ['ALLCAPS_COLON']
+    exception_markers: ['EXCEPTION']
+    section_prefixes: ['18.1', '18.1.1 Scope', '18.1.2 De', '18.1.3 Symbols', '18.2', '18.2.1 System Requir', '18.2.1.1 Seismic', '18.2.1.2 Damping Sys', '18.2.2 Seismic Hazar', '18.2.2.1 Spectral']
+    skip_patterns: ['203', '204', '205', '206', '207', '208', '209', '210', '211', '212']
+    sub_definition_markers: ['CmFD']
+    topic_headings: ['ACCEPTANCE CRITERIA FOR NONLINEAR', 'ALTERNATE PROCEDURES AND', 'BV', 'CONSENSUS STANDARDS AND OTHER', 'CORRESPONDING ACCEPTANCE CRITERIA', 'DESIGN REVIEW', 'GENERAL', 'GENERAL DESIGN REQUIREMENTS', 'NONLINEAR RESPONSE HISTORY', 'PROCEDURE']
+  [3/4] Building elements from elastic classification...
+  [4/4] Enriching with tables, figures, references, equations...
+  [+] Building cross-references...
+  [+] Merging short fragments...
+  [+] Page-level equation scan...
+    Found 10 additional equations from raw PDF text
+  [+] Associating body text with parent elements...
+    201/201 text_blocks associated with parents
+  [+] Parsing provision conditions...
+  [+] Building global symbols table...
+    569 symbols, 60/74 formulas have parameters
+  [+] Updating manifest...
+  [+] Tracking unresolved references...
+  Internal refs: 33 (0 pending, 33 broken)
+  Broken by chapter: {11: 5, 12: 26, 16: 2}
+  [+] Deduplicating...
+    480 → 471 (9 removed)
+  Done: 471 elements
+
+  Deploy gate for Chapter 18:
+DEPLOYMENT GATE
+============================================================
+  [PASS] SCHEMA                    471/471
+  [FAIL] COMPOSITE ≥95%            72.7%
+  [FAIL] COVERAGE ≥85%             33%
+  [PASS] FIDELITY ≥95%             99%
+  [PASS] NO SHALL IN TEXT_BLOCKS   0 found
+  [PASS] EQUATIONS ≥50%            67/67 (100%)
+  [PASS] PARAMS ≥30%               55/67 (82%)
+  [FAIL] CONDITIONS ≥15%           12/139 (9%)
+  [PASS] CROSS-REFS >0             151 elements
+  [PASS] REFERENCES (N/A)          0 found (no ASTM/ANSI/CAN)
+  [PASS] CORE 3 TYPES              all present
+  [FAIL] 0 BROKEN REFS             33 broken, 0 pending
+  [PASS] SYMBOLS REGISTRY          569 symbols
+============================================================
+RESULT: 4 FAILURES — not ready
+
+  Chapter 18: 471 elements in 124.8s FAIL
+
+────────────────────────────────────────────────────────────
+[18/29] Chapter 19: SOIL (6 pages)
+────────────────────────────────────────────────────────────
+  [1/4] PyMuPDF: scanning bold labels...
+  [2/4] Docling: document structure...
+  [2.5] Learning chapter-specific patterns...
+  Discovered patterns:
+    definition_markers: ['ALLCAPS_COLON']
+    section_prefixes: ['19.1', '19.1.1 Scope', '19.1.2 De', '19.1.3 Symbols', '19.2', '19.2.1 Equivalent La', '19.2.2 Linear Dynami', '19.2.2.1 SSI', '19.2.2.2 SSI Site-Sp', '19.2.3 Nonlinear Res']
+    skip_patterns: ['219', '220', '221', '222', '223', '224', 'Minimum Design Loads and Assoc', 'STANDARD ASCE/SEI 7-22']
+    sub_definition_markers: ['Effective Peak Accel']
+    topic_headings: ['(KINEMATIC) SSI EFFECTS', 'BASE SLAB AVERAGING AND EMBEDMENT', 'CONSENSUS STANDARDS AND OTHER', 'FOUNDATION DAMPING EFFECTS', 'GENERAL', 'REFERENCED DOCUMENTS', 'SDS', 'SOIL', 'SSI ADJUSTED STRUCTURAL DEMANDS']
+  [3/4] Building elements from elastic classification...
+  [4/4] Enriching with tables, figures, references, equations...
+  [+] Building cross-references...
+  [+] Merging short fragments...
+  [+] Page-level equation scan...
+    Found 2 additional equations from raw PDF text
+  [+] Associating body text with parent elements...
+    81/81 text_blocks associated with parents
+  [+] Parsing provision conditions...
+  [+] Building global symbols table...
+    569 symbols, 31/37 formulas have parameters
+  [+] Updating manifest...
+  [+] Tracking unresolved references...
+  Internal refs: 23 (0 pending, 23 broken)
+  Broken by chapter: {11: 5, 12: 16, 16: 1, 21: 1}
+  [+] Deduplicating...
+    183 → 178 (5 removed)
+  Done: 178 elements
+
+  Deploy gate for Chapter 19:
+DEPLOYMENT GATE
+============================================================
+  [PASS] SCHEMA                    178/178
+  [FAIL] COMPOSITE ≥95%            72.3%
+  [FAIL] COVERAGE ≥85%             33%
+  [PASS] FIDELITY ≥95%             98%
+  [PASS] NO SHALL IN TEXT_BLOCKS   0 found
+  [PASS] EQUATIONS ≥50%            35/35 (100%)
+  [PASS] PARAMS ≥30%               29/35 (83%)
+  [PASS] CONDITIONS ≥15%           9/35 (26%)
+  [PASS] CROSS-REFS >0             28 elements
+  [PASS] REFERENCES (N/A)          0 found (no ASTM/ANSI/CAN)
+  [PASS] CORE 3 TYPES              all present
+  [FAIL] 0 BROKEN REFS             23 broken, 0 pending
+  [PASS] SYMBOLS REGISTRY          569 symbols
+============================================================
+RESULT: 3 FAILURES — not ready
+
+  Chapter 19: 178 elements in 28.0s FAIL
+
+────────────────────────────────────────────────────────────
+[19/29] Chapter 20: SITE CLASSIFICATION PROCEDURE FOR SEISMIC DESIGN (2 pages)
+────────────────────────────────────────────────────────────
+  [1/4] PyMuPDF: scanning bold labels...
+  [2/4] Docling: document structure...
+  [2.5] Learning chapter-specific patterns...
+  Discovered patterns:
+    exception_markers: ['EXCEPTION']
+    section_prefixes: ['20.1', '20.2', '20.2.1 Site Class F', '20.2.2 Soft Clay Sit', '20.2.3 Site Classes ', '20.2.4 Site Classes ', '20.2.5 Site Class A ', '20.3', '20.4', '20.4.1']
+    skip_patterns: ['225', '226', 'Minimum Design Loads and Assoc', 'STANDARD ASCE/SEI 7-22']
+    topic_headings: ['CONSENSUS STANDARDS AND OTHER', 'DEFINITIONS OF SITE CLASS PARAMETERS', 'ESTIMATION OF SHEAR WAVE VELOCITY', 'PROFILES', 'REFERENCED DOCUMENTS', 'SITE CLASS DEFINITIONS', 'SITE CLASSIFICATION', 'SITE CLASSIFICATION PROCEDURE FOR SEISMIC DESIGN']
+  [3/4] Building elements from elastic classification...
+  [4/4] Enriching with tables, figures, references, equations...
+  [+] Building cross-references...
+  [+] Merging short fragments...
+  [+] Page-level equation scan...
+  [+] Associating body text with parent elements...
+    6/6 text_blocks associated with parents
+  [+] Parsing provision conditions...
+  [+] Building global symbols table...
+    569 symbols, 1/1 formulas have parameters
+  [+] Updating manifest...
+  [+] Tracking unresolved references...
+  Internal refs: 4 (0 pending, 4 broken)
+  Broken by chapter: {11: 3, 21: 1}
+  [+] Deduplicating...
+    31 → 30 (1 removed)
+  Done: 30 elements
+
+  Deploy gate for Chapter 20:
+DEPLOYMENT GATE
+============================================================
+  [PASS] SCHEMA                    30/30
+  [PASS] COMPOSITE ≥95%            99.8%
+  [PASS] COVERAGE ≥85%             100%
+  [PASS] FIDELITY ≥95%             100%
+  [PASS] NO SHALL IN TEXT_BLOCKS   0 found
+  [PASS] EQUATIONS ≥50%            1/1 (100%)
+  [PASS] PARAMS ≥30%               1/1 (100%)
+  [PASS] CONDITIONS ≥15%           5/9 (56%)
+  [PASS] CROSS-REFS >0             8 elements
+  [PASS] REFERENCES (N/A)          0 found (no ASTM/ANSI/CAN)
+  [PASS] CORE 3 TYPES              all present
+  [FAIL] 0 BROKEN REFS             4 broken, 0 pending
+  [PASS] SYMBOLS REGISTRY          569 symbols
+============================================================
+RESULT: 1 FAILURES — not ready
+
+  Chapter 20: 30 elements in 7.3s FAIL
+
+────────────────────────────────────────────────────────────
+[20/29] Chapter 21: SITE-SPECIFIC GROUND MOTION PROCEDURES FOR SEISMIC DESIGN (4 pages)
+────────────────────────────────────────────────────────────
+  [1/4] PyMuPDF: scanning bold labels...
+  [2/4] Docling: document structure...
+  [2.5] Learning chapter-specific patterns...
+  Discovered patterns:
+    exception_markers: ['EXCEPTION']
+    section_prefixes: ['21.1', '21.1.1 Base Ground M', '21.1.2 Site Conditio', '21.1.3 Site Response', '21.2', '21.2.1 Probabilistic', '21.2.2 Deterministic', '21.2.3 Site-Speci', '21.2.3.1 Site Class ', '21.3']
+    skip_patterns: ['227', '228', '229', 'Minimum Design Loads and Assoc', 'STANDARD ASCE/SEI 7-22']
+    topic_headings: ['(MCER)', 'ACCELERATION', 'BC', 'CD', 'CONSENSUS STANDARDS AND OTHER', 'DE', 'DESIGN ACCELERATION PARAMETERS', 'DESIGN RESPONSE SPECTRUM', 'EARTHQUAKE (MCER) GROUND MOTION', 'GEOMETRIC MEAN (MCEG) PEAK GROUND']
+  [3/4] Building elements from elastic classification...
+  [4/4] Enriching with tables, figures, references, equations...
+  [+] Building cross-references...
+  [+] Merging short fragments...
+  [+] Page-level equation scan...
+  [+] Associating body text with parent elements...
+    5/5 text_blocks associated with parents
+  [+] Parsing provision conditions...
+  [+] Building global symbols table...
+    569 symbols, 0/1 formulas have parameters
+  [+] Updating manifest...
+  [+] Tracking unresolved references...
+  Internal refs: 8 (0 pending, 8 broken)
+  Broken by chapter: {11: 7, 20: 1}
+  [+] Deduplicating...
+    36 → 36 (0 removed)
+  Done: 36 elements
+
+  Deploy gate for Chapter 21:
+DEPLOYMENT GATE
+============================================================
+  [PASS] SCHEMA                    36/36
+  [PASS] COMPOSITE ≥95%            99.8%
+  [PASS] COVERAGE ≥85%             100%
+  [PASS] FIDELITY ≥95%             100%
+  [PASS] NO SHALL IN TEXT_BLOCKS   0 found
+  [PASS] EQUATIONS ≥50%            1/1 (100%)
+  [FAIL] PARAMS ≥30%               0/1 (0%)
+  [PASS] CONDITIONS ≥15%           4/12 (33%)
+  [PASS] CROSS-REFS >0             11 elements
+  [PASS] REFERENCES (N/A)          0 found (no ASTM/ANSI/CAN)
+  [PASS] CORE 3 TYPES              all present
+  [FAIL] 0 BROKEN REFS             8 broken, 0 pending
+  [PASS] SYMBOLS REGISTRY          569 symbols
+============================================================
+RESULT: 2 FAILURES — not ready
+
+  Chapter 21: 36 elements in 16.8s FAIL
+
+────────────────────────────────────────────────────────────
+[21/29] Chapter 22: SEISMIC GROUND MOTION AND LONG-PERIOD TRANSITION MAPS (22 pages)
+────────────────────────────────────────────────────────────
+  [1/4] PyMuPDF: scanning bold labels...
+  [2/4] Docling: document structure...
+  [2.5] Learning chapter-specific patterns...
+  Discovered patterns:
+    note_markers: ['User Note']
+    section_prefixes: ['22.1', 'CHAPTER']
+    skip_patterns: ['231', '232', '233', '234', '235', '236', '237', '238', '239', '240']
+    topic_headings: ['CONSENSUS STANDARDS AND OTHER', 'REFERENCED DOCUMENTS', 'SEISMIC GROUND MOTION AND LONG-PERIOD TRANSITION MAPS']
+  [3/4] Building elements from elastic classification...
+  [4/4] Enriching with tables, figures, references, equations...
+  [+] Building cross-references...
+  [+] Merging short fragments...
+  [+] Page-level equation scan...
+  [+] Associating body text with parent elements...
+    196/196 text_blocks associated with parents
+  [+] Parsing provision conditions...
+  [+] Building global symbols table...
+    569 symbols, 0/0 formulas have parameters
+  [+] Updating manifest...
+  [+] Tracking unresolved references...
+  Internal refs: 4 (0 pending, 4 broken)
+  Broken by chapter: {11: 4}
+
+  External standards referenced: 1
+  Total external refs: 5
+
+  TOP EXTERNAL DEPENDENCIES:
+      5x  FEMA P-2078                     from chapters [22]
+  [+] Deduplicating...
+    236 → 152 (84 removed)
+  Done: 152 elements
+
+  Deploy gate for Chapter 22:
+DEPLOYMENT GATE
+============================================================
+  [PASS] SCHEMA                    152/152
+  [FAIL] COMPOSITE ≥95%            59.7%
+  [FAIL] COVERAGE ≥85%             0%
+  [PASS] FIDELITY ≥95%             99%
+  [PASS] NO SHALL IN TEXT_BLOCKS   0 found
+  [PASS] EQUATIONS ≥50%            0/0 (0%)
+  [PASS] PARAMS ≥30%               0/0 (0%)
+  [FAIL] CONDITIONS ≥15%           0/2 (0%)
+  [FAIL] CROSS-REFS >0             0 elements
+  [PASS] REFERENCES (N/A)          0 found (no ASTM/ANSI/CAN)
+  [PASS] CORE 3 TYPES              all present
+  [FAIL] 0 BROKEN REFS             4 broken, 0 pending
+  [PASS] SYMBOLS REGISTRY          569 symbols
+============================================================
+RESULT: 5 FAILURES — not ready
+
+  Chapter 22: 152 elements in 51.6s FAIL
+
+────────────────────────────────────────────────────────────
+[22/29] Chapter 23: SEISMIC DESIGN REFERENCE DOCUMENTS (4 pages)
+────────────────────────────────────────────────────────────
+  [1/4] PyMuPDF: scanning bold labels...
+  [2/4] Docling: document structure...
+  [2.5] Learning chapter-specific patterns...
+  Discovered patterns:
+    reference_markers: ['ACI', 'ANSI/AHRI', 'ANSI/AISC', 'ANSI/AISI', 'ANSI/RMI', 'ANSI/SDI-QA/QC', 'ANSI/SDI-SD', 'ANSI/SJI-100', 'ANSI/SJI-200', 'ANSI/TIA-222-H']
+    section_prefixes: ['23.1', 'CHAPTER']
+    skip_patterns: ['253', '254', '255', 'Minimum Design Loads and Assoc', 'STANDARD ASCE/SEI 7-22']
+    topic_headings: ['*AAMA 501.6', '*FEMA P-795', '*ICC-ES AC 156', '*IRC', '*MSS SP-58-2018', '*NIST GCR 12-917-20', 'A307', 'API 12B', 'API 620', 'API 650']
+  [3/4] Building elements from elastic classification...
+  [4/4] Enriching with tables, figures, references, equations...
+  [+] Building cross-references...
+  [+] Merging short fragments...
+  [+] Page-level equation scan...
+  [+] Associating body text with parent elements...
+    61/61 text_blocks associated with parents
+  [+] Parsing provision conditions...
+  [+] Building global symbols table...
+    569 symbols, 0/0 formulas have parameters
+  [+] Updating manifest...
+  [+] Tracking unresolved references...
+  Internal refs: 41 (0 pending, 41 broken)
+  Broken by chapter: {11: 5, 12: 4, 13: 10, 14: 6, 15: 16}
+
+  External standards referenced: 40
+  Total external refs: 80
+
+  TOP EXTERNAL DEPENDENCIES:
+     10x  ANSI/AISI                       from chapters [23]
+      4x  ANSI/AISC                       from chapters [23]
+      3x  ANSI/RMI                        from chapters [23]
+      2x  AISC 341                        from chapters [23]
+      2x  AISC 360                        from chapters [23]
+      2x  ANSI/SDI-QA                     from chapters [23]
+      2x  ANSI/SDI-SD                     from chapters [23]
+      2x  ANSI/SJI-100                    from chapters [23]
+      2x  ANSI/SJI-200                    from chapters [23]
+      2x  ANSI/TIA-222-H                  from chapters [23]
+      2x  ASTM A108                       from chapters [23]
+      2x  ASTM A500                       from chapters [23]
+      2x  ASTM A615                       from chapters [23]
+      2x  ASTM A653                       from chapters [23]
+      2x  ASTM A706/A706                  from chapters [23]
+  [+] Deduplicating...
+    178 → 111 (67 removed)
+  Done: 111 elements
+
+  Deploy gate for Chapter 23:
+DEPLOYMENT GATE
+============================================================
+  [PASS] SCHEMA                    111/111
+  [FAIL] COMPOSITE ≥95%            59.9%
+  [FAIL] COVERAGE ≥85%             0%
+  [PASS] FIDELITY ≥95%             100%
+  [PASS] NO SHALL IN TEXT_BLOCKS   0 found
+  [PASS] EQUATIONS ≥50%            0/0 (0%)
+  [PASS] PARAMS ≥30%               0/0 (0%)
+  [FAIL] CONDITIONS ≥15%           0/1 (0%)
+  [FAIL] CROSS-REFS >0             0 elements
+  [PASS] REFERENCES >0             2 found (ASTM/ANSI/CAN present)
+  [PASS] CORE 3 TYPES              all present
+  [FAIL] 0 BROKEN REFS             41 broken, 0 pending
+  [PASS] SYMBOLS REGISTRY          569 symbols
+============================================================
+RESULT: 5 FAILURES — not ready
+
+  Chapter 23: 111 elements in 23.9s FAIL
+
+────────────────────────────────────────────────────────────
+[23/29] Chapter 26: WIND LOADS: GENERAL REQUIREMENTS (20 pages)
+────────────────────────────────────────────────────────────
+  [1/4] PyMuPDF: scanning bold labels...
+  [2/4] Docling: document structure...
+  [2.5] Learning chapter-specific patterns...
+  Discovered patterns:
+    definition_markers: ['ALLCAPS_COLON']
+    exception_markers: ['EXCEPTION']
+    note_markers: ['User Note']
+    reference_markers: ['ANSI', 'ANSI/DASMA', 'ASTM', 'CAN/CSA']
+    section_prefixes: ['26.1', '26.1.1 Scope', '26.1.2 Permitted Pro', '26.1.2.1 Main Wind F', '26.1.2.2 Components ', '26.1.3 Performance-B', '26.10', '26.10.1 Velocity Pre', '26.10.2 Velocity Pre', '26.11']
+    skip_patterns: ['261', '262', '263', '264', '265', '266', '267', '268', '269', '270']
+    sub_definition_markers: ['Exposure B', 'Exposure C.', 'Exposure D.', 'Surface Roughness B.', 'Surface Roughness C.', 'Surface Roughness D.']
+    topic_headings: ['2D', '3D', 'BUILDING OR OTHER STRUCTURE, REGULAR-', 'BUILDING,', 'CONSENSUS STANDARDS AND OTHER', 'DEFINITIONS', 'ENCLOSURE CLASSIFICATION', 'EXPOSURE', 'GENERAL', 'GROUND ELEVATION FACTOR']
+  [3/4] Building elements from elastic classification...
+  [4/4] Enriching with tables, figures, references, equations...
+  [+] Building cross-references...
+  [+] Merging short fragments...
+  [+] Page-level equation scan...
+    Found 9 additional equations from raw PDF text
+  [+] Associating body text with parent elements...
+    248/248 text_blocks associated with parents
+  [+] Parsing provision conditions...
+  [+] Building global symbols table...
+    569 symbols, 19/20 formulas have parameters
+  [+] Updating manifest...
+  [+] Tracking unresolved references...
+  Internal refs: 30 (0 pending, 30 broken)
+  Broken by chapter: {1: 3, 29: 26, 31: 1}
+
+  External standards referenced: 7
+  Total external refs: 12
+
+  TOP EXTERNAL DEPENDENCIES:
+      4x  ASTM E1996                      from chapters [26]
+      2x  ASTM E1886                      from chapters [26]
+      2x  ANSI/DASMA                      from chapters [26]
+      1x  ICC 500                         from chapters [26]
+      1x  ANSI A58.1                      from chapters [26]
+      1x  ASTM E330                       from chapters [26]
+      1x  CAN/CSA A123.21                 from chapters [26]
+  [+] Deduplicating...
+    448 → 412 (36 removed)
+  Done: 412 elements
+
+  Deploy gate for Chapter 26:
+DEPLOYMENT GATE
+============================================================
+  [PASS] SCHEMA                    412/412
+  [PASS] COMPOSITE ≥95%            96.9%
+  [PASS] COVERAGE ≥85%             95%
+  [PASS] FIDELITY ≥95%             98%
+  [PASS] NO SHALL IN TEXT_BLOCKS   0 found
+  [PASS] EQUATIONS ≥50%            20/20 (100%)
+  [PASS] PARAMS ≥30%               19/20 (95%)
+  [PASS] CONDITIONS ≥15%           14/50 (28%)
+  [PASS] CROSS-REFS >0             84 elements
+  [PASS] REFERENCES >0             2 found (ASTM/ANSI/CAN present)
+  [PASS] CORE 3 TYPES              all present
+  [FAIL] 0 BROKEN REFS             30 broken, 0 pending
+  [PASS] SYMBOLS REGISTRY          569 symbols
+============================================================
+RESULT: 1 FAILURES — not ready
+
+  Chapter 26: 412 elements in 72.8s FAIL
+
+────────────────────────────────────────────────────────────
+[24/29] Chapter 27: WIND LOADS ON BUILDINGS: MAIN WIND FORCE RESISTING SYSTEM (12 pages)
+────────────────────────────────────────────────────────────
+  [1/4] PyMuPDF: scanning bold labels...
+  [2/4] Docling: document structure...
+  [2.5] Learning chapter-specific patterns...
+  Discovered patterns:
+    definition_markers: ['ALLCAPS_COLON']
+    exception_markers: ['EXCEPTION']
+    note_markers: ['User Note']
+    section_prefixes: ['27.1', '27.1.1 Building Type', '27.1.2 Conditions', '27.1.3 Limitations', '27.1.4 Shielding', '27.1.5 Minimum Desig', '27.2', '27.2.1 Wind Load Par', '27.3', '27.3.1 Enclosed, Par']
+    skip_patterns: ['281', '282', '283', '284', '285', '286', '287', '288', '289', '290']
+    sub_definition_markers: ['Net Pressure Coeffic']
+    topic_headings: ['(DIRECTIONAL PROCEDURE)', 'CONSENSUS STANDARDS AND OTHER', 'GENERAL REQUIREMENTS', 'L B', 'NL', 'NW', 'REFERENCED DOCUMENTS', 'SCOPE', 'SYSTEM']
+  [3/4] Building elements from elastic classification...
+  [4/4] Enriching with tables, figures, references, equations...
+  [+] Building cross-references...
+  [+] Merging short fragments...
+  [+] Page-level equation scan...
+    Found 1 additional equations from raw PDF text
+  [+] Associating body text with parent elements...
+    84/84 text_blocks associated with parents
+  [+] Parsing provision conditions...
+  [+] Building global symbols table...
+    569 symbols, 2/4 formulas have parameters
+  [+] Updating manifest...
+  [+] Tracking unresolved references...
+  Internal refs: 2 (0 pending, 2 broken)
+  Broken by chapter: {1: 1, 28: 1}
+  [+] Deduplicating...
+    167 → 146 (21 removed)
+  Done: 146 elements
+
+  Deploy gate for Chapter 27:
+DEPLOYMENT GATE
+============================================================
+  [PASS] SCHEMA                    146/146
+  [FAIL] COMPOSITE ≥95%            66.9%
+  [FAIL] COVERAGE ≥85%             20%
+  [PASS] FIDELITY ≥95%             98%
+  [PASS] NO SHALL IN TEXT_BLOCKS   0 found
+  [PASS] EQUATIONS ≥50%            4/4 (100%)
+  [PASS] PARAMS ≥30%               2/4 (50%)
+  [FAIL] CONDITIONS ≥15%           3/24 (12%)
+  [PASS] CROSS-REFS >0             60 elements
+  [PASS] REFERENCES (N/A)          0 found (no ASTM/ANSI/CAN)
+  [PASS] CORE 3 TYPES              all present
+  [FAIL] 0 BROKEN REFS             2 broken, 0 pending
+  [PASS] SYMBOLS REGISTRY          569 symbols
+============================================================
+RESULT: 4 FAILURES — not ready
+
+  Chapter 27: 146 elements in 53.0s FAIL
+
+────────────────────────────────────────────────────────────
+[25/29] Chapter 28: WIND LOADS ON BUILDINGS: MAIN WIND FORCE RESISTING SYSTEM (6 pages)
+────────────────────────────────────────────────────────────
+  [1/4] PyMuPDF: scanning bold labels...
+  [2/4] Docling: document structure...
+  [2.5] Learning chapter-specific patterns...
+  Discovered patterns:
+    definition_markers: ['ALLCAPS_COLON']
+    exception_markers: ['EXCEPTION']
+    note_markers: ['User Note']
+    section_prefixes: ['28.1', '28.1.1 Building Type', '28.1.2 Conditions', '28.1.3 Limitations', '28.1.4 Shielding', '28.2', '28.2.1 Wind Load Par', '28.3', '28.3.1 Design Wind P', '28.3.1.1 External Pr']
+    skip_patterns: ['293', '294', '295', '296', '297', 'Minimum Design Loads and Assoc', 'STANDARD ASCE/SEI 7-22']
+    topic_headings: ['(ENVELOPE PROCEDURE)', '1E', '1T', '2E', '2T', '3E', '3T', '4E', '4T', '5E']
+  [3/4] Building elements from elastic classification...
+  [4/4] Enriching with tables, figures, references, equations...
+  [+] Building cross-references...
+  [+] Merging short fragments...
+  [+] Page-level equation scan...
+    Found 1 additional equations from raw PDF text
+  [+] Associating body text with parent elements...
+    55/55 text_blocks associated with parents
+  [+] Parsing provision conditions...
+  [+] Building global symbols table...
+    569 symbols, 3/4 formulas have parameters
+  [+] Updating manifest...
+  [+] Tracking unresolved references...
+  Internal refs: 2 (0 pending, 2 broken)
+  Broken by chapter: {1: 1, 27: 1}
+  [+] Deduplicating...
+    122 → 110 (12 removed)
+  Done: 110 elements
+
+  Deploy gate for Chapter 28:
+DEPLOYMENT GATE
+============================================================
+  [PASS] SCHEMA                    110/110
+  [FAIL] COMPOSITE ≥95%            66.1%
+  [FAIL] COVERAGE ≥85%             17%
+  [PASS] FIDELITY ≥95%             99%
+  [PASS] NO SHALL IN TEXT_BLOCKS   0 found
+  [PASS] EQUATIONS ≥50%            4/4 (100%)
+  [PASS] PARAMS ≥30%               3/4 (75%)
+  [FAIL] CONDITIONS ≥15%           2/14 (14%)
+  [PASS] CROSS-REFS >0             35 elements
+  [PASS] REFERENCES (N/A)          0 found (no ASTM/ANSI/CAN)
+  [PASS] CORE 3 TYPES              all present
+  [FAIL] 0 BROKEN REFS             2 broken, 0 pending
+  [PASS] SYMBOLS REGISTRY          569 symbols
+============================================================
+RESULT: 4 FAILURES — not ready
+
+  Chapter 28: 110 elements in 14.5s FAIL
+
+────────────────────────────────────────────────────────────
+[26/29] Chapter 29: WIND LOADS ON BUILDING APPURTENANCES AND OTHER STRUCTURES: (16 pages)
+────────────────────────────────────────────────────────────
+  [1/4] PyMuPDF: scanning bold labels...
+  [2/4] Docling: document structure...
+  [2.5] Learning chapter-specific patterns...
+  Discovered patterns:
+    definition_markers: ['ALLCAPS_COLON']
+    note_markers: ['User Note']
+    section_prefixes: ['0.25', '29.1', '29.1.1 Structure', '29.1.2 Conditions', '29.1.3 Limitations', '29.1.4 Shielding', '29.2', '29.2.1 Wind Load Par', '29.3', '29.3.1 Solid Freesta']
+    skip_patterns: ['299', '300', '301', '302', '303', '304', '305', '306', '307', '308']
+    topic_headings: ['ASCE 72,', 'CONSENSUS STANDARDS AND OTHER', 'GENERAL REQUIREMENTS', 'MAIN WIND FORCE RESISTING SYSTEM (DIRECTIONAL PROCEDURE)', 'MINIMUM DESIGN WIND LOADING', 'PARAPETS', 'REFERENCED DOCUMENTS', 'ROOF OVERHANGS', 'SCOPE', 'WALLS AND SOLID SIGNS']
+  [3/4] Building elements from elastic classification...
+  [4/4] Enriching with tables, figures, references, equations...
+  [+] Building cross-references...
+  [+] Merging short fragments...
+  [+] Page-level equation scan...
+    Found 2 additional equations from raw PDF text
+  [+] Associating body text with parent elements...
+    133/133 text_blocks associated with parents
+  [+] Parsing provision conditions...
+  [+] Building global symbols table...
+    569 symbols, 1/13 formulas have parameters
+  [+] Updating manifest...
+  [+] Tracking unresolved references...
+  Internal refs: 7 (0 pending, 7 broken)
+  Broken by chapter: {1: 2, 27: 3, 28: 2}
+  [+] Deduplicating...
+    218 → 200 (18 removed)
+  Done: 200 elements
+
+  Deploy gate for Chapter 29:
+DEPLOYMENT GATE
+============================================================
+  [PASS] SCHEMA                    200/200
+  [FAIL] COMPOSITE ≥95%            63.1%
+  [FAIL] COVERAGE ≥85%             11%
+  [PASS] FIDELITY ≥95%             97%
+  [PASS] NO SHALL IN TEXT_BLOCKS   0 found
+  [PASS] EQUATIONS ≥50%            13/13 (100%)
+  [FAIL] PARAMS ≥30%               1/13 (8%)
+  [PASS] CONDITIONS ≥15%           9/31 (29%)
+  [PASS] CROSS-REFS >0             74 elements
+  [PASS] REFERENCES (N/A)          0 found (no ASTM/ANSI/CAN)
+  [PASS] CORE 3 TYPES              all present
+  [FAIL] 0 BROKEN REFS             7 broken, 0 pending
+  [PASS] SYMBOLS REGISTRY          569 symbols
+============================================================
+RESULT: 4 FAILURES — not ready
+
+  Chapter 29: 200 elements in 39.5s FAIL
+
+────────────────────────────────────────────────────────────
+[27/29] Chapter 30: WIND LOADS: COMPONENTS AND CLADDING (36 pages)
+────────────────────────────────────────────────────────────
+  [1/4] PyMuPDF: scanning bold labels...
+  [2/4] Docling: document structure...
+  [2.5] Learning chapter-specific patterns...
+  Discovered patterns:
+    definition_markers: ['ALLCAPS_COLON']
+    exception_markers: ['EXCEPTION', 'EXCEPTIONS']
+    note_markers: ['User Note']
+    section_prefixes: ['30.1', '30.1.1 Building Type', '30.1.2 Conditions', '30.1.3 Limitations', '30.1.4 Shielding', '30.1.5 Air-Permeable', '30.10', '30.10.1 Design Wind ', '30.10.2 External Wal', '30.10.3 Internal Sur']
+    skip_patterns: ['315', '316', '317', '318', '319', '320', '321', '322', '323', '324']
+    sub_definition_markers: ['Zone A', 'Zone B']
+    topic_headings: ['< 1.25D)', 'ATTACHED CANOPIES ON BUILDINGS', 'BUILDING TYPES', 'BUILDINGS', 'CIRCULAR BINS, SILOS, AND TANKS WITH', 'CONSENSUS STANDARDS AND OTHER', 'EQUAL TO 7 DEGREES', 'GABLE OR HIP ROOFS WITH SLOPES LESS', 'GENERAL REQUIREMENTS', 'HEIGHTS WITH ROOF SLOPES LESS THAN OR']
+  [3/4] Building elements from elastic classification...
+  [4/4] Enriching with tables, figures, references, equations...
+  [+] Building cross-references...
+  [+] Merging short fragments...
+  [+] Page-level equation scan...
+    Found 3 additional equations from raw PDF text
+  [+] Associating body text with parent elements...
+    321/321 text_blocks associated with parents
+  [+] Parsing provision conditions...
+  [+] Building global symbols table...
+    569 symbols, 10/11 formulas have parameters
+  [+] Updating manifest...
+  [+] Tracking unresolved references...
+  Internal refs: 9 (0 pending, 9 broken)
+  Broken by chapter: {1: 7, 29: 2}
+
+  External standards referenced: 1
+  Total external refs: 1
+
+  TOP EXTERNAL DEPENDENCIES:
+      1x  ASCE/SEI 7-22                   from chapters [30]
+  [+] Deduplicating...
+    484 → 436 (48 removed)
+  Done: 436 elements
+
+  Deploy gate for Chapter 30:
+DEPLOYMENT GATE
+============================================================
+  [PASS] SCHEMA                    436/436
+  [FAIL] COMPOSITE ≥95%            65.6%
+  [FAIL] COVERAGE ≥85%             18%
+  [PASS] FIDELITY ≥95%             96%
+  [PASS] NO SHALL IN TEXT_BLOCKS   0 found
+  [PASS] EQUATIONS ≥50%            11/11 (100%)
+  [PASS] PARAMS ≥30%               10/11 (91%)
+  [PASS] CONDITIONS ≥15%           8/35 (23%)
+  [PASS] CROSS-REFS >0             213 elements
+  [PASS] REFERENCES (N/A)          0 found (no ASTM/ANSI/CAN)
+  [PASS] CORE 3 TYPES              all present
+  [FAIL] 0 BROKEN REFS             9 broken, 0 pending
+  [PASS] SYMBOLS REGISTRY          569 symbols
+============================================================
+RESULT: 3 FAILURES — not ready
+
+  Chapter 30: 436 elements in 76.9s FAIL
+
+────────────────────────────────────────────────────────────
+[28/29] Chapter 31: WIND TUNNEL PROCEDURE (2 pages)
+────────────────────────────────────────────────────────────
+  [1/4] PyMuPDF: scanning bold labels...
+  [2/4] Docling: document structure...
+  [2.5] Learning chapter-specific patterns...
+  Discovered patterns:
+    note_markers: ['User Note']
+    section_prefixes: ['31.1', '31.2', '31.3', '31.4', '31.4.1 Mean Recurren', '31.4.2 Limitations o', '31.4.3 Wind Directio', '31.4.4 Limitations', '31.4.5 Limitations o', '31.5']
+    skip_patterns: ['351', '352', 'Minimum Design Loads and Assoc', 'STANDARD ASCE/SEI 7-22']
+    topic_headings: ['ASCE 49', 'AT MULTIPLE SITES', 'BUILDINGS, OTHER STRUCTURES, AND', 'COMPONENTS', 'CONSENSUS STANDARDS AND OTHER', 'DYNAMIC RESPONSE', 'LOAD EFFECTS FOR BUILDINGS, OTHER', 'PEER REVIEW REQUIREMENT FOR WIND', 'REFERENCED DOCUMENTS', 'SCOPE']
+  [3/4] Building elements from elastic classification...
+  [4/4] Enriching with tables, figures, references, equations...
+  [+] Building cross-references...
+  [+] Merging short fragments...
+  [+] Page-level equation scan...
+  [+] Associating body text with parent elements...
+    6/6 text_blocks associated with parents
+  [+] Parsing provision conditions...
+  [+] Building global symbols table...
+    569 symbols, 0/0 formulas have parameters
+  [+] Updating manifest...
+  [+] Tracking unresolved references...
+  Internal refs: 7 (0 pending, 7 broken)
+  Broken by chapter: {1: 1, 29: 4, 30: 2}
+  [+] Deduplicating...
+    42 → 42 (0 removed)
+  Done: 42 elements
+
+  Deploy gate for Chapter 31:
+DEPLOYMENT GATE
+============================================================
+  [PASS] SCHEMA                    42/42
+  [FAIL] COMPOSITE ≥95%            60.0%
+  [FAIL] COVERAGE ≥85%             0%
+  [PASS] FIDELITY ≥95%             100%
+  [PASS] NO SHALL IN TEXT_BLOCKS   0 found
+  [PASS] EQUATIONS ≥50%            0/0 (0%)
+  [PASS] PARAMS ≥30%               0/0 (0%)
+  [PASS] CONDITIONS ≥15%           3/18 (17%)
+  [PASS] CROSS-REFS >0             8 elements
+  [PASS] REFERENCES (N/A)          0 found (no ASTM/ANSI/CAN)
+  [PASS] CORE 3 TYPES              all present
+  [FAIL] 0 BROKEN REFS             7 broken, 0 pending
+  [PASS] SYMBOLS REGISTRY          569 symbols
+============================================================
+RESULT: 3 FAILURES — not ready
+
+  Chapter 31: 42 elements in 12.9s FAIL
+
+────────────────────────────────────────────────────────────
+[29/29] Chapter 32: TORNADO LOADS (44 pages)
+────────────────────────────────────────────────────────────
+  [1/4] PyMuPDF: scanning bold labels...
+  [2/4] Docling: document structure...
+  [2.5] Learning chapter-specific patterns...
+  Discovered patterns:
+    definition_markers: ['ALLCAPS_COLON']
+    exception_markers: ['EXCEPTION']
+    note_markers: ['User Note']
+    section_prefixes: ['18.3', '32.1', '32.1.1 Scope', '32.1.2 Permitted Pro', '32.1.2.1 Tornado Loa', '32.1.2.2 Tornado', '32.1.3 Performance-B', '32.10', '32.10.1 Tornado Velo', '32.10.2 Tornado Velo']
+    skip_patterns: ['353', '354', '355', '356', '357', '358', '359', '360', '361', '362']
+    sub_definition_markers: ['KvT', 'Tornado Directionali']
+    topic_headings: ['APPURTENANCES AND OTHER', 'CLADDING', 'COEFFICIENTS', 'CONSENSUS STANDARDS AND OTHER', 'DEFINITIONS', 'FORCE RESISTING SYSTEM', 'GENERAL', 'GROUND ELEVATION FACTOR', 'PROCEDURE', 'PROCEDURES']
+  [3/4] Building elements from elastic classification...
+  [4/4] Enriching with tables, figures, references, equations...
+  [+] Building cross-references...
+  [+] Merging short fragments...
+  [+] Page-level equation scan...
+    Found 9 additional equations from raw PDF text
+  [+] Associating body text with parent elements...
+    206/206 text_blocks associated with parents
+  [+] Parsing provision conditions...
+  [+] Building global symbols table...
+    569 symbols, 17/18 formulas have parameters
+  [+] Updating manifest...
+  [+] Tracking unresolved references...
+  Internal refs: 46 (0 pending, 46 broken)
+  Broken by chapter: {1: 1, 27: 9, 29: 17, 30: 19}
+
+  External standards referenced: 4
+  Total external refs: 7
+
+  TOP EXTERNAL DEPENDENCIES:
+      2x  ASTM E1996                      from chapters [32]
+      2x  ASTM E1886                      from chapters [32]
+      2x  ANSI/DASMA                      from chapters [32]
+      1x  ICC 500                         from chapters [32]
+  [+] Deduplicating...
+    414 → 299 (115 removed)
+  Done: 299 elements
+
+  Deploy gate for Chapter 32:
+DEPLOYMENT GATE
+============================================================
+  [PASS] SCHEMA                    299/299
+  [FAIL] COMPOSITE ≥95%            67.4%
+  [FAIL] COVERAGE ≥85%             22%
+  [PASS] FIDELITY ≥95%             97%
+  [PASS] NO SHALL IN TEXT_BLOCKS   0 found
+  [PASS] EQUATIONS ≥50%            18/18 (100%)
+  [PASS] PARAMS ≥30%               17/18 (94%)
+  [PASS] CONDITIONS ≥15%           12/50 (24%)
+  [PASS] CROSS-REFS >0             121 elements
+  [FAIL] REFERENCES >0             0 found (ASTM/ANSI/CAN present)
+  [PASS] CORE 3 TYPES              all present
+  [FAIL] 0 BROKEN REFS             46 broken, 0 pending
+  [PASS] SYMBOLS REGISTRY          569 symbols
+============================================================
+RESULT: 4 FAILURES — not ready
+
+  Chapter 32: 299 elements in 63.0s FAIL
+
+
+============================================================
+POST-BATCH AUDIT
+============================================================
+
+Global symbols: 569
+  No symbol conflicts
+
+Cross-chapter references: 633
+  Pending: 6
+  Broken: 627
+  Pending targets: {9: 5, 25: 1}
+
+
+============================================================
+MORNING REPORT
+============================================================
+Completed: 2026-03-30 21:43:22
+Total time: 15.5 minutes
+Chapters processed: 29
+Total elements: 6682
+Global symbols: 569
+
+  Ch Title                                    Pages Elements   Time   Gate
+───────────────────────────────────────────────────────────────────────────
+   1 GENERAL                                      6      105    15s   FAIL
+   2 COMBINATIONS OF LOADS                        4      100     6s   FAIL
+   3 DEAD LOADS, SOIL LOADS, AND HYDROSTATIC      2       25     4s   FAIL
+   4 LIVE LOADS                                   8      135    24s   FAIL
+   5 FLOOD LOADS                                  4       83     6s   FAIL
+   6 TSUNAMI LOADS AND EFFECTS                   30      700    36s   FAIL
+   7 SNOW LOADS                                  16      181    30s   FAIL
+   8 RAIN LOADS                                   2       38     4s   FAIL
+  10 ICE LOADS                                   24      140    26s   FAIL
+  11 SEISMIC DESIGN CRITERIA                     12      432    19s   FAIL
+  12 SEISMIC DESIGN REQUIREMENTS FOR BUILDING    34      768    49s   FAIL
+  13 SEISMIC DESIGN REQUIREMENTS FOR NONSTRUC    18      372    32s   FAIL
+  14 MATERIAL-SPECIFIC SEISMIC DESIGN AND DET     4      102    11s   FAIL
+  15 SEISMIC DESIGN REQUIREMENTS FOR NONBUILD    20      444    43s   FAIL
+  16 NONLINEAR RESPONSE HISTORY ANALYSIS          4      100     9s   FAIL
+  17 SEISMIC DESIGN REQUIREMENTS FOR SEISMICA    12      334    22s   FAIL
+  18 SEISMIC DESIGN REQUIREMENTS FOR STRUCTUR    16      471   125s   FAIL
+  19 SOIL                                         6      178    28s   FAIL
+  20 SITE CLASSIFICATION PROCEDURE FOR SEISMI     2       30     7s   FAIL
+  21 SITE-SPECIFIC GROUND MOTION PROCEDURES F     4       36    17s   FAIL
+  22 SEISMIC GROUND MOTION AND LONG-PERIOD TR    22      152    52s   FAIL
+  23 SEISMIC DESIGN REFERENCE DOCUMENTS           4      111    24s   FAIL
+  26 WIND LOADS: GENERAL REQUIREMENTS            20      412    73s   FAIL
+  27 WIND LOADS ON BUILDINGS: MAIN WIND FORCE    12      146    53s   FAIL
+  28 WIND LOADS ON BUILDINGS: MAIN WIND FORCE     6      110    14s   FAIL
+  29 WIND LOADS ON BUILDING APPURTENANCES AND    16      200    40s   FAIL
+  30 WIND LOADS: COMPONENTS AND CLADDING         36      436    77s   FAIL
+  31 WIND TUNNEL PROCEDURE                        2       42    13s   FAIL
+  32 TORNADO LOADS                               44      299    63s   FAIL
+
+  PASSED: 0  FAILED: 29  ERRORS: 0
+  Broken refs: 627  Pending refs: 6
+  Symbol conflicts: 0
+
+  Report → output/qc/batch-report.json

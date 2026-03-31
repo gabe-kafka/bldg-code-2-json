@@ -755,22 +755,25 @@
     "data": {
       "expression": "F D =0.5\u03b3 w C D DH2 b (5.4-4)",
       "parameters": {
+        "D": {
+          "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the design earthquake ground motions, Section 18.7.3.3 \u03bc",
+          "source": "ASCE7-22-18.1.3-T79"
+        },
+        "\u03b3": {
+          "description": "Average unit weight of soil, lb/ft 3 (N/m 3 )",
+          "source": "ASCE7-22-11.3-T145"
+        },
+        "b": {
+          "description": "Shortest plan dimension of the structure [ft (mm)] measured perpendicular to d ;",
+          "source": "ASCE7-22-17.5.3.3-T5"
+        },
         "w": {
           "description": "Moisture content, in percent, per ASTM D2216",
           "source": "ASCE7-22-11.3-T135"
         },
-        "b": {
-          "description": "Mean hourly wind speed factor in Equation (26.1116), from Table 26.11-1",
-          "source": "ASCE7-22-26.3-T15"
-        },
         "F": {
-          "description": "0.12 \u00d7 slope, with slope expressed in percentage points) and, for an arch or dome, F is the rise-to-span ratio multiplied by 32",
-          "source": "ASCE7-22-4.8.2-T4"
-        },
-        "D": {
-          "description": "Diameter of a circular structure or member, as de fi ned in Chapter 29",
-          "unit": "ft",
-          "source": "ASCE7-22-10.3-T3"
+          "description": "1.0 for buildings that are one story above grade plane, 1.1 for buildings that are two stories above grade plane, and 1.2 for buildings that are three stories above grade plane;",
+          "source": "ASCE7-22-12.14.8.1-T1"
         }
       }
     },
@@ -798,8 +801,8 @@
       "expression": "aV2 C =Coefficient of drag for breaking waves, = 1.75 for round d = (5.4-1)",
       "parameters": {
         "d": {
-          "description": "Design ice thickness from Equation (10.4-5), in. (mm)",
-          "source": "ASCE7-22-10.3-T10"
+          "description": "Longest plan dimension of the structure, ft (mm) measured perpendicular to b",
+          "source": "ASCE7-22-17.1.2-T4"
         }
       }
     },
@@ -1507,33 +1510,6 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-5.4.4.2-T8",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 5,
-      "section": "5.4.4.2",
-      "citation": "Section 5.4.4.2",
-      "page": 2
-    },
-    "title": "Ft = Net breaking wave force per unit length of structure, also referred to as shock, impulse, or wave impact force, lb \u2215 ft (kN \u2215 m), acting near the still water elevation;",
-    "description": "",
-    "data": {
-      "rule": "Ft = Net breaking wave force per unit length of structure, also referred to as shock, impulse, or wave impact force, lb \u2215 ft (kN \u2215 m), acting near the still water elevation; Crest of reflecte Crest of reflect Dynam Dynam",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-5.4.4-H1"
-  },
-  {
     "id": "ASCE7-22-5.4-E5-4-21",
     "type": "formula",
     "source": {
@@ -1549,45 +1525,12 @@
       "expression": "Breaking wave heights used in the procedures described in Sections 5.4.4.1 through 5.4.4.4 shall be calculated for V-Zones and Coastal A-Zones using Equations (5.4-2)",
       "parameters": {
         "A": {
-          "description": "Effective wind area, ft 2 (m 2 )",
-          "source": "ASCE7-22-26.3-T2"
+          "description": "Effective wind area of element, ft 2 (m 2 )",
+          "source": "ASCE7-22-29.4.5.2-T4"
         },
         "V": {
           "description": "Basic wind speed obtained from Figures 26.5-1A through 26.5-1D, mi/h (m/s); the basic wind speed corresponds to a 3 s gust speed at 33 ft (10 m) above the ground in Exposure Category C",
-          "source": "ASCE7-22-26.3-T95"
-        }
-      }
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "from_text"
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-5.4-E5-4-31",
-    "type": "formula",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 5,
-      "section": "5.4",
-      "citation": "Eq. (5.4-3)",
-      "page": 2
-    },
-    "title": "Equation (5.4-3)",
-    "description": "",
-    "data": {
-      "expression": "Breaking wave heights used in the procedures described in Sections 5.4.4.1 through 5.4.4.4 shall be calculated for V-Zones and Coastal A-Zones using Equations (5.4-2) and (5.4-3)",
-      "parameters": {
-        "A": {
-          "description": "Effective wind area, ft 2 (m 2 )",
-          "source": "ASCE7-22-26.3-T2"
-        },
-        "V": {
-          "description": "Basic wind speed obtained from Figures 26.5-1A through 26.5-1D, mi/h (m/s); the basic wind speed corresponds to a 3 s gust speed at 33 ft (10 m) above the ground in Exposure Category C",
-          "source": "ASCE7-22-26.3-T95"
+          "source": "ASCE7-22-26.3-T94"
         }
       }
     },
@@ -1615,13 +1558,8 @@
       "expression": "If free water exists behind the wall, a portion of the hydrostatic component of the wave pressure and force disappears (see Figure 5.4-2) and the net force shall be computed by Equation (5.4-7)",
       "parameters": {
         "a": {
-          "description": "Approximate lower bound natural frequency from Section 26.11.2",
-          "unit": "Hz",
-          "source": "ASCE7-22-26.3-T77"
-        },
-        "wall": {
-          "description": "Vertical projected area of an individual wall element",
-          "source": "ASCE7-22-6.3-T4"
+          "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
+          "source": "ASCE7-22-28.3.7-T22"
         }
       }
     },
@@ -1672,9 +1610,13 @@
     "data": {
       "expression": "F =Fsin2\u03b1 (5.4-8)",
       "parameters": {
+        "\u03b1": {
+          "description": "Mean hourly wind-speed power law exponent in Equation (26.11-16) from Table 26.11-1",
+          "source": "ASCE7-22-26.3-T108"
+        },
         "F": {
-          "description": "0.12 \u00d7 slope, with slope expressed in percentage points) and, for an arch or dome, F is the rise-to-span ratio multiplied by 32",
-          "source": "ASCE7-22-4.8.2-T4"
+          "description": "1.0 for buildings that are one story above grade plane, 1.1 for buildings that are two stories above grade plane, and 1.2 for buildings that are three stories above grade plane;",
+          "source": "ASCE7-22-12.14.8.1-T1"
         }
       }
     },
@@ -1701,9 +1643,13 @@
     "data": {
       "expression": "F =Fsin2\u03b1 (5.4-9)",
       "parameters": {
+        "\u03b1": {
+          "description": "Mean hourly wind-speed power law exponent in Equation (26.11-16) from Table 26.11-1",
+          "source": "ASCE7-22-26.3-T108"
+        },
         "F": {
-          "description": "0.12 \u00d7 slope, with slope expressed in percentage points) and, for an arch or dome, F is the rise-to-span ratio multiplied by 32",
-          "source": "ASCE7-22-4.8.2-T4"
+          "description": "1.0 for buildings that are one story above grade plane, 1.1 for buildings that are two stories above grade plane, and 1.2 for buildings that are three stories above grade plane;",
+          "source": "ASCE7-22-12.14.8.1-T1"
         }
       }
     },
@@ -1714,62 +1660,6 @@
       "qc_notes": "pdfplumber_scan"
     },
     "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-5.4.4.2-T13",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 5,
-      "section": "5.4.4.2",
-      "citation": "Section 5.4.4.2",
-      "page": 3
-    },
-    "title": "Cp = Dynamic pressure coef fi cient (1.6 < Cp < 3.5) (see Table 5.4-1);",
-    "description": "",
-    "data": {
-      "rule": "Cp = Dynamic pressure coef fi cient (1.6 < Cp < 3.5) (see Table 5.4-1);",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [
-      "ASCE7-22-5.4-F5-4-11"
-    ],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-5.4.4-H1"
-  },
-  {
-    "id": "ASCE7-22-5.4.4.2-T14",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 5,
-      "section": "5.4.4.2",
-      "citation": "Section 5.4.4.2",
-      "page": 3
-    },
-    "title": "\u03b3 w = Unit weight of water, lb \u2215 ft 3 (kN \u2215 m 3 ), = 62.4 lb \u2215 ft 3 (9.80 kN \u2215 m 3 ) for freshwater and 64.0 lb \u2215 ft 3 (10.05 kN \u2215 m 3 ) for saltwater; and ds = Still water depth, ft (m) at base of bu",
-    "description": "",
-    "data": {
-      "rule": "\u03b3 w = Unit weight of water, lb \u2215 ft 3 (kN \u2215 m 3 ), = 62.4 lb \u2215 ft 3 (9.80 kN \u2215 m 3 ) for freshwater and 64.0 lb \u2215 ft 3 (10.05 kN \u2215 m 3 ) for saltwater; and ds = Still water depth, ft (m) at base of building or other structure where the wave breaks.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-5.4.4-H1"
   },
   {
     "id": "ASCE7-22-5.4.4.3-H1",
@@ -2328,31 +2218,6 @@
     "data": {
       "figure_type": "other",
       "description": "Figure 5.4-1. Normally Incident Breaking Wave Pressures",
-      "source_pdf_page": 3
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-5.4-F5-4-21",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 5,
-      "section": "5.4",
-      "citation": "Figure 5.4-2",
-      "page": 3
-    },
-    "title": "Figure 5.4-2. Normally Incident Breaking Wave Pressures",
-    "description": "Figure 5.4-2. Normally Incident Breaking Wave Pressures",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 5.4-2. Normally Incident Breaking Wave Pressures",
       "source_pdf_page": 3
     },
     "cross_references": [],

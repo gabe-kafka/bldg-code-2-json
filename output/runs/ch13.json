@@ -768,8 +768,8 @@
       "expression": "Where Section 15.3 requires that seismic forces be determined in accordance with Chapter 13 and values for CAR and Rpo are not provided in Table 13.5-1 or 13.6-1, the term \u00bd CAR Rpo \u008a in Equation (13.3-1)",
       "parameters": {
         "CAR": {
-          "description": "Component resonance ductility factor that converts the peak fl oor or ground acceleration into the peak component acceleration as determined in Section 13.3.1.3",
-          "source": "ASCE7-22-11.3-T9"
+          "description": "Component resonance ductility factor that converts the peak fl oor or ground acceleration into the peak component acceleration, as determined in Section 13.3.1.3; and",
+          "source": "ASCE7-22-13.3.1-T10"
         },
         "Rpo": {
           "description": "Component strength factor as determined in Section 13.3.1.4",
@@ -1166,80 +1166,6 @@
         {
           "Seismic Design Category (SDC)": "D, E, F",
           "Nonstructural Components Exempt from the Requirements of this Chapter": "\u2022 Mechanical and electrical components positively attached to the structure, provided that \u25cb For discrete mechanical and electrical components, the component weighs 400 lb (1,779 N) or less, the center of mass is located 4 ft (1.22 m) or less above the adjacent fl oor level, fl exible connections are provided between the component and associated ductwork, piping, and conduit, and the component Importance Factor, I p , is equal to 1.0; or \u25cb For discrete mechanical and electrical components, the component weighs 20 lb (89 N) or less; or \u25cb For distribution systems, the component Importance Factor, I p , is equal to 1.0 and the operating weight of the system is 5 lb/ft (73 N/m) or less. \u2022 Distribution systems included in the exceptions for conduit, cable tray, and raceways in Section 13.6.5, duct systems in 13.6.6, and piping and tubing systems in 13.6.7.3. Where in-line components, such as valves, in-line suspended pumps, and mixing boxes require independent support, they shall be addressed as discrete components and shall be braced considering the tributary contribution of the attached distribution system."
-        }
-      ]
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "docling"
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-13.1-T13-1-12",
-    "type": "table",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 13,
-      "section": "13.1",
-      "citation": "Table 13.1-1",
-      "page": 2
-    },
-    "title": "Table 13.1-1. Nonstructural Components Exempt from the Requirements of This Chapter.",
-    "description": "",
-    "data": {
-      "columns": [
-        {
-          "name": "Nonstructural Element (i.e., Component, Support, or Attachment)",
-          "unit": null
-        },
-        {
-          "name": "General Design Requirements (Section 13.2)",
-          "unit": null
-        },
-        {
-          "name": "Force and Displacement Requirements (Section 13.3)",
-          "unit": null
-        },
-        {
-          "name": "Attachment Requirements (Section 13.4)",
-          "unit": null
-        },
-        {
-          "name": "Architectural Component Requirements (Section 13.5)",
-          "unit": null
-        },
-        {
-          "name": "Mechanical and Electrical Component Requirements (Section 13.6)",
-          "unit": null
-        }
-      ],
-      "rows": [
-        {
-          "Nonstructural Element (i.e., Component, Support, or Attachment)": "Architectural components and supports and attachments for architectural components",
-          "General Design Requirements (Section 13.2)": "X",
-          "Force and Displacement Requirements (Section 13.3)": "X",
-          "Attachment Requirements (Section 13.4)": "X",
-          "Architectural Component Requirements (Section 13.5)": "X",
-          "Mechanical and Electrical Component Requirements (Section 13.6)": ""
-        },
-        {
-          "Nonstructural Element (i.e., Component, Support, or Attachment)": "Mechanical and electrical components",
-          "General Design Requirements (Section 13.2)": "X",
-          "Force and Displacement Requirements (Section 13.3)": "X",
-          "Attachment Requirements (Section 13.4)": "X",
-          "Architectural Component Requirements (Section 13.5)": "",
-          "Mechanical and Electrical Component Requirements (Section 13.6)": "X"
-        },
-        {
-          "Nonstructural Element (i.e., Component, Support, or Attachment)": "Supports and attachments for mechanical and electrical components",
-          "General Design Requirements (Section 13.2)": "X",
-          "Force and Displacement Requirements (Section 13.3)": "X",
-          "Attachment Requirements (Section 13.4)": "X",
-          "Architectural Component Requirements (Section 13.5)": "",
-          "Mechanical and Electrical Component Requirements (Section 13.6)": "X"
         }
       ]
     },
@@ -1862,17 +1788,29 @@
     "data": {
       "expression": "I p =Component Importance Factor as determined in accor- R\u03bc =\u00bd1.1R\u2215\u00f0I e \u03a9 0 \u00de(cid:2)1\u22152 \u22651.3 (13.3-6)",
       "parameters": {
-        "R": {
-          "description": "Response modi fi cation coef fi cient as given in Tables 12.2-1, 12.14-1, 15.4-1, and 15.4-2",
-          "source": "ASCE7-22-11.3-T82"
-        },
-        "e": {
-          "description": "Elastic displacement computed under design earthquake forces (Section 12.8.6)",
-          "source": "ASCE7-22-11.3-T152"
-        },
         "p": {
           "description": "Design pressure to be used in determination of wind loads for buildings, lb/ft 2 (N/m 2 )",
           "source": "ASCE7-22-26.3-T78"
+        },
+        "\u03a9": {
+          "description": "Angular frequency of the waveform, equal to 2 \u03c0 \u2215 T , where T is the wave period",
+          "source": "ASCE7-22-6.3-T111"
+        },
+        "R": {
+          "description": "Response modi fi cation factor for the building or nonbuilding structure supporting the component, from Table 12.2-1, 15.4-1, or 15.4-2; and",
+          "source": "ASCE7-22-13.3.1.2-T3"
+        },
+        "e": {
+          "description": "Actual eccentricity measured in plan between the center of mass of the structure above the isolation interface and the center of rigidity of the isolation system, plus accidental eccentricity [ft (mm)], taken as 5% of the longest plan dimension of the structure perpendicular to the direction of force under consideration;",
+          "source": "ASCE7-22-17.5.3.3-T4"
+        },
+        "I": {
+          "description": "Radius of gyration of the isolation system [ft (mm)], which is equal to [ \u00f0 b 2 \u00fe d 2 \u00de \u2215 12 \u008a 1 \u2215 2 for isolation systems of rectangular plan dimension, b \u00d7 d ",
+          "source": "ASCE7-22-17.5.3.3-T8"
+        },
+        "\u03bc": {
+          "description": "Structure ductility reduction factor as determined in Section 13.3.1.2",
+          "source": "ASCE7-22-11.3-T85"
         }
       }
     },
@@ -2697,47 +2635,12 @@
       "expression": "For components supported above grade plane by a building or nonbuilding structure, Hf is permitted to be determined by Equation (13.3-4)",
       "parameters": {
         "Hf": {
-          "description": "Factor for force ampli fi cation as a function of height in the structure as determined in Section 13.3.1.1",
-          "source": "ASCE7-22-11.3-T48"
+          "description": "Factor for force ampli fi cation as a function of height in the structure as determined in Section 13.3.1.1;",
+          "source": "ASCE7-22-13.3.1-T8"
         },
         "a": {
-          "description": "Approximate lower bound natural frequency from Section 26.11.2",
-          "unit": "Hz",
-          "source": "ASCE7-22-26.3-T77"
-        }
-      }
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "from_text"
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-13.3-E13-3-51",
-    "type": "formula",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 13,
-      "section": "13.3",
-      "citation": "Eq. (13.3-5)",
-      "page": 4
-    },
-    "title": "Equation (13.3-5)",
-    "description": "",
-    "data": {
-      "expression": "For components supported above grade plane by a building or nonbuilding structure, Hf is permitted to be determined by Equation (13.3-4) or Equation (13.3-5)",
-      "parameters": {
-        "Hf": {
-          "description": "Factor for force ampli fi cation as a function of height in the structure as determined in Section 13.3.1.1",
-          "source": "ASCE7-22-11.3-T48"
-        },
-        "a": {
-          "description": "Approximate lower bound natural frequency from Section 26.11.2",
-          "unit": "Hz",
-          "source": "ASCE7-22-26.3-T77"
+          "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
+          "source": "ASCE7-22-28.3.7-T22"
         }
       }
     },
@@ -2765,9 +2668,8 @@
       "expression": "D =\u03b4 \u2212\u03b4 (13.3-9)",
       "parameters": {
         "D": {
-          "description": "Diameter of a circular structure or member, as de fi ned in Chapter 29",
-          "unit": "ft",
-          "source": "ASCE7-22-10.3-T3"
+          "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the design earthquake ground motions, Section 18.7.3.3 \u03bc",
+          "source": "ASCE7-22-18.1.3-T79"
         }
       }
     },
@@ -2798,14 +2700,17 @@
           "description": "Effective seismic weight of the building as de fi ned in Section 12.7.2. For calculation of seismicisolated building period, W is the total effective seismic weight of the building, in kip (kN), as de fi ned in Sections 19.2 and 19.3",
           "source": "ASCE7-22-11.3-T130"
         },
+        "I": {
+          "description": "Radius of gyration of the isolation system [ft (mm)], which is equal to [ \u00f0 b 2 \u00fe d 2 \u00de \u2215 12 \u008a 1 \u2215 2 for isolation systems of rectangular plan dimension, b \u00d7 d ",
+          "source": "ASCE7-22-17.5.3.3-T8"
+        },
         "a": {
-          "description": "Approximate lower bound natural frequency from Section 26.11.2",
-          "unit": "Hz",
-          "source": "ASCE7-22-26.3-T77"
+          "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
+          "source": "ASCE7-22-28.3.7-T22"
         },
         "F": {
-          "description": "0.12 \u00d7 slope, with slope expressed in percentage points) and, for an arch or dome, F is the rise-to-span ratio multiplied by 32",
-          "source": "ASCE7-22-4.8.2-T4"
+          "description": "1.0 for buildings that are one story above grade plane, 1.1 for buildings that are two stories above grade plane, and 1.2 for buildings that are three stories above grade plane;",
+          "source": "ASCE7-22-12.14.8.1-T1"
         }
       }
     },
@@ -2833,9 +2738,8 @@
       "expression": "If the supporting structure is designed using D p =j\u03b4 xA j\u00fej\u03b4 yB j (13.3-11)",
       "parameters": {
         "D": {
-          "description": "Diameter of a circular structure or member, as de fi ned in Chapter 29",
-          "unit": "ft",
-          "source": "ASCE7-22-10.3-T3"
+          "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the design earthquake ground motions, Section 18.7.3.3 \u03bc",
+          "source": "ASCE7-22-18.1.3-T79"
         },
         "p": {
           "description": "Design pressure to be used in determination of wind loads for buildings, lb/ft 2 (N/m 2 )",
@@ -2867,9 +2771,12 @@
       "expression": "D =D I (13.3-8)",
       "parameters": {
         "D": {
-          "description": "Diameter of a circular structure or member, as de fi ned in Chapter 29",
-          "unit": "ft",
-          "source": "ASCE7-22-10.3-T3"
+          "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the design earthquake ground motions, Section 18.7.3.3 \u03bc",
+          "source": "ASCE7-22-18.1.3-T79"
+        },
+        "I": {
+          "description": "Radius of gyration of the isolation system [ft (mm)], which is equal to [ \u00f0 b 2 \u00fe d 2 \u00de \u2215 12 \u008a 1 \u2215 2 for isolation systems of rectangular plan dimension, b \u00d7 d ",
+          "source": "ASCE7-22-17.5.3.3-T8"
         }
       }
     },
@@ -3660,16 +3567,8 @@
       "expression": "The upper and lower limits of Fp determined by Equations (13.3-2) and (13.3-3)",
       "parameters": {
         "Fp": {
-          "description": "0.2 Wp but not less than 5 lb/ft 2 (0.24 kN/m 2 ) times the area of the wall tributary to the anchor",
-          "source": "ASCE7-22-12.11.2.1-P2"
-        },
-        "lower": {
-          "description": "Period of vibration at which 90% of the actual mass has been recovered in each of the two orthogonal directions of response (Section 12.9.2). The mathematical model used to compute T lower shall not include accidental torsion and shall include P-delta effects",
-          "source": "ASCE7-22-11.3-P3"
-        },
-        "upper": {
-          "description": "Larger of the two orthogonal fundamental periods of vibration (Section 12.9.2). The mathematical model used to compute T upper shall not include accidental torsion and shall include P-delta effects",
-          "source": "ASCE7-22-11.3-P4"
+          "description": "Seismic force acting on a component of a structure as determined in Sections 12.11.1 and 13.3.1",
+          "source": "ASCE7-22-11.3-T39"
         }
       }
     },
@@ -3697,39 +3596,8 @@
       "expression": "Where single-story structures are designed in accordance with note a of Table 12.12-1, Equation (13.3-10)",
       "parameters": {
         "a": {
-          "description": "Approximate lower bound natural frequency from Section 26.11.2",
-          "unit": "Hz",
-          "source": "ASCE7-22-26.3-T77"
-        }
-      }
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "from_text"
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-13.3-E13-3-121",
-    "type": "formula",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 13,
-      "section": "13.3",
-      "citation": "Eq. (13.3-12)",
-      "page": 5
-    },
-    "title": "Equation (13.3-12)",
-    "description": "",
-    "data": {
-      "expression": "Where single-story structures are designed in accordance with note a of Table 12.12-1, Equation (13.3-12)",
-      "parameters": {
-        "a": {
-          "description": "Approximate lower bound natural frequency from Section 26.11.2",
-          "unit": "Hz",
-          "source": "ASCE7-22-26.3-T77"
+          "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
+          "source": "ASCE7-22-28.3.7-T22"
         }
       }
     },
@@ -3756,13 +3624,13 @@
     "data": {
       "expression": "T =2\u03c0 p (13.3-13)",
       "parameters": {
-        "T": {
-          "description": "Fundamental period as determined in Chapter 19",
-          "source": "ASCE7-22-11.3-T105"
-        },
         "p": {
           "description": "Design pressure to be used in determination of wind loads for buildings, lb/ft 2 (N/m 2 )",
           "source": "ASCE7-22-26.3-T78"
+        },
+        "T": {
+          "description": "Cumulative effect of self-straining forces and effects arising from contraction or expansion resulting from environmental or operational temperature changes, shrinkage, moisture changes, creep in component materials, movement caused by differential settlement, or combinations thereof",
+          "source": "ASCE7-22-2.2-T13"
         }
       }
     },
@@ -5152,19 +5020,17 @@
     "data": {
       "expression": "\u00f0L\u2215d\u00de\u2215D pl \u22656.0\u00f01\u2215in:\u00de (13.5-1)",
       "parameters": {
+        "D": {
+          "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the design earthquake ground motions, Section 18.7.3.3 \u03bc",
+          "source": "ASCE7-22-18.1.3-T79"
+        },
         "L": {
-          "description": "Horizontal dimension of a building measured parallel to the wind direction",
-          "unit": "ft",
-          "source": "ASCE7-22-26.3-T64"
+          "description": "Inside length of a rectangular tank, parallel to the direction of the earthquake force being investigated;",
+          "source": "ASCE7-22-15.7.6.2-T3"
         },
         "d": {
-          "description": "Design ice thickness from Equation (10.4-5), in. (mm)",
-          "source": "ASCE7-22-10.3-T10"
-        },
-        "D": {
-          "description": "Diameter of a circular structure or member, as de fi ned in Chapter 29",
-          "unit": "ft",
-          "source": "ASCE7-22-10.3-T3"
+          "description": "Longest plan dimension of the structure, ft (mm) measured perpendicular to b",
+          "source": "ASCE7-22-17.1.2-T4"
         }
       }
     },
@@ -6805,9 +6671,8 @@
       "expression": "D \u22651.25D (13.5-3)",
       "parameters": {
         "D": {
-          "description": "Diameter of a circular structure or member, as de fi ned in Chapter 29",
-          "unit": "ft",
-          "source": "ASCE7-22-10.3-T3"
+          "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the design earthquake ground motions, Section 18.7.3.3 \u03bc",
+          "source": "ASCE7-22-18.1.3-T79"
         }
       }
     },
@@ -8460,101 +8325,6 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-13.6-T13-6-12",
-    "type": "table",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 13,
-      "section": "13.6",
-      "citation": "Table 13.6-1",
-      "page": 12
-    },
-    "title": "Table 13.6-1 (Continued) .",
-    "description": "",
-    "data": {
-      "columns": [
-        {
-          "name": "col_0",
-          "unit": null
-        },
-        {
-          "name": "C AR",
-          "unit": null
-        },
-        {
-          "name": "col_2",
-          "unit": null
-        },
-        {
-          "name": "col_3",
-          "unit": null
-        },
-        {
-          "name": "col_4",
-          "unit": null
-        }
-      ],
-      "rows": [
-        {
-          "col_0": "MECHANICAL AND ELECTRICAL COMPONENTS",
-          "C AR": "Supported at or below grade plane",
-          "col_2": "Supported above grade plane by a structure",
-          "col_3": "R po",
-          "col_4": "\u03a9 op b"
-        },
-        {
-          "col_0": "Duct systems, including in-line components, constructed of highor limited-deformability materials, with joints made by means other than welding or brazing",
-          "C AR": 1,
-          "col_2": 1,
-          "col_3": 1.5,
-          "col_4": 2
-        },
-        {
-          "col_0": "Duct systems, including in-line components, constructed of low-deformability materials, such as cast iron, glass, and nonductile plastics",
-          "C AR": 1.8,
-          "col_2": 2.2,
-          "col_3": 1.5,
-          "col_4": 1.75
-        },
-        {
-          "col_0": "Electrical conduit, cable trays, and raceways",
-          "C AR": 1,
-          "col_2": 1,
-          "col_3": 1.5,
-          "col_4": 2
-        },
-        {
-          "col_0": "Bus ducts",
-          "C AR": 1,
-          "col_2": 1,
-          "col_3": 1.5,
-          "col_4": 2
-        },
-        {
-          "col_0": "Plumbing",
-          "C AR": 1,
-          "col_2": 1,
-          "col_3": 1.5,
-          "col_4": 2
-        },
-        {
-          "col_0": "Pneumatic tube transport systems",
-          "C AR": 1,
-          "col_2": 1,
-          "col_3": 1.5,
-          "col_4": 2
-        }
-      ]
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "docling"
     },
     "parent_id": null
   },
@@ -11096,9 +10866,8 @@
       "expression": "a seismic displacement, \u03b4 mpv , of any panel relative to any roof edge or offset and any other curb or obstruction to sliding on the roof surface where \u03b4 mpv is determined in accordance with Equation (13.6-1)",
       "parameters": {
         "a": {
-          "description": "Approximate lower bound natural frequency from Section 26.11.2",
-          "unit": "Hz",
-          "source": "ASCE7-22-26.3-T77"
+          "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
+          "source": "ASCE7-22-28.3.7-T22"
         }
       }
     },

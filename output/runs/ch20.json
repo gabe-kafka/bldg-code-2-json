@@ -339,33 +339,6 @@
     "parent_id": "ASCE7-22-20.2.1-H2"
   },
   {
-    "id": "ASCE7-22-20.2.1-X3",
-    "type": "exception",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 20,
-      "section": "20.2.1",
-      "citation": "Section 20.2.1",
-      "page": 1
-    },
-    "title": "EXCEPTION: Site response analysis is not required for this clay category for Seismic Design Category A and Seismic Design Category B, where the seismic design category is based on the values SDS and S",
-    "description": "",
-    "data": {
-      "rule": "EXCEPTION: Site response analysis is not required for this clay category for Seismic Design Category A and Seismic Design Category B, where the seismic design category is based on the values SDS and SD 1 .",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-20.2.2-P1",
     "type": "provision",
     "source": {
@@ -938,13 +911,13 @@
     "data": {
       "expression": "h that soft layers are unlikely to be encountered between 50 and 100 ft, the shear wave velocity of the last layer in the pro fi le shall be extended to 100 ft for the calculation of \u00af vs in Equation (20.4-1)",
       "parameters": {
-        "vs": {
-          "description": "Shear wave velocity, in ft/s (m/s), at small shear strains (greater than 10 -3 % strain); see Section 19.2.1",
-          "source": "ASCE7-22-11.3-T126"
-        },
         "h": {
           "description": "Height of a shear wall measured as the maximum clear height from top of foundation to bottom of diaphragm framing above, or the maximum clear height from top of diaphragm to bottom of diaphragm framing above",
           "source": "ASCE7-22-11.3-T49"
+        },
+        "vs": {
+          "description": "Shear wave velocity, in ft/s (m/s), at small shear strains (greater than 10 -3 % strain); see Section 19.2.1",
+          "source": "ASCE7-22-11.3-T126"
         }
       }
     },

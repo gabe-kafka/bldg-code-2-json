@@ -3348,31 +3348,6 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-30.3-F30-3-1A1",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 30,
-      "section": "30.3",
-      "citation": "Figure 30.3-1A",
-      "page": 4
-    },
-    "title": "Figure 30.3-1A. Components and cladding [h \u226460 ft (18.3 m)]: external pressure coefficient zones for enclosed, partially",
-    "description": "Figure 30.3-1A. Components and cladding [h \u226460 ft (18.3 m)]: external pressure coefficient zones for enclosed, partially",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 30.3-1A. Components and cladding [h \u226460 ft (18.3 m)]: external pressure coefficient zones for enclosed, partially",
-      "source_pdf_page": 4
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-30.4-E30-4-11",
     "type": "formula",
     "source": {
@@ -3456,31 +3431,6 @@
       "qc_notes": null
     },
     "parent_id": "ASCE7-22-30.3-F30-3-2A1"
-  },
-  {
-    "id": "ASCE7-22-30.3-F30-3-2A1",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 30,
-      "section": "30.3",
-      "citation": "Figure 30.3-2A",
-      "page": 5
-    },
-    "title": "Figure 30.3-2A. Components and cladding [h \u226460 ft (h \u226418.3 m)]: external pressure coefficients (GCp ) for enclosed,",
-    "description": "Figure 30.3-2A. Components and cladding [h \u226460 ft (h \u226418.3 m)]: external pressure coefficients (GCp ) for enclosed,",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 30.3-2A. Components and cladding [h \u226460 ft (h \u226418.3 m)]: external pressure coefficients (GCp ) for enclosed,",
-      "source_pdf_page": 5
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
   },
   {
     "id": "ASCE7-22-30.4.2-T83",
@@ -3836,31 +3786,6 @@
     "parent_id": "ASCE7-22-30.4.2-H3"
   },
   {
-    "id": "ASCE7-22-30.3-F30-3-2B1",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 30,
-      "section": "30.3",
-      "citation": "Figure 30.3-2B",
-      "page": 6
-    },
-    "title": "Figure 30.3-2B. Components and cladding [h \u226460 ft (h \u226418.3 m)]: external pressure coefficients, (GCp ), for enclosed,",
-    "description": "Figure 30.3-2B. Components and cladding [h \u226460 ft (h \u226418.3 m)]: external pressure coefficients, (GCp ), for enclosed,",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 30.3-2B. Components and cladding [h \u226460 ft (h \u226418.3 m)]: external pressure coefficients, (GCp ), for enclosed,",
-      "source_pdf_page": 6
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-30.4.2-T117",
     "type": "text_block",
     "source": {
@@ -3886,87 +3811,6 @@
       "qc_notes": null
     },
     "parent_id": "ASCE7-22-30.4.2-H10"
-  },
-  {
-    "id": "ASCE7-22-30.4.2-P4",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 30,
-      "section": "30.4.2",
-      "citation": "Section 30.4.2",
-      "page": 7
-    },
-    "title": "dimension or 3 ft (0.9 m). If an overhang exists, the edge distance shall be measured from the outside edge of the overhang. The horizontal dimensions used to compute the edge distance shall not inclu",
-    "description": "",
-    "data": {
-      "rule": "dimension or 3 ft (0.9 m). If an overhang exists, the edge distance shall be measured from the outside edge of the overhang. The horizontal dimensions used to compute the edge distance shall not include any overhang dimensions. +3271 10\u0110I TOO! PLAN VIEW",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-30.4.2-T122",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 30,
-      "section": "30.4.2",
-      "citation": "Section 30.4.2",
-      "page": 7
-    },
-    "title": "B = Horizontal dimension of building measured normal to wind direction, ft (m).",
-    "description": "",
-    "data": {
-      "rule": "B = Horizontal dimension of building measured normal to wind direction, ft (m).",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-30.4.2-H10"
-  },
-  {
-    "id": "ASCE7-22-30.4.2-P5",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 30,
-      "section": "30.4.2",
-      "citation": "Section 30.4.2",
-      "page": 7
-    },
-    "title": "h = Mean roof height, in ft (m), except that eave height shall be used for 0 \u2264 10\u00b0. 0 = Angle of plane of roof from horizontal, degrees. External Pressure Coefficients (GC,)",
-    "description": "",
-    "data": {
-      "rule": "h = Mean roof height, in ft (m), except that eave height shall be used for 0 \u2264 10\u00b0. 0 = Angle of plane of roof from horizontal, degrees. External Pressure Coefficients (GC,) -3.2 -3.0 -2.8 -",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
   },
   {
     "id": "ASCE7-22-30.4.2-H4",
@@ -4162,166 +4006,6 @@
     "parent_id": "ASCE7-22-30.3-F30-3-2C1"
   },
   {
-    "id": "ASCE7-22-30.3-F30-3-2C1",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 30,
-      "section": "30.3",
-      "citation": "Figure 30.3-2C",
-      "page": 7
-    },
-    "title": "Figure 30.3-2C. Components and cladding [h \u226460 ft (h \u226418.3 m)]: external pressure coefficients, (GCp ), for enclosed,",
-    "description": "Figure 30.3-2C. Components and cladding [h \u226460 ft (h \u226418.3 m)]: external pressure coefficients, (GCp ), for enclosed,",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 30.3-2C. Components and cladding [h \u226460 ft (h \u226418.3 m)]: external pressure coefficients, (GCp ), for enclosed,",
-      "source_pdf_page": 7
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-30.4.2-T163",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 30,
-      "section": "30.4.2",
-      "citation": "Section 30.4.2",
-      "page": 8
-    },
-    "title": "Notation a = 10% of least horizontal dimension or 0.4h, whichever is smaller, but not less than either 4% of least horizontal",
-    "description": "",
-    "data": {
-      "rule": "Notation a = 10% of least horizontal dimension or 0.4h, whichever is smaller, but not less than either 4% of least horizontal",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-30.4.2-H10"
-  },
-  {
-    "id": "ASCE7-22-30.4.2-P7",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 30,
-      "section": "30.4.2",
-      "citation": "Section 30.4.2",
-      "page": 8
-    },
-    "title": "overhang. The horizontal dimensions used to compute the edge distance shall not include any overhang dimensions.",
-    "description": "",
-    "data": {
-      "rule": "overhang. The horizontal dimensions used to compute the edge distance shall not include any overhang dimensions.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-30.4.2-P8",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 30,
-      "section": "30.4.2",
-      "citation": "Section 30.4.2",
-      "page": 8
-    },
-    "title": "dimension or 3 ft (0.9 m). If an overhang exists, the edge distance shall be measured from the outside edge of the",
-    "description": "",
-    "data": {
-      "rule": "dimension or 3 ft (0.9 m). If an overhang exists, the edge distance shall be measured from the outside edge of the",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-30.4.2-T164",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 30,
-      "section": "30.4.2",
-      "citation": "Section 30.4.2",
-      "page": 8
-    },
-    "title": "B = Horizontal dimension of building measured normal to wind direction, ft (m).",
-    "description": "",
-    "data": {
-      "rule": "B = Horizontal dimension of building measured normal to wind direction, ft (m).",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-30.4.2-H10"
-  },
-  {
-    "id": "ASCE7-22-30.4.2-P9",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 30,
-      "section": "30.4.2",
-      "citation": "Section 30.4.2",
-      "page": 8
-    },
-    "title": "h = Mean roof height, in ft (m), except that eave height shall be used for 0 \u2264 10\u00b0. 0 = Angle of plane of roof from horizontal, degrees. External Pressure Coefficients (GC,)",
-    "description": "",
-    "data": {
-      "rule": "h = Mean roof height, in ft (m), except that eave height shall be used for 0 \u2264 10\u00b0. 0 = Angle of plane of roof from horizontal, degrees. External Pressure Coefficients (GC,) -2.8 - -2.6 - -25 -2.4",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-30.4.2-H5",
     "type": "heading",
     "source": {
@@ -4457,35 +4141,6 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-30.4.2-T195",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 30,
-      "section": "30.4.2",
-      "citation": "Section 30.4.2",
-      "page": 8
-    },
-    "title": "5. Values of (GCp) for roof overhangs to be determined in accordance with Section 30.7 Roof Overhangs.",
-    "description": "",
-    "data": {
-      "rule": "5. Values of (GCp) for roof overhangs to be determined in accordance with Section 30.7 Roof Overhangs.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [
-      "ASCE7-22-30.7-H1"
-    ],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-30.4.2-P10"
-  },
-  {
     "id": "ASCE7-22-30.4.2-T196",
     "type": "text_block",
     "source": {
@@ -4513,166 +4168,6 @@
       "qc_notes": null
     },
     "parent_id": "ASCE7-22-30.3-F30-3-2D1"
-  },
-  {
-    "id": "ASCE7-22-30.3-F30-3-2D1",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 30,
-      "section": "30.3",
-      "citation": "Figure 30.3-2D",
-      "page": 8
-    },
-    "title": "Figure 30.3-2D. Components and cladding [h \u226460 ft (h \u226418.3 m)]: external pressure coefficients, (GCp ), for enclosed,",
-    "description": "Figure 30.3-2D. Components and cladding [h \u226460 ft (h \u226418.3 m)]: external pressure coefficients, (GCp ), for enclosed,",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 30.3-2D. Components and cladding [h \u226460 ft (h \u226418.3 m)]: external pressure coefficients, (GCp ), for enclosed,",
-      "source_pdf_page": 8
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-30.4.2-T201",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 30,
-      "section": "30.4.2",
-      "citation": "Section 30.4.2",
-      "page": 9
-    },
-    "title": "Notation a = 10% of least horizontal dimension or 0.4h, whichever is smaller, but not less than either 4% of least horizontal",
-    "description": "",
-    "data": {
-      "rule": "Notation a = 10% of least horizontal dimension or 0.4h, whichever is smaller, but not less than either 4% of least horizontal",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-30.4.2-H10"
-  },
-  {
-    "id": "ASCE7-22-30.4.2-P11",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 30,
-      "section": "30.4.2",
-      "citation": "Section 30.4.2",
-      "page": 9
-    },
-    "title": "overhang. The horizontal dimensions used to compute the edge distance shall not include any overhang dimensions.",
-    "description": "",
-    "data": {
-      "rule": "overhang. The horizontal dimensions used to compute the edge distance shall not include any overhang dimensions. pay i\u00ae PLAN VIEW",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-30.4.2-P12",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 30,
-      "section": "30.4.2",
-      "citation": "Section 30.4.2",
-      "page": 9
-    },
-    "title": "dimension or 3 ft (0.9 m). If an overhang exists, the edge distance shall be measured from the outside edge of the",
-    "description": "",
-    "data": {
-      "rule": "dimension or 3 ft (0.9 m). If an overhang exists, the edge distance shall be measured from the outside edge of the",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-30.4.2-T205",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 30,
-      "section": "30.4.2",
-      "citation": "Section 30.4.2",
-      "page": 9
-    },
-    "title": "B = Horizontal dimension of building measured normal to wind direction, ft (m).",
-    "description": "",
-    "data": {
-      "rule": "B = Horizontal dimension of building measured normal to wind direction, ft (m).",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-30.4.2-H10"
-  },
-  {
-    "id": "ASCE7-22-30.4.2-P13",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 30,
-      "section": "30.4.2",
-      "citation": "Section 30.4.2",
-      "page": 9
-    },
-    "title": "h = Mean roof height, in ft (m), except that eave height shall be used for 0 \u2264 10\u00b0. 0 = Angle of plane of roof from horizontal, degrees. External Pressure Coefficients (GC,)",
-    "description": "",
-    "data": {
-      "rule": "h = Mean roof height, in ft (m), except that eave height shall be used for 0 \u2264 10\u00b0. 0 = Angle of plane of roof from horizontal, degrees. External Pressure Coefficients (GC,) -2.8 -2.6 -2.4",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
   },
   {
     "id": "ASCE7-22-30.4.2-H6",
@@ -4729,33 +4224,6 @@
     "parent_id": "ASCE7-22-30.4.2-H6"
   },
   {
-    "id": "ASCE7-22-30.4.2-T235",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 30,
-      "section": "30.4.2",
-      "citation": "Section 30.4.2",
-      "page": 9
-    },
-    "title": "2. Horizontal scale denotes effective wind area A, ft- (m2).",
-    "description": "",
-    "data": {
-      "rule": "2. Horizontal scale denotes effective wind area A, ft- (m2).",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-30.4.2-H6"
-  },
-  {
     "id": "ASCE7-22-30.4.2-T236",
     "type": "text_block",
     "source": {
@@ -4783,139 +4251,6 @@
       "qc_notes": null
     },
     "parent_id": "ASCE7-22-30.3-F30-3-2A1"
-  },
-  {
-    "id": "ASCE7-22-30.3-F30-3-21",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 30,
-      "section": "30.3",
-      "citation": "Figure 30.3-2",
-      "page": 9
-    },
-    "title": "Figure 30.3-2E. Components and cladding [h \u226460 ft (h \u226418.3 m)]: external pressure coefficients, (GCp ), for enclosed and",
-    "description": "Figure 30.3-2E. Components and cladding [h \u226460 ft (h \u226418.3 m)]: external pressure coefficients, (GCp ), for enclosed and",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 30.3-2E. Components and cladding [h \u226460 ft (h \u226418.3 m)]: external pressure coefficients, (GCp ), for enclosed and",
-      "source_pdf_page": 9
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-30.4.2-T241",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 30,
-      "section": "30.4.2",
-      "citation": "Section 30.4.2",
-      "page": 10
-    },
-    "title": "Notation a = 10% of least horizontal dimension or 0.4h, whichever is smaller, but not less than either 4% of least horizontal",
-    "description": "",
-    "data": {
-      "rule": "Notation a = 10% of least horizontal dimension or 0.4h, whichever is smaller, but not less than either 4% of least horizontal",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-30.4.2-H10"
-  },
-  {
-    "id": "ASCE7-22-30.4.2-P14",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 30,
-      "section": "30.4.2",
-      "citation": "Section 30.4.2",
-      "page": 10
-    },
-    "title": "dimension or 3 ft (0.9 m). If an overhang exists, the edge distance shall be measured from the outside edge of the overhang. The horizontal dimensions used to compute the edge distance shall not inclu",
-    "description": "",
-    "data": {
-      "rule": "dimension or 3 ft (0.9 m). If an overhang exists, the edge distance shall be measured from the outside edge of the overhang. The horizontal dimensions used to compute the edge distance shall not include any overhang dimensions.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-30.4.2-T242",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 30,
-      "section": "30.4.2",
-      "citation": "Section 30.4.2",
-      "page": 10
-    },
-    "title": "B = Horizontal dimension of building measured normal to wind direction, ft (m).",
-    "description": "",
-    "data": {
-      "rule": "B = Horizontal dimension of building measured normal to wind direction, ft (m).",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-30.4.2-H10"
-  },
-  {
-    "id": "ASCE7-22-30.4.2-P15",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 30,
-      "section": "30.4.2",
-      "citation": "Section 30.4.2",
-      "page": 10
-    },
-    "title": "h = Mean roof height, in ft (m), except that eave height shall be used for 0 \u2264 10\u00b0. 0 = Angle of plane of roof from horizontal, degrees. External Pressure Coefficients (GC,)",
-    "description": "",
-    "data": {
-      "rule": "h = Mean roof height, in ft (m), except that eave height shall be used for 0 \u2264 10\u00b0. 0 = Angle of plane of roof from horizontal, degrees. External Pressure Coefficients (GC,) -2.2 - -20",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
   },
   {
     "id": "ASCE7-22-30.4.2-H7",
@@ -4972,33 +4307,6 @@
     "parent_id": "ASCE7-22-30.4.2-H7"
   },
   {
-    "id": "ASCE7-22-30.4.2-T260",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 30,
-      "section": "30.4.2",
-      "citation": "Section 30.4.2",
-      "page": 10
-    },
-    "title": "3. Plus and minus signs signify pressures acting toward and away from the surfaces, respectively.",
-    "description": "",
-    "data": {
-      "rule": "3. Plus and minus signs signify pressures acting toward and away from the surfaces, respectively. - -1.0 -0.8 -+0.3 100 200 30 9.3) (18.6) (27.9 Effective Wind Area, ft* (ma) 1000)",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-30.4.2-H7"
-  },
-  {
     "id": "ASCE7-22-30.4.2-T269",
     "type": "text_block",
     "source": {
@@ -5024,62 +4332,6 @@
       "qc_notes": null
     },
     "parent_id": "ASCE7-22-30.4.2-H7"
-  },
-  {
-    "id": "ASCE7-22-30.4.2-P16",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 30,
-      "section": "30.4.2",
-      "citation": "Section 30.4.2",
-      "page": 10
-    },
-    "title": "4. Each component shall be designed for maximum positive and negative pressures.",
-    "description": "",
-    "data": {
-      "rule": "4. Each component shall be designed for maximum positive and negative pressures.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-30.4.2-T270",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 30,
-      "section": "30.4.2",
-      "citation": "Section 30.4.2",
-      "page": 10
-    },
-    "title": "5. Values of (GCp) for roof overhangs to be determined in accordance with Section 30.7 Roof Overhangs.",
-    "description": "",
-    "data": {
-      "rule": "5. Values of (GCp) for roof overhangs to be determined in accordance with Section 30.7 Roof Overhangs.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [
-      "ASCE7-22-30.7-H1"
-    ],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-30.4.2-P16"
   },
   {
     "id": "ASCE7-22-30.4.2-T271",
@@ -5111,60 +4363,6 @@
     "parent_id": "ASCE7-22-30.3-F30-3-2A1"
   },
   {
-    "id": "ASCE7-22-30.4.2-T275",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 30,
-      "section": "30.4.2",
-      "citation": "Section 30.4.2",
-      "page": 11
-    },
-    "title": "Notation a = 10% of least horizontal dimension or 0.4h, whichever is smaller, but not less than either 4% of least horizontal",
-    "description": "",
-    "data": {
-      "rule": "Notation a = 10% of least horizontal dimension or 0.4h, whichever is smaller, but not less than either 4% of least horizontal",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-30.4.2-H10"
-  },
-  {
-    "id": "ASCE7-22-30.4.2-P17",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 30,
-      "section": "30.4.2",
-      "citation": "Section 30.4.2",
-      "page": 11
-    },
-    "title": "dimension or 3 ft (0.9 m). If an overhang exists, the edge distance shall be measured from the outside edge of the overhang. The horizontal dimensions used to compute the edge distance shall not inclu",
-    "description": "",
-    "data": {
-      "rule": "dimension or 3 ft (0.9 m). If an overhang exists, the edge distance shall be measured from the outside edge of the overhang. The horizontal dimensions used to compute the edge distance shall not include any overhang dimensions. pay PLAN VIEW",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-30.4.2-T278",
     "type": "text_block",
     "source": {
@@ -5190,33 +4388,6 @@
       "qc_notes": null
     },
     "parent_id": "ASCE7-22-30.4.2-H10"
-  },
-  {
-    "id": "ASCE7-22-30.4.2-P18",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 30,
-      "section": "30.4.2",
-      "citation": "Section 30.4.2",
-      "page": 11
-    },
-    "title": "h = Mean roof height, in ft (m), except that eave height shall be used for 0 \u2264 10\u00b0. 0 = Angle of plane of roof from horizontal, degrees. External Pressure Coefficients (GC,)",
-    "description": "",
-    "data": {
-      "rule": "h = Mean roof height, in ft (m), except that eave height shall be used for 0 \u2264 10\u00b0. 0 = Angle of plane of roof from horizontal, degrees. External Pressure Coefficients (GC,) -2.6 -2.4 -22",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
   },
   {
     "id": "ASCE7-22-30.4.2-H8",
@@ -5379,35 +4550,6 @@
       "qc_notes": null
     },
     "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-30.4.2-T310",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 30,
-      "section": "30.4.2",
-      "citation": "Section 30.4.2",
-      "page": 11
-    },
-    "title": "5. Values of (GCp) for roof overhangs to be determined in accordance with Section 30.7 Roof Overhangs.",
-    "description": "",
-    "data": {
-      "rule": "5. Values of (GCp) for roof overhangs to be determined in accordance with Section 30.7 Roof Overhangs.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [
-      "ASCE7-22-30.7-H1"
-    ],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-30.4.2-P19"
   },
   {
     "id": "ASCE7-22-30.4.2-T311",
@@ -5576,31 +4718,6 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-30.3-F30-3-31",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 30,
-      "section": "30.3",
-      "citation": "Figure 30.3-3",
-      "page": 12
-    },
-    "title": "Figure 30.3-3. Components and cladding [h \u226460 ft (h \u226418.3 m)]: external pressure coefficients, (GCp ), for enclosed,",
-    "description": "Figure 30.3-3. Components and cladding [h \u226460 ft (h \u226418.3 m)]: external pressure coefficients, (GCp ), for enclosed,",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 30.3-3. Components and cladding [h \u226460 ft (h \u226418.3 m)]: external pressure coefficients, (GCp ), for enclosed,",
-      "source_pdf_page": 12
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-30.4.2-T396",
     "type": "text_block",
     "source": {
@@ -5655,31 +4772,6 @@
       "qc_notes": null
     },
     "parent_id": "ASCE7-22-30.3-F30-3-41"
-  },
-  {
-    "id": "ASCE7-22-30.3-F30-3-41",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 30,
-      "section": "30.3",
-      "citation": "Figure 30.3-4",
-      "page": 13
-    },
-    "title": "Figure 30.3-4. Components and cladding [h \u226460 ft (h \u226418.3 m)]: external pressure coefficients, (GCp ), for enclosed,",
-    "description": "Figure 30.3-4. Components and cladding [h \u226460 ft (h \u226418.3 m)]: external pressure coefficients, (GCp ), for enclosed,",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 30.3-4. Components and cladding [h \u226460 ft (h \u226418.3 m)]: external pressure coefficients, (GCp ), for enclosed,",
-      "source_pdf_page": 13
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
   },
   {
     "id": "ASCE7-22-30.4.2-T456",
@@ -5738,31 +4830,6 @@
     "parent_id": "ASCE7-22-30.4.2-H10"
   },
   {
-    "id": "ASCE7-22-30.3-F30-3-5A1",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 30,
-      "section": "30.3",
-      "citation": "Figure 30.3-5A",
-      "page": 14
-    },
-    "title": "Figure 30.3-5A. Components and cladding [h \u226460 ft (h \u226418.3 m)]: external pressure coefficients, (GCp ), for enclosed,",
-    "description": "Figure 30.3-5A. Components and cladding [h \u226460 ft (h \u226418.3 m)]: external pressure coefficients, (GCp ), for enclosed,",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 30.3-5A. Components and cladding [h \u226460 ft (h \u226418.3 m)]: external pressure coefficients, (GCp ), for enclosed,",
-      "source_pdf_page": 14
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-30.4.2-T481",
     "type": "text_block",
     "source": {
@@ -5819,31 +4886,6 @@
     "parent_id": "ASCE7-22-30.3-F30-3-5B1"
   },
   {
-    "id": "ASCE7-22-30.3-F30-3-5B1",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 30,
-      "section": "30.3",
-      "citation": "Figure 30.3-5B",
-      "page": 15
-    },
-    "title": "Figure 30.3-5B. Components and cladding [h \u226460 ft (h \u226418.3 m)]: external pressure coefficients, (GCp ), for enclosed,",
-    "description": "Figure 30.3-5B. Components and cladding [h \u226460 ft (h \u226418.3 m)]: external pressure coefficients, (GCp ), for enclosed,",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 30.3-5B. Components and cladding [h \u226460 ft (h \u226418.3 m)]: external pressure coefficients, (GCp ), for enclosed,",
-      "source_pdf_page": 15
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-30.4.2-T505",
     "type": "text_block",
     "source": {
@@ -5898,31 +4940,6 @@
       "qc_notes": null
     },
     "parent_id": "ASCE7-22-30.4.2-H10"
-  },
-  {
-    "id": "ASCE7-22-30.3-F30-3-61",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 30,
-      "section": "30.3",
-      "citation": "Figure 30.3-6",
-      "page": 16
-    },
-    "title": "Figure 30.3-6. Components and cladding [h \u226460 ft (h \u226418.3 m)]: external pressure coefficients, (GCp ), for enclosed,",
-    "description": "Figure 30.3-6. Components and cladding [h \u226460 ft (h \u226418.3 m)]: external pressure coefficients, (GCp ), for enclosed,",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 30.3-6. Components and cladding [h \u226460 ft (h \u226418.3 m)]: external pressure coefficients, (GCp ), for enclosed,",
-      "source_pdf_page": 16
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
   },
   {
     "id": "ASCE7-22-30.4.2-T528",
@@ -6452,31 +5469,6 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-30.3-F30-3-71",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 30,
-      "section": "30.3",
-      "citation": "Figure 30.3-7",
-      "page": 17
-    },
-    "title": "Figure 30.3-7. Components and cladding (all heights): external pressure coefficients, (GCp ), for enclosed, partially",
-    "description": "Figure 30.3-7. Components and cladding (all heights): external pressure coefficients, (GCp ), for enclosed, partially",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 30.3-7. Components and cladding (all heights): external pressure coefficients, (GCp ), for enclosed, partially",
-      "source_pdf_page": 17
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-30.4.2.1-H2",
     "type": "heading",
     "source": {
@@ -6871,31 +5863,6 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": "docling"
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-30.3-F30-3-81",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 30,
-      "section": "30.3",
-      "citation": "Figure 30.3-8",
-      "page": 18
-    },
-    "title": "Figure 30.3-8. Components and cladding (all heights): external pressure coefficients, (GCp ), for enclosed, partially",
-    "description": "Figure 30.3-8. Components and cladding (all heights): external pressure coefficients, (GCp ), for enclosed, partially",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 30.3-8. Components and cladding (all heights): external pressure coefficients, (GCp ), for enclosed, partially",
-      "source_pdf_page": 18
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
     },
     "parent_id": null
   },
@@ -9414,31 +8381,6 @@
     "parent_id": "ASCE7-22-30.7-H4"
   },
   {
-    "id": "ASCE7-22-30.4-F30-4-1A1",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 30,
-      "section": "30.4",
-      "citation": "Figure 30.4-1A",
-      "page": 21
-    },
-    "title": "Figure 30.4-1A. Components and cladding, part 3 [h > 60 ft (h > 18.3 m)]: external pressure coefficient zones for enclosed,",
-    "description": "Figure 30.4-1A. Components and cladding, part 3 [h > 60 ft (h > 18.3 m)]: external pressure coefficient zones for enclosed,",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 30.4-1A. Components and cladding, part 3 [h > 60 ft (h > 18.3 m)]: external pressure coefficient zones for enclosed,",
-      "source_pdf_page": 21
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-30.7-T7",
     "type": "text_block",
     "source": {
@@ -9520,31 +8462,6 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-30.5-F30-5-21",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 30,
-      "section": "30.5",
-      "citation": "Figure 30.5-2",
-      "page": 23
-    },
-    "title": "Figure 30.5-2. Components and cladding (0.25 \u2264h\u2215L \u22641.0): net pressure coefficient, CN, for open buildings\u2014pitched free",
-    "description": "Figure 30.5-2. Components and cladding (0.25 \u2264h\u2215L \u22641.0): net pressure coefficient, CN, for open buildings\u2014pitched free",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 30.5-2. Components and cladding (0.25 \u2264h\u2215L \u22641.0): net pressure coefficient, CN, for open buildings\u2014pitched free",
-      "source_pdf_page": 23
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-30.7-T18",
     "type": "text_block",
     "source": {
@@ -9572,31 +8489,6 @@
       "qc_notes": null
     },
     "parent_id": "ASCE7-22-30.5-F30-5-31"
-  },
-  {
-    "id": "ASCE7-22-30.5-F30-5-31",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 30,
-      "section": "30.5",
-      "citation": "Figure 30.5-3",
-      "page": 24
-    },
-    "title": "Figure 30.5-3. Components and cladding (0.25 \u2264h\u2215L \u22641.0): net pressure coefficient, CN, for open buildings\u2014troughed",
-    "description": "Figure 30.5-3. Components and cladding (0.25 \u2264h\u2215L \u22641.0): net pressure coefficient, CN, for open buildings\u2014troughed",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 30.5-3. Components and cladding (0.25 \u2264h\u2215L \u22641.0): net pressure coefficient, CN, for open buildings\u2014troughed",
-      "source_pdf_page": 24
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
   },
   {
     "id": "ASCE7-22-30.7-T33",
@@ -11965,31 +10857,6 @@
     "parent_id": "ASCE7-22-30.9-F30-9-1B1"
   },
   {
-    "id": "ASCE7-22-30.9-F30-9-1B1",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 30,
-      "section": "30.9",
-      "citation": "Figure 30.9-1B",
-      "page": 28
-    },
-    "title": "Figure 30.9-1B. Net pressure coefficients considering simultaneous contributions from upper and lower surfaces on",
-    "description": "Figure 30.9-1B. Net pressure coefficients considering simultaneous contributions from upper and lower surfaces on",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 30.9-1B. Net pressure coefficients considering simultaneous contributions from upper and lower surfaces on",
-      "source_pdf_page": 28
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-30.10.2-T21",
     "type": "text_block",
     "source": {
@@ -12179,31 +11046,6 @@
       "qc_notes": null
     },
     "parent_id": "ASCE7-22-30.10.2-H2"
-  },
-  {
-    "id": "ASCE7-22-30.9-F30-9-2A1",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 30,
-      "section": "30.9",
-      "citation": "Figure 30.9-2A",
-      "page": 29
-    },
-    "title": "Figure 30.9-2A. Pressure coefficients on separate surfaces of attached canopies on buildings with h > 60 ft (h > 18.3 m).",
-    "description": "Figure 30.9-2A. Pressure coefficients on separate surfaces of attached canopies on buildings with h > 60 ft (h > 18.3 m).",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 30.9-2A. Pressure coefficients on separate surfaces of attached canopies on buildings with h > 60 ft (h > 18.3 m).",
-      "source_pdf_page": 29
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
   },
   {
     "id": "ASCE7-22-30.10.2-T74",
@@ -12478,31 +11320,6 @@
     "parent_id": "ASCE7-22-30.10.2-H2"
   },
   {
-    "id": "ASCE7-22-30.9-F30-9-2B1",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 30,
-      "section": "30.9",
-      "citation": "Figure 30.9-2B",
-      "page": 30
-    },
-    "title": "Figure 30.9-2B. Net pressure coefficients considering simultaneous contributions from upper and lower surfaces on",
-    "description": "Figure 30.9-2B. Net pressure coefficients considering simultaneous contributions from upper and lower surfaces on",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 30.9-2B. Net pressure coefficients considering simultaneous contributions from upper and lower surfaces on",
-      "source_pdf_page": 30
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-30.10-E30-10-21",
     "type": "formula",
     "source": {
@@ -12521,13 +11338,17 @@
           "description": "Design pressure to be used in determination of wind loads for buildings, lb/ft 2 (N/m 2 )",
           "source": "ASCE7-22-26.3-T78"
         },
-        "b": {
-          "description": "Mean hourly wind speed factor in Equation (26.1116), from Table 26.11-1",
-          "source": "ASCE7-22-26.3-T15"
-        },
         "k": {
-          "description": "Effective stiffness of the impacting debris or the lateral stiffness of the impacted structural element",
-          "source": "ASCE7-22-6.3-T54"
+          "description": "Effective stiffness of the impacting debris or the lateral stiffness of the impacted structural element(s) deformed by the impact, whichever is less; and",
+          "source": "ASCE7-22-6.11.1-T4"
+        },
+        "b": {
+          "description": "Shortest plan dimension of the structure [ft (mm)] measured perpendicular to d ;",
+          "source": "ASCE7-22-17.5.3.3-T5"
+        },
+        "\u03b1": {
+          "description": "Mean hourly wind-speed power law exponent in Equation (26.11-16) from Table 26.11-1",
+          "source": "ASCE7-22-26.3-T108"
         }
       }
     },
@@ -12553,7 +11374,12 @@
     "description": "",
     "data": {
       "expression": "C\u00f0\u03b1\u00de = \u22120.5\u00fe0.4cos\u03b1\u00fe0.8cos2\u03b1\u00fe0.3cos3\u03b1 (30.10-4)",
-      "parameters": {}
+      "parameters": {
+        "\u03b1": {
+          "description": "Mean hourly wind-speed power law exponent in Equation (26.11-16) from Table 26.11-1",
+          "source": "ASCE7-22-26.3-T108"
+        }
+      }
     },
     "cross_references": [],
     "metadata": {
@@ -12583,8 +11409,8 @@
           "source": "ASCE7-22-26.3-T78"
         },
         "q": {
-          "description": "qzT For external pressure on all walls evaluated at height z above the ground, lb/ft 2 (N/m 2 );",
-          "source": "ASCE7-22-32.17.2-T1"
+          "description": "Discharge per unit width over the overtopped structure, as illustrated in Figure 6.12-6 and calculated in accordance with Equation (6.12-5); and",
+          "source": "ASCE7-22-6.12.2.4.2-T7"
         }
       }
     },
@@ -13327,31 +12153,6 @@
     "parent_id": "ASCE7-22-30.10-F30-10-21"
   },
   {
-    "id": "ASCE7-22-30.10-F30-10-21",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 30,
-      "section": "30.10",
-      "citation": "Figure 30.10-2",
-      "page": 33
-    },
-    "title": "Figure 30.10-2. Components and cladding [h \u2264120ft (h \u226436.6m)]: external pressure coefficients, GCp , for roofs of isolated",
-    "description": "Figure 30.10-2. Components and cladding [h \u2264120ft (h \u226436.6m)]: external pressure coefficients, GCp , for roofs of isolated",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 30.10-2. Components and cladding [h \u2264120ft (h \u226436.6m)]: external pressure coefficients, GCp , for roofs of isolated",
-      "source_pdf_page": 33
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-30.13-T68",
     "type": "text_block",
     "source": {
@@ -13518,31 +12319,6 @@
     "parent_id": "ASCE7-22-30.13-H4"
   },
   {
-    "id": "ASCE7-22-30.10-F30-10-31",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 30,
-      "section": "30.10",
-      "citation": "Figure 30.10-3",
-      "page": 35
-    },
-    "title": "Figure 30.10-3. Components and cladding [h \u2264120ft (h \u226436.6m)]: external pressure coefficients, GCp , for roofs of",
-    "description": "Figure 30.10-3. Components and cladding [h \u2264120ft (h \u226436.6m)]: external pressure coefficients, GCp , for roofs of",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 30.10-3. Components and cladding [h \u2264120ft (h \u226436.6m)]: external pressure coefficients, GCp , for roofs of",
-      "source_pdf_page": 35
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-30.13-T120",
     "type": "text_block",
     "source": {
@@ -13595,31 +12371,6 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-30.10-F30-10-41",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 30,
-      "section": "30.10",
-      "citation": "Figure 30.10-4",
-      "page": 36
-    },
-    "title": "Figure 30.10-4. Components and cladding [h \u2264120ft (h \u226436.6m)]: external pressure coefficients, GCp , for walls of",
-    "description": "Figure 30.10-4. Components and cladding [h \u2264120ft (h \u226436.6m)]: external pressure coefficients, GCp , for walls of",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 30.10-4. Components and cladding [h \u2264120ft (h \u226436.6m)]: external pressure coefficients, GCp , for walls of",
-      "source_pdf_page": 36
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
     },
     "parent_id": null
   }

@@ -1077,7 +1077,12 @@
     "description": "",
     "data": {
       "expression": "\u03b3 = Snow density, as determined from Equation (7.7-1)",
-      "parameters": {}
+      "parameters": {
+        "\u03b3": {
+          "description": "Average unit weight of soil, lb/ft 3 (N/m 3 )",
+          "source": "ASCE7-22-11.3-T145"
+        }
+      }
     },
     "cross_references": [],
     "metadata": {
@@ -1225,58 +1230,6 @@
     "parent_id": "ASCE7-22-7.2-H3"
   },
   {
-    "id": "ASCE7-22-7.2-F7-2-1B1",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 7,
-      "section": "7.2",
-      "citation": "Figure 7.2-1B",
-      "page": 3
-    },
-    "title": "Figure 7.2-1B. Ground snow loads, pg, for Risk Category II for the conterminous United States (lb/ft2).",
-    "description": "Figure 7.2-1B. Ground snow loads, pg, for Risk Category II for the conterminous United States (lb/ft2).",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 7.2-1B. Ground snow loads, pg, for Risk Category II for the conterminous United States (lb/ft2).",
-      "source_pdf_page": 3
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-7.2-T5",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 7,
-      "section": "7.2",
-      "citation": "Section 7.2",
-      "page": 4
-    },
-    "title": "Note: 1. This fi gure is a representation of the Ground Snow Load Geodatabase of geocoded design ground snow load values, available at https://asce7hazardtool.online/. 2. Values for speci fi c locatio",
-    "description": "",
-    "data": {
-      "rule": "Note: 1. This fi gure is a representation of the Ground Snow Load Geodatabase of geocoded design ground snow load values, available at https://asce7hazardtool.online/. 2. Values for speci fi c locations can most accurately be determined by accessing the Geodatabase. 3. Lines shown on the fi gure are contours separated by a constant ratio 1.18 with values of 10, 12, 14, 16, 19, 23, 27, 32, 38, 44, 52, 62, 73, 86, 101, 119, and 140 psf. 4. Values denoted with a ' + ' symbol indicate design ground snow loads at state capitals or other high-population locations. 5. Areas shown in gray represent areas with ground snow loads exceeding 140 psf. Ground snow load values for these locations can be determined from the Geodatabase.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-7.2-H5"
-  },
-  {
     "id": "ASCE7-22-7.2-H4",
     "type": "heading",
     "source": {
@@ -1306,31 +1259,6 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-7.2-F7-2-1C1",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 7,
-      "section": "7.2",
-      "citation": "Figure 7.2-1C",
-      "page": 4
-    },
-    "title": "Figure 7.2-1C. Ground snow loads, pg, for Risk Category III for the conterminous United States (lb/ft2).",
-    "description": "Figure 7.2-1C. Ground snow loads, pg, for Risk Category III for the conterminous United States (lb/ft2).",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 7.2-1C. Ground snow loads, pg, for Risk Category III for the conterminous United States (lb/ft2).",
-      "source_pdf_page": 4
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-7.2-H5",
     "type": "heading",
     "source": {
@@ -1356,58 +1284,6 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-7.2-T7",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 7,
-      "section": "7.2",
-      "citation": "Section 7.2",
-      "page": 5
-    },
-    "title": "1. This fi gure is a representation of the Ground Snow Load Geodatabase of geocoded design ground snow load values, available at https://asce7hazardtool.online/. 2. Values for speci fi c locations can",
-    "description": "",
-    "data": {
-      "rule": "1. This fi gure is a representation of the Ground Snow Load Geodatabase of geocoded design ground snow load values, available at https://asce7hazardtool.online/. 2. Values for speci fi c locations can most accurately be determined by accessing the Geodatabase. 3. Lines shown on the fi gure are contours separated by a constant ratio 1.18 with values of 10, 12, 14, 16, 19, 23, 27, 32, 38, 44, 52, 62, 73, 86, 101, 119, and 140 psf. 4. Values denoted with a ' + ' symbol indicate design ground snow loads at state capitals or other high-population locations. 5. Areas shown in gray represent areas with ground snow loads exceeding 140 psf. Ground snow load values for these locations can be determined from the Geodatabase.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-7.2-H5"
-  },
-  {
-    "id": "ASCE7-22-7.2-F7-2-1D1",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 7,
-      "section": "7.2",
-      "citation": "Figure 7.2-1D",
-      "page": 5
-    },
-    "title": "Figure 7.2-1D. Ground snow loads, pg, for Risk Category IV for the conterminous United States (lb/ft2).",
-    "description": "Figure 7.2-1D. Ground snow loads, pg, for Risk Category IV for the conterminous United States (lb/ft2).",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 7.2-1D. Ground snow loads, pg, for Risk Category IV for the conterminous United States (lb/ft2).",
-      "source_pdf_page": 5
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
     },
     "parent_id": null
   },
@@ -2067,13 +1943,13 @@
     "data": {
       "expression": "(cid:129) The ground snow load, p g , is less than or equal to 5 lb/ft2 p =C p (7.4-1)",
       "parameters": {
-        "g": {
-          "description": "Nominal height of the atmospheric boundary layer used in this standard (values appear in Table 26.11-1)",
-          "source": "ASCE7-22-26.3-T105"
-        },
         "p": {
           "description": "Design pressure to be used in determination of wind loads for buildings, lb/ft 2 (N/m 2 )",
           "source": "ASCE7-22-26.3-T78"
+        },
+        "g": {
+          "description": "Acceleration caused by gravity [in : \u2215 s 2 (mm \u2215 s 2 )] if the units of the displacement DM are in in. (mm);",
+          "source": "ASCE7-22-17.5.3.1-T2"
         }
       }
     },
@@ -2100,25 +1976,21 @@
     "data": {
       "expression": "p f =0.7C e C t p g (7.3-1)",
       "parameters": {
-        "f": {
-          "description": "Radius of the circular foundation;",
-          "source": "ASCE7-22-19.3.4-T1"
-        },
-        "t": {
-          "description": "Nominal ice thickness on a cylinder caused by freezing rain at a height of 33 ft (10 m), from Figures 10.4-2 through 10.4-5, for the applicable risk category, in. (mm)",
-          "source": "ASCE7-22-10.3-T9"
-        },
         "p": {
           "description": "Design pressure to be used in determination of wind loads for buildings, lb/ft 2 (N/m 2 )",
           "source": "ASCE7-22-26.3-T78"
         },
         "e": {
-          "description": "Elastic displacement computed under design earthquake forces (Section 12.8.6)",
-          "source": "ASCE7-22-11.3-T152"
+          "description": "Actual eccentricity measured in plan between the center of mass of the structure above the isolation interface and the center of rigidity of the isolation system, plus accidental eccentricity [ft (mm)], taken as 5% of the longest plan dimension of the structure perpendicular to the direction of force under consideration;",
+          "source": "ASCE7-22-17.5.3.3-T4"
         },
         "g": {
-          "description": "Nominal height of the atmospheric boundary layer used in this standard (values appear in Table 26.11-1)",
-          "source": "ASCE7-22-26.3-T105"
+          "description": "Acceleration caused by gravity [in : \u2215 s 2 (mm \u2215 s 2 )] if the units of the displacement DM are in in. (mm);",
+          "source": "ASCE7-22-17.5.3.1-T2"
+        },
+        "t": {
+          "description": "Nominal ice thickness on a cylinder caused by freezing rain at a height of 33 ft (10 m), from Figures 10.4-2 through 10.4-5, for the applicable risk category, in. (mm)",
+          "source": "ASCE7-22-10.3-T9"
         }
       }
     },
@@ -2838,56 +2710,6 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-7.3-T7-3-12",
-    "type": "table",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 7,
-      "section": "7.3",
-      "citation": "Table 7.3-1",
-      "page": 7
-    },
-    "title": "7.3.1 Exposure Factor, Ce The value for Ce shall be determined from Table 7.3-1.",
-    "description": "",
-    "data": {
-      "columns": [
-        {
-          "name": "Thermal condition a",
-          "unit": null
-        },
-        {
-          "name": "C t",
-          "unit": null
-        }
-      ],
-      "rows": [
-        {
-          "Thermal condition a": "All structures except as indicated as follows",
-          "C t": "See Table 7.3-3"
-        },
-        {
-          "Thermal condition a": "Unheated structures, open-air structures, structures kept just above freezing [40 to 50 \u00b0F (4 to 10 \u00b0C)], and other structures with cold, ventilated roofs meeting the minimum requirements of the applicable energy code",
-          "C t": 1.2
-        },
-        {
-          "Thermal condition a": "Freezer building",
-          "C t": 1.3
-        },
-        {
-          "Thermal condition a": "Continuously heated greenhouses b with a roof having a thermal resistance (R-value) less than 2.0 h \u2219 ft 2 \u2219 \u00b0F/Btu (0.4 m 2 \u00b7 K/W) or a thermal transmittance (U-factor) greater than 0.5 Btu/h \u00b7 ft 2 \u00b7 \u00b0F (2.5 W/m 2 \u00b7 K)",
-          "C t": 0.85
-        }
-      ]
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "docling"
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-7.4-T27",
     "type": "text_block",
     "source": {
@@ -3178,161 +3000,6 @@
       "qc_notes": null
     },
     "parent_id": "ASCE7-22-7.4-F7-4-11"
-  },
-  {
-    "id": "ASCE7-22-7.3-T7-3-31",
-    "type": "table",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 7,
-      "section": "7.3",
-      "citation": "Table 7.3-3",
-      "page": 8
-    },
-    "title": "Table 7.3-3. Thermal Factor, Ct , for Heated Structures with Unventilated Roofs. a",
-    "description": "",
-    "data": {
-      "columns": [
-        {
-          "name": "col_0",
-          "unit": null
-        },
-        {
-          "name": "col_1",
-          "unit": null
-        },
-        {
-          "name": "P g (psf [kPa])",
-          "unit": null
-        },
-        {
-          "name": "col_3",
-          "unit": null
-        },
-        {
-          "name": "col_4",
-          "unit": null
-        },
-        {
-          "name": "col_5",
-          "unit": null
-        },
-        {
-          "name": "col_6",
-          "unit": null
-        },
-        {
-          "name": "col_7",
-          "unit": null
-        },
-        {
-          "name": "col_8",
-          "unit": null
-        }
-      ],
-      "rows": [
-        {
-          "col_0": "R roof (h \u00b7 ft 2 \u00b7 \u00b0F/Btu [m 2 \u00b7 K/W])",
-          "col_1": "U roof (Btu/h \u00b7 ft 2 \u00b7 \u00b0F [W/m 2 \u00b7 K])",
-          "P g (psf [kPa])": "\u2264 10 [0.48]",
-          "col_3": "20 [0.96]",
-          "col_4": "30 [1.44]",
-          "col_5": "40 [1.92]",
-          "col_6": "50 [2.40]",
-          "col_7": "60 [2.88]",
-          "col_8": "\u2265 70 [3.36]"
-        },
-        {
-          "col_0": "\u2264 20 [3.52]",
-          "col_1": "\u2265 0.050 [0.284]",
-          "P g (psf [kPa])": 1.2,
-          "col_3": 1.11,
-          "col_4": 1.05,
-          "col_5": 1.01,
-          "col_6": 1.0,
-          "col_7": 1.0,
-          "col_8": 1.0
-        },
-        {
-          "col_0": "30 [5.28]",
-          "col_1": "0.033 [0.189]",
-          "P g (psf [kPa])": 1.2,
-          "col_3": 1.17,
-          "col_4": 1.14,
-          "col_5": 1.13,
-          "col_6": 1.12,
-          "col_7": 1.11,
-          "col_8": 1.1
-        },
-        {
-          "col_0": "40 [7.04]",
-          "col_1": "0.025 [0.142]",
-          "P g (psf [kPa])": 1.2,
-          "col_3": 1.19,
-          "col_4": 1.17,
-          "col_5": 1.16,
-          "col_6": 1.16,
-          "col_7": 1.15,
-          "col_8": 1.15
-        },
-        {
-          "col_0": "50 [8.80] b",
-          "col_1": "0.020 [0.114] b",
-          "P g (psf [kPa])": 1.2,
-          "col_3": 1.2,
-          "col_4": 1.19,
-          "col_5": 1.19,
-          "col_6": 1.19,
-          "col_7": 1.18,
-          "col_8": 1.18
-        }
-      ]
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "docling"
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-7.3-T7-3-32",
-    "type": "table",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 7,
-      "section": "7.3",
-      "citation": "Table 7.3-3",
-      "page": 8
-    },
-    "title": "Table 7.3-3. Thermal Factor, Ct , for Heated Structures with Unventilated Roofs. a",
-    "description": "",
-    "data": {
-      "columns": [
-        {
-          "name": "Risk Category",
-          "unit": null
-        },
-        {
-          "name": "p m,max",
-          "unit": null
-        }
-      ],
-      "rows": [
-        {
-          "Risk Category": "I II III IV",
-          "p m,max": "25 lb/ft 2 (1.20 kN/m 2 ) 30 lb/ft 2 (1.44 kN/m 2 ) 35 lb/ft 2 (1.68 kN/m 2 ) 40 lb/ft 2 (1.92 kN/m 2 )"
-        }
-      ]
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "docling"
-    },
-    "parent_id": null
   },
   {
     "id": "ASCE7-22-7.4-F7-4-11",
@@ -3684,31 +3351,6 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-7.4-F7-4-21",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 7,
-      "section": "7.4",
-      "citation": "Figure 7.4-2",
-      "page": 9
-    },
-    "title": "Figure 7.4-2. Balanced and unbalanced loads for curved roofs.",
-    "description": "Figure 7.4-2. Balanced and unbalanced loads for curved roofs.",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 7.4-2. Balanced and unbalanced loads for curved roofs.",
-      "source_pdf_page": 9
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-7.5.1-T11",
     "type": "text_block",
     "source": {
@@ -4017,31 +3659,6 @@
     "parent_id": "ASCE7-22-7.5-F7-5-11"
   },
   {
-    "id": "ASCE7-22-7.4-F7-4-31",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 7,
-      "section": "7.4",
-      "citation": "Figure 7.4-3",
-      "page": 10
-    },
-    "title": "Figure 7.4-3. Sloped roof snow load for air-supported structures.",
-    "description": "Figure 7.4-3. Sloped roof snow load for air-supported structures.",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 7.4-3. Sloped roof snow load for air-supported structures.",
-      "source_pdf_page": 10
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-7.5-F7-5-11",
     "type": "figure",
     "source": {
@@ -4081,18 +3698,31 @@
     "data": {
       "expression": "side, ps on the leeward side plus a rectangular surcharge with magnitude hd \u03b3 \u2215 ffiffi ffi S p and horizontal extent from the ridge 8 hd ffiffi ffi S p \u2215 3 where hd is the drift height from Equation (7.6-1)",
       "parameters": {
+        "ps": {
+          "description": "Sloped roof (balanced) snow load, lb \u2215 ft 2 (kN \u2215 m 2 )",
+          "source": "ASCE7-22-7.1.2-T13"
+        },
+        "\u03b3": {
+          "description": "Average unit weight of soil, lb/ft 3 (N/m 3 )",
+          "source": "ASCE7-22-11.3-T145"
+        },
         "a": {
-          "description": "Approximate lower bound natural frequency from Section 26.11.2",
-          "unit": "Hz",
-          "source": "ASCE7-22-26.3-T77"
+          "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
+          "source": "ASCE7-22-28.3.7-T22"
+        },
+        "S": {
+          "description": "Center-to-center row spacing for ground-mounted solar panels in Figure 29.4-9",
+          "unit": "ft",
+          "source": "ASCE7-22-26.3-T90"
         },
         "p": {
           "description": "Design pressure to be used in determination of wind loads for buildings, lb/ft 2 (N/m 2 )",
           "source": "ASCE7-22-26.3-T78"
         },
-        "S": {
-          "description": "5 ft). For interior bays regardless of the orientation of the members, the minimum rise ( \u03b2 in inches) for a run of 1 ft to achieve no local minimum is",
-          "source": "ASCE7-22-0.2-T1310"
+        "hd": {
+          "description": "Height of snow drift",
+          "unit": "ft",
+          "source": "ASCE7-22-7.1.2-T7"
         }
       }
     },
@@ -5039,56 +4669,6 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-7.6-F7-6-21",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 7,
-      "section": "7.6",
-      "citation": "Figure 7.6-2",
-      "page": 13
-    },
-    "title": "Figure 7.6-2. Balanced and unbalanced snow loads for hip and gable roofs.",
-    "description": "Figure 7.6-2. Balanced and unbalanced snow loads for hip and gable roofs.",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 7.6-2. Balanced and unbalanced snow loads for hip and gable roofs.",
-      "source_pdf_page": 13
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-7.6-F7-6-31",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 7,
-      "section": "7.6",
-      "citation": "Figure 7.6-3",
-      "page": 13
-    },
-    "title": "Figure 7.6-3. Balanced and unbalanced snow loads for a sawtooth roof.",
-    "description": "Figure 7.6-3. Balanced and unbalanced snow loads for a sawtooth roof.",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 7.6-3. Balanced and unbalanced snow loads for a sawtooth roof.",
-      "source_pdf_page": 13
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-7.9-T5",
     "type": "text_block",
     "source": {
@@ -5551,56 +5131,6 @@
     "data": {
       "figure_type": "other",
       "description": "Figure 7.7-1. Drifts formed at windward and leeward steps.",
-      "source_pdf_page": 14
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-7.7-F7-7-21",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 7,
-      "section": "7.7",
-      "citation": "Figure 7.7-2",
-      "page": 14
-    },
-    "title": "Figure 7.7-2. Configuration of snowdrifts on lower roofs.",
-    "description": "Figure 7.7-2. Configuration of snowdrifts on lower roofs.",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 7.7-2. Configuration of snowdrifts on lower roofs.",
-      "source_pdf_page": 14
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-7.7-F7-7-31",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 7,
-      "section": "7.7",
-      "citation": "Figure 7.7-3",
-      "page": 14
-    },
-    "title": "Figure 7.7-3. Configuration of intersecting snowdrifts at",
-    "description": "Figure 7.7-3. Configuration of intersecting snowdrifts at",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 7.7-3. Configuration of intersecting snowdrifts at",
       "source_pdf_page": 14
     },
     "cross_references": [],
@@ -6124,55 +5654,5 @@
       "qc_notes": null
     },
     "parent_id": "ASCE7-22-7.15-H1"
-  },
-  {
-    "id": "ASCE7-22-7.13-F7-13-21",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 7,
-      "section": "7.13",
-      "citation": "Figure 7.13-2",
-      "page": 16
-    },
-    "title": "Figure 7.13-2. Snow load on individual pipes and cable trays with diameter or width (a) less than, or equal to,",
-    "description": "Figure 7.13-2. Snow load on individual pipes and cable trays with diameter or width (a) less than, or equal to,",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 7.13-2. Snow load on individual pipes and cable trays with diameter or width (a) less than, or equal to,",
-      "source_pdf_page": 16
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-7.13-F7-13-31",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 7,
-      "section": "7.13",
-      "citation": "Figure 7.13-3",
-      "page": 16
-    },
-    "title": "Figure 7.13-3. Snow load on multiple cable trays/pipes at same elevation.",
-    "description": "Figure 7.13-3. Snow load on multiple cable trays/pipes at same elevation.",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 7.13-3. Snow load on multiple cable trays/pipes at same elevation.",
-      "source_pdf_page": 16
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
   }
 ]

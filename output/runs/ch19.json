@@ -896,7 +896,12 @@
     "description": "",
     "data": {
       "expression": "ao = Dimensionless frequency [Equations (19.3-11)",
-      "parameters": {}
+      "parameters": {
+        "ao": {
+          "description": "Dimensionless frequency [Equations (19.3-11) and (19.3-21)]",
+          "source": "ASCE7-22-19.1.3-T2"
+        }
+      }
     },
     "cross_references": [],
     "metadata": {
@@ -920,7 +925,12 @@
     "description": "",
     "data": {
       "expression": "ao = Dimensionless frequency [Equations (19.3-11) and (19.3-21)",
-      "parameters": {}
+      "parameters": {
+        "ao": {
+          "description": "Dimensionless frequency [Equations (19.3-11) and (19.3-21)]",
+          "source": "ASCE7-22-19.1.3-T2"
+        }
+      }
     },
     "cross_references": [],
     "metadata": {
@@ -946,9 +956,8 @@
       "expression": "tor to adjust the design response spectrum and MCER response spectrum in accordance with Sections 11.4.6 and 11.4.7 or a site-speci fi c response spectrum for damping ratios other than 0.05 [Equation (19.2-4)",
       "parameters": {
         "a": {
-          "description": "Approximate lower bound natural frequency from Section 26.11.2",
-          "unit": "Hz",
-          "source": "ASCE7-22-26.3-T77"
+          "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
+          "source": "ASCE7-22-28.3.7-T22"
         },
         "c": {
           "description": "Distance from the neutral axis of a fl exural member to the fi ber of maximum compressive strain, in. (mm)",
@@ -1004,14 +1013,12 @@
       "expression": "Ds = Depth of a soft layer overlaying a stiff layer [Equation (19.3-4)",
       "parameters": {
         "a": {
-          "description": "Approximate lower bound natural frequency from Section 26.11.2",
-          "unit": "Hz",
-          "source": "ASCE7-22-26.3-T77"
+          "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
+          "source": "ASCE7-22-28.3.7-T22"
         },
         "Ds": {
-          "description": "Total depth of stratum in Equation (19.3-4)",
-          "unit": "ft",
-          "source": "ASCE7-22-11.3-T29"
+          "description": "Depth of a soft layer overlaying a stiff layer [Equation (19.3-4)]",
+          "source": "ASCE7-22-19.1.3-T7"
         }
       }
     },
@@ -1037,7 +1044,12 @@
     "description": "",
     "data": {
       "expression": "Kxx , Krr = Rotational foundation stiffness [Equations (19.3-9)",
-      "parameters": {}
+      "parameters": {
+        "Krr": {
+          "description": "Rotational foundation stiffness in Equations (19.3-9) and (19.3-19), ft-lb/degree (N-m/rad)",
+          "source": "ASCE7-22-11.3-T61"
+        }
+      }
     },
     "cross_references": [],
     "metadata": {
@@ -1061,7 +1073,12 @@
     "description": "",
     "data": {
       "expression": "Kxx , Krr = Rotational foundation stiffness [Equations (19.3-9) and (19.3-19)",
-      "parameters": {}
+      "parameters": {
+        "Krr": {
+          "description": "Rotational foundation stiffness in Equations (19.3-9) and (19.3-19), ft-lb/degree (N-m/rad)",
+          "source": "ASCE7-22-11.3-T61"
+        }
+      }
     },
     "cross_references": [],
     "metadata": {
@@ -1085,7 +1102,12 @@
     "description": "",
     "data": {
       "expression": "Ky , Kr = Translational foundational stiffness [Equations (19.3-8)",
-      "parameters": {}
+      "parameters": {
+        "Kr": {
+          "description": "Translational foundational stiffness in Equations (19.3-8) and (19.3-18), lb/in. (N/m)",
+          "source": "ASCE7-22-11.3-T62"
+        }
+      }
     },
     "cross_references": [],
     "metadata": {
@@ -1109,7 +1131,12 @@
     "description": "",
     "data": {
       "expression": "Ky , Kr = Translational foundational stiffness [Equations (19.3-8) and (19.3-18)",
-      "parameters": {}
+      "parameters": {
+        "Kr": {
+          "description": "Translational foundational stiffness in Equations (19.3-8) and (19.3-18), lb/in. (N/m)",
+          "source": "ASCE7-22-11.3-T62"
+        }
+      }
     },
     "cross_references": [],
     "metadata": {
@@ -1134,6 +1161,10 @@
     "data": {
       "expression": "RRS bsa = Site-speci fi c response spectral modi fi cation factor for base-slab averaging [Equation (19.4-1)",
       "parameters": {
+        "factor": {
+          "description": "1.8 -0.01 B , B < 100 ft ( B < 30.5 m), or 0.8, B \u2265 100 ft ( B \u2265 30.5 m);",
+          "source": "ASCE7-22-28.3.7-T54"
+        },
         "c": {
           "description": "Distance from the neutral axis of a fl exural member to the fi ber of maximum compressive strain, in. (mm)",
           "source": "ASCE7-22-11.3-T25"
@@ -1163,6 +1194,14 @@
     "data": {
       "expression": "RRSe = Site-speci fi c response spectral modi fi cation factor for foundation embedment [Equation (19.4-5)",
       "parameters": {
+        "RRSe": {
+          "description": "Site-speci fi c response spectral modi fi cation factor for foundation embedment [Equation (19.4-5)]",
+          "source": "ASCE7-22-19.1.3-T17"
+        },
+        "factor": {
+          "description": "1.8 -0.01 B , B < 100 ft ( B < 30.5 m), or 0.8, B \u2265 100 ft ( B \u2265 30.5 m);",
+          "source": "ASCE7-22-28.3.7-T54"
+        },
         "c": {
           "description": "Distance from the neutral axis of a fl exural member to the fi ber of maximum compressive strain, in. (mm)",
           "source": "ASCE7-22-11.3-T25"
@@ -1193,8 +1232,8 @@
       "expression": "~ Sa = Response spectral acceleration including the effects of SSI [Equations (19.2-5)",
       "parameters": {
         "Sa": {
-          "description": "5% damped design spectral response acceleration parameter at any period as de fi ned in Section 11.4.5",
-          "source": "ASCE7-22-11.3-T90"
+          "description": "Design spectral response acceleration parameter de fi ned in Section 11.4.5.1 and determined for the period T de fi ned in Section 12.8.2;",
+          "source": "ASCE7-22-12.8.1.1-T2"
         }
       }
     },
@@ -1222,8 +1261,8 @@
       "expression": "~ Sa = Response spectral acceleration including the effects of SSI [Equations (19.2-5) through (19.2-8)",
       "parameters": {
         "Sa": {
-          "description": "5% damped design spectral response acceleration parameter at any period as de fi ned in Section 11.4.5",
-          "source": "ASCE7-22-11.3-T90"
+          "description": "Design spectral response acceleration parameter de fi ned in Section 11.4.5.1 and determined for the period T de fi ned in Section 12.8.2;",
+          "source": "ASCE7-22-12.8.1.1-T2"
         }
       }
     },
@@ -1250,17 +1289,22 @@
     "data": {
       "expression": "the base of the structure \u0394V= C \u2212 C s W \u00af \u22640.3 V (19.2-2)",
       "parameters": {
-        "s": {
-          "description": "Ultimate tensile strength of the bolt, stud, or insert leg wires, psi (MPa). For ASTM A307 bolts or ASTM A108 studs, it is permitted to be assumed to be 60,000 psi (415 MPa)",
-          "source": "ASCE7-22-11.3-P2"
-        },
         "W": {
           "description": "Effective seismic weight of the building as de fi ned in Section 12.7.2. For calculation of seismicisolated building period, W is the total effective seismic weight of the building, in kip (kN), as de fi ned in Sections 19.2 and 19.3",
           "source": "ASCE7-22-11.3-T130"
         },
+        "s": {
+          "description": "Vertical dimension of the solid freestanding wall or solid sign from Figure 29.3-1",
+          "unit": "ft",
+          "source": "ASCE7-22-26.3-T92"
+        },
         "V": {
           "description": "Basic wind speed obtained from Figures 26.5-1A through 26.5-1D, mi/h (m/s); the basic wind speed corresponds to a 3 s gust speed at 33 ft (10 m) above the ground in Exposure Category C",
-          "source": "ASCE7-22-26.3-T95"
+          "source": "ASCE7-22-26.3-T94"
+        },
+        "\u0394": {
+          "description": "Design story drift as determined in Section 12.8.6 \u0394",
+          "source": "ASCE7-22-11.3-T144"
         }
       }
     },
@@ -2289,8 +2333,12 @@
       "expression": "\u00f0 ~ T \u2215 T \u00de eff = Effective period lengthening that depends on expected ductility demand, \u03bc [Equation (19.3-2)",
       "parameters": {
         "T": {
-          "description": "Fundamental period as determined in Chapter 19",
-          "source": "ASCE7-22-11.3-T105"
+          "description": "Cumulative effect of self-straining forces and effects arising from contraction or expansion resulting from environmental or operational temperature changes, shrinkage, moisture changes, creep in component materials, movement caused by differential settlement, or combinations thereof",
+          "source": "ASCE7-22-2.2-T13"
+        },
+        "\u03bc": {
+          "description": "Structure ductility reduction factor as determined in Section 13.3.1.2",
+          "source": "ASCE7-22-11.3-T85"
         }
       }
     },
@@ -2415,7 +2463,7 @@
       "parameters": {
         "V": {
           "description": "Basic wind speed obtained from Figures 26.5-1A through 26.5-1D, mi/h (m/s); the basic wind speed corresponds to a 3 s gust speed at 33 ft (10 m) above the ground in Exposure Category C",
-          "source": "ASCE7-22-26.3-T95"
+          "source": "ASCE7-22-26.3-T94"
         }
       }
     },
@@ -2443,9 +2491,16 @@
       "expression": "\u03b1 xx , \u03b1 rr = Dimensionless factor, function of dimensionless frequency, a 0 [Equations (19.3-14)",
       "parameters": {
         "a": {
-          "description": "Approximate lower bound natural frequency from Section 26.11.2",
-          "unit": "Hz",
-          "source": "ASCE7-22-26.3-T77"
+          "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
+          "source": "ASCE7-22-28.3.7-T22"
+        },
+        "factor": {
+          "description": "1.8 -0.01 B , B < 100 ft ( B < 30.5 m), or 0.8, B \u2265 100 ft ( B \u2265 30.5 m);",
+          "source": "ASCE7-22-28.3.7-T54"
+        },
+        "\u03b1": {
+          "description": "Mean hourly wind-speed power law exponent in Equation (26.11-16) from Table 26.11-1",
+          "source": "ASCE7-22-26.3-T108"
         }
       }
     },
@@ -2473,9 +2528,16 @@
       "expression": "\u03b1 xx , \u03b1 rr = Dimensionless factor, function of dimensionless frequency, a 0 [Equations (19.3-14) and (19.3-24)",
       "parameters": {
         "a": {
-          "description": "Approximate lower bound natural frequency from Section 26.11.2",
-          "unit": "Hz",
-          "source": "ASCE7-22-26.3-T77"
+          "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
+          "source": "ASCE7-22-28.3.7-T22"
+        },
+        "factor": {
+          "description": "1.8 -0.01 B , B < 100 ft ( B < 30.5 m), or 0.8, B \u2265 100 ft ( B \u2265 30.5 m);",
+          "source": "ASCE7-22-28.3.7-T54"
+        },
+        "\u03b1": {
+          "description": "Mean hourly wind-speed power law exponent in Equation (26.11-16) from Table 26.11-1",
+          "source": "ASCE7-22-26.3-T108"
         }
       }
     },
@@ -2501,7 +2563,16 @@
     "description": "",
     "data": {
       "expression": "\u03b2 0 = Effective viscous damping ratio of the soil -structure system, based on Section 19.3.2 [Equation (19.3-1)",
-      "parameters": {}
+      "parameters": {
+        "\u03b2": {
+          "description": "Fraction of critical damping for the coupled structure -foundation system, determined in Section 19.2.1",
+          "source": "ASCE7-22-11.3-T140"
+        },
+        "ratio": {
+          "description": "'rise'/L",
+          "source": "ASCE7-22-30.4.2.1-T6"
+        }
+      }
     },
     "cross_references": [],
     "metadata": {
@@ -2525,31 +2596,16 @@
     "description": "",
     "data": {
       "expression": "\u03b2 rd = Radiation damping ratio determined in accordance with Section 19.3.3 or 19.3.4 [Equations (19.3-5)",
-      "parameters": {}
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "from_text"
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-19.3-E19-3-151",
-    "type": "formula",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 19,
-      "section": "19.3",
-      "citation": "Eq. (19.3-15)",
-      "page": 2
-    },
-    "title": "Equation (19.3-15)",
-    "description": "",
-    "data": {
-      "expression": "\u03b2 rd = Radiation damping ratio determined in accordance with Section 19.3.3 or 19.3.4 [Equations (19.3-5) and (19.3-15)",
-      "parameters": {}
+      "parameters": {
+        "ratio": {
+          "description": "'rise'/L",
+          "source": "ASCE7-22-30.4.2.1-T6"
+        },
+        "\u03b2": {
+          "description": "Fraction of critical damping for the coupled structure -foundation system, determined in Section 19.2.1",
+          "source": "ASCE7-22-11.3-T140"
+        }
+      }
     },
     "cross_references": [],
     "metadata": {
@@ -2574,9 +2630,13 @@
     "data": {
       "expression": "\u03b2 f = Effective viscous damping ratio relating to foundation -soil interaction [Equation (19.3-3)",
       "parameters": {
-        "f": {
-          "description": "Radius of the circular foundation;",
-          "source": "ASCE7-22-19.3.4-T1"
+        "\u03b2": {
+          "description": "Fraction of critical damping for the coupled structure -foundation system, determined in Section 19.2.1",
+          "source": "ASCE7-22-11.3-T140"
+        },
+        "ratio": {
+          "description": "'rise'/L",
+          "source": "ASCE7-22-30.4.2.1-T6"
         }
       }
     },
@@ -2603,13 +2663,17 @@
     "data": {
       "expression": "\u03b2 y , \u03b2 r = Translational foundation damping coef fi cient [Equations (19.3-10)",
       "parameters": {
-        "y": {
-          "description": "Force scale factor in the Y direction (Section 12.9.2.5)",
-          "source": "ASCE7-22-11.3-T163"
-        },
         "r": {
           "description": "Lateral slenderness ratio of a compression member measured in terms of its effective length, KL , and the least radius of gyration of the member cross section, r",
           "source": "ASCE7-22-11.3-T63"
+        },
+        "y": {
+          "description": "Distance [in. (mm)] between the centers of rigidity of the isolation system and the element of interest measured perpendicular to the direction of seismic loading under consideration;",
+          "source": "ASCE7-22-17.5.3.3-T3"
+        },
+        "\u03b2": {
+          "description": "Fraction of critical damping for the coupled structure -foundation system, determined in Section 19.2.1",
+          "source": "ASCE7-22-11.3-T140"
         }
       }
     },
@@ -2636,13 +2700,17 @@
     "data": {
       "expression": "\u03b2 y , \u03b2 r = Translational foundation damping coef fi cient [Equations (19.3-10) and (19.3-20)",
       "parameters": {
-        "y": {
-          "description": "Force scale factor in the Y direction (Section 12.9.2.5)",
-          "source": "ASCE7-22-11.3-T163"
-        },
         "r": {
           "description": "Lateral slenderness ratio of a compression member measured in terms of its effective length, KL , and the least radius of gyration of the member cross section, r",
           "source": "ASCE7-22-11.3-T63"
+        },
+        "y": {
+          "description": "Distance [in. (mm)] between the centers of rigidity of the isolation system and the element of interest measured perpendicular to the direction of seismic loading under consideration;",
+          "source": "ASCE7-22-17.5.3.3-T3"
+        },
+        "\u03b2": {
+          "description": "Fraction of critical damping for the coupled structure -foundation system, determined in Section 19.2.1",
+          "source": "ASCE7-22-11.3-T140"
         }
       }
     },
@@ -2668,7 +2736,12 @@
     "description": "",
     "data": {
       "expression": "\u03b2 xx , \u03b2 rr = Rotational foundation damping coef fi cient [Equations (19.3-12)",
-      "parameters": {}
+      "parameters": {
+        "\u03b2": {
+          "description": "Fraction of critical damping for the coupled structure -foundation system, determined in Section 19.2.1",
+          "source": "ASCE7-22-11.3-T140"
+        }
+      }
     },
     "cross_references": [],
     "metadata": {
@@ -2692,7 +2765,12 @@
     "description": "",
     "data": {
       "expression": "\u03b2 xx , \u03b2 rr = Rotational foundation damping coef fi cient [Equations (19.3-12) and (19.3-22)",
-      "parameters": {}
+      "parameters": {
+        "\u03b2": {
+          "description": "Fraction of critical damping for the coupled structure -foundation system, determined in Section 19.2.1",
+          "source": "ASCE7-22-11.3-T140"
+        }
+      }
     },
     "cross_references": [],
     "metadata": {
@@ -2717,9 +2795,18 @@
     "data": {
       "expression": "\u03a8 = Dimensionless factor, function of Poisson ' s ratio [Equations (19.3-13)",
       "parameters": {
+        "ratio": {
+          "description": "'rise'/L",
+          "source": "ASCE7-22-30.4.2.1-T6"
+        },
         "s": {
-          "description": "Ultimate tensile strength of the bolt, stud, or insert leg wires, psi (MPa). For ASTM A307 bolts or ASTM A108 studs, it is permitted to be assumed to be 60,000 psi (415 MPa)",
-          "source": "ASCE7-22-11.3-P2"
+          "description": "Vertical dimension of the solid freestanding wall or solid sign from Figure 29.3-1",
+          "unit": "ft",
+          "source": "ASCE7-22-26.3-T92"
+        },
+        "factor": {
+          "description": "1.8 -0.01 B , B < 100 ft ( B < 30.5 m), or 0.8, B \u2265 100 ft ( B \u2265 30.5 m);",
+          "source": "ASCE7-22-28.3.7-T54"
         }
       }
     },
@@ -2746,9 +2833,18 @@
     "data": {
       "expression": "\u03a8 = Dimensionless factor, function of Poisson ' s ratio [Equations (19.3-13) and (19.3-23)",
       "parameters": {
+        "ratio": {
+          "description": "'rise'/L",
+          "source": "ASCE7-22-30.4.2.1-T6"
+        },
         "s": {
-          "description": "Ultimate tensile strength of the bolt, stud, or insert leg wires, psi (MPa). For ASTM A307 bolts or ASTM A108 studs, it is permitted to be assumed to be 60,000 psi (415 MPa)",
-          "source": "ASCE7-22-11.3-P2"
+          "description": "Vertical dimension of the solid freestanding wall or solid sign from Figure 29.3-1",
+          "unit": "ft",
+          "source": "ASCE7-22-26.3-T92"
+        },
+        "factor": {
+          "description": "1.8 -0.01 B , B < 100 ft ( B < 30.5 m), or 0.8, B \u2265 100 ft ( B \u2265 30.5 m);",
+          "source": "ASCE7-22-28.3.7-T54"
         }
       }
     },
@@ -3183,40 +3279,6 @@
           "parameter": "",
           "operator": "<",
           "value": 80.0,
-          "unit": null
-        }
-      ],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-19.2.3-P5",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 19,
-      "section": "19.2.3",
-      "citation": "Section 19.2.3",
-      "page": 3
-    },
-    "title": "The site-speci fi c response spectrum modi fi ed for kinematic interaction shall not be taken as less than 70% of Sa , as determined from the design response spectrum and MCER response spectrum in acc",
-    "description": "",
-    "data": {
-      "rule": "The site-speci fi c response spectrum modi fi ed for kinematic interaction shall not be taken as less than 70% of Sa , as determined from the design response spectrum and MCER response spectrum in accordance with Sections 11.4.6 and 11.4.7.",
-      "conditions": [
-        {
-          "parameter": "",
-          "operator": "<",
-          "value": 70.0,
           "unit": null
         }
       ],
@@ -4389,122 +4451,6 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-19.3-T19-3-21",
-    "type": "table",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 19,
-      "section": "19.3",
-      "citation": "Table 19.3-2",
-      "page": 5
-    },
-    "title": "Table 19.3-2. Effective Shear Modulus Ratio ( Grd \u2215 G 0 , rd ).",
-    "description": "",
-    "data": {
-      "columns": [
-        {
-          "name": "col_0",
-          "unit": null
-        },
-        {
-          "name": "Effective Peak Acceleration, S DS \u2215 2.5 a , c",
-          "unit": null
-        },
-        {
-          "name": "col_2",
-          "unit": null
-        },
-        {
-          "name": "col_3",
-          "unit": null
-        },
-        {
-          "name": "col_4",
-          "unit": null
-        }
-      ],
-      "rows": [
-        {
-          "col_0": "Site Class",
-          "Effective Peak Acceleration, S DS \u2215 2.5 a , c": "S DS \u2215 2.5 = 0",
-          "col_2": "S DS \u2215 2.5 = 0.1",
-          "col_3": "S DS \u2215 2.5 = 0.4",
-          "col_4": "S DS \u2215 2.5 \u2265 0.8"
-        },
-        {
-          "col_0": "A",
-          "Effective Peak Acceleration, S DS \u2215 2.5 a , c": 1.0,
-          "col_2": 1.0,
-          "col_3": 1.0,
-          "col_4": 1.0
-        },
-        {
-          "col_0": "B",
-          "Effective Peak Acceleration, S DS \u2215 2.5 a , c": 1.0,
-          "col_2": 1.0,
-          "col_3": 0.95,
-          "col_4": 0.9
-        },
-        {
-          "col_0": "BC",
-          "Effective Peak Acceleration, S DS \u2215 2.5 a , c": 1.0,
-          "col_2": 0.97,
-          "col_3": 0.84,
-          "col_4": 0.73
-        },
-        {
-          "col_0": "C",
-          "Effective Peak Acceleration, S DS \u2215 2.5 a , c": 1.0,
-          "col_2": 0.95,
-          "col_3": 0.75,
-          "col_4": 0.6
-        },
-        {
-          "col_0": "CD",
-          "Effective Peak Acceleration, S DS \u2215 2.5 a , c": 1.0,
-          "col_2": 0.92,
-          "col_3": 0.62,
-          "col_4": 0.25
-        },
-        {
-          "col_0": "D",
-          "Effective Peak Acceleration, S DS \u2215 2.5 a , c": 1.0,
-          "col_2": 0.9,
-          "col_3": 0.5,
-          "col_4": 0.1
-        },
-        {
-          "col_0": "DE",
-          "Effective Peak Acceleration, S DS \u2215 2.5 a , c": 1.0,
-          "col_2": 0.73,
-          "col_3": 0.16,
-          "col_4": 0.03
-        },
-        {
-          "col_0": "E",
-          "Effective Peak Acceleration, S DS \u2215 2.5 a , c": 1.0,
-          "col_2": 0.6,
-          "col_3": 0.05,
-          "col_4": "b"
-        },
-        {
-          "col_0": "F",
-          "Effective Peak Acceleration, S DS \u2215 2.5 a , c": "b",
-          "col_2": "b",
-          "col_3": "b",
-          "col_4": "b"
-        }
-      ]
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "docling"
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-19.3-E19-3-251",
     "type": "formula",
     "source": {
@@ -4520,9 +4466,16 @@
       "expression": "ircular Foundations The effects of radiation damping for structures with a circular foundation plan shall be represented by the effective damping ratio of the soil -structure system, \u03b2 rd , [Equation (19.3-25)",
       "parameters": {
         "a": {
-          "description": "Approximate lower bound natural frequency from Section 26.11.2",
-          "unit": "Hz",
-          "source": "ASCE7-22-26.3-T77"
+          "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
+          "source": "ASCE7-22-28.3.7-T22"
+        },
+        "\u03b2": {
+          "description": "Fraction of critical damping for the coupled structure -foundation system, determined in Section 19.2.1",
+          "source": "ASCE7-22-11.3-T140"
+        },
+        "ratio": {
+          "description": "'rise'/L",
+          "source": "ASCE7-22-30.4.2.1-T6"
         }
       }
     },
@@ -4549,22 +4502,22 @@
     "data": {
       "expression": "1\u00feb2\u00feb4\u00feb6 0\u00feb8 0\u00feb1 0 0 b \u22641 site-specific study and shall not be taken as less than B = 0 0h 2 (cid:9) 4 1(cid:10)2i 0 (19.4-2)",
       "parameters": {
-        "b": {
-          "description": "Mean hourly wind speed factor in Equation (26.1116), from Table 26.11-1",
-          "source": "ASCE7-22-26.3-T15"
-        },
-        "h": {
-          "description": "Height of a shear wall measured as the maximum clear height from top of foundation to bottom of diaphragm framing above, or the maximum clear height from top of diaphragm to bottom of diaphragm framing above",
-          "source": "ASCE7-22-11.3-T49"
+        "B": {
+          "description": "Horizontal dimension of a building measured normal to wind direction",
+          "unit": "ft",
+          "source": "ASCE7-22-26.3-T14"
         },
         "i": {
           "description": "Building level referred to by a subscript i ;",
           "source": "ASCE7-22-11.3-T59"
         },
-        "B": {
-          "description": "Horizontal dimension of a building measured normal to wind direction",
-          "unit": "ft",
-          "source": "ASCE7-22-26.3-T14"
+        "b": {
+          "description": "Shortest plan dimension of the structure [ft (mm)] measured perpendicular to d ;",
+          "source": "ASCE7-22-17.5.3.3-T5"
+        },
+        "h": {
+          "description": "Height of a shear wall measured as the maximum clear height from top of foundation to bottom of diaphragm framing above, or the maximum clear height from top of diaphragm to bottom of diaphragm framing above",
+          "source": "ASCE7-22-11.3-T49"
         }
       }
     },
@@ -5183,101 +5136,6 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-19.3-T19-3-31",
-    "type": "table",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 19,
-      "section": "19.3",
-      "citation": "Table 19.3-3",
-      "page": 6
-    },
-    "title": "Table 19.3-3. Soil Hysteretic Damping Ratio, \u03b2 s .",
-    "description": "",
-    "data": {
-      "columns": [
-        {
-          "name": "col_0",
-          "unit": null
-        },
-        {
-          "name": "Effective Peak Acceleration, S DS \u2215 2.5 a",
-          "unit": null
-        },
-        {
-          "name": "col_2",
-          "unit": null
-        },
-        {
-          "name": "col_3",
-          "unit": null
-        },
-        {
-          "name": "col_4",
-          "unit": null
-        }
-      ],
-      "rows": [
-        {
-          "col_0": "Site Class",
-          "Effective Peak Acceleration, S DS \u2215 2.5 a": "S DS \u2215 2.5 = 0",
-          "col_2": "S DS \u2215 2.5 = 0.1",
-          "col_3": "S DS \u2215 2.5 = 0.4",
-          "col_4": "S DS \u2215 2.5 \u2265 0.8"
-        },
-        {
-          "col_0": "C",
-          "Effective Peak Acceleration, S DS \u2215 2.5 a": 0.01,
-          "col_2": 0.01,
-          "col_3": 0.03,
-          "col_4": 0.05
-        },
-        {
-          "col_0": "CD",
-          "Effective Peak Acceleration, S DS \u2215 2.5 a": 0.01,
-          "col_2": 0.01,
-          "col_3": 0.05,
-          "col_4": 0.09
-        },
-        {
-          "col_0": "D",
-          "Effective Peak Acceleration, S DS \u2215 2.5 a": 0.01,
-          "col_2": 0.02,
-          "col_3": 0.07,
-          "col_4": 0.15
-        },
-        {
-          "col_0": "DE",
-          "Effective Peak Acceleration, S DS \u2215 2.5 a": 0.01,
-          "col_2": 0.03,
-          "col_3": 0.12,
-          "col_4": 0.2
-        },
-        {
-          "col_0": "E",
-          "Effective Peak Acceleration, S DS \u2215 2.5 a": 0.01,
-          "col_2": 0.05,
-          "col_3": 0.2,
-          "col_4": "b"
-        },
-        {
-          "col_0": "F",
-          "Effective Peak Acceleration, S DS \u2215 2.5 a": "b",
-          "col_2": "b",
-          "col_3": "b",
-          "col_4": "b"
-        }
-      ]
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "docling"
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-19.4-E19-4-31",
     "type": "formula",
     "source": {
@@ -5292,46 +5150,14 @@
     "data": {
       "expression": "T is the response spectra ordinate period, which shall not be taken as less than 0.20 s when used in Equations (19.4-3)",
       "parameters": {
-        "T": {
-          "description": "Fundamental period as determined in Chapter 19",
-          "source": "ASCE7-22-11.3-T105"
-        },
         "s": {
-          "description": "Ultimate tensile strength of the bolt, stud, or insert leg wires, psi (MPa). For ASTM A307 bolts or ASTM A108 studs, it is permitted to be assumed to be 60,000 psi (415 MPa)",
-          "source": "ASCE7-22-11.3-P2"
-        }
-      }
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "from_text"
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-19.4-E19-4-3-SI1",
-    "type": "formula",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 19,
-      "section": "19.4",
-      "citation": "Eq. (19.4-3.SI)",
-      "page": 6
-    },
-    "title": "Equation (19.4-3.SI)",
-    "description": "",
-    "data": {
-      "expression": "T is the response spectra ordinate period, which shall not be taken as less than 0.20 s when used in Equations (19.4-3) or (19.4-3.SI)",
-      "parameters": {
-        "T": {
-          "description": "Fundamental period as determined in Chapter 19",
-          "source": "ASCE7-22-11.3-T105"
+          "description": "Vertical dimension of the solid freestanding wall or solid sign from Figure 29.3-1",
+          "unit": "ft",
+          "source": "ASCE7-22-26.3-T92"
         },
-        "s": {
-          "description": "Ultimate tensile strength of the bolt, stud, or insert leg wires, psi (MPa). For ASTM A307 bolts or ASTM A108 studs, it is permitted to be assumed to be 60,000 psi (415 MPa)",
-          "source": "ASCE7-22-11.3-P2"
+        "T": {
+          "description": "Cumulative effect of self-straining forces and effects arising from contraction or expansion resulting from environmental or operational temperature changes, shrinkage, moisture changes, creep in component materials, movement caused by differential settlement, or combinations thereof",
+          "source": "ASCE7-22-2.2-T13"
         }
       }
     },

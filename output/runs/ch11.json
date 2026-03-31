@@ -3470,30 +3470,6 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-11.2-D62",
-    "type": "definition",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 11,
-      "section": "11.2",
-      "citation": "Section 11.2",
-      "page": 5
-    },
-    "title": "STORY DRIFT: See DISPLACEMENT AND DRIFT",
-    "description": "",
-    "data": {
-      "term": "STORY DRIFT",
-      "definition": "See DISPLACEMENT AND DRIFT"
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-11.2-D63",
     "type": "definition",
     "source": {
@@ -9067,12 +9043,13 @@
       "expression": "11.4.4 Design Spectral Acceleration Parameters Design earthquake spectral response acceleration parameters at short periods, SDS , and at 1-s periods, SD 1 , shall be determined from Equations (11.4-1)",
       "parameters": {
         "SDS": {
-          "description": "2 3 FaSs , where Fa is permitted to be taken as 1.0 for rock sites, 1.4 for soil sites, or determined in accordance with Section 11.4.4. For the purpose of this section, sites are permitted to be considered to be rock if there is no more than 10 ft (3 m) of soil between the rock surface and the bottom of spread footing or mat foundation. In calculating SDS , Ss shall be in accordance with Section 11.4.4 but need not be taken as larger than 1.5;",
-          "source": "ASCE7-22-12.14.8.1-P1"
+          "description": "Design spectral response acceleration parameter in the short period range as determined from Section 11.4.5 or 11.4.8;",
+          "source": "ASCE7-22-12.8.1.1-T6"
         },
         "s": {
-          "description": "Ultimate tensile strength of the bolt, stud, or insert leg wires, psi (MPa). For ASTM A307 bolts or ASTM A108 studs, it is permitted to be assumed to be 60,000 psi (415 MPa)",
-          "source": "ASCE7-22-11.3-P2"
+          "description": "Vertical dimension of the solid freestanding wall or solid sign from Figure 29.3-1",
+          "unit": "ft",
+          "source": "ASCE7-22-26.3-T92"
         }
       }
     },
@@ -9100,12 +9077,13 @@
       "expression": "Design Spectral Acceleration Parameters Design earthquake spectral response acceleration parameters at short periods, SDS , and at 1-s periods, SD 1 , shall be determined from Equations (11.4-1) and (11.4-2)",
       "parameters": {
         "SDS": {
-          "description": "2 3 FaSs , where Fa is permitted to be taken as 1.0 for rock sites, 1.4 for soil sites, or determined in accordance with Section 11.4.4. For the purpose of this section, sites are permitted to be considered to be rock if there is no more than 10 ft (3 m) of soil between the rock surface and the bottom of spread footing or mat foundation. In calculating SDS , Ss shall be in accordance with Section 11.4.4 but need not be taken as larger than 1.5;",
-          "source": "ASCE7-22-12.14.8.1-P1"
+          "description": "Design spectral response acceleration parameter in the short period range as determined from Section 11.4.5 or 11.4.8;",
+          "source": "ASCE7-22-12.8.1.1-T6"
         },
         "s": {
-          "description": "Ultimate tensile strength of the bolt, stud, or insert leg wires, psi (MPa). For ASTM A307 bolts or ASTM A108 studs, it is permitted to be assumed to be 60,000 psi (415 MPa)",
-          "source": "ASCE7-22-11.3-P2"
+          "description": "Vertical dimension of the solid freestanding wall or solid sign from Figure 29.3-1",
+          "unit": "ft",
+          "source": "ASCE7-22-26.3-T92"
         }
       }
     },
@@ -9861,12 +9839,12 @@
       "expression": "For periods less than T 0 , the design spectral response acceleration parameter, Sa , shall be taken as given in Equation (11.4-3)",
       "parameters": {
         "Sa": {
-          "description": "5% damped design spectral response acceleration parameter at any period as de fi ned in Section 11.4.5",
-          "source": "ASCE7-22-11.3-T90"
+          "description": "Design spectral response acceleration parameter de fi ned in Section 11.4.5.1 and determined for the period T de fi ned in Section 12.8.2;",
+          "source": "ASCE7-22-12.8.1.1-T2"
         },
         "T": {
-          "description": "Fundamental period as determined in Chapter 19",
-          "source": "ASCE7-22-11.3-T105"
+          "description": "Cumulative effect of self-straining forces and effects arising from contraction or expansion resulting from environmental or operational temperature changes, shrinkage, moisture changes, creep in component materials, movement caused by differential settlement, or combinations thereof",
+          "source": "ASCE7-22-2.2-T13"
         }
       }
     },
@@ -9898,8 +9876,8 @@
           "source": "ASCE7-22-11.3-T109"
         },
         "Sa": {
-          "description": "5% damped design spectral response acceleration parameter at any period as de fi ned in Section 11.4.5",
-          "source": "ASCE7-22-11.3-T90"
+          "description": "Design spectral response acceleration parameter de fi ned in Section 11.4.5.1 and determined for the period T de fi ned in Section 12.8.2;",
+          "source": "ASCE7-22-12.8.1.1-T2"
         },
         "TL": {
           "description": "Long-period transition period(s) shown in Figures 22-14 through 22-17",
@@ -9931,8 +9909,8 @@
       "expression": "For periods greater than TL , Sa shall be taken as given in Equation (11.4-5)",
       "parameters": {
         "Sa": {
-          "description": "5% damped design spectral response acceleration parameter at any period as de fi ned in Section 11.4.5",
-          "source": "ASCE7-22-11.3-T90"
+          "description": "Design spectral response acceleration parameter de fi ned in Section 11.4.5.1 and determined for the period T de fi ned in Section 12.8.2;",
+          "source": "ASCE7-22-12.8.1.1-T2"
         },
         "TL": {
           "description": "Long-period transition period(s) shown in Figures 22-14 through 22-17",
@@ -10706,69 +10684,6 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-1.5-T1-5-22",
-    "type": "table",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 11,
-      "section": "1.5",
-      "citation": "Table 1.5-2",
-      "page": 10
-    },
-    "title": "11.5.1 Importance Factor An Importance Factor, I e , shall be assigned to each structure in accordance with Table 1.5-2.",
-    "description": "",
-    "data": {
-      "columns": [
-        {
-          "name": "col_0",
-          "unit": null
-        },
-        {
-          "name": "Risk Category",
-          "unit": null
-        },
-        {
-          "name": "col_2",
-          "unit": null
-        }
-      ],
-      "rows": [
-        {
-          "col_0": "Value of S D 1",
-          "Risk Category": "I or II or III",
-          "col_2": "IV"
-        },
-        {
-          "col_0": "S D 1 < 0.067",
-          "Risk Category": "A",
-          "col_2": "A"
-        },
-        {
-          "col_0": "0.067 \u2264 S D 1 < 0.133",
-          "Risk Category": "B",
-          "col_2": "C"
-        },
-        {
-          "col_0": "0.133 \u2264 S D 1 < 0.20",
-          "Risk Category": "C",
-          "col_2": "D"
-        },
-        {
-          "col_0": "0.20 \u2264 S D 1 :",
-          "Risk Category": "D",
-          "col_2": ""
-        }
-      ]
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "docling"
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-11.9-E11-9-61",
     "type": "formula",
     "source": {
@@ -10783,17 +10698,18 @@
     "data": {
       "expression": "vertical seismic ground motions is exercised in lieu of the T \u22640.2s:F =1.2 (11.9-6)",
       "parameters": {
-        "T": {
-          "description": "Fundamental period as determined in Chapter 19",
-          "source": "ASCE7-22-11.3-T105"
-        },
         "s": {
-          "description": "Ultimate tensile strength of the bolt, stud, or insert leg wires, psi (MPa). For ASTM A307 bolts or ASTM A108 studs, it is permitted to be assumed to be 60,000 psi (415 MPa)",
-          "source": "ASCE7-22-11.3-P2"
+          "description": "Vertical dimension of the solid freestanding wall or solid sign from Figure 29.3-1",
+          "unit": "ft",
+          "source": "ASCE7-22-26.3-T92"
+        },
+        "T": {
+          "description": "Cumulative effect of self-straining forces and effects arising from contraction or expansion resulting from environmental or operational temperature changes, shrinkage, moisture changes, creep in component materials, movement caused by differential settlement, or combinations thereof",
+          "source": "ASCE7-22-2.2-T13"
         },
         "F": {
-          "description": "0.12 \u00d7 slope, with slope expressed in percentage points) and, for an arch or dome, F is the rise-to-span ratio multiplied by 32",
-          "source": "ASCE7-22-4.8.2-T4"
+          "description": "1.0 for buildings that are one story above grade plane, 1.1 for buildings that are two stories above grade plane, and 1.2 for buildings that are three stories above grade plane;",
+          "source": "ASCE7-22-12.14.8.1-T1"
         }
       }
     },
@@ -10820,17 +10736,18 @@
     "data": {
       "expression": "section are permitted to be used in the determination of the 0.2<T \u22641.0s\u2236F =1.2\u00fe0.0625\u00f0T \u22120.2\u00de (11.9-7)",
       "parameters": {
-        "T": {
-          "description": "Fundamental period as determined in Chapter 19",
-          "source": "ASCE7-22-11.3-T105"
-        },
         "s": {
-          "description": "Ultimate tensile strength of the bolt, stud, or insert leg wires, psi (MPa). For ASTM A307 bolts or ASTM A108 studs, it is permitted to be assumed to be 60,000 psi (415 MPa)",
-          "source": "ASCE7-22-11.3-P2"
+          "description": "Vertical dimension of the solid freestanding wall or solid sign from Figure 29.3-1",
+          "unit": "ft",
+          "source": "ASCE7-22-26.3-T92"
+        },
+        "T": {
+          "description": "Cumulative effect of self-straining forces and effects arising from contraction or expansion resulting from environmental or operational temperature changes, shrinkage, moisture changes, creep in component materials, movement caused by differential settlement, or combinations thereof",
+          "source": "ASCE7-22-2.2-T13"
         },
         "F": {
-          "description": "0.12 \u00d7 slope, with slope expressed in percentage points) and, for an arch or dome, F is the rise-to-span ratio multiplied by 32",
-          "source": "ASCE7-22-4.8.2-T4"
+          "description": "1.0 for buildings that are one story above grade plane, 1.1 for buildings that are two stories above grade plane, and 1.2 for buildings that are three stories above grade plane;",
+          "source": "ASCE7-22-12.14.8.1-T1"
         }
       }
     },
@@ -10857,17 +10774,18 @@
     "data": {
       "expression": "1<T \u22641.0s\u2236F =1.25\u00fe0.05\u00f0T \u22121.0\u00de\u22159 (11.9-8)",
       "parameters": {
-        "T": {
-          "description": "Fundamental period as determined in Chapter 19",
-          "source": "ASCE7-22-11.3-T105"
-        },
         "s": {
-          "description": "Ultimate tensile strength of the bolt, stud, or insert leg wires, psi (MPa). For ASTM A307 bolts or ASTM A108 studs, it is permitted to be assumed to be 60,000 psi (415 MPa)",
-          "source": "ASCE7-22-11.3-P2"
+          "description": "Vertical dimension of the solid freestanding wall or solid sign from Figure 29.3-1",
+          "unit": "ft",
+          "source": "ASCE7-22-26.3-T92"
+        },
+        "T": {
+          "description": "Cumulative effect of self-straining forces and effects arising from contraction or expansion resulting from environmental or operational temperature changes, shrinkage, moisture changes, creep in component materials, movement caused by differential settlement, or combinations thereof",
+          "source": "ASCE7-22-2.2-T13"
         },
         "F": {
-          "description": "0.12 \u00d7 slope, with slope expressed in percentage points) and, for an arch or dome, F is the rise-to-span ratio multiplied by 32",
-          "source": "ASCE7-22-4.8.2-T4"
+          "description": "1.0 for buildings that are one story above grade plane, 1.1 for buildings that are two stories above grade plane, and 1.2 for buildings that are three stories above grade plane;",
+          "source": "ASCE7-22-12.14.8.1-T1"
         }
       }
     },
@@ -11639,8 +11557,9 @@
           "source": "ASCE7-22-11.3-T93"
         },
         "s": {
-          "description": "Ultimate tensile strength of the bolt, stud, or insert leg wires, psi (MPa). For ASTM A307 bolts or ASTM A108 studs, it is permitted to be assumed to be 60,000 psi (415 MPa)",
-          "source": "ASCE7-22-11.3-P2"
+          "description": "Vertical dimension of the solid freestanding wall or solid sign from Figure 29.3-1",
+          "unit": "ft",
+          "source": "ASCE7-22-26.3-T92"
         },
         "Tv": {
           "description": "Vertical period of vibration",
@@ -11676,8 +11595,9 @@
           "source": "ASCE7-22-11.3-T93"
         },
         "s": {
-          "description": "Ultimate tensile strength of the bolt, stud, or insert leg wires, psi (MPa). For ASTM A307 bolts or ASTM A108 studs, it is permitted to be assumed to be 60,000 psi (415 MPa)",
-          "source": "ASCE7-22-11.3-P2"
+          "description": "Vertical dimension of the solid freestanding wall or solid sign from Figure 29.3-1",
+          "unit": "ft",
+          "source": "ASCE7-22-26.3-T92"
         }
       }
     },
@@ -11709,8 +11629,9 @@
           "source": "ASCE7-22-11.3-T93"
         },
         "s": {
-          "description": "Ultimate tensile strength of the bolt, stud, or insert leg wires, psi (MPa). For ASTM A307 bolts or ASTM A108 studs, it is permitted to be assumed to be 60,000 psi (415 MPa)",
-          "source": "ASCE7-22-11.3-P2"
+          "description": "Vertical dimension of the solid freestanding wall or solid sign from Figure 29.3-1",
+          "unit": "ft",
+          "source": "ASCE7-22-26.3-T92"
         }
       }
     },
@@ -11742,8 +11663,9 @@
           "source": "ASCE7-22-11.3-T93"
         },
         "s": {
-          "description": "Ultimate tensile strength of the bolt, stud, or insert leg wires, psi (MPa). For ASTM A307 bolts or ASTM A108 studs, it is permitted to be assumed to be 60,000 psi (415 MPa)",
-          "source": "ASCE7-22-11.3-P2"
+          "description": "Vertical dimension of the solid freestanding wall or solid sign from Figure 29.3-1",
+          "unit": "ft",
+          "source": "ASCE7-22-26.3-T92"
         }
       }
     },
@@ -11775,8 +11697,9 @@
           "source": "ASCE7-22-11.3-T93"
         },
         "s": {
-          "description": "Ultimate tensile strength of the bolt, stud, or insert leg wires, psi (MPa). For ASTM A307 bolts or ASTM A108 studs, it is permitted to be assumed to be 60,000 psi (415 MPa)",
-          "source": "ASCE7-22-11.3-P2"
+          "description": "Vertical dimension of the solid freestanding wall or solid sign from Figure 29.3-1",
+          "unit": "ft",
+          "source": "ASCE7-22-26.3-T92"
         }
       }
     },

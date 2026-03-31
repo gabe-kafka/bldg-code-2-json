@@ -1849,17 +1849,23 @@
     "data": {
       "expression": "Design and detailing C s =0.044S DS I e (15.4-1)",
       "parameters": {
-        "s": {
-          "description": "Ultimate tensile strength of the bolt, stud, or insert leg wires, psi (MPa). For ASTM A307 bolts or ASTM A108 studs, it is permitted to be assumed to be 60,000 psi (415 MPa)",
-          "source": "ASCE7-22-11.3-P2"
+        "e": {
+          "description": "Actual eccentricity measured in plan between the center of mass of the structure above the isolation interface and the center of rigidity of the isolation system, plus accidental eccentricity [ft (mm)], taken as 5% of the longest plan dimension of the structure perpendicular to the direction of force under consideration;",
+          "source": "ASCE7-22-17.5.3.3-T4"
         },
         "S": {
-          "description": "5 ft). For interior bays regardless of the orientation of the members, the minimum rise ( \u03b2 in inches) for a run of 1 ft to achieve no local minimum is",
-          "source": "ASCE7-22-0.2-T1310"
+          "description": "Center-to-center row spacing for ground-mounted solar panels in Figure 29.4-9",
+          "unit": "ft",
+          "source": "ASCE7-22-26.3-T90"
         },
-        "e": {
-          "description": "Elastic displacement computed under design earthquake forces (Section 12.8.6)",
-          "source": "ASCE7-22-11.3-T152"
+        "s": {
+          "description": "Vertical dimension of the solid freestanding wall or solid sign from Figure 29.3-1",
+          "unit": "ft",
+          "source": "ASCE7-22-26.3-T92"
+        },
+        "I": {
+          "description": "Radius of gyration of the isolation system [ft (mm)], which is equal to [ \u00f0 b 2 \u00fe d 2 \u00de \u2215 12 \u008a 1 \u2215 2 for isolation systems of rectangular plan dimension, b \u00d7 d ",
+          "source": "ASCE7-22-17.5.3.3-T8"
         }
       }
     },
@@ -2471,13 +2477,18 @@
     "data": {
       "expression": "C =0.8S \u2215\u00f0R\u2215I \u00de (15.4-2)",
       "parameters": {
+        "I": {
+          "description": "Radius of gyration of the isolation system [ft (mm)], which is equal to [ \u00f0 b 2 \u00fe d 2 \u00de \u2215 12 \u008a 1 \u2215 2 for isolation systems of rectangular plan dimension, b \u00d7 d ",
+          "source": "ASCE7-22-17.5.3.3-T8"
+        },
         "R": {
-          "description": "Response modi fi cation coef fi cient as given in Tables 12.2-1, 12.14-1, 15.4-1, and 15.4-2",
-          "source": "ASCE7-22-11.3-T82"
+          "description": "Response modi fi cation factor for the building or nonbuilding structure supporting the component, from Table 12.2-1, 15.4-1, or 15.4-2; and",
+          "source": "ASCE7-22-13.3.1.2-T3"
         },
         "S": {
-          "description": "5 ft). For interior bays regardless of the orientation of the members, the minimum rise ( \u03b2 in inches) for a run of 1 ft to achieve no local minimum is",
-          "source": "ASCE7-22-0.2-T1310"
+          "description": "Center-to-center row spacing for ground-mounted solar panels in Figure 29.4-9",
+          "unit": "ft",
+          "source": "ASCE7-22-26.3-T90"
         }
       }
     },
@@ -2504,9 +2515,14 @@
     "data": {
       "expression": "C =0.044S I (15.4-3)",
       "parameters": {
+        "I": {
+          "description": "Radius of gyration of the isolation system [ft (mm)], which is equal to [ \u00f0 b 2 \u00fe d 2 \u00de \u2215 12 \u008a 1 \u2215 2 for isolation systems of rectangular plan dimension, b \u00d7 d ",
+          "source": "ASCE7-22-17.5.3.3-T8"
+        },
         "S": {
-          "description": "5 ft). For interior bays regardless of the orientation of the members, the minimum rise ( \u03b2 in inches) for a run of 1 ft to achieve no local minimum is",
-          "source": "ASCE7-22-0.2-T1310"
+          "description": "Center-to-center row spacing for ground-mounted solar panels in Figure 29.4-9",
+          "unit": "ft",
+          "source": "ASCE7-22-26.3-T90"
         }
       }
     },
@@ -2533,21 +2549,27 @@
     "data": {
       "expression": "C s =0.5S 1 \u2215\u00f0R\u2215I e \u00de (15.4-4)",
       "parameters": {
-        "s": {
-          "description": "Ultimate tensile strength of the bolt, stud, or insert leg wires, psi (MPa). For ASTM A307 bolts or ASTM A108 studs, it is permitted to be assumed to be 60,000 psi (415 MPa)",
-          "source": "ASCE7-22-11.3-P2"
-        },
         "R": {
-          "description": "Response modi fi cation coef fi cient as given in Tables 12.2-1, 12.14-1, 15.4-1, and 15.4-2",
-          "source": "ASCE7-22-11.3-T82"
+          "description": "Response modi fi cation factor for the building or nonbuilding structure supporting the component, from Table 12.2-1, 15.4-1, or 15.4-2; and",
+          "source": "ASCE7-22-13.3.1.2-T3"
         },
         "e": {
-          "description": "Elastic displacement computed under design earthquake forces (Section 12.8.6)",
-          "source": "ASCE7-22-11.3-T152"
+          "description": "Actual eccentricity measured in plan between the center of mass of the structure above the isolation interface and the center of rigidity of the isolation system, plus accidental eccentricity [ft (mm)], taken as 5% of the longest plan dimension of the structure perpendicular to the direction of force under consideration;",
+          "source": "ASCE7-22-17.5.3.3-T4"
         },
         "S": {
-          "description": "5 ft). For interior bays regardless of the orientation of the members, the minimum rise ( \u03b2 in inches) for a run of 1 ft to achieve no local minimum is",
-          "source": "ASCE7-22-0.2-T1310"
+          "description": "Center-to-center row spacing for ground-mounted solar panels in Figure 29.4-9",
+          "unit": "ft",
+          "source": "ASCE7-22-26.3-T90"
+        },
+        "s": {
+          "description": "Vertical dimension of the solid freestanding wall or solid sign from Figure 29.3-1",
+          "unit": "ft",
+          "source": "ASCE7-22-26.3-T92"
+        },
+        "I": {
+          "description": "Radius of gyration of the isolation system [ft (mm)], which is equal to [ \u00f0 b 2 \u00fe d 2 \u00de \u2215 12 \u008a 1 \u2215 2 for isolation systems of rectangular plan dimension, b \u00d7 d ",
+          "source": "ASCE7-22-17.5.3.3-T8"
         }
       }
     },
@@ -2581,33 +2603,6 @@
     "cross_references": [
       "ASCE7-22-15.4-T15-4-22"
     ],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-15.4.1-H1"
-  },
-  {
-    "id": "ASCE7-22-15.4.1-T9",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 15,
-      "section": "15.4.1",
-      "citation": "Section 15.4.1",
-      "page": 5
-    },
-    "title": "a NL = no limit; NP = not permitted.",
-    "description": "",
-    "data": {
-      "rule": "a NL = no limit; NP = not permitted.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -3201,252 +3196,6 @@
     "parent_id": "ASCE7-22-15.4.1-H1"
   },
   {
-    "id": "ASCE7-22-15.4-T15-4-22",
-    "type": "table",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 15,
-      "section": "15.4",
-      "citation": "Table 15.4-2",
-      "page": 5
-    },
-    "title": "Table 15.4-2 (Continued) . Seismic Coefficients for Nonbuilding Structures Not Similar to Buildings.",
-    "description": "",
-    "data": {
-      "columns": [
-        {
-          "name": "col_0",
-          "unit": null
-        },
-        {
-          "name": "col_1",
-          "unit": null
-        },
-        {
-          "name": "col_2",
-          "unit": null
-        },
-        {
-          "name": "col_3",
-          "unit": null
-        },
-        {
-          "name": "col_4",
-          "unit": null
-        },
-        {
-          "name": "Structural System and Structural Height, h n , Limits (ft) a , b",
-          "unit": null
-        },
-        {
-          "name": "col_6",
-          "unit": null
-        },
-        {
-          "name": "col_7",
-          "unit": null
-        },
-        {
-          "name": "col_8",
-          "unit": null
-        },
-        {
-          "name": "col_9",
-          "unit": null
-        }
-      ],
-      "rows": [
-        {
-          "col_0": "Nonbuilding Structure Type",
-          "col_1": "Detailing Requirements c",
-          "col_2": "R",
-          "col_3": "\u03a9 0",
-          "col_4": "C d",
-          "Structural System and Structural Height, h n , Limits (ft) a , b": "B",
-          "col_6": "C",
-          "col_7": "D",
-          "col_8": "E",
-          "col_9": "F"
-        },
-        {
-          "col_0": "Telecommunication towers:",
-          "col_1": "15.6.6",
-          "col_2": "",
-          "col_3": "",
-          "col_4": "",
-          "Structural System and Structural Height, h n , Limits (ft) a , b": "",
-          "col_6": "",
-          "col_7": "",
-          "col_8": "",
-          "col_9": ""
-        },
-        {
-          "col_0": "Truss: Steel",
-          "col_1": "",
-          "col_2": 3,
-          "col_3": 1.5,
-          "col_4": 3,
-          "Structural System and Structural Height, h n , Limits (ft) a , b": "NL",
-          "col_6": "NL",
-          "col_7": "NL",
-          "col_8": "NL",
-          "col_9": "NL"
-        },
-        {
-          "col_0": "Pole: Steel",
-          "col_1": "",
-          "col_2": 1.5,
-          "col_3": 1.5,
-          "col_4": 1.5,
-          "Structural System and Structural Height, h n , Limits (ft) a , b": "NL",
-          "col_6": "NL",
-          "col_7": "NL",
-          "col_8": "NL",
-          "col_9": "NL"
-        },
-        {
-          "col_0": "Wood",
-          "col_1": "",
-          "col_2": 1.5,
-          "col_3": 1.5,
-          "col_4": 1.5,
-          "Structural System and Structural Height, h n , Limits (ft) a , b": "NL",
-          "col_6": "NL",
-          "col_7": "NL",
-          "col_8": "NL",
-          "col_9": "NL"
-        },
-        {
-          "col_0": "Concrete",
-          "col_1": "",
-          "col_2": 1.5,
-          "col_3": 1.5,
-          "col_4": 1.5,
-          "Structural System and Structural Height, h n , Limits (ft) a , b": "NL",
-          "col_6": "NL",
-          "col_7": "NL",
-          "col_8": "NL",
-          "col_9": "NL"
-        },
-        {
-          "col_0": "Frame: Steel",
-          "col_1": "",
-          "col_2": 3,
-          "col_3": 1.5,
-          "col_4": 1.5,
-          "Structural System and Structural Height, h n , Limits (ft) a , b": "NL",
-          "col_6": "NL",
-          "col_7": "NL",
-          "col_8": "NL",
-          "col_9": "NL"
-        },
-        {
-          "col_0": "Wood",
-          "col_1": "",
-          "col_2": 1.5,
-          "col_3": 1.5,
-          "col_4": 1.5,
-          "Structural System and Structural Height, h n , Limits (ft) a , b": "NL",
-          "col_6": "NL",
-          "col_7": "NL",
-          "col_8": "NL",
-          "col_9": "NL"
-        },
-        {
-          "col_0": "Concrete",
-          "col_1": "",
-          "col_2": 2,
-          "col_3": 1.5,
-          "col_4": 1.5,
-          "Structural System and Structural Height, h n , Limits (ft) a , b": "NL",
-          "col_6": "NL",
-          "col_7": "NL",
-          "col_8": "NL",
-          "col_9": "NL"
-        },
-        {
-          "col_0": "Amusement structures and monuments",
-          "col_1": "15.6.3",
-          "col_2": 2,
-          "col_3": 2,
-          "col_4": 2,
-          "Structural System and Structural Height, h n , Limits (ft) a , b": "NL",
-          "col_6": "NL",
-          "col_7": "NL",
-          "col_8": "NL",
-          "col_9": "NL"
-        },
-        {
-          "col_0": "Inverted-pendulum-type structures (except elevated tanks, vessels, bins, and hoppers)",
-          "col_1": "12.2.5.3",
-          "col_2": 2,
-          "col_3": 2,
-          "col_4": 2,
-          "Structural System and Structural Height, h n , Limits (ft) a , b": "NL",
-          "col_6": "NL",
-          "col_7": "NL",
-          "col_8": "NL",
-          "col_9": "NL"
-        },
-        {
-          "col_0": "Ground-supported cantilever walls or fences",
-          "col_1": "15.6.8",
-          "col_2": 1.25,
-          "col_3": 2,
-          "col_4": 2.5,
-          "Structural System and Structural Height, h n , Limits (ft) a , b": "NL",
-          "col_6": "NL",
-          "col_7": "NL",
-          "col_8": "NL",
-          "col_9": "NL"
-        },
-        {
-          "col_0": "Signs and billboards",
-          "col_1": "",
-          "col_2": 3.0,
-          "col_3": 1.75,
-          "col_4": 3,
-          "Structural System and Structural Height, h n , Limits (ft) a , b": "NL",
-          "col_6": "NL",
-          "col_7": "NL",
-          "col_8": "NL",
-          "col_9": "NL"
-        },
-        {
-          "col_0": "Steel lighting system support pole structures",
-          "col_1": "15.6.10",
-          "col_2": 1.5,
-          "col_3": 1.5,
-          "col_4": 1.5,
-          "Structural System and Structural Height, h n , Limits (ft) a , b": "NL",
-          "col_6": "NL",
-          "col_7": "NL",
-          "col_8": "NL",
-          "col_9": "NL"
-        },
-        {
-          "col_0": "All other self-supporting structures, tanks, or vessels not covered above or by reference standards that are not similar to buildings",
-          "col_1": "",
-          "col_2": 1.25,
-          "col_3": 2,
-          "col_4": 2.5,
-          "Structural System and Structural Height, h n , Limits (ft) a , b": "NL",
-          "col_6": "NL",
-          "col_7": 50,
-          "col_8": 50,
-          "col_9": 50
-        }
-      ]
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "docling"
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-15.4-E15-4-61",
     "type": "formula",
     "source": {
@@ -3461,78 +3210,70 @@
     "data": {
       "expression": "n un c d on a f c o c r e m le a r n a c ti e on w s it a h n t d he se r i e s q m u i i c re c m oe e f n fi ts - T=2\u03c0 u u u u u i= X 1 n w i \u03b42 i (15.4-6)",
       "parameters": {
-        "d": {
-          "description": "Design ice thickness from Equation (10.4-5), in. (mm)",
-          "source": "ASCE7-22-10.3-T10"
-        },
-        "a": {
-          "description": "Approximate lower bound natural frequency from Section 26.11.2",
-          "unit": "Hz",
-          "source": "ASCE7-22-26.3-T77"
-        },
-        "u": {
-          "description": "Average undrained shear strength in top 100 ft (30 m); see Sections 20.3.3 and 20.4.3, ASTM D2166, or ASTM D2850",
-          "source": "ASCE7-22-11.3-T101"
-        },
         "t": {
           "description": "Nominal ice thickness on a cylinder caused by freezing rain at a height of 33 ft (10 m), from Figures 10.4-2 through 10.4-5, for the applicable risk category, in. (mm)",
           "source": "ASCE7-22-10.3-T9"
-        },
-        "he": {
-          "description": "Roof eave height at a particular wall, or the average height if the eave varies along the wall",
-          "source": "ASCE7-22-26.3-T52"
-        },
-        "n": {
-          "description": "Designation for the level that is uppermost in the main portion of the building",
-          "source": "ASCE7-22-11.3-T76"
-        },
-        "f": {
-          "description": "Radius of the circular foundation;",
-          "source": "ASCE7-22-19.3.4-T1"
-        },
-        "e": {
-          "description": "Elastic displacement computed under design earthquake forces (Section 12.8.6)",
-          "source": "ASCE7-22-11.3-T152"
-        },
-        "h": {
-          "description": "Height of a shear wall measured as the maximum clear height from top of foundation to bottom of diaphragm framing above, or the maximum clear height from top of diaphragm to bottom of diaphragm framing above",
-          "source": "ASCE7-22-11.3-T49"
-        },
-        "o": {
-          "description": "Offset time of the wave train",
-          "source": "ASCE7-22-6.3-T79"
         },
         "m": {
           "description": "Component demand modi fi cation factor accounting for expected ductility, applied to the expected strength of a ductility-governed element action, to obtain the acceptable structural component capacity at a particular performance level when using a linear static analysis procedure",
           "source": "ASCE7-22-6.3-T60"
         },
-        "T": {
-          "description": "Fundamental period as determined in Chapter 19",
-          "source": "ASCE7-22-11.3-T105"
-        },
-        "w": {
-          "description": "Moisture content, in percent, per ASTM D2216",
-          "source": "ASCE7-22-11.3-T135"
-        },
         "s": {
-          "description": "Ultimate tensile strength of the bolt, stud, or insert leg wires, psi (MPa). For ASTM A307 bolts or ASTM A108 studs, it is permitted to be assumed to be 60,000 psi (415 MPa)",
-          "source": "ASCE7-22-11.3-P2"
+          "description": "Vertical dimension of the solid freestanding wall or solid sign from Figure 29.3-1",
+          "unit": "ft",
+          "source": "ASCE7-22-26.3-T92"
         },
-        "r": {
-          "description": "Lateral slenderness ratio of a compression member measured in terms of its effective length, KL , and the least radius of gyration of the member cross section, r",
-          "source": "ASCE7-22-11.3-T63"
+        "a": {
+          "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
+          "source": "ASCE7-22-28.3.7-T22"
+        },
+        "c": {
+          "description": "Distance from the neutral axis of a fl exural member to the fi ber of maximum compressive strain, in. (mm)",
+          "source": "ASCE7-22-11.3-T25"
+        },
+        "h": {
+          "description": "Height of a shear wall measured as the maximum clear height from top of foundation to bottom of diaphragm framing above, or the maximum clear height from top of diaphragm to bottom of diaphragm framing above",
+          "source": "ASCE7-22-11.3-T49"
         },
         "q": {
-          "description": "qzT For external pressure on all walls evaluated at height z above the ground, lb/ft 2 (N/m 2 );",
-          "source": "ASCE7-22-32.17.2-T1"
+          "description": "Discharge per unit width over the overtopped structure, as illustrated in Figure 6.12-6 and calculated in accordance with Equation (6.12-5); and",
+          "source": "ASCE7-22-6.12.2.4.2-T7"
+        },
+        "n": {
+          "description": "Number of shear walls in the building effective in resisting lateral forces in the direction under consideration;",
+          "source": "ASCE7-22-26.11.3-T22"
         },
         "i": {
           "description": "Building level referred to by a subscript i ;",
           "source": "ASCE7-22-11.3-T59"
         },
-        "c": {
-          "description": "Distance from the neutral axis of a fl exural member to the fi ber of maximum compressive strain, in. (mm)",
-          "source": "ASCE7-22-11.3-T25"
+        "r": {
+          "description": "Lateral slenderness ratio of a compression member measured in terms of its effective length, KL , and the least radius of gyration of the member cross section, r",
+          "source": "ASCE7-22-11.3-T63"
+        },
+        "he": {
+          "description": "Roof eave height at a particular wall, or the average height if the eave varies along the wall",
+          "source": "ASCE7-22-26.3-T52"
+        },
+        "e": {
+          "description": "Actual eccentricity measured in plan between the center of mass of the structure above the isolation interface and the center of rigidity of the isolation system, plus accidental eccentricity [ft (mm)], taken as 5% of the longest plan dimension of the structure perpendicular to the direction of force under consideration;",
+          "source": "ASCE7-22-17.5.3.3-T4"
+        },
+        "d": {
+          "description": "Longest plan dimension of the structure, ft (mm) measured perpendicular to b",
+          "source": "ASCE7-22-17.1.2-T4"
+        },
+        "u": {
+          "description": "Horizontal fl ow velocity corresponding to a water depth equal to or greater than hss , the elevation of the sof fi t of the fl oor system; and",
+          "source": "ASCE7-22-6.10.3.2.2-T2"
+        },
+        "T": {
+          "description": "Cumulative effect of self-straining forces and effects arising from contraction or expansion resulting from environmental or operational temperature changes, shrinkage, moisture changes, creep in component materials, movement caused by differential settlement, or combinations thereof",
+          "source": "ASCE7-22-2.2-T13"
+        },
+        "w": {
+          "description": "Moisture content, in percent, per ASTM D2216",
+          "source": "ASCE7-22-11.3-T135"
         }
       }
     },
@@ -3561,11 +3302,12 @@
       "parameters": {
         "V": {
           "description": "Basic wind speed obtained from Figures 26.5-1A through 26.5-1D, mi/h (m/s); the basic wind speed corresponds to a 3 s gust speed at 33 ft (10 m) above the ground in Exposure Category C",
-          "source": "ASCE7-22-26.3-T95"
+          "source": "ASCE7-22-26.3-T94"
         },
         "S": {
-          "description": "5 ft). For interior bays regardless of the orientation of the members, the minimum rise ( \u03b2 in inches) for a run of 1 ft to achieve no local minimum is",
-          "source": "ASCE7-22-0.2-T1310"
+          "description": "Center-to-center row spacing for ground-mounted solar panels in Figure 29.4-9",
+          "unit": "ft",
+          "source": "ASCE7-22-26.3-T90"
         }
       }
     },
@@ -4349,8 +4091,8 @@
       "expression": "withTMS402.Anchorsshallbedesignedtobegovernedbythe \u03b4 = C d \u03b4 xe (15.5-1)",
       "parameters": {
         "d": {
-          "description": "Design ice thickness from Equation (10.4-5), in. (mm)",
-          "source": "ASCE7-22-10.3-T10"
+          "description": "Longest plan dimension of the structure, ft (mm) measured perpendicular to b",
+          "source": "ASCE7-22-17.1.2-T4"
         }
       }
     },
@@ -7219,22 +6961,25 @@
     "data": {
       "expression": "N = av\u03b3 \u00f0H \u2212y\u00de i (15.7-1)",
       "parameters": {
+        "N": {
+          "description": "Average fi eld standard penetration resistance for the top 100 ft (30 m) (Sections 20.3.3 and 20.4.2)",
+          "source": "ASCE7-22-11.3-T73"
+        },
         "H": {
-          "description": "Height of hill, ridge, or escarpment in Figure 26.8-1",
-          "unit": "ft",
-          "source": "ASCE7-22-26.3-T49"
+          "description": "Load due to lateral earth pressure (including lateral earth pressure from fi xed or moving surcharge loads), ground water pressure, or pressure of bulk materials",
+          "source": "ASCE7-22-2.2-T7"
         },
         "y": {
-          "description": "Force scale factor in the Y direction (Section 12.9.2.5)",
-          "source": "ASCE7-22-11.3-T163"
+          "description": "Distance [in. (mm)] between the centers of rigidity of the isolation system and the element of interest measured perpendicular to the direction of seismic loading under consideration;",
+          "source": "ASCE7-22-17.5.3.3-T3"
+        },
+        "\u03b3": {
+          "description": "Average unit weight of soil, lb/ft 3 (N/m 3 )",
+          "source": "ASCE7-22-11.3-T145"
         },
         "i": {
           "description": "Building level referred to by a subscript i ;",
           "source": "ASCE7-22-11.3-T59"
-        },
-        "N": {
-          "description": "Average fi eld standard penetration resistance for the top 100 ft (30 m) (Sections 20.3.3 and 20.4.2)",
-          "source": "ASCE7-22-11.3-T73"
         }
       }
     },
@@ -7749,26 +7494,26 @@
     "data": {
       "expression": "w t = \u03c0D s\u00few r (15.7-3)",
       "parameters": {
-        "w": {
-          "description": "Moisture content, in percent, per ASTM D2216",
-          "source": "ASCE7-22-11.3-T135"
+        "D": {
+          "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the design earthquake ground motions, Section 18.7.3.3 \u03bc",
+          "source": "ASCE7-22-18.1.3-T79"
         },
         "t": {
           "description": "Nominal ice thickness on a cylinder caused by freezing rain at a height of 33 ft (10 m), from Figures 10.4-2 through 10.4-5, for the applicable risk category, in. (mm)",
           "source": "ASCE7-22-10.3-T9"
         },
-        "s": {
-          "description": "Ultimate tensile strength of the bolt, stud, or insert leg wires, psi (MPa). For ASTM A307 bolts or ASTM A108 studs, it is permitted to be assumed to be 60,000 psi (415 MPa)",
-          "source": "ASCE7-22-11.3-P2"
-        },
         "r": {
           "description": "Lateral slenderness ratio of a compression member measured in terms of its effective length, KL , and the least radius of gyration of the member cross section, r",
           "source": "ASCE7-22-11.3-T63"
         },
-        "D": {
-          "description": "Diameter of a circular structure or member, as de fi ned in Chapter 29",
+        "s": {
+          "description": "Vertical dimension of the solid freestanding wall or solid sign from Figure 29.3-1",
           "unit": "ft",
-          "source": "ASCE7-22-10.3-T3"
+          "source": "ASCE7-22-26.3-T92"
+        },
+        "w": {
+          "description": "Moisture content, in percent, per ASTM D2216",
+          "source": "ASCE7-22-11.3-T135"
         }
       }
     },
@@ -8060,46 +7805,6 @@
     "cross_references": [
       "ASCE7-22-15.4.9-H1"
     ],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-15.7.5-P2",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 15,
-      "section": "15.7.5",
-      "citation": "Section 15.7.5",
-      "page": 12
-    },
-    "title": "For the anchorage of steel tanks and vessels with a diameter or width greater than 5 ft (1.5 m) or a height greater than 10 ft (3.0 m) in Seismic Design Categories C, D, E, and F, all of the following",
-    "description": "",
-    "data": {
-      "rule": "For the anchorage of steel tanks and vessels with a diameter or width greater than 5 ft (1.5 m) or a height greater than 10 ft (3.0 m) in Seismic Design Categories C, D, E, and F, all of the following special detailing requirements shall apply:",
-      "conditions": [
-        {
-          "parameter": "",
-          "operator": ">",
-          "value": 5.0,
-          "unit": "ft"
-        },
-        {
-          "parameter": "",
-          "operator": ">",
-          "value": 10.0,
-          "unit": "ft"
-        }
-      ],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
     "metadata": {
       "extracted_by": "auto",
       "qc_status": "pending",
@@ -8435,52 +8140,6 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-15.7-T15-7-12",
-    "type": "table",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 15,
-      "section": "15.7",
-      "citation": "Table 15.7-1",
-      "page": 12
-    },
-    "title": "Table 15.7-1. Minimum Design Displacements for Piping Attachments.",
-    "description": "",
-    "data": {
-      "columns": [
-        {
-          "name": "Anchorage Ratio, J",
-          "unit": null
-        },
-        {
-          "name": "Criteria",
-          "unit": null
-        }
-      ],
-      "rows": [
-        {
-          "Anchorage Ratio, J": "J < 0.785",
-          "Criteria": "No uplift under the design seismic overturning moment. The tank is self-anchored."
-        },
-        {
-          "Anchorage Ratio, J": "0.785 < J < 1.54",
-          "Criteria": "Tank is uplifting, but the tank is stable for the design load, provided that the shell compression requirements are satis fi ed. The tank is self-anchored."
-        },
-        {
-          "Anchorage Ratio, J": "J > 1.54",
-          "Criteria": "Tank is not stable and shall be mechanically anchored for the design load."
-        }
-      ]
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "docling"
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-15.7-E15-7-41",
     "type": "formula",
     "source": {
@@ -8497,15 +8156,15 @@
       "parameters": {
         "V": {
           "description": "Basic wind speed obtained from Figures 26.5-1A through 26.5-1D, mi/h (m/s); the basic wind speed corresponds to a 3 s gust speed at 33 ft (10 m) above the ground in Exposure Category C",
-          "source": "ASCE7-22-26.3-T95"
-        },
-        "i": {
-          "description": "Building level referred to by a subscript i ;",
-          "source": "ASCE7-22-11.3-T59"
+          "source": "ASCE7-22-26.3-T94"
         },
         "c": {
           "description": "Distance from the neutral axis of a fl exural member to the fi ber of maximum compressive strain, in. (mm)",
           "source": "ASCE7-22-11.3-T25"
+        },
+        "i": {
+          "description": "Building level referred to by a subscript i ;",
+          "source": "ASCE7-22-11.3-T59"
         }
       }
     },
@@ -9157,33 +8816,6 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-15.7.6.2-P4",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 15,
-      "section": "15.7.6.2",
-      "citation": "Section 15.7.6.2",
-      "page": 13
-    },
-    "title": "Where the design spectral acceleration parameter, Sa , determined in accordance with either Section 11.4.5.1 or Chapter 21 is available, the value of Sac determined by Equation (15.7-10) or (15.7-11) ",
-    "description": "",
-    "data": {
-      "rule": "Where the design spectral acceleration parameter, Sa , determined in accordance with either Section 11.4.5.1 or Chapter 21 is available, the value of Sac determined by Equation (15.7-10) or (15.7-11) is permitted to be taken as 1.5 times the value of Sa at the period Tc . The value of 1.5 Sac need not exceed the maximum value of Sa . When Exception 2 is invoked, the value of Sai must be determined using Exception 1.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-15.7.6.2-P5",
     "type": "provision",
     "source": {
@@ -9232,9 +8864,9 @@
     "data": {
       "expression": "For Ti \u2264 Ts , the entire contents act as an impulsive mass, using Equation (15.7-5)",
       "parameters": {
-        "contents": {
-          "description": "Mass of contents in a shipping container",
-          "source": "ASCE7-22-6.3-T61"
+        "Ti": {
+          "description": "Fundamental period of the tank structure and impulsive component of the content;",
+          "source": "ASCE7-22-15.7.6.2-T5"
         }
       }
     },
@@ -9284,12 +8916,7 @@
     "description": "",
     "data": {
       "expression": "Sai determined from Equations (15.7-8)",
-      "parameters": {
-        "Sai": {
-          "description": "SDS ",
-          "source": "ASCE7-22-15.7.6.2-T13"
-        }
-      }
+      "parameters": {}
     },
     "cross_references": [],
     "metadata": {
@@ -9313,12 +8940,7 @@
     "description": "",
     "data": {
       "expression": "Sai determined from Equations (15.7-8) and (15.7-9)",
-      "parameters": {
-        "Sai": {
-          "description": "SDS ",
-          "source": "ASCE7-22-15.7.6.2-T13"
-        }
-      }
+      "parameters": {}
     },
     "cross_references": [],
     "metadata": {
@@ -9344,70 +8966,8 @@
       "expression": "Where the design spectral acceleration parameter, Sa , determined in accordance with either Section 11.4.5.1 or Chapter 21 is available, the value of Sai determined by Equation (15.7-7)",
       "parameters": {
         "Sa": {
-          "description": "5% damped design spectral response acceleration parameter at any period as de fi ned in Section 11.4.5",
-          "source": "ASCE7-22-11.3-T90"
-        },
-        "Sai": {
-          "description": "SDS ",
-          "source": "ASCE7-22-15.7.6.2-T13"
-        }
-      }
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "from_text"
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-15.7-E15-7-101",
-    "type": "formula",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 15,
-      "section": "15.7",
-      "citation": "Eq. (15.7-10)",
-      "page": 13
-    },
-    "title": "Equation (15.7-10)",
-    "description": "",
-    "data": {
-      "expression": "Where the design spectral acceleration parameter, Sa , determined in accordance with either Section 11.4.5.1 or Chapter 21 is available, the value of Sac determined by Equation (15.7-10)",
-      "parameters": {
-        "Sa": {
-          "description": "5% damped design spectral response acceleration parameter at any period as de fi ned in Section 11.4.5",
-          "source": "ASCE7-22-11.3-T90"
-        }
-      }
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "from_text"
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-15.7-E15-7-111",
-    "type": "formula",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 15,
-      "section": "15.7",
-      "citation": "Eq. (15.7-11)",
-      "page": 13
-    },
-    "title": "Equation (15.7-11)",
-    "description": "",
-    "data": {
-      "expression": "Where the design spectral acceleration parameter, Sa , determined in accordance with either Section 11.4.5.1 or Chapter 21 is available, the value of Sac determined by Equation (15.7-10) or (15.7-11)",
-      "parameters": {
-        "Sa": {
-          "description": "5% damped design spectral response acceleration parameter at any period as de fi ned in Section 11.4.5",
-          "source": "ASCE7-22-11.3-T90"
+          "description": "Design spectral response acceleration parameter de fi ned in Section 11.4.5.1 and determined for the period T de fi ned in Section 12.8.2;",
+          "source": "ASCE7-22-12.8.1.1-T2"
         }
       }
     },
@@ -9435,8 +8995,8 @@
       "expression": "T =2\u03c0 (15.7-12)",
       "parameters": {
         "T": {
-          "description": "Fundamental period as determined in Chapter 19",
-          "source": "ASCE7-22-11.3-T105"
+          "description": "Cumulative effect of self-straining forces and effects arising from contraction or expansion resulting from environmental or operational temperature changes, shrinkage, moisture changes, creep in component materials, movement caused by differential settlement, or combinations thereof",
+          "source": "ASCE7-22-2.2-T13"
         }
       }
     },
@@ -10243,14 +9803,14 @@
     "data": {
       "expression": "(a) The height of the sloshing liquid, \u03b4 s , above the product design height shall be computed using Equation (15.7-13)",
       "parameters": {
-        "a": {
-          "description": "Approximate lower bound natural frequency from Section 26.11.2",
-          "unit": "Hz",
-          "source": "ASCE7-22-26.3-T77"
-        },
         "s": {
-          "description": "Ultimate tensile strength of the bolt, stud, or insert leg wires, psi (MPa). For ASTM A307 bolts or ASTM A108 studs, it is permitted to be assumed to be 60,000 psi (415 MPa)",
-          "source": "ASCE7-22-11.3-P2"
+          "description": "Vertical dimension of the solid freestanding wall or solid sign from Figure 29.3-1",
+          "unit": "ft",
+          "source": "ASCE7-22-26.3-T92"
+        },
+        "a": {
+          "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
+          "source": "ASCE7-22-28.3.7-T22"
         }
       }
     },
@@ -10303,7 +9863,7 @@
       "parameters": {
         "v": {
           "description": "Height-to-width ratio for solid sign",
-          "source": "ASCE7-22-26.3-T118"
+          "source": "ASCE7-22-26.3-T117"
         }
       }
     },
@@ -13417,66 +12977,6 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-15.7-T15-7-41",
-    "type": "table",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 15,
-      "section": "15.7",
-      "citation": "Table 15.7-4",
-      "page": 18
-    },
-    "title": "The seismic loads, in combination with other service loads and appropriate environmental effects, shall not exceed the material strength shown in Table 15.7-4.",
-    "description": "",
-    "data": {
-      "columns": [
-        {
-          "name": "Material",
-          "unit": null
-        },
-        {
-          "name": "Minimum Ratio F u \u2215 F y",
-          "unit": null
-        },
-        {
-          "name": "Max. Material Strength of Vessel Material (%)",
-          "unit": null
-        },
-        {
-          "name": "Max. Material Strength of Threaded Material (%) a",
-          "unit": null
-        }
-      ],
-      "rows": [
-        {
-          "Material": "Ductile (e.g., steel, aluminum, copper)",
-          "Minimum Ratio F u \u2215 F y": "1.33 b",
-          "Max. Material Strength of Vessel Material (%)": "90 c",
-          "Max. Material Strength of Threaded Material (%) a": "70 c"
-        },
-        {
-          "Material": "Semiductile",
-          "Minimum Ratio F u \u2215 F y": "1.2 d",
-          "Max. Material Strength of Vessel Material (%)": "70 c",
-          "Max. Material Strength of Threaded Material (%) a": "50 c"
-        },
-        {
-          "Material": "Nonductile (e.g., cast iron, ceramics, fi berglass)",
-          "Minimum Ratio F u \u2215 F y": "N/A",
-          "Max. Material Strength of Vessel Material (%)": "25 e",
-          "Max. Material Strength of Threaded Material (%) a": "20 e"
-        }
-      ]
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "docling"
     },
     "parent_id": null
   },

@@ -2036,13 +2036,13 @@
     "data": {
       "expression": "W 1 = Effective fundamental mode seismic weight, determined in accordance with Equation (18.7-2b)",
       "parameters": {
-        "b": {
-          "description": "Mean hourly wind speed factor in Equation (26.1116), from Table 26.11-1",
-          "source": "ASCE7-22-26.3-T15"
-        },
         "W": {
           "description": "Effective seismic weight of the building as de fi ned in Section 12.7.2. For calculation of seismicisolated building period, W is the total effective seismic weight of the building, in kip (kN), as de fi ned in Sections 19.2 and 19.3",
           "source": "ASCE7-22-11.3-T130"
+        },
+        "b": {
+          "description": "Shortest plan dimension of the structure [ft (mm)] measured perpendicular to d ;",
+          "source": "ASCE7-22-17.5.3.3-T5"
         }
       }
     },
@@ -2068,7 +2068,12 @@
     "description": "",
     "data": {
       "expression": "WR = Effective residual mode seismic weight, determined in accordance with Equation (18.7-30)",
-      "parameters": {}
+      "parameters": {
+        "WR": {
+          "description": "Effective residual mode seismic weight, determined in accordance with Equation (18.7-30)",
+          "source": "ASCE7-22-18.1.3-T46"
+        }
+      }
     },
     "cross_references": [],
     "metadata": {
@@ -3077,36 +3082,7 @@
       "parameters": {
         "V": {
           "description": "Basic wind speed obtained from Figures 26.5-1A through 26.5-1D, mi/h (m/s); the basic wind speed corresponds to a 3 s gust speed at 33 ft (10 m) above the ground in Exposure Category C",
-          "source": "ASCE7-22-26.3-T95"
-        }
-      }
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "from_text"
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-18.2-E18-2-21",
-    "type": "formula",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 18,
-      "section": "18.2",
-      "citation": "Eq. (18.2-2)",
-      "page": 3
-    },
-    "title": "Equation (18.2-2)",
-    "description": "",
-    "data": {
-      "expression": "The seismic base shear used for design of the seismic forceresisting system shall not be less than V min , where V min is determined as the greater of the values computed using Equations (18.2-1) and (18.2-2)",
-      "parameters": {
-        "V": {
-          "description": "Basic wind speed obtained from Figures 26.5-1A through 26.5-1D, mi/h (m/s); the basic wind speed corresponds to a 3 s gust speed at 33 ft (10 m) above the ground in Exposure Category C",
-          "source": "ASCE7-22-26.3-T95"
+          "source": "ASCE7-22-26.3-T94"
         }
       }
     },
@@ -4644,44 +4620,13 @@
     "data": {
       "expression": "Maximum and minimum property modi fi cation ( \u03bb ) factors shall be established, in accordance with Equations (18.2-3a)",
       "parameters": {
-        "a": {
-          "description": "Approximate lower bound natural frequency from Section 26.11.2",
-          "unit": "Hz",
-          "source": "ASCE7-22-26.3-T77"
-        }
-      }
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "from_text"
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-18.2-E18-2-3b1",
-    "type": "formula",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 18,
-      "section": "18.2",
-      "citation": "Eq. (18.2-3b)",
-      "page": 5
-    },
-    "title": "Equation (18.2-3b)",
-    "description": "",
-    "data": {
-      "expression": "Maximum and minimum property modi fi cation ( \u03bb ) factors shall be established, in accordance with Equations (18.2-3a) and (18.2-3b)",
-      "parameters": {
-        "b": {
-          "description": "Mean hourly wind speed factor in Equation (26.1116), from Table 26.11-1",
-          "source": "ASCE7-22-26.3-T15"
+        "\u03bb": {
+          "description": "Time effect factor",
+          "source": "ASCE7-22-11.3-T163"
         },
         "a": {
-          "description": "Approximate lower bound natural frequency from Section 26.11.2",
-          "unit": "Hz",
-          "source": "ASCE7-22-26.3-T77"
+          "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
+          "source": "ASCE7-22-28.3.7-T22"
         }
       }
     },
@@ -4709,43 +4654,8 @@
       "expression": "Maximum and minimum analysis and design properties for each device shall be determined in accordance with Equations (18.2-4a)",
       "parameters": {
         "a": {
-          "description": "Approximate lower bound natural frequency from Section 26.11.2",
-          "unit": "Hz",
-          "source": "ASCE7-22-26.3-T77"
-        }
-      }
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "from_text"
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-18.2-E18-2-4b1",
-    "type": "formula",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 18,
-      "section": "18.2",
-      "citation": "Eq. (18.2-4b)",
-      "page": 5
-    },
-    "title": "Equation (18.2-4b)",
-    "description": "",
-    "data": {
-      "expression": "Maximum and minimum analysis and design properties for each device shall be determined in accordance with Equations (18.2-4a) and (18.2-4b)",
-      "parameters": {
-        "b": {
-          "description": "Mean hourly wind speed factor in Equation (26.1116), from Table 26.11-1",
-          "source": "ASCE7-22-26.3-T15"
-        },
-        "a": {
-          "description": "Approximate lower bound natural frequency from Section 26.11.2",
-          "unit": "Hz",
-          "source": "ASCE7-22-26.3-T77"
+          "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
+          "source": "ASCE7-22-28.3.7-T22"
         }
       }
     },
@@ -7605,152 +7515,6 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-18.7-T18-7-12",
-    "type": "table",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 18,
-      "section": "18.7",
-      "citation": "Table 18.7-1",
-      "page": 9
-    },
-    "title": "Table 18.7-1. Damping Coefficient, BV \u00fe I , B 1 D , B 1 E , BR , B 1 M , BmD , BmM (Where Period of the Structure \u2265 T 0 ).",
-    "description": "",
-    "data": {
-      "columns": [
-        {
-          "name": "col_0",
-          "unit": null
-        },
-        {
-          "name": "\u03bc \u2264 1.0 c",
-          "unit": null
-        },
-        {
-          "name": "col_2",
-          "unit": null
-        },
-        {
-          "name": "col_3",
-          "unit": null
-        },
-        {
-          "name": "col_4",
-          "unit": null
-        },
-        {
-          "name": "col_5",
-          "unit": null
-        }
-      ],
-      "rows": [
-        {
-          "col_0": "Effective Damping",
-          "\u03bc \u2264 1.0 c": "\u03b1 \u2264 0.25",
-          "col_2": "\u03b1 = 0.5",
-          "col_3": "\u03b1 = 0.75",
-          "col_4": "\u03b1 \u2265 1.0",
-          "col_5": "C mFD = 1.0"
-        },
-        {
-          "col_0": "\u2264 0.05",
-          "\u03bc \u2264 1.0 c": 1.0,
-          "col_2": 1.0,
-          "col_3": 1.0,
-          "col_4": 1.0,
-          "col_5": "\u03bc \u2265 1.0"
-        },
-        {
-          "col_0": 0.1,
-          "\u03bc \u2264 1.0 c": 1.0,
-          "col_2": 1.0,
-          "col_3": 1.0,
-          "col_4": 1.0,
-          "col_5": "\u03bc \u2265 1.0"
-        },
-        {
-          "col_0": 0.2,
-          "\u03bc \u2264 1.0 c": 1.0,
-          "col_2": 0.95,
-          "col_3": 0.94,
-          "col_4": 0.93,
-          "col_5": "\u03bc \u2265 1.1"
-        },
-        {
-          "col_0": 0.3,
-          "\u03bc \u2264 1.0 c": 1.0,
-          "col_2": 0.92,
-          "col_3": 0.88,
-          "col_4": 0.86,
-          "col_5": "\u03bc \u2265 1.2"
-        },
-        {
-          "col_0": 0.4,
-          "\u03bc \u2264 1.0 c": 1.0,
-          "col_2": 0.88,
-          "col_3": 0.81,
-          "col_4": 0.78,
-          "col_5": "\u03bc \u2265 1.3"
-        },
-        {
-          "col_0": 0.5,
-          "\u03bc \u2264 1.0 c": 1.0,
-          "col_2": 0.84,
-          "col_3": 0.73,
-          "col_4": 0.71,
-          "col_5": "\u03bc \u2265 1.4"
-        },
-        {
-          "col_0": 0.6,
-          "\u03bc \u2264 1.0 c": 1.0,
-          "col_2": 0.79,
-          "col_3": 0.64,
-          "col_4": 0.64,
-          "col_5": "\u03bc \u2265 1.6"
-        },
-        {
-          "col_0": 0.7,
-          "\u03bc \u2264 1.0 c": 1.0,
-          "col_2": 0.75,
-          "col_3": 0.55,
-          "col_4": 0.58,
-          "col_5": "\u03bc \u2265 1.7"
-        },
-        {
-          "col_0": 0.8,
-          "\u03bc \u2264 1.0 c": 1.0,
-          "col_2": 0.7,
-          "col_3": 0.5,
-          "col_4": 0.53,
-          "col_5": "\u03bc \u2265 1.9"
-        },
-        {
-          "col_0": 0.9,
-          "\u03bc \u2264 1.0 c": 1.0,
-          "col_2": 0.66,
-          "col_3": 0.5,
-          "col_4": 0.5,
-          "col_5": "\u03bc \u2265 2.1"
-        },
-        {
-          "col_0": "\u2265 1.0",
-          "\u03bc \u2264 1.0 c": 1.0,
-          "col_2": 0.62,
-          "col_3": 0.5,
-          "col_4": 0.5,
-          "col_5": "\u03bc \u2265 2.2"
-        }
-      ]
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "docling"
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-18.7-E18-7-11",
     "type": "formula",
     "source": {
@@ -7765,14 +7529,17 @@
     "data": {
       "expression": "18.7.1.2.1 Seismic Base Shear The seismic base shear, V , of the structure in a given direction shall be determined as the combination of modal components, Vm , subject to the limits of Equation (18.7-1)",
       "parameters": {
+        "Vm": {
+          "description": "Design value of the seismic base shear of the m th mode of vibration of the structure in the direction of interest, Section 18.7.1.2.2",
+          "source": "ASCE7-22-18.1.3-T38"
+        },
         "a": {
-          "description": "Approximate lower bound natural frequency from Section 26.11.2",
-          "unit": "Hz",
-          "source": "ASCE7-22-26.3-T77"
+          "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
+          "source": "ASCE7-22-28.3.7-T22"
         },
         "V": {
           "description": "Basic wind speed obtained from Figures 26.5-1A through 26.5-1D, mi/h (m/s); the basic wind speed corresponds to a 3 s gust speed at 33 ft (10 m) above the ground in Exposure Category C",
-          "source": "ASCE7-22-26.3-T95"
+          "source": "ASCE7-22-26.3-T94"
         }
       }
     },
@@ -8182,129 +7949,6 @@
     "parent_id": "ASCE7-22-18.7.1.2.6-P1"
   },
   {
-    "id": "ASCE7-22-18.7-T18-7-31",
-    "type": "table",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 18,
-      "section": "18.7",
-      "citation": "Table 18.7-3",
-      "page": 10
-    },
-    "title": "Table 18.7-3. Force Coefficient, a , b CmFV .",
-    "description": "",
-    "data": {
-      "columns": [
-        {
-          "name": "Effective Damping",
-          "unit": null
-        },
-        {
-          "name": "\u03b1 \u2264 0.25",
-          "unit": null
-        },
-        {
-          "name": "\u03b1 = 0.5",
-          "unit": null
-        },
-        {
-          "name": "\u03b1 = 0.75",
-          "unit": null
-        },
-        {
-          "name": "\u03b1 \u2265 1.0",
-          "unit": null
-        }
-      ],
-      "rows": [
-        {
-          "Effective Damping": "\u2264 0.05",
-          "\u03b1 \u2264 0.25": 1.0,
-          "\u03b1 = 0.5": 0.35,
-          "\u03b1 = 0.75": 0.2,
-          "\u03b1 \u2265 1.0": 0.1
-        },
-        {
-          "Effective Damping": 0.1,
-          "\u03b1 \u2264 0.25": 1.0,
-          "\u03b1 = 0.5": 0.44,
-          "\u03b1 = 0.75": 0.31,
-          "\u03b1 \u2265 1.0": 0.2
-        },
-        {
-          "Effective Damping": 0.2,
-          "\u03b1 \u2264 0.25": 1.0,
-          "\u03b1 = 0.5": 0.56,
-          "\u03b1 = 0.75": 0.46,
-          "\u03b1 \u2265 1.0": 0.37
-        },
-        {
-          "Effective Damping": 0.3,
-          "\u03b1 \u2264 0.25": 1.0,
-          "\u03b1 = 0.5": 0.64,
-          "\u03b1 = 0.75": 0.58,
-          "\u03b1 \u2265 1.0": 0.51
-        },
-        {
-          "Effective Damping": 0.4,
-          "\u03b1 \u2264 0.25": 1.0,
-          "\u03b1 = 0.5": 0.7,
-          "\u03b1 = 0.75": 0.69,
-          "\u03b1 \u2265 1.0": 0.62
-        },
-        {
-          "Effective Damping": 0.5,
-          "\u03b1 \u2264 0.25": 1.0,
-          "\u03b1 = 0.5": 0.75,
-          "\u03b1 = 0.75": 0.77,
-          "\u03b1 \u2265 1.0": 0.71
-        },
-        {
-          "Effective Damping": 0.6,
-          "\u03b1 \u2264 0.25": 1.0,
-          "\u03b1 = 0.5": 0.8,
-          "\u03b1 = 0.75": 0.84,
-          "\u03b1 \u2265 1.0": 0.77
-        },
-        {
-          "Effective Damping": 0.7,
-          "\u03b1 \u2264 0.25": 1.0,
-          "\u03b1 = 0.5": 0.83,
-          "\u03b1 = 0.75": 0.9,
-          "\u03b1 \u2265 1.0": 0.81
-        },
-        {
-          "Effective Damping": 0.8,
-          "\u03b1 \u2264 0.25": 1.0,
-          "\u03b1 = 0.5": 0.9,
-          "\u03b1 = 0.75": 0.94,
-          "\u03b1 \u2265 1.0": 0.9
-        },
-        {
-          "Effective Damping": 0.9,
-          "\u03b1 \u2264 0.25": 1.0,
-          "\u03b1 = 0.5": 1.0,
-          "\u03b1 = 0.75": 1.0,
-          "\u03b1 \u2265 1.0": 1.0
-        },
-        {
-          "Effective Damping": "\u2265 1.0",
-          "\u03b1 \u2264 0.25": 1.0,
-          "\u03b1 = 0.5": 1.0,
-          "\u03b1 = 0.75": 1.0,
-          "\u03b1 \u2265 1.0": 1.0
-        }
-      ]
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "docling"
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-18.7-E18-7-2a1",
     "type": "formula",
     "source": {
@@ -8319,14 +7963,17 @@
     "data": {
       "expression": "18.7.1.2.2 Modal Base Shear Modal base shear of the m th mode of vibration, Vm , of the structure in the direction of interest shall be determined in accordance with Equations (18.7-2a)",
       "parameters": {
-        "a": {
-          "description": "Approximate lower bound natural frequency from Section 26.11.2",
-          "unit": "Hz",
-          "source": "ASCE7-22-26.3-T77"
+        "Vm": {
+          "description": "Design value of the seismic base shear of the m th mode of vibration of the structure in the direction of interest, Section 18.7.1.2.2",
+          "source": "ASCE7-22-18.1.3-T38"
         },
         "m": {
           "description": "Component demand modi fi cation factor accounting for expected ductility, applied to the expected strength of a ductility-governed element action, to obtain the acceptable structural component capacity at a particular performance level when using a linear static analysis procedure",
           "source": "ASCE7-22-6.3-T60"
+        },
+        "a": {
+          "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
+          "source": "ASCE7-22-28.3.7-T22"
         }
       }
     },
@@ -8356,6 +8003,10 @@
         "m": {
           "description": "Component demand modi fi cation factor accounting for expected ductility, applied to the expected strength of a ductility-governed element action, to obtain the acceptable structural component capacity at a particular performance level when using a linear static analysis procedure",
           "source": "ASCE7-22-6.3-T60"
+        },
+        "factor": {
+          "description": "1.8 -0.01 B , B < 100 ft ( B < 30.5 m), or 0.8, B \u2265 100 ft ( B \u2265 30.5 m);",
+          "source": "ASCE7-22-28.3.7-T54"
         }
       }
     },
@@ -8431,12 +8082,12 @@
       "expression": "and at the MCER ground motion, T 1 M , shall be based on either explicit consideration of the postyield force de fl ection characteristics of the structure or determined in accordance with Equations (18.7-6)",
       "parameters": {
         "M": {
-          "description": "Maximum inelastic response displacement considering torsion (Section 12.12.3)",
-          "source": "ASCE7-22-11.3-T156"
+          "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the MCER ground motions, Section 18.7.3.3",
+          "source": "ASCE7-22-18.1.3-T79"
         },
         "T": {
-          "description": "Fundamental period as determined in Chapter 19",
-          "source": "ASCE7-22-11.3-T105"
+          "description": "Cumulative effect of self-straining forces and effects arising from contraction or expansion resulting from environmental or operational temperature changes, shrinkage, moisture changes, creep in component materials, movement caused by differential settlement, or combinations thereof",
+          "source": "ASCE7-22-2.2-T13"
         }
       }
     },
@@ -8464,12 +8115,12 @@
       "expression": "CER ground motion, T 1 M , shall be based on either explicit consideration of the postyield force de fl ection characteristics of the structure or determined in accordance with Equations (18.7-6) and (18.7-7)",
       "parameters": {
         "M": {
-          "description": "Maximum inelastic response displacement considering torsion (Section 12.12.3)",
-          "source": "ASCE7-22-11.3-T156"
+          "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the MCER ground motions, Section 18.7.3.3",
+          "source": "ASCE7-22-18.1.3-T79"
         },
         "T": {
-          "description": "Fundamental period as determined in Chapter 19",
-          "source": "ASCE7-22-11.3-T105"
+          "description": "Cumulative effect of self-straining forces and effects arising from contraction or expansion resulting from environmental or operational temperature changes, shrinkage, moisture changes, creep in component materials, movement caused by differential settlement, or combinations thereof",
+          "source": "ASCE7-22-2.2-T13"
         }
       }
     },
@@ -8496,6 +8147,10 @@
     "data": {
       "expression": "icient Higher mode ( m > 1) seismic response coef fi cient, CSm , of the m th mode of vibration ( m > 1) of the structure in the direction of interest shall be determined in accordance with Equations (18.7-8)",
       "parameters": {
+        "CSm": {
+          "description": "Seismic response coef fi cient of the m th mode of vibration of the structure in the direction of interest, as determined from Section 18.7.1.2.4 (",
+          "source": "ASCE7-22-18.7.1.2.2-T1"
+        },
         "m": {
           "description": "Component demand modi fi cation factor accounting for expected ductility, applied to the expected strength of a ductility-governed element action, to obtain the acceptable structural component capacity at a particular performance level when using a linear static analysis procedure",
           "source": "ASCE7-22-6.3-T60"
@@ -8525,6 +8180,10 @@
     "data": {
       "expression": "mode ( m > 1) seismic response coef fi cient, CSm , of the m th mode of vibration ( m > 1) of the structure in the direction of interest shall be determined in accordance with Equations (18.7-8) and (18.7-9)",
       "parameters": {
+        "CSm": {
+          "description": "Seismic response coef fi cient of the m th mode of vibration of the structure in the direction of interest, as determined from Section 18.7.1.2.4 (",
+          "source": "ASCE7-22-18.7.1.2.2-T1"
+        },
         "m": {
           "description": "Component demand modi fi cation factor accounting for expected ductility, applied to the expected strength of a ductility-governed element action, to obtain the acceptable structural component capacity at a particular performance level when using a linear static analysis procedure",
           "source": "ASCE7-22-6.3-T60"
@@ -8555,14 +8214,12 @@
       "expression": "\u03b4 =D \u03d5 (18.7-11) (18.7-16a)",
       "parameters": {
         "D": {
-          "description": "Diameter of a circular structure or member, as de fi ned in Chapter 29",
-          "unit": "ft",
-          "source": "ASCE7-22-10.3-T3"
+          "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the design earthquake ground motions, Section 18.7.3.3 \u03bc",
+          "source": "ASCE7-22-18.1.3-T79"
         },
         "a": {
-          "description": "Approximate lower bound natural frequency from Section 26.11.2",
-          "unit": "Hz",
-          "source": "ASCE7-22-26.3-T77"
+          "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
+          "source": "ASCE7-22-28.3.7-T22"
         }
       }
     },
@@ -8590,8 +8247,8 @@
       "expression": "modal design earthquake deflections. (18.7-16b)",
       "parameters": {
         "b": {
-          "description": "Mean hourly wind speed factor in Equation (26.1116), from Table 26.11-1",
-          "source": "ASCE7-22-26.3-T15"
+          "description": "Shortest plan dimension of the structure [ft (mm)] measured perpendicular to d ;",
+          "source": "ASCE7-22-17.5.3.3-T5"
         }
       }
     },
@@ -8619,9 +8276,8 @@
       "expression": "mM (18.7-12a)",
       "parameters": {
         "a": {
-          "description": "Approximate lower bound natural frequency from Section 26.11.2",
-          "unit": "Hz",
-          "source": "ASCE7-22-26.3-T77"
+          "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
+          "source": "ASCE7-22-28.3.7-T22"
         }
       }
     },
@@ -8649,8 +8305,8 @@
       "expression": "18.7.2.1 Modeling Elements of the seismic force-resisting (18.7-12b)",
       "parameters": {
         "b": {
-          "description": "Mean hourly wind speed factor in Equation (26.1116), from Table 26.11-1",
-          "source": "ASCE7-22-26.3-T15"
+          "description": "Shortest plan dimension of the structure [ft (mm)] measured perpendicular to d ;",
+          "source": "ASCE7-22-17.5.3.3-T5"
         }
       }
     },
@@ -9236,6 +8892,10 @@
     "data": {
       "expression": ".7.1.2.7 Design Lateral Force Design lateral force at level i caused by the m th mode of vibration, Fim , of the structure in the direction of interest shall be determined in accordance with Equation (18.7-10)",
       "parameters": {
+        "Fim": {
+          "description": "Inertial force at level i (or mass point i ) in the m th mode of vibration of the structure in the direction of interest, Section 18.7.1.2.7",
+          "source": "ASCE7-22-18.1.3-T22"
+        },
         "m": {
           "description": "Component demand modi fi cation factor accounting for expected ductility, applied to the expected strength of a ductility-governed element action, to obtain the acceptable structural component capacity at a particular performance level when using a linear static analysis procedure",
           "source": "ASCE7-22-6.3-T60"
@@ -9302,14 +8962,17 @@
     "data": {
       "expression": "higher mode ( m > 1) roof displacements caused by the design earthquake ground motions, D 1 D and DmD , of the structure in the direction of interest shall be determined in accordance with Equations (18.7-12)",
       "parameters": {
-        "D": {
-          "description": "Diameter of a circular structure or member, as de fi ned in Chapter 29",
-          "unit": "ft",
-          "source": "ASCE7-22-10.3-T3"
-        },
         "m": {
           "description": "Component demand modi fi cation factor accounting for expected ductility, applied to the expected strength of a ductility-governed element action, to obtain the acceptable structural component capacity at a particular performance level when using a linear static analysis procedure",
           "source": "ASCE7-22-6.3-T60"
+        },
+        "DmD": {
+          "description": "Design displacement at the center of rigidity of the roof level of the structure caused by the m th mode of vibration in the direction under consideration, Section 18.7.1.3.2",
+          "source": "ASCE7-22-18.1.3-T14"
+        },
+        "D": {
+          "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the design earthquake ground motions, Section 18.7.3.3 \u03bc",
+          "source": "ASCE7-22-18.1.3-T79"
         }
       }
     },
@@ -9336,10 +8999,13 @@
     "data": {
       "expression": "m > 1) roof displacements caused by the design earthquake ground motions, D 1 D and DmD , of the structure in the direction of interest shall be determined in accordance with Equations (18.7-12) and (18.7-13)",
       "parameters": {
+        "DmD": {
+          "description": "Design displacement at the center of rigidity of the roof level of the structure caused by the m th mode of vibration in the direction under consideration, Section 18.7.1.3.2",
+          "source": "ASCE7-22-18.1.3-T14"
+        },
         "D": {
-          "description": "Diameter of a circular structure or member, as de fi ned in Chapter 29",
-          "unit": "ft",
-          "source": "ASCE7-22-10.3-T3"
+          "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the design earthquake ground motions, Section 18.7.3.3 \u03bc",
+          "source": "ASCE7-22-18.1.3-T79"
         },
         "m": {
           "description": "Component demand modi fi cation factor accounting for expected ductility, applied to the expected strength of a ductility-governed element action, to obtain the acceptable structural component capacity at a particular performance level when using a linear static analysis procedure",
@@ -9370,18 +9036,17 @@
     "data": {
       "expression": "e Story Velocity Design story velocity in the fundamental mode, \u2207 1 D , and higher modes, \u2207 mD ( m > 1), of the structure in the direction of interest shall be calculated in accordance with Equations (18.7-14)",
       "parameters": {
-        "e": {
-          "description": "Elastic displacement computed under design earthquake forces (Section 12.8.6)",
-          "source": "ASCE7-22-11.3-T152"
-        },
-        "D": {
-          "description": "Diameter of a circular structure or member, as de fi ned in Chapter 29",
-          "unit": "ft",
-          "source": "ASCE7-22-10.3-T3"
-        },
         "m": {
           "description": "Component demand modi fi cation factor accounting for expected ductility, applied to the expected strength of a ductility-governed element action, to obtain the acceptable structural component capacity at a particular performance level when using a linear static analysis procedure",
           "source": "ASCE7-22-6.3-T60"
+        },
+        "D": {
+          "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the design earthquake ground motions, Section 18.7.3.3 \u03bc",
+          "source": "ASCE7-22-18.1.3-T79"
+        },
+        "e": {
+          "description": "Actual eccentricity measured in plan between the center of mass of the structure above the isolation interface and the center of rigidity of the isolation system, plus accidental eccentricity [ft (mm)], taken as 5% of the longest plan dimension of the structure perpendicular to the direction of force under consideration;",
+          "source": "ASCE7-22-17.5.3.3-T4"
         }
       }
     },
@@ -9408,14 +9073,13 @@
     "data": {
       "expression": "ty Design story velocity in the fundamental mode, \u2207 1 D , and higher modes, \u2207 mD ( m > 1), of the structure in the direction of interest shall be calculated in accordance with Equations (18.7-14) and (18.7-15)",
       "parameters": {
-        "D": {
-          "description": "Diameter of a circular structure or member, as de fi ned in Chapter 29",
-          "unit": "ft",
-          "source": "ASCE7-22-10.3-T3"
-        },
         "m": {
           "description": "Component demand modi fi cation factor accounting for expected ductility, applied to the expected strength of a ductility-governed element action, to obtain the acceptable structural component capacity at a particular performance level when using a linear static analysis procedure",
           "source": "ASCE7-22-6.3-T60"
+        },
+        "D": {
+          "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the design earthquake ground motions, Section 18.7.3.3 \u03bc",
+          "source": "ASCE7-22-18.1.3-T79"
         }
       }
     },
@@ -9441,30 +9105,6 @@
     "description": "",
     "data": {
       "expression": "MCER roof displacement of the structure in the direction of interest shall be calculated in accordance with Equations (18.7-16)",
-      "parameters": {}
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "from_text"
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-18.7-E18-7-171",
-    "type": "formula",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 18,
-      "section": "18.7",
-      "citation": "Eq. (18.7-17)",
-      "page": 11
-    },
-    "title": "Equation (18.7-17)",
-    "description": "",
-    "data": {
-      "expression": "MCER roof displacement of the structure in the direction of interest shall be calculated in accordance with Equations (18.7-16) and (18.7-17)",
       "parameters": {}
     },
     "cross_references": [],
@@ -10124,14 +9764,17 @@
     "data": {
       "expression": "The seismic base shear, V , of the seismic force-resisting system in a given direction shall be determined as the combination of the two modal components, V 1 and VR , in accordance with Equation (18.7-18)",
       "parameters": {
+        "VR": {
+          "description": "Design value of the seismic base shear of the residual mode of vibration of the structure in a given direction, as determined in Section 18.7.2.2.6",
+          "source": "ASCE7-22-18.1.3-T40"
+        },
         "a": {
-          "description": "Approximate lower bound natural frequency from Section 26.11.2",
-          "unit": "Hz",
-          "source": "ASCE7-22-26.3-T77"
+          "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
+          "source": "ASCE7-22-28.3.7-T22"
         },
         "V": {
           "description": "Basic wind speed obtained from Figures 26.5-1A through 26.5-1D, mi/h (m/s); the basic wind speed corresponds to a 3 s gust speed at 33 ft (10 m) above the ground in Exposure Category C",
-          "source": "ASCE7-22-26.3-T95"
+          "source": "ASCE7-22-26.3-T94"
         }
       }
     },
@@ -10160,7 +9803,7 @@
       "parameters": {
         "V": {
           "description": "Basic wind speed obtained from Figures 26.5-1A through 26.5-1D, mi/h (m/s); the basic wind speed corresponds to a 3 s gust speed at 33 ft (10 m) above the ground in Exposure Category C",
-          "source": "ASCE7-22-26.3-T95"
+          "source": "ASCE7-22-26.3-T94"
         }
       }
     },
@@ -10186,7 +9829,12 @@
     "description": "",
     "data": {
       "expression": ", and participation factor, \u0393 1 , shall be determined by either dynamic analysis using the elastic structural properties and deformational characteristics of the resisting elements or using Equations (18.7-20)",
-      "parameters": {}
+      "parameters": {
+        "factor": {
+          "description": "1.8 -0.01 B , B < 100 ft ( B < 30.5 m), or 0.8, B \u2265 100 ft ( B \u2265 30.5 m);",
+          "source": "ASCE7-22-28.3.7-T54"
+        }
+      }
     },
     "cross_references": [],
     "metadata": {
@@ -10210,7 +9858,12 @@
     "description": "",
     "data": {
       "expression": "ation factor, \u0393 1 , shall be determined by either dynamic analysis using the elastic structural properties and deformational characteristics of the resisting elements or using Equations (18.7-20) and (18.7-21)",
-      "parameters": {}
+      "parameters": {
+        "factor": {
+          "description": "1.8 -0.01 B , B < 100 ft ( B < 30.5 m), or 0.8, B \u2265 100 ft ( B \u2265 30.5 m);",
+          "source": "ASCE7-22-28.3.7-T54"
+        }
+      }
     },
     "cross_references": [],
     "metadata": {
@@ -10236,8 +9889,8 @@
       "expression": "The fundamental period, T 1 , shall be determined either by dynamic analysis using the elastic structural properties and deformational characteristics of the resisting elements, or using Equation (18.7-22)",
       "parameters": {
         "T": {
-          "description": "Fundamental period as determined in Chapter 19",
-          "source": "ASCE7-22-11.3-T105"
+          "description": "Cumulative effect of self-straining forces and effects arising from contraction or expansion resulting from environmental or operational temperature changes, shrinkage, moisture changes, creep in component materials, movement caused by differential settlement, or combinations thereof",
+          "source": "ASCE7-22-2.2-T13"
         }
       }
     },
@@ -10274,30 +9927,6 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-18.7-E18-7-241",
-    "type": "formula",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 18,
-      "section": "18.7",
-      "citation": "Eq. (18.7-24)",
-      "page": 12
-    },
-    "title": "Equation (18.7-24)",
-    "description": "",
-    "data": {
-      "expression": "18.7.2.2.4 Fundamental Mode Seismic Response Coefficient The fundamental mode seismic response coef fi cient, CS 1 , shall be determined using Equations (18.7-23) or (18.7-24)",
-      "parameters": {}
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "from_text"
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-18.7-E18-7-251",
     "type": "formula",
     "source": {
@@ -10312,18 +9941,17 @@
     "data": {
       "expression": "esign earthquake, T 1 D , and at the MCER, T 1 M , shall be based on explicit consideration of the postyield force de fl ection characteristics of the structure or shall be calculated using Equations (18.7-25)",
       "parameters": {
-        "M": {
-          "description": "Maximum inelastic response displacement considering torsion (Section 12.12.3)",
-          "source": "ASCE7-22-11.3-T156"
-        },
         "D": {
-          "description": "Diameter of a circular structure or member, as de fi ned in Chapter 29",
-          "unit": "ft",
-          "source": "ASCE7-22-10.3-T3"
+          "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the design earthquake ground motions, Section 18.7.3.3 \u03bc",
+          "source": "ASCE7-22-18.1.3-T79"
+        },
+        "M": {
+          "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the MCER ground motions, Section 18.7.3.3",
+          "source": "ASCE7-22-18.1.3-T79"
         },
         "T": {
-          "description": "Fundamental period as determined in Chapter 19",
-          "source": "ASCE7-22-11.3-T105"
+          "description": "Cumulative effect of self-straining forces and effects arising from contraction or expansion resulting from environmental or operational temperature changes, shrinkage, moisture changes, creep in component materials, movement caused by differential settlement, or combinations thereof",
+          "source": "ASCE7-22-2.2-T13"
         }
       }
     },
@@ -10350,18 +9978,17 @@
     "data": {
       "expression": "ke, T 1 D , and at the MCER, T 1 M , shall be based on explicit consideration of the postyield force de fl ection characteristics of the structure or shall be calculated using Equations (18.7-25) and (18.7-26)",
       "parameters": {
-        "M": {
-          "description": "Maximum inelastic response displacement considering torsion (Section 12.12.3)",
-          "source": "ASCE7-22-11.3-T156"
-        },
         "D": {
-          "description": "Diameter of a circular structure or member, as de fi ned in Chapter 29",
-          "unit": "ft",
-          "source": "ASCE7-22-10.3-T3"
+          "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the design earthquake ground motions, Section 18.7.3.3 \u03bc",
+          "source": "ASCE7-22-18.1.3-T79"
+        },
+        "M": {
+          "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the MCER ground motions, Section 18.7.3.3",
+          "source": "ASCE7-22-18.1.3-T79"
         },
         "T": {
-          "description": "Fundamental period as determined in Chapter 19",
-          "source": "ASCE7-22-11.3-T105"
+          "description": "Cumulative effect of self-straining forces and effects arising from contraction or expansion resulting from environmental or operational temperature changes, shrinkage, moisture changes, creep in component materials, movement caused by differential settlement, or combinations thereof",
+          "source": "ASCE7-22-2.2-T13"
         }
       }
     },
@@ -10387,7 +10014,12 @@
     "description": "",
     "data": {
       "expression": "18.7.2.2.6 Residual Mode Base Shear Residual mode base shear, VR , shall be determined in accordance with Equation (18.7-27)",
-      "parameters": {}
+      "parameters": {
+        "VR": {
+          "description": "Design value of the seismic base shear of the residual mode of vibration of the structure in a given direction, as determined in Section 18.7.2.2.6",
+          "source": "ASCE7-22-18.1.3-T40"
+        }
+      }
     },
     "cross_references": [],
     "metadata": {
@@ -10413,8 +10045,20 @@
       "expression": "al Mode Properties Residual mode shape, \u03d5 iR , participation factor, \u0393 R , effective residual mode seismic weight of the structure, WR , and effective period, TR , shall be determined using Equations (18.7-28)",
       "parameters": {
         "R": {
-          "description": "Response modi fi cation coef fi cient as given in Tables 12.2-1, 12.14-1, 15.4-1, and 15.4-2",
-          "source": "ASCE7-22-11.3-T82"
+          "description": "Response modi fi cation factor for the building or nonbuilding structure supporting the component, from Table 12.2-1, 15.4-1, or 15.4-2; and",
+          "source": "ASCE7-22-13.3.1.2-T3"
+        },
+        "factor": {
+          "description": "1.8 -0.01 B , B < 100 ft ( B < 30.5 m), or 0.8, B \u2265 100 ft ( B \u2265 30.5 m);",
+          "source": "ASCE7-22-28.3.7-T54"
+        },
+        "WR": {
+          "description": "Effective residual mode seismic weight, determined in accordance with Equation (18.7-30)",
+          "source": "ASCE7-22-18.1.3-T46"
+        },
+        "TR": {
+          "description": "Period, in seconds, of the residual mode of vibration of the structure in the direction under consideration, Section 18.7.2.2.7",
+          "source": "ASCE7-22-18.1.3-T35"
         }
       }
     },
@@ -10442,8 +10086,20 @@
       "expression": "Residual mode shape, \u03d5 iR , participation factor, \u0393 R , effective residual mode seismic weight of the structure, WR , and effective period, TR , shall be determined using Equations (18.7-28) through (18.7-31)",
       "parameters": {
         "R": {
-          "description": "Response modi fi cation coef fi cient as given in Tables 12.2-1, 12.14-1, 15.4-1, and 15.4-2",
-          "source": "ASCE7-22-11.3-T82"
+          "description": "Response modi fi cation factor for the building or nonbuilding structure supporting the component, from Table 12.2-1, 15.4-1, or 15.4-2; and",
+          "source": "ASCE7-22-13.3.1.2-T3"
+        },
+        "factor": {
+          "description": "1.8 -0.01 B , B < 100 ft ( B < 30.5 m), or 0.8, B \u2265 100 ft ( B \u2265 30.5 m);",
+          "source": "ASCE7-22-28.3.7-T54"
+        },
+        "WR": {
+          "description": "Effective residual mode seismic weight, determined in accordance with Equation (18.7-30)",
+          "source": "ASCE7-22-18.1.3-T46"
+        },
+        "TR": {
+          "description": "Period, in seconds, of the residual mode of vibration of the structure in the direction under consideration, Section 18.7.2.2.7",
+          "source": "ASCE7-22-18.1.3-T35"
         }
       }
     },
@@ -10470,22 +10126,22 @@
     "data": {
       "expression": "mined in accordance with Equation (18.7-32): g S T2 g S T2 (18.7-37a)",
       "parameters": {
-        "T": {
-          "description": "Fundamental period as determined in Chapter 19",
-          "source": "ASCE7-22-11.3-T105"
-        },
-        "a": {
-          "description": "Approximate lower bound natural frequency from Section 26.11.2",
-          "unit": "Hz",
-          "source": "ASCE7-22-26.3-T77"
+        "S": {
+          "description": "Center-to-center row spacing for ground-mounted solar panels in Figure 29.4-9",
+          "unit": "ft",
+          "source": "ASCE7-22-26.3-T90"
         },
         "g": {
-          "description": "Nominal height of the atmospheric boundary layer used in this standard (values appear in Table 26.11-1)",
-          "source": "ASCE7-22-26.3-T105"
+          "description": "Acceleration caused by gravity [in : \u2215 s 2 (mm \u2215 s 2 )] if the units of the displacement DM are in in. (mm);",
+          "source": "ASCE7-22-17.5.3.1-T2"
         },
-        "S": {
-          "description": "5 ft). For interior bays regardless of the orientation of the members, the minimum rise ( \u03b2 in inches) for a run of 1 ft to achieve no local minimum is",
-          "source": "ASCE7-22-0.2-T1310"
+        "a": {
+          "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
+          "source": "ASCE7-22-28.3.7-T22"
+        },
+        "T": {
+          "description": "Cumulative effect of self-straining forces and effects arising from contraction or expansion resulting from environmental or operational temperature changes, shrinkage, moisture changes, creep in component materials, movement caused by differential settlement, or combinations thereof",
+          "source": "ASCE7-22-2.2-T13"
         }
       }
     },
@@ -10512,40 +10168,39 @@
     "data": {
       "expression": "where B R is a numerical coefficient as set forth in Table 18.7-1 D = g \u0393 S D1 T 1D \u2265 g \u0393 S D1 T 1 (18.7-37b)",
       "parameters": {
-        "b": {
-          "description": "Mean hourly wind speed factor in Equation (26.1116), from Table 26.11-1",
-          "source": "ASCE7-22-26.3-T15"
-        },
-        "a": {
-          "description": "Approximate lower bound natural frequency from Section 26.11.2",
-          "unit": "Hz",
-          "source": "ASCE7-22-26.3-T77"
-        },
-        "R": {
-          "description": "Response modi fi cation coef fi cient as given in Tables 12.2-1, 12.14-1, 15.4-1, and 15.4-2",
-          "source": "ASCE7-22-11.3-T82"
-        },
-        "D": {
-          "description": "Diameter of a circular structure or member, as de fi ned in Chapter 29",
+        "S": {
+          "description": "Center-to-center row spacing for ground-mounted solar panels in Figure 29.4-9",
           "unit": "ft",
-          "source": "ASCE7-22-10.3-T3"
-        },
-        "g": {
-          "description": "Nominal height of the atmospheric boundary layer used in this standard (values appear in Table 26.11-1)",
-          "source": "ASCE7-22-26.3-T105"
-        },
-        "T": {
-          "description": "Fundamental period as determined in Chapter 19",
-          "source": "ASCE7-22-11.3-T105"
+          "source": "ASCE7-22-26.3-T90"
         },
         "B": {
           "description": "Horizontal dimension of a building measured normal to wind direction",
           "unit": "ft",
           "source": "ASCE7-22-26.3-T14"
         },
-        "S": {
-          "description": "5 ft). For interior bays regardless of the orientation of the members, the minimum rise ( \u03b2 in inches) for a run of 1 ft to achieve no local minimum is",
-          "source": "ASCE7-22-0.2-T1310"
+        "D": {
+          "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the design earthquake ground motions, Section 18.7.3.3 \u03bc",
+          "source": "ASCE7-22-18.1.3-T79"
+        },
+        "R": {
+          "description": "Response modi fi cation factor for the building or nonbuilding structure supporting the component, from Table 12.2-1, 15.4-1, or 15.4-2; and",
+          "source": "ASCE7-22-13.3.1.2-T3"
+        },
+        "g": {
+          "description": "Acceleration caused by gravity [in : \u2215 s 2 (mm \u2215 s 2 )] if the units of the displacement DM are in in. (mm);",
+          "source": "ASCE7-22-17.5.3.1-T2"
+        },
+        "a": {
+          "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
+          "source": "ASCE7-22-28.3.7-T22"
+        },
+        "T": {
+          "description": "Cumulative effect of self-straining forces and effects arising from contraction or expansion resulting from environmental or operational temperature changes, shrinkage, moisture changes, creep in component materials, movement caused by differential settlement, or combinations thereof",
+          "source": "ASCE7-22-2.2-T13"
+        },
+        "b": {
+          "description": "Shortest plan dimension of the structure [ft (mm)] measured perpendicular to d ;",
+          "source": "ASCE7-22-17.5.3.3-T5"
         }
       }
     },
@@ -10572,18 +10227,21 @@
     "data": {
       "expression": "Floor deflections at level i, \u03b4 iD and \u03b4 iM , story drifts, \u0394 D and \u2207 1D =2\u03c0 T 1D (18.7-41)",
       "parameters": {
-        "D": {
-          "description": "Diameter of a circular structure or member, as de fi ned in Chapter 29",
-          "unit": "ft",
-          "source": "ASCE7-22-10.3-T3"
-        },
-        "T": {
-          "description": "Fundamental period as determined in Chapter 19",
-          "source": "ASCE7-22-11.3-T105"
-        },
         "i": {
           "description": "Building level referred to by a subscript i ;",
           "source": "ASCE7-22-11.3-T59"
+        },
+        "D": {
+          "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the design earthquake ground motions, Section 18.7.3.3 \u03bc",
+          "source": "ASCE7-22-18.1.3-T79"
+        },
+        "T": {
+          "description": "Cumulative effect of self-straining forces and effects arising from contraction or expansion resulting from environmental or operational temperature changes, shrinkage, moisture changes, creep in component materials, movement caused by differential settlement, or combinations thereof",
+          "source": "ASCE7-22-2.2-T13"
+        },
+        "\u0394": {
+          "description": "Design story drift as determined in Section 12.8.6 \u0394",
+          "source": "ASCE7-22-11.3-T144"
         }
       }
     },
@@ -10610,22 +10268,22 @@
     "data": {
       "expression": "centerofrigidityoftherooflevelofthestructureinthedirection g S T2 g S T2 (18.7-43a)",
       "parameters": {
-        "T": {
-          "description": "Fundamental period as determined in Chapter 19",
-          "source": "ASCE7-22-11.3-T105"
-        },
-        "a": {
-          "description": "Approximate lower bound natural frequency from Section 26.11.2",
-          "unit": "Hz",
-          "source": "ASCE7-22-26.3-T77"
+        "S": {
+          "description": "Center-to-center row spacing for ground-mounted solar panels in Figure 29.4-9",
+          "unit": "ft",
+          "source": "ASCE7-22-26.3-T90"
         },
         "g": {
-          "description": "Nominal height of the atmospheric boundary layer used in this standard (values appear in Table 26.11-1)",
-          "source": "ASCE7-22-26.3-T105"
+          "description": "Acceleration caused by gravity [in : \u2215 s 2 (mm \u2215 s 2 )] if the units of the displacement DM are in in. (mm);",
+          "source": "ASCE7-22-17.5.3.1-T2"
         },
-        "S": {
-          "description": "5 ft). For interior bays regardless of the orientation of the members, the minimum rise ( \u03b2 in inches) for a run of 1 ft to achieve no local minimum is",
-          "source": "ASCE7-22-0.2-T1310"
+        "a": {
+          "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
+          "source": "ASCE7-22-28.3.7-T22"
+        },
+        "T": {
+          "description": "Cumulative effect of self-straining forces and effects arising from contraction or expansion resulting from environmental or operational temperature changes, shrinkage, moisture changes, creep in component materials, movement caused by differential settlement, or combinations thereof",
+          "source": "ASCE7-22-2.2-T13"
         }
       }
     },
@@ -10653,20 +10311,21 @@
       "expression": "g S T g S T (18.7-43b)",
       "parameters": {
         "T": {
-          "description": "Fundamental period as determined in Chapter 19",
-          "source": "ASCE7-22-11.3-T105"
-        },
-        "b": {
-          "description": "Mean hourly wind speed factor in Equation (26.1116), from Table 26.11-1",
-          "source": "ASCE7-22-26.3-T15"
-        },
-        "g": {
-          "description": "Nominal height of the atmospheric boundary layer used in this standard (values appear in Table 26.11-1)",
-          "source": "ASCE7-22-26.3-T105"
+          "description": "Cumulative effect of self-straining forces and effects arising from contraction or expansion resulting from environmental or operational temperature changes, shrinkage, moisture changes, creep in component materials, movement caused by differential settlement, or combinations thereof",
+          "source": "ASCE7-22-2.2-T13"
         },
         "S": {
-          "description": "5 ft). For interior bays regardless of the orientation of the members, the minimum rise ( \u03b2 in inches) for a run of 1 ft to achieve no local minimum is",
-          "source": "ASCE7-22-0.2-T1310"
+          "description": "Center-to-center row spacing for ground-mounted solar panels in Figure 29.4-9",
+          "unit": "ft",
+          "source": "ASCE7-22-26.3-T90"
+        },
+        "b": {
+          "description": "Shortest plan dimension of the structure [ft (mm)] measured perpendicular to d ;",
+          "source": "ASCE7-22-17.5.3.3-T5"
+        },
+        "g": {
+          "description": "Acceleration caused by gravity [in : \u2215 s 2 (mm \u2215 s 2 )] if the units of the displacement DM are in in. (mm);",
+          "source": "ASCE7-22-17.5.3.1-T2"
         }
       }
     },
@@ -11130,7 +10789,12 @@
     "description": "",
     "data": {
       "expression": "18.7.2.2.8 Residual Mode Seismic Response Coefficient The residual mode seismic response coef fi cient, CSR , shall be determined in accordance with Equation (18.7-32)",
-      "parameters": {}
+      "parameters": {
+        "CSR": {
+          "description": "Seismic response coef fi cient of the residual mode of vibration of the structure in the direction of interest, Section 18.7.2.2.8",
+          "source": "ASCE7-22-18.1.3-T11"
+        }
+      }
     },
     "cross_references": [],
     "metadata": {
@@ -11156,8 +10820,12 @@
       "expression": "esisting system at level i caused by fundamental mode response, Fi 1 , and residual mode response, FiR , of the structure in the direction of interest shall be determined in accordance with Equations (18.7-33)",
       "parameters": {
         "Fi": {
-          "description": "Debris impact design force",
-          "source": "ASCE7-22-6.3-T28"
+          "description": "Portion of the seismic base shear, V , induced at level i",
+          "source": "ASCE7-22-12.14.1.4-T6"
+        },
+        "FiR": {
+          "description": "Inertial force at level i (or mass point i ) in the residual mode of vibration of the structure in the direction of interest, Section 18.7.2.2.9",
+          "source": "ASCE7-22-18.1.3-T23"
         },
         "i": {
           "description": "Building level referred to by a subscript i ;",
@@ -11188,17 +10856,21 @@
     "data": {
       "expression": "m at level i caused by fundamental mode response, Fi 1 , and residual mode response, FiR , of the structure in the direction of interest shall be determined in accordance with Equations (18.7-33) and (18.7-34)",
       "parameters": {
+        "i": {
+          "description": "Building level referred to by a subscript i ;",
+          "source": "ASCE7-22-11.3-T59"
+        },
         "m": {
           "description": "Component demand modi fi cation factor accounting for expected ductility, applied to the expected strength of a ductility-governed element action, to obtain the acceptable structural component capacity at a particular performance level when using a linear static analysis procedure",
           "source": "ASCE7-22-6.3-T60"
         },
         "Fi": {
-          "description": "Debris impact design force",
-          "source": "ASCE7-22-6.3-T28"
+          "description": "Portion of the seismic base shear, V , induced at level i",
+          "source": "ASCE7-22-12.14.1.4-T6"
         },
-        "i": {
-          "description": "Building level referred to by a subscript i ;",
-          "source": "ASCE7-22-11.3-T59"
+        "FiR": {
+          "description": "Inertial force at level i (or mass point i ) in the residual mode of vibration of the structure in the direction of interest, Section 18.7.2.2.9",
+          "source": "ASCE7-22-18.1.3-T23"
         }
       }
     },
@@ -11225,18 +10897,17 @@
     "data": {
       "expression": "e fl ections caused by the design earthquake ground motions, \u03b4 i 1 D and \u03b4 iRD , at the center of rigidity of level i of the structure in the direction of interest shall be determined using Equations (18.7-35)",
       "parameters": {
-        "e": {
-          "description": "Elastic displacement computed under design earthquake forces (Section 12.8.6)",
-          "source": "ASCE7-22-11.3-T152"
-        },
-        "D": {
-          "description": "Diameter of a circular structure or member, as de fi ned in Chapter 29",
-          "unit": "ft",
-          "source": "ASCE7-22-10.3-T3"
-        },
         "i": {
           "description": "Building level referred to by a subscript i ;",
           "source": "ASCE7-22-11.3-T59"
+        },
+        "D": {
+          "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the design earthquake ground motions, Section 18.7.3.3 \u03bc",
+          "source": "ASCE7-22-18.1.3-T79"
+        },
+        "e": {
+          "description": "Actual eccentricity measured in plan between the center of mass of the structure above the isolation interface and the center of rigidity of the isolation system, plus accidental eccentricity [ft (mm)], taken as 5% of the longest plan dimension of the structure perpendicular to the direction of force under consideration;",
+          "source": "ASCE7-22-17.5.3.3-T4"
         }
       }
     },
@@ -11263,14 +10934,13 @@
     "data": {
       "expression": "aused by the design earthquake ground motions, \u03b4 i 1 D and \u03b4 iRD , at the center of rigidity of level i of the structure in the direction of interest shall be determined using Equations (18.7-35) and (18.7-36)",
       "parameters": {
-        "D": {
-          "description": "Diameter of a circular structure or member, as de fi ned in Chapter 29",
-          "unit": "ft",
-          "source": "ASCE7-22-10.3-T3"
-        },
         "i": {
           "description": "Building level referred to by a subscript i ;",
           "source": "ASCE7-22-11.3-T59"
+        },
+        "D": {
+          "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the design earthquake ground motions, Section 18.7.3.3 \u03bc",
+          "source": "ASCE7-22-18.1.3-T79"
         }
       }
     },
@@ -11298,13 +10968,12 @@
       "expression": "cements caused by the design earthquake ground motions, D 1 D and D 1 R , at the center of rigidity of the roof level of the structure in the direction of interest shall be determined using Equations (18.7-37)",
       "parameters": {
         "R": {
-          "description": "Response modi fi cation coef fi cient as given in Tables 12.2-1, 12.14-1, 15.4-1, and 15.4-2",
-          "source": "ASCE7-22-11.3-T82"
+          "description": "Response modi fi cation factor for the building or nonbuilding structure supporting the component, from Table 12.2-1, 15.4-1, or 15.4-2; and",
+          "source": "ASCE7-22-13.3.1.2-T3"
         },
         "D": {
-          "description": "Diameter of a circular structure or member, as de fi ned in Chapter 29",
-          "unit": "ft",
-          "source": "ASCE7-22-10.3-T3"
+          "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the design earthquake ground motions, Section 18.7.3.3 \u03bc",
+          "source": "ASCE7-22-18.1.3-T79"
         }
       }
     },
@@ -11331,14 +11000,13 @@
     "data": {
       "expression": "by the design earthquake ground motions, D 1 D and D 1 R , at the center of rigidity of the roof level of the structure in the direction of interest shall be determined using Equations (18.7-37) and (18.7-38)",
       "parameters": {
-        "R": {
-          "description": "Response modi fi cation coef fi cient as given in Tables 12.2-1, 12.14-1, 15.4-1, and 15.4-2",
-          "source": "ASCE7-22-11.3-T82"
-        },
         "D": {
-          "description": "Diameter of a circular structure or member, as de fi ned in Chapter 29",
-          "unit": "ft",
-          "source": "ASCE7-22-10.3-T3"
+          "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the design earthquake ground motions, Section 18.7.3.3 \u03bc",
+          "source": "ASCE7-22-18.1.3-T79"
+        },
+        "R": {
+          "description": "Response modi fi cation factor for the building or nonbuilding structure supporting the component, from Table 12.2-1, 15.4-1, or 15.4-2; and",
+          "source": "ASCE7-22-13.3.1.2-T3"
         }
       }
     },
@@ -11366,9 +11034,12 @@
       "expression": "18.7.2.3.3 Design Earthquake Story Drift Design story drifts, \u0394 D , in the direction of interest shall be calculated using Equation (18.7-39)",
       "parameters": {
         "D": {
-          "description": "Diameter of a circular structure or member, as de fi ned in Chapter 29",
-          "unit": "ft",
-          "source": "ASCE7-22-10.3-T3"
+          "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the design earthquake ground motions, Section 18.7.3.3 \u03bc",
+          "source": "ASCE7-22-18.1.3-T79"
+        },
+        "\u0394": {
+          "description": "Design story drift as determined in Section 12.8.6 \u0394",
+          "source": "ASCE7-22-11.3-T144"
         }
       }
     },
@@ -11396,39 +11067,8 @@
       "expression": "18.7.2.3.4 Design Earthquake Story Velocity Design story velocities, \u2207 D , in the direction of interest shall be calculated in accordance with Equations (18.7-40)",
       "parameters": {
         "D": {
-          "description": "Diameter of a circular structure or member, as de fi ned in Chapter 29",
-          "unit": "ft",
-          "source": "ASCE7-22-10.3-T3"
-        }
-      }
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "from_text"
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-18.7-E18-7-421",
-    "type": "formula",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 18,
-      "section": "18.7",
-      "citation": "Eq. (18.7-42)",
-      "page": 13
-    },
-    "title": "Equation (18.7-42)",
-    "description": "",
-    "data": {
-      "expression": "18.7.2.3.4 Design Earthquake Story Velocity Design story velocities, \u2207 D , in the direction of interest shall be calculated in accordance with Equations (18.7-40) through (18.7-42)",
-      "parameters": {
-        "D": {
-          "description": "Diameter of a circular structure or member, as de fi ned in Chapter 29",
-          "unit": "ft",
-          "source": "ASCE7-22-10.3-T3"
+          "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the design earthquake ground motions, Section 18.7.3.3 \u03bc",
+          "source": "ASCE7-22-18.1.3-T79"
         }
       }
     },
@@ -12231,6 +11871,10 @@
     "data": {
       "expression": "damping at the design displacement, \u03b2 mD , and at the MCER displacement, \u03b2 mM , of the m th mode of vibration of the structure in the direction under consideration shall be calculated using Equations (18.7-45)",
       "parameters": {
+        "\u03b2": {
+          "description": "Fraction of critical damping for the coupled structure -foundation system, determined in Section 19.2.1",
+          "source": "ASCE7-22-11.3-T140"
+        },
         "m": {
           "description": "Component demand modi fi cation factor accounting for expected ductility, applied to the expected strength of a ductility-governed element action, to obtain the acceptable structural component capacity at a particular performance level when using a linear static analysis procedure",
           "source": "ASCE7-22-6.3-T60"
@@ -12260,6 +11904,10 @@
     "data": {
       "expression": "design displacement, \u03b2 mD , and at the MCER displacement, \u03b2 mM , of the m th mode of vibration of the structure in the direction under consideration shall be calculated using Equations (18.7-45) and (18.7-46)",
       "parameters": {
+        "\u03b2": {
+          "description": "Fraction of critical damping for the coupled structure -foundation system, determined in Section 19.2.1",
+          "source": "ASCE7-22-11.3-T140"
+        },
         "m": {
           "description": "Component demand modi fi cation factor accounting for expected ductility, applied to the expected strength of a ductility-governed element action, to obtain the acceptable structural component capacity at a particular performance level when using a linear static analysis procedure",
           "source": "ASCE7-22-6.3-T60"
@@ -12340,6 +11988,14 @@
         "r": {
           "description": "Lateral slenderness ratio of a compression member measured in terms of its effective length, KL , and the least radius of gyration of the member cross section, r",
           "source": "ASCE7-22-11.3-T63"
+        },
+        "factor": {
+          "description": "1.8 -0.01 B , B < 100 ft ( B < 30.5 m), or 0.8, B \u2265 100 ft ( B \u2265 30.5 m);",
+          "source": "ASCE7-22-28.3.7-T54"
+        },
+        "qH": {
+          "description": "Hysteresis loop adjustment factor, as determined in Section 18.7.3.2.2.1",
+          "source": "ASCE7-22-18.1.3-T26"
         }
       }
     },
@@ -12366,35 +12022,14 @@
     "data": {
       "expression": "Viscous damping of the m th mode of vibration of the structure, \u03b2 Vm , shall be calculated using Equations (18.7-50)",
       "parameters": {
-        "m": {
-          "description": "Component demand modi fi cation factor accounting for expected ductility, applied to the expected strength of a ductility-governed element action, to obtain the acceptable structural component capacity at a particular performance level when using a linear static analysis procedure",
-          "source": "ASCE7-22-6.3-T60"
-        }
-      }
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "from_text"
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-18.7-E18-7-511",
-    "type": "formula",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 18,
-      "section": "18.7",
-      "citation": "Eq. (18.7-51)",
-      "page": 14
-    },
-    "title": "Equation (18.7-51)",
-    "description": "",
-    "data": {
-      "expression": "Viscous damping of the m th mode of vibration of the structure, \u03b2 Vm , shall be calculated using Equations (18.7-50) and (18.7-51)",
-      "parameters": {
+        "\u03b2": {
+          "description": "Fraction of critical damping for the coupled structure -foundation system, determined in Section 19.2.1",
+          "source": "ASCE7-22-11.3-T140"
+        },
+        "Vm": {
+          "description": "Design value of the seismic base shear of the m th mode of vibration of the structure in the direction of interest, Section 18.7.1.2.2",
+          "source": "ASCE7-22-18.1.3-T38"
+        },
         "m": {
           "description": "Component demand modi fi cation factor accounting for expected ductility, applied to the expected strength of a ductility-governed element action, to obtain the acceptable structural component capacity at a particular performance level when using a linear static analysis procedure",
           "source": "ASCE7-22-6.3-T60"
@@ -13154,14 +12789,17 @@
     "data": {
       "expression": "ty demand on the seismic force-resisting system caused by the design earthquake ground motions, \u03bc D , and caused by the MCER ground motions, \u03bc M , shall be calculated using Equations (18.752) through (18.7-54)",
       "parameters": {
-        "M": {
-          "description": "Maximum inelastic response displacement considering torsion (Section 12.12.3)",
-          "source": "ASCE7-22-11.3-T156"
+        "\u03bc": {
+          "description": "Structure ductility reduction factor as determined in Section 13.3.1.2",
+          "source": "ASCE7-22-11.3-T85"
         },
         "D": {
-          "description": "Diameter of a circular structure or member, as de fi ned in Chapter 29",
-          "unit": "ft",
-          "source": "ASCE7-22-10.3-T3"
+          "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the design earthquake ground motions, Section 18.7.3.3 \u03bc",
+          "source": "ASCE7-22-18.1.3-T79"
+        },
+        "M": {
+          "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the MCER ground motions, Section 18.7.3.3",
+          "source": "ASCE7-22-18.1.3-T79"
         }
       }
     },
@@ -13188,14 +12826,21 @@
     "data": {
       "expression": "ld displacement, DY , of Equation (18.7-54) to calculate the effective ductility demand caused by the design earthquake ground motions, \u03bc D , and caused by the MCER ground motions, \u03bc M , in Equations (18.7-52)",
       "parameters": {
-        "M": {
-          "description": "Maximum inelastic response displacement considering torsion (Section 12.12.3)",
-          "source": "ASCE7-22-11.3-T156"
-        },
         "D": {
-          "description": "Diameter of a circular structure or member, as de fi ned in Chapter 29",
-          "unit": "ft",
-          "source": "ASCE7-22-10.3-T3"
+          "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the design earthquake ground motions, Section 18.7.3.3 \u03bc",
+          "source": "ASCE7-22-18.1.3-T79"
+        },
+        "M": {
+          "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the MCER ground motions, Section 18.7.3.3",
+          "source": "ASCE7-22-18.1.3-T79"
+        },
+        "DY": {
+          "description": "Displacement at the center of rigidity of the roof level of the structure at the effective yield point of the seismic force-resisting system, Section 18.7.3.3",
+          "source": "ASCE7-22-18.1.3-T18"
+        },
+        "\u03bc": {
+          "description": "Structure ductility reduction factor as determined in Section 13.3.1.2",
+          "source": "ASCE7-22-11.3-T85"
         }
       }
     },
@@ -13222,18 +12867,25 @@
     "data": {
       "expression": "t, DY , of Equation (18.7-54) to calculate the effective ductility demand caused by the design earthquake ground motions, \u03bc D , and caused by the MCER ground motions, \u03bc M , in Equations (18.7-52) and (18.7-53)",
       "parameters": {
+        "D": {
+          "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the design earthquake ground motions, Section 18.7.3.3 \u03bc",
+          "source": "ASCE7-22-18.1.3-T79"
+        },
+        "M": {
+          "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the MCER ground motions, Section 18.7.3.3",
+          "source": "ASCE7-22-18.1.3-T79"
+        },
+        "DY": {
+          "description": "Displacement at the center of rigidity of the roof level of the structure at the effective yield point of the seismic force-resisting system, Section 18.7.3.3",
+          "source": "ASCE7-22-18.1.3-T18"
+        },
         "t": {
           "description": "Nominal ice thickness on a cylinder caused by freezing rain at a height of 33 ft (10 m), from Figures 10.4-2 through 10.4-5, for the applicable risk category, in. (mm)",
           "source": "ASCE7-22-10.3-T9"
         },
-        "M": {
-          "description": "Maximum inelastic response displacement considering torsion (Section 12.12.3)",
-          "source": "ASCE7-22-11.3-T156"
-        },
-        "D": {
-          "description": "Diameter of a circular structure or member, as de fi ned in Chapter 29",
-          "unit": "ft",
-          "source": "ASCE7-22-10.3-T3"
+        "\u03bc": {
+          "description": "Structure ductility reduction factor as determined in Section 13.3.1.2",
+          "source": "ASCE7-22-11.3-T85"
         }
       }
     },
@@ -13259,7 +12911,16 @@
     "description": "",
     "data": {
       "expression": "mand For determination of the hysteresis loop adjustment factor, hysteretic damping, and other parameters, the maximum value of effective ductility demand, \u03bc max , shall be calculated using Equations (18.7-55)",
-      "parameters": {}
+      "parameters": {
+        "\u03bc": {
+          "description": "Structure ductility reduction factor as determined in Section 13.3.1.2",
+          "source": "ASCE7-22-11.3-T85"
+        },
+        "factor": {
+          "description": "1.8 -0.01 B , B < 100 ft ( B < 30.5 m), or 0.8, B \u2265 100 ft ( B \u2265 30.5 m);",
+          "source": "ASCE7-22-28.3.7-T54"
+        }
+      }
     },
     "cross_references": [],
     "metadata": {
@@ -13283,7 +12944,16 @@
     "description": "",
     "data": {
       "expression": "mination of the hysteresis loop adjustment factor, hysteretic damping, and other parameters, the maximum value of effective ductility demand, \u03bc max , shall be calculated using Equations (18.7-55) and (18.7-56)",
-      "parameters": {}
+      "parameters": {
+        "factor": {
+          "description": "1.8 -0.01 B , B < 100 ft ( B < 30.5 m), or 0.8, B \u2265 100 ft ( B \u2265 30.5 m);",
+          "source": "ASCE7-22-28.3.7-T54"
+        },
+        "\u03bc": {
+          "description": "Structure ductility reduction factor as determined in Section 13.3.1.2",
+          "source": "ASCE7-22-11.3-T85"
+        }
+      }
     },
     "cross_references": [],
     "metadata": {

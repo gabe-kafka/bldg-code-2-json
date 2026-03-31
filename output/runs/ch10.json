@@ -992,13 +992,13 @@
     "data": {
       "expression": "t d = Design ice thickness from Equation (10.4-5)",
       "parameters": {
+        "d": {
+          "description": "Longest plan dimension of the structure, ft (mm) measured perpendicular to b",
+          "source": "ASCE7-22-17.1.2-T4"
+        },
         "t": {
           "description": "Nominal ice thickness on a cylinder caused by freezing rain at a height of 33 ft (10 m), from Figures 10.4-2 through 10.4-5, for the applicable risk category, in. (mm)",
           "source": "ASCE7-22-10.3-T9"
-        },
-        "d": {
-          "description": "Design ice thickness from Equation (10.4-5), in. (mm)",
-          "source": "ASCE7-22-10.3-T10"
         }
       }
     },
@@ -1025,18 +1025,17 @@
     "data": {
       "expression": "A =\u03c0 d D \u00fe d (10.4-1)",
       "parameters": {
+        "D": {
+          "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the design earthquake ground motions, Section 18.7.3.3 \u03bc",
+          "source": "ASCE7-22-18.1.3-T79"
+        },
         "A": {
-          "description": "Effective wind area, ft 2 (m 2 )",
-          "source": "ASCE7-22-26.3-T2"
+          "description": "Effective wind area of element, ft 2 (m 2 )",
+          "source": "ASCE7-22-29.4.5.2-T4"
         },
         "d": {
-          "description": "Design ice thickness from Equation (10.4-5), in. (mm)",
-          "source": "ASCE7-22-10.3-T10"
-        },
-        "D": {
-          "description": "Diameter of a circular structure or member, as de fi ned in Chapter 29",
-          "unit": "ft",
-          "source": "ASCE7-22-10.3-T3"
+          "description": "Longest plan dimension of the structure, ft (mm) measured perpendicular to b",
+          "source": "ASCE7-22-17.1.2-T4"
         }
       }
     },
@@ -1063,10 +1062,6 @@
     "data": {
       "expression": "f = for0ft<z\u2264900ft (10.4-4)",
       "parameters": {
-        "f": {
-          "description": "Radius of the circular foundation;",
-          "source": "ASCE7-22-19.3.4-T1"
-        },
         "z": {
           "description": "Height in structure of point of attachment of component with respect to the base (Section 13.3.1)",
           "source": "ASCE7-22-11.3-T138"
@@ -1097,20 +1092,20 @@
       "expression": "V =\u03c0 t d A (10.4-2)",
       "parameters": {
         "A": {
-          "description": "Effective wind area, ft 2 (m 2 )",
-          "source": "ASCE7-22-26.3-T2"
+          "description": "Effective wind area of element, ft 2 (m 2 )",
+          "source": "ASCE7-22-29.4.5.2-T4"
+        },
+        "d": {
+          "description": "Longest plan dimension of the structure, ft (mm) measured perpendicular to b",
+          "source": "ASCE7-22-17.1.2-T4"
         },
         "t": {
           "description": "Nominal ice thickness on a cylinder caused by freezing rain at a height of 33 ft (10 m), from Figures 10.4-2 through 10.4-5, for the applicable risk category, in. (mm)",
           "source": "ASCE7-22-10.3-T9"
         },
-        "d": {
-          "description": "Design ice thickness from Equation (10.4-5), in. (mm)",
-          "source": "ASCE7-22-10.3-T10"
-        },
         "V": {
           "description": "Basic wind speed obtained from Figures 26.5-1A through 26.5-1D, mi/h (m/s); the basic wind speed corresponds to a 3 s gust speed at 33 ft (10 m) above the ground in Exposure Category C",
-          "source": "ASCE7-22-26.3-T95"
+          "source": "ASCE7-22-26.3-T94"
         }
       }
     },
@@ -1138,8 +1133,8 @@
       "expression": "A =\u03c0r2 (10.4-3)",
       "parameters": {
         "A": {
-          "description": "Effective wind area, ft 2 (m 2 )",
-          "source": "ASCE7-22-26.3-T2"
+          "description": "Effective wind area of element, ft 2 (m 2 )",
+          "source": "ASCE7-22-29.4.5.2-T4"
         },
         "r": {
           "description": "Lateral slenderness ratio of a compression member measured in terms of its effective length, KL , and the least radius of gyration of the member cross section, r",
@@ -1696,31 +1691,6 @@
     "data": {
       "figure_type": "other",
       "description": "10.5.1 Wind on Ice-Covered Chimneys, Tanks, and Similar Structures Force coef fi cients, Cf , for structures with square, hexagonal, and octagonal cross sections shall be as given in Figure 29.4-1. Force coef fi cients, Cf , for structures with round cross sections shall be as given in Figure 29.4-1 for the entry round, D p qz \u2264 2.5 for all ice thicknesses, wind speeds, and structure diameters.",
-      "source_pdf_page": 2
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-29.4-F29-4-21",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 10,
-      "section": "29.4",
-      "citation": "Figure 29.4-2",
-      "page": 2
-    },
-    "title": "10.5.3 Wind on Ice-Covered Open Signs and Lattice Frameworks The solidity ratio, \u03b5 , shall be based on the projected area, including ice. The force coef fi cient, Cf , for the projected area of fl at ",
-    "description": "10.5.3 Wind on Ice-Covered Open Signs and Lattice Frameworks The solidity ratio, \u03b5 , shall be based on the projected area, including ice. The force coef fi cient, Cf , for the projected area of fl at members shall be as given in Figure 29.4-2. The force coef fi cient, Cf , for rounded members and for the additional projected area caused by ice on both fl at and rounded members shall be as given in Figure 29.4-2 for rounded members with D p qz \u2264 2.5 for all ice thicknesses, wind speeds, and member diameters.",
-    "data": {
-      "figure_type": "other",
-      "description": "10.5.3 Wind on Ice-Covered Open Signs and Lattice Frameworks The solidity ratio, \u03b5 , shall be based on the projected area, including ice. The force coef fi cient, Cf , for the projected area of fl at members shall be as given in Figure 29.4-2. The force coef fi cient, Cf , for rounded members and for the additional projected area caused by ice on both fl at and rounded members shall be as given in Figure 29.4-2 for rounded members with D p qz \u2264 2.5 for all ice thicknesses, wind speeds, and member diameters.",
       "source_pdf_page": 2
     },
     "cross_references": [],
@@ -2502,31 +2472,6 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-10.4-F10-4-2A1",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 10,
-      "section": "10.4",
-      "citation": "Figure 10.4-2A",
-      "page": 4
-    },
-    "title": "Figure 10.4-2A. Nominal ice thicknesses caused by freezing rain for the contiguous 48 states for Risk Category I",
-    "description": "Figure 10.4-2A. Nominal ice thicknesses caused by freezing rain for the contiguous 48 states for Risk Category I",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 10.4-2A. Nominal ice thicknesses caused by freezing rain for the contiguous 48 states for Risk Category I",
-      "source_pdf_page": 4
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-10.9-T10",
     "type": "text_block",
     "source": {
@@ -2639,31 +2584,6 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-10.4-F10-4-4A1",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 10,
-      "section": "10.4",
-      "citation": "Figure 10.4-4A",
-      "page": 5
-    },
-    "title": "For Columbia River Gorge Region, see Figure 10.4-4A. For Lake Superior Region, see Figure 10.4-5A.",
-    "description": "For Columbia River Gorge Region, see Figure 10.4-4A. For Lake Superior Region, see Figure 10.4-5A.",
-    "data": {
-      "figure_type": "other",
-      "description": "For Columbia River Gorge Region, see Figure 10.4-4A. For Lake Superior Region, see Figure 10.4-5A.",
-      "source_pdf_page": 5
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-10.9-T26",
     "type": "text_block",
     "source": {
@@ -2691,33 +2611,6 @@
       "qc_notes": null
     },
     "parent_id": "ASCE7-22-10.4-F10-4-2B1"
-  },
-  {
-    "id": "ASCE7-22-10.9-H4",
-    "type": "heading",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 10,
-      "section": "10.9",
-      "citation": "Section 10.9",
-      "page": 6
-    },
-    "title": "Notes:",
-    "description": "",
-    "data": {
-      "rule": "Notes:",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
   },
   {
     "id": "ASCE7-22-10.9-T27",
@@ -2770,31 +2663,6 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-10.4-F10-4-2B1",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 10,
-      "section": "10.4",
-      "citation": "Figure 10.4-2B",
-      "page": 6
-    },
-    "title": "Figure 10.4-2B. Nominal ice thicknesses caused by freezing rain for the contiguous 48 states for Risk Category II",
-    "description": "Figure 10.4-2B. Nominal ice thicknesses caused by freezing rain for the contiguous 48 states for Risk Category II",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 10.4-2B. Nominal ice thicknesses caused by freezing rain for the contiguous 48 states for Risk Category II",
-      "source_pdf_page": 6
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
     },
     "parent_id": null
   },
@@ -2911,58 +2779,6 @@
     "parent_id": "ASCE7-22-10.9-H11"
   },
   {
-    "id": "ASCE7-22-10.9-P7",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 10,
-      "section": "10.9",
-      "citation": "Section 10.9",
-      "page": 7
-    },
-    "title": "Location-speci fi c nominal ice thicknesses shall be permitted to be determined using the ASCE Atmospheric Ice Geodatabase, which can be accessed at the ASCE 7 Hazard Tool (https://asce7hazardtool.onl",
-    "description": "",
-    "data": {
-      "rule": "Location-speci fi c nominal ice thicknesses shall be permitted to be determined using the ASCE Atmospheric Ice Geodatabase, which can be accessed at the ASCE 7 Hazard Tool (https://asce7hazardtool.online).",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-10.4-F10-4-4B1",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 10,
-      "section": "10.4",
-      "citation": "Figure 10.4-4B",
-      "page": 7
-    },
-    "title": "For Columbia River Gorge Region, see Figure 10.4-4B. For Lake Superior Region, see Figure 10.4-5B.",
-    "description": "For Columbia River Gorge Region, see Figure 10.4-4B. For Lake Superior Region, see Figure 10.4-5B.",
-    "data": {
-      "figure_type": "other",
-      "description": "For Columbia River Gorge Region, see Figure 10.4-4B. For Lake Superior Region, see Figure 10.4-5B.",
-      "source_pdf_page": 7
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-10.9-T43",
     "type": "text_block",
     "source": {
@@ -2992,87 +2808,6 @@
     "parent_id": "ASCE7-22-10.4-F10-4-2C1"
   },
   {
-    "id": "ASCE7-22-10.9-H5",
-    "type": "heading",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 10,
-      "section": "10.9",
-      "citation": "Section 10.9",
-      "page": 8
-    },
-    "title": "Notes:",
-    "description": "",
-    "data": {
-      "rule": "Notes:",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-10.9-T44",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 10,
-      "section": "10.9",
-      "citation": "Section 10.9",
-      "page": 8
-    },
-    "title": "Values are nominal ice thicknesses, in inches, at 33 ft (10 m) above ground. Metric conversion: 1 in. = 25.4 mm.",
-    "description": "",
-    "data": {
-      "rule": "Values are nominal ice thicknesses, in inches, at 33 ft (10 m) above ground. Metric conversion: 1 in. = 25.4 mm.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-10.9-H11"
-  },
-  {
-    "id": "ASCE7-22-10.9-P8",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 10,
-      "section": "10.9",
-      "citation": "Section 10.9",
-      "page": 8
-    },
-    "title": "Linear interpolation between contours is permitted.",
-    "description": "",
-    "data": {
-      "rule": "Linear interpolation between contours is permitted.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-10.9-P9",
     "type": "provision",
     "source": {
@@ -3096,31 +2831,6 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-10.4-F10-4-2C1",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 10,
-      "section": "10.4",
-      "citation": "Figure 10.4-2C",
-      "page": 8
-    },
-    "title": "Figure 10.4-2C. Nominal ice thicknesses caused by freezing rain for the contiguous 48 states for Risk Category III",
-    "description": "Figure 10.4-2C. Nominal ice thicknesses caused by freezing rain for the contiguous 48 states for Risk Category III",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 10.4-2C. Nominal ice thicknesses caused by freezing rain for the contiguous 48 states for Risk Category III",
-      "source_pdf_page": 8
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
     },
     "parent_id": null
   },
@@ -3154,33 +2864,6 @@
     "parent_id": "ASCE7-22-10.4-F10-4-2C1"
   },
   {
-    "id": "ASCE7-22-10.9-T62",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 10,
-      "section": "10.9",
-      "citation": "Section 10.9",
-      "page": 9
-    },
-    "title": "The shading indicates special icing regions, elevations above 2,100 ft (640 m) in the east and 6,000 ft (1,829 m) in the west, with sparse weather station data for determining design ice loads.",
-    "description": "",
-    "data": {
-      "rule": "The shading indicates special icing regions, elevations above 2,100 ft (640 m) in the east and 6,000 ft (1,829 m) in the west, with sparse weather station data for determining design ice loads.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-10.9-H11"
-  },
-  {
     "id": "ASCE7-22-10.9-T63",
     "type": "text_block",
     "source": {
@@ -3208,58 +2891,6 @@
       "qc_notes": null
     },
     "parent_id": "ASCE7-22-10.9-H11"
-  },
-  {
-    "id": "ASCE7-22-10.9-P10",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 10,
-      "section": "10.9",
-      "citation": "Section 10.9",
-      "page": 9
-    },
-    "title": "Location-speci fi c nominal ice thicknesses shall be permitted to be determined using the ASCE Atmospheric Ice Geodatabase, which can be accessed at the ASCE 7 Hazard Tool (https://asce7hazardtool.onl",
-    "description": "",
-    "data": {
-      "rule": "Location-speci fi c nominal ice thicknesses shall be permitted to be determined using the ASCE Atmospheric Ice Geodatabase, which can be accessed at the ASCE 7 Hazard Tool (https://asce7hazardtool.online).",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-10.4-F10-4-4C1",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 10,
-      "section": "10.4",
-      "citation": "Figure 10.4-4C",
-      "page": 9
-    },
-    "title": "For Columbia River Gorge Region, see Figure 10.4-4C. For Lake Superior Region, see Figure 10.4-5C.",
-    "description": "For Columbia River Gorge Region, see Figure 10.4-4C. For Lake Superior Region, see Figure 10.4-5C.",
-    "data": {
-      "figure_type": "other",
-      "description": "For Columbia River Gorge Region, see Figure 10.4-4C. For Lake Superior Region, see Figure 10.4-5C.",
-      "source_pdf_page": 9
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
   },
   {
     "id": "ASCE7-22-10.9-T64",
@@ -3291,87 +2922,6 @@
     "parent_id": "ASCE7-22-10.4-F10-4-2D1"
   },
   {
-    "id": "ASCE7-22-10.9-H6",
-    "type": "heading",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 10,
-      "section": "10.9",
-      "citation": "Section 10.9",
-      "page": 10
-    },
-    "title": "Notes:",
-    "description": "",
-    "data": {
-      "rule": "Notes:",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-10.9-T65",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 10,
-      "section": "10.9",
-      "citation": "Section 10.9",
-      "page": 10
-    },
-    "title": "Values are nominal ice thicknesses, in inches, at 33 ft (10 m) above ground. Metric conversion: 1 in. = 25.4 mm.",
-    "description": "",
-    "data": {
-      "rule": "Values are nominal ice thicknesses, in inches, at 33 ft (10 m) above ground. Metric conversion: 1 in. = 25.4 mm.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-10.9-H11"
-  },
-  {
-    "id": "ASCE7-22-10.9-P11",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 10,
-      "section": "10.9",
-      "citation": "Section 10.9",
-      "page": 10
-    },
-    "title": "Linear interpolation between contours is permitted.",
-    "description": "",
-    "data": {
-      "rule": "Linear interpolation between contours is permitted.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-10.9-P12",
     "type": "provision",
     "source": {
@@ -3395,31 +2945,6 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-10.4-F10-4-2D1",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 10,
-      "section": "10.4",
-      "citation": "Figure 10.4-2D",
-      "page": 10
-    },
-    "title": "Figure 10.4-2D. Nominal ice thicknesses caused by freezing rain for the contiguous 48 states for Risk Category IV",
-    "description": "Figure 10.4-2D. Nominal ice thicknesses caused by freezing rain for the contiguous 48 states for Risk Category IV",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 10.4-2D. Nominal ice thicknesses caused by freezing rain for the contiguous 48 states for Risk Category IV",
-      "source_pdf_page": 10
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
     },
     "parent_id": null
   },
@@ -3453,33 +2978,6 @@
     "parent_id": "ASCE7-22-10.4-F10-4-2D1"
   },
   {
-    "id": "ASCE7-22-10.9-T82",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 10,
-      "section": "10.9",
-      "citation": "Section 10.9",
-      "page": 11
-    },
-    "title": "The shading indicates special icing regions, elevations above 2,100 ft (640 m) in the east and 6,000 ft (1,829 m) in the west, with sparse weather station data for determining design ice loads.",
-    "description": "",
-    "data": {
-      "rule": "The shading indicates special icing regions, elevations above 2,100 ft (640 m) in the east and 6,000 ft (1,829 m) in the west, with sparse weather station data for determining design ice loads.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-10.9-H11"
-  },
-  {
     "id": "ASCE7-22-10.9-T83",
     "type": "text_block",
     "source": {
@@ -3507,58 +3005,6 @@
       "qc_notes": null
     },
     "parent_id": "ASCE7-22-10.9-H11"
-  },
-  {
-    "id": "ASCE7-22-10.9-P13",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 10,
-      "section": "10.9",
-      "citation": "Section 10.9",
-      "page": 11
-    },
-    "title": "Location-speci fi c nominal ice thicknesses shall be permitted to be determined using the ASCE Atmospheric Ice Geodatabase, which can be accessed at the ASCE 7 Hazard Tool (https://asce7hazardtool.onl",
-    "description": "",
-    "data": {
-      "rule": "Location-speci fi c nominal ice thicknesses shall be permitted to be determined using the ASCE Atmospheric Ice Geodatabase, which can be accessed at the ASCE 7 Hazard Tool (https://asce7hazardtool.online). 0.25 in.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-10.4-F10-4-4D1",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 10,
-      "section": "10.4",
-      "citation": "Figure 10.4-4D",
-      "page": 11
-    },
-    "title": "For Columbia River Gorge Region, see Figure 10.4-4D. For Lake Superior Region, see Figure 10.4-5D.",
-    "description": "For Columbia River Gorge Region, see Figure 10.4-4D. For Lake Superior Region, see Figure 10.4-5D.",
-    "data": {
-      "figure_type": "other",
-      "description": "For Columbia River Gorge Region, see Figure 10.4-4D. For Lake Superior Region, see Figure 10.4-5D.",
-      "source_pdf_page": 11
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
   },
   {
     "id": "ASCE7-22-10.9-T85",
@@ -3590,33 +3036,6 @@
     "parent_id": "ASCE7-22-10.4-F10-4-3A1"
   },
   {
-    "id": "ASCE7-22-10.9-H7",
-    "type": "heading",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 10,
-      "section": "10.9",
-      "citation": "Section 10.9",
-      "page": 12
-    },
-    "title": "Notes:",
-    "description": "",
-    "data": {
-      "rule": "Notes:",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-10.9-T96",
     "type": "text_block",
     "source": {
@@ -3644,60 +3063,6 @@
     "parent_id": "ASCE7-22-10.9-H11"
   },
   {
-    "id": "ASCE7-22-10.9-P14",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 10,
-      "section": "10.9",
-      "citation": "Section 10.9",
-      "page": 12
-    },
-    "title": "Linear interpolation between contours is permitted.",
-    "description": "",
-    "data": {
-      "rule": "Linear interpolation between contours is permitted.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-10.9-P15",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 10,
-      "section": "10.9",
-      "citation": "Section 10.9",
-      "page": 12
-    },
-    "title": "Islands, coastal areas, and land boundaries outside the last contour shall use the last contour.",
-    "description": "",
-    "data": {
-      "rule": "Islands, coastal areas, and land boundaries outside the last contour shall use the last contour.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-10.9-T97",
     "type": "text_block",
     "source": {
@@ -3723,58 +3088,6 @@
       "qc_notes": null
     },
     "parent_id": "ASCE7-22-10.9-H11"
-  },
-  {
-    "id": "ASCE7-22-10.9-P16",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 10,
-      "section": "10.9",
-      "citation": "Section 10.9",
-      "page": 12
-    },
-    "title": "Location-speci fi c nominal ice thicknesses shall be permitted to be determined using the ASCE Atmospheric Ice Geodatabase, which can be accessed at the ASCE 7 Hazard Tool (https://asce7hazardtool.onl",
-    "description": "",
-    "data": {
-      "rule": "Location-speci fi c nominal ice thicknesses shall be permitted to be determined using the ASCE Atmospheric Ice Geodatabase, which can be accessed at the ASCE 7 Hazard Tool (https://asce7hazardtool.online/). - 0.75 in.- 0.25 in:",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-10.4-F10-4-3A1",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 10,
-      "section": "10.4",
-      "citation": "Figure 10.4-3A",
-      "page": 12
-    },
-    "title": "Figure 10.4-3A. Nominal ice thicknesses caused by freezing rain for Alaska for Risk Category I (250-year mean recurrence",
-    "description": "Figure 10.4-3A. Nominal ice thicknesses caused by freezing rain for Alaska for Risk Category I (250-year mean recurrence",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 10.4-3A. Nominal ice thicknesses caused by freezing rain for Alaska for Risk Category I (250-year mean recurrence",
-      "source_pdf_page": 12
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
   },
   {
     "id": "ASCE7-22-10.9-T100",
@@ -3806,193 +3119,6 @@
     "parent_id": "ASCE7-22-10.4-F10-4-3B1"
   },
   {
-    "id": "ASCE7-22-10.9-H8",
-    "type": "heading",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 10,
-      "section": "10.9",
-      "citation": "Section 10.9",
-      "page": 13
-    },
-    "title": "Notes:",
-    "description": "",
-    "data": {
-      "rule": "Notes:",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-10.9-T111",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 10,
-      "section": "10.9",
-      "citation": "Section 10.9",
-      "page": 13
-    },
-    "title": "Values are nominal ice thicknesses, in inches, at 33 ft (10 m) above ground. Metric conversion: 1 in. = 25.4 mm.",
-    "description": "",
-    "data": {
-      "rule": "Values are nominal ice thicknesses, in inches, at 33 ft (10 m) above ground. Metric conversion: 1 in. = 25.4 mm.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-10.9-H11"
-  },
-  {
-    "id": "ASCE7-22-10.9-P17",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 10,
-      "section": "10.9",
-      "citation": "Section 10.9",
-      "page": 13
-    },
-    "title": "Linear interpolation between contours is permitted.",
-    "description": "",
-    "data": {
-      "rule": "Linear interpolation between contours is permitted.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-10.9-P18",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 10,
-      "section": "10.9",
-      "citation": "Section 10.9",
-      "page": 13
-    },
-    "title": "Islands, coastal areas, and land boundaries outside the last contour shall use the last contour.",
-    "description": "",
-    "data": {
-      "rule": "Islands, coastal areas, and land boundaries outside the last contour shall use the last contour.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-10.9-T112",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 10,
-      "section": "10.9",
-      "citation": "Section 10.9",
-      "page": 13
-    },
-    "title": "The shading indicates special icing regions, elevations above 1,600 ft (488 m) in Alaska, with sparse weather station data for determining design ice loads.",
-    "description": "",
-    "data": {
-      "rule": "The shading indicates special icing regions, elevations above 1,600 ft (488 m) in Alaska, with sparse weather station data for determining design ice loads.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-10.9-H11"
-  },
-  {
-    "id": "ASCE7-22-10.9-P19",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 10,
-      "section": "10.9",
-      "citation": "Section 10.9",
-      "page": 13
-    },
-    "title": "Location-speci fi c nominal ice thicknesses shall be permitted to be determined using the ASCE Atmospheric Ice Geodatabase, which can be accessed at the ASCE 7 Hazard Tool (https://asce7hazardtool.onl",
-    "description": "",
-    "data": {
-      "rule": "Location-speci fi c nominal ice thicknesses shall be permitted to be determined using the ASCE Atmospheric Ice Geodatabase, which can be accessed at the ASCE 7 Hazard Tool (https://asce7hazardtool.online/). \u20141 in.- - 0.5 in: 0.25 in:",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-10.4-F10-4-3B1",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 10,
-      "section": "10.4",
-      "citation": "Figure 10.4-3B",
-      "page": 13
-    },
-    "title": "Figure 10.4-3B. Nominal ice thicknesses caused by freezing rain for Alaska for Risk Category II (500-year mean recurrence",
-    "description": "Figure 10.4-3B. Nominal ice thicknesses caused by freezing rain for Alaska for Risk Category II (500-year mean recurrence",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 10.4-3B. Nominal ice thicknesses caused by freezing rain for Alaska for Risk Category II (500-year mean recurrence",
-      "source_pdf_page": 13
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-10.9-T116",
     "type": "text_block",
     "source": {
@@ -4020,193 +3146,6 @@
       "qc_notes": null
     },
     "parent_id": "ASCE7-22-10.4-F10-4-3C1"
-  },
-  {
-    "id": "ASCE7-22-10.9-H9",
-    "type": "heading",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 10,
-      "section": "10.9",
-      "citation": "Section 10.9",
-      "page": 14
-    },
-    "title": "Notes:",
-    "description": "",
-    "data": {
-      "rule": "Notes:",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-10.9-T127",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 10,
-      "section": "10.9",
-      "citation": "Section 10.9",
-      "page": 14
-    },
-    "title": "Values are nominal ice thicknesses, in inches, at 33 ft (10 m) above ground. Metric conversion: 1 in. = 25.4 mm.",
-    "description": "",
-    "data": {
-      "rule": "Values are nominal ice thicknesses, in inches, at 33 ft (10 m) above ground. Metric conversion: 1 in. = 25.4 mm.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-10.9-H11"
-  },
-  {
-    "id": "ASCE7-22-10.9-P20",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 10,
-      "section": "10.9",
-      "citation": "Section 10.9",
-      "page": 14
-    },
-    "title": "Linear interpolation between contours is permitted.",
-    "description": "",
-    "data": {
-      "rule": "Linear interpolation between contours is permitted.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-10.9-P21",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 10,
-      "section": "10.9",
-      "citation": "Section 10.9",
-      "page": 14
-    },
-    "title": "Islands, coastal areas, and land boundaries outside the last contour shall use the last contour.",
-    "description": "",
-    "data": {
-      "rule": "Islands, coastal areas, and land boundaries outside the last contour shall use the last contour.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-10.9-T128",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 10,
-      "section": "10.9",
-      "citation": "Section 10.9",
-      "page": 14
-    },
-    "title": "The shading indicates special icing regions, elevations above 1,600 ft (488 m) in Alaska, with sparse weather station data for determining design ice loads.",
-    "description": "",
-    "data": {
-      "rule": "The shading indicates special icing regions, elevations above 1,600 ft (488 m) in Alaska, with sparse weather station data for determining design ice loads.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-10.9-H11"
-  },
-  {
-    "id": "ASCE7-22-10.9-P22",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 10,
-      "section": "10.9",
-      "citation": "Section 10.9",
-      "page": 14
-    },
-    "title": "Location-speci fi c nominal ice thicknesses shall be permitted to be determined using the ASCE Atmospheric Ice Geodatabase, which can be accessed at the ASCE 7 Hazard Tool (https://asce7hazardtool.onl",
-    "description": "",
-    "data": {
-      "rule": "Location-speci fi c nominal ice thicknesses shall be permitted to be determined using the ASCE Atmospheric Ice Geodatabase, which can be accessed at the ASCE 7 Hazard Tool (https://asce7hazardtool.online/). \u20140.75 in- 0.5 in.- 0.25 in",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-10.4-F10-4-3C1",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 10,
-      "section": "10.4",
-      "citation": "Figure 10.4-3C",
-      "page": 14
-    },
-    "title": "Figure 10.4-3C. Nominal ice thicknesses caused by freezing rain for Alaska for Risk Category III (1,000-year mean",
-    "description": "Figure 10.4-3C. Nominal ice thicknesses caused by freezing rain for Alaska for Risk Category III (1,000-year mean",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 10.4-3C. Nominal ice thicknesses caused by freezing rain for Alaska for Risk Category III (1,000-year mean",
-      "source_pdf_page": 14
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
   },
   {
     "id": "ASCE7-22-10.9-T132",
@@ -4238,87 +3177,6 @@
     "parent_id": "ASCE7-22-10.4-F10-4-3D1"
   },
   {
-    "id": "ASCE7-22-10.9-H10",
-    "type": "heading",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 10,
-      "section": "10.9",
-      "citation": "Section 10.9",
-      "page": 15
-    },
-    "title": "Notes:",
-    "description": "",
-    "data": {
-      "rule": "Notes:",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-10.9-T140",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 10,
-      "section": "10.9",
-      "citation": "Section 10.9",
-      "page": 15
-    },
-    "title": "Values are nominal ice thicknesses, in inches, at 33 ft (10 m) above ground. Metric conversion: 1 in. = 25.4 mm.",
-    "description": "",
-    "data": {
-      "rule": "Values are nominal ice thicknesses, in inches, at 33 ft (10 m) above ground. Metric conversion: 1 in. = 25.4 mm.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-10.9-H11"
-  },
-  {
-    "id": "ASCE7-22-10.9-P23",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 10,
-      "section": "10.9",
-      "citation": "Section 10.9",
-      "page": 15
-    },
-    "title": "Linear interpolation between contours is permitted.",
-    "description": "",
-    "data": {
-      "rule": "Linear interpolation between contours is permitted.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-10.9-P24",
     "type": "provision",
     "source": {
@@ -4346,33 +3204,6 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-10.9-T141",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 10,
-      "section": "10.9",
-      "citation": "Section 10.9",
-      "page": 15
-    },
-    "title": "The shading indicates special icing regions, elevations above 1,600 ft (488 m) in Alaska, with sparse weather station data for determining design ice loads.",
-    "description": "",
-    "data": {
-      "rule": "The shading indicates special icing regions, elevations above 1,600 ft (488 m) in Alaska, with sparse weather station data for determining design ice loads.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-10.9-H11"
-  },
-  {
     "id": "ASCE7-22-10.9-P25",
     "type": "provision",
     "source": {
@@ -4396,31 +3227,6 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-10.4-F10-4-3D1",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 10,
-      "section": "10.4",
-      "citation": "Figure 10.4-3D",
-      "page": 15
-    },
-    "title": "Figure 10.4-3D. Nominal ice thicknesses caused by freezing rain for Alaska for Risk Category IV (1,400-year mean",
-    "description": "Figure 10.4-3D. Nominal ice thicknesses caused by freezing rain for Alaska for Risk Category IV (1,400-year mean",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 10.4-3D. Nominal ice thicknesses caused by freezing rain for Alaska for Risk Category IV (1,400-year mean",
-      "source_pdf_page": 15
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
     },
     "parent_id": null
   },
@@ -4452,33 +3258,6 @@
       "qc_notes": null
     },
     "parent_id": "ASCE7-22-10.4-F10-4-4A1"
-  },
-  {
-    "id": "ASCE7-22-10.9-T145",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 10,
-      "section": "10.9",
-      "citation": "Section 10.9",
-      "page": 16
-    },
-    "title": "Values are nominal ice thicknesses, in inches, at 33 ft (10 m) above ground. Metric conversion: 1 in.",
-    "description": "",
-    "data": {
-      "rule": "Values are nominal ice thicknesses, in inches, at 33 ft (10 m) above ground. Metric conversion: 1 in. 1.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-10.9-H11"
   },
   {
     "id": "ASCE7-22-10.9-P26",
@@ -4531,31 +3310,6 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-10.4-F10-4-41",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 10,
-      "section": "10.4",
-      "citation": "Figure 10.4-4",
-      "page": 16
-    },
-    "title": "Figure 10.4-4. A through D: Nominal ice thicknesses caused by freezing rain in the Columbia Gorge region.",
-    "description": "Figure 10.4-4. A through D: Nominal ice thicknesses caused by freezing rain in the Columbia Gorge region.",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 10.4-4. A through D: Nominal ice thicknesses caused by freezing rain in the Columbia Gorge region.",
-      "source_pdf_page": 16
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
     },
     "parent_id": null
   },
@@ -4672,33 +3426,6 @@
     "parent_id": "ASCE7-22-10.9-H11"
   },
   {
-    "id": "ASCE7-22-10.9-T157",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 10,
-      "section": "10.9",
-      "citation": "Section 10.9",
-      "page": 18
-    },
-    "title": "Values are nominal ice thicknesses, in inches, at 33 ft (10 m) above ground. Metric conversion: 1 in.",
-    "description": "",
-    "data": {
-      "rule": "Values are nominal ice thicknesses, in inches, at 33 ft (10 m) above ground. Metric conversion: 1 in. 25.4 mm. 2.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-10.9-H11"
-  },
-  {
     "id": "ASCE7-22-10.9-P29",
     "type": "provision",
     "source": {
@@ -4722,31 +3449,6 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-10.4-F10-4-51",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 10,
-      "section": "10.4",
-      "citation": "Figure 10.4-5",
-      "page": 18
-    },
-    "title": "Figure 10.4-5. A through D: Nominal ice thicknesses caused by freezing rain in the Lake Superior region.",
-    "description": "Figure 10.4-5. A through D: Nominal ice thicknesses caused by freezing rain in the Lake Superior region.",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 10.4-5. A through D: Nominal ice thicknesses caused by freezing rain in the Lake Superior region.",
-      "source_pdf_page": 18
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
     },
     "parent_id": null
   },
@@ -4834,33 +3536,6 @@
     "parent_id": "ASCE7-22-10.5-F10-5-11"
   },
   {
-    "id": "ASCE7-22-10.9-H11",
-    "type": "heading",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 10,
-      "section": "10.9",
-      "citation": "Section 10.9",
-      "page": 20
-    },
-    "title": "Notes:",
-    "description": "",
-    "data": {
-      "rule": "Notes:",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-10.9-T188",
     "type": "text_block",
     "source": {
@@ -4886,60 +3561,6 @@
       "qc_notes": null
     },
     "parent_id": "ASCE7-22-10.9-H11"
-  },
-  {
-    "id": "ASCE7-22-10.9-P31",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 10,
-      "section": "10.9",
-      "citation": "Section 10.9",
-      "page": 20
-    },
-    "title": "Linear interpolation between contours is permitted.",
-    "description": "",
-    "data": {
-      "rule": "Linear interpolation between contours is permitted.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-10.9-P32",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 10,
-      "section": "10.9",
-      "citation": "Section 10.9",
-      "page": 20
-    },
-    "title": "Islands, coastal areas, and land boundaries outside the last contour shall use the last contour.",
-    "description": "",
-    "data": {
-      "rule": "Islands, coastal areas, and land boundaries outside the last contour shall use the last contour.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
   },
   {
     "id": "ASCE7-22-10.9-P33",
@@ -5050,33 +3671,6 @@
     "parent_id": "ASCE7-22-10.9-H11"
   },
   {
-    "id": "ASCE7-22-10.9-P34",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 10,
-      "section": "10.9",
-      "citation": "Section 10.9",
-      "page": 21
-    },
-    "title": "Linear interpolation between contours is permitted.",
-    "description": "",
-    "data": {
-      "rule": "Linear interpolation between contours is permitted. 2.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-10.9-P35",
     "type": "provision",
     "source": {
@@ -5100,58 +3694,6 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-10.9-P36",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 10,
-      "section": "10.9",
-      "citation": "Section 10.9",
-      "page": 21
-    },
-    "title": "Location-speci fi c gust speed shall be permitted to be determined using the ASCE Atmospheric Ice Geodatabase, which can be accessed at the ASCE 7 Hazard Tool (https://",
-    "description": "",
-    "data": {
-      "rule": "Location-speci fi c gust speed shall be permitted to be determined using the ASCE Atmospheric Ice Geodatabase, which can be accessed at the ASCE 7 Hazard Tool (https:// 4. asce7hazardtool.online). 25 F",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-10.5-F10-5-21",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 10,
-      "section": "10.5",
-      "citation": "Figure 10.5-2",
-      "page": 21
-    },
-    "title": "Figure 10.5-2. Gust speeds concurrent with ice thicknesses from freezing rain; Alaska.",
-    "description": "Figure 10.5-2. Gust speeds concurrent with ice thicknesses from freezing rain; Alaska.",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 10.5-2. Gust speeds concurrent with ice thicknesses from freezing rain; Alaska.",
-      "source_pdf_page": 21
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
     },
     "parent_id": null
   },
@@ -5264,31 +3806,6 @@
       "qc_notes": null
     },
     "parent_id": "ASCE7-22-10.6-F10-6-21"
-  },
-  {
-    "id": "ASCE7-22-10.6-F10-6-21",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 10,
-      "section": "10.6",
-      "citation": "Figure 10.6-2",
-      "page": 23
-    },
-    "title": "Figure 10.6-2. Temperatures concurrent with ice thicknesses caused by freezing rain; Alaska.",
-    "description": "Figure 10.6-2. Temperatures concurrent with ice thicknesses caused by freezing rain; Alaska.",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 10.6-2. Temperatures concurrent with ice thicknesses caused by freezing rain; Alaska.",
-      "source_pdf_page": 23
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
   },
   {
     "id": "ASCE7-22-10.9-T248",

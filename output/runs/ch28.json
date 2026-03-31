@@ -1091,8 +1091,8 @@
           "source": "ASCE7-22-26.3-T78"
         },
         "q": {
-          "description": "qzT For external pressure on all walls evaluated at height z above the ground, lb/ft 2 (N/m 2 );",
-          "source": "ASCE7-22-32.17.2-T1"
+          "description": "Discharge per unit width over the overtopped structure, as illustrated in Figure 6.12-6 and calculated in accordance with Equation (6.12-5); and",
+          "source": "ASCE7-22-6.12.2.4.2-T7"
         }
       }
     },
@@ -2267,114 +2267,6 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-28-T2",
-    "type": "table",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 28,
-      "section": "28",
-      "citation": "",
-      "page": 3
-    },
-    "title": "Table",
-    "description": "",
-    "data": {
-      "columns": [
-        {
-          "name": "col_0",
-          "unit": null
-        },
-        {
-          "name": "Building Surface",
-          "unit": null
-        },
-        {
-          "name": "col_2",
-          "unit": null
-        },
-        {
-          "name": "col_3",
-          "unit": null
-        },
-        {
-          "name": "col_4",
-          "unit": null
-        },
-        {
-          "name": "col_5",
-          "unit": null
-        },
-        {
-          "name": "col_6",
-          "unit": null
-        },
-        {
-          "name": "col_7",
-          "unit": null
-        },
-        {
-          "name": "col_8",
-          "unit": null
-        },
-        {
-          "name": "col_9",
-          "unit": null
-        },
-        {
-          "name": "col_10",
-          "unit": null
-        },
-        {
-          "name": "col_11",
-          "unit": null
-        },
-        {
-          "name": "col_12",
-          "unit": null
-        }
-      ],
-      "rows": [
-        {
-          "col_0": "",
-          "Building Surface": 1,
-          "col_2": 2,
-          "col_3": 3,
-          "col_4": 4,
-          "col_5": 5,
-          "col_6": 6,
-          "col_7": "1E",
-          "col_8": "2E",
-          "col_9": "3E",
-          "col_10": "4E",
-          "col_11": "5E",
-          "col_12": "6E"
-        },
-        {
-          "col_0": "0-90",
-          "Building Surface": "0.45 -",
-          "col_2": "0.69 -",
-          "col_3": "0.37 -",
-          "col_4": "0.45 -",
-          "col_5": 0.4,
-          "col_6": "0.29 -",
-          "col_7": "0.48 -",
-          "col_8": "1.07 -",
-          "col_9": "0.53 -",
-          "col_10": "0.48 -",
-          "col_11": 0.61,
-          "col_12": "0.43 -"
-        }
-      ]
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "docling"
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-28.3-F28-3-11",
     "type": "figure",
     "source": {
@@ -2454,33 +2346,6 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-28.3.7-H8",
-    "type": "heading",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 28,
-      "section": "28.3.7",
-      "citation": "Section 28.3.7",
-      "page": 4
-    },
-    "title": "Notation",
-    "description": "",
-    "data": {
-      "rule": "Notation",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-28.3.7-T40",
     "type": "text_block",
     "source": {
@@ -2533,57 +2398,6 @@
       "qc_notes": null
     },
     "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-28.3.7-D2",
-    "type": "definition",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 28,
-      "section": "28.3.7",
-      "citation": "Section 28.3.7",
-      "page": 4
-    },
-    "title": "EXCEPTION: For buildings with \u03b8 = 0 to 7\u00b0 and a least horizontal dimension greater than 300 ft (90 m), dimension a shall be limited to a maximum of 0.8 h .",
-    "description": "",
-    "data": {
-      "term": "EXCEPTION",
-      "definition": "For buildings with \u03b8 = 0 to 7\u00b0 and a least horizontal dimension greater than 300 ft (90 m), dimension a shall be limited to a maximum of 0.8 h ."
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-28.3.7-T41",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 28,
-      "section": "28.3.7",
-      "citation": "Section 28.3.7",
-      "page": 4
-    },
-    "title": "\u03b8 = Angle of plane of roof from horizontal, in degrees.",
-    "description": "",
-    "data": {
-      "rule": "\u03b8 = Angle of plane of roof from horizontal, in degrees.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-28.3.7-H13"
   },
   {
     "id": "ASCE7-22-28.3.7-H9",
@@ -2640,87 +2454,6 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-28.3.7-H11",
-    "type": "heading",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 28,
-      "section": "28.3.7",
-      "citation": "Section 28.3.7",
-      "page": 4
-    },
-    "title": "Notes",
-    "description": "",
-    "data": {
-      "rule": "Notes",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-28.3.7-T42",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 28,
-      "section": "28.3.7",
-      "citation": "Section 28.3.7",
-      "page": 4
-    },
-    "title": "Plus and minus signs signify pressures acting toward and away from the surfaces, respectively.",
-    "description": "",
-    "data": {
-      "rule": "Plus and minus signs signify pressures acting toward and away from the surfaces, respectively.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-28.3.7-H13"
-  },
-  {
-    "id": "ASCE7-22-28.3.7-P4",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 28,
-      "section": "28.3.7",
-      "citation": "Section 28.3.7",
-      "page": 4
-    },
-    "title": "For values of \u03b8 other than those shown, linear interpolation is permitted.",
-    "description": "",
-    "data": {
-      "rule": "For values of \u03b8 other than those shown, linear interpolation is permitted.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-28.3.7-T43",
     "type": "text_block",
     "source": {
@@ -2748,160 +2481,6 @@
       "qc_notes": null
     },
     "parent_id": "ASCE7-22-28.3-F28-3-21"
-  },
-  {
-    "id": "ASCE7-22-28-T3",
-    "type": "table",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 28,
-      "section": "28",
-      "citation": "",
-      "page": 4
-    },
-    "title": "Table",
-    "description": "",
-    "data": {
-      "columns": [
-        {
-          "name": "col_0",
-          "unit": null
-        },
-        {
-          "name": "Building Surface",
-          "unit": null
-        },
-        {
-          "name": "col_2",
-          "unit": null
-        },
-        {
-          "name": "col_3",
-          "unit": null
-        },
-        {
-          "name": "col_4",
-          "unit": null
-        }
-      ],
-      "rows": [
-        {
-          "col_0": "Roof Angle \u03b8 (degrees)",
-          "Building Surface": "1T",
-          "col_2": "2T",
-          "col_3": "3T",
-          "col_4": "4T"
-        },
-        {
-          "col_0": "0-5",
-          "Building Surface": 0.1,
-          "col_2": -0.17,
-          "col_3": -0.09,
-          "col_4": -0.07
-        },
-        {
-          "col_0": 20,
-          "Building Surface": 0.13,
-          "col_2": -0.17,
-          "col_3": -0.12,
-          "col_4": -0.11
-        },
-        {
-          "col_0": "30-45",
-          "Building Surface": 0.14,
-          "col_2": 0.05,
-          "col_3": -0.11,
-          "col_4": -0.09
-        },
-        {
-          "col_0": 90,
-          "Building Surface": 0.14,
-          "col_2": 0.14,
-          "col_3": -0.09,
-          "col_4": -0.09
-        }
-      ]
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "docling"
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-28-T4",
-    "type": "table",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 28,
-      "section": "28",
-      "citation": "",
-      "page": 4
-    },
-    "title": "Table",
-    "description": "",
-    "data": {
-      "columns": [
-        {
-          "name": "col_0",
-          "unit": null
-        },
-        {
-          "name": "Building Surface",
-          "unit": null
-        },
-        {
-          "name": "col_2",
-          "unit": null
-        }
-      ],
-      "rows": [
-        {
-          "col_0": "Roof Angle \u03b8 (degrees)",
-          "Building Surface": "5T",
-          "col_2": "6T"
-        },
-        {
-          "col_0": "0-90",
-          "Building Surface": 0.1,
-          "col_2": -0.07
-        }
-      ]
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "docling"
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-28.3-F28-3-21",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 28,
-      "section": "28.3",
-      "citation": "Figure 28.3-2",
-      "page": 4
-    },
-    "title": "Figure 28.3-2. Torsional load cases for main wind force resisting system [h \u226460 ft (h \u226418.3 m)]: external pressure",
-    "description": "Figure 28.3-2. Torsional load cases for main wind force resisting system [h \u226460 ft (h \u226418.3 m)]: external pressure",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 28.3-2. Torsional load cases for main wind force resisting system [h \u226460 ft (h \u226418.3 m)]: external pressure",
-      "source_pdf_page": 4
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
   },
   {
     "id": "ASCE7-22-28.3.7-T47",
@@ -2946,33 +2525,6 @@
     "description": "",
     "data": {
       "rule": "Diagram",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-28.3.7-H13",
-    "type": "heading",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 28,
-      "section": "28.3.7",
-      "citation": "Section 28.3.7",
-      "page": 5
-    },
-    "title": "Notation",
-    "description": "",
-    "data": {
-      "rule": "Notation",
       "conditions": [],
       "then": "",
       "else": null,
@@ -3501,31 +3053,6 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-28.3-F28-3-31",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 28,
-      "section": "28.3",
-      "citation": "Figure 28.3-3",
-      "page": 5
-    },
-    "title": "Figure 28.3-3. Horizontal wind loads on open or partially enclosed buildings with transverse frames and pitched roofs:",
-    "description": "Figure 28.3-3. Horizontal wind loads on open or partially enclosed buildings with transverse frames and pitched roofs:",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 28.3-3. Horizontal wind loads on open or partially enclosed buildings with transverse frames and pitched roofs:",
-      "source_pdf_page": 5
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-28.3-E28-3-41",
     "type": "formula",
     "source": {
@@ -3541,8 +3068,8 @@
       "expression": "The total longitudinal force F to be resisted by the MWFRS shall be determined by Equation (28.3-4)",
       "parameters": {
         "F": {
-          "description": "0.12 \u00d7 slope, with slope expressed in percentage points) and, for an arch or dome, F is the rise-to-span ratio multiplied by 32",
-          "source": "ASCE7-22-4.8.2-T4"
+          "description": "1.0 for buildings that are one story above grade plane, 1.1 for buildings that are two stories above grade plane, and 1.2 for buildings that are three stories above grade plane;",
+          "source": "ASCE7-22-12.14.8.1-T1"
         }
       }
     },

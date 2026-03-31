@@ -814,9 +814,13 @@
     "data": {
       "expression": "Fx = Lateral seismic force, kips (kN) at level x , as prescribed by Equation (17.5-9)",
       "parameters": {
+        "Fx": {
+          "description": "Minimum design lateral force applied to level x of the structure and used for purposes of evaluating structural integrity in accordance with Section 1.4.2",
+          "source": "ASCE7-22-1.2.2-T2"
+        },
         "x": {
-          "description": "Horizontal distance inland from the Mean High Water (MHW) shoreline",
-          "source": "ASCE7-22-6.3-T90"
+          "description": "Number of shear walls in the building effective in resisting lateral forces in the direction under consideration",
+          "source": "ASCE7-22-12.8.2.1-T9"
         }
       }
     },
@@ -1983,8 +1987,8 @@
       "expression": "k eff = Effective stiffness [kip \u2215 in (kN \u2215 mm)] of an isolator unit, as prescribed by Equation (17.8-1)",
       "parameters": {
         "k": {
-          "description": "Effective stiffness of the impacting debris or the lateral stiffness of the impacted structural element",
-          "source": "ASCE7-22-6.3-T54"
+          "description": "Effective stiffness of the impacting debris or the lateral stiffness of the impacted structural element(s) deformed by the impact, whichever is less; and",
+          "source": "ASCE7-22-6.11.1-T4"
         }
       }
     },
@@ -2034,7 +2038,16 @@
     "description": "",
     "data": {
       "expression": "TM = Effective period of the seismically isolated structure at the displacement DM in the direction under consideration, as prescribed by Equation (17.5-2)",
-      "parameters": {}
+      "parameters": {
+        "DM": {
+          "description": "Maximum displacement [in. (mm)] at the center of rigidity of the isolation system in the direction under consideration, as prescribed by Equation (17.5-1);",
+          "source": "ASCE7-22-17.6.4.1-T1"
+        },
+        "TM": {
+          "description": "Effective period of the seismically isolated structure (s) at the displacement DM in the direction under consideration, as prescribed by Equation (17.5-2); and",
+          "source": "ASCE7-22-17.5.3.1-T4"
+        }
+      }
     },
     "cross_references": [],
     "metadata": {
@@ -2058,7 +2071,12 @@
     "description": "",
     "data": {
       "expression": "Vb = Total lateral seismic design force or shear on elements of the isolation system or elements below the isolation system [kips (kN)], as prescribed by Equation (17.5-5)",
-      "parameters": {}
+      "parameters": {
+        "Vb": {
+          "description": "Total lateral seismic design force or shear on elements of the isolation system or elements below the isolation system [kips (kN)], as prescribed by Equation (17.5-5)",
+          "source": "ASCE7-22-17.1.2-T23"
+        }
+      }
     },
     "cross_references": [],
     "metadata": {
@@ -2082,7 +2100,12 @@
     "description": "",
     "data": {
       "expression": "Vs = Total lateral seismic design force or shear on elements above the base level [kips (kN)], as prescribed by Equation (17.5-6)",
-      "parameters": {}
+      "parameters": {
+        "Vs": {
+          "description": "Total lateral seismic design force or shear on elements above the base level [kips (kN)], as prescribed by Equation (17.5-6) and the limits of Section 17.5.4.3",
+          "source": "ASCE7-22-17.1.2-T24"
+        }
+      }
     },
     "cross_references": [],
     "metadata": {
@@ -2106,7 +2129,12 @@
     "description": "",
     "data": {
       "expression": "Vst = Total unreduced lateral seismic design force or shear on elements above the base level [kips (kN)], as prescribed by Equation (17.5-7)",
-      "parameters": {}
+      "parameters": {
+        "Vst": {
+          "description": "Total unreduced lateral seismic design force or shear on elements above the base level [kips (kN)], as prescribed by Equation (17.5-7)",
+          "source": "ASCE7-22-17.1.2-T25"
+        }
+      }
     },
     "cross_references": [],
     "metadata": {
@@ -2132,8 +2160,16 @@
       "expression": "\u03b2 M = Effective damping of the isolation system at the displacement DM , as prescribed by Equation (17.2-4)",
       "parameters": {
         "M": {
-          "description": "Maximum inelastic response displacement considering torsion (Section 12.12.3)",
-          "source": "ASCE7-22-11.3-T156"
+          "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the MCER ground motions, Section 18.7.3.3",
+          "source": "ASCE7-22-18.1.3-T79"
+        },
+        "DM": {
+          "description": "Maximum displacement [in. (mm)] at the center of rigidity of the isolation system in the direction under consideration, as prescribed by Equation (17.5-1);",
+          "source": "ASCE7-22-17.6.4.1-T1"
+        },
+        "\u03b2": {
+          "description": "Fraction of critical damping for the coupled structure -foundation system, determined in Section 19.2.1",
+          "source": "ASCE7-22-11.3-T140"
         }
       }
     },
@@ -2159,7 +2195,12 @@
     "description": "",
     "data": {
       "expression": "\u03b2 eff = Effective damping of the isolation system, as prescribed by Equation (17.8-2)",
-      "parameters": {}
+      "parameters": {
+        "\u03b2": {
+          "description": "Fraction of critical damping for the coupled structure -foundation system, determined in Section 19.2.1",
+          "source": "ASCE7-22-11.3-T140"
+        }
+      }
     },
     "cross_references": [],
     "metadata": {
@@ -4119,17 +4160,9 @@
     "data": {
       "expression": "f the isolation system at the maximum displacement, DM , shall be computed using both upper bound and lower bound force-de fl ection behavior of individual isolator units, in accordance with Equation (17.2-3)",
       "parameters": {
-        "upper": {
-          "description": "Larger of the two orthogonal fundamental periods of vibration (Section 12.9.2). The mathematical model used to compute T upper shall not include accidental torsion and shall include P-delta effects",
-          "source": "ASCE7-22-11.3-P4"
-        },
-        "f": {
-          "description": "Radius of the circular foundation;",
-          "source": "ASCE7-22-19.3.4-T1"
-        },
-        "lower": {
-          "description": "Period of vibration at which 90% of the actual mass has been recovered in each of the two orthogonal directions of response (Section 12.9.2). The mathematical model used to compute T lower shall not include accidental torsion and shall include P-delta effects",
-          "source": "ASCE7-22-11.3-P3"
+        "DM": {
+          "description": "Maximum displacement [in. (mm)] at the center of rigidity of the isolation system in the direction under consideration, as prescribed by Equation (17.5-1);",
+          "source": "ASCE7-22-17.6.4.1-T1"
         }
       }
     },
@@ -4156,54 +4189,21 @@
     "data": {
       "expression": "This determination will require independent calculation of F 1 , Fx , Cvx , and k , per Equations (17.5-8)",
       "parameters": {
+        "k": {
+          "description": "Effective stiffness of the impacting debris or the lateral stiffness of the impacted structural element(s) deformed by the impact, whichever is less; and",
+          "source": "ASCE7-22-6.11.1-T4"
+        },
+        "Fx": {
+          "description": "Minimum design lateral force applied to level x of the structure and used for purposes of evaluating structural integrity in accordance with Section 1.4.2",
+          "source": "ASCE7-22-1.2.2-T2"
+        },
         "Cvx": {
           "description": "Vertical distribution factor as determined in Section 12.8.3",
           "source": "ASCE7-22-11.3-T24"
         },
         "F": {
-          "description": "0.12 \u00d7 slope, with slope expressed in percentage points) and, for an arch or dome, F is the rise-to-span ratio multiplied by 32",
-          "source": "ASCE7-22-4.8.2-T4"
-        },
-        "k": {
-          "description": "Effective stiffness of the impacting debris or the lateral stiffness of the impacted structural element",
-          "source": "ASCE7-22-6.3-T54"
-        }
-      }
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "from_text"
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-17.5-E17-5-111",
-    "type": "formula",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 17,
-      "section": "17.5",
-      "citation": "Eq. (17.5-11)",
-      "page": 5
-    },
-    "title": "Equation (17.5-11)",
-    "description": "",
-    "data": {
-      "expression": "This determination will require independent calculation of F 1 , Fx , Cvx , and k , per Equations (17.5-8) through (17.5-11)",
-      "parameters": {
-        "Cvx": {
-          "description": "Vertical distribution factor as determined in Section 12.8.3",
-          "source": "ASCE7-22-11.3-T24"
-        },
-        "F": {
-          "description": "0.12 \u00d7 slope, with slope expressed in percentage points) and, for an arch or dome, F is the rise-to-span ratio multiplied by 32",
-          "source": "ASCE7-22-4.8.2-T4"
-        },
-        "k": {
-          "description": "Effective stiffness of the impacting debris or the lateral stiffness of the impacted structural element",
-          "source": "ASCE7-22-6.3-T54"
+          "description": "1.0 for buildings that are one story above grade plane, 1.1 for buildings that are two stories above grade plane, and 1.2 for buildings that are three stories above grade plane;",
+          "source": "ASCE7-22-12.14.8.1-T1"
         }
       }
     },
@@ -5787,8 +5787,8 @@
       "expression": "C = P x x (17.5-10)",
       "parameters": {
         "x": {
-          "description": "Horizontal distance inland from the Mean High Water (MHW) shoreline",
-          "source": "ASCE7-22-6.3-T90"
+          "description": "Number of shear walls in the building effective in resisting lateral forces in the direction under consideration",
+          "source": "ASCE7-22-12.8.2.1-T9"
         }
       }
     },
@@ -7922,33 +7922,6 @@
       "qc_notes": null
     },
     "parent_id": "ASCE7-22-17.8.2.2-H1"
-  },
-  {
-    "id": "ASCE7-22-17.8.2.2-P3",
-    "type": "provision",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 17,
-      "section": "17.8.2.2",
-      "citation": "Section 17.8.2.2",
-      "page": 10
-    },
-    "title": "The sequence of either Item (a) or Item (b) shall be performed:",
-    "description": "",
-    "data": {
-      "rule": "The sequence of either Item (a) or Item (b) shall be performed:",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": null
   },
   {
     "id": "ASCE7-22-17.8.2.2-T4",

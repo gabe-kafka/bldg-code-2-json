@@ -646,33 +646,6 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-12.2.1-T3",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 12,
-      "section": "12.2.1",
-      "citation": "Section 12.2.1",
-      "page": 4
-    },
-    "title": "Downloaded from ascelibrary.org by Serge Terentieff on 03/10/22. Copyright ASCE. For personal use only; all rights reserved.",
-    "description": "",
-    "data": {
-      "rule": "Downloaded from ascelibrary.org by Serge Terentieff on 03/10/22. Copyright ASCE. For personal use only; all rights reserved.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-12.2.1-H6"
-  },
-  {
     "id": "ASCE7-22-12.2.1-T4",
     "type": "text_block",
     "source": {
@@ -1523,102 +1496,6 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": "topic"
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-12.2-T12-2-12",
-    "type": "table",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 12,
-      "section": "12.2",
-      "citation": "Table 12.2-1",
-      "page": 4
-    },
-    "title": "Table 12.2-1 (Continued) . Design Coefficients and Factors for Seismic Force-Resisting Systems.",
-    "description": "",
-    "data": {
-      "columns": [
-        {
-          "name": "Limitations Including Structural Height, h n , Limits (ft) d",
-          "unit": null
-        },
-        {
-          "name": "F f",
-          "unit": null
-        },
-        {
-          "name": "col_2",
-          "unit": null
-        },
-        {
-          "name": "NP NP NP NP NP NP 35 NP l 35 NP NP NP NP",
-          "unit": null
-        }
-      ],
-      "rows": [
-        {
-          "Limitations Including Structural Height, h n , Limits (ft) d": "System",
-          "F f": "E e",
-          "col_2": "NP 100 NP NP NP NP",
-          "NP NP NP NP NP NP 35 NP l 35 NP NP NP NP": "35 NP l 35 NP NP NP NP"
-        },
-        {
-          "Limitations Including Structural Height, h n , Limits (ft) d": "Design Category",
-          "F f": "D e",
-          "col_2": "NP 160 NP NP NP NP",
-          "NP NP NP NP NP NP 35 NP l 35 NP NP NP NP": "35 NP l 35 NP NP 35 NP"
-        },
-        {
-          "Limitations Including Structural Height, h n , Limits (ft) d": "Seismic",
-          "F f": "C",
-          "col_2": "NL NL NL NL NL NP",
-          "NP NP NP NP NP NP 35 NP l 35 NP NP NP NP": "35 35 35 35 NP 35 NL"
-        },
-        {
-          "Limitations Including Structural Height, h n , Limits (ft) d": "Structural",
-          "F f": "B",
-          "col_2": "NL NL NL NL NL NL",
-          "NP NP NP NP NP NP 35 NP l 35 NP NP NP NP": "35 35 35 35 35 35 NL"
-        },
-        {
-          "Limitations Including Structural Height, h n , Limits (ft) d": "Deflection Amplification Factor, C d c",
-          "F f": "",
-          "col_2": "3 4\u00bd 3 4\u00bd 4\u00bd 4",
-          "NP NP NP NP NP NP 35 NP l 35 NP NP NP NP": "2\u00bd 1\u00bc 2\u00bd 1\u00bd 1 1\u00bd 3"
-        },
-        {
-          "Limitations Including Structural Height, h n , Limits (ft) d": "Overstrength Factor, \u03a9 0 b",
-          "F f": "",
-          "col_2": "3 2\u00bd 2\u00bd 3 2\u00bd 2\u00bd",
-          "NP NP NP NP NP NP 35 NP l 35 NP NP NP NP": "2\u00bd 1\u00bc 2\u00bd 1\u00bd 1\u00bc 1\u00bd 3"
-        },
-        {
-          "Limitations Including Structural Height, h n , Limits (ft) d": "Response Modification Coefficient, R a",
-          "F f": "",
-          "col_2": "3\u00bd 5\u00bd 3\u00bd 5 5\u00bd 4\u00bd",
-          "NP NP NP NP NP NP 35 NP l 35 NP NP NP NP": "2\u00bd 1\u00bc 2\u00bd 1\u00bd 1 1\u00bd 3"
-        },
-        {
-          "Limitations Including Structural Height, h n , Limits (ft) d": "ASCE 7 Section Where Detailing Requirements Are Specified",
-          "F f": "",
-          "col_2": "14.4 14.3 14.3 14.3 14.2 12.2.5.8 and 14.2",
-          "NP NP NP NP NP NP 35 NP l 35 NP NP NP NP": "12.2.5.2 14.1 14.1 12.2.5.5 and 14.2 14.2 14.2 14.5 14.1"
-        },
-        {
-          "Limitations Including Structural Height, h n , Limits (ft) d": "Force-Resisting System",
-          "F f": "Seismic",
-          "col_2": "4. Intermediate reinforced masonry shear walls 5. Steel and concrete composite special concentrically braced frames 6. Steel and concrete composite ordinary braced frames 7. Steel and concrete composite ordinary shear walls 8. Ordinary reinforced concrete shear walls g F. SHEAR WALL-FRAME INTERACTIVE SYSTEM WITH ORDINARY REINFORCED CONCRETE MOMENT FRAMES AND ORDINARY REINFORCED g CANTILEVERED COLUMN CONFORM TO THE REQUIREMENTS",
-          "NP NP NP NP NP NP 35 NP l 35 NP NP NP NP": "CONCRETE SHEAR WALLS G. SYSTEMS DETAILED TO FOR: 1. Steel special cantilever column systems 2. Steel ordinary cantilever column systems 3. Special reinforced concrete moment frames m 4. Intermediate reinforced concrete moment frames 5. Ordinary reinforced concrete moment frames 6. Timber frames H. STEEL SYSTEMS NOT SPECIFICALLY DETAILED FOR SEISMICRESISTANCE,EXCLUDINGCANTILEVERCOLUMN SYSTEMS"
-        }
-      ]
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "docling"
     },
     "parent_id": null
   },
@@ -3406,12 +3283,7 @@
     "description": "",
     "data": {
       "expression": "MDD >2 (12.3-1)",
-      "parameters": {
-        "MDD": {
-          "description": "Computed maximum in-plane de fl ection of the diaphragm under lateral load, in. (mm) (Figure 12.3-1)",
-          "source": "ASCE7-22-11.3-T154"
-        }
-      }
+      "parameters": {}
     },
     "cross_references": [],
     "metadata": {
@@ -4381,78 +4253,6 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-12.3-T12-3-12",
-    "type": "table",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 12,
-      "section": "12.3",
-      "citation": "Table 12.3-1",
-      "page": 9
-    },
-    "title": "Table 12.3-1. Horizontal Structural Irregularities.",
-    "description": "",
-    "data": {
-      "columns": [
-        {
-          "name": "Horizontal Torsional Irregularity (TIR)",
-          "unit": null
-        },
-        {
-          "name": "Seismic Design Category",
-          "unit": null
-        },
-        {
-          "name": "Reference Section",
-          "unit": null
-        },
-        {
-          "name": "Description a",
-          "unit": null
-        }
-      ],
-      "rows": [
-        {
-          "Horizontal Torsional Irregularity (TIR)": "> 1.2 b",
-          "Seismic Design Category": "B, C, D, E, F",
-          "Reference Section": "15.4.1 16.3.4 17.2.2 18.2.3.2",
-          "Description a": "Inclusion of accidental torsion in nonbuilding structures not similar to buildings Mass offset in Nonlinear Response History analysis Irregularities in Seismically Isolated Buildings Applicability of Equivalent Lateral Force Procedure for structures with damping"
-        },
-        {
-          "Horizontal Torsional Irregularity (TIR)": "> 1.4",
-          "Seismic Design Category": "D, E, F B, C, D, E, F D, E, F D, E, F",
-          "Reference Section": "12.3.3.4 18.2.1.1 12.2.5.4 12.5.4",
-          "Description a": "deformation compatibility must be computed at the edge with the largest drift. Ampli fi cation of design force for collectors, their connections, and connections of diaphragms to collectors or vertical elements of the seismic force-resisting system (SFRS) Minimum seismic base shear for structures with damping systems Increased structural height limits not allowed for certain systems"
-        },
-        {
-          "Horizontal Torsional Irregularity (TIR)": "",
-          "Seismic Design Category": "",
-          "Reference Section": "",
-          "Description a": "Use of orthogonal load combinations"
-        },
-        {
-          "Horizontal Torsional Irregularity (TIR)": "> 1.4 in both directions",
-          "Seismic Design Category": "D, E, F",
-          "Reference Section": "12.8.4.2 12.3.4.2.1",
-          "Description a": "Include accidental torsion Criteria for setting redundancy factor = 1.3"
-        },
-        {
-          "Horizontal Torsional Irregularity (TIR)": "> 1.6",
-          "Seismic Design Category": "D, E, F",
-          "Reference Section": "12.9.1.5",
-          "Description a": "Restrictions on use mass offset for accidental torsion in Modal Response Spectrum analysis"
-        }
-      ]
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "docling"
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-12.3.2.1.1-T9",
     "type": "text_block",
     "source": {
@@ -4473,35 +4273,6 @@
     },
     "cross_references": [
       "ASCE7-22-12.3-F12-3-21"
-    ],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-12.3.2-H1"
-  },
-  {
-    "id": "ASCE7-22-12.3.2.1.1-T10",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 12,
-      "section": "12.3.2.1.1",
-      "citation": "Section 12.3.2.1.1",
-      "page": 10
-    },
-    "title": "* See Section 12.8.1.3 for requirement for any structure with an irregularity listed in this table.",
-    "description": "",
-    "data": {
-      "rule": "* See Section 12.8.1.3 for requirement for any structure with an irregularity listed in this table.",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [
-      "ASCE7-22-12.8.1.3-P1"
     ],
     "metadata": {
       "extracted_by": "auto",
@@ -4932,96 +4703,6 @@
       "extracted_by": "auto",
       "qc_status": "pending",
       "qc_notes": "sub_definition"
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-12.3-T12-3-21",
-    "type": "table",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 12,
-      "section": "12.3",
-      "citation": "Table 12.3-2",
-      "page": 10
-    },
-    "title": "Table 12.3-2. Vertical Structural Irregularities.",
-    "description": "",
-    "data": {
-      "columns": [
-        {
-          "name": "Type",
-          "unit": null
-        },
-        {
-          "name": "Description",
-          "unit": null
-        },
-        {
-          "name": "Reference Section*",
-          "unit": null
-        },
-        {
-          "name": "Seismic Design Category Application",
-          "unit": null
-        }
-      ],
-      "rows": [
-        {
-          "Type": "1a.",
-          "Description": "Stiffness - Soft Story Irregularity is de fi ned to exist where there is a story in which the lateral stiffness is less than 70% of that in the story above or, where there are at least three stories above, less than 80% of the average stiffness of the three stories above.",
-          "Reference Section*": "-",
-          "Seismic Design Category Application": "-"
-        },
-        {
-          "Type": "1b.",
-          "Description": "Stiffness - Extreme Soft Story Irregularity is de fi ned to exist where there is a story in which the lateral stiffness is less than 60% of that in the story above or, where there are at least three stories above, less than 70% of the average stiffness of the three stories above.",
-          "Reference Section*": "12.3.3.1",
-          "Seismic Design Category Application": "E, F"
-        },
-        {
-          "Type": 2.0,
-          "Description": "Vertical Geometric Irregularity is de fi ned to exist where the horizontal dimension of the seismic force-resisting system in any story is more than 130% of that in an adjacent story.",
-          "Reference Section*": "-",
-          "Seismic Design Category Application": "-"
-        },
-        {
-          "Type": 3.0,
-          "Description": "In-Plane Discontinuity in Vertical Lateral Force-Resisting Element Irregularity is de fi ned to exist where there is an in-plane offset of a vertical seismic force-resisting element resulting in overturning demands on supporting structural elements.",
-          "Reference Section*": "12.3.3.4 12.3.3.5",
-          "Seismic Design Category Application": "B, C, D, E, F D, E, F"
-        },
-        {
-          "Type": "4a.",
-          "Description": "Discontinuity in Lateral Strength - Weak Story Irregularity is de fi ned to exist where the story lateral strength is less than that in the story above. The story lateral strength is the total lateral strength of all seismic force-resisting system elements resisting the story shear for the direction under consideration.",
-          "Reference Section*": "12.3.3.1",
-          "Seismic Design Category Application": "E, F"
-        },
-        {
-          "Type": "4b.",
-          "Description": "Discontinuity in Lateral Strength - Extreme Weak Story Irregularity is de fi ned to exist where the story lateral strength is less than 65% of that in the story above. The story lateral strength is the total lateral strength of all",
-          "Reference Section*": "12.3.3.1",
-          "Seismic Design Category Application": "E, F"
-        },
-        {
-          "Type": "",
-          "Description": "",
-          "Reference Section*": "12.3.3.2",
-          "Seismic Design Category Application": "D"
-        },
-        {
-          "Type": "",
-          "Description": "seismic force-resisting system elements resisting the story shear for the direction under consideration.",
-          "Reference Section*": "12.3.3.3",
-          "Seismic Design Category Application": "B, C"
-        }
-      ]
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "docling"
     },
     "parent_id": null
   },
@@ -5843,44 +5524,6 @@
     "parent_id": "ASCE7-22-12.4-H1"
   },
   {
-    "id": "ASCE7-22-12.3-T12-3-31",
-    "type": "table",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 12,
-      "section": "12.3",
-      "citation": "Table 12.3-3",
-      "page": 11
-    },
-    "title": "For each story where the story shear is greater than 35% of the base shear in the direction of interest, the following conditions shall be met with the notional removal of any lateral force resisting",
-    "description": "",
-    "data": {
-      "columns": [
-        {
-          "name": "Lateral Force-Resisting Element",
-          "unit": null
-        },
-        {
-          "name": "Condition",
-          "unit": null
-        }
-      ],
-      "rows": [
-        {
-          "Lateral Force-Resisting Element": "Braced frames, Light-frame walls with fl at strap bracing Moment frames Shear walls or wall piers with a height-to-length ratio greater than 1.0 Cantilever columns",
-          "Condition": "Removal of an individual brace, or connection thereto Loss of moment resistance at the beam-to-column connections at both ends of a single beam Removal of a shear wall bay, or wall pier, with a height-to-length ratio greater than 1.0, or connections thereto. The shear wall and wall pier height-to-length ratios are determined as shown in Figure 12.3-2. A shear wall bay is de fi ned as the length of the wall divided by the story height (rounded down). Loss of moment resistance at the base of any single cantilever column"
-        }
-      ]
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "docling"
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-12.10-E12-10-11",
     "type": "formula",
     "source": {
@@ -5929,30 +5572,6 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-12.10-E12-10-31",
-    "type": "formula",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 12,
-      "section": "12.10",
-      "citation": "Eq. (12.10-3)",
-      "page": 11
-    },
-    "title": "Equation (12.10-3)",
-    "description": "",
-    "data": {
-      "expression": "Diaphragm seismic design forces determined using Equation (12.10-1), including the limits imposed by Equations (12.10-2) and (12.10-3)",
-      "parameters": {}
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "from_text"
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-12.4-E12-4-11",
     "type": "formula",
     "source": {
@@ -5968,8 +5587,8 @@
       "expression": "12.4.2 Seismic Load Effect The seismic load effect, E , includes effects of both horizontal and vertical ground motions as shown in Eq. (12.4-1)",
       "parameters": {
         "E": {
-          "description": "Array edge factor for use with rooftop solar panels in Figure 29.4-7 and Equations (29.4-4) and (29.4-5)",
-          "source": "ASCE7-22-26.3-T112"
+          "description": "f \u00f0 Ev ; Eh \u00de , defi ned in Sections 12.4.2 or 12.14.3.1, is combined with the effects of other loads, the following seismic load combinations shall be used:",
+          "source": "ASCE7-22-2.3.6-H2"
         }
       }
     },
@@ -6769,8 +6388,8 @@
       "expression": "12.4.3.1 Horizontal Seismic Load Effect Including Overstrength The effect of horizontal seismic forces including overstrength, Emh , shall be determined in accordance with Equation (12.4-7)",
       "parameters": {
         "Emh": {
-          "description": "Horizontal Seismic Load Effect, including overstrength factor, de fi ned in Section 12.4.3.1",
-          "source": "ASCE7-22-6.3-T24"
+          "description": "The effect of horizontal seismic forces, including overstrength, as de fi ned in Section 12.14.3.2.1 or 12.14.3.2.2; and",
+          "source": "ASCE7-22-12.14.3.2-T3"
         }
       }
     },
@@ -6798,13 +6417,12 @@
       "expression": "12.4.2.2 Vertical Seismic Load Effect The vertical seismic load effect, Ev , shall be determined in accordance with Equation (12.4-4a)",
       "parameters": {
         "a": {
-          "description": "Approximate lower bound natural frequency from Section 26.11.2",
-          "unit": "Hz",
-          "source": "ASCE7-22-26.3-T77"
+          "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
+          "source": "ASCE7-22-28.3.7-T22"
         },
         "Ev": {
-          "description": "0.3 SavD ",
-          "source": "ASCE7-22-0.2-T2093"
+          "description": "The vertical seismic load effect as de fi ned in Section 12.14.3.1.2",
+          "source": "ASCE7-22-12.14.3.2-T4"
         }
       }
     },
@@ -6832,12 +6450,12 @@
       "expression": "of vertical seismic ground motions using the provisions of Section 11.9 is required elsewhere in this standard, the vertical seismic load effect, Ev , shall be determined in accordance with Equation (12.4-4b)",
       "parameters": {
         "b": {
-          "description": "Mean hourly wind speed factor in Equation (26.1116), from Table 26.11-1",
-          "source": "ASCE7-22-26.3-T15"
+          "description": "Shortest plan dimension of the structure [ft (mm)] measured perpendicular to d ;",
+          "source": "ASCE7-22-17.5.3.3-T5"
         },
         "Ev": {
-          "description": "0.3 SavD ",
-          "source": "ASCE7-22-0.2-T2093"
+          "description": "The vertical seismic load effect as de fi ned in Section 12.14.3.1.2",
+          "source": "ASCE7-22-12.14.3.2-T4"
         }
       }
     },
@@ -6865,9 +6483,8 @@
       "expression": "(a) In Equations (12.4-1), (12.4-2), (12.4-5)",
       "parameters": {
         "a": {
-          "description": "Approximate lower bound natural frequency from Section 26.11.2",
-          "unit": "Hz",
-          "source": "ASCE7-22-26.3-T77"
+          "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
+          "source": "ASCE7-22-28.3.7-T22"
         }
       }
     },
@@ -6895,9 +6512,8 @@
       "expression": "(a) In Equations (12.4-1), (12.4-2), (12.4-5), and (12.4-6)",
       "parameters": {
         "a": {
-          "description": "Approximate lower bound natural frequency from Section 26.11.2",
-          "unit": "Hz",
-          "source": "ASCE7-22-26.3-T77"
+          "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
+          "source": "ASCE7-22-28.3.7-T22"
         }
       }
     },
@@ -7854,9 +7470,12 @@
       "expression": "deformations corresponding to the design story drift (\u0394) as C = (cid:1)D1(cid:3) (12.8-4)",
       "parameters": {
         "D": {
-          "description": "Diameter of a circular structure or member, as de fi ned in Chapter 29",
-          "unit": "ft",
-          "source": "ASCE7-22-10.3-T3"
+          "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the design earthquake ground motions, Section 18.7.3.3 \u03bc",
+          "source": "ASCE7-22-18.1.3-T79"
+        },
+        "\u0394": {
+          "description": "Design story drift as determined in Section 12.8.6 \u0394",
+          "source": "ASCE7-22-11.3-T144"
         }
       }
     },
@@ -7883,15 +7502,13 @@
     "data": {
       "expression": "C = D(cid:1)1 L(cid:3) (12.8-5)",
       "parameters": {
-        "L": {
-          "description": "Horizontal dimension of a building measured parallel to the wind direction",
-          "unit": "ft",
-          "source": "ASCE7-22-26.3-T64"
-        },
         "D": {
-          "description": "Diameter of a circular structure or member, as de fi ned in Chapter 29",
-          "unit": "ft",
-          "source": "ASCE7-22-10.3-T3"
+          "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the design earthquake ground motions, Section 18.7.3.3 \u03bc",
+          "source": "ASCE7-22-18.1.3-T79"
+        },
+        "L": {
+          "description": "Inside length of a rectangular tank, parallel to the direction of the earthquake force being investigated;",
+          "source": "ASCE7-22-15.7.6.2-T3"
         }
       }
     },
@@ -7924,7 +7541,7 @@
         },
         "V": {
           "description": "Basic wind speed obtained from Figures 26.5-1A through 26.5-1D, mi/h (m/s); the basic wind speed corresponds to a 3 s gust speed at 33 ft (10 m) above the ground in Exposure Category C",
-          "source": "ASCE7-22-26.3-T95"
+          "source": "ASCE7-22-26.3-T94"
         }
       }
     },
@@ -8285,62 +7902,6 @@
     "description": "",
     "data": {
       "rule": "SDS = Design spectral response acceleration parameter in the short period range as determined from Section 11.4.5 or 11.4.8;",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-12.8.1.1-H1"
-  },
-  {
-    "id": "ASCE7-22-12.8.1.1-T7",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 12,
-      "section": "12.8.1.1",
-      "citation": "Section 12.8.1.1",
-      "page": 14
-    },
-    "title": "R = Response modi fi cation factor in Table 12.2-1; and",
-    "description": "",
-    "data": {
-      "rule": "R = Response modi fi cation factor in Table 12.2-1; and",
-      "conditions": [],
-      "then": "",
-      "else": null,
-      "exceptions": []
-    },
-    "cross_references": [
-      "ASCE7-22-12.2-T12-2-12"
-    ],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": null
-    },
-    "parent_id": "ASCE7-22-12.8.1.1-H1"
-  },
-  {
-    "id": "ASCE7-22-12.8.1.1-T8",
-    "type": "text_block",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 12,
-      "section": "12.8.1.1",
-      "citation": "Section 12.8.1.1",
-      "page": 14
-    },
-    "title": "I e = Importance Factor determined in accordance with Section 11.5.1.",
-    "description": "",
-    "data": {
-      "rule": "I e = Importance Factor determined in accordance with Section 11.5.1.",
       "conditions": [],
       "then": "",
       "else": null,
@@ -8886,8 +8447,8 @@
       "expression": "Method 1: The seismic response coef fi cient, Cs , shall be determined in accordance with Equation (12.8-2)",
       "parameters": {
         "Cs": {
-          "description": "Seismic response coef fi cient determined in Section 12.8.1.1 or 19.3.1 (dimensionless)",
-          "source": "ASCE7-22-11.3-T19"
+          "description": "Seismic response coef fi cient determined in accordance with Section 12.8.1.1, assuming a fi xed structural base at the foundation -soil interface;",
+          "source": "ASCE7-22-19.2.1-T7"
         }
       }
     },
@@ -8915,8 +8476,8 @@
       "expression": "The value of Cs computed in accordance with Equation (12.8-3)",
       "parameters": {
         "Cs": {
-          "description": "Seismic response coef fi cient determined in Section 12.8.1.1 or 19.3.1 (dimensionless)",
-          "source": "ASCE7-22-11.3-T19"
+          "description": "Seismic response coef fi cient determined in accordance with Section 12.8.1.1, assuming a fi xed structural base at the foundation -soil interface;",
+          "source": "ASCE7-22-19.2.1-T7"
         }
       }
     },
@@ -8945,15 +8506,15 @@
       "parameters": {
         "V": {
           "description": "Basic wind speed obtained from Figures 26.5-1A through 26.5-1D, mi/h (m/s); the basic wind speed corresponds to a 3 s gust speed at 33 ft (10 m) above the ground in Exposure Category C",
-          "source": "ASCE7-22-26.3-T95"
+          "source": "ASCE7-22-26.3-T94"
         },
         "T": {
-          "description": "Fundamental period as determined in Chapter 19",
-          "source": "ASCE7-22-11.3-T105"
+          "description": "Cumulative effect of self-straining forces and effects arising from contraction or expansion resulting from environmental or operational temperature changes, shrinkage, moisture changes, creep in component materials, movement caused by differential settlement, or combinations thereof",
+          "source": "ASCE7-22-2.2-T13"
         },
         "F": {
-          "description": "0.12 \u00d7 slope, with slope expressed in percentage points) and, for an arch or dome, F is the rise-to-span ratio multiplied by 32",
-          "source": "ASCE7-22-4.8.2-T4"
+          "description": "1.0 for buildings that are one story above grade plane, 1.1 for buildings that are two stories above grade plane, and 1.2 for buildings that are three stories above grade plane;",
+          "source": "ASCE7-22-12.14.8.1-T1"
         }
       }
     },
@@ -8981,8 +8542,8 @@
       "expression": "12.8.2.1 Approximate Fundamental Period The approximate C = P x x (12.8-13)",
       "parameters": {
         "x": {
-          "description": "Horizontal distance inland from the Mean High Water (MHW) shoreline",
-          "source": "ASCE7-22-6.3-T90"
+          "description": "Number of shear walls in the building effective in resisting lateral forces in the direction under consideration",
+          "source": "ASCE7-22-12.8.2.1-T9"
         }
       }
     },
@@ -9010,8 +8571,8 @@
       "expression": "T =Chx (12.8-8)",
       "parameters": {
         "T": {
-          "description": "Fundamental period as determined in Chapter 19",
-          "source": "ASCE7-22-11.3-T105"
+          "description": "Cumulative effect of self-straining forces and effects arising from contraction or expansion resulting from environmental or operational temperature changes, shrinkage, moisture changes, creep in component materials, movement caused by differential settlement, or combinations thereof",
+          "source": "ASCE7-22-2.2-T13"
         }
       }
     },
@@ -9038,13 +8599,13 @@
     "data": {
       "expression": "T = 0.1N (12.8-9)",
       "parameters": {
-        "T": {
-          "description": "Fundamental period as determined in Chapter 19",
-          "source": "ASCE7-22-11.3-T105"
-        },
         "N": {
           "description": "Average fi eld standard penetration resistance for the top 100 ft (30 m) (Sections 20.3.3 and 20.4.2)",
           "source": "ASCE7-22-11.3-T73"
+        },
+        "T": {
+          "description": "Cumulative effect of self-straining forces and effects arising from contraction or expansion resulting from environmental or operational temperature changes, shrinkage, moisture changes, creep in component materials, movement caused by differential settlement, or combinations thereof",
+          "source": "ASCE7-22-2.2-T13"
         }
       }
     },
@@ -9071,17 +8632,17 @@
     "data": {
       "expression": "T = pffiffiqffiffiffiffih (12.8-10) V = F (12.8-14)",
       "parameters": {
-        "T": {
-          "description": "Fundamental period as determined in Chapter 19",
-          "source": "ASCE7-22-11.3-T105"
-        },
-        "F": {
-          "description": "0.12 \u00d7 slope, with slope expressed in percentage points) and, for an arch or dome, F is the rise-to-span ratio multiplied by 32",
-          "source": "ASCE7-22-4.8.2-T4"
-        },
         "V": {
           "description": "Basic wind speed obtained from Figures 26.5-1A through 26.5-1D, mi/h (m/s); the basic wind speed corresponds to a 3 s gust speed at 33 ft (10 m) above the ground in Exposure Category C",
-          "source": "ASCE7-22-26.3-T95"
+          "source": "ASCE7-22-26.3-T94"
+        },
+        "T": {
+          "description": "Cumulative effect of self-straining forces and effects arising from contraction or expansion resulting from environmental or operational temperature changes, shrinkage, moisture changes, creep in component materials, movement caused by differential settlement, or combinations thereof",
+          "source": "ASCE7-22-2.2-T13"
+        },
+        "F": {
+          "description": "1.0 for buildings that are one story above grade plane, 1.1 for buildings that are two stories above grade plane, and 1.2 for buildings that are three stories above grade plane;",
+          "source": "ASCE7-22-12.14.8.1-T1"
         }
       }
     },
@@ -9812,74 +9373,6 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-12.8-T12-8-12",
-    "type": "table",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 12,
-      "section": "12.8",
-      "citation": "Table 12.8-1",
-      "page": 15
-    },
-    "title": "Table 12.8-1. Coefficient for Upper Limit on Calculated Period.",
-    "description": "",
-    "data": {
-      "columns": [
-        {
-          "name": "Structure Type",
-          "unit": null
-        },
-        {
-          "name": "C t",
-          "unit": null
-        },
-        {
-          "name": "x",
-          "unit": null
-        }
-      ],
-      "rows": [
-        {
-          "Structure Type": "Moment-resisting frame systems in which the frames resist 100% of the required seismic force and are not enclosed or adjoined by components that are more rigid and will prevent the frames from de fl ecting where subjected to seismic forces:",
-          "C t": "",
-          "x": ""
-        },
-        {
-          "Structure Type": "Steel moment-resisting frames",
-          "C t": "0.028 (0.0724) *",
-          "x": 0.8
-        },
-        {
-          "Structure Type": "Concrete moment-resisting frames",
-          "C t": "0.016 (0.0466) *",
-          "x": 0.9
-        },
-        {
-          "Structure Type": "Steel eccentrically braced frames in accordance with Table 12.2-1, line B1 or D1",
-          "C t": "0.03 (0.0731) *",
-          "x": 0.75
-        },
-        {
-          "Structure Type": "Steel buckling-restrained braced frames",
-          "C t": "0.03 (0.0731) *",
-          "x": 0.75
-        },
-        {
-          "Structure Type": "All other structural systems",
-          "C t": "0.02 (0.0488) *",
-          "x": 0.75
-        }
-      ]
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "docling"
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-12.8-E12-8-101",
     "type": "formula",
     "source": {
@@ -9894,17 +9387,13 @@
     "data": {
       "expression": "The approximate fundamental period, Ta , in seconds, for masonry or concrete shear wall structures not exceeding 120 ft (36.6 m) in height is permitted to be determined from Equation (12.8-10)",
       "parameters": {
-        "wall": {
-          "description": "Vertical projected area of an individual wall element",
-          "source": "ASCE7-22-6.3-T4"
+        "Ta": {
+          "description": "Approximate fundamental period of the building as determined in Section 12.8.2",
+          "source": "ASCE7-22-11.3-T106"
         },
         "m": {
           "description": "Component demand modi fi cation factor accounting for expected ductility, applied to the expected strength of a ductility-governed element action, to obtain the acceptable structural component capacity at a particular performance level when using a linear static analysis procedure",
           "source": "ASCE7-22-6.3-T60"
-        },
-        "Ta": {
-          "description": "Approximate fundamental period of the building as determined in Section 12.8.2",
-          "source": "ASCE7-22-11.3-T106"
         }
       }
     },
@@ -9956,8 +9445,8 @@
       "expression": "A = \u03b4 max 2 (12.8-15)",
       "parameters": {
         "A": {
-          "description": "Effective wind area, ft 2 (m 2 )",
-          "source": "ASCE7-22-26.3-T2"
+          "description": "Effective wind area of element, ft 2 (m 2 )",
+          "source": "ASCE7-22-29.4.5.2-T4"
         }
       }
     },
@@ -10738,12 +10227,7 @@
     "description": "",
     "data": {
       "expression": "12.8.6.3 Design Earthquake Displacement The Design Earthquake Displacement, \u03b4 DE , shall be determined at the location of an element or component using Equation (12.8-16)",
-      "parameters": {
-        "DE": {
-          "description": "Design earthquake displacement as determined in Section 12.8.6",
-          "source": "ASCE7-22-11.3-T151"
-        }
-      }
+      "parameters": {}
     },
     "cross_references": [],
     "metadata": {
@@ -10767,12 +10251,7 @@
     "description": "",
     "data": {
       "expression": "12.8.6.4 Maximum Considered Earthquake Displacement The Maximum Considered Earthquake Displacement, \u03b4 MCE , shall be determined at the location under consideration using Equation (12.8-17)",
-      "parameters": {
-        "MCE": {
-          "description": "Maximum Considered Earthquake Displacement as determined in Section 12.8.6",
-          "source": "ASCE7-22-11.3-T153"
-        }
-      }
+      "parameters": {}
     },
     "cross_references": [],
     "metadata": {
@@ -11440,31 +10919,6 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-12.8-F12-8-21",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 12,
-      "section": "12.8",
-      "citation": "Figure 12.8-2",
-      "page": 17
-    },
-    "title": "Figure 12.8-2. Story drift determination.",
-    "description": "Figure 12.8-2. Story drift determination.",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 12.8-2. Story drift determination.",
-      "source_pdf_page": 17
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-12.8-E12-8-191",
     "type": "formula",
     "source": {
@@ -11478,7 +10932,12 @@
     "description": "",
     "data": {
       "expression": "The value of \u03b8 max determined from Equation (12.8-19)",
-      "parameters": {}
+      "parameters": {
+        "\u03b8": {
+          "description": "Stability coef fi cient for P-delta effects as determined in Section 12.8.7",
+          "source": "ASCE7-22-11.3-T161"
+        }
+      }
     },
     "cross_references": [],
     "metadata": {
@@ -11502,7 +10961,12 @@
     "description": "",
     "data": {
       "expression": "however, the value of \u03b8 computed from Equation (12.8-18)",
-      "parameters": {}
+      "parameters": {
+        "\u03b8": {
+          "description": "Stability coef fi cient for P-delta effects as determined in Section 12.8.7",
+          "source": "ASCE7-22-11.3-T161"
+        }
+      }
     },
     "cross_references": [],
     "metadata": {
@@ -12193,8 +11657,8 @@
           "source": "ASCE7-22-11.3-T118"
         },
         "Cs": {
-          "description": "Seismic response coef fi cient determined in Section 12.8.1.1 or 19.3.1 (dimensionless)",
-          "source": "ASCE7-22-11.3-T19"
+          "description": "Seismic response coef fi cient determined in accordance with Section 12.8.1.1, assuming a fi xed structural base at the foundation -soil interface;",
+          "source": "ASCE7-22-19.2.1-T7"
         }
       }
     },
@@ -12222,16 +11686,16 @@
       "expression": "V IX = R EX e (12.9-1)",
       "parameters": {
         "R": {
-          "description": "Response modi fi cation coef fi cient as given in Tables 12.2-1, 12.14-1, 15.4-1, and 15.4-2",
-          "source": "ASCE7-22-11.3-T82"
+          "description": "Response modi fi cation factor for the building or nonbuilding structure supporting the component, from Table 12.2-1, 15.4-1, or 15.4-2; and",
+          "source": "ASCE7-22-13.3.1.2-T3"
         },
         "e": {
-          "description": "Elastic displacement computed under design earthquake forces (Section 12.8.6)",
-          "source": "ASCE7-22-11.3-T152"
+          "description": "Actual eccentricity measured in plan between the center of mass of the structure above the isolation interface and the center of rigidity of the isolation system, plus accidental eccentricity [ft (mm)], taken as 5% of the longest plan dimension of the structure perpendicular to the direction of force under consideration;",
+          "source": "ASCE7-22-17.5.3.3-T4"
         },
         "V": {
           "description": "Basic wind speed obtained from Figures 26.5-1A through 26.5-1D, mi/h (m/s); the basic wind speed corresponds to a 3 s gust speed at 33 ft (10 m) above the ground in Exposure Category C",
-          "source": "ASCE7-22-26.3-T95"
+          "source": "ASCE7-22-26.3-T94"
         }
       }
     },
@@ -12259,16 +11723,16 @@
       "expression": "V IY = R EY e (12.9-2)",
       "parameters": {
         "R": {
-          "description": "Response modi fi cation coef fi cient as given in Tables 12.2-1, 12.14-1, 15.4-1, and 15.4-2",
-          "source": "ASCE7-22-11.3-T82"
+          "description": "Response modi fi cation factor for the building or nonbuilding structure supporting the component, from Table 12.2-1, 15.4-1, or 15.4-2; and",
+          "source": "ASCE7-22-13.3.1.2-T3"
         },
         "e": {
-          "description": "Elastic displacement computed under design earthquake forces (Section 12.8.6)",
-          "source": "ASCE7-22-11.3-T152"
+          "description": "Actual eccentricity measured in plan between the center of mass of the structure above the isolation interface and the center of rigidity of the isolation system, plus accidental eccentricity [ft (mm)], taken as 5% of the longest plan dimension of the structure perpendicular to the direction of force under consideration;",
+          "source": "ASCE7-22-17.5.3.3-T4"
         },
         "V": {
           "description": "Basic wind speed obtained from Figures 26.5-1A through 26.5-1D, mi/h (m/s); the basic wind speed corresponds to a 3 s gust speed at 33 ft (10 m) above the ground in Exposure Category C",
-          "source": "ASCE7-22-26.3-T95"
+          "source": "ASCE7-22-26.3-T94"
         }
       }
     },
@@ -12294,7 +11758,12 @@
     "description": "",
     "data": {
       "expression": "\u03b7 = X \u22651.0 (12.9-3)",
-      "parameters": {}
+      "parameters": {
+        "\u03b7": {
+          "description": "Free surface elevation as a function of time, t , used to drive the offshore boundary condition at the 328 ft (100 m) depth contour",
+          "source": "ASCE7-22-6.3-T100"
+        }
+      }
     },
     "cross_references": [],
     "metadata": {
@@ -12318,7 +11787,12 @@
     "description": "",
     "data": {
       "expression": "\u03b7 = Y \u22651.0 (12.9-4)",
-      "parameters": {}
+      "parameters": {
+        "\u03b7": {
+          "description": "Free surface elevation as a function of time, t , used to drive the offshore boundary condition at the 328 ft (100 m) depth contour",
+          "source": "ASCE7-22-6.3-T100"
+        }
+      }
     },
     "cross_references": [],
     "metadata": {
@@ -13613,31 +13087,6 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-12.10-F12-10-21",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 12,
-      "section": "12.10",
-      "citation": "Figure 12.10-2",
-      "page": 20
-    },
-    "title": "Figure 12.10-2. Calculating the design acceleration",
-    "description": "Figure 12.10-2. Calculating the design acceleration",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 12.10-2. Calculating the design acceleration",
-      "source_pdf_page": 20
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-12.10-E12-10-41",
     "type": "formula",
     "source": {
@@ -13680,58 +13129,17 @@
           "description": "Diaphragm design acceleration coef fi cient at the structural height, hn (Section 12.10.3.2.1)",
           "source": "ASCE7-22-11.3-T17"
         },
-        "Cpi": {
-          "description": "Diaphragm design acceleration coef fi cient at 80% of the structural height above the base, hn (Section 12.10.3.2.1)",
-          "source": "ASCE7-22-11.3-T16"
+        "p": {
+          "description": "Design pressure to be used in determination of wind loads for buildings, lb/ft 2 (N/m 2 )",
+          "source": "ASCE7-22-26.3-T78"
         },
         "Cp": {
           "description": "External pressure coef fi cient to be used in determination of wind loads for buildings",
           "source": "ASCE7-22-26.3-T19"
         },
-        "p": {
-          "description": "Design pressure to be used in determination of wind loads for buildings, lb/ft 2 (N/m 2 )",
-          "source": "ASCE7-22-26.3-T78"
-        }
-      }
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "from_text"
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-12.10-E12-10-71",
-    "type": "formula",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 12,
-      "section": "12.10",
-      "citation": "Eq. (12.10-7)",
-      "page": 20
-    },
-    "title": "Equation (12.10-7)",
-    "description": "",
-    "data": {
-      "expression": "12.10.3.2.1 Design Acceleration Coefficients C p 0 , Cpi , and Cpn Design acceleration coef fi cients Cp 0 and Cpn shall be calculated by Equations (12.10-6) and (12.10-7)",
-      "parameters": {
-        "Cpn": {
-          "description": "Diaphragm design acceleration coef fi cient at the structural height, hn (Section 12.10.3.2.1)",
-          "source": "ASCE7-22-11.3-T17"
-        },
         "Cpi": {
           "description": "Diaphragm design acceleration coef fi cient at 80% of the structural height above the base, hn (Section 12.10.3.2.1)",
           "source": "ASCE7-22-11.3-T16"
-        },
-        "Cp": {
-          "description": "External pressure coef fi cient to be used in determination of wind loads for buildings",
-          "source": "ASCE7-22-26.3-T19"
-        },
-        "p": {
-          "description": "Design pressure to be used in determination of wind loads for buildings, lb/ft 2 (N/m 2 )",
-          "source": "ASCE7-22-26.3-T78"
         }
       }
     },
@@ -13758,27 +13166,26 @@
     "data": {
       "expression": "For N \u22652 C s2 = 0.03\u00f0 e N D \u2212 1 1\u00de (12.10-12a)",
       "parameters": {
-        "s": {
-          "description": "Ultimate tensile strength of the bolt, stud, or insert leg wires, psi (MPa). For ASTM A307 bolts or ASTM A108 studs, it is permitted to be assumed to be 60,000 psi (415 MPa)",
-          "source": "ASCE7-22-11.3-P2"
+        "D": {
+          "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the design earthquake ground motions, Section 18.7.3.3 \u03bc",
+          "source": "ASCE7-22-18.1.3-T79"
         },
-        "a": {
-          "description": "Approximate lower bound natural frequency from Section 26.11.2",
-          "unit": "Hz",
-          "source": "ASCE7-22-26.3-T77"
+        "e": {
+          "description": "Actual eccentricity measured in plan between the center of mass of the structure above the isolation interface and the center of rigidity of the isolation system, plus accidental eccentricity [ft (mm)], taken as 5% of the longest plan dimension of the structure perpendicular to the direction of force under consideration;",
+          "source": "ASCE7-22-17.5.3.3-T4"
         },
         "N": {
           "description": "Average fi eld standard penetration resistance for the top 100 ft (30 m) (Sections 20.3.3 and 20.4.2)",
           "source": "ASCE7-22-11.3-T73"
         },
-        "e": {
-          "description": "Elastic displacement computed under design earthquake forces (Section 12.8.6)",
-          "source": "ASCE7-22-11.3-T152"
-        },
-        "D": {
-          "description": "Diameter of a circular structure or member, as de fi ned in Chapter 29",
+        "s": {
+          "description": "Vertical dimension of the solid freestanding wall or solid sign from Figure 29.3-1",
           "unit": "ft",
-          "source": "ASCE7-22-10.3-T3"
+          "source": "ASCE7-22-26.3-T92"
+        },
+        "a": {
+          "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
+          "source": "ASCE7-22-28.3.7-T22"
         }
       }
     },
@@ -13805,13 +13212,13 @@
     "data": {
       "expression": "For N=1 C =0 (12.10-12b)",
       "parameters": {
-        "b": {
-          "description": "Mean hourly wind speed factor in Equation (26.1116), from Table 26.11-1",
-          "source": "ASCE7-22-26.3-T15"
-        },
         "N": {
           "description": "Average fi eld standard penetration resistance for the top 100 ft (30 m) (Sections 20.3.3 and 20.4.2)",
           "source": "ASCE7-22-11.3-T73"
+        },
+        "b": {
+          "description": "Shortest plan dimension of the structure [ft (mm)] measured perpendicular to d ;",
+          "source": "ASCE7-22-17.5.3.3-T5"
         }
       }
     },
@@ -14446,35 +13853,6 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-12.10-E12-10-91",
-    "type": "formula",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 12,
-      "section": "12.10",
-      "citation": "Eq. (12.10-9)",
-      "page": 21
-    },
-    "title": "Equation (12.10-9)",
-    "description": "",
-    "data": {
-      "expression": "Design acceleration coef fi cient, Cpi , shall be the greater of the values given by Equations (12.10-8) and (12.10-9)",
-      "parameters": {
-        "Cpi": {
-          "description": "Diaphragm design acceleration coef fi cient at 80% of the structural height above the base, hn (Section 12.10.3.2.1)",
-          "source": "ASCE7-22-11.3-T16"
-        }
-      }
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "from_text"
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-12.10-E12-10-101",
     "type": "formula",
     "source": {
@@ -14490,8 +13868,8 @@
       "expression": "and Cs 2 shall be the smallest of the values calculated from Equations (12.10-10)",
       "parameters": {
         "Cs": {
-          "description": "Seismic response coef fi cient determined in Section 12.8.1.1 or 19.3.1 (dimensionless)",
-          "source": "ASCE7-22-11.3-T19"
+          "description": "Seismic response coef fi cient determined in accordance with Section 12.8.1.1, assuming a fi xed structural base at the foundation -soil interface;",
+          "source": "ASCE7-22-19.2.1-T7"
         }
       }
     },
@@ -14519,8 +13897,8 @@
       "expression": "and Cs 2 shall be the smallest of the values calculated from Equations (12.10-10), (12.10-11)",
       "parameters": {
         "Cs": {
-          "description": "Seismic response coef fi cient determined in Section 12.8.1.1 or 19.3.1 (dimensionless)",
-          "source": "ASCE7-22-11.3-T19"
+          "description": "Seismic response coef fi cient determined in accordance with Section 12.8.1.1, assuming a fi xed structural base at the foundation -soil interface;",
+          "source": "ASCE7-22-19.2.1-T7"
         }
       }
     },
@@ -14548,8 +13926,8 @@
       "expression": "and Cs 2 shall be the smallest of the values calculated from Equations (12.10-10), (12.10-11), and (12.10-12)",
       "parameters": {
         "Cs": {
-          "description": "Seismic response coef fi cient determined in Section 12.8.1.1 or 19.3.1 (dimensionless)",
-          "source": "ASCE7-22-11.3-T19"
+          "description": "Seismic response coef fi cient determined in accordance with Section 12.8.1.1, assuming a fi xed structural base at the foundation -soil interface;",
+          "source": "ASCE7-22-19.2.1-T7"
         }
       }
     },
@@ -14575,35 +13953,6 @@
     "description": "",
     "data": {
       "expression": "The modal contribution factors \u0393 m 1 and \u0393 m 2 in Equation (12.10-7) shall be calculated from Equations (12.10-13)",
-      "parameters": {
-        "m": {
-          "description": "Component demand modi fi cation factor accounting for expected ductility, applied to the expected strength of a ductility-governed element action, to obtain the acceptable structural component capacity at a particular performance level when using a linear static analysis procedure",
-          "source": "ASCE7-22-6.3-T60"
-        }
-      }
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "from_text"
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-12.10-E12-10-141",
-    "type": "formula",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 12,
-      "section": "12.10",
-      "citation": "Eq. (12.10-14)",
-      "page": 21
-    },
-    "title": "Equation (12.10-14)",
-    "description": "",
-    "data": {
-      "expression": "The modal contribution factors \u0393 m 1 and \u0393 m 2 in Equation (12.10-7) shall be calculated from Equations (12.10-13) and (12.10-14)",
       "parameters": {
         "m": {
           "description": "Component demand modi fi cation factor accounting for expected ductility, applied to the expected strength of a ductility-governed element action, to obtain the acceptable structural component capacity at a particular performance level when using a linear static analysis procedure",
@@ -14658,22 +14007,18 @@
     "data": {
       "expression": "C s\u2212diaph = R DS (12.10-16a)",
       "parameters": {
+        "R": {
+          "description": "Response modi fi cation factor for the building or nonbuilding structure supporting the component, from Table 12.2-1, 15.4-1, or 15.4-2; and",
+          "source": "ASCE7-22-13.3.1.2-T3"
+        },
         "s": {
-          "description": "Ultimate tensile strength of the bolt, stud, or insert leg wires, psi (MPa). For ASTM A307 bolts or ASTM A108 studs, it is permitted to be assumed to be 60,000 psi (415 MPa)",
-          "source": "ASCE7-22-11.3-P2"
+          "description": "Vertical dimension of the solid freestanding wall or solid sign from Figure 29.3-1",
+          "unit": "ft",
+          "source": "ASCE7-22-26.3-T92"
         },
         "a": {
-          "description": "Approximate lower bound natural frequency from Section 26.11.2",
-          "unit": "Hz",
-          "source": "ASCE7-22-26.3-T77"
-        },
-        "R": {
-          "description": "Response modi fi cation coef fi cient as given in Tables 12.2-1, 12.14-1, 15.4-1, and 15.4-2",
-          "source": "ASCE7-22-11.3-T82"
-        },
-        "diaph": {
-          "description": "Span in feet of the horizontal diaphragm or diaphragm segment being considered, measured between vertical elements or collectors that provide support to the diaphragm or diaphragm segment (Section 12.10.4)",
-          "source": "ASCE7-22-11.3-T67"
+          "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
+          "source": "ASCE7-22-28.3.7-T22"
         }
       }
     },
@@ -14700,30 +14045,27 @@
     "data": {
       "expression": "C s\u2212diaph = (cid:1) S D R 1 (cid:3) (12.10-16b)",
       "parameters": {
-        "s": {
-          "description": "Ultimate tensile strength of the bolt, stud, or insert leg wires, psi (MPa). For ASTM A307 bolts or ASTM A108 studs, it is permitted to be assumed to be 60,000 psi (415 MPa)",
-          "source": "ASCE7-22-11.3-P2"
-        },
-        "b": {
-          "description": "Mean hourly wind speed factor in Equation (26.1116), from Table 26.11-1",
-          "source": "ASCE7-22-26.3-T15"
+        "D": {
+          "description": "Effective ductility demand on the seismic forceresisting system in the direction of interest caused by the design earthquake ground motions, Section 18.7.3.3 \u03bc",
+          "source": "ASCE7-22-18.1.3-T79"
         },
         "R": {
-          "description": "Response modi fi cation coef fi cient as given in Tables 12.2-1, 12.14-1, 15.4-1, and 15.4-2",
-          "source": "ASCE7-22-11.3-T82"
-        },
-        "diaph": {
-          "description": "Span in feet of the horizontal diaphragm or diaphragm segment being considered, measured between vertical elements or collectors that provide support to the diaphragm or diaphragm segment (Section 12.10.4)",
-          "source": "ASCE7-22-11.3-T67"
-        },
-        "D": {
-          "description": "Diameter of a circular structure or member, as de fi ned in Chapter 29",
-          "unit": "ft",
-          "source": "ASCE7-22-10.3-T3"
+          "description": "Response modi fi cation factor for the building or nonbuilding structure supporting the component, from Table 12.2-1, 15.4-1, or 15.4-2; and",
+          "source": "ASCE7-22-13.3.1.2-T3"
         },
         "S": {
-          "description": "5 ft). For interior bays regardless of the orientation of the members, the minimum rise ( \u03b2 in inches) for a run of 1 ft to achieve no local minimum is",
-          "source": "ASCE7-22-0.2-T1310"
+          "description": "Center-to-center row spacing for ground-mounted solar panels in Figure 29.4-9",
+          "unit": "ft",
+          "source": "ASCE7-22-26.3-T90"
+        },
+        "s": {
+          "description": "Vertical dimension of the solid freestanding wall or solid sign from Figure 29.3-1",
+          "unit": "ft",
+          "source": "ASCE7-22-26.3-T92"
+        },
+        "b": {
+          "description": "Shortest plan dimension of the structure [ft (mm)] measured perpendicular to d ;",
+          "source": "ASCE7-22-17.5.3.3-T5"
         }
       }
     },
@@ -15384,13 +14726,9 @@
     "data": {
       "expression": "k =1.0\u00fe f (12.11-2)",
       "parameters": {
-        "f": {
-          "description": "Radius of the circular foundation;",
-          "source": "ASCE7-22-19.3.4-T1"
-        },
         "k": {
-          "description": "Effective stiffness of the impacting debris or the lateral stiffness of the impacted structural element",
-          "source": "ASCE7-22-6.3-T54"
+          "description": "Effective stiffness of the impacting debris or the lateral stiffness of the impacted structural element(s) deformed by the impact, whichever is less; and",
+          "source": "ASCE7-22-6.11.1-T4"
         }
       }
     },
@@ -17356,31 +16694,6 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-12.3-F12-3-21",
-    "type": "figure",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 12,
-      "section": "12.3",
-      "citation": "Figure 12.3-2",
-      "page": 25
-    },
-    "title": "Figure 12.3-2. Shear wall and wall pier height-to-length",
-    "description": "Figure 12.3-2. Shear wall and wall pier height-to-length",
-    "data": {
-      "figure_type": "other",
-      "description": "Figure 12.3-2. Shear wall and wall pier height-to-length",
-      "source_pdf_page": 25
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "bold_label"
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-12.13.7.1-P1",
     "type": "provision",
     "source": {
@@ -18378,126 +17691,6 @@
     "parent_id": "ASCE7-22-12.13.9.2-H1"
   },
   {
-    "id": "ASCE7-22-12.3-T12-3-32",
-    "type": "table",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 12,
-      "section": "12.3",
-      "citation": "Table 12.3-3",
-      "page": 27
-    },
-    "title": "potential for the occurrence of permanent horizontal ground displacement, no bearing capacity loss, no lateral resistance loss, and differential settlements of site soils or improved site soils do not",
-    "description": "",
-    "data": {
-      "columns": [
-        {
-          "name": "Risk Category",
-          "unit": null
-        },
-        {
-          "name": "I or II",
-          "unit": null
-        },
-        {
-          "name": "III",
-          "unit": null
-        },
-        {
-          "name": "IV",
-          "unit": null
-        }
-      ],
-      "rows": [
-        {
-          "Risk Category": "Limit, in. (mm)",
-          "I or II": "18 (455)",
-          "III": "12 (305)",
-          "IV": "4 (100)"
-        }
-      ]
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "docling"
-    },
-    "parent_id": null
-  },
-  {
-    "id": "ASCE7-22-12.3-T12-3-33",
-    "type": "table",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 12,
-      "section": "12.3",
-      "citation": "Table 12.3-3",
-      "page": 27
-    },
-    "title": "potential for the occurrence of permanent horizontal ground displacement, no bearing capacity loss, no lateral resistance loss, and differential settlements of site soils or improved site soils do not",
-    "description": "",
-    "data": {
-      "columns": [
-        {
-          "name": "col_0",
-          "unit": null
-        },
-        {
-          "name": "Risk Category",
-          "unit": null
-        },
-        {
-          "name": "col_2",
-          "unit": null
-        },
-        {
-          "name": "col_3",
-          "unit": null
-        }
-      ],
-      "rows": [
-        {
-          "col_0": "Structure Type",
-          "Risk Category": "I or II",
-          "col_2": "III",
-          "col_3": "IV"
-        },
-        {
-          "col_0": "Single-story structures with concrete or masonry wall systems",
-          "Risk Category": "0.0075 L",
-          "col_2": "0.005 L",
-          "col_3": "0.002 L"
-        },
-        {
-          "col_0": "Other single-story structures",
-          "Risk Category": "0.015 L",
-          "col_2": "0.010 L",
-          "col_3": "0.002 L"
-        },
-        {
-          "col_0": "Multistory structures with concrete or masonry wall systems",
-          "Risk Category": "0.005 L",
-          "col_2": "0.003 L",
-          "col_3": "0.002 L"
-        },
-        {
-          "col_0": "Other multistory structures",
-          "Risk Category": "0.010 L",
-          "col_2": "0.006 L",
-          "col_3": "0.002 L"
-        }
-      ]
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "docling"
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-12.13-E12-13-11",
     "type": "formula",
     "source": {
@@ -18513,17 +17706,12 @@
       "expression": "n or wall line shall, in lieu of the force requirements of Section 12.13.8.2, have a design strength in tension and compression at least equal to the design tie force, Ftie , as indicated in Equation (12.13-1)",
       "parameters": {
         "a": {
-          "description": "Approximate lower bound natural frequency from Section 26.11.2",
-          "unit": "Hz",
-          "source": "ASCE7-22-26.3-T77"
-        },
-        "wall": {
-          "description": "Vertical projected area of an individual wall element",
-          "source": "ASCE7-22-6.3-T4"
+          "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
+          "source": "ASCE7-22-28.3.7-T22"
         },
         "n": {
-          "description": "Designation for the level that is uppermost in the main portion of the building",
-          "source": "ASCE7-22-11.3-T76"
+          "description": "Number of shear walls in the building effective in resisting lateral forces in the direction under consideration;",
+          "source": "ASCE7-22-26.11.3-T22"
         }
       }
     },
@@ -19089,14 +18277,13 @@
     "data": {
       "expression": "a\u2264d\u22153 (12.14-1)",
       "parameters": {
-        "d": {
-          "description": "Design ice thickness from Equation (10.4-5), in. (mm)",
-          "source": "ASCE7-22-10.3-T10"
-        },
         "a": {
-          "description": "Approximate lower bound natural frequency from Section 26.11.2",
-          "unit": "Hz",
-          "source": "ASCE7-22-26.3-T77"
+          "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
+          "source": "ASCE7-22-28.3.7-T22"
+        },
+        "d": {
+          "description": "Longest plan dimension of the structure, ft (mm) measured perpendicular to b",
+          "source": "ASCE7-22-17.1.2-T4"
         }
       }
     },
@@ -19123,18 +18310,17 @@
     "data": {
       "expression": "Level n=Level that is uppermost in the main portion of the a\u2264d\u22155 (12.14-2)",
       "parameters": {
+        "n": {
+          "description": "Number of shear walls in the building effective in resisting lateral forces in the direction under consideration;",
+          "source": "ASCE7-22-26.11.3-T22"
+        },
         "d": {
-          "description": "Design ice thickness from Equation (10.4-5), in. (mm)",
-          "source": "ASCE7-22-10.3-T10"
+          "description": "Longest plan dimension of the structure, ft (mm) measured perpendicular to b",
+          "source": "ASCE7-22-17.1.2-T4"
         },
         "a": {
-          "description": "Approximate lower bound natural frequency from Section 26.11.2",
-          "unit": "Hz",
-          "source": "ASCE7-22-26.3-T77"
-        },
-        "n": {
-          "description": "Designation for the level that is uppermost in the main portion of the building",
-          "source": "ASCE7-22-11.3-T76"
+          "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
+          "source": "ASCE7-22-28.3.7-T22"
         }
       }
     },
@@ -21247,88 +20433,6 @@
     "parent_id": null
   },
   {
-    "id": "ASCE7-22-12.14-T12-14-12",
-    "type": "table",
-    "source": {
-      "standard": "ASCE 7-22",
-      "chapter": 12,
-      "section": "12.14",
-      "citation": "Table 12.14-1",
-      "page": 31
-    },
-    "title": "Table 12.14-1 (Continued) .",
-    "description": "",
-    "data": {
-      "columns": [
-        {
-          "name": "Seismic Force-Resisting System",
-          "unit": null
-        },
-        {
-          "name": "ASCE 7 Section Where Detailing Requirements Are Specified",
-          "unit": null
-        },
-        {
-          "name": "Response Modification Coefficient, R a",
-          "unit": null
-        },
-        {
-          "name": "Limitations b Seismic Design Category",
-          "unit": null
-        },
-        {
-          "name": "col_4",
-          "unit": null
-        },
-        {
-          "name": "col_5",
-          "unit": null
-        }
-      ],
-      "rows": [
-        {
-          "Seismic Force-Resisting System": "",
-          "ASCE 7 Section Where Detailing Requirements Are Specified": "",
-          "Response Modification Coefficient, R a": "",
-          "Limitations b Seismic Design Category": "B",
-          "col_4": "C",
-          "col_5": "D, E"
-        },
-        {
-          "Seismic Force-Resisting System": "24. Light-frame walls with shear panels of all other materials",
-          "ASCE 7 Section Where Detailing Requirements Are Specified": "14.1 and 14.5",
-          "Response Modification Coefficient, R a": "2\u00bd",
-          "Limitations b Seismic Design Category": "P",
-          "col_4": "P",
-          "col_5": "NP d"
-        },
-        {
-          "Seismic Force-Resisting System": "25. Steel buckling-restrained braced frames",
-          "ASCE 7 Section Where Detailing Requirements Are Specified": 14.1,
-          "Response Modification Coefficient, R a": 8,
-          "Limitations b Seismic Design Category": "P",
-          "col_4": "P",
-          "col_5": "P"
-        },
-        {
-          "Seismic Force-Resisting System": "26. Steel special plate shear walls",
-          "ASCE 7 Section Where Detailing Requirements Are Specified": 14.1,
-          "Response Modification Coefficient, R a": 7,
-          "Limitations b Seismic Design Category": "P",
-          "col_4": "P",
-          "col_5": "P"
-        }
-      ]
-    },
-    "cross_references": [],
-    "metadata": {
-      "extracted_by": "auto",
-      "qc_status": "pending",
-      "qc_notes": "docling"
-    },
-    "parent_id": null
-  },
-  {
     "id": "ASCE7-22-12.14-E12-14-31",
     "type": "formula",
     "source": {
@@ -21344,8 +20448,8 @@
       "expression": "12.14.3.1 Seismic Load Effect The seismic load effect, E , includes effects of both horizontal and vertical ground motions as shown in Eq. (12.14-3)",
       "parameters": {
         "E": {
-          "description": "Array edge factor for use with rooftop solar panels in Figure 29.4-7 and Equations (29.4-4) and (29.4-5)",
-          "source": "ASCE7-22-26.3-T112"
+          "description": "f \u00f0 Ev ; Eh \u00de , defi ned in Sections 12.4.2 or 12.14.3.1, is combined with the effects of other loads, the following seismic load combinations shall be used:",
+          "source": "ASCE7-22-2.3.6-H2"
         }
       }
     },
@@ -21421,8 +20525,8 @@
       "expression": "12.14.3.1.2 Vertical Seismic Load Effect The vertical seismic load effect, Ev , shall be determined in accordance with Equation (12.14-6)",
       "parameters": {
         "Ev": {
-          "description": "0.3 SavD ",
-          "source": "ASCE7-22-0.2-T2093"
+          "description": "The vertical seismic load effect as de fi ned in Section 12.14.3.1.2",
+          "source": "ASCE7-22-12.14.3.2-T4"
         }
       }
     },
@@ -21497,14 +20601,13 @@
     "data": {
       "expression": "12.14.3.2.1 Horizontal Seismic Load Effect with a 2.5 Overstrength The effect of horizontal seismic forces, including overstrength, Emh , shall be determined in accordance with Equation (12.14-9)",
       "parameters": {
-        "a": {
-          "description": "Approximate lower bound natural frequency from Section 26.11.2",
-          "unit": "Hz",
-          "source": "ASCE7-22-26.3-T77"
-        },
         "Emh": {
-          "description": "Horizontal Seismic Load Effect, including overstrength factor, de fi ned in Section 12.4.3.1",
-          "source": "ASCE7-22-6.3-T24"
+          "description": "The effect of horizontal seismic forces, including overstrength, as de fi ned in Section 12.14.3.2.1 or 12.14.3.2.2; and",
+          "source": "ASCE7-22-12.14.3.2-T3"
+        },
+        "a": {
+          "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
+          "source": "ASCE7-22-28.3.7-T22"
         }
       }
     },
@@ -21531,18 +20634,13 @@
     "data": {
       "expression": "12.14.7.1 Connections All parts of the structure between k a =1.0\u00fe 10 f 0 (12.14-11)",
       "parameters": {
-        "f": {
-          "description": "Radius of the circular foundation;",
-          "source": "ASCE7-22-19.3.4-T1"
-        },
         "a": {
-          "description": "Approximate lower bound natural frequency from Section 26.11.2",
-          "unit": "Hz",
-          "source": "ASCE7-22-26.3-T77"
+          "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
+          "source": "ASCE7-22-28.3.7-T22"
         },
         "k": {
-          "description": "Effective stiffness of the impacting debris or the lateral stiffness of the impacted structural element",
-          "source": "ASCE7-22-6.3-T54"
+          "description": "Effective stiffness of the impacting debris or the lateral stiffness of the impacted structural element(s) deformed by the impact, whichever is less; and",
+          "source": "ASCE7-22-6.11.1-T4"
         }
       }
     },
@@ -22100,13 +21198,8 @@
       "expression": "The anchorage shall provide a positive direct connection between the wall and fl oor, roof, or supporting member with the strength to resist the out-of-plane force given by Equation (12.14-10)",
       "parameters": {
         "a": {
-          "description": "Approximate lower bound natural frequency from Section 26.11.2",
-          "unit": "Hz",
-          "source": "ASCE7-22-26.3-T77"
-        },
-        "wall": {
-          "description": "Vertical projected area of an individual wall element",
-          "source": "ASCE7-22-6.3-T4"
+          "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
+          "source": "ASCE7-22-28.3.7-T22"
         }
       }
     },
@@ -22134,13 +21227,12 @@
       "expression": "normal to the surface, with a minimum force of 10% of the F = xV (12.14-13)",
       "parameters": {
         "a": {
-          "description": "Approximate lower bound natural frequency from Section 26.11.2",
-          "unit": "Hz",
-          "source": "ASCE7-22-26.3-T77"
+          "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
+          "source": "ASCE7-22-28.3.7-T22"
         },
         "F": {
-          "description": "0.12 \u00d7 slope, with slope expressed in percentage points) and, for an arch or dome, F is the rise-to-span ratio multiplied by 32",
-          "source": "ASCE7-22-4.8.2-T4"
+          "description": "1.0 for buildings that are one story above grade plane, 1.1 for buildings that are two stories above grade plane, and 1.2 for buildings that are three stories above grade plane;",
+          "source": "ASCE7-22-12.14.8.1-T1"
         }
       }
     },
@@ -22169,11 +21261,11 @@
       "parameters": {
         "V": {
           "description": "Basic wind speed obtained from Figures 26.5-1A through 26.5-1D, mi/h (m/s); the basic wind speed corresponds to a 3 s gust speed at 33 ft (10 m) above the ground in Exposure Category C",
-          "source": "ASCE7-22-26.3-T95"
+          "source": "ASCE7-22-26.3-T94"
         },
         "F": {
-          "description": "0.12 \u00d7 slope, with slope expressed in percentage points) and, for an arch or dome, F is the rise-to-span ratio multiplied by 32",
-          "source": "ASCE7-22-4.8.2-T4"
+          "description": "1.0 for buildings that are one story above grade plane, 1.1 for buildings that are two stories above grade plane, and 1.2 for buildings that are three stories above grade plane;",
+          "source": "ASCE7-22-12.14.8.1-T1"
         }
       }
     },
@@ -23025,13 +22117,12 @@
       "expression": "12.14.8.1 Seismic Base Shear The seismic base shear, V , in a given direction shall be determined in accordance with Equation (12.14-12)",
       "parameters": {
         "a": {
-          "description": "Approximate lower bound natural frequency from Section 26.11.2",
-          "unit": "Hz",
-          "source": "ASCE7-22-26.3-T77"
+          "description": "10% of least horizontal dimension or 0.4 h ,whichever is smaller, but not less than either 4% of least horizontal dimension or 3 ft (0.9 m)",
+          "source": "ASCE7-22-28.3.7-T22"
         },
         "V": {
           "description": "Basic wind speed obtained from Figures 26.5-1A through 26.5-1D, mi/h (m/s); the basic wind speed corresponds to a 3 s gust speed at 33 ft (10 m) above the ground in Exposure Category C",
-          "source": "ASCE7-22-26.3-T95"
+          "source": "ASCE7-22-26.3-T94"
         }
       }
     },
