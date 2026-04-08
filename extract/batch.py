@@ -109,9 +109,19 @@ def extract_chapter_pdf(full_pdf_path, start_page, end_page, output_path):
     doc.close()
 
 
-def run_batch(pdf_path, chapters=None, skip_reserved=True):
-    """Run the full batch extraction."""
+def run_batch(pdf_path, standard="ASCE 7-22", chapters=None, skip_reserved=True, output_dir="output/runs"):
+    """Run the full batch extraction.
+
+    Args:
+        pdf_path:       Path to the full book PDF.
+        standard:       Standard name for element IDs, e.g. "ASCE 7-22", "IBC-2021".
+        chapters:       Optional list of chapter numbers to process. None = all.
+        skip_reserved:  Skip chapters titled "RESERVED".
+        output_dir:     Directory for per-chapter JSON output.
+    """
     pdf_path = Path(pdf_path)
+    output_dir = Path(output_dir)
+    output_dir.mkdir(parents=True, exist_ok=True)
     start_time = time.time()
 
     print("=" * 60)
@@ -155,7 +165,7 @@ def run_batch(pdf_path, chapters=None, skip_reserved=True):
 
             # Run pipeline
             from extract.pipeline_v3 import run_v3
-            elements, md = run_v3(ch_pdf, standard="ASCE 7-22", chapter=ch_num)
+            elements, md = run_v3(ch_pdf, standard=standard, chapter=ch_num)
 
             # Fix nulls
             for e in elements:
@@ -165,12 +175,11 @@ def run_batch(pdf_path, chapters=None, skip_reserved=True):
                     e["source"]["citation"] = f"Section {e['source'].get('section', '')}"
 
             # Save
-            output_file = Path(f"output/runs/ch{ch_num}.json")
-            output_file.parent.mkdir(parents=True, exist_ok=True)
+            output_file = output_dir / f"ch{ch_num}.json"
             output_file.write_text(json.dumps(elements, indent=2))
 
             # Save markdown
-            md_file = Path(f"output/runs/ch{ch_num}.md")
+            md_file = output_dir / f"ch{ch_num}.md"
             md_file.write_text(md)
 
             # Stats
@@ -250,7 +259,7 @@ def run_batch(pdf_path, chapters=None, skip_reserved=True):
     from extract.manifest import load_manifest
 
     manifest = load_manifest()
-    all_unresolved = {"standard": "ASCE 7-22", "unresolved": [], "summary": {"total": 0, "pending": 0, "broken": 0}}
+    all_unresolved = {"standard": standard, "unresolved": [], "summary": {"total": 0, "pending": 0, "broken": 0}}
 
     for r in results:
         if r.get("error") or r["elements"] == 0:
@@ -333,7 +342,9 @@ if __name__ == "__main__":
         pdf = str(pdfs[0]) if pdfs else None
 
     if not pdf:
-        print("Usage: python extract/batch.py input/full-asce7-22.pdf")
+        print("Usage: python extract/batch.py input/full-book.pdf [chapters] [standard]")
+        print("  chapters: comma-separated, e.g. 26,27,28")
+        print("  standard: e.g. 'ASCE 7-22' (default)")
         sys.exit(1)
 
     # Optional: specify chapters
@@ -341,4 +352,7 @@ if __name__ == "__main__":
     if len(sys.argv) > 2:
         chapters = [int(x) for x in sys.argv[2].split(",")]
 
-    run_batch(pdf, chapters=chapters)
+    # Optional: specify standard name
+    standard = sys.argv[3] if len(sys.argv) > 3 else "ASCE 7-22"
+
+    run_batch(pdf, standard=standard, chapters=chapters)

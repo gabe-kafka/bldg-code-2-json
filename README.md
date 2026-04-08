@@ -4,13 +4,15 @@ Extract building code PDFs into structured, machine-readable JSON.
 
 **Goal:** An agent answers a building code question using only the extracted data and gets the same answer a licensed engineer would get reading the PDF.
 
+**Input:** Embedded-text PDFs only. The pipeline reads characters and font metadata directly from the PDF's internal text layer — it does not use OCR or vision. Scanned or image-only PDFs will not work. To check: if you can select and copy text in the PDF, it will work. If not, OCR it first (e.g. with `ocrmypdf`) before running this.
+
 ## How It Works
 
 ```
 PDF → Docling (reads PDF structure directly) → deterministic classification → JSON
 ```
 
-No vision models. No OCR. No rendered images. The pipeline reads the PDF's internal text layer — every character with its exact position and font metadata. Docling handles two-column layout, table detection, and figure detection. pdfplumber provides character-level font data for classification (bold = heading, ALL-CAPS + colon = definition).
+The pipeline reads the PDF's internal text layer — every character with its exact position and font metadata. Docling handles two-column layout, table detection, and figure detection. PyMuPDF provides per-character font flags for classification (bold = heading, ALL-CAPS + colon = definition).
 
 ## Quick Start
 

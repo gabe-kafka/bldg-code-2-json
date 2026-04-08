@@ -244,48 +244,91 @@ def classify(pages_dir, port, output):
     start_classify_server(pages_dir, port, output)
 
 
+@cli.command(name="twin")
+@click.option("--input-glob", default="output/runs/ch*.json", help="Glob for extracted chapter JSON files")
+@click.option("--output-dir", default="output/twin", type=click.Path(), help="Output directory for the twin bundle")
+def twin_cmd(input_glob, output_dir):
+    """Build an agent-ready digital twin bundle and review dashboard."""
+    from extract.twin import build_agent_twin
+
+    bundle = build_agent_twin(input_glob=input_glob, output_dir=output_dir)
+    summary = bundle["summary"]
+    artifacts = bundle["artifacts"]
+
+    click.echo(f"Built ASCE 7-22 twin from {summary['chapters']} chapters / {summary['elements']} elements")
+    click.echo(f"Agent readiness: {summary['agent_readiness']:.1f}/100")
+    click.echo(f"Review: {artifacts['review']}")
+    click.echo(f"Brief:  {artifacts['brief']}")
+    click.echo(f"Bundle: {artifacts['bundle']}")
+
+
+@cli.command(name="rehab")
+@click.option("--input-glob", default="output/runs/ch*.json", help="Glob for extracted chapter JSON files")
+@click.option("--output-dir", default="output/rehab", type=click.Path(), help="Output directory for rehab artifacts")
+@click.option("--skip-chapter", "skip_chapters", multiple=True, type=int, default=(26,), help="Chapter number to exclude from rehab")
+def rehab_cmd(input_glob, output_dir, skip_chapters):
+    """Rehab non-26 chapter outputs into a cleaner overnight corpus."""
+    from extract.rehab import run_non26_rehab
+
+    report = run_non26_rehab(
+        input_glob=input_glob,
+        output_dir=output_dir,
+        skip_chapters=set(skip_chapters),
+    )
+    summary = report["summary"]
+    artifacts = report["artifacts"]
+
+    click.echo(f"Rehab processed {summary['chapters_processed']} chapters")
+    click.echo(f"Elements: {summary['input_elements']} -> {summary['output_elements']}")
+    click.echo(f"Rerouted: {summary['relocated_out']} | Quarantined duplicates: {summary['quarantined_duplicates']}")
+    click.echo(f"Review: {artifacts['review_html']}")
+    click.echo(f"Index:  {artifacts['viewer_index']}")
+    click.echo(f"Brief:  {artifacts['brief_md']}")
+
+
 @cli.command(name="extract")
 @click.option("--pdf", required=True, type=click.Path(exists=True), help="Path to source PDF")
 @click.option("--standard", required=True, help='Standard name, e.g. "ASCE 7-22"')
 @click.option("--chapter", required=True, type=int, help="Chapter number")
-@click.option("--output", default=None, type=click.Path(), help="Output JSON path")
-def extract_cmd(pdf, standard, chapter, output):
-    """Extract building code elements using hybrid pipeline (Docling + PyMuPDF)."""
-    from extract.pipeline_v3 import run_v3 as run_hybrid
+@click.option("--output-dir", default="output/runs", type=click.Path(), help="Output directory")
+def extract_cmd(pdf, standard, chapter, output_dir):
+    """Extract building code elements using hybrid pipeline (Docling + PyMuPDF).
+
+    Works on any building code PDF with bold-labeled content blocks.
+    See extract/scrape.py for full documentation on adapting to new codes.
+    """
+    from extract.scrape import scrape
 
     click.echo(f"Extracting {standard} Chapter {chapter}...")
-    elements, markdown = run_hybrid(pdf, standard=standard, chapter=chapter)
+    result = scrape(pdf, standard=standard, chapter=chapter, output_dir=output_dir)
 
-    # Fix null fields for schema compliance
-    for e in elements:
-        if e.get("description") is None:
-            e["description"] = ""
-        src = e.get("source", {})
-        if src.get("citation") is None:
-            src["citation"] = f"Section {src.get('section', '')}"
+    click.echo(f"\n{len(result['elements'])} elements → {result['json_path']}")
+    click.echo(f"Markdown → {result['md_path']}")
+    click.echo(f"Types: {', '.join(f'{t}={c}' for t, c in sorted(result['stats'].items(), key=lambda x: -x[1]))}")
+    click.echo(f"\nValidate: python cli.py validate --file {result['json_path']}")
 
-    if output is None:
-        std_slug = standard.lower().replace(" ", "").replace("-", "")
-        output = f"output/runs/{std_slug}-ch{chapter}-hybrid.json"
 
-    out_path = Path(output)
-    out_path.parent.mkdir(parents=True, exist_ok=True)
-    with open(out_path, "w") as f:
-        json.dump(elements, f, indent=2)
+@cli.command(name="batch")
+@click.option("--pdf", required=True, type=click.Path(exists=True), help="Path to full book PDF")
+@click.option("--standard", required=True, help='Standard name, e.g. "ASCE 7-22"')
+@click.option("--chapters", default=None, help="Comma-separated chapter numbers (default: all)")
+@click.option("--output-dir", default="output/runs", type=click.Path(), help="Output directory")
+def batch_cmd(pdf, standard, chapters, output_dir):
+    """Extract all chapters from a full building code PDF.
 
-    # Save markdown too
-    md_path = out_path.with_suffix(".md")
-    md_path.write_text(markdown)
+    Detects chapter boundaries automatically and runs the pipeline on each.
+    """
+    from extract.scrape import scrape_book
 
-    # Type breakdown
-    types = {}
-    for e in elements:
-        types[e["type"]] = types.get(e["type"], 0) + 1
+    ch_list = [int(x) for x in chapters.split(",")] if chapters else None
+    click.echo(f"Batch extracting {standard}...")
+    report = scrape_book(pdf, standard=standard, output_dir=output_dir, chapters=ch_list)
 
-    click.echo(f"\n{len(elements)} elements → {out_path}")
-    click.echo(f"Markdown → {md_path}")
-    click.echo(f"Types: {', '.join(f'{t}={c}' for t, c in sorted(types.items(), key=lambda x: -x[1]))}")
-    click.echo(f"\nValidate: python cli.py validate --file {out_path}")
+    summary = report.get("summary", {})
+    click.echo(f"\nProcessed {summary.get('chapters_processed', 0)} chapters")
+    click.echo(f"Total elements: {summary.get('total_elements', 0)}")
+    click.echo(f"Passed: {summary.get('passed', 0)}  Failed: {summary.get('failed', 0)}  Errors: {summary.get('errored', 0)}")
+    click.echo(f"\nReport → output/qc/batch-report.json")
 
 
 if __name__ == "__main__":
